@@ -23,16 +23,16 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 68.9
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 3
 apis:
 - baseURL: https://tooloracle.io
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'The provider''s root OpenAPI 3.0.0 contract (version 4.2.0): a discovery index of forty hosted MCP endpoints (POST /<oracle>/mcp/), nineteen x402-priced /v2 REST routes (agent preflight, MiCA stablecoi'
   name: ToolOracle MCP Platform API
   slug: tooloracle-mcp-platform-api
 - baseURL: https://tooloracle.io
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'Account-less pay-per-call REST API (OpenAPI 3.1.0 with schemas and examples on every operation): agent action preflight, MiCA stablecoin compliance, AML/sanctions screening, CVE lookup, UVO claim and '
   name: ToolOracle x402 v2 Compliance, Evidence & Agent-Safety API
   slug: tooloracle-x402-v2-api
@@ -280,7 +280,7 @@ modified: '2026-09-19'
 name: FeedOracle Technologies
 nav: Providers
 network: true
-overview: 'FeedOracle Technologies publishes 3 APIs on the [APIs.io](https://apis.io/) network: ToolOracle MCP Platform API, ToolOracle x402 v2 Compliance, Evidence & Agent-Safety API, and FeedOracle Compliance Evidence API. Tagged areas include Company, MCP, Agent Infrastructure, A2A, and x402.
+overview: 'FeedOracle Technologies publishes 5 APIs on the [APIs.io](https://apis.io/) network, including ToolOracle MCP Platform API, ToolOracle x402 v2 Compliance, Evidence & Agent-Safety API, FeedOracle Compliance Evidence API, and 2 more. Tagged areas include Company, MCP, Agent Infrastructure, A2A, and x402.
 
 
   The FeedOracle Technologies catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -302,22 +302,22 @@ scopes:
   slug: tooloracle-io-scopes
   summary_line: 8 scopes · authorizationCode/clientCredentials/refreshToken
 score:
-  band: strong
-  composite: 65.3
+  band: exemplar
+  composite: 69.1
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 64.0
+    artifact_dirs: 23
+    catalog_earned: 59.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.8
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
-    contract_quality: 59.4
+    contract_quality: 54.3
     developer_ergonomics: 71.4
-    discoverability: 81.5
+    discoverability: 71.7
     operational_transparency: 86.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -337,8 +337,14 @@ score:
       total: 3
     mcp: first-party
     skills: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 55.9
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

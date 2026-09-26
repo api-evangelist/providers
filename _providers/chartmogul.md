@@ -24,7 +24,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: false
-    event_surface_described: true
+    event_surface_described: unknown
     idempotency: false
     mcp_server: verified
     openapi_examples: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.4
-  scored_at: '2026-09-24'
+  score: 46.0
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ modified: '2026-05-30'
 name: ChartMogul
 nav: Providers
 network: true
-overview: 'ChartMogul publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Account API, Customers API, and 4 more. Tagged areas include Subscription Analytics, SaaS Metrics, Revenue Analytics, MRR, and Churn.
+overview: 'ChartMogul publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Account API, Customers API, and 5 more. Tagged areas include Subscription Analytics, SaaS Metrics, Revenue Analytics, MRR, and Churn.
 
 
   ChartMogul''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
@@ -199,9 +199,9 @@ score:
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
-    contract_quality: 60.7
+    contract_quality: 56.2
     developer_ergonomics: 35.7
-    discoverability: 59.3
+    discoverability: 60.0
     operational_transparency: 2.6
   previous_composite: 37.0
   provenance:
@@ -212,8 +212,14 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 22.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ modified: '2026-06-13'
 name: GP Connect
 nav: Providers
 network: true
-overview: 'GP Connect publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Appointment API, Documents API, FHIR API, and 4 more. Tagged areas include NHS, FHIR, Healthcare, GP Records, and Appointments.
+overview: 'GP Connect publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Appointment API, Documents API, FHIR API, and 6 more. Tagged areas include NHS, FHIR, Healthcare, GP Records, and Appointments.
 
 
   The GP Connect catalog on APIs.io includes 1 JSON-LD context.
@@ -234,22 +234,22 @@ rate_limits:
   slug: gp-connect-rate-limits
 score:
   band: developing
-  composite: 47.8
+  composite: 44.6
   coverage:
     artifact_dirs: 11
-    catalog_earned: 72.0
+    catalog_earned: 69.6
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.0
+    catalog_gap: 45.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.2
   facets:
-    access_clarity: 52.6
+    access_clarity: 49.5
     contract_governance: 0.0
-    contract_quality: 53.3
+    contract_quality: 48.3
     developer_ergonomics: 54.8
-    discoverability: 74.1
-    operational_transparency: 36.8
+    discoverability: 71.4
+    operational_transparency: 33.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -271,9 +271,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 28.7
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 18.0
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 10
 apis:
 - baseURL: https://developers.b3.com.br:8065
@@ -263,7 +263,7 @@ modified: '2026-07-22'
 name: B3 (Brasil Bolsa Balcão)
 nav: Providers
 network: true
-overview: 'B3 (Brasil Bolsa Balcão) publishes 8 APIs on the [APIs.io](https://apis.io/) network, including B3 Investor Area (Área do Investidor) APIs, B3 Tesouro Direto APIs, B3 OTC (Balcão) APIs, and 5 more. Tagged areas include Finance, Market Data, Stocks, Trading, and Exchange.
+overview: 'B3 (Brasil Bolsa Balcão) publishes 10 APIs on the [APIs.io](https://apis.io/) network, including B3 Investor Area (Área do Investidor) APIs, B3 Tesouro Direto APIs, B3 OTC (Balcão) APIs, and 7 more. Tagged areas include Finance, Market Data, Stocks, Trading, and Exchange.
 
 
   B3 (Brasil Bolsa Balcão)''s developer surface includes developer portal, documentation, support, authentication, sandbox, changelog, API reference, and 21 more developer resources.'
@@ -274,8 +274,8 @@ scopes:
   slug: b3-exchange-scopes
   summary_line: 2 scopes · clientCredentials/password
 score:
-  band: developing
-  composite: 42.0
+  band: thin
+  composite: 38.7
   coverage:
     artifact_dirs: 20
     catalog_earned: 35.0
@@ -283,13 +283,13 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.3
   facets:
     access_clarity: 27.6
     contract_governance: 18.2
-    contract_quality: 26.7
+    contract_quality: 24.0
     developer_ergonomics: 63.7
-    discoverability: 64.8
+    discoverability: 62.5
     operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -308,9 +308,9 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 68.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 38.0
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

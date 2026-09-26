@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-09-24'
+  score: 26.8
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -353,9 +353,9 @@ score:
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
-    contract_quality: 54.4
+    contract_quality: 49.0
     developer_ergonomics: 51.8
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -375,8 +375,14 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Employment & Payroll
+    regime_id: employment_payroll
+    score: 29.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

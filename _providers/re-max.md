@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: platform
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 9.7
-  scored_at: '2026-09-24'
+  score: 8.5
+  scored_at: '2026-09-25'
 api_count: 3
 apis:
 - baseURL: https://api.datahub.remax.eu/external
@@ -181,14 +181,14 @@ modified: '2026-07-26'
 name: RE/MAX
 nav: Providers
 network: true
-overview: 'RE/MAX publishes 2 APIs on the [APIs.io](https://apis.io/) network: Europe Datahub API and Europe Listings API. Tagged areas include Real Estate, United States, Brokerage, Property Listings, and MLS.
+overview: 'RE/MAX publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Europe Datahub API, Europe Listings API, and 1 more. Tagged areas include Real Estate, United States, Brokerage, Property Listings, and MLS.
 
 
   RE/MAX''s developer surface includes authentication, sandbox, engineering blog, documentation, and 21 more developer resources.'
 random_paper: 14
 score:
   band: emerging
-  composite: 18.7
+  composite: 18.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 40.0
@@ -196,13 +196,13 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 47.0
-    discoverability: 81.5
+    discoverability: 80.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -214,16 +214,16 @@ score:
   previous_composite: 18.7
   provenance:
     conformance: first-party
-    mcp: first-party
+    mcp: site-plugin
     skills: derived
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 28.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 15.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

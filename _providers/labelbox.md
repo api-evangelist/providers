@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - description: GraphQL API for programmatic access to Labelbox platform resources including datasets, projects, labels, ontologies, and model evaluation workflows. Labelbox recommends using the Python SDK as a wrapp
@@ -183,28 +183,34 @@ rate_limits:
   slug: labelbox-rate-limits
 score:
   band: developing
-  composite: 41.4
+  composite: 40.8
   coverage:
     artifact_dirs: 9
-    catalog_earned: 64.0
+    catalog_earned: 62.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    catalog_gap: 52.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
-    access_clarity: 36.8
+    access_clarity: 34.7
     contract_governance: 0.0
-    contract_quality: 45.7
+    contract_quality: 43.6
     developer_ergonomics: 11.9
-    discoverability: 68.5
-    operational_transparency: 65.8
+    discoverability: 66.1
+    operational_transparency: 63.7
   open_source:
     applies: true
     score: 85.0
   previous_composite: 41.4
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 20.0
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -330,7 +330,7 @@ modified: '2026-09-18'
 name: Modal
 nav: Providers
 network: true
-overview: 'Modal publishes 1 API on the [APIs.io](https://apis.io/) network: Web Endpoints (Representative) API. Tagged areas include Serverless, Compute, GPU, AI Infrastructure, and Sandbox.
+overview: 'Modal publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Web Endpoints (Representative) API, and 21 more. Tagged areas include Serverless, Compute, GPU, AI Infrastructure, and Sandbox.
 
 
   Modal''s developer surface includes documentation, engineering blog, CLI, authentication, changelog, API reference, getting-started guide, and 36 more developer resources.'
@@ -345,23 +345,23 @@ rate_limits:
   slug: modal-labs-rate-limits
 score:
   band: strong
-  composite: 64.8
+  composite: 64.5
   coverage:
     artifact_dirs: 24
-    catalog_earned: 59.0
+    catalog_earned: 56.6
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.0
+    catalog_gap: 58.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.8
+  delta: -0.3
   facets:
-    access_clarity: 92.1
+    access_clarity: 88.9
     contract_governance: 18.2
-    contract_quality: 48.3
+    contract_quality: 43.5
     developer_ergonomics: 81.0
-    discoverability: 66.7
-    operational_transparency: 76.3
-  previous_composite: 64.0
+    discoverability: 64.3
+    operational_transparency: 73.2
+  previous_composite: 64.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -372,8 +372,14 @@ score:
       total: 1
     mcp: derived
     skills: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 30.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

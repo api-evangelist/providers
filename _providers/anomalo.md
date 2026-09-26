@@ -23,7 +23,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.2
-  scored_at: '2026-09-24'
+  score: 21.0
+  scored_at: '2026-09-25'
 api_count: 19
 apis:
 - description: Official Anomalo MCP (Model Context Protocol) server, published by Anomalo as a Google Gemini CLI extension under the Apache-2.0 license. Runs locally over stdio against a customer's own Anomalo insta
@@ -286,7 +286,7 @@ modified: '2026-07-31'
 name: Anomalo
 nav: Providers
 network: true
-overview: 'Anomalo publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Access Groups API, API Keys API, Check Runs API, and 15 more. Tagged areas include Data Quality, Data Observability, Data Monitoring, Anomaly Detection, and Data Governance.
+overview: 'Anomalo publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Access Groups API, API Keys API, Check Runs API, and 16 more. Tagged areas include Data Quality, Data Observability, Data Monitoring, Anomaly Detection, and Data Governance.
 
 
   Anomalo''s developer surface includes documentation, support, engineering blog, signup flow, CLI, authentication, changelog, and 22 more developer resources.'
@@ -298,7 +298,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 32.7
+  composite: 35.5
   coverage:
     artifact_dirs: 21
     catalog_earned: 40.0
@@ -306,13 +306,13 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.8
   facets:
     access_clarity: 42.1
     contract_governance: 4.5
     contract_quality: 15.4
     developer_ergonomics: 44.6
-    discoverability: 81.5
+    discoverability: 78.6
     operational_transparency: 18.4
   previous_composite: 32.7
   provenance:
@@ -324,8 +324,14 @@ score:
       total: 20
     mcp: first-party
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 36.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

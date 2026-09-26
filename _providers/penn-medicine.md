@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -282,7 +282,7 @@ modified: '2026-05-23'
 name: Penn Medicine
 nav: Providers
 network: true
-overview: 'Penn Medicine publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Bulk Data API, Patient Access API, Provider Directory API, and 1 more. Tagged areas include Healthcare, Hospitals, Academic Medical Center, FHIR, and SMART on FHIR.
+overview: 'Penn Medicine publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Bulk Data API, Patient Access API, Provider Directory API, and 4 more. Tagged areas include Healthcare, Hospitals, Academic Medical Center, FHIR, and SMART on FHIR.
 
 
   The Penn Medicine catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -326,23 +326,23 @@ scopes:
   slug: penn-medicine-scopes
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 55.7
+  band: developing
+  composite: 50.7
   coverage:
     artifact_dirs: 18
-    catalog_earned: 100.0
+    catalog_earned: 94.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 15.0
+    catalog_gap: 20.7
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.0
   facets:
-    access_clarity: 39.5
-    contract_governance: 69.7
-    contract_quality: 68.0
+    access_clarity: 36.3
+    contract_governance: 62.7
+    contract_quality: 62.0
     developer_ergonomics: 35.7
-    discoverability: 59.3
-    operational_transparency: 44.7
+    discoverability: 57.1
+    operational_transparency: 41.6
   previous_composite: 55.7
   provenance:
     agentic_access: derived
@@ -356,10 +356,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 42.5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: flat
+    score: 26.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

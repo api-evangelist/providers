@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 14
 apis:
 - description: 'PennyLane is the flagship open-source Python framework for quantum differentiable programming — train and optimize variational quantum circuits with the same automatic differentiation engines used in '
@@ -264,7 +264,7 @@ overview: 'Xanadu publishes 14 APIs on the [APIs.io](https://apis.io/) network. 
 random_paper: 8
 score:
   band: thin
-  composite: 31.2
+  composite: 30.7
   coverage:
     artifact_dirs: 4
     catalog_earned: 35.0
@@ -272,20 +272,26 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
-    contract_quality: 6.7
+    contract_quality: 6.5
     developer_ergonomics: 61.9
-    discoverability: 64.8
+    discoverability: 62.5
     operational_transparency: 21.1
   open_source:
     applies: true
     score: 65.0
   previous_composite: 31.2
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 13.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

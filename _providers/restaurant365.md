@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -321,22 +321,22 @@ rules:
   slug: restaurant365-rules
 score:
   band: developing
-  composite: 47.8
+  composite: 44.9
   coverage:
     artifact_dirs: 18
-    catalog_earned: 94.5
+    catalog_earned: 90.6
     catalog_earned_first_party: 0.0
-    catalog_gap: 20.5
+    catalog_gap: 24.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.9
   facets:
-    access_clarity: 50.0
-    contract_governance: 28.8
-    contract_quality: 73.0
+    access_clarity: 46.8
+    contract_governance: 27.3
+    contract_quality: 66.7
     developer_ergonomics: 23.8
-    discoverability: 75.9
-    operational_transparency: 34.2
+    discoverability: 73.2
+    operational_transparency: 31.1
   previous_composite: 47.8
   provenance:
     agentic_access: derived
@@ -345,8 +345,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 16.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

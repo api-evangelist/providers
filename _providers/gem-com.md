@@ -26,14 +26,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 11.2
-  scored_at: '2026-09-24'
+  score: 14.7
+  scored_at: '2026-09-25'
 api_count: 11
 apis:
 - description: Gem's public REST API (v0) for customer and partner integrations against the Gem recruiting platform. Reference documentation is published at api.gem.com/v0/reference; access is provisioned for Gem cu
@@ -137,27 +137,33 @@ rate_limits:
   slug: gem-com-rate-limits
 score:
   band: emerging
-  composite: 19.4
+  composite: 18.3
   coverage:
     artifact_dirs: 7
-    catalog_earned: 59.0
+    catalog_earned: 57.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.0
+    catalog_gap: 57.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 36.8
+    access_clarity: 34.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
-    discoverability: 74.1
-    operational_transparency: 21.1
+    discoverability: 73.3
+    operational_transparency: 18.9
   previous_composite: 19.4
   provenance:
     mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: weak_tags
+    regime: Employment & Payroll
+    regime_id: employment_payroll
+    score: 16.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 11
 apis:
 - baseURL: https://platform.modulate.ai
@@ -320,9 +320,9 @@ score:
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 65.2
+    contract_quality: 59.5
     developer_ergonomics: 66.1
-    discoverability: 81.5
+    discoverability: 78.6
     operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -339,8 +339,18 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 27.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

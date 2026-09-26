@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -45,22 +45,22 @@ agentic_access:
 api_count: 4
 apis:
 - baseURL: https://cataas.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: Administrative operations on the cat catalog (admin token required)
   name: Cataas Admin API
   slug: cataas-admin-api
 - baseURL: https://cataas.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: Browse cats, tags, and stats programmatically (JSON)
   name: Cataas Catalog API
   slug: cataas-catalog-api
 - baseURL: https://cataas.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: Random and tagged cat image retrieval
   name: Cataas Cats API
   slug: cataas-cats-api
 - baseURL: https://cataas.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: Submit a cat image (rate-limited / moderated)
   name: Cataas Upload API
   slug: cataas-upload-api
@@ -259,22 +259,22 @@ rules:
     warn: 24
   slug: cataas-spectral-rules
 score:
-  band: thin
-  composite: 26.2
+  band: emerging
+  composite: 24.8
   coverage:
     artifact_dirs: 13
-    catalog_earned: 67.5
+    catalog_earned: 61.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.5
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 0.0
-    contract_governance: 28.8
-    contract_quality: 29.2
+    contract_governance: 27.3
+    contract_quality: 28.5
     developer_ergonomics: 38.1
-    discoverability: 81.5
+    discoverability: 69.6
     operational_transparency: 2.6
   previous_composite: 26.2
   provenance:
@@ -284,8 +284,14 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 16.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

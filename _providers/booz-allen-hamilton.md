@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: The HTTP and A2A surface of Booz Allen's Agent Foundry agent baseline, an Apache-2.0 composition root that teams fork and deploy in their own environment. It serves three REST groups — /api/v1/query (
@@ -221,7 +221,7 @@ modified: '2026-09-14'
 name: Booz Allen Hamilton
 nav: Providers
 network: true
-overview: 'Booz Allen Hamilton publishes 1 API on the [APIs.io](https://apis.io/) network: Agile API. Tagged areas include Artificial Intelligence, Consulting, Cybersecurity, Defense, and Federal Government.
+overview: 'Booz Allen Hamilton publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Agile API, and 1 more. Tagged areas include Artificial Intelligence, Consulting, Cybersecurity, Defense, and Federal Government.
 
 
   Booz Allen Hamilton''s developer surface includes GitHub presence, engineering blog, changelog, and 28 more developer resources.'
@@ -251,8 +251,8 @@ rate_limits:
   name: Booz Allen Hamilton Rate Limits
   slug: booz-allen-hamilton-rate-limits
 score:
-  band: developing
-  composite: 42.6
+  band: thin
+  composite: 38.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -260,13 +260,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.2
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 38.1
+    contract_quality: 34.3
     developer_ergonomics: 45.2
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -288,9 +288,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 55.6
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 27.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

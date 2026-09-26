@@ -11,7 +11,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 7.9
-  scored_at: '2026-09-24'
+  score: 5.8
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: 'The OpenDBM REST API is a self-hosted FastAPI service published inside AiCure''s open-source OpenDBM repository (rest_api/). It exposes the OpenDBM digital-biomarker pipeline over HTTP: an OAuth2 passw'
@@ -181,7 +181,7 @@ rate_limits:
   slug: aicure-rate-limits
 score:
   band: thin
-  composite: 37.2
+  composite: 35.6
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -189,13 +189,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 68.5
+    discoverability: 66.1
     operational_transparency: 18.4
   previous_composite: 37.2
   provenance:
@@ -212,9 +212,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 37.5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 22.1
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.2
-  scored_at: '2026-09-24'
+  score: 22.9
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -282,7 +282,7 @@ modified: '2026-05-19'
 name: Azure Traffic Manager
 nav: Providers
 network: true
-overview: 'Azure Traffic Manager publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Endpoints API, GeographicHierarchies API, HeatMap API, and 2 more. Tagged areas include DNS Load Balancing, Failover, Global Routing, Networking, and Traffic Distribution.
+overview: 'Azure Traffic Manager publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Endpoints API, GeographicHierarchies API, HeatMap API, and 6 more. Tagged areas include DNS Load Balancing, Failover, Global Routing, Networking, and Traffic Distribution.
 
 
   Azure Traffic Manager''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 28 more developer resources.'
@@ -302,7 +302,7 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 56.0
+  composite: 56.5
   coverage:
     artifact_dirs: 14
     catalog_earned: 55.0
@@ -310,13 +310,13 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 84.2
     contract_governance: 0.0
-    contract_quality: 48.0
+    contract_quality: 43.2
     developer_ergonomics: 63.1
-    discoverability: 75.9
+    discoverability: 71.7
     operational_transparency: 42.1
   previous_composite: 56.0
   provenance:
@@ -326,8 +326,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 29.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

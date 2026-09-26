@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 148
   human_in_the_loop: 0
@@ -263,7 +263,7 @@ modified: '2026-09-01'
 name: University of Geneva
 nav: Providers
 network: true
-overview: 'University of Geneva publishes 3 APIs on the [APIs.io](https://apis.io/) network: Yareta Access API, Yareta Ingest API, and Yareta OAI-PMH Provider API. Tagged areas include Education, Higher Education, University, Public Research University, and Open Science.
+overview: 'University of Geneva publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Yareta Access API, Yareta Ingest API, Yareta OAI-PMH Provider API, and 8 more. Tagged areas include Education, Higher Education, University, Public Research University, and Open Science.
 
 
   The University of Geneva catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -302,22 +302,22 @@ rules:
   slug: university-of-geneva-rules
 score:
   band: thin
-  composite: 34.0
+  composite: 31.9
   coverage:
     artifact_dirs: 20
-    catalog_earned: 77.3
+    catalog_earned: 74.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.8
+    catalog_gap: 40.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -10.0
+  delta: -1.8
   facets:
-    access_clarity: 28.9
-    contract_governance: 25.0
-    contract_quality: 32.4
+    access_clarity: 26.8
+    contract_governance: 23.5
+    contract_quality: 31.8
     developer_ergonomics: 39.3
-    discoverability: 59.3
-    operational_transparency: 26.3
+    discoverability: 57.1
+    operational_transparency: 24.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -326,7 +326,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 44.0
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -340,10 +340,10 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: falling
+    score: 16.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: flat
   upsert:
     applies: true
     score: 0.0

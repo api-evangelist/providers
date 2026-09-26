@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: true
     idempotency: false
     mcp_server: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-09-24'
+  score: 21.4
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - baseURL: https://api.sigma360.com/external/v2
@@ -267,9 +267,9 @@ score:
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
-    contract_quality: 63.4
+    contract_quality: 57.9
     developer_ergonomics: 56.5
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 50.0
   previous_composite: 45.8
   provenance:
@@ -281,8 +281,18 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 26.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

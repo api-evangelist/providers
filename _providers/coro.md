@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: Coro's REST API (v1) for managing workspaces, subscriptions, tickets, devices, protected users, portal users, usage, audit logs, and webhooks across the Coro cybersecurity platform. OAuth 2.0 client-c
@@ -176,7 +176,7 @@ overview: 'Coro publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 17
 score:
   band: developing
-  composite: 42.7
+  composite: 44.1
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -184,20 +184,32 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
-    contract_quality: 41.6
+    contract_quality: 39.0
     developer_ergonomics: 50.0
-    discoverability: 75.9
+    discoverability: 75.0
     operational_transparency: 23.7
   previous_composite: 42.7
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 29.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.7
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: Navattic's hosted, remote Model Context Protocol server — the company's primary machine-readable product surface. Agents authenticate with an OAuth 2.1 authorization-code flow (PKCE, dynamic client re
@@ -269,7 +269,7 @@ modified: 2026-08-13
 name: Navattic
 nav: Providers
 network: true
-overview: 'Navattic publishes 1 API on the [APIs.io](https://apis.io/) network: Health API. Tagged areas include Interactive Demos, Product Demo, Sales Enablement, Marketing, and No-Code.
+overview: 'Navattic publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Health API, and 1 more. Tagged areas include Interactive Demos, Product Demo, Sales Enablement, Marketing, and No-Code.
 
 
   The Navattic catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
@@ -292,7 +292,7 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.1
+  composite: 62.3
   coverage:
     artifact_dirs: 26
     catalog_earned: 60.0
@@ -300,13 +300,13 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.2
   facets:
     access_clarity: 93.4
     contract_governance: 18.2
-    contract_quality: 57.0
+    contract_quality: 52.7
     developer_ergonomics: 47.6
-    discoverability: 75.9
+    discoverability: 75.0
     operational_transparency: 52.6
   previous_composite: 59.1
   provenance:
@@ -318,8 +318,14 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 45.1
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

@@ -14,7 +14,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: unknown
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bound
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.7
-  scored_at: '2026-09-24'
+  score: 42.4
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -628,7 +628,7 @@ modified: '2026-05-25'
 name: CMS — Centers for Medicare & Medicaid Services
 nav: Providers
 network: true
-overview: 'CMS — Centers for Medicare & Medicaid Services publishes 53 APIs on the [APIs.io](https://apis.io/) network, including Articles API, Auth API, Benchmarks API, and 50 more. Tagged areas include Healthcare, Medicare, Medicaid, FHIR, and Bulk Data.
+overview: 'CMS — Centers for Medicare & Medicaid Services publishes 62 APIs on the [APIs.io](https://apis.io/) network, including Articles API, Auth API, Benchmarks API, and 59 more. Tagged areas include Healthcare, Medicare, Medicaid, FHIR, and Bulk Data.
 
 
   The CMS — Centers for Medicare & Medicaid Services catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -669,23 +669,23 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.8
+  composite: 45.3
   coverage:
     artifact_dirs: 19
-    catalog_earned: 56.5
+    catalog_earned: 55.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.5
+    catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.4
+  delta: -4.5
   facets:
     access_clarity: 10.5
     contract_governance: 13.6
-    contract_quality: 61.8
-    developer_ergonomics: 59.5
-    discoverability: 68.5
+    contract_quality: 56.8
+    developer_ergonomics: 58.8
+    discoverability: 66.1
     operational_transparency: 55.3
-  previous_composite: 42.4
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     contracts:
@@ -696,12 +696,12 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Government & Public Sector
-    regime_id: government
-    score: 57.4
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: rising
+    regime: Insurance
+    regime_id: insurance
+    score: 33.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: flat
   upsert:
     applies: true
     score: 0.0
@@ -730,5 +730,12 @@ tags:
 - ACA
 - Marketplace
 - Quality
+- Health Insurance
+- Federal Government
+- Drug Spending
+- Provider Data
+- Quality Measures
+- Claims Data
+- Government Data
 website: https://www.cms.gov/
 ---

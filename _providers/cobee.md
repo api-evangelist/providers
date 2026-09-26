@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -206,9 +206,9 @@ score:
   facets:
     access_clarity: 46.1
     contract_governance: 18.2
-    contract_quality: 52.7
+    contract_quality: 47.4
     developer_ergonomics: 66.1
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -229,8 +229,14 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Employment & Payroll
+    regime_id: employment_payroll
+    score: 29.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

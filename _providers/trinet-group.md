@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 5
 apis:
 - description: The TriNet Company API provides access to company-level HR data including organizational structure, departments, holiday schedules, workers compensation codes, and company configuration. Used by HR ad
@@ -242,11 +242,17 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 17.9
-    discoverability: 74.1
+    discoverability: 72.3
     operational_transparency: 5.3
   previous_composite: 18.5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Employment & Payroll
+    regime_id: employment_payroll
+    score: 19.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false
@@ -267,6 +273,7 @@ tags:
 - Professional Employer Organization
 - Risk Management
 - Fortune 1000
+- Employee Benefits
 use_cases:
 - name: Employee Data Sync
 - name: Payroll Integration

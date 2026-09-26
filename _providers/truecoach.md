@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 0
 artifact_total: 2
 common:
@@ -114,7 +114,7 @@ overview: 'TrueCoach is profiled on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 12
 score:
   band: emerging
-  composite: 19.4
+  composite: 18.4
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -122,13 +122,13 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 38.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 57.4
+    discoverability: 55.4
     operational_transparency: 2.6
   previous_composite: 19.4
   provenance:
@@ -138,9 +138,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 31.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 19.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

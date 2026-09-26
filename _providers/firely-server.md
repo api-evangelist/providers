@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -327,14 +327,14 @@ modified: '2026-09-16'
 name: Firely
 nav: Providers
 network: true
-overview: 'Firely publishes 2 APIs on the [APIs.io](https://apis.io/) network: Catalog API and Simplifier.net FHIR Package API. Tagged areas include FHIR, HL7, Healthcare, Health IT, and Interoperability.
+overview: 'Firely publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Simplifier.net FHIR Package API, and 1 more. Tagged areas include FHIR, HL7, Healthcare, Health IT, and Interoperability.
 
 
   Firely''s developer surface includes developer portal, documentation, tooling, code examples, pricing, signup flow, training material, and 48 more developer resources.'
 random_paper: 17
 score:
   band: thin
-  composite: 27.8
+  composite: 26.8
   coverage:
     artifact_dirs: 7
     catalog_earned: 32.0
@@ -342,13 +342,13 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
-    contract_quality: 53.7
+    contract_quality: 48.6
     developer_ergonomics: 35.7
-    discoverability: 59.3
+    discoverability: 57.1
     operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -369,9 +369,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 7.5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 4.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

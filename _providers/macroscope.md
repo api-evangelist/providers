@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - baseURL: https://hooks.macroscope.com
@@ -163,7 +163,7 @@ overview: 'Macroscope publishes 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 12
 score:
   band: thin
-  composite: 33.8
+  composite: 33.7
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -171,13 +171,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 22.1
     developer_ergonomics: 63.7
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 26.3
   previous_composite: 33.8
   provenance:
@@ -189,8 +189,14 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 16.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

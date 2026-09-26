@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -446,7 +446,7 @@ modified: '2026-08-30'
 name: ACORD
 nav: Providers
 network: true
-overview: 'ACORD publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Claims API, Party API, Policy API, and 1 more. Tagged areas include Claims, Data Standards, Insurance, Policy, and Property Casualty.
+overview: 'ACORD publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Claims API, Party API, Policy API, and 3 more. Tagged areas include Claims, Data Standards, Insurance, Policy, and Property Casualty.
 
 
   The ACORD catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -490,22 +490,22 @@ scopes:
   slug: acord-scopes
   summary_line: 4 scopes · clientCredentials
 score:
-  band: strong
-  composite: 55.3
+  band: developing
+  composite: 51.7
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 76.5
+    artifact_dirs: 27
+    catalog_earned: 75.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 38.5
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.6
   facets:
     access_clarity: 75.0
-    contract_governance: 28.8
-    contract_quality: 28.6
+    contract_governance: 27.3
+    contract_quality: 27.9
     developer_ergonomics: 57.1
-    discoverability: 72.2
+    discoverability: 69.6
     operational_transparency: 39.5
   previous_composite: 55.3
   provenance:
@@ -522,9 +522,9 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 71.2
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 41.2
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

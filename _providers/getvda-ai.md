@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.1
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 6
 apis:
 - baseURL: https://witness.getvda.ai
@@ -240,7 +240,7 @@ modified: '2026-09-19'
 name: Verified Digital Agents (VDA)
 nav: Providers
 network: true
-overview: 'Verified Digital Agents (VDA) publishes 5 APIs on the [APIs.io](https://apis.io/) network, including VDA Witness API, VDA HITL API, VDA ACP API, and 2 more. Tagged areas include Company, AI Agents, AI Governance, Compliance, and Audit Trail.
+overview: 'Verified Digital Agents (VDA) publishes 6 APIs on the [APIs.io](https://apis.io/) network, including VDA Witness API, VDA HITL API, VDA ACP API, and 3 more. Tagged areas include Company, AI Agents, AI Governance, Compliance, and Audit Trail.
 
 
   Verified Digital Agents (VDA)''s developer surface includes documentation, getting-started guide, authentication, sandbox, pricing, and 29 more developer resources.'
@@ -260,21 +260,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 44.4
+  composite: 45.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 42.3
+    contract_quality: 38.1
     developer_ergonomics: 56.5
-    discoverability: 81.5
+    discoverability: 80.0
     operational_transparency: 34.2
   previous_composite: 44.4
   provenance:
@@ -286,8 +286,14 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 30.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

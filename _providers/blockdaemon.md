@@ -22,7 +22,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
-    event_surface_described: true
+    event_surface_described: unknown
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 13.5
-  scored_at: '2026-09-24'
+  score: 13.1
+  scored_at: '2026-09-25'
 api_count: 11
 apis:
 - description: Unified, multi-chain REST data API (formerly Ubiquity) providing fully indexed blockchain data across 50+ networks. Lookup blocks by number or hash, fetch transactions, account balances for one or man
@@ -432,31 +432,31 @@ rules:
   slug: blockdaemon-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.4
+  composite: 44.8
   coverage:
     artifact_dirs: 12
-    catalog_earned: 78.3
+    catalog_earned: 75.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 36.8
+    catalog_gap: 39.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.6
   facets:
-    access_clarity: 68.4
-    contract_governance: 25.0
-    contract_quality: 16.9
+    access_clarity: 65.3
+    contract_governance: 23.5
+    contract_quality: 16.8
     developer_ergonomics: 52.4
-    discoverability: 64.8
-    operational_transparency: 56.6
+    discoverability: 62.5
+    operational_transparency: 53.4
   previous_composite: 47.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 46.9
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 26.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

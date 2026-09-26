@@ -23,7 +23,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-09-24'
+  score: 21.4
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -49,6 +49,7 @@ apis:
   baseurl_source: declared
   description: Single-ticker real-time or delayed pricing snapshot (Snap). Returns the current quote and trade fields - last price, bid/ask, volume, and related market data - for one instrument across QUODD's global
   name: QUODD Snap API
+  provenance: modeled
   slug: quodd-snap-api
 - baseURL: https://api.quodd.com
   baseurl_source: declared
@@ -70,12 +71,15 @@ apis:
   slug: quodd-ticker-search-api
 - description: End-of-day and historical market data across 80-plus global exchanges - US equities and ETFs from 1994, global markets from 2000 - as OHLCV time series or point-in-time snapshots, with adjusted and un
   name: QUODD Historical Prices API
+  provenance: modeled
   slug: quodd-historical-prices-api
 - description: Global reference data and security master (Global Master) - intra-day global equity descriptive data, funds, corporate actions, dividends, and fixed income terms and conditions. Described in QUODD pro
   name: QUODD Reference Data & Security Master API
+  provenance: modeled
   slug: quodd-reference-data-security-master-api
 - description: Company fundamentals, metrics, ratios, and analyst estimates on global securities for fundamental analysis. Described in QUODD product documentation; concrete endpoints are modeled, not published.
   name: QUODD Fundamentals & Estimates API
+  provenance: modeled
   slug: quodd-fundamentals-estimates-api
 - description: gRPC delivery of pricing snapshots (Snap) and ticker information (Ticker Info) for high-performance, low-overhead integrations. Documented on the QUODD Developer Platform alongside the REST API.
   name: QUODD Snap gRPC API
@@ -217,7 +221,7 @@ modified: '2026-07-22'
 name: QUODD
 nav: Providers
 network: true
-overview: 'QUODD publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Snap API, Batch Snaps API, Options Snaps API, and 1 more. Tagged areas include Market Data, Real-Time Data, Financial Data, Streaming, and Historical Data.
+overview: 'QUODD publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Snap API, Batch Snaps API, Options Snaps API, and 7 more. Tagged areas include Market Data, Real-Time Data, Financial Data, Streaming, and Historical Data.
 
 
   QUODD''s developer surface includes authentication, documentation, support, engineering blog, and 19 more developer resources.'
@@ -232,23 +236,23 @@ rate_limits:
   slug: quodd-rate-limits
 score:
   band: developing
-  composite: 46.8
+  composite: 43.1
   coverage:
     artifact_dirs: 23
-    catalog_earned: 60.0
+    catalog_earned: 58.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 13.4
+  delta: -3.7
   facets:
-    access_clarity: 50.0
+    access_clarity: 47.9
     contract_governance: 4.5
-    contract_quality: 53.7
+    contract_quality: 48.4
     developer_ergonomics: 47.0
-    discoverability: 75.9
-    operational_transparency: 31.6
-  previous_composite: 33.4
+    discoverability: 73.2
+    operational_transparency: 28.4
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -264,10 +268,10 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 51.7
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: rising
+    score: 28.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: flat
   upsert:
     applies: true
     score: 0.0

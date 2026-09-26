@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 5
 apis:
 - description: 'Open Archives Initiative Protocol for Metadata Harvesting 2.0 service for Aarhus University''s research record. Verified live on 2026-08-30: the Identify verb returns repositoryName "Aarhus University"'
@@ -44,12 +44,14 @@ apis:
   slug: pure-rest
 - description: kursuskatalog.au.dk is Aarhus University's public course catalogue, built and operated by the university on its own domain and served through AU's own CDN and font hosts. It is a web application only.
   name: Aarhus University Course Catalogue
+  provenance: unpublished
   slug: course-catalogue
 - description: timetable.au.dk is Aarhus University's timetabling service. The host is the university's own, but the product is MyTimetable by Semestry — the served page identifies itself as "Powered by MyTimetable,
   name: Aarhus University Timetable (MyTimetable)
   slug: timetable
 - description: erda.au.dk is Aarhus University's Electronic Research Data Archive, running on the university's own infrastructure with AU and external user sign-in paths and companion hosts at int.erda.au.dk, cert.e
   name: Aarhus University ERDA Research Data Archive
+  provenance: unpublished
   slug: erda
 artifact_total: 10
 common:
@@ -180,22 +182,22 @@ rate_limits:
   slug: aarhus-rate-limits
 score:
   band: thin
-  composite: 29.5
+  composite: 26.5
   coverage:
     artifact_dirs: 8
-    catalog_earned: 54.0
+    catalog_earned: 52.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.0
+    catalog_gap: 62.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
-    access_clarity: 50.0
+    access_clarity: 47.9
     contract_governance: 0.0
     contract_quality: 4.4
     developer_ergonomics: 21.4
-    discoverability: 75.9
-    operational_transparency: 26.3
+    discoverability: 73.2
+    operational_transparency: 24.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -204,7 +206,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 29.5
+  previous_composite: 28.4
   provenance:
     conformance: first-party
   regulatory:
@@ -212,9 +214,9 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 48.1
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 25.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

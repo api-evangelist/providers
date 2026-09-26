@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: Towns Protocol is an open, decentralized messaging protocol built on Base. Builders integrate via first-party TypeScript SDKs, a React SDK of hooks, and a bot/app framework. Under the hood the network
@@ -164,16 +164,22 @@ score:
   facets:
     access_clarity: 7.9
     contract_governance: 4.5
-    contract_quality: 41.6
+    contract_quality: 39.0
     developer_ergonomics: 56.5
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 10.5
   previous_composite: 32.8
   provenance:
     conformance: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 21.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.2
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -156,7 +156,7 @@ modified: '2026-09-19'
 name: WarpPay402 Studio
 nav: Providers
 network: true
-overview: 'WarpPay402 Studio publishes 1 API on the [APIs.io](https://apis.io/) network: WarpPay402 Monetized MCP Tools API. Tagged areas include x402, Micropayments, AI Agents, MCP, and A2A.
+overview: 'WarpPay402 Studio publishes 2 APIs on the [APIs.io](https://apis.io/) network, including WarpPay402 Monetized MCP Tools API, and 1 more. Tagged areas include x402, Micropayments, AI Agents, MCP, and A2A.
 
 
   WarpPay402 Studio''s developer surface includes authentication and 20 more developer resources.'
@@ -173,7 +173,7 @@ score:
   band: developing
   composite: 41.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -183,9 +183,9 @@ score:
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
-    contract_quality: 49.7
+    contract_quality: 44.7
     developer_ergonomics: 45.2
-    discoverability: 75.9
+    discoverability: 75.0
     operational_transparency: 5.3
   previous_composite: 41.7
   provenance:
@@ -198,8 +198,14 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 24.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

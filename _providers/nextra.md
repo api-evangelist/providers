@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 3
 apis:
 - description: Nextra is the core Next.js plugin and library that provides MDX compilation, file-system page mapping, static image handling, search indexing, syntax highlighting, LaTeX support, and i18n utilities. I
@@ -152,25 +152,31 @@ rules:
   slug: nextra-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 23.5
+  composite: 22.4
   coverage:
     artifact_dirs: 9
-    catalog_earned: 61.3
+    catalog_earned: 60.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.8
+    catalog_gap: 54.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
-    contract_quality: 18.7
+    contract_quality: 17.9
     developer_ergonomics: 21.4
-    discoverability: 64.8
+    discoverability: 62.5
     operational_transparency: 28.9
   previous_composite: 23.5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 10.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

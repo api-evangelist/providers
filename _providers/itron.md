@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -279,7 +279,7 @@ modified: '2026-05-23'
 name: Itron
 nav: Providers
 network: true
-overview: 'Itron publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Device Templates API, Devices API, Observations API, and 1 more. Tagged areas include Itron, Utilities, Smart Meter, Smart Grid, and Smart Cities.
+overview: 'Itron publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Device Templates API, Devices API, Observations API, and 8 more. Tagged areas include Itron, Utilities, Smart Meter, Smart Grid, and Smart Cities.
 
 
   The Itron catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -319,22 +319,22 @@ rules:
   slug: starfish-data-platform-rules
 score:
   band: developing
-  composite: 52.0
+  composite: 48.8
   coverage:
     artifact_dirs: 17
-    catalog_earned: 81.5
+    catalog_earned: 78.6
     catalog_earned_first_party: 0.0
-    catalog_gap: 33.5
+    catalog_gap: 36.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.2
   facets:
-    access_clarity: 52.6
-    contract_governance: 28.8
-    contract_quality: 61.2
+    access_clarity: 49.5
+    contract_governance: 27.3
+    contract_quality: 55.9
     developer_ergonomics: 47.6
-    discoverability: 68.5
-    operational_transparency: 50.0
+    discoverability: 67.0
+    operational_transparency: 46.8
   previous_composite: 52.0
   provenance:
     agentic_access: derived
@@ -348,9 +348,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 23.0
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 13.9
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

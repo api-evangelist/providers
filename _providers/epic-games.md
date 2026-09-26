@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -292,7 +292,7 @@ modified: '2026-05-23'
 name: Epic Games
 nav: Providers
 network: true
-overview: 'Epic Games publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Achievements API, Auth API, Connect API, and 6 more. Tagged areas include Achievements, Anti-Cheat, Cross-Platform, EOS, and Epic Online Services.
+overview: 'Epic Games publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Achievements API, Auth API, Connect API, and 20 more. Tagged areas include Achievements, Anti-Cheat, Cross-Platform, EOS, and Epic Online Services.
 
 
   Epic Games'' developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, status page, support, and 19 more developer resources.'
@@ -312,23 +312,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 44.7
+  composite: 45.5
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 56.0
+    artifact_dirs: 13
+    catalog_earned: 54.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.0
+    catalog_gap: 60.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.8
   facets:
-    access_clarity: 50.0
+    access_clarity: 47.9
     contract_governance: 0.0
-    contract_quality: 47.6
+    contract_quality: 42.9
     developer_ergonomics: 64.3
-    discoverability: 75.9
-    operational_transparency: 23.7
-  previous_composite: 46.2
+    discoverability: 73.2
+    operational_transparency: 21.6
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     contracts:
@@ -336,8 +336,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 35.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

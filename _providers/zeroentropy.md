@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,7 +24,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: documented
+    idempotency: derived
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-09-24'
+  score: 28.0
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - baseURL: https://api.zeroentropy.dev/v1
@@ -220,9 +220,9 @@ score:
   facets:
     access_clarity: 36.8
     contract_governance: 4.5
-    contract_quality: 58.8
+    contract_quality: 52.9
     developer_ergonomics: 54.2
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 2.6
   previous_composite: 41.8
   provenance:
@@ -234,8 +234,14 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 27.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

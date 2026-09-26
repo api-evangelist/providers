@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.6
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 6
 apis:
 - description: The core open-source, git-native desktop API client (a lightweight Postman/Insomnia alternative). Compose and send HTTP, REST, GraphQL, and gRPC requests, organize them into collections, manage enviro
@@ -41,21 +41,29 @@ apis:
   slug: bruno-api-client
 - description: Bru is Bruno's plain-text domain-specific markup language. Each request is stored as a .bru file capturing the HTTP method, URL, query params, headers, body, authentication, scripts, tests, assertions
   name: Bru Markup Language (.bru)
+  provenance: unpublished
   slug: bruno-bru-language
 - description: 'OpenCollection is the open, YAML-based collection format Bruno now recommends for new collections as an alternative representation to .bru. Like .bru it stores requests, folders, auth, and scripts as '
   name: OpenCollection Format
+  provenance: unpublished
   slug: bruno-opencollection
 - description: The @usebruno/cli command-line runner (invoked as bru, installed via npm install -g @usebruno/cli) executes individual requests or entire collections headlessly for CI/CD, with JSON, JUnit, and HTML t
   name: Bruno CLI (bru)
   slug: bruno-cli
 - description: Paid Bruno (Pro and Ultimate) adds native in-app Git integration and OpenAPI sync (5 syncs/month on Pro, unlimited on Ultimate) plus SSO, SCIM, audit logs, and license/admin controls. Collaboration ha
   name: Bruno Git Integration and Sync
+  provenance: unpublished
   slug: bruno-git-collaboration
 - description: Bruno is an open-source API client for exploring and testing REST, GraphQL, and gRPC APIs. Collections are stored as plain text Bru files on the filesystem, enabling Git-based version control, team co
   name: Bruno API Client
   slug: api-client
 artifact_total: 13
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bruno-api/refs/heads/main/vendor-facets/bruno-api-vendor-facets.yml
+  title: ''
+  type: VendorFacets
+  url: vendor-facets/bruno-api-vendor-facets.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/bruno-api/refs/heads/main/security/bruno-api-trust-center.yml
   title: ''
@@ -235,7 +243,7 @@ network: true
 overview: 'Bruno publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Client, API Testing, Developer Tools, Open Source, and Git-Native.
 
 
-  Bruno''s developer surface includes documentation, engineering blog, CLI, changelog, release notes, getting-started guide, pricing, and 28 more developer resources.'
+  Bruno''s developer surface includes documentation, engineering blog, CLI, changelog, release notes, getting-started guide, pricing, and 29 more developer resources.'
 plans:
 - name: Bruno Api Plans Pricing
   plan_count: 4
@@ -247,29 +255,35 @@ rate_limits:
   slug: bruno-api-rate-limits
 score:
   band: developing
-  composite: 49.9
+  composite: 51.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 62.0
     catalog_earned_first_party: 24.0
     catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.0
   facets:
     access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 72.2
+    discoverability: 71.7
     operational_transparency: 65.8
   previous_composite: 49.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 29.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false
@@ -299,5 +313,6 @@ tags:
 - CLI
 - Postman Alternative
 - A2A
+- Testing
 website: https://www.usebruno.com/
 ---

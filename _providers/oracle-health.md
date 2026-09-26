@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -567,7 +567,7 @@ modified: '2026-08-21'
 name: Oracle Health (Cerner)
 nav: Providers
 network: true
-overview: 'Oracle Health (Cerner) publishes 50 APIs on the [APIs.io](https://apis.io/) network, including Cerner (Oracle Health) Capability API, Cerner (Oracle Health) Condition API, Cerner (Oracle Health) Definitions API, and 47 more. Tagged areas include Bulk FHIR, CapabilityStatement, CareAware, Cerner Millennium, and Clinical Data.
+overview: 'Oracle Health (Cerner) publishes 54 APIs on the [APIs.io](https://apis.io/) network, including Cerner (Oracle Health) Capability API, Cerner (Oracle Health) Condition API, Cerner (Oracle Health) Definitions API, and 51 more. Tagged areas include Bulk FHIR, CapabilityStatement, CareAware, Cerner Millennium, and Clinical Data.
 
 
   Oracle Health (Cerner)''s developer surface includes authentication, API reference, sandbox, changelog, documentation, getting-started guide, support, and 37 more developer resources.'
@@ -603,7 +603,7 @@ scopes:
   summary_line: 303 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 49.6
+  composite: 45.6
   coverage:
     artifact_dirs: 30
     catalog_earned: 40.0
@@ -611,13 +611,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -4.0
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 20.5
     developer_ergonomics: 70.8
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 21.1
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -633,9 +635,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 82.5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 51.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: flat
   upsert:
     applies: true
     score: 0.0

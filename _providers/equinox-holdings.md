@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 8
 apis:
 - description: 'The flagship luxury fitness club brand. Operates more than 300 clubs across major U.S. cities, plus London, Toronto, and Vancouver. Offers signature group fitness, personal training (EFTI-certified), '
@@ -40,12 +40,14 @@ apis:
   slug: equinox-fitness-clubs
 - description: Boutique indoor rhythm cycling brand acquired by Equinox in 2011. Forty-five-minute candlelit cycling classes set to music, with locations in New York, the Hamptons, Chicago, Los Angeles, and other U.
   name: SoulCycle
+  provenance: unpublished
   slug: soulcycle
 - description: 'Luxury hospitality brand positioned as "The Pioneer of Performance Luxury." Operates properties in New York City (33 Hudson Yards), with additional destinations announced in Amaala (Saudi Arabia) and '
   name: Equinox Hotels
   slug: equinox-hotels
 - description: Equinox-owned boutique yoga studio brand operating premium yoga studios in New York, Hong Kong, Shanghai, Taipei, and Singapore. Offers a wide range of yoga styles, teacher training, and workshops. Co
   name: Pure Yoga
+  provenance: unpublished
   slug: pure-yoga
 - description: Equinox Holdings' value-tier gym brand operating low-cost monthly memberships at locations across the U.S. Northeast and select markets. In 2024 Blink Fitness filed for Chapter 11 bankruptcy and locat
   name: Blink Fitness
@@ -58,6 +60,7 @@ apis:
   slug: e-by-equinox
 - description: Equinox-owned indoor running concept and class format offered both inside Equinox clubs and as on-demand programming on Equinox+. No public API surface.
   name: Precision Run
+  provenance: unpublished
   slug: precision-run
 artifact_total: 9
 common:
@@ -129,21 +132,21 @@ overview: 'Equinox Holdings publishes 8 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 6
 score:
   band: minimal
-  composite: 8.6
+  composite: 7.7
   coverage:
     artifact_dirs: 3
-    catalog_earned: 40.0
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 74.1
+    discoverability: 63.4
     operational_transparency: 0.0
   previous_composite: 8.6
   regulatory:
@@ -151,9 +154,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 12.5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 7.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

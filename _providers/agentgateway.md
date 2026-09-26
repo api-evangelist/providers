@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,8 +21,8 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: true
+    error_semantics: derived
+    event_surface_described: unknown
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.1
-  scored_at: '2026-09-24'
+  score: 26.5
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -417,7 +417,7 @@ modified: '2026-08-30'
 name: AgentGateway
 nav: Providers
 network: true
-overview: 'AgentGateway publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Config API, Debug API, Lifecycle API, and 3 more. Tagged areas include AI Gateway, API Gateway, MCP, LLM, and A2A.
+overview: 'AgentGateway publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Config API, Debug API, Lifecycle API, and 4 more. Tagged areas include AI Gateway, API Gateway, MCP, LLM, and A2A.
 
 
   The AgentGateway catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -445,22 +445,22 @@ rules:
     warn: 3
   slug: agentgateway-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 54.6
+  band: developing
+  composite: 54.2
   coverage:
     artifact_dirs: 32
-    catalog_earned: 65.3
+    catalog_earned: 59.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.8
+    catalog_gap: 55.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 28.9
-    contract_governance: 43.2
-    contract_quality: 56.4
+    contract_governance: 41.7
+    contract_quality: 51.7
     developer_ergonomics: 73.2
-    discoverability: 75.9
+    discoverability: 64.3
     operational_transparency: 44.7
   open_source:
     applies: true
@@ -476,8 +476,14 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 28.2
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

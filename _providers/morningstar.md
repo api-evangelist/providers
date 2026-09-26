@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 56.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -683,7 +683,7 @@ modified: '2026-07-22'
 name: Morningstar
 nav: Providers
 network: true
-overview: 'Morningstar publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Time Series API, Screener APIs, and 13 more. Tagged areas include Finance, Market Data, Investing, Stocks, and Fund.
+overview: 'Morningstar publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Time Series API, Screener APIs, and 17 more. Tagged areas include Finance, Market Data, Investing, Stocks, and Fund.
 
 
   Morningstar''s developer surface includes authentication, developer portal, documentation, support, sandbox, API reference, getting-started guide, and 31 more developer resources.'
@@ -695,7 +695,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.8
+  composite: 44.5
   coverage:
     artifact_dirs: 22
     catalog_earned: 35.0
@@ -703,13 +703,13 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.3
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 56.5
+    contract_quality: 50.9
     developer_ergonomics: 73.8
-    discoverability: 64.8
+    discoverability: 65.0
     operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -721,7 +721,7 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 99.1
       derived: 0
       marker_coverage: 0.0
       total: 116
@@ -732,9 +732,9 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 61.7
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 34.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true
@@ -766,5 +766,6 @@ tags:
 - Research
 - Index
 - Wealth Management
+- Financial Data
 website: https://www.morningstar.com/
 ---

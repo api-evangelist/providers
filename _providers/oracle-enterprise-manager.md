@@ -23,7 +23,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-09-24'
+  score: 25.5
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -943,7 +943,7 @@ modified: '2026-09-16'
 name: Oracle Enterprise Manager
 nav: Providers
 network: true
-overview: 'Oracle Enterprise Manager publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Blackouts API, Events API, Global Target Properties API, and 3 more. Tagged areas include Cloud Management, Database Management, Enterprise Management, Infrastructure Management, and Monitoring.
+overview: 'Oracle Enterprise Manager publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Blackouts API, Events API, Global Target Properties API, and 19 more. Tagged areas include Cloud Management, Database Management, Enterprise Management, Infrastructure Management, and Monitoring.
 
 
   The Oracle Enterprise Manager catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -983,21 +983,21 @@ rules:
   slug: oracle-enterprise-manager-spectral-rules
 score:
   band: developing
-  composite: 52.6
+  composite: 52.1
   coverage:
     artifact_dirs: 30
-    catalog_earned: 67.5
+    catalog_earned: 66.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.5
+    catalog_gap: 48.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
-    contract_quality: 73.0
+    contract_quality: 66.8
     developer_ergonomics: 65.5
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 36.8
   previous_composite: 52.6
   provenance:
@@ -1009,8 +1009,14 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 24.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

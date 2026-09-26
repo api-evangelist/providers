@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -43,12 +43,12 @@ agentic_access:
   summary_line: 136 operations · 46 acting
 api_count: 1
 apis:
-- baseURL: https://world.openfoodfacts.org
+- baseURL: https://world.openfoodfacts.net
   baseurl_source: declared
   description: 'The Open Food Facts read/write HTTP API, version 2 — product lookup by barcode, faceted and full-text search, image upload and product edit. Published by the project as an OpenAPI 3.1 document in the '
   name: Open Food Facts API v2
   slug: open-food-facts-api-v2
-- baseURL: https://world.openfoodfacts.org
+- baseURL: https://world.openfoodfacts.net
   baseurl_source: declared
   description: 'Version 3 of the Open Food Facts HTTP API — the current recommended version, with standardized response envelopes, the v3.3 image structure and taxonomy-suggestion endpoints. Published by the project '
   name: Open Food Facts API v3
@@ -79,27 +79,27 @@ apis:
   name: NutriPatrol API
   slug: open-food-facts-nutripatrol
 - baseURL: https://world.openfoodfacts.org
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Cgi API from Open Food Facts — 1 operation(s) for cgi.
   name: Open Food Facts Cgi API
   slug: open-food-facts-cgi-api
 - baseURL: https://world.openfoodfacts.org
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Product API from Open Food Facts — 3 operation(s) for product.
   name: Open Food Facts Product API
   slug: open-food-facts-product-api
 - baseURL: https://world.openfoodfacts.org
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Search API from Open Food Facts — 1 operation(s) for search.
   name: Open Food Facts Search API
   slug: open-food-facts-search-api
 - baseURL: https://world.openfoodfacts.org
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Taxonomy API from Open Food Facts — 1 operation(s) for taxonomy.
   name: Open Food Facts Taxonomy API
   slug: open-food-facts-taxonomy-api
 - baseURL: https://world.openfoodfacts.org
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Taxonomy Suggestions API from Open Food Facts — 1 operation(s) for taxonomy suggestions.
   name: Open Food Facts Taxonomy Suggestions API
   slug: open-food-facts-taxonomy-suggestions-api
@@ -339,24 +339,24 @@ scopes:
   slug: open-food-facts-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 66.6
+  band: strong
+  composite: 60.2
   coverage:
     artifact_dirs: 27
-    catalog_earned: 57.0
+    catalog_earned: 52.0
     catalog_earned_first_party: 17.0
-    catalog_gap: 58.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.3
+  delta: -6.4
   facets:
     access_clarity: 42.1
     contract_governance: 19.7
-    contract_quality: 50.6
+    contract_quality: 45.7
     developer_ergonomics: 73.2
-    discoverability: 68.5
+    discoverability: 57.1
     operational_transparency: 84.2
-  previous_composite: 63.3
+  previous_composite: 66.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -372,10 +372,10 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 75.9
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: flat
+    score: 40.2
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: falling
   upsert:
     applies: true
     score: 33.3

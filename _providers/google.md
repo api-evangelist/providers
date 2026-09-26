@@ -16,7 +16,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: unknown
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: negotiable
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.2
-  scored_at: '2026-09-24'
+  score: 38.8
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 10
@@ -1009,7 +1009,7 @@ modified: '2026-09-16'
 name: Google
 nav: Providers
 network: true
-overview: 'Google publishes 67 APIs on the [APIs.io](https://apis.io/) network, including About API, Activity API, Address API, and 64 more. Tagged areas include Advertising, Cloud, Developers, Google, and Platform.
+overview: 'Google publishes 112 APIs on the [APIs.io](https://apis.io/) network, including About API, Activity API, Address API, and 109 more. Tagged areas include Advertising, Cloud, Developers, Google, and Platform.
 
 
   Google''s developer surface includes pricing, authentication, engineering blog, developer console, developer portal, getting-started guide, support, and 31 more developer resources.'
@@ -1029,7 +1029,7 @@ scopes:
   summary_line: 18 scopes · authorizationCode/implicit
 score:
   band: strong
-  composite: 54.5
+  composite: 55.8
   coverage:
     artifact_dirs: 15
     catalog_earned: 44.0
@@ -1037,13 +1037,13 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 84.2
     contract_governance: 0.0
-    contract_quality: 58.2
-    developer_ergonomics: 71.4
-    discoverability: 50.0
+    contract_quality: 52.7
+    developer_ergonomics: 70.7
+    discoverability: 48.2
     operational_transparency: 26.3
   previous_composite: 54.5
   provenance:
@@ -1053,8 +1053,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 80
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 35.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

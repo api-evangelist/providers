@@ -23,7 +23,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: true
+    event_surface_described: unknown
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -33,15 +33,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.1
-  scored_at: '2026-09-24'
+  score: 28.7
+  scored_at: '2026-09-25'
 agentic_access:
-- acting_count: 9
+- acting_count: 29
   human_in_the_loop: 0
   name: Microsoft Dynamics 365 Agentic Access
-  operation_count: 15
+  operation_count: 58
   slug: microsoft-dynamics-365-agentic-access
-  summary_line: 15 operations · 9 acting
+  summary_line: 58 operations · 29 acting
 api_count: 1
 apis:
 - description: API for managing financial operations, accounting, budgeting, and enterprise resource planning.
@@ -86,7 +86,87 @@ apis:
   description: Potential revenue-generating event or sale to an account that needs to be tracked through the sales process to completion.
   name: Microsoft Dynamics 365 Opportunities API
   slug: microsoft-dynamics-365-opportunities-api
-artifact_total: 40
+- baseURL_template: https://{organization}.api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: spec_template
+  description: The Activities API from Microsoft Dynamics — 1 operation(s) for activities.
+  name: Microsoft Dynamics 365 Activities API
+  slug: microsoft-dynamics-activities-api
+- baseURL_template: https://{organization}.api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: spec_template
+  description: The Cases API from Microsoft Dynamics — 1 operation(s) for cases.
+  name: Microsoft Dynamics 365 Cases API
+  slug: microsoft-dynamics-cases-api
+- baseURL_template: https://api.businesscentral.dynamics.com/v2.0/{tenantId}/{environment}/api/v2.0
+  baseurl_source: spec_template
+  description: The Companies API from Microsoft Dynamics — 1 operation(s) for companies.
+  name: Microsoft Dynamics 365 Companies API
+  slug: microsoft-dynamics-companies-api
+- baseURL_template: https://api.businesscentral.dynamics.com/v2.0/{tenantId}/{environment}/api/v2.0
+  baseurl_source: spec_template
+  description: The Customers API from Microsoft Dynamics — 3 operation(s) for customers.
+  name: Microsoft Dynamics 365 Customers API
+  slug: microsoft-dynamics-customers-api
+- baseURL_template: https://api.businesscentral.dynamics.com/v2.0/{tenantId}/{environment}/api/v2.0
+  baseurl_source: spec_template
+  description: The Employees API from Microsoft Dynamics — 1 operation(s) for employees.
+  name: Microsoft Dynamics 365 Employees API
+  slug: microsoft-dynamics-employees-api
+- baseURL_template: https://api.businesscentral.dynamics.com/v2.0/{tenantId}/{environment}/api/v2.0
+  baseurl_source: spec_template
+  description: The General Ledger API from Microsoft Dynamics — 2 operation(s) for general ledger.
+  name: Microsoft Dynamics 365 General Ledger API
+  slug: microsoft-dynamics-general-ledger-api
+- baseURL_template: https://{environment}.operations.dynamics.com/data
+  baseurl_source: spec_template
+  description: The Human Resources API from Microsoft Dynamics — 1 operation(s) for human resources.
+  name: Microsoft Dynamics 365 Human Resources API
+  slug: microsoft-dynamics-human-resources-api
+- baseURL_template: https://api.businesscentral.dynamics.com/v2.0/{tenantId}/{environment}/api/v2.0
+  baseurl_source: spec_template
+  description: The Items API from Microsoft Dynamics — 1 operation(s) for items.
+  name: Microsoft Dynamics 365 Items API
+  slug: microsoft-dynamics-items-api
+- baseURL_template: https://api.businesscentral.dynamics.com/v2.0/{tenantId}/{environment}/api/v2.0
+  baseurl_source: spec_template
+  description: The Journals API from Microsoft Dynamics — 1 operation(s) for journals.
+  name: Microsoft Dynamics 365 Journals API
+  slug: microsoft-dynamics-journals-api
+- baseURL_template: https://{organization}.api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: spec_template
+  description: The Leads API from Microsoft Dynamics — 2 operation(s) for leads.
+  name: Microsoft Dynamics 365 Leads API
+  slug: microsoft-dynamics-leads-api
+- baseURL_template: https://{environment}.operations.dynamics.com/data
+  baseurl_source: spec_template
+  description: The Products API from Microsoft Dynamics — 1 operation(s) for products.
+  name: Microsoft Dynamics 365 Products API
+  slug: microsoft-dynamics-products-api
+- baseURL_template: https://api.businesscentral.dynamics.com/v2.0/{tenantId}/{environment}/api/v2.0
+  baseurl_source: spec_template
+  description: The Purchase Invoices API from Microsoft Dynamics — 1 operation(s) for purchase invoices.
+  name: Microsoft Dynamics 365 Purchase Invoices API
+  slug: microsoft-dynamics-purchase-invoices-api
+- baseURL_template: https://api.businesscentral.dynamics.com/v2.0/{tenantId}/{environment}/api/v2.0
+  baseurl_source: spec_template
+  description: The Purchase Orders API from Microsoft Dynamics — 2 operation(s) for purchase orders.
+  name: Microsoft Dynamics 365 Purchase Orders API
+  slug: microsoft-dynamics-purchase-orders-api
+- baseURL_template: https://api.businesscentral.dynamics.com/v2.0/{tenantId}/{environment}/api/v2.0
+  baseurl_source: spec_template
+  description: The Sales Invoices API from Microsoft Dynamics — 1 operation(s) for sales invoices.
+  name: Microsoft Dynamics 365 Sales Invoices API
+  slug: microsoft-dynamics-sales-invoices-api
+- baseURL_template: https://api.businesscentral.dynamics.com/v2.0/{tenantId}/{environment}/api/v2.0
+  baseurl_source: spec_template
+  description: The Sales Orders API from Microsoft Dynamics — 2 operation(s) for sales orders.
+  name: Microsoft Dynamics 365 Sales Orders API
+  slug: microsoft-dynamics-sales-orders-api
+- baseURL_template: https://api.businesscentral.dynamics.com/v2.0/{tenantId}/{environment}/api/v2.0
+  baseurl_source: spec_template
+  description: The Vendors API from Microsoft Dynamics — 2 operation(s) for vendors.
+  name: Microsoft Dynamics 365 Vendors API
+  slug: microsoft-dynamics-vendors-api
+artifact_total: 67
 collections:
 - collection_type: postman
   name: Microsoft Dynamics 365 Dataverse Web Accounts API
@@ -214,6 +294,24 @@ finops:
   slug: microsoft-dynamics-365-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-dynamics-365.png
 json_schemas:
+- name: Account
+  property_count: 19
+  slug: account
+- name: Contact
+  property_count: 18
+  slug: contact
+- name: Customer
+  property_count: 18
+  slug: customer
+- name: Employee
+  property_count: 22
+  slug: employee
+- name: Item
+  property_count: 13
+  slug: item
+- name: Lead
+  property_count: 21
+  slug: lead
 - name: Microsoft Dynamics 365 Account
   property_count: 79
   slug: microsoft-dynamics-365-account
@@ -244,6 +342,18 @@ json_schemas:
 - name: OpportunityUpdate
   property_count: 32
   slug: microsoft-dynamics-365-opportunityupdate
+- name: Opportunity
+  property_count: 16
+  slug: opportunity
+- name: Sales Invoice
+  property_count: 13
+  slug: sales-invoice
+- name: Sales Order
+  property_count: 12
+  slug: sales-order
+- name: Vendor
+  property_count: 16
+  slug: vendor
 json_structures:
 - name: Microsoft Dynamics 365 Structure
   property_count: 0
@@ -253,15 +363,19 @@ jsonld:
   name: Microsoft Dynamics 365 Context
   property_count: 3
   slug: microsoft-dynamics-365-context
+- class_count: 0
+  name: Microsoft Dynamics Context
+  property_count: 10
+  slug: microsoft-dynamics-context
 layout: provider
 modified: '2026-05-19'
 name: Microsoft Dynamics 365
 nav: Providers
 network: true
-overview: 'Microsoft Dynamics 365 publishes 3 APIs on the [APIs.io](https://apis.io/) network: Accounts API, Contacts API, and Opportunities API. Tagged areas include Business Applications, Cloud, CRM, Enterprise, and ERP.
+overview: 'Microsoft Dynamics 365 publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Contacts API, Opportunities API, and 25 more. Tagged areas include Business Applications, Cloud, CRM, Enterprise, and ERP.
 
 
-  The Microsoft Dynamics 365 catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Microsoft Dynamics 365 catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
   Microsoft Dynamics 365''s developer surface includes authentication, developer portal, support, engineering blog, and 18 more developer resources.'
@@ -292,21 +406,21 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 46.2
+  composite: 46.5
   coverage:
     artifact_dirs: 19
-    catalog_earned: 60.3
+    catalog_earned: 58.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.8
+    catalog_gap: 56.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 36.8
     contract_governance: 9.8
-    contract_quality: 66.4
+    contract_quality: 63.4
     developer_ergonomics: 53.6
-    discoverability: 75.9
+    discoverability: 58.9
     operational_transparency: 26.3
   previous_composite: 46.2
   provenance:
@@ -315,9 +429,15 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+      total: 20
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 34.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: Kiota generates strongly-typed, lightweight API clients from OpenAPI descriptions in C#, Dart, Go, Java, PHP, Python, Ruby and TypeScript, with minimal dependencies and idiomatic code patterns, plus a
@@ -42,6 +42,11 @@ apis:
   slug: kiota
 artifact_total: 9
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/vendor-facets/kiota-vendor-facets.yml
+  title: ''
+  type: VendorFacets
+  url: vendor-facets/kiota-vendor-facets.yml
 - group: operate
   title: ''
   type: Releases
@@ -217,7 +222,7 @@ overview: 'Kiota publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
   The Kiota catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Kiota''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 27 more developer resources.'
+  Kiota''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 28 more developer resources.'
 plans:
 - name: Kiota Plans Pricing
   plan_count: 3
@@ -239,29 +244,38 @@ rules:
     warn: 0
   slug: kiota-validation-rules
 score:
-  band: thin
-  composite: 38.1
+  band: developing
+  composite: 46.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 46.0
     catalog_earned_first_party: 5.0
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.2
   facets:
     access_clarity: 36.8
     contract_governance: 33.3
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 66.7
+    discoverability: 64.3
     operational_transparency: 44.7
+  open_source:
+    applies: true
+    score: 100.0
   previous_composite: 38.1
   provenance:
     conformance: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 30.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

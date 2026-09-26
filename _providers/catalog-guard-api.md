@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - baseURL: https://catalogguard.noahcortezj-c.workers.dev
@@ -192,9 +192,9 @@ score:
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
-    contract_quality: 49.0
+    contract_quality: 44.4
     developer_ergonomics: 42.3
-    discoverability: 63.0
+    discoverability: 60.7
     operational_transparency: 21.1
   previous_composite: 35.9
   provenance:
@@ -206,8 +206,14 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 24.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

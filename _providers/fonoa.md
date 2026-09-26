@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -191,7 +191,7 @@ modified: '2026-06-12'
 name: Fonoa
 nav: Providers
 network: true
-overview: 'Fonoa publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Lookup V2 API, Onboarding API, Tax API, and 1 more. Tagged areas include Tax, VAT, GST, E-Invoicing, and Tax Automation.
+overview: 'Fonoa publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Lookup V2 API, Onboarding API, Tax API, and 2 more. Tagged areas include Tax, VAT, GST, E-Invoicing, and Tax Automation.
 
 
   The Fonoa catalog on APIs.io includes 1 JSON-LD context.
@@ -209,22 +209,22 @@ rate_limits:
   slug: fonoa-rate-limits
 score:
   band: developing
-  composite: 44.0
+  composite: 43.3
   coverage:
     artifact_dirs: 12
-    catalog_earned: 71.0
+    catalog_earned: 69.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 44.0
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
-    access_clarity: 36.8
+    access_clarity: 34.7
     contract_governance: 0.0
-    contract_quality: 62.3
+    contract_quality: 56.6
     developer_ergonomics: 23.8
-    discoverability: 74.1
-    operational_transparency: 52.6
+    discoverability: 71.4
+    operational_transparency: 49.5
   previous_composite: 44.0
   provenance:
     agentic_access: derived
@@ -233,8 +233,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 27.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

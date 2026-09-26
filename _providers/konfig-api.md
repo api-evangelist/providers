@@ -33,23 +33,28 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 5
 apis:
 - description: Capability area (endpointsModeled - no documented public REST endpoint). Generates idiomatic client-library SDKs from an OpenAPI Specification or Postman Collection in TypeScript/JavaScript, Python, J
   name: Konfig SDK Generation
+  provenance: unpublished
   slug: konfig-sdk-generation
 - description: Capability area (endpointsModeled). Tests and publishes generated SDKs to package registries (npm, PyPI, Maven Central/Sonatype, and others) via konfig test and konfig publish, and automatically repub
   name: Konfig SDK Publishing and Updates
+  provenance: unpublished
   slug: konfig-sdk-publishing
 - description: Capability area (endpointsModeled). Generates branded, interactive API reference documentation and markdown pages from the same OpenAPI spec, embedding language-specific SDK snippets that stay in sync
   name: Konfig Documentation Portal
+  provenance: unpublished
   slug: konfig-documentation-portal
 - description: Capability area (endpointsModeled). Builds interactive, runnable demos and markdown-based tutorials on top of the generated SDKs so API consumers can onboard and try live calls from the developer port
   name: Konfig Demos and Tutorials
+  provenance: unpublished
   slug: konfig-demos-tutorials
 - description: Capability area (endpointsModeled). A configurable linter that inspects an OpenAPI Specification for errors and quality issues before SDK and docs generation, so client libraries are produced from a c
   name: Konfig OpenAPI Linting
+  provenance: unpublished
   slug: konfig-linting
 artifact_total: 8
 common:
@@ -122,19 +127,19 @@ score:
   composite: 20.4
   coverage:
     artifact_dirs: 6
-    catalog_earned: 62.0
+    catalog_earned: 59.6
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.0
+    catalog_gap: 55.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 36.3
     contract_governance: 0.0
-    contract_quality: 6.7
+    contract_quality: 6.5
     developer_ergonomics: 20.2
-    discoverability: 64.8
-    operational_transparency: 34.2
+    discoverability: 62.5
+    operational_transparency: 31.1
   previous_composite: 20.4
   regulatory:
     applies: true
@@ -142,8 +147,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 0.0
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

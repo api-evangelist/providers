@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.9
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 260
   human_in_the_loop: 10
@@ -1192,6 +1192,11 @@ collections:
   name: Zendesk Account Account Settings X Channel API
   slug: open-zendesk-x-channel-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/vendor-facets/zendesk-vendor-facets.yml
+  title: ''
+  type: VendorFacets
+  url: vendor-facets/zendesk-vendor-facets.yml
 - group: operate
   href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/rate-limits/zendesk-rate-limits.yml
   title: ''
@@ -1428,7 +1433,7 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: https://www.zendesk.com/help-center-closed/?utm_source=helpcenter-closed&utm_medium=poweredbyzendesk&utm_campaign=text&utm_content=developerblog.zendesk.com
+  url: https://www.zendesk.com/help-center-closed/
 - group: other
   title: ''
   type: Marketplace
@@ -1452,7 +1457,7 @@ common:
 - group: learn
   title: ''
   type: Training
-  url: https://training.zendesk.com/?_gl=1*bjm8lh*_gcl_au*NzkzMDYzNTc4LjE3NTQzMzc4ODI.*_ga*ODQ3OTgwMzk0LjE3NTQzMzc4NDA.*_ga_FBP7C61M6Z*czE3NTQzMzc4ODkkbzEkZzEkdDE3NTQzMzgwODckajQ0JGwwJGgw
+  url: https://training.zendesk.com/
 - group: company
   title: ''
   type: Partners
@@ -1705,13 +1710,13 @@ modified: '2026-06-20'
 name: Zendesk
 nav: Providers
 network: true
-overview: 'Zendesk publishes 81 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Account Settings API, Activity Stream API, and 78 more. Tagged areas include Chat, CRM, Help Center, Sell, and Support.
+overview: 'Zendesk publishes 150 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Account Settings API, Activity Stream API, and 147 more. Tagged areas include Chat, CRM, Help Center, Sell, and Support.
 
 
   The Zendesk catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Zendesk''s developer surface includes pricing, authentication, changelog, CLI, engineering blog, signup flow, training material, and 64 more developer resources.'
+  Zendesk''s developer surface includes pricing, authentication, changelog, CLI, engineering blog, signup flow, training material, and 65 more developer resources.'
 plans:
 - name: Zendesk Plans Pricing
   plan_count: 7
@@ -1764,23 +1769,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 69.0
+  composite: 72.2
   coverage:
-    artifact_dirs: 37
+    artifact_dirs: 38
     catalog_earned: 73.5
     catalog_earned_first_party: 24.0
     catalog_gap: 41.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.7
+  delta: 3.2
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 56.9
+    contract_quality: 53.0
     developer_ergonomics: 58.3
-    discoverability: 68.5
+    discoverability: 66.1
     operational_transparency: 78.9
-  previous_composite: 69.7
+  previous_composite: 69.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1790,8 +1795,14 @@ score:
       marker_coverage: 0.0
       total: 80
     mcp: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 45.1
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true
@@ -1824,7 +1835,6 @@ tags:
 - T1
 - Talk
 - Ticketing
-- Tickets
 - Zendesk
 use_cases:
 - description: Manage the full lifecycle of customer support tickets from creation through resolution across all channels.

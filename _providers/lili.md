@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.6
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 3
 apis:
 - description: Remote, OAuth 2.0 protected Model Context Protocol server (Streamable HTTP, MCP spec 2025-03-26) exposing 44 tools that let an AI assistant read a Lili business customer's account summary, transaction
@@ -243,7 +243,7 @@ modified: '2026-09-16'
 name: Lili
 nav: Providers
 network: true
-overview: 'Lili publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Business Banking, Financial Services, Fintech, and Embedded Finance.
+overview: 'Lili publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Business Banking, Financial Services, Fintech, and Embedded Finance.
 
 
   The Lili catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -266,7 +266,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 64.5
+  composite: 60.2
   coverage:
     artifact_dirs: 24
     catalog_earned: 52.0
@@ -274,13 +274,13 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 59.1
+    contract_quality: 54.0
     developer_ergonomics: 66.1
-    discoverability: 81.5
+    discoverability: 80.0
     operational_transparency: 23.7
   previous_composite: 64.5
   provenance:
@@ -297,9 +297,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 77.2
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 48.0
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

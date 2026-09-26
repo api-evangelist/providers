@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -44,33 +44,33 @@ agentic_access:
   summary_line: 52 operations · 27 acting
 api_count: 6
 apis:
-- baseURL: https://reqres.in/
-  baseurl_source: declared
+- baseURL: https://reqres.in
+  baseurl_source: spec
   description: Endpoints designed for AI coding agents. Cursor pagination, deeply nested resources, deliberate error scenarios, deterministic seeded fixtures.
   name: ReqRes Agent Sandbox API
   slug: reqres-agent-sandbox-api
-- baseURL: https://reqres.in/
-  baseurl_source: declared
+- baseURL: https://reqres.in
+  baseurl_source: spec
   description: The App Users API from ReqRes — 13 operation(s) for app users.
   name: ReqRes App Users API
   slug: reqres-app-users-api
-- baseURL: https://reqres.in/
-  baseurl_source: declared
+- baseURL: https://reqres.in
+  baseurl_source: spec
   description: The Authentication API from ReqRes — 3 operation(s) for authentication.
   name: ReqRes Authentication API
   slug: reqres-authentication-api
-- baseURL: https://reqres.in/
-  baseurl_source: declared
+- baseURL: https://reqres.in
+  baseurl_source: spec
   description: The Collections API from ReqRes — 4 operation(s) for collections.
   name: ReqRes Collections API
   slug: reqres-collections-api
-- baseURL: https://reqres.in/
-  baseurl_source: declared
+- baseURL: https://reqres.in
+  baseurl_source: spec
   description: The Custom Endpoints API from ReqRes — 1 operation(s) for custom endpoints.
   name: ReqRes Custom Endpoints API
   slug: reqres-custom-endpoints-api
-- baseURL: https://reqres.in/
-  baseurl_source: declared
+- baseURL: https://reqres.in
+  baseurl_source: spec
   description: The Legacy API from ReqRes — 4 operation(s) for legacy.
   name: ReqRes Legacy API
   slug: reqres-legacy-api
@@ -632,22 +632,22 @@ rules:
   slug: reqres-rules
 score:
   band: developing
-  composite: 42.5
+  composite: 40.1
   coverage:
     artifact_dirs: 16
-    catalog_earned: 94.5
+    catalog_earned: 85.6
     catalog_earned_first_party: 0.0
-    catalog_gap: 20.5
+    catalog_gap: 29.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.4
   facets:
-    access_clarity: 55.3
-    contract_governance: 28.8
-    contract_quality: 34.6
+    access_clarity: 52.1
+    contract_governance: 27.3
+    contract_quality: 33.9
     developer_ergonomics: 35.7
-    discoverability: 81.5
-    operational_transparency: 36.8
+    discoverability: 69.6
+    operational_transparency: 33.7
   previous_composite: 42.5
   provenance:
     agentic_access: derived
@@ -656,8 +656,14 @@ score:
       derived: 7
       marker_coverage: 100.0
       total: 7
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 16.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

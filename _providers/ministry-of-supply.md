@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -24,10 +24,10 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: documented
-    mcp_server: documented
+    mcp_server: platform
     openapi_examples: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.0
-  scored_at: '2026-09-24'
+  score: 27.5
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - description: The store's Universal Commerce Protocol service, exposed over MCP at /api/ucp/mcp. An anonymous tools/list returns thirteen tools covering catalog search and lookup, product detail, cart create / read
@@ -186,22 +186,22 @@ scopes:
   slug: ministry-of-supply-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 25.2
+  band: thin
+  composite: 27.1
   coverage:
     artifact_dirs: 18
-    catalog_earned: 45.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.9
   facets:
     access_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 75.9
+    discoverability: 66.7
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -211,10 +211,16 @@ score:
   previous_composite: 25.2
   provenance:
     conformance: first-party
-    mcp: first-party
+    mcp: platform-generated
     skills: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 34.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

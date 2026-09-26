@@ -24,7 +24,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.3
-  scored_at: '2026-09-24'
+  score: 22.1
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - baseURL: https://tools.flipperforce.com/api/v1
@@ -270,7 +270,7 @@ rate_limits:
   slug: fund-that-flip-rate-limits
 score:
   band: developing
-  composite: 50.7
+  composite: 50.4
   coverage:
     artifact_dirs: 21
     catalog_earned: 49.0
@@ -278,13 +278,13 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 55.3
+    contract_quality: 49.8
     developer_ergonomics: 58.9
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -301,8 +301,14 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 24.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

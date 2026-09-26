@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 55.6
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -97,6 +97,11 @@ collections:
   name: Better Stack Uptime API
   slug: open-betterstack
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/vendor-facets/betterstack-vendor-facets.yml
+  title: ''
+  type: VendorFacets
+  url: vendor-facets/betterstack-vendor-facets.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -346,13 +351,13 @@ modified: '2026-09-04'
 name: Better Stack
 nav: Providers
 network: true
-overview: 'Better Stack publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Heartbeats API, Incidents API, Monitors API, and 1 more. Tagged areas include Observability, Uptime Monitoring, Incidents, Logs, and Monitoring.
+overview: 'Better Stack publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Heartbeats API, Incidents API, Monitors API, and 3 more. Tagged areas include Observability, Uptime Monitoring, Incidents, Logs, and Monitoring.
 
 
   The Better Stack catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Better Stack''s developer surface includes authentication, changelog, developer portal, documentation, API reference, getting-started guide, pricing, and 38 more developer resources.'
+  Better Stack''s developer surface includes authentication, changelog, developer portal, documentation, API reference, getting-started guide, pricing, and 39 more developer resources.'
 plans:
 - name: Betterstack Plans Pricing
   plan_count: 6
@@ -368,22 +373,22 @@ scopes:
   slug: betterstack-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 65.6
+  band: exemplar
+  composite: 68.5
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 57.0
+    artifact_dirs: 26
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 58.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.9
   facets:
     access_clarity: 100.0
-    contract_governance: 33.3
-    contract_quality: 61.6
+    contract_governance: 31.8
+    contract_quality: 56.6
     developer_ergonomics: 67.3
-    discoverability: 75.9
+    discoverability: 75.0
     operational_transparency: 44.7
   previous_composite: 65.6
   provenance:
@@ -396,8 +401,14 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 45.1
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

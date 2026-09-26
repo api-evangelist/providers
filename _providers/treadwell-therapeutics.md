@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 0
 artifact_total: 3
 common:
@@ -129,7 +129,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 57.4
+    discoverability: 55.4
     operational_transparency: 0.0
   previous_composite: 7.4
   regulatory:
@@ -137,9 +137,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 12.5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 7.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

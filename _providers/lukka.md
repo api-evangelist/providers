@@ -25,7 +25,7 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: derived
     idempotency: false
     mcp_server: verified
@@ -36,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 57.2
-  scored_at: '2026-09-24'
+  score: 55.0
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -591,7 +591,7 @@ modified: '2026-09-16'
 name: Lukka
 nav: Providers
 network: true
-overview: 'Lukka publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Market Data Streaming API, Analytics - Analytics API, Analytics - Derived Data API, and 18 more. Tagged areas include Crypto, Digital Assets, Market Data, Reference Data, and Pricing.
+overview: 'Lukka publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Market Data Streaming API, Analytics - Analytics API, Analytics - Derived Data API, and 19 more. Tagged areas include Crypto, Digital Assets, Market Data, Reference Data, and Pricing.
 
 
   The Lukka catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -609,8 +609,8 @@ scopes:
   slug: lukka-scopes
   summary_line: 9 scopes · clientCredentials/authorizationCode
 score:
-  band: strong
-  composite: 57.7
+  band: developing
+  composite: 53.4
   coverage:
     artifact_dirs: 26
     catalog_earned: 48.0
@@ -618,13 +618,13 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
-    contract_quality: 63.9
+    contract_quality: 59.1
     developer_ergonomics: 53.6
-    discoverability: 81.5
+    discoverability: 80.0
     operational_transparency: 50.0
   previous_composite: 57.7
   provenance:
@@ -642,9 +642,9 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 76.7
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 42.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

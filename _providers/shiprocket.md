@@ -12,7 +12,7 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: true
     idempotency: false
     mcp_server: documented
@@ -23,8 +23,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.2
-  scored_at: '2026-09-24'
+  score: 46.0
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - baseURL: https://apiv2.shiprocket.in/v1/external
@@ -221,22 +221,22 @@ rate_limits:
   name: Shiprocket Rate Limits
   slug: shiprocket-rate-limits
 score:
-  band: strong
-  composite: 54.6
+  band: developing
+  composite: 54.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 67.1
+    contract_quality: 61.2
     developer_ergonomics: 63.7
-    discoverability: 75.9
+    discoverability: 71.7
     operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -255,8 +255,14 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 24.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

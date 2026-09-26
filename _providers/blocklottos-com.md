@@ -1,6 +1,7 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: flavored
     agent_skills: true
@@ -11,7 +12,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: verified
     mcp_server: documented
@@ -22,8 +23,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.7
-  scored_at: '2026-09-24'
+  score: 40.5
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -34,7 +35,7 @@ agentic_access:
 api_count: 1
 apis:
 - baseURL: https://blocklottos.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: Public Block Lottos API (OpenAPI 3.1.0, v1.2.0, 20 operations, no API key) covering lottery reads for Polygon Fortune Ledger and Base Future Ledger (jackpot, stats, draw history, draw proof, wallet ti
   name: Block Lottos API
   slug: block-lottos-api
@@ -211,21 +212,21 @@ rate_limits:
   slug: blocklottos-com-rate-limits
 score:
   band: strong
-  composite: 55.5
+  composite: 55.7
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 61.0
+    artifact_dirs: 21
+    catalog_earned: 56.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 63.2
     contract_governance: 18.2
-    contract_quality: 57.6
+    contract_quality: 52.1
     developer_ergonomics: 52.4
-    discoverability: 75.9
+    discoverability: 63.3
     operational_transparency: 47.4
   previous_composite: 55.5
   provenance:
@@ -238,8 +239,14 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 34.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

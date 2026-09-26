@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ modified: '2026-05-19'
 name: Staples
 nav: Providers
 network: true
-overview: 'Staples publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Catalog API, Delivery API, and 2 more. Tagged areas include Office Supplies, Retail, Procurement, B2B, and eProcurement.
+overview: 'Staples publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, Catalog API, Delivery API, and 3 more. Tagged areas include Office Supplies, Retail, Procurement, B2B, and eProcurement.
 
 
   The Staples catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -248,21 +248,21 @@ rules:
   slug: staples-rules
 score:
   band: thin
-  composite: 33.6
+  composite: 33.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 43.5
     catalog_earned_first_party: 0.0
     catalog_gap: 71.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 34.2
     contract_governance: 13.6
-    contract_quality: 62.6
+    contract_quality: 56.9
     developer_ergonomics: 23.8
-    discoverability: 44.4
+    discoverability: 42.9
     operational_transparency: 7.9
   previous_composite: 33.6
   provenance:
@@ -272,8 +272,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 24.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

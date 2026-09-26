@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,7 +21,7 @@ agent_readiness:
     delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: true
     idempotency: false
     mcp_server: false
@@ -33,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 40.8
-  scored_at: '2026-09-24'
+  score: 38.6
+  scored_at: '2026-09-25'
 api_count: 28
 apis:
 - description: The Lithium/Khoros Community platform API. Version 2 is driven by LiQL (Lithium Query Language), a SQL-like query language over community objects such as messages, users, boards and categories; the le
@@ -812,6 +811,11 @@ collections:
   name: agent-states-api-v2 AccountSet Workqueues API
   slug: open-lithium-workqueues-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/vendor-facets/khoros-ai-vendor-facets.yml
+  title: ''
+  type: VendorFacets
+  url: vendor-facets/khoros-ai-vendor-facets.yml
 - group: operate
   title: ''
   type: Community
@@ -1045,13 +1049,13 @@ modified: '2026-09-16'
 name: Khoros
 nav: Providers
 network: true
-overview: 'Khoros publishes 93 APIs on the [APIs.io](https://apis.io/) network, including Lithium AccountSet API, Lithium Active API, Lithium Admin API, and 90 more. Tagged areas include Lithium, Company, MarTech, Community, and Social Media.
+overview: 'Khoros publishes 94 APIs on the [APIs.io](https://apis.io/) network, including Lithium AccountSet API, Lithium Active API, Lithium Admin API, and 91 more. Tagged areas include Lithium, Company, MarTech, Community, and Social Media.
 
 
   The Khoros catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Khoros'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 42 more developer resources.'
+  Khoros'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 43 more developer resources.'
 plans:
 - name: Lithium Plans Pricing
   plan_count: 0
@@ -1068,32 +1072,41 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 66.7
+  composite: 69.4
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 28
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 2.7
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 62.7
+    contract_quality: 57.2
     developer_ergonomics: 73.2
-    discoverability: 87.0
+    discoverability: 83.9
     operational_transparency: 86.8
+  previous_composite: 66.7
   provenance:
     conformance: first-party
     contracts:
-      callable: 93.3
+      callable: 90.0
       derived: 0
       marker_coverage: 0.0
       total: 93
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 45.1
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: flat
   upsert:
     applies: true
     score: 27.8

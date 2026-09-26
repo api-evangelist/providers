@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 9
 apis:
 - description: MSP (Mortgage Servicing Platform) was Black Knight's flagship product — the mainframe-rooted system of record that services the majority of US first-mortgage loans. MSP DX (Direct Exchange) is the RES
@@ -215,7 +215,7 @@ modified: '2026-07-25'
 name: Black Knight
 nav: Providers
 network: true
-overview: 'Black Knight publishes 1 API on the [APIs.io](https://apis.io/) network: Encompass Developer Connect (sibling product under ICE). Tagged areas include Mortgage Technology, Loan Servicing, Loan Origination, Secondary Marketing, and Default Management.
+overview: 'Black Knight publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Encompass Developer Connect (sibling product under ICE), and 8 more. Tagged areas include Mortgage, Loan Servicing, Loan Origination, Secondary Marketing, and Default Management.
 
 
   The Black Knight catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
@@ -252,21 +252,21 @@ rules:
   slug: black-knight-rules
 score:
   band: thin
-  composite: 35.2
+  composite: 33.9
   coverage:
     artifact_dirs: 12
-    catalog_earned: 77.5
+    catalog_earned: 74.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.5
+    catalog_gap: 40.2
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 39.5
-    contract_governance: 28.8
-    contract_quality: 34.7
+    access_clarity: 36.3
+    contract_governance: 27.3
+    contract_quality: 33.2
     developer_ergonomics: 39.3
-    discoverability: 59.3
+    discoverability: 57.1
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -274,8 +274,14 @@ score:
     regions:
     - north-america
   previous_composite: 35.2
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 16.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false
@@ -289,7 +295,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: black-knight
 tags:
-- Mortgage Technology
+- Mortgage
 - Loan Servicing
 - Loan Origination
 - Secondary Marketing

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -472,7 +472,7 @@ modified: '2026-05-24'
 name: Backpack
 nav: Providers
 network: true
-overview: 'Backpack publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account API, Assets API, Borrow Lend API, and 11 more. Tagged areas include Crypto, Exchange, Wallets, Trading, and Perpetuals.
+overview: 'Backpack publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Account API, Assets API, Borrow Lend API, and 12 more. Tagged areas include Crypto, Exchange, Wallets, Trading, and Perpetuals.
 
 
   The Backpack catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -522,23 +522,23 @@ rules:
     warn: 3
   slug: backpack-rules
 score:
-  band: strong
-  composite: 54.9
+  band: developing
+  composite: 52.2
   coverage:
     artifact_dirs: 18
-    catalog_earned: 89.5
+    catalog_earned: 85.6
     catalog_earned_first_party: 0.0
-    catalog_gap: 25.5
+    catalog_gap: 29.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.7
   facets:
-    access_clarity: 63.2
-    contract_governance: 28.8
-    contract_quality: 76.1
+    access_clarity: 60.0
+    contract_governance: 27.3
+    contract_quality: 70.3
     developer_ergonomics: 31.0
-    discoverability: 59.3
-    operational_transparency: 60.5
+    discoverability: 57.1
+    operational_transparency: 57.4
   open_source:
     applies: true
     score: 60.0
@@ -555,9 +555,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 32.8
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 18.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

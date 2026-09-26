@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - description: The Event Notification API pushes real-time campaign event data to a customer-owned callback URL. Register a callback, verify it, then subscribe it to any of the 26 supported event types across email,
@@ -339,7 +339,7 @@ modified: '2026-09-16'
 name: Responsys
 nav: Providers
 network: true
-overview: 'Responsys publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Account API, Attachments API, Campaign Attributes API, and 22 more. Tagged areas include Company, Marketing, Email Marketing, Marketing Automation, and Campaign Management.
+overview: 'Responsys publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Account API, Attachments API, Campaign Attributes API, and 24 more. Tagged areas include Company, Marketing, Email Marketing, Marketing Automation, and Campaign Management.
 
 
   The Responsys catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -357,7 +357,7 @@ rate_limits:
   slug: responsys-rate-limits
 score:
   band: developing
-  composite: 51.8
+  composite: 49.2
   coverage:
     artifact_dirs: 22
     catalog_earned: 49.0
@@ -365,15 +365,15 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.8
+  delta: -2.6
   facets:
     access_clarity: 36.8
     contract_governance: 4.5
-    contract_quality: 43.4
+    contract_quality: 40.2
     developer_ergonomics: 63.7
-    discoverability: 68.5
+    discoverability: 66.1
     operational_transparency: 68.4
-  previous_composite: 52.6
+  previous_composite: 51.8
   provenance:
     conformance: derived
     contracts:
@@ -388,9 +388,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 50.0
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 30.0
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

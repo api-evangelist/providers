@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -358,7 +358,7 @@ modified: '2026-05-19'
 name: HashiCorp Nomad
 nav: Providers
 network: true
-overview: 'HashiCorp Nomad publishes 19 APIs on the [APIs.io](https://apis.io/) network, including ACL API, Agent API, Allocations API, and 16 more. Tagged areas include Workload Orchestration, Container Orchestration, Scheduling, Infrastructure, and DevOps.
+overview: 'HashiCorp Nomad publishes 22 APIs on the [APIs.io](https://apis.io/) network, including ACL API, Agent API, Allocations API, and 19 more. Tagged areas include Workload Orchestration, Container Orchestration, Scheduling, Infrastructure, and DevOps.
 
 
   The HashiCorp Nomad catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -398,21 +398,21 @@ rules:
   slug: nomad-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.4
+  composite: 40.6
   coverage:
     artifact_dirs: 16
-    catalog_earned: 59.5
+    catalog_earned: 58.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.5
+    catalog_gap: 56.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 32.9
     contract_governance: 13.6
-    contract_quality: 68.4
+    contract_quality: 62.9
     developer_ergonomics: 38.1
-    discoverability: 59.3
+    discoverability: 57.1
     operational_transparency: 7.9
   previous_composite: 41.4
   provenance:
@@ -422,8 +422,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 20.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

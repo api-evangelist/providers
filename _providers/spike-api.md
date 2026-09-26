@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -207,7 +207,7 @@ modified: '2026-07-03'
 name: Spike
 nav: Providers
 network: true
-overview: 'Spike publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Lab Reports API, Nutrition AI API, and 8 more. Tagged areas include Health Data, Wearables, Fitness, Digital Health, and Data Aggregation.
+overview: 'Spike publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Lab Reports API, Nutrition AI API, and 9 more. Tagged areas include Health Data, Wearables, Fitness, Digital Health, and Data Aggregation.
 
 
   Spike''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -222,22 +222,22 @@ rate_limits:
   slug: spike-api-rate-limits
 score:
   band: thin
-  composite: 38.6
+  composite: 36.0
   coverage:
     artifact_dirs: 11
-    catalog_earned: 64.0
+    catalog_earned: 61.6
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    catalog_gap: 53.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.6
   facets:
-    access_clarity: 39.5
+    access_clarity: 36.3
     contract_governance: 0.0
-    contract_quality: 56.8
+    contract_quality: 51.2
     developer_ergonomics: 32.1
-    discoverability: 68.5
-    operational_transparency: 34.2
+    discoverability: 66.1
+    operational_transparency: 31.1
   previous_composite: 38.6
   provenance:
     agentic_access: derived
@@ -251,9 +251,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 15.0
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 9.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

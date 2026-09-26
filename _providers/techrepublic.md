@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,33 +46,33 @@ apis:
 - description: TechRepublic provides RSS/Atom feeds covering its full range of technology news and analysis. Feeds are available for the main news stream and for over 150 individual topic categories including AI, se
   name: TechRepublic RSS Feed
   slug: rss-feed
-- baseURL: https://www.techrepublic.com
-  baseurl_source: declared
+- baseURL: https://www.techrepublic.com/wp-json/wp/v2
+  baseurl_source: spec
   description: The Authors API from TechRepublic — 2 operation(s) for authors.
   name: TechRepublic Authors API
   slug: techrepublic-authors-api
-- baseURL: https://www.techrepublic.com
-  baseurl_source: declared
+- baseURL: https://www.techrepublic.com/wp-json/wp/v2
+  baseurl_source: spec
   description: The Categories API from TechRepublic — 2 operation(s) for categories.
   name: TechRepublic Categories API
   slug: techrepublic-categories-api
-- baseURL: https://www.techrepublic.com
-  baseurl_source: declared
+- baseURL: https://www.techrepublic.com/wp-json/wp/v2
+  baseurl_source: spec
   description: The Media API from TechRepublic — 2 operation(s) for media.
   name: TechRepublic Media API
   slug: techrepublic-media-api
-- baseURL: https://www.techrepublic.com
-  baseurl_source: declared
+- baseURL: https://www.techrepublic.com/wp-json/wp/v2
+  baseurl_source: spec
   description: The Pages API from TechRepublic — 2 operation(s) for pages.
   name: TechRepublic Pages API
   slug: techrepublic-pages-api
-- baseURL: https://www.techrepublic.com
-  baseurl_source: declared
+- baseURL: https://www.techrepublic.com/wp-json/wp/v2
+  baseurl_source: spec
   description: The Posts API from TechRepublic — 2 operation(s) for posts.
   name: TechRepublic Posts API
   slug: techrepublic-posts-api
-- baseURL: https://www.techrepublic.com
-  baseurl_source: declared
+- baseURL: https://www.techrepublic.com/wp-json/wp/v2
+  baseurl_source: spec
   description: The Tags API from TechRepublic — 2 operation(s) for tags.
   name: TechRepublic Tags API
   slug: techrepublic-tags-api
@@ -199,7 +199,7 @@ modified: '2026-05-19'
 name: TechRepublic
 nav: Providers
 network: true
-overview: 'TechRepublic publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authors API, Categories API, Media API, and 3 more. Tagged areas include Enterprise IT, Media, Technology News, Content, and Publishing.
+overview: 'TechRepublic publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authors API, Categories API, Media API, and 4 more. Tagged areas include Enterprise IT, Media, Technology News, Content, and Publishing.
 
 
   The TechRepublic catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -238,22 +238,22 @@ rules:
     warn: 7
   slug: techrepublic-rules
 score:
-  band: thin
-  composite: 28.7
+  band: emerging
+  composite: 17.1
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 62.5
+    artifact_dirs: 16
+    catalog_earned: 56.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.5
+    catalog_gap: 43.5
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -11.6
   facets:
     access_clarity: 0.0
     contract_governance: 13.6
-    contract_quality: 63.3
+    contract_quality: 24.3
     developer_ergonomics: 16.7
-    discoverability: 68.5
+    discoverability: 57.1
     operational_transparency: 7.9
   previous_composite: 28.7
   provenance:
@@ -263,9 +263,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 10.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

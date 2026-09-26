@@ -23,7 +23,7 @@ agent_readiness:
     delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: derived
     idempotency: false
     mcp_server: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 32.6
-  scored_at: '2026-09-24'
+  score: 30.4
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -333,7 +333,7 @@ modified: '2026-09-16'
 name: Infor
 nav: Providers
 network: true
-overview: 'Infor publishes 2 APIs on the [APIs.io](https://apis.io/) network: ION Documents API and M3 API. Tagged areas include ERP, Manufacturing, Supply Chain, Cloud, and Integration.
+overview: 'Infor publishes 6 APIs on the [APIs.io](https://apis.io/) network, including ION Documents API, M3 API, and 4 more. Tagged areas include ERP, Manufacturing, Supply Chain, Cloud, and Integration.
 
 
   The Infor catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -377,8 +377,8 @@ scopes:
   slug: infor-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 66.1
+  band: exemplar
+  composite: 68.1
   coverage:
     artifact_dirs: 30
     catalog_earned: 68.5
@@ -386,13 +386,13 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.0
   facets:
     access_clarity: 72.4
     contract_governance: 31.8
-    contract_quality: 64.8
+    contract_quality: 59.6
     developer_ergonomics: 82.7
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 63.2
   previous_composite: 66.1
   provenance:
@@ -405,8 +405,14 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 39.2
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

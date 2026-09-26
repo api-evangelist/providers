@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: The R1 RCM API provides access to platform services and data for enterprise integration and automation.
@@ -97,7 +97,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
-    discoverability: 50.0
+    discoverability: 48.2
     operational_transparency: 5.3
   previous_composite: 11.1
   regulatory:
@@ -105,9 +105,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 13.8
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 8.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

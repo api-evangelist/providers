@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.7
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,12 +52,12 @@ apis:
   name: Liquid Death Customer Account OAuth
   slug: liquid-death-customer-account-oauth
 - baseURL: https://liquiddeath.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: Product and collection data
   name: Liquid Death Catalog API
   slug: liquid-death-catalog-api
 - baseURL: https://liquiddeath.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: Store-level discovery documents for crawlers and agents
   name: Liquid Death Discovery API
   slug: liquid-death-discovery-api
@@ -234,7 +234,7 @@ modified: '2026-09-16'
 name: Liquid Death
 nav: Providers
 network: true
-overview: 'Liquid Death publishes 2 APIs on the [APIs.io](https://apis.io/) network: Catalog API and Discovery API. Tagged areas include Company, Beverages, Consumer Packaged Goods, Direct to Consumer, and E-Commerce.
+overview: 'Liquid Death publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Discovery API, and 2 more. Tagged areas include Company, Beverages, Consumer Packaged Goods, Direct to Consumer, and E-Commerce.
 
 
   Liquid Death''s developer surface includes documentation, getting-started guide, authentication, FAQ, support, engineering blog, and 28 more developer resources.'
@@ -246,21 +246,21 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 41.4
+  composite: 41.9
   coverage:
     artifact_dirs: 20
-    catalog_earned: 37.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.0
+    catalog_gap: 68.0
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 57.1
     contract_governance: 4.5
-    contract_quality: 53.4
+    contract_quality: 48.1
     developer_ergonomics: 42.3
-    discoverability: 75.9
+    discoverability: 66.7
     operational_transparency: 0.0
   previous_composite: 41.4
   provenance:
@@ -271,10 +271,16 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-    mcp: first-party
+    mcp: platform-generated
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 34.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

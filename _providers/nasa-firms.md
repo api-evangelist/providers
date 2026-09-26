@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,22 +44,22 @@ agentic_access:
 api_count: 1
 apis:
 - baseURL: https://firms.modaps.eosdis.nasa.gov
-  baseurl_source: declared
+  baseurl_source: spec
   description: Active fire hotspot detections within a bounding box area
   name: NASA FIRMS Area Fire Detections API
   slug: nasa-firms-area-fire-detections-api
 - baseURL: https://firms.modaps.eosdis.nasa.gov
-  baseurl_source: declared
+  baseurl_source: spec
   description: Check which dates have Standard Processing or Near Real-Time data
   name: NASA FIRMS Data Availability API
   slug: nasa-firms-data-availability-api
 - baseURL: https://firms.modaps.eosdis.nasa.gov
-  baseurl_source: declared
+  baseurl_source: spec
   description: KMZ files containing color-coded fire footprint polygons by region
   name: NASA FIRMS KML Fire Footprints API
   slug: nasa-firms-kml-fire-footprints-api
 - baseURL: https://firms.modaps.eosdis.nasa.gov
-  baseurl_source: declared
+  baseurl_source: spec
   description: Identify dates with absent satellite fire detection data
   name: NASA FIRMS Missing Data API
   slug: nasa-firms-missing-data-api
@@ -215,22 +215,22 @@ rules:
   slug: nasa-firms-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.4
+  composite: 44.4
   coverage:
     artifact_dirs: 15
-    catalog_earned: 79.3
+    catalog_earned: 71.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 35.8
+    catalog_gap: 43.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.0
   facets:
-    access_clarity: 50.0
-    contract_governance: 25.0
-    contract_quality: 65.6
+    access_clarity: 47.9
+    contract_governance: 23.5
+    contract_quality: 59.7
     developer_ergonomics: 35.7
-    discoverability: 68.5
-    operational_transparency: 26.3
+    discoverability: 57.1
+    operational_transparency: 24.2
   previous_composite: 49.4
   provenance:
     agentic_access: derived
@@ -244,10 +244,10 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 38.9
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: flat
+    score: 20.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

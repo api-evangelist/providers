@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 158
   human_in_the_loop: 5
@@ -1793,6 +1793,11 @@ collections:
   name: Salesforce
   slug: open-salesforce
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/vendor-facets/salesforce-vendor-facets.yml
+  title: ''
+  type: VendorFacets
+  url: vendor-facets/salesforce-vendor-facets.yml
 - group: company
   title: ''
   type: Website
@@ -18094,13 +18099,13 @@ modified: '2026-09-16'
 name: Salesforce
 nav: Providers
 network: true
-overview: 'Salesforce publishes 156 APIs on the [APIs.io](https://apis.io/) network, including REST API, Streaming API, Platform Events API, and 153 more. Tagged areas include Fortune 500, Artificial Intelligence, Analytics, Cloud, and Commerce.
+overview: 'Salesforce publishes 185 APIs on the [APIs.io](https://apis.io/) network, including REST API, Streaming API, Platform Events API, and 182 more. Tagged areas include Fortune 500, Artificial Intelligence, Analytics, Cloud, and Commerce.
 
 
   The Salesforce catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 5 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Salesforce''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, documentation, getting-started guide, and 121 more developer resources.'
+  Salesforce''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, documentation, getting-started guide, and 122 more developer resources.'
 plans:
 - name: Salesforce Plans Pricing
   plan_count: 6
@@ -18175,23 +18180,23 @@ scopes:
   summary_line: 36 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 89.4
+  composite: 91.8
   coverage:
-    artifact_dirs: 44
-    catalog_earned: 91.5
+    artifact_dirs: 45
+    catalog_earned: 90.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 23.5
+    catalog_gap: 25.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 2.4
   facets:
     access_clarity: 100.0
-    contract_governance: 47.0
-    contract_quality: 77.9
+    contract_governance: 45.5
+    contract_quality: 72.8
     developer_ergonomics: 94.6
-    discoverability: 75.9
+    discoverability: 75.0
     operational_transparency: 86.8
-  previous_composite: 89.3
+  previous_composite: 89.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -18202,8 +18207,14 @@ score:
       total: 266
     mcp: first-party
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 41.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

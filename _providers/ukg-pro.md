@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -165,14 +165,14 @@ modified: '2026-05-11'
 name: UKG Pro
 nav: Providers
 network: true
-overview: 'UKG Pro publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Benefits API, Employment API, Pay API, and 2 more. Tagged areas include HCM, Human Resources, Payroll, Benefits Administration, and Talent Management.
+overview: 'UKG Pro publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Benefits API, Employment API, Pay API, and 5 more. Tagged areas include HCM, Human Resources, Payroll, Benefits Administration, and Talent Management.
 
 
   UKG Pro''s developer surface includes authentication, documentation, pricing, support, and 9 more developer resources.'
 random_paper: 5
 score:
   band: emerging
-  composite: 24.8
+  composite: 22.2
   coverage:
     artifact_dirs: 7
     catalog_earned: 37.0
@@ -180,13 +180,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 51.3
+    contract_quality: 46.2
     developer_ergonomics: 23.8
-    discoverability: 68.5
+    discoverability: 66.1
     operational_transparency: 2.6
   previous_composite: 24.8
   provenance:
@@ -196,8 +196,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Employment & Payroll
+    regime_id: employment_payroll
+    score: 11.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

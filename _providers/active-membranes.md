@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: A live, unauthenticated Model Context Protocol endpoint served from Active Membranes' own hostname at https://www.activemembrane.com/_api/mcp and advertised by the company in its own llms.txt. An anon
@@ -133,14 +133,20 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.9
+    discoverability: 75.0
     operational_transparency: 0.0
   previous_composite: 13.6
   provenance:
     conformance: first-party
-    mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    mcp: platform-generated
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 16.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

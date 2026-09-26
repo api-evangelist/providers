@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -318,7 +318,7 @@ modified: '2026-09-05'
 name: Apple CloudKit
 nav: Providers
 network: true
-overview: 'Apple CloudKit publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Changes API, Records API, and 4 more. Tagged areas include Apple, Cloud Storage, CloudKit, Database, and iCloud.
+overview: 'Apple CloudKit publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Changes API, Records API, and 7 more. Tagged areas include Apple, Cloud Storage, CloudKit, Database, and iCloud.
 
 
   The Apple CloudKit catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -348,21 +348,21 @@ rules:
   slug: cloudkit-rules
 score:
   band: strong
-  composite: 65.0
+  composite: 65.9
   coverage:
     artifact_dirs: 26
-    catalog_earned: 67.0
+    catalog_earned: 65.2
     catalog_earned_first_party: 12.0
-    catalog_gap: 48.0
+    catalog_gap: 49.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 60.5
-    contract_governance: 72.7
-    contract_quality: 51.7
+    contract_governance: 67.3
+    contract_quality: 46.9
     developer_ergonomics: 80.4
-    discoverability: 59.3
+    discoverability: 57.1
     operational_transparency: 76.3
   previous_composite: 65.0
   provenance:
@@ -375,8 +375,14 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 35.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

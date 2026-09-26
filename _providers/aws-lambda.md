@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -96,6 +96,11 @@ apis:
   description: Publish and manage immutable function versions
   name: AWS Lambda Versions API
   slug: aws-lambda-versions-api
+- baseURL: https://lambda.amazonaws.com
+  baseurl_source: declared
+  description: Lambda function management
+  name: AWS Lambda Functions API
+  slug: amazon-lambda-functions-api
 arazzos:
 - description: Publish a version, then either move an existing alias onto it or create the alias if this is the first release.
   name: AWS Lambda Release a Version Behind an Alias
@@ -136,7 +141,7 @@ arazzos:
 - description: Upload new function code, wait for the update to settle, smoke-test $LATEST, and publish an immutable version guarded by the code hash.
   name: AWS Lambda Ship New Code and Cut an Immutable Version
   slug: aws-lambda-update-code-publish-version-workflow
-artifact_total: 185
+artifact_total: 189
 asyncapis:
 - description: AWS Lambda integrates with other AWS services to invoke functions in response to events. Lambda functions can be triggered by event sources including Amazon S3, Amazon DynamoDB Streams, Amazon Kinesis
   name: AWS Lambda Event Triggers
@@ -433,6 +438,10 @@ common:
   title: ''
   type: Arazzo
   url: arazzo/aws-lambda-function-inventory-audit-workflow.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://aws.amazon.com/lambda/
 created: '2024-01-15'
 description: AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. Lambda runs your code on high-availability compute infrastructure and performs all of the administration of the compute resources, including server and operating system maintenance, capacity provisioning and automatic scaling, and logging.
 examples:
@@ -582,6 +591,12 @@ integrations:
 - description: Orchestrate Lambda functions into complex workflows with branching, error handling, and parallel execution.
   name: AWS Step Functions
 json_schemas:
+- name: EventSourceMapping
+  property_count: 5
+  slug: amazon-lambda-event-source-mapping
+- name: Function
+  property_count: 12
+  slug: amazon-lambda-function
 - name: AliasConfiguration
   property_count: 5
   slug: aws-lambda-alias-configuration
@@ -791,6 +806,10 @@ json_structures:
   property_count: 2
   slug: aws-lambda-vpc-config-structure
 jsonld:
+- class_count: 2
+  name: Amazon Lambda Context
+  property_count: 7
+  slug: amazon-lambda-context
 - class_count: 0
   name: Aws Lambda Context
   property_count: 0
@@ -804,13 +823,13 @@ modified: '2026-09-16'
 name: AWS Lambda
 nav: Providers
 network: true
-overview: 'AWS Lambda publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Aliases API, Concurrency API, Event Source Mappings API, and 5 more. Tagged areas include Serverless, Monitoring, Observability, Logging, and Telemetry.
+overview: 'AWS Lambda publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Aliases API, Concurrency API, Event Source Mappings API, and 10 more. Tagged areas include Serverless, Monitoring, Observability, Logging, and Telemetry.
 
 
-  The AWS Lambda catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
+  The AWS Lambda catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  AWS Lambda''s developer surface includes changelog, CLI, authentication, engineering blog, FAQ, and 45 more developer resources.'
+  AWS Lambda''s developer surface includes changelog, CLI, authentication, engineering blog, FAQ, and 46 more developer resources.'
 plans:
 - name: Aws Lambda Plans Pricing
   plan_count: 14
@@ -858,21 +877,21 @@ rules:
   slug: aws-lambda-spectral-rules
 score:
   band: exemplar
-  composite: 68.2
+  composite: 69.6
   coverage:
-    artifact_dirs: 32
-    catalog_earned: 84.5
+    artifact_dirs: 33
+    catalog_earned: 87.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 30.5
+    catalog_gap: 28.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 86.8
-    contract_governance: 33.3
-    contract_quality: 82.0
+    contract_governance: 31.8
+    contract_quality: 77.6
     developer_ergonomics: 65.5
-    discoverability: 68.5
+    discoverability: 65.0
     operational_transparency: 78.9
   open_source:
     applies: true
@@ -885,10 +904,16 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 9
     mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 35.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true
@@ -932,4 +957,5 @@ use_cases:
   name: Scheduled Tasks
 - description: Automate build, test, and deployment workflows by triggering Lambda functions from CodePipeline or GitHub events.
   name: CI/CD Automation
+website: https://aws.amazon.com/lambda/
 ---

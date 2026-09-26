@@ -23,7 +23,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: true
     idempotency: false
     mcp_server: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.4
-  scored_at: '2026-09-24'
+  score: 23.2
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -302,7 +302,7 @@ modified: '2026-07-26'
 name: Sprift
 nav: Providers
 network: true
-overview: 'Sprift publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Home API, Insider API, Property API, and 4 more. Tagged areas include Real Estate, United Kingdom, PropTech, Property Data, and Property Listings.
+overview: 'Sprift publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Home API, Insider API, Property API, and 5 more. Tagged areas include Real Estate, United Kingdom, PropTech, Property Data, and Property Listings.
 
 
   The Sprift catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -324,9 +324,9 @@ score:
   facets:
     access_clarity: 38.2
     contract_governance: 4.5
-    contract_quality: 54.5
+    contract_quality: 49.8
     developer_ergonomics: 49.4
-    discoverability: 63.0
+    discoverability: 60.7
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -347,8 +347,14 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 24.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

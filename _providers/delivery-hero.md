@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.2
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - baseURL: https://ondemand-api-glovoapp.deliveryhero.io/
@@ -249,9 +249,9 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 65.3
+    contract_quality: 59.7
     developer_ergonomics: 37.5
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -269,8 +269,14 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 26.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true
@@ -296,5 +302,6 @@ tags:
 - On-Demand
 - Order
 - Restaurant
+- Delivery
 website: https://deliveryhero.com
 ---

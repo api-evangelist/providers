@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: Airline reports API (Selfie) serving rates, chargeable weight, load factor, and capacity reports as CSV files in ZIP archives. Airlines use a branded host (https://{airline}.useselfie.com/api/selfie/v
@@ -202,14 +202,14 @@ modified: '2026-07-21'
 name: Xeneta
 nav: Providers
 network: true
-overview: 'Xeneta publishes 2 APIs on the [APIs.io](https://apis.io/) network: Air API and Ocean API. Tagged areas include Freight, Shipping, Logistics, Ocean Freight, and Air Freight.
+overview: 'Xeneta publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Air API, Ocean API, and 1 more. Tagged areas include Freight, Shipping, Logistics, Ocean Freight, and Air Freight.
 
 
   Xeneta''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 22 more developer resources.'
 random_paper: 7
 score:
   band: developing
-  composite: 44.7
+  composite: 41.9
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -217,13 +217,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.8
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
-    contract_quality: 54.4
+    contract_quality: 49.0
     developer_ergonomics: 37.5
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 22.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -246,9 +246,9 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 50.0
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 27.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

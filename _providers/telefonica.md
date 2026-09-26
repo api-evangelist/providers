@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -56,32 +56,32 @@ apis:
 - description: The Population Density Data API provides dynamic real-time data on population density in a specific geographic area and time window, derived from anonymized and aggregated mobile network data. Used fo
   name: Telefónica Population Density Data API
   slug: population-density-data-api
-- baseURL: https://opengateway.telefonica.com
+- baseURL: https://sandbox.opengateway.telefonica.com/v1
   baseurl_source: declared
   description: The Device Roaming API from Telefónica — 1 operation(s) for device roaming.
   name: Telefónica Device Roaming API
   slug: telefonica-device-roaming-api
-- baseURL: https://opengateway.telefonica.com
+- baseURL: https://sandbox.opengateway.telefonica.com/v1
   baseurl_source: declared
   description: The KYC Match API from Telefónica — 1 operation(s) for kyc match.
   name: Telefónica KYC Match API
   slug: telefonica-kyc-match-api
-- baseURL: https://opengateway.telefonica.com
+- baseURL: https://sandbox.opengateway.telefonica.com/v1
   baseurl_source: declared
   description: The Location Verification API from Telefónica — 1 operation(s) for location verification.
   name: Telefónica Location Verification API
   slug: telefonica-location-verification-api
-- baseURL: https://opengateway.telefonica.com
+- baseURL: https://sandbox.opengateway.telefonica.com/v1
   baseurl_source: declared
   description: The Number Verification API from Telefónica — 2 operation(s) for number verification.
   name: Telefónica Number Verification API
   slug: telefonica-number-verification-api
-- baseURL: https://opengateway.telefonica.com
+- baseURL: https://sandbox.opengateway.telefonica.com/v1
   baseurl_source: declared
   description: The QoD Sessions API from Telefónica — 2 operation(s) for qod sessions.
   name: Telefónica QoD Sessions API
   slug: telefonica-qod-sessions-api
-- baseURL: https://opengateway.telefonica.com
+- baseURL: https://sandbox.opengateway.telefonica.com/v1
   baseurl_source: declared
   description: The SIM Swap API from Telefónica — 2 operation(s) for sim swap.
   name: Telefónica SIM Swap API
@@ -278,7 +278,7 @@ modified: '2026-05-19'
 name: Telefónica
 nav: Providers
 network: true
-overview: 'Telefónica publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Device Roaming API, KYC Match API, Location Verification API, and 3 more. Tagged areas include Telecommunications, Mobile Network, CAMARA, Open Gateway, and Authentication.
+overview: 'Telefónica publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Device Roaming API, KYC Match API, Location Verification API, and 7 more. Tagged areas include Telecommunications, Mobile Network, CAMARA, Open Gateway, and Authentication.
 
 
   The Telefónica catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -318,21 +318,21 @@ rules:
   slug: telefonica-rules
 score:
   band: thin
-  composite: 38.7
+  composite: 35.9
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 69.5
+    artifact_dirs: 19
+    catalog_earned: 63.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.5
+    catalog_gap: 51.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.8
   facets:
     access_clarity: 26.3
     contract_governance: 13.6
-    contract_quality: 68.9
+    contract_quality: 62.6
     developer_ergonomics: 33.3
-    discoverability: 81.5
+    discoverability: 69.6
     operational_transparency: 10.5
   previous_composite: 38.7
   provenance:
@@ -347,9 +347,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 23.6
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 14.2
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

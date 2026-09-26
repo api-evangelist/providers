@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.2
-  scored_at: '2026-09-24'
+  score: 30.8
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -413,7 +413,7 @@ modified: '2026-09-16'
 name: Perforce
 nav: Providers
 network: true
-overview: 'Perforce publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Changes API, Comments API, and 3 more. Tagged areas include Version Control, Project Management, Automation, DevOps, and REST API.
+overview: 'Perforce publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Changes API, Comments API, and 11 more. Tagged areas include Version Control, Project Management, Automation, DevOps, and REST API.
 
 
   The Perforce catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -453,21 +453,21 @@ rules:
   slug: perforce-spectral-rules
 score:
   band: developing
-  composite: 48.5
+  composite: 48.2
   coverage:
     artifact_dirs: 19
-    catalog_earned: 55.5
+    catalog_earned: 54.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.5
+    catalog_gap: 60.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 36.8
     contract_governance: 13.6
-    contract_quality: 65.2
+    contract_quality: 59.2
     developer_ergonomics: 65.5
-    discoverability: 66.7
+    discoverability: 63.3
     operational_transparency: 39.5
   open_source:
     applies: true
@@ -480,8 +480,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 24.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

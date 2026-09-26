@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 4
 apis:
 - description: Core TypeScript library distributed as the `better-auth` npm package. Configured in the application backend to expose sign-in / sign-up / session endpoints that the developer mounts under their own do
@@ -138,22 +138,22 @@ rate_limits:
   slug: better-auth-rate-limits
 score:
   band: thin
-  composite: 28.6
+  composite: 28.4
   coverage:
     artifact_dirs: 7
-    catalog_earned: 59.0
+    catalog_earned: 57.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.0
+    catalog_gap: 57.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
-    access_clarity: 28.9
+    access_clarity: 26.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 74.1
-    operational_transparency: 52.6
+    discoverability: 73.3
+    operational_transparency: 50.5
   open_source:
     applies: true
     score: 100.0
@@ -165,9 +165,9 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 11.1
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 5.9
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

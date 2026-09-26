@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: na
     mcp_server: false
@@ -33,66 +33,66 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.2
-  scored_at: '2026-09-24'
+  score: 22.7
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - baseURL: https://www.oeb.ca
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/applications-oeb'
   name: Ontario Energy Board Applications before the OEB API
   slug: ontario-energy-board-applications-before-the-oeb-api
 - baseURL: https://www.oeb.ca
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/current-electricity-rates-general-service-50-kw-rate-class'
   name: Ontario Energy Board Current Electricity Rates (General Service < 50 kW Rate Class) API
   slug: ontario-energy-board-current-electricity-rates-general-service-50-kw-rate-class-api
 - baseURL: https://www.oeb.ca
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/current-electricity-rates-residential-rate-class'
   name: Ontario Energy Board Current Electricity Rates (Residential Rate Class) API
   slug: ontario-energy-board-current-electricity-rates-residential-rate-class-api
 - baseURL: https://www.oeb.ca
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/current-natural-gas-rates-residential-rate-classes'
   name: Ontario Energy Board Current Natural Gas Rates (Residential Rate Classes) API
   slug: ontario-energy-board-current-natural-gas-rates-residential-rate-classes-api
 - baseURL: https://www.oeb.ca
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/electricity-and-natural-gas-distributors-service-areas'
   name: Ontario Energy Board Electricity and Natural Gas Distributors - Service Areas API
   slug: ontario-energy-board-electricity-and-natural-gas-distributors-service-areas-api
 - baseURL: https://www.oeb.ca
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/electricity-distributor-complaints-received-oeb'
   name: Ontario Energy Board Electricity Distributor Complaints Received by the OEB API
   slug: ontario-energy-board-electricity-distributor-complaints-received-by-the-oeb-api
 - baseURL: https://www.oeb.ca
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/electricity-distributor-performance-scorecard'
   name: Ontario Energy Board Electricity Distributor Performance – Scorecard API
   slug: ontario-energy-board-electricity-distributor-performance-scorecard-api
 - baseURL: https://www.oeb.ca
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/electricity-reporting-record-keeping-requirements-rrr-section-2142-system-reliability'
   name: 'Ontario Energy Board Electricity Reporting & Record Keeping Requirements (RRR): Section ... API'
   slug: ontario-energy-board-electricity-reporting-record-keeping-requirements-rrr-section-api
 - baseURL: https://www.oeb.ca
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/historical-regulated-price-plan-electricity-rates'
   name: Ontario Energy Board Historical Regulated Price Plan Electricity Rates API
   slug: ontario-energy-board-historical-regulated-price-plan-electricity-rates-api
 - baseURL: https://www.oeb.ca
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/licensed-market-participants'
   name: Ontario Energy Board Licensed Market Participants API
   slug: ontario-energy-board-licensed-market-participants-api
-- baseURL: https://www.oeb.ca
+- baseURL: https://www.rds.oeb.ca/CMWebDrawer
   baseurl_source: declared
   description: Search and retrieve records (filings, decisions, orders, licences, correspondence) in the OEB case record.
   name: Ontario Energy Board Records API
   slug: ontario-energy-board-records-api
-- baseURL: https://www.oeb.ca
+- baseURL: https://www.rds.oeb.ca/CMWebDrawer
   baseurl_source: declared
   description: The machine-readable query vocabulary the RDS search form itself loads.
   name: Ontario Energy Board Search Metadata API
@@ -286,21 +286,21 @@ overview: 'Ontario Energy Board publishes 12 APIs on the [APIs.io](https://apis.
 random_paper: 0
 score:
   band: developing
-  composite: 47.1
+  composite: 43.2
   coverage:
     artifact_dirs: 22
-    catalog_earned: 45.0
+    catalog_earned: 39.4
     catalog_earned_first_party: 5.0
-    catalog_gap: 55.0
+    catalog_gap: 60.6
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.9
   facets:
     access_clarity: 28.6
     contract_governance: 33.3
-    contract_quality: 57.0
+    contract_quality: 51.6
     developer_ergonomics: 58.9
-    discoverability: 63.0
+    discoverability: 51.8
     operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -324,9 +324,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 39.2
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 23.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

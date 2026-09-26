@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -304,7 +304,7 @@ modified: '2026-08-15'
 name: Validic
 nav: Providers
 network: true
-overview: 'Validic publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Devices API, Marketplace & Connections API, Observations & Data API, and 7 more. Tagged areas include Health Data, Digital Health, Wearables, Remote Patient Monitoring, and Health IoT.
+overview: 'Validic publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Devices API, Marketplace & Connections API, Observations & Data API, and 8 more. Tagged areas include Health Data, Digital Health, Wearables, Remote Patient Monitoring, and Health IoT.
 
 
   The Validic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -322,7 +322,7 @@ rate_limits:
   slug: validic-rate-limits
 score:
   band: strong
-  composite: 62.1
+  composite: 59.0
   coverage:
     artifact_dirs: 26
     catalog_earned: 67.0
@@ -330,13 +330,13 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.1
   facets:
     access_clarity: 81.6
     contract_governance: 0.0
-    contract_quality: 42.7
+    contract_quality: 39.6
     developer_ergonomics: 64.3
-    discoverability: 81.5
+    discoverability: 78.6
     operational_transparency: 73.7
   previous_composite: 62.1
   provenance:
@@ -354,9 +354,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 53.8
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 33.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

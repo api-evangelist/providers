@@ -11,8 +11,8 @@
 # All weights and point values are tunable. Keep this file the single source
 # of truth for the rubric — code that scores providers should read from here.
 
-schema_version: 0.22.0
-last_updated: '2026-09-06'
+schema_version: 0.23.0
+last_updated: '2026-09-25'
 maintainer: kin@apievangelist.com
 
 # The public "what changed" note. The apis.io /rating/ page renders this rather than
@@ -22,44 +22,90 @@ maintainer: kin@apievangelist.com
 # checked against schema_version by test_rubric_record.py: a rubric cannot reach a
 # rebuild carrying the previous release's story.
 release_note:
-  version: 0.22.0
+  version: 0.23.0
   body: |
-    MCP SERVERS ARE NOW GRADED BY WHO BUILT THEM, not only by whether they answered.
+    THE LONDON RELEASE, published 25 September 2026 ahead of API Days London (30 September).
+    Scores move for most of the catalog: 25,659 of 26,192 composites (median -0.8), 2,078 band
+    changes (1,638 down, 440 up), 515 agent-readiness band changes. No band re-cut: no band share
+    moved more than 1.4 points. Our own record moves too: apis.io 88.8 -> 90.9.
 
-    0.6 fixed reachability — it stopped paying twelve points for servers nobody could
-    connect to. It left authorship alone, and authorship turns out to be most of the
-    cohort. Clustering tool-name shapes across every server that enumerates (451 of the
-    472 live) finds 292 providers — 64.7% — serving a surface shared with other
-    providers. 129 share one commerce fingerprint. 62 are Wix, 37 Mintlify, 35 Shopify.
-    51 answer at /wp-json/mcp/mcp-oauth-server: one WordPress plugin installed on a
-    company marketing site, not 51 separate product decisions.
+    EVERY COMPANY IS REACHED BY SOME LAW. The regulatory facet used to apply only where a sector
+    matched (banking, health, payments...), which scored two thirds of the catalog as if no law
+    reached them. A horizontal regime -- GDPR, the EU AI Act, the Cyber Resilience Act, the
+    Accessibility Act, US state privacy law -- now applies to every provider no sector claims:
+    16,589 providers gain a regulatory facet (roadmap#442).
 
-    Every one of those 292 held the full twelve points. That is 2,628 points paid for
-    other people's engineering, inside the layer whose entire purpose is to say whether
-    THIS provider is ready for an agent.
+    FOURTEEN REGULATORY-POSTURE CHECKS. Subprocessor lists, DPAs, data-residency and retention
+    statements, AI transparency and training-data summaries, accessibility conformance, support
+    lifetimes and more -- 4 points each, in the regulatory facet (108 -> 164 points). Adoption is
+    near zero today; the rows nobody passes are the work list, not an oversight (roadmap#444).
+    Each regime's mean was re-measured against the enlarged facet, so a provider is compared with
+    its peers, not docked for checks nobody can satisfy yet.
 
-    TWO NEW GRADES, and the rubric had already decided the harder of them. `agentic_commerce`
-    grades {self: 1.0, platform: 0.25} for exactly this distinction on a different
-    protocol; answering it differently for MCP was the inconsistency, and `platform` at
-    0.25 removes it. `templated` at 0.6 is for a real server whose URL an agent cannot
-    construct — https://{tenant}.mcp.example.com/mcp. That is positive evidence, so it
-    sits above `documented`, and it offers no self-service path, so it sits below
-    `verified`.
+    NEWSROOM AND LEADERSHIP are canonical pointer types, one discoverability point each
+    (roadmap#452).
 
-    `templated` MOVES IN BOTH DIRECTIONS, deliberately. It lowers the 5 templated
-    endpoints currently graded `verified`, because an agent cannot get in. It RAISES the
-    42 graded `claimed`, because a documented template is evidence of a real server and
-    more than a bare claim. Measured: no provider is both platform-authored and
-    templated.
+    MARK YOUR OWN WORK, AND IT PAYS. An artifact the provider marks `method: declared | authored |
+    published | self-reported`, beside a `publisher:` and a resolvable `source:`, is first-party.
+    An unmarked artifact is now credited at 0.90 rather than in full, so marking authorship is
+    worth 10% on every provenance-graded check. The vocabulary is on /rating/#provenance
+    (roadmap#285).
 
-    WHAT THIS DOES NOT DO. Authorship is knowable only where a server enumerates its
-    tools. 1,055 gate tools/list behind auth and are never classified; they keep
-    `verified`, and absent authorship is never read as platform authorship. That is the
-    roadmap#125 rule pointed the other way: unknown is not a finding. The correction
-    reaches the 292 measured and no further, which is the honest reach of the evidence.
+    OUR DERIVATION IS NOT YOUR DOCUMENTATION. Idempotency, error semantics and rate-limit
+    signalling earn their `documented` half-credit from a provider-level artifact. When every such
+    artifact is one API Evangelist derived -- an error catalog generated from your contract, say --
+    the grade is `derived` at 0.125, and it does not open the agent-native band. A transcription of
+    what you wrote in prose still counts as documented (roadmap#787).
 
-    The ceiling does not move — `mcp_server` stays 12 points and the layer stays 139, so
-    nothing is rescaled. Only the credit earned within it changes.
+    AN AGENT CARD A PLATFORM SERVES FOR YOU is credited at 0.6 of its conformance grade: the
+    identity and content are yours, the host and transport are the platform's (roadmap#461).
+
+    A POINTER HAS TO LEAD SOMEWHERE. A repo-relative artifact pointer now earns credit only if
+    the file it names exists. Enrichment runs had written pointers for artifacts they never
+    produced, and the rubric paid for them without looking (roadmap#376).
+
+    CAN AN AGENT ADDRESS YOUR MCP SERVER? Discoverability gains `mcp_endpoint_discoverable`.
+    A server whose endpoint is a template nobody can fill in from public information
+    (`https://{tenant}.mcp.example.com/mcp`) no longer scores like one an agent can reach
+    unaided. Providers without an MCP server are unaffected: the check is not applicable to
+    them (roadmap#318).
+
+    "POLICY" IS NOT INSURANCE. Policy-as-code, authorization and network-policy companies were
+    being scored under the insurance regime because a tag contained the word `policy`. The word
+    no longer places a provider in the regime; insurance-specific compounds do (roadmap#431).
+
+    EMPLOYMENT AND PAYROLL IS A REGULATED SURFACE. A new regime covers payroll, employer-of-record,
+    PEO and HRIS providers (worker data under GDPR Art. 88, statutory payroll reporting, screening on
+    contractor payouts). A learning-management tag on its own no longer places a provider in the
+    education regime (roadmap#427).
+
+    THE PROVIDER'S OWN DOMAIN COUNTS FOR SELF-HOSTING even when that domain is also a catalog
+    host (roadmap#323).
+
+    A WORDPRESS PLUGIN IS NOT AN MCP PRODUCT. 108 providers' graded MCP endpoint is the WordPress
+    MCP Adapter namespace (`/wp-json/mcp/...`) on their marketing site, and every one of them was
+    credited as a first-party MCP server. That endpoint is now its own provenance class,
+    `site-plugin`: credited like derived work (0.25) and graded `platform` in agent readiness.
+    MCP manifests whose own status says someone else runs the server (`third-party`, `platform`,
+    `platform-default`, `community`) leave the first-party path the same way (roadmap#485).
+
+    A WEBSITE OR STORE PLATFORM'S BUILT-IN ENDPOINTS ARE NOT THE COMPANY'S API. Every Wix site
+    serves an MCP server at /_api/mcp; every Shopify store serves a Storefront GraphQL API, a UCP
+    commerce endpoint and a customer-account API; every WordPress site serves /wp-json. They are
+    real and callable, and the platform designed them. They are now one provenance class,
+    `platform-generated`, credited like the WordPress plugin (0.25) — the capability still counts
+    for agent readiness, the company is no longer paid as if it had built an API
+    (roadmap#676, #680).
+
+    AN ACQUIRED COMPANY WITH NOTHING LEFT IS UNRATED. A record marked `x-status: acquired` that
+    has no website and no APIs is a company that was absorbed; its page stays as history and it
+    carries no rating, exactly as a defunct company already does (roadmap#501).
+
+    Not rubric changes, but shipping in the same pass: a defunct company scores zero (roadmap#593);
+    protected-resource metadata and dynamic client registration were re-probed on 656 MCP hosts
+    (roadmap#321, #337); and marketing-site base URLs were removed from 3,035 API records
+    (roadmap#569, #628), which lowers base_url_per_api where a provider's only base URL was its
+    homepage.
 aliases:
   # 0.13 (roadmap#71) — the Examples family. A provider publishing a separate example
   # corpus wired `Examples` in good faith and it was read by NOTHING; four spellings of
@@ -459,6 +505,32 @@ provenance:
   #     reliably means "nobody said," it should cost something. Do not lower it
   #     before then, and re-cut bands when it moves — this multiplies awards
   #     across seven checks.
+  # 0.23.0 (roadmap#285) — THE PROVIDER VOCABULARY, accepted. Kin's ruling 2026-09-17 on
+  # item (1) above: `build_provenance.py`'s two method sets both describe how OUR pipeline
+  # obtained something, so a provider authoring their own artifact reaches for neither and
+  # falls through to `unknown`. Xquik stamped `method: declared` across their whole set and
+  # every file resolved `unknown` except the one that also carried `status: published`.
+  #
+  # WHAT THIS DOES AND DOES NOT DO. `unknown` is credited 1.00, the same as `first-party`,
+  # so recognising these tokens moves NO composite — not Xquik's, not anyone's. What it moves
+  # is the DISCLOSURE: `catalog_earned_first_party` and `provenance_coverage` stop understating
+  # every provider who marks their own work. Item (2) above is the dial that makes it pay, and
+  # it stays shut until coverage is real.
+  #
+  # THE GUARD IS THE WHOLE POINT. A bare `method: authored` is a provider asserting authorship
+  # of their own artifact, for free, about themselves. It is accepted only when the artifact
+  # also names a `publisher:` and carries a `source:` that resolves — an absolute http(s) URL
+  # or a path present in the repo. Liveness is NOT probed here: this pass reads 27k artifact
+  # heads and a probe belongs in the well-known sweep. The guard is about legibility, not
+  # verification, and the published wording should say so.
+  #
+  # A PROVIDER CANNOT USE A TOKEN NOBODY PUBLISHED. This list is the rubric's copy precisely
+  # so /rating/ can render it; build_provenance.py reads it from here rather than carrying its
+  # own. Absent from a rubric (as it is from 0.22.0), the classifier keeps its old behaviour —
+  # which is what keeps this inert until this release ships.
+  author_markers:
+    methods: [declared, authored, published, self-reported]
+    requires: [publisher, source]
   credit:
     first-party: 1.00
     conformance: 0.75
@@ -468,7 +540,66 @@ provenance:
     # derivation. `derived` means we built it from something the provider published;
     # `scaffold` means the document itself says nobody exercised the API.
     scaffold: 0.00
-    unknown: 1.00
+    # 0.23.0 (roadmap#285 item 2). Kin's call 2026-09-17: lower it, in London.
+    #
+    # 1.00 was right while nothing in the score rewarded a provider for making authorship legible
+    # — the block's own item (2) says so, and says the dial should turn once item (1) lands. It
+    # landed in this release: `author_markers` accepts the provider's own vocabulary and
+    # /rating/#provenance publishes the tokens.
+    #
+    # 0.90 AND NOT LOWER, measured rather than chosen: at 0.90, 9,617 of 26,484 composites move,
+    # median -1.30, and 895 change band. At 0.75 it is 9,648 moving, median -3.30, 2,155 band
+    # changes, and the exemplar band HALVES (1.3% -> 0.7%). A 10% haircut is the smallest step
+    # that inverts the incentive; 25% is a different release with a different argument.
+    #
+    # NO BAND RE-CUT. Measured on the 0.90 snapshot the shares drift by at most 0.6pp — exemplar
+    # 1.1 -> 1.0, strong 4.3 -> 4.0, developing 14.4 -> 13.8, minimal 39.0 -> 38.6 — and the
+    # documented rule is to re-cut only when a band empties or swells. Moving the cuts to absorb
+    # a uniform haircut would change what `strong` MEANS in order to keep its population, which is
+    # the opposite of calibration.
+    #
+    # WHAT IT COSTS, SAID PLAINLY: 895 providers drop a band for a gap in OUR metadata. Marker
+    # coverage is 7.6%; the other 92.4% are unmarked because until this release nothing asked them
+    # to mark anything. The release note must say that, and must point at /rating/#provenance as
+    # the remedy — a provider who marks their work gets the credit back, and that is the entire
+    # point of moving this dial rather than leaving it.
+    unknown: 0.90
+    # 0.23.0 (roadmap#485) — REAL, AND SOMEBODY ELSE'S. Two classes that used to land on the
+    # first-party path, priced at `derived` because the rubric already has one number for "real,
+    # callable, not this provider's design": mcp_server `platform` 0.25, agentic_commerce
+    # `platform` 0.25. build_provenance.py reads these two keys to decide whether to emit the
+    # classes at all, so a rubric without them (0.22.0) classifies exactly as before.
+    #
+    #   site-plugin  the graded MCP endpoint is the WordPress MCP Adapter's REST namespace,
+    #                `/wp-json/mcp/...`, recognised by PATH whether or not tools/list answers.
+    #                108 providers; before this, all 108 read first-party. 4 more carry the
+    #                plugin URL somewhere in their record but are graded on a real product server
+    #                (skai-kenshoo, dailypay, debounce, aptera-motors) and are untouched.
+    #   third-party  the manifest's own `status:` is third-party / platform / platform-default /
+    #                community — a community npm server, a Zapier bridge. 17 providers (an 18th,
+    #                resynergi's `platform-default`, IS the plugin and reads site-plugin).
+    #
+    # In agent readiness both are graded `platform` by mcp_server, and the multiplier below is NOT
+    # applied on top: the grade already carries the authorship discount, and stacking the two
+    # (0.25 x 0.25) would price a WordPress plugin below a server we derived ourselves.
+    site-plugin: 0.25
+    third-party: 0.25
+    # 0.23.0 (roadmap#676, #680) — ONE CLASS FOR EVERY PLATFORM-GENERATED SURFACE. `site-plugin`
+    # named the WordPress MCP Adapter; the same fact holds for every surface a website or store
+    # platform generates for each tenant: WordPress core REST (/wp-json), Wix's site MCP
+    # (/_api/mcp), Shopify's Storefront GraphQL, Storefront MCP, UCP and Customer Account endpoints.
+    # The data marks them (`x-surface: platform-generated` + `x-platform`, collapse-platform-
+    # surfaces.py, from response-header evidence, never the path alone); build_provenance.py reads
+    # the mark and emits the class for three artifact kinds:
+    #   mcp      the graded MCP endpoint is a platform surface         (mcp_server_present, mcp_server)
+    #   openapi  >= 75% of the OpenAPI corpus describes one            (contract_present, openapi checks)
+    #   graphql  every SDL is a store's Storefront API schema          (graphql_sdl_present/_type_depth/
+    #                                                                   _descriptions; read in score.rb,
+    #                                                                   not via applies_to, so no other
+    #                                                                   SDL is graded as `unknown`)
+    # contract_present pays this class when EVERY contract the provider has is platform-generated.
+    # In agent readiness mcp_server grades `platform`, not stacked, exactly as site-plugin.
+    platform-generated: 0.25
   # Checks and dimensions whose award is multiplied by the authorship credit of
   # the artifact class named here. Everything else is unaffected.
   applies_to:
@@ -764,33 +895,205 @@ facets:
 # and it is what the Market Reports publish.
 #
 # Measured 2026-08-17 over 8,327 providers holding a 0.11.0 artifact with a regime.
+# THE HORIZONTAL QUESTION, settled 2026-09-19 (roadmap#443).
+#
+# roadmap#443 argued that this re-centering cannot work for a HORIZONTAL regime — one whose cohort
+# is effectively the whole catalog — because "the re-centred delta sums to zero across the whole
+# population", so the facet "would cost compute and move nothing".
+#
+# THE ARITHMETIC IS RIGHT AND THE CONCLUSION IS WRONG, and the difference is worth writing down
+# because the same argument will be made again. Measured 2026-09-19 across all nine regimes, the
+# mean of (reg - regime_mean) is 0.0000000000 in every one — exactly as designed, and the property
+# the 2026-08-17 note above exists to create.
+#
+# But that is a LOCATION SHIFT. It removes the average effect and leaves the spread and the ranking
+# whole. Pooling the 821 scored regulated providers as one cohort — the closest thing this catalog
+# has to a horizontal population:
+#
+#     stdev of the delta ................ 8.03
+#     range ............................. -13.7 .. +41.0
+#     composite shift at p5 / p95 ....... -2.06 / +1.83
+#     providers moving >= 0.5 points .... 652 of 821  (79%)
+#
+# Four providers in five move by half a composite point or more. A horizontal regime re-centred on
+# its own mean says "this provider's regulatory posture against the average provider's", which is a
+# real comparison and arguably a better one than comparing a health provider only to other health
+# providers. Nor is it a copy of `base`: base measures contract quality and ergonomics, this
+# measures regulatory posture, and re-centring one does not turn it into the other.
+#
+# SO NO SPECIAL HANDLING IS ADOPTED FOR HORIZONTAL REGIMES. The three options roadmap#443 offered —
+# absolute undamped, re-centre on jurisdiction, or a standalone axis — were all answers to a
+# degeneracy that does not occur. If a standalone axis is wanted later it should be argued on its
+# own merits ("regulatory posture is a different question from contract quality", the Agent
+# Readiness precedent), NOT on the maths.
+#
+# WHAT WOULD ACTUALLY MAKE THE FACET INERT is a collapsed SPREAD, not a zero mean: a cohort whose
+# members all score the same contributes nothing, silently and plausibly, which is the roadmap#43
+# shape. test_release_023.rb pins that, and separately refuses a horizontal regime being added to
+# `industry_regulatory` while this note stands, so the question cannot be reopened by accident.
 regime_means:
-  _default: 24.9          # all-regulated mean; a regime with no cohort yet
-  _measured_at: '2026-08-18'
-  _rubric: 0.12.0         # RECOMPUTED from the clean 0.12.0 snapshot
-  _n: 8991
-  # The 0.11.0 means were measured from scores carrying the CONFORMANCE_CACHE type
-  # collision, which silently evaluated reg_smart_configuration, reg_pci_sca,
-  # reg_certification_signal and reg_mandate_verified as FALSE wherever the boolean
-  # cache landed first. Those checks read conformance_text, so the damage was
-  # concentrated in payments (+1.7 after the fix) and banking (+2.8) -- the two
-  # regimes whose checks depend on it most. Re-centring against the dirty means
-  # would have over-rewarded exactly those providers.
+  _default: 16.0          # all-SECTORAL mean; a sectoral regime with no cohort yet. Never the fallback.
+  _measured_at: '2026-09-25'
+  _rubric: 0.23.0         # RECOMPUTED against the 164-point facet (roadmap#444) and the horizontal cohort (#442)
+  _n: 26352
+  # 0.23.0 — measured 2026-09-25 on a full candidate snapshot (27,448 rows), final 0.23 code, the
+  # regulatory facet's own value per member, DEFUNCT EXCLUDED (1,096 rows, exactly the set
+  # defunct_lifecycle? names: zero_defunct! blanks their facets, so counting them would drag every
+  # mean toward 0 for companies that are not scored). The means fall by about a third against 0.12.0,
+  # which is the arithmetic of #444, not a change in providers: the facet went 108 -> 164 points and
+  # the 56 new points are almost unearned, so a 0.12 mean of 32.5 lands near 32.5 x 108/164 = 21.4
+  # before anything else moves. Re-centring against the stale means would have docked every
+  # regulated provider about 0.15 x (old - new) composite for checks nobody can satisfy yet.
   #
-  # `education` now carries its own measured mean (n=834) and no longer takes the
-  # default. `government` fell 978 -> 836 providers and 22.8 -> 21.7 because the new
-  # regime took the universities that were only ever matching it on a tag brush.
-  health: 18.7                    # n=2783
-  payments: 32.5                  # n=1335
-  energy_utilities: 19.4          # n=920
-  government: 21.7                # n=836
-  education: 27.6                 # n=834
-  insurance: 27.2                 # n=719
-  banking_open_finance: 31.1      # n=641
-  securities_market_data: 35.2    # n=475
-  telecommunications: 29.5        # n=448
+  # The previous values, kept for the record: health 18.7 (n=2783), payments 32.5 (1335),
+  # energy_utilities 19.4 (920), government 21.7 (836), education 27.6 (834), insurance 27.2 (719),
+  # banking_open_finance 31.1 (641), securities_market_data 35.2 (475), telecommunications 29.5 (448),
+  # employment_payroll 35.3 (430, candidate 2026-09-17); _default 24.9, n=8991, rubric 0.12.0.
+  horizontal: 15.6                # n=16589  median 13.7  (roadmap#442 — measured, never _default)
+  health: 12.4                    # n=3040   median 10.9
+  payments: 19.7                  # n=1369   median 17.9
+  energy_utilities: 13.3          # n=998    median 10.8
+  education: 18.6                 # n=860    median 16.7
+  government: 13.1                # n=848    median 10.8
+  insurance: 16.7                 # n=672    median 12.3
+  banking_open_finance: 20.6      # n=627    median 15.7
+  securities_market_data: 20.9    # n=508    median 21.3
+  employment_payroll: 18.8        # n=423    median 16.7
+  telecommunications: 20.2        # n=418    median 16.7
 
+# ---------------------------------------------------------------------------------------------
+# DOES JURISDICTION GATE ANYTHING? NO — DECIDED 2026-09-19 (roadmap#445, roadmap#85).
+#
+# `regime_jurisdictions` below has carried the note "NOTHING READS THIS YET" since roadmap#85.
+# That stays true in 0.23.0, and this is the written decision roadmap#445 asked for rather than
+# another deferral.
+#
+# THE COVERAGE, RE-MEASURED TODAY. `network/_data/provider_countries.json` resolves a country for
+# 3,451 of 28,564 providers — 12.08%. Its own `note` field states the basis:
+#
+#     "a FIRST APPROXIMATION derived from provider tags, not a legal determination of where a
+#      company operates"
+#
+# Both halves matter and the second matters more. A tag is an establishment guess; territorial
+# scope is about where you SELL. GDPR, the AI Act, the CRA and the EAA all reach a provider who
+# merely places a product on the EU market, so a provider with no `Germany` tag is very often in
+# scope of EU law anyway. The signal we have is the wrong KIND of signal for the question, and
+# improving its coverage would not fix that.
+#
+# SO: the fourteen regulatory-posture checks added in this release (roadmap#444) apply to every
+# provider, unconditionally. No check reads `regime_jurisdictions`, and none may.
+#
+# THE ALTERNATIVE WAS WORSE, WHICH IS THE ACTUAL ARGUMENT. Conditioning on a 12%-coverage
+# tag-derived approximation produces a regulatory layer that applies to a twelfth of the catalog
+# while presenting as universal: 88% of providers would be silently skipped, and a skip reads as
+# compliance. That is the `kin-score-silent-zero-paths` shape — a near-miss scoring identically
+# to publishing nothing — and it is the failure this rubric has paid for most often.
+#
+# Scoring everybody is also defensible on the merits, not merely as the lesser evil: a provider
+# that publishes an accessibility conformance report or a vulnerability disclosure policy is
+# better off for it in every jurisdiction, so there is no jurisdiction in which the horizontal
+# checks measure the wrong thing.
+#
+# MEASURED 2026-09-19, and it is four times the tag signal (roadmap#451). A stratified sample of
+# 180 providers across six jurisdictions, probing the surfaces providers actually publish — trust,
+# compliance, privacy and pricing pages:
+#
+#     resolve to at least one market      93/180   51.7%
+#     ...at least one STATED by them      88/180   48.9%
+#
+#     europe 52 stated | united-kingdom 32 | canada 29 | united-states 12 | australia 11
+#
+# against the 12.08% this tag-derived map resolves. `stated` means the provider NAMES the regime —
+# UK GDPR, PIPEDA, Privacy Act 1988 — rather than it being inferred from a currency or a region
+# code, and the two are never collapsed.
+#
+# THIS IS NOT YET A GATE AND MUST NOT BECOME ONE WITHOUT A DECISION. It is the reviewable number
+# roadmap#445 asked for: the next release can weigh 48.9% stated market access against 12.08%
+# tag-derived establishment and decide deliberately. No check reads it, and the guard in
+# test_release_023.rb still refuses any check that reads `regime_jurisdictions`.
+#
+# WHAT WOULD REOPEN THIS. Not a higher percentage of the same signal. A market-access signal —
+# marketplace listings, data-residency pages, subprocessor lists (roadmap#451, roadmap#453) —
+# which says where a provider SELLS rather than where it is guessed to sit. If that lands, the
+# gate becomes arguable and the floor question becomes real: below what coverage does it not
+# apply, and does an unresolved provider skip, default in, or score `na`. Until then there is no
+# gate, so there is no unstated skip.
+#
+# test_release_023.rb pins this: no check may name `regime_jurisdictions` while this note stands.
 industry_regulatory:
+  # THE HORIZONTAL REGIME (roadmap#442). Kin's call, 2026-09-19: ship it.
+  #
+  # FIRST IN THE MAP AND LAST TO MATCH. It declares no `tags`, so it can never win the strong or
+  # weak tag contest — `fallback: true` is the only way a provider reaches it, and only after every
+  # sectoral regime has failed to match. It is written first purely so a reader meets it before the
+  # nine sectoral regimes it sits underneath.
+  #
+  # WHY IT EXISTS. 19,151 of 28,564 provider pages (67.0%) carried no regulatory facet at all, and
+  # the silence read as a pass. That was never because no law reached them — it was because every
+  # law that reaches them is horizontal: it binds a company for what it does with data, software or
+  # customers, not for the sector it files itself under.
+  #
+  # AN UNTAGGED PROVIDER REACHES THIS TOO, which is a deliberate reversal of the 0.12 behaviour
+  # directly above in `regulatory_regime_for`. roadmap#34 made an untagged provider `undetermined`
+  # rather than unregulated, because inventing a SECTOR from no evidence would be worse than
+  # admitting ignorance. A horizontal regime needs no such evidence: GDPR does not ask what industry
+  # you are in. So "we do not know your sector" stops being a reason to score no regulatory posture
+  # at all. The `undetermined` state survives for the SECTOR question, which is what it was for.
+  #
+  # WHAT SHIPPING THIS COSTS, MEASURED AND ACCEPTED RATHER THAN DISCOVERED LATER. Of the 68 points
+  # the roadmap#444 checks add, 8 are reachable today — TermsOfService on 12,513 repos (43.8%) and
+  # PrivacyPolicy on 13,911 (48.7%). The other 56 points across 10 checks are satisfiable by NO
+  # provider in the catalog: SBOM, SupportLifetime, AccessibilityConformance, TrainingDataSummary,
+  # GlobalPrivacyControl, DataSubjectRequest, AgeAssurance, NoticeAndAction, TransparencyReport and
+  # ExitAssistance are all on zero repos; Subprocessors is on 10, AITransparency, DataResidency and
+  # IncidentNotification on 1 each.
+  #
+  # So this facet is close to two-valued for the newly-scored population on day one, and that is
+  # the point rather than an objection to it: a rubric that never asks can never drive adoption,
+  # and the published rubric is what tells a provider the artifact exists. The 0% rows are the
+  # work list.
+  #
+  # THIS DELIBERATELY REOPENS THE roadmap#443 GUARD. That guard refused a horizontal regime in
+  # `industry_regulatory` so the question could not be reopened BY ACCIDENT — not because the
+  # answer was no. It has now been reopened on purpose, with the numbers above, and the guard in
+  # test_release_023.rb is updated to permit exactly this one fallback regime and nothing else.
+  #
+  # REGIME MEANS ARE NOT OPTIONAL HERE, THEY ARE LOAD-BEARING. `regime_mean_for` falls back to
+  # `_default` (24.9, the all-regulated mean) for any regime with no recorded mean. Subtracting
+  # 24.9 from a cohort that scores single digits is roughly -3.0 composite points on 19,151
+  # providers, applied silently. test_release_023.rb fails until `regime_means.horizontal` is
+  # measured against this facet. Do not paper that over with a guess.
+  horizontal:
+    label: Horizontal (data, software, accessibility, platform)
+    specificity: 0
+    fallback: true
+    regimes: [GDPR (EU/UK), EU AI Act, Cyber Resilience Act (EU), European Accessibility Act (EU),
+              Digital Services Act (EU), Online Safety Act (UK), US state privacy laws, BIPA (Illinois),
+              DOJ bulk sensitive data rule (US), CASL (Canada)]
+    # Declared, and read by NOTHING — see the jurisdiction decision above. A horizontal regime is
+    # the case that makes the point: a provider with no country resolved is still reached by most
+    # of this list, because territorial scope follows the market, not the head office.
+    regime_jurisdictions:
+      "GDPR (EU/UK)": [europe, united-kingdom]
+      "EU AI Act": [europe]
+      "Cyber Resilience Act (EU)": [europe]
+      "European Accessibility Act (EU)": [europe]
+      "Digital Services Act (EU)": [europe]
+      "Online Safety Act (UK)": [united-kingdom]
+      "US state privacy laws": [united-states]
+      "BIPA (Illinois)": [united-states]
+      "DOJ bulk sensitive data rule (US)": [united-states]
+      "CASL (Canada)": [canada]
+    basis: >
+      Obligations that attach to what a company does with data, software and
+      customers rather than to the sector it operates in: privacy and data-subject
+      rights, AI transparency, software supply chain and support lifetime,
+      accessibility conformance, incident notification, and platform duties.
+    # NO `tags` AND NO `weak_tags`, ON PURPOSE. A tag list here would make this regime compete with
+    # the sectoral ones in the matcher, and specificity 0 would lose every contest anyway. Reached
+    # only via `fallback: true`, after every sectoral regime has been tried and missed.
+    tags: []
+    standards: []
   banking_open_finance:
     label: Banking & Open Finance
     specificity: 3
@@ -958,9 +1261,16 @@ industry_regulatory:
     basis: >
       Policyholder data and market conduct: consent, disclosure, and
       standards conformance where an open-insurance regime exists.
-    tags: [insurance, insurtech, underwriting, claims, policy, actuarial,
+    # 0.23 (roadmap#431): `policy` is removed. Word-expanded as a strong tag it put 48
+    # policy-as-code, authorization and network-policy companies (Calico, Kyverno, Cerbos, Azure
+    # Policy...) in this regime, and even as a whole tag it is ambiguous: Azure Policy is tagged
+    # `Policy` and is not an insurer. Modelled as a weak tag first, it still held Azure Policy.
+    # Insurance-specific compounds carry the real carriers. `policy management` is NOT one: it
+    # is the policy-as-code category (Kyverno).
+    tags: [insurance, insurtech, underwriting, claims, actuarial,
            reinsurance, broker network, lloyds, syndicate, p&c, life insurance,
-           health insurance, general insurance]
+           health insurance, general insurance, insurance policy, policy administration,
+           policyholder]
     standards: [acord, acord-al3, acord-xml, ngds, grlc, cieca-bms, csio,
                 market-reform-contract]
   telecommunications:
@@ -1098,10 +1408,33 @@ industry_regulatory:
     tags: ['university', 'universities', 'higher education', 'college', 'campus',
            'student', 'student information system', 'sis', 'academic',
            'research information', 'institutional repository', 'scholarly',
-           'learning management', 'lms', 'edtech', 'education', 'school',
+           'learning management', 'edtech', 'education', 'school',
            'registrar', 'admissions', 'courseware', 'library']
+    # 0.23 (roadmap#427): `lms` alone is weak. Bindbee's LMS is one namespace of an HR integration
+    # product, and it put an HRIS/payroll API in this regime.
+    weak_tags: ['lms']
     standards: ['scim', 'lti', 'oneroster', 'ed-fi', 'caliper', 'qti', 'oai-pmh',
                 'shibboleth', 'saml', 'orcid', 'datacite', 'crossref']
+  # 0.23 (roadmap#427) — EMPLOYMENT & PAYROLL. Global payroll and EOR are among the most regulated API
+  # surfaces in the catalog and the rubric could not see them: Deel and Remote matched nothing, Papaya
+  # matched Payments, and Bindbee matched Education on its LMS namespace.
+  employment_payroll:
+    label: Employment & Payroll
+    specificity: 3
+    regimes: ["GDPR Art. 88 (EU)", "FLSA / IRS payroll (US)", "HMRC RTI (UK)", "AML/KYC on contractor payouts"]
+    regime_jurisdictions:
+      "GDPR Art. 88 (EU)": [europe]
+      "FLSA / IRS payroll (US)": [united-states]
+      "HMRC RTI (UK)": [united-kingdom]
+      "AML/KYC on contractor payouts": []
+    basis: >
+      Employee data and payroll: worker consent and data minimisation, statutory tax and
+      reporting, and screening on cross-border contractor payouts.
+    tags: [payroll, global payroll, employer of record, eor, peo, contractor of record,
+           hris, hcm, human capital management, employment verification]
+    # bare `employment` word-expands onto `Employee Engagement` / `Employee Experience`; phrase-only.
+    weak_tags: [human resources, employment]
+    standards: [hr-open, scim, saml, soc2]
   government:
     label: Government & Public Sector
     specificity: 2
@@ -1203,6 +1536,25 @@ artifacts:
         description: >
           Both timestamps present as ISO dates, so freshness is machine-readable and a
           consumer can tell a maintained index from an abandoned one.
+      - id: newsroom_present
+        label: Newsroom
+        facet: discoverability
+        points: 1
+        rule: 'common[].type includes Newsroom, PressReleases, Press or News'
+        description: >
+          The provider's own announcements surface, declared as a pointer. A publishing act in
+          the same class as a Blog pointer: it makes the company's own announcements
+          discoverable at a stable URL rather than only through a search engine. Worth exactly
+          what a Blog pointer is worth and no more (roadmap#452).
+      - id: leadership_present
+        label: Leadership page
+        facet: discoverability
+        points: 1
+        rule: 'common[].type includes Leadership, LeadershipTeam, Management or ExecutiveTeam'
+        description: >
+          The provider's own leadership page, declared as a pointer. Scored for being published
+          and discoverable and for nothing else — no person, no name, and no inference about
+          any individual is read, recorded or scored (roadmap#452).
       - id: multiple_apis
         label: Indexes three or more APIs
         facet: discoverability
@@ -1264,6 +1616,23 @@ artifacts:
           conventional path, what a language model should read to understand the
           product. Young, unratified, and adopted by 6,012 providers in this catalog,
           which makes it the fastest-moving machine-discoverability signal there is.
+      # 0.23 (roadmap#318) — the MCP endpoint is a machine entry point exactly like well-known
+      # and llms.txt, and this facet could not see it.
+      - id: mcp_endpoint_discoverable
+        label: MCP endpoint is addressable from public information
+        facet: discoverability
+        points: 4
+        graded: true
+        credit:
+          addressable: 1.00
+          documented: 0.50
+          templated: 0.00
+        rule: 'the provider runs an MCP server; graded on whether an agent can construct its endpoint unaided'
+        signal: '`addressable` when a concrete endpoint URL is published (probed or not; probing is agent readiness''s question), `documented` when a real server has no endpoint to construct (stdio, unclear, or a first-party pointer), `templated` when the published endpoint carries a placeholder ({tenant}, <your-host>) nothing public resolves'
+        description: >
+          An MCP server an agent cannot address is not discoverable, however real it is. Not
+          applicable to a provider that runs no MCP server, so the points leave the denominator
+          instead of marking anyone down.
       - id: apis_json_self_hosted
         label: Self-hosts the APIs.json index
         facet: discoverability
@@ -2504,6 +2873,118 @@ artifacts:
           19 standards repositories and absent from both specs of the one exposure
           platform with a callable endpoint), and TM Forum Open API conformance — held
           widely by carriers who publish no network API at all.
+      - id: reg_sbom
+        label: Software bill of materials
+        facet: regulatory
+        points: 4
+        rule: 'common[].type includes "SBOM"'
+        description: >
+          An SBOM. The CRA makes it a condition of placing a product on the EU market, and US federal procurement already asks for it. Machine-readable, cheap to publish, and almost absent across the catalog.
+          Asked for by: EU Cyber Resilience Act; EO 14028 procurement. (roadmap#444)
+      - id: reg_support_lifetime
+        label: Declared support lifetime
+        facet: regulatory
+        points: 4
+        rule: 'common[].type includes "SupportLifetime"'
+        description: >
+          A published support or security-update period. UK PSTI made this a condition of sale alongside a vulnerability-disclosure policy — mandated, cheap, machine-readable, and mostly missing, which is what a scored check should be aimed at.
+          Asked for by: UK PSTI; CRA; Australia Cyber Security Act. (roadmap#444)
+      - id: reg_accessibility_conformance
+        label: Accessibility conformance report
+        facet: regulatory
+        points: 4
+        rule: 'common[].type includes "AccessibilityConformance"'
+        description: >
+          A conformance report (VPAT/ACR or equivalent). A provider shipping an embedded widget, hosted page or SDK component puts that artifact inside a customer's EAA/AODA compliance boundary; the report is standardised in form and almost never in developer documentation.
+          Asked for by: European Accessibility Act; ADA Title III; AODA; Section 508. (roadmap#444)
+      - id: reg_training_data_summary
+        label: Training-data summary
+        facet: regulatory
+        points: 4
+        rule: 'common[].type includes "TrainingDataSummary"'
+        description: >
+          A public summary of training data. AB 2013 and the AI Act's GPAI duties both ask for one; it applies only where the provider declares an AI surface.
+          Asked for by: California AB 2013; EU AI Act GPAI. (roadmap#444)
+      - id: reg_ai_transparency
+        label: AI interaction disclosure
+        facet: regulatory
+        points: 4
+        rule: 'common[].type includes "AITransparency"'
+        description: >
+          A disclosure that the user is interacting with an AI system. Applies only where the provider declares an AI surface.
+          Asked for by: EU AI Act Art. 50; Utah AI Policy Act. (roadmap#444)
+      - id: reg_global_privacy_control
+        label: Global Privacy Control honoured
+        facet: regulatory
+        points: 4
+        rule: 'common[].type includes "GlobalPrivacyControl"'
+        description: >
+          A statement that the GPC signal is honoured. Four US states now require a universal opt-out to be respected, and the signal is machine-readable by design.
+          Asked for by: Colorado, California, Connecticut, Texas universal opt-out. (roadmap#444)
+      - id: reg_data_subject_request
+        label: Data-subject request route
+        facet: regulatory
+        points: 4
+        rule: 'common[].type includes "DataSubjectRequest"'
+        description: >
+          A documented route for access, deletion and portability requests. Required by GDPR and by twenty US state laws, and a route nobody can find is a route that does not exist.
+          Asked for by: GDPR; UK GDPR; 20 US state privacy laws. (roadmap#444)
+      - id: reg_subprocessors
+        label: Subprocessor list
+        facet: regulatory
+        points: 4
+        rule: 'common[].type includes "Subprocessors"'
+        description: >
+          A current subprocessor list. Art. 28 makes it a contractual duty and DORA and NIS2 both push it down the supply chain; it is the artifact a customer's own auditor asks for first.
+          Asked for by: GDPR Art. 28; DORA; NIS2; DOJ bulk data rule. (roadmap#444)
+      - id: reg_data_residency
+        label: Data residency statement
+        facet: regulatory
+        points: 4
+        rule: 'common[].type includes "DataResidency"'
+        description: >
+          A statement of where data is stored and processed. The DOJ bulk-data rule made this a transfer question rather than a preference, and sovereign-cloud procurement asks it directly.
+          Asked for by: DOJ bulk data rule; EU Data Act; sovereign cloud. (roadmap#444)
+      - id: reg_incident_notification
+        label: Incident notification commitment
+        facet: regulatory
+        points: 4
+        rule: 'common[].type includes "IncidentNotification"'
+        description: >
+          A published incident-notification commitment with a timeframe. A customer subject to SEC Item 1.05, DORA or NIS2 inherits the obligation and cannot meet it without one from its vendor.
+          Asked for by: SEC Item 1.05 flow-down; DORA; SOCI; NIS2. (roadmap#444)
+      - id: reg_age_assurance
+        label: Age assurance
+        facet: regulatory
+        points: 4
+        rule: 'common[].type includes "AgeAssurance"'
+        description: >
+          An age-assurance statement or mechanism. NOT YET GATED: the catalog has no derived consumer-surface signal, so this is scored only within an applicable regime rather than against every provider (see the applicability note beside NA_UNLESS_CHECK in score.rb).
+          Asked for by: UK Online Safety Act; AU Social Media Minimum Age; app store accountability laws. (roadmap#444)
+      - id: reg_notice_and_action
+        label: Notice-and-action mechanism
+        facet: regulatory
+        points: 4
+        rule: 'common[].type includes "NoticeAndAction"'
+        description: >
+          A notice-and-action route for illegal content. NOT YET GATED, for the same reason as age assurance.
+          Asked for by: EU Digital Services Act. (roadmap#444)
+      - id: reg_transparency_report
+        label: Transparency report
+        facet: regulatory
+        points: 4
+        rule: 'common[].type includes "TransparencyReport"'
+        description: >
+          A published transparency report. NOT YET GATED, for the same reason as age assurance.
+          Asked for by: DSA; UK Online Safety Act. (roadmap#444)
+      - id: reg_exit_assistance
+        label: Exit assistance / switching terms
+        facet: regulatory
+        points: 4
+        rule: 'common[].type includes "ExitAssistance"'
+        description: >
+          Published switching and exit-assistance terms. The Data Act made egress and exit a regulated term of cloud contracts rather than a commercial courtesy.
+          Asked for by: EU Data Act cloud switching. (roadmap#444)
       - id: reg_mandate_verified
         label: Mandate implemented, not merely claimed
         facet: regulatory
@@ -3180,7 +3661,13 @@ agent_readiness:
       label: Idempotency
       points: 9
       graded: true
-      credit: {verified: 1.0, documented: 0.5}
+      credit: {verified: 1.0, documented: 0.5, derived: 0.125}
+      # 0.23.0 (roadmap#787) — `derived` = every pointer that would make this `documented` is a
+      # file API Evangelist derived (its own `method:` says derived/generated/modeled…), not the
+      # provider documenting it. 0.125 = documented 0.5 x the derived provenance credit 0.25, the
+      # same discount every provenance-graded check takes. `searched` (a transcription of the
+      # provider's own prose) stays `documented`. Same grade on error_semantics and
+      # rate_limit_signal. The agent-native gate does not accept it (band_gate.unsatisfied_grades).
       signal: 'OpenAPI mutating operations declare an idempotency key — a header, a
                request-body property, or a named de-duplication token whose own
                description says so (verified); else common[].type matches
@@ -3240,7 +3727,7 @@ agent_readiness:
       label: Stable Error Semantics
       points: 8
       graded: true
-      credit: {verified: 1.0, documented: 0.5}
+      credit: {verified: 1.0, documented: 0.5, derived: 0.125}
       signal: 'OpenAPI $refs a shared error schema across 4xx/5xx responses (verified),
                else common[].type includes ErrorCatalog / ErrorCodes / DeclineCodes'
       description: >
@@ -3265,7 +3752,7 @@ agent_readiness:
       label: Rate-Limit Signaling
       points: 7
       graded: true
-      credit: {verified: 1.0, documented: 0.5}
+      credit: {verified: 1.0, documented: 0.5, derived: 0.125}
       signal: 'OpenAPI responses document X-RateLimit-* / RateLimit headers (verified),
                else a rate_limits artifact or RateLimits link (documented)'
       description: >
@@ -3333,6 +3820,12 @@ agent_readiness:
       points: 8
       graded: true
       signal: 'a2a/<slug>-a2a.yml manifest, graded on conformance.grade against A2A 1.0.0'
+      # 0.23.0 (roadmap#461) — a card fetched from a host outside the provider's own registrable
+      # domains is PLATFORM-SERVED (Microsoft Foundry for a hosted agent, Mintlify for a docs site):
+      # the operator's identity and content, the platform's host and transport. The conformance
+      # grade is multiplied by this, like mcp_server's `templated` (0.6), not `platform` (0.25).
+      # Kin's call 2026-09-25. Unmeasurable (no source URL, no provider domain) is not platform-served.
+      platform_served_credit: 0.6
       credit:
         conformant: 1.0        # passes every structural check
         near-conformant: 0.6   # correctly shaped, omits optional fields
@@ -3538,6 +4031,8 @@ agent_readiness:
       # 1-2 demotions today; the conventions recipe now emits the field, so the gate
       # tightens as artifacts are re-touched.
       idempotency_scope_check: true
+      # 0.23.0 (roadmap#787) — our own derivation earns partial points, never the gate.
+      unsatisfied_grades: [derived]
       rationale: >
         An agent driving a surface with no idempotency and no stable error envelope
         is not being driven safely, however much else the provider publishes.

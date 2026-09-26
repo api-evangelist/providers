@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: derived
     idempotency: false
     mcp_server: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.1
-  scored_at: '2026-09-24'
+  score: 20.0
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -210,7 +210,7 @@ overview: 'Keyo publishes 2 APIs on the [APIs.io](https://apis.io/) network: Aut
 random_paper: 0
 score:
   band: developing
-  composite: 50.2
+  composite: 47.3
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -218,13 +218,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.9
   facets:
     access_clarity: 39.5
     contract_governance: 4.5
-    contract_quality: 64.1
+    contract_quality: 58.8
     developer_ergonomics: 58.9
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 34.2
   previous_composite: 50.2
   provenance:
@@ -248,9 +248,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 50.0
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 28.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

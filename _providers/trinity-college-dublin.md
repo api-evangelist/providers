@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 12
 apis:
 - description: 'Trinity''s own Shibboleth IdP, self-hosted on its own registrable domain: idp.tcd.ie resolves through idpha.tcd.ie to 134.226.14.232, inside Trinity''s 134.226.0.0/16 allocation. The metadata endpoint s'
@@ -68,6 +68,7 @@ apis:
   slug: libcal
 - description: 'Trinity Library''s LibGuides tenancy at libguides.tcd.ie, the published documentation surface for TARA and for the Library''s generative-AI referencing guidance. The LibGuides API path returns 404 — no '
   name: Library subject and research guides (Springshare LibGuides)
+  provenance: unpublished
   slug: libguides
 - description: Trinity's own research information system at rss.tcd.ie, resolving through tcdlocalportalha.tcd.ie to 134.226.14.238 inside Trinity's own network. Sign-in redirects to Trinity's Entra ID tenant via SA
   name: Trinity Research Support System (RSS)
@@ -240,22 +241,22 @@ rate_limits:
   slug: trinity-college-dublin-rate-limits
 score:
   band: thin
-  composite: 32.1
+  composite: 29.2
   coverage:
     artifact_dirs: 10
-    catalog_earned: 67.0
+    catalog_earned: 65.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
+    catalog_gap: 49.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.0
   facets:
-    access_clarity: 50.0
+    access_clarity: 47.9
     contract_governance: 0.0
     contract_quality: 14.3
     developer_ergonomics: 26.2
-    discoverability: 74.1
-    operational_transparency: 23.7
+    discoverability: 71.4
+    operational_transparency: 21.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -264,7 +265,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 32.1
+  previous_composite: 31.2
   provenance:
     conformance: first-party
   regulatory:
@@ -272,9 +273,9 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 46.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 24.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

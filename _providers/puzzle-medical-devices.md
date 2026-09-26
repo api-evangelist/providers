@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: platform
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 11.2
-  scored_at: '2026-09-24'
+  score: 4.7
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: An anonymous Model Context Protocol endpoint served from www.puzzlemed.com and advertised by the company's own /llms.txt. It is the Wix platform Site Visitor Assistant, provisioned by the website host
@@ -145,7 +145,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 75.9
+    discoverability: 75.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -157,15 +157,15 @@ score:
   previous_composite: 10.5
   provenance:
     conformance: first-party
-    mcp: first-party
+    mcp: platform-generated
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 13.8
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 8.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

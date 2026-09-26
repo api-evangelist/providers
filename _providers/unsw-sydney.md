@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - description: UNSW's own SAML 2.0 identity provider — a Shibboleth IdP whose entity metadata is published as a machine-readable XML document at the entityID URL and is carried in the AAF federation aggregate, which
@@ -68,7 +68,7 @@ apis:
   description: Public discovery search over repository objects.
   name: University of New South Wales Discover API
   slug: unsw-sydney-discover-api
-- baseURL: https://unsworks.unsw.edu.au/server/api
+- baseURL: https://unsworks.unsw.edu.au/oai/request
   baseurl_source: declared
   description: OAI-PMH 2.0 verbs, all exercised live against this endpoint.
   name: University of New South Wales Oai Pmh API
@@ -302,7 +302,7 @@ modified: '2026-09-16'
 name: University of New South Wales
 nav: Providers
 network: true
-overview: 'University of New South Wales publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Core API, Discover API, Oai Pmh API, and 1 more. Tagged areas include University, Higher Education, Education, Research, and Australia.
+overview: 'University of New South Wales publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Core API, Discover API, Oai Pmh API, and 8 more. Tagged areas include University, Higher Education, Education, Research, and Australia.
 
 
   The University of New South Wales catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -336,22 +336,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.6
+  composite: 47.1
   coverage:
     artifact_dirs: 18
-    catalog_earned: 70.0
+    catalog_earned: 67.8
     catalog_earned_first_party: 5.0
-    catalog_gap: 45.0
+    catalog_gap: 47.2
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 63.2
+    access_clarity: 61.1
     contract_governance: 15.2
-    contract_quality: 63.7
+    contract_quality: 58.4
     developer_ergonomics: 38.1
-    discoverability: 59.3
-    operational_transparency: 23.7
+    discoverability: 57.1
+    operational_transparency: 21.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -359,7 +359,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 52.6
+  previous_composite: 52.7
   provenance:
     conformance: first-party
     contracts:
@@ -372,10 +372,10 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 64.8
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: flat
+    score: 34.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

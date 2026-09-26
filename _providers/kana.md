@@ -20,7 +20,7 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: templated
@@ -31,8 +31,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.7
-  scored_at: '2026-09-24'
+  score: 23.5
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - description: The callable surface a deployed Kana pipeline ("skill") exposes on the Kana application host. POST /skill/{pipelineid} starts a run and returns a runid; GET /run/{runid}/status reports progress and qu
@@ -173,7 +173,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 28.6
+  composite: 30.4
   coverage:
     artifact_dirs: 16
     catalog_earned: 49.0
@@ -181,20 +181,30 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.8
   facets:
     access_clarity: 63.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 31.0
-    discoverability: 75.9
+    discoverability: 68.3
     operational_transparency: 0.0
   previous_composite: 28.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 32.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

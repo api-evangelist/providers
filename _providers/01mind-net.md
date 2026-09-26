@@ -11,7 +11,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: documented
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.3
-  scored_at: '2026-09-24'
+  score: 33.1
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -34,7 +34,7 @@ agentic_access:
 api_count: 3
 apis:
 - baseURL: https://01mind.net
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'Agent-consumable REST API for the 01Mind superstore: purchase-and-collect execution of catalogue listings (document rendering, email send, legal research, reference packs) under x402 payment with EIP-'
   name: 01Mind Agent Superstore API
   slug: 01mind-agent-superstore-api
@@ -176,7 +176,7 @@ modified: '2026-09-19'
 name: 01Mind
 nav: Providers
 network: true
-overview: '01Mind publishes 1 API on the [APIs.io](https://apis.io/) network: Agent Superstore API. Tagged areas include Agents, Agentic Commerce, A2A, MCP, and x402.
+overview: '01Mind publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Agent Superstore API, and 2 more. Tagged areas include Agents, Agentic Commerce, A2A, MCP, and x402.
 
 
   01Mind''s developer surface includes documentation, pricing, support, authentication, sandbox, and 20 more developer resources.'
@@ -191,21 +191,21 @@ rate_limits:
   slug: 01mind-net-rate-limits
 score:
   band: developing
-  composite: 43.8
+  composite: 44.3
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 58.0
+    artifact_dirs: 21
+    catalog_earned: 53.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 57.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 63.2
     contract_governance: 18.2
-    contract_quality: 45.9
+    contract_quality: 41.3
     developer_ergonomics: 42.3
-    discoverability: 70.4
+    discoverability: 61.7
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -225,8 +225,14 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 32.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

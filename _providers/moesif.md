@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,14 +27,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.4
-  scored_at: '2026-09-24'
+  score: 30.1
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -223,11 +223,27 @@ common:
 - group: commercial
   title: ''
   type: Pricing
-  url: https://www.moesif.com/pricing
+  url: https://www.moesif.com/price
 - group: start
   title: ''
   type: Signup
   url: https://www.moesif.com/wrap
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.moesif.com/docs/getting-started/overview/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.moesif.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.moesif.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.moesif.com/privacy
 - group: company
   title: ''
   type: Blog
@@ -340,13 +356,13 @@ modified: '2026-05-22'
 name: Moesif
 nav: Providers
 network: true
-overview: 'Moesif publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Balance Transactions API, Billing Meters API, and 12 more. Tagged areas include Analytics, Monitoring, Monetization, Governance, and Observability.
+overview: 'Moesif publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Balance Transactions API, Billing Meters API, and 13 more. Tagged areas include Analytics, Monitoring, Monetization, Governance, and Observability.
 
 
   The Moesif catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Moesif''s developer surface includes authentication, documentation, API reference, pricing, signup flow, engineering blog, tooling, and 30 more developer resources.'
+  Moesif''s developer surface includes authentication, documentation, API reference, pricing, signup flow, getting-started guide, engineering blog, and 34 more developer resources.'
 plans:
 - name: Moesif Plans Pricing
   plan_count: 3
@@ -374,23 +390,23 @@ scopes:
   slug: moesif-scopes
   summary_line: 71 scopes · password
 score:
-  band: developing
-  composite: 45.7
+  band: strong
+  composite: 54.7
   coverage:
     artifact_dirs: 14
-    catalog_earned: 61.0
+    catalog_earned: 59.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.0
   facets:
-    access_clarity: 28.9
-    contract_governance: 45.5
-    contract_quality: 49.6
-    developer_ergonomics: 47.6
-    discoverability: 68.5
-    operational_transparency: 10.5
+    access_clarity: 50.0
+    contract_governance: 40.9
+    contract_quality: 45.0
+    developer_ergonomics: 59.5
+    discoverability: 68.3
+    operational_transparency: 26.3
   previous_composite: 45.7
   provenance:
     agentic_access: derived
@@ -400,9 +416,15 @@ score:
       marker_coverage: 0.0
       total: 15
     mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 29.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: rising
   upsert:
     applies: true
     score: 50.0

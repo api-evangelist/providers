@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.7
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 3
@@ -34,7 +34,7 @@ agentic_access:
 api_count: 1
 apis:
 - baseURL: https://numbers.online
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'One REST API over a single E.164 primitive: parse and validate numbers, single and bulk lookup (line type, range carrier, CNAM, STIR/SHAKEN verstat and a supplementary spam signal), signed inbound cal'
   name: Numbers Online Phone Intelligence API
   slug: numbers-online-phone-intelligence-api
@@ -266,7 +266,7 @@ modified: '2026-09-19'
 name: Numbers Online
 nav: Providers
 network: true
-overview: 'Numbers Online publishes 1 API on the [APIs.io](https://apis.io/) network: Phone Intelligence API. Tagged areas include Phone Intelligence, Caller ID, CNAM, Reverse Phone Lookup, and Spam Detection.
+overview: 'Numbers Online publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Phone Intelligence API, and 2 more. Tagged areas include Phone Intelligence, Caller ID, CNAM, Reverse Phone Lookup, and Spam Detection.
 
 
   Numbers Online''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, changelog, and 38 more developer resources.'
@@ -281,21 +281,21 @@ rate_limits:
   slug: numbers-online-rate-limits
 score:
   band: strong
-  composite: 59.0
+  composite: 60.0
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 61.0
+    artifact_dirs: 21
+    catalog_earned: 56.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 55.9
+    contract_quality: 50.3
     developer_ergonomics: 56.5
-    discoverability: 75.9
+    discoverability: 66.7
     operational_transparency: 60.5
   previous_composite: 59.0
   provenance:
@@ -308,8 +308,14 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 37.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

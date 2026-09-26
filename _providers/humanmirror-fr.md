@@ -23,76 +23,76 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 16
 apis:
 - baseURL: https://humanmirror.fr
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'HumanMirror x402 API v3.2.0: 82 pay-per-call operations settled in USDC on Base through x402 V2 — agent security (secret scanning, safe preflight, execution receipts, sanitize shield), data quality (c'
   name: HumanMirror X402 API
   slug: x402
 - baseURL: https://humanmirror.fr
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'Three separately published contracts for the M2M core: Sanitize Shield (indirect prompt-injection quarantine with a signed Cleanliness Proof), M2M Payload Normalizer (canonical JSON + stable SHA-256 d'
   name: HumanMirror M2M Core Services
   slug: m2m-core
 - baseURL: https://humanmirror.fr
-  baseurl_source: declared
+  baseurl_source: spec
   description: Structured analysis of text, JSON records and numeric series (data quality, trends, anomalies, recommendations). Bearer hm_oracle_* key; one credit per successful analysis; 100 credits for 4.99 EUR vi
   name: HumanMirror Oracle API
   slug: oracle
 - baseURL: https://humanmirror.fr
-  baseurl_source: declared
+  baseurl_source: spec
   description: Five deterministic micro-tools for agent data pipelines — clean_json, dedupe_records, normalize_entity, score_data_quality, detect_anomaly — multiplexed through POST /api/forge/run with a Bearer hm_fo
   name: HumanMirror Forge API
   slug: forge
 - baseURL: https://humanmirror.fr
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'Machine-to-machine tool discovery, routing and credit metering: free catalog search, a 100-credit trial key per network origin, Stripe checkout/claim for 5 000-credit packs, routed tool calls, and the'
   name: HumanMirror Nexus API
   slug: nexus
 - baseURL: https://humanmirror.fr
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'Deterministic operational utilities billed in Nexus credits under a Bearer hm_nexus_* key: Sentinel output inspection, Trace receipt issue + public verify, Lens schema inference and contract diff, Vau'
   name: HumanMirror AgentOps API
   slug: agentops
 - baseURL: https://humanmirror.fr
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'Free outcome-first fallback discovery for blocked agents: resolve a stated outcome to a live Nexus capability or record a sanitized capability gap in a privacy-thresholded public Machine Demand Graph '
   name: HumanMirror Magnet API
   slug: magnet
 - baseURL: https://humanmirror.fr
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'Verified outcome execution: quote and verify are free, a successful outcome.run costs 5 Nexus credits and failed execution or failed deterministic verification is refunded. The same three paths are mi'
   name: HumanMirror Outcome API
   slug: outcome
 - baseURL: https://humanmirror.fr
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'Single-tool verified-outcome interface (humanmirror_do): dry-run quotes are free, verified execution costs 6 Nexus credits, failures are refunded. The provider''s recommended default MCP surface for ag'
   name: HumanMirror One API
   slug: one
 - baseURL: https://humanmirror.fr
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'Verified 2-3 step agent missions billed as one whole transaction: free quote, 12 Nexus credits kept only if every step and the final proof succeed. One MCP tool (humanmirror_flow), registry entry fr.h'
   name: HumanMirror Flow API
   slug: flow
 - baseURL: https://humanmirror.fr
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'Non-custodial intent marketplace for autonomous agents: buyers publish a paid intent (0.010 USDC via x402), providers bid for free, the market awards the best admissible bid (0.050 USDC); live state i'
   name: HumanMirror Intent Market API
   slug: market
 - baseURL: https://humanmirror.fr
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'Cryptographic Proof-of-State and exact SHA-256 state-continuity drift detection (state-and-trust, 0.050 USDC via x402) plus the HumanMirror Universal Value Protocol (HUVP/1) resolver, policy firewall '
   name: HumanMirror Agent OS API
   slug: agent-os
 - baseURL: https://humanmirror.fr
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'Beta (1.0.0-beta) agent-to-human field-verification network: quote and post bounded public-world verification missions, register field workers, claim/submit/verify missions, and confirm the 80/20 buye'
   name: HumanMirror Physical Oracle API
   slug: physical-oracle
 - baseURL: https://humanmirror.fr
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'Public machine catalog and status for HumanMirror Automata, the family of ~35 operational guard services (renewal, broken-link, chargeback, KYC, invoice, dunning, uptime, webhook dead-letter …) whose '
   name: HumanMirror Automata API
   slug: automata
@@ -318,7 +318,7 @@ modified: '2026-09-19'
 name: HumanMirror
 nav: Providers
 network: true
-overview: 'HumanMirror publishes 14 APIs on the [APIs.io](https://apis.io/) network, including X402 API, M2M Core Services, Oracle API, and 11 more. Tagged areas include Company, AI Agents, Agent Security, Prompt Injection Defense, and x402.
+overview: 'HumanMirror publishes 15 APIs on the [APIs.io](https://apis.io/) network, including X402 API, M2M Core Services, Oracle API, and 12 more. Tagged areas include Company, AI Agents, Agent Security, Prompt Injection Defense, and x402.
 
 
   The HumanMirror catalog on APIs.io includes 1 JSON-LD context.
@@ -336,21 +336,21 @@ rate_limits:
   slug: humanmirror-fr-rate-limits
 score:
   band: strong
-  composite: 60.3
+  composite: 56.9
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 79.0
+    artifact_dirs: 23
+    catalog_earned: 73.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 36.0
+    catalog_gap: 42.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.4
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
-    contract_quality: 52.5
+    contract_quality: 47.6
     developer_ergonomics: 68.5
-    discoverability: 81.5
+    discoverability: 71.7
     operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -375,9 +375,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 48.4
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 27.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

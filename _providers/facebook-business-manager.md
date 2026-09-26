@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.1
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -611,7 +611,7 @@ modified: '2026-08-13'
 name: Facebook Business Manager
 nav: Providers
 network: true
-overview: 'Facebook Business Manager publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Ad Accounts API, Ad Creatives API, Ad Images API, and 11 more. Tagged areas include Advertising, Analytics, Business Management, Marketing, and Social Media.
+overview: 'Facebook Business Manager publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Ad Accounts API, Ad Creatives API, Ad Images API, and 20 more. Tagged areas include Advertising, Analytics, Business Management, Marketing, and Social Media.
 
 
   The Facebook Business Manager catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -644,8 +644,8 @@ scopes:
   slug: facebook-business-manager-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 65.7
+  band: exemplar
+  composite: 68.0
   coverage:
     artifact_dirs: 33
     catalog_earned: 64.3
@@ -653,13 +653,13 @@ score:
     catalog_gap: 50.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.3
   facets:
     access_clarity: 64.5
     contract_governance: 28.0
-    contract_quality: 65.6
+    contract_quality: 59.8
     developer_ergonomics: 83.9
-    discoverability: 70.4
+    discoverability: 70.0
     operational_transparency: 76.3
   previous_composite: 65.7
   provenance:
@@ -672,8 +672,14 @@ score:
       total: 14
     mcp: first-party
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 41.2
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

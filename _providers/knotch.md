@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - baseURL: https://events.knotch.it
@@ -188,7 +188,7 @@ modified: '2026-08-13'
 name: Knotch
 nav: Providers
 network: true
-overview: 'Knotch publishes 2 APIs on the [APIs.io](https://apis.io/) network: Events API and Health API. Tagged areas include Company, Content Intelligence, Content Marketing, Analytics, and Artificial Intelligence.
+overview: 'Knotch publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Events API, Health API, and 3 more. Tagged areas include Company, Content Intelligence, Content Marketing, Analytics, and Artificial Intelligence.
 
 
   Knotch''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 20 more developer resources.'
@@ -203,7 +203,7 @@ rate_limits:
   slug: knotch-rate-limits
 score:
   band: thin
-  composite: 36.4
+  composite: 35.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 45.0
@@ -211,13 +211,13 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 45.6
+    contract_quality: 41.0
     developer_ergonomics: 63.7
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -234,8 +234,14 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 19.1
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

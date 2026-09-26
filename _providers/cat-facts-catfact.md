@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,12 +43,12 @@ agentic_access:
 api_count: 2
 apis:
 - baseURL: https://catfact.ninja
-  baseurl_source: declared
+  baseurl_source: spec
   description: Catalog of cat breeds with country, origin, coat, and pattern.
   name: Cat Facts (catfact.ninja) Breeds API
   slug: cat-facts-catfact-breeds-api
 - baseURL: https://catfact.ninja
-  baseurl_source: declared
+  baseurl_source: spec
   description: Random cat trivia, individually or in paginated lists.
   name: Cat Facts (catfact.ninja) Facts API
   slug: cat-facts-catfact-facts-api
@@ -221,21 +221,21 @@ rules:
   slug: cat-facts-catfact-rules
 score:
   band: emerging
-  composite: 20.6
+  composite: 19.4
   coverage:
     artifact_dirs: 12
-    catalog_earned: 57.5
+    catalog_earned: 52.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.5
+    catalog_gap: 48.0
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.2
   facets:
     access_clarity: 0.0
-    contract_governance: 28.8
+    contract_governance: 27.3
     contract_quality: 20.9
     developer_ergonomics: 21.4
-    discoverability: 75.9
+    discoverability: 64.3
     operational_transparency: 0.0
   previous_composite: 20.6
   provenance:
@@ -245,8 +245,14 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 16.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

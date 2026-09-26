@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 36.4
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -307,7 +307,7 @@ modified: '2026-08-10'
 name: OpenSERP
 nav: Providers
 network: true
-overview: 'OpenSERP publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Docs API, Health API, Mega API, and 2 more. Tagged areas include Company, Search, SERP, Search API, and Web Scraping.
+overview: 'OpenSERP publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Docs API, Health API, Mega API, and 3 more. Tagged areas include Company, Search, SERP, Search API, and Web Scraping.
 
 
   The OpenSERP catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -329,9 +329,9 @@ score:
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 51.3
+    contract_quality: 47.2
     developer_ergonomics: 78.0
-    discoverability: 87.0
+    discoverability: 81.7
     operational_transparency: 26.3
   open_source:
     applies: true
@@ -347,8 +347,14 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 24.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

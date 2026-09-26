@@ -28,14 +28,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.5
-  scored_at: '2026-09-24'
+  score: 33.1
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -119,6 +119,11 @@ collections:
   name: Circle Developer Platform API
   slug: open-circle-community
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/vendor-facets/circle-community-vendor-facets.yml
+  title: ''
+  type: VendorFacets
+  url: vendor-facets/circle-community-vendor-facets.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/agentic-access/circle-community-agentic-access.yml
   title: ''
@@ -179,7 +184,7 @@ overview: 'Circle publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
   The Circle catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Circle''s developer surface includes authentication, documentation, and 7 more developer resources.'
+  Circle''s developer surface includes authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Circle Community Plans Pricing
   plan_count: 4
@@ -202,23 +207,23 @@ rules:
     warn: 7
   slug: circle-community-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 40.6
+  band: thin
+  composite: 37.9
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 67.8
+    artifact_dirs: 14
+    catalog_earned: 65.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.3
+    catalog_gap: 49.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.7
   facets:
-    access_clarity: 39.5
+    access_clarity: 36.3
     contract_governance: 11.4
-    contract_quality: 60.6
+    contract_quality: 56.3
     developer_ergonomics: 29.8
-    discoverability: 68.5
-    operational_transparency: 31.6
+    discoverability: 68.3
+    operational_transparency: 28.4
   previous_composite: 40.6
   provenance:
     agentic_access: derived
@@ -228,8 +233,14 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 11.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

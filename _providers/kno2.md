@@ -23,19 +23,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.1
-  scored_at: '2026-09-24'
+  score: 22.0
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -278,7 +278,7 @@ modified: '2026-08-14'
 name: Kno2
 nav: Providers
 network: true
-overview: 'Kno2 publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Authentication API, Directory API, and 2 more. Tagged areas include Interoperability, Clinical Records, Health Information Exchange, Direct Secure Messaging, and FHIR.
+overview: 'Kno2 publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Authentication API, Directory API, and 4 more. Tagged areas include Interoperability, Clinical Records, Health Information Exchange, Direct Secure Messaging, and FHIR.
 
 
   Kno2''s developer surface includes authentication, documentation, API reference, support, engineering blog, signup flow, and 30 more developer resources.'
@@ -292,8 +292,8 @@ rate_limits:
   name: Kno2 Rate Limits
   slug: kno2-rate-limits
 score:
-  band: developing
-  composite: 39.9
+  band: thin
+  composite: 37.7
   coverage:
     artifact_dirs: 23
     catalog_earned: 45.0
@@ -301,13 +301,13 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.2
   facets:
     access_clarity: 30.3
     contract_governance: 4.5
-    contract_quality: 56.5
+    contract_quality: 50.9
     developer_ergonomics: 38.7
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 26.3
   previous_composite: 39.9
   provenance:
@@ -329,9 +329,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 26.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 16.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

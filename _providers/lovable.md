@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.9
-  scored_at: '2026-09-24'
+  score: 28.0
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - description: Generates a Lovable application from a shareable URL or prompt. Programmatic entry point for creating apps and sharing links without revealing implementation details. Early release; more endpoints pla
@@ -125,27 +125,33 @@ rate_limits:
   slug: lovable-rate-limits
 score:
   band: emerging
-  composite: 16.8
+  composite: 16.7
   coverage:
     artifact_dirs: 10
-    catalog_earned: 44.0
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
-    discoverability: 75.9
+    discoverability: 66.7
     operational_transparency: 7.9
   previous_composite: 16.8
   provenance:
     mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 20.9
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

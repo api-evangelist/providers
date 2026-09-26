@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -109,7 +109,7 @@ modified: '2026-04-28'
 name: OECD
 nav: Providers
 network: true
-overview: 'OECD publishes 2 APIs on the [APIs.io](https://apis.io/) network: Data API and Structure API. Tagged areas include Data, Statistics, Economics, and SDMX.'
+overview: OECD publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Data API, Structure API, and 1 more. Tagged areas include Data, Statistics, Economics, and SDMX.
 plans:
 - name: Oecd Plans Pricing
   plan_count: 3
@@ -120,8 +120,8 @@ rate_limits:
   name: Oecd Rate Limits
   slug: oecd-rate-limits
 score:
-  band: thin
-  composite: 26.8
+  band: emerging
+  composite: 24.6
   coverage:
     artifact_dirs: 9
     catalog_earned: 35.0
@@ -129,13 +129,13 @@ score:
     catalog_gap: 65.0
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.2
   facets:
     access_clarity: 28.6
     contract_governance: 0.0
-    contract_quality: 47.6
+    contract_quality: 42.9
     developer_ergonomics: 9.5
-    discoverability: 59.3
+    discoverability: 57.1
     operational_transparency: 10.5
   previous_composite: 26.8
   provenance:
@@ -145,8 +145,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 9.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

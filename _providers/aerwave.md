@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: platform
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 6.0
-  scored_at: '2026-09-24'
+  score: 4.7
+  scored_at: '2026-09-25'
 api_count: 0
 artifact_total: 4
 common:
@@ -180,20 +180,20 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 57.4
+    discoverability: 59.2
     operational_transparency: 0.0
   previous_composite: 15.7
   provenance:
     conformance: first-party
-    mcp: first-party
+    mcp: platform-generated
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 26.4
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 15.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

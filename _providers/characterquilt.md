@@ -32,16 +32,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - baseURL: https://www.characterquilt.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Branding API from CharacterQuilt — 2 operation(s) for branding.
   name: CharacterQuilt Branding API
   slug: characterquilt-branding-api
 - baseURL: https://www.characterquilt.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Discovery API from CharacterQuilt — 1 operation(s) for discovery.
   name: CharacterQuilt Discovery API
   slug: characterquilt-discovery-api
@@ -181,7 +181,7 @@ modified: '2026-08-13'
 name: CharacterQuilt
 nav: Providers
 network: true
-overview: 'CharacterQuilt publishes 2 APIs on the [APIs.io](https://apis.io/) network: Branding API and Discovery API. Tagged areas include Company, Marketing, Artificial Intelligence, AI Agents, and Marketing Automation.
+overview: 'CharacterQuilt publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Branding API, Discovery API, and 1 more. Tagged areas include Company, Marketing, Artificial Intelligence, AI Agents, and Marketing Automation.
 
 
   CharacterQuilt''s developer surface includes engineering blog, pricing, signup flow, support, authentication, and 19 more developer resources.'
@@ -204,18 +204,18 @@ score:
   composite: 43.4
   coverage:
     artifact_dirs: 21
-    catalog_earned: 49.0
+    catalog_earned: 44.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
-    contract_quality: 51.0
+    contract_quality: 45.9
     developer_ergonomics: 26.2
-    discoverability: 75.9
+    discoverability: 64.3
     operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -232,8 +232,14 @@ score:
       total: 2
     mcp: first-party
     skills: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 31.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

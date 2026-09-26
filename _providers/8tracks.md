@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-09-24'
+  score: 0.0
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: Historical public REST API for the 8tracks internet-radio platform. Exposes mix discovery and search, per-session play tokens, playback control (play/next/skip/report), similar-mix recommendation, and
@@ -111,32 +111,39 @@ overview: '8Tracks publishes 1 API on the [APIs.io](https://apis.io/) network. T
   8Tracks'' developer surface includes documentation, API reference, engineering blog, authentication, and 8 more developer resources.'
 random_paper: 0
 score:
-  band: emerging
-  composite: 13.4
+  band: minimal
+  composite: 0.0
   coverage:
     artifact_dirs: 8
-    catalog_earned: 37.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -13.4
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 27.4
-    discoverability: 68.5
-    operational_transparency: 7.9
+    developer_ergonomics: 0.0
+    discoverability: 0.0
+    operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
+  lifecycle: defunct
   previous_composite: 13.4
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 11.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

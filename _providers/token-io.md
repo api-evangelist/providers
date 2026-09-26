@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.6
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 3
@@ -558,7 +558,7 @@ modified: '2026-09-17'
 name: Token.io
 nav: Providers
 network: true
-overview: 'Token.io publishes 21 APIs on the [APIs.io](https://apis.io/) network, including token-io Account on File API, token-io Accounts API, token-io Authentication keys API, and 18 more. Tagged areas include Payments, Open Banking, Banking, Financial Services, and Account-to-Account.
+overview: 'Token.io publishes 32 APIs on the [APIs.io](https://apis.io/) network, including token-io Account on File API, token-io Accounts API, token-io Authentication keys API, and 29 more. Tagged areas include Payments, Open Banking, Banking, Financial Services, and Account-to-Account.
 
 
   The Token.io catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -587,23 +587,23 @@ rules:
   slug: token-io-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 73.3
+  composite: 70.9
   coverage:
     artifact_dirs: 31
-    catalog_earned: 74.3
+    catalog_earned: 73.3
     catalog_earned_first_party: 24.0
-    catalog_gap: 40.8
+    catalog_gap: 41.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.8
+  delta: -2.4
   facets:
     access_clarity: 92.1
     contract_governance: 28.0
-    contract_quality: 74.5
+    contract_quality: 68.3
     developer_ergonomics: 83.9
-    discoverability: 61.1
+    discoverability: 61.7
     operational_transparency: 68.4
-  previous_composite: 74.1
+  previous_composite: 73.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -619,9 +619,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 43.0
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 26.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

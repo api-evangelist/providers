@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -45,78 +45,78 @@ agentic_access:
   summary_line: 73 operations · 42 acting
 api_count: 1
 apis:
-- baseURL: https://argilla.io
-  baseurl_source: declared
+- baseURL: https://argilla.io/api/v1
+  baseurl_source: spec
   description: The Authentication API from Argilla — 4 operation(s) for authentication.
   name: Argilla Authentication API
   slug: argilla-authentication-api
-- baseURL: https://argilla.io
-  baseurl_source: declared
+- baseURL: https://argilla.io/api/v1
+  baseurl_source: spec
   description: The datasets API from Argilla — 19 operation(s) for datasets.
   name: Argilla Datasets API
   slug: argilla-datasets-api
-- baseURL: https://argilla.io
-  baseurl_source: declared
+- baseURL: https://argilla.io/api/v1
+  baseurl_source: spec
   description: The fields API from Argilla — 1 operation(s) for fields.
   name: Argilla Fields API
   slug: argilla-fields-api
-- baseURL: https://argilla.io
-  baseurl_source: declared
+- baseURL: https://argilla.io/api/v1
+  baseurl_source: spec
   description: The info API from Argilla — 2 operation(s) for info.
   name: Argilla Info API
   slug: argilla-info-api
-- baseURL: https://argilla.io
-  baseurl_source: declared
+- baseURL: https://argilla.io/api/v1
+  baseurl_source: spec
   description: The jobs API from Argilla — 1 operation(s) for jobs.
   name: Argilla Jobs API
   slug: argilla-jobs-api
-- baseURL: https://argilla.io
-  baseurl_source: declared
+- baseURL: https://argilla.io/api/v1
+  baseurl_source: spec
   description: The metadata properties API from Argilla — 2 operation(s) for metadata properties.
   name: Argilla metadata properties API
   slug: argilla-metadata-properties-api
-- baseURL: https://argilla.io
-  baseurl_source: declared
+- baseURL: https://argilla.io/api/v1
+  baseurl_source: spec
   description: The questions API from Argilla — 1 operation(s) for questions.
   name: Argilla Questions API
   slug: argilla-questions-api
-- baseURL: https://argilla.io
-  baseurl_source: declared
+- baseURL: https://argilla.io/api/v1
+  baseurl_source: spec
   description: The records API from Argilla — 3 operation(s) for records.
   name: Argilla Records API
   slug: argilla-records-api
-- baseURL: https://argilla.io
-  baseurl_source: declared
+- baseURL: https://argilla.io/api/v1
+  baseurl_source: spec
   description: The responses API from Argilla — 2 operation(s) for responses.
   name: Argilla Responses API
   slug: argilla-responses-api
-- baseURL: https://argilla.io
-  baseurl_source: declared
+- baseURL: https://argilla.io/api/v1
+  baseurl_source: spec
   description: The settings API from Argilla — 1 operation(s) for settings.
   name: Argilla Settings API
   slug: argilla-settings-api
-- baseURL: https://argilla.io
-  baseurl_source: declared
+- baseURL: https://argilla.io/api/v1
+  baseurl_source: spec
   description: The suggestions API from Argilla — 1 operation(s) for suggestions.
   name: Argilla Suggestions API
   slug: argilla-suggestions-api
-- baseURL: https://argilla.io
-  baseurl_source: declared
+- baseURL: https://argilla.io/api/v1
+  baseurl_source: spec
   description: The users API from Argilla — 4 operation(s) for users.
   name: Argilla Users API
   slug: argilla-users-api
-- baseURL: https://argilla.io
-  baseurl_source: declared
+- baseURL: https://argilla.io/api/v1
+  baseurl_source: spec
   description: The vectors-settings API from Argilla — 1 operation(s) for vectors-settings.
   name: Argilla Vectors Settings API
   slug: argilla-vectors-settings-api
-- baseURL: https://argilla.io
-  baseurl_source: declared
+- baseURL: https://argilla.io/api/v1
+  baseurl_source: spec
   description: The webhooks API from Argilla — 3 operation(s) for webhooks.
   name: Argilla Webhooks API
   slug: argilla-webhooks-api
-- baseURL: https://argilla.io
-  baseurl_source: declared
+- baseURL: https://argilla.io/api/v1
+  baseurl_source: spec
   description: The workspaces API from Argilla — 5 operation(s) for workspaces.
   name: Argilla Workspaces API
   slug: argilla-workspaces-api
@@ -329,22 +329,22 @@ rules:
   slug: argilla-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.6
+  composite: 40.3
   coverage:
     artifact_dirs: 16
-    catalog_earned: 75.3
+    catalog_earned: 68.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 39.8
+    catalog_gap: 46.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.3
   facets:
-    access_clarity: 28.9
-    contract_governance: 25.0
-    contract_quality: 63.4
+    access_clarity: 26.8
+    contract_governance: 23.5
+    contract_quality: 58.1
     developer_ergonomics: 23.8
-    discoverability: 68.5
-    operational_transparency: 23.7
+    discoverability: 57.1
+    operational_transparency: 21.6
   previous_composite: 43.6
   provenance:
     agentic_access: derived
@@ -353,8 +353,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 15.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

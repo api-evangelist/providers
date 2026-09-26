@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ modified: '2026-05-19'
 name: Fumadocs
 nav: Providers
 network: true
-overview: 'Fumadocs publishes 2 APIs on the [APIs.io](https://apis.io/) network: Proxy API and Search API. Tagged areas include Documentation, Framework, Next.js, and React.
+overview: 'Fumadocs publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Proxy API, Search API, and 1 more. Tagged areas include Documentation, Framework, Next.js, and React.
 
 
   The Fumadocs catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -206,22 +206,22 @@ rules:
     warn: 4
   slug: fumadocs-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 26.5
+  band: emerging
+  composite: 24.3
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 48.3
+    artifact_dirs: 13
+    catalog_earned: 47.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.8
+    catalog_gap: 67.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.2
   facets:
     access_clarity: 13.2
     contract_governance: 9.8
-    contract_quality: 58.5
+    contract_quality: 53.3
     developer_ergonomics: 11.9
-    discoverability: 50.0
+    discoverability: 48.2
     operational_transparency: 10.5
   previous_composite: 26.5
   provenance:
@@ -231,8 +231,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 10.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

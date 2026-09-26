@@ -21,7 +21,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: true
     idempotency: na
     mcp_server: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.0
-  scored_at: '2026-09-24'
+  score: 33.5
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - description: REST API for the Next Generation Cision Communications Cloud, Cision's earned media monitoring and analytics platform. Runs off searches already created in the platform and returns either a list of ar
@@ -233,7 +233,7 @@ modified: '2026-09-16'
 name: Cision
 nav: Providers
 network: true
-overview: 'Cision publishes 2 APIs on the [APIs.io](https://apis.io/) network: Mentions API and Stream API. Tagged areas include PR Software, Public Relations, Earned Media, Media Monitoring, and Press Release Distribution.
+overview: 'Cision publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Mentions API, Stream API, and 2 more. Tagged areas include PR Software, Public Relations, Earned Media, Media Monitoring, and Press Release Distribution.
 
 
   The Cision catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
@@ -251,7 +251,7 @@ rate_limits:
   slug: cision-rate-limits
 score:
   band: strong
-  composite: 57.0
+  composite: 57.7
   coverage:
     artifact_dirs: 24
     catalog_earned: 65.0
@@ -259,13 +259,13 @@ score:
     catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
-    contract_quality: 59.1
+    contract_quality: 54.3
     developer_ergonomics: 49.4
-    discoverability: 68.5
+    discoverability: 67.0
     operational_transparency: 47.4
   previous_composite: 57.0
   provenance:
@@ -277,8 +277,18 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 29.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

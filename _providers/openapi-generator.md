@@ -23,7 +23,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.8
-  scored_at: '2026-09-24'
+  score: 19.6
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - baseURL: https://api.openapi-generator.tech
@@ -60,6 +60,11 @@ collections:
   name: OpenAPI Generator Online Servers API
   slug: open-openapi-generator-servers-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/openapi-generator/refs/heads/main/vendor-facets/openapi-generator-vendor-facets.yml
+  title: ''
+  type: VendorFacets
+  url: vendor-facets/openapi-generator-vendor-facets.yml
 - group: operate
   title: ''
   type: Releases
@@ -212,7 +217,7 @@ network: true
 overview: 'OpenAPI Generator publishes 2 APIs on the [APIs.io](https://apis.io/) network: Clients API and Servers API. Tagged areas include Code Generation, Documentation, Open Source, OpenAPI, and SDK.
 
 
-  OpenAPI Generator''s developer surface includes CLI, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 24 more developer resources.'
+  OpenAPI Generator''s developer surface includes CLI, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 25 more developer resources.'
 plans:
 - name: Openapi Generator Plans Pricing
   plan_count: 2
@@ -224,22 +229,25 @@ rate_limits:
   slug: openapi-generator-rate-limits
 score:
   band: developing
-  composite: 40.6
+  composite: 41.9
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 28.9
     contract_governance: 4.5
-    contract_quality: 44.2
+    contract_quality: 39.8
     developer_ergonomics: 66.1
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 23.7
+  open_source:
+    applies: true
+    score: 65.0
   previous_composite: 40.6
   provenance:
     conformance: derived
@@ -250,8 +258,14 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 16.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

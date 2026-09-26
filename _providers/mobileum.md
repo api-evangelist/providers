@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 0
 artifact_total: 2
 common:
@@ -77,7 +77,7 @@ modified: '2026-07-20'
 name: Mobileum
 nav: Providers
 network: true
-overview: 'Mobileum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Telecommunications, Roaming, and Fraud Detection.
+overview: 'Mobileum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Telecommunications, Roaming, and Fraud Prevention.
 
 
   Mobileum''s developer surface includes engineering blog, support, and 6 more developer resources.'
@@ -98,7 +98,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 50.0
+    discoverability: 48.2
     operational_transparency: 2.6
   previous_composite: 10.7
   regulatory:
@@ -106,9 +106,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 20.8
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 12.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false
@@ -130,7 +130,7 @@ tags:
 - Enterprise
 - Telecommunications
 - Roaming
-- Fraud Detection
+- Fraud Prevention
 - Revenue Assurance
 - Network Security
 - Analytics

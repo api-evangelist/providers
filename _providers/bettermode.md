@@ -28,14 +28,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.9
-  scored_at: '2026-09-24'
+  score: 34.5
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: 'Bettermode''s public GraphQL API for reading and writing community data — spaces, posts, members, reactions, tags, and collections — plus app installation and signed webhooks. Single POST endpoint per '
@@ -47,6 +47,11 @@ asyncapis:
   name: Bettermode Webhooks
   slug: bettermode-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bettermode/refs/heads/main/vendor-facets/bettermode-vendor-facets.yml
+  title: ''
+  type: VendorFacets
+  url: vendor-facets/bettermode-vendor-facets.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -191,36 +196,48 @@ overview: 'Bettermode publishes 1 API on the [APIs.io](https://apis.io/) network
   The Bettermode catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bettermode''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, engineering blog, support, and 22 more developer resources.'
+  Bettermode''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, engineering blog, support, and 23 more developer resources.'
 random_paper: 11
 rate_limits:
 - limit_count: 8
   name: Bettermode Rate Limits
   slug: bettermode-rate-limits
 score:
-  band: developing
-  composite: 54.1
+  band: strong
+  composite: 55.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 41.6
+    contract_quality: 39.0
     developer_ergonomics: 71.4
-    discoverability: 75.9
+    discoverability: 75.0
     operational_transparency: 57.9
   previous_composite: 54.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: ccpa
+    jurisdictions_satisfied: 2
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 29.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

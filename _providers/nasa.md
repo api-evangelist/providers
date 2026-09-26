@@ -22,28 +22,28 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.3
-  scored_at: '2026-09-24'
+  score: 20.5
+  scored_at: '2026-09-25'
 agentic_access:
-- acting_count: 0
+- acting_count: 1
   human_in_the_loop: 0
   name: Nasa Agentic Access
-  operation_count: 24
+  operation_count: 74
   slug: nasa-agentic-access
-  summary_line: 24 operations
+  summary_line: 74 operations · 1 acting
 api_count: 6
 apis:
 - baseURL: https://images-api.nasa.gov
@@ -91,6 +91,149 @@ apis:
   description: The Search API from NASA — 1 operation(s) for search.
   name: NASA Search API
   slug: nasa-search-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Album API from NASA Open APIs — 1 operation(s) for album.
+  name: NASA Album API
+  slug: nasa-gov-album-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The CAD API from NASA Open APIs — 1 operation(s) for cad.
+  name: NASA CAD API
+  slug: nasa-gov-cad-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Categories API from NASA Open APIs — 2 operation(s) for categories.
+  name: NASA Categories API
+  slug: nasa-gov-categories-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The DONKI API from NASA Open APIs — 11 operation(s) for donki.
+  name: NASA DONKI API
+  slug: nasa-gov-donki-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Earth API from NASA Open APIs — 2 operation(s) for earth.
+  name: NASA Earth API
+  slug: nasa-gov-earth-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Enhanced API from NASA Open APIs — 3 operation(s) for enhanced.
+  name: NASA Enhanced API
+  slug: nasa-gov-enhanced-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Events API from NASA Open APIs — 1 operation(s) for events.
+  name: NASA Events API
+  slug: nasa-gov-events-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Fireball API from NASA Open APIs — 1 operation(s) for fireball.
+  name: NASA Fireball API
+  slug: nasa-gov-fireball-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Layers API from NASA Open APIs — 1 operation(s) for layers.
+  name: NASA Layers API
+  slug: nasa-gov-layers-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Locations API from NASA Open APIs — 1 operation(s) for locations.
+  name: NASA Locations API
+  slug: nasa-gov-locations-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Magnitudes API from NASA Open APIs — 1 operation(s) for magnitudes.
+  name: NASA Magnitudes API
+  slug: nasa-gov-magnitudes-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Natural API from NASA Open APIs — 4 operation(s) for natural.
+  name: NASA Natural API
+  slug: nasa-gov-natural-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The NHATS API from NASA Open APIs — 1 operation(s) for nhats.
+  name: NASA NHATS API
+  slug: nasa-gov-nhats-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Observatories API from NASA Open APIs — 1 operation(s) for observatories.
+  name: NASA Observatories API
+  slug: nasa-gov-observatories-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Patents API from NASA Open APIs — 2 operation(s) for patents.
+  name: NASA Patents API
+  slug: nasa-gov-patents-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Projects API from NASA Open APIs — 2 operation(s) for projects.
+  name: NASA Projects API
+  slug: nasa-gov-projects-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Rovers API from NASA Open APIs — 1 operation(s) for rovers.
+  name: NASA Rovers API
+  slug: nasa-gov-rovers-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The SBDB API from NASA Open APIs — 2 operation(s) for sbdb.
+  name: NASA SBDB API
+  slug: nasa-gov-sbdb-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Scout API from NASA Open APIs — 1 operation(s) for scout.
+  name: NASA Scout API
+  slug: nasa-gov-scout-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Sentry API from NASA Open APIs — 1 operation(s) for sentry.
+  name: NASA Sentry API
+  slug: nasa-gov-sentry-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Software API from NASA Open APIs — 1 operation(s) for software.
+  name: NASA Software API
+  slug: nasa-gov-software-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Sources API from NASA Open APIs — 1 operation(s) for sources.
+  name: NASA Sources API
+  slug: nasa-gov-sources-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Spinoff API from NASA Open APIs — 1 operation(s) for spinoff.
+  name: NASA Spinoff API
+  slug: nasa-gov-spinoff-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Stations API from NASA Open APIs — 1 operation(s) for stations.
+  name: NASA Stations API
+  slug: nasa-gov-stations-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The TAP API from NASA Open APIs — 2 operation(s) for tap.
+  name: NASA TAP API
+  slug: nasa-gov-tap-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The TLE API from NASA Open APIs — 2 operation(s) for tle.
+  name: NASA TLE API
+  slug: nasa-gov-tle-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Weather API from NASA Open APIs — 1 operation(s) for weather.
+  name: NASA Weather API
+  slug: nasa-gov-weather-api
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The WMTS API from NASA Open APIs — 1 operation(s) for wmts.
+  name: NASA WMTS API
+  slug: nasa-gov-wmts-api
+- description: The NASA Technology Transfer API provides programmatic access to the NASA patent portfolio, software catalog, and spinoff technologies developed through the Artemis program and other NASA missions, en
+  name: NASA Technology Transfer API
+  slug: nasa-tech-transfer-api
 arazzos:
 - description: Pull the Astronomy Picture of the Day and enrich it with related assets from the NASA Image and Video Library.
   name: NASA APOD Daily Digest
@@ -113,7 +256,7 @@ arazzos:
 - description: Page the asteroid catalog, look up a specific near-Earth object, and pull every other object approaching on the same date.
   name: NASA Near Earth Object Close Approach Analysis
   slug: nasa-neo-close-approach-analysis-workflow
-artifact_total: 51
+artifact_total: 81
 collections:
 - collection_type: open
   name: API Collection
@@ -334,6 +477,9 @@ json_schemas:
 - name: APOD Image
   property_count: 9
   slug: apod-image
+- name: ApodEntry
+  property_count: 9
+  slug: apod
 - name: Rover Camera
   property_count: 4
   slug: camera
@@ -371,7 +517,7 @@ modified: '2026-06-20'
 name: NASA
 nav: Providers
 network: true
-overview: 'NASA publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Asset API, Captions API, DONKI API, and 6 more. Tagged areas include Government, Science, Space, Geospatial, and Government Data.
+overview: 'NASA publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Asset API, Captions API, DONKI API, and 35 more. Tagged areas include Government, Science, Space, Geospatial, and Government Data.
 
 
   The NASA catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -400,23 +546,23 @@ rules:
   slug: nasa-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.3
+  composite: 33.5
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 49.3
+    artifact_dirs: 26
+    catalog_earned: 57.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.8
-    catalog_max: 100.0
+    catalog_gap: 57.4
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.9
+  delta: -0.8
   facets:
-    access_clarity: 0.0
+    access_clarity: 15.8
     contract_governance: 14.4
-    contract_quality: 53.4
+    contract_quality: 50.3
     developer_ergonomics: 35.7
-    discoverability: 72.2
+    discoverability: 64.3
     operational_transparency: 13.2
-  previous_composite: 33.4
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -424,21 +570,20 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 37
     mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 42.6
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 22.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/screenshots/nasa-2026-06-20T185945.png
 security:
 - kind: authentication
@@ -460,5 +605,10 @@ tags:
 - Space
 - Geospatial
 - Government Data
+- Astronomy
+- Planetary Science
+- Earth Science
+- Earth Observation
+- Open Data
 website: https://www.nasa.gov
 ---

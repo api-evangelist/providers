@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 4
 apis:
 - description: 'NIP-01 defines the core Nostr protocol: event format (id, pubkey, created_at, kind, tags, content, sig), client-to-relay messages (EVENT, REQ, CLOSE), and relay-to-client messages (EVENT, OK, EOSE, CL'
@@ -123,7 +123,7 @@ modified: '2026-05-29'
 name: Nostr
 nav: Providers
 network: true
-overview: 'Nostr publishes 2 APIs on the [APIs.io](https://apis.io/) network: Protocol (NIP-01) and Relay WebSocket Interface. Tagged areas include Nostr, Decentralized Social, Open Protocol, Relay, and WebSocket.
+overview: 'Nostr publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Protocol (NIP-01), Relay WebSocket Interface, and 2 more. Tagged areas include Nostr, Decentralized Social, Open Protocol, Relay, and WebSocket.
 
 
   The Nostr catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -153,28 +153,34 @@ rules:
   slug: nostr-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 30.5
+  composite: 27.7
   coverage:
     artifact_dirs: 9
-    catalog_earned: 62.8
+    catalog_earned: 61.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.3
+    catalog_gap: 53.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.8
   facets:
-    access_clarity: 28.9
+    access_clarity: 26.8
     contract_governance: 11.4
-    contract_quality: 42.7
+    contract_quality: 40.6
     developer_ergonomics: 0.0
-    discoverability: 81.5
-    operational_transparency: 39.5
+    discoverability: 78.6
+    operational_transparency: 37.4
   open_source:
     applies: true
     score: 25.0
   previous_composite: 30.5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 5.9
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

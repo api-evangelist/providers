@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.4
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - baseURL: wss://data.infoway.io/ws
@@ -217,7 +217,7 @@ modified: '2026-08-09'
 name: Infoway Real-time Market Data API
 nav: Providers
 network: true
-overview: 'Infoway Real-time Market Data API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Infoway WebSocket Streaming API, Common API, Crypto API, and 1 more. Tagged areas include stock-api, forex-api, crypto-api, commodities-api, and futures-api.
+overview: 'Infoway Real-time Market Data API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Infoway WebSocket Streaming API, Common API, Crypto API, and 2 more. Tagged areas include stock-api, forex-api, crypto-api, commodities-api, and futures-api.
 
 
   The Infoway Real-time Market Data API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -231,7 +231,7 @@ rate_limits:
   slug: infoway-real-time-market-data-api-rate-limits
 score:
   band: developing
-  composite: 46.9
+  composite: 45.1
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -239,13 +239,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.8
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 55.6
+    contract_quality: 51.4
     developer_ergonomics: 67.9
-    discoverability: 75.9
+    discoverability: 75.0
     operational_transparency: 10.5
   previous_composite: 46.9
   provenance:
@@ -262,9 +262,9 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 41.7
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 23.1
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

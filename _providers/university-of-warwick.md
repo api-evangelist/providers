@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - description: Warwick's Shibboleth SAML 2.0 identity provider. Publishes unauthenticated, machine-readable federation metadata as a SAML EntityDescriptor with entityID https://idp.warwick.ac.uk/idp/shibboleth, a sh
@@ -65,7 +65,7 @@ apis:
   description: Long-running asynchronous job instances.
   name: University of Warwick Jobs API
   slug: university-of-warwick-jobs-api
-- baseURL: https://tabula.warwick.ac.uk/api/v1
+- baseURL: https://wrap.warwick.ac.uk/cgi/oai2
   baseurl_source: declared
   description: Open Archives Initiative Protocol for Metadata Harvesting, version 2.0.
   name: University of Warwick OAI PMH API
@@ -262,7 +262,7 @@ modified: '2026-08-19'
 name: University of Warwick
 nav: Providers
 network: true
-overview: 'University of Warwick publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Jobs API, OAI PMH API, and 1 more. Tagged areas include University, Higher Education, Education, Research, and United Kingdom.
+overview: 'University of Warwick publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Jobs API, OAI PMH API, and 7 more. Tagged areas include University, Higher Education, Education, Research, and United Kingdom.
 
 
   The University of Warwick catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -295,23 +295,23 @@ scopes:
   slug: university-of-warwick-oauth-scopes
   summary_line: 9 scopes · threeLegged
 score:
-  band: strong
-  composite: 60.1
+  band: developing
+  composite: 52.6
   coverage:
     artifact_dirs: 19
-    catalog_earned: 68.5
+    catalog_earned: 65.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.5
+    catalog_gap: 49.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: -7.6
   facets:
-    access_clarity: 50.0
+    access_clarity: 47.9
     contract_governance: 31.8
-    contract_quality: 69.3
+    contract_quality: 63.4
     developer_ergonomics: 47.6
-    discoverability: 68.5
-    operational_transparency: 23.7
+    discoverability: 66.1
+    operational_transparency: 21.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -320,7 +320,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 61.4
+  previous_composite: 60.2
   provenance:
     conformance: first-party
     contracts:
@@ -333,10 +333,10 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 90.7
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: flat
+    score: 48.0
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

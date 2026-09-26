@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 7
 apis:
 - description: An OpenAI-compatible LLM inference API operated by ZIH and ScaDS.AI Dresden/Leipzig for TU Dresden staff, students and ScaDS.AI affiliates, served from a LiteLLM proxy on the university's own network.
@@ -288,22 +288,22 @@ rate_limits:
   slug: tu-dresden-rate-limits
 score:
   band: thin
-  composite: 36.8
+  composite: 32.6
   coverage:
     artifact_dirs: 10
-    catalog_earned: 63.0
+    catalog_earned: 61.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.1
   facets:
-    access_clarity: 50.0
+    access_clarity: 47.9
     contract_governance: 18.2
     contract_quality: 4.4
     developer_ergonomics: 35.7
-    discoverability: 74.1
-    operational_transparency: 34.2
+    discoverability: 71.4
+    operational_transparency: 31.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -312,7 +312,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 36.8
+  previous_composite: 35.7
   provenance:
     conformance: first-party
   regulatory:
@@ -320,9 +320,9 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 57.4
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 28.2
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

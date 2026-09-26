@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.1
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -50,17 +50,17 @@ apis:
   name: dopost Social Media Scheduler API
   slug: dopost-social-media-scheduler-api
 - baseURL: https://dopost.co
-  baseurl_source: declared
+  baseurl_source: spec
   description: Upload, list, and delete media assets used in posts.
   name: dopost Media API
   slug: dopost-co-media-api
 - baseURL: https://dopost.co
-  baseurl_source: declared
+  baseurl_source: spec
   description: Schedule, retrieve, reschedule, and delete posts across connected networks.
   name: dopost Posts API
   slug: dopost-co-posts-api
 - baseURL: https://dopost.co
-  baseurl_source: declared
+  baseurl_source: spec
   description: Inspect connected social accounts and per-network posting limits.
   name: dopost Social Accounts API
   slug: dopost-co-social-accounts-api
@@ -174,7 +174,7 @@ modified: '2026-05-27'
 name: dopost
 nav: Providers
 network: true
-overview: 'dopost publishes 3 APIs on the [APIs.io](https://apis.io/) network: Media API, Posts API, and Social Accounts API. Tagged areas include Social Media, Scheduling, Publishing, Instagram, and Facebook.
+overview: 'dopost publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Media API, Posts API, Social Accounts API, and 1 more. Tagged areas include Social Media, Scheduling, Publishing, Instagram, and Facebook.
 
 
   The dopost catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -213,22 +213,22 @@ rules:
     warn: 2
   slug: dopost-co-rules
 score:
-  band: thin
-  composite: 27.0
+  band: emerging
+  composite: 25.6
   coverage:
     artifact_dirs: 18
-    catalog_earned: 64.5
+    catalog_earned: 58.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.5
+    catalog_gap: 56.7
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 50.0
+    access_clarity: 46.8
     contract_governance: 13.6
     contract_quality: 5.4
     developer_ergonomics: 35.7
-    discoverability: 75.9
+    discoverability: 66.7
     operational_transparency: 0.0
   previous_composite: 27.0
   provenance:
@@ -239,8 +239,14 @@ score:
       marker_coverage: 0.0
       total: 3
     mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 16.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

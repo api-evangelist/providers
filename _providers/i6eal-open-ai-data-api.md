@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: na
     mcp_server: false
@@ -33,92 +33,92 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.8
-  scored_at: '2026-09-24'
+  score: 21.3
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - baseURL: https://i6eal.de
-  baseurl_source: declared
+  baseurl_source: spec
   description: Officially published AI-related investigations, orders, fines and remedies with separate procedural stages and exact technology evidence.
   name: i6eal Open AI Data API AI Enforcement Monitor Germany & EU API
   slug: i6eal-open-ai-data-api-ai-enforcement-monitor-germany-eu-api
 - baseURL: https://i6eal.de
-  baseurl_source: declared
+  baseurl_source: spec
   description: Parliamentary questions, answers and exactly linked proceedings from the Bundestag documentation system.
   name: i6eal Open AI Data API AI Parliamentary Accountability Monitor API
   slug: i6eal-open-ai-data-api-ai-parliamentary-accountability-monitor-api
 - baseURL: https://i6eal.de
-  baseurl_source: declared
+  baseurl_source: spec
   description: Machine-readable index of every published dataset.
   name: i6eal Open AI Data API Catalogue API
   slug: i6eal-open-ai-data-api-catalogue-api
 - baseURL: https://i6eal.de
-  baseurl_source: declared
+  baseurl_source: spec
   description: Exact AI text evidence from the public EUDAMED software corpus with manufacturer, risk, version and registry attributes; software alone is never treated as AI evidence.
   name: i6eal Open AI Data API EU AI Medical-Device Lifecycle Monitor API
   slug: i6eal-open-ai-data-api-eu-ai-medical-device-lifecycle-monitor-api
 - baseURL: https://i6eal.de
-  baseurl_source: declared
+  baseurl_source: spec
   description: Official CTIS lifecycles of medicinal clinical trials with exact AI text evidence and separate application, country-status, recruitment, safety and results events.
   name: i6eal Open AI Data API EU AI Studies Monitor API
   slug: i6eal-open-ai-data-api-eu-ai-studies-monitor-api
 - baseURL: https://i6eal.de
-  baseurl_source: declared
+  baseurl_source: spec
   description: Provider and document evidence for Articles 50 and 53; visibility and review progress remain explicitly separate from conformity.
   name: i6eal Open AI Data API EU AI Transparency Evidence Monitor API
   slug: i6eal-open-ai-data-api-eu-ai-transparency-evidence-monitor-api
 - baseURL: https://i6eal.de
-  baseurl_source: declared
+  baseurl_source: spec
   description: Monthly DSA statements on automated detection, decision automation and reported restrictions by platform; automation is not relabelled as AI.
   name: i6eal Open AI Data API EU Platform Automation Monitor API
   slug: i6eal-open-ai-data-api-eu-platform-automation-monitor-api
 - baseURL: https://i6eal.de
-  baseurl_source: declared
+  baseurl_source: spec
   description: Observed official federal corpus with decisions, exact passages and a material-change chronicle.
   name: i6eal Open AI Data API German AI Case-Law Monitor API
   slug: i6eal-open-ai-data-api-german-ai-case-law-monitor-api
 - baseURL: https://i6eal.de
-  baseurl_source: declared
+  baseurl_source: spec
   description: Source-evidenced edges between actors, projects, outputs, systems, repositories, packages, procurements and budget titles.
   name: i6eal Open AI Data API German AI Evidence Network API
   slug: i6eal-open-ai-data-api-german-ai-evidence-network-api
 - baseURL: https://i6eal.de
-  baseurl_source: declared
+  baseurl_source: spec
   description: Official Eurostat observations of AI adoption by enterprises and individuals; statistical universes remain separate.
   name: i6eal Open AI Data API German & EU AI Adoption Atlas API
   slug: i6eal-open-ai-data-api-german-eu-ai-adoption-atlas-api
 - baseURL: https://i6eal.de
-  baseurl_source: declared
+  baseurl_source: spec
   description: Official procurement signals as durable procedure chains, separating exactly linked procedures from isolated notices.
   name: i6eal Open AI Data API German & EU AI Procurement Chronicle API
   slug: i6eal-open-ai-data-api-german-eu-ai-procurement-chronicle-api
 - baseURL: https://i6eal.de
-  baseurl_source: declared
+  baseurl_source: spec
   description: Standardisation request, work items, lifecycle events and EU references as separate inspectable evidence lanes.
   name: i6eal Open AI Data API German & EU AI Standardisation Monitor API
   slug: i6eal-open-ai-data-api-german-eu-ai-standardisation-monitor-api
 - baseURL: https://i6eal.de
-  baseurl_source: declared
+  baseurl_source: spec
   description: Officially evidenced responsibilities, legal instruments and observations, without a compliance or effectiveness score.
   name: i6eal Open AI Data API German & EU AI Supervision Monitor API
   slug: i6eal-open-ai-data-api-german-eu-ai-supervision-monitor-api
 - baseURL: https://i6eal.de
-  baseurl_source: declared
+  baseurl_source: spec
   description: Machine-readable federal budget titles with explicit AI references, keeping appropriations, supplements, actuals and official revisions separate.
   name: i6eal Open AI Data API German Federal AI Budget Monitor API
   slug: i6eal-open-ai-data-api-german-federal-ai-budget-monitor-api
 - baseURL: https://i6eal.de
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'State dossiers assembled from three separate evidence layers: infrastructure, public systems and procurement signals.'
   name: i6eal Open AI Data API German State AI Evidence Layers API
   slug: i6eal-open-ai-data-api-german-state-ai-evidence-layers-api
 - baseURL: https://i6eal.de
-  baseurl_source: declared
+  baseurl_source: spec
   description: Revision trail for newly published and materially changed procedure dossiers; retrieval timestamps alone never create an event.
   name: i6eal Open AI Data API Observed AI Procurement Changes API
   slug: i6eal-open-ai-data-api-observed-ai-procurement-changes-api
 - baseURL: https://i6eal.de
-  baseurl_source: declared
+  baseurl_source: spec
   description: Inspectable system profiles and source-evidenced links to repositories and technical inventories only.
   name: i6eal Open AI Data API Public AI System Evidence Pass API
   slug: i6eal-open-ai-data-api-public-ai-system-evidence-pass-api
@@ -322,21 +322,21 @@ overview: 'i6eal Open AI Data API publishes 17 APIs on the [APIs.io](https://api
 random_paper: 3
 score:
   band: developing
-  composite: 47.4
+  composite: 42.7
   coverage:
     artifact_dirs: 20
-    catalog_earned: 42.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.0
+    catalog_gap: 63.0
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.7
   facets:
     access_clarity: 57.1
     contract_governance: 4.5
-    contract_quality: 57.8
+    contract_quality: 52.7
     developer_ergonomics: 47.0
-    discoverability: 75.9
+    discoverability: 64.3
     operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -361,9 +361,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 46.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 22.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

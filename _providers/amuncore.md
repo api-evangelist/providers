@@ -27,7 +27,7 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: true
     idempotency: false
     mcp_server: verified
@@ -38,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 57.7
-  scored_at: '2026-09-24'
+  score: 55.6
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -50,7 +50,7 @@ agentic_access:
 api_count: 2
 apis:
 - baseURL: https://amuncore.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: Generated CRUD over a table or view exposed as an endpoint on a registered AmunCore application.
   name: AmunCore Dynamic API
   slug: amuncore-dynamic-api-api
@@ -263,22 +263,22 @@ scopes:
   slug: amuncore-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 53.5
+  band: strong
+  composite: 54.8
   coverage:
     artifact_dirs: 24
-    catalog_earned: 61.0
+    catalog_earned: 56.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 61.7
+    contract_quality: 56.6
     developer_ergonomics: 35.1
-    discoverability: 75.9
+    discoverability: 66.7
     operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -298,8 +298,14 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 39.2
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

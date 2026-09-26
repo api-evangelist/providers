@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,57 +45,57 @@ agentic_access:
 api_count: 11
 apis:
 - baseURL: https://aviationstack.com/
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Aircraft Types API from Aviationstack — 1 operation(s) for aircraft types.
   name: Aviationstack Aircraft Types API
   slug: aviationstack-aircraft-types-api
 - baseURL: https://aviationstack.com/
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Airlines API from Aviationstack — 1 operation(s) for airlines.
   name: Aviationstack Airlines API
   slug: aviationstack-airlines-api
 - baseURL: https://aviationstack.com/
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Airplanes API from Aviationstack — 1 operation(s) for airplanes.
   name: Aviationstack Airplanes API
   slug: aviationstack-airplanes-api
 - baseURL: https://aviationstack.com/
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Airports API from Aviationstack — 1 operation(s) for airports.
   name: Aviationstack Airports API
   slug: aviationstack-airports-api
 - baseURL: https://aviationstack.com/
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Cities API from Aviationstack — 1 operation(s) for cities.
   name: Aviationstack Cities API
   slug: aviationstack-cities-api
 - baseURL: https://aviationstack.com/
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Countries API from Aviationstack — 1 operation(s) for countries.
   name: Aviationstack Countries API
   slug: aviationstack-countries-api
 - baseURL: https://aviationstack.com/
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Flights API from Aviationstack — 1 operation(s) for flights.
   name: Aviationstack Flights API
   slug: aviationstack-flights-api
 - baseURL: https://aviationstack.com/
-  baseurl_source: declared
+  baseurl_source: spec
   description: The FlightsFuture API from Aviationstack — 1 operation(s) for flightsfuture.
   name: Aviationstack FlightsFuture API
   slug: aviationstack-flightsfuture-api
 - baseURL: https://aviationstack.com/
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Routes API from Aviationstack — 1 operation(s) for routes.
   name: Aviationstack Routes API
   slug: aviationstack-routes-api
 - baseURL: https://aviationstack.com/
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Taxes API from Aviationstack — 1 operation(s) for taxes.
   name: Aviationstack Taxes API
   slug: aviationstack-taxes-api
 - baseURL: https://aviationstack.com/
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Timetable API from Aviationstack — 1 operation(s) for timetable.
   name: Aviationstack Timetable API
   slug: aviationstack-timetable-api
@@ -194,21 +194,21 @@ rate_limits:
   slug: aviationstack-rate-limits
 score:
   band: emerging
-  composite: 23.3
+  composite: 19.6
   coverage:
     artifact_dirs: 9
-    catalog_earned: 43.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 62.0
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.7
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 42.9
+    contract_quality: 38.6
     developer_ergonomics: 19.0
-    discoverability: 74.1
+    discoverability: 62.5
     operational_transparency: 10.5
   previous_composite: 23.3
   provenance:
@@ -218,8 +218,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 5.9
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

@@ -11,7 +11,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: documented
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.5
-  scored_at: '2026-09-24'
+  score: 33.3
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 4
@@ -34,7 +34,7 @@ agentic_access:
 api_count: 1
 apis:
 - baseURL: https://graphadvocate.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: Routing and trader-intelligence API at graphadvocate.com. POST / speaks A2A JSON-RPC 2.0 (message/send) and is the free tier (3 routed queries/day per wallet-identified sender); POST /route and 22 fur
   name: Graph Advocate API
   slug: graph-advocate-api
@@ -191,7 +191,7 @@ modified: '2026-09-19'
 name: PaulieB14
 nav: Providers
 network: true
-overview: 'PaulieB14 publishes 1 API on the [APIs.io](https://apis.io/) network: Graph Advocate API. Tagged areas include Blockchain, On-Chain Data, The Graph, Subgraph, and GraphQL.
+overview: 'PaulieB14 publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Graph Advocate API, and 1 more. Tagged areas include Blockchain, On-Chain Data, The Graph, Subgraph, and GraphQL.
 
 
   PaulieB14''s developer surface includes documentation, getting-started guide, API reference, pricing, authentication, and 24 more developer resources.'
@@ -206,21 +206,21 @@ rate_limits:
   slug: graphadvocate-com-rate-limits
 score:
   band: developing
-  composite: 42.4
+  composite: 40.4
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 45.0
+    artifact_dirs: 19
+    catalog_earned: 40.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.0
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
-    contract_quality: 49.7
+    contract_quality: 44.7
     developer_ergonomics: 64.3
-    discoverability: 75.9
+    discoverability: 66.7
     operational_transparency: 13.2
   previous_composite: 42.4
   provenance:
@@ -233,8 +233,14 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 16.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

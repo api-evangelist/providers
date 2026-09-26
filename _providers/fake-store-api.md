@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,22 +44,22 @@ agentic_access:
 api_count: 1
 apis:
 - baseURL: https://fakestoreapi.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: Authentication operations.
   name: Fake Store API Auth API
   slug: fake-store-api-auth-api
 - baseURL: https://fakestoreapi.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: Shopping cart operations.
   name: Fake Store API Carts API
   slug: fake-store-api-carts-api
 - baseURL: https://fakestoreapi.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: Product catalog operations.
   name: Fake Store API Products API
   slug: fake-store-api-products-api
 - baseURL: https://fakestoreapi.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: User account operations.
   name: Fake Store API Users API
   slug: fake-store-api-users-api
@@ -145,21 +145,21 @@ rate_limits:
   slug: fake-store-api-rate-limits
 score:
   band: emerging
-  composite: 25.2
+  composite: 21.5
   coverage:
     artifact_dirs: 9
-    catalog_earned: 46.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.7
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 49.3
+    contract_quality: 44.7
     developer_ergonomics: 9.5
-    discoverability: 68.5
+    discoverability: 57.1
     operational_transparency: 13.2
   previous_composite: 25.2
   provenance:
@@ -169,8 +169,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 5.9
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

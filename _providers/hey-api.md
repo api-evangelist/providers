@@ -21,7 +21,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: true
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: derived
     idempotency: false
     mcp_server: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.7
-  scored_at: '2026-09-24'
+  score: 32.6
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -104,6 +104,11 @@ collections:
   name: Hey Users API
   slug: open-hey-api-users-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/vendor-facets/hey-api-vendor-facets.yml
+  title: ''
+  type: VendorFacets
+  url: vendor-facets/hey-api-vendor-facets.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/overlays/hey-api-platform-overlay.yaml
   title: ''
@@ -262,13 +267,13 @@ modified: '2026-09-16'
 name: Hey API
 nav: Providers
 network: true
-overview: 'Hey API publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Get API, Hey API, Internal API, and 3 more. Tagged areas include Code Generation, Developer Tools, OpenAPI, SDK, and TypeScript.
+overview: 'Hey API publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Get API, Hey API, Internal API, and 4 more. Tagged areas include Code Generation, Developer Tools, OpenAPI, SDK, and TypeScript.
 
 
   The Hey API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Hey API''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, changelog, CLI, and 25 more developer resources.'
+  Hey API''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, changelog, CLI, and 26 more developer resources.'
 plans:
 - name: Hey Api Plans Pricing
   plan_count: 3
@@ -280,21 +285,21 @@ rate_limits:
   slug: hey-api-rate-limits
 score:
   band: developing
-  composite: 43.9
+  composite: 42.8
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 15.8
     contract_governance: 4.5
-    contract_quality: 54.9
+    contract_quality: 50.2
     developer_ergonomics: 78.0
-    discoverability: 66.7
+    discoverability: 64.3
     operational_transparency: 42.1
   open_source:
     applies: true
@@ -309,8 +314,14 @@ score:
       marker_coverage: 0.0
       total: 6
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 16.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

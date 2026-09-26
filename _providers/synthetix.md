@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -206,7 +206,7 @@ modified: '2026-06-14'
 name: Synthetix
 nav: Providers
 network: true
-overview: 'Synthetix publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Escrowed Balance API, Health Check API, Staking API, and 4 more. Tagged areas include DeFi, Derivatives, Perpetuals, Synthetic Assets, and Liquidity Protocol.
+overview: 'Synthetix publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Escrowed Balance API, Health Check API, Staking API, and 8 more. Tagged areas include DeFi, Derivatives, Perpetuals, Synthetic Assets, and Liquidity Protocol.
 
 
   The Synthetix catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -235,22 +235,22 @@ rules:
   slug: synthetix-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.4
+  composite: 29.9
   coverage:
     artifact_dirs: 15
-    catalog_earned: 64.3
+    catalog_earned: 61.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.8
+    catalog_gap: 53.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 39.5
+    access_clarity: 36.3
     contract_governance: 9.8
-    contract_quality: 51.2
+    contract_quality: 47.0
     developer_ergonomics: 0.0
-    discoverability: 70.4
-    operational_transparency: 36.8
+    discoverability: 67.9
+    operational_transparency: 33.7
   previous_composite: 31.4
   provenance:
     agentic_access: derived
@@ -264,9 +264,9 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 20.0
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 11.1
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

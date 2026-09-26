@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 8
@@ -216,7 +216,7 @@ modified: '2026-09-19'
 name: temp.md
 nav: Providers
 network: true
-overview: 'temp.md publishes 2 APIs on the [APIs.io](https://apis.io/) network: Public API and Embedded Preview Platform API. Tagged areas include Web Publishing, Static Hosting, AI Agents, MCP, and A2A.
+overview: 'temp.md publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Public API, Embedded Preview Platform API, and 2 more. Tagged areas include Web Publishing, Static Hosting, AI Agents, MCP, and A2A.
 
 
   The temp.md catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -234,21 +234,21 @@ rate_limits:
   slug: temp-md-rate-limits
 score:
   band: strong
-  composite: 54.9
+  composite: 55.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 65.8
     contract_governance: 18.2
-    contract_quality: 57.4
+    contract_quality: 52.5
     developer_ergonomics: 61.9
-    discoverability: 75.9
+    discoverability: 75.0
     operational_transparency: 28.9
   previous_composite: 54.9
   provenance:
@@ -261,8 +261,14 @@ score:
       total: 2
     mcp: first-party
     skills: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 28.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

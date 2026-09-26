@@ -1345,7 +1345,6 @@
   - zendesk
   - zenoss
   - zoho-desk
-
 - slug: payments
   name: Payments & Money Movement
   icon: payments

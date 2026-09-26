@@ -27,7 +27,7 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: verified
@@ -38,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.8
-  scored_at: '2026-09-24'
+  score: 49.6
+  scored_at: '2026-09-25'
 api_count: 15
 apis:
 - description: Ahrefs' hosted, remote Model Context Protocol server, which lets AI agents query the Ahrefs API on behalf of a signed-in Ahrefs account. Streamable HTTP transport, OAuth 2.0 with PKCE (scope apiv3-mcp
@@ -460,7 +460,7 @@ modified: '2026-08-12'
 name: Ahrefs
 nav: Providers
 network: true
-overview: 'Ahrefs publishes 42 APIs on the [APIs.io](https://apis.io/) network, including AI visibility API, Anonymous queries API, Backlinks profile API, and 39 more. Tagged areas include Company, SEO, Marketing, Search, and Analytics.
+overview: 'Ahrefs publishes 43 APIs on the [APIs.io](https://apis.io/) network, including AI visibility API, Anonymous queries API, Backlinks profile API, and 40 more. Tagged areas include Company, SEO, Marketing, Search, and Analytics.
 
 
   Ahrefs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
@@ -480,7 +480,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.1
+  composite: 64.1
   coverage:
     artifact_dirs: 25
     catalog_earned: 60.0
@@ -488,13 +488,13 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.0
   facets:
     access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 55.1
+    contract_quality: 49.6
     developer_ergonomics: 78.6
-    discoverability: 81.5
+    discoverability: 80.0
     operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -511,8 +511,14 @@ score:
       total: 42
     mcp: first-party
     skills: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 39.2
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

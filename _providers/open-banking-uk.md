@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -503,7 +503,7 @@ modified: '2026-06-13'
 name: UK Open Banking
 nav: Providers
 network: true
-overview: 'UK Open Banking publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, ATM API, and 36 more. Tagged areas include Open Banking, Financial Services, Payments, Account Information, and PSD2.
+overview: 'UK Open Banking publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, ATM API, and 39 more. Tagged areas include Open Banking, Financial Services, Payments, Account Information, and PSD2.
 
 
   The UK Open Banking catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -536,22 +536,22 @@ scopes:
   slug: open-banking-uk-scopes
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 42.7
+  band: thin
+  composite: 39.2
   coverage:
     artifact_dirs: 18
-    catalog_earned: 60.3
+    catalog_earned: 59.1
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.8
+    catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 46.8
     contract_governance: 9.8
-    contract_quality: 56.6
+    contract_quality: 51.4
     developer_ergonomics: 38.1
-    discoverability: 68.5
+    discoverability: 67.0
     operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -574,9 +574,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 53.2
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 33.1
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

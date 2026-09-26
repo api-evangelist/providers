@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - description: 'The Postmates Fleet API (also referred to as the Postmates On-Demand Delivery API and Postmates Anywhere API) was a REST API that let merchants programmatically create delivery jobs, quote pickup and '
@@ -120,25 +120,31 @@ rate_limits:
   slug: postmates-rate-limits
 score:
   band: thin
-  composite: 27.5
+  composite: 26.2
   coverage:
-    artifact_dirs: 5
-    catalog_earned: 56.0
+    artifact_dirs: 6
+    catalog_earned: 54.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.0
+    catalog_gap: 60.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 50.0
+    access_clarity: 47.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 75.9
-    operational_transparency: 21.1
+    discoverability: 73.2
+    operational_transparency: 18.9
   previous_composite: 27.5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 13.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

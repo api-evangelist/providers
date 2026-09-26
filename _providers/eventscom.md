@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 547
   human_in_the_loop: 265
@@ -1094,7 +1094,7 @@ modified: '2026-08-04'
 name: Events.com
 nav: Providers
 network: true
-overview: 'Events.com publishes 112 APIs on the [APIs.io](https://apis.io/) network, including Agent Config Controller API, Agent Config Migration Controller API, Agent Email Controller API, and 109 more. Tagged areas include Event Management, Ticketing, Event Registration, Event Marketing, and Sponsorship.
+overview: 'Events.com publishes 113 APIs on the [APIs.io](https://apis.io/) network, including Agent Config Controller API, Agent Config Migration Controller API, Agent Email Controller API, and 110 more. Tagged areas include Event Management, Ticketing, Event Registration, Event Marketing, and Sponsorship.
 
 
   The Events.com catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -1111,7 +1111,7 @@ plans:
 random_paper: 12
 score:
   band: developing
-  composite: 48.3
+  composite: 48.0
   coverage:
     artifact_dirs: 22
     catalog_earned: 49.0
@@ -1119,13 +1119,13 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 69.7
     contract_governance: 4.5
-    contract_quality: 59.7
+    contract_quality: 54.8
     developer_ergonomics: 28.0
-    discoverability: 75.9
+    discoverability: 75.0
     operational_transparency: 10.5
   previous_composite: 48.3
   provenance:
@@ -1138,8 +1138,14 @@ score:
       total: 112
     mcp: first-party
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 22.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

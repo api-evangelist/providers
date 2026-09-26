@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.1
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 4
 apis:
 - description: 'The Storylane External API allows Enterprise plan customers to programmatically list published demos, retrieve demo details including chapters and steps, manage demo links, create new shareable links '
@@ -259,7 +259,7 @@ modified: '2026-08-13'
 name: Storylane
 nav: Providers
 network: true
-overview: 'Storylane publishes 1 API on the [APIs.io](https://apis.io/) network: External API. Tagged areas include Interactive Demos, Product Walkthroughs, Sales Enablement, Marketing, and Demo Analytics.
+overview: 'Storylane publishes 4 APIs on the [APIs.io](https://apis.io/) network, including External API, and 3 more. Tagged areas include Interactive Demos, Product Walkthroughs, Sales Enablement, Marketing, and Demo Analytics.
 
 
   The Storylane catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
@@ -282,7 +282,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 62.6
+  composite: 65.3
   coverage:
     artifact_dirs: 23
     catalog_earned: 72.0
@@ -290,21 +290,27 @@ score:
     catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.7
   facets:
     access_clarity: 93.4
     contract_governance: 18.2
-    contract_quality: 53.2
+    contract_quality: 50.6
     developer_ergonomics: 51.8
-    discoverability: 81.5
+    discoverability: 80.0
     operational_transparency: 76.3
   previous_composite: 62.6
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 39.2
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-09-24'
+  score: 28.4
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: The Cognigy.AI REST API for managing AI Agents throughout their lifecycle — deployment and snapshots, flow configuration and interaction, endpoints, resource monitoring, administration and user manage
@@ -179,7 +179,7 @@ score:
   band: developing
   composite: 47.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -189,15 +189,26 @@ score:
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
-    contract_quality: 41.6
+    contract_quality: 39.0
     developer_ergonomics: 78.6
-    discoverability: 75.9
+    discoverability: 75.0
     operational_transparency: 26.3
   previous_composite: 47.2
   provenance:
     conformance: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    mcp: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 20.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

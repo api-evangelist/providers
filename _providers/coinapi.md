@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 3
 apis:
 - description: Normalized cryptocurrency market data covering more than 350 exchanges and 28,000+ assets. Provides trades, quotes, order books, OHLCV time series, exchange rates, and derivatives metrics (funding rat
@@ -112,7 +112,7 @@ modified: '2026-05-29'
 name: CoinAPI
 nav: Providers
 network: true
-overview: 'CoinAPI publishes 1 API on the [APIs.io](https://apis.io/) network: Market Data API. Tagged areas include Blockchain, Crypto Indexes, Crypto Metrics, Cryptocurrency, and EMS.
+overview: 'CoinAPI publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Market Data API, and 2 more. Tagged areas include Blockchain, Crypto Indexes, Crypto Metrics, Cryptocurrency, and EMS.
 
 
   The CoinAPI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -154,9 +154,9 @@ score:
   facets:
     access_clarity: 26.3
     contract_governance: 11.4
-    contract_quality: 42.7
+    contract_quality: 40.6
     developer_ergonomics: 2.4
-    discoverability: 72.2
+    discoverability: 69.6
     operational_transparency: 21.1
   previous_composite: 25.5
   regulatory:
@@ -164,9 +164,9 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 20.0
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 11.1
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

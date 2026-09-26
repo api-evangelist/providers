@@ -15,7 +15,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: unknown
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-09-24'
+  score: 31.0
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -494,7 +494,7 @@ modified: '2026-05-25'
 name: Oxylabs
 nav: Providers
 network: true
-overview: 'Oxylabs publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Login API, Queries API, Stats API, and 1 more. Tagged areas include AI Web Scraping, Bot Mitigation Bypass, CAPTCHA Solving, Data Extraction, and Datacenter Proxies.
+overview: 'Oxylabs publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Login API, Queries API, Stats API, and 12 more. Tagged areas include AI Web Scraping, Bot Mitigation Bypass, CAPTCHA Solving, Data Extraction, and Datacenter Proxies.
 
 
   Oxylabs'' developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, changelog, support, and 64 more developer resources.'
@@ -509,7 +509,7 @@ rate_limits:
   slug: oxylabs-rate-limits
 score:
   band: developing
-  composite: 52.7
+  composite: 52.1
   coverage:
     artifact_dirs: 15
     catalog_earned: 46.0
@@ -517,13 +517,13 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 57.9
     contract_governance: 0.0
-    contract_quality: 55.1
-    developer_ergonomics: 75.0
-    discoverability: 75.9
+    contract_quality: 49.9
+    developer_ergonomics: 74.3
+    discoverability: 76.7
     operational_transparency: 42.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -540,8 +540,14 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 20.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

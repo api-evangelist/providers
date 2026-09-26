@@ -34,21 +34,21 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - baseURL: https://qlty.sh
-  baseurl_source: declared
+  baseurl_source: spec
   description: The free Qlty CLI is a polyglot, Rust-based command-line tool for universal linting, auto-formatting, security scanning, code smells, duplication, and maintainability metrics. It runs 70+ static analy
   name: Qlty CLI
   slug: qlty-cli
 - baseURL: https://qlty.sh
-  baseurl_source: declared
+  baseurl_source: spec
   description: Coverage publishing is performed by the Qlty CLI command qlty coverage publish, which uploads test coverage reports to Qlty Cloud from a CI pipeline. It authenticates with a per-project QLTY_COVERAGE_
   name: Qlty Coverage Upload
   slug: qlty-coverage-upload
 - baseURL: https://qlty.sh
-  baseurl_source: declared
+  baseurl_source: spec
   description: Qlty Cloud is the hosted platform that analyzes pull requests, posts automated code review comments on newly introduced issues, enforces quality gates, aggregates coverage, and renders trends and dash
   name: Qlty Cloud API
   slug: qlty-cloud
@@ -133,25 +133,31 @@ rate_limits:
   slug: qlty-rate-limits
 score:
   band: thin
-  composite: 31.6
+  composite: 28.1
   coverage:
     artifact_dirs: 10
-    catalog_earned: 64.0
+    catalog_earned: 56.6
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    catalog_gap: 58.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.5
   facets:
-    access_clarity: 39.5
+    access_clarity: 36.3
     contract_governance: 0.0
-    contract_quality: 30.6
+    contract_quality: 27.6
     developer_ergonomics: 23.8
-    discoverability: 68.5
-    operational_transparency: 34.2
+    discoverability: 57.1
+    operational_transparency: 31.1
   previous_composite: 31.6
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 11.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

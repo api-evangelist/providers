@@ -25,7 +25,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: true
     idempotency: false
     mcp_server: documented
@@ -36,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.4
-  scored_at: '2026-09-24'
+  score: 34.2
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -371,7 +371,7 @@ modified: '2026-08-13'
 name: Tealium
 nav: Providers
 network: true
-overview: 'Tealium publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Collect API, Customer API, and 3 more. Tagged areas include Customer Data Platform, CDP, Tag Management, AudienceStream, and Real-Time Events.
+overview: 'Tealium publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Collect API, Customer API, and 9 more. Tagged areas include Customer Data Platform, CDP, Tag Management, AudienceStream, and Real-Time Events.
 
 
   The Tealium catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -400,21 +400,21 @@ rules:
   slug: tealium-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 67.4
+  composite: 68.1
   coverage:
     artifact_dirs: 30
-    catalog_earned: 71.3
+    catalog_earned: 70.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 43.8
+    catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 93.4
-    contract_governance: 43.2
-    contract_quality: 62.7
+    contract_governance: 41.7
+    contract_quality: 58.3
     developer_ergonomics: 73.2
-    discoverability: 81.5
+    discoverability: 80.0
     operational_transparency: 44.7
   previous_composite: 67.4
   provenance:
@@ -427,8 +427,14 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 29.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

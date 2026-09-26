@@ -33,31 +33,31 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - baseURL: https://www.gradescope.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: Gradescope's primary supported integration surface. Implements the 1EdTech LTI 1.3 / LTI Advantage standard, including Names and Role Provisioning Services (NRPS) for roster sync, Assignment and Grade
   name: Gradescope LTI Integration
   slug: gradescope-lti-api
 - baseURL: https://www.gradescope.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'Course and roster data. Gradescope does not expose a generally available public REST endpoint for listing or managing courses; course roster provisioning happens through LTI 1.3 NRPS during LMS sync. '
   name: Gradescope Courses API
   slug: gradescope-courses-api
 - baseURL: https://www.gradescope.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: Assignment configuration and the autograder framework for code assignments. The documented programmatic contract is a Docker-based autograder that reads student submissions and emits a results.json fi
   name: Gradescope Assignments API
   slug: gradescope-assignments-api
 - baseURL: https://www.gradescope.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: Submission handling. Code submissions are processed inside the autograder container, where the submission is mounted and graded according to the autograder specification. Gradescope does not publish a
   name: Gradescope Submissions API
   slug: gradescope-submissions-api
 - baseURL: https://www.gradescope.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: Grade data and gradebook sync. Grades are pushed to an LMS gradebook through LTI 1.3 Assignment and Grade Services (AGS) rather than a first-party public REST API. Programmatic export/import of grades
   name: Gradescope Grades API
   slug: gradescope-grades-api
@@ -133,31 +133,31 @@ rate_limits:
   slug: gradescope-rate-limits
 score:
   band: emerging
-  composite: 23.5
+  composite: 21.4
   coverage:
     artifact_dirs: 8
-    catalog_earned: 60.0
+    catalog_earned: 53.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.1
   facets:
-    access_clarity: 28.9
+    access_clarity: 26.8
     contract_governance: 0.0
-    contract_quality: 27.9
+    contract_quality: 25.1
     developer_ergonomics: 9.5
-    discoverability: 68.5
-    operational_transparency: 34.2
+    discoverability: 57.1
+    operational_transparency: 31.1
   previous_composite: 23.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 11.1
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 5.9
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

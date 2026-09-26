@@ -33,20 +33,24 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 4
 apis:
 - description: Submit a single comparative rating request and receive real-time premiums and coverage back from many carriers at once, across auto, homeowners, condominium, renters, dwelling fire, and motorcycle lin
   name: TurboRater Rating and Quotes API
+  provenance: modeled
   slug: turborater-rating-quotes-api
 - description: Capture the applicant, drivers, vehicles, dwelling, and coverage detail that a comparative rating request is built from, so a single point of data entry can be reused across every carrier quote and br
   name: TurboRater Applicants and Risk API
+  provenance: modeled
   slug: turborater-applicants-api
 - description: Hand a completed quote from TurboRater into a downstream point-of-sale, agency management, or website platform in real time, or export it for daily download, using ITC's Turbo Tags 2.0 (.TT2) or AL3 f
   name: TurboRater Real-Time Bridge API
+  provenance: modeled
   slug: turborater-realtime-bridge-api
 - description: Pull the quote and rate results a rating request produced, in either XML or ITC's proprietary TurboTags (TT2) format, so any third-party system can consume premiums, coverages, carrier eligibility, an
   name: TurboRater Results Retrieval API
+  provenance: modeled
   slug: turborater-results-retrieval-api
 artifact_total: 8
 common:
@@ -110,31 +114,31 @@ rate_limits:
   slug: turborater-rate-limits
 score:
   band: emerging
-  composite: 17.7
+  composite: 17.4
   coverage:
     artifact_dirs: 6
-    catalog_earned: 62.0
+    catalog_earned: 59.6
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.0
+    catalog_gap: 55.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
-    access_clarity: 39.5
+    access_clarity: 36.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
-    discoverability: 64.8
-    operational_transparency: 31.6
+    discoverability: 62.5
+    operational_transparency: 28.4
   previous_composite: 17.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 9.1
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 5.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

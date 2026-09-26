@@ -12,7 +12,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: documented
     mcp_server: documented
@@ -23,8 +23,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 49.1
-  scored_at: '2026-09-24'
+  score: 46.9
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -35,7 +35,7 @@ agentic_access:
 api_count: 1
 apis:
 - baseURL: https://lvlltd.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'REST contract for the x402 skill marketplace: health and readiness probes, the ESP (Evaluate -> Settle -> Prove) protocol root, catalog search and the full catalog.json, free per-skill outline.json an'
   name: LVL LTD Agent Skill Market API
   slug: lvl-ltd-agent-skill-market-api
@@ -229,7 +229,7 @@ modified: '2026-09-19'
 name: LVL LTD CO
 nav: Providers
 network: true
-overview: 'LVL LTD CO publishes 1 API on the [APIs.io](https://apis.io/) network: LVL LTD Agent Skill Market API. Tagged areas include Agents, Agentic Commerce, Agent Skills, A2A, and MCP.
+overview: 'LVL LTD CO publishes 3 APIs on the [APIs.io](https://apis.io/) network, including LVL LTD Agent Skill Market API, and 2 more. Tagged areas include Agents, Agentic Commerce, Agent Skills, A2A, and MCP.
 
 
   LVL LTD CO''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, and 30 more developer resources.'
@@ -249,21 +249,21 @@ scopes:
   summary_line: 4 scopes
 score:
   band: developing
-  composite: 50.3
+  composite: 53.4
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 57.0
+    artifact_dirs: 21
+    catalog_earned: 52.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.1
   facets:
     access_clarity: 63.2
     contract_governance: 18.2
-    contract_quality: 36.7
+    contract_quality: 33.1
     developer_ergonomics: 59.5
-    discoverability: 75.9
+    discoverability: 66.7
     operational_transparency: 57.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -283,8 +283,14 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 48.0
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

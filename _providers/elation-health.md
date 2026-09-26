@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.3
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 455
   human_in_the_loop: 0
@@ -1221,7 +1221,7 @@ modified: '2026-08-14'
 name: Elation Health
 nav: Providers
 network: true
-overview: 'Elation Health publishes 125 APIs on the [APIs.io](https://apis.io/) network, including Allergies API, Appointments API, Authentication API, and 122 more. Tagged areas include Healthcare, United States, EHR, EMR, and FHIR.
+overview: 'Elation Health publishes 126 APIs on the [APIs.io](https://apis.io/) network, including Allergies API, Appointments API, Authentication API, and 123 more. Tagged areas include Healthcare, United States, EHR, EMR, and FHIR.
 
 
   The Elation Health catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -1255,21 +1255,21 @@ scopes:
   summary_line: 154 scopes · clientCredentials/password
 score:
   band: exemplar
-  composite: 83.6
+  composite: 77.4
   coverage:
     artifact_dirs: 34
-    catalog_earned: 71.3
+    catalog_earned: 70.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 43.8
+    catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.2
   facets:
     access_clarity: 92.1
-    contract_governance: 43.2
-    contract_quality: 72.5
+    contract_governance: 41.7
+    contract_quality: 67.4
     developer_ergonomics: 72.6
-    discoverability: 75.9
+    discoverability: 71.7
     operational_transparency: 42.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -1298,10 +1298,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 92.5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: flat
+    score: 57.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: falling
   upsert:
     applies: true
     score: 38.9

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ apis:
   description: The Items API from Nanyang Technological University — 1 operation(s) for items.
   name: Nanyang Technological University Items API
   slug: ntu-items-api
-- baseURL: https://researchdata.ntu.edu.sg/api
+- baseURL: https://dr.ntu.edu.sg/oai/request
   baseurl_source: declared
   description: The OAI-PMH API from Nanyang Technological University — 1 operation(s) for oai-pmh.
   name: Nanyang Technological University OAI PMH API
@@ -274,7 +274,7 @@ modified: '2026-08-19'
 name: Nanyang Technological University
 nav: Providers
 network: true
-overview: 'Nanyang Technological University publishes 5 APIs on the [APIs.io](https://apis.io/) network, including DR-NTU (Data) — Dataverse API, Discover API, Items API, and 2 more. Tagged areas include University, Higher Education, Education, Singapore, and Public Research University.
+overview: 'Nanyang Technological University publishes 8 APIs on the [APIs.io](https://apis.io/) network, including DR-NTU (Data) — Dataverse API, Discover API, Items API, and 5 more. Tagged areas include University, Higher Education, Education, Singapore, and Public Research University.
 
 
   The Nanyang Technological University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -317,23 +317,23 @@ scopes:
   slug: ntu-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 43.3
+  band: thin
+  composite: 38.7
   coverage:
     artifact_dirs: 21
-    catalog_earned: 73.3
+    catalog_earned: 71.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 41.8
+    catalog_gap: 43.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.6
   facets:
-    access_clarity: 50.0
+    access_clarity: 47.9
     contract_governance: 9.8
-    contract_quality: 57.5
+    contract_quality: 52.7
     developer_ergonomics: 16.7
-    discoverability: 74.1
-    operational_transparency: 23.7
+    discoverability: 71.4
+    operational_transparency: 21.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -355,9 +355,9 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 53.7
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 28.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

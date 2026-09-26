@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.0
-  scored_at: '2026-09-24'
+  score: 22.1
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -333,7 +333,7 @@ modified: '2026-05-08'
 name: Moralis
 nav: Providers
 network: true
-overview: 'Moralis publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Balance API, Block API, Categories API, and 22 more. Tagged areas include Web3, Blockchain, Data API, Streams, and Indexing.
+overview: 'Moralis publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Balance API, Block API, Categories API, and 26 more. Tagged areas include Web3, Blockchain, Data API, Streams, and Indexing.
 
 
   Moralis'' developer surface includes authentication, engineering blog, and 10 more developer resources.'
@@ -348,7 +348,7 @@ rate_limits:
   slug: moralis-rate-limits
 score:
   band: thin
-  composite: 30.7
+  composite: 29.3
   coverage:
     artifact_dirs: 12
     catalog_earned: 46.0
@@ -356,13 +356,13 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 51.8
+    contract_quality: 46.6
     developer_ergonomics: 23.8
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 10.5
   previous_composite: 30.7
   provenance:
@@ -372,8 +372,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 16.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

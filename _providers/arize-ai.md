@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-09-24'
+  score: 28.4
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -209,7 +209,7 @@ modified: '2026-05-23'
 name: Arize AI
 nav: Providers
 network: true
-overview: 'Arize AI publishes 1 API on the [APIs.io](https://apis.io/) network: Traces API. Tagged areas include LLM Observability, ML Monitoring, Open Source, OpenTelemetry, and Phoenix.
+overview: 'Arize AI publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Traces API, and 4 more. Tagged areas include LLM Observability, ML Monitoring, Open Source, OpenTelemetry, and Phoenix.
 
 
   Arize AI''s developer surface includes authentication, documentation, engineering blog, pricing, and 16 more developer resources.'
@@ -224,22 +224,22 @@ rate_limits:
   slug: arize-ai-rate-limits
 score:
   band: developing
-  composite: 43.1
+  composite: 40.4
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 51.0
+    artifact_dirs: 13
+    catalog_earned: 49.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.0
+    catalog_gap: 65.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.7
   facets:
-    access_clarity: 46.1
+    access_clarity: 43.9
     contract_governance: 0.0
-    contract_quality: 59.2
+    contract_quality: 53.3
     developer_ergonomics: 33.3
     discoverability: 66.7
-    operational_transparency: 50.0
+    operational_transparency: 47.9
   previous_composite: 43.1
   provenance:
     agentic_access: derived
@@ -248,8 +248,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 11.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

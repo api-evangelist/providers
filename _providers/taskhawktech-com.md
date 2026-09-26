@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - baseURL: https://governance.taskhawktech.com
@@ -241,7 +241,7 @@ modified: '2026-09-19'
 name: TaskHawk Systems
 nav: Providers
 network: true
-overview: 'TaskHawk Systems publishes 1 API on the [APIs.io](https://apis.io/) network: Kevros Governance API. Tagged areas include AI Governance, Agent Security, Runtime Enforcement, Policy Enforcement, and Provenance.
+overview: 'TaskHawk Systems publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Kevros Governance API, and 1 more. Tagged areas include AI Governance, Agent Security, Runtime Enforcement, Policy Enforcement, and Provenance.
 
 
   TaskHawk Systems'' developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, signup flow, and 34 more developer resources.'
@@ -261,21 +261,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 75.6
+  composite: 69.9
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.7
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 57.4
+    contract_quality: 51.7
     developer_ergonomics: 63.7
-    discoverability: 75.9
+    discoverability: 75.0
     operational_transparency: 78.9
   previous_composite: 75.6
   provenance:
@@ -292,10 +292,10 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 85.2
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: flat
+    score: 49.0
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: falling
   upsert:
     applies: true
     score: 27.8

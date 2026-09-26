@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 5
@@ -1443,6 +1443,11 @@ collections:
   name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.UpdateIdentityPool API'
   slug: open-amazon-cognito-x-amz-target-awscognitoidentityservice-updateidentitypool-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/vendor-facets/amazon-cognito-vendor-facets.yml
+  title: ''
+  type: VendorFacets
+  url: vendor-facets/amazon-cognito-vendor-facets.yml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/plans/amazon-cognito-plans-pricing.yml
   title: ''
@@ -5746,7 +5751,7 @@ overview: 'Amazon Cognito publishes 126 APIs on the [APIs.io](https://apis.io/) 
   The Amazon Cognito catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amazon Cognito''s developer surface includes authentication, documentation, pricing, signup flow, developer portal, developer console, support, and 18 more developer resources.'
+  Amazon Cognito''s developer surface includes authentication, documentation, pricing, signup flow, developer portal, developer console, support, and 19 more developer resources.'
 plans:
 - name: Amazon Cognito Plans Pricing
   plan_count: 8
@@ -5782,24 +5787,24 @@ rules:
     warn: 15
   slug: amazon-cognito-spectral-rules
 score:
-  band: strong
-  composite: 65.9
+  band: exemplar
+  composite: 66.5
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 87.5
+    artifact_dirs: 21
+    catalog_earned: 85.2
     catalog_earned_first_party: 12.0
-    catalog_gap: 27.5
+    catalog_gap: 29.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.6
   facets:
     access_clarity: 85.5
-    contract_governance: 28.8
-    contract_quality: 74.8
+    contract_governance: 27.3
+    contract_quality: 68.1
     developer_ergonomics: 65.5
-    discoverability: 63.0
-    operational_transparency: 39.5
-  previous_composite: 66.0
+    discoverability: 60.7
+    operational_transparency: 37.4
+  previous_composite: 65.9
   provenance:
     agentic_access: derived
     contracts:
@@ -5807,8 +5812,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 126
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 35.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 5
 apis:
 - description: The Forest Inventory and Analysis Database API, the machine surface behind the EVALIDator web application. A single GET or POST to /fullreport returns population estimates with standard errors, varian
@@ -172,7 +172,7 @@ rate_limits:
   slug: forest-service-rate-limits
 score:
   band: thin
-  composite: 37.4
+  composite: 34.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 40.0
@@ -180,13 +180,13 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.9
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 26.7
+    contract_quality: 24.0
     developer_ergonomics: 54.2
-    discoverability: 74.1
+    discoverability: 71.4
     operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -203,9 +203,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 46.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 24.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false
@@ -233,5 +233,7 @@ tags:
 - Wildfire
 - Public Lands
 - Environment
+- OAI-PMH
+- Research Repository
 website: https://www.fs.usda.gov/
 ---

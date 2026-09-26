@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.2
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -304,7 +304,7 @@ modified: '2026-08-13'
 name: Localytics
 nav: Providers
 network: true
-overview: 'Localytics publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Audiences API, Campaigns API, Push Campaigns API, and 2 more. Tagged areas include Company, MarTech, Mobile Analytics, Push Notifications, and Customer Engagement.
+overview: 'Localytics publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Audiences API, Campaigns API, Push Campaigns API, and 8 more. Tagged areas include Company, MarTech, Mobile Analytics, Push Notifications, and Customer Engagement.
 
 
   Localytics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 33 more developer resources.'
@@ -319,21 +319,21 @@ rate_limits:
   slug: localytics-rate-limits
 score:
   band: developing
-  composite: 47.1
+  composite: 47.6
   coverage:
     artifact_dirs: 25
-    catalog_earned: 43.0
+    catalog_earned: 42.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 72.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 27.6
     contract_governance: 4.5
-    contract_quality: 54.7
+    contract_quality: 49.2
     developer_ergonomics: 73.2
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 44.7
   previous_composite: 47.1
   provenance:
@@ -346,8 +346,14 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 30.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

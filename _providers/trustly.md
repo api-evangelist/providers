@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 46.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - baseURL: https://trustly.one/api/v1
@@ -273,7 +273,7 @@ modified: '2026-09-18'
 name: Trustly Group
 nav: Providers
 network: true
-overview: 'Trustly Group publishes 1 API on the [APIs.io](https://apis.io/) network: Trustly North America API. Tagged areas include Company, Payments, Pay by Bank, Open Banking, and Account-to-Account.
+overview: 'Trustly Group publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Trustly North America API, and 1 more. Tagged areas include Company, Payments, Pay by Bank, Open Banking, and Account-to-Account.
 
 
   The Trustly Group catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -290,22 +290,22 @@ rate_limits:
   name: Trustly Rate Limits
   slug: trustly-rate-limits
 score:
-  band: exemplar
-  composite: 70.1
+  band: strong
+  composite: 66.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.7
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 65.9
+    contract_quality: 60.1
     developer_ergonomics: 82.7
-    discoverability: 87.0
+    discoverability: 85.0
     operational_transparency: 44.7
   previous_composite: 70.1
   provenance:
@@ -328,9 +328,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 64.6
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 40.2
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

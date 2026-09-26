@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 13
@@ -362,7 +362,7 @@ modified: '2026-05-19'
 name: Google Cloud Storage
 nav: Providers
 network: true
-overview: 'Google Cloud Storage publishes 5 APIs on the [APIs.io](https://apis.io/) network, including BucketAccessControls API, Buckets API, DefaultObjectAccessControls API, and 2 more. Tagged areas include Archival, Backup, Blob Storage, Cloud Storage, and Data.
+overview: 'Google Cloud Storage publishes 6 APIs on the [APIs.io](https://apis.io/) network, including BucketAccessControls API, Buckets API, DefaultObjectAccessControls API, and 3 more. Tagged areas include Archival, Backup, Blob Storage, Cloud Storage, and Data.
 
 
   The Google Cloud Storage catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -410,21 +410,21 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.2
+  composite: 65.0
   coverage:
     artifact_dirs: 20
-    catalog_earned: 83.5
+    catalog_earned: 82.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 31.5
+    catalog_gap: 33.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.8
   facets:
     access_clarity: 68.4
-    contract_governance: 28.8
-    contract_quality: 71.8
+    contract_governance: 27.3
+    contract_quality: 65.3
     developer_ergonomics: 67.9
-    discoverability: 66.7
+    discoverability: 64.3
     operational_transparency: 65.8
   previous_composite: 63.2
   provenance:
@@ -434,8 +434,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 41.2
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

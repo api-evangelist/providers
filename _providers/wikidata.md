@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -354,7 +354,7 @@ modified: '2026-05-19'
 name: Wikidata
 nav: Providers
 network: true
-overview: 'Wikidata publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Descriptions API, Items API, Labels API, and 2 more. Tagged areas include Knowledge Graph, Linked Data, Open Data, Semantic Web, and SPARQL.
+overview: 'Wikidata publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Descriptions API, Items API, Labels API, and 6 more. Tagged areas include Knowledge Graph, Linked Data, Open Data, Semantic Web, and SPARQL.
 
 
   The Wikidata catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -398,24 +398,24 @@ scopes:
   slug: wikidata-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: strong
-  composite: 59.6
+  band: developing
+  composite: 53.6
   coverage:
     artifact_dirs: 19
-    catalog_earned: 71.5
+    catalog_earned: 70.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.5
+    catalog_gap: 44.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.8
+  delta: -6.0
   facets:
     access_clarity: 34.2
-    contract_governance: 28.8
-    contract_quality: 70.7
+    contract_governance: 27.3
+    contract_quality: 64.4
     developer_ergonomics: 63.1
-    discoverability: 68.5
+    discoverability: 66.1
     operational_transparency: 36.8
-  previous_composite: 60.4
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     contracts:
@@ -428,10 +428,10 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 75.9
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: flat
+    score: 40.2
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

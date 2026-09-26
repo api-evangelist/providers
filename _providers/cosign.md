@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 3
 apis:
 - description: Cosign is a command-line tool for signing, verifying, and storing container images and OCI artifacts. It supports keyless signing, hardware-backed keys, KMS providers, in-toto and SLSA attestations, a
@@ -229,7 +229,7 @@ modified: '2026-09-07'
 name: Cosign
 nav: Providers
 network: true
-overview: 'Cosign publishes 2 APIs on the [APIs.io](https://apis.io/) network: Sigstore Rekor API (consumed) and Sigstore Fulcio API (consumed). Tagged areas include Apache 2.0, Attestation, CLI, Code Signing, and Containers.
+overview: 'Cosign publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Sigstore Rekor API (consumed), Sigstore Fulcio API (consumed), and 1 more. Tagged areas include Apache 2.0, Attestation, CLI, Code Signing, and Containers.
 
 
   Cosign''s developer surface includes documentation, getting-started guide, release notes, engineering blog, CLI, changelog, sandbox, and 31 more developer resources.'
@@ -244,7 +244,7 @@ rate_limits:
   slug: cosign-rate-limits
 score:
   band: developing
-  composite: 39.8
+  composite: 42.5
   coverage:
     artifact_dirs: 21
     catalog_earned: 38.0
@@ -252,21 +252,30 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.7
   facets:
     access_clarity: 7.9
     contract_governance: 18.2
-    contract_quality: 26.7
+    contract_quality: 24.0
     developer_ergonomics: 78.0
-    discoverability: 72.2
+    discoverability: 69.6
     operational_transparency: 50.0
+  open_source:
+    applies: true
+    score: 65.0
   previous_composite: 39.8
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 22.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

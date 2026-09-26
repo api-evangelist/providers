@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ modified: '2026-04-19'
 name: Apache Tomcat
 nav: Providers
 network: true
-overview: 'Apache Tomcat publishes 3 APIs on the [APIs.io](https://apis.io/) network: Applications API, Server API, and Sessions API. Tagged areas include Application Server, Java, JSP, Open Source, and Servlet.
+overview: 'Apache Tomcat publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Server API, Sessions API, and 2 more. Tagged areas include Application Server, Java, JSP, Open Source, and Servlet.
 
 
   Apache Tomcat''s developer surface includes authentication, documentation, developer portal, getting-started guide, release notes, support, and 10 more developer resources.'
@@ -205,7 +205,7 @@ rate_limits:
   slug: apache-tomcat-rate-limits
 score:
   band: developing
-  composite: 40.6
+  composite: 40.3
   coverage:
     artifact_dirs: 10
     catalog_earned: 41.0
@@ -213,13 +213,13 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
-    contract_quality: 46.9
+    contract_quality: 42.2
     developer_ergonomics: 47.6
-    discoverability: 59.3
+    discoverability: 57.1
     operational_transparency: 39.5
   open_source:
     applies: true
@@ -232,8 +232,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 21.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

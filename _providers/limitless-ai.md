@@ -21,7 +21,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: verified
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.5
-  scored_at: '2026-09-24'
+  score: 31.3
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -52,22 +52,22 @@ apis:
 - description: Hosted Model Context Protocol endpoint that connects Claude and other MCP-compatible clients to the user's Limitless memory.
   name: Limitless MCP Server
   slug: mcp-server
-- baseURL: https://www.limitless.ai
+- baseURL: https://api.limitless.ai
   baseurl_source: declared
   description: The Chats API from Limitless — 2 operation(s) for chats.
   name: Limitless Chats API
   slug: limitless-ai-chats-api
-- baseURL: https://www.limitless.ai
+- baseURL: https://api.limitless.ai
   baseurl_source: declared
   description: The Download Audio API from Limitless — 1 operation(s) for download audio.
   name: Limitless Download Audio API
   slug: limitless-ai-download-audio-api
-- baseURL: https://www.limitless.ai
+- baseURL: https://api.limitless.ai
   baseurl_source: declared
   description: The Lifelogs API from Limitless — 2 operation(s) for lifelogs.
   name: Limitless Lifelogs API
   slug: limitless-ai-lifelogs-api
-- baseURL: https://www.limitless.ai
+- baseURL: https://api.limitless.ai
   baseurl_source: declared
   description: The Limitless Developer API API from Limitless — 1 operation(s) for limitless developer api.
   name: Limitless Developer API
@@ -288,7 +288,7 @@ modified: '2026-09-16'
 name: Limitless
 nav: Providers
 network: true
-overview: 'Limitless publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chats API, Download Audio API, Lifelogs API, and 1 more. Tagged areas include Artificial Intelligence, Wearables, Pendant, Meeting Notes, and Lifelogs.
+overview: 'Limitless publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Chats API, Download Audio API, Lifelogs API, and 4 more. Tagged areas include Artificial Intelligence, Wearables, Pendant, Meeting Notes, and Lifelogs.
 
 
   Limitless'' developer surface includes GitHub presence, documentation, API reference, getting-started guide, signup flow, support, privacy policy, and 33 more developer resources.'
@@ -308,22 +308,22 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.8
+  composite: 45.5
   coverage:
     artifact_dirs: 22
-    catalog_earned: 56.0
+    catalog_earned: 49.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.0
+    catalog_gap: 65.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
-    access_clarity: 50.0
+    access_clarity: 47.9
     contract_governance: 4.5
-    contract_quality: 49.1
+    contract_quality: 44.5
     developer_ergonomics: 56.5
-    discoverability: 75.9
-    operational_transparency: 31.6
+    discoverability: 66.7
+    operational_transparency: 29.5
   previous_composite: 45.8
   provenance:
     agentic_access: derived
@@ -335,8 +335,14 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 31.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

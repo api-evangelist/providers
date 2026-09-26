@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 5
 apis:
 - description: Hosted remote Model Context Protocol server exposing 2.7M U.S. motor carriers as tools for LLM clients (Claude Desktop/Code, Cursor, Windsurf, VS Code Copilot, Clay). Advertises 30+ tools across six c
@@ -223,7 +223,7 @@ modified: '2026-08-11'
 name: AlphaLoops FMCSA Carrier Data API
 nav: Providers
 network: true
-overview: 'AlphaLoops FMCSA Carrier Data API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Carriers API, Contacts API, Inspections API, and 1 more. Tagged areas include fmcsa api, safer web api, dot lookup, carrier data, and Freight.
+overview: 'AlphaLoops FMCSA Carrier Data API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Carriers API, Contacts API, Inspections API, and 2 more. Tagged areas include fmcsa api, safer web api, dot lookup, carrier data, and Freight.
 
 
   AlphaLoops FMCSA Carrier Data API''s developer surface includes authentication, CLI, changelog, pricing, support, and 25 more developer resources.'
@@ -237,8 +237,8 @@ rate_limits:
   name: Alphaloops Rate Limits
   slug: alphaloops-rate-limits
 score:
-  band: exemplar
-  composite: 68.2
+  band: strong
+  composite: 64.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 64.0
@@ -246,13 +246,13 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.3
   facets:
     access_clarity: 85.5
     contract_governance: 4.5
-    contract_quality: 62.4
+    contract_quality: 56.2
     developer_ergonomics: 70.8
-    discoverability: 85.2
+    discoverability: 83.3
     operational_transparency: 76.3
   previous_composite: 68.2
   provenance:
@@ -269,9 +269,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 50.0
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 30.0
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true
@@ -308,6 +308,6 @@ tags:
 - MCP Server
 - Contact Enrichment
 - Risk Management
-- Fraud
+- Fraud Prevention
 website: https://www.runalphaloops.com/
 ---

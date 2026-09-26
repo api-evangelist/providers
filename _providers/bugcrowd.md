@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: Bugcrowd API for interacting and tracking the reported issues programmatically
@@ -75,7 +75,7 @@ modified: '2026-05-28'
 name: Bugcrowd
 nav: Providers
 network: true
-overview: 'Bugcrowd publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security and Public APIs.
+overview: 'Bugcrowd publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security, Public APIs, Cybersecurity, Vulnerability Management, and Bug Bounty.
 
 
   Bugcrowd''s developer surface includes engineering blog and 5 more developer resources.'
@@ -96,11 +96,17 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 57.4
+    discoverability: 55.4
     operational_transparency: 0.0
   previous_composite: 9.7
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 16.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false
@@ -124,5 +130,10 @@ slug: bugcrowd
 tags:
 - Security
 - Public APIs
+- Cybersecurity
+- Vulnerability Management
+- Bug Bounty
+- Vulnerability Disclosure
+- Penetration Testing
 website: https://docs.bugcrowd.com/api/getting-started/
 ---

@@ -23,11 +23,11 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.2
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - baseURL: https://dynamicfeed.ai
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'The full REST surface: 158 operations on https://dynamicfeed.ai — the keyless POST /v1/batch tool dispatcher (up to 20 calls per request, each result Ed25519-signed with provenance and freshness), leg'
   name: Dynamic Feed REST API
   slug: dynamic-feed-rest-api
@@ -293,7 +293,7 @@ modified: '2026-09-19'
 name: Dynamic Feed
 nav: Providers
 network: true
-overview: 'Dynamic Feed publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Live Data, AI Agents, MCP, A2A, and Agent-Native.
+overview: 'Dynamic Feed publishes 4 APIs on the [APIs.io](https://apis.io/) network, including REST API, and 3 more. Tagged areas include Live Data, AI Agents, MCP, A2A, and Agent-Native.
 
 
   The Dynamic Feed catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -310,22 +310,22 @@ rate_limits:
   name: Dynamicfeed Ai Rate Limits
   slug: dynamicfeed-ai-rate-limits
 score:
-  band: strong
-  composite: 66.2
+  band: exemplar
+  composite: 67.9
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 71.0
+    artifact_dirs: 24
+    catalog_earned: 65.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 44.0
+    catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.7
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 61.1
+    contract_quality: 55.8
     developer_ergonomics: 73.2
-    discoverability: 87.0
+    discoverability: 76.7
     operational_transparency: 71.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -344,8 +344,14 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 43.1
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

@@ -23,7 +23,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: documented
@@ -34,15 +34,25 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.3
-  scored_at: '2026-09-24'
+  score: 10.1
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
-- description: Read-only shopping tools for finding grouped products, comparing current merchant offers and delivered totals, and checking price history.
+- description: Read-only shopping tools for product recommendations and shopping decisions, grouped-product search, current Greek merchant offers and delivered totals, and price history.
   name: BestPrice Shopping MCP
   slug: shopping-mcp
-artifact_total: 14
+artifact_total: 16
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/hosts/bestprice-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/bestprice-hosts.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/packages/bestprice-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/bestprice-packages.yml
 - group: company
   title: ''
   type: Website
@@ -189,7 +199,7 @@ common:
   type: PrivacyPolicy
   url: https://www.bestprice.gr/policies/privacy
 created: '2026-08-27'
-description: BestPrice.gr is Greece's largest price-comparison marketplace, run by The Best Company S.A., covering roughly 25.7 million products from about 3,650 merchants and 42,000 manufacturers with hourly merchant-feed refreshes. Its developer surface is not a REST API but a public, keyless, read-only MCP server at https://mcp.bestprice.gr/mcp, exposing three tools - search_products, compare_offers and get_price_history - whose JSON Schema 2020-12 input and output contracts are served live and anonymously. Alongside it BestPrice publishes an APIs.json 0.23 index, an llms.txt, an RFC 9116 security.txt, an Agentic Resource Discovery manifest and an experimental WebMCP manifest of 13 browser-tab tools.
+description: 'BestPrice.gr is Greece''s largest price-comparison marketplace, run by The Best Company S.A., covering roughly 25.7 million products from about 3,650 merchants and 42,000 manufacturers with hourly merchant-feed refreshes. Its developer surface is not a REST API but a public, keyless, read-only MCP server at https://mcp.bestprice.gr/mcp (server 1.8.1, MCP Registry id gr.bestprice/mcp), exposing four tools - get_shopping_decision (the BestPrice Shopping Brain: recommendations, need-based comparisons and read-only basket plans), search_products, compare_offers and get_price_history - whose JSON Schema 2020-12 input and output contracts are served live and anonymously. Alongside it BestPrice publishes a provider-authored Agent Skill, an APIs.json 0.23 index, an llms.txt, an RFC 9116 security.txt, an Agentic Resource Discovery manifest, an AI catalog, an MCP server card, a stdio bridge for hosts that cannot speak HTTP, and an experimental WebMCP manifest of 16 browser-tab tools.'
 image: https://www.bestprice.gr/images/logo.svg
 json_schemas:
 - name: Bestprice Compare Offers Input
@@ -204,6 +214,12 @@ json_schemas:
 - name: Bestprice Get Price History Output
   property_count: 0
   slug: bestprice-get-price-history-output
+- name: Bestprice Get Shopping Decision Input
+  property_count: 4
+  slug: bestprice-get-shopping-decision-input
+- name: Bestprice Get Shopping Decision Output
+  property_count: 0
+  slug: bestprice-get-shopping-decision-output
 - name: Bestprice Search Products Input
   property_count: 8
   slug: bestprice-search-products-input
@@ -212,47 +228,47 @@ json_schemas:
   slug: bestprice-search-products-output
 layout: provider
 mcp_servers:
+- description: Read-only shopping decisions, product search, offers, and price history for Greece.
+  name: BestPrice Shopping MCP (probed profile)
+  slug: bestprice-shopping-mcp-probed-profile
 - description: ''
   name: Production Streamable HTTP endpoint
   slug: production-streamable-http-endpoint
-- description: ''
-  name: Probed MCP server profile (tools, schemas, deployment)
-  slug: probed-mcp-server-profile-tools-schemas-deployment
-modified: '2026-09-16'
+modified: '2026-09-25'
 name: BestPrice Agent Commerce
 nav: Providers
 network: true
 overview: 'BestPrice Agent Commerce publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Shopping, Price Comparison, E-Commerce, Retail, and MCP.
 
 
-  BestPrice Agent Commerce''s developer surface includes authentication, changelog, documentation, engineering blog, support, and 26 more developer resources.'
+  BestPrice Agent Commerce''s developer surface includes authentication, changelog, documentation, engineering blog, support, and 28 more developer resources.'
 plans:
 - name: Bestprice Plans Pricing
-  plan_count: 0
+  plan_count: 1
   slug: bestprice-plans-pricing
 random_paper: 15
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Bestprice Rate Limits
   slug: bestprice-rate-limits
 score:
-  band: thin
-  composite: 32.9
+  band: developing
+  composite: 45.1
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 47.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 68.0
+    artifact_dirs: 22
+    catalog_earned: 62.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 12.2
   facets:
-    access_clarity: 21.1
-    contract_governance: 0.0
-    contract_quality: 13.3
-    developer_ergonomics: 58.9
-    discoverability: 94.4
-    operational_transparency: 31.6
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 12.0
+    developer_ergonomics: 66.1
+    discoverability: 91.7
+    operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
@@ -264,9 +280,15 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 30.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -276,7 +298,7 @@ security:
 - kind: authentication
   name: Bestprice Authentication
   slug: bestprice-authentication
-  summary_line: 0 schemes
+  summary_line: 1 scheme
 - kind: domain-security
   name: Bestprice Domain Security
   slug: bestprice-domain-security
@@ -295,5 +317,8 @@ tags:
 - WebMCP
 - Agentic Commerce
 - Greece
+- Product Recommendations
+- Shopping Decisions
+- Delivered Price
 website: https://bestprice.gr
 ---

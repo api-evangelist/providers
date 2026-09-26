@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 3
 apis:
 - description: Internal REST API that powers checkout on the Perpay Marketplace. Handles product ordering, spending-limit enforcement, and installment plan creation for approved consumers. Access is limited to Perpa
@@ -145,31 +145,31 @@ rate_limits:
   slug: perpay-rate-limits
 score:
   band: thin
-  composite: 28.2
+  composite: 26.7
   coverage:
     artifact_dirs: 8
-    catalog_earned: 64.0
+    catalog_earned: 62.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    catalog_gap: 52.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 57.9
+    access_clarity: 55.8
     contract_governance: 0.0
     contract_quality: 6.7
     developer_ergonomics: 16.7
-    discoverability: 74.1
-    operational_transparency: 26.3
+    discoverability: 71.4
+    operational_transparency: 24.2
   previous_composite: 28.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 37.5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 21.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

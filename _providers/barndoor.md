@@ -11,7 +11,7 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-09-24'
+  score: 36.7
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -632,7 +632,7 @@ modified: '2026-05-19'
 name: Barndoor
 nav: Providers
 network: true
-overview: 'Barndoor publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Connections API, MCP Proxy API, and 3 more. Tagged areas include AI Agents, AI Governance, MCP, Policy Enforcement, and Authentication.
+overview: 'Barndoor publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Connections API, MCP Proxy API, and 10 more. Tagged areas include AI Agents, AI Governance, MCP, Policy Enforcement, and Authentication.
 
 
   The Barndoor catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -672,22 +672,22 @@ rules:
   slug: barndoor-spectral-rules
 score:
   band: strong
-  composite: 65.1
+  composite: 62.1
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 81.5
+    artifact_dirs: 21
+    catalog_earned: 78.6
     catalog_earned_first_party: 0.0
-    catalog_gap: 33.5
+    catalog_gap: 36.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.0
   facets:
-    access_clarity: 78.9
-    contract_governance: 28.8
-    contract_quality: 65.4
+    access_clarity: 75.8
+    contract_governance: 27.3
+    contract_quality: 59.6
     developer_ergonomics: 48.8
-    discoverability: 75.9
-    operational_transparency: 63.2
+    discoverability: 75.0
+    operational_transparency: 60.0
   open_source:
     applies: true
     score: 85.0
@@ -699,14 +699,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
+    mcp: first-party
   regulatory:
     applies: true
-    matched_via: tags
-    regime: Insurance
-    regime_id: insurance
-    score: 42.4
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 27.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

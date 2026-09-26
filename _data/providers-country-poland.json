@@ -15,24 +15,24 @@
      "name": "ZnanyLekarz",
      "slug": "znanylekarz",
      "description": "ZnanyLekarz is the Polish healthcare marketplace and practice-management platform operated by Docplanner Group, connecting patients with over 146,000 listed doctors and equipping medical practices with online booking, calendar management, appointment reminders, patient reviews, e-prescriptions, video consultations and online payments. ZnanyLekarz.pl is the founding brand of the Docplanner Group and the Polish locale of the group's marketplace, which also trades as Doctoralia, MioDottore, Jameda, Doktor Takvimi and Znamylekar. Its public developer surface is the Docplanner Integrations API — an OAuth 2.0 REST API served on the www.znanylekarz.pl host that lets medical-software vendors synchronise facilities, doctors, addresses, services, insurance providers, calendars, breaks, slots and bookings, and receive push or pull event notifications when patients book, move, confirm or cancel visits.",
-     "score": 72.2,
+     "score": 68.1,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 65.5,
+      "discoverability": 73.2,
+      "contract_quality": 60.0,
       "contract_governance": 4.5,
       "operational_transparency": 73.7,
       "developer_ergonomics": 75.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
+     "scored_at": "2026-09-25",
+     "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
-      "score": 60.0,
+      "score": 37.5,
       "matched_via": "tags"
      },
      "agent_score": 41.1,
@@ -64,31 +64,45 @@
    "open": true
   },
   {
-   "band": "developing",
-   "label": "Developing",
-   "range": "39.3 – 54.2",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 6,
-   "shown": 6,
+   "band": "strong",
+   "label": "Strong",
+   "range": "54.3 – 66.4",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 1,
+   "shown": 1,
    "providers": [
     {
      "name": "Apstal",
      "slug": "apstal",
      "description": "AI-first website analytics and visitor tracking platform that replaces traditional dashboards with a natural-language chatbot interface, offering conversational analytics, cookieless tracking, session replays, heatmaps, funnels, error tracking, Core Web Vitals and AI-agent traffic detection. Apstal is agent-native by design: its primary programmatic surface is a hosted MCP server at https://apstal.com/api/mcp (JSON-RPC 2.0 over Streamable HTTP, protocol 2025-06-18) whose tools/list is answerable anonymously, backed by a documented REST ingestion and stats API, a WebSocket real-time stream, an SSE natural-language query endpoint, an A2A agent card, two provider-authored Agent Skills, an llms.txt, OAuth 2.0 authorization-server and protected-resource metadata, and an MCP server card. The company is based in Poland and publishes a GDPR Data Processing Agreement.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/screenshots/apstal-2026-07-25T200912.png",
-     "score": 53.6,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 56.4,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
-      "discoverability": 70.4,
-      "contract_quality": 41.6,
+      "discoverability": 70.0,
+      "contract_quality": 39.0,
       "contract_governance": 18.2,
       "operational_transparency": 42.1,
       "developer_ergonomics": 71.4,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
+     "scored_at": "2026-09-25",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 39.2,
+      "matched_via": "fallback",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
      "agent_score": 38.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -113,30 +127,41 @@
       "agentic_commerce": false
      },
      "rank": 2
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "39.3 – 54.2",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 5,
+   "shown": 5,
+   "providers": [
     {
      "name": "University of Warsaw",
      "slug": "university-of-warsaw",
      "description": "The University of Warsaw (Uniwersytet Warszawski) is Poland's largest and highest-ranked university and a member of the 4EU+ European University Alliance. Unusually for this cohort it operates real first-party programmable surfaces rather than only vendor tenancies: the USOS API at usosapps.uw.edu.pl, a documented OAuth 1.0a REST-like protocol over the institution's own academic database (courses, faculties, calendar, users, payments), and two springdoc services that publish their own OpenAPI and Swagger UI — the Student Portal 4EU+ API at api.sp4eu.uw.edu.pl (OpenAPI 3.1, 74 paths, read endpoints answer anonymously) and Jaskier at api.jaskier.uw.edu.pl, the university's central institutional API (OpenAPI 3.0.1, 729 paths, 458 schemas, bearer-gated data). Research data is handled by two institution-hosted repositories — Dane Badawcze UW (Dataverse, DOI prefix 10.58132) and ReIn UW (DSpace-CRIS 8.1) — each with a native REST API and an OAI-PMH 2.0 endpoint. The university runs its own Shibboleth SAML identity provider at login.uw.edu.pl, registered in eduGAIN through the Polish PIONIER.Id federation, and it is a DataCite repository client and a Crossref member with 31 DOI prefixes. What it does NOT have is a single central developer portal: the USOS developers site is the only signup surface, the library discovery layer is an Ex Libris Alma/Primo tenancy, and the LMS is a Moodle install with no public LTI advertisement.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-warsaw/refs/heads/main/screenshots/university-of-warsaw-2026-06-20T200305.png",
-     "score": 53.4,
+     "score": 48.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 65.5,
+      "discoverability": 66.1,
+      "contract_quality": 60.0,
       "contract_governance": 14.4,
-      "operational_transparency": 26.3,
+      "operational_transparency": 24.2,
       "developer_ergonomics": 45.2,
-      "access_clarity": 52.6
+      "access_clarity": 50.5
      },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
+     "scored_at": "2026-09-25",
+     "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
       "regime_id": "education",
-      "score": 53.7,
+      "score": 28.4,
       "matched_via": "tags"
      },
      "agent_score": 25.2,
@@ -169,20 +194,34 @@
      "slug": "infakt",
      "description": "inFakt is a Polish fintech platform that combines invoicing software, online accounting, and dedicated bookkeeper services for sole proprietors (JDG), limited-liability companies (sp. z o.o.), foundations and other business types operating in Poland. Used by over 460,000 companies and headquartered in Kraków, inFakt offers a web app, iOS/Android mobile apps, deep KSeF (Poland's National e-Invoice System) integration, and a REST API (v3, JSON) for third-party integrations. The API exposes invoices, clients, products, costs, bank accounts, VAT exemptions, payment methods and business-activity data so e-commerce shops, CRMs and accounting tools can automate invoicing, cost booking and tax compliance. inFakt also publishes a hosted MCP server so AI agents can operate a company's accounting through Claude and other MCP clients.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/infakt/refs/heads/main/screenshots/infakt-2026-07-25T222350.png",
-     "score": 46.8,
+     "score": 48.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 41.6,
+      "discoverability": 73.2,
+      "contract_quality": 39.0,
       "contract_governance": 4.5,
       "operational_transparency": 50.0,
       "developer_ergonomics": 64.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 22.7,
+     "scored_at": "2026-09-25",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 30.4,
+      "matched_via": "fallback",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 20.5,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -191,7 +230,7 @@
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
-      "error_semantics": "documented",
+      "error_semantics": "derived",
       "openapi_examples": false,
       "rate_limit_signal": false,
       "event_surface_described": true,
@@ -212,24 +251,24 @@
      "slug": "przelewy24",
      "description": "Przelewy24 is Poland's leading online payment gateway, providing REST APIs for bank transfer payments, card processing, BLIK mobile payments, and multi-currency payment processing for e-commerce merchants. With 91% brand recognition among Polish online customers, the platform connects merchants to over 165 Polish banks and supports payment methods including online bank transfers, credit and debit cards, BLIK, Google Pay, digital wallets, and prepaid cards. The API supports PLN and EUR currencies and enables transaction registration, payment verification, refunds, and real-time webhook notifications for payment events.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/screenshots/przelewy24-2026-06-20T192230.png",
-     "score": 43.8,
+     "score": 42.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 60.9,
+      "discoverability": 71.4,
+      "contract_quality": 55.4,
       "contract_governance": 9.8,
       "operational_transparency": 15.8,
       "developer_ergonomics": 45.2,
-      "access_clarity": 52.6
+      "access_clarity": 50.5
      },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
+     "scored_at": "2026-09-25",
+     "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
-      "score": 26.6,
+      "score": 15.2,
       "matched_via": "tags"
      },
      "agent_score": 27.3,
@@ -258,28 +297,77 @@
      "rank": 5
     },
     {
+     "name": "RS Performance",
+     "slug": "rsperformance-online",
+     "description": "RS Performance Sp. z o.o. is a single-location automotive diagnostics and repair workshop at Al. Grunwaldzka 303B in Gdańsk, Poland (the Premio Ring site, rebranded 2021-09-14), serving Gdańsk, Sopot, Gdynia and the Tricity with 19 workshop services from computer diagnostics, DPF/AdBlue, turbo and gearbox work to tyre storage and B2B fleet service. What makes it an API provider is the machine-readable layer it has built over its knowledge base: an anonymous A2A agent (nine skills, JSON-RPC 2.0 and HTTP+JSON on rsperformance.online, agent card at the canonical well-known path), a remote FastMCP server \"Diagnosta RS\" with 14 tools over a Qdrant vector store of services, FAQ, repair reports and 12,000+ OBD-II fault codes, and a three-operation OpenAPI 3.1 \"AI Gateway\" on ai.rsperformance.online for answer-first semantic search, freshness and answer routing — plus llms.txt, security.txt, an ai-plugin manifest, JSON/Atom change feeds and a DTC JSON feed. Every surface is free and unauthenticated under a fair-use, attribution-required policy.",
+     "score": 40.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 42.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 49.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-25",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 38.2,
+      "matched_via": "fallback"
+     },
+     "agent_score": 38.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": "conformant",
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 6
+    },
+    {
      "name": "MODIVO",
      "slug": "modivo",
      "description": "MODIVO is a Polish multibrand fashion and lifestyle retailer that operates one of the largest fashion e-commerce platforms in Central and Eastern Europe, selling clothing, footwear, accessories, beauty and home products from more than a thousand brands across Poland, the Czech Republic, Slovakia, Romania, Hungary, Ukraine, the Baltics and Western Europe. MODIVO S.A. is the listed parent of the former CCC Group (renamed MODIVO S.A. in February 2026) and the group behind the eobuwie.pl, CCC, HalfPrice, worldbox and DeeZee retail brands; the MODIVO storefront company itself is the former eobuwie.pl S.A., a consumer-technology investment of SoftBank Vision Fund. MODIVO does not run a developer portal, but its storefront is an Adobe Commerce (Magento 2.4) deployment that serves two live, publicly readable machine contracts from its own domain: a self-describing Swagger 2.0 REST schema at https://modivo.pl/rest/all/schema?services=all and an openly introspectable GraphQL endpoint at https://modivo.pl/graphql. Third-party sellers integrate through a Mirakl-hosted marketplace tenant, and brands buy sponsored placements through MODIVO Ads, the group's retail-media platform spanning MODIVO and eobuwie.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/modivo/refs/heads/main/screenshots/modivo-2026-08-07T184029.png",
-     "score": 42.3,
+     "score": 40.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 62.8,
+      "discoverability": 73.2,
+      "contract_quality": 58.4,
       "contract_governance": 4.5,
       "operational_transparency": 7.9,
       "developer_ergonomics": 37.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
+     "scored_at": "2026-09-25",
+     "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
-      "score": 39.1,
+      "score": 22.3,
       "matched_via": "tags"
      },
      "agent_score": 27.4,
@@ -305,52 +393,9 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
-    },
-    {
-     "name": "RS Performance",
-     "slug": "rsperformance-online",
-     "description": "RS Performance Sp. z o.o. is a single-location automotive diagnostics and repair workshop at Al. Grunwaldzka 303B in Gdańsk, Poland (the Premio Ring site, rebranded 2021-09-14), serving Gdańsk, Sopot, Gdynia and the Tricity with 19 workshop services from computer diagnostics, DPF/AdBlue, turbo and gearbox work to tyre storage and B2B fleet service. What makes it an API provider is the machine-readable layer it has built over its knowledge base: an anonymous A2A agent (nine skills, JSON-RPC 2.0 and HTTP+JSON on rsperformance.online, agent card at the canonical well-known path), a remote FastMCP server \"Diagnosta RS\" with 14 tools over a Qdrant vector store of services, FAQ, repair reports and 12,000+ OBD-II fault codes, and a three-operation OpenAPI 3.1 \"AI Gateway\" on ai.rsperformance.online for answer-first semantic search, freshness and answer routing — plus llms.txt, security.txt, an ai-plugin manifest, JSON/Atom change feeds and a DTC JSON feed. Every surface is free and unauthenticated under a fair-use, attribution-required policy.",
-     "score": 39.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 46.9,
-      "contract_governance": 18.2,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 49.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 38.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": "conformant",
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 7
     }
-   ],
-   "open": true
+   ]
   },
   {
    "band": "thin",
@@ -365,24 +410,24 @@
      "slug": "smsapi",
      "description": "SMSAPI is a European bulk business-messaging provider headquartered in Poland and part of LINK Mobility. Its REST API delivers SMS, MMS, and voice (VMS) messaging, email marketing, two-factor authentication, contact and group management, sender field registration, subuser administration, and account/profile operations, authenticated with OAuth 2.0 bearer tokens over api.smsapi.com and api.smsapi.eu.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/screenshots/smsapi-2026-09-02T155955.png",
-     "score": 39.0,
+     "score": 36.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 53.6,
+      "discoverability": 66.1,
+      "contract_quality": 48.5,
       "contract_governance": 0.0,
-      "operational_transparency": 34.2,
+      "operational_transparency": 31.1,
       "developer_ergonomics": 32.1,
-      "access_clarity": 47.4
+      "access_clarity": 44.2
      },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
+     "scored_at": "2026-09-25",
+     "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
       "regime_id": "telecommunications",
-      "score": 23.6,
+      "score": 14.2,
       "matched_via": "tags"
      },
      "agent_score": 19.8,
@@ -415,24 +460,24 @@
      "slug": "stooq",
      "description": "Stooq is a Poland-based financial data platform offering free access to historical and current market data for global equities, indices, currencies, cryptocurrencies, commodities, bonds, and economic indicators. Data is delivered as CSV via a simple REST-style URL interface at https://stooq.com/q/d/l/ using query parameters for ticker symbol, date range, and interval. As of early 2026 an API key (obtained via CAPTCHA on the site) is required. A known daily request quota applies; exceeding it returns an \"Exceeded the daily hits limit\" message. Bulk point-in-time snapshots of the full database (12,000+ securities) are also available as ZIP-compressed CSVs from https://stooq.com/db/h/.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/stooq/refs/heads/main/screenshots/stooq-2026-06-20T194600.png",
-     "score": 37.0,
+     "score": 34.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 63.3,
-      "contract_governance": 25.0,
-      "operational_transparency": 21.1,
+      "discoverability": 66.1,
+      "contract_quality": 57.2,
+      "contract_governance": 23.5,
+      "operational_transparency": 18.9,
       "developer_ergonomics": 19.0,
-      "access_clarity": 28.9
+      "access_clarity": 26.8
      },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
+     "scored_at": "2026-09-25",
+     "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
-      "score": 28.3,
+      "score": 15.7,
       "matched_via": "tags"
      },
      "agent_score": 25.8,
@@ -475,20 +520,27 @@
      "slug": "symmetrical",
      "description": "Symmetrical.ai is a Polish-British HR and payroll fintech, founded in 2019 in Warsaw with offices in London and Barcelona and backed by Partech. It provides payroll and HR bureau outsourcing plus an HR platform automating wage calculation, digital document management, onboarding, leave and time tracking, and real-time analytics, alongside employee financial wellbeing tools such as earned-wage / salary-on-demand access. Symmetrical is ISO/IEC 27001 certified. The company operates an authentication-gated developer documentation portal (developer.symmetrical.ai) but publishes no public OpenAPI, API reference, or SDKs; this profile captures its public identity plus probed security posture.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/symmetrical/refs/heads/main/screenshots/symmetrical-2026-09-02T161447.png",
-     "score": 18.2,
+     "score": 19.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 51.7,
       "contract_quality": 0.0,
       "contract_governance": 18.2,
       "operational_transparency": 0.0,
       "developer_ergonomics": 2.4,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 8.6,
+     "scored_at": "2026-09-25",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Employment & Payroll",
+      "regime_id": "employment_payroll",
+      "score": 23.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -507,7 +559,7 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": false,
+      "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -517,19 +569,26 @@
      "name": "Oferteo",
      "slug": "oferteo",
      "description": "Oferteo (oferteo.pl) is a Polish online services marketplace that connects people and businesses seeking services (Zlecający) with local contractors and service providers (Wykonawcy). Clients post a request across hundreds of categories — construction and renovation, IT, legal, health, events, transport and more — and matched providers respond with competitive quotes. The platform layers on verified reviews, a buyer-protection program (Ochrona Zlecających), and native iOS/Android apps for both sides of the marketplace. Oferteo operates nationwide across Poland and reports tens of millions of submitted requests and offers, millions of registered clients, and hundreds of thousands of registered providers. It was surfaced as a portfolio company of Point Nine and added to the API Evangelist network. No public developer API surface was found during enrichment; this profile currently carries verified identity, website link-properties, and infrastructure/security probes.",
-     "score": 14.9,
+     "score": 14.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 4.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
+     "scored_at": "2026-09-25",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 13.7,
+      "matched_via": "fallback"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -570,24 +629,24 @@
      "slug": "maps-opolskie-pl",
      "description": "Opolskie Open Data is a regional government open-data portal for Poland running DKAN.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/maps-opolskie-pl/refs/heads/main/screenshots/maps-opolskie-pl-2026-06-20T184952.png",
-     "score": 9.5,
+     "score": 9.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 57.1,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
+     "scored_at": "2026-09-25",
+     "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 22.2,
+      "score": 11.8,
       "matched_via": "tags"
      },
      "agent_score": 2.5,

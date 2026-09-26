@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 6
 apis:
 - description: 'Access Westlaw legal research content including case law, statutes, regulations, and secondary sources. Includes SEC Filings API, Dockets API, and Litigation Analytics providing structured legal data '
@@ -106,7 +106,7 @@ modified: '2026-05-03'
 name: Thomson Reuters
 nav: Providers
 network: true
-overview: 'Thomson Reuters publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, Tax, Finance, Risk Management, and Fraud.
+overview: 'Thomson Reuters publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, Tax, Finance, Risk Management, and Fraud Prevention.
 
 
   The Thomson Reuters catalog on APIs.io includes 1 JSON-LD context.
@@ -124,7 +124,7 @@ rate_limits:
   slug: thomson-reuters-rate-limits
 score:
   band: emerging
-  composite: 14.4
+  composite: 13.4
   coverage:
     artifact_dirs: 10
     catalog_earned: 52.0
@@ -132,17 +132,23 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 0.0
-    discoverability: 72.2
+    discoverability: 69.6
     operational_transparency: 10.5
   previous_composite: 14.4
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 10.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false
@@ -160,7 +166,7 @@ tags:
 - Tax
 - Finance
 - Risk Management
-- Fraud
+- Fraud Prevention
 - Compliance
 - Data
 website: https://www.thomsonreuters.com/

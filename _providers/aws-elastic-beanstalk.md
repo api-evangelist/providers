@@ -26,22 +26,22 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-09-24'
+  score: 22.3
+  scored_at: '2026-09-25'
 agentic_access:
-- acting_count: 1
+- acting_count: 4
   human_in_the_loop: 0
   name: Aws Elastic Beanstalk Agentic Access
-  operation_count: 1
+  operation_count: 6
   slug: aws-elastic-beanstalk-agentic-access
-  summary_line: 1 operation · 1 acting
+  summary_line: 6 operations · 4 acting
 api_count: 1
 apis:
 - description: Query API for creating and managing Elastic Beanstalk applications, versions, environments, configuration templates, and deployments. Requests are authenticated with AWS Signature Version 4 (SigV4) us
@@ -52,7 +52,27 @@ apis:
   description: The AWS Elastic Beanstalk API API from AWS Elastic Beanstalk — 1 operation(s) for aws elastic beanstalk api.
   name: AWS Elastic Beanstalk AWS Elastic Beanstalk API
   slug: aws-elastic-beanstalk-aws-elastic-beanstalk-api-api
-artifact_total: 10
+- baseURL: https://elasticbeanstalk.amazonaws.com
+  baseurl_source: declared
+  description: The Amazon Elastic Beanstalk AWS Elastic Beanstalk API API from Amazon Elastic Beanstalk — 1 operation(s) for amazon elastic beanstalk aws elastic beanstalk api.
+  name: AWS Elastic Beanstalk Amazon Elastic Beanstalk AWS Elastic Beanstalk API
+  slug: amazon-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-api-api
+- baseURL: https://elasticbeanstalk.amazonaws.com
+  baseurl_source: declared
+  description: 'The #CreateEnvironment API from Amazon Elastic Beanstalk — 1 operation(s) for #createenvironment.'
+  name: 'AWS Elastic Beanstalk #CreateEnvironment API'
+  slug: amazon-elastic-beanstalk-createenvironment-api
+- baseURL: https://elasticbeanstalk.amazonaws.com
+  baseurl_source: declared
+  description: 'The #DescribeEnvironments API from Amazon Elastic Beanstalk — 1 operation(s) for #describeenvironments.'
+  name: 'AWS Elastic Beanstalk #DescribeEnvironments API'
+  slug: amazon-elastic-beanstalk-describeenvironments-api
+- baseURL: https://elasticbeanstalk.amazonaws.com
+  baseurl_source: declared
+  description: 'The #UpdateEnvironment API from Amazon Elastic Beanstalk — 1 operation(s) for #updateenvironment.'
+  name: 'AWS Elastic Beanstalk #UpdateEnvironment API'
+  slug: amazon-elastic-beanstalk-updateenvironment-api
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -112,45 +132,69 @@ common:
 created: '2026-05-11'
 description: AWS Elastic Beanstalk is a Platform-as-a-Service offering that makes it easy to deploy, scale, and manage web applications and services developed in Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar AWS infrastructure. It automatically handles capacity provisioning, load balancing, auto-scaling, and health monitoring. The Elastic Beanstalk API and AWS SDKs provide programmatic access to applications, environments, and deployments using AWS Signature Version 4 authentication.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aws-elastic-beanstalk.png
+json_schemas:
+- name: ApplicationDescriptionMessage
+  property_count: 1
+  slug: amazon-elastic-beanstalk-application-description-message
+- name: ApplicationDescription
+  property_count: 8
+  slug: amazon-elastic-beanstalk-application-description
+- name: ApplicationDescriptionsMessage
+  property_count: 1
+  slug: amazon-elastic-beanstalk-application-descriptions-message
+jsonld:
+- class_count: 0
+  name: Amazon Elastic Beanstalk Context
+  property_count: 3
+  slug: amazon-elastic-beanstalk-context
 layout: provider
 modified: '2026-09-16'
 name: AWS Elastic Beanstalk
 nav: Providers
 network: true
-overview: 'AWS Elastic Beanstalk publishes 1 API on the [APIs.io](https://apis.io/) network: AWS Elastic Beanstalk API. Tagged areas include Platform-as-a-Service, Application Deployment, Auto-Scaling, Cloud, and DevOps.
+overview: 'AWS Elastic Beanstalk publishes 6 APIs on the [APIs.io](https://apis.io/) network, including AWS Elastic Beanstalk API, Amazon Elastic Beanstalk AWS Elastic Beanstalk API, #CreateEnvironment API, and 3 more. Tagged areas include Platform-as-a-Service, Application Deployment, Auto-Scaling, Cloud, and DevOps.
+
+
+  The AWS Elastic Beanstalk catalog on APIs.io includes 1 JSON-LD context.
 
 
   AWS Elastic Beanstalk''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
 random_paper: 21
 score:
   band: thin
-  composite: 30.8
+  composite: 37.1
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 37.0
+    artifact_dirs: 10
+    catalog_earned: 51.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
-    contract_quality: 54.4
-    developer_ergonomics: 23.8
-    discoverability: 68.5
+    contract_quality: 58.0
+    developer_ergonomics: 42.9
+    discoverability: 66.1
     operational_transparency: 0.0
   previous_composite: 30.8
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 20.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: flat
+      total: 5
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 27.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

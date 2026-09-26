@@ -23,7 +23,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: platform
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: false
@@ -31,8 +31,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-09-24'
+  score: 2.2
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - description: Public Open Bank Project sandbox instance hosted by Infosys Finacle that exposes standard OBP REST APIs for accounts, transactions, customers, and consents. Useful for developers exploring Finacle ban
@@ -87,21 +87,21 @@ overview: 'Infosys publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 random_paper: 9
 score:
   band: minimal
-  composite: 5.6
+  composite: 5.9
   coverage:
-    artifact_dirs: 3
-    catalog_earned: 37.0
+    artifact_dirs: 5
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
-    discoverability: 68.5
+    discoverability: 60.0
     operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -111,14 +111,16 @@ score:
     regions:
     - india-south-asia
   previous_composite: 5.6
+  provenance:
+    mcp: site-plugin
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 7.6
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 4.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

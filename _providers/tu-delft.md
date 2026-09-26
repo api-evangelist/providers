@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: TU Delft's SimpleSAMLphp identity provider — the machine-readable half of NetID. It publishes a signed SAML 2.0 EntityDescriptor with an IDPSSODescriptor and is registered in SURFconext, the Dutch nat
@@ -263,7 +263,7 @@ modified: '2026-08-19'
 name: Delft University of Technology
 nav: Providers
 network: true
-overview: 'Delft University of Technology publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account API, Collections API, Datasets API, and 1 more. Tagged areas include University, Higher Education, Education, Technical University, and Research Data.
+overview: 'Delft University of Technology publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, Collections API, Datasets API, and 3 more. Tagged areas include University, Higher Education, Education, Technical University, and Research Data.
 
 
   The Delft University of Technology catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -298,22 +298,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 65.2
+  composite: 57.3
   coverage:
     artifact_dirs: 18
-    catalog_earned: 86.3
+    catalog_earned: 82.6
     catalog_earned_first_party: 0.0
-    catalog_gap: 28.8
+    catalog_gap: 32.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.9
   facets:
-    access_clarity: 50.0
-    contract_governance: 67.4
-    contract_quality: 64.1
+    access_clarity: 47.9
+    contract_governance: 62.9
+    contract_quality: 58.7
     developer_ergonomics: 35.7
-    discoverability: 79.6
-    operational_transparency: 50.0
+    discoverability: 76.8
+    operational_transparency: 47.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -335,10 +335,10 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 90.7
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: flat
+    score: 48.0
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

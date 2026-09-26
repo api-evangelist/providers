@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 8
 apis:
 - description: Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH 2.0) endpoint for DepositOnce, TU Berlin's institutional repository for publications and research data, operated by the University Li
@@ -239,23 +239,23 @@ scopes:
   slug: tu-berlin-scopes
   summary_line: 26 scopes · authorizationCode/clientCredentials/deviceCode
 score:
-  band: developing
-  composite: 43.2
+  band: thin
+  composite: 38.0
   coverage:
     artifact_dirs: 12
-    catalog_earned: 67.0
+    catalog_earned: 65.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
+    catalog_gap: 49.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
-    access_clarity: 50.0
+    access_clarity: 47.9
     contract_governance: 18.2
     contract_quality: 14.3
     developer_ergonomics: 28.6
-    discoverability: 74.1
-    operational_transparency: 50.0
+    discoverability: 71.4
+    operational_transparency: 47.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -264,7 +264,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 43.2
+  previous_composite: 42.3
   provenance:
     conformance: first-party
   regulatory:
@@ -272,9 +272,9 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 79.6
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 42.2
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

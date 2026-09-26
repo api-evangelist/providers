@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -321,6 +321,10 @@ common:
   title: ''
   type: LlmsText
   url: https://developer.nytimes.com/llms.txt
+- group: company
+  title: ''
+  type: Website
+  url: https://nytimes.com
 created: 2010-03-12 00:00:00+00:00
 description: 'The New York Times Company (NYSE: NYT) is the publisher of The New York Times and operator of a portfolio of news, product-review, sports, cooking, and games products including The Athletic, Wirecutter, Wordle, NYT Cooking, and NYT Games. The company also runs a public developer program at developer.nytimes.com that exposes a family of read-only REST APIs over its newsroom content: article search, top stories, most popular, archive going back to 1851, best-seller and book-review lists, movie reviews, the Times Newswire firehose, the controlled vocabulary that powers Times Topics (TimesTags), the Semantic API, and a Geographic API that pairs Times geo-tagged content with the GeoNames database. All APIs share api.nytimes.com as the host, use a query-string api-key for authentication, and respond as JSON.'
 examples:
@@ -404,7 +408,7 @@ overview: 'The New York Times Company publishes 15 APIs on the [APIs.io](https:/
   The The New York Times Company catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  The New York Times Company''s developer surface includes authentication, signup flow, FAQ, engineering blog, GitHub presence, and 23 more developer resources.'
+  The New York Times Company''s developer surface includes authentication, signup flow, FAQ, engineering blog, GitHub presence, and 24 more developer resources.'
 plans:
 - name: New York Times Company Plans Pricing
   plan_count: 1
@@ -438,22 +442,22 @@ rules:
   slug: new-york-times-rules
 score:
   band: developing
-  composite: 43.9
+  composite: 42.3
   coverage:
     artifact_dirs: 18
-    catalog_earned: 90.5
+    catalog_earned: 87.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 24.5
+    catalog_gap: 28.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 42.1
-    contract_governance: 28.8
-    contract_quality: 64.0
+    access_clarity: 40.0
+    contract_governance: 27.3
+    contract_quality: 58.7
     developer_ergonomics: 14.3
-    discoverability: 83.3
-    operational_transparency: 36.8
+    discoverability: 80.4
+    operational_transparency: 33.7
   previous_composite: 43.9
   provenance:
     agentic_access: derived
@@ -462,8 +466,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 22.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false
@@ -502,5 +512,6 @@ tags:
 - Controlled Vocabulary
 - Geographic
 - Archives
-website: https://developer.nytimes.com/
+- Journalism
+website: https://nytimes.com
 ---

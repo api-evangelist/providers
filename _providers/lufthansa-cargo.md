@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - baseURL: https://api.lufthansa-cargo.com
@@ -148,14 +148,14 @@ modified: '2026-07-30'
 name: Lufthansa Cargo
 nav: Providers
 network: true
-overview: 'Lufthansa Cargo publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Shipment Tracking API, Shipment Tracking Subscribe API, Routes API, and 1 more. Tagged areas include Logistics, Supply Chain, Germany, Air Cargo, and Freight.
+overview: 'Lufthansa Cargo publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Shipment Tracking API, Shipment Tracking Subscribe API, Routes API, and 7 more. Tagged areas include Logistics, Supply Chain, Germany, Air Cargo, and Freight.
 
 
   Lufthansa Cargo''s developer surface includes documentation, support, changelog, signup flow, sandbox, and 7 more developer resources.'
 random_paper: 17
 score:
   band: emerging
-  composite: 19.4
+  composite: 16.4
   coverage:
     artifact_dirs: 5
     catalog_earned: 32.0
@@ -163,13 +163,13 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 55.3
+    contract_quality: 50.1
     developer_ergonomics: 0.0
-    discoverability: 59.3
+    discoverability: 57.1
     operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -186,8 +186,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 5.9
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

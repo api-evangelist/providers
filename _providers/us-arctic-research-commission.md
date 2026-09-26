@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: The US Arctic Research Commission (USARC) is an independent federal agency that advises the President and Congress on domestic and international Arctic research policy. The Commission establishes nati
@@ -105,21 +105,21 @@ rules:
   slug: us-arctic-research-commission-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 19.3
+  composite: 18.7
   coverage:
     artifact_dirs: 11
-    catalog_earned: 58.3
+    catalog_earned: 57.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.8
+    catalog_gap: 57.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
-    contract_quality: 25.3
+    contract_quality: 24.4
     developer_ergonomics: 9.5
-    discoverability: 59.3
+    discoverability: 57.1
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -132,9 +132,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 20.4
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 10.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

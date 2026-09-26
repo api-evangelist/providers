@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ modified: '2026-06-13'
 name: RCSB PDB
 nav: Providers
 network: true
-overview: 'RCSB PDB publishes 4 APIs on the [APIs.io](https://apis.io/) network, including General API, Metadata Service API, Search Service API, and 1 more. Tagged areas include Structural Biology, Proteomics, Bioinformatics, Genomics, and Life Sciences.
+overview: 'RCSB PDB publishes 7 APIs on the [APIs.io](https://apis.io/) network, including General API, Metadata Service API, Search Service API, and 4 more. Tagged areas include Structural Biology, Proteomics, Bioinformatics, Genomics, and Life Sciences.
 
 
   RCSB PDB''s developer surface includes documentation, getting-started guide, GitHub presence, and 13 more developer resources.'
@@ -191,22 +191,22 @@ rate_limits:
   slug: pdb-rate-limits
 score:
   band: thin
-  composite: 32.9
+  composite: 31.4
   coverage:
     artifact_dirs: 11
-    catalog_earned: 63.0
+    catalog_earned: 61.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 26.8
     contract_governance: 0.0
-    contract_quality: 43.8
+    contract_quality: 40.3
     developer_ergonomics: 21.4
-    discoverability: 74.1
-    operational_transparency: 52.6
+    discoverability: 71.4
+    operational_transparency: 49.5
   previous_composite: 32.9
   provenance:
     agentic_access: derived
@@ -220,9 +220,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 7.5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 4.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

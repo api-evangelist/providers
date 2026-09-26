@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: Zhejiang University operates a Shibboleth SAML 2.0 Identity Provider, entityID https://idp.zju.edu.cn/idp/shibboleth, registered in CARSI (the CERNET Authentication and Resource Sharing Infrastructure
@@ -41,6 +41,7 @@ apis:
   slug: shibboleth
 - description: ZJU's unified identity authentication platform — a Central Authentication Service (CAS) single sign-on login fronting campus systems. It supports username/password, QR-code scanning and third-party ha
   name: Unified Identity Authentication (CAS / SSO)
+  provenance: unpublished
   slug: sso
 - baseURL: https://mirrors.zju.edu.cn
   baseurl_source: declared
@@ -199,7 +200,7 @@ modified: '2026-08-19'
 name: Zhejiang University
 nav: Providers
 network: true
-overview: 'Zhejiang University publishes 2 APIs on the [APIs.io](https://apis.io/) network: Catalog API and Repositories API. Tagged areas include University, Higher Education, Education, Research, and China.
+overview: 'Zhejiang University publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Repositories API, and 2 more. Tagged areas include University, Higher Education, Education, Research, and China.
 
 
   The Zhejiang University catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -233,22 +234,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 35.1
+  composite: 31.1
   coverage:
     artifact_dirs: 19
-    catalog_earned: 71.3
+    catalog_earned: 69.1
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.8
+    catalog_gap: 45.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.3
   facets:
-    access_clarity: 28.9
+    access_clarity: 26.8
     contract_governance: 3.8
-    contract_quality: 28.9
+    contract_quality: 28.5
     developer_ergonomics: 33.3
-    discoverability: 68.5
-    operational_transparency: 23.7
+    discoverability: 66.1
+    operational_transparency: 21.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -256,7 +257,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 35.1
+  previous_composite: 34.4
   provenance:
     conformance: first-party
     contracts:
@@ -269,9 +270,9 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 61.1
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 32.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

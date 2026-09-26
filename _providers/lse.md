@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: LSE operates its own SAML2 Shibboleth identity provider for staff, students and library resource access, registered in the UK Access Management Federation under entityID https://lse.ac.uk/idp with the
@@ -50,6 +50,7 @@ apis:
   slug: digital-library
 - description: The LSE Library archive catalogue at archives.lse.ac.uk runs on Epexio, a hosted archival discovery platform, served from AWS behind a certificate issued to LSE's own hostname. The page markup carries
   name: LSE Archives Catalogue (Epexio)
+  provenance: unpublished
   slug: archives-catalogue
 - description: LSE is a registered DataCite provider — member identifier lcqr, "London School of Economics", memberType consortium_organization, region EMEA, registered 2020-09-01, linked to ROR https://ror.org/0090
   name: LSE DOI Registration (DataCite)
@@ -186,7 +187,7 @@ modified: '2026-08-19'
 name: London School of Economics and Political Science
 nav: Providers
 network: true
-overview: 'London School of Economics and Political Science publishes 1 API on the [APIs.io](https://apis.io/) network: LTI API. Tagged areas include University, Higher Education, Education, United Kingdom, and Russell Group.
+overview: 'London School of Economics and Political Science publishes 7 APIs on the [APIs.io](https://apis.io/) network, including LTI API, and 6 more. Tagged areas include University, Higher Education, Education, United Kingdom, and Russell Group.
 
 
   The London School of Economics and Political Science catalog on APIs.io includes 1 JSON-LD context.
@@ -204,22 +205,22 @@ rate_limits:
   slug: lse-rate-limits
 score:
   band: thin
-  composite: 35.1
+  composite: 32.1
   coverage:
     artifact_dirs: 16
-    catalog_earned: 78.0
+    catalog_earned: 75.8
     catalog_earned_first_party: 5.0
-    catalog_gap: 37.0
+    catalog_gap: 39.2
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.7
   facets:
-    access_clarity: 50.0
+    access_clarity: 47.9
     contract_governance: 15.2
-    contract_quality: 28.2
+    contract_quality: 27.8
     developer_ergonomics: 22.6
-    discoverability: 68.5
-    operational_transparency: 21.1
+    discoverability: 66.1
+    operational_transparency: 18.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -228,7 +229,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 35.1
+  previous_composite: 34.8
   provenance:
     conformance: first-party
     contracts:
@@ -241,9 +242,9 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 46.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 24.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

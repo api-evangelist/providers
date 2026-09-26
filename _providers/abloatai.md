@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.7
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 2
@@ -284,7 +284,7 @@ modified: '2026-08-19'
 name: Ablo
 nav: Providers
 network: true
-overview: 'Ablo publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Branches API, Claims API, Commits API, and 4 more. Tagged areas include Agent Infrastructure, multi-agent-coordination, concurrency-control, State Management, and Database.
+overview: 'Ablo publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Branches API, Claims API, Commits API, and 5 more. Tagged areas include Agent Infrastructure, multi-agent-coordination, concurrency-control, State Management, and Database.
 
 
   The Ablo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -314,9 +314,9 @@ score:
   facets:
     access_clarity: 63.2
     contract_governance: 4.5
-    contract_quality: 57.4
+    contract_quality: 52.5
     developer_ergonomics: 75.6
-    discoverability: 75.9
+    discoverability: 75.0
     operational_transparency: 50.0
   previous_composite: 59.9
   provenance:
@@ -329,8 +329,14 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 24.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

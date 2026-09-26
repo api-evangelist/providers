@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 18
   slug: google-artifact-registry-agentic-access
   summary_line: 18 operations · 6 acting
-api_count: 11
+api_count: 12
 apis:
 - baseURL: https://artifactregistry.googleapis.com
   baseurl_source: spec
@@ -99,7 +99,12 @@ apis:
   description: The Versions API from Google Artifact Registry — 1 operation(s) for versions.
   name: Google Artifact Registry Versions API
   slug: google-artifact-registry-versions-api
-artifact_total: 32
+- baseURL: https://artifactregistry.googleapis.com
+  baseurl_source: declared
+  description: The Projects API from Google Cloud Artifact Registry — 5 operation(s) for projects.
+  name: Google Artifact Registry Projects API
+  slug: google-cloud-artifact-registry-projects-api
+artifact_total: 33
 collections:
 - collection_type: open
   name: API Collection
@@ -210,7 +215,7 @@ modified: '2026-09-16'
 name: Google Artifact Registry
 nav: Providers
 network: true
-overview: 'Google Artifact Registry publishes 11 APIs on the [APIs.io](https://apis.io/) network, including DockerImages API, Files API, Google Artifact Registry API, and 8 more. Tagged areas include Artifacts, Containers, Google Cloud, Packages, and Registry.
+overview: 'Google Artifact Registry publishes 12 APIs on the [APIs.io](https://apis.io/) network, including DockerImages API, Files API, Google Artifact Registry API, and 9 more. Tagged areas include Artifacts, Containers, Google Cloud, Packages, and Registry.
 
 
   Google Artifact Registry''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, signup flow, and 7 more developer resources.'
@@ -230,21 +235,21 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 36.1
+  composite: 37.5
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 44.0
+    artifact_dirs: 14
+    catalog_earned: 49.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 65.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 47.6
+    contract_quality: 46.8
     developer_ergonomics: 35.7
-    discoverability: 64.8
+    discoverability: 62.5
     operational_transparency: 26.3
   previous_composite: 36.1
   provenance:
@@ -253,9 +258,15 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 12
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+      total: 13
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 27.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

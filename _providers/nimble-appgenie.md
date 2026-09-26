@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: An llms.txt marketing/brand document structured to help large language models interpret Nimble AppGenie's expertise, industry verticals, compliance standards, and service capabilities. It is not a mac
@@ -42,25 +42,25 @@ modified: '2026-09-16'
 name: Nimble AppGenie
 nav: Providers
 network: true
-overview: Nimble AppGenie publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Mobile Development, Web Development, ai-software, and E-Wallet.
+overview: Nimble AppGenie publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Mobile Development, Web Development, ai-software, and Digital Wallet.
 random_paper: 21
 score:
   band: minimal
-  composite: 1.8
+  composite: 2.6
   coverage:
     artifact_dirs: 2
-    catalog_earned: 32.0
+    catalog_earned: 27.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 66.7
+    discoverability: 55.4
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -83,8 +83,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 0.0
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false
@@ -97,7 +97,7 @@ tags:
 - Mobile Development
 - Web Development
 - ai-software
-- E-Wallet
+- Digital Wallet
 - neobanking
 - lending-bnpl
 - Crypto Defi

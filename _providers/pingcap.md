@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 42.6
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 5
@@ -612,7 +612,7 @@ modified: '2026-08-02'
 name: PingCAP
 nav: Providers
 network: true
-overview: 'PingCAP publishes 44 APIs on the [APIs.io](https://apis.io/) network, including API Key API, Audit Log API, Backup API, and 41 more. Tagged areas include Distributed SQL, Database, tidb, HTAP, and MySQL Compatible.
+overview: 'PingCAP publishes 45 APIs on the [APIs.io](https://apis.io/) network, including API Key API, Audit Log API, Backup API, and 42 more. Tagged areas include Distributed SQL, Database, tidb, HTAP, and MySQL Compatible.
 
 
   PingCAP''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 43 more developer resources.'
@@ -626,7 +626,7 @@ rate_limits:
   slug: tidb-rate-limits
 score:
   band: strong
-  composite: 58.6
+  composite: 60.1
   coverage:
     artifact_dirs: 24
     catalog_earned: 45.0
@@ -634,18 +634,18 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.2
+  delta: 1.5
   facets:
     access_clarity: 53.9
     contract_governance: 18.2
-    contract_quality: 51.5
+    contract_quality: 46.7
     developer_ergonomics: 85.7
-    discoverability: 75.9
+    discoverability: 71.7
     operational_transparency: 65.8
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 58.4
+  previous_composite: 58.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -656,8 +656,14 @@ score:
       total: 42
     mcp: first-party
     skills: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 35.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

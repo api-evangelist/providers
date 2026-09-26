@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 6.0
-  scored_at: '2026-09-24'
+  score: 5.6
+  scored_at: '2026-09-25'
 api_count: 4
 apis:
 - description: Cloud-based generator that produces customizable, type-safe SDKs in seven target stacks (TypeScript, Python, Java, .NET, Go, PHP, Terraform) from OpenAPI 2.0/3.0/3.1 or Postman Collections. CLI and CI
@@ -50,6 +50,11 @@ apis:
   slug: terraform-provider
 artifact_total: 9
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/liblab/refs/heads/main/vendor-facets/liblab-vendor-facets.yml
+  title: ''
+  type: VendorFacets
+  url: vendor-facets/liblab-vendor-facets.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/liblab/refs/heads/main/security/liblab-domain-security.yml
   title: ''
@@ -190,7 +195,7 @@ network: true
 overview: 'Liblab publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include SDK, SDK Generation, Code Generation, OpenAPI, and Developer Tools.
 
 
-  Liblab''s developer surface includes documentation, getting-started guide, engineering blog, pricing, developer portal, signup flow, CLI, and 23 more developer resources.'
+  Liblab''s developer surface includes documentation, getting-started guide, engineering blog, pricing, developer portal, signup flow, CLI, and 24 more developer resources.'
 plans:
 - name: Liblab Plans Pricing
   plan_count: 5
@@ -202,25 +207,31 @@ rate_limits:
   slug: liblab-rate-limits
 score:
   band: thin
-  composite: 28.8
+  composite: 28.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 60.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 72.2
+    discoverability: 68.3
     operational_transparency: 10.5
   previous_composite: 28.8
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 13.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

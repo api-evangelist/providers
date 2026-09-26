@@ -23,7 +23,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: verified
     mcp_server: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.0
-  scored_at: '2026-09-24'
+  score: 28.8
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -45,27 +45,27 @@ agentic_access:
   summary_line: 16 operations · 7 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- baseURL: https://archal.ai
+- baseURL: https://api.archal.ai
   baseurl_source: declared
   description: CLI and device authentication.
   name: Archal Auth API
   slug: archal-auth-api
-- baseURL: https://archal.ai
+- baseURL: https://api.archal.ai
   baseurl_source: declared
   description: Clone and scenario discovery.
   name: Archal Catalog API
   slug: archal-catalog-api
-- baseURL: https://archal.ai
+- baseURL: https://api.archal.ai
   baseurl_source: declared
   description: Run, trace, and test-result reporting.
   name: Archal Results API
   slug: archal-results-api
-- baseURL: https://archal.ai
+- baseURL: https://api.archal.ai
   baseurl_source: declared
   description: Direct calls into a running clone.
   name: Archal Runtime API
   slug: archal-runtime-api
-- baseURL: https://archal.ai
+- baseURL: https://api.archal.ai
   baseurl_source: declared
   description: Hosted clone session lifecycle.
   name: Archal Sessions API
@@ -224,7 +224,7 @@ overview: 'Archal publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 3
 score:
   band: thin
-  composite: 35.2
+  composite: 33.6
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -232,13 +232,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 51.2
+    contract_quality: 46.0
     developer_ergonomics: 73.2
-    discoverability: 75.9
+    discoverability: 71.7
     operational_transparency: 2.6
   previous_composite: 35.2
   provenance:
@@ -251,8 +251,14 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 16.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

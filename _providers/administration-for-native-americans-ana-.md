@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - description: The ANA Projects Report dataset provides results and impact analysis for ANA-funded projects in Native American communities. Available through the data.gov and healthdata.gov catalogs, the dataset inc
@@ -159,7 +159,7 @@ rate_limits:
   slug: administration-for-native-americans-ana--rate-limits
 score:
   band: emerging
-  composite: 15.0
+  composite: 14.5
   coverage:
     artifact_dirs: 11
     catalog_earned: 40.0
@@ -167,13 +167,13 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 7.9
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -188,9 +188,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 20.4
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 10.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

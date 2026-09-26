@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -44,58 +44,58 @@ agentic_access:
   summary_line: 43 operations · 24 acting
 api_count: 1
 apis:
-- baseURL: https://logicgate.com
-  baseurl_source: declared
+- baseURL_template: https://{env}.logicgate.com
+  baseurl_source: spec_template
   description: An Access Audit captures information about access related events such as logins and logouts associated with a user.
   name: LogicGate Access Audit API
   slug: logicgate-access-audit-api
-- baseURL: https://logicgate.com
-  baseurl_source: declared
+- baseURL_template: https://{env}.logicgate.com
+  baseurl_source: spec_template
   description: An [Application](https://help.logicgate.com/hc/en-us/articles/4402674055572-Create-a-new-Application) is a collection of Workflows, Steps, and logic that collectively solve a business use case
   name: LogicGate Application API
   slug: logicgate-application-api
-- baseURL: https://logicgate.com
-  baseurl_source: declared
+- baseURL_template: https://{env}.logicgate.com
+  baseurl_source: spec_template
   description: 'Getting Started: How to create an [API Access Token](https://www.logicgate.com/developer/risk-cloud-api-authentication/) to begin integrating with the Risk Cloud API'
   name: LogicGate Authentication API
   slug: logicgate-authentication-api
-- baseURL: https://logicgate.com
-  baseurl_source: declared
+- baseURL_template: https://{env}.logicgate.com
+  baseurl_source: spec_template
   description: A [Conditional Edge Path](https://help.logicgate.com/hc/en-us/articles/4402683114004-Work-with-Paths#conditional-edge-paths) defines an alternative route that a Record might need to follow if specific
   name: LogicGate Edge Path API
   slug: logicgate-edge-path-api
-- baseURL: https://logicgate.com
-  baseurl_source: declared
+- baseURL_template: https://{env}.logicgate.com
+  baseurl_source: spec_template
   description: A [Field](https://help.logicgate.com/hc/en-us/articles/4402674064020-Create-Fields) is used to capture information from and display information to users in a Workflow
   name: LogicGate Field API
   slug: logicgate-field-api
-- baseURL: https://logicgate.com
-  baseurl_source: declared
+- baseURL_template: https://{env}.logicgate.com
+  baseurl_source: spec_template
   description: API endpoints for determining the next path(s) in a workflow, including routing and step information.
   name: LogicGate Next Path API
   slug: logicgate-next-path-api
-- baseURL: https://logicgate.com
-  baseurl_source: declared
+- baseURL_template: https://{env}.logicgate.com
+  baseurl_source: spec_template
   description: A [Record](https://help.logicgate.com/hc/en-us/articles/4402683104020-Complete-a-Record) is a form that can capture information, store cataloged data, and link to other Records as it moves through eac
   name: LogicGate Record API
   slug: logicgate-record-api
-- baseURL: https://logicgate.com
-  baseurl_source: declared
+- baseURL_template: https://{env}.logicgate.com
+  baseurl_source: spec_template
   description: 'A [Redirect Path](https://help.logicgate.com/hc/en-us/articles/4402683115156-Selected-Redirects) gives end users access to Redirect a Record to any Step in the Workflow other than the Default Path or '
   name: LogicGate Redirect Path API
   slug: logicgate-redirect-path-api
-- baseURL: https://logicgate.com
-  baseurl_source: declared
+- baseURL_template: https://{env}.logicgate.com
+  baseurl_source: spec_template
   description: A [Step](https://help.logicgate.com/hc/en-us/articles/4402674059668-Create-a-Step) lives in a Workflow and is configured with a set of Sections, Subsections and Fields to create a form
   name: LogicGate Step API
   slug: logicgate-step-api
-- baseURL: https://logicgate.com
-  baseurl_source: declared
+- baseURL_template: https://{env}.logicgate.com
+  baseurl_source: spec_template
   description: A [Workflow](https://help.logicgate.com/hc/en-us/articles/4402683108756-Create-a-new-Workflow) is a combination of Steps, Paths, Fields, and routing logic that combine to form a system in an Applicati
   name: LogicGate Workflow API
   slug: logicgate-workflow-api
-- baseURL: https://logicgate.com
-  baseurl_source: declared
+- baseURL_template: https://{env}.logicgate.com
+  baseurl_source: spec_template
   description: A [Workflow Map](https://help.logicgate.com/hc/en-us/articles/4402683117588) represents a relationship between two Workflows
   name: LogicGate Workflow Map API
   slug: logicgate-workflow-map-api
@@ -291,21 +291,21 @@ overview: 'LogicGate publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 19
 score:
   band: developing
-  composite: 44.7
+  composite: 43.7
   coverage:
     artifact_dirs: 18
-    catalog_earned: 37.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 28.9
     contract_governance: 4.5
-    contract_quality: 63.9
+    contract_quality: 57.8
     developer_ergonomics: 58.9
-    discoverability: 75.9
+    discoverability: 64.3
     operational_transparency: 28.9
   previous_composite: 44.7
   provenance:
@@ -318,8 +318,20 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 26.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

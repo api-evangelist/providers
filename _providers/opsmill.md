@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.1
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -317,14 +317,14 @@ modified: '2026-07-20'
 name: OpsMill
 nav: Providers
 network: true
-overview: 'OpsMill publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Artifact API, Auth API, Config API, and 12 more. Tagged areas include Company, Infrastructure Saas, Network Automation, Source of Truth, and Data Management.
+overview: 'OpsMill publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Artifact API, Auth API, Config API, and 13 more. Tagged areas include Company, Infrastructure Saas, Network Automation, Source of Truth, and Data Management.
 
 
   OpsMill''s developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, engineering blog, support, and 22 more developer resources.'
 random_paper: 20
 score:
   band: developing
-  composite: 45.8
+  composite: 45.6
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -332,13 +332,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 45.4
+    contract_quality: 40.8
     developer_ergonomics: 78.6
-    discoverability: 75.9
+    discoverability: 71.7
     operational_transparency: 18.4
   previous_composite: 45.8
   provenance:
@@ -351,8 +351,14 @@ score:
       total: 15
     mcp: first-party
     skills: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 24.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

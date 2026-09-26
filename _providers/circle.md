@@ -15,7 +15,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: unknown
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.8
-  scored_at: '2026-09-24'
+  score: 34.5
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -245,7 +245,7 @@ modified: '2026-05-30'
 name: Circle
 nav: Providers
 network: true
-overview: 'Circle publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Signing API, Tokens API, Transactions API, and 3 more. Tagged areas include Blockchain, Compliance, Cross-Chain, Currency, and Money.
+overview: 'Circle publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Signing API, Tokens API, Transactions API, and 4 more. Tagged areas include Blockchain, Compliance, Cross-Chain, Currency, and Money.
 
 
   The Circle catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -296,7 +296,7 @@ rules:
   slug: circle-rules
 score:
   band: developing
-  composite: 42.0
+  composite: 40.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 55.5
@@ -304,13 +304,13 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
     access_clarity: 26.3
     contract_governance: 13.6
-    contract_quality: 61.1
-    developer_ergonomics: 47.6
-    discoverability: 75.9
+    contract_quality: 56.1
+    developer_ergonomics: 46.9
+    discoverability: 75.0
     operational_transparency: 26.3
   previous_composite: 42.0
   provenance:
@@ -326,9 +326,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 32.8
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 18.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true
@@ -355,5 +355,6 @@ tags:
 - Transfers
 - USDC
 - Wallets
+- Stablecoin Issuance
 website: https://www.circle.com/
 ---

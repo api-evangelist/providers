@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: platform
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.1
-  scored_at: '2026-09-24'
+  score: 17.3
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: Tape D is NPM's private-company pricing and valuation dataset — real-time private market pricing integrating primary round data, secondary market transactions, mutual fund marks and 409A valuations ac
@@ -178,33 +178,34 @@ scopes:
   summary_line: 7 scopes · authorizationCode/implicit
 score:
   band: thin
-  composite: 31.1
+  composite: 28.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.4
   facets:
     access_clarity: 46.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 68.5
+    discoverability: 68.3
     operational_transparency: 0.0
   previous_composite: 31.1
   provenance:
     conformance: first-party
+    mcp: site-plugin
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 66.7
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 37.0
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

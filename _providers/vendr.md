@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.3
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -203,7 +203,7 @@ modified: '2026-05-19'
 name: Vendr
 nav: Providers
 network: true
-overview: 'Vendr publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Pricing API, Scope API, and 1 more. Tagged areas include Pricing, Procurement, Software-as-a-Service, Software Spend Management, and Negotiation.
+overview: 'Vendr publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Pricing API, Scope API, and 2 more. Tagged areas include Pricing, Procurement, Software-as-a-Service, Software Spend Management, and Negotiation.
 
 
   The Vendr catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -243,21 +243,21 @@ rules:
   slug: vendr-rules
 score:
   band: developing
-  composite: 41.1
+  composite: 40.2
   coverage:
     artifact_dirs: 19
-    catalog_earned: 73.5
+    catalog_earned: 72.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 41.5
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 23.7
-    contract_governance: 28.8
-    contract_quality: 70.4
+    contract_governance: 27.3
+    contract_quality: 63.9
     developer_ergonomics: 28.6
-    discoverability: 68.5
+    discoverability: 68.3
     operational_transparency: 26.3
   previous_composite: 41.1
   provenance:
@@ -268,8 +268,14 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 21.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - baseURL: https://concord-api.centrastage.net/api
@@ -271,9 +271,9 @@ score:
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 44.6
+    contract_quality: 40.2
     developer_ergonomics: 54.2
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 36.8
   previous_composite: 43.1
   provenance:
@@ -285,8 +285,14 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 24.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

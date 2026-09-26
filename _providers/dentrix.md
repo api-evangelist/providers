@@ -33,29 +33,36 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 7
 apis:
 - description: Retrieve and (with the Write API / Ascend scopes) manage patient demographics, contact details, household and responsible-party relationships, and patient status. On Dentrix Ascend this is a REST/JSON
   name: Dentrix Patients API
+  provenance: modeled
   slug: dentrix-patients-api
 - description: Read the schedule and book, reschedule, or cancel appointments. In the Dentrix Developer Program this maps to the commercial-only Scheduling API; on Dentrix Ascend it is a REST scheduling resource. En
   name: Dentrix Appointments & Scheduling API
+  provenance: modeled
   slug: dentrix-appointments-api
 - description: Look up providers, operatories, and practice/location metadata used to associate appointments, procedures, and production with the responsible dentist or hygienist. Read-oriented reference data expose
   name: Dentrix Providers API
+  provenance: modeled
   slug: dentrix-providers-api
 - description: Access clinical and treatment data - procedure codes (CDT), completed and planned procedures, treatment plans, and clinical notes. Surfaced through clinical table views and stored procedures on the De
   name: Dentrix Procedures & Treatment API
+  provenance: modeled
   slug: dentrix-procedures-treatment-api
 - description: Read insurance coverage and claim status and, on Ascend, submit claims. The Dentrix Developer Program exposes a dedicated Claims Summary API for practice-level claims reporting; Dentrix Ascend support
   name: Dentrix Insurance & Claims API
+  provenance: modeled
   slug: dentrix-insurance-claims-api
 - description: Access account ledgers, charges, payments, adjustments, and balances for patient and insurance financial reconciliation. Read via financial table views and stored procedures (desktop) or REST ledger r
   name: Dentrix Ledger & Billing API
+  provenance: modeled
   slug: dentrix-ledger-billing-api
 - description: 'Read prescription and medication history captured in the patient clinical record. Availability is subject to program category and partner agreement; exposed through clinical table views/DLL functions '
   name: Dentrix Prescriptions API
+  provenance: modeled
   slug: dentrix-prescriptions-api
 artifact_total: 10
 common:
@@ -122,31 +129,31 @@ rate_limits:
   slug: dentrix-rate-limits
 score:
   band: emerging
-  composite: 20.2
+  composite: 19.5
   coverage:
     artifact_dirs: 6
-    catalog_earned: 59.0
+    catalog_earned: 56.6
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.0
+    catalog_gap: 58.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
-    access_clarity: 44.7
+    access_clarity: 41.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 64.8
-    operational_transparency: 31.6
+    discoverability: 62.5
+    operational_transparency: 28.4
   previous_composite: 20.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 7.5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 4.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

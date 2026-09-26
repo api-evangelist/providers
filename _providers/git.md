@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 4
 apis:
 - description: Git command-line interface for version control operations.
@@ -109,7 +109,7 @@ modified: '2026-06-20'
 name: Git
 nav: Providers
 network: true
-overview: 'Git publishes 3 APIs on the [APIs.io](https://apis.io/) network: GitHub API, GitLab API, and Gitea API. Tagged areas include Distributed, Git, Open Source, Source Code Management, and Version Control.
+overview: 'Git publishes 4 APIs on the [APIs.io](https://apis.io/) network, including GitHub API, GitLab API, Gitea API, and 1 more. Tagged areas include Distributed, Git, Open Source, Source Code Management, and Version Control.
 
 
   Git''s developer surface includes documentation and 8 more developer resources.'
@@ -124,7 +124,7 @@ rate_limits:
   slug: git-rate-limits
 score:
   band: thin
-  composite: 27.6
+  composite: 28.6
   coverage:
     artifact_dirs: 11
     catalog_earned: 44.0
@@ -132,20 +132,26 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 23.7
     contract_governance: 18.2
-    contract_quality: 26.7
+    contract_quality: 24.0
     developer_ergonomics: 28.6
-    discoverability: 72.2
+    discoverability: 71.7
     operational_transparency: 7.9
   previous_composite: 27.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 27.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

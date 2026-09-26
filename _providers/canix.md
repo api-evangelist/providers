@@ -24,7 +24,7 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: verified
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.4
-  scored_at: '2026-09-24'
+  score: 46.2
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -423,7 +423,7 @@ modified: '2026-08-09'
 name: Canix
 nav: Providers
 network: true
-overview: 'Canix publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Audited Actions API, Bill of Materials API, Brands API, and 24 more. Tagged areas include Cannabis, ERP, Seed-to-Sale, Compliance, and Inventory Management.
+overview: 'Canix publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Audited Actions API, Bill of Materials API, Brands API, and 25 more. Tagged areas include Cannabis, ERP, Seed-to-Sale, Compliance, and Inventory.
 
 
   Canix''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
@@ -435,7 +435,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 39.9
+  composite: 41.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -443,13 +443,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 59.8
+    contract_quality: 54.1
     developer_ergonomics: 47.0
-    discoverability: 68.5
+    discoverability: 68.3
     operational_transparency: 15.8
   previous_composite: 39.9
   provenance:
@@ -462,8 +462,14 @@ score:
       total: 27
     mcp: first-party
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 34.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true
@@ -484,7 +490,7 @@ tags:
 - ERP
 - Seed-to-Sale
 - Compliance
-- Inventory Management
+- Inventory
 - Supply Chain
 - Track and Trace
 - Manufacturing

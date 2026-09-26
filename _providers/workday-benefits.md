@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -430,7 +430,7 @@ modified: '2026-09-17'
 name: Workday Benefits
 nav: Providers
 network: true
-overview: 'Workday Benefits publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Benefit Enrollments API, Benefit Events API, Benefit Plans API, and 5 more. Tagged areas include Benefits, Human Resources, HCM, Enterprise, and Payroll.
+overview: 'Workday Benefits publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Benefit Enrollments API, Benefit Events API, Benefit Plans API, and 6 more. Tagged areas include Benefits, Human Resources, HCM, Enterprise, and Payroll.
 
 
   The Workday Benefits catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -475,23 +475,23 @@ scopes:
   summary_line: 1 scope · implicit/clientCredentials
 score:
   band: developing
-  composite: 43.8
+  composite: 47.1
   coverage:
     artifact_dirs: 34
-    catalog_earned: 70.5
+    catalog_earned: 69.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 44.5
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.0
+  delta: 3.3
   facets:
     access_clarity: 44.7
-    contract_governance: 33.3
-    contract_quality: 27.9
+    contract_governance: 31.8
+    contract_quality: 27.2
     developer_ergonomics: 54.2
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 47.4
-  previous_composite: 45.8
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -502,8 +502,14 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Employment & Payroll
+    regime_id: employment_payroll
+    score: 45.1
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

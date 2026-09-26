@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,37 +46,37 @@ agentic_access:
 api_count: 1
 apis:
 - baseURL: https://www.space-track.org
-  baseurl_source: declared
+  baseurl_source: spec
   description: Launch sites, boxscore, announcements, and other reference data
   name: Space-Track Ancillary API
   slug: spacetrack-ancillary-api
 - baseURL: https://www.space-track.org
-  baseurl_source: declared
+  baseurl_source: spec
   description: Session-based authentication via cookie
   name: Space-Track Authentication API
   slug: spacetrack-authentication-api
 - baseURL: https://www.space-track.org
-  baseurl_source: declared
+  baseurl_source: spec
   description: Spaceflight safety conjunction data messages (CDM)
   name: Space-Track Conjunction Data API
   slug: spacetrack-conjunction-data-api
 - baseURL: https://www.space-track.org
-  baseurl_source: declared
+  baseurl_source: spec
   description: Satellite reentry and decay predictions
   name: Space-Track Decay Predictions API
   slug: spacetrack-decay-predictions-api
 - baseURL: https://www.space-track.org
-  baseurl_source: declared
+  baseurl_source: spec
   description: Current and historical SGP4 keplerian element sets (TLE/OMM)
   name: Space-Track General Perturbations API
   slug: spacetrack-general-perturbations-api
 - baseURL: https://www.space-track.org
-  baseurl_source: declared
+  baseurl_source: spec
   description: Catalog metadata for all tracked Earth-orbiting objects
   name: Space-Track Satellite Catalog API
   slug: spacetrack-satellite-catalog-api
 - baseURL: https://www.space-track.org
-  baseurl_source: declared
+  baseurl_source: spec
   description: Reentry tracking and impact prediction messages (TIP)
   name: Space-Track Tracking and Impact Prediction API
   slug: spacetrack-tracking-and-impact-prediction-api
@@ -235,22 +235,22 @@ rules:
     warn: 4
   slug: spacetrack-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 41.8
+  band: thin
+  composite: 39.2
   coverage:
     artifact_dirs: 15
-    catalog_earned: 74.3
+    catalog_earned: 67.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.8
+    catalog_gap: 48.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.6
   facets:
-    access_clarity: 46.1
-    contract_governance: 25.0
-    contract_quality: 69.0
+    access_clarity: 43.9
+    contract_governance: 23.5
+    contract_quality: 62.6
     developer_ergonomics: 31.0
-    discoverability: 68.5
+    discoverability: 57.1
     operational_transparency: 0.0
   previous_composite: 41.8
   provenance:
@@ -260,8 +260,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 20.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: OpenAI-compatible REST API gateway aggregating GPT, Claude, Gemini, DeepSeek, plus image, video, and audio model providers behind a single key and routing/failover layer. Model marketplace, usage logs
@@ -177,7 +177,7 @@ modified: '2026-05-27'
 name: WanAPIs
 nav: Providers
 network: true
-overview: 'WanAPIs publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Completions API, and 5 more. Tagged areas include LLM Gateway, AI API Gateway, OpenAI-Compatible, Model Marketplace, and LLM.
+overview: 'WanAPIs publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Completions API, and 6 more. Tagged areas include LLM Gateway, AI API Gateway, OpenAI-Compatible, Model Marketplace, and LLM.
 
 
   The WanAPIs catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -216,23 +216,23 @@ rules:
     warn: 4
   slug: wanapis-rules
 score:
-  band: developing
-  composite: 40.9
+  band: thin
+  composite: 37.5
   coverage:
     artifact_dirs: 13
-    catalog_earned: 72.5
+    catalog_earned: 70.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.5
+    catalog_gap: 44.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.4
   facets:
-    access_clarity: 52.6
+    access_clarity: 50.5
     contract_governance: 13.6
-    contract_quality: 63.5
+    contract_quality: 57.7
     developer_ergonomics: 9.5
-    discoverability: 75.9
-    operational_transparency: 31.6
+    discoverability: 73.2
+    operational_transparency: 28.4
   previous_composite: 40.9
   provenance:
     contracts:
@@ -240,8 +240,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 10.0
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

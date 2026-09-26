@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: 'Anonymous Model Context Protocol endpoint served from the Cooler Heads web host. It is the Wix Site MCP surface (platform-provided, not a first-party Cooler Heads API): nine tools that let an agent re'
@@ -119,7 +119,7 @@ overview: 'Cooler Heads publishes 1 API on the [APIs.io](https://apis.io/) netwo
 random_paper: 18
 score:
   band: emerging
-  composite: 12.3
+  composite: 12.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -127,26 +127,26 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.9
+    discoverability: 75.8
     operational_transparency: 0.0
   previous_composite: 12.3
   provenance:
     conformance: derived
-    mcp: first-party
+    mcp: platform-generated
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 21.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 13.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

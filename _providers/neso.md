@@ -19,24 +19,26 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: false
+    reversibility_documented: na
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.8
-  scored_at: '2026-09-24'
-api_count: 2
+  score: 22.7
+  scored_at: '2026-09-25'
+api_count: 1
 apis:
-- description: The public CKAN 2.8.7 API behind the NESO Data Portal, serving 128 open datasets covering GB electricity demand, generation, balancing, ancillary services, constraints, interconnectors, connection reg
+- baseURL: https://api.neso.energy/api/3/action
+  baseurl_source: declared
+  description: The public CKAN 2.8.7 API behind the NESO Data Portal, serving 128 open datasets covering GB electricity demand, generation, balancing, ancillary services, constraints, interconnectors, connection reg
   name: NESO Data Portal API
   slug: neso-data-portal-api
 - description: The official Carbon Intensity API for Great Britain, developed by NESO, giving national and regional carbon intensity of GB electricity - actual, forecast up to 96+ hours ahead, half-hourly generation
@@ -184,7 +186,7 @@ modified: '2026-07-27'
 name: National Energy System Operator (NESO)
 nav: Providers
 network: true
-overview: 'National Energy System Operator (NESO) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, United Kingdom, Electricity, Energy Markets, and Grid.
+overview: 'National Energy System Operator (NESO) publishes 2 APIs on the [APIs.io](https://apis.io/) network, including NESO Data Portal API, and 1 more. Tagged areas include Energy, United Kingdom, Electricity, Energy Markets, and Grid.
 
 
   National Energy System Operator (NESO)''s developer surface includes authentication, documentation, developer portal, API reference, support, product news, and 23 more developer resources.'
@@ -194,22 +196,22 @@ rate_limits:
   name: Neso Rate Limits
   slug: neso-rate-limits
 score:
-  band: thin
-  composite: 29.7
+  band: developing
+  composite: 39.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 10.2
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 0.0
+    contract_quality: 43.5
     developer_ergonomics: 44.6
-    discoverability: 68.5
+    discoverability: 67.0
     operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -222,6 +224,11 @@ score:
   previous_composite: 29.7
   provenance:
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
     mcp: derived
     skills: derived
   regulatory:
@@ -229,14 +236,14 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 41.9
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: flat
+    score: 32.0
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: rising
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/neso/refs/heads/main/screenshots/neso-2026-08-07T184913.png
 security:
 - kind: authentication
@@ -263,5 +270,6 @@ tags:
 - Renewables
 - Gas
 - Demand Response
+- Carbon Intensity
 website: https://www.neso.energy/
 ---

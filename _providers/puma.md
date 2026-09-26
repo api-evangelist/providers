@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -211,14 +211,14 @@ modified: '2026-05-11'
 name: Puma
 nav: Providers
 network: true
-overview: 'Puma publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Gc API, Gc Stats API, Halt API, and 7 more. Tagged areas include Web Server, Ruby, Rack, Application Server, and HTTP.
+overview: 'Puma publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Gc API, Gc Stats API, Halt API, and 8 more. Tagged areas include Web Server, Ruby, Rack, Application Server, and HTTP.
 
 
   Puma''s developer surface includes authentication, documentation, and 14 more developer resources.'
 random_paper: 17
 score:
   band: thin
-  composite: 28.8
+  composite: 33.9
   coverage:
     artifact_dirs: 7
     catalog_earned: 37.0
@@ -226,14 +226,17 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 51.7
+    contract_quality: 46.5
     developer_ergonomics: 26.2
-    discoverability: 68.5
+    discoverability: 66.1
     operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 100.0
   previous_composite: 28.8
   provenance:
     agentic_access: derived
@@ -242,9 +245,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 11.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

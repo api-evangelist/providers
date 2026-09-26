@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - description: The core open-source Tuva dbt package that transforms healthcare data from the Tuva Input Layer into the Tuva Core Data Model and Data Marts, including data-quality tests, normalization, claims prepro
@@ -248,7 +248,7 @@ modified: '2026-09-16'
 name: Tuva Health
 nav: Providers
 network: true
-overview: 'Tuva Health publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Config API, Data Sources API, Check API, and 5 more. Tagged areas include Healthcare, United States, Health Data, FHIR, and Interoperability.
+overview: 'Tuva Health publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Config API, Data Sources API, Check API, and 8 more. Tagged areas include Healthcare, United States, Health Data, FHIR, and Interoperability.
 
 
   Tuva Health''s developer surface includes documentation, getting-started guide, changelog, engineering blog, support, API reference, authentication, and 26 more developer resources.'
@@ -263,7 +263,7 @@ rate_limits:
   slug: tuva-health-rate-limits
 score:
   band: developing
-  composite: 44.1
+  composite: 41.9
   coverage:
     artifact_dirs: 22
     catalog_earned: 32.0
@@ -271,13 +271,13 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.2
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 41.2
+    contract_quality: 37.0
     developer_ergonomics: 80.4
-    discoverability: 66.7
+    discoverability: 64.3
     operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -301,9 +301,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 31.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 19.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

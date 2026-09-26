@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -254,7 +254,7 @@ modified: '2026-05-19'
 name: SimpleLocalize
 nav: Providers
 network: true
-overview: 'SimpleLocalize publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Export API, Import API, and 4 more. Tagged areas include Localization, Translation, and Internationalization.
+overview: 'SimpleLocalize publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Export API, Import API, and 7 more. Tagged areas include Localization, Translation, and Internationalization.
 
 
   The SimpleLocalize catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -305,9 +305,9 @@ score:
   facets:
     access_clarity: 36.8
     contract_governance: 9.8
-    contract_quality: 66.9
+    contract_quality: 61.1
     developer_ergonomics: 39.3
-    discoverability: 59.3
+    discoverability: 57.1
     operational_transparency: 13.2
   previous_composite: 43.4
   provenance:
@@ -317,8 +317,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 26.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

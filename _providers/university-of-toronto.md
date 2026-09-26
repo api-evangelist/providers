@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: The University of Toronto's Shibboleth identity provider, entityID https://idpz.utorauth.utoronto.ca/shibboleth, serving signed SAML 2.0 metadata from the University's own utorauth.utoronto.ca host. R
@@ -254,7 +254,7 @@ modified: '2026-08-19'
 name: University of Toronto
 nav: Providers
 network: true
-overview: 'University of Toronto publishes 2 APIs on the [APIs.io](https://apis.io/) network: Courses API and Reference Data API. Tagged areas include University, Higher Education, Education, Canada, and U15.
+overview: 'University of Toronto publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Courses API, Reference Data API, and 4 more. Tagged areas include University, Higher Education, Education, Canada, and U15.
 
 
   The University of Toronto catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -288,7 +288,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 34.5
+  composite: 31.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 62.8
@@ -296,13 +296,13 @@ score:
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: -2.6
   facets:
     access_clarity: 39.5
     contract_governance: 11.4
     contract_quality: 23.8
     developer_ergonomics: 28.6
-    discoverability: 66.7
+    discoverability: 64.3
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -311,7 +311,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 35.8
+  previous_composite: 34.1
   provenance:
     conformance: first-party
     contracts:
@@ -324,9 +324,9 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 57.4
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 30.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

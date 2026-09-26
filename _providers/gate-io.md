@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 6
 apis:
 - description: Public and authenticated REST endpoints for spot and margin trading, including order placement, cancellation, order-book queries, trade history, and account balance management.
@@ -133,7 +133,7 @@ modified: '2026-06-13'
 name: Gate.io
 nav: Providers
 network: true
-overview: 'Gate.io publishes 1 API on the [APIs.io](https://apis.io/) network: Gate API v4 — Spot & Margin. Tagged areas include Cryptocurrency, Exchange, Trading, Spot Trading, and Margin Trading.
+overview: 'Gate.io publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Gate API v4 — Spot & Margin, and 5 more. Tagged areas include Cryptocurrency, Exchange, Trading, Spot Trading, and Margin Trading.
 
 
   The Gate.io catalog on APIs.io includes 1 JSON-LD context.
@@ -151,31 +151,31 @@ rate_limits:
   slug: gate-io-rate-limits
 score:
   band: thin
-  composite: 36.5
+  composite: 34.8
   coverage:
     artifact_dirs: 8
-    catalog_earned: 75.0
+    catalog_earned: 72.6
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.0
+    catalog_gap: 42.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.7
   facets:
-    access_clarity: 50.0
+    access_clarity: 46.8
     contract_governance: 0.0
-    contract_quality: 37.3
+    contract_quality: 34.7
     developer_ergonomics: 9.5
-    discoverability: 74.1
-    operational_transparency: 68.4
+    discoverability: 71.4
+    operational_transparency: 65.3
   previous_composite: 36.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 28.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 15.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

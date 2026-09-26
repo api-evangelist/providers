@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,32 +44,32 @@ agentic_access:
 api_count: 1
 apis:
 - baseURL: https://www.fvap.gov
-  baseurl_source: declared
+  baseurl_source: spec
   description: State-specific ballot rules (FPCA, FWAB, VBR).
   name: FVAP.gov Ballot Rules API
   slug: fvapgov-ballot-rules-api
 - baseURL: https://www.fvap.gov
-  baseurl_source: declared
+  baseurl_source: spec
   description: Election deadlines for a jurisdiction.
   name: FVAP.gov Deadline Dates API
   slug: fvapgov-deadline-dates-api
 - baseURL: https://www.fvap.gov
-  baseurl_source: declared
+  baseurl_source: spec
   description: Local election office contact information.
   name: FVAP.gov Election Offices API
   slug: fvapgov-election-offices-api
 - baseURL: https://www.fvap.gov
-  baseurl_source: declared
+  baseurl_source: spec
   description: Combined electronic Voting Assistance Guide.
   name: FVAP.gov eVAG API
   slug: fvapgov-evag-api
 - baseURL: https://www.fvap.gov
-  baseurl_source: declared
+  baseurl_source: spec
   description: General voting information for a jurisdiction.
   name: FVAP.gov Important Info API
   slug: fvapgov-important-info-api
 - baseURL: https://www.fvap.gov
-  baseurl_source: declared
+  baseurl_source: spec
   description: XML schema definition.
   name: FVAP.gov Schema API
   slug: fvapgov-schema-api
@@ -177,21 +177,21 @@ rules:
   slug: fvapgov-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 19.2
+  composite: 17.4
   coverage:
     artifact_dirs: 13
-    catalog_earned: 38.3
+    catalog_earned: 33.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.8
+    catalog_gap: 66.8
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.8
   facets:
     access_clarity: 0.0
     contract_governance: 9.8
-    contract_quality: 48.6
+    contract_quality: 43.8
     developer_ergonomics: 2.4
-    discoverability: 59.3
+    discoverability: 48.2
     operational_transparency: 7.9
   previous_composite: 19.2
   provenance:
@@ -206,9 +206,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 11.1
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 5.9
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

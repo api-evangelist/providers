@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -51,28 +51,28 @@ apis:
 - description: Plugin interface that allows extending Porter's core functionality, such as storing installation data, credential sets, and parameter sets in external systems like cloud storage instead of the local f
   name: Porter Plugins API
   slug: porter-plugins-api
-- baseURL: https://porter.sh
-  baseurl_source: declared
+- baseURL: http://localhost:3000
+  baseurl_source: spec
   description: Operations for searching, inspecting, and managing CNAB bundles published to OCI registries.
   name: Porter Bundles API
   slug: porter-bundles-api
-- baseURL: https://porter.sh
-  baseurl_source: declared
+- baseURL: http://localhost:3000
+  baseurl_source: spec
   description: Operations for managing credential sets that supply secret values to bundle executions.
   name: Porter CredentialSets API
   slug: porter-credentialsets-api
-- baseURL: https://porter.sh
-  baseurl_source: declared
+- baseURL: http://localhost:3000
+  baseurl_source: spec
   description: Operations for managing bundle installations, including install, upgrade, invoke, and uninstall lifecycle actions.
   name: Porter Installations API
   slug: porter-installations-api
-- baseURL: https://porter.sh
-  baseurl_source: declared
+- baseURL: http://localhost:3000
+  baseurl_source: spec
   description: Operations for managing parameter sets that supply configuration values to bundle executions.
   name: Porter ParameterSets API
   slug: porter-parametersets-api
-- baseURL: https://porter.sh
-  baseurl_source: declared
+- baseURL: http://localhost:3000
+  baseurl_source: spec
   description: Operations for querying the history of bundle action executions and their outputs.
   name: Porter Runs API
   slug: porter-runs-api
@@ -202,7 +202,7 @@ modified: '2026-05-19'
 name: Porter
 nav: Providers
 network: true
-overview: 'Porter publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Bundles API, CredentialSets API, Installations API, and 2 more. Tagged areas include Cloud-Native, CNAB, DevOps, Kubernetes, and Package Manager.
+overview: 'Porter publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Bundles API, CredentialSets API, Installations API, and 4 more. Tagged areas include Cloud-Native, CNAB, DevOps, Kubernetes, and Package Manager.
 
 
   The Porter catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -231,21 +231,21 @@ rules:
   slug: porter-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.5
+  composite: 42.4
   coverage:
     artifact_dirs: 14
-    catalog_earned: 53.3
+    catalog_earned: 47.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.8
+    catalog_gap: 67.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.1
   facets:
     access_clarity: 13.2
     contract_governance: 9.8
-    contract_quality: 63.4
+    contract_quality: 57.7
     developer_ergonomics: 45.2
-    discoverability: 59.3
+    discoverability: 48.2
     operational_transparency: 34.2
   open_source:
     applies: true
@@ -258,8 +258,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 16.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -46,7 +46,7 @@ agentic_access:
 api_count: 1
 apis:
 - baseURL: https://log10.io
-  baseurl_source: declared
+  baseurl_source: spec
   description: API for submitting human and automated feedback on LLM completions, defining feedback tasks with structured scales, and accessing AutoFeedback predictions via GraphQL using completion identifiers.
   name: Log10 Feedback API
   slug: log10-feedback-api
@@ -54,22 +54,22 @@ apis:
   name: Log10 Evaluation API
   slug: log10-evaluation-api
 - baseURL: https://log10.io
-  baseurl_source: declared
+  baseurl_source: spec
   description: Completions
   name: Log10 Completions API
   slug: log10-completions-api
 - baseURL: https://log10.io
-  baseurl_source: declared
+  baseurl_source: spec
   description: Feedback
   name: Log10 Feedback API
   slug: log10-feedback-api
 - baseURL: https://log10.io
-  baseurl_source: declared
+  baseurl_source: spec
   description: FeedbackTasks
   name: Log10 FeedbackTasks API
   slug: log10-feedbacktasks-api
 - baseURL: https://log10.io
-  baseurl_source: declared
+  baseurl_source: spec
   description: Sessions
   name: Log10 Sessions API
   slug: log10-sessions-api
@@ -232,7 +232,7 @@ modified: 2026-06-13
 name: Log10
 nav: Providers
 network: true
-overview: 'Log10 publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Feedback API, Completions API, and 3 more. Tagged areas include LLM, Logging, Observability, Evaluation, and Feedback.
+overview: 'Log10 publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Feedback API, Completions API, and 4 more. Tagged areas include LLM, Logging, Observability, Evaluation, and Feedback.
 
 
   The Log10 catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -260,23 +260,23 @@ rules:
     warn: 4
   slug: log10-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 40.7
+  band: thin
+  composite: 38.0
   coverage:
     artifact_dirs: 17
-    catalog_earned: 79.3
+    catalog_earned: 71.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 35.8
+    catalog_gap: 43.2
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.7
   facets:
-    access_clarity: 47.4
-    contract_governance: 25.0
-    contract_quality: 53.2
+    access_clarity: 44.2
+    contract_governance: 23.5
+    contract_quality: 48.7
     developer_ergonomics: 16.7
-    discoverability: 68.5
-    operational_transparency: 42.1
+    discoverability: 57.1
+    operational_transparency: 40.0
   previous_composite: 40.7
   provenance:
     agentic_access: derived
@@ -285,8 +285,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 20.0
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

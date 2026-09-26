@@ -32,67 +32,43 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.4
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
-- baseURL: https://johrh.com
-  baseurl_source: declared
-  description: The Account API from Johrh — 9 operation(s) for account.
+- description: The Account API from Johrh — 9 operation(s) for account.
   name: Johrh Account API
   slug: johrh-account-api
-- baseURL: https://johrh.com
-  baseurl_source: declared
-  description: The Auth API from Johrh — 4 operation(s) for auth.
+- description: The Auth API from Johrh — 4 operation(s) for auth.
   name: Johrh Auth API
   slug: johrh-auth-api
-- baseURL: https://johrh.com
-  baseurl_source: declared
-  description: The Categories API from Johrh — 3 operation(s) for categories.
+- description: The Categories API from Johrh — 3 operation(s) for categories.
   name: Johrh Categories API
   slug: johrh-categories-api
-- baseURL: https://johrh.com
-  baseurl_source: declared
-  description: The Checkout API from Johrh — 7 operation(s) for checkout.
+- description: The Checkout API from Johrh — 7 operation(s) for checkout.
   name: Johrh Checkout API
   slug: johrh-checkout-api
-- baseURL: https://johrh.com
-  baseurl_source: declared
-  description: The internal API from Johrh — 25 operation(s) for internal.
+- description: The internal API from Johrh — 25 operation(s) for internal.
   name: Johrh Internal API
   slug: johrh-internal-api
-- baseURL: https://johrh.com
-  baseurl_source: declared
-  description: The Metrics API from Johrh — 1 operation(s) for metrics.
+- description: The Metrics API from Johrh — 1 operation(s) for metrics.
   name: Johrh Metrics API
   slug: johrh-metrics-api
-- baseURL: https://johrh.com
-  baseurl_source: declared
-  description: The Orders API from Johrh — 6 operation(s) for orders.
+- description: The Orders API from Johrh — 6 operation(s) for orders.
   name: Johrh Orders API
   slug: johrh-orders-api
-- baseURL: https://johrh.com
-  baseurl_source: declared
-  description: The Payments API from Johrh — 19 operation(s) for payments.
+- description: The Payments API from Johrh — 19 operation(s) for payments.
   name: Johrh Payments API
   slug: johrh-payments-api
-- baseURL: https://johrh.com
-  baseurl_source: declared
-  description: The Products API from Johrh — 6 operation(s) for products.
+- description: The Products API from Johrh — 6 operation(s) for products.
   name: Johrh Products API
   slug: johrh-products-api
-- baseURL: https://johrh.com
-  baseurl_source: declared
-  description: The redirects API from Johrh — 30 operation(s) for redirects.
+- description: The redirects API from Johrh — 30 operation(s) for redirects.
   name: Johrh Redirects API
   slug: johrh-redirects-api
-- baseURL: https://johrh.com
-  baseurl_source: declared
-  description: The SSO API from Johrh — 3 operation(s) for sso.
+- description: The SSO API from Johrh — 3 operation(s) for sso.
   name: Johrh SSO API
   slug: johrh-sso-api
-- baseURL: https://johrh.com
-  baseurl_source: declared
-  description: The Storefront API from Johrh — 17 operation(s) for storefront.
+- description: The Storefront API from Johrh — 17 operation(s) for storefront.
   name: Johrh Storefront API
   slug: johrh-storefront-api
 artifact_total: 26
@@ -168,21 +144,21 @@ overview: Johrh publishes 12 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 11
 score:
   band: emerging
-  composite: 17.7
+  composite: 14.1
   coverage:
     artifact_dirs: 8
-    catalog_earned: 37.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 40.7
+    contract_quality: 36.6
     developer_ergonomics: 7.1
-    discoverability: 68.5
+    discoverability: 57.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -198,8 +174,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 5.9
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

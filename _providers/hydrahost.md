@@ -20,7 +20,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -31,8 +31,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.9
-  scored_at: '2026-09-24'
+  score: 0.7
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: 'The Brokkr REST API provisions, terminates, and manages Hydra Host GPU fleets programmatically across every data center and OEM hardware stack, and exposes real-time GPU inventory. Observed live: uri-'
@@ -151,11 +151,17 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 10.5
   previous_composite: 18.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 17.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

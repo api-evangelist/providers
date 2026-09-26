@@ -11,7 +11,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 10.1
-  scored_at: '2026-09-24'
+  score: 7.9
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - description: The GreyMatter API exposes select GreyMatter capabilities through a single GraphQL endpoint. All requests are HTTPS POSTs with JSON bodies authenticated by an X-API-KEY header; 58 queries and 95 mutat
@@ -186,7 +186,7 @@ modified: '2026-09-18'
 name: ReliaQuest
 nav: Providers
 network: true
-overview: 'ReliaQuest publishes 1 API on the [APIs.io](https://apis.io/) network: GreyMatter API. Tagged areas include Cybersecurity, Security Operations, Threat Detection, Incident Response, and Threat Intelligence.
+overview: 'ReliaQuest publishes 2 APIs on the [APIs.io](https://apis.io/) network, including GreyMatter API, and 1 more. Tagged areas include Cybersecurity, Security Operations, Threat Detection, Incident Response, and Threat Intelligence.
 
 
   ReliaQuest''s developer surface includes engineering blog, documentation, API reference, changelog, FAQ, pricing, support, and 24 more developer resources.'
@@ -201,21 +201,21 @@ rate_limits:
   slug: reliaquest-rate-limits
 score:
   band: thin
-  composite: 35.0
+  composite: 37.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.7
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
-    contract_quality: 6.7
+    contract_quality: 6.5
     developer_ergonomics: 49.4
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -227,8 +227,14 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 35.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

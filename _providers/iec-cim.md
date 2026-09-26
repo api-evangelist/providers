@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ modified: '2026-09-16'
 name: Iec Cim
 nav: Providers
 network: true
-overview: 'Iec Cim publishes 5 APIs on the [APIs.io](https://apis.io/) network, including iec-cim Customers API, iec-cim Metering API, iec-cim Network Assets API, and 2 more. Tagged areas include Energy, Utilities, and Metering.
+overview: 'Iec Cim publishes 7 APIs on the [APIs.io](https://apis.io/) network, including iec-cim Customers API, iec-cim Metering API, iec-cim Network Assets API, and 4 more. Tagged areas include Energy, Utilities, and Metering.
 
 
   The Iec Cim catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -178,7 +178,7 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: thin
-  composite: 35.6
+  composite: 32.3
   coverage:
     artifact_dirs: 13
     catalog_earned: 52.3
@@ -186,13 +186,13 @@ score:
     catalog_gap: 62.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.3
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
-    contract_quality: 60.5
+    contract_quality: 55.2
     developer_ergonomics: 28.6
-    discoverability: 53.7
+    discoverability: 51.8
     operational_transparency: 7.9
   previous_composite: 35.6
   provenance:
@@ -207,9 +207,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 45.9
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 27.9
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

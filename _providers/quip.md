@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 3
 apis:
 - description: REST API for programmatically managing Quip threads, documents, spreadsheets, messages, folders, and users. Supports OAuth 2.0 access tokens passed as a Bearer token in the Authorization header.
@@ -98,7 +98,7 @@ overview: 'Quip publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 7
 score:
   band: emerging
-  composite: 17.3
+  composite: 16.4
   coverage:
     artifact_dirs: 4
     catalog_earned: 40.0
@@ -106,17 +106,23 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 47.6
-    discoverability: 74.1
+    discoverability: 71.4
     operational_transparency: 2.6
   previous_composite: 17.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 11.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

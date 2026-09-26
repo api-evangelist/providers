@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 183
   human_in_the_loop: 4
@@ -586,7 +586,7 @@ modified: '2026-09-01'
 name: Al-Farabi Kazakh National University
 nav: Providers
 network: true
-overview: 'Al-Farabi Kazakh National University publishes 47 APIs on the [APIs.io](https://apis.io/) network, including Agreements API, Bookmarks API, Certificates API, and 44 more. Tagged areas include Education, Higher Education, University, Research, and Library.
+overview: 'Al-Farabi Kazakh National University publishes 51 APIs on the [APIs.io](https://apis.io/) network, including Agreements API, Bookmarks API, Certificates API, and 48 more. Tagged areas include Education, Higher Education, University, Research, and Library.
 
 
   The Al-Farabi Kazakh National University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -624,24 +624,24 @@ rules:
     warn: 3
   slug: al-farabi-kazakh-national-university-rules
 score:
-  band: developing
-  composite: 42.3
+  band: thin
+  composite: 38.9
   coverage:
     artifact_dirs: 18
-    catalog_earned: 61.3
+    catalog_earned: 59.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.8
+    catalog_gap: 55.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 37.4
     contract_governance: 9.8
-    contract_quality: 56.6
+    contract_quality: 51.9
     developer_ergonomics: 22.6
-    discoverability: 63.0
-    operational_transparency: 26.3
-  previous_composite: 42.3
+    discoverability: 60.7
+    operational_transparency: 24.2
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -655,9 +655,9 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 38.9
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 20.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

@@ -33,17 +33,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 3
 apis:
 - description: 'Modeled product-area API for client/patient records - the people a practice serves, their demographics, contact details, and intake information. endpointsModeled: true. Carepatron does not publish a d'
   name: Carepatron Clients API (Modeled)
+  provenance: unpublished
   slug: carepatron-clients-api
 - description: 'Modeled product-area API for clinical notes, forms, intakes, templates, and AI-assisted documentation (the AI scribe / note taker). endpointsModeled: true. Carepatron does not publish a developer API '
   name: Carepatron Notes and Documentation API (Modeled)
+  provenance: unpublished
   slug: carepatron-notes-api
 - description: 'Modeled product-area API for billing - invoices, payments, and insurance claim management. endpointsModeled: true. Carepatron does not publish a developer API for this surface; there is no documented '
   name: Carepatron Billing API (Modeled)
+  provenance: unpublished
   slug: carepatron-billing-api
 artifact_total: 6
 common:
@@ -101,21 +104,21 @@ plans:
 random_paper: 15
 score:
   band: emerging
-  composite: 18.0
+  composite: 17.3
   coverage:
     artifact_dirs: 4
-    catalog_earned: 47.0
+    catalog_earned: 45.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 68.0
+    catalog_gap: 69.2
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
-    access_clarity: 50.0
+    access_clarity: 46.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
-    discoverability: 64.8
+    discoverability: 62.5
     operational_transparency: 2.6
   previous_composite: 18.0
   regulatory:
@@ -123,9 +126,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 13.8
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 8.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

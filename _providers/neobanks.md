@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 4
 apis:
 - description: Digital banking platform offering accounts, payments, and financial services.
@@ -98,7 +98,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 71.4
     operational_transparency: 10.5
   previous_composite: 16.4
   regulatory:
@@ -106,9 +106,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 22.8
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 14.2
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

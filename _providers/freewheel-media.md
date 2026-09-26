@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 0
@@ -559,7 +559,7 @@ modified: '2026-08-12'
 name: FreeWheel Media
 nav: Providers
 network: true
-overview: 'FreeWheel Media publishes 65 APIs on the [APIs.io](https://apis.io/) network, including Account Alert API, Account API, Account Setting API, and 62 more. Tagged areas include Company, Advertising, AdTech, Streaming TV, and Video Advertising.
+overview: 'FreeWheel Media publishes 66 APIs on the [APIs.io](https://apis.io/) network, including Account Alert API, Account API, Account Setting API, and 63 more. Tagged areas include Company, Advertising, AdTech, Streaming TV, and Video Advertising.
 
 
   FreeWheel Media''s developer surface includes authentication, developer portal, support, engineering blog, documentation, API reference, getting-started guide, and 28 more developer resources.'
@@ -574,7 +574,7 @@ rate_limits:
   slug: freewheel-media-rate-limits
 score:
   band: developing
-  composite: 41.5
+  composite: 41.3
   coverage:
     artifact_dirs: 24
     catalog_earned: 45.0
@@ -582,13 +582,13 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 27.6
     contract_governance: 4.5
-    contract_quality: 53.5
+    contract_quality: 48.5
     developer_ergonomics: 44.6
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 39.5
   previous_composite: 41.5
   provenance:
@@ -601,8 +601,14 @@ score:
       total: 65
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 24.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

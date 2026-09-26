@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -401,7 +401,7 @@ modified: '2026-09-01'
 name: University of Waterloo
 nav: Providers
 network: true
-overview: 'University of Waterloo publishes 12 APIs on the [APIs.io](https://apis.io/) network, including AcademicOrganizations API, Account API, ClassSchedules API, and 9 more. Tagged areas include Education, Higher Education, University, Open Data, and Canada.
+overview: 'University of Waterloo publishes 20 APIs on the [APIs.io](https://apis.io/) network, including AcademicOrganizations API, Account API, ClassSchedules API, and 17 more. Tagged areas include Education, Higher Education, University, Open Data, and Canada.
 
 
   The University of Waterloo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -444,22 +444,22 @@ scopes:
   slug: university-of-waterloo-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 67.1
+  band: strong
+  composite: 60.4
   coverage:
     artifact_dirs: 22
-    catalog_earned: 74.3
+    catalog_earned: 72.4
     catalog_earned_first_party: 12.0
-    catalog_gap: 40.8
+    catalog_gap: 42.7
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.7
   facets:
-    access_clarity: 71.1
-    contract_governance: 25.0
-    contract_quality: 59.4
+    access_clarity: 68.9
+    contract_governance: 23.5
+    contract_quality: 54.5
     developer_ergonomics: 57.1
-    discoverability: 64.8
+    discoverability: 62.5
     operational_transparency: 71.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -482,10 +482,10 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 85.2
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: flat
+    score: 45.1
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

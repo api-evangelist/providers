@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -320,7 +320,7 @@ modified: '2026-07-19'
 name: Epignosis (TalentLMS, eFront, TalentCards)
 nav: Providers
 network: true
-overview: 'Epignosis (TalentLMS, eFront, TalentCards) publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Account API, Autologin API, Branch API, and 13 more. Tagged areas include Company, Education, Learning Management System, LMS, and Training.
+overview: 'Epignosis (TalentLMS, eFront, TalentCards) publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Account API, Autologin API, Branch API, and 14 more. Tagged areas include Company, Education, Learning Management System, LMS, and Training.
 
 
   Epignosis (TalentLMS, eFront, TalentCards)''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 22 more developer resources.'
@@ -331,7 +331,7 @@ rate_limits:
   slug: epignosis-talentlms-efront-talentcards-talentlms-rate-limits
 score:
   band: developing
-  composite: 52.7
+  composite: 47.7
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -339,13 +339,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.0
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 54.9
+    contract_quality: 49.4
     developer_ergonomics: 41.1
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 28.9
   previous_composite: 52.7
   provenance:
@@ -363,10 +363,10 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 66.7
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: flat
+    score: 35.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

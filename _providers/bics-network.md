@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 7
@@ -45,9 +45,11 @@ api_count: 8
 apis:
 - description: Phone number verification and mobile authentication for anti-fraud, KYC and onboarding - validating that a mobile number is real, active, and controlled by the user, including OTP-based flows. Markete
   name: BICS Number Verification API
+  provenance: modeled
   slug: bics-number-verification-api
 - description: Network-signal services for fraud prevention and mobile identity - HLR and reachability lookup (operator, ported status, active/blocked SIM state), SIM-swap detection, and device-location signals used
   name: BICS Fraud Prevention and Reachability API
+  provenance: modeled
   slug: bics-fraud-prevention-reachability-api
 - baseURL: https://api.bics.com/sms/v3
   baseurl_source: declared
@@ -285,7 +287,7 @@ modified: '2026-07-11'
 name: BICS
 nav: Providers
 network: true
-overview: 'BICS publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Address Management API, CDR API, Connections Management API, and 19 more. Tagged areas include Number Verification, Telecommunications, Mobile Identity, Anti-Fraud, and Device Location.
+overview: 'BICS publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Address Management API, CDR API, Connections Management API, and 21 more. Tagged areas include Number Verification, Telecommunications, Mobile Identity, Fraud Prevention, and Device Location.
 
 
   BICS''s developer surface includes authentication, documentation, and 7 more developer resources.'
@@ -300,7 +302,7 @@ rate_limits:
   slug: bics-network-rate-limits
 score:
   band: emerging
-  composite: 23.9
+  composite: 23.3
   coverage:
     artifact_dirs: 10
     catalog_earned: 38.0
@@ -308,13 +310,13 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 53.0
+    contract_quality: 47.8
     developer_ergonomics: 21.4
-    discoverability: 64.8
+    discoverability: 62.5
     operational_transparency: 0.0
   previous_composite: 23.9
   provenance:
@@ -329,9 +331,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 8.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 5.0
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true
@@ -347,13 +349,12 @@ tags:
 - Number Verification
 - Telecommunications
 - Mobile Identity
-- Anti-Fraud
+- Fraud Prevention
 - Device Location
 - OTP
 - SMS
 - Numbering
 - Number Portability
-- Fraud Prevention
 - Carrier
 - CPaaS
 website: https://www.bics.com/

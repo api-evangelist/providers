@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: unknown
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: negotiable
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.3
-  scored_at: '2026-09-24'
+  score: 39.9
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -1445,7 +1445,7 @@ modified: '2026-06-20'
 name: ServiceNow
 nav: Providers
 network: true
-overview: 'ServiceNow publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Event Management Topic Open API, Aggregate Statistics API, Attachments API, and 13 more. Tagged areas include ServiceNow, Automation, Cloud Services, Digital Workflows, and Enterprise Platform.
+overview: 'ServiceNow publishes 63 APIs on the [APIs.io](https://apis.io/) network, including Event Management Topic Open API, Aggregate Statistics API, Attachments API, and 60 more. Tagged areas include ServiceNow, Automation, Cloud Services, Digital Workflows, and Enterprise Platform.
 
 
   The ServiceNow catalog on APIs.io includes 1 event-driven AsyncAPI specification, 10 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -1501,21 +1501,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 62.5
+  composite: 64.3
   coverage:
-    artifact_dirs: 36
-    catalog_earned: 59.5
+    artifact_dirs: 37
+    catalog_earned: 59.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.5
+    catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.8
   facets:
     access_clarity: 65.8
-    contract_governance: 33.3
-    contract_quality: 66.3
-    developer_ergonomics: 86.9
-    discoverability: 66.7
+    contract_governance: 31.8
+    contract_quality: 61.5
+    developer_ergonomics: 86.2
+    discoverability: 64.3
     operational_transparency: 42.1
   previous_composite: 62.5
   provenance:
@@ -1527,8 +1527,14 @@ score:
       marker_coverage: 0.0
       total: 15
     mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 39.2
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

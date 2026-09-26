@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 5
 apis:
 - description: Authenticated royalty statement portal for UMG-distributed artists and labels. Provides login-gated access to royalty statements, statement history, and supporting documentation. The portal is deliver
@@ -40,6 +40,7 @@ apis:
   slug: umg-royalty-portal
 - description: Universal Music Publishing Group's songwriter and client royalty portal, providing real-time access to earnings, statements, registrations, and catalog data for UMPG-signed songwriters and publisher a
   name: UMPG Window
+  provenance: unpublished
   slug: umpg-window
 - description: Bravado is UMG's global merchandise and brand-management division, operating direct-to-consumer artist merchandise storefronts and tour merchandise for UMG's roster. Each artist store is delivered via
   name: Bravado Merchandise Storefronts
@@ -199,7 +200,7 @@ overview: 'Universal Music Group publishes 5 APIs on the [APIs.io](https://apis.
 random_paper: 21
 score:
   band: emerging
-  composite: 14.4
+  composite: 12.7
   coverage:
     artifact_dirs: 4
     catalog_earned: 40.0
@@ -207,13 +208,13 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.7
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 74.1
+    discoverability: 72.3
     operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -221,8 +222,14 @@ score:
     - netherlands
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
   previous_composite: 14.4
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 5.9
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

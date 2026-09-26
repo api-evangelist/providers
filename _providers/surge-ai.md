@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -232,7 +232,7 @@ modified: '2026-05-23'
 name: Surge AI
 nav: Providers
 network: true
-overview: 'Surge AI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Projects API, Tasks API, and Teams API. Tagged areas include Human Data, RLHF, SFT, Rubrics, and Verifiers.
+overview: 'Surge AI publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Projects API, Tasks API, Teams API, and 11 more. Tagged areas include Human Data, RLHF, SFT, Rubrics, and Verifiers.
 
 
   Surge AI''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, developer console, engineering blog, and 12 more developer resources.'
@@ -247,22 +247,22 @@ rate_limits:
   slug: surge-ai-rate-limits
 score:
   band: thin
-  composite: 37.0
+  composite: 34.5
   coverage:
     artifact_dirs: 11
-    catalog_earned: 51.0
+    catalog_earned: 49.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.0
+    catalog_gap: 65.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.5
   facets:
-    access_clarity: 42.1
+    access_clarity: 40.0
     contract_governance: 0.0
-    contract_quality: 50.3
+    contract_quality: 45.3
     developer_ergonomics: 59.5
-    discoverability: 59.3
-    operational_transparency: 23.7
+    discoverability: 57.1
+    operational_transparency: 21.6
   open_source:
     applies: true
     score: 0.0
@@ -274,8 +274,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 11.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

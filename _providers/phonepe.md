@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -184,7 +184,7 @@ modified: '2026-05-23'
 name: PhonePe
 nav: Providers
 network: true
-overview: 'PhonePe publishes 3 APIs on the [APIs.io](https://apis.io/) network: Checkout API, Order Status API, and Refunds API. Tagged areas include Payments, Payment Gateway, UPI, QR, and EDC.
+overview: 'PhonePe publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Checkout API, Order Status API, Refunds API, and 18 more. Tagged areas include Payments, Payment Gateway, UPI, QR, and EDC.
 
 
   PhonePe''s developer surface includes authentication, documentation, GitHub presence, and 6 more developer resources.'
@@ -199,22 +199,22 @@ rate_limits:
   slug: phonepe-rate-limits
 score:
   band: thin
-  composite: 32.5
+  composite: 30.3
   coverage:
     artifact_dirs: 10
-    catalog_earned: 53.0
+    catalog_earned: 51.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.0
+    catalog_gap: 63.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.2
   facets:
-    access_clarity: 28.9
+    access_clarity: 26.8
     contract_governance: 0.0
-    contract_quality: 56.2
+    contract_quality: 50.6
     developer_ergonomics: 21.4
-    discoverability: 63.0
-    operational_transparency: 26.3
+    discoverability: 60.7
+    operational_transparency: 24.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -235,9 +235,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 28.1
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 16.1
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

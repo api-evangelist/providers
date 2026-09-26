@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.6
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -491,7 +491,7 @@ modified: '2026-05-23'
 name: CDK Global
 nav: Providers
 network: true
-overview: 'CDK Global publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Fortellis Event Relay Data Plane Proxy (AsyncAPI), Fortellis AsyncAPI Hello World Reference, Adopt API, and 9 more. Tagged areas include Automotive, Dealer Management, DMS, Auto Retail, and F&I.
+overview: 'CDK Global publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Fortellis Event Relay Data Plane Proxy (AsyncAPI), Fortellis AsyncAPI Hello World Reference, Adopt API, and 10 more. Tagged areas include Automotive, Dealer Management, DMS, Auto Retail, and F&I.
 
 
   The CDK Global catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -547,22 +547,22 @@ scopes:
   summary_line: 3 scopes · implicit
 score:
   band: developing
-  composite: 48.3
+  composite: 47.4
   coverage:
     artifact_dirs: 21
-    catalog_earned: 76.5
+    catalog_earned: 73.6
     catalog_earned_first_party: 0.0
-    catalog_gap: 38.5
+    catalog_gap: 41.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
-    access_clarity: 52.6
-    contract_governance: 28.8
-    contract_quality: 65.0
+    access_clarity: 49.5
+    contract_governance: 27.3
+    contract_quality: 60.5
     developer_ergonomics: 39.3
-    discoverability: 64.8
-    operational_transparency: 34.2
+    discoverability: 62.5
+    operational_transparency: 31.1
   previous_composite: 48.3
   provenance:
     agentic_access: derived
@@ -571,8 +571,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 26.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

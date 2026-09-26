@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -230,7 +230,7 @@ modified: '2026-09-16'
 name: Mattermark
 nav: Providers
 network: true
-overview: 'Mattermark publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Complex Queries API, Funding Events API, and 3 more. Tagged areas include Company, Business Intelligence, Company Data, Investor, and Funding.
+overview: 'Mattermark publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Complex Queries API, Funding Events API, and 4 more. Tagged areas include Company, Business Intelligence, Company Data, Investor, and Funding.
 
 
   Mattermark''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, authentication, changelog, and 23 more developer resources.'
@@ -257,9 +257,9 @@ score:
   facets:
     access_clarity: 63.2
     contract_governance: 4.5
-    contract_quality: 56.9
+    contract_quality: 52.4
     developer_ergonomics: 51.8
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 18.4
   previous_composite: 47.0
   provenance:
@@ -272,8 +272,14 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 24.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

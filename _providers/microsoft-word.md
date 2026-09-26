@@ -23,7 +23,7 @@ agent_readiness:
     delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: verified
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.5
-  scored_at: '2026-09-24'
+  score: 41.4
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -654,7 +654,7 @@ modified: '2026-06-20'
 name: Microsoft Word
 nav: Providers
 network: true
-overview: 'Microsoft Word publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Body API, Checkout API, Comments API, and 15 more. Tagged areas include Documents, Microsoft 365, Office, Productivity, and Word Processing.
+overview: 'Microsoft Word publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Body API, Checkout API, Comments API, and 18 more. Tagged areas include Documents, Microsoft 365, Office, Productivity, and Word Processing.
 
 
   The Microsoft Word catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -699,21 +699,21 @@ scopes:
   summary_line: 8 scopes · authorizationCode
 score:
   band: strong
-  composite: 58.5
+  composite: 62.7
   coverage:
     artifact_dirs: 33
-    catalog_earned: 66.5
+    catalog_earned: 65.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.5
+    catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.2
   facets:
     access_clarity: 57.9
-    contract_governance: 33.3
-    contract_quality: 33.9
+    contract_governance: 31.8
+    contract_quality: 33.2
     developer_ergonomics: 89.3
-    discoverability: 57.4
+    discoverability: 58.3
     operational_transparency: 44.7
   open_source:
     applies: true
@@ -728,8 +728,14 @@ score:
       marker_coverage: 100.0
       total: 21
     mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 45.1
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

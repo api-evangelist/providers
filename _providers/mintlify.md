@@ -15,7 +15,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: unknown
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -28,14 +28,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.0
-  scored_at: '2026-09-24'
+  score: 35.3
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -101,6 +101,11 @@ collections:
   name: Mintlify API
   slug: open-mintlify
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/vendor-facets/mintlify-vendor-facets.yml
+  title: ''
+  type: VendorFacets
+  url: vendor-facets/mintlify-vendor-facets.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -281,13 +286,13 @@ modified: '2026-05-30'
 name: Mintlify
 nav: Providers
 network: true
-overview: 'Mintlify publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Analytics API, Assistant API, and 1 more. Tagged areas include Documentation, API Documentation, Developer Portal, Artificial Intelligence, and MCP.
+overview: 'Mintlify publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Analytics API, Assistant API, and 2 more. Tagged areas include Documentation, API Documentation, Developer Portal, Artificial Intelligence, and MCP.
 
 
   The Mintlify catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Mintlify''s developer surface includes authentication, engineering blog, pricing, documentation, changelog, signup flow, getting-started guide, and 28 more developer resources.'
+  Mintlify''s developer surface includes authentication, engineering blog, pricing, documentation, changelog, signup flow, getting-started guide, and 29 more developer resources.'
 plans:
 - name: Mintlify Plans Pricing
   plan_count: 4
@@ -310,23 +315,23 @@ rules:
   slug: mintlify-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.0
+  composite: 50.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 44.3
     catalog_earned_first_party: 0.0
     catalog_gap: 70.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.9
+  delta: 0.5
   facets:
     access_clarity: 68.4
     contract_governance: 9.8
-    contract_quality: 49.0
-    developer_ergonomics: 48.8
+    contract_quality: 44.1
+    developer_ergonomics: 48.1
     discoverability: 66.7
     operational_transparency: 55.3
-  previous_composite: 49.1
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     contracts:
@@ -335,8 +340,14 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 28.2
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true
@@ -366,5 +377,6 @@ tags:
 - Developer Portal
 - Artificial Intelligence
 - MCP
+- OpenAPI
 website: https://www.mintlify.com/
 ---

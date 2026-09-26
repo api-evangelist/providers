@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: A live, unauthenticated Model Context Protocol endpoint served from the neurophos.com host and advertised in the company's own llms.txt. It is provided by the Wix site platform rather than authored by
@@ -108,7 +108,7 @@ modified: '2026-08-04'
 name: Neurophos
 nav: Providers
 network: true
-overview: 'Neurophos publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Photonics, Optical Computing, AI Inference, and AI Accelerators.
+overview: 'Neurophos publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Photonics, Optical Computing, Inference, and AI Accelerators.
 
 
   Neurophos'' developer surface includes authentication, product news, and 10 more developer resources.'
@@ -129,14 +129,20 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 75.9
+    discoverability: 75.8
     operational_transparency: 2.6
   previous_composite: 10.8
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 15.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false
@@ -157,7 +163,7 @@ tags:
 - Company
 - Photonics
 - Optical Computing
-- AI Inference
+- Inference
 - AI Accelerators
 - Semiconductors
 - Metamaterials

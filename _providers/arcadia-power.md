@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -352,7 +352,7 @@ modified: '2026-05-25'
 name: Arcadia
 nav: Providers
 network: true
-overview: 'Arcadia publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Credentials API, Files API, and 8 more. Tagged areas include Energy, Clean Energy, Utility Data, Climate, and Sustainability.
+overview: 'Arcadia publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Credentials API, Files API, and 12 more. Tagged areas include Energy, Clean Energy, Utility Data, Climate, and Sustainability.
 
 
   The Arcadia catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -381,22 +381,22 @@ rules:
   slug: arcadia-power-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.5
+  composite: 47.6
   coverage:
     artifact_dirs: 15
-    catalog_earned: 80.3
+    catalog_earned: 76.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 34.8
+    catalog_gap: 38.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 57.4
     contract_governance: 9.8
-    contract_quality: 62.6
+    contract_quality: 56.9
     developer_ergonomics: 40.5
-    discoverability: 59.3
-    operational_transparency: 50.0
+    discoverability: 58.0
+    operational_transparency: 46.8
   previous_composite: 51.5
   provenance:
     agentic_access: derived
@@ -410,9 +410,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 37.8
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 23.0
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -334,7 +334,7 @@ modified: '2026-07-25'
 name: Optus
 nav: Providers
 network: true
-overview: 'Optus publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Delete Multiple Lists API, Documentation API, Lists API, and 6 more. Tagged areas include Telecommunications, Australia, Mobile Network Operator, Messaging, and SMS.
+overview: 'Optus publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Delete Multiple Lists API, Documentation API, Lists API, and 12 more. Tagged areas include Telecommunications, Australia, Mobile Network Operator, Messaging, and SMS.
 
 
   The Optus catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -344,7 +344,7 @@ overview: 'Optus publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 21
 score:
   band: developing
-  composite: 53.9
+  composite: 50.1
   coverage:
     artifact_dirs: 21
     catalog_earned: 35.0
@@ -352,13 +352,13 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -3.8
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
-    contract_quality: 57.1
+    contract_quality: 52.2
     developer_ergonomics: 56.5
-    discoverability: 64.8
+    discoverability: 62.5
     operational_transparency: 57.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -367,7 +367,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 53.8
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -383,9 +383,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 62.5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 37.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

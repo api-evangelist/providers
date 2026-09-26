@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.6
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: Ethereum-compatible JSON-RPC 2.0 API served by SKALE Chains (per-chain RPC/WSS endpoints), plus SKALE Programmable Privacy methods (bite_getDecryptedTransactionData, bite_getCommitteesInfo).
@@ -159,7 +159,7 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 78.6
-    discoverability: 75.9
+    discoverability: 71.7
     operational_transparency: 18.4
   previous_composite: 26.9
   provenance:
@@ -171,9 +171,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 22.7
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 12.9
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

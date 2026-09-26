@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 0
 artifact_total: 1
 common:
@@ -116,7 +116,7 @@ modified: '2026-08-04'
 name: HistoSonics
 nav: Providers
 network: true
-overview: 'HistoSonics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Health Technology, and Oncology.
+overview: 'HistoSonics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Health Tech, and Oncology.
 
 
   HistoSonics'' developer surface includes product news and 16 more developer resources.'
@@ -145,9 +145,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 17.5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 10.9
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false
@@ -164,7 +164,7 @@ tags:
 - Company
 - Medical Devices
 - Healthcare
-- Health Technology
+- Health Tech
 - Oncology
 - Focused Ultrasound
 - Surgical Robotics

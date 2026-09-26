@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: unknown
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 62.6
-  scored_at: '2026-09-24'
+  score: 62.2
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 1717
   human_in_the_loop: 47
@@ -2151,6 +2151,11 @@ collections:
   name: GitHub Repos API
   slug: open-temp
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/vendor-facets/github-vendor-facets.yml
+  title: ''
+  type: VendorFacets
+  url: vendor-facets/github-vendor-facets.yml
 - group: operate
   href: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/rate-limits/github-rate-limits.yml
   title: ''
@@ -4851,13 +4856,13 @@ modified: '2026-09-16'
 name: GitHub
 nav: Providers
 network: true
-overview: 'GitHub publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Gists API, Issues API, Licenses API, and 32 more. Tagged areas include Code, Developer Tools, Pipelines, Platform, and Software Development.
+overview: 'GitHub publishes 56 APIs on the [APIs.io](https://apis.io/) network, including Gists API, Issues API, Licenses API, and 53 more. Tagged areas include Code, Developer Tools, Pipelines, Platform, and Software Development.
 
 
   The GitHub catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  GitHub''s developer surface includes pricing, authentication, documentation, CLI, support, getting-started guide, engineering blog, and 66 more developer resources.'
+  GitHub''s developer surface includes pricing, authentication, documentation, CLI, support, getting-started guide, engineering blog, and 67 more developer resources.'
 plans:
 - name: Github Plans Pricing
   plan_count: 6
@@ -4906,7 +4911,7 @@ score:
   band: exemplar
   composite: 77.2
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 29
     catalog_earned: 74.5
     catalog_earned_first_party: 24.0
     catalog_gap: 40.5
@@ -4916,8 +4921,8 @@ score:
   facets:
     access_clarity: 84.2
     contract_governance: 13.6
-    contract_quality: 74.7
-    developer_ergonomics: 79.8
+    contract_quality: 70.2
+    developer_ergonomics: 79.0
     discoverability: 66.7
     operational_transparency: 92.1
   previous_composite: 77.2
@@ -4929,8 +4934,14 @@ score:
       marker_coverage: 0.0
       total: 35
     mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 24.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

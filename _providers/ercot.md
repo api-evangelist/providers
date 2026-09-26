@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.2
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: Energy Storage Resource public data, launched May 29, 2025 per the ERCOT Public Data API release notes, beginning with four-second ESR charging MW telemetry (GET /rptesr-m/4_sec_esr_charging_mw). Docu
@@ -428,7 +428,7 @@ modified: '2026-07-27'
 name: ERCOT
 nav: Providers
 network: true
-overview: 'ERCOT publishes 37 APIs on the [APIs.io](https://apis.io/) network, including EMIL Products API, NP3 233 CD API, NP3 565 CD API, and 34 more. Tagged areas include Energy, United States, Electricity, Energy Markets, and Grid.
+overview: 'ERCOT publishes 41 APIs on the [APIs.io](https://apis.io/) network, including EMIL Products API, NP3 233 CD API, NP3 565 CD API, and 38 more. Tagged areas include Energy, United States, Electricity, Energy Markets, and Grid.
 
 
   The ERCOT catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -447,7 +447,7 @@ scopes:
   summary_line: 3 scopes · password
 score:
   band: developing
-  composite: 53.7
+  composite: 49.1
   coverage:
     artifact_dirs: 22
     catalog_earned: 35.0
@@ -455,13 +455,13 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.6
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 59.4
+    contract_quality: 54.3
     developer_ergonomics: 56.5
-    discoverability: 57.4
+    discoverability: 55.4
     operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -485,9 +485,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 67.6
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 41.0
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

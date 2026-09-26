@@ -23,7 +23,7 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.6
-  scored_at: '2026-09-24'
+  score: 31.5
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -416,7 +416,7 @@ modified: '2026-08-02'
 name: 1KOMMA5°
 nav: Providers
 network: true
-overview: '1KOMMA5° publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Admin - Audit Logs API, Admin - Branches API, Admin - Concepts API, and 24 more. Tagged areas include Company, Energy, Solar, Renewable Energy, and Smart Home.
+overview: '1KOMMA5° publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Admin - Audit Logs API, Admin - Branches API, Admin - Concepts API, and 25 more. Tagged areas include Company, Energy, Solar, Renewable Energy, and Smart Home.
 
 
   1KOMMA5°''s developer surface includes support, engineering blog, authentication, and 26 more developer resources.'
@@ -428,7 +428,7 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: thin
-  composite: 33.1
+  composite: 29.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -436,13 +436,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.1
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 39.3
+    contract_quality: 35.5
     developer_ergonomics: 20.8
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -468,9 +468,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 64.9
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 39.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

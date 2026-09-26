@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 3
 apis:
 - description: The ForeignAssistance.gov Data API (OAS 3.0) is the U.S. government's flagship source for foreign assistance budgetary and financial data. It exposes spending, obligations, and disbursements across al
@@ -111,7 +111,7 @@ modified: '2026-06-13'
 name: USAID
 nav: Providers
 network: true
-overview: 'USAID publishes 1 API on the [APIs.io](https://apis.io/) network: ForeignAssistance.gov Data API. Tagged areas include Foreign Assistance, International Development, Aid Data, Development Finance, and Global Datasets.
+overview: 'USAID publishes 3 APIs on the [APIs.io](https://apis.io/) network, including ForeignAssistance.gov Data API, and 2 more. Tagged areas include Foreign Assistance, International Development, Aid Data, Development Finance, and Global Datasets.
 
 
   USAID''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -125,32 +125,32 @@ rate_limits:
   name: Usaid Rate Limits
   slug: usaid-rate-limits
 score:
-  band: thin
-  composite: 27.0
+  band: emerging
+  composite: 25.8
   coverage:
     artifact_dirs: 8
-    catalog_earned: 63.0
+    catalog_earned: 61.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.2
   facets:
-    access_clarity: 28.9
+    access_clarity: 26.8
     contract_governance: 0.0
-    contract_quality: 26.7
+    contract_quality: 24.0
     developer_ergonomics: 9.5
-    discoverability: 74.1
-    operational_transparency: 52.6
+    discoverability: 71.4
+    operational_transparency: 49.5
   previous_composite: 27.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 11.1
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 5.9
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 3
 apis:
 - description: The University of Tokyo operates three SAML 2.0 entities registered in GakuNin, Japan's academic access federation — two Shibboleth Identity Providers (the central UTokyo IdP at gidp.adm.u-tokyo.ac.jp
@@ -267,7 +267,7 @@ modified: '2026-08-19'
 name: University of Tokyo
 nav: Providers
 network: true
-overview: 'University of Tokyo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Iiif API, Items API, Oai Pmh API, and 2 more. Tagged areas include University, Higher Education, Education, Japan, and Public Research University.
+overview: 'University of Tokyo publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Iiif API, Items API, Oai Pmh API, and 3 more. Tagged areas include University, Higher Education, Education, Japan, and Public Research University.
 
 
   The University of Tokyo catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -301,21 +301,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.6
+  composite: 45.3
   coverage:
     artifact_dirs: 18
-    catalog_earned: 78.3
+    catalog_earned: 77.7
     catalog_earned_first_party: 20.0
-    catalog_gap: 36.8
+    catalog_gap: 37.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.9
   facets:
     access_clarity: 44.7
     contract_governance: 22.0
-    contract_quality: 58.9
+    contract_quality: 54.4
     developer_ergonomics: 32.1
-    discoverability: 74.1
+    discoverability: 71.4
     operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -324,7 +324,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 49.6
+  previous_composite: 49.2
   provenance:
     conformance: first-party
     contracts:
@@ -337,9 +337,9 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 61.1
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 32.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

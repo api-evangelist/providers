@@ -33,23 +33,28 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 5
 apis:
 - description: 'Programmatic access to an organization''s media catalog - sermons, series, podcasts, blogs, and announcements - for syncing content into external sites, AI/search pipelines, and custom apps. Endpoints '
   name: Subsplash Media Library API
+  provenance: modeled
   slug: subsplash-media-library-api
 - description: Sync online giving and donation records from Subsplash Giving into accounting, CRM, and church-management systems - donations, donors, funds, and recurring gifts. Endpoints are modeled; access require
   name: Subsplash Giving API
+  provenance: modeled
   slug: subsplash-giving-api
 - description: People Sync surface for unifying member and contact records across systems, plus Single Sign-On (SSO) user provisioning. Modeled from Subsplash's enterprise integration material (People Sync, SSO); th
   name: Subsplash People API
+  provenance: modeled
   slug: subsplash-people-api
 - description: Manage groups, group membership, and messaging, and trigger push notifications and in-app messages through Subsplash's communications engine. Endpoints are modeled from public product material; access
   name: Subsplash Groups and Messaging API
+  provenance: modeled
   slug: subsplash-groups-messaging-api
 - description: Manage events, event registrations, and event payments for syncing sign-ups and transactions into external systems. Endpoints are modeled; the documented reference is released only after the developer
   name: Subsplash Events API
+  provenance: modeled
   slug: subsplash-events-api
 artifact_total: 8
 common:
@@ -111,25 +116,31 @@ plans:
 random_paper: 13
 score:
   band: emerging
-  composite: 17.2
+  composite: 15.7
   coverage:
     artifact_dirs: 5
-    catalog_earned: 52.0
+    catalog_earned: 50.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.0
+    catalog_gap: 64.2
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 44.7
+    access_clarity: 41.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 74.1
+    discoverability: 71.4
     operational_transparency: 2.6
   previous_composite: 17.2
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 11.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

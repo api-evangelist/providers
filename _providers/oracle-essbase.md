@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -505,7 +505,7 @@ modified: '2026-08-21'
 name: Oracle Essbase
 nav: Providers
 network: true
-overview: 'Oracle Essbase publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Application Configuration API, Applications API, Connections API, and 16 more. Tagged areas include Analytics, Budgeting, Business Intelligence, Financial Consolidation, and Multi-Dimensional Database.
+overview: 'Oracle Essbase publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Application Configuration API, Applications API, Connections API, and 20 more. Tagged areas include Analytics, Budgeting, Business Intelligence, Financial Consolidation, and Multi-Dimensional Database.
 
 
   The Oracle Essbase catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -534,21 +534,21 @@ rules:
   slug: oracle-essbase-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.4
+  composite: 49.1
   coverage:
     artifact_dirs: 18
-    catalog_earned: 57.3
+    catalog_earned: 56.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.8
+    catalog_gap: 58.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 40.8
     contract_governance: 9.8
-    contract_quality: 70.1
+    contract_quality: 64.0
     developer_ergonomics: 58.3
-    discoverability: 53.7
+    discoverability: 51.8
     operational_transparency: 39.5
   previous_composite: 49.4
   provenance:
@@ -558,8 +558,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 24.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

@@ -11,7 +11,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: documented
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.8
-  scored_at: '2026-09-24'
+  score: 35.6
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -34,7 +34,7 @@ agentic_access:
 api_count: 1
 apis:
 - baseURL: https://policycheck.tools
-  baseurl_source: declared
+  baseurl_source: spec
   description: Anonymous JSON REST API on policycheck.tools. The provider-published OpenAPI (verbatim in openapi/) describes two live legacy ChatGPT-plugin operations, analyzeLegalDocument (POST /api/chatgpt/analyze
   name: PolicyCheck API
   slug: policycheck-api
@@ -219,7 +219,7 @@ modified: '2026-09-19'
 name: PolicyCheck
 nav: Providers
 network: true
-overview: 'PolicyCheck publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Policy Analysis, Consumer Protection, E-Commerce, and Agentic Commerce.
+overview: 'PolicyCheck publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Policy Analysis, Consumer Protection, E-Commerce, and Agentic Commerce.
 
 
   PolicyCheck''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, authentication, and 27 more developer resources.'
@@ -234,21 +234,21 @@ rate_limits:
   slug: policycheck-tools-rate-limits
 score:
   band: developing
-  composite: 47.4
+  composite: 44.7
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 53.0
+    artifact_dirs: 21
+    catalog_earned: 48.0
     catalog_earned_first_party: 16.0
-    catalog_gap: 62.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.7
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
-    contract_quality: 46.9
+    contract_quality: 42.2
     developer_ergonomics: 49.4
-    discoverability: 75.9
+    discoverability: 63.3
     operational_transparency: 26.3
   previous_composite: 47.4
   provenance:
@@ -263,12 +263,12 @@ score:
     skills: derived
   regulatory:
     applies: true
-    matched_via: tags
-    regime: Insurance
-    regime_id: insurance
-    score: 45.5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 32.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

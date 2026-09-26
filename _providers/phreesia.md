@@ -32,23 +32,28 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 5
 apis:
 - description: Digital intake, consent, and clinical questionnaire capture - logic-driven interviews customized per patient and delivered as mobile intake in 20+ languages. Completed intake, consent, and patient-rep
   name: Phreesia Intake & Forms API
+  provenance: modeled
   slug: phreesia-intake-forms-api
 - description: Bidirectional patient registration and demographic data exchange - verify and update patient identity, contact, and demographic fields and write them back to the EHR/PM system of record. Modeled on HL
   name: Phreesia Registration & Demographics API
+  provenance: modeled
   slug: phreesia-registration-demographics-api
 - description: Appointment scheduling, reminders, and contactless mobile/kiosk check-in, driving arrival status back into the practice management system. Modeled on HL7v2 SIU and FHIR Appointment/Schedule/Slot flows
   name: Phreesia Scheduling & Appointments API
+  provenance: modeled
   slug: phreesia-scheduling-appointments-api
 - description: Real-time insurance eligibility and benefits verification at or before check-in, returning coverage, copay, and patient-responsibility estimates. Modeled on X12 270/271 eligibility and FHIR Coverage/C
   name: Phreesia Insurance Eligibility Verification API
+  provenance: modeled
   slug: phreesia-eligibility-verification-api
 - description: Patient payments, card-on-file, copay collection, and payment plans, with real-time payment posting back to the PM/billing system. Endpoints are modeled from published product capability; Phreesia doe
   name: Phreesia Payments API
+  provenance: modeled
   slug: phreesia-payments-api
 artifact_total: 7
 common:
@@ -112,7 +117,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
-    discoverability: 64.8
+    discoverability: 62.5
     operational_transparency: 0.0
   previous_composite: 9.2
   regulatory:
@@ -120,9 +125,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 13.8
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 8.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

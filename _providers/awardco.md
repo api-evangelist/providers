@@ -26,27 +26,31 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 13.7
-  scored_at: '2026-09-24'
+  score: 17.3
+  scored_at: '2026-09-25'
 api_count: 4
 apis:
 - description: Provision and manage employees in an Awardco instance. Awardco's public documentation names Create User, Import Users (bulk), and Reset User Password endpoints, all flagged as sensitive and permission
   name: Awardco Users API
+  provenance: modeled
   slug: awardco-users-api
 - description: Programmatically recognize employees and issue recognition tied to an organization's programs and values. Awardco documents that API keys with the appropriate permission can recognize employees; the e
   name: Awardco Recognition API
+  provenance: modeled
   slug: awardco-recognition-api
 - description: Award, adjust, and reconcile employee point balances that fund redemptions in Awardco's rewards marketplace (Amazon Business, gift cards, swag, and service awards). Awarding and adjusting points are d
   name: Awardco Points and Awards API
+  provenance: modeled
   slug: awardco-points-api
 - description: Retrieve reporting data and program activity over REST. Awardco documents that reporting templates can be exported to CSV or scheduled to send via its REST API, and that API keys can retrieve reports.
   name: Awardco Reporting API
+  provenance: modeled
   slug: awardco-reporting-api
 artifact_total: 8
 common:
@@ -118,27 +122,33 @@ rate_limits:
   slug: awardco-rate-limits
 score:
   band: emerging
-  composite: 18.9
+  composite: 17.1
   coverage:
     artifact_dirs: 8
-    catalog_earned: 55.0
+    catalog_earned: 53.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.0
+    catalog_gap: 61.2
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.8
   facets:
-    access_clarity: 39.5
+    access_clarity: 36.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 17.9
-    discoverability: 74.1
+    discoverability: 73.3
     operational_transparency: 0.0
   previous_composite: 18.9
   provenance:
     mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: weak_tags
+    regime: Employment & Payroll
+    regime_id: employment_payroll
+    score: 11.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false
@@ -158,5 +168,6 @@ tags:
 - Human Resources
 - Incentives
 - Points
+- Loyalty & Incentives
 website: https://www.awardco.com
 ---

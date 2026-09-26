@@ -11,7 +11,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: verified
     mcp_server: documented
@@ -22,12 +22,12 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.4
-  scored_at: '2026-09-24'
+  score: 35.3
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - baseURL: https://culture.sbs
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'The raw HTTP surface of the Commons under https://culture.sbs/v1/: take a standing by signing a name (signup, HMAC return) or by Sign-In-With-Ethereum; enter, heartbeat, listen, speak and leave the li'
   name: The Culture Commons API
   slug: culture-commons-api
@@ -171,7 +171,7 @@ modified: '2026-09-19'
 name: The Culture Commons
 nav: Providers
 network: true
-overview: 'The Culture Commons publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agents, A2A, MCP, Chat, and Community.
+overview: 'The Culture Commons publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agents, A2A, MCP, Chat, and Community.
 
 
   The Culture Commons'' developer surface includes documentation, API reference, getting-started guide, authentication, and 20 more developer resources.'
@@ -186,21 +186,21 @@ rate_limits:
   slug: culture-sbs-rate-limits
 score:
   band: thin
-  composite: 37.3
+  composite: 37.4
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 47.0
+    artifact_dirs: 19
+    catalog_earned: 42.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 68.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
-    contract_quality: 50.3
+    contract_quality: 45.3
     developer_ergonomics: 42.3
-    discoverability: 72.2
+    discoverability: 63.3
     operational_transparency: 42.1
   previous_composite: 37.3
   provenance:
@@ -212,8 +212,14 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 30.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

@@ -23,11 +23,11 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - baseURL: https://version-signal.inboxtzdjqv.workers.dev
-  baseurl_source: declared
+  baseurl_source: spec
   description: Free, no-auth REST API returning the current stable version and publication date of npm and PyPI packages from the canonical registry.
   name: Version Signal API
   slug: version-signal-api
@@ -113,29 +113,35 @@ rate_limits:
   slug: version-signal-api-rate-limits
 score:
   band: emerging
-  composite: 23.0
+  composite: 21.3
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 40.0
+    artifact_dirs: 16
+    catalog_earned: 35.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 75.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.7
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
-    contract_quality: 29.9
+    contract_quality: 26.9
     developer_ergonomics: 23.2
-    discoverability: 66.7
+    discoverability: 55.4
     operational_transparency: 0.0
   previous_composite: 23.0
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 16.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

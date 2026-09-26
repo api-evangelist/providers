@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.6
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 2
@@ -45,127 +45,127 @@ agentic_access:
 api_count: 3
 apis:
 - baseURL: https://openmercantil.es
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'Account API credential management: list, create, rotate and revoke opaque omk_* API keys. Secrets are returned once and recoverable only via an identical Idempotency-Key replay inside 24 hours.'
   name: OpenMercantil API Credentials API
   slug: openmercantil-api-credentials-api
 - baseURL: https://openmercantil.es
-  baseurl_source: declared
+  baseurl_source: spec
   description: Session-bound Stripe checkout, invoices and portal contracts. External actions are bounded, idempotent and never exposed through the public MCP.
   name: OpenMercantil Billing API
   slug: openmercantil-billing-api
 - baseURL: https://openmercantil.es
-  baseurl_source: declared
+  baseurl_source: spec
   description: Daily BORME publications, multi-source timeline and registry events
   name: OpenMercantil BORME API
   slug: openmercantil-borme-api
 - baseURL: https://openmercantil.es
-  baseurl_source: declared
+  baseurl_source: spec
   description: Company reports and registry events
   name: OpenMercantil Companies API
   slug: openmercantil-companies-api
 - baseURL: https://openmercantil.es
-  baseurl_source: declared
+  baseurl_source: spec
   description: Bulk exports (CSV / JSON / aggregated stats)
   name: OpenMercantil Datasets API
   slug: openmercantil-datasets-api
 - baseURL: https://openmercantil.es
-  baseurl_source: declared
+  baseurl_source: spec
   description: Corporate and person-to-company relationship graphs. Every emitted record retains the source-specific terms authorized by the active public source catalog; no blanket relicensing applies.
   name: OpenMercantil Graph API
   slug: openmercantil-graph-api
 - baseURL: https://openmercantil.es
-  baseurl_source: declared
+  baseurl_source: spec
   description: Public read-only connector catalog. Never exposes credentials, OAuth tokens, webhook secrets or operator actions.
   name: OpenMercantil Integrations API
   slug: openmercantil-integrations-api
 - baseURL: https://openmercantil.es
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'Spanish mercantile-law layer (derecho mercantil): legislation corpus + article texts + act→norm bridge. Distributes the consolidated BOE legal corpus structured by OpenMercantil so LLMs and agents can'
   name: OpenMercantil Legal API
   slug: openmercantil-legal-api
 - baseURL: https://openmercantil.es
-  baseurl_source: declared
+  baseurl_source: spec
   description: Documentary mentions of natural persons in BORME (officer roles). Persons treated as documentary mentions only — no DNI, no contact data, no scoring.
   name: OpenMercantil Persons API
   slug: openmercantil-persons-api
 - baseURL: https://openmercantil.es
-  baseurl_source: declared
+  baseurl_source: spec
   description: Public procurement awards (PLACSP) and grants (BDNS)
   name: OpenMercantil Public Procurement API
   slug: openmercantil-public-procurement-api
 - baseURL: https://openmercantil.es
-  baseurl_source: declared
+  baseurl_source: spec
   description: Company and person search endpoints
   name: OpenMercantil Search API
   slug: openmercantil-search-api
 - baseURL: https://openmercantil.es
-  baseurl_source: declared
+  baseurl_source: spec
   description: CNAE sector aggregates, ratios and company listings
   name: OpenMercantil Sectors API
   slug: openmercantil-sectors-api
 - baseURL: https://openmercantil.es
-  baseurl_source: declared
+  baseurl_source: spec
   description: Source catalog metadata, freshness and integration status
   name: OpenMercantil Sources API
   slug: openmercantil-sources-api
 - baseURL: https://openmercantil.es
-  baseurl_source: declared
+  baseurl_source: spec
   description: Customer-support writes. Anonymous creation requires explicit privacy consent; replies require an authenticated owner session and CSRF. Ticket data is never exposed through the public MCP.
   name: OpenMercantil Support API
   slug: openmercantil-support-api
 - baseURL: https://openmercantil.es
-  baseurl_source: declared
+  baseurl_source: spec
   description: Service health and metadata
   name: OpenMercantil System API
   slug: openmercantil-system-api
 - baseURL: https://openmercantil.es
-  baseurl_source: declared
+  baseurl_source: spec
   description: Authenticated Panel Pro endpoints — segments, lists, notes, tags, exports, audit. Requires session cookie (browser) and X-CSRF-Token header for mutations.
   name: OpenMercantil User API
   slug: openmercantil-user-api
 - baseURL: https://openmercantil.es
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'Account outbound webhooks: register, update, rotate the HMAC signing secret and delete event subscriptions. Three subscribable event types; deliveries are signed and fail closed on unknown events.'
   name: OpenMercantil Webhooks API
   slug: openmercantil-webhooks-api
 - baseURL: https://openmercantil.es
-  baseurl_source: declared
+  baseurl_source: spec
   description: Public procurement (PLACSP) rankings
   name: OpenMercantil Contracts API
   slug: openmercantil-contracts-api
 - baseURL: https://openmercantil.es
-  baseurl_source: declared
+  baseurl_source: spec
   description: Daily BORME summary feeds
   name: OpenMercantil Daily API
   slug: openmercantil-daily-api
 - baseURL: https://openmercantil.es
-  baseurl_source: declared
+  baseurl_source: spec
   description: Bulk and per-resource export endpoints
   name: OpenMercantil Export API
   slug: openmercantil-export-api
 - baseURL: https://openmercantil.es
-  baseurl_source: declared
+  baseurl_source: spec
   description: Geolocation enrichment
   name: OpenMercantil Geocode API
   slug: openmercantil-geocode-api
 - baseURL: https://openmercantil.es
-  baseurl_source: declared
+  baseurl_source: spec
   description: Company relationship network and embargoes
   name: OpenMercantil Network API
   slug: openmercantil-network-api
 - baseURL: https://openmercantil.es
-  baseurl_source: declared
+  baseurl_source: spec
   description: Documentary risk signals from public sources (AEPD, CNMC, concursos, AEAT moroso, CENDOJ)
   name: OpenMercantil Risk Signals API
   slug: openmercantil-risk-signals-api
 - baseURL: https://openmercantil.es
-  baseurl_source: declared
+  baseurl_source: spec
   description: Company score, trust score and activity timeseries
   name: OpenMercantil Score API
   slug: openmercantil-score-api
 - baseURL: https://openmercantil.es
-  baseurl_source: declared
+  baseurl_source: spec
   description: Aggregate statistics by region and sector
   name: OpenMercantil Stats API
   slug: openmercantil-stats-api
@@ -549,21 +549,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 88.2
+  composite: 80.6
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 84.5
+    artifact_dirs: 30
+    catalog_earned: 79.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 30.5
+    catalog_gap: 36.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.6
   facets:
     access_clarity: 100.0
-    contract_governance: 47.0
-    contract_quality: 76.6
+    contract_governance: 45.5
+    contract_quality: 70.8
     developer_ergonomics: 56.5
-    discoverability: 81.5
+    discoverability: 69.6
     operational_transparency: 94.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -593,10 +593,10 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 85.2
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: flat
+    score: 45.1
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: falling
   upsert:
     applies: true
     score: 27.8

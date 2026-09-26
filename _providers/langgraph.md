@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -176,21 +176,21 @@ rate_limits:
   slug: langgraph-rate-limits
 score:
   band: thin
-  composite: 34.6
+  composite: 32.6
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 46.0
     catalog_earned_first_party: 0.0
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 54.1
+    contract_quality: 49.0
     developer_ergonomics: 23.8
-    discoverability: 68.5
+    discoverability: 66.1
     operational_transparency: 28.9
   open_source:
     applies: true
@@ -203,8 +203,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 10.9
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

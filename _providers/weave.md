@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -342,7 +342,7 @@ modified: '2026-07-21'
 name: Weave
 nav: Providers
 network: true
-overview: 'Weave publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Events API, Forms API, and 5 more. Tagged areas include Company, Communications, Messaging, Payments, and Healthcare.
+overview: 'Weave publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Events API, Forms API, and 6 more. Tagged areas include Company, Communications, Messaging, Payments, and Healthcare.
 
 
   Weave''s developer surface includes documentation, signup flow, pricing, support, engineering blog, authentication, and 41 more developer resources.'
@@ -362,23 +362,23 @@ scopes:
   summary_line: 3 scopes
 score:
   band: strong
-  composite: 64.1
+  composite: 58.6
   coverage:
     artifact_dirs: 17
-    catalog_earned: 64.0
+    catalog_earned: 61.6
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    catalog_gap: 53.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.7
+  delta: -5.5
   facets:
-    access_clarity: 100.0
+    access_clarity: 96.8
     contract_governance: 18.2
-    contract_quality: 53.3
+    contract_quality: 48.0
     developer_ergonomics: 33.3
-    discoverability: 75.9
-    operational_transparency: 60.5
-  previous_composite: 64.8
+    discoverability: 73.2
+    operational_transparency: 57.4
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -396,10 +396,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 66.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: flat
+    score: 41.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -432,7 +432,7 @@ tags:
 - Telephony
 - Reviews
 - Scheduling
-- SMB
+- Small Business
 - Developer Platform
 - Authentication
 website: https://www.getweave.com/

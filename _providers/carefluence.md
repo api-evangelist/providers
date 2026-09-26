@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - description: The ONC-certified § 170.315(g)(10) Standardized API for Patient and Population Services. A HL7 FHIR R4 (4.0.1) RESTful server conforming to the US Core Implementation Guide v3.1.1, exposing 24 resourc
@@ -197,7 +197,7 @@ modified: '2026-09-02'
 name: Carefluence
 nav: Providers
 network: true
-overview: 'Carefluence publishes 1 API on the [APIs.io](https://apis.io/) network: Open API R4. Tagged areas include Company, Healthcare, Interoperability, FHIR, and HL7.
+overview: 'Carefluence publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Open API R4, and 1 more. Tagged areas include Company, Healthcare, Interoperability, FHIR, and HL7.
 
 
   Carefluence''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 27 more developer resources.'
@@ -217,7 +217,7 @@ scopes:
   summary_line: 51 scopes
 score:
   band: developing
-  composite: 47.3
+  composite: 44.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -225,13 +225,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.3
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 40.9
+    contract_quality: 38.7
     developer_ergonomics: 66.1
-    discoverability: 68.5
+    discoverability: 66.1
     operational_transparency: 0.0
   previous_composite: 47.3
   provenance:
@@ -243,9 +243,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 61.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 38.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

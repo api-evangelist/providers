@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 0
 artifact_total: 2
 common:
@@ -173,7 +173,7 @@ score:
     contract_governance: 18.2
     contract_quality: 6.7
     developer_ergonomics: 14.3
-    discoverability: 50.0
+    discoverability: 49.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -190,9 +190,9 @@ score:
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 31.7
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 17.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

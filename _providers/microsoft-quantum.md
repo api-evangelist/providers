@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.3
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -489,7 +489,7 @@ modified: '2026-05-25'
 name: Microsoft Azure Quantum
 nav: Providers
 network: true
-overview: 'Microsoft Azure Quantum publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Offerings API, Operations API, Subscriptions API, and 2 more. Tagged areas include Quantum, Quantum Computing, Azure, Microsoft, and Q#.
+overview: 'Microsoft Azure Quantum publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Offerings API, Operations API, Subscriptions API, and 5 more. Tagged areas include Quantum, Quantum Computing, Azure, Microsoft, and Q#.
 
 
   The Microsoft Azure Quantum catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -522,24 +522,24 @@ scopes:
   slug: microsoft-quantum-scopes
   summary_line: 2 scopes · clientCredentials/implicit
 score:
-  band: strong
-  composite: 66.3
+  band: exemplar
+  composite: 68.1
   coverage:
     artifact_dirs: 20
-    catalog_earned: 77.3
+    catalog_earned: 73.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.8
+    catalog_gap: 41.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.7
+  delta: 1.8
   facets:
-    access_clarity: 92.1
+    access_clarity: 88.9
     contract_governance: 9.8
-    contract_quality: 59.9
+    contract_quality: 54.5
     developer_ergonomics: 67.9
-    discoverability: 66.7
-    operational_transparency: 68.4
-  previous_composite: 65.6
+    discoverability: 64.3
+    operational_transparency: 65.3
+  previous_composite: 66.3
   provenance:
     agentic_access: derived
     contracts:
@@ -547,8 +547,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 45.1
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

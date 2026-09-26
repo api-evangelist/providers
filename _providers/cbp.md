@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 4
 apis:
 - description: A web service that allows certified third-party applications to query Electronic Export Information (EEI) filings previously submitted to AESDirect via HTTP POST. Returns shipment status and filing da
@@ -141,21 +141,21 @@ rate_limits:
   slug: cbp-rate-limits
 score:
   band: thin
-  composite: 27.6
+  composite: 26.7
   coverage:
     artifact_dirs: 8
-    catalog_earned: 63.0
+    catalog_earned: 61.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.0
+    catalog_gap: 53.2
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
-    access_clarity: 50.0
+    access_clarity: 46.8
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 25.0
-    discoverability: 74.1
+    discoverability: 72.3
     operational_transparency: 21.1
   previous_composite: 27.6
   regulatory:
@@ -163,9 +163,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 20.4
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 10.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

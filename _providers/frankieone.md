@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -221,7 +221,7 @@ modified: '2026-05-19'
 name: FrankieOne
 nav: Providers
 network: true
-overview: 'FrankieOne publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Audit API, HostedURL API, IDV API, and 10 more. Tagged areas include Identity Verification, KYC, KYB, AML, and Fraud.
+overview: 'FrankieOne publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Audit API, HostedURL API, IDV API, and 10 more. Tagged areas include Identity Verification, KYC, KYB, AML, and Fraud Prevention.
 
 
   The FrankieOne catalog on APIs.io includes 2 Spectral governance rulesets.
@@ -260,7 +260,7 @@ rules:
   slug: frankieone-kyc-rules
 score:
   band: thin
-  composite: 34.2
+  composite: 32.6
   coverage:
     artifact_dirs: 13
     catalog_earned: 46.0
@@ -268,13 +268,13 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
     access_clarity: 36.8
     contract_governance: 0.0
-    contract_quality: 63.1
+    contract_quality: 57.0
     developer_ergonomics: 14.3
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 10.5
   previous_composite: 34.2
   provenance:
@@ -284,8 +284,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 16.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true
@@ -310,7 +316,7 @@ tags:
 - KYC
 - KYB
 - AML
-- Fraud
+- Fraud Prevention
 - Compliance
 website: https://www.frankieone.com/
 ---

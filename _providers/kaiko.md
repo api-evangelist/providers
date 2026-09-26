@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-09-24'
+  score: 25.1
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -286,7 +286,7 @@ modified: '2026-07-22'
 name: Kaiko
 nav: Providers
 network: true
-overview: 'Kaiko publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Canton Oracle API, Index Reference Data API, Indices API, and 1 more. Tagged areas include Web3, Crypto, Market Data, Institutional, and FX.
+overview: 'Kaiko publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Canton Oracle API, Index Reference Data API, Indices API, and 5 more. Tagged areas include Web3, Crypto, Market Data, Institutional, and FX.
 
 
   Kaiko''s developer surface includes authentication, developer portal, documentation, changelog, pricing, engineering blog, support, and 29 more developer resources.'
@@ -300,8 +300,8 @@ rate_limits:
   name: Kaiko Rate Limits
   slug: kaiko-rate-limits
 score:
-  band: strong
-  composite: 55.8
+  band: developing
+  composite: 52.4
   coverage:
     artifact_dirs: 24
     catalog_earned: 39.0
@@ -309,13 +309,13 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.4
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 54.4
+    contract_quality: 49.0
     developer_ergonomics: 67.3
-    discoverability: 66.7
+    discoverability: 64.3
     operational_transparency: 31.6
   previous_composite: 55.8
   provenance:
@@ -333,9 +333,9 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 60.0
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 33.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

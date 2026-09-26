@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -120,7 +120,7 @@ modified: '2026-05-19'
 name: Public APIs
 nav: Providers
 network: true
-overview: 'Public APIs publishes 3 APIs on the [APIs.io](https://apis.io/) network: Categories API, Entries API, and Health API. Tagged areas include API Aggregation, API Directory, API Discovery, Free APIs, and Open Source.'
+overview: Public APIs publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Entries API, Health API, and 1 more. Tagged areas include API Aggregation, API Directory, API Discovery, Free APIs, and Open Source.
 plans:
 - name: Public Apis Plans Pricing
   plan_count: 3
@@ -132,7 +132,7 @@ rate_limits:
   slug: public-apis-rate-limits
 score:
   band: emerging
-  composite: 20.4
+  composite: 17.3
   coverage:
     artifact_dirs: 8
     catalog_earned: 35.0
@@ -140,14 +140,17 @@ score:
     catalog_gap: 65.0
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 44.9
+    contract_quality: 40.4
     developer_ergonomics: 9.5
-    discoverability: 59.3
+    discoverability: 57.1
     operational_transparency: 10.5
+  open_source:
+    applies: true
+    score: 25.0
   previous_composite: 20.4
   provenance:
     agentic_access: derived
@@ -156,8 +159,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 0.0
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

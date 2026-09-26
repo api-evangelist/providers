@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 63.9
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - baseURL: https://api.hilt.so
@@ -32,7 +32,7 @@ apis:
   name: Hilt API (Pay API + Workspace)
   slug: hilt-pay-api
 - baseURL: https://www.hilt.so
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'A public pay-per-request x402 V2 resource on www.hilt.so (0.05 USDC per request, Solana USDC): POST /v1/solana/transaction-evidence returns signers, invoked programs, SOL and token balance changes, pa'
   name: Hilt Solana Transaction Evidence API
   slug: transaction-evidence
@@ -306,7 +306,7 @@ modified: '2026-09-19'
 name: Hilt
 nav: Providers
 network: true
-overview: 'Hilt publishes 2 APIs on the [APIs.io](https://apis.io/) network: API (Pay API + Workspace) and Solana Transaction Evidence API. Tagged areas include Payments, Solana, Stablecoins, USDC, and Crypto Payments.
+overview: 'Hilt publishes 4 APIs on the [APIs.io](https://apis.io/) network, including API (Pay API + Workspace), Solana Transaction Evidence API, and 2 more. Tagged areas include Payments, Solana, Stablecoins, USDC, and Crypto Payments.
 
 
   The Hilt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -329,21 +329,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 74.4
+  composite: 71.3
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 57.0
+    artifact_dirs: 26
+    catalog_earned: 52.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.1
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
-    contract_quality: 56.1
+    contract_quality: 51.3
     developer_ergonomics: 90.5
-    discoverability: 75.9
+    discoverability: 66.7
     operational_transparency: 65.8
   previous_composite: 74.4
   provenance:
@@ -360,9 +360,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.7
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 34.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

@@ -24,7 +24,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: true
+    event_surface_described: unknown
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.9
-  scored_at: '2026-09-24'
+  score: 29.4
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,17 +46,17 @@ agentic_access:
 api_count: 1
 apis:
 - baseURL: https://quizapi.io
-  baseurl_source: declared
+  baseurl_source: spec
   description: Endpoints that require no authentication
   name: QuizAPI Discovery API
   slug: quiz-api-discovery-api
 - baseURL: https://quizapi.io
-  baseurl_source: declared
+  baseurl_source: spec
   description: Retrieve questions for quizzes or browse across all quizzes
   name: QuizAPI Questions API
   slug: quiz-api-questions-api
 - baseURL: https://quizapi.io
-  baseurl_source: declared
+  baseurl_source: spec
   description: Browse and search published quizzes
   name: QuizAPI Quizzes API
   slug: quiz-api-quizzes-api
@@ -144,21 +144,21 @@ rate_limits:
   slug: quiz-api-rate-limits
 score:
   band: thin
-  composite: 35.5
+  composite: 32.7
   coverage:
     artifact_dirs: 12
-    catalog_earned: 46.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.8
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 57.7
+    contract_quality: 51.9
     developer_ergonomics: 35.7
-    discoverability: 75.9
+    discoverability: 64.3
     operational_transparency: 15.8
   previous_composite: 35.5
   provenance:
@@ -173,9 +173,9 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 22.2
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 11.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

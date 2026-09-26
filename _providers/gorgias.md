@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -163,6 +163,11 @@ collections:
   name: Gorgias REST API
   slug: open-gorgias
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/vendor-facets/gorgias-vendor-facets.yml
+  title: ''
+  type: VendorFacets
+  url: vendor-facets/gorgias-vendor-facets.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/agentic-access/gorgias-agentic-access.yml
   title: ''
@@ -240,13 +245,13 @@ modified: '2026-05-30'
 name: Gorgias
 nav: Providers
 network: true
-overview: 'Gorgias publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Account API, Customers API, and 11 more. Tagged areas include Customer Support, Help Desk, E-Commerce, Shopify, and Tickets.
+overview: 'Gorgias publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Account API, Customers API, and 11 more. Tagged areas include Customer Support, Help Desk, E-Commerce, Shopify, and Ticketing.
 
 
   The Gorgias catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Gorgias'' developer surface includes authentication, engineering blog, documentation, pricing, signup flow, changelog, and 10 more developer resources.'
+  Gorgias'' developer surface includes authentication, engineering blog, documentation, pricing, signup flow, changelog, and 11 more developer resources.'
 random_paper: 0
 rules:
 - effective_rule_count: 32
@@ -267,21 +272,21 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: thin
-  composite: 38.3
+  composite: 38.8
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 35.8
     catalog_earned_first_party: 0.0
     catalog_gap: 79.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 23.7
     contract_governance: 11.4
-    contract_quality: 57.1
+    contract_quality: 53.0
     developer_ergonomics: 28.6
-    discoverability: 66.7
+    discoverability: 64.3
     operational_transparency: 26.3
   previous_composite: 38.3
   provenance:
@@ -291,8 +296,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 27.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true
@@ -317,7 +328,7 @@ tags:
 - Help Desk
 - E-Commerce
 - Shopify
-- Tickets
+- Ticketing
 - Conversations
 website: https://www.gorgias.com
 ---

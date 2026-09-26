@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 6
 apis:
 - description: Cloud Custodian provides rules-engine capabilities for managing cloud resources with security, compliance, and cost optimization policies.
@@ -141,7 +141,7 @@ modified: '2026-04-27'
 name: Cloud Custodian
 nav: Providers
 network: true
-overview: 'Cloud Custodian publishes 1 API on the [APIs.io](https://apis.io/) network: C7n-Mailer. Tagged areas include Cloud Security, Compliance, Cost Optimization, Multi-Cloud, and Policy as Code.
+overview: 'Cloud Custodian publishes 6 APIs on the [APIs.io](https://apis.io/) network, including C7n-Mailer, and 5 more. Tagged areas include Cloud Security, Compliance, Cost Optimization, Multi-Cloud, and Policy as Code.
 
 
   The Cloud Custodian catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -184,18 +184,18 @@ score:
   composite: 36.7
   coverage:
     artifact_dirs: 10
-    catalog_earned: 59.5
+    catalog_earned: 58.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.5
+    catalog_gap: 56.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 13.6
-    contract_quality: 54.2
+    contract_quality: 51.5
     developer_ergonomics: 31.0
-    discoverability: 64.8
+    discoverability: 62.5
     operational_transparency: 36.8
   open_source:
     applies: true
@@ -203,12 +203,12 @@ score:
   previous_composite: 36.7
   regulatory:
     applies: true
-    matched_via: tags
-    regime: Insurance
-    regime_id: insurance
-    score: 16.7
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 10.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

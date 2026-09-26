@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 42.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 14
 apis:
 - description: Bi-directional JSON-RPC 2.0 interface between a Live App (dApp) and a wallet implementing the Wallet API Server, such as Ledger Wallet. Currency-agnostic modules for accounts, currencies, transactions
@@ -458,7 +458,7 @@ modified: '2026-08-25'
 name: Ledger
 nav: Providers
 network: true
-overview: 'Ledger publishes 40 APIs on the [APIs.io](https://apis.io/) network, including 4337 API, Accounts API, Authentication API, and 37 more. Tagged areas include Ledger, Cryptocurrency, Digital Assets, Hardware Wallet, and Self-Custody.
+overview: 'Ledger publishes 42 APIs on the [APIs.io](https://apis.io/) network, including 4337 API, Accounts API, Authentication API, and 39 more. Tagged areas include Ledger, Cryptocurrency, Digital Assets, Hardware Wallet, and Self-Custody.
 
 
   The Ledger catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -476,7 +476,7 @@ rate_limits:
   slug: ledger-rate-limits
 score:
   band: strong
-  composite: 61.7
+  composite: 58.4
   coverage:
     artifact_dirs: 25
     catalog_earned: 40.0
@@ -484,13 +484,13 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.3
   facets:
     access_clarity: 43.4
     contract_governance: 4.5
-    contract_quality: 60.6
+    contract_quality: 55.4
     developer_ergonomics: 85.7
-    discoverability: 66.7
+    discoverability: 64.3
     operational_transparency: 81.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -513,9 +513,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 56.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 32.1
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

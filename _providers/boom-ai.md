@@ -10,7 +10,8 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -21,7 +22,7 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: true
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: true
     idempotency: documented
     mcp_server: verified
@@ -32,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 65.8
-  scored_at: '2026-09-24'
+  score: 63.6
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -43,57 +44,57 @@ agentic_access:
   summary_line: 80 operations · 41 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- baseURL: https://www.useboom.ai
+- baseURL: https://dev.useboom.ai
   baseurl_source: declared
   description: The CDP Custom Objects API from Boom Ai — 5 operation(s) for cdp custom objects.
   name: Boom Ai CDP Custom Objects API
   slug: boom-ai-cdp-custom-objects-api
-- baseURL: https://www.useboom.ai
+- baseURL: https://dev.useboom.ai
   baseurl_source: declared
   description: The CDP Events API from Boom Ai — 3 operation(s) for cdp events.
   name: Boom Ai CDP Events API
   slug: boom-ai-cdp-events-api
-- baseURL: https://www.useboom.ai
+- baseURL: https://dev.useboom.ai
   baseurl_source: declared
   description: The CDP People API from Boom Ai — 4 operation(s) for cdp people.
   name: Boom Ai CDP People API
   slug: boom-ai-cdp-people-api
-- baseURL: https://www.useboom.ai
+- baseURL: https://dev.useboom.ai
   baseurl_source: declared
   description: The CDP Relationships API from Boom Ai — 4 operation(s) for cdp relationships.
   name: Boom Ai CDP Relationships API
   slug: boom-ai-cdp-relationships-api
-- baseURL: https://www.useboom.ai
+- baseURL: https://dev.useboom.ai
   baseurl_source: declared
   description: The CDP Sources API from Boom Ai — 1 operation(s) for cdp sources.
   name: Boom Ai CDP Sources API
   slug: boom-ai-cdp-sources-api
-- baseURL: https://www.useboom.ai
+- baseURL: https://dev.useboom.ai
   baseurl_source: declared
   description: The HTTP credentials API from Boom Ai — 1 operation(s) for http credentials.
   name: Boom Ai HTTP credentials API
   slug: boom-ai-http-credentials-api
-- baseURL: https://www.useboom.ai
+- baseURL: https://dev.useboom.ai
   baseurl_source: declared
   description: The Initiatives API from Boom Ai — 14 operation(s) for initiatives.
   name: Boom Ai Initiatives API
   slug: boom-ai-initiatives-api
-- baseURL: https://www.useboom.ai
+- baseURL: https://dev.useboom.ai
   baseurl_source: declared
   description: The Journeys API from Boom Ai — 16 operation(s) for journeys.
   name: Boom Ai Journeys API
   slug: boom-ai-journeys-api
-- baseURL: https://www.useboom.ai
+- baseURL: https://dev.useboom.ai
   baseurl_source: declared
   description: The Segments API from Boom Ai — 7 operation(s) for segments.
   name: Boom Ai Segments API
   slug: boom-ai-segments-api
-- baseURL: https://www.useboom.ai
+- baseURL: https://dev.useboom.ai
   baseurl_source: declared
   description: The WhatsApp templates API from Boom Ai — 3 operation(s) for whatsapp templates.
   name: Boom Ai WhatsApp templates API
   slug: boom-ai-whatsapp-templates-api
-- baseURL: https://www.useboom.ai
+- baseURL: https://dev.useboom.ai
   baseurl_source: declared
   description: The Environments API from Boom Ai — 1 operation(s) for environments.
   name: Boom Ai Environments API
@@ -371,7 +372,7 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 79.9
+  composite: 75.6
   coverage:
     artifact_dirs: 27
     catalog_earned: 57.0
@@ -379,13 +380,13 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 62.4
+    contract_quality: 57.0
     developer_ergonomics: 71.4
-    discoverability: 75.9
+    discoverability: 75.0
     operational_transparency: 55.3
   previous_composite: 79.9
   provenance:
@@ -403,9 +404,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 65.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 36.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

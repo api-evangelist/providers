@@ -33,110 +33,110 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 3
 apis:
-- baseURL: https://www.ankorstore.com
+- baseURL: https://www.public.ankorstore-sandbox.com
   baseurl_source: declared
   description: The Applications API from Ankorstore — 1 operation(s) for applications.
   name: Ankorstore Applications API
   slug: ankorstore-applications-api
-- baseURL: https://www.ankorstore.com
+- baseURL: https://www.public.ankorstore-sandbox.com
   baseurl_source: declared
   description: The Brands API from Ankorstore — 8 operation(s) for brands.
   name: Ankorstore Brands API
   slug: ankorstore-brands-api
-- baseURL: https://www.ankorstore.com
+- baseURL: https://www.public.ankorstore-sandbox.com
   baseurl_source: declared
   description: 'ℹ️ This section describes the API endpoints that you can use to manage your catalog resources, such as products, product variants etc. ## 💡 Working with Products Here you will find information about t'
   name: Ankorstore Catalog API
   slug: ankorstore-catalog-api
-- baseURL: https://www.ankorstore.com
+- baseURL: https://www.public.ankorstore-sandbox.com
   baseurl_source: declared
   description: The Catalog Exchange API from Ankorstore — 3 operation(s) for catalog exchange.
   name: Ankorstore Catalog Exchange API
   slug: ankorstore-catalog-exchange-api
-- baseURL: https://www.ankorstore.com
+- baseURL: https://www.public.ankorstore-sandbox.com
   baseurl_source: declared
   description: '## 👋 Getting Started The catalogue integration process relies on the concept of operations. An operation is a batch of records representing the products to create, update or delete. The completion sta'
   name: Ankorstore Catalog Integrations API
   slug: ankorstore-catalog-integrations-api
-- baseURL: https://www.ankorstore.com
+- baseURL: https://www.public.ankorstore-sandbox.com
   baseurl_source: declared
   description: ℹ️ Here you can find the endpoints which are currently deprecated and will be removed in the future versions of the API. We strongly encourage you to migrate away from these endpoints in order to prev
   name: Ankorstore Deprecated API
   slug: ankorstore-deprecated-api
-- baseURL: https://www.ankorstore.com
+- baseURL: https://www.public.ankorstore-sandbox.com
   baseurl_source: declared
   description: 'ℹ️ Here you can find the information and endpoint specification related to fulfillment of the orders. ## 💡 About Fulfillment _Fulfillment_ is the process of preparing and shipping orders to customers '
   name: Ankorstore Fulfillment API
   slug: ankorstore-fulfillment-api
-- baseURL: https://www.ankorstore.com
+- baseURL: https://www.public.ankorstore-sandbox.com
   baseurl_source: declared
   description: 'ℹ️ This section contains general-purpose endpoints that are transversal to the system. These endpoints provide reference data useful across different integration scenarios. ## 💡 Currency Rates The cur'
   name: Ankorstore General API
   slug: ankorstore-general-api
-- baseURL: https://www.ankorstore.com
+- baseURL: https://www.public.ankorstore-sandbox.com
   baseurl_source: declared
   description: The Integration API from Ankorstore — 1 operation(s) for integration.
   name: Ankorstore Integration API
   slug: ankorstore-integration-api
-- baseURL: https://www.ankorstore.com
+- baseURL: http://www.ankorlocal.com:8000
   baseurl_source: declared
   description: The Locations API from Ankorstore — 1 operation(s) for locations.
   name: Ankorstore Locations API
   slug: ankorstore-locations-api
-- baseURL: https://www.ankorstore.com
+- baseURL: http://www.ankorlocal.com:8000
   baseurl_source: declared
   description: Operations for documents linked to fulfillment requests
   name: Ankorstore Media API
   slug: ankorstore-media-api
-- baseURL: https://www.ankorstore.com
+- baseURL: http://www.ankorlocal.com:8000
   baseurl_source: declared
   description: The Movements API from Ankorstore — 2 operation(s) for movements.
   name: Ankorstore Movements API
   slug: ankorstore-movements-api
-- baseURL: https://www.ankorstore.com
+- baseURL: https://www.public.ankorstore-sandbox.com
   baseurl_source: declared
   description: ℹ️ This section of API allows to manage different types of orders in the system. Depending on the order type, there are different endpoints available to manage them. Before starting to work with the A
   name: Ankorstore Ordering API
   slug: ankorstore-ordering-api
-- baseURL: https://www.ankorstore.com
+- baseURL: https://www.public.ankorstore-sandbox.com
   baseurl_source: declared
   description: ℹ️ This section describes the API endpoints for managing _OrderPay_ orders and customers. OrderPay allows brands to create and manage orders for their own customers, handle payments, and track order l
   name: Ankorstore OrderPay API
   slug: ankorstore-orderpay-api
-- baseURL: https://www.ankorstore.com
+- baseURL: https://www.public.ankorstore-sandbox.com
   baseurl_source: declared
   description: ℹ️ Here your can find endpoints related to different types of shipping, available on the platform. <div class="warning"> Please note, that shipping information described here is only available for _In
   name: Ankorstore Shipping API
   slug: ankorstore-shipping-api
-- baseURL: https://www.ankorstore.com
+- baseURL: http://www.ankorlocal.com:8000
   baseurl_source: declared
   description: The State API from Ankorstore — 1 operation(s) for state.
   name: Ankorstore State API
   slug: ankorstore-state-api
-- baseURL: https://www.ankorstore.com
+- baseURL: https://www.public.ankorstore-sandbox.com
   baseurl_source: declared
   description: The Stock Management API from Ankorstore — 1 operation(s) for stock management.
   name: Ankorstore Stock Management API
   slug: ankorstore-stock-management-api
-- baseURL: https://www.ankorstore.com
+- baseURL: https://www.public.ankorstore-sandbox.com
   baseurl_source: declared
   description: 'ℹ️ This section is dedicated to the testing API during development process. The listed endpoints are **not available** on production environment. ### Creating Test Orders When using the public sandbox'
   name: Ankorstore Testing API
   slug: ankorstore-testing-api
-- baseURL: https://www.ankorstore.com
+- baseURL: https://www.public.ankorstore-sandbox.com
   baseurl_source: declared
   description: 'ℹ️ This section describes the API endpoints for retrieving user and platform configuration. ## 💡 User Configuration The user configuration endpoints return locale and currency settings for the authent'
   name: Ankorstore User API
   slug: ankorstore-user-api
-- baseURL: https://www.ankorstore.com
+- baseURL: https://www.public.ankorstore-sandbox.com
   baseurl_source: declared
   description: The Users API from Ankorstore — 1 operation(s) for users.
   name: Ankorstore Users API
   slug: ankorstore-users-api
-- baseURL: https://www.ankorstore.com
+- baseURL: https://www.public.ankorstore-sandbox.com
   baseurl_source: declared
   description: 'ℹ️ This section describes the API endpoints which can be used for managing webhook subscriptions. ## 💡 Overview In order to be able to manage Webhook Subscriptions via API you should understand the re'
   name: Ankorstore Webhooks API
@@ -360,7 +360,7 @@ overview: 'Ankorstore publishes 21 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 18
 score:
   band: developing
-  composite: 44.7
+  composite: 43.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 40.0
@@ -368,13 +368,13 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
     access_clarity: 13.2
     contract_governance: 4.5
-    contract_quality: 64.2
+    contract_quality: 58.6
     developer_ergonomics: 54.2
-    discoverability: 81.5
+    discoverability: 78.6
     operational_transparency: 34.2
   previous_composite: 44.7
   provenance:
@@ -386,8 +386,14 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 16.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

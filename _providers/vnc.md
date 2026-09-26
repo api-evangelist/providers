@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -204,7 +204,7 @@ modified: '2026-05-19'
 name: VNC
 nav: Providers
 network: true
-overview: 'VNC publishes 1 API on the [APIs.io](https://apis.io/) network: Cloud Addresses API. Tagged areas include Remote Desktop, Remote Access, VNC, Networking, and Screen Sharing.
+overview: 'VNC publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Cloud Addresses API, and 2 more. Tagged areas include Remote Desktop, Remote Access, VNC, Networking, and Screen Sharing.
 
 
   The VNC catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -244,23 +244,23 @@ rules:
   slug: vnc-rules
 score:
   band: developing
-  composite: 46.7
+  composite: 47.1
   coverage:
     artifact_dirs: 18
-    catalog_earned: 63.5
+    catalog_earned: 62.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.5
+    catalog_gap: 52.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.7
+  delta: 0.4
   facets:
     access_clarity: 44.7
-    contract_governance: 28.8
-    contract_quality: 72.1
+    contract_governance: 27.3
+    contract_quality: 65.8
     developer_ergonomics: 46.4
-    discoverability: 66.7
+    discoverability: 64.3
     operational_transparency: 7.9
-  previous_composite: 47.4
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     contracts:
@@ -268,8 +268,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 31.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

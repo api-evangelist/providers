@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 5
 apis:
 - description: Treasury Services API family covering payments (USD clearing, global ACH, RTP, wires, Pay by Bank), liquidity, cash management, trade finance, and FX, exposed to corporate and financial-institution cl
@@ -146,7 +146,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 64.8
+    discoverability: 62.5
     operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -161,9 +161,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 24.1
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 15.0
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

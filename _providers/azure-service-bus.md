@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -344,7 +344,7 @@ modified: '2026-05-19'
 name: Azure Service Bus
 nav: Providers
 network: true
-overview: 'Azure Service Bus publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Namespaces API, Queues API, Subscriptions API, and 2 more. Tagged areas include Azure, Cloud, Enterprise, Message Broker, and Messaging.
+overview: 'Azure Service Bus publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Namespaces API, Queues API, Subscriptions API, and 3 more. Tagged areas include Azure, Cloud, Enterprise, Message Broker, and Messaging.
 
 
   The Azure Service Bus catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -399,22 +399,22 @@ scopes:
   slug: azure-service-bus-scopes
   summary_line: 1 scope · implicit
 score:
-  band: strong
-  composite: 65.8
+  band: exemplar
+  composite: 68.0
   coverage:
     artifact_dirs: 22
-    catalog_earned: 65.5
+    catalog_earned: 64.9
     catalog_earned_first_party: 12.0
-    catalog_gap: 49.5
+    catalog_gap: 50.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.2
   facets:
     access_clarity: 71.1
     contract_governance: 13.6
-    contract_quality: 68.5
+    contract_quality: 62.8
     developer_ergonomics: 65.5
-    discoverability: 74.1
+    discoverability: 71.4
     operational_transparency: 52.6
   open_source:
     applies: true
@@ -427,8 +427,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 40.2
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

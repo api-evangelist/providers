@@ -32,23 +32,28 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 5
 apis:
 - description: Register and manage the exams (assessments) that will be proctored - exam name, proctoring type (automated, live, audit), duration, allowed resources, rules, and the launch URL handed back to the LMS.
   name: Examity Exams API
+  provenance: modeled
   slug: examity-exams-api
 - description: Create, reschedule, and cancel proctoring appointments for a test-taker against a registered exam, and query available proctor slots for live proctoring. Modeled from Examity's partner integration and
   name: Examity Appointments (Scheduling) API
+  provenance: modeled
   slug: examity-appointments-api
 - description: Launch and track a proctoring session - authenticate the test-taker, start the monitored exam session, and check live session status. Modeled from the LMS launch and monitoring flow; endpoints are not
   name: Examity Sessions API
+  provenance: modeled
   slug: examity-sessions-api
 - description: Retrieve session outcomes after a proctored exam - completion status, integrity/violation flags, proctor notes, review verdicts, and links to recorded session evidence, so the calling platform can pos
   name: Examity Results & Flags API
+  provenance: modeled
   slug: examity-results-flags-api
 - description: 'Provision and manage the people involved in proctoring - test-takers, instructors, and administrators - including profile details used for identity verification. In practice most user context arrives '
   name: Examity Users API
+  provenance: modeled
   slug: examity-users-api
 artifact_total: 7
 common:
@@ -91,7 +96,7 @@ plans:
 random_paper: 21
 score:
   band: minimal
-  composite: 4.0
+  composite: 4.3
   coverage:
     artifact_dirs: 3
     catalog_earned: 35.0
@@ -99,13 +104,13 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 64.8
+    discoverability: 62.5
     operational_transparency: 0.0
   previous_composite: 4.0
   regulatory:
@@ -113,9 +118,9 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 11.1
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 5.9
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

@@ -15,7 +15,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: unknown
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.2
-  scored_at: '2026-09-24'
+  score: 25.8
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -391,7 +391,7 @@ modified: '2026-09-16'
 name: Neon
 nav: Providers
 network: true
-overview: 'Neon publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Auth, API Keys API, Auth API, and 8 more. Tagged areas include Database, Serverless, PostgreSQL, Infrastructure, and Authentication.
+overview: 'Neon publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Auth, API Keys API, Auth API, and 10 more. Tagged areas include Database, Serverless, PostgreSQL, Infrastructure, and Authentication.
 
 
   The Neon catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -431,7 +431,7 @@ rules:
   slug: neon-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.6
+  composite: 50.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 50.5
@@ -439,13 +439,13 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 61.8
     contract_governance: 13.6
-    contract_quality: 67.8
-    developer_ergonomics: 46.4
-    discoverability: 66.7
+    contract_quality: 62.7
+    developer_ergonomics: 45.7
+    discoverability: 64.3
     operational_transparency: 26.3
   previous_composite: 49.6
   provenance:
@@ -455,8 +455,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 35.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

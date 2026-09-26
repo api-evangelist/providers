@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: true
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: platform
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 38.3
-  scored_at: '2026-09-24'
+  score: 36.2
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 141
   human_in_the_loop: 0
@@ -563,7 +563,7 @@ modified: 2026-08-15
 name: Candid Health
 nav: Providers
 network: true
-overview: 'Candid Health publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Default API, Diagnoses API, V1 API, and 3 more. Tagged areas include Medical Billing, Revenue Cycle Management, Healthcare, Claims, and Eligibility.
+overview: 'Candid Health publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Default API, Diagnoses API, V1 API, and 9 more. Tagged areas include Medical Billing, Revenue Cycle Management, Healthcare, Claims, and Eligibility.
 
 
   The Candid Health catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -591,22 +591,22 @@ rules:
     warn: 4
   slug: candid-health-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 68.8
+  band: strong
+  composite: 65.8
   coverage:
     artifact_dirs: 30
-    catalog_earned: 72.3
+    catalog_earned: 71.8
     catalog_earned_first_party: 16.0
-    catalog_gap: 42.8
+    catalog_gap: 43.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.0
   facets:
     access_clarity: 72.4
-    contract_governance: 25.0
-    contract_quality: 59.8
-    developer_ergonomics: 78.0
-    discoverability: 87.0
+    contract_governance: 23.5
+    contract_quality: 54.9
+    developer_ergonomics: 77.5
+    discoverability: 85.0
     operational_transparency: 47.4
   previous_composite: 68.8
   provenance:
@@ -624,9 +624,9 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 45.5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 26.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

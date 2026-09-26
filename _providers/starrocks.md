@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-09-24'
+  score: 3.1
+  scored_at: '2026-09-25'
 api_count: 3
 apis:
 - description: 'Stream Load is a synchronous HTTP-based ingestion API. Clients PUT a CSV or JSON payload to /api/{db}/{table}/_stream_load with HTTP Basic authentication and headers like `label`, `column_separator`, '
@@ -145,8 +145,8 @@ rate_limits:
   name: Starrocks Rate Limits
   slug: starrocks-rate-limits
 score:
-  band: emerging
-  composite: 23.1
+  band: thin
+  composite: 30.0
   coverage:
     artifact_dirs: 8
     catalog_earned: 49.0
@@ -154,18 +154,27 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.9
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 33.3
-    discoverability: 81.5
+    discoverability: 78.6
     operational_transparency: 39.5
+  open_source:
+    applies: true
+    score: 100.0
   previous_composite: 23.1
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 11.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

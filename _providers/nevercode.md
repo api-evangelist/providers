@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 3
@@ -45,67 +45,67 @@ agentic_access:
 api_count: 1
 apis:
 - baseURL: https://codemagic.io/
-  baseurl_source: declared
+  baseurl_source: spec
   description: REST API endpoints for app previews.
   name: Nevercode App Previews API
   slug: nevercode-app-previews-api
 - baseURL: https://codemagic.io/
-  baseurl_source: declared
+  baseurl_source: spec
   description: REST API endpoints for applications.
   name: Nevercode Applications API
   slug: nevercode-applications-api
 - baseURL: https://codemagic.io/
-  baseurl_source: declared
+  baseurl_source: spec
   description: REST API endpoints for billing.
   name: Nevercode Billing API
   slug: nevercode-billing-api
 - baseURL: https://codemagic.io/
-  baseurl_source: declared
+  baseurl_source: spec
   description: REST API endpoints for build dashboards.
   name: Nevercode Build Dashboards API
   slug: nevercode-build-dashboards-api
 - baseURL: https://codemagic.io/
-  baseurl_source: declared
+  baseurl_source: spec
   description: REST API endpoints for builds.
   name: Nevercode Builds API
   slug: nevercode-builds-api
 - baseURL: https://codemagic.io/
-  baseurl_source: declared
+  baseurl_source: spec
   description: REST API endpoints for meta data.
   name: Nevercode Meta API
   slug: nevercode-meta-api
 - baseURL: https://codemagic.io/
-  baseurl_source: declared
+  baseurl_source: spec
   description: REST API endpoints for over-the-air updates.
   name: Nevercode Over-the-air Updates API
   slug: nevercode-over-the-air-updates-api
 - baseURL: https://codemagic.io/
-  baseurl_source: declared
+  baseurl_source: spec
   description: REST API endpoints for environment variables.
   name: Nevercode Secrets and Environment Vars API
   slug: nevercode-secrets-and-environment-vars-api
 - baseURL: https://codemagic.io/
-  baseurl_source: declared
+  baseurl_source: spec
   description: REST API endpoints for team invitations.
   name: Nevercode Team Invitations API
   slug: nevercode-team-invitations-api
 - baseURL: https://codemagic.io/
-  baseurl_source: declared
+  baseurl_source: spec
   description: REST API endpoints for team members.
   name: Nevercode Team Members API
   slug: nevercode-team-members-api
 - baseURL: https://codemagic.io/
-  baseurl_source: declared
+  baseurl_source: spec
   description: REST API endpoints for teams.
   name: Nevercode Teams API
   slug: nevercode-teams-api
 - baseURL: https://codemagic.io/
-  baseurl_source: declared
+  baseurl_source: spec
   description: REST API endpoints for tester groups.
   name: Nevercode Tester Groups API
   slug: nevercode-tester-groups-api
 - baseURL: https://codemagic.io/
-  baseurl_source: declared
+  baseurl_source: spec
   description: REST API endpoints for users.
   name: Nevercode Users API
   slug: nevercode-users-api
@@ -300,21 +300,21 @@ overview: 'Nevercode publishes 13 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 9
 score:
   band: developing
-  composite: 47.8
+  composite: 47.4
   coverage:
     artifact_dirs: 20
-    catalog_earned: 37.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 46.1
     contract_governance: 18.2
-    contract_quality: 54.2
+    contract_quality: 48.8
     developer_ergonomics: 66.1
-    discoverability: 75.9
+    discoverability: 64.3
     operational_transparency: 21.1
   previous_composite: 47.8
   provenance:
@@ -327,8 +327,20 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: ccpa
+    jurisdictions_satisfied: 2
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 29.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

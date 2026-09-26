@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: unknown
     agentic_access: false
     agentic_commerce: false
     auth_clarity: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-09-24'
+  score: 27.3
+  scored_at: '2026-09-25'
 api_count: 11
 apis:
 - description: Whether your team is new to GraphQL, or seasoned experts, learn why Apollo is the fastest and safest way to build and scale your APIs.
@@ -107,7 +107,7 @@ common:
 - group: operate
   title: ''
   type: Forums
-  url: https://community.apollographql.com/?_gl=1*1su9vuw*_gcl_au*Njc4MTcyOTc1LjE3NDk1ODk4Nzg.
+  url: https://community.apollographql.com/
 - group: operate
   title: ''
   type: Support
@@ -139,11 +139,11 @@ common:
 - group: operate
   title: ''
   type: Support
-  url: https://support.apollographql.com/?_gl=1*hmmq01*_gcl_au*Njc4MTcyOTc1LjE3NDk1ODk4Nzg.
+  url: https://support.apollographql.com/
 - group: start
   title: ''
   type: Signup
-  url: https://studio.apollographql.com/signup?_gl=1%2Ahmmq01%2A_gcl_au%2ANjc4MTcyOTc1LjE3NDk1ODk4Nzg.
+  url: https://studio.apollographql.com/signup
 - group: start
   title: ''
   type: Login
@@ -348,27 +348,33 @@ rules:
   slug: apollo-federation-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.9
+  composite: 50.5
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 57.3
+    artifact_dirs: 14
+    catalog_earned: 56.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.8
+    catalog_gap: 58.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 68.4
     contract_governance: 9.8
-    contract_quality: 52.1
-    developer_ergonomics: 42.9
-    discoverability: 72.2
+    contract_quality: 48.9
+    developer_ergonomics: 42.1
+    discoverability: 73.3
     operational_transparency: 55.3
   previous_composite: 50.9
   provenance:
     mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 18.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

@@ -23,7 +23,7 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: na
     mcp_server: platform
@@ -34,25 +34,25 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-09-24'
+  score: 32.9
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: Cometeer's Universal Commerce Protocol shopping service, exposed over MCP (JSON-RPC 2.0 via HTTP POST) at /api/ucp/mcp and advertised from /.well-known/ucp. Thirteen tools cover catalog search and loo
   name: Cometeer UCP Commerce (MCP)
   slug: ucp-commerce
 - baseURL: https://cometeer.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: Collection (category) browsing
   name: Cometeer Collections API
   slug: cometeer-collections-api
 - baseURL: https://cometeer.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: Product catalog browsing
   name: Cometeer Products API
   slug: cometeer-products-api
 - baseURL: https://cometeer.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: Storefront search
   name: Cometeer Search API
   slug: cometeer-search-api
@@ -161,7 +161,7 @@ modified: '2026-08-01'
 name: Cometeer
 nav: Providers
 network: true
-overview: 'Cometeer publishes 3 APIs on the [APIs.io](https://apis.io/) network: Collections API, Products API, and Search API. Tagged areas include Company, Coffee, Food and Beverage, E-Commerce, and Direct to Consumer.
+overview: 'Cometeer publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Products API, Search API, and 1 more. Tagged areas include Company, Coffee, Food and Beverage, E-Commerce, and Direct to Consumer.
 
 
   Cometeer''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 13 more developer resources.'
@@ -173,21 +173,21 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 28.1
+  composite: 30.0
   coverage:
     artifact_dirs: 17
-    catalog_earned: 37.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.9
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 13.1
     developer_ergonomics: 30.4
-    discoverability: 75.9
+    discoverability: 66.7
     operational_transparency: 0.0
   previous_composite: 28.1
   provenance:
@@ -197,10 +197,16 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-    mcp: first-party
+    mcp: platform-generated
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 34.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

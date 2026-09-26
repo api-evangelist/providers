@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: The other direction of the CI HUB platform. A DAM, MAM, PIM, CMS, stock or cloud-storage vendor writes an integration that translates its own proprietary API into CI HUB's handler format using defineI
@@ -194,7 +194,7 @@ modified: '2026-08-12'
 name: CI HUB
 nav: Providers
 network: true
-overview: 'CI HUB publishes 3 APIs on the [APIs.io](https://apis.io/) network: Assets API, Auth API, and System API. Tagged areas include Company, Digital Asset Management, Content Management, Product Information Management, and Integration.
+overview: 'CI HUB publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Auth API, System API, and 2 more. Tagged areas include Company, Digital Asset Management, Content Management, Product Information Management, and Integration.
 
 
   CI HUB''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
@@ -214,7 +214,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.2
+  composite: 61.4
   coverage:
     artifact_dirs: 24
     catalog_earned: 57.0
@@ -222,13 +222,13 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
-    contract_quality: 58.6
+    contract_quality: 52.7
     developer_ergonomics: 80.4
-    discoverability: 75.9
+    discoverability: 75.0
     operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -248,8 +248,14 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 34.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

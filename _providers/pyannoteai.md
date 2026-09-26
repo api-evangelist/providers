@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - baseURL: https://api.pyannote.ai
@@ -252,7 +252,7 @@ rate_limits:
   slug: pyannoteai-rate-limits
 score:
   band: strong
-  composite: 61.4
+  composite: 61.8
   coverage:
     artifact_dirs: 22
     catalog_earned: 61.0
@@ -260,15 +260,15 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.4
   facets:
     access_clarity: 78.9
     contract_governance: 4.5
-    contract_quality: 59.7
+    contract_quality: 54.6
     developer_ergonomics: 78.6
-    discoverability: 75.9
+    discoverability: 75.0
     operational_transparency: 57.9
-  previous_composite: 63.0
+  previous_composite: 61.4
   provenance:
     conformance: derived
     contracts:
@@ -278,8 +278,20 @@ score:
       total: 3
     mcp: first-party
     skills: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 27.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

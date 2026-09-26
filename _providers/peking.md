@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - description: OpenSearch 1.1 query interface returning an Atom feed of repository records, served from the institution's own host. Verified live 2026-08-19 (HTTP 200, 32KB Atom response for query=test).
@@ -248,7 +248,7 @@ modified: '2026-08-19'
 name: Peking University
 nav: Providers
 network: true
-overview: 'Peking University publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Communities API, Harvesting API, and 2 more. Tagged areas include University, Higher Education, Education, China, and Public Research University.
+overview: 'Peking University publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Communities API, Harvesting API, and 8 more. Tagged areas include University, Higher Education, Education, China, and Public Research University.
 
 
   The Peking University catalog on APIs.io includes 1 JSON-LD context.
@@ -271,22 +271,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.4
+  composite: 39.9
   coverage:
     artifact_dirs: 18
-    catalog_earned: 66.3
+    catalog_earned: 64.1
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.8
+    catalog_gap: 50.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: -5.1
   facets:
-    access_clarity: 28.9
+    access_clarity: 26.8
     contract_governance: 22.0
-    contract_quality: 64.1
+    contract_quality: 58.8
     developer_ergonomics: 21.4
-    discoverability: 59.3
-    operational_transparency: 39.5
+    discoverability: 57.1
+    operational_transparency: 37.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -294,7 +294,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 46.7
+  previous_composite: 45.0
   provenance:
     conformance: first-party
     contracts:
@@ -307,10 +307,10 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 64.8
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: flat
+    score: 34.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

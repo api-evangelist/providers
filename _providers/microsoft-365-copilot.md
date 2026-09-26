@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: unknown
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: negotiable
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.7
-  scored_at: '2026-09-24'
+  score: 29.3
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ modified: '2026-05-19'
 name: Microsoft 365 Copilot
 nav: Providers
 network: true
-overview: 'Microsoft 365 Copilot publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Connectors API, External Items API, Search API, and 1 more. Tagged areas include Artificial Intelligence, Copilot, Enterprise, LLM, and Microsoft 365.
+overview: 'Microsoft 365 Copilot publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Connectors API, External Items API, Search API, and 4 more. Tagged areas include Artificial Intelligence, Copilot, Enterprise, LLM, and Microsoft 365.
 
 
   Microsoft 365 Copilot''s developer surface includes authentication, developer portal, support, engineering blog, and 11 more developer resources.'
@@ -202,9 +202,9 @@ score:
   facets:
     access_clarity: 47.4
     contract_governance: 0.0
-    contract_quality: 53.7
-    developer_ergonomics: 71.4
-    discoverability: 75.9
+    contract_quality: 48.6
+    developer_ergonomics: 70.7
+    discoverability: 73.2
     operational_transparency: 42.1
   previous_composite: 51.8
   provenance:
@@ -214,8 +214,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 27.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

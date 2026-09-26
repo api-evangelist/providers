@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.4
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: API for Sixt mobility services, providing endpoints for rentals, reservations, and fleet management.
@@ -72,7 +72,7 @@ common:
 - group: start
   title: ''
   type: SignUp
-  url: https://www.sixt.com/business/register/?register_type=signup&utm_source=sixt.com&utm_medium=retail-website-referral&utm_campaign=US_US_btob_HOME-BOTTOM-RT_RAC_ST_ENG&utm_content=Textlink-RegisterMyBusiness&utm_term=b2b_ref&product_type=undefined
+  url: https://www.sixt.com/business/register/?register_type=signup&product_type=undefined
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -126,25 +126,34 @@ overview: 'Sixt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 16
 score:
   band: emerging
-  composite: 19.1
+  composite: 20.5
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.4
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
-    discoverability: 59.3
+    discoverability: 58.9
     operational_transparency: 15.8
+  previous_composite: 19.1
   provenance:
     mcp: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 25.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

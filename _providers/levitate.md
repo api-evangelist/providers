@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.1
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: Hosted remote MCP server (streamable HTTP) that connects Levitate to AI assistants — Claude Desktop, Claude Code, ChatGPT, Cursor, VS Code Copilot, Windsurf and any MCP-compatible HTTP client. Tools c
@@ -242,7 +242,7 @@ modified: '2026-08-25'
 name: Levitate
 nav: Providers
 network: true
-overview: 'Levitate publishes 3 APIs on the [APIs.io](https://apis.io/) network: Companies API, Contacts API, and Notes API. Tagged areas include relationship-marketing, CRM, Email Marketing, Contacts, and Small Business.
+overview: 'Levitate publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Contacts API, Notes API, and 1 more. Tagged areas include relationship-marketing, CRM, Email Marketing, Contacts, and Small Business.
 
 
   Levitate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 29 more developer resources.'
@@ -262,7 +262,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.0
+  composite: 57.1
   coverage:
     artifact_dirs: 22
     catalog_earned: 49.0
@@ -270,13 +270,13 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.9
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
-    contract_quality: 57.0
+    contract_quality: 51.6
     developer_ergonomics: 49.4
-    discoverability: 68.5
+    discoverability: 68.3
     operational_transparency: 34.2
   previous_composite: 62.0
   provenance:
@@ -293,9 +293,9 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 80.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 46.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

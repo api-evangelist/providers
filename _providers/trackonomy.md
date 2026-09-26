@@ -21,7 +21,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: true
+    event_surface_described: unknown
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -31,8 +31,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.3
-  scored_at: '2026-09-24'
+  score: 3.9
+  scored_at: '2026-09-25'
 api_count: 0
 artifact_total: 1
 common:
@@ -104,8 +104,8 @@ overview: 'Trackonomy is profiled on the [APIs.io](https://apis.io/) network. Ta
   Trackonomy''s developer surface includes support, YouTube channel, and 11 more developer resources.'
 random_paper: 17
 score:
-  band: emerging
-  composite: 11.3
+  band: minimal
+  composite: 10.9
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -113,17 +113,23 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 57.4
+    discoverability: 56.3
     operational_transparency: 6.6
   previous_composite: 11.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 13.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

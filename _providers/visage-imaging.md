@@ -32,23 +32,28 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 5
 apis:
 - description: Open API for integrating third-party and customer AI algorithms into the Visage 7 platform and Visage AI Accelerator research server, unifying research and diagnostic imaging. Publicly described as su
   name: Visage 7 AI Open API
+  provenance: modeled
   slug: visage-imaging-ai-open-api
 - description: REST API introduced in Visage 7 release notes supporting a data-quality (QA) workflow based on delete-and-resend of studies/objects between Visage 7 and connected archives and modalities. Documented o
   name: Visage 7 QA REST API
+  provenance: modeled
   slug: visage-imaging-qa-rest-api
 - description: Standards-based DICOMweb interface for querying, retrieving, and storing imaging studies against the Visage 7 archive-neutral platform - QIDO-RS (query), WADO-RS / WADO-URI (retrieve), and STOW-RS (st
   name: Visage 7 DICOMweb API
+  provenance: modeled
   slug: visage-imaging-dicomweb-api
 - description: HL7 v2 messaging and FHIR-based interoperability for order/result and imaging-context exchange between Visage 7, the EHR, and RIS (including FHIR ImagingStudy / DiagnosticReport resources referenced b
   name: Visage 7 HL7 / FHIR Interoperability API
+  provenance: modeled
   slug: visage-imaging-hl7-fhir-api
 - description: Context / URL launch interface used to open the Visage 7 zero-footprint thin-client viewer to a specific patient, study, or accession from an EHR, RIS, or portal (single sign-on and deep-link paramete
   name: Visage 7 Viewer Launch API
+  provenance: modeled
   slug: visage-imaging-viewer-launch-api
 artifact_total: 6
 common:
@@ -92,7 +97,7 @@ overview: 'Visage Imaging publishes 5 APIs on the [APIs.io](https://apis.io/) ne
 random_paper: 8
 score:
   band: minimal
-  composite: 6.7
+  composite: 7.0
   coverage:
     artifact_dirs: 3
     catalog_earned: 35.0
@@ -100,13 +105,13 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
-    discoverability: 64.8
+    discoverability: 62.5
     operational_transparency: 0.0
   previous_composite: 6.7
   regulatory:
@@ -114,9 +119,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 7.5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 4.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

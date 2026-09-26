@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-09-24'
+  score: 30.1
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -402,23 +402,23 @@ rules:
   slug: tango-rules
 score:
   band: developing
-  composite: 43.8
+  composite: 41.6
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 63.5
+    artifact_dirs: 22
+    catalog_earned: 63.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.5
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.7
+  delta: -2.2
   facets:
     access_clarity: 36.8
-    contract_governance: 28.8
-    contract_quality: 62.7
+    contract_governance: 27.3
+    contract_quality: 57.2
     developer_ergonomics: 36.9
-    discoverability: 75.9
+    discoverability: 75.0
     operational_transparency: 15.8
-  previous_composite: 44.5
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     contracts:
@@ -426,14 +426,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 39.1
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 22.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true
@@ -456,5 +457,6 @@ tags:
 - Incentives
 - Loyalty
 - Rewards As A Service
+- Loyalty & Incentives
 website: https://www.tangocard.com/
 ---

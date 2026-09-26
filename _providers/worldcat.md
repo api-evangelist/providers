@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.6
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 4
@@ -307,7 +307,7 @@ modified: '2026-06-13'
 name: WorldCat
 nav: Providers
 network: true
-overview: 'WorldCat publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Bibliographic Resources API, Local Bib Resources API, Local Holdings Resources API, and 16 more. Tagged areas include Library, Bibliographic Records, WorldCat, OCLC, and Cataloging.
+overview: 'WorldCat publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Bibliographic Resources API, Local Bib Resources API, Local Holdings Resources API, and 17 more. Tagged areas include Library, Bibliographic Records, WorldCat, OCLC, and Cataloging.
 
 
   The WorldCat catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -341,22 +341,22 @@ scopes:
   summary_line: 26 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 46.4
+  composite: 41.5
   coverage:
     artifact_dirs: 16
-    catalog_earned: 78.3
+    catalog_earned: 75.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 36.8
+    catalog_gap: 39.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.4
+  delta: -1.5
   facets:
-    access_clarity: 39.5
+    access_clarity: 36.3
     contract_governance: 9.8
-    contract_quality: 62.5
+    contract_quality: 57.1
     developer_ergonomics: 23.8
-    discoverability: 74.1
-    operational_transparency: 52.6
+    discoverability: 71.4
+    operational_transparency: 49.5
   previous_composite: 43.0
   provenance:
     agentic_access: derived
@@ -370,9 +370,9 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 50.0
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 26.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

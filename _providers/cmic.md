@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -201,7 +201,7 @@ modified: '2026-05-19'
 name: CMiC
 nav: Providers
 network: true
-overview: 'CMiC publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Cost Tracking API, Documents API, Equipment API, and 3 more. Tagged areas include Construction, ERP, Finance, and Project Management.
+overview: 'CMiC publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Cost Tracking API, Documents API, Equipment API, and 4 more. Tagged areas include Construction, ERP, Finance, and Project Management.
 
 
   The CMiC catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -245,22 +245,22 @@ scopes:
   slug: cmic-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: thin
-  composite: 39.2
+  band: developing
+  composite: 39.8
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 60.5
+    artifact_dirs: 16
+    catalog_earned: 59.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.5
+    catalog_gap: 55.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 26.3
     contract_governance: 13.6
-    contract_quality: 63.8
+    contract_quality: 58.2
     developer_ergonomics: 52.4
-    discoverability: 55.6
+    discoverability: 53.6
     operational_transparency: 7.9
   previous_composite: 39.2
   provenance:
@@ -270,8 +270,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 30.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

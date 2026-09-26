@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - description: 'RESTful Web API for managing TeamViewer users, devices, device groups, sessions, session history, and meetings within a TeamViewer company account. Authentication uses OAuth 2.0 bearer tokens (either '
@@ -114,11 +114,17 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 68.5
+    discoverability: 66.1
     operational_transparency: 2.6
   previous_composite: 17.2
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 17.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 3
@@ -982,7 +982,7 @@ modified: '2026-05-19'
 name: Azure Kubernetes Service
 nav: Providers
 network: true
-overview: 'Azure Kubernetes Service publishes 2 APIs on the [APIs.io](https://apis.io/) network: Agent Pools API and Managed Clusters API. Tagged areas include Azure, Cloud, Containers, DevOps, and Kubernetes.
+overview: 'Azure Kubernetes Service publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Agent Pools API, Managed Clusters API, and 5 more. Tagged areas include Azure, Cloud, Containers, DevOps, and Kubernetes.
 
 
   The Azure Kubernetes Service catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -1043,21 +1043,21 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: exemplar
-  composite: 72.2
+  composite: 73.5
   coverage:
     artifact_dirs: 20
-    catalog_earned: 75.0
+    catalog_earned: 72.6
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.0
+    catalog_gap: 42.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 68.4
-    contract_governance: 54.5
-    contract_quality: 63.9
+    contract_governance: 49.1
+    contract_quality: 57.9
     developer_ergonomics: 82.1
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 55.3
   open_source:
     applies: true
@@ -1070,8 +1070,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 39.2
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

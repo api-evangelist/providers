@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +24,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: derived
     idempotency: verified
     mcp_server: false
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.5
-  scored_at: '2026-09-24'
+  score: 0.0
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -264,7 +264,7 @@ modified: '2026-08-26'
 name: Sendle
 nav: Providers
 network: true
-overview: 'Sendle publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Products & Quoting API, Tracking API, and 2 more. Tagged areas include Shipping, Logistics, Last Mile, Parcel, and E-Commerce.
+overview: 'Sendle publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Products & Quoting API, Tracking API, and 2 more. Tagged areas include Shipping, Logistics, Last Mile Delivery, Parcel, and E-Commerce.
 
 
   The Sendle catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -303,23 +303,23 @@ rules:
     warn: 4
   slug: sendle-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 46.3
+  band: minimal
+  composite: 0.0
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 90.5
+    artifact_dirs: 30
+    catalog_earned: 89.4
     catalog_earned_first_party: 24.0
-    catalog_gap: 24.5
+    catalog_gap: 25.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -46.3
   facets:
-    access_clarity: 39.5
-    contract_governance: 33.3
-    contract_quality: 72.4
-    developer_ergonomics: 17.9
-    discoverability: 75.9
-    operational_transparency: 44.7
+    access_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 0.0
+    operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -330,6 +330,7 @@ score:
     regions:
     - anz
     - north-america
+  lifecycle: defunct
   previous_composite: 46.3
   provenance:
     agentic_access: derived
@@ -340,9 +341,15 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 16.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -360,7 +367,7 @@ slug: sendle
 tags:
 - Shipping
 - Logistics
-- Last Mile
+- Last Mile Delivery
 - Parcel
 - E-Commerce
 - Carbon Neutral

@@ -13,7 +13,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,7 +26,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: platform
     openapi_examples: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -35,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.9
-  scored_at: '2026-09-24'
+  score: 37.6
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -260,7 +259,7 @@ modified: '2026-09-06'
 name: Dimensions
 nav: Providers
 network: true
-overview: 'Dimensions publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and Query API. Tagged areas include Analytics, Research, Publications, Grants, and Patents.
+overview: 'Dimensions publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Query API, and 1 more. Tagged areas include Analytics, Research, Publications, Grants, and Patents.
 
 
   Dimensions'' developer surface includes authentication, documentation, support, engineering blog, API reference, getting-started guide, changelog, and 30 more developer resources.'
@@ -280,7 +279,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 51.3
+  composite: 47.9
   coverage:
     artifact_dirs: 26
     catalog_earned: 48.0
@@ -288,13 +287,13 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.4
   facets:
     access_clarity: 35.5
     contract_governance: 18.2
-    contract_quality: 47.6
+    contract_quality: 42.9
     developer_ergonomics: 63.7
-    discoverability: 68.5
+    discoverability: 68.3
     operational_transparency: 63.2
   open_source:
     applies: true
@@ -308,16 +307,16 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-    mcp: first-party
+    mcp: site-plugin
     skills: derived
   regulatory:
     applies: true
     matched_via: tags
-    regime: Insurance
-    regime_id: insurance
-    score: 63.6
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    regime: Health
+    regime_id: health
+    score: 32.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

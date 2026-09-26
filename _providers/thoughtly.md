@@ -25,7 +25,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: false
-    event_surface_described: true
+    event_surface_described: unknown
     idempotency: false
     mcp_server: verified
     openapi_examples: documented
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.2
-  scored_at: '2026-09-24'
+  score: 49.7
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -357,24 +357,24 @@ rules:
     warn: 4
   slug: thoughtly-rules
 score:
-  band: strong
-  composite: 54.7
+  band: developing
+  composite: 51.6
   coverage:
     artifact_dirs: 20
-    catalog_earned: 84.5
+    catalog_earned: 81.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 30.5
+    catalog_gap: 34.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.7
+  delta: -3.1
   facets:
-    access_clarity: 64.5
-    contract_governance: 28.8
-    contract_quality: 65.8
+    access_clarity: 61.3
+    contract_governance: 27.3
+    contract_quality: 59.8
     developer_ergonomics: 48.8
-    discoverability: 68.5
-    operational_transparency: 44.7
-  previous_composite: 55.4
+    discoverability: 68.3
+    operational_transparency: 42.6
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     contracts:
@@ -388,9 +388,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 30.6
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 18.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

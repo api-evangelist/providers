@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -52,33 +52,33 @@ apis:
 - description: Contour's ContourConfiguration Custom Resource Definition (v1alpha1) that provides cluster-scoped configuration of a Contour instance, including ingress settings, TLS defaults, timeouts, and feature g
   name: Contour Configuration API
   slug: contour-configuration-api
-- baseURL: https://projectcontour.io
-  baseurl_source: declared
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
   description: Namespace-scoped resources that describe network infrastructure instances that route traffic. Each Gateway is associated with a GatewayClass and defines listeners for inbound traffic.
   name: Contour Gateway API
   slug: contour-gateway-api
-- baseURL: https://projectcontour.io
-  baseurl_source: declared
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
   description: Cluster-scoped resources that define the controller responsible for managing Gateways of a particular class. GatewayClass is analogous to IngressClass in the legacy Ingress API.
   name: Contour GatewayClass API
   slug: contour-gatewayclass-api
-- baseURL: https://projectcontour.io
-  baseurl_source: declared
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
   description: Operations for managing Contour HTTPProxy custom resources in a Kubernetes cluster. HTTPProxy resources define ingress routing rules for HTTP and HTTPS traffic.
   name: Contour HTTPProxy API
   slug: contour-httpproxy-api
-- baseURL: https://projectcontour.io
-  baseurl_source: declared
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
   description: Namespace-scoped resources that define HTTP routing rules, mapping HTTP/HTTPS requests to backend Kubernetes services based on host, path, headers, and other criteria.
   name: Contour HTTPRoute API
   slug: contour-httproute-api
-- baseURL: https://projectcontour.io
-  baseurl_source: declared
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
   description: Operations for managing TLSCertificateDelegation resources that allow certificates in one namespace to be used by HTTPProxy resources in other namespaces.
   name: Contour TLSCertificateDelegation API
   slug: contour-tlscertificatedelegation-api
-- baseURL: https://projectcontour.io
-  baseurl_source: declared
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
   description: Namespace-scoped resources that define TLS routing rules for routing TLS connections based on SNI hostname to backend services.
   name: Contour TLSRoute API
   slug: contour-tlsroute-api
@@ -363,7 +363,7 @@ modified: '2026-05-19'
 name: Contour
 nav: Providers
 network: true
-overview: 'Contour publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Gateway API, GatewayClass API, HTTPProxy API, and 3 more. Tagged areas include Envoy, Ingress Controller, Kubernetes, Networking, and Proxy.
+overview: 'Contour publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Gateway API, GatewayClass API, HTTPProxy API, and 6 more. Tagged areas include Envoy, Ingress Controller, Kubernetes, Networking, and Proxy.
 
 
   The Contour catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -414,21 +414,21 @@ rules:
   slug: contour-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.9
+  composite: 45.2
   coverage:
     artifact_dirs: 15
-    catalog_earned: 77.0
+    catalog_earned: 69.1
     catalog_earned_first_party: 0.0
-    catalog_gap: 38.0
+    catalog_gap: 45.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.7
   facets:
     access_clarity: 13.2
-    contract_governance: 69.7
-    contract_quality: 59.5
+    contract_governance: 62.7
+    contract_quality: 54.1
     developer_ergonomics: 33.3
-    discoverability: 66.7
+    discoverability: 55.4
     operational_transparency: 36.8
   open_source:
     applies: true
@@ -441,8 +441,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 10.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

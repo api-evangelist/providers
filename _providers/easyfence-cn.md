@@ -23,11 +23,11 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - baseURL: https://www.easyfence.cn
-  baseurl_source: declared
+  baseurl_source: spec
   description: 'The store''s public JSON surface: the service catalog with USD prices and the x402 payment block (GET /api/catalog), the payment-gated delivery endpoint (POST /api/deliver, 402 until a USDC authorizati'
   name: X402 AI 自助门店 Store API
   slug: easyfence-cn-store-api
@@ -148,7 +148,7 @@ modified: '2026-09-19'
 name: X402 AI 自助门店
 nav: Providers
 network: true
-overview: 'X402 AI 自助门店 publishes 2 APIs on the [APIs.io](https://apis.io/) network: Store API and x402 Facilitator API. Tagged areas include Agentic Commerce, AI Agents, A2A, x402, and Payments.
+overview: 'X402 AI 自助门店 publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Store API, x402 Facilitator API, and 1 more. Tagged areas include Agentic Commerce, AI Agents, A2A, x402, and Payments.
 
 
   X402 AI 自助门店''s developer surface includes documentation, API reference, pricing, authentication, and 16 more developer resources.'
@@ -163,21 +163,21 @@ rate_limits:
   slug: easyfence-cn-rate-limits
 score:
   band: thin
-  composite: 32.2
+  composite: 30.2
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 47.0
+    artifact_dirs: 18
+    catalog_earned: 42.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 68.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.0
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
-    contract_quality: 46.9
+    contract_quality: 42.2
     developer_ergonomics: 30.4
-    discoverability: 64.8
+    discoverability: 53.6
     operational_transparency: 0.0
   previous_composite: 32.2
   provenance:
@@ -194,9 +194,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 26.6
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 15.2
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

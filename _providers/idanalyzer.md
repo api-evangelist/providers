@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -239,7 +239,7 @@ modified: '2026-06-13'
 name: ID Analyzer
 nav: Providers
 network: true
-overview: 'ID Analyzer publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account API, AML API, Biometric API, and 6 more. Tagged areas include Identity Verification, KYC, AML, Document OCR, and Biometrics.
+overview: 'ID Analyzer publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account API, AML API, Biometric API, and 10 more. Tagged areas include Identity Verification, KYC, AML, Document OCR, and Biometrics.
 
 
   The ID Analyzer catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -268,22 +268,22 @@ rules:
   slug: idanalyzer-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.6
+  composite: 45.7
   coverage:
     artifact_dirs: 16
-    catalog_earned: 78.3
+    catalog_earned: 75.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 36.8
+    catalog_gap: 39.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
-    access_clarity: 57.9
+    access_clarity: 54.7
     contract_governance: 9.8
-    contract_quality: 66.1
+    contract_quality: 60.2
     developer_ergonomics: 23.8
-    discoverability: 74.1
-    operational_transparency: 52.6
+    discoverability: 71.4
+    operational_transparency: 49.5
   previous_composite: 47.6
   provenance:
     agentic_access: derived
@@ -292,8 +292,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 21.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true
@@ -320,7 +326,7 @@ tags:
 - Document OCR
 - Biometrics
 - Face Matching
-- Fraud Detection
+- Fraud Prevention
 - Passport
 - Driver License
 - Liveness Detection

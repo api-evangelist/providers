@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.1
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 4
 apis:
 - description: 'REST API on api.nefesh.ai (FastAPI): POST /v1/ingest takes a session_id, an ISO 8601 timestamp and at least one of 35+ signal fields and returns the fused state, stress_score, confidence, suggested_ac'
@@ -265,21 +265,21 @@ rate_limits:
   slug: nefesh-ai-rate-limits
 score:
   band: strong
-  composite: 63.5
+  composite: 61.9
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 70.0
+    artifact_dirs: 20
+    catalog_earned: 69.4
     catalog_earned_first_party: 24.0
-    catalog_gap: 45.0
+    catalog_gap: 45.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 49.4
+    contract_quality: 46.0
     developer_ergonomics: 64.3
-    discoverability: 81.5
+    discoverability: 80.0
     operational_transparency: 55.3
   previous_composite: 63.5
   provenance:
@@ -290,9 +290,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 45.0
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 34.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

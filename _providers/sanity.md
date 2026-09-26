@@ -16,7 +16,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: unknown
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.3
-  scored_at: '2026-09-24'
+  score: 48.9
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -423,7 +423,7 @@ modified: '2026-05-30'
 name: Sanity
 nav: Providers
 network: true
-overview: 'Sanity publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Listen API, Mutations API, and 3 more. Tagged areas include Headless CMS, Content Management, GROQ, Real-Time, and Structured Content.
+overview: 'Sanity publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Listen API, Mutations API, and 7 more. Tagged areas include Headless CMS, Content Management, GROQ, Real-Time, and Structured Content.
 
 
   The Sanity catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -473,21 +473,21 @@ rules:
   slug: sanity-rules
 score:
   band: developing
-  composite: 50.6
+  composite: 50.8
   coverage:
     artifact_dirs: 23
-    catalog_earned: 68.5
+    catalog_earned: 67.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.5
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 34.2
-    contract_governance: 28.8
-    contract_quality: 76.0
-    developer_ergonomics: 63.1
-    discoverability: 59.3
+    contract_governance: 27.3
+    contract_quality: 70.7
+    developer_ergonomics: 62.4
+    discoverability: 60.0
     operational_transparency: 26.3
   previous_composite: 50.6
   provenance:
@@ -498,8 +498,14 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 27.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

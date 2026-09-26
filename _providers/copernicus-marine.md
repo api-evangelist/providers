@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 3
 apis:
 - description: The Copernicus Marine Toolbox provides the officially supported programmatic interface to the Copernicus Marine Data Store, available as both a Python library and CLI. Core operations include describe
@@ -146,21 +146,21 @@ rate_limits:
   slug: copernicus-marine-rate-limits
 score:
   band: emerging
-  composite: 25.4
+  composite: 24.7
   coverage:
     artifact_dirs: 8
-    catalog_earned: 56.0
+    catalog_earned: 55.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.0
+    catalog_gap: 59.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
-    access_clarity: 52.6
+    access_clarity: 50.5
     contract_governance: 0.0
     contract_quality: 6.7
     developer_ergonomics: 16.7
-    discoverability: 74.1
+    discoverability: 71.4
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -176,9 +176,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 20.4
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 10.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

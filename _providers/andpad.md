@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,7 +21,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.4
-  scored_at: '2026-09-24'
+  score: 3.2
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: ANDPAD's external REST API for integrating partner services with the ANDPAD construction management platform via the ANDPAD App Market. Served from api.andpad.jp with a versioned /v1 base path, JSON r
@@ -133,7 +133,7 @@ score:
   band: emerging
   composite: 20.4
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -145,7 +145,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 79.6
+    discoverability: 76.8
     operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -155,8 +155,14 @@ score:
     regions:
     - japan-korea
   previous_composite: 20.4
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 17.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

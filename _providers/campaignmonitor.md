@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: REST API for managing email campaigns, subscriber lists, transactional emails, segments, journeys, templates, and campaign performance analytics.
@@ -269,8 +269,8 @@ scopes:
   slug: campaignmonitor-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 70.0
+  band: strong
+  composite: 66.1
   coverage:
     artifact_dirs: 21
     catalog_earned: 68.0
@@ -278,13 +278,13 @@ score:
     catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.9
   facets:
     access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 51.9
+    contract_quality: 49.4
     developer_ergonomics: 57.1
-    discoverability: 68.5
+    discoverability: 66.1
     operational_transparency: 76.3
   previous_composite: 70.0
   provenance:
@@ -299,9 +299,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 73.6
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 44.2
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

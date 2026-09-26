@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: unknown
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
@@ -23,7 +23,7 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.1
-  scored_at: '2026-09-24'
+  score: 47.6
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -1447,7 +1447,7 @@ modified: '2026-08-21'
 name: Red Hat
 nav: Providers
 network: true
-overview: 'Red Hat publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Streams for Apache Kafka Bridge API, Notifications API, Add-Ons API, and 33 more. Tagged areas include Red Hat, Cloud, Containers, Enterprise, and Hybrid Cloud.
+overview: 'Red Hat publishes 75 APIs on the [APIs.io](https://apis.io/) network, including Streams for Apache Kafka Bridge API, Notifications API, Add-Ons API, and 72 more. Tagged areas include Red Hat, Cloud, Containers, Enterprise, and Hybrid Cloud.
 
 
   The Red Hat catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 7 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -1498,7 +1498,7 @@ rules:
   slug: red-hat-spectral-rules
 score:
   band: strong
-  composite: 62.8
+  composite: 64.5
   coverage:
     artifact_dirs: 35
     catalog_earned: 51.5
@@ -1506,13 +1506,13 @@ score:
     catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.7
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
-    contract_quality: 72.8
-    developer_ergonomics: 72.6
-    discoverability: 48.1
+    contract_quality: 67.7
+    developer_ergonomics: 71.9
+    discoverability: 50.0
     operational_transparency: 34.2
   previous_composite: 62.8
   provenance:
@@ -1524,8 +1524,14 @@ score:
       marker_coverage: 0.0
       total: 34
     mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 35.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.7
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
-- acting_count: 5
-  human_in_the_loop: 0
+- acting_count: 124
+  human_in_the_loop: 7
   name: Amazon Redshift Agentic Access
-  operation_count: 10
+  operation_count: 248
   slug: amazon-redshift-agentic-access
-  summary_line: 10 operations · 5 acting
+  summary_line: 248 operations · 124 acting · 7 human-in-the-loop
 api_count: 1
 apis:
 - description: The Amazon Redshift Serverless API for managing serverless data warehouse workgroups, namespaces, and capacity without provisioning clusters.
@@ -67,7 +67,12 @@ apis:
   description: Describe, list, and cancel SQL statement executions
   name: Amazon Redshift Statement Management API
   slug: amazon-redshift-statement-management-api
-artifact_total: 129
+- baseURL: https://redshift-serverless.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Amazon Redshift API from AWS Redshift — 119 operation(s) for amazon redshift.
+  name: Amazon Redshift Amazon Redshift API
+  slug: aws-redshift-amazon-redshift-api
+artifact_total: 130
 collections:
 - collection_type: postman
   name: Amazon Redshift Data Metadata API
@@ -483,7 +488,7 @@ modified: '2026-09-16'
 name: Amazon Redshift
 nav: Providers
 network: true
-overview: 'Amazon Redshift publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Metadata API, Result Retrieval API, Statement Execution API, and 1 more. Tagged areas include Analytics, Big Data, Cloud, Data Lake, and Data Warehouse.
+overview: 'Amazon Redshift publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Metadata API, Result Retrieval API, Statement Execution API, and 3 more. Tagged areas include Analytics, Big Data, Cloud, Data Lake, and Data Warehouse.
 
 
   The Amazon Redshift catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -523,7 +528,7 @@ rules:
   slug: amazon-redshift-spectral-rules
 score:
   band: strong
-  composite: 56.0
+  composite: 58.0
   coverage:
     artifact_dirs: 18
     catalog_earned: 50.5
@@ -531,13 +536,13 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.0
   facets:
     access_clarity: 55.3
     contract_governance: 13.6
-    contract_quality: 62.6
+    contract_quality: 56.7
     developer_ergonomics: 79.8
-    discoverability: 59.3
+    discoverability: 57.1
     operational_transparency: 50.0
   previous_composite: 56.0
   provenance:
@@ -546,13 +551,19 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+      total: 5
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 32.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true
-    score: 0.0
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/screenshots/amazon-redshift-2026-06-20T171811.png
 security:
 - kind: authentication

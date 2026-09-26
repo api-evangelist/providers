@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.1
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -369,9 +369,9 @@ score:
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 51.9
+    contract_quality: 46.7
     developer_ergonomics: 71.4
-    discoverability: 75.9
+    discoverability: 71.7
     operational_transparency: 34.2
   previous_composite: 52.9
   provenance:
@@ -384,8 +384,18 @@ score:
       total: 19
     mcp: first-party
     skills: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 27.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

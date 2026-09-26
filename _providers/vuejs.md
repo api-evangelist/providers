@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 6
 apis:
 - description: 'Core Vue.js composition and options API for building reactive user interfaces. Provides reactivity primitives (ref, reactive, computed, watch), lifecycle hooks, component system, template directives, '
@@ -177,25 +177,31 @@ rules:
   slug: vuejs-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.8
+  composite: 28.9
   coverage:
     artifact_dirs: 12
-    catalog_earned: 55.3
+    catalog_earned: 54.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.8
+    catalog_gap: 60.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 36.8
-    contract_governance: 25.0
-    contract_quality: 17.3
+    contract_governance: 23.5
+    contract_quality: 17.2
     developer_ergonomics: 21.4
-    discoverability: 70.4
+    discoverability: 67.9
     operational_transparency: 28.9
   previous_composite: 29.8
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 12.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

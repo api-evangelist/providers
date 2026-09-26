@@ -14,7 +14,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +24,10 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: platform
     openapi_examples: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -36,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.3
-  scored_at: '2026-09-24'
+  score: 33.6
+  scored_at: '2026-09-25'
 api_count: 14
 apis:
 - description: A remote Model Context Protocol server served from the elementalmachines.com WordPress host via the WordPress MCP Adapter, advertised by /.well-known/oauth-protected-resource and /.well-known/oauth-au
@@ -247,7 +246,7 @@ modified: '2026-09-16'
 name: Elemental Machines
 nav: Providers
 network: true
-overview: 'Elemental Machines publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Alert Logs API, Alert Rules API, Authentication API, and 9 more. Tagged areas include lab-operations, laboratory-monitoring, IoT, Sensors, and Life Sciences.
+overview: 'Elemental Machines publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Alert Logs API, Alert Rules API, Authentication API, and 10 more. Tagged areas include lab-operations, laboratory-monitoring, IoT, Sensors, and Life Sciences.
 
 
   Elemental Machines'' developer surface includes documentation, API reference, support, engineering blog, signup flow, changelog, authentication, and 20 more developer resources.'
@@ -267,7 +266,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.5
+  composite: 45.6
   coverage:
     artifact_dirs: 23
     catalog_earned: 40.0
@@ -275,13 +274,13 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.9
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 45.7
+    contract_quality: 41.1
     developer_ergonomics: 47.0
-    discoverability: 74.1
+    discoverability: 73.3
     operational_transparency: 34.2
   previous_composite: 49.5
   provenance:
@@ -291,16 +290,16 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-    mcp: first-party
+    mcp: site-plugin
     skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 65.0
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 40.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

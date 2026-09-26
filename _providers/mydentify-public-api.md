@@ -23,7 +23,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: verified
     mcp_server: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 36.5
-  scored_at: '2026-09-24'
+  score: 34.4
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -46,32 +46,32 @@ agentic_access:
 api_count: 1
 apis:
 - baseURL: https://mydentify.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Directories API from Mydentify Public API — 2 operation(s) for directories.
   name: Mydentify Public API Directories API
   slug: mydentify-public-api-directories-api
 - baseURL: https://mydentify.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Directories.json API from Mydentify Public API — 1 operation(s) for directories.json.
   name: Mydentify Public API Directories.json API
   slug: mydentify-public-api-directories-json-api
 - baseURL: https://mydentify.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Imports API from Mydentify Public API — 8 operation(s) for imports.
   name: Mydentify Public API Imports API
   slug: mydentify-public-api-imports-api
 - baseURL: https://mydentify.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Leaderboards API from Mydentify Public API — 1 operation(s) for leaderboards.
   name: Mydentify Public API Leaderboards API
   slug: mydentify-public-api-leaderboards-api
 - baseURL: https://mydentify.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Leaderboards.json API from Mydentify Public API — 1 operation(s) for leaderboards.json.
   name: Mydentify Public API Leaderboards.json API
   slug: mydentify-public-api-leaderboards-json-api
 - baseURL: https://mydentify.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Product Categories.json API from Mydentify Public API — 1 operation(s) for product categories.json.
   name: Mydentify Public API Product Categories.json API
   slug: mydentify-public-api-product-categories-json-api
@@ -237,21 +237,21 @@ overview: 'Mydentify Public API publishes 6 APIs on the [APIs.io](https://apis.i
 random_paper: 4
 score:
   band: developing
-  composite: 42.6
+  composite: 41.6
   coverage:
     artifact_dirs: 20
-    catalog_earned: 37.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 48.0
+    contract_quality: 43.4
     developer_ergonomics: 64.3
-    discoverability: 75.9
+    discoverability: 64.3
     operational_transparency: 10.5
   previous_composite: 42.6
   provenance:
@@ -264,8 +264,14 @@ score:
       total: 6
     mcp: derived
     skills: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 24.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

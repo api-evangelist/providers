@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - description: The Army National Guard Recruiting API provides access to job listings, Military Occupational Specialties (MOS), unit locations, and recruiter contact information for prospective members interested in
@@ -118,7 +118,7 @@ rate_limits:
   slug: army-national-guard-rate-limits
 score:
   band: emerging
-  composite: 19.1
+  composite: 18.3
   coverage:
     artifact_dirs: 5
     catalog_earned: 41.0
@@ -126,13 +126,13 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 59.3
+    discoverability: 57.1
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -145,9 +145,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 25.9
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 13.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

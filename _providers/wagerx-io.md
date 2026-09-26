@@ -11,7 +11,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: documented
@@ -22,12 +22,12 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.5
-  scored_at: '2026-09-24'
+  score: 31.3
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - baseURL: https://wagerx.io
-  baseurl_source: declared
+  baseurl_source: spec
   description: Public read-only REST feeds for dated crypto-casino audit evidence (all audits, one audit by slug), the regulatory intelligence alert feed, the Trump Crypto and Slot Hype indexes, latest news, and the
   name: WagerX iGaming & Regulatory Intelligence API
   slug: wagerx-igaming-regulatory-intelligence-api
@@ -226,7 +226,7 @@ modified: '2026-09-19'
 name: WagerX
 nav: Providers
 network: true
-overview: 'WagerX publishes 1 API on the [APIs.io](https://apis.io/) network: iGaming & Regulatory Intelligence API. Tagged areas include Company, Gambling, iGaming, Casinos, and Regulatory Intelligence.
+overview: 'WagerX publishes 3 APIs on the [APIs.io](https://apis.io/) network, including iGaming & Regulatory Intelligence API, and 2 more. Tagged areas include Company, Gambling, iGaming, Casinos, and Regulatory Intelligence.
 
 
   WagerX''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 32 more developer resources.'
@@ -241,21 +241,21 @@ rate_limits:
   slug: wagerx-io-rate-limits
 score:
   band: developing
-  composite: 44.4
+  composite: 44.5
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 53.0
+    artifact_dirs: 19
+    catalog_earned: 48.0
     catalog_earned_first_party: 16.0
-    catalog_gap: 62.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
-    contract_quality: 49.4
+    contract_quality: 44.4
     developer_ergonomics: 47.0
-    discoverability: 87.0
+    discoverability: 78.3
     operational_transparency: 47.4
   previous_composite: 44.4
   provenance:
@@ -267,8 +267,14 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 30.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

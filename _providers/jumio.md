@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.5
-  scored_at: '2026-09-24'
+  score: 14.7
+  scored_at: '2026-09-25'
 api_count: 14
 apis:
 - description: Initiates and retrieves ID verification transactions. Issues a token used to start the SDK or hosted web flow, accepts callback events when the verification is complete, and exposes endpoints to retri
@@ -147,7 +147,7 @@ modified: '2026-05-30'
 name: Jumio
 nav: Providers
 network: true
-overview: 'Jumio publishes 1 API on the [APIs.io](https://apis.io/) network: Callback / Webhook. Tagged areas include KYC, Identity Verification, Biometrics, AML, and Fraud Prevention.
+overview: 'Jumio publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Callback / Webhook, and 13 more. Tagged areas include KYC, Identity Verification, Biometrics, AML, and Fraud Prevention.
 
 
   The Jumio catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -177,7 +177,7 @@ rules:
   slug: jumio-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 28.0
+  composite: 26.5
   coverage:
     artifact_dirs: 9
     catalog_earned: 52.5
@@ -185,17 +185,23 @@ score:
     catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
     access_clarity: 21.1
     contract_governance: 13.6
-    contract_quality: 42.7
+    contract_quality: 40.6
     developer_ergonomics: 11.9
-    discoverability: 74.1
+    discoverability: 71.4
     operational_transparency: 13.2
   previous_composite: 28.0
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 10.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

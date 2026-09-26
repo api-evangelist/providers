@@ -21,7 +21,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: true
+    event_surface_described: unknown
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -31,8 +31,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-09-24'
+  score: 16.8
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - description: OASIS Standard publish/subscribe messaging protocol for IoT and M2M communication. MQTT v5.0 defines the wire format and behavior of CONNECT, PUBLISH, SUBSCRIBE, UNSUBSCRIBE, PINGREQ, DISCONNECT and o
@@ -80,14 +80,14 @@ modified: '2026-09-16'
 name: MQTT
 nav: Providers
 network: true
-overview: 'MQTT publishes 1 API on the [APIs.io](https://apis.io/) network: Version 5.0 Protocol. Tagged areas include MQTT, Messaging, Publish Subscribe, IoT, and M2M.
+overview: 'MQTT publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Version 5.0 Protocol, and 1 more. Tagged areas include MQTT, Messaging, Publish Subscribe, IoT, and M2M.
 
 
   MQTT''s developer surface includes engineering blog and 6 more developer resources.'
 random_paper: 14
 score:
   band: emerging
-  composite: 18.3
+  composite: 16.0
   coverage:
     artifact_dirs: 4
     catalog_earned: 37.0
@@ -95,17 +95,23 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.3
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 42.7
+    contract_quality: 40.0
     developer_ergonomics: 2.4
-    discoverability: 68.5
+    discoverability: 66.1
     operational_transparency: 2.6
   previous_composite: 18.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 5.9
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

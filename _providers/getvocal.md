@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.1
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,17 +43,17 @@ agentic_access:
 api_count: 1
 apis:
 - baseURL: https://www.getvocal.ai
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Contact API from GetVocal — 1 operation(s) for contact.
   name: GetVocal Contact API
   slug: getvocal-contact-api
 - baseURL: https://www.getvocal.ai
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Llms.txt API from GetVocal — 1 operation(s) for llms.txt.
   name: GetVocal Llms.txt API
   slug: getvocal-llms-txt-api
 - baseURL: https://www.getvocal.ai
-  baseurl_source: declared
+  baseurl_source: spec
   description: The .well Known API from GetVocal — 1 operation(s) for .well known.
   name: GetVocal .well Known API
   slug: getvocal-well-known-api
@@ -173,21 +173,21 @@ overview: 'GetVocal publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 random_paper: 17
 score:
   band: thin
-  composite: 33.7
+  composite: 31.5
   coverage:
     artifact_dirs: 14
-    catalog_earned: 37.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.2
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 49.7
+    contract_quality: 44.7
     developer_ergonomics: 13.7
-    discoverability: 75.9
+    discoverability: 64.3
     operational_transparency: 2.6
   previous_composite: 33.7
   provenance:
@@ -200,8 +200,22 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: eu-ai-act
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 17.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

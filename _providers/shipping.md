@@ -33,11 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 3
 apis:
 - description: Shipping.com provides a marketplace and intelligence platform for the ocean freight and logistics industry. The platform aggregates freight rates from major carriers and provides rate comparison, mark
   name: Shipping.com Rate Intelligence Platform
+  provenance: unpublished
   slug: shipping-platform
 - description: The Freightos Baltic Index is the global benchmark for container freight rates, providing weekly assessments of freight rates across major trade lanes. The FBX provides spot market freight rate data f
   name: Freightos Baltic Index (FBX)
@@ -147,21 +148,21 @@ rules:
   slug: shipping-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 21.6
+  composite: 20.4
   coverage:
     artifact_dirs: 12
-    catalog_earned: 60.3
+    catalog_earned: 59.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.8
+    catalog_gap: 55.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.2
   facets:
     access_clarity: 15.8
-    contract_governance: 25.0
-    contract_quality: 17.3
+    contract_governance: 23.5
+    contract_quality: 17.2
     developer_ergonomics: 17.9
-    discoverability: 64.8
+    discoverability: 62.5
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -169,8 +170,14 @@ score:
     regions:
     - north-america
   previous_composite: 21.6
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 10.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

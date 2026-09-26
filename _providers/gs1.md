@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: 'GS1 AISBL''s own live, unauthenticated GS1-Conformant Resolver, implementing the GS1-Conformant Resolver Standard 1.2.0. It takes a GS1 Digital Link URI built from a GS1 identification key and returns '
@@ -181,7 +181,7 @@ modified: '2026-07-30'
 name: GS1
 nav: Providers
 network: true
-overview: 'GS1 publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Capture API, Discovery API, Events API, and 3 more. Tagged areas include Logistics, Supply Chain, Belgium, Standards, and Track and Trace.
+overview: 'GS1 publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Capture API, Discovery API, Events API, and 4 more. Tagged areas include Logistics, Supply Chain, Belgium, Standards, and Track and Trace.
 
 
   The GS1 catalog on APIs.io includes 1 JSON-LD context.
@@ -191,21 +191,21 @@ overview: 'GS1 publishes 6 APIs on the [APIs.io](https://apis.io/) network, incl
 random_paper: 3
 score:
   band: emerging
-  composite: 24.1
+  composite: 20.4
   coverage:
     artifact_dirs: 8
-    catalog_earned: 57.0
+    catalog_earned: 55.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.0
+    catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.7
   facets:
     access_clarity: 0.0
-    contract_governance: 15.2
-    contract_quality: 55.4
+    contract_governance: 13.6
+    contract_quality: 50.2
     developer_ergonomics: 9.5
-    discoverability: 68.5
+    discoverability: 66.1
     operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -222,8 +222,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 2.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

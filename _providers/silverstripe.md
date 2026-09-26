@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - description: 'SilverStripe''s GraphQL API provides a content API layer for getting data in and out of the CMS. It supports schema generation from DataObject models, custom types and queries, and extensible schemas. '
@@ -154,29 +154,35 @@ rate_limits:
   name: Silverstripe Rate Limits
   slug: silverstripe-rate-limits
 score:
-  band: developing
-  composite: 40.4
+  band: thin
+  composite: 38.4
   coverage:
     artifact_dirs: 9
-    catalog_earned: 60.0
+    catalog_earned: 58.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 26.8
     contract_governance: 0.0
-    contract_quality: 41.5
+    contract_quality: 39.4
     developer_ergonomics: 28.6
-    discoverability: 68.5
-    operational_transparency: 68.4
+    discoverability: 66.1
+    operational_transparency: 65.3
   open_source:
     applies: true
     score: 65.0
   previous_composite: 40.4
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 11.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

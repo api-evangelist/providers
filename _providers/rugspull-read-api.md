@@ -23,7 +23,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: na
     mcp_server: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 32.1
-  scored_at: '2026-09-24'
+  score: 29.6
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,27 +46,27 @@ agentic_access:
 api_count: 2
 apis:
 - baseURL: https://rugspull.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: Read-only indexer checkpoints and warnings.
   name: Rugspull Read API Indexer API
   slug: rugspull-read-api-indexer-api
 - baseURL: https://rugspull.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: Event-derived market points and sparklines; not a price oracle.
   name: Rugspull Read API Market API
   slug: rugspull-read-api-market-api
 - baseURL: https://rugspull.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: Public immutable metadata and image objects.
   name: Rugspull Read API Objects API
   slug: rugspull-read-api-objects-api
 - baseURL: https://rugspull.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: Current-Factory discovery cache and indexed event records.
   name: Rugspull Read API Rugs API
   slug: rugspull-read-api-rugs-api
 - baseURL: https://rugspull.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: Liveness and public configuration.
   name: Rugspull Read API Service API
   slug: rugspull-read-api-service-api
@@ -242,21 +242,21 @@ rate_limits:
   slug: rugspull-read-api-rate-limits
 score:
   band: thin
-  composite: 38.4
+  composite: 37.1
   coverage:
     artifact_dirs: 22
-    catalog_earned: 37.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
-    contract_quality: 50.6
+    contract_quality: 45.8
     developer_ergonomics: 61.3
-    discoverability: 75.9
+    discoverability: 64.3
     operational_transparency: 28.9
   previous_composite: 38.4
   provenance:
@@ -269,8 +269,14 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 22.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

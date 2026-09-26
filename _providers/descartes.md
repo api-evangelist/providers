@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 6
 apis:
 - description: Real-time freight and shipment visibility. Lets a shipper, broker, or 3PL create, update, monitor, and stop tracking sessions on loads directly from a TMS or ERP and receive location, order-status, tr
@@ -47,9 +47,11 @@ apis:
   slug: descartes-macropoint-carrier-api
 - description: Trade content and classification for customs and regulatory compliance. Delivers Harmonized System (HS) codes and product classification, current tariff and duty rates and preferential-tariff details,
   name: Descartes CustomsInfo Trade Content API
+  provenance: modeled
   slug: descartes-customsinfo-trade-content-api
 - description: Programmatic access to Descartes Datamyne's global import/export trade data - bill-of-lading and customs records, trade flows, and company/commodity intelligence - for embedding market and supply chai
   name: Descartes Datamyne Global Trade Data API
+  provenance: modeled
   slug: descartes-datamyne-trade-data-api
 - description: Real-time B2B connectivity over the Descartes Global Logistics Network, complementing traditional EDI. Provides synchronous request/response integrations for marketplace connectivity (exchanging listi
   name: Descartes B2B API Connectivity
@@ -108,7 +110,7 @@ modified: '2026-07-05'
 name: Descartes Systems Group
 nav: Providers
 network: true
-overview: 'Descartes Systems Group publishes 1 API on the [APIs.io](https://apis.io/) network: Descartes MacroPoint Carrier Integration API. Tagged areas include Logistics, Supply Chain, Freight Visibility, Shipment Tracking, and Customs Compliance.
+overview: 'Descartes Systems Group publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Descartes MacroPoint Carrier Integration API, and 5 more. Tagged areas include Logistics, Supply Chain, Freight Visibility, Shipment Tracking, and Customs Compliance.
 
 
   Descartes Systems Group''s developer surface includes documentation and 8 more developer resources.'
@@ -123,31 +125,31 @@ rate_limits:
   slug: descartes-rate-limits
 score:
   band: emerging
-  composite: 20.1
+  composite: 19.7
   coverage:
     artifact_dirs: 6
-    catalog_earned: 62.0
+    catalog_earned: 59.6
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.0
+    catalog_gap: 55.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
-    access_clarity: 39.5
+    access_clarity: 36.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
-    discoverability: 64.8
-    operational_transparency: 31.6
+    discoverability: 62.5
+    operational_transparency: 28.4
   previous_composite: 20.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 8.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 5.0
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

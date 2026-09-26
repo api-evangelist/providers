@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.3
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -404,7 +404,7 @@ modified: '2026-08-26'
 name: Mercedes-Benz Mercedes me
 nav: Providers
 network: true
-overview: 'Mercedes-Benz Mercedes me publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Components API, Configurations API, Dealer search API, and 8 more. Tagged areas include Automotive, Connected Car, Connected Vehicles, Daimler, and Fleet Management.
+overview: 'Mercedes-Benz Mercedes me publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Components API, Configurations API, Dealer search API, and 14 more. Tagged areas include Automotive, Connected Car, Connected Vehicles, Daimler, and Fleet Management.
 
 
   The Mercedes-Benz Mercedes me catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -449,21 +449,21 @@ scopes:
   summary_line: 38 scopes
 score:
   band: developing
-  composite: 51.2
+  composite: 51.9
   coverage:
     artifact_dirs: 30
-    catalog_earned: 80.5
+    catalog_earned: 79.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 34.5
+    catalog_gap: 36.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 39.5
-    contract_governance: 47.0
-    contract_quality: 72.1
+    contract_governance: 45.5
+    contract_quality: 66.4
     developer_ergonomics: 58.9
-    discoverability: 64.8
+    discoverability: 62.5
     operational_transparency: 15.8
   previous_composite: 51.2
   provenance:
@@ -476,8 +476,14 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 32.4
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

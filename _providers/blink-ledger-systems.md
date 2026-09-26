@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - description: Browser SDK exposing window.blinkSDK. Provides Login with Blink (getAuthorizationCode), subscription entitlement checks (isSubscribed, getSubscription, onSubscriptionChange), single-article charging (
@@ -209,7 +209,7 @@ modified: '2026-07-20'
 name: Blink Ledger Systems
 nav: Providers
 network: true
-overview: 'Blink Ledger Systems publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, OAuth Applications API, and Users API. Tagged areas include Company, Infrastructure, Payments, Identity, and Authentication.
+overview: 'Blink Ledger Systems publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, OAuth Applications API, Users API, and 2 more. Tagged areas include Company, Infrastructure, Payments, Identity, and Authentication.
 
 
   The Blink Ledger Systems catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -233,7 +233,7 @@ score:
     contract_governance: 4.5
     contract_quality: 21.0
     developer_ergonomics: 61.3
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 23.7
   previous_composite: 27.1
   provenance:
@@ -250,9 +250,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 26.6
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 15.2
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

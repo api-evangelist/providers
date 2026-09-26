@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,24 +44,16 @@ agentic_access:
   summary_line: 8 operations · 4 acting
 api_count: 1
 apis:
-- baseURL: http://www.mollybox.cn
-  baseurl_source: declared
-  description: The Admin API from MollyBox — 1 operation(s) for admin.
+- description: The Admin API from MollyBox — 1 operation(s) for admin.
   name: MollyBox Admin API
   slug: mollybox-admin-api
-- baseURL: http://www.mollybox.cn
-  baseurl_source: declared
-  description: The Health API from MollyBox — 1 operation(s) for health.
+- description: The Health API from MollyBox — 1 operation(s) for health.
   name: MollyBox Health API
   slug: mollybox-health-api
-- baseURL: http://www.mollybox.cn
-  baseurl_source: declared
-  description: The Me API from MollyBox — 1 operation(s) for me.
+- description: The Me API from MollyBox — 1 operation(s) for me.
   name: MollyBox Me API
   slug: mollybox-me-api
-- baseURL: http://www.mollybox.cn
-  baseurl_source: declared
-  description: The Resources API from MollyBox — 4 operation(s) for resources.
+- description: The Resources API from MollyBox — 4 operation(s) for resources.
   name: MollyBox Resources API
   slug: mollybox-resources-api
 artifact_total: 12
@@ -156,21 +148,21 @@ overview: 'MollyBox publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 6
 score:
   band: emerging
-  composite: 25.5
+  composite: 23.3
   coverage:
     artifact_dirs: 15
-    catalog_earned: 37.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.2
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 48.1
+    contract_quality: 43.3
     developer_ergonomics: 30.4
-    discoverability: 75.9
+    discoverability: 64.3
     operational_transparency: 0.0
   previous_composite: 25.5
   provenance:
@@ -183,8 +175,14 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 16.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

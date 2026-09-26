@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -188,7 +188,7 @@ modified: '2026-06-13'
 name: PubChem
 nav: Providers
 network: true
-overview: 'PubChem publishes 3 APIs on the [APIs.io](https://apis.io/) network: Compounds API, Structure Search API, and Utilities API. Tagged areas include Chemistry, Chemical Compounds, Drug Discovery, Bioassay, and Life Sciences.
+overview: 'PubChem publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Compounds API, Structure Search API, Utilities API, and 4 more. Tagged areas include Chemistry, Chemical Compounds, Drug Discovery, Bioassay, and Life Sciences.
 
 
   The PubChem catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -217,22 +217,22 @@ rules:
   slug: pubchem-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.8
+  composite: 41.9
   coverage:
     artifact_dirs: 15
-    catalog_earned: 71.3
+    catalog_earned: 69.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.8
+    catalog_gap: 45.7
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.9
   facets:
-    access_clarity: 63.2
+    access_clarity: 61.1
     contract_governance: 9.8
-    contract_quality: 59.9
+    contract_quality: 54.4
     developer_ergonomics: 14.3
-    discoverability: 75.9
-    operational_transparency: 36.8
+    discoverability: 73.2
+    operational_transparency: 33.7
   previous_composite: 44.8
   provenance:
     agentic_access: derived
@@ -246,9 +246,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 23.8
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 14.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

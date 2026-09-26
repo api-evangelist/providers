@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: true
     idempotency: false
     mcp_server: verified
@@ -33,12 +33,12 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 57.7
-  scored_at: '2026-09-24'
+  score: 55.5
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
-- baseURL: https://demodesk.com
-  baseurl_source: declared
+- baseURL_template: https://{defaultHost}
+  baseurl_source: spec_template
   description: The Externally recorded demos API from Demodesk — 3 operation(s) for externally recorded demos.
   name: Demodesk Externally recorded demos API
   slug: demodesk-externally-recorded-demos-api
@@ -52,8 +52,8 @@ apis:
   description: Endpoints regarding user management.
   name: Demodesk Users API
   slug: demodesk-users-api
-- baseURL: https://demodesk.com
-  baseurl_source: declared
+- baseURL: https://demodesk.com/api/v2
+  baseurl_source: spec
   description: The Demodesk Public API API from Demodesk — 0 operation(s) for demodesk public api.
   name: Demodesk Public API
   slug: demodesk-demodesk-public-api-api
@@ -267,21 +267,21 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 56.6
+  composite: 56.8
   coverage:
     artifact_dirs: 23
-    catalog_earned: 57.0
+    catalog_earned: 52.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 60.3
+    contract_quality: 55.1
     developer_ergonomics: 47.0
-    discoverability: 75.9
+    discoverability: 66.7
     operational_transparency: 60.5
   previous_composite: 56.6
   provenance:
@@ -293,8 +293,18 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 31.8
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

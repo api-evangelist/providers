@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - description: 'Razer Chroma REST API for controlling 16.8-million-color RGB lighting effects across Chroma-enabled keyboards, mice, headsets, mousepads, keypads and ChromaLink devices. Clients POST application info '
@@ -118,7 +118,7 @@ overview: 'Razer publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 20
 score:
   band: emerging
-  composite: 14.9
+  composite: 15.3
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -126,13 +126,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 75.9
+    discoverability: 73.2
     operational_transparency: 2.6
   previous_composite: 14.9
   regulatory:
@@ -140,9 +140,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 18.8
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 10.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

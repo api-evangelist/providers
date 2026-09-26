@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-09-24'
+  score: 3.1
+  scored_at: '2026-09-25'
 api_count: 10
 apis:
 - description: Hokkaido University's own Shibboleth/SAML 2.0 identity provider, entityID https://shib-idp01.iic.hokudai.ac.jp/idp/shibboleth, scope hokudai.ac.jp, registered in the GakuNin national academic federati
@@ -192,7 +192,7 @@ rate_limits:
   slug: hokkaido-rate-limits
 score:
   band: emerging
-  composite: 23.2
+  composite: 21.5
   coverage:
     artifact_dirs: 10
     catalog_earned: 50.0
@@ -206,7 +206,7 @@ score:
     contract_governance: 0.0
     contract_quality: 17.3
     developer_ergonomics: 26.2
-    discoverability: 64.8
+    discoverability: 62.5
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -215,7 +215,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 23.2
+  previous_composite: 21.5
   provenance:
     conformance: first-party
   regulatory:
@@ -223,9 +223,9 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 38.9
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 20.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

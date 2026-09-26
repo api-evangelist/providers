@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ modified: '2026-07-03'
 name: Leafly
 nav: Providers
 network: true
-overview: 'Leafly publishes 2 APIs on the [APIs.io](https://apis.io/) network: Menu API and Status API. Tagged areas include Cannabis, Dispensary, Menu Sync, POS Integration, and Retail.
+overview: 'Leafly publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Menu API, Status API, and 1 more. Tagged areas include Cannabis, Dispensary, Menu Sync, POS Integration, and Retail.
 
 
   Leafly''s developer surface includes authentication, documentation, signup flow, support, engineering blog, and 9 more developer resources.'
@@ -164,23 +164,23 @@ scopes:
   slug: leafly-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 40.1
+  band: thin
+  composite: 38.7
   coverage:
     artifact_dirs: 13
-    catalog_earned: 60.0
+    catalog_earned: 58.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 42.1
+    access_clarity: 40.0
     contract_governance: 0.0
-    contract_quality: 50.3
+    contract_quality: 45.3
     developer_ergonomics: 33.3
-    discoverability: 68.5
-    operational_transparency: 31.6
+    discoverability: 66.1
+    operational_transparency: 28.4
   previous_composite: 40.1
   provenance:
     agentic_access: derived
@@ -189,8 +189,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 21.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

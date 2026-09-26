@@ -26,14 +26,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-09-24'
+  score: 19.1
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -225,29 +225,35 @@ rate_limits:
   slug: dronedeploy-rate-limits
 score:
   band: thin
-  composite: 38.8
+  composite: 38.1
   coverage:
     artifact_dirs: 12
-    catalog_earned: 67.0
+    catalog_earned: 64.6
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
+    catalog_gap: 50.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -9.3
+  delta: -0.7
   facets:
-    access_clarity: 67.1
+    access_clarity: 63.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 57.1
-    discoverability: 74.1
-    operational_transparency: 50.0
-  previous_composite: 48.1
+    developer_ergonomics: 56.7
+    discoverability: 73.3
+    operational_transparency: 46.8
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: falling
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 19.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

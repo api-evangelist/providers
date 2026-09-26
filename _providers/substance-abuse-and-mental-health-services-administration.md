@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ modified: '2026-05-19'
 name: Substance Abuse and Mental Health Services Administration
 nav: Providers
 network: true
-overview: 'Substance Abuse and Mental Health Services Administration publishes 1 API on the [APIs.io](https://apis.io/) network: Treatment Facilities API. Tagged areas include Federal Government, Public Health, Behavioral Health, Substance Use Disorders, and Mental Health.
+overview: 'Substance Abuse and Mental Health Services Administration publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Treatment Facilities API, and 2 more. Tagged areas include Federal Government, Public Health, Behavioral Health, Substance Use Disorders, and Mental Health.
 
 
   The Substance Abuse and Mental Health Services Administration catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -218,22 +218,22 @@ rules:
     warn: 3
   slug: substance-abuse-and-mental-health-services-administration-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 41.3
+  band: thin
+  composite: 38.4
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 54.3
+    artifact_dirs: 15
+    catalog_earned: 53.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.8
+    catalog_gap: 46.3
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.9
   facets:
     access_clarity: 57.1
-    contract_governance: 25.0
-    contract_quality: 63.3
+    contract_governance: 23.5
+    contract_quality: 58.0
     developer_ergonomics: 7.1
-    discoverability: 59.3
+    discoverability: 57.1
     operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -253,9 +253,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 35.2
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 18.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

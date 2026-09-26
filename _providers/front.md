@@ -24,7 +24,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: true
+    event_surface_described: unknown
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-09-24'
+  score: 25.4
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 0
@@ -355,6 +355,11 @@ collections:
   slug: open-front-views-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/front/refs/heads/main/vendor-facets/front-vendor-facets.yml
+  title: ''
+  type: VendorFacets
+  url: vendor-facets/front-vendor-facets.yml
+- group: other
   href: https://raw.githubusercontent.com/api-evangelist/front/refs/heads/main/capabilities/front-capability-edges.yml
   title: ''
   type: CapabilityMap
@@ -487,10 +492,10 @@ modified: '2026-05-30'
 name: Front
 nav: Providers
 network: true
-overview: 'Front publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Analytics API, Application Message Templates API, and 33 more. Tagged areas include Customer Support, Email, Inbox, Customer Operations, and Collaboration.
+overview: 'Front publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Analytics API, Application Message Templates API, and 36 more. Tagged areas include Customer Support, Email, Inbox, Customer Operations, and Collaboration.
 
 
-  Front''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 19 more developer resources.'
+  Front''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 20 more developer resources.'
 plans:
 - name: Front Plans Pricing
   plan_count: 10
@@ -505,21 +510,21 @@ rate_limits:
   slug: front-rate-limits
 score:
   band: developing
-  composite: 49.2
+  composite: 49.3
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 51.0
     catalog_earned_first_party: 24.0
     catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 75.0
     contract_governance: 0.0
-    contract_quality: 55.9
+    contract_quality: 50.6
     developer_ergonomics: 29.8
-    discoverability: 51.9
+    discoverability: 50.0
     operational_transparency: 53.9
   previous_composite: 49.2
   provenance:
@@ -529,8 +534,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 26.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

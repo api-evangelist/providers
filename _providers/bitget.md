@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 7
 apis:
 - description: REST API for spot trading on Bitget including market data, order management, account queries, wallet operations, and sub-account management.
@@ -126,14 +126,14 @@ modified: '2026-06-13'
 name: Bitget
 nav: Providers
 network: true
-overview: 'Bitget publishes 1 API on the [APIs.io](https://apis.io/) network: Spot Trading API. Tagged areas include Cryptocurrency, Exchange, Spot Trading, Futures, and Perpetual Contracts.
+overview: 'Bitget publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Spot Trading API, and 6 more. Tagged areas include Cryptocurrency, Exchange, Spot Trading, Futures, and Perpetual Contracts.
 
 
   Bitget''s developer surface includes authentication, changelog, support, getting-started guide, and 10 more developer resources.'
 random_paper: 1
 score:
   band: emerging
-  composite: 23.9
+  composite: 23.8
   coverage:
     artifact_dirs: 8
     catalog_earned: 40.0
@@ -141,13 +141,13 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 26.7
+    contract_quality: 24.0
     developer_ergonomics: 45.2
-    discoverability: 74.1
+    discoverability: 71.4
     operational_transparency: 23.7
   previous_composite: 23.9
   regulatory:
@@ -155,9 +155,9 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 20.0
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 11.1
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

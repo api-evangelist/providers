@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 8
 apis:
 - description: 'Publicly documented HL7 FHIR Release 4 API for retrieving medication history panels and near-real-time Prescription Notifications for enrolled patient populations. Panels and notifications are pulled '
@@ -46,21 +46,27 @@ apis:
   slug: surescripts-formulary-download-api
 - description: 'Routes electronic prescriptions between prescribers and pharmacies over the NCPDP SCRIPT standard (version 2023011), supporting NewRx, RxRenewalRequest/Response, RxChangeRequest/Response, RxTransfer, '
   name: Surescripts E-Prescribing
+  provenance: modeled
   slug: surescripts-e-prescribing-api
 - description: 'Verifies patient pharmacy benefit eligibility and returns formulary and benefit coverage details so prescribers see coverage and coverage alternatives in workflow. Eligibility rides X12 270 request / '
   name: Surescripts Eligibility and Formulary
+  provenance: modeled
   slug: surescripts-eligibility-formulary-api
 - description: Returns patient-specific, real-time out-of-pocket drug cost, coverage status, and therapeutic alternatives at the point of prescribing, as a synchronous RTPBRequest/RTPBResponse pair. Implements the N
   name: Surescripts Real-Time Prescription Benefit
+  provenance: modeled
   slug: surescripts-real-time-prescription-benefit-api
 - description: Automates electronic prior authorization (ePA) between prescribers and PBMs/payers using the NCPDP SCRIPT ePA transaction set (PAInitiationRequest, PARequest, PAResponse, and related messages) alongsi
   name: Surescripts Electronic Prior Authorization
+  provenance: modeled
   slug: surescripts-electronic-prior-authorization-api
 - description: Provides secure, HIPAA-compliant clinical message exchange (Direct Secure Messaging) for care coordination between providers, including transitions of care and referrals. Delivered over the Direct Sta
   name: Surescripts Clinical Direct Messaging
+  provenance: modeled
   slug: surescripts-clinical-direct-messaging-api
 - description: 'Locates where a patient has clinical records across the network and enables retrieval of relevant clinical documents to inform care decisions. Delivered to certified participants through the network; '
   name: Surescripts Record Locator and Exchange
+  provenance: modeled
   slug: surescripts-record-locator-exchange-api
 artifact_total: 13
 common:
@@ -209,8 +215,8 @@ rate_limits:
   name: Surescripts Rate Limits
   slug: surescripts-rate-limits
 score:
-  band: developing
-  composite: 41.1
+  band: thin
+  composite: 39.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 47.0
@@ -218,13 +224,13 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 72.2
+    discoverability: 69.6
     operational_transparency: 47.4
   previous_composite: 41.1
   provenance:
@@ -235,9 +241,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 45.0
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 28.1
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,7 +24,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: na
     mcp_server: verified
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.8
-  scored_at: '2026-09-24'
+  score: 36.3
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ agentic_access:
 api_count: 1
 apis:
 - baseURL: https://bykaranteli.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: Per-call priced history and depth endpoints, settled in USDC over the x402 protocol on Solana and Base mainnet through the Coinbase CDP facilitator. 13 priced endpoints plus the free catalog at /api/x
   name: ByKaranteli X402 API
   slug: bykaranteli-x402-api
@@ -222,7 +222,7 @@ modified: '2026-08-09'
 name: ByKaranteli
 nav: Providers
 network: true
-overview: 'ByKaranteli publishes 1 API on the [APIs.io](https://apis.io/) network: X402 API. Tagged areas include Cryptocurrency, Crypto Derivatives, Market Data, Funding Rates, and Open Interest.
+overview: 'ByKaranteli publishes 2 APIs on the [APIs.io](https://apis.io/) network, including X402 API, and 1 more. Tagged areas include Cryptocurrency, Crypto Derivatives, Market Data, Funding Rates, and Open Interest.
 
 
   ByKaranteli''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 20 more developer resources.'
@@ -236,22 +236,22 @@ rate_limits:
   name: Bykaranteli Rate Limits
   slug: bykaranteli-rate-limits
 score:
-  band: strong
-  composite: 54.5
+  band: developing
+  composite: 51.9
   coverage:
     artifact_dirs: 24
-    catalog_earned: 65.0
+    catalog_earned: 60.0
     catalog_earned_first_party: 25.0
-    catalog_gap: 50.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.6
   facets:
     access_clarity: 63.2
     contract_governance: 19.7
-    contract_quality: 51.7
+    contract_quality: 46.8
     developer_ergonomics: 56.5
-    discoverability: 75.9
+    discoverability: 66.7
     operational_transparency: 55.3
   previous_composite: 54.5
   provenance:
@@ -269,9 +269,9 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 38.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 21.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

@@ -22,103 +22,103 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.9
-  scored_at: '2026-09-24'
+  score: 16.8
+  scored_at: '2026-09-25'
 api_count: 1
 apis:
 - baseURL: https://visibility.gleefulai.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Audit API from Gleeful AI — 3 operation(s) for audit.
   name: Gleeful AI Audit API
   slug: gleefulai-audit-api
 - baseURL: https://visibility.gleefulai.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Bots API from Gleeful AI — 1 operation(s) for bots.
   name: Gleeful AI Bots API
   slug: gleefulai-bots-api
 - baseURL: https://visibility.gleefulai.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Capabilities API from Gleeful AI — 1 operation(s) for capabilities.
   name: Gleeful AI Capabilities API
   slug: gleefulai-capabilities-api
 - baseURL: https://visibility.gleefulai.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Catalog API from Gleeful AI — 1 operation(s) for catalog.
   name: Gleeful AI Catalog API
   slug: gleefulai-catalog-api
 - baseURL: https://visibility.gleefulai.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Cite API from Gleeful AI — 2 operation(s) for cite.
   name: Gleeful AI Cite API
   slug: gleefulai-cite-api
 - baseURL: https://visibility.gleefulai.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Compare API from Gleeful AI — 2 operation(s) for compare.
   name: Gleeful AI Compare API
   slug: gleefulai-compare-api
 - baseURL: https://visibility.gleefulai.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Content API from Gleeful AI — 1 operation(s) for content.
   name: Gleeful AI Content API
   slug: gleefulai-content-api
 - baseURL: https://visibility.gleefulai.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Examples API from Gleeful AI — 1 operation(s) for examples.
   name: Gleeful AI Examples API
   slug: gleefulai-examples-api
 - baseURL: https://visibility.gleefulai.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Fixes API from Gleeful AI — 1 operation(s) for fixes.
   name: Gleeful AI Fixes API
   slug: gleefulai-fixes-api
 - baseURL: https://visibility.gleefulai.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Health API from Gleeful AI — 1 operation(s) for health.
   name: Gleeful AI Health API
   slug: gleefulai-health-api
 - baseURL: https://visibility.gleefulai.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Meta API from Gleeful AI — 1 operation(s) for meta.
   name: Gleeful AI Meta API
   slug: gleefulai-meta-api
 - baseURL: https://visibility.gleefulai.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Preview API from Gleeful AI — 2 operation(s) for preview.
   name: Gleeful AI Preview API
   slug: gleefulai-preview-api
 - baseURL: https://visibility.gleefulai.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Pricing API from Gleeful AI — 1 operation(s) for pricing.
   name: Gleeful AI Pricing API
   slug: gleefulai-pricing-api
 - baseURL: https://visibility.gleefulai.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Probe API from Gleeful AI — 1 operation(s) for probe.
   name: Gleeful AI Probe API
   slug: gleefulai-probe-api
 - baseURL: https://visibility.gleefulai.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Schema API from Gleeful AI — 1 operation(s) for schema.
   name: Gleeful AI Schema API
   slug: gleefulai-schema-api
 - baseURL: https://visibility.gleefulai.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Status API from Gleeful AI — 1 operation(s) for status.
   name: Gleeful AI Status API
   slug: gleefulai-status-api
 - baseURL: https://visibility.gleefulai.com
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Llms API from Gleeful AI — 1 operation(s) for llms.
   name: Gleeful AI Llms API
   slug: gleefulai-llms-api
@@ -277,33 +277,39 @@ rate_limits:
   slug: gleefulai-rate-limits
 score:
   band: emerging
-  composite: 22.1
+  composite: 20.6
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 37.0
+    artifact_dirs: 16
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
     access_clarity: 5.3
     contract_governance: 4.5
-    contract_quality: 41.1
+    contract_quality: 40.0
     developer_ergonomics: 16.7
-    discoverability: 75.9
+    discoverability: 64.3
     operational_transparency: 0.0
   previous_composite: 22.1
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 17
     mcp: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 15.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

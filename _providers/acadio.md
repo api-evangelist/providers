@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: platform
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-09-24'
+  score: 34.5
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - description: The Acadio LMS platform surface. Acadio operates an API gateway at api.acadio.com (its own status page lists an "API — Acadio API Services" component) and documents integration entry points in its kno
@@ -175,8 +175,8 @@ scopes:
   slug: acadio-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 40.4
+  band: thin
+  composite: 36.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -184,27 +184,27 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.9
   facets:
     access_clarity: 27.6
     contract_governance: 18.2
-    contract_quality: 41.6
+    contract_quality: 39.0
     developer_ergonomics: 30.4
-    discoverability: 75.9
+    discoverability: 75.0
     operational_transparency: 23.7
   previous_composite: 40.4
   provenance:
     conformance: first-party
-    mcp: first-party
+    mcp: platform-generated
     skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 64.8
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 34.3
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

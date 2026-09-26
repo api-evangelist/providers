@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,8 +60,8 @@ apis:
 - description: 'FDC3 Desktop Agent Bridging (DAB) is a wire protocol that enables multiple Desktop Agent implementations to interoperate, allowing applications running under different Desktop Agents to share context '
   name: FDC3 Desktop Agent Bridging
   slug: desktop-agent-bridging
-- baseURL: https://fdc3.finos.org
-  baseurl_source: declared
+- baseURL: /appd
+  baseurl_source: spec
   description: The Application API from FDC3 — 5 operation(s) for application.
   name: FDC3 Application API
   slug: fdc3-application-api
@@ -178,7 +178,7 @@ modified: '2026-06-13'
 name: FDC3
 nav: Providers
 network: true
-overview: 'FDC3 publishes 2 APIs on the [APIs.io](https://apis.io/) network: App Directory API and Application API. Tagged areas include Financial Services, Fintech, Desktop Interoperability, Open Standard, and FINOS.
+overview: 'FDC3 publishes 6 APIs on the [APIs.io](https://apis.io/) network, including App Directory API, Application API, and 4 more. Tagged areas include Financial Services, Fintech, Desktop Interoperability, Open Standard, and FINOS.
 
 
   The FDC3 catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -207,22 +207,22 @@ rules:
   slug: fdc3-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.8
+  composite: 45.0
   coverage:
     artifact_dirs: 15
-    catalog_earned: 87.3
+    catalog_earned: 79.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 27.8
+    catalog_gap: 35.7
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.8
   facets:
-    access_clarity: 50.0
+    access_clarity: 46.8
     contract_governance: 9.8
-    contract_quality: 60.3
+    contract_quality: 55.0
     developer_ergonomics: 33.3
-    discoverability: 74.1
-    operational_transparency: 63.2
+    discoverability: 62.5
+    operational_transparency: 60.0
   previous_composite: 47.8
   provenance:
     agentic_access: derived
@@ -231,8 +231,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 20.6
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

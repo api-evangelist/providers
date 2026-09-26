@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -1186,22 +1186,22 @@ scopes:
   slug: upvest-scopes
   summary_line: 18 scopes · clientCredentials
 score:
-  band: strong
-  composite: 55.4
+  band: developing
+  composite: 51.0
   coverage:
     artifact_dirs: 22
-    catalog_earned: 73.5
+    catalog_earned: 72.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 41.5
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.6
+  delta: -4.4
   facets:
     access_clarity: 47.4
-    contract_governance: 28.8
-    contract_quality: 84.2
+    contract_governance: 27.3
+    contract_quality: 77.6
     developer_ergonomics: 46.4
-    discoverability: 70.4
+    discoverability: 67.9
     operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -1212,7 +1212,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 56.0
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1225,9 +1225,9 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 70.0
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 38.9
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

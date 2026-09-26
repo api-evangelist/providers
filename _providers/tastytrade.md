@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.9
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -679,7 +679,7 @@ modified: '2026-06-13'
 name: tastytrade
 nav: Providers
 network: true
-overview: 'tastytrade publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API Quote Tokens API, Available Dates API, and 24 more. Tagged areas include Finance, Brokerage, Trading, Options, and Futures.
+overview: 'tastytrade publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API Quote Tokens API, Available Dates API, and 26 more. Tagged areas include Finance, Brokerage, Trading, Options, and Futures.
 
 
   The tastytrade catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -708,22 +708,22 @@ rules:
   slug: tastytrade-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.4
+  composite: 46.2
   coverage:
     artifact_dirs: 14
-    catalog_earned: 76.3
+    catalog_earned: 73.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 38.8
+    catalog_gap: 41.2
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.2
   facets:
-    access_clarity: 39.5
-    contract_governance: 25.0
-    contract_quality: 53.9
+    access_clarity: 37.4
+    contract_governance: 23.5
+    contract_quality: 49.3
     developer_ergonomics: 54.8
-    discoverability: 68.5
-    operational_transparency: 50.0
+    discoverability: 66.1
+    operational_transparency: 46.8
   previous_composite: 49.4
   provenance:
     agentic_access: derived
@@ -737,9 +737,9 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 45.0
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 25.0
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

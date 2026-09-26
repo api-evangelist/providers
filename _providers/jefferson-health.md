@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.9
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -471,7 +471,7 @@ modified: '2026-08-15'
 name: Jefferson Health
 nav: Providers
 network: true
-overview: 'Jefferson Health publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Allergy Intolerance API, Bulk Data API, Condition API, and 13 more. Tagged areas include Academic Medical Center, CARIN Blue Button, CMS Interoperability, Cures Act, and Da Vinci Plan-Net.
+overview: 'Jefferson Health publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Allergy Intolerance API, Bulk Data API, Condition API, and 16 more. Tagged areas include Academic Medical Center, CARIN Blue Button, CMS Interoperability, Cures Act, and Da Vinci Plan-Net.
 
 
   The Jefferson Health catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -526,22 +526,22 @@ scopes:
   slug: jefferson-health-scopes
   summary_line: 15 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 70.4
+  band: strong
+  composite: 64.9
   coverage:
     artifact_dirs: 30
-    catalog_earned: 83.0
+    catalog_earned: 80.7
     catalog_earned_first_party: 12.0
-    catalog_gap: 32.0
+    catalog_gap: 34.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.5
   facets:
     access_clarity: 81.6
-    contract_governance: 87.9
-    contract_quality: 60.7
+    contract_governance: 80.9
+    contract_quality: 56.2
     developer_ergonomics: 58.9
-    discoverability: 75.9
+    discoverability: 74.1
     operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -564,10 +564,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 76.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
-  trend: flat
+    score: 47.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

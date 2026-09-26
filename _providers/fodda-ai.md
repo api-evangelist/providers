@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 55.7
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -294,7 +294,7 @@ modified: '2026-09-19'
 name: Fodda (PSFK)
 nav: Providers
 network: true
-overview: 'Fodda (PSFK) publishes 1 API on the [APIs.io](https://apis.io/) network: Fodda Context & Research API. Tagged areas include Market Intelligence, Trend Research, Knowledge Graph, Consumer Insights, and Earnings Intelligence.
+overview: 'Fodda (PSFK) publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Fodda Context & Research API, and 2 more. Tagged areas include Market Intelligence, Trend Research, Knowledge Graph, Consumer Insights, and Earnings Intelligence.
 
 
   The Fodda (PSFK) catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
@@ -316,22 +316,22 @@ scopes:
   slug: fodda-ai-scopes
   summary_line: 8 scopes · authorizationCode/deviceCode
 score:
-  band: exemplar
-  composite: 69.1
+  band: strong
+  composite: 66.1
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 54.0
     catalog_earned_first_party: 12.0
     catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.0
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 60.8
+    contract_quality: 56.2
     developer_ergonomics: 71.4
-    discoverability: 87.0
+    discoverability: 85.0
     operational_transparency: 39.5
   previous_composite: 69.1
   provenance:
@@ -349,9 +349,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 71.9
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 48.2
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

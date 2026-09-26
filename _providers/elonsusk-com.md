@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.2
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -33,9 +33,7 @@ agentic_access:
   summary_line: 23 operations · 6 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- baseURL: https://a2a.elonsusk.com
-  baseurl_source: declared
-  description: The HTTP surface of the Sandbox Contractor Agent, published as an OpenAPI 3.1.0 document (FastAPI, info.title "A2A Autonomous Trader Agent", version 0.1.0) at https://a2a.elonsusk.com/openapi.json wit
+- description: The HTTP surface of the Sandbox Contractor Agent, published as an OpenAPI 3.1.0 document (FastAPI, info.title "A2A Autonomous Trader Agent", version 0.1.0) at https://a2a.elonsusk.com/openapi.json wit
   name: Sandbox Contractor Agent REST API
   slug: sandbox-contractor-agent-rest-api
 - description: 'Agent2Agent protocol surface: an agent card served from https://a2a.elonsusk.com/.well-known/agent-card.json (and the legacy /.well-known/agent.json) declaring protocolVersion "1.0", JSONRPC transport'
@@ -151,7 +149,7 @@ modified: '2026-09-19'
 name: Artem / A2A Sandbox
 nav: Providers
 network: true
-overview: 'Artem / A2A Sandbox publishes 1 API on the [APIs.io](https://apis.io/) network: Sandbox Contractor Agent REST API. Tagged areas include Agents, Agentic Commerce, A2A, x402, and Developer Tools.
+overview: 'Artem / A2A Sandbox publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Sandbox Contractor Agent REST API, and 1 more. Tagged areas include Agents, Agentic Commerce, A2A, x402, and Developer Tools.
 
 
   Artem / A2A Sandbox''s developer surface includes documentation, API reference, pricing, authentication, and 16 more developer resources.'
@@ -166,21 +164,21 @@ rate_limits:
   slug: elonsusk-com-rate-limits
 score:
   band: thin
-  composite: 32.4
+  composite: 30.5
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 47.0
+    artifact_dirs: 20
+    catalog_earned: 42.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 68.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 36.7
+    contract_quality: 33.1
     developer_ergonomics: 30.4
-    discoverability: 72.2
+    discoverability: 60.7
     operational_transparency: 0.0
   previous_composite: 32.4
   provenance:
@@ -188,8 +186,14 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 16.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

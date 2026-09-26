@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.1
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -459,7 +459,7 @@ modified: '2026-09-16'
 name: E2B
 nav: Providers
 network: true
-overview: 'E2B publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Admin API, API Keys API, and 10 more. Tagged areas include Artificial Intelligence, Agents, Code Execution, Code Interpreter, and Sandbox.
+overview: 'E2B publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Admin API, API Keys API, and 12 more. Tagged areas include Artificial Intelligence, Agents, Code Execution, Code Interpreter, and Sandbox.
 
 
   The E2B catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -488,22 +488,22 @@ rules:
   slug: e2b-dev-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 65.5
+  composite: 65.3
   coverage:
     artifact_dirs: 16
-    catalog_earned: 86.3
+    catalog_earned: 82.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 28.8
+    catalog_gap: 32.2
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
-    access_clarity: 81.6
+    access_clarity: 78.4
     contract_governance: 9.8
-    contract_quality: 76.0
+    contract_quality: 69.8
     developer_ergonomics: 82.1
-    discoverability: 64.8
-    operational_transparency: 52.6
+    discoverability: 62.5
+    operational_transparency: 49.5
   previous_composite: 65.5
   provenance:
     agentic_access: derived
@@ -512,8 +512,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 32.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

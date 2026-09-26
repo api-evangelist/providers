@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: derived
     event_surface_described: true
     idempotency: false
     mcp_server: verified
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.9
-  scored_at: '2026-09-24'
+  score: 53.8
+  scored_at: '2026-09-25'
 api_count: 2
 apis:
 - description: Reachdesk operates a first-party remote Model Context Protocol server at https://app.reachdesk.com/mcp, on the same host as its REST API. It is a hosted HTTP endpoint an MCP client POSTs to directly —
@@ -272,7 +272,7 @@ modified: '2026-08-13'
 name: Reachdesk
 nav: Providers
 network: true
-overview: 'Reachdesk publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Bulk Sends API, Campaigns API, Contacts API, and 5 more. Tagged areas include Corporate Gifting, Direct Mail, Swag, B2B, and Sales Enablement.
+overview: 'Reachdesk publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Bulk Sends API, Campaigns API, Contacts API, and 6 more. Tagged areas include Corporate Gifting, Direct Mail, Swag, B2B, and Sales Enablement.
 
 
   The Reachdesk catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
@@ -295,7 +295,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 56.2
+  composite: 58.3
   coverage:
     artifact_dirs: 25
     catalog_earned: 63.0
@@ -303,13 +303,13 @@ score:
     catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
     access_clarity: 85.5
     contract_governance: 4.5
-    contract_quality: 71.1
+    contract_quality: 65.6
     developer_ergonomics: 50.6
-    discoverability: 75.9
+    discoverability: 75.0
     operational_transparency: 28.9
   previous_composite: 56.2
   provenance:
@@ -321,8 +321,14 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 39.2
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

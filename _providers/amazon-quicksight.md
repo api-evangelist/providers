@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -419,21 +419,21 @@ rules:
   slug: amazon-quicksight-spectral-rules
 score:
   band: strong
-  composite: 57.3
+  composite: 58.0
   coverage:
     artifact_dirs: 19
-    catalog_earned: 61.5
+    catalog_earned: 60.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.5
+    catalog_gap: 54.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 68.4
-    contract_governance: 28.8
-    contract_quality: 65.3
+    contract_governance: 27.3
+    contract_quality: 59.4
     developer_ergonomics: 72.6
-    discoverability: 59.3
+    discoverability: 57.1
     operational_transparency: 26.3
   previous_composite: 57.3
   provenance:
@@ -443,8 +443,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 32.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

@@ -33,29 +33,36 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 api_count: 7
 apis:
 - description: Access to the tab32 patient data object - demographics, contact and insurance details, and patient records - for integrating patient management into CRM, patient-facing apps, and enterprise systems. E
   name: tab32 Patients API
+  provenance: modeled
   slug: tab32-patients-api
 - description: Access to the tab32 provider data object - dentists, hygienists, and other practitioners across a practice or DSO's locations. Endpoint paths are not published publicly; access is via the partner-gate
   name: tab32 Providers API
+  provenance: modeled
   slug: tab32-providers-api
 - description: Access to the tab32 schedule data object - appointments, availability, and booking - supporting online booking, recall, and appointment-scheduling integrations. Endpoint paths are not published public
   name: tab32 Schedule API
+  provenance: modeled
   slug: tab32-schedule-api
 - description: Access to the tab32 charts data object - clinical and periodontal charting and treatment planning data - for clinical workflow and analytics integrations. Endpoint paths are not published publicly; ac
   name: tab32 Charts API
+  provenance: modeled
   slug: tab32-charts-api
 - description: Access to the tab32 notes data object - clinical and progress notes attached to patient and encounter records. Endpoint paths are not published publicly; access is via the partner-gated developer port
   name: tab32 Notes API
+  provenance: modeled
   slug: tab32-notes-api
 - description: Access to the tab32 ledger data object - patient and practice financial ledger, charges, and insurance claim / revenue-cycle data. Endpoint paths are not published publicly; access is via the partner-
   name: tab32 Ledger API
+  provenance: modeled
   slug: tab32-ledger-api
 - description: Access to the tab32 payments data object - patient payments and transaction records (tab32 integrates payment processing via Stripe). Endpoint paths are not published publicly; access is via the partn
   name: tab32 Payments API
+  provenance: modeled
   slug: tab32-payments-api
 artifact_total: 9
 common:
@@ -99,22 +106,22 @@ plans:
   slug: tab32-plans-pricing
 random_paper: 16
 score:
-  band: emerging
-  composite: 11.1
+  band: minimal
+  composite: 10.8
   coverage:
     artifact_dirs: 4
-    catalog_earned: 47.0
+    catalog_earned: 45.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 68.0
+    catalog_gap: 69.2
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
-    access_clarity: 31.6
+    access_clarity: 28.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 64.8
+    discoverability: 62.5
     operational_transparency: 0.0
   previous_composite: 11.1
   regulatory:
@@ -122,9 +129,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 7.5
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 4.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: false

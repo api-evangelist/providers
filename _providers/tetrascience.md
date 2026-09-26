@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-09-24'
+  score: 30.9
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 7
@@ -590,24 +590,24 @@ rules:
     warn: 6
   slug: tetrascience-rules
 score:
-  band: strong
-  composite: 54.3
+  band: developing
+  composite: 50.6
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 95.0
+    artifact_dirs: 19
+    catalog_earned: 90.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 20.0
+    catalog_gap: 24.7
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.8
+  delta: -3.7
   facets:
-    access_clarity: 51.3
-    contract_governance: 69.7
-    contract_quality: 65.6
+    access_clarity: 48.2
+    contract_governance: 62.7
+    contract_quality: 59.9
     developer_ergonomics: 33.3
-    discoverability: 70.4
-    operational_transparency: 42.1
-  previous_composite: 55.1
+    discoverability: 70.0
+    operational_transparency: 38.9
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     contracts:
@@ -615,14 +615,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 35
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 24.4
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+    score: 15.2
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

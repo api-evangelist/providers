@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.8
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -272,7 +272,7 @@ modified: '2026-06-12'
 name: Nhost
 nav: Providers
 network: true
-overview: 'Nhost publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Documentation API, Excludeme API, and 8 more. Tagged areas include GraphQL, PostgreSQL, Authentication, File Storage, and Serverless Functions.
+overview: 'Nhost publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Documentation API, Excludeme API, and 11 more. Tagged areas include GraphQL, PostgreSQL, Authentication, File Storage, and Serverless Functions.
 
 
   The Nhost catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -304,18 +304,18 @@ score:
   composite: 42.1
   coverage:
     artifact_dirs: 19
-    catalog_earned: 64.5
+    catalog_earned: 63.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.5
+    catalog_gap: 51.7
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 57.9
+    access_clarity: 54.7
     contract_governance: 13.6
-    contract_quality: 60.7
+    contract_quality: 56.0
     developer_ergonomics: 23.8
-    discoverability: 68.5
+    discoverability: 68.3
     operational_transparency: 13.2
   previous_composite: 42.1
   provenance:
@@ -326,8 +326,14 @@ score:
       marker_coverage: 0.0
       total: 11
     mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 27.5
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true

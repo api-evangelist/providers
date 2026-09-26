@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 54.9
-  scored_at: '2026-09-24'
+  scored_at: '2026-09-25'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -33,8 +33,8 @@ agentic_access:
   summary_line: 44 operations · 6 acting
 api_count: 3
 apis:
-- baseURL: https://agent-economy.kgninja.dev
-  baseurl_source: declared
+- baseURL: /
+  baseurl_source: spec
   description: 'REST contract for the Agent Verification Utility: a free precheck (POST /validate-request) that binds a verification request and an explicit spend policy into an unsigned receipt, a free quote (POST /'
   name: Agent Verification Utility API
   slug: agent-verification-utility-api
@@ -202,7 +202,7 @@ modified: '2026-09-19'
 name: KG-NINJA
 nav: Providers
 network: true
-overview: 'KG-NINJA publishes 1 API on the [APIs.io](https://apis.io/) network: Agent Verification Utility API. Tagged areas include Agents, Agentic Commerce, A2A, MCP, and x402.
+overview: 'KG-NINJA publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Agent Verification Utility API, and 2 more. Tagged areas include Agents, Agentic Commerce, A2A, MCP, and x402.
 
 
   KG-NINJA''s developer surface includes authentication, documentation, getting-started guide, API reference, FAQ, pricing, sandbox, and 23 more developer resources.'
@@ -217,21 +217,21 @@ rate_limits:
   slug: kgninja-dev-rate-limits
 score:
   band: thin
-  composite: 39.2
+  composite: 37.2
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 48.0
+    artifact_dirs: 21
+    catalog_earned: 43.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.0
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
-    contract_quality: 46.3
+    contract_quality: 41.7
     developer_ergonomics: 54.8
-    discoverability: 81.5
+    discoverability: 71.7
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -246,8 +246,14 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-24'
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 16.7
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
   trend: flat
   upsert:
     applies: true
