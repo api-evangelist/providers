@@ -37469,7 +37469,7 @@
      "slug": "nustar-energy",
      "url": "https://providers.apis.io/providers/nustar-energy/",
      "type": "API Provider",
-     "description": "NuStar Energy is one of the largest independent liquids terminal and pipeline operators in the United States, transporting and storing crude oil, refined products, and renewable fuels. NuStar does not currently publish public APIs or developer resources.",
+     "description": "NuStar Energy was one of the largest independent liquids terminal and pipeline operators in the United States, transporting and storing crude oil, refined products, and renewable fuels. Sunoco LP completed its acquisition of NuStar on 3 May 2024, and nustarenergy.com now redirects to sunocolp.com. NuStar published no public APIs or developer resources.",
      "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
