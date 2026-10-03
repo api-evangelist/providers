@@ -1,6 +1,6 @@
 {
- "total": 122,
- "shown": 122,
+ "total": 124,
+ "shown": 124,
  "limit": 1000,
  "bands": [
   {
@@ -16,18 +16,18 @@
      "slug": "cvent",
      "description": "Cvent is a leading meetings, events, and hospitality technology provider with over 4,800 employees and 22,000+ customers worldwide. The Cvent platform spans Event Cloud (event management, registration, mobile event apps, virtual and hybrid events, Attendee Hub, surveys, Diagramming, and analytics) and Hospitality Cloud (Cvent Supplier Network, Passkey, Venue Sourcing, and Sales & Catering). Programmatic access is delivered through the unified Cvent Platform REST API (api-platform.cvent.com) using OAuth 2.0 client credentials, with legacy SOAP, BadgeKit, Jifflenow, and CSN APIs documented for historical integrations. The developer portal at developers.cvent.com hosts API references, guides, OpenAPI downloads, webhooks, SSO, custom widgets, white-label, and integration documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/screenshots/cvent-2026-06-20T175359.png",
-     "score": 78.0,
+     "score": 78.6,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 58.9,
+      "discoverability": 64.3,
       "contract_quality": 62.9,
       "contract_governance": 18.2,
       "operational_transparency": 92.1,
       "developer_ergonomics": 73.2,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -66,18 +66,18 @@
      "slug": "cvent-registration",
      "description": "Cvent Registration is the event registration product within the Cvent Event Cloud, providing online registration websites, attendee data capture, payment processing, registration travel, group registration, custom field collection, and badge / on-site check-in workflows. Registration data is exposed programmatically through the unified Cvent Platform REST API at api-platform.cvent.com (OAuth 2.0 client credentials), with a dedicated Registration Guide on the Cvent developer portal. Real-time registration changes are also delivered through Cvent Webhooks. Earlier integrations relied on the legacy Cvent SOAP API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/screenshots/cvent-registration-2026-06-20T175407.png",
-     "score": 76.9,
+     "score": 77.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 67.9,
+      "discoverability": 73.2,
       "contract_quality": 65.4,
       "contract_governance": 18.2,
       "operational_transparency": 92.1,
       "developer_ergonomics": 66.1,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -116,18 +116,18 @@
      "slug": "cvent-event-cloud",
      "description": "Cvent Event Cloud is the event management product line of the Cvent Platform. It supports the full event lifecycle: event creation, registration, marketing, agenda and session management, mobile event apps, onsite check-in, virtual and hybrid event delivery via the Attendee Hub, surveys, and analytics. Cvent publishes its own OpenAPI specification in public git at github.com/cvent/rest-sdks (cvent-public-spec/openapi.yaml) — 346 paths, 458 operations, 1,302 schemas — and generates its first-party TypeScript, .NET and Java SDKs from it with Speakeasy, applying five published OpenAPI Overlay 1.0.0 documents in the process. Access is OAuth 2.0, client credentials for server-to-server and authorization code for planner administrators, with the token endpoint at api-platform.cvent.com/ea/oauth2/token and 235 declared scopes. Regional bases split North America (api-platform.cvent.com/ea) from Europe (api-platform-eur.cvent.com/ea) with no cross-region read. Cvent also runs a live remote MCP server at mcp.cvent.com/mcp secured with OAuth 2.1 and PKCE, publishes a dated biweekly changelog, a 40-message webhook catalogue, SCIM 2.0 user provisioning, and a Custom Widgets browser SDK for embedding components in Cvent-hosted event pages.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/screenshots/cvent-event-cloud-2026-06-20T175402.png",
-     "score": 71.9,
+     "score": 72.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 70.0,
+      "discoverability": 75.0,
       "contract_quality": 65.5,
       "contract_governance": 4.5,
       "operational_transparency": 81.6,
       "developer_ergonomics": 67.3,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -188,7 +188,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -238,7 +238,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -287,7 +287,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -326,18 +326,18 @@
      "slug": "supaglue",
      "description": "Supaglue was an open-source unified API platform for B2B SaaS product integrations: a single contract for CRM, engagement, ticketing, enrichment and marketing-automation objects projected across 30+ third-party providers (Salesforce, HubSpot, Pipedrive, Outreach, Salesloft, Zendesk, Apollo and more), plus managed OAuth to those providers, managed syncs into the customer's own warehouse (Postgres, BigQuery, Snowflake, Redshift, S3), a passthrough escape hatch to native provider APIs, and a Management API to configure customers, connections, schemas, entities and sync schedules. Nine first-party OpenAPI documents (v2, x-api-key auth) and nine typed webhook events were published. THE SERVICE IS RETIRED: the GitHub repository (github.com/supaglue-labs) was archived by its owner on 2024-03-10, api.supaglue.io and app.supaglue.io no longer resolve, and supaglue.com now redirects to a HugeDomains sale listing. The MIT-licensed code remains self-hostable, and the contract is preserved here as the historical record of a well-shaped unified API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/screenshots/supaglue-2026-08-17T083633.png",
-     "score": 57.9,
+     "score": 58.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 66.1,
+      "discoverability": 71.4,
       "contract_quality": 62.8,
       "contract_governance": 31.8,
       "operational_transparency": 42.1,
       "developer_ergonomics": 42.3,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -387,7 +387,7 @@
       "developer_ergonomics": 32.7,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -455,7 +455,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 48.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -505,7 +505,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -555,7 +555,7 @@
       "developer_ergonomics": 50.6,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -612,7 +612,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -662,7 +662,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -712,7 +712,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -762,7 +762,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -812,7 +812,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -862,7 +862,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 54.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -897,6 +897,56 @@
      "rank": 17
     },
     {
+     "name": "Events.com",
+     "slug": "eventscom",
+     "description": "Events.com is a La Jolla, California event-technology company founded by Mitch Thrower (co-founder of Active.com / The Active Network) that operates an end-to-end platform for creating, promoting, selling, and discovering events. Its organizer-facing products span ticketing and registration (Sell), digital event marketing (Promote), sponsorship management (Sponsor), on-site check-in and execution (Execute), analytics (Insights), virtual and hybrid events (Virtual), and an embeddable event calendar, alongside a consumer event-discovery destination. Events.com does not publish a public developer program, but its internal DataGol / Saasxl AI and data platform exposes three anonymously reachable OpenAPI 3.x contracts and a hosted Model Context Protocol server on production hosts, covering no-code data tables, ETL and orchestration, BI dashboards, knowledge graphs, custom agents, agent skills, and MCP connectors.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/screenshots/eventscom-2026-08-07T165031.png",
+     "score": 48.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 54.8,
+      "contract_governance": 4.5,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 28.0,
+      "access_clarity": 69.7
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 22.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 32.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 18
+    },
+    {
      "name": "Demio",
      "slug": "demio",
      "description": "Demio is a browser-based webinar and virtual-event platform built for B2B marketing and sales teams, operated by Banzai International, Inc. (NASDAQ: BNZI). It runs live, automated/evergreen, on-demand and series webinars with no attendee download, and pairs them with customizable registration pages, embeddable registration forms, in-session engagement tools (polls, handouts, featured actions, chat), recordings, Showcase event listings and post-webinar analytics. Its public developer surface is the Public Demio API — a key/secret authorized REST API at https://my.demio.com/api/v1 covering Events, Event Sessions (Dates), attendee registration with unique join links, and per-Session participation reporting. Demio documents the API as an Apiary API Blueprint, publishes burst rate limits and daily call quotas, runs a public Atlassian Statuspage, ships one first-party PHP SDK from its meetdemio GitHub organization, and offers a Zapier app with registration, join, no-show and event-update triggers for teams that do not want to call the API directly.",
@@ -912,7 +962,7 @@
       "developer_ergonomics": 60.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -951,7 +1001,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Splash",
@@ -969,7 +1019,7 @@
       "developer_ergonomics": 40.0,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1001,56 +1051,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
-    },
-    {
-     "name": "Events.com",
-     "slug": "eventscom",
-     "description": "Events.com is a La Jolla, California event-technology company founded by Mitch Thrower (co-founder of Active.com / The Active Network) that operates an end-to-end platform for creating, promoting, selling, and discovering events. Its organizer-facing products span ticketing and registration (Sell), digital event marketing (Promote), sponsorship management (Sponsor), on-site check-in and execution (Execute), analytics (Insights), virtual and hybrid events (Virtual), and an embeddable event calendar, alongside a consumer event-discovery destination. Events.com does not publish a public developer program, but its internal DataGol / Saasxl AI and data platform exposes three anonymously reachable OpenAPI 3.x contracts and a hosted Model Context Protocol server on production hosts, covering no-code data tables, ETL and orchestration, BI dashboards, knowledge graphs, custom agents, agent skills, and MCP connectors.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/screenshots/eventscom-2026-08-07T165031.png",
-     "score": 48.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.0,
-      "contract_quality": 54.8,
-      "contract_governance": 4.5,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 28.0,
-      "access_clarity": 69.7
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 22.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 32.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 20
     },
     {
@@ -1069,7 +1069,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 47.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1119,7 +1119,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 46.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1169,7 +1169,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 46.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1219,7 +1219,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1254,278 +1254,22 @@
      "rank": 24
     },
     {
-     "name": "Atera",
-     "slug": "atera",
-     "description": "Atera Networks Ltd. operates an all-in-one IT management platform that combines remote monitoring and management (RMM), professional services automation (PSA), helpdesk and ticketing, patch management, network discovery, remote access (Splashtop, AnyDesk, TeamViewer, ScreenConnect), reporting, and billing/invoicing in a single per-technician subscription used by managed service providers and internal IT departments. Its AI layer adds Action AI, AI Copilot, and Robin (IT Autopilot), and an AI Center that lets administrators install Model Context Protocol (MCP) integrations from a catalog or register custom MCP servers so Atera's own agents can reach outside systems. Atera is programmable through a versioned REST API at https://app.atera.com/api/v3 covering twelve data domains (agents, alerts, billing, contacts, contracts, customers, custom values, departments, devices, knowledge base, rates, tickets) authenticated with an X-API-KEY token, plus outbound webhooks bound to ticket automation rules. Atera states its API is driven by OpenAPI 3.0, but the interactive reference at https://app.atera.com/apidocs requires an account token before it will render and no specification is published at a public URL.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/atera/refs/heads/main/screenshots/atera-2026-08-07T161850.png",
-     "score": 44.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 39.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 48.8,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 22.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 25
-    },
-    {
-     "name": "31huiyi",
-     "slug": "31huiyi",
-     "description": "31huiyi (31会议 / 31Event) is the digital event and exhibition SaaS platform operated by Shanghai Bayantu Information Technology Co., Ltd. (上海八彦图信息科技有限公司), founded 2010 and headquartered in Shanghai, China. It runs a product family covering conference management (31大会易), lightweight event management (31轻会), exhibition management (31展览云), on-site smart check-in and reception (31智慧现场), virtual events and an event AI assistant. It publishes a public developer center at api-help.31huiyi.com documenting an OAuth 2.0 / OpenID Connect protected REST OpenAPI at 31api.31huiyi.com, covering attendee registration, check-in, schedules, speakers, exhibitors, tickets, reception and CMS, plus a set of outbound push (webhook) callbacks a customer implements to receive check-in, attendee and exhibitor data.",
-     "score": 44.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 39.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 66.2,
-      "access_clarity": 52.6
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 34.3,
-      "matched_via": "fallback"
-     },
-     "agent_score": 36.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 26
-    },
-    {
-     "name": "Zayo",
-     "slug": "zayo",
-     "description": "Zayo is a global communications infrastructure provider operating one of the largest independent fiber networks, delivering bandwidth, dark fiber, wavelengths, ethernet, IP, cloud connectivity and network management to carriers, enterprises, and hyperscalers. Zayo publishes a free public developer program at developer.zayo.com exposing REST APIs for network discovery (building validation, location and cloud-site lookup), quote and order management (product catalog, quoting, ordering), and service management (service inventory, ticketing, and maintenance-case notifications). The APIs are OpenAPI 3.1 described, secured with OAuth 2.0 client-credentials bearer tokens, and include a push-notification/callback surface for maintenance and ticket updates.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/screenshots/zayo-2026-08-17T083035.png",
-     "score": 43.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 62.1,
-      "contract_governance": 4.5,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 58.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 37.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 35.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 27
-    },
-    {
-     "name": "Bandsintown",
-     "slug": "bandsintown",
-     "description": "Bandsintown is a concert discovery platform that connects fans with live music events through a REST API for accessing artist event listings, venue information, and fan notification management. The platform serves as the largest database of upcoming concert listings and concert tickets, enabling artists, developers, and partners to display tour dates, retrieve artist metadata, filter events by date range, and drive fan engagement through RSVP and notification tracking. API access requires an app_id parameter obtained through the Bandsintown for Artists account settings or via a partnership request for broader integration use cases.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bandsintown/refs/heads/main/screenshots/bandsintown-2026-06-20T172944.png",
-     "score": 43.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 44.8,
-      "contract_governance": 9.8,
-      "operational_transparency": 37.4,
-      "developer_ergonomics": 45.2,
-      "access_clarity": 47.9
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 24.5,
-      "matched_via": "fallback"
-     },
-     "agent_score": 22.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 28
-    },
-    {
-     "name": "Banzai",
-     "slug": "banzai",
-     "description": "Banzai International, Inc. (NASDAQ: BNZI) is a Seattle-area marketing technology company that builds AI-enabled engagement, video and event marketing software for B2B marketing and sales teams. Its portfolio includes Demio (webinar and virtual event platform), Boost, Curate, Vidello, OpenReel, CreateStudio, PhotoVibrance and Twinkle, alongside Act-On Software. The public developer surface Banzai publishes is the Public Demio API — a key/secret authorized REST API at https://my.demio.com/api/v1 covering Events, Event Sessions (Dates), attendee registration with unique join links, and session participation reporting. Demio documents the API as an Apiary API Blueprint, publishes rate limits and daily call quotas, runs a public Statuspage, and offers a Zapier app with registration, attendance and no-show triggers for teams that do not want to call the API directly. Banzai went public via SPAC in December 2023 and was surfaced to the API Evangelist network through the secondary-market harvest backlog.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/banzai/refs/heads/main/screenshots/banzai-2026-08-07T162131.png",
-     "score": 43.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 21.9,
-      "contract_governance": 4.5,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 57.7,
-      "access_clarity": 52.6
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 33.3,
-      "matched_via": "fallback",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       }
-      ]
-     },
-     "agent_score": 34.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 29
-    },
-    {
      "name": "vivenu",
      "slug": "vivenu",
      "description": "vivenu is an enterprise-grade, API-first event ticketing platform for live entertainment — sports, music, festivals, and performing arts. It provides white-label ticketing infrastructure, a headless REST API with total access to every platform resource (events, tickets, transactions, dynamic pricing, inventory, checkouts, customers, purchase intents), real-time webhooks, prebuilt drop-in checkout and seatmap components, and a unified payments API spanning global payment gateways. Used by more than 1,000 organizers worldwide, vivenu GmbH is headquartered in Germany and backed by Balderton Capital. The public OpenAPI (450 paths, 504 schemas) is served from https://vivenu.com/api with a staging environment at https://vivenu.dev/api.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/screenshots/vivenu-2026-08-17T082808.png",
-     "score": 43.5,
+     "score": 45.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 73.2,
-      "contract_quality": 49.4,
+      "contract_quality": 56.5,
       "contract_governance": 4.5,
       "operational_transparency": 26.3,
       "developer_ergonomics": 49.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1564,6 +1308,262 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 25
+    },
+    {
+     "name": "Atera",
+     "slug": "atera",
+     "description": "Atera Networks Ltd. operates an all-in-one IT management platform that combines remote monitoring and management (RMM), professional services automation (PSA), helpdesk and ticketing, patch management, network discovery, remote access (Splashtop, AnyDesk, TeamViewer, ScreenConnect), reporting, and billing/invoicing in a single per-technician subscription used by managed service providers and internal IT departments. Its AI layer adds Action AI, AI Copilot, and Robin (IT Autopilot), and an AI Center that lets administrators install Model Context Protocol (MCP) integrations from a catalog or register custom MCP servers so Atera's own agents can reach outside systems. Atera is programmable through a versioned REST API at https://app.atera.com/api/v3 covering twelve data domains (agents, alerts, billing, contacts, contracts, customers, custom values, departments, devices, knowledge base, rates, tickets) authenticated with an X-API-KEY token, plus outbound webhooks bound to ticket automation rules. Atera states its API is driven by OpenAPI 3.0, but the interactive reference at https://app.atera.com/apidocs requires an account token before it will render and no specification is published at a public URL.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/atera/refs/heads/main/screenshots/atera-2026-08-07T161850.png",
+     "score": 44.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 39.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 48.8,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 22.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 26
+    },
+    {
+     "name": "31huiyi",
+     "slug": "31huiyi",
+     "description": "31huiyi (31会议 / 31Event) is the digital event and exhibition SaaS platform operated by Shanghai Bayantu Information Technology Co., Ltd. (上海八彦图信息科技有限公司), founded 2010 and headquartered in Shanghai, China. It runs a product family covering conference management (31大会易), lightweight event management (31轻会), exhibition management (31展览云), on-site smart check-in and reception (31智慧现场), virtual events and an event AI assistant. It publishes a public developer center at api-help.31huiyi.com documenting an OAuth 2.0 / OpenID Connect protected REST OpenAPI at 31api.31huiyi.com, covering attendee registration, check-in, schedules, speakers, exhibitors, tickets, reception and CMS, plus a set of outbound push (webhook) callbacks a customer implements to receive check-in, attendee and exhibitor data.",
+     "score": 44.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 39.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 66.2,
+      "access_clarity": 52.6
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 34.3,
+      "matched_via": "fallback"
+     },
+     "agent_score": 36.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 27
+    },
+    {
+     "name": "Zayo",
+     "slug": "zayo",
+     "description": "Zayo is a global communications infrastructure provider operating one of the largest independent fiber networks, delivering bandwidth, dark fiber, wavelengths, ethernet, IP, cloud connectivity and network management to carriers, enterprises, and hyperscalers. Zayo publishes a free public developer program at developer.zayo.com exposing REST APIs for network discovery (building validation, location and cloud-site lookup), quote and order management (product catalog, quoting, ordering), and service management (service inventory, ticketing, and maintenance-case notifications). The APIs are OpenAPI 3.1 described, secured with OAuth 2.0 client-credentials bearer tokens, and include a push-notification/callback surface for maintenance and ticket updates.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/screenshots/zayo-2026-08-17T083035.png",
+     "score": 43.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 62.1,
+      "contract_governance": 4.5,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 58.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 37.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 35.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 28
+    },
+    {
+     "name": "Bandsintown",
+     "slug": "bandsintown",
+     "description": "Bandsintown is a concert discovery platform that connects fans with live music events through a REST API for accessing artist event listings, venue information, and fan notification management. The platform serves as the largest database of upcoming concert listings and concert tickets, enabling artists, developers, and partners to display tour dates, retrieve artist metadata, filter events by date range, and drive fan engagement through RSVP and notification tracking. API access requires an app_id parameter obtained through the Bandsintown for Artists account settings or via a partnership request for broader integration use cases.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bandsintown/refs/heads/main/screenshots/bandsintown-2026-06-20T172944.png",
+     "score": 43.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 44.8,
+      "contract_governance": 9.8,
+      "operational_transparency": 37.4,
+      "developer_ergonomics": 45.2,
+      "access_clarity": 47.9
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 24.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 22.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 29
+    },
+    {
+     "name": "Banzai",
+     "slug": "banzai",
+     "description": "Banzai International, Inc. (NASDAQ: BNZI) is a Seattle-area marketing technology company that builds AI-enabled engagement, video and event marketing software for B2B marketing and sales teams. Its portfolio includes Demio (webinar and virtual event platform), Boost, Curate, Vidello, OpenReel, CreateStudio, PhotoVibrance and Twinkle, alongside Act-On Software. The public developer surface Banzai publishes is the Public Demio API — a key/secret authorized REST API at https://my.demio.com/api/v1 covering Events, Event Sessions (Dates), attendee registration with unique join links, and session participation reporting. Demio documents the API as an Apiary API Blueprint, publishes rate limits and daily call quotas, runs a public Statuspage, and offers a Zapier app with registration, attendance and no-show triggers for teams that do not want to call the API directly. Banzai went public via SPAC in December 2023 and was surfaced to the API Evangelist network through the secondary-market harvest backlog.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/banzai/refs/heads/main/screenshots/banzai-2026-08-07T162131.png",
+     "score": 43.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 21.9,
+      "contract_governance": 4.5,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 57.7,
+      "access_clarity": 52.6
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 33.3,
+      "matched_via": "fallback",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 34.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 30
     },
     {
@@ -1582,7 +1582,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1632,7 +1632,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1682,7 +1682,7 @@
       "developer_ergonomics": 32.7,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1739,7 +1739,7 @@
       "developer_ergonomics": 44.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1789,7 +1789,7 @@
       "developer_ergonomics": 44.0,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1839,7 +1839,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1889,7 +1889,7 @@
       "developer_ergonomics": 25.0,
       "access_clarity": 57.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1939,7 +1939,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1980,8 +1980,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 26,
-   "shown": 26,
+   "count": 27,
+   "shown": 27,
    "providers": [
     {
      "name": "Regal Entertainment Group",
@@ -1998,7 +1998,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2048,7 +2048,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 54.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2098,7 +2098,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2148,7 +2148,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2198,7 +2198,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2248,7 +2248,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2298,7 +2298,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 46.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2348,7 +2348,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2398,7 +2398,7 @@
       "developer_ergonomics": 25.0,
       "access_clarity": 44.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2448,7 +2448,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2498,7 +2498,7 @@
       "developer_ergonomics": 34.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2548,7 +2548,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2598,7 +2598,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2648,7 +2648,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2683,172 +2683,22 @@
      "rank": 52
     },
     {
-     "name": "TicketSpice",
-     "slug": "ticketspice",
-     "description": "TicketSpice is an online event ticketing platform built by Webconnex that lets organizers design fully customizable ticketing pages and sell tickets for events, festivals, tours, and immersive experiences at a flat 99-cent per-ticket fee. TicketSpice is powered by the shared Webconnex REST API (base https://api.webconnex.com/v2/public), the same read-and-manage API surface behind Webconnex products RegFox, RedPodium, and GivingFuel. Callers pass a product parameter of ticketspice and authenticate with an apiKey header to search and view orders, registrants, tickets, transactions, customers, forms, and inventory, manage coupons and webhooks, and check registrants in and out. API access is provisioned per account with an API key and is gated to higher-tier plans.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/screenshots/ticketspice-2026-09-02T163714.png",
-     "score": 33.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 47.5,
-      "contract_governance": 0.0,
-      "operational_transparency": 31.1,
-      "developer_ergonomics": 28.6,
-      "access_clarity": 36.3
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 10.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 53
-    },
-    {
-     "name": "Tito",
-     "slug": "tito",
-     "description": "Tito (ti.to) is an event registration and ticketing platform from Team Tito in Dublin, Ireland, used to sell tickets, collect registrations, and check in attendees for conferences and events. Organizers can sell through Tito-hosted event pages or an embeddable widget. The Admin API is a REST/JSON interface at https://api.tito.io/v3 for managing accounts, events, releases (ticket types), tickets, registrations, discount codes, activities, check-in lists, and refunds, authenticated with a secret API token. Tito also emits outbound webhooks for ticket, registration, check-in, and interested-user events, and exposes a separate unauthenticated Check-in API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/screenshots/tito-2026-09-02T163823.png",
-     "score": 33.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 45.7,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.6,
-      "developer_ergonomics": 32.1,
-      "access_clarity": 36.3
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 11.8,
-      "matched_via": "fallback"
-     },
-     "agent_score": 25.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 54
-    },
-    {
-     "name": "Fever",
-     "slug": "fever",
-     "description": "Fever is a global live-entertainment discovery and ticketing platform that helps millions of people find events, activities and experiences in their city, and gives venues and partners the tools to sell and analyze tickets. For developers Fever exposes two public surfaces: an official Model Context Protocol (MCP) server over its real-time global event catalog (tools search_cities and search_events, OAuth 2.0 with PKCE), and a partner-facing Reporting API delivering in-depth event sales data (orders, tickets, financials, plan and session details) for CRM, BI, data-warehouse and ERP integration. Fever is backed by Accel and General Catalyst.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/screenshots/fever-2026-07-25T214354.png",
-     "score": 33.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.0,
-      "contract_quality": 45.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 24.5,
-      "matched_via": "fallback"
-     },
-     "agent_score": 56.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 55
-    },
-    {
      "name": "Pavoot",
      "slug": "pavoot",
      "description": "Pavoot is a Y Combinator-backed AI event-management platform that operates as an autonomous AI agent for running events end-to-end. It sources and matches the right attendees, personalizes invitations, captures and checks in guests on-site, automatically follows up with context from each interaction, tags event media (photos, faces, and logos) with AI, and attributes the resulting pipeline and ROI. The product targets field marketers, GTM leaders, sales teams, CMO/VP Marketing roles, and founders who want to turn events into pipeline. Pavoot runs no developer program — it issues no API keys, publishes no developer documentation and ships no SDKs — but its application backend at api.pavoot.com does serve a complete, publicly readable OpenAPI 3.1.0 describing 248 operations across event projects, media upload and AI tagging, face and person identity resolution, sponsor brand and logo recognition, attendee registration and follow-up email, gallery sharing, and organization permissions, together with FastAPI Swagger UI and ReDoc. The API itself is authenticated with Clerk-issued session tokens against Pavoot's own OAuth 2.0 / OpenID Connect authorization server at clerk.pavoot.com, so the contract is observable but not consumable by third parties.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/screenshots/pavoot-2026-08-07T191608.png",
-     "score": 33.1,
+     "score": 33.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.9,
+      "discoverability": 73.2,
       "contract_quality": 39.0,
       "contract_governance": 4.5,
       "operational_transparency": 0.0,
       "developer_ergonomics": 25.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2880,6 +2730,156 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 53
+    },
+    {
+     "name": "TicketSpice",
+     "slug": "ticketspice",
+     "description": "TicketSpice is an online event ticketing platform built by Webconnex that lets organizers design fully customizable ticketing pages and sell tickets for events, festivals, tours, and immersive experiences at a flat 99-cent per-ticket fee. TicketSpice is powered by the shared Webconnex REST API (base https://api.webconnex.com/v2/public), the same read-and-manage API surface behind Webconnex products RegFox, RedPodium, and GivingFuel. Callers pass a product parameter of ticketspice and authenticate with an apiKey header to search and view orders, registrants, tickets, transactions, customers, forms, and inventory, manage coupons and webhooks, and check registrants in and out. API access is provisioned per account with an API key and is gated to higher-tier plans.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/screenshots/ticketspice-2026-09-02T163714.png",
+     "score": 33.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 47.5,
+      "contract_governance": 0.0,
+      "operational_transparency": 31.1,
+      "developer_ergonomics": 28.6,
+      "access_clarity": 36.3
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 10.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 54
+    },
+    {
+     "name": "Tito",
+     "slug": "tito",
+     "description": "Tito (ti.to) is an event registration and ticketing platform from Team Tito in Dublin, Ireland, used to sell tickets, collect registrations, and check in attendees for conferences and events. Organizers can sell through Tito-hosted event pages or an embeddable widget. The Admin API is a REST/JSON interface at https://api.tito.io/v3 for managing accounts, events, releases (ticket types), tickets, registrations, discount codes, activities, check-in lists, and refunds, authenticated with a secret API token. Tito also emits outbound webhooks for ticket, registration, check-in, and interested-user events, and exposes a separate unauthenticated Check-in API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/screenshots/tito-2026-09-02T163823.png",
+     "score": 33.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 45.7,
+      "contract_governance": 0.0,
+      "operational_transparency": 21.6,
+      "developer_ergonomics": 32.1,
+      "access_clarity": 36.3
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 11.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 25.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 55
+    },
+    {
+     "name": "Fever",
+     "slug": "fever",
+     "description": "Fever is a global live-entertainment discovery and ticketing platform that helps millions of people find events, activities and experiences in their city, and gives venues and partners the tools to sell and analyze tickets. For developers Fever exposes two public surfaces: an official Model Context Protocol (MCP) server over its real-time global event catalog (tools search_cities and search_events, OAuth 2.0 with PKCE), and a partner-facing Reporting API delivering in-depth event sales data (orders, tickets, financials, plan and session details) for CRM, BI, data-warehouse and ERP integration. Fever is backed by Accel and General Catalyst.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/screenshots/fever-2026-07-25T214354.png",
+     "score": 33.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.0,
+      "contract_quality": 45.3,
+      "contract_governance": 4.5,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 24.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 56.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
      "rank": 56
     },
     {
@@ -2898,7 +2898,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2948,7 +2948,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2998,7 +2998,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3048,7 +3048,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3083,6 +3083,55 @@
      "rank": 60
     },
     {
+     "name": "Atomtickets",
+     "slug": "atomtickets",
+     "description": "Atomtickets is a ticketing platform that provides APIs for event organizers to create, manage, and sell tickets online. It offers functionalities such as event creation, seat selection, pricing tiers, discount codes, and real-time sales analytics. The service aims to simplify ticket distribution for concerts, conferences, and other live events, integrating with payment gateways and offering webhook notifications for transaction updates. Atomtickets targets both small venues and large enterprises, emphasizing scalability, security, and a developer-friendly experience.",
+     "score": 30.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 64.3,
+      "contract_quality": 26.0,
+      "contract_governance": 22.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 42.9,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 17.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 18.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 61
+    },
+    {
      "name": "Swapcard",
      "slug": "swapcard",
      "description": "Swapcard is an AI-powered event and community engagement platform for in-person, virtual, and hybrid events - mobile and web event apps, attendee networking and matchmaking, exhibitor and lead management, registration, and onsite badging. For developers Swapcard is GraphQL-first - an organizer-facing Content (Event Admin) API to fetch, create, modify, and delete event content (events, people, exhibitors, plannings/sessions, groups); an Exhibitor Leads API to retrieve booths, export leads, and scan badges; and a GraphQL Analytics API. Access is token-based and provisioned to Swapcard customers and partners (organizers and exhibitors).",
@@ -3098,7 +3147,7 @@
       "developer_ergonomics": 25.7,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3130,7 +3179,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 62
     },
     {
      "name": "Incident IQ",
@@ -3148,7 +3197,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3180,7 +3229,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "BlaBlaCar Bus API",
@@ -3198,7 +3247,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3230,7 +3279,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "Seated",
@@ -3248,7 +3297,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 57.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3280,7 +3329,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 65
     }
    ]
   },
@@ -3308,7 +3357,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3340,7 +3389,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "Anyroad",
@@ -3358,7 +3407,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3390,7 +3439,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "konfetti",
@@ -3408,7 +3457,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3440,7 +3489,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "Trainline",
@@ -3458,7 +3507,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3490,7 +3539,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "The Ticket Fairy",
@@ -3508,7 +3557,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3540,7 +3589,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Race Entry",
@@ -3558,7 +3607,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3590,7 +3639,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "Bizzabo",
@@ -3608,7 +3657,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 43.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3640,7 +3689,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "DICE",
@@ -3658,7 +3707,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 40.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3690,7 +3739,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "Charter Communications",
@@ -3708,7 +3757,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3740,7 +3789,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "FlixBus",
@@ -3758,7 +3807,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3790,7 +3839,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 75
     },
     {
      "name": "Live Nation Entertainment",
@@ -3808,7 +3857,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3840,7 +3889,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "Launchmetrics",
@@ -3858,7 +3907,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3890,7 +3939,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 77
     },
     {
      "name": "Cuseum",
@@ -3908,7 +3957,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3940,7 +3989,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 78
     },
     {
      "name": "EventMobi",
@@ -3958,7 +4007,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3990,7 +4039,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 79
     },
     {
      "name": "Satisfi Labs",
@@ -4008,7 +4057,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4040,7 +4089,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 80
     },
     {
      "name": "HeadOut",
@@ -4058,7 +4107,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4090,7 +4139,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 81
     },
     {
      "name": "Cinemark Holdings",
@@ -4107,7 +4156,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4139,7 +4188,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 82
     },
     {
      "name": "Boompop",
@@ -4157,7 +4206,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4189,7 +4238,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 82
+     "rank": 83
     },
     {
      "name": "Easol",
@@ -4207,57 +4256,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 12.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 83
-    },
-    {
-     "name": "CommitChange",
-     "slug": "commitchange",
-     "description": "CommitChange is an all-in-one nonprofit fundraising platform providing online donation processing, recurring giving, embeddable donation widgets, crowdfunding and peer-to-peer fundraising campaigns, professional event pages with ticketing, donor management, and a real-time analytics dashboard. Founded in 2012 and acquired by Software for Good (Minneapolis, MN) in 2022, the platform charges no monthly fees or long-term contracts, taking 5% + $0.30 per transaction with payments processed securely via Stripe. CommitChange is built on the open-source Houdini Project (AGPL) and has helped 1,000+ nonprofits raise $82M+ across 4,700+ campaigns and 2,900+ events.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/commitchange/refs/heads/main/screenshots/commitchange-2026-07-25T210130.png",
-     "score": 16.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 55.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 11.9,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4292,6 +4291,56 @@
      "rank": 84
     },
     {
+     "name": "CommitChange",
+     "slug": "commitchange",
+     "description": "CommitChange is an all-in-one nonprofit fundraising platform providing online donation processing, recurring giving, embeddable donation widgets, crowdfunding and peer-to-peer fundraising campaigns, professional event pages with ticketing, donor management, and a real-time analytics dashboard. Founded in 2012 and acquired by Software for Good (Minneapolis, MN) in 2022, the platform charges no monthly fees or long-term contracts, taking 5% + $0.30 per transaction with payments processed securely via Stripe. CommitChange is built on the open-source Houdini Project (AGPL) and has helped 1,000+ nonprofits raise $82M+ across 4,700+ campaigns and 2,900+ events.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/commitchange/refs/heads/main/screenshots/commitchange-2026-07-25T210130.png",
+     "score": 16.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 55.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 11.9,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 12.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 85
+    },
+    {
      "name": "Moviepass",
      "slug": "moviepass",
      "description": "MoviePass is a consumer movie-theater subscription service that lets members see films in theaters nationwide for a low monthly fee. The relaunched service (led by co-founder Stacy Spikes after reacquiring the brand) uses a credit-based system: members choose a monthly plan, earn credits, and redeem them for showtimes at over 4,000 participating US theaters, including major chains and independent cinemas, with plans starting around $10/month and no long-term commitment. Members browse showtimes and book through the MoviePass iOS and Android apps. MoviePass was surfaced in the API Evangelist network as a portfolio company of Canaan Partners; it is a direct-to-consumer app business and does not publish a traditional public developer API. Its marketing site is Wix-powered and exposes a hosted Wix Site MCP server plus an llms.txt for agentic access to public site content.",
@@ -4307,7 +4356,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4339,7 +4388,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 86
     },
     {
      "name": "Ingresse",
@@ -4357,7 +4406,7 @@
       "developer_ergonomics": 41.7,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4389,7 +4438,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 87
     },
     {
      "name": "TicketRev",
@@ -4407,7 +4456,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4439,7 +4488,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 88
     },
     {
      "name": "Liftopia",
@@ -4457,57 +4506,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 13.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 88
-    },
-    {
-     "name": "Eventnoire",
-     "slug": "eventnoire",
-     "description": "Eventnoire is an event discovery and ticketing platform centered on Black culture, helping attendees find and buy tickets to concerts, festivals, parties, and community events while giving organizers tools to create and manage events, sell tickets, and grow their audiences. A Techstars-backed company, Eventnoire runs consumer discovery at eventnoire.com alongside an organizer/partner portal and a culture-focused blog. It currently exposes no public developer API, so this profile captures the company's public web surface (blog, legal, organizer sign-up, attendee login, support) and its domain security posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eventnoire/refs/heads/main/screenshots/eventnoire-2026-07-25T213716.png",
-     "score": 12.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4542,11 +4541,11 @@
      "rank": 89
     },
     {
-     "name": "Hobnob",
-     "slug": "hobnob",
-     "description": "Hobnob is a consumer event and community-organizing platform (hobnob.app) for iOS, Android, and web. It lets people create custom video and photo invitations, deliver them by text message, track RSVPs, sell tickets, run sign-up lists, time polls, and announcements, and coordinate private group \"Spaces\" for chat and content sharing. Built on a Hawaii-inspired philosophy of real-world connection over engagement-maximizing social media, Hobnob reports 20 million invitations sent, roughly 35,000 events per month, 650,000 Spaces created, and 90,000+ five-star reviews. It is a Norwest Venture Partners portfolio company. No public developer API, SDK, or documentation surface was found during enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hobnob/refs/heads/main/screenshots/hobnob-2026-07-25T221310.png",
-     "score": 11.9,
+     "name": "Eventnoire",
+     "slug": "eventnoire",
+     "description": "Eventnoire is an event discovery and ticketing platform centered on Black culture, helping attendees find and buy tickets to concerts, festivals, parties, and community events while giving organizers tools to create and manage events, sell tickets, and grow their audiences. A Techstars-backed company, Eventnoire runs consumer discovery at eventnoire.com alongside an organizer/partner portal and a culture-focused blog. It currently exposes no public developer API, so this profile captures the company's public web surface (blog, legal, organizer sign-up, attendee login, support) and its domain security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eventnoire/refs/heads/main/screenshots/eventnoire-2026-07-25T213716.png",
+     "score": 12.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -4554,10 +4553,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4592,6 +4591,56 @@
      "rank": 90
     },
     {
+     "name": "Hobnob",
+     "slug": "hobnob",
+     "description": "Hobnob is a consumer event and community-organizing platform (hobnob.app) for iOS, Android, and web. It lets people create custom video and photo invitations, deliver them by text message, track RSVPs, sell tickets, run sign-up lists, time polls, and announcements, and coordinate private group \"Spaces\" for chat and content sharing. Built on a Hawaii-inspired philosophy of real-world connection over engagement-maximizing social media, Hobnob reports 20 million invitations sent, roughly 35,000 events per month, 650,000 Spaces created, and 90,000+ five-star reviews. It is a Norwest Venture Partners portfolio company. No public developer API, SDK, or documentation surface was found during enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hobnob/refs/heads/main/screenshots/hobnob-2026-07-25T221310.png",
+     "score": 11.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 13.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 91
+    },
+    {
      "name": "Whova",
      "slug": "whova",
      "description": "Whova is an award-winning all-in-one event management platform built around a mobile event app that carries the agenda, speaker profiles, attendee networking, live polls, and session Q&A, plus registration, ticketing, name badges, surveys, abstract/speaker management, and exhibitor/sponsor tools. Whova does NOT publish an open, self-serve developer API - there is no public developer portal, no documented REST reference, no OpenAPI definition, and no SDKs. Its only programmatic surface for organizers is a partner/CRM integration layer exposed through Zapier (triggers for attendee, order, and registrant changes plus a create/update-attendee action), reached from the organizer dashboard under Attendees > Integrations > CRM Integration, alongside prebuilt connectors to Eventbrite, Cvent, Constant Contact, RegFox, OpenReview, SharePoint/OneDrive, MailChimp, Wild Apricot, and Google Drive. The API entries below are logical, HONESTLY MODELED views of that integration surface (see endpointsModeled) - they are not sourced from a public Whova API reference, and no base URL, auth scheme, or endpoint paths are published by Whova.",
@@ -4607,7 +4656,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 18.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4639,7 +4688,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 92
     },
     {
      "name": "Gametime",
@@ -4657,7 +4706,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4689,7 +4738,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 93
     },
     {
      "name": "Robylon AI",
@@ -4707,7 +4756,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4739,7 +4788,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 94
     },
     {
      "name": "Boletia",
@@ -4756,7 +4805,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4788,7 +4837,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 95
     }
    ]
   },
@@ -4797,8 +4846,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 28,
-   "shown": 28,
+   "count": 29,
+   "shown": 29,
    "providers": [
     {
      "name": "Book My Show",
@@ -4816,57 +4865,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 13.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 95
-    },
-    {
-     "name": "Wanderu",
-     "slug": "wanderu",
-     "description": "Wanderu is a ground-travel metasearch and booking platform - a Kayak-style aggregator that lets travelers search, compare, and book intercity bus and train tickets (plus flights and ferries) across hundreds of carriers in North America and Europe, including Amtrak, Greyhound, FlixBus, Megabus, Peter Pan, VIA Rail, and Deutsche Bahn. Its routing technology stitches together multi-operator bus-and-train itineraries, and bookings are completed in-platform with carriers paying a percentage of each fare. Wanderu operates a private booking/search API and publishes no public developer program, SDKs, or OpenAPI; its public open-source presence is internal engineering tooling on GitHub (the redis-backed \"bamboo\" queuing system). Backed by 500 Global.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wanderu/refs/heads/main/screenshots/wanderu-2026-09-02T170421.png",
-     "score": 10.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4901,22 +4900,22 @@
      "rank": 96
     },
     {
-     "name": "ApniBus",
-     "slug": "apnibus",
-     "description": "ApniBus is an India-based online bus ticket booking platform that lets travelers search routes, compare operators, select seats, and pay for tickets across government and private bus services. It positions itself as a leading Indian bus-booking marketplace and an official RSRTC (Rajasthan State Road Transport Corporation) booking partner, aggregating over one lakh bus services across thousands of routes. The consumer experience spans a website and Android/iOS apps, with UPI, cards, net banking, and wallet payments, instant e-ticket / m-ticket confirmation, live bus tracking, and easy cancellation. ApniBus was surfaced as a portfolio company of Version One Ventures and added to the API Evangelist network for enrichment; it publishes no public developer or API program at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apnibus/refs/heads/main/screenshots/apnibus-2026-07-25T200657.png",
-     "score": 9.7,
+     "name": "Wanderu",
+     "slug": "wanderu",
+     "description": "Wanderu is a ground-travel metasearch and booking platform - a Kayak-style aggregator that lets travelers search, compare, and book intercity bus and train tickets (plus flights and ferries) across hundreds of carriers in North America and Europe, including Amtrak, Greyhound, FlixBus, Megabus, Peter Pan, VIA Rail, and Deutsche Bahn. Its routing technology stitches together multi-operator bus-and-train itineraries, and bookings are completed in-platform with carriers paying a percentage of each fare. Wanderu operates a private booking/search API and publishes no public developer program, SDKs, or OpenAPI; its public open-source presence is internal engineering tooling on GitHub (the redis-backed \"bamboo\" queuing system). Backed by 500 Global.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wanderu/refs/heads/main/screenshots/wanderu-2026-09-02T170421.png",
+     "score": 10.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4951,10 +4950,10 @@
      "rank": 97
     },
     {
-     "name": "ScoreBig (TicketNetwork)",
-     "slug": "scorebig-ticketnetwork",
-     "description": "ScoreBig is an online event-ticket resale marketplace owned by TicketNetwork, selling tickets to live sports, concert, and theater events with an emphasis on transparent, all-in pricing (no extra fees or hidden costs) and a money-back guarantee. Its parent, TicketNetwork, operates the Mercury Web Services API and Mercury Retail integration platform, an API-driven, real-time ticket-inventory feed offered to partners under contract. ScoreBig itself is a consumer storefront and does not publish a public developer API; Mercury is partner-gated behind a sales/onboarding contact form with a sandbox provided to approved integrators. This profile was surfaced as a portfolio company of Bain Capital Ventures and enriched by the API Evangelist pipeline.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scorebig-ticketnetwork/refs/heads/main/screenshots/scorebig-ticketnetwork-2026-09-02T154550.png",
+     "name": "ApniBus",
+     "slug": "apnibus",
+     "description": "ApniBus is an India-based online bus ticket booking platform that lets travelers search routes, compare operators, select seats, and pay for tickets across government and private bus services. It positions itself as a leading Indian bus-booking marketplace and an official RSRTC (Rajasthan State Road Transport Corporation) booking partner, aggregating over one lakh bus services across thousands of routes. The consumer experience spans a website and Android/iOS apps, with UPI, cards, net banking, and wallet payments, instant e-ticket / m-ticket confirmation, live bus tracking, and easy cancellation. ApniBus was surfaced as a portfolio company of Version One Ventures and added to the API Evangelist network for enrichment; it publishes no public developer or API program at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apnibus/refs/heads/main/screenshots/apnibus-2026-07-25T200657.png",
      "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4966,7 +4965,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5001,11 +5000,11 @@
      "rank": 98
     },
     {
-     "name": "Shoobs",
-     "slug": "shoobs",
-     "description": "Shoobs is a UK-based online events discovery and ticketing platform focused on urban culture — Afrobeats, R&B, hip-hop, dancehall, comedy, theatre, festivals, brunches and club nights across London and other British cities. Founded as a Y Combinator-backed startup, Shoobs helps fans find and book tickets to events that match their taste, and lets promoters list and sell tickets for urban and Black-British cultural events. The platform pairs an events listing and discovery site with an integrated editorial blog covering artists, concerts and nightlife. Shoobs is a consumer web product; it does not publish a public developer API, SDKs, or API documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shoobs/refs/heads/main/screenshots/shoobs-2026-09-02T155253.png",
-     "score": 9.2,
+     "name": "ScoreBig (TicketNetwork)",
+     "slug": "scorebig-ticketnetwork",
+     "description": "ScoreBig is an online event-ticket resale marketplace owned by TicketNetwork, selling tickets to live sports, concert, and theater events with an emphasis on transparent, all-in pricing (no extra fees or hidden costs) and a money-back guarantee. Its parent, TicketNetwork, operates the Mercury Web Services API and Mercury Retail integration platform, an API-driven, real-time ticket-inventory feed offered to partners under contract. ScoreBig itself is a consumer storefront and does not publish a public developer API; Mercury is partner-gated behind a sales/onboarding contact form with a sandbox provided to approved integrators. This profile was surfaced as a portfolio company of Bain Capital Ventures and enriched by the API Evangelist pipeline.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scorebig-ticketnetwork/refs/heads/main/screenshots/scorebig-ticketnetwork-2026-09-02T154550.png",
+     "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -5013,10 +5012,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5051,11 +5050,60 @@
      "rank": 99
     },
     {
-     "name": "Season Share",
-     "slug": "season-share",
-     "description": "Season Share (SeasonShare) is a ticketing technology platform for sports and entertainment venues. Its subscription-pass, last-minute, student, and credit-based products — Pass, Flow, Flex, and LivePass — help teams and venues reach younger fans, capture first-party data, and build recurring ticket revenue. It reports $100M+ in ticket inventory delivered and 1.5M tickets purchased, and is used by 30+ franchises including the Sacramento Kings, New Jersey Devils, Arizona Diamondbacks, and Nashville Predators. This profile was surfaced as a Techstars portfolio company; no public API, developer portal, or OpenAPI surface was found during enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/season-share/refs/heads/main/screenshots/season-share-2026-09-02T154643.png",
-     "score": 8.8,
+     "name": "Support",
+     "slug": "support",
+     "description": "An index and topic collection covering customer support, help desk, ticketing, knowledge base, and live chat APIs. Customer support platforms power the interfaces and back-office systems that companies use to receive, route, resolve, and learn from customer inquiries across email, chat, phone, social, and self-service channels. This collection includes traditional help desk and ticketing suites like Zendesk, Freshdesk, and Help Scout, conversational customer support platforms like Intercom and Front, enterprise service clouds from Salesforce, ServiceNow, and Microsoft, knowledge base and self-service systems, live chat and messaging platforms like Crisp, LiveChat, and Olark, and modern API-first support tools like Plain and Chatwoot.",
+     "score": 9.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 14.7,
+      "contract_governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 4.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 100
+    },
+    {
+     "name": "Shoobs",
+     "slug": "shoobs",
+     "description": "Shoobs is a UK-based online events discovery and ticketing platform focused on urban culture — Afrobeats, R&B, hip-hop, dancehall, comedy, theatre, festivals, brunches and club nights across London and other British cities. Founded as a Y Combinator-backed startup, Shoobs helps fans find and book tickets to events that match their taste, and lets promoters list and sell tickets for urban and Black-British cultural events. The platform pairs an events listing and discovery site with an integrated editorial blog covering artists, concerts and nightlife. Shoobs is a consumer web product; it does not publish a public developer API, SDKs, or API documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shoobs/refs/heads/main/screenshots/shoobs-2026-09-02T155253.png",
+     "score": 9.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -5063,10 +5111,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5098,7 +5146,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 101
+    },
+    {
+     "name": "Season Share",
+     "slug": "season-share",
+     "description": "Season Share (SeasonShare) is a ticketing technology platform for sports and entertainment venues. Its subscription-pass, last-minute, student, and credit-based products — Pass, Flow, Flex, and LivePass — help teams and venues reach younger fans, capture first-party data, and build recurring ticket revenue. It reports $100M+ in ticket inventory delivered and 1.5M tickets purchased, and is used by 30+ franchises including the Sacramento Kings, New Jersey Devils, Arizona Diamondbacks, and Nashville Predators. This profile was surfaced as a Techstars portfolio company; no public API, developer portal, or OpenAPI surface was found during enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/season-share/refs/heads/main/screenshots/season-share-2026-09-02T154643.png",
+     "score": 8.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 13.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 102
     },
     {
      "name": "Jump",
@@ -5116,7 +5214,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5148,7 +5246,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 103
     },
     {
      "name": "Hudl",
@@ -5166,7 +5264,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5198,7 +5296,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 104
     },
     {
      "name": "SilverRail",
@@ -5216,7 +5314,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5248,7 +5346,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 105
     },
     {
      "name": "Let's Do This",
@@ -5266,7 +5364,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5298,7 +5396,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 106
     },
     {
      "name": "Project Admission",
@@ -5316,7 +5414,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5348,7 +5446,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 107
     },
     {
      "name": "Grassroots Unwired",
@@ -5366,7 +5464,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5398,7 +5496,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 108
     },
     {
      "name": "Sajilni",
@@ -5416,7 +5514,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5448,7 +5546,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 109
     },
     {
      "name": "Blink Identity",
@@ -5466,7 +5564,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5498,7 +5596,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 110
     },
     {
      "name": "Ring Radar",
@@ -5516,107 +5614,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 5.9,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 109
-    },
-    {
-     "name": "Filmgrail",
-     "slug": "filmgrail",
-     "description": "Filmgrail is an Oslo, Norway based software company offering an AI-powered digital platform for cinema operators. Its product suite bundles a cinema content management system (CMS), native iOS and Android mobile apps, branded cinema websites, and marketing and analytics tooling into a single managed offering, with a loyalty system, festival platform, push notifications, and a planning tool layered on top. Filmgrail markets these capabilities as a way to automate cinema operations and grow digital ticket sales and moviegoer engagement, and describes API-based integration between its platform and cinema point-of-sale systems, websites, and mobile apps. Backed by 500 Global, the company operates from Oslo, Norway and Delaware, USA. Filmgrail does not currently publish a public developer portal, API reference, or client SDKs; this profile is maintained as an API Evangelist network company record.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/filmgrail/refs/heads/main/screenshots/filmgrail-2026-07-25T214447.png",
-     "score": 4.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 5.9,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 110
-    },
-    {
-     "name": "Sofar Sounds",
-     "slug": "sofar-sounds",
-     "description": "Sofar Sounds curates secret, intimate live-music gigs in living rooms, small venues, and unexpected spaces in hundreds of cities around the world. The company connects independent and emerging artists with attentive local audiences through a mobile-first ticketing and events platform, and works with hosts who lend their spaces for the shows. Sofar operates a consumer-facing website and apps rather than a public developer program; probing its surface confirmed no documented public API, developer portal, SDKs, or OpenAPI. It runs a real GitHub organization (github.com/sofarsounds) of internal engineering repositories, and its production backend is served from api.sofarsounds.com (Heroku), but neither exposes a published, documented API for third-party developers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sofar-sounds/refs/heads/main/screenshots/sofar-sounds-2026-09-02T160056.png",
-     "score": 3.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5651,31 +5649,31 @@
      "rank": 111
     },
     {
-     "name": "Dreamscape Immersive",
-     "slug": "dreamscape-immersive",
-     "description": "Dreamscape Immersive is an entertainment and technology company founded in 2016 and headquartered in Culver City, California, that produces story-based, full-roam virtual reality experiences in which up to six people share a physical stage and see fully rendered avatars of one another inside a virtual 3D environment. It operates location-based VR venues in the United States, licenses its platform to international operators, and is a partner in the Dreamscape Learn education joint venture. Its public surface is a consumer ticketing and booking website; as of August 2026 the company publishes no developer portal, API documentation, SDK, or machine-readable specification, and the single backend its website calls is a private, key-gated AWS API Gateway host that returns 403 to anonymous requests.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dreamscape-immersive/refs/heads/main/screenshots/dreamscape-immersive-2026-09-02T145320.png",
-     "score": 3.6,
+     "name": "Filmgrail",
+     "slug": "filmgrail",
+     "description": "Filmgrail is an Oslo, Norway based software company offering an AI-powered digital platform for cinema operators. Its product suite bundles a cinema content management system (CMS), native iOS and Android mobile apps, branded cinema websites, and marketing and analytics tooling into a single managed offering, with a loyalty system, festival platform, push notifications, and a planning tool layered on top. Filmgrail markets these capabilities as a way to automate cinema operations and grow digital ticket sales and moviegoer engagement, and describes API-based integration between its platform and cinema point-of-sale systems, websites, and mobile apps. Backed by 500 Global, the company operates from Oslo, Norway and Delaware, USA. Filmgrail does not currently publish a public developer portal, API reference, or client SDKs; this profile is maintained as an API Evangelist network company record.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/filmgrail/refs/heads/main/screenshots/filmgrail-2026-07-25T214447.png",
+     "score": 4.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 55.4,
+      "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
       "score": 5.9,
-      "matched_via": "tags"
+      "matched_via": "fallback"
      },
-     "agent_score": 2.5,
+     "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -5686,7 +5684,7 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -5701,22 +5699,22 @@
      "rank": 112
     },
     {
-     "name": "Flixster",
-     "slug": "flixster",
-     "description": "Flixster is an American movie-discovery and social entertainment brand founded in 2007 that let people rate and review movies, browse local showtimes, watch trailers, and share what they were watching. It grew into one of the largest movie communities on the web and mobile, and in 2011 was acquired by Warner Bros. together with Rotten Tomatoes; Fandango Media later acquired both Flixster and Rotten Tomatoes from Warner Bros. in 2016. The Flixster Video digital-locker service (built on UltraViolet) was shut down in 2019. The flixster.com property no longer operates as an independent consumer site — it now redirects to Fandango, and Flixster does not publish a public developer API, developer portal, or API documentation. This profile is maintained in the API Evangelist network as a company/brand record; there is no live API surface to enrich.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flixster/refs/heads/main/screenshots/flixster-2026-07-25T214807.png",
-     "score": 3.4,
+     "name": "Sofar Sounds",
+     "slug": "sofar-sounds",
+     "description": "Sofar Sounds curates secret, intimate live-music gigs in living rooms, small venues, and unexpected spaces in hundreds of cities around the world. The company connects independent and emerging artists with attentive local audiences through a mobile-first ticketing and events platform, and works with hosts who lend their spaces for the shows. Sofar operates a consumer-facing website and apps rather than a public developer program; probing its surface confirmed no documented public API, developer portal, SDKs, or OpenAPI. It runs a real GitHub organization (github.com/sofarsounds) of internal engineering repositories, and its production backend is served from api.sofarsounds.com (Heroku), but neither exposes a published, documented API for third-party developers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sofar-sounds/refs/heads/main/screenshots/sofar-sounds-2026-09-02T160056.png",
+     "score": 3.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5751,10 +5749,60 @@
      "rank": 113
     },
     {
-     "name": "MoreTickets",
-     "slug": "moretickets",
-     "description": "MoreTickets (摩天轮票务), operated by Shanghai Juqitech, is a next-generation internet performance ticketing marketplace founded in 2015. The platform lets consumers buy and sell tickets to concerts, stage plays, musicals, and sports events through a transparent, competitive pricing marketplace with standardized ticketing services. It operates primarily as a consumer-facing web and mobile marketplace and does not publish a public developer API or open platform. The company is backed by Qiming Venture Partners and has raised a reported $108M in funding.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/moretickets/refs/heads/main/screenshots/moretickets-2026-08-07T184306.png",
+     "name": "Dreamscape Immersive",
+     "slug": "dreamscape-immersive",
+     "description": "Dreamscape Immersive is an entertainment and technology company founded in 2016 and headquartered in Culver City, California, that produces story-based, full-roam virtual reality experiences in which up to six people share a physical stage and see fully rendered avatars of one another inside a virtual 3D environment. It operates location-based VR venues in the United States, licenses its platform to international operators, and is a partner in the Dreamscape Learn education joint venture. Its public surface is a consumer ticketing and booking website; as of August 2026 the company publishes no developer portal, API documentation, SDK, or machine-readable specification, and the single backend its website calls is a private, key-gated AWS API Gateway host that returns 403 to anonymous requests.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dreamscape-immersive/refs/heads/main/screenshots/dreamscape-immersive-2026-09-02T145320.png",
+     "score": 3.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 55.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 5.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 114
+    },
+    {
+     "name": "Flixster",
+     "slug": "flixster",
+     "description": "Flixster is an American movie-discovery and social entertainment brand founded in 2007 that let people rate and review movies, browse local showtimes, watch trailers, and share what they were watching. It grew into one of the largest movie communities on the web and mobile, and in 2011 was acquired by Warner Bros. together with Rotten Tomatoes; Fandango Media later acquired both Flixster and Rotten Tomatoes from Warner Bros. in 2016. The Flixster Video digital-locker service (built on UltraViolet) was shut down in 2019. The flixster.com property no longer operates as an independent consumer site — it now redirects to Fandango, and Flixster does not publish a public developer API, developer portal, or API documentation. This profile is maintained in the API Evangelist network as a company/brand record; there is no live API surface to enrich.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flixster/refs/heads/main/screenshots/flixster-2026-07-25T214807.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5766,7 +5814,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5798,7 +5846,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 115
+    },
+    {
+     "name": "MoreTickets",
+     "slug": "moretickets",
+     "description": "MoreTickets (摩天轮票务), operated by Shanghai Juqitech, is a next-generation internet performance ticketing marketplace founded in 2015. The platform lets consumers buy and sell tickets to concerts, stage plays, musicals, and sports events through a transparent, competitive pricing marketplace with standardized ticketing services. It operates primarily as a consumer-facing web and mobile marketplace and does not publish a public developer API or open platform. The company is backed by Qiming Venture Partners and has raised a reported $108M in funding.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/moretickets/refs/heads/main/screenshots/moretickets-2026-08-07T184306.png",
+     "score": 3.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 116
     },
     {
      "name": "Qubit Smart Tickets",
@@ -5815,7 +5913,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5847,7 +5945,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 117
     },
     {
      "name": "Partyphile",
@@ -5864,112 +5962,13 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
       "regime_id": "horizontal",
       "score": 0.0,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 116
-    },
-    {
-     "name": "Eventtus",
-     "slug": "eventtus",
-     "description": "Eventtus was a Cairo, Egypt-based event technology company that built a mobile event app and attendee-engagement platform for conferences, trade shows, and community events. Its product offered event apps with agendas, networking and matchmaking, live Q&A and polls, push notifications, social feeds, lead capture, badge printing, online registration, and organizer analytics. Founded by Mai Medhat and Nihal Fares, Eventtus raised venture funding from investors including 500 Startups (500 Global), Vodafone Ventures, and Endure Capital, and was acquired by the community-events platform Bevy in July 2021. This profile was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. Enrichment found no live public API, developer portal, or first-party SDK — the eventtus.com domain no longer resolves and the engineering blog is offline — so the profile is retained as identity only.",
-     "score": 0.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 0.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 0.0,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 117
-    },
-    {
-     "name": "Fanimal",
-     "slug": "fanimal",
-     "description": "Fanimal was surfaced as a portfolio company of bullpen-capital and added to the API Evangelist network as a stub for enrichment. Re-verified on 2026-07-20, the primary domain fanimal.com remains a parked, Cloudflare-fronted redirect — every path probed (root, /llms.txt, /.well-known/security.txt, /.well-known/openid-configuration, /.well-known/api-catalog, and the api./developer./docs. subdomains) returns HTTP 301 to https://tickpick.com/?fanimal=y. The ?fanimal=y attribution marker on a redirect into a ticket-resale marketplace indicates the property is defunct or has been absorbed by TickPick. No package was found on npm, PyPI, RubyGems, or crates.io; the github.com/Fanimal organization exists but is empty (0 public repos, no profile metadata) and cannot be verified as the same company. No independent Fanimal API, developer portal, OpenAPI spec, MCP server, or reachable /.well-known/ surface exists to enrich; there is no spec-bearing developer surface to ground any artifact against. The registered domain is still administered (live TLS, HSTS, SES SPF, Google and Klaviyo site-verification TXT records), which is captured in the probed domain-security artifact.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fanimal/refs/heads/main/screenshots/fanimal-2026-07-25T214219.png",
-     "score": 0.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 0.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 5.9,
       "matched_via": "fallback"
      },
      "agent_score": 0.0,
@@ -5998,9 +5997,9 @@
      "rank": 118
     },
     {
-     "name": "Parature",
-     "slug": "parature",
-     "description": "Parature was a cloud-based customer service and self-service knowledge base company founded around 2000 (originally as Cyracle) and headquartered in Herndon, Virginia. Its SaaS suite covered a customer self-service knowledge base, ticketing/case management, live chat, and social customer service, and it exposed a developer API for managing knowledge base articles, tickets, and related data. Microsoft acquired Parature for a reported $100 million in January 2014 and folded its capabilities into Microsoft Dynamics CRM / Dynamics 365 for Customer Service. Parature from Microsoft stopped selling to new customers on November 1, 2016 and the standalone service was fully retired (end of support) on May 15, 2018. This is a historical/defunct company profile: the parature.com domain no longer resolves and there is no live developer portal, documentation, or API surface to enrich.",
+     "name": "Eventtus",
+     "slug": "eventtus",
+     "description": "Eventtus was a Cairo, Egypt-based event technology company that built a mobile event app and attendee-engagement platform for conferences, trade shows, and community events. Its product offered event apps with agendas, networking and matchmaking, live Q&A and polls, push notifications, social feeds, lead capture, badge printing, online registration, and organizer analytics. Founded by Mai Medhat and Nihal Fares, Eventtus raised venture funding from investors including 500 Startups (500 Global), Vodafone Ventures, and Endure Capital, and was acquired by the community-events platform Bevy in July 2021. This profile was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. Enrichment found no live public API, developer portal, or first-party SDK — the eventtus.com domain no longer resolves and the engineering blog is offline — so the profile is retained as identity only.",
      "score": 0.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6012,7 +6011,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6047,9 +6046,10 @@
      "rank": 119
     },
     {
-     "name": "Scoopola",
-     "slug": "scoopola",
-     "description": "Scoopola was an early-stage consumer startup backed by 500 Startups (Batch 2, June 2011), pitched as \"the HotelTonight for live music and theater\" — a mobile app for discovering and buying last-minute, discounted tickets to local live-music and theater events. The company appears defunct; its associated web domains (getwillcall.com and scoopola.com) no longer resolve, and there is no surviving developer portal, documentation, or public API surface. This record is retained as a historical portfolio-lead stub; the enrichment pipeline found no live API to catalog.",
+     "name": "Fanimal",
+     "slug": "fanimal",
+     "description": "Fanimal was surfaced as a portfolio company of bullpen-capital and added to the API Evangelist network as a stub for enrichment. Re-verified on 2026-07-20, the primary domain fanimal.com remains a parked, Cloudflare-fronted redirect — every path probed (root, /llms.txt, /.well-known/security.txt, /.well-known/openid-configuration, /.well-known/api-catalog, and the api./developer./docs. subdomains) returns HTTP 301 to https://tickpick.com/?fanimal=y. The ?fanimal=y attribution marker on a redirect into a ticket-resale marketplace indicates the property is defunct or has been absorbed by TickPick. No package was found on npm, PyPI, RubyGems, or crates.io; the github.com/Fanimal organization exists but is empty (0 public repos, no profile metadata) and cannot be verified as the same company. No independent Fanimal API, developer portal, OpenAPI spec, MCP server, or reachable /.well-known/ surface exists to enrich; there is no spec-bearing developer surface to ground any artifact against. The registered domain is still administered (live TLS, HSTS, SES SPF, Google and Klaviyo site-verification TXT records), which is captured in the probed domain-security artifact.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fanimal/refs/heads/main/screenshots/fanimal-2026-07-25T214219.png",
      "score": 0.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6061,13 +6061,13 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
       "regime_id": "horizontal",
-      "score": 0.0,
+      "score": 5.9,
       "matched_via": "fallback"
      },
      "agent_score": 0.0,
@@ -6096,10 +6096,9 @@
      "rank": 120
     },
     {
-     "name": "Ticketfly",
-     "slug": "ticketfly",
-     "description": "Ticketfly was a San Francisco-based event-ticketing platform for independent music venues, promoters, and festivals, founded in 2008. It was acquired by Eventbrite in 2017 and, following a June 2018 data breach, was shut down in November 2018 with its music-oriented features folded into Eventbrite Music. The company is defunct: as of 2026 every Ticketfly host (www.ticketfly.com, developer.ticketfly.com) returns HTTP 301 redirects to eventbrite.com. No independent Ticketfly API, developer portal, documentation, or specification survives. This profile is retained as a historical/acquired-company record; there is no live API surface to enrich.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ticketfly/refs/heads/main/screenshots/ticketfly-2026-09-02T163704.png",
+     "name": "Parature",
+     "slug": "parature",
+     "description": "Parature was a cloud-based customer service and self-service knowledge base company founded around 2000 (originally as Cyracle) and headquartered in Herndon, Virginia. Its SaaS suite covered a customer self-service knowledge base, ticketing/case management, live chat, and social customer service, and it exposed a developer API for managing knowledge base articles, tickets, and related data. Microsoft acquired Parature for a reported $100 million in January 2014 and folded its capabilities into Microsoft Dynamics CRM / Dynamics 365 for Customer Service. Parature from Microsoft stopped selling to new customers on November 1, 2016 and the standalone service was fully retired (end of support) on May 15, 2018. This is a historical/defunct company profile: the parature.com domain no longer resolves and there is no live developer portal, documentation, or API surface to enrich.",
      "score": 0.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6111,7 +6110,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6146,6 +6145,105 @@
      "rank": 121
     },
     {
+     "name": "Scoopola",
+     "slug": "scoopola",
+     "description": "Scoopola was an early-stage consumer startup backed by 500 Startups (Batch 2, June 2011), pitched as \"the HotelTonight for live music and theater\" — a mobile app for discovering and buying last-minute, discounted tickets to local live-music and theater events. The company appears defunct; its associated web domains (getwillcall.com and scoopola.com) no longer resolve, and there is no surviving developer portal, documentation, or public API surface. This record is retained as a historical portfolio-lead stub; the enrichment pipeline found no live API to catalog.",
+     "score": 0.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 0.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 0.0,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 122
+    },
+    {
+     "name": "Ticketfly",
+     "slug": "ticketfly",
+     "description": "Ticketfly was a San Francisco-based event-ticketing platform for independent music venues, promoters, and festivals, founded in 2008. It was acquired by Eventbrite in 2017 and, following a June 2018 data breach, was shut down in November 2018 with its music-oriented features folded into Eventbrite Music. The company is defunct: as of 2026 every Ticketfly host (www.ticketfly.com, developer.ticketfly.com) returns HTTP 301 redirects to eventbrite.com. No independent Ticketfly API, developer portal, documentation, or specification survives. This profile is retained as a historical/acquired-company record; there is no live API surface to enrich.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ticketfly/refs/heads/main/screenshots/ticketfly-2026-09-02T163704.png",
+     "score": 0.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 0.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 0.0,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 123
+    },
+    {
      "name": "yplanapp",
      "slug": "yplanapp",
      "description": "YPlan (operated by Leanworks Limited) was a mobile-first event discovery and last-minute booking app founded in London in 2012 by Rytis Vitkauskas and Viktoras Jucikas. It offered a curated feed of things to do and same-day ticket booking across cities including London, Bristol, Dublin and New York, working with thousands of event partners. The company was acquired by Time Out Group plc in October 2016 and the consumer app was discontinued in 2017. The yplanapp.com domain now 301-redirects to checkout.timeout.com. No public developer program, API, SDK, or documentation surface exists; enrichment probing found no API artifacts, so this remains an identity-only record for a defunct company.",
@@ -6161,7 +6259,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6193,7 +6291,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 124
     }
    ]
   }

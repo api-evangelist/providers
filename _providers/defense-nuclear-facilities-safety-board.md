@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 api_count: 3
 apis:
 - description: Public-facing website of the Defense Nuclear Facilities Safety Board providing organizational information, board members, hearings, and publications. The site does not expose a developer API.
@@ -137,7 +137,7 @@ score:
     regime_id: energy_utilities
     score: 8.2
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: false

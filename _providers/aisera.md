@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 api_count: 4
 apis:
 - description: Push data directly into the Aisera platform from any external system that supports webhooks — Knowledge Articles and Requests. Authenticates with an x-app-token header plus an OAuth 2.0 password-grant
@@ -201,7 +201,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 18.2
@@ -209,7 +209,7 @@ score:
     developer_ergonomics: 52.4
     discoverability: 78.6
     operational_transparency: 57.9
-  previous_composite: 44.0
+  previous_composite: 45.1
   provenance:
     conformance: first-party
   regulatory:
@@ -225,7 +225,7 @@ score:
     regime_id: horizontal
     score: 29.1
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: false

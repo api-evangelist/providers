@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.5
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 3
@@ -58,86 +58,225 @@ apis:
   baseurl_source: declared
   description: Access custom resources defined in Campaign Standard, both profile-linked and standalone.
   name: Adobe Campaign Custom Resources API
+  phrasing_intents:
+  - id: listProfileLinkedCustomResources
+    intent: List records of a profile-linked custom resource
+    question: How do I read records from a custom resource that extends profiles in Adobe Campaign Standard?
+  - id: listCustomResources
+    intent: List records of a standalone custom resource
+    question: How can I fetch records from a custom resource that isn't linked to profiles?
+  phrasing_ops: 2
   slug: adobe-campaign-custom-resources-api
 - baseURL: https://{instance}.campaign.adobe.com
   baseurl_source: declared
   description: Write, update, and delete data records using the xtk:session#Write method. Supports insert, insertOrUpdate, update, and delete operations via the _operation attribute.
   name: Adobe Campaign Data Management API
+  phrasing_intents:
+  - id: sessionWrite
+    intent: Insert, update or delete a single data record
+    question: How do I insert or update one record in a Campaign schema over SOAP?
+  - id: sessionWriteCollection
+    intent: Write many data records in one call
+    question: How can I write a batch of records to a Campaign schema in one request?
+  phrasing_ops: 2
   slug: adobe-campaign-data-management-api
 - baseURL: https://{instance}.campaign.adobe.com
   baseurl_source: declared
   description: Prepare and submit message deliveries including email, SMS, and push notifications.
   name: Adobe Campaign Delivery API
+  phrasing_intents:
+  - id: deliveryPrepareAndStart
+    intent: Prepare and immediately send a delivery
+    question: How do I compute a delivery's target and start sending it in one step?
+  - id: submitDelivery
+    intent: Submit a delivery for processing
+    question: How do I submit a delivery so Campaign picks it up for processing?
+  phrasing_ops: 2
   slug: adobe-campaign-delivery-api
 - baseURL: https://mc.adobe.io/{ORGANIZATION}/campaign
   baseurl_source: declared
   description: Retrieve marketing event history for profiles including delivery logs and mirror page links.
   name: Adobe Campaign Marketing History API
+  phrasing_intents:
+  - id: getMarketingHistory
+    intent: Get a profile's marketing history
+    question: How do I see which messages were sent to a specific profile?
+  phrasing_ops: 1
   slug: adobe-campaign-marketing-history-api
 - baseURL: https://mc.adobe.io/{ORGANIZATION}/campaign
   baseurl_source: declared
   description: Discover resource schemas, fields, filters, and data policies for Campaign Standard resources.
   name: Adobe Campaign Metadata API
+  phrasing_intents:
+  - id: getResourceMetadata
+    intent: Describe a resource's fields and filters
+    question: How do I find out which fields and data types a Campaign Standard resource has?
+  phrasing_ops: 1
   slug: adobe-campaign-metadata-api
 - baseURL: https://mc.adobe.io/{ORGANIZATION}/campaign
   baseurl_source: declared
   description: Retrieve organizational unit structures used for access control and data partitioning.
   name: Adobe Campaign Organizational Units API
+  phrasing_intents:
+  - id: listOrgUnits
+    intent: List organizational units
+    question: How do I see the organizational units that partition access in Adobe Campaign?
+  phrasing_ops: 1
   slug: adobe-campaign-organizational-units-api
 - baseURL: https://mc.adobe.io/{ORGANIZATION}/campaign
   baseurl_source: declared
   description: Create GDPR and CCPA privacy access and deletion requests for data subject compliance.
   name: Adobe Campaign Privacy API
+  phrasing_intents:
+  - id: createPrivacyRequest
+    intent: Create a GDPR or CCPA privacy request
+    question: How do I handle a GDPR request to delete someone's data in Adobe Campaign?
+  phrasing_ops: 1
   slug: adobe-campaign-privacy-api
 - baseURL: https://mc.adobe.io/{ORGANIZATION}/campaign
   baseurl_source: declared
   description: The ProfileAndServices API from Adobe Campaign — 2 operation(s) for profileandservices.
   name: Adobe Campaign ProfileAndServices API
+  phrasing_intents:
+  - id: listServices
+    intent: List subscription services
+    question: How do I see all the subscription services set up in Adobe Campaign?
+  - id: createService
+    intent: Create a subscription service
+    question: How do I set up a new newsletter or subscription service?
+  - id: getService
+    intent: Get a subscription service
+    question: How do I look up the details of one subscription service?
+  - id: updateService
+    intent: Update a subscription service
+    question: How do I rename an existing subscription service?
+  - id: deleteService
+    intent: Delete a subscription service
+    question: How do I permanently remove a subscription service I no longer use?
+  phrasing_ops: 5
   slug: adobe-campaign-profileandservices-api
 - baseURL: https://mc.adobe.io/{ORGANIZATION}/campaign
   baseurl_source: declared
   description: Manage recipient profiles including creation, retrieval, update, and deletion of contact records.
   name: Adobe Campaign Profiles API
+  phrasing_intents:
+  - id: listProfiles
+    intent: List recipient profiles
+    question: How do I list the recipient profiles in Adobe Campaign Standard?
+  - id: createProfile
+    intent: Create a recipient profile
+    question: How do I add a new contact to Adobe Campaign?
+  - id: getProfile
+    intent: Get a recipient profile
+    question: How do I look up a single recipient profile?
+  - id: updateProfile
+    intent: Update a recipient profile
+    question: How do I change an existing contact's email or phone number?
+  - id: deleteProfile
+    intent: Delete a recipient profile
+    question: How do I permanently remove a contact from Campaign?
+  phrasing_ops: 5
   slug: adobe-campaign-profiles-api
 - baseURL: https://{instance}.campaign.adobe.com
   baseurl_source: declared
   description: Execute queries against Campaign schemas using the xtk:queryDef interface. Supports get, getIfExists, select, and count operations with XPath field expressions, WHERE conditions, and pagination.
   name: Adobe Campaign Query Definition API
+  phrasing_intents:
+  - id: executeQuery
+    intent: Query records from a Campaign schema
+    question: How do I query records from any Campaign schema with XPath fields?
+  phrasing_ops: 1
   slug: adobe-campaign-query-definition-api
 - baseURL: https://{instance}.campaign.adobe.com
   baseurl_source: declared
   description: Push real-time transactional events for immediate or batched processing by the Message Center execution instances.
   name: Adobe Campaign Real-Time Events API
+  phrasing_intents:
+  - id: pushEvent
+    intent: Push one real-time transactional event
+    question: How do I send a single transactional event to Message Center over SOAP?
+  - id: pushEvents
+    intent: Push a batch of real-time events
+    question: How can I send many transactional events to Message Center in one call?
+  phrasing_ops: 2
   slug: adobe-campaign-real-time-events-api
 - baseURL: https://{instance}.campaign.adobe.com
   baseurl_source: declared
   description: Authenticate and manage server sessions. Logon returns session and security tokens required for all subsequent API calls.
   name: Adobe Campaign Session Management API
+  phrasing_intents:
+  - id: sessionLogon
+    intent: Log on and get session tokens
+    question: How do I authenticate to the Adobe Campaign SOAP API with a username and password?
+  - id: sessionLogout
+    intent: Log out and invalidate the session
+    question: How do I end my Campaign SOAP session when I'm done?
+  phrasing_ops: 2
   slug: adobe-campaign-session-management-api
 - baseURL: https://{instance}.campaign.adobe.com
   baseurl_source: declared
   description: Subscribe and unsubscribe recipients to and from information services.
   name: Adobe Campaign Subscription API
+  phrasing_intents:
+  - id: subscribe
+    intent: Subscribe a recipient to an information service
+    question: How do I subscribe a recipient to an information service by the service's internal name?
+  - id: unsubscribe
+    intent: Unsubscribe a recipient from an information service
+    question: How do I take a recipient off an information service using its internal name?
+  phrasing_ops: 2
   slug: adobe-campaign-subscription-api
 - baseURL: https://mc.adobe.io/{ORGANIZATION}/campaign
   baseurl_source: declared
   description: Subscribe and unsubscribe profiles to and from services.
   name: Adobe Campaign Subscriptions API
+  phrasing_intents:
+  - id: subscribeProfile
+    intent: Subscribe a profile to a service
+    question: How do I sign a profile up for a subscription service using the REST API?
+  - id: unsubscribeProfile
+    intent: Remove a profile's subscription from a service
+    question: How do I remove a profile's subscription to a service by PKEY?
+  phrasing_ops: 2
   slug: adobe-campaign-subscriptions-api
 - baseURL: https://mc.adobe.io/{ORGANIZATION}/campaign
   baseurl_source: declared
   description: Trigger and monitor transactional messages across email, SMS, and push notification channels.
   name: Adobe Campaign Transactional Messages API
+  phrasing_intents:
+  - id: triggerTransactionalEvent
+    intent: Trigger a transactional message
+    question: How do I send an order confirmation email with Adobe Campaign Standard?
+  - id: getTransactionalEventStatus
+    intent: Check a transactional event's status
+    question: How do I check whether a transactional message I triggered was delivered?
+  phrasing_ops: 2
   slug: adobe-campaign-transactional-messages-api
 - baseURL: https://{instance}.campaign.adobe.com
   baseurl_source: declared
   description: Start, stop, and signal workflows. PostEvent sends asynchronous signals to trigger workflow transitions.
   name: Adobe Campaign Workflow API
+  phrasing_intents:
+  - id: workflowStart
+    intent: Start a stopped workflow over SOAP
+    question: How do I start a stopped workflow by its internal ID using the SOAP API?
+  - id: workflowStop
+    intent: Stop a running workflow over SOAP
+    question: How do I stop a running workflow by internal ID over SOAP?
+  - id: workflowPostEvent
+    intent: Signal a workflow's external signal activity
+    question: How do I trigger an external signal activity inside a running workflow?
+  phrasing_ops: 3
   slug: adobe-campaign-workflow-api
 - baseURL: https://mc.adobe.io/{ORGANIZATION}/campaign
   baseurl_source: declared
   description: Control workflow execution including starting, pausing, resuming, and stopping marketing workflows.
   name: Adobe Campaign Workflows API
+  phrasing_intents:
+  - id: controlWorkflow
+    intent: Start, pause, resume or stop a workflow
+    question: How do I pause or resume a Campaign Standard workflow through the REST API?
+  phrasing_ops: 1
   slug: adobe-campaign-workflows-api
 artifact_total: 165
 asyncapis:
@@ -802,7 +941,7 @@ score:
     catalog_gap: 43.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 84.2
     contract_governance: 31.8
@@ -813,7 +952,7 @@ score:
   open_source:
     applies: true
     score: 40.0
-  previous_composite: 76.5
+  previous_composite: 72.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -831,7 +970,7 @@ score:
     regime_id: telecommunications
     score: 44.2
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.1
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -76,71 +76,198 @@ apis:
   baseurl_source: declared
   description: Manage advertising accounts including settings, spend limits, and account-level configurations.
   name: Facebook Business Manager Ad Accounts API
+  phrasing_intents:
+  - id: getAdAccount
+    intent: Look up an ad account's settings and status
+    question: What is the spending limit and status on my Facebook ad account?
+  phrasing_ops: 1
   slug: facebook-business-manager-ad-accounts-api
 - baseURL: https://graph.facebook.com/v25.0
   baseurl_source: declared
   description: Manage ad creative content including images, videos, copy, and call-to-action configurations.
   name: Facebook Business Manager Ad Creatives API
+  phrasing_intents:
+  - id: listAdCreatives
+    intent: List the ad creatives in an ad account
+    question: Which ad creatives already exist in my ad account?
+  - id: createAdCreative
+    intent: Create an ad creative with copy and a call to action
+    question: How do I build a new ad creative with my image, headline and button?
+  phrasing_ops: 2
   slug: facebook-business-manager-ad-creatives-api
 - baseURL: https://graph.facebook.com/v25.0
   baseurl_source: declared
   description: Upload and manage images used in ad creatives.
   name: Facebook Business Manager Ad Images API
+  phrasing_intents:
+  - id: uploadAdImage
+    intent: Upload an image to the ad account image library
+    question: Can I add an image to my ad account's library so creatives can use it?
+  phrasing_ops: 1
   slug: facebook-business-manager-ad-images-api
 - baseURL: https://graph.facebook.com/v25.0
   baseurl_source: declared
   description: Manage ad sets within campaigns, including targeting, budgets, scheduling, and optimization goals.
   name: Facebook Business Manager Ad Sets API
+  phrasing_intents:
+  - id: listAdSets
+    intent: List the ad sets in an ad account
+    question: Which ad sets are in my ad account and what budgets do they have?
+  - id: createAdSet
+    intent: Create an ad set with targeting and budget
+    question: How do I set up a new ad set under an existing campaign?
+  - id: getAdSet
+    intent: Get one ad set's targeting and budget
+    question: What targeting and bid settings does this particular ad set use?
+  - id: updateAdSet
+    intent: Change an existing ad set's budget, targeting or status
+    question: Can I raise the daily budget on an ad set that's already running?
+  phrasing_ops: 4
   slug: facebook-business-manager-ad-sets-api
 - baseURL: https://graph.facebook.com/v25.0
   baseurl_source: declared
   description: Manage individual ads within ad sets, including creative associations and status.
   name: Facebook Business Manager Ads API
+  phrasing_intents:
+  - id: listAds
+    intent: List the ads in an ad account
+    question: Which ads are running in my ad account and which creative does each use?
+  - id: createAd
+    intent: Create an ad from a creative in an ad set
+    question: How do I put an existing creative live as an ad inside an ad set?
+  - id: getAd
+    intent: Get one ad's creative and status
+    question: What creative and status does a specific ad have?
+  phrasing_ops: 3
   slug: facebook-business-manager-ads-api
 - baseURL: https://graph.facebook.com/v25.0
   baseurl_source: declared
   description: Manage advertising campaigns including creation, updating, and status management.
   name: Facebook Business Manager Campaigns API
+  phrasing_intents:
+  - id: listCampaigns
+    intent: List the campaigns in an ad account
+    question: Which campaigns are in my ad account right now?
+  - id: createCampaign
+    intent: Create an advertising campaign
+    question: 'What do I need to launch a new campaign: name, objective and status?'
+  - id: getCampaign
+    intent: Get one campaign's objective and status
+    question: What objective and status does a particular campaign have?
+  - id: updateCampaign
+    intent: Rename, pause or rebudget a campaign
+    question: Can I pause a campaign that's already running?
+  - id: deleteCampaign
+    intent: Delete a campaign so it stops serving
+    question: What happens to a campaign's ads when I delete it?
+  phrasing_ops: 5
   slug: facebook-business-manager-campaigns-api
 - baseURL: https://graph.facebook.com/v25.0
   baseurl_source: declared
   description: Manage comments on Page posts including reading, replying, and moderating.
   name: Facebook Business Manager Comments API
+  phrasing_intents:
+  - id: getPostComments
+    intent: Read the comments on a Page post
+    question: What are people saying in the comments on my Page post?
+  - id: createComment
+    intent: Reply to a Page post as the Page
+    question: Can my Page reply in the comments of its own post?
+  - id: deleteComment
+    intent: Delete a comment from a Page post
+    question: Can I remove a spam comment left on my Page's post?
+  phrasing_ops: 3
   slug: facebook-business-manager-comments-api
 - baseURL: https://graph.facebook.com/v25.0
   baseurl_source: declared
   description: Create and manage custom audiences for ad targeting based on customer data, website visitors, or app users.
   name: Facebook Business Manager Custom Audiences API
+  phrasing_intents:
+  - id: listCustomAudiences
+    intent: List an ad account's custom audiences
+    question: Which custom audiences have I built in my ad account and roughly how big are they?
+  - id: createCustomAudience
+    intent: Create a custom or lookalike audience
+    question: How do I make a lookalike audience for ad targeting?
+  phrasing_ops: 2
   slug: facebook-business-manager-custom-audiences-api
 - baseURL: https://graph.facebook.com/v25.0
   baseurl_source: declared
   description: Retrieve performance metrics and analytics data for campaigns, ad sets, and ads.
   name: Facebook Business Manager Insights API
+  phrasing_intents:
+  - id: getAdAccountInsights
+    intent: Report ad performance across an ad account
+    question: How is my whole ad account performing this month?
+  - id: getCampaignInsights
+    intent: Report one campaign's performance
+    question: How many clicks and how much spend has a single campaign generated?
+  phrasing_ops: 2
   slug: facebook-business-manager-insights-api
 - baseURL: https://graph.facebook.com/v25.0
   baseurl_source: declared
   description: Retrieve analytics and engagement metrics for a Facebook Page.
   name: Facebook Business Manager Page Insights API
+  phrasing_intents:
+  - id: getPageInsights
+    intent: Get reach and engagement metrics for a Page
+    question: What reach and engagement did my Facebook Page get last week?
+  phrasing_ops: 1
   slug: facebook-business-manager-page-insights-api
 - baseURL: https://graph.facebook.com/v25.0
   baseurl_source: declared
   description: Retrieve and manage Facebook Page settings, information, and metadata.
   name: Facebook Business Manager Pages API
+  phrasing_intents:
+  - id: getPage
+    intent: Look up a Page's profile and fan count
+    question: What category and fan count does a given Facebook Page have?
+  - id: subscribePageApp
+    intent: Subscribe my app to a Page's webhooks
+    question: Can my app receive real-time webhook updates when a Page gets new messages?
+  phrasing_ops: 2
   slug: facebook-business-manager-pages-api
 - baseURL: https://graph.facebook.com/v25.0
   baseurl_source: declared
   description: Upload and manage photos on a Facebook Page.
   name: Facebook Business Manager Photos API
+  phrasing_intents:
+  - id: uploadPagePhoto
+    intent: Upload a photo to a Page
+    question: Can I add a photo to my Page from a URL?
+  phrasing_ops: 1
   slug: facebook-business-manager-photos-api
 - baseURL: https://graph.facebook.com/v25.0
   baseurl_source: declared
   description: Create, read, update, and delete posts on a Facebook Page feed.
   name: Facebook Business Manager Posts API
+  phrasing_intents:
+  - id: getPageFeed
+    intent: Read the posts on a Page's feed
+    question: What has been posted on my Page recently?
+  - id: createPagePost
+    intent: Publish or schedule a post on a Page
+    question: Can I schedule a Page post for next week instead of publishing now?
+  - id: getPost
+    intent: Get one post's content and engagement
+    question: How many reactions did a specific post get?
+  - id: updatePost
+    intent: Edit the text of a published post
+    question: Can I fix a typo in a post that's already published?
+  - id: deletePost
+    intent: Delete a post from a Page
+    question: Can I take down a post from my Page for good?
+  phrasing_ops: 5
   slug: facebook-business-manager-posts-api
 - baseURL: https://graph.facebook.com/v25.0
   baseurl_source: declared
   description: Upload and manage videos on a Facebook Page.
   name: Facebook Business Manager Videos API
+  phrasing_intents:
+  - id: uploadPageVideo
+    intent: Upload a video to a Page
+    question: Can I post a video to my Page from a file URL?
+  phrasing_ops: 1
   slug: facebook-business-manager-videos-api
 artifact_total: 98
 asyncapis:
@@ -645,23 +772,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 68.0
+  composite: 68.5
   coverage:
     artifact_dirs: 33
-    catalog_earned: 64.3
+    catalog_earned: 67.3
     catalog_earned_first_party: 24.0
-    catalog_gap: 50.8
+    catalog_gap: 47.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.3
+  delta: 0.5
   facets:
     access_clarity: 64.5
     contract_governance: 28.0
     contract_quality: 59.8
     developer_ergonomics: 83.9
-    discoverability: 70.0
+    discoverability: 75.0
     operational_transparency: 76.3
-  previous_composite: 65.7
+  previous_composite: 68.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -679,7 +806,7 @@ score:
     regime_id: horizontal
     score: 41.2
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

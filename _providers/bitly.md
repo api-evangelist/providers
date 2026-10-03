@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 60.6
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -48,46 +48,220 @@ apis:
   baseurl_source: declared
   description: List the branded short domains (BSDs) available to the authenticated account. 1 operation(s), extracted verbatim from the OpenAPI Bitly publishes at https://dev.bitly.com/v4/v4.json.
   name: Bitly BSDs API
+  phrasing_intents:
+  - id: getBSDs
+    intent: List branded short domains
+    question: Which branded short domains are available on my Bitly account?
+  phrasing_ops: 1
   slug: bitly-bsds-api
 - baseURL: https://api-ssl.bitly.com/v4
   baseurl_source: declared
   description: Create, expand, update, archive and delete Bitlinks, list them by group, and read per-link click, engagement, country, city, device and referrer metrics. 21 operation(s), extracted verbatim from the O
   name: Bitly Bitlinks API
+  phrasing_intents:
+  - id: createBitlink
+    intent: Shorten a long URL
+    question: How do I shorten a long URL with Bitly?
+  - id: createFullBitlink
+    intent: Create a Bitlink with title, tags and options
+    question: Can I set a title, tags and an expiration date at the moment I create a short link?
+  - id: deleteBitlink
+    intent: Delete an unedited Bitlink
+    question: Can I delete a short link I created by mistake?
+  - id: updateBitlink
+    intent: Edit or redirect a Bitlink
+    question: How do I change where an existing short link redirects to?
+  - id: getBitlink
+    intent: Get a Bitlink's details
+    question: What title, tags and destination does one of my short links have?
+  - id: expandBitlink
+    intent: Expand a short link to its long URL
+    question: What long URL does a bit.ly short link point to?
+  - id: getClicksForBitlink
+    intent: Get a Bitlink's clicks over time
+    question: How many clicks did my short link get each day this week?
+  - id: getClicksSummaryForBitlink
+    intent: Get a Bitlink's total clicks
+    question: What is the total number of clicks on one of my links?
+  phrasing_ops: 21
   slug: bitly-bitlinks-api
 - baseURL: https://api-ssl.bitly.com/v4
   baseurl_source: declared
   description: Manage marketing campaigns and the channels inside them, grouping Bitlinks for attribution. 8 operation(s), extracted verbatim from the OpenAPI Bitly publishes at https://dev.bitly.com/v4/v4.json.
   name: Bitly Campaigns API
+  phrasing_intents:
+  - id: getCampaigns
+    intent: List campaigns
+    question: What marketing campaigns have I set up in Bitly?
+  - id: createCampaign
+    intent: Create a campaign
+    question: How do I create a campaign to organize links across channels?
+  - id: getCampaign
+    intent: Get a campaign's details
+    question: Which channels are part of a specific campaign?
+  - id: updateCampaign
+    intent: Update a campaign
+    question: Can I rename an existing campaign?
+  - id: getChannels
+    intent: List channels
+    question: What channels can I assign my links to?
+  - id: createChannel
+    intent: Create a channel
+    question: How do I add a new channel like email or social to group my links?
+  - id: getChannel
+    intent: Get a channel's details
+    question: Which Bitlinks are in a specific channel?
+  - id: updateChannel
+    intent: Update a channel
+    question: Can I rename a channel I already created?
+  phrasing_ops: 8
   slug: bitly-campaigns-api
 - baseURL: https://api-ssl.bitly.com/v4
   baseurl_source: declared
   description: Create and update custom back-halves on existing Bitlinks and read clicks by destination for A/B rotations. 5 operation(s), extracted verbatim from the OpenAPI Bitly publishes at https://dev.bitly.com
   name: Bitly Custom Bitlinks API
+  phrasing_intents:
+  - id: addCustomBitlink
+    intent: Add a custom back-half to a Bitlink
+    question: How do I give a short link a memorable custom back-half on my branded domain?
+  - id: updateCustomBitlink
+    intent: Move a custom back-half to a different Bitlink
+    question: Can I repoint my custom keyword to a different short link without changing the keyword?
+  - id: getCustomBitlink
+    intent: Get a custom Bitlink and its history
+    question: Where does my custom keyword link currently point, and where did it point before?
+  - id: getCustomBitlinkMetricsByDestination
+    intent: Get a custom Bitlink's clicks by destination
+    question: After I moved my custom keyword, how many clicks went to each past destination?
+  - id: getClicksForCustomBitlink
+    intent: Get click counts over a custom Bitlink's whole history
+    question: How many clicks has my custom keyword link had across its entire history?
+  phrasing_ops: 5
   slug: bitly-custom-bitlinks-api
 - baseURL: https://api-ssl.bitly.com/v4
   baseurl_source: declared
   description: Manage groups (workspaces) — preferences, tags, shorten counts, exports, feature usage and historical usage — plus the full group-level click, scan and engagement analytics surface. 28 operation(s), e
   name: Bitly Groups API
+  phrasing_intents:
+  - id: getGroups
+    intent: List groups
+    question: What groups do I have access to in Bitly?
+  - id: updateGroup
+    intent: Rename a group or change its domains
+    question: Can I rename one of my groups?
+  - id: getGroup
+    intent: Get a group's details
+    question: Which organization and branded domains does a particular group use?
+  - id: getGroupTags
+    intent: List tags used in a group
+    question: What tags are my team using on links in a group?
+  - id: getGroupPreferences
+    intent: Get a group's preferences
+    question: Which domain does a group shorten links with by default?
+  - id: updateGroupPreferences
+    intent: Set a group's default domain
+    question: How do I make a group shorten links on my branded domain by default?
+  - id: getGroupShortenCounts
+    intent: Count links shortened in a group over time
+    question: How many links has one group shortened per day recently?
+  - id: getGroupMetricsByCountries
+    intent: Get a group's click traffic by country
+    question: Which countries does the click traffic across a whole group come from?
+  phrasing_ops: 28
   slug: bitly-groups-api
 - baseURL: https://api-ssl.bitly.com/v4
   baseurl_source: declared
   description: Read organizations, their plan limits, and shorten counts overall and by group. 5 operation(s), extracted verbatim from the OpenAPI Bitly publishes at https://dev.bitly.com/v4/v4.json.
   name: Bitly Organizations API
+  phrasing_intents:
+  - id: getOrganizations
+    intent: List my organizations
+    question: Which Bitly organizations do I belong to?
+  - id: getOrganization
+    intent: Get an organization's details
+    question: How do I look up the details of one organization by its GUID?
+  - id: getOrganizationShortenCounts
+    intent: Count links shortened by an organization over time
+    question: How many links has my whole organization shortened over the last few months?
+  - id: getOrganizationShortenCountsByGroup
+    intent: Break down an organization's shortens by group this month
+    question: Which groups in my organization are shortening the most links this month?
+  - id: getPlanLimits
+    intent: Check an organization's plan limits
+    question: How close is my organization to its plan's link and QR code limits?
+  phrasing_ops: 5
   slug: bitly-organizations-api
 - baseURL: https://api-ssl.bitly.com/v4
   baseurl_source: declared
   description: Create dynamic and static QR Codes, customize their render, fetch the image, upgrade a code to a Bitlink, and read scan metrics by browser, city, country and device OS. 16 operation(s), extracted verb
   name: Bitly QR Codes API
+  phrasing_intents:
+  - id: createQRCodePublic
+    intent: Create a saved QR code
+    question: How do I create a trackable QR code that points to a URL?
+  - id: createStaticQRCodePublic
+    intent: Generate a one-off static QR code image
+    question: Can I just generate a QR code image for some content without saving it in my account?
+  - id: getQRCodeImagePublic
+    intent: Download a saved QR code's image
+    question: How do I download the image for a QR code I already created?
+  - id: updateQRCodePublic
+    intent: Edit a QR code's title, design or tags
+    question: How do I change the design or title of a single existing QR code?
+  - id: getQRCodeByIdPublic
+    intent: Get a QR code's details
+    question: What destination and settings does one of my QR codes have?
+  - id: deleteQRCode
+    intent: Delete a QR code
+    question: Can I delete a QR code I no longer use?
+  - id: listQRMinimal
+    intent: List and search a group's QR codes
+    question: What QR codes exist in one of my groups?
+  - id: updateQRCodesByGroup
+    intent: Bulk archive or retag up to 100 QR codes
+    question: Can I archive or unarchive many QR codes in one request?
+  phrasing_ops: 16
   slug: bitly-qr-codes-api
 - baseURL: https://api-ssl.bitly.com/v4
   baseurl_source: declared
   description: Read and update the authenticated user profile and read the platform limits applied to the account. 3 operation(s), extracted verbatim from the OpenAPI Bitly publishes at https://dev.bitly.com/v4/v4.j
   name: Bitly User API
+  phrasing_intents:
+  - id: updateUser
+    intent: Update the current user's name or default group
+    question: Can I change the display name on my own user account?
+  - id: getUser
+    intent: Get the current user's profile
+    question: How do I find out which Bitly user my access token belongs to?
+  - id: getPlatformLimits
+    intent: Check API platform limits and usage counts
+    question: What API rate limits apply to my account and how much have I used?
+  phrasing_ops: 3
   slug: bitly-user-api
 - baseURL: https://api-ssl.bitly.com/v4
   baseurl_source: declared
   description: Create, read, update, delete and verify webhook endpoints that receive Bitly engagement events. 6 operation(s), extracted verbatim from the OpenAPI Bitly publishes at https://dev.bitly.com/v4/v4.json.
   name: Bitly Webhooks API
+  phrasing_intents:
+  - id: getWebhooks
+    intent: List an organization's webhooks
+    question: Which webhooks are set up for my Bitly organization?
+  - id: createWebhook
+    intent: Create a webhook
+    question: How do I get notified at my own URL when an event happens in Bitly?
+  - id: getWebhook
+    intent: Get a webhook's configuration
+    question: What URL and event is a specific webhook configured with?
+  - id: updateWebhook
+    intent: Update or pause a webhook
+    question: Can I change the destination URL of an existing webhook?
+  - id: deleteWebhook
+    intent: Delete a webhook
+    question: How do I remove a webhook I no longer need?
+  - id: verifyWebhook
+    intent: Send a test ping to a webhook
+    question: How can I test that my webhook endpoint is receiving events?
+  phrasing_ops: 6
   slug: bitly-webhooks-api
 - description: Bitly's official remote Model Context Protocol server, exposing 25 tools for link creation, QR Codes, analytics, groups, custom domains and bulk upload. Hosted by Bitly at https://api-ssl.bitly.com/v4
   name: Bitly MCP Server
@@ -96,6 +270,11 @@ apis:
   baseurl_source: declared
   description: The Apps API from Bitly — 1 operation(s) for apps.
   name: Bitly Apps API
+  phrasing_intents:
+  - id: getOAuthApp
+    intent: Look up an OAuth app by client ID
+    question: How do I see the details of a Bitly OAuth app from its client ID?
+  phrasing_ops: 1
   slug: bitly-apps-api
 artifact_total: 33
 asyncapis:
@@ -414,7 +593,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.9
+  delta: 0.0
   facets:
     access_clarity: 85.5
     contract_governance: 4.5
@@ -422,7 +601,7 @@ score:
     developer_ergonomics: 74.4
     discoverability: 75.0
     operational_transparency: 84.2
-  previous_composite: 67.5
+  previous_composite: 70.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -446,7 +625,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

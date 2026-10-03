@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 63.3
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -58,51 +58,140 @@ apis:
   baseurl_source: declared
   description: Upload and manage image and video assets
   name: Canva Assets API
+  phrasing_intents:
+  - id: getAsset
+    intent: Get an asset's details
+    question: What is the import status and owner of one of my assets?
+  - id: deleteAsset
+    intent: Delete an asset
+    question: Can I delete an image I uploaded to my Canva account?
+  - id: createAssetUploadJob
+    intent: Upload an image or video asset
+    question: How do I upload an image or video to my Canva account?
+  - id: getAssetUploadJob
+    intent: Check an asset upload job
+    question: Is my image upload done, and what asset did it create?
+  phrasing_ops: 4
   slug: canva-assets-api
 - baseURL: https://api.canva.com
   baseurl_source: declared
   description: Create designs from brand templates using autofill data
   name: Canva Autofills API
+  phrasing_intents:
+  - id: createDesignAutofillJob
+    intent: Autofill a brand template with data
+    question: How do I create a design by filling a brand template with text, images or chart data?
+  - id: getDesignAutofillJob
+    intent: Get an autofill job's result
+    question: Is my template autofill finished?
+  phrasing_ops: 2
   slug: canva-autofills-api
 - baseURL: https://api.canva.com
   baseurl_source: declared
   description: List and retrieve brand templates and their datasets
   name: Canva Brand Templates API
+  phrasing_intents:
+  - id: listBrandTemplates
+    intent: List brand templates
+    question: What brand templates can I use in my Canva account?
+  - id: getBrandTemplate
+    intent: Get a brand template
+    question: How do I get the metadata for one brand template?
+  - id: getBrandTemplateDataset
+    intent: Get a brand template's dataset
+    question: Which fields can I autofill in a brand template?
+  phrasing_ops: 3
   slug: canva-brand-templates-api
 - baseURL: https://api.canva.com
   baseurl_source: declared
   description: Create and manage comments on designs
   name: Canva Comments API
+  phrasing_intents:
+  - id: createComment
+    intent: Add a top-level comment to a design
+    question: How do I leave a new comment on a Canva design?
+  - id: createReply
+    intent: Reply to an existing comment
+    question: How do I reply to an existing comment on a design?
+  phrasing_ops: 2
   slug: canva-comments-api
 - baseURL: https://api.canva.com
   baseurl_source: declared
   description: Create, retrieve, and list designs
   name: Canva Designs API
+  phrasing_intents:
+  - id: listDesigns
+    intent: List designs I can access
+    question: What designs can I access in Canva?
+  - id: createDesign
+    intent: Create a design
+    question: How do I create a new doc, whiteboard or presentation?
+  - id: getDesign
+    intent: Get a design
+    question: How many pages does a design have and when was it updated?
+  phrasing_ops: 3
   slug: canva-designs-api
 - baseURL: https://api.canva.com
   baseurl_source: declared
   description: Export designs to PDF, PNG, JPG, GIF, PPTX, and MP4
   name: Canva Exports API
+  phrasing_intents:
+  - id: createDesignExportJob
+    intent: Export a design
+    question: Can I export a design as MP4, GIF or PPTX?
+  - id: getDesignExportJob
+    intent: Get an export job
+    question: Has my export finished, and where are the files?
+  phrasing_ops: 2
   slug: canva-exports-api
 - baseURL: https://api.canva.com
   baseurl_source: declared
   description: Retrieve folders and list folder contents
   name: Canva Folders API
+  phrasing_intents:
+  - id: getFolder
+    intent: Get a folder
+    question: How do I get a folder's name and thumbnail?
+  - id: listFolderItems
+    intent: List items in a folder
+    question: What is inside one of my Canva folders?
+  - id: moveFolderItem
+    intent: Move an item into a folder
+    question: How do I move a design, image or folder into a specific folder?
+  phrasing_ops: 3
   slug: canva-folders-api
 - baseURL: https://api.canva.com
   baseurl_source: declared
   description: Resize designs to different dimensions or preset types
   name: Canva Resizes API
+  phrasing_intents:
+  - id: createDesignResizeJob
+    intent: Resize a design
+    question: Can I resize a design to custom dimensions without changing the original?
+  - id: getDesignResizeJob
+    intent: Get a resize job's result
+    question: Is my resize job done?
+  phrasing_ops: 2
   slug: canva-resizes-api
 - baseURL: https://api.canva.com
   baseurl_source: declared
   description: Retrieve information about the authenticated user
   name: Canva Users API
+  phrasing_intents:
+  - id: getUsersMe
+    intent: Get the current user
+    question: Who is the currently authenticated Canva user?
+  phrasing_ops: 1
   slug: canva-users-api
 - baseURL: https://api.canva.com/rest/v1
   baseurl_source: declared
   description: The umbrella Canva Connect REST API as Canva publishes it — 59 operations across designs, assets, folders, brand templates, autofills, exports, resizes, imports, merges, comments, analytics, users, OA
   name: Canva Connect API
+  phrasing_intents:
+  - id: getSigningPublicKeys
+    intent: Get keys to verify webhook signatures
+    question: How do I verify that a webhook really came from Canva?
+  phrasing_ops: 1
   slug: canva-connect-api
 - description: SCIM 2.0 API for automating provisioning and deprovisioning of Canva user accounts and groups. Canva states it implements the SCIM v2 specification (RFC 7644). Available to Canva Enterprise single tea
   name: Canva SCIM API
@@ -114,76 +203,280 @@ apis:
   baseurl_source: declared
   description: The analytics API from Canva — 5 operation(s) for analytics.
   name: Canva Analytics API
+  phrasing_intents:
+  - id: getDesignAnalytics
+    intent: Get overall view analytics for a design
+    question: How many total views and unique viewers has my Canva design had?
+  - id: getDesignAnalyticsViewers
+    intent: List the people who viewed a design
+    question: Who has viewed my design, most recent first?
+  - id: getDesignAnalyticsViewsOverTime
+    intent: Chart a design's views over time
+    question: How have views on my design trended day by day?
+  - id: getDesignAnalyticsPageViews
+    intent: Get per-page view duration for a design
+    question: Which pages of my presentation do viewers spend the most time on?
+  - id: getDesignAnalyticsLinks
+    intent: List trackable links for a design
+    question: Which trackable share links exist for my design and how are they performing?
+  phrasing_ops: 5
   slug: canva-analytics-api
 - baseURL: https://api.canva.com
   baseurl_source: declared
   description: The app API from Canva — 1 operation(s) for app.
   name: Canva App API
+  phrasing_intents:
+  - id: getAppJwks
+    intent: Get an app's public signing keys
+    question: Where do I get the public keys to verify JWTs sent to my Canva app backend?
+  phrasing_ops: 1
   slug: canva-app-api
 - baseURL: https://api.canva.com
   baseurl_source: declared
   description: The asset API from Canva — 5 operation(s) for asset.
   name: Canva Asset API
+  phrasing_intents:
+  - id: deleteAsset
+    intent: Delete an asset
+    question: Can I remove an asset from my Canva library through the API?
+  - id: getAsset
+    intent: Get an asset's metadata
+    question: How do I look up the name, tags and thumbnail of an uploaded asset?
+  - id: updateAsset
+    intent: Rename or retag an asset
+    question: How do I rename an asset in my content library?
+  - id: CreateAssetUploadJob
+    intent: Upload a file as an asset
+    question: How do I upload an image file from disk into a user's content library?
+  - id: GetAssetUploadJob
+    intent: Check a file asset upload job
+    question: Has my file upload to Canva finished yet?
+  - id: createUrlAssetUploadJob
+    intent: Upload an asset from a URL
+    question: Can I add an image to the content library straight from a public URL?
+  - id: getUrlAssetUploadJob
+    intent: Check a URL asset upload job
+    question: Did my asset upload from a URL complete?
+  phrasing_ops: 7
   slug: canva-asset-api
 - baseURL: https://api.canva.com
   baseurl_source: declared
   description: The autofill API from Canva — 2 operation(s) for autofill.
   name: Canva Autofill API
+  phrasing_intents:
+  - id: createDesignAutofillJob
+    intent: Autofill a brand template into a design
+    question: How do I generate a new design by filling a brand template with my data?
+  - id: getDesignAutofillJob
+    intent: Check a design autofill job
+    question: Has my autofill job produced the new design yet?
+  phrasing_ops: 2
   slug: canva-autofill-api
 - baseURL: https://api.canva.com
   baseurl_source: declared
   description: The brand_template API from Canva — 3 operation(s) for brand_template.
   name: Canva Brand Template API
+  phrasing_intents:
+  - id: listBrandTemplates
+    intent: List brand templates
+    question: Which brand templates does my team have?
+  - id: publishBrandTemplate
+    intent: Publish a design as a brand template
+    question: How do I turn one of my designs into a brand template?
+  - id: getBrandTemplate
+    intent: Get a brand template
+    question: How do I look up a single brand template's title and URLs?
+  - id: getBrandTemplateDataset
+    intent: Get a brand template's autofill fields
+    question: What data fields does a brand template expect for autofill?
+  phrasing_ops: 4
   slug: canva-brand-template-api
 - baseURL: https://api.canva.com
   baseurl_source: declared
   description: The comment API from Canva — 5 operation(s) for comment.
   name: Canva Comment API
+  phrasing_intents:
+  - id: createComment
+    intent: Add a top-level comment (deprecated)
+    question: Can I still post a top-level comment with the older comments endpoint?
+  - id: listReplies
+    intent: List replies in a comment thread
+    question: How do I see all the replies in a comment thread on my design?
+  - id: createReply
+    intent: Reply to a comment thread
+    question: How do I respond to a comment someone left on my design?
+  - id: getThread
+    intent: Get a comment thread
+    question: How do I fetch a single comment or suggestion thread on a design?
+  - id: getReply
+    intent: Get one reply in a comment thread
+    question: Can I retrieve one specific reply within a comment thread?
+  - id: createThread
+    intent: Start a comment thread on a design
+    question: How do I start a new comment thread on a design?
+  phrasing_ops: 6
   slug: canva-comment-api
 - baseURL: https://api.canva.com
   baseurl_source: declared
   description: The design API from Canva — 7 operation(s) for design.
   name: Canva Design API
+  phrasing_intents:
+  - id: listDesigns
+    intent: List or search my designs
+    question: How do I list all the designs in my Canva projects?
+  - id: createDesign
+    intent: Create a new design
+    question: How do I create a blank presentation or custom-size design?
+  - id: getDesign
+    intent: Get a design's metadata
+    question: How do I get the edit and view URLs for a design?
+  - id: getDesignPages
+    intent: List the pages in a design
+    question: Can I get thumbnails for each page of a design?
+  - id: getDesignExportFormats
+    intent: List export formats available for a design
+    question: Which file formats can I export this design to?
+  - id: getDesignDataset
+    intent: Get a design's autofill data fields
+    question: Does my design contain autofill data fields, and what types do they take?
+  - id: createPrintPartnerDesign
+    intent: Create a design for a print product
+    question: As a print partner, how do I create a design from a product ID?
+  - id: getPrintPartnerDesign
+    intent: Get a print partner design with proofing
+    question: How does a print partner fetch a design's URLs with proofing settings applied?
+  phrasing_ops: 8
   slug: canva-design-api
 - baseURL: https://api.canva.com
   baseurl_source: declared
   description: The design_import API from Canva — 4 operation(s) for design_import.
   name: Canva Design Import API
+  phrasing_intents:
+  - id: createDesignImportJob
+    intent: Import an uploaded file as a design
+    question: How do I turn a PDF or PowerPoint file into an editable Canva design?
+  - id: getDesignImportJob
+    intent: Check a file import job
+    question: Has my uploaded file finished importing as a design?
+  - id: createUrlImportJob
+    intent: Import a file from a URL as a design
+    question: Can Canva import a presentation from a link instead of an upload?
+  - id: getUrlImportJob
+    intent: Check a URL import job
+    question: Is my import from a URL done yet?
+  phrasing_ops: 4
   slug: canva-design-import-api
 - baseURL: https://api.canva.com
   baseurl_source: declared
   description: The export API from Canva — 3 operation(s) for export.
   name: Canva Export API
+  phrasing_intents:
+  - id: createDesignExportJob
+    intent: Export a design to a file
+    question: How do I export a Canva design as a PDF or PNG?
+  - id: createPrintPartnerDesignExportJob
+    intent: Export a print-ready file for a print partner
+    question: As a print partner, how do I export a print-ready file of a customer design?
+  - id: getDesignExportJob
+    intent: Get an export job's download links
+    question: Is my design export ready to download?
+  phrasing_ops: 3
   slug: canva-export-api
 - baseURL: https://api.canva.com
   baseurl_source: declared
   description: The folder API from Canva — 4 operation(s) for folder.
   name: Canva Folder API
+  phrasing_intents:
+  - id: deleteFolder
+    intent: Delete a folder
+    question: What happens to the contents when I delete a folder?
+  - id: getFolder
+    intent: Get a folder's details
+    question: How do I look up a folder's name by its ID?
+  - id: updateFolder
+    intent: Rename a folder
+    question: How do I rename a folder?
+  - id: listFolderItems
+    intent: List the contents of a folder
+    question: What designs, images and subfolders are inside a folder?
+  - id: moveFolderItem
+    intent: Move an item to another folder
+    question: How do I move a design into a different folder?
+  - id: createFolder
+    intent: Create a folder
+    question: How do I create a new folder in my Canva projects?
+  phrasing_ops: 6
   slug: canva-folder-api
 - baseURL: https://api.canva.com
   baseurl_source: declared
   description: The merge API from Canva — 2 operation(s) for merge.
   name: Canva Merge API
+  phrasing_intents:
+  - id: createDesignMergeJob
+    intent: Merge design pages into a design
+    question: How do I combine pages from several designs into one?
+  - id: getDesignMergeJob
+    intent: Check a design merge job
+    question: Has my page merge finished?
+  phrasing_ops: 2
   slug: canva-merge-api
 - baseURL: https://api.canva.com
   baseurl_source: declared
   description: The oidc API from Canva — 2 operation(s) for oidc.
   name: Canva Oidc API
+  phrasing_intents:
+  - id: getOidcJwks
+    intent: Get the OIDC public keys
+    question: Where are the public keys for verifying OpenID Connect ID tokens?
+  - id: userInfo
+    intent: Get the signed-in user's OIDC claims
+    question: How do I get the signed-in user's name and email via OpenID Connect?
+  phrasing_ops: 2
   slug: canva-oidc-api
 - baseURL: https://api.canva.com
   baseurl_source: declared
   description: The resize API from Canva — 2 operation(s) for resize.
   name: Canva Resize API
+  phrasing_intents:
+  - id: createDesignResizeJob
+    intent: Resize a design into a new copy
+    question: How do I resize a design to a different format like a presentation?
+  - id: getDesignResizeJob
+    intent: Check a design resize job
+    question: Has my design resize completed?
+  phrasing_ops: 2
   slug: canva-resize-api
 - baseURL: https://api.canva.com
   baseurl_source: declared
   description: The user API from Canva — 3 operation(s) for user.
   name: Canva User API
+  phrasing_intents:
+  - id: usersMe
+    intent: Get my user and team IDs
+    question: How do I find the user ID and team ID behind an access token?
+  - id: getUserCapabilities
+    intent: List the API capabilities of my account
+    question: Which API features is the connected user allowed to use?
+  - id: getUserProfile
+    intent: Get my display name
+    question: How do I get the display name of the connected user?
+  phrasing_ops: 3
   slug: canva-user-api
 - baseURL: https://api.canva.com
   baseurl_source: declared
   description: The OAuth API from Canva — 3 operation(s) for oauth.
   name: Canva O Auth API
+  phrasing_intents:
+  - id: exchangeAccessToken
+    intent: Get an access token via OAuth
+    question: How do I exchange an authorization code for an access token?
+  - id: introspectToken
+    intent: Check whether a token is active
+    question: How do I check if an access token is still valid?
+  - id: revokeTokens
+    intent: Revoke an access or refresh token
+    question: How do I revoke a user's token when they disconnect my integration?
+  phrasing_ops: 3
   slug: canva-oauth-api
 artifact_total: 259
 asyncapis:
@@ -1160,21 +1453,21 @@ scopes:
   summary_line: 18 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 70.5
+  composite: 70.9
   coverage:
     artifact_dirs: 34
-    catalog_earned: 54.9
+    catalog_earned: 57.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.1
+    catalog_gap: 57.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.8
+  delta: 0.4
   facets:
     access_clarity: 55.3
     contract_governance: 31.8
     contract_quality: 77.0
     developer_ergonomics: 79.8
-    discoverability: 76.7
+    discoverability: 81.7
     operational_transparency: 60.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -1183,7 +1476,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 67.7
+  previous_composite: 70.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1201,7 +1494,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

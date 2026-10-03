@@ -27,7 +27,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -78,7 +78,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -118,18 +118,18 @@
      "slug": "ontario-energy-board",
      "description": "The Ontario Energy Board (OEB) is the independent regulator of Ontario's electricity and natural gas sectors, licensing and rate-regulating roughly 60 electricity distributors, the province's transmitters, storage and generation licensees, unit sub-meter providers, energy retailers and gas marketers, and Enbridge Gas. It sits above the wires-and-pipes layer of Canada's largest provincial energy market — it does not own assets, does not run the wholesale market (that is IESO) and holds no customer meter data — so everything it publishes is regulatory, rate and utility-performance data rather than consumption data. Its API posture is the sharpest consumer-versus-market split this series has recorded in Canada. On market data it is genuinely open — an Open Data programme launched September 2022 under Ontario's Digital and Data Directive publishes 40 datasets - 198 individual files, verified by crawl on 2026-07-27; the programme's own earlier count was 18 - as anonymous, key-free XML, XLSX and GIS files under the Open Government Licence – Ontario, covering every open application before the Board (updated daily), current electricity and natural gas rates, distributor service-territory boundaries, the distributor performance scorecard, consumer complaints, and thirteen Reporting and Record-keeping Requirements (RRR) filings series going back to 2015. On consumer data it publishes nothing at all, because it holds nothing — it is instead the supervisor of the consumer-data mandate. Ontario is the only Canadian jurisdiction with a compulsory energy-data-sharing rule — O. Reg. 633/21 (Energy Data) under the Electricity Act, 1998 required rate-regulated electricity and natural gas utilities to implement Green Button Download My Data and Connect My Data to NAESB REQ.21 ESPI v3.3 by 1 November 2023 — and the OEB is the body that ran the consultation (EB-2021-0183), amended the Retail Settlement Code, collected quarterly progress reports and publishes the implementation status register naming 54 confirmed distributors and 6 extensions. There is no developer portal, no OpenAPI, no API key and no signup — just files, plus an undocumented but live JSON output on the regulatory document search.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/screenshots/ontario-energy-board-2026-08-07T190420.png",
-     "score": 43.2,
+     "score": 43.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 51.8,
+      "discoverability": 57.1,
       "contract_quality": 51.6,
       "contract_governance": 33.3,
       "operational_transparency": 15.8,
       "developer_ergonomics": 58.9,
       "access_clarity": 28.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -180,7 +180,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -242,7 +242,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -293,7 +293,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -344,7 +344,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -395,7 +395,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -446,7 +446,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -497,7 +497,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -548,7 +548,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -610,7 +610,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -661,7 +661,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -712,7 +712,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -763,7 +763,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -814,7 +814,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -865,7 +865,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -916,7 +916,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,

@@ -1,0 +1,152 @@
+---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 0.0
+  scored_at: '2026-10-03'
+api_count: 1
+apis:
+- description: Public transit data API providing schedules, real-time departures, station info and fare data.
+  name: BART API
+  slug: bart-api
+artifact_total: 3
+common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bart/refs/heads/main/plans/bart-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bart-plans-pricing.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bart/refs/heads/main/llms/bart-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/bart-llms.txt
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bart/refs/heads/main/hosts/bart-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/bart-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bart/refs/heads/main/vendors/bart-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/bart-vendors.yml
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.bart.gov/signup
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.bart.gov/siteinfo/privacy
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.bart.gov/guide/parking/pricing
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.bart.gov/news/articles
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://api.bart.gov/docs/bsa/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.bart.gov/about/developers
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bart/refs/heads/main/security/bart-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/bart-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.bart.gov
+coverage:
+  checked: '2026-09-27'
+  detail: API documentation is served as HTML pages without a machine‑readable OpenAPI spec.
+  evidence:
+  - status: 200
+    url: https://api.bart.gov/docs
+  reason: js-rendered-docs
+  state: unreadable
+created: '2026-09-27'
+description: Bay Area Rapid Transit (BART) provides public transit services across the San Francisco Bay Area. It offers real‑time departure information, schedule data, station details, fare information, and developer resources for building applications that integrate transit data. The BART API enables developers to access schedule, real‑time, and system information to create journey planners, alerts, and transit‑related services.
+layout: provider
+modified: '2026-09-27'
+name: Bart
+nav: Providers
+network: true
+overview: 'Bart publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transit, Public Transport, Real-Time Data, and Bay Area.
+
+
+  Bart''s developer surface includes signup flow, pricing, documentation, and 9 more developer resources.'
+plans:
+- name: Bart Plans Pricing
+  plan_count: 35
+  slug: bart-plans-pricing
+random_paper: 7
+score:
+  band: emerging
+  composite: 21.5
+  coverage:
+    artifact_dirs: 6
+    catalog_earned: 37.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 65.8
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 19.0
+    discoverability: 53.6
+    operational_transparency: 0.0
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 9.8
+  schema_version: 0.23.0
+  scored_at: '2026-10-03'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Bart Domain Security
+  slug: bart-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: bart
+tags:
+- Transit
+- Public Transport
+- Real-Time Data
+- Bay Area
+website: https://www.bart.gov
+---

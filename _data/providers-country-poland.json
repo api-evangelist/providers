@@ -1,6 +1,6 @@
 {
- "total": 12,
- "shown": 12,
+ "total": 14,
+ "shown": 14,
  "limit": 1000,
  "bands": [
   {
@@ -26,7 +26,7 @@
       "developer_ergonomics": 75.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -87,7 +87,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -144,18 +144,18 @@
      "slug": "university-of-warsaw",
      "description": "The University of Warsaw (Uniwersytet Warszawski) is Poland's largest and highest-ranked university and a member of the 4EU+ European University Alliance. Unusually for this cohort it operates real first-party programmable surfaces rather than only vendor tenancies: the USOS API at usosapps.uw.edu.pl, a documented OAuth 1.0a REST-like protocol over the institution's own academic database (courses, faculties, calendar, users, payments), and two springdoc services that publish their own OpenAPI and Swagger UI — the Student Portal 4EU+ API at api.sp4eu.uw.edu.pl (OpenAPI 3.1, 74 paths, read endpoints answer anonymously) and Jaskier at api.jaskier.uw.edu.pl, the university's central institutional API (OpenAPI 3.0.1, 729 paths, 458 schemas, bearer-gated data). Research data is handled by two institution-hosted repositories — Dane Badawcze UW (Dataverse, DOI prefix 10.58132) and ReIn UW (DSpace-CRIS 8.1) — each with a native REST API and an OAI-PMH 2.0 endpoint. The university runs its own Shibboleth SAML identity provider at login.uw.edu.pl, registered in eduGAIN through the Polish PIONIER.Id federation, and it is a DataCite repository client and a Crossref member with 31 DOI prefixes. What it does NOT have is a single central developer portal: the USOS developers site is the only signup surface, the library discovery layer is an Ex Libris Alma/Primo tenancy, and the LMS is a Moodle install with no public LTI advertisement.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-warsaw/refs/heads/main/screenshots/university-of-warsaw-2026-06-20T200305.png",
-     "score": 48.6,
+     "score": 49.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 66.1,
+      "discoverability": 71.4,
       "contract_quality": 60.0,
       "contract_governance": 14.4,
       "operational_transparency": 24.2,
       "developer_ergonomics": 45.2,
       "access_clarity": 50.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -205,7 +205,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -247,71 +247,21 @@
      "rank": 4
     },
     {
-     "name": "Przelewy24",
-     "slug": "przelewy24",
-     "description": "Przelewy24 is Poland's leading online payment gateway, providing REST APIs for bank transfer payments, card processing, BLIK mobile payments, and multi-currency payment processing for e-commerce merchants. With 91% brand recognition among Polish online customers, the platform connects merchants to over 165 Polish banks and supports payment methods including online bank transfers, credit and debit cards, BLIK, Google Pay, digital wallets, and prepaid cards. The API supports PLN and EUR currencies and enables transaction registration, payment verification, refunds, and real-time webhook notifications for payment events.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/screenshots/przelewy24-2026-06-20T192230.png",
-     "score": 42.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 71.4,
-      "contract_quality": 55.4,
-      "contract_governance": 9.8,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 45.2,
-      "access_clarity": 50.5
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 15.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 27.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 5
-    },
-    {
      "name": "RS Performance",
      "slug": "rsperformance-online",
      "description": "RS Performance Sp. z o.o. is a single-location automotive diagnostics and repair workshop at Al. Grunwaldzka 303B in Gdańsk, Poland (the Premio Ring site, rebranded 2021-09-14), serving Gdańsk, Sopot, Gdynia and the Tricity with 19 workshop services from computer diagnostics, DPF/AdBlue, turbo and gearbox work to tyre storage and B2B fleet service. What makes it an API provider is the machine-readable layer it has built over its knowledge base: an anonymous A2A agent (nine skills, JSON-RPC 2.0 and HTTP+JSON on rsperformance.online, agent card at the canonical well-known path), a remote FastMCP server \"Diagnosta RS\" with 14 tools over a Qdrant vector store of services, FAQ, repair reports and 12,000+ OBD-II fault codes, and a three-operation OpenAPI 3.1 \"AI Gateway\" on ai.rsperformance.online for answer-first semantic search, freshness and answer routing — plus llms.txt, security.txt, an ai-plugin manifest, JSON/Atom change feeds and a DTC JSON feed. Every surface is free and unauthenticated under a fair-use, attribution-required policy.",
-     "score": 40.9,
+     "score": 42.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 42.2,
+      "discoverability": 71.7,
+      "contract_quality": 44.7,
       "contract_governance": 18.2,
       "operational_transparency": 47.4,
       "developer_ergonomics": 49.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -343,6 +293,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 5
+    },
+    {
+     "name": "Przelewy24",
+     "slug": "przelewy24",
+     "description": "Przelewy24 is Poland's leading online payment gateway, providing REST APIs for bank transfer payments, card processing, BLIK mobile payments, and multi-currency payment processing for e-commerce merchants. With 91% brand recognition among Polish online customers, the platform connects merchants to over 165 Polish banks and supports payment methods including online bank transfers, credit and debit cards, BLIK, Google Pay, digital wallets, and prepaid cards. The API supports PLN and EUR currencies and enables transaction registration, payment verification, refunds, and real-time webhook notifications for payment events.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/screenshots/przelewy24-2026-06-20T192230.png",
+     "score": 42.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 71.4,
+      "contract_quality": 55.4,
+      "contract_governance": 9.8,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 45.2,
+      "access_clarity": 50.5
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 15.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 27.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 6
     },
     {
@@ -350,18 +350,18 @@
      "slug": "modivo",
      "description": "MODIVO is a Polish multibrand fashion and lifestyle retailer that operates one of the largest fashion e-commerce platforms in Central and Eastern Europe, selling clothing, footwear, accessories, beauty and home products from more than a thousand brands across Poland, the Czech Republic, Slovakia, Romania, Hungary, Ukraine, the Baltics and Western Europe. MODIVO S.A. is the listed parent of the former CCC Group (renamed MODIVO S.A. in February 2026) and the group behind the eobuwie.pl, CCC, HalfPrice, worldbox and DeeZee retail brands; the MODIVO storefront company itself is the former eobuwie.pl S.A., a consumer-technology investment of SoftBank Vision Fund. MODIVO does not run a developer portal, but its storefront is an Adobe Commerce (Magento 2.4) deployment that serves two live, publicly readable machine contracts from its own domain: a self-describing Swagger 2.0 REST schema at https://modivo.pl/rest/all/schema?services=all and an openly introspectable GraphQL endpoint at https://modivo.pl/graphql. Third-party sellers integrate through a Mirakl-hosted marketplace tenant, and brands buy sponsored placements through MODIVO Ads, the group's retail-media platform spanning MODIVO and eobuwie.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/modivo/refs/heads/main/screenshots/modivo-2026-08-07T184029.png",
-     "score": 40.3,
+     "score": 40.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 73.2,
+      "discoverability": 78.6,
       "contract_quality": 58.4,
       "contract_governance": 4.5,
       "operational_transparency": 7.9,
       "developer_ergonomics": 37.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -421,7 +421,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 44.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -471,7 +471,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -531,7 +531,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -580,7 +580,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -621,8 +621,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 1,
-   "shown": 1,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "Opolskie Open Data",
@@ -640,7 +640,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -673,6 +673,104 @@
       "agentic_commerce": false
      },
      "rank": 12
+    },
+    {
+     "name": "Aplanet",
+     "slug": "aplanet",
+     "description": "Aplanet, operating under the brand Adventure Planet Group, is a Polish company specializing in organizing corporate events, meetings, incentives, conferences and team‑building activities. They offer a wide range of services from event planning to execution, targeting businesses seeking professional MICE solutions. Their portfolio includes incentive travel, conferences, online events, and custom event experiences, positioning them as a leader in the regional events industry.",
+     "score": 3.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 13
+    },
+    {
+     "name": "Anmet",
+     "slug": "anmet",
+     "description": "Anmet is a Poland‑based enterprise specializing in waste management and recycling of metallic and composite materials. It offers comprehensive solutions for metal scrap handling, recycling of wind‑turbine blade composites, and innovative projects for recovering carbon and glass fibers. The company participates in EU‑funded research, collaborates internationally, and provides services to industrial clients across Europe.",
+     "score": 2.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 35.7,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 14
     }
    ]
   }

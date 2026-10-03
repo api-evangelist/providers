@@ -1,6 +1,6 @@
 {
- "total": 18,
- "shown": 18,
+ "total": 19,
+ "shown": 19,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -77,7 +77,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -115,18 +115,18 @@
      "name": "Rett fra Bonden",
      "slug": "rettfrabonden-com",
      "description": "Rett fra Bonden (rettfrabonden.com) is an open, non-profit discovery layer for local food in Norway — a registry of 1,900+ farms, farm shops, REKO rings, farmers' markets and cooperatives that is built to be read by AI agents first. It exposes the same producer catalogue through three protocols: a REST API (natural-language and structured search, producer detail, geocoding, an ACP-conformant product feed), a remote MCP server at /mcp with 15 tools including an anonymous shopping-cart and pickup-order flow, and an A2A JSON-RPC endpoint at /a2a described by a signed agent card at /.well-known/agent-card.json. Reads are open without a key; producer registration requires an X-API-Key issued on registration. The code is MIT-licensed at github.com/slookisen/lokal and the platform is operated in Norway by Daniel Fredriksen.",
-     "score": 49.8,
+     "score": 50.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 41.0,
+      "discoverability": 75.0,
+      "contract_quality": 45.4,
       "contract_governance": 18.2,
       "operational_transparency": 42.1,
       "developer_ergonomics": 52.4,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -135,7 +135,7 @@
       "score": 36.3,
       "matched_via": "fallback"
      },
-     "agent_score": 45.2,
+     "agent_score": 42.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -145,7 +145,7 @@
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "derived",
-      "openapi_examples": "verified",
+      "openapi_examples": "partial",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": true,
@@ -175,7 +175,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -225,7 +225,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -274,18 +274,18 @@
      "name": "Opplevagent",
      "slug": "opplevagent-no",
      "description": "Opplevagent is an agent-native (A2A) marketplace of Norwegian experiences and activities — 547 hand-picked tours, courses, attractions and things to do from 417 providers verified against Brønnøysundregistrene, plus a gårdssalg vertical of 252 farm-sale drink producers (breweries, cideries, wineries, distilleries). Agents and humans query the same catalog through an open, read-only REST discovery API described by an OpenAPI 3.1 document, a remote Streamable-HTTP MCP server (also shipped as the opplevagent-mcp npm package for stdio clients) with five tools including a pending-only booking request, and an A2A JSON-RPC endpoint described by a signed agent card at /.well-known/agent-card.json. No authentication is required; an optional free X-API-Key raises the rate limits. Operated from Norway by Daniel Fredriksen on the same codebase as the sibling sites rettfrabonden.com and finn-tannlege.com.",
-     "score": 43.7,
+     "score": 44.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.0,
-      "contract_quality": 39.3,
+      "contract_quality": 42.1,
       "contract_governance": 18.2,
       "operational_transparency": 36.8,
       "developer_ergonomics": 47.0,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -335,7 +335,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -403,7 +403,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 50.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -441,18 +441,18 @@
      "name": "Finn-tannlege",
      "slug": "finn-tannlege-com",
      "description": "Finn-tannlege.com is an independent, free directory of Norwegian dental clinics (5,447 clinics on 2026-09-19) assembled from public sources - the Brønnøysund Register Centre (Brreg), the Norwegian Health Personnel Register (HPR), the Norwegian Dental Association (NTF) and the clinics' own websites - and searchable by county (fylke), specialty, Helfo direct-billing agreement and emergency-duty (akuttvakt) availability. It is built for people and AI agents alike: an open, key-free REST API under /api/tannlege described by an OpenAPI 3.1 document, an A2A 1.0.0 agent card and JSON-RPC endpoint, a remote Streamable-HTTP MCP server plus an npm stdio package (finn-tannlege-mcp), an llms.txt and a ChatGPT Custom GPT. Operated by Daniel Fredriksen on the same Norwegian A2A agent platform as rettfrabonden.com and opplevagent.no; every clinic field is stored with its source and last-confirmed date, and the \"Verified\" badge is an editorially set status.",
-     "score": 37.5,
+     "score": 38.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 75.0,
-      "contract_quality": 39.0,
+      "contract_quality": 42.6,
       "contract_governance": 18.2,
       "operational_transparency": 26.3,
       "developer_ergonomics": 39.9,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -502,7 +502,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -552,7 +552,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -594,8 +594,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 7,
-   "shown": 7,
+   "count": 8,
+   "shown": 8,
    "providers": [
     {
      "name": "Funcom",
@@ -613,7 +613,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -663,7 +663,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -712,7 +712,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -762,7 +762,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -797,10 +797,9 @@
      "rank": 15
     },
     {
-     "name": "Dimeq",
-     "slug": "dimeq",
-     "description": "Dimeq is a Norwegian maritime safety technology company working to prevent loss of life at sea and set new health, safety and environmental (HSE) standards for the maritime sector. Its Eye-D System is an IoT-based digital ecosystem that delivers real-time positioning of crew and passengers to one-meter accuracy during emergencies, man-overboard detection using environmental sensors, automatic mustering that registers people in seconds, and statistical analysis for accident documentation and prevention, while keeping data anonymous and GDPR-compliant outside of emergencies. The D-Router gateway supports Wi-Fi, Ethernet, PLC, fiber optics, UWB, Bluetooth, LoRa, ZigBee and MATTER connectivity. This is a hardware/IoT product company with no public developer portal, API, SDK or documentation surface at the time of enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dimeq/refs/heads/main/screenshots/dimeq-2026-07-25T212045.png",
+     "name": "Avida Holding",
+     "slug": "avida-holding",
+     "description": "Avida Holding AB operates as a holding company providing financial services including corporate and consumer lending solutions across Sweden, Norway, and Finland. Through its subsidiaries it offers mortgage loans, invoice factoring, and other credit products, aiming to enable customers to access easy financing and improve financial wellbeing. The company is backed by investors such as KKR and focuses on growth through customer‑centric, solution‑oriented culture.",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -812,7 +811,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -847,9 +846,10 @@
      "rank": 16
     },
     {
-     "name": "Mamut",
-     "slug": "mamut",
-     "description": "Mamut was a Norwegian business software company (Mamut ASA / Mamut AS) that provided accounting, ERP, CRM, e-commerce and online-presence software to small and medium-sized businesses across the Nordics and parts of Europe. It was acquired by Visma in 2011 and the Mamut product line has since been absorbed into the Visma family of business software. This profile was surfaced as a portfolio company of Northzone and added to the API Evangelist network as a stub for enrichment. As of this pass the mamut.com web server is unreachable (both HTTP and HTTPS time out) and there is no reachable public developer portal, API documentation, or machine-readable API surface under the Mamut brand; enrichment therefore captured only what could be probed from DNS/TLS. Sector: enterprise.",
+     "name": "Dimeq",
+     "slug": "dimeq",
+     "description": "Dimeq is a Norwegian maritime safety technology company working to prevent loss of life at sea and set new health, safety and environmental (HSE) standards for the maritime sector. Its Eye-D System is an IoT-based digital ecosystem that delivers real-time positioning of crew and passengers to one-meter accuracy during emergencies, man-overboard detection using environmental sensors, automatic mustering that registers people in seconds, and statistical analysis for accident documentation and prevention, while keeping data anonymous and GDPR-compliant outside of emergencies. The D-Router gateway supports Wi-Fi, Ethernet, PLC, fiber optics, UWB, Bluetooth, LoRa, ZigBee and MATTER connectivity. This is a hardware/IoT product company with no public developer portal, API, SDK or documentation surface at the time of enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dimeq/refs/heads/main/screenshots/dimeq-2026-07-25T212045.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -861,7 +861,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -896,6 +896,55 @@
      "rank": 17
     },
     {
+     "name": "Mamut",
+     "slug": "mamut",
+     "description": "Mamut was a Norwegian business software company (Mamut ASA / Mamut AS) that provided accounting, ERP, CRM, e-commerce and online-presence software to small and medium-sized businesses across the Nordics and parts of Europe. It was acquired by Visma in 2011 and the Mamut product line has since been absorbed into the Visma family of business software. This profile was surfaced as a portfolio company of Northzone and added to the API Evangelist network as a stub for enrichment. As of this pass the mamut.com web server is unreachable (both HTTP and HTTPS time out) and there is no reachable public developer portal, API documentation, or machine-readable API surface under the Mamut brand; enrichment therefore captured only what could be probed from DNS/TLS. Sector: enterprise.",
+     "score": 3.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 18
+    },
+    {
      "name": "Energy Micro",
      "slug": "energy-micro",
      "description": "Energy Micro was a Norwegian fabless semiconductor company, founded in 2007 and headquartered in Oslo, best known for its EFM32 \"Gecko\" family of energy-friendly 32-bit ARM Cortex-M microcontrollers and the EFR radio products targeting low-power embedded and IoT applications. The company was acquired by Silicon Labs in 2013 and fully absorbed into that company's product lines; its former energymicro.com domain now redirects to silabs.com. It was surfaced as a portfolio company of Northzone and added to the API Evangelist network as a stub. Enrichment found no independent, first-party API, developer portal, OpenAPI, SDK, or MCP surface for Energy Micro as a standalone entity — the developer tooling for its EFM32 line lives under Silicon Labs today.",
@@ -911,7 +960,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -943,7 +992,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 19
     }
    ]
   }

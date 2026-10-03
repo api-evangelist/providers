@@ -1,6 +1,6 @@
 {
- "total": 88,
- "shown": 88,
+ "total": 90,
+ "shown": 90,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -77,7 +77,7 @@
       "developer_ergonomics": 59.5,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -127,7 +127,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -188,7 +188,7 @@
       "developer_ergonomics": 27.4,
       "access_clarity": 44.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -238,7 +238,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -288,7 +288,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -338,7 +338,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -388,7 +388,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -438,7 +438,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -488,7 +488,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -537,7 +537,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -587,7 +587,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -637,7 +637,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -683,56 +683,6 @@
    "shown": 19,
    "providers": [
     {
-     "name": "CONSOL Energy",
-     "slug": "consol-energy",
-     "description": "CONSOL Energy was a Pittsburgh-based bituminous coal producer serving electric utilities, steelmakers and industrial customers. In January 2025 it merged with Arch Resources to form Core Natural Resources, Inc. (NYSE: CNR), and consolenergy.com now 301-redirects to corenaturalresources.com. The company publishes no developer portal, no API documentation, no SDKs and no GitHub organization — but it runs its corporate site on WordPress and serves the WordPress REST API anonymously at https://corenaturalresources.com/wp-json/, a real machine-readable read surface with custom post types for mines (11, with an East/West taxonomy), leadership (16) and news releases (40), plus pages and a 173-item media library holding the supplier terms, Supplier Code of Conduct and sustainability PDFs. Each endpoint was called anonymously on 2026-09-05; writes and admin routes are authenticated (401). Financial data stays third-party, via the SEC EDGAR APIs. See arch-coal for the other merger half.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/consol-energy/refs/heads/main/screenshots/consol-energy-2026-06-20T174910.png",
-     "score": 25.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 63.4,
-      "contract_quality": 15.8,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 20.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "verified",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 14
-    },
-    {
      "name": "Tari",
      "slug": "tari",
      "description": "Tari is an open-source, proof-of-work blockchain protocol designed to be private by default (confidential transactions) and accessible to everyday users. Its Tari Universe application lets people mine XTM tokens by contributing compute, and the protocol has grown to hundreds of thousands of active miners. For developers, exchanges, and dApp builders, Tari exposes self-hosted Base Node and Wallet interfaces over gRPC (proto3, package tari.rpc): the Base Node service queries headers, blocks, mempool, network constants, block templates for miners, and PayRef payment-reference lookups, while the Wallet service handles balances, transfers, fee estimation, one-sided and atomic-swap transactions, transaction history, and a live transaction-event stream. A Layer-2 (Ootle) adds smart-contract templates via the tari-cli. Official TypeScript SDKs (tari.js, typescript-bindings, wallet JSON-RPC client) and Rust crates support integration. Tari is backed by Canaan Partners, Multicoin Capital, Pantera Capital, and Trinity Ventures.",
@@ -748,7 +698,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -780,7 +730,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 14
     },
     {
      "name": "SmartData",
@@ -798,7 +748,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -830,7 +780,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 15
     },
     {
      "name": "Alliance Resource Partners",
@@ -848,7 +798,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -880,7 +830,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 16
     },
     {
      "name": "A-Mark Precious Metals",
@@ -898,7 +848,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -930,7 +880,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 17
     },
     {
      "name": "GlobalData",
@@ -947,7 +897,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -979,6 +929,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 18
+    },
+    {
+     "name": "CONSOL Energy",
+     "slug": "consol-energy",
+     "description": "CONSOL Energy was a Pittsburgh-based bituminous coal producer serving electric utilities, steelmakers and industrial customers. In January 2025 it merged with Arch Resources to form Core Natural Resources, Inc. (NYSE: CNR), and consolenergy.com now 301-redirects to corenaturalresources.com. The company publishes no developer portal, no API documentation, no SDKs and no GitHub organization — but it runs its corporate site on WordPress and serves the WordPress REST API anonymously at https://corenaturalresources.com/wp-json/, a real machine-readable read surface with custom post types for mines (11, with an East/West taxonomy), leadership (16) and news releases (40), plus pages and a 173-item media library holding the supplier terms, Supplier Code of Conduct and sustainability PDFs. Each endpoint was called anonymously on 2026-09-05; writes and admin routes are authenticated (401). Financial data stays third-party, via the SEC EDGAR APIs. See arch-coal for the other merger half.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/consol-energy/refs/heads/main/screenshots/consol-energy-2026-06-20T174910.png",
+     "score": 21.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 63.4,
+      "contract_quality": 1.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 20.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 10.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 19
     },
     {
@@ -996,7 +996,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1046,7 +1046,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1096,7 +1096,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1146,7 +1146,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1196,7 +1196,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1246,7 +1246,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1296,7 +1296,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1346,7 +1346,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1396,7 +1396,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1446,7 +1446,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1496,7 +1496,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1546,7 +1546,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1596,7 +1596,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1637,8 +1637,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 56,
-   "shown": 56,
+   "count": 58,
+   "shown": 58,
    "providers": [
     {
      "name": "5B Australia",
@@ -1655,7 +1655,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1705,7 +1705,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1755,7 +1755,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1805,7 +1805,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1855,7 +1855,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1905,7 +1905,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1955,7 +1955,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2004,7 +2004,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2054,7 +2054,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2103,7 +2103,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2153,7 +2153,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2202,7 +2202,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2252,7 +2252,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2301,7 +2301,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2351,7 +2351,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2401,7 +2401,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2451,7 +2451,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2501,7 +2501,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2551,7 +2551,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2601,7 +2601,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2651,7 +2651,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2686,6 +2686,55 @@
      "rank": 53
     },
     {
+     "name": "Biosqueeze",
+     "slug": "biosqueeze",
+     "description": "BioSqueeze is a biomineralization platform company that provides engineered solutions for challenging subsurface problems across energy, defense, mining, infrastructure, and environmental sectors. By strengthening soils, sealing fluid pathways, and healing fractures, BioSqueeze enables increased bearing capacity, leak control, and infrastructure repair, with over 400 field deployments worldwide.",
+     "score": 7.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.1,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 54
+    },
+    {
      "name": "African Rainbow Minerals",
      "slug": "africanrainbowminerals",
      "description": "African Rainbow Minerals Limited (ARM) is a niche, diversified South African mining and minerals company, founded by Dr Patrice Motsepe and created in its present form in May 2004 through the merger of ARMgold and Harmony assets. ARM is listed on the Johannesburg Stock Exchange under the ticker ARI and is headquartered in Sandton, Gauteng. The company mines and beneficiates iron ore, manganese ore and alloys, chrome ore, platinum group metals, nickel and coal through ARM Ferrous, ARM Platinum and ARM Coal, plus a strategic gold investment in Harmony Gold Mining Company — spanning Khumani iron ore, Black Rock manganese, Two Rivers, Modikwa and Bokoni platinum, Nkomati nickel, Goedgevonden coal and Sakura Ferroalloys in Malaysia. ARM sells physical mined commodity, not software: it runs no developer program and publishes no public API, SDK, webhook or machine-readable API contract of any kind.",
@@ -2700,7 +2749,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2732,7 +2781,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "EnviCore",
@@ -2750,7 +2799,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2782,7 +2831,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "Cliffs Natural Resources",
@@ -2800,7 +2849,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2832,7 +2881,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "Alliance Holdings",
@@ -2850,7 +2899,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2882,7 +2931,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "Hades",
@@ -2900,7 +2949,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2932,7 +2981,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "Genesis Digital Assets",
@@ -2950,57 +2999,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 9.8,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 59
-    },
-    {
-     "name": "Sadbhav Engineering",
-     "slug": "sadbhaveng",
-     "description": "Sadbhav Engineering Limited (SEL), operating at sadbhaveng.com, is an Indian infrastructure and civil-engineering contractor founded in 1988 by Vishnubhai M. Patel and headquartered in Ahmedabad, Gujarat. The company builds and operates large-scale roads and highways, mining, and irrigation projects, including Build-Operate-Transfer (BOT) concessions of national significance, and is publicly listed on the NSE and BSE. This is a traditional infrastructure/construction firm: it publishes an investor-relations and corporate website but exposes no developer API, SDK, documentation, or other machine-readable API surface. Surfaced into the API Evangelist network as a stub via vc-portfolio harvesting; an enrichment pass confirmed there is no API product to catalog.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sadbhaveng/refs/heads/main/screenshots/sadbhaveng-2026-09-02T154244.png",
-     "score": 6.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3035,10 +3034,10 @@
      "rank": 60
     },
     {
-     "name": "Sensmore",
-     "slug": "sensmore",
-     "description": "Sensmore (sensmore GmbH) is a German industrial-automation and embodied-AI company that turns robotics research into field-proven systems for heavy machinery in raw material operations. Its platform connects machines, sites, and data across mining, aggregates/construction, and defense, spanning products including Site Intelligence (live site operations), Machine Assist (driver assistance and collision warning), Eye (visual monitoring), Live Mapping (real-time site mapping), and Loader Automation (autonomous vehicle systems), with claims of reducing downtime by up to 30% while improving safety and resource efficiency. Sensmore was surfaced as a portfolio company of Point Nine and added to the API Evangelist network. As of this enrichment pass the company publishes no public API, SDK, developer portal, or developer documentation; its web presence is a marketing and corporate site.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sensmore/refs/heads/main/screenshots/sensmore-2026-09-02T154917.png",
+     "name": "Sadbhav Engineering",
+     "slug": "sadbhaveng",
+     "description": "Sadbhav Engineering Limited (SEL), operating at sadbhaveng.com, is an Indian infrastructure and civil-engineering contractor founded in 1988 by Vishnubhai M. Patel and headquartered in Ahmedabad, Gujarat. The company builds and operates large-scale roads and highways, mining, and irrigation projects, including Build-Operate-Transfer (BOT) concessions of national significance, and is publicly listed on the NSE and BSE. This is a traditional infrastructure/construction firm: it publishes an investor-relations and corporate website but exposes no developer API, SDK, documentation, or other machine-readable API surface. Surfaced into the API Evangelist network as a stub via vc-portfolio harvesting; an enrichment pass confirmed there is no API product to catalog.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sadbhaveng/refs/heads/main/screenshots/sadbhaveng-2026-09-02T154244.png",
      "score": 6.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3050,7 +3049,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3085,6 +3084,56 @@
      "rank": 61
     },
     {
+     "name": "Sensmore",
+     "slug": "sensmore",
+     "description": "Sensmore (sensmore GmbH) is a German industrial-automation and embodied-AI company that turns robotics research into field-proven systems for heavy machinery in raw material operations. Its platform connects machines, sites, and data across mining, aggregates/construction, and defense, spanning products including Site Intelligence (live site operations), Machine Assist (driver assistance and collision warning), Eye (visual monitoring), Live Mapping (real-time site mapping), and Loader Automation (autonomous vehicle systems), with claims of reducing downtime by up to 30% while improving safety and resource efficiency. Sensmore was surfaced as a portfolio company of Point Nine and added to the API Evangelist network. As of this enrichment pass the company publishes no public API, SDK, developer portal, or developer documentation; its web presence is a marketing and corporate site.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sensmore/refs/heads/main/screenshots/sensmore-2026-09-02T154917.png",
+     "score": 6.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 9.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 62
+    },
+    {
      "name": "Rio Tinto",
      "slug": "rio-tinto",
      "description": "Rio Tinto is a British-Australian multinational mining and metals corporation and one of the world's largest producers of iron ore, aluminum, copper, and diamonds. Rio Tinto does not publish a public developer API, but operates supplier portals (Supplier Master Data Management and a transactional platform) and a START traceability program. Its GitHub presence is limited to a small number of internal forks (ai-sentry, xpano).",
@@ -3100,7 +3149,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3132,7 +3181,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "Alpha Natural Resources",
@@ -3150,57 +3199,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 4.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 63
-    },
-    {
-     "name": "Element Zero",
-     "slug": "element-zero",
-     "description": "Element Zero is a green-materials technology company decarbonizing the production of iron and other critical metals. Its patented non-aqueous electrochemical process converts any grade of metal ore (iron, nickel, titanium, lithium) into high-purity metal with zero carbon emissions, using 30-40% less energy than conventional smelting and operating at low temperatures so it can run on intermittent renewable energy (wind, solar, hydro). Based in Perth and northern Western Australia near the world's largest iron-ore ports, the company is scaling a modular platform aimed at the roughly 8% of global CO2 emissions from iron and steelmaking, including its Pilbara Iron Super Hub at Port Hedland. Backed by a US$10M seed round led by Playground Global. This is an industrial deep-tech company with no public API or developer platform; the profile carries identity and domain-security signals only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/element-zero/refs/heads/main/screenshots/element-zero-2026-07-25T213124.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3235,29 +3234,29 @@
      "rank": 64
     },
     {
-     "name": "Kaiser Aluminum",
-     "slug": "kaiser-aluminum",
-     "description": "Kaiser Aluminum manufactures semi-fabricated aluminum products for industrial applications across aerospace, packaging, general engineering, and automotive markets. The nearly century-old company delivers highly engineered aluminum products focused on strength, weight efficiency, and sustainability. Kaiser Online serves as a customer portal for quotes, order tracking, depot stock searches, and material certifications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kaiser-aluminum/refs/heads/main/screenshots/kaiser-aluminum-2026-06-20T183909.png",
-     "score": 4.7,
+     "name": "Element Zero",
+     "slug": "element-zero",
+     "description": "Element Zero is a green-materials technology company decarbonizing the production of iron and other critical metals. Its patented non-aqueous electrochemical process converts any grade of metal ore (iron, nickel, titanium, lithium) into high-purity metal with zero carbon emissions, using 30-40% less energy than conventional smelting and operating at low temperatures so it can run on intermittent renewable energy (wind, solar, hydro). Based in Perth and northern Western Australia near the world's largest iron-ore ports, the company is scaling a modular platform aimed at the roughly 8% of global CO2 emissions from iron and steelmaking, including its Pilbara Iron Super Hub at Port Hedland. Backed by a US$10M seed round led by Playground Global. This is an industrial deep-tech company with no public API or developer platform; the profile carries identity and domain-security signals only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/element-zero/refs/heads/main/screenshots/element-zero-2026-07-25T213124.png",
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 42.9,
+      "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
+      "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 5.9,
-      "matched_via": "fallback"
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 4.9,
+      "matched_via": "tags"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3285,22 +3284,22 @@
      "rank": 65
     },
     {
-     "name": "Skycatch",
-     "slug": "skycatch",
-     "description": "Skycatch built spatial data capture, processing, and analytics for mining and construction sites, turning drone and aerial imagery into high-precision 3D data, volumetrics, and AI-driven site insights. Its products included Spatial Sight, Spatial DataHub (datahub.skycatch.com), and EdgeServer for on-site edge processing. Skycatch was acquired by Caterpillar Inc. on July 7, 2026 (following Caterpillar's RPMGlobal acquisition) to expand its mining technology capabilities. A developer platform exists at docs.skycatch.com but is password-gated, and no public API specification is available. Originally surfaced as a GV (Google Ventures) portfolio company.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skycatch/refs/heads/main/screenshots/skycatch-2026-09-02T155753.png",
+     "name": "Kaiser Aluminum",
+     "slug": "kaiser-aluminum",
+     "description": "Kaiser Aluminum manufactures semi-fabricated aluminum products for industrial applications across aerospace, packaging, general engineering, and automotive markets. The nearly century-old company delivers highly engineered aluminum products focused on strength, weight efficiency, and sustainability. Kaiser Online serves as a customer portal for quotes, order tracking, depot stock searches, and material certifications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kaiser-aluminum/refs/heads/main/screenshots/kaiser-aluminum-2026-06-20T183909.png",
      "score": 4.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 42.9,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 6.6
+      "developer_ergonomics": 9.5,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3335,6 +3334,56 @@
      "rank": 66
     },
     {
+     "name": "Skycatch",
+     "slug": "skycatch",
+     "description": "Skycatch built spatial data capture, processing, and analytics for mining and construction sites, turning drone and aerial imagery into high-precision 3D data, volumetrics, and AI-driven site insights. Its products included Spatial Sight, Spatial DataHub (datahub.skycatch.com), and EdgeServer for on-site edge processing. Skycatch was acquired by Caterpillar Inc. on July 7, 2026 (following Caterpillar's RPMGlobal acquisition) to expand its mining technology capabilities. A developer platform exists at docs.skycatch.com but is password-gated, and no public API specification is available. Originally surfaced as a GV (Google Ventures) portfolio company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skycatch/refs/heads/main/screenshots/skycatch-2026-09-02T155753.png",
+     "score": 4.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 6.6
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 67
+    },
+    {
      "name": "Atomionics",
      "slug": "atomionics",
      "description": "Atomionics is a Singapore-based deep-technology company, founded in 2018, that builds quantum sensors for mineral resource exploration and GPS-free navigation. Its Gravio quantum-grade gravity-sensing platform uses cold-atom interferometry to measure tiny gravitational changes and map the Earth's subsurface at high resolution, and its ORE-O AI geologist visualizes complex geologies and mineral deposits in 3D to accelerate exploration for energy-transition resources such as copper, lithium, nickel, graphite and rare earth elements. The company does not currently publish a public API or developer platform; this profile tracks its identity and public web surface within the API Evangelist network.",
@@ -3350,7 +3399,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3382,7 +3431,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "Linear Labs",
@@ -3400,57 +3449,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 4.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 68
-    },
-    {
-     "name": "Marianaminerals",
-     "slug": "marianaminerals",
-     "description": "Mariana Minerals is a software-first, vertically integrated critical-minerals company supplying the metals essential to modern energy, artificial intelligence, and defense technologies. The company currently develops copper and lithium production projects, with plans spanning cobalt, aluminum, graphite, uranium, and rare earth metals, and is headquartered in San Francisco with an engineering office in Houston. Backed by Khosla Ventures, it was added to the API Evangelist network as a portfolio lead; an enrichment pass found no public developer API, SDK, or documentation surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/marianaminerals/refs/heads/main/screenshots/marianaminerals-2026-07-25T230201.png",
-     "score": 3.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3485,29 +3484,29 @@
      "rank": 69
     },
     {
-     "name": "Nucor",
-     "slug": "nucor",
-     "description": "Nucor Corporation is a Fortune 500 American steel and steel products manufacturer headquartered in Charlotte, North Carolina. It is the largest steel producer in the United States and the largest recycler of any material in North America. Nucor does not publish a public developer API or OpenAPI specification; this index captures the corporate, sustainability, and certification resources that are publicly available.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nucor/refs/heads/main/screenshots/nucor-2026-06-20T190512.png",
-     "score": 3.5,
+     "name": "Marianaminerals",
+     "slug": "marianaminerals",
+     "description": "Mariana Minerals is a software-first, vertically integrated critical-minerals company supplying the metals essential to modern energy, artificial intelligence, and defense technologies. The company currently develops copper and lithium production projects, with plans spanning cobalt, aluminum, graphite, uranium, and rare earth metals, and is headquartered in San Francisco with an engineering office in Houston. Backed by Khosla Ventures, it was added to the API Evangelist network as a portfolio lead; an enrichment pass found no public developer API, SDK, or documentation surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/marianaminerals/refs/heads/main/screenshots/marianaminerals-2026-07-25T230201.png",
+     "score": 3.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 49.1,
+      "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 5.9,
-      "matched_via": "fallback"
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 4.9,
+      "matched_via": "tags"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3535,22 +3534,22 @@
      "rank": 70
     },
     {
-     "name": "BANIQL",
-     "slug": "baniql-corp",
-     "description": "BANIQL CORP. (BANiQL) is developing a sustainable process for selectively extracting nickel and cobalt for use in lithium-ion battery production. Its core technology uses a chemical process to selectively extract nickel and cobalt from raw materials at lower temperatures and atmospheric pressure, producing high-quality nickel at roughly 30% lower cost than High Pressure Acid Leaching (HPAL) with net-zero waste, cutting energy consumption and carbon dioxide emissions by around 80% while repurposing leftover materials into products like fertilizers and construction materials. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network; this materials/cleantech company publishes no developer or API surface, so this profile carries company identity and domain-security data only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/baniql-corp/refs/heads/main/screenshots/baniql-corp-2026-07-25T202332.png",
-     "score": 3.4,
+     "name": "Nucor",
+     "slug": "nucor",
+     "description": "Nucor Corporation is a Fortune 500 American steel and steel products manufacturer headquartered in Charlotte, North Carolina. It is the largest steel producer in the United States and the largest recycler of any material in North America. Nucor does not publish a public developer API or OpenAPI specification; this index captures the corporate, sustainability, and certification resources that are publicly available.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nucor/refs/heads/main/screenshots/nucor-2026-06-20T190512.png",
+     "score": 3.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 49.1,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3585,9 +3584,10 @@
      "rank": 71
     },
     {
-     "name": "Coinmine",
-     "slug": "coinmine",
-     "description": "Coinmine is a consumer cryptocurrency-mining hardware company known for the Coinmine One, a plug-and-play home mining device that let non-technical owners mine and hold crypto assets from a simple companion app. The company was surfaced as a portfolio company of Canaan Partners and added to the API Evangelist network as a stub for enrichment. As of this enrichment pass the coinmine.com storefront is offline (the Shopify store returns \"unavailable\"), so no live developer portal, API, or documentation surface could be confirmed. The registrable domain remains active for email (SPF/DMARC configured), and this profile captures the honest, probed security posture of that domain.",
+     "name": "BANIQL",
+     "slug": "baniql-corp",
+     "description": "BANIQL CORP. (BANiQL) is developing a sustainable process for selectively extracting nickel and cobalt for use in lithium-ion battery production. Its core technology uses a chemical process to selectively extract nickel and cobalt from raw materials at lower temperatures and atmospheric pressure, producing high-quality nickel at roughly 30% lower cost than High Pressure Acid Leaching (HPAL) with net-zero waste, cutting energy consumption and carbon dioxide emissions by around 80% while repurposing leftover materials into products like fertilizers and construction materials. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network; this materials/cleantech company publishes no developer or API surface, so this profile carries company identity and domain-security data only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/baniql-corp/refs/heads/main/screenshots/baniql-corp-2026-07-25T202332.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3599,7 +3599,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3634,10 +3634,9 @@
      "rank": 72
     },
     {
-     "name": "Freeport-McMoRan",
-     "slug": "freeport-mcmoran",
-     "description": "Freeport-McMoRan is a leading international mining company with headquarters in Phoenix, Arizona, operating large, long-lived geographically diverse assets with significant proven and probable reserves of copper, gold, and molybdenum.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/freeport-mcmoran/refs/heads/main/screenshots/freeport-mcmoran-2026-06-20T181533.png",
+     "name": "Coinmine",
+     "slug": "coinmine",
+     "description": "Coinmine is a consumer cryptocurrency-mining hardware company known for the Coinmine One, a plug-and-play home mining device that let non-technical owners mine and hold crypto assets from a simple companion app. The company was surfaced as a portfolio company of Canaan Partners and added to the API Evangelist network as a stub for enrichment. As of this enrichment pass the coinmine.com storefront is offline (the Shopify store returns \"unavailable\"), so no live developer portal, API, or documentation surface could be confirmed. The registrable domain remains active for email (SPF/DMARC configured), and this profile captures the honest, probed security posture of that domain.",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3649,7 +3648,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3684,10 +3683,10 @@
      "rank": 73
     },
     {
-     "name": "GMR",
-     "slug": "gmr",
-     "description": "GMR (General Mining Research) is a crypto and Web3 company backed by Multicoin Capital and tracked in the API Evangelist network. Its public presence is a single-page web application at gmr.xyz identifying it as \"General Mining Research\" with a general contact at info@gmr.xyz. As of this enrichment pass no public developer portal, API documentation, OpenAPI definition, well-known discovery surface, or SDK/CLI could be found — the only machine-verifiable signal is the domain's TLS/DNS security posture. This profile remains a lead awaiting a published API or developer surface to enrich further.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gmr/refs/heads/main/screenshots/gmr-2026-07-25T215943.png",
+     "name": "Freeport-McMoRan",
+     "slug": "freeport-mcmoran",
+     "description": "Freeport-McMoRan is a leading international mining company with headquarters in Phoenix, Arizona, operating large, long-lived geographically diverse assets with significant proven and probable reserves of copper, gold, and molybdenum.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/freeport-mcmoran/refs/heads/main/screenshots/freeport-mcmoran-2026-06-20T181533.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3699,7 +3698,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3734,10 +3733,10 @@
      "rank": 74
     },
     {
-     "name": "Ideon Technologies",
-     "slug": "ideon-ai",
-     "description": "Ideon Technologies (ideon.ai) develops REVEAL, a subsurface intelligence platform that uses muon tomography and geophysical inversion to image, map, and monitor mineral deposits and geological structures deep underground. It helps mining companies reduce geologic uncertainty across exploration, resource evaluation, geotechnical analysis, and cave monitoring, with customers including Rio Tinto, Vale, Glencore, and BHP. The company is backed by Playground Global. Ideon publishes a marketing and content web presence (solutions, case studies, papers, blog, careers) but no public developer API, SDK, or documentation surface; this profile tracks the company as a network lead.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ideon-ai/refs/heads/main/screenshots/ideon-ai-2026-07-25T222026.png",
+     "name": "GMR",
+     "slug": "gmr",
+     "description": "GMR (General Mining Research) is a crypto and Web3 company backed by Multicoin Capital and tracked in the API Evangelist network. Its public presence is a single-page web application at gmr.xyz identifying it as \"General Mining Research\" with a general contact at info@gmr.xyz. As of this enrichment pass no public developer portal, API documentation, OpenAPI definition, well-known discovery surface, or SDK/CLI could be found — the only machine-verifiable signal is the domain's TLS/DNS security posture. This profile remains a lead awaiting a published API or developer surface to enrich further.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gmr/refs/heads/main/screenshots/gmr-2026-07-25T215943.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3749,7 +3748,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3784,10 +3783,10 @@
      "rank": 75
     },
     {
-     "name": "Phoenix Tailings",
-     "slug": "phoenix-tailings",
-     "description": "Phoenix Tailings is a clean rare earth and critical minerals refining company working to restore U.S. industrial independence by building domestic refining capacity for the metals behind every major technology. It recovers rare earth elements and other critical minerals from mining waste (tailings) and low-grade feedstocks using a low-emission, zero-landfill process, supplying materials for medical devices, electric vehicles and automotive systems, electronics, and defense applications. The company operates as a materials producer and does not currently publish a public developer API, SDK, or developer portal; this API Evangelist profile tracks its identity and web/domain security posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/phoenix-tailings/refs/heads/main/screenshots/phoenix-tailings-2026-09-02T151147.png",
+     "name": "Ideon Technologies",
+     "slug": "ideon-ai",
+     "description": "Ideon Technologies (ideon.ai) develops REVEAL, a subsurface intelligence platform that uses muon tomography and geophysical inversion to image, map, and monitor mineral deposits and geological structures deep underground. It helps mining companies reduce geologic uncertainty across exploration, resource evaluation, geotechnical analysis, and cave monitoring, with customers including Rio Tinto, Vale, Glencore, and BHP. The company is backed by Playground Global. Ideon publishes a marketing and content web presence (solutions, case studies, papers, blog, careers) but no public developer API, SDK, or documentation surface; this profile tracks the company as a network lead.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ideon-ai/refs/heads/main/screenshots/ideon-ai-2026-07-25T222026.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3799,7 +3798,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3834,6 +3833,56 @@
      "rank": 76
     },
     {
+     "name": "Phoenix Tailings",
+     "slug": "phoenix-tailings",
+     "description": "Phoenix Tailings is a clean rare earth and critical minerals refining company working to restore U.S. industrial independence by building domestic refining capacity for the metals behind every major technology. It recovers rare earth elements and other critical minerals from mining waste (tailings) and low-grade feedstocks using a low-emission, zero-landfill process, supplying materials for medical devices, electric vehicles and automotive systems, electronics, and defense applications. The company operates as a materials producer and does not currently publish a public developer API, SDK, or developer portal; this API Evangelist profile tracks its identity and web/domain security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/phoenix-tailings/refs/heads/main/screenshots/phoenix-tailings-2026-09-02T151147.png",
+     "score": 3.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 77
+    },
+    {
      "name": "VerAI",
      "slug": "verai",
      "description": "VerAI Discoveries is an AI-driven mineral discovery company founded in 2020 and headquartered in Boston, Massachusetts. Its proprietary AI/ML Discovery Platform searches magnetic, gravimetric, electromagnetic, and seismic geophysical datasets to detect concealed mineral deposits in underexplored covered terrain, generating drill-ready targets across a portfolio of more than sixty mineral projects and royalties in North and South America. VerAI partners with explorers and investors to develop critical-mineral assets essential to the green-energy transition. The company is backed by Insight Partners, Blumberg Capital, Chrysalix Venture Capital, and Orion Industrial Ventures, and to date exposes no public developer API surface.",
@@ -3849,7 +3898,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3881,7 +3930,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 78
     },
     {
      "name": "Optimotive",
@@ -3899,57 +3948,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 0.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 78
-    },
-    {
-     "name": "Terra AI",
-     "slug": "terraai",
-     "description": "Terra AI is a geoscience frontier company building specialized artificial intelligence for the natural resources sector, focused on subsurface characterization and exploration optimization for mining and reservoir operators. Its platform integrates exploration data to generate large populations of geological models, helping teams decide where to drill, characterize deposits, and assess project economics earlier — the company cites 50-60% fewer drilling meters and 2-3x more precise resource estimates versus conventional methods. Terra AI raised a $20M Series A led by Khosla Ventures with BHP Ventures in June 2026 and serves copper, gold, rare-earth (REE), and reservoir projects. The company operates on a B2B model and publishes no public developer API, SDK, or developer portal at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/terraai/refs/heads/main/screenshots/terraai-2026-09-02T163157.png",
-     "score": 2.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3984,6 +3983,56 @@
      "rank": 79
     },
     {
+     "name": "Terra AI",
+     "slug": "terraai",
+     "description": "Terra AI is a geoscience frontier company building specialized artificial intelligence for the natural resources sector, focused on subsurface characterization and exploration optimization for mining and reservoir operators. Its platform integrates exploration data to generate large populations of geological models, helping teams decide where to drill, characterize deposits, and assess project economics earlier — the company cites 50-60% fewer drilling meters and 2-3x more precise resource estimates versus conventional methods. Terra AI raised a $20M Series A led by Khosla Ventures with BHP Ventures in June 2026 and serves copper, gold, rare-earth (REE), and reservoir projects. The company operates on a B2B model and publishes no public developer API, SDK, or developer portal at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/terraai/refs/heads/main/screenshots/terraai-2026-09-02T163157.png",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 0.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 80
+    },
+    {
      "name": "Peabody Energy",
      "slug": "peabody-energy",
      "description": "Peabody Energy is the world's largest private-sector coal company, mining and supplying coal to electricity generators and steel producers in the United States and around the world. No public developer APIs are currently documented for this organization.",
@@ -3999,7 +4048,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4031,7 +4080,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 81
     },
     {
      "name": "Joy Global (Komatsu Mining)",
@@ -4049,7 +4098,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4081,75 +4130,24 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
-    },
-    {
-     "name": "Mine Health and Safety Administration",
-     "slug": "mine-health-and-safety-administration",
-     "description": "The Mine Safety and Health Administration (MSHA) works to prevent mining related deaths, injuries, and illnesses through mine regulations, inspections, and training programs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mine-health-and-safety-administration/refs/heads/main/screenshots/mine-health-and-safety-administration-2026-06-20T185604.png",
-     "score": 1.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 30.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 0.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 82
     },
     {
-     "name": "Newmont",
-     "slug": "newmont",
-     "description": "Newmont Corporation is the world's leading gold company and a producer of copper, silver, zinc, and lead, with operations and projects across the Americas, Africa, Australia, and Papua New Guinea.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/newmont/refs/heads/main/screenshots/newmont-2026-08-07T185122.png",
-     "score": 1.0,
+     "name": "Ametrine",
+     "slug": "ametrine",
+     "description": "Ametrine is a mining and metals company based in the Oriente region, specializing in the extraction and processing of gemstones, particularly the rare mineral ametrine. Established in 1990, the family-owned business focuses on sustainable, non‑destructive mining practices and offers a range of mineral products online. The company provides APIs for product data, mining operations, and corporate information to integrate with partners and developers.",
+     "score": 2.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 25.0,
+      "discoverability": 35.7,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4184,29 +4182,29 @@
      "rank": 83
     },
     {
-     "name": "Alpha Metallurgical Resources",
-     "slug": "alpha-metallurgical-resources",
-     "description": "Profile for Alpha Metallurgical Resources in the API Evangelist network. Fortune F1000 (rank 925).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alpha-metallurgical-resources/refs/heads/main/screenshots/alpha-metallurgical-resources-2026-06-20T171547.png",
-     "score": 0.2,
+     "name": "Mine Health and Safety Administration",
+     "slug": "mine-health-and-safety-administration",
+     "description": "The Mine Safety and Health Administration (MSHA) works to prevent mining related deaths, injuries, and illnesses through mine regulations, inspections, and training programs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mine-health-and-safety-administration/refs/heads/main/screenshots/mine-health-and-safety-administration-2026-06-20T185604.png",
+     "score": 1.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 25.0,
+      "discoverability": 30.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
+      "regime": "Health",
+      "regime_id": "health",
       "score": 0.0,
-      "matched_via": "fallback"
+      "matched_via": "tags"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4234,11 +4232,11 @@
      "rank": 84
     },
     {
-     "name": "Arch Resources",
-     "slug": "arch-resources",
-     "description": "Profile for Arch Resources in the API Evangelist network. Fortune F1000 (rank 922).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/arch-resources/refs/heads/main/screenshots/arch-resources-2026-06-20T172402.png",
-     "score": 0.2,
+     "name": "Newmont",
+     "slug": "newmont",
+     "description": "Newmont Corporation is the world's leading gold company and a producer of copper, silver, zinc, and lead, with operations and projects across the Americas, Africa, Australia, and Papua New Guinea.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/newmont/refs/heads/main/screenshots/newmont-2026-08-07T185122.png",
+     "score": 1.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -4249,13 +4247,13 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
       "regime_id": "horizontal",
-      "score": 0.0,
+      "score": 5.9,
       "matched_via": "fallback"
      },
      "agent_score": 0.0,
@@ -4284,6 +4282,106 @@
      "rank": 85
     },
     {
+     "name": "Alpha Metallurgical Resources",
+     "slug": "alpha-metallurgical-resources",
+     "description": "Profile for Alpha Metallurgical Resources in the API Evangelist network. Fortune F1000 (rank 925).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alpha-metallurgical-resources/refs/heads/main/screenshots/alpha-metallurgical-resources-2026-06-20T171547.png",
+     "score": 0.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 25.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 0.0,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 86
+    },
+    {
+     "name": "Arch Resources",
+     "slug": "arch-resources",
+     "description": "Profile for Arch Resources in the API Evangelist network. Fortune F1000 (rank 922).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/arch-resources/refs/heads/main/screenshots/arch-resources-2026-06-20T172402.png",
+     "score": 0.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 25.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 0.0,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 87
+    },
+    {
      "name": "Cloud Peak Energy",
      "slug": "cloudpeak-energy",
      "description": "Cloud Peak Energy Inc. was an American coal mining company headquartered in Gillette, Wyoming, established in 2009 as a spin-off from Rio Tinto Energy America. The company operated three open-pit mines in the Powder River Basin (Wyoming and Montana) and held a 50% interest in the Decker Coal Company. Cloud Peak Energy filed for Chapter 11 bankruptcy in May 2019 amid declining demand for Powder River coal in East Asian and US markets and is no longer operating. This profile is maintained as a historical record - Cloud Peak Energy did not publish public APIs.",
@@ -4299,7 +4397,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4331,7 +4429,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 88
     },
     {
      "name": "Descartes Labs",
@@ -4349,7 +4447,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4381,7 +4479,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 89
     },
     {
      "name": "Kespry",
@@ -4398,7 +4496,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4430,7 +4528,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 90
     }
    ]
   }

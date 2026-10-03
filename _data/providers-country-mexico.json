@@ -1,6 +1,6 @@
 {
- "total": 119,
- "shown": 119,
+ "total": 120,
+ "shown": 120,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -88,7 +88,7 @@
       "developer_ergonomics": 56.0,
       "access_clarity": 60.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -138,7 +138,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -177,18 +177,18 @@
      "slug": "palenca-vech",
      "description": "Palenca is a Latin American income and employment verification API (headquartered in Mexico, backed by 500 Global). Through a single REST API and an embeddable Widget, workers securely connect their gig-economy platform (Uber, Rappi, DiDi, inDriver, iFood, PedidosYa) and formal-economy sources (IMSS, ISSSTE, CDT/Carteira de Trabalho) to share verified income, earnings, employment history, and account data with fintechs, banks, and lenders. Palenca serves Mexico and Brazil, exposes users, accounts, logins, earnings, consents, insights, and webhooks resources, and ships a JS/CDN/ES6 widget and mobile SDKs for end-user account linking.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/screenshots/palenca-vech-2026-08-07T191315.png",
-     "score": 49.8,
+     "score": 50.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 73.2,
-      "contract_quality": 43.3,
+      "contract_quality": 46.4,
       "contract_governance": 18.2,
       "operational_transparency": 47.4,
       "developer_ergonomics": 50.6,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -238,7 +238,7 @@
       "developer_ergonomics": 73.8,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -288,7 +288,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -338,7 +338,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -388,7 +388,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -438,7 +438,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -488,7 +488,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -549,7 +549,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -599,7 +599,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -649,7 +649,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -699,7 +699,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 34.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -749,7 +749,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -799,7 +799,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -849,7 +849,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -899,7 +899,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -949,7 +949,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 47.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -999,7 +999,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1049,7 +1049,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1109,7 +1109,7 @@
       "developer_ergonomics": 32.7,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1159,7 +1159,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1208,7 +1208,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1258,7 +1258,7 @@
       "developer_ergonomics": 44.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1307,7 +1307,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1357,7 +1357,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1407,7 +1407,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1457,7 +1457,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1507,7 +1507,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1557,7 +1557,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1607,7 +1607,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1657,7 +1657,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1707,7 +1707,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1757,7 +1757,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1807,7 +1807,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1857,7 +1857,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1907,7 +1907,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1957,7 +1957,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2007,7 +2007,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2057,7 +2057,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2107,7 +2107,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2157,7 +2157,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2207,7 +2207,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2257,7 +2257,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2307,7 +2307,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2357,7 +2357,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2407,7 +2407,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2457,7 +2457,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2506,7 +2506,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2556,7 +2556,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2606,7 +2606,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2656,7 +2656,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2706,7 +2706,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2755,7 +2755,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2805,7 +2805,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2846,8 +2846,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 63,
-   "shown": 63,
+   "count": 64,
+   "shown": 64,
    "providers": [
     {
      "name": "Civica Digital",
@@ -2865,7 +2865,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2915,7 +2915,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2965,7 +2965,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3015,7 +3015,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3065,7 +3065,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3115,7 +3115,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3165,7 +3165,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3215,7 +3215,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3265,7 +3265,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3315,7 +3315,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3365,7 +3365,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3415,7 +3415,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3465,7 +3465,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3515,7 +3515,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3565,7 +3565,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3615,7 +3615,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3665,7 +3665,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3715,7 +3715,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3765,7 +3765,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3815,7 +3815,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3865,7 +3865,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3915,7 +3915,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3964,7 +3964,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4014,7 +4014,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4064,7 +4064,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4114,7 +4114,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4164,7 +4164,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4214,7 +4214,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4264,7 +4264,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4314,7 +4314,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4364,7 +4364,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4414,7 +4414,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4464,7 +4464,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4513,7 +4513,7 @@
       "developer_ergonomics": 1.2,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4563,7 +4563,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4613,7 +4613,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4663,7 +4663,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4713,7 +4713,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4763,7 +4763,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4812,7 +4812,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4861,7 +4861,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4911,7 +4911,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4946,9 +4946,9 @@
      "rank": 98
     },
     {
-     "name": "Kavak",
-     "slug": "kavak",
-     "description": "Kavak is a Mexico-founded digital marketplace for buying, selling, and financing pre-owned cars across Latin America, the Middle East, and Turkey. Founded in 2016 in Mexico City by Carlos Garcia Ottati, Loreanne Garcia Ottati, and Roger Laughlin, Kavak became Mexico's first unicorn in 2020 and reached an $8.7B valuation in 2021 with backing from SoftBank, Sea Ltd, and Founders Fund. The company operates an end-to-end consumer platform that combines an e-commerce site and mobile app, physical hubs, in-house vehicle reconditioning, and a financial-services arm (Kavak Capital, Kuna, and Kavak Credito). Internally, Kavak uses machine learning and proprietary pricing models to value, inspect, and route inventory across markets including Mexico, Argentina, Brazil, Chile, the United Arab Emirates, and Turkey, while sponsoring high-profile partners such as the NFL. Kavak's revenue comes from vehicle sales, financing margins, and after-sales services, and the company does not currently publish a public developer API, SDK, OpenAPI specification, or open-source GitHub organization. Customer-facing integrations are limited to the consumer web and mobile apps and partner financing channels.",
+     "name": "Aro Homes",
+     "slug": "aro-homes",
+     "description": "Aro Homes is a Mexican construction and remodeling company specializing in new builds, renovations, and detailed architectural projects. Their portfolio showcases residential and commercial works, emphasizing quality craftsmanship and client-focused design. The company provides services from project conception through completion, aiming to transform client visions into reality with integrated design and construction solutions.",
      "score": 3.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4960,7 +4960,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4995,11 +4995,10 @@
      "rank": 99
     },
     {
-     "name": "Niko",
-     "slug": "niko",
-     "description": "Niko (Niko Energy) is a Mexican clean-energy company focused on energy efficiency for multi-site enterprises. It designs, installs, and finances commercial and residential solar photovoltaic systems and battery storage, wrapping them in embedded financing options that include cash purchase, 12-month interest-free plans, multi-year subscriptions, and power purchase agreements (PPAs). Its Niko Hub dashboard centralizes energy-portfolio management across locations, Niko Care provides 24/7 monitoring and maintenance, and Niko Insurance covers panel hardware. Backed by fintech venture firm QED Investors, Niko pairs solar deployment with consumption analytics and ESG / consolidated reporting. No public developer API, documentation, or specification surface was found on niko.mx as of this enrichment pass.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/niko/refs/heads/main/screenshots/niko-2026-08-07T185257.png",
-     "score": 3.6,
+     "name": "Kavak",
+     "slug": "kavak",
+     "description": "Kavak is a Mexico-founded digital marketplace for buying, selling, and financing pre-owned cars across Latin America, the Middle East, and Turkey. Founded in 2016 in Mexico City by Carlos Garcia Ottati, Loreanne Garcia Ottati, and Roger Laughlin, Kavak became Mexico's first unicorn in 2020 and reached an $8.7B valuation in 2021 with backing from SoftBank, Sea Ltd, and Founders Fund. The company operates an end-to-end consumer platform that combines an e-commerce site and mobile app, physical hubs, in-house vehicle reconditioning, and a financial-services arm (Kavak Capital, Kuna, and Kavak Credito). Internally, Kavak uses machine learning and proprietary pricing models to value, inspect, and route inventory across markets including Mexico, Argentina, Brazil, Chile, the United Arab Emirates, and Turkey, while sponsoring high-profile partners such as the NFL. Kavak's revenue comes from vehicle sales, financing margins, and after-sales services, and the company does not currently publish a public developer API, SDK, OpenAPI specification, or open-source GitHub organization. Customer-facing integrations are limited to the consumer web and mobile apps and partner financing channels.",
+     "score": 3.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -5007,60 +5006,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 4.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 100
-    },
-    {
-     "name": "DeporPrivé",
-     "slug": "deporpriv",
-     "description": "DeporPrivé is a Mexico-based sports e-commerce platform operating as a members-oriented \"Sport Experience & Outlet\" that runs flash sales and private, time-limited shopping events across more than 300 athletic brands including Adidas, Nike, and Salomon, with discounts reaching up to 70%. Founded in 2016 and headquartered in Mexico, the company curates footwear, apparel, and accessories for running, cycling, swimming, football, and general fitness, and has grown into one of the largest sport-specific online retailers in the country, fulfilling around 1,000 packages per day across multiple sales channels. It is tracked in the API Evangelist network as a portfolio company of 500 Global. No public developer program, API, or documentation surface has been identified for this consumer retail brand.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deporpriv/refs/heads/main/screenshots/deporpriv-2026-07-25T211735.png",
-     "score": 3.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5092,13 +5041,63 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 100
+    },
+    {
+     "name": "Niko",
+     "slug": "niko",
+     "description": "Niko (Niko Energy) is a Mexican clean-energy company focused on energy efficiency for multi-site enterprises. It designs, installs, and finances commercial and residential solar photovoltaic systems and battery storage, wrapping them in embedded financing options that include cash purchase, 12-month interest-free plans, multi-year subscriptions, and power purchase agreements (PPAs). Its Niko Hub dashboard centralizes energy-portfolio management across locations, Niko Care provides 24/7 monitoring and maintenance, and Niko Insurance covers panel hardware. Backed by fintech venture firm QED Investors, Niko pairs solar deployment with consumption analytics and ESG / consolidated reporting. No public developer API, documentation, or specification surface was found on niko.mx as of this enrichment pass.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/niko/refs/heads/main/screenshots/niko-2026-08-07T185257.png",
+     "score": 3.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 4.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 101
     },
     {
-     "name": "Gurú de Viaje",
-     "slug": "gur-de-viaje",
-     "description": "Gurú de Viaje is a Mexico-based travel-deals company and flight-deal hunter (\"cazador de ofertas de viaje\") that publishes daily cheap-flight promotions and airfare offers so travelers can fly cheaply and see the world. Its Spanish-language consumer website and mobile/push experience surface daily discounted airline tickets and travel promotions, with a focus on departures from Mexican cities such as Guadalajara and Mexico City. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network. As of this pass Gurú de Viaje operates a consumer Next.js web property (gurudeviaje.com) and publishes no public developer program, API reference, or machine-readable API specification.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gur-de-viaje/refs/heads/main/screenshots/gur-de-viaje-2026-07-25T220437.png",
+     "name": "DeporPrivé",
+     "slug": "deporpriv",
+     "description": "DeporPrivé is a Mexico-based sports e-commerce platform operating as a members-oriented \"Sport Experience & Outlet\" that runs flash sales and private, time-limited shopping events across more than 300 athletic brands including Adidas, Nike, and Salomon, with discounts reaching up to 70%. Founded in 2016 and headquartered in Mexico, the company curates footwear, apparel, and accessories for running, cycling, swimming, football, and general fitness, and has grown into one of the largest sport-specific online retailers in the country, fulfilling around 1,000 packages per day across multiple sales channels. It is tracked in the API Evangelist network as a portfolio company of 500 Global. No public developer program, API, or documentation surface has been identified for this consumer retail brand.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deporpriv/refs/heads/main/screenshots/deporpriv-2026-07-25T211735.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5110,7 +5109,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5145,9 +5144,10 @@
      "rank": 102
     },
     {
-     "name": "Jüsto",
-     "slug": "j-sto",
-     "description": "Jüsto is a Mexican online-only supermarket founded in 2019 by Ricardo Weder, headquartered in Mexico City. It operates a direct-to-consumer grocery e-commerce and delivery model with no physical stores, sourcing produce and pantry goods directly from farmers, producers, and brands and fulfilling orders from micro-fulfillment dark stores. The company sells its catalog through web and mobile apps and has raised venture funding from investors including General Atlantic, SoftBank, Foundation Capital, and 500 Global. Jüsto has no public developer program or documented API surface; this profile is maintained in the API Evangelist network as a company record.",
+     "name": "Gurú de Viaje",
+     "slug": "gur-de-viaje",
+     "description": "Gurú de Viaje is a Mexico-based travel-deals company and flight-deal hunter (\"cazador de ofertas de viaje\") that publishes daily cheap-flight promotions and airfare offers so travelers can fly cheaply and see the world. Its Spanish-language consumer website and mobile/push experience surface daily discounted airline tickets and travel promotions, with a focus on departures from Mexican cities such as Guadalajara and Mexico City. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network. As of this pass Gurú de Viaje operates a consumer Next.js web property (gurudeviaje.com) and publishes no public developer program, API reference, or machine-readable API specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gur-de-viaje/refs/heads/main/screenshots/gur-de-viaje-2026-07-25T220437.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5159,7 +5159,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5194,10 +5194,9 @@
      "rank": 103
     },
     {
-     "name": "microTERRA",
-     "slug": "microterra",
-     "description": "microTERRA is a Mexico-based food-ingredient company that develops functional ingredients derived from Lemna (duckweed). Its MAS product line delivers natural flavor enhancers and texture modifiers for the food and beverage industry, positioned as sustainable, clean-label alternatives that support salt and sugar reduction in formulations. A Techstars-backed B2B startup, microTERRA sells to food formulators and manufacturers and does not currently expose any public developer API, SDK, CLI, or technical documentation surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/microterra/refs/heads/main/screenshots/microterra-2026-08-07T172849.png",
+     "name": "Jüsto",
+     "slug": "j-sto",
+     "description": "Jüsto is a Mexican online-only supermarket founded in 2019 by Ricardo Weder, headquartered in Mexico City. It operates a direct-to-consumer grocery e-commerce and delivery model with no physical stores, sourcing produce and pantry goods directly from farmers, producers, and brands and fulfilling orders from micro-fulfillment dark stores. The company sells its catalog through web and mobile apps and has raised venture funding from investors including General Atlantic, SoftBank, Foundation Capital, and 500 Global. Jüsto has no public developer program or documented API surface; this profile is maintained in the API Evangelist network as a company record.",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5209,7 +5208,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5244,10 +5243,10 @@
      "rank": 104
     },
     {
-     "name": "Okol",
-     "slug": "okol",
-     "description": "Okol operates propiedades.com, an online real estate marketplace serving Mexico where buyers and renters search residential and commercial property listings and connect with agents, developers, and brokers. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment, the company runs its consumer-facing listings platform on AWS but publishes no public developer API, documentation, or specifications at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/okol/refs/heads/main/screenshots/okol-2026-08-07T190055.png",
+     "name": "microTERRA",
+     "slug": "microterra",
+     "description": "microTERRA is a Mexico-based food-ingredient company that develops functional ingredients derived from Lemna (duckweed). Its MAS product line delivers natural flavor enhancers and texture modifiers for the food and beverage industry, positioned as sustainable, clean-label alternatives that support salt and sugar reduction in formulations. A Techstars-backed B2B startup, microTERRA sells to food formulators and manufacturers and does not currently expose any public developer API, SDK, CLI, or technical documentation surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/microterra/refs/heads/main/screenshots/microterra-2026-08-07T172849.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5259,7 +5258,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5294,10 +5293,10 @@
      "rank": 105
     },
     {
-     "name": "Portal Terreno",
-     "slug": "portal-terreno",
-     "description": "Portal Terreno is an online marketplace for land and parcels (\"terrenos\" and \"parcelas\") in Latin America, operating localized classifieds portals for Chile (portalterreno.cl) and Mexico (portalterreno.com.mx) with tens of thousands of land listings. The Next.js web platform lets buyers search, filter, and contact sellers to find land for sale, while sellers and real-estate agents publish listings. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment. No public developer, API, documentation, or well-known discovery surface was found during the enrichment pass; the domain-security posture was probed live.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/portal-terreno/refs/heads/main/screenshots/portal-terreno-2026-09-02T151805.png",
+     "name": "Okol",
+     "slug": "okol",
+     "description": "Okol operates propiedades.com, an online real estate marketplace serving Mexico where buyers and renters search residential and commercial property listings and connect with agents, developers, and brokers. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment, the company runs its consumer-facing listings platform on AWS but publishes no public developer API, documentation, or specifications at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/okol/refs/heads/main/screenshots/okol-2026-08-07T190055.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5309,7 +5308,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5344,9 +5343,10 @@
      "rank": 106
     },
     {
-     "name": "Raw Apothecary",
-     "slug": "raw-apothecary",
-     "description": "Raw Apothecary is a Mexico-based consumer brand that operated a Shopify storefront at rawapothecary.mx (Spanish-language, powered-by Shopify), surfaced in the API Evangelist network as a 500 Global portfolio company. As of this enrichment pass the storefront returns \"Tienda no disponible\" (HTTP 402, \"Store Unavailable\"), and the company publishes no public API, developer portal, documentation, or machine-readable specification surface. This profile is retained as a company record; there is no API to enrich beyond a live domain-security probe of the storefront host.",
+     "name": "Portal Terreno",
+     "slug": "portal-terreno",
+     "description": "Portal Terreno is an online marketplace for land and parcels (\"terrenos\" and \"parcelas\") in Latin America, operating localized classifieds portals for Chile (portalterreno.cl) and Mexico (portalterreno.com.mx) with tens of thousands of land listings. The Next.js web platform lets buyers search, filter, and contact sellers to find land for sale, while sellers and real-estate agents publish listings. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment. No public developer, API, documentation, or well-known discovery surface was found during the enrichment pass; the domain-security posture was probed live.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/portal-terreno/refs/heads/main/screenshots/portal-terreno-2026-09-02T151805.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5358,7 +5358,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5393,10 +5393,9 @@
      "rank": 107
     },
     {
-     "name": "RUUT",
-     "slug": "ruut",
-     "description": "RUUT (ruut.mx) is a Mexican fintech and mobile-first investment platform that lets everyday people invest in the US stock markets. Marketed as \"la plataforma de inversion para no inversionistas\" (the investment platform for non-investors), it gives users access to 8,000+ US stocks and ETFs, personalized risk-based portfolios (safe, moderate, aggressive), goal-based investing, and AI-tailored market news. Accounts are protected up to $500,000 USD via SIPC insurance through its US brokerage partner Alpaca Securities LLC (FINRA/SIPC). RUUT is registered with Mexico's CNBV as an independent investment advisor (Folio #30174) and is a portfolio company of 500 Global. RUUT is a consumer product with no public developer API; this profile was enriched from its public website and live domain probes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ruut/refs/heads/main/screenshots/ruut-2026-09-02T154229.png",
+     "name": "Raw Apothecary",
+     "slug": "raw-apothecary",
+     "description": "Raw Apothecary is a Mexico-based consumer brand that operated a Shopify storefront at rawapothecary.mx (Spanish-language, powered-by Shopify), surfaced in the API Evangelist network as a 500 Global portfolio company. As of this enrichment pass the storefront returns \"Tienda no disponible\" (HTTP 402, \"Store Unavailable\"), and the company publishes no public API, developer portal, documentation, or machine-readable specification surface. This profile is retained as a company record; there is no API to enrich beyond a live domain-security probe of the storefront host.",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5408,7 +5407,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5443,10 +5442,10 @@
      "rank": 108
     },
     {
-     "name": "SeeMexico",
-     "slug": "seemexico",
-     "description": "SeeMexico is a B2B corporate travel management platform and business travel agency in Mexico that lets companies book flights, hotels, and car rentals from a single platform. It offers corporate rates, business credit, cashback, direct invoicing (facturacion), and a dedicated account executive to streamline managed business travel. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network; the public site is a Duda-built marketing site and no public developer portal, API documentation, or programmatic surface was found during enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/seemexico/refs/heads/main/screenshots/seemexico-2026-09-02T154758.png",
+     "name": "RUUT",
+     "slug": "ruut",
+     "description": "RUUT (ruut.mx) is a Mexican fintech and mobile-first investment platform that lets everyday people invest in the US stock markets. Marketed as \"la plataforma de inversion para no inversionistas\" (the investment platform for non-investors), it gives users access to 8,000+ US stocks and ETFs, personalized risk-based portfolios (safe, moderate, aggressive), goal-based investing, and AI-tailored market news. Accounts are protected up to $500,000 USD via SIPC insurance through its US brokerage partner Alpaca Securities LLC (FINRA/SIPC). RUUT is registered with Mexico's CNBV as an independent investment advisor (Folio #30174) and is a portfolio company of 500 Global. RUUT is a consumer product with no public developer API; this profile was enriched from its public website and live domain probes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ruut/refs/heads/main/screenshots/ruut-2026-09-02T154229.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5458,7 +5457,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5493,9 +5492,10 @@
      "rank": 109
     },
     {
-     "name": "Spider Fleet",
-     "slug": "spider-fleet",
-     "description": "Spiderfleet (Spider Fleet) is a Mexico-based intelligent fleet-management platform that helps businesses run and maintain their vehicle fleets. Its public site (spider.com.mx, in Spanish) markets fleet onboarding (\"Flotillas\"), preventive maintenance scheduling (\"mantenimientos\"), and quote requests (\"cotizacion\") for fleet operators, and is backed by 500 Global. As of this enrichment pass the company publishes only a static marketing website with no public API, developer portal, documentation, SDKs, or machine-readable specification; two navigation links (contact and login) return 404 and the site's TLS certificate is expired.",
+     "name": "SeeMexico",
+     "slug": "seemexico",
+     "description": "SeeMexico is a B2B corporate travel management platform and business travel agency in Mexico that lets companies book flights, hotels, and car rentals from a single platform. It offers corporate rates, business credit, cashback, direct invoicing (facturacion), and a dedicated account executive to streamline managed business travel. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network; the public site is a Duda-built marketing site and no public developer portal, API documentation, or programmatic surface was found during enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/seemexico/refs/heads/main/screenshots/seemexico-2026-09-02T154758.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5507,7 +5507,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5542,10 +5542,9 @@
      "rank": 110
     },
     {
-     "name": "Yetcargo",
-     "slug": "yetcargo",
-     "description": "Yetcargo is a Mexican freight and cargo transportation company that connects businesses needing to move goods with a network of reliable carriers, handling both local and long-distance (foráneo) shipments. Operating a Spanish-language web platform, it positions itself as a trusted cargo-transport provider (\"Tu proveedor confiable de transporte de carga\") for shippers who need to resolve local and out-of-town delivery problems. Yetcargo was surfaced through the 500 Global portfolio and added to the API Evangelist network; as of this enrichment pass it publishes no public API, developer portal, or machine-readable API specification.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yetcargo/refs/heads/main/screenshots/yetcargo-2026-09-02T171248.png",
+     "name": "Spider Fleet",
+     "slug": "spider-fleet",
+     "description": "Spiderfleet (Spider Fleet) is a Mexico-based intelligent fleet-management platform that helps businesses run and maintain their vehicle fleets. Its public site (spider.com.mx, in Spanish) markets fleet onboarding (\"Flotillas\"), preventive maintenance scheduling (\"mantenimientos\"), and quote requests (\"cotizacion\") for fleet operators, and is backed by 500 Global. As of this enrichment pass the company publishes only a static marketing website with no public API, developer portal, documentation, SDKs, or machine-readable specification; two navigation links (contact and login) return 404 and the site's TLS certificate is expired.",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5557,7 +5556,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5592,6 +5591,56 @@
      "rank": 111
     },
     {
+     "name": "Yetcargo",
+     "slug": "yetcargo",
+     "description": "Yetcargo is a Mexican freight and cargo transportation company that connects businesses needing to move goods with a network of reliable carriers, handling both local and long-distance (foráneo) shipments. Operating a Spanish-language web platform, it positions itself as a trusted cargo-transport provider (\"Tu proveedor confiable de transporte de carga\") for shippers who need to resolve local and out-of-town delivery problems. Yetcargo was surfaced through the 500 Global portfolio and added to the API Evangelist network; as of this enrichment pass it publishes no public API, developer portal, or machine-readable API specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yetcargo/refs/heads/main/screenshots/yetcargo-2026-09-02T171248.png",
+     "score": 3.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 112
+    },
+    {
      "name": "Healf",
      "slug": "healf",
      "description": "Healf (healf.mx) is a Mexico City-based InsurTech startup founded in 2022 that offers an AI-based SaaS platform to simplify, explain, and manage medical / health insurance policies. Using generative AI, natural language processing, and information-retrieval models, the platform automates repetitive inquiries, provides 24/7 conversational support to insurance brokers, and gives the insured comprehensive insight into their policy details for better-informed decisions. For brokers and doctors it streamlines communication and automates processes, improving transparency and traceability for insurers. Healf is a 500 Global portfolio company (Somos Lucha Batch 19), also backed by Blue Zone Ventures. This profile currently has no public API, developer portal, or machine-readable specification surface.",
@@ -5607,7 +5656,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5639,7 +5688,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 113
     },
     {
      "name": "Graviti",
@@ -5656,7 +5705,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5688,7 +5737,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 114
     },
     {
      "name": "Konfio",
@@ -5706,7 +5755,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5738,7 +5787,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 115
     },
     {
      "name": "Stori",
@@ -5756,7 +5805,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5788,7 +5837,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 116
     },
     {
      "name": "Kalto",
@@ -5805,7 +5854,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5837,7 +5886,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 117
     },
     {
      "name": "Atexto",
@@ -5854,7 +5903,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5886,7 +5935,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 118
     },
     {
      "name": "Briko Robotics",
@@ -5903,7 +5952,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5935,7 +5984,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 119
     },
     {
      "name": "Plerk",
@@ -5952,7 +6001,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5984,7 +6033,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 120
     }
    ]
   }

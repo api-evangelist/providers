@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -52,36 +52,164 @@ apis:
   baseurl_source: declared
   description: The API Keys API from Hubble Network — 4 operation(s) for api keys.
   name: Hubble Network API Keys API
+  phrasing_intents:
+  - id: validate-api-key
+    intent: Check that an API key is valid
+    question: How can I confirm the API key I'm using still works for my organization?
+  - id: provision-api-key
+    intent: Create a new API key
+    question: How do I create a new API key with only certain scopes?
+  - id: list-api-keys
+    intent: List an organization's API keys
+    question: Which API keys are currently active for my organization?
+  - id: delete-api-key
+    intent: Permanently delete an API key
+    question: How do I permanently remove an API key that's no longer needed?
+  - id: update-api-key
+    intent: Rename, rescope or change an API key's expiry
+    question: Can I change the scopes on an existing API key without issuing a new one?
+  - id: list-key-scopes
+    intent: List the scopes an API key can be granted
+    question: What authorization scopes are available to assign to an API key?
+  phrasing_ops: 6
   slug: hubble-network-api-keys-api
 - baseURL: https://api.hubble.com
   baseurl_source: declared
   description: The Billing API from Hubble Network — 6 operation(s) for billing.
   name: Hubble Network Billing API
+  phrasing_intents:
+  - id: get-recent-invoices
+    intent: List recent invoices
+    question: Where can I see my organization's most recent invoices?
+  - id: get-invoice-pdf
+    intent: Download an invoice as a PDF
+    question: How do I get a PDF copy of a specific invoice?
+  - id: get-billing-usage
+    intent: Check current billing usage
+    question: How much billable usage has my organization racked up recently?
+  - id: get-billing-active-devices
+    intent: List devices billed as active this period
+    question: Which devices count as active in the current billing period?
+  - id: get-billing-subscription
+    intent: View the current subscription plan
+    question: What plan tier is my organization subscribed to right now?
+  - id: get-billing-payment-method
+    intent: List saved payment cards
+    question: Which credit cards are saved on file for my organization?
+  phrasing_ops: 6
   slug: hubble-network-billing-api
 - baseURL: https://api.hubble.com
   baseurl_source: declared
   description: The Devices API from Hubble Network — 3 operation(s) for devices.
   name: Hubble Network Devices API
+  phrasing_intents:
+  - id: register-new-devices
+    intent: Register new devices in bulk
+    question: How do I register a batch of new devices with the right encryption key length?
+  - id: list-devices
+    intent: List registered devices
+    question: What devices are registered to my organization?
+  - id: batch-update-devices
+    intent: Update many devices in one request
+    question: Can I rename or retag a large group of devices with a single call?
+  - id: batch-delete-devices
+    intent: Delete many devices at once
+    question: How do I remove hundreds of devices from my organization in a single request?
+  - id: get-device
+    intent: Look up a single device
+    question: How do I pull up the details for one specific registered device?
+  - id: update-device
+    intent: Rename, retag or relocate one device
+    question: How do I set a fixed install location on one of my devices?
+  - id: delete-device
+    intent: Delete one registered device
+    question: How do I deregister a single device I've retired?
+  phrasing_ops: 7
   slug: hubble-network-devices-api
 - baseURL: https://api.hubble.com
   baseurl_source: declared
   description: The Organizations API from Hubble Network — 4 operation(s) for organizations.
   name: Hubble Network Organizations API
+  phrasing_intents:
+  - id: update-organization-metadata
+    intent: Update organization details
+    question: How do I change my organization's name or mailing address?
+  - id: retrieve-organization-metadata
+    intent: View organization details
+    question: What name, address and contact info does my organization have on file?
+  - id: list-users-in-organization
+    intent: List members of an organization
+    question: Who are the users in my organization?
+  - id: add-user-to-organization
+    intent: Add a user directly to the organization
+    question: How do I add someone to my organization right away without sending an invite?
+  - id: update-user-in-organization
+    intent: Change a member's name or role
+    question: How do I change an existing member's role in my organization?
+  - id: delete-user-from-organization
+    intent: Remove a user from the organization
+    question: How do I remove a team member who has left the company?
+  - id: list-pending-invites
+    intent: List pending invitations
+    question: Which invitations to my organization haven't been accepted yet?
+  - id: invite-user-to-organization
+    intent: Invite someone to join the organization
+    question: How do I send an invitation for a colleague to join my organization?
+  phrasing_ops: 9
   slug: hubble-network-organizations-api
 - baseURL: https://api.hubble.com
   baseurl_source: declared
   description: The Packet Webhooks API from Hubble Network — 3 operation(s) for packet webhooks.
   name: Hubble Network Packet Webhooks API
+  phrasing_intents:
+  - id: create-webhook-endpoint
+    intent: Register a webhook for packet data
+    question: How do I get packet data pushed to my own server as it arrives?
+  - id: list-registered-webhooks
+    intent: List registered webhooks
+    question: Which webhook endpoints are set up to receive my packet data?
+  - id: update-webhook-endpoint
+    intent: Change a webhook's URL, name or batch size
+    question: How do I point an existing webhook at a new URL?
+  - id: delete-webhook-endpoint
+    intent: Delete a webhook endpoint
+    question: How do I stop a webhook from receiving any more packet traffic?
+  - id: test-webhook-endpoint
+    intent: Send a test packet batch to a webhook
+    question: How can I check that my webhook receives and authenticates packet deliveries correctly?
+  phrasing_ops: 5
   slug: hubble-network-packet-webhooks-api
 - baseURL: https://api.hubble.com
   baseurl_source: declared
   description: The Packets API from Hubble Network — 2 operation(s) for packets.
   name: Hubble Network Packets API
+  phrasing_intents:
+  - id: retrieve-organization-packets
+    intent: Retrieve or stream device packets
+    question: How do I pull the packets my devices have sent to the network?
+  - id: packet-webhook-example
+    intent: See the packet batch format a webhook receives
+    question: What does the payload look like when packet batches are posted to my webhook?
+  phrasing_ops: 2
   slug: hubble-network-packets-api
 - baseURL: https://api.hubble.com
   baseurl_source: declared
   description: The Platform Metrics API from Hubble Network — 4 operation(s) for platform metrics.
   name: Hubble Network Platform Metrics API
+  phrasing_intents:
+  - id: get-api-metrics
+    intent: View API request metrics
+    question: How many API requests has my organization made, and what's the success rate?
+  - id: get-packet-metrics
+    intent: View packet volume metrics
+    question: How many packets have my devices delivered over the past week?
+  - id: get-webhook-metrics
+    intent: View webhook delivery metrics
+    question: What's the success rate of webhook deliveries to my endpoints?
+  - id: get-device-metrics
+    intent: Track active and registered device counts
+    question: How many of my registered devices have never been active?
+  phrasing_ops: 4
   slug: hubble-network-platform-metrics-api
 artifact_total: 33
 asyncapis:
@@ -399,7 +527,7 @@ score:
     catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 69.7
     contract_governance: 4.5
@@ -409,10 +537,12 @@ score:
     operational_transparency: 92.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 68.5
+  previous_composite: 70.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -430,7 +560,7 @@ score:
     regime_id: horizontal
     score: 40.2
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

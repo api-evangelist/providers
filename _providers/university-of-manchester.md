@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,21 +20,21 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-09-25'
+  score: 28.1
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 4
   slug: university-of-manchester-agentic-access
   summary_line: 4 operations
-api_count: 2
+api_count: 3
 apis:
 - description: The University's own Shibboleth Identity Provider, entityID https://shib.manchester.ac.uk/shibboleth, asserting the scope manchester.ac.uk. Its entity descriptor is published as signed, machine-readab
   name: Shibboleth SAML Identity Provider (UK Access Management Federation)
@@ -63,7 +63,187 @@ apis:
   description: IIIF Presentation API 2.1 manifests and collections.
   name: University of Manchester Presentation API
   slug: university-of-manchester-presentation-api
-artifact_total: 18
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The activity API from University of Manchester — 39 operation(s) for activity.
+  name: University of Manchester Activity API
+  slug: university-of-manchester-activity-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The application API from University of Manchester — 36 operation(s) for application.
+  name: University of Manchester Application API
+  slug: university-of-manchester-application-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The authorCollaboration API from University of Manchester — 9 operation(s) for authorcollaboration.
+  name: University of Manchester Author Collaboration API
+  slug: university-of-manchester-authorcollaboration-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The award API from University of Manchester — 37 operation(s) for award.
+  name: University of Manchester Award API
+  slug: university-of-manchester-award-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The classificationScheme API from University of Manchester — 7 operation(s) for classificationscheme.
+  name: University of Manchester Classification Scheme API
+  slug: university-of-manchester-classificationscheme-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The concept API from University of Manchester — 4 operation(s) for concept.
+  name: University of Manchester Concept API
+  slug: university-of-manchester-concept-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The contract API from University of Manchester — 26 operation(s) for contract.
+  name: University of Manchester Contract API
+  slug: university-of-manchester-contract-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The course API from University of Manchester — 27 operation(s) for course.
+  name: University of Manchester Course API
+  slug: university-of-manchester-course-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The dataSet API from University of Manchester — 30 operation(s) for dataset.
+  name: University of Manchester Data Set API
+  slug: university-of-manchester-dataset-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The education API from University of Manchester — 14 operation(s) for education.
+  name: University of Manchester Education API
+  slug: university-of-manchester-education-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The equipment API from University of Manchester — 28 operation(s) for equipment.
+  name: University of Manchester Equipment API
+  slug: university-of-manchester-equipment-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The ethicalReview API from University of Manchester — 22 operation(s) for ethicalreview.
+  name: University of Manchester Ethical Review API
+  slug: university-of-manchester-ethicalreview-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The event API from University of Manchester — 22 operation(s) for event.
+  name: University of Manchester Event API
+  slug: university-of-manchester-event-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The externalOrganization API from University of Manchester — 29 operation(s) for externalorganization.
+  name: University of Manchester External Organization API
+  slug: university-of-manchester-externalorganization-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The externalPerson API from University of Manchester — 22 operation(s) for externalperson.
+  name: University of Manchester External Person API
+  slug: university-of-manchester-externalperson-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The fingerprint API from University of Manchester — 3 operation(s) for fingerprint.
+  name: University of Manchester Fingerprint API
+  slug: university-of-manchester-fingerprint-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The fundingOpportunity API from University of Manchester — 21 operation(s) for fundingopportunity.
+  name: University of Manchester Funding Opportunity API
+  slug: university-of-manchester-fundingopportunity-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The impact API from University of Manchester — 31 operation(s) for impact.
+  name: University of Manchester Impact API
+  slug: university-of-manchester-impact-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The journal API from University of Manchester — 22 operation(s) for journal.
+  name: University of Manchester Journal API
+  slug: university-of-manchester-journal-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The keywordGroupConfiguration API from University of Manchester — 7 operation(s) for keywordgroupconfiguration.
+  name: University of Manchester Keyword Group Configuration API
+  slug: university-of-manchester-keywordgroupconfiguration-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The milestone API from University of Manchester — 24 operation(s) for milestone.
+  name: University of Manchester Milestone API
+  slug: university-of-manchester-milestone-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The organization API from University of Manchester — 34 operation(s) for organization.
+  name: University of Manchester Organization API
+  slug: university-of-manchester-organization-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The person API from University of Manchester — 58 operation(s) for person.
+  name: University of Manchester Person API
+  slug: university-of-manchester-person-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The personExpertise API from University of Manchester — 7 operation(s) for personexpertise.
+  name: University of Manchester Person Expertise API
+  slug: university-of-manchester-personexpertise-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The pressMedia API from University of Manchester — 24 operation(s) for pressmedia.
+  name: University of Manchester Press Media API
+  slug: university-of-manchester-pressmedia-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The prize API from University of Manchester — 29 operation(s) for prize.
+  name: University of Manchester Prize API
+  slug: university-of-manchester-prize-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The project API from University of Manchester — 33 operation(s) for project.
+  name: University of Manchester Project API
+  slug: university-of-manchester-project-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The publisher API from University of Manchester — 18 operation(s) for publisher.
+  name: University of Manchester Publisher API
+  slug: university-of-manchester-publisher-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The researchOutput API from University of Manchester — 67 operation(s) for researchoutput.
+  name: University of Manchester Research Output API
+  slug: university-of-manchester-researchoutput-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The role API from University of Manchester — 2 operation(s) for role.
+  name: University of Manchester Role API
+  slug: university-of-manchester-role-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The semester API from University of Manchester — 8 operation(s) for semester.
+  name: University of Manchester Semester API
+  slug: university-of-manchester-semester-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The specialization API from University of Manchester — 8 operation(s) for specialization.
+  name: University of Manchester Specialization API
+  slug: university-of-manchester-specialization-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The studentProject API from University of Manchester — 26 operation(s) for studentproject.
+  name: University of Manchester Student Project API
+  slug: university-of-manchester-studentproject-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The studentThesis API from University of Manchester — 26 operation(s) for studentthesis.
+  name: University of Manchester Student Thesis API
+  slug: university-of-manchester-studentthesis-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The thesaurus API from University of Manchester — 5 operation(s) for thesaurus.
+  name: University of Manchester Thesaurus API
+  slug: university-of-manchester-thesaurus-api
+- baseURL: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib.manchester.ac.uk%2Fshibboleth
+  baseurl_source: declared
+  description: The user API from University of Manchester — 7 operation(s) for user.
+  name: University of Manchester User API
+  slug: university-of-manchester-user-api
+artifact_total: 54
 common:
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/capabilities/university-of-manchester-capability-edges.yml
@@ -238,7 +418,7 @@ modified: '2026-08-19'
 name: University of Manchester
 nav: Providers
 network: true
-overview: 'University of Manchester publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Image API, Presentation API, and 3 more. Tagged areas include University, Higher Education, Education, Research, and United Kingdom.
+overview: 'University of Manchester publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Image API, Presentation API, Activity API, and 38 more. Tagged areas include University, Higher Education, Education, Research, and United Kingdom.
 
 
   The University of Manchester catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -267,21 +447,21 @@ rules:
   slug: university-of-manchester-rules
 score:
   band: developing
-  composite: 45.7
+  composite: 45.5
   coverage:
     artifact_dirs: 20
-    catalog_earned: 84.7
+    catalog_earned: 87.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 30.4
+    catalog_gap: 27.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.8
+  delta: -0.2
   facets:
     access_clarity: 47.9
     contract_governance: 31.1
-    contract_quality: 65.4
+    contract_quality: 65.3
     developer_ergonomics: 28.6
-    discoverability: 66.1
+    discoverability: 71.4
     operational_transparency: 21.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -291,15 +471,15 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 50.5
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 5.3
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 38
   regulatory:
     applies: true
     matched_via: tags
@@ -307,12 +487,11 @@ score:
     regime_id: education
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/screenshots/university-of-manchester-2026-06-20T200205.png
 security:
 - kind: authentication

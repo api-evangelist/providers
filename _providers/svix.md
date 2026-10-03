@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.4
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 134
   human_in_the_loop: 1
@@ -53,101 +53,534 @@ apis:
   baseurl_source: declared
   description: Consumer Applications are where messages are sent to. In most cases you would want to have one application for each of your users.
   name: Svix Application API
+  phrasing_intents:
+  - id: v1.application.list
+    intent: List my applications
+    question: Which applications — one per customer — exist in my Svix environment?
+  - id: v1.application.create
+    intent: Create an application for a customer
+    question: How do I create an application to hold one customer's webhook endpoints?
+  - id: v1.application.get
+    intent: Get an application
+    question: What name, uid and metadata does a given application have?
+  - id: v1.application.update
+    intent: Create or replace an application
+    question: Can I upsert an application by ID so it's created if missing?
+  - id: v1.application.delete
+    intent: Delete an application
+    question: How do I remove an application when a customer leaves?
+  - id: v1.application.patch
+    intent: Change some fields of an application
+    question: Can I rename an application without resending its other settings?
+  - id: v1.application.patch-alert-email
+    intent: Set an application's alert email
+    question: Where do delivery alerts for an application get emailed, and can I change it?
+  - id: v1.application.count-active
+    intent: Count applications with an active endpoint
+    question: How many of my applications have at least one active endpoint?
+  phrasing_ops: 9
   slug: svix-application-api
 - baseURL: https://api.svix.com
   baseurl_source: declared
   description: Easily give your users access to our pre-built management UI.
   name: Svix Authentication API
+  phrasing_intents:
+  - id: v1.authentication.app-portal-access
+    intent: Get a magic link to the Consumer App Portal
+    question: How do I give my customer a login link to their webhook portal in Svix?
+  - id: v1.authentication.whoami
+    intent: Show which account the current token belongs to
+    question: Which account is my current API token tied to?
+  - id: v1.authentication.logout
+    intent: Log out an app token
+    question: How do I log out an application portal token when the session ends?
+  - id: v1.authentication.expire-all
+    intent: Expire every token for an application
+    question: How do I revoke all portal tokens issued for one application at once?
+  - id: v1.authentication.org-group-admin-token.list
+    intent: List org group admin tokens
+    question: What org group API tokens have been created for my organization group?
+  - id: v1.authentication.org-group-admin-token.create
+    intent: Create an org group admin token
+    question: How do I create a token that works across my org group but not on apps or messages?
+  - id: v1.authentication.org-group-admin-token.update
+    intent: Rename an org group admin token
+    question: How do I rename an existing org group token?
+  - id: v1.authentication.org-group-admin-token.expire
+    intent: Expire an org group admin token
+    question: How do I revoke an org group admin token that leaked?
+  phrasing_ops: 21
   slug: svix-authentication-api
 - baseURL: https://api.svix.com
   baseurl_source: declared
   description: The background tasks that have been executed for your environment.
   name: Svix Background Task API
+  phrasing_intents:
+  - id: v1.background-task.list
+    intent: List recent background tasks
+    question: Which background jobs has my account run in the last 90 days?
+  - id: v1.background-task.get
+    intent: Check a background task's status
+    question: Has my export or expunge background task finished yet?
+  phrasing_ops: 2
   slug: svix-background-task-api
 - baseURL: https://api.svix.com
   baseurl_source: declared
   description: Connectors allow you to connect applications to external services.
   name: Svix Connector API
+  phrasing_intents:
+  - id: v1.connector.list
+    intent: List connectors
+    question: What connectors have I built for my Svix environment?
+  - id: v1.connector.create
+    intent: Create a connector
+    question: How do I publish a new pre-built connector that my customers can pick for their endpoints?
+  - id: v1.connector.get
+    intent: Get a connector
+    question: What transformation and allowed event types does a specific connector have?
+  - id: v1.connector.update
+    intent: Create or replace a connector
+    question: Can I upsert a connector so it's created if that ID doesn't exist yet?
+  - id: v1.connector.delete
+    intent: Delete a connector
+    question: How do I remove a connector I no longer offer?
+  - id: v1.connector.patch
+    intent: Change some fields of a connector
+    question: Can I update just a connector's logo or description?
+  - id: v1.connector.options.get
+    intent: Get a connector's options
+    question: What options are configured on a connector?
+  - id: v1.connector.options.set
+    intent: Set a connector's options
+    question: How do I change the options on a connector?
+  phrasing_ops: 13
   slug: svix-connector-api
 - baseURL: https://api.svix.com
   baseurl_source: declared
   description: Endpoints are the URLs messages will be sent to. Each application can have up to 50 endpoints and each message sent to that application will be sent to all of them (unless they are not subscribed to t
   name: Svix Endpoint API
+  phrasing_intents:
+  - id: v1.endpoint.list
+    intent: List an application's webhook endpoints
+    question: Which webhook endpoints are registered for one of my Svix applications?
+  - id: v1.endpoint.create
+    intent: Add a webhook endpoint to an application
+    question: How do I register a new webhook URL for one of my applications?
+  - id: v1.endpoint.get
+    intent: Get a webhook endpoint's details
+    question: What URL, filters and settings does a specific webhook endpoint have?
+  - id: v1.endpoint.update
+    intent: Create or replace a webhook endpoint
+    question: Can I upsert an endpoint by its ID so it's created if it doesn't exist yet?
+  - id: v1.endpoint.delete
+    intent: Delete a webhook endpoint
+    question: How do I remove a webhook endpoint a customer no longer uses?
+  - id: v1.endpoint.patch
+    intent: Change some settings of a webhook endpoint
+    question: Can I disable an endpoint without resending its whole configuration?
+  - id: v1.endpoint.get_connector
+    intent: Get the connector linked to an endpoint
+    question: Which connector is an endpoint built from?
+  - id: v1.sink.list
+    intent: List an application's sinks
+    question: What sinks are set up for an application alongside its endpoints?
+  phrasing_ops: 35
   slug: svix-endpoint-api
 - baseURL: https://api.svix.com
   baseurl_source: declared
   description: Manage your environments like development, staging and production.
   name: Svix Environment API
+  phrasing_intents:
+  - id: v1.management.environment.list
+    intent: List environments
+    question: Which environments exist in my Svix account?
+  - id: v1.management.environment.create
+    intent: Create an environment
+    question: How do I add a separate environment, such as a staging one?
+  - id: v1.management.environment.get
+    intent: Get an environment
+    question: What are the name and type of a given environment?
+  - id: v1.management.environment.update
+    intent: Rename an environment
+    question: How do I rename an environment?
+  - id: v1.management.environment.delete
+    intent: Delete an environment
+    question: How do I delete an environment I no longer use?
+  - id: v1.environment.export
+    intent: Export the environment's settings and event types
+    question: How do I download all my org settings and event types as a JSON file?
+  - id: v1.environment.import
+    intent: Import settings and event types into an environment
+    question: How do I copy event types and settings from one environment into another?
+  phrasing_ops: 7
   slug: svix-environment-api
 - baseURL: https://api.svix.com
   baseurl_source: declared
   description: The Event API from Svix — 2 operation(s) for event.
   name: Svix Event API
+  phrasing_intents:
+  - id: v1.streaming.events.get
+    intent: Poll events from a poller sink
+    question: How do I iterate over stream events through a poller-type sink?
+  - id: v1.streaming.events.create
+    intent: Publish events to a stream
+    question: How do I push events into a Svix stream?
+  - id: v1.streaming.events.get-latest
+    intent: Get a stream's most recent events
+    question: What are the latest events published to my stream?
+  phrasing_ops: 3
   slug: svix-event-api
 - baseURL: https://api.svix.com
   baseurl_source: declared
   description: Event types are identifiers denoting the type of message being sent. Event types are primarily used to decide which events are sent to which endpoint.
   name: Svix Event Type API
+  phrasing_intents:
+  - id: v1.event-type.list
+    intent: List webhook event types
+    question: What event types have I defined for my webhooks?
+  - id: v1.event-type.create
+    intent: Create or unarchive an event type
+    question: How do I register a new webhook event type like invoice.paid in Svix?
+  - id: v1.event-type.import-openapi
+    intent: Import event types from an OpenAPI spec
+    question: How do I create event types from the webhooks section of my OpenAPI document?
+  - id: v1.event-type.get
+    intent: Get an event type
+    question: What schema and description does a given event type have?
+  - id: v1.event-type.update
+    intent: Create or replace an event type
+    question: How do I upsert an event type by name, creating it if it's missing?
+  - id: v1.event-type.delete
+    intent: Archive or expunge an event type
+    question: How do I retire an event type so no new messages can be sent with it?
+  - id: v1.event-type.patch
+    intent: Partially update an event type
+    question: How do I mark an existing event type as deprecated?
+  - id: v1.event-type.get-retry-schedule
+    intent: Get an event type's retry schedule
+    question: How often are failed deliveries of a particular event type retried?
+  phrasing_ops: 10
   slug: svix-event-type-api
 - baseURL: https://api.svix.com
   baseurl_source: declared
   description: Health checks for the API.
   name: Svix Health API
+  phrasing_intents:
+  - id: v1.health.get
+    intent: Check the API server is up
+    question: Is the Svix API up and running right now?
+  phrasing_ops: 1
   slug: svix-health-api
 - baseURL: https://api.svix.com
   baseurl_source: declared
   description: Configure where Svix Ingest sends messages.
   name: Svix Ingest Endpoint API
+  phrasing_intents:
+  - id: v1.ingest.endpoint.list
+    intent: List an ingest source's endpoints
+    question: Which endpoints are forwarding webhooks from my ingest source?
+  - id: v1.ingest.endpoint.create
+    intent: Add an endpoint to an ingest source
+    question: How do I forward incoming webhooks from an ingest source to my own URL?
+  - id: v1.ingest.endpoint.get
+    intent: Get an ingest endpoint
+    question: What URL and settings does a particular ingest endpoint have?
+  - id: v1.ingest.endpoint.update
+    intent: Create or replace an ingest endpoint
+    question: How do I change the destination URL of an existing ingest endpoint?
+  - id: v1.ingest.endpoint.delete
+    intent: Delete an ingest endpoint
+    question: How do I stop an ingest source from forwarding to one of its endpoints?
+  - id: v1.ingest.endpoint.get-secret
+    intent: Get an ingest endpoint's signing secret
+    question: Where's the secret I need to verify webhooks forwarded by an ingest endpoint?
+  - id: v1.ingest.endpoint.rotate-secret
+    intent: Rotate an ingest endpoint's signing secret
+    question: How do I rotate the signing secret on an ingest endpoint?
+  - id: v1.ingest.endpoint.get-headers
+    intent: Get an ingest endpoint's extra headers
+    question: What additional headers are sent when an ingest endpoint forwards a webhook?
+  phrasing_ops: 11
   slug: svix-ingest-endpoint-api
 - baseURL: https://api.svix.com
   baseurl_source: declared
   description: The Ingest Source API from Svix — 4 operation(s) for ingest source.
   name: Svix Ingest Source API
+  phrasing_intents:
+  - id: v1.ingest.source.list
+    intent: List ingest sources
+    question: Which ingest sources have I set up to receive incoming webhooks?
+  - id: v1.ingest.source.create
+    intent: Create an ingest source
+    question: How do I create a source to receive webhooks from a third-party sender?
+  - id: v1.ingest.source.get
+    intent: Get an ingest source
+    question: What is the ingest URL and configuration of a specific source?
+  - id: v1.ingest.source.update
+    intent: Create or replace an ingest source
+    question: Can I upsert an ingest source so it's created if missing?
+  - id: v1.ingest.source.delete
+    intent: Delete an ingest source
+    question: How do I remove an ingest source I no longer receive webhooks on?
+  - id: v1.ingest.source.patch
+    intent: Change some fields of an ingest source
+    question: Can I rename an ingest source without replacing it?
+  - id: v1.ingest.source.rotate-token
+    intent: Rotate an ingest source's URL token
+    question: How do I get a new ingest URL if the old one leaked?
+  - id: v1.ingest.dashboard
+    intent: Open the consumer portal for an ingest source
+    question: How do I get a consumer portal link for an ingest source?
+  phrasing_ops: 8
   slug: svix-ingest-source-api
 - baseURL: https://api.svix.com
   baseurl_source: declared
   description: Integrations are services your users connect an application to. An integration can manage the application and its endpoints.
   name: Svix Integration API
+  phrasing_intents:
+  - id: v1.integration.list
+    intent: List an application's integrations
+    question: Which integrations are set up for one of my applications?
+  - id: v1.integration.create
+    intent: Create an integration for an application
+    question: How do I add an integration to an application?
+  - id: v1.integration.get
+    intent: Get an integration
+    question: What name and feature flags does a given integration have?
+  - id: v1.integration.update
+    intent: Update an integration
+    question: How do I rename an integration?
+  - id: v1.integration.delete
+    intent: Delete an integration
+    question: How do I remove an integration from an application?
+  - id: v1.integration.rotate-key
+    intent: Rotate an integration's key
+    question: How do I replace an integration key that may have leaked?
+  - id: v1.integration.get-key
+    intent: Get an integration's key
+    question: Where do I find the key for an integration?
+  phrasing_ops: 7
   slug: svix-integration-api
 - baseURL: https://api.svix.com
   baseurl_source: declared
   description: Messages are the webhook events being sent.
   name: Svix Message API
+  phrasing_intents:
+  - id: v1.message.list
+    intent: List an application's messages
+    question: How do I list the webhook messages sent for one application?
+  - id: v1.message.create
+    intent: Send a webhook message to an application
+    question: How do I send a webhook event to all of a customer's endpoints with Svix?
+  - id: v1.message.precheck
+    intent: Check if any endpoint listens for an event
+    question: Is any active endpoint actually listening for this event type before I send it?
+  - id: v1.message.events
+    intent: Read the stream of created messages for an app
+    question: How do I consume the feed of messages created for an application in order?
+  - id: v1.message.get
+    intent: Get a message by ID or event ID
+    question: How do I look up a single message I sent?
+  - id: v1.message.expunge-content
+    intent: Delete one message's payload
+    question: I sent a message with sensitive data by mistake — how do I wipe its payload?
+  - id: v1.message.search
+    intent: Search an application's messages
+    question: How do I search an app's messages by tag, channel and date range in one request?
+  - id: v1.message.expunge-all-contents
+    intent: Delete every message payload in an app
+    question: How do I purge all message payloads stored for an application?
+  phrasing_ops: 15
   slug: svix-message-api
 - baseURL: https://api.svix.com
   baseurl_source: declared
   description: Attempts to deliver `Message`s to `Endpoint`s.
   name: Svix Message Attempt API
+  phrasing_intents:
+  - id: v1.message-attempt.list-by-endpoint
+    intent: List delivery attempts to an endpoint
+    question: What delivery attempts were made to a specific endpoint recently?
+  - id: v1.message-attempt.count-by-endpoint
+    intent: Count delivery attempts to an endpoint
+    question: How many failed delivery attempts has an endpoint had?
+  - id: v1.message-attempt.list-by-msg
+    intent: List delivery attempts for a message
+    question: Was a particular webhook message delivered, and how many tries did it take?
+  - id: v1.message-attempt.list-attempted-messages
+    intent: List messages sent to an endpoint
+    question: Which messages has an endpoint been sent, with the latest attempt result for each?
+  - id: v1.message-attempt.list-attempted-destinations
+    intent: List endpoints a message was sent to
+    question: Which endpoints did a given webhook message go out to?
+  - id: v1.message-attempt.get-headers
+    intent: Get the headers used on a delivery attempt
+    question: What HTTP headers were sent with a specific webhook delivery attempt?
+  - id: v1.message-attempt.get
+    intent: Get a single delivery attempt
+    question: What response code and body did one delivery attempt get back?
+  - id: v1.message-attempt.expunge-content
+    intent: Delete a delivery attempt's response body
+    question: An endpoint returned sensitive data in its response — how do I delete that stored body?
+  phrasing_ops: 9
   slug: svix-message-attempt-api
 - baseURL: https://api.svix.com
   baseurl_source: declared
   description: The Sink API from Svix — 6 operation(s) for sink.
   name: Svix Sink API
+  phrasing_intents:
+  - id: v1.streaming.sink.get-last-acked-event
+    intent: Get the last event a sink acknowledged
+    question: How far has my stream sink gotten — what's the last event it acked?
+  - id: v1.streaming.sink.events.get-next-event
+    intent: Get a sink's oldest unacknowledged event
+    question: What's the next event my sink hasn't acked yet?
+  - id: v1.streaming.sink.list
+    intent: List a stream's sinks
+    question: Which sinks are attached to my stream?
+  - id: v1.streaming.sink.create
+    intent: Create a sink on a stream
+    question: How do I add a new sink to a Svix stream?
+  - id: v1.streaming.sink.get
+    intent: Get a sink's configuration
+    question: What is the configuration of a specific sink on my stream?
+  - id: v1.streaming.sink.update
+    intent: Create or fully replace a sink
+    question: How do I upsert a sink so it's created if it doesn't exist yet?
+  - id: v1.streaming.sink.delete
+    intent: Delete a sink
+    question: How do I remove a sink from a stream?
+  - id: v1.streaming.sink.patch
+    intent: Partially update a sink
+    question: How do I pause a sink by changing just its status?
+  phrasing_ops: 16
   slug: svix-sink-api
 - baseURL: https://api.svix.com
   baseurl_source: declared
   description: Generate statistics about your Svix utilization
   name: Svix Statistics API
+  phrasing_intents:
+  - id: v1.statistics.aggregate-event-types
+    intent: Calculate event type subscriptions across all apps
+    question: Which event types is each of my applications explicitly subscribed to?
+  - id: v1.statistics.aggregate-app-stats
+    intent: Calculate message attempt counts for all apps
+    question: How many message destinations did each application use over a billing period?
+  - id: v1.statistics.endpoint-count
+    intent: Count active and disabled endpoints
+    question: How many active and disabled endpoints are in my environment?
+  - id: v1.stats.app-attempts
+    intent: Get an app's attempt stats grouped by period
+    question: How did one application's delivery attempts trend day by day?
+  phrasing_ops: 4
   slug: svix-statistics-api
 - baseURL: https://api.svix.com
   baseurl_source: declared
   description: The Stream API from Svix — 2 operation(s) for stream.
   name: Svix Stream API
+  phrasing_intents:
+  - id: v1.streaming.simulate-transformation
+    intent: Test a stream transformation on sample events
+    question: How do I try out stream transformation code against sample events before deploying it?
+  - id: v1.streaming.stream.list
+    intent: List streams
+    question: What streams does my organization have in Svix Stream?
+  - id: v1.streaming.stream.create
+    intent: Create a stream
+    question: How do I set up a new event stream?
+  - id: v1.streaming.stream.get
+    intent: Get a stream
+    question: What are the details of a particular stream?
+  - id: v1.streaming.stream.update
+    intent: Create or replace a stream
+    question: How do I upsert a stream so it's created if the id doesn't exist?
+  - id: v1.streaming.stream.delete
+    intent: Delete a stream
+    question: How do I delete a stream I no longer need?
+  - id: v1.streaming.stream.patch
+    intent: Partially update a stream
+    question: How do I change just a stream's description?
+  - id: v1.streaming.stream.patch-alert-email
+    intent: Set a stream's alert email
+    question: Where do alerts about a stream get emailed, and how do I change it?
+  phrasing_ops: 8
   slug: svix-stream-api
 - baseURL: https://api.svix.com
   baseurl_source: declared
   description: The Stream Authentication API from Svix — 5 operation(s) for stream authentication.
   name: Svix Stream Authentication API
+  phrasing_intents:
+  - id: v1.authentication.stream-portal-access
+    intent: Get a magic link to the Stream Consumer Portal
+    question: How do I give a customer a login link to their stream consumer portal?
+  - id: v1.authentication.stream-logout
+    intent: Log out a stream token
+    question: How do I log out a stream portal token when a user signs out?
+  - id: v1.authentication.stream-expire-all
+    intent: Expire every token for a stream
+    question: How do I revoke all portal tokens issued for a stream?
+  - id: v1.authentication.rotate-stream-poller-token
+    intent: Rotate a stream sink's poller token
+    question: How do I rotate the token for polling events from a stream sink?
+  - id: v1.authentication.get-stream-poller-token
+    intent: Get a stream sink's current poller token
+    question: Where do I find the current token for polling a stream sink?
+  phrasing_ops: 5
   slug: svix-stream-authentication-api
 - baseURL: https://api.svix.com
   baseurl_source: declared
   description: The Stream Event Type API from Svix — 2 operation(s) for stream event type.
   name: Svix Stream Event Type API
+  phrasing_intents:
+  - id: v1.streaming.event-type.list
+    intent: List stream event types
+    question: What event types are defined for my streams?
+  - id: v1.streaming.event-type.create
+    intent: Create a stream event type
+    question: How do I define a new event type for Svix Stream?
+  - id: v1.streaming.event-type.get
+    intent: Get a stream event type
+    question: What does a particular stream event type look like?
+  - id: v1.streaming.event-type.update
+    intent: Create or replace a stream event type
+    question: How do I upsert a stream event type by name?
+  - id: v1.streaming.event-type.delete
+    intent: Delete a stream event type
+    question: How do I delete a stream event type?
+  - id: v1.streaming.event-type.patch
+    intent: Partially update a stream event type
+    question: How do I deprecate a stream event type without redefining it?
+  phrasing_ops: 6
   slug: svix-stream-event-type-api
 - baseURL: https://api.svix.com
   baseurl_source: declared
   description: Configure where operational webhooks are sent to.
   name: Svix Webhook Endpoint API
+  phrasing_intents:
+  - id: v1.operational-webhook.endpoint.list
+    intent: List operational webhook endpoints
+    question: Which URLs receive my Svix operational webhooks about my account?
+  - id: v1.operational-webhook.endpoint.create
+    intent: Create an operational webhook endpoint
+    question: How do I get notified when something happens in my account, like an endpoint being disabled?
+  - id: v1.operational-webhook.endpoint.get
+    intent: Get an operational webhook endpoint
+    question: What are the settings of one operational webhook endpoint?
+  - id: v1.operational-webhook.endpoint.update
+    intent: Create or replace an operational webhook endpoint
+    question: How do I change the URL of an operational webhook endpoint?
+  - id: v1.operational-webhook.endpoint.delete
+    intent: Delete an operational webhook endpoint
+    question: How do I stop receiving operational webhooks at a URL?
+  - id: v1.operational-webhook.endpoint.get-secret
+    intent: Get an operational webhook endpoint's secret
+    question: Where is the secret to verify operational webhooks from Svix?
+  - id: v1.operational-webhook.endpoint.rotate-secret
+    intent: Rotate an operational webhook endpoint's secret
+    question: How do I rotate the signing secret for my operational webhooks?
+  - id: v1.operational-webhook.endpoint.get-headers
+    intent: Get an operational webhook endpoint's headers
+    question: What extra headers are sent with my operational webhooks?
+  phrasing_ops: 9
   slug: svix-webhook-endpoint-api
 - baseURL: http://localhost:8071
   baseurl_source: declared
@@ -158,36 +591,119 @@ apis:
   baseurl_source: declared
   description: The Broadcast API from Svix — 1 operation(s) for broadcast.
   name: Svix Broadcast API
+  phrasing_intents:
+  - id: v1.message.broadcast
+    intent: Broadcast a message to every application
+    question: How do I send the same webhook event to all of my customers at once?
+  phrasing_ops: 1
   slug: svix-broadcast-api
 - baseURL: http://localhost:8071
   baseurl_source: declared
   description: The Environment-Settings API from Svix — 3 operation(s) for environment-settings.
   name: Svix Environment Settings API
+  phrasing_intents:
+  - id: v1.environment.get-settings
+    intent: Get the environment's settings
+    question: What settings are applied to the environment my API key belongs to?
+  - id: v1.management.environment-settings.get
+    intent: Get dashboard environment settings
+    question: How do I see the full dashboard settings for my environment, like branding and retry policy?
+  - id: v1.management.environment-settings.update
+    intent: Replace the environment's settings
+    question: How do I update all of my environment's settings in one full replace?
+  - id: v1.management.environment-settings.patch
+    intent: Change individual environment settings
+    question: How do I turn on just one feature, like transformations, without resending every setting?
+  - id: v1.management.environment-settings.get-otel-config
+    intent: Get the OpenTelemetry export config
+    question: Where is my environment sending OpenTelemetry data?
+  - id: v1.management.environment-settings.update-otel-config
+    intent: Set the OpenTelemetry export config
+    question: How do I send Svix telemetry to my own OpenTelemetry collector?
+  - id: v1.management.environment-settings.delete-otel-config
+    intent: Remove the OpenTelemetry export config
+    question: How do I stop exporting telemetry to my OpenTelemetry collector?
+  phrasing_ops: 7
   slug: svix-environment-settings-api
 - baseURL: http://localhost:8071
   baseurl_source: declared
   description: The Events API from Svix — 1 operation(s) for events.
   name: Svix Events API
+  phrasing_intents:
+  - id: v1.events.stream
+    intent: Read the operational events stream
+    question: How can I poll the operational webhook events for my environment instead of receiving them?
+  phrasing_ops: 1
   slug: svix-events-api
 - baseURL: http://localhost:8071
   baseurl_source: declared
   description: The Inbound API from Svix — 1 operation(s) for inbound.
   name: Svix Inbound API
+  phrasing_intents:
+  - id: v1.inbound.rotate-url
+    intent: Rotate an application's inbound URL
+    question: How do I get a new inbound URL for an application and kill the old one?
+  phrasing_ops: 1
   slug: svix-inbound-api
 - baseURL: http://localhost:8071
   baseurl_source: declared
   description: The Ingest Logs API from Svix — 1 operation(s) for ingest logs.
   name: Svix Ingest Logs API
+  phrasing_intents:
+  - id: v1.ingest.log.list
+    intent: List an ingest source's logs
+    question: How do I see the log of webhooks my ingest source received?
+  phrasing_ops: 1
   slug: svix-ingest-logs-api
 - baseURL: http://localhost:8071
   baseurl_source: declared
   description: The Webhook Sink API from Svix — 10 operation(s) for webhook sink.
   name: Svix Webhook Sink API
+  phrasing_intents:
+  - id: v1.app.stream.sink.list
+    intent: List an application's stream sinks
+    question: Which stream sinks are batching events out of one of my applications?
+  - id: v1.app.stream.sink.create
+    intent: Create a stream sink for an application
+    question: How do I set up a stream sink that delivers events in batches?
+  - id: v1.app.stream.sink.get
+    intent: Get a stream sink
+    question: What batch size and status does a particular stream sink have?
+  - id: v1.app.stream.sink.upsert
+    intent: Create or replace a stream sink
+    question: Can I upsert a stream sink so it's created if that ID doesn't exist?
+  - id: v1.app.stream.sink.delete
+    intent: Delete a stream sink
+    question: How do I remove a stream sink I no longer need?
+  - id: v1.app.stream.sink.patch
+    intent: Change some settings of a stream sink
+    question: Can I pause a stream sink by changing only its status?
+  - id: v1.app.stream.sink-transformation-get
+    intent: Get a stream sink's transformation code
+    question: What transformation code runs on events before a stream sink sends them?
+  - id: v1.app.stream.sink.transformation-partial-update
+    intent: Set or remove a stream sink's transformation
+    question: How do I attach transformation code to a stream sink?
+  phrasing_ops: 16
   slug: svix-webhook-sink-api
 - baseURL: http://localhost:8071
   baseurl_source: declared
   description: The Webhooks AutoConfig API from Svix — 3 operation(s) for webhooks autoconfig.
   name: Svix Webhooks AutoConfig API
+  phrasing_intents:
+  - id: v1.endpoint.auto-config.create
+    intent: Start an endpoint auto-config flow
+    question: How do I let a customer finish configuring their own webhook endpoint later?
+  - id: v1.endpoint.auto-config.get
+    intent: Get an endpoint's auto-config token
+    question: Can I see the auto-config token issued for an endpoint?
+  - id: v1.endpoint.auto-config.update
+    intent: Complete an auto-config endpoint's details
+    question: How do I fill in the destination for an endpoint created through auto-config?
+  - id: v1.endpoint.auto-config.rotate
+    intent: Rotate an auto-config endpoint's auth token
+    question: How do I issue a new auth token for an auto-config endpoint?
+  phrasing_ops: 4
   slug: svix-webhooks-autoconfig-api
 arazzos:
 - description: Create an application and mint a magic-link URL into its embedded App Portal.
@@ -856,7 +1372,7 @@ score:
     catalog_gap: 40.2
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 45.5
@@ -872,7 +1388,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 80.4
+  previous_composite: 76.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -890,7 +1406,7 @@ score:
     regime_id: payments
     score: 28.6
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

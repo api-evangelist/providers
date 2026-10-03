@@ -16,18 +16,18 @@
      "slug": "optimizely",
      "description": "Optimizely is a digital experience platform that provides A/B testing, feature flagging, content management, and commerce solutions for enterprises. Their developer platform offers a comprehensive suite of REST and GraphQL APIs spanning experimentation, content delivery, customer data, campaign management, and e-commerce capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/screenshots/optimizely-2026-08-07T190808.png",
-     "score": 80.8,
+     "score": 81.3,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 85.0,
+      "discoverability": 90.0,
       "contract_quality": 64.3,
       "contract_governance": 45.5,
       "operational_transparency": 84.2,
       "developer_ergonomics": 67.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -73,6 +73,56 @@
      "rank": 1
     },
     {
+     "name": "Adobe Suite",
+     "slug": "adobe-suite",
+     "description": "Adobe operates one of the largest first-party API estates in software: 70 published OpenAPI and Swagger contracts covering 2,857 operations across Creative Cloud, Document Cloud and Experience Cloud. The surface spans generative AI (Firefly image, video, audio and Substance 3D), creative automation (Photoshop, Lightroom, Illustrator, InDesign, Express), document services (PDF Services, Extract, Accessibility Auto-Tag, Acrobat Sign), marketing and data (Analytics, Experience Platform, Journey Optimizer, Target, Campaign, Marketo Engage), commerce, work management (Workfront), and platform operations (Cloud Manager, User Management, Adobe I/O Events, Status). Every API authenticates through Adobe Identity Management Services (IMS) with an OAuth 2.0 access token plus an x-api-key client ID, provisioned per project and workspace in the Adobe Developer Console.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/screenshots/adobe-suite-2026-06-20T165033.png",
+     "score": 78.8,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 71.7,
+      "contract_quality": 58.2,
+      "contract_governance": 4.5,
+      "operational_transparency": 71.1,
+      "developer_ergonomics": 89.9,
+      "access_clarity": 100.0
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 41.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 62.3,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "verified",
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": true,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 2
+    },
+    {
      "name": "Kit",
      "slug": "convertkit",
      "description": "Kit (formerly ConvertKit) is a creator email marketing platform whose REST API v4 covers subscribers, tags, custom fields, forms and landing pages, sequences, broadcasts, snippets, posts, purchases, segments and webhooks across 72 operations on https://api.kit.com/v4. It authenticates with an X-Kit-Api-Key header for personal automation or OAuth 2.0 (PKCE, dynamic client registration, rotating single-use refresh tokens) for apps published to the Kit App Store, and uses cursor-based pagination, an OAuth-only bulk namespace with async callbacks, and eventually-consistent list reads. Kit also runs two remote MCP servers - an OAuth-gated one that acts on a creator's account and an anonymous read-only documentation server - publishes an A2A agent card and an Agent Skill from its developer docs host, and ships llms.txt. Its only first-party API client is a PHP SDK.",
@@ -88,7 +138,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -121,56 +171,6 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 2
-    },
-    {
-     "name": "Adobe Suite",
-     "slug": "adobe-suite",
-     "description": "Adobe operates one of the largest first-party API estates in software: 70 published OpenAPI and Swagger contracts covering 2,857 operations across Creative Cloud, Document Cloud and Experience Cloud. The surface spans generative AI (Firefly image, video, audio and Substance 3D), creative automation (Photoshop, Lightroom, Illustrator, InDesign, Express), document services (PDF Services, Extract, Accessibility Auto-Tag, Acrobat Sign), marketing and data (Analytics, Experience Platform, Journey Optimizer, Target, Campaign, Marketo Engage), commerce, work management (Workfront), and platform operations (Cloud Manager, User Management, Adobe I/O Events, Status). Every API authenticates through Adobe Identity Management Services (IMS) with an OAuth 2.0 access token plus an x-api-key client ID, provisioned per project and workspace in the Adobe Developer Console.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/screenshots/adobe-suite-2026-06-20T165033.png",
-     "score": 78.3,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 58.2,
-      "contract_governance": 4.5,
-      "operational_transparency": 71.1,
-      "developer_ergonomics": 89.9,
-      "access_clarity": 100.0
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 41.8,
-      "matched_via": "fallback"
-     },
-     "agent_score": 62.3,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "verified",
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "verified",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": true,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
      "rank": 3
     },
     {
@@ -189,7 +189,7 @@
       "developer_ergonomics": 76.8,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -228,18 +228,18 @@
      "slug": "talon-one",
      "description": "Talon.One is an enterprise promotion, loyalty, and incentives engine that lets teams build and run coupons, discounts, referrals, bundles, giveaways, and multi-tier loyalty programs from a single rules-based platform. It exposes two primary REST APIs. The Integration API pushes real-time customer sessions, profiles, and events into the rules engine and returns the effects (discounts, awarded loyalty points, accepted coupons) to apply in the calling application. The Management API programmatically administers applications, campaigns, rulesets, coupons, loyalty programs, audiences, custom attributes, collections, and analytics exports that back the Campaign Manager. Talon.One is delivered as a managed, per-customer deployment; each account calls its own base URL (https://yourbaseurl.talon.one) and authenticates with an API key whose prefix distinguishes the Integration key (ApiKey-v1) from the Management key (ManagementKey-v1).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/screenshots/talon-one-2026-08-17T080429.png",
-     "score": 74.3,
+     "score": 74.8,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 68.3,
+      "discoverability": 73.3,
       "contract_quality": 61.8,
       "contract_governance": 4.5,
       "operational_transparency": 81.6,
       "developer_ergonomics": 81.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -286,18 +286,18 @@
      "slug": "google-ads",
      "description": "The Google Ads API is the modern programmatic interface to Google Ads and the next generation of the AdWords API. It enables developers to interact directly with the Google Ads platform, vastly increasing the efficiency of managing large or complex Google Ads accounts and campaigns.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/screenshots/google-ads-2026-06-20T182011.png",
-     "score": 73.0,
+     "score": 73.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 58.4,
+      "discoverability": 71.7,
+      "contract_quality": 58.3,
       "contract_governance": 14.4,
       "operational_transparency": 84.2,
       "developer_ergonomics": 81.5,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -348,7 +348,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -388,18 +388,18 @@
      "slug": "bloomreach",
      "description": "Bloomreach is a commerce experience cloud combining an e-commerce search and merchandising engine (Discovery), a marketing automation platform and customer data platform (Engagement, formerly Exponea), and a headless content management system (Content, formerly Hippo/brXM). It publishes REST APIs for product and category search, autosuggest, recommendation widgets, catalog management and indexing, customer tracking and segmentation, email and SMS campaigns, and headless content delivery and management. Its Loomi AI layer adds agentic capabilities, and Loomi Connect exposes the estate to AI agents as an OAuth-protected remote MCP server carrying more than 160 tools across marketing, analytics, search and data hub.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/screenshots/bloomreach-2026-08-17T083224.png",
-     "score": 72.3,
+     "score": 72.8,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 75.0,
+      "discoverability": 80.0,
       "contract_quality": 69.3,
       "contract_governance": 41.7,
       "operational_transparency": 81.6,
       "developer_ergonomics": 58.3,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -439,18 +439,18 @@
      "slug": "getresponse",
      "description": "GetResponse is an all-in-one marketing platform for email marketing, marketing automation, landing pages, websites, webinars, SMS, web push, ecommerce and content monetization, used by small businesses, marketers and enterprises. The GetResponse API v3 is a JSON REST API authenticated with an X-Auth-Token header carrying an API key prefixed with \"api-key \", or with OAuth 2.0. The provider publishes a machine-readable OpenAPI 3.0.0 describing 220 operations across 141 paths and 42 product areas — contacts, campaigns, newsletters, autoresponders, transactional email, SMS, forms and popups, landing pages, websites, webinars, workflows, imports, suppressions and a full ecommerce tree of shops, products, variants, categories, carts, orders and taxes. The spec is discoverable through an RFC 9727 API catalog at /.well-known/api-catalog, and GetResponse also publishes an llms.txt and its own Agent Skill for the public API. Enterprise customers run on the separate GetResponse MAX platform, which requires an additional X-Domain header.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/screenshots/getresponse-2026-06-20T181811.png",
-     "score": 71.6,
+     "score": 72.1,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 83.9,
+      "discoverability": 89.3,
       "contract_quality": 60.0,
       "contract_governance": 4.5,
       "operational_transparency": 57.9,
       "developer_ergonomics": 76.2,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -508,7 +508,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -567,18 +567,18 @@
      "slug": "moengage",
      "description": "MoEngage is an insights-led customer engagement and cross-channel marketing automation platform used by consumer brands to unify customer data, segment audiences, and orchestrate personalized messaging across push notifications, email, SMS, WhatsApp, in-app messages, on-site messaging, app inbox cards, and web push. The platform exposes a broad REST API surface across seven regional data centers (DC-01 through DC-06 and DC-101) covering user and event ingestion, bulk import, business events, GDPR/CCPA data requests, campaign creation and lifecycle management, file- and filter-based segments, cohort sync, content blocks and channel templates, product catalogs, recommendations, coupon lists, offer decisioning, subscription and opt-in preferences, transactional alerts (Inform), iOS Live Activities, personalization experiences, campaign statistics, message archival, and custom analytics dashboards. MoEngage also ships native mobile and web SDKs for Android, iOS, Web, React Native, Flutter, Unity, Cordova and Capacitor, and operates a hosted, OAuth-secured Model Context Protocol (MCP) server so AI assistants can draft campaigns, manage segments and flows, and analyze performance conversationally.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/screenshots/moengage-2026-08-07T184040.png",
-     "score": 68.9,
+     "score": 69.0,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 80.0,
-      "contract_quality": 61.9,
+      "contract_quality": 62.0,
       "contract_governance": 18.2,
       "operational_transparency": 52.6,
       "developer_ergonomics": 75.6,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -625,6 +625,56 @@
      "rank": 11
     },
     {
+     "name": "Adobe Experience Cloud",
+     "slug": "adobe-experience-cloud",
+     "description": "Adobe Experience Cloud is an integrated suite of applications and services for digital marketing, analytics, advertising, and commerce. It provides tools for content management, personalization, customer journey orchestration, audience segmentation, real-time customer data platforms, offer decisioning, and cross-channel campaign execution, enabling organizations to deliver personalized customer experiences at scale.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/screenshots/adobe-experience-cloud-2026-06-20T164907.png",
+     "score": 68.7,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 68.9,
+      "contract_governance": 31.8,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 74.4,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 40.2,
+      "matched_via": "fallback"
+     },
+     "agent_score": 55.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 12
+    },
+    {
      "name": "Google Search Console",
      "slug": "google-search-console",
      "description": "Google Search Console gives site owners programmatic access to how their site appears in Google Search. Three separately versioned Google APIs make up the surface: the Search Console API for search analytics, sitemaps, site management and URL inspection; the URL Testing Tools API for the mobile-friendly test; and the Web Search Indexing API for telling Google that a page was published, updated or removed. All three are free of charge, authenticate with Google OAuth 2.0 against accounts.google.com, are authorized per verified property rather than per Cloud project, and are described by Google Discovery documents rather than a published OpenAPI.",
@@ -640,7 +690,7 @@
       "developer_ergonomics": 75.6,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -673,7 +723,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "SimilarWeb",
@@ -691,7 +741,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -724,7 +774,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Unbounce",
@@ -742,7 +792,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -775,108 +825,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 14
-    },
-    {
-     "name": "Adobe Experience Cloud",
-     "slug": "adobe-experience-cloud",
-     "description": "Adobe Experience Cloud is an integrated suite of applications and services for digital marketing, analytics, advertising, and commerce. It provides tools for content management, personalization, customer journey orchestration, audience segmentation, real-time customer data platforms, offer decisioning, and cross-channel campaign execution, enabling organizations to deliver personalized customer experiences at scale.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/screenshots/adobe-experience-cloud-2026-06-20T164907.png",
-     "score": 68.2,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 75.0,
-      "contract_quality": 68.9,
-      "contract_governance": 31.8,
-      "operational_transparency": 60.5,
-      "developer_ergonomics": 74.4,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 40.2,
-      "matched_via": "fallback"
-     },
-     "agent_score": 55.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
      "rank": 15
-    },
-    {
-     "name": "Tealium",
-     "slug": "tealium",
-     "description": "Tealium is a customer data platform (CDP) providing REST APIs for iQ Tag Management and AudienceStream — enabling enterprises to manage tags, audiences, attributes, connectors, and real-time event data collection across web, mobile, and server-side channels. The Tealium Customer Data Hub unifies data collection via the Collect HTTP API, real-time visitor profiling via the Visitor Profile and Moments APIs, tag and load-rule management via the iQ Profiles API, and privacy compliance via the Visitor Privacy API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/screenshots/tealium-2026-06-20T194955.png",
-     "score": 68.1,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 58.3,
-      "contract_governance": 41.7,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 73.2,
-      "access_clarity": 93.4
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 29.4,
-      "matched_via": "fallback"
-     },
-     "agent_score": 34.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the advertiser (buy side)",
-     "rank": 16
     },
     {
      "name": "AWeber",
@@ -894,7 +843,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -927,83 +876,76 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 17
+     "rank": 16
     },
     {
-     "name": "DataForSEO",
-     "slug": "dataforseo",
-     "description": "DataForSEO is an SEO data platform offering REST APIs for SERP results, keyword data, backlink analysis, on-page audits, domain analytics, and competitor research across 100+ search engines. It provides pay-as-you-go access to structured SEO and digital marketing data for software developers, agencies, and enterprise teams.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/screenshots/dataforseo-2026-06-20T175648.png",
-     "score": 67.2,
+     "name": "Tealium",
+     "slug": "tealium",
+     "description": "Tealium is a customer data platform (CDP) providing REST APIs for iQ Tag Management and AudienceStream — enabling enterprises to manage tags, audiences, attributes, connectors, and real-time event data collection across web, mobile, and server-side channels. The Tealium Customer Data Hub unifies data collection via the Collect HTTP API, real-time visitor profiling via the Visitor Profile and Moments APIs, tag and load-rule management via the iQ Profiles API, and privacy compliance via the Visitor Privacy API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/screenshots/tealium-2026-06-20T194955.png",
+     "score": 67.6,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 72.3,
+      "discoverability": 71.7,
+      "contract_quality": 59.6,
       "contract_governance": 41.7,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 90.5,
-      "access_clarity": 53.9
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 73.2,
+      "access_clarity": 93.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
       "regime_id": "horizontal",
-      "score": 39.2,
-      "matched_via": "fallback",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       }
-      ]
+      "score": 29.4,
+      "matched_via": "fallback"
      },
-     "agent_score": 60.4,
+     "agent_score": 34.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
       "idempotency": false,
-      "error_semantics": "documented",
+      "error_semantics": "derived",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "event_surface_described": true,
-      "agent_skills": true,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 18
+     "rank": 17
     },
     {
      "name": "Lytics",
      "slug": "lytics",
      "description": "Lytics is a customer data platform (CDP) that provides two concurrent REST APIs for managing unified user profiles, behavioral audiences, content affinity scoring, campaign flows, and real-time personalization. The v2 API (886 paths / 1,331 operations) covers accounts, authorizations, connections, schema and identity configuration, data models, streams, jobs and ML models; the v1 API still owns data collection, personalization, entity lookup and content classification. Lytics ingests data from 100+ sources, builds predictive audiences, and activates them across advertising networks, email providers, data warehouses and on-site personalization. Lytics joined Contentstack in January 2025.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/screenshots/lytics-2026-06-20T184816.png",
-     "score": 66.8,
+     "score": 67.3,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 67.9,
+      "discoverability": 73.2,
       "contract_quality": 65.4,
       "contract_governance": 28.0,
       "operational_transparency": 34.2,
       "developer_ergonomics": 67.9,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1047,6 +989,64 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
+     "rank": 18
+    },
+    {
+     "name": "DataForSEO",
+     "slug": "dataforseo",
+     "description": "DataForSEO is an SEO data platform offering REST APIs for SERP results, keyword data, backlink analysis, on-page audits, domain analytics, and competitor research across 100+ search engines. It provides pay-as-you-go access to structured SEO and digital marketing data for software developers, agencies, and enterprise teams.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/screenshots/dataforseo-2026-06-20T175648.png",
+     "score": 67.2,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 72.3,
+      "contract_governance": 41.7,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 90.5,
+      "access_clarity": 53.9
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 39.2,
+      "matched_via": "fallback",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 60.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the advertiser (buy side)",
      "rank": 19
     }
    ],
@@ -1057,8 +1057,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 37,
-   "shown": 37,
+   "count": 38,
+   "shown": 38,
    "providers": [
     {
      "name": "Semrush",
@@ -1076,7 +1076,7 @@
       "developer_ergonomics": 60.1,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1127,7 +1127,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1189,7 +1189,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1225,6 +1225,56 @@
      "rank": 22
     },
     {
+     "name": "Demandbase",
+     "slug": "demandbase",
+     "description": "Demandbase is a B2B go-to-market platform that unifies account intelligence, intent data, advertising, orchestration, personalization and sales intelligence into a single pipeline engine. Its developer surface is eight OpenAPI-documented REST APIs on uapi.demandbase.com — B2B company/contact intelligence, Data Export, Data Import, Admin, Intent (beta), Usage, Custom Sources and Auth — plus a hosted, OAuth-protected Model Context Protocol server that exposes account, person, intent, buying-group and account-brief capabilities to AI assistants, an official Python SDK, and a change-subscription webhook surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/screenshots/demandbase-2026-06-20T175908.png",
+     "score": 66.0,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 58.8,
+      "contract_governance": 22.0,
+      "operational_transparency": 69.7,
+      "developer_ergonomics": 50.6,
+      "access_clarity": 68.4
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 39.2,
+      "matched_via": "fallback"
+     },
+     "agent_score": 60.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 23
+    },
+    {
      "name": "Blueshift",
      "slug": "blueshift",
      "description": "Blueshift is an AI-powered customer engagement and customer data platform (CDP) that unifies customer profiles, product and content catalogs, and behavioural event streams, then activates them across email, SMS, push, in-app messaging, mobile inbox, iOS Live Activities and on-site live content. Its public surface is a REST API on api.getblueshift.com (US) and api.eu.getblueshift.com (EU) covering customers, events, catalogs, segments, custom user lists, campaigns, templates, shared assets, promotions, external fetches, interest alerts, subscription groups and email validation, documented operation-by-operation with a machine-readable OpenAPI 3.0 document behind every reference page. Blueshift also runs an official OAuth 2.0 remote MCP server in public beta, and ships first-party SDKs for iOS, Android, React Native, Flutter and Cordova.",
@@ -1240,7 +1290,7 @@
       "developer_ergonomics": 55.4,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1273,126 +1323,25 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 23
-    },
-    {
-     "name": "Demandbase",
-     "slug": "demandbase",
-     "description": "Demandbase is a B2B go-to-market platform that unifies account intelligence, intent data, advertising, orchestration, personalization and sales intelligence into a single pipeline engine. Its developer surface is eight OpenAPI-documented REST APIs on uapi.demandbase.com — B2B company/contact intelligence, Data Export, Data Import, Admin, Intent (beta), Usage, Custom Sources and Auth — plus a hosted, OAuth-protected Model Context Protocol server that exposes account, person, intent, buying-group and account-brief capabilities to AI assistants, an official Python SDK, and a change-subscription webhook surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/screenshots/demandbase-2026-06-20T175908.png",
-     "score": 65.5,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.0,
-      "contract_quality": 58.8,
-      "contract_governance": 22.0,
-      "operational_transparency": 69.7,
-      "developer_ergonomics": 50.6,
-      "access_clarity": 68.4
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 39.2,
-      "matched_via": "fallback"
-     },
-     "agent_score": 60.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
      "rank": 24
-    },
-    {
-     "name": "Zoho Campaigns",
-     "slug": "zoho-campaigns",
-     "description": "Zoho Campaigns is Zoho Corporation's email marketing platform, and it exposes two distinct public API surfaces. The Zoho Campaigns API v1.1 is an RPC-over-HTTP interface for campaigns, mailing lists, contacts, segments, custom fields, merge tags, coupons, topics and automation workflows, authenticated with OAuth 2.0 against Zoho Accounts and returning JSON or XML selected with a resfmt query parameter. The Zoho Campaigns Email API v2 is a separate resource-oriented JSON REST API for transactional and bulk sending — transmissions, stored templates, recipient lists, suppression lists, sending and tracking domains, users, licensing, delivery reports and event webhooks — authenticated with an API key. Zoho publishes no OpenAPI for either surface; the machine-readable contract it does publish is a first-party Postman collection for the Email API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoho-campaigns/refs/heads/main/screenshots/zoho-campaigns-2026-06-20T201934.png",
-     "score": 65.0,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 39.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 84.2,
-      "developer_ergonomics": 59.5,
-      "access_clarity": 100.0
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 44.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 33.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the advertiser (buy side)",
-     "rank": 25
     },
     {
      "name": "Acoustic",
      "slug": "acoustic",
      "description": "Acoustic is a real-time behavioral marketing platform for B2C companies, delivering omnichannel customer engagement across email, SMS, WhatsApp, mobile push and web. Its developer portal at developer.goacoustic.com publishes an RFC 9727 api-catalog advertising six API products: Acoustic Connect (a GraphQL API for contacts, consent, audiences, product catalog and signals), Acoustic Campaign (a long-lived REST + XML API estate inherited from Silverpop, with a live Swagger service description per regional pod), Acoustic Content (a headless CMS / digital asset management REST API covering authoring, delivery, rendering, publishing and webhooks), Acoustic Personalization (a client-side library for real-time content and product recommendations), Acoustic Experience Analytics (Tealeaf) and Acoustic Exchange. Formerly IBM Watson Marketing, Acoustic was carved out as an independent martech company and is a portfolio company of Sapphire Ventures.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/screenshots/acoustic-2026-07-25T181511.png",
-     "score": 64.7,
+     "score": 65.2,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 58.9,
+      "discoverability": 64.3,
       "contract_quality": 52.4,
       "contract_governance": 4.5,
       "operational_transparency": 65.8,
       "developer_ergonomics": 78.0,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1432,6 +1381,57 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
+     "rank": 25
+    },
+    {
+     "name": "Zoho Campaigns",
+     "slug": "zoho-campaigns",
+     "description": "Zoho Campaigns is Zoho Corporation's email marketing platform, and it exposes two distinct public API surfaces. The Zoho Campaigns API v1.1 is an RPC-over-HTTP interface for campaigns, mailing lists, contacts, segments, custom fields, merge tags, coupons, topics and automation workflows, authenticated with OAuth 2.0 against Zoho Accounts and returning JSON or XML selected with a resfmt query parameter. The Zoho Campaigns Email API v2 is a separate resource-oriented JSON REST API for transactional and bulk sending — transmissions, stored templates, recipient lists, suppression lists, sending and tracking domains, users, licensing, delivery reports and event webhooks — authenticated with an API key. Zoho publishes no OpenAPI for either surface; the machine-readable contract it does publish is a first-party Postman collection for the Email API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoho-campaigns/refs/heads/main/screenshots/zoho-campaigns-2026-06-20T201934.png",
+     "score": 65.0,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 39.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 84.2,
+      "developer_ergonomics": 59.5,
+      "access_clarity": 100.0
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 44.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 33.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the advertiser (buy side)",
      "rank": 26
     },
     {
@@ -1439,18 +1439,18 @@
      "slug": "clickfunnels",
      "description": "ClickFunnels is a sales funnel and online business platform that lets entrepreneurs build landing pages, sales funnels, checkout flows, courses, membership sites, communities, blogs and email marketing campaigns without code. The ClickFunnels 2.0 REST API is a 418-operation OpenAPI 3.1 contract covering teams, workspaces, funnels, pages, blogs, products, discounts, orders, invoices, transactions, subscriptions, contacts, courses, communities, forms, workflows, email and analytics, authenticated with a team-scoped Bearer token or with workspace-scoped OAuth 2.0. It is discoverable the correct way: an RFC 9727 api-catalog links the spec, RFC 8414 metadata publishes the OAuth scopes, and sixteen Markdown Agent Skills are served from /.well-known/ for agents driving the API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/screenshots/clickfunnels-2026-06-20T174514.png",
-     "score": 64.4,
+     "score": 64.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 67.9,
+      "discoverability": 73.2,
       "contract_quality": 60.9,
       "contract_governance": 18.2,
       "operational_transparency": 34.2,
       "developer_ergonomics": 66.7,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1500,7 +1500,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1557,7 +1557,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1593,124 +1593,22 @@
      "rank": 29
     },
     {
-     "name": "Google Indexing",
-     "slug": "google-indexing",
-     "description": "The Google Indexing API lets a site owner tell Google directly when a page has been added, updated, or removed, instead of waiting for a crawl. It is a two-operation API — publish a URL notification, and read back the latest notification metadata for a URL. Google restricts its use to pages carrying JobPosting structured data, or BroadcastEvent embedded in a VideoObject. It is free of charge, capped by default at 200 publish requests per day per Google Cloud project, and gated on Search Console ownership verification rather than on price.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/google-indexing/refs/heads/main/screenshots/google-indexing-2026-06-20T182255.png",
-     "score": 64.2,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 60.5,
-      "contract_governance": 18.2,
-      "operational_transparency": 76.3,
-      "developer_ergonomics": 69.6,
-      "access_clarity": 67.1
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 40.2,
-      "matched_via": "fallback"
-     },
-     "agent_score": 28.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the advertiser (buy side)",
-     "rank": 30
-    },
-    {
-     "name": "Ontraport",
-     "slug": "ontraport",
-     "description": "Ontraport is a business automation platform combining CRM, marketing automation, email marketing, landing pages, ecommerce, and membership site capabilities for small businesses and entrepreneurs. The platform unifies contact management, sales pipelines, payment processing, and visual automation campaigns in a single workspace. Ontraport's REST API exposes contacts, transactions, tags, sequences, forms, landing pages, and ecommerce objects using API-Key and Api-Appid header authentication, through a generic object interface where the record type is selected by an integer object type ID rather than by a path segment. Ontraport also runs a first-party remote MCP server at https://mcp.ontraport.com, publishing 47 tools across CRUD, query, management and commerce and authorizing them with OAuth 2.1 (PKCE, dynamic client registration) under a single mcp:tools scope.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/screenshots/ontraport-2026-06-20T190730.png",
-     "score": 64.2,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.0,
-      "contract_quality": 56.1,
-      "contract_governance": 18.2,
-      "operational_transparency": 63.2,
-      "developer_ergonomics": 67.3,
-      "access_clarity": 85.5
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 35.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 55.9,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the advertiser (buy side)",
-     "rank": 31
-    },
-    {
      "name": "Ahrefs",
      "slug": "ahrefs",
      "description": "Ahrefs is a Singapore-based SEO and marketing intelligence platform built on its own web crawler and index, offering Site Explorer, Keywords Explorer, Site Audit, Rank Tracker, SERP Overview, Brand Radar, Web Analytics and Social Media Management. The Ahrefs API v3 exposes that data set as a REST API at https://api.ahrefs.com/v3 with 148 operations across 13 tools, documented by a single OpenAPI 3.2.0 specification plus one machine-readable spec per tool. Access is metered in API units with a 50-unit request floor, authenticated with a bearer API key, and additionally reachable through a hosted MCP server and the OAuth-based Ahrefs Connect partner program.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/screenshots/ahrefs-2026-08-17T080541.png",
-     "score": 64.1,
+     "score": 64.2,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 80.0,
-      "contract_quality": 49.6,
+      "contract_quality": 50.2,
       "contract_governance": 4.5,
       "operational_transparency": 47.4,
       "developer_ergonomics": 78.6,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1743,25 +1641,177 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
+     "rank": 30
+    },
+    {
+     "name": "Google Indexing",
+     "slug": "google-indexing",
+     "description": "The Google Indexing API lets a site owner tell Google directly when a page has been added, updated, or removed, instead of waiting for a crawl. It is a two-operation API — publish a URL notification, and read back the latest notification metadata for a URL. Google restricts its use to pages carrying JobPosting structured data, or BroadcastEvent embedded in a VideoObject. It is free of charge, capped by default at 200 publish requests per day per Google Cloud project, and gated on Search Console ownership verification rather than on price.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/google-indexing/refs/heads/main/screenshots/google-indexing-2026-06-20T182255.png",
+     "score": 64.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 60.5,
+      "contract_governance": 18.2,
+      "operational_transparency": 76.3,
+      "developer_ergonomics": 69.6,
+      "access_clarity": 67.1
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 40.2,
+      "matched_via": "fallback"
+     },
+     "agent_score": 28.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the advertiser (buy side)",
+     "rank": 31
+    },
+    {
+     "name": "Ontraport",
+     "slug": "ontraport",
+     "description": "Ontraport is a business automation platform combining CRM, marketing automation, email marketing, landing pages, ecommerce, and membership site capabilities for small businesses and entrepreneurs. The platform unifies contact management, sales pipelines, payment processing, and visual automation campaigns in a single workspace. Ontraport's REST API exposes contacts, transactions, tags, sequences, forms, landing pages, and ecommerce objects using API-Key and Api-Appid header authentication, through a generic object interface where the record type is selected by an integer object type ID rather than by a path segment. Ontraport also runs a first-party remote MCP server at https://mcp.ontraport.com, publishing 47 tools across CRUD, query, management and commerce and authorizing them with OAuth 2.1 (PKCE, dynamic client registration) under a single mcp:tools scope.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/screenshots/ontraport-2026-06-20T190730.png",
+     "score": 64.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.0,
+      "contract_quality": 56.1,
+      "contract_governance": 18.2,
+      "operational_transparency": 63.2,
+      "developer_ergonomics": 67.3,
+      "access_clarity": 85.5
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 35.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 55.9,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the advertiser (buy side)",
      "rank": 32
+    },
+    {
+     "name": "Kentico",
+     "slug": "kentico",
+     "description": "Kentico is an enterprise .NET CMS and digital experience platform offering REST and GraphQL APIs for managing web content, e-commerce, digital marketing, and personalization. Xperience by Kentico provides headless channel GraphQL endpoints auto-generated per channel, a content item .NET API, file storage APIs supporting Azure Blob and Amazon S3, and a management REST service for CRUD operations on CMS objects. The platform supports ASP.NET Core with channel-based licensing covering website, email, and headless channels.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kentico/refs/heads/main/screenshots/kentico-2026-06-20T183955.png",
+     "score": 63.3,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 81.7,
+      "contract_quality": 33.3,
+      "contract_governance": 18.2,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 82.1,
+      "access_clarity": 86.8
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 35.3,
+      "matched_via": "fallback"
+     },
+     "agent_score": 37.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "unknown",
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 33
     },
     {
      "name": "Bazaarvoice",
      "slug": "bazaarvoice",
      "description": "Bazaarvoice operates a retail and brand user-generated-content network that collects, moderates, syndicates and now makes machine-discoverable the ratings, reviews, questions and answers, and visual content published across thousands of brand and retailer sites. Its developer portal publishes twelve product sections and eleven distinct OpenAPI documents: the Conversations Display and Conversations Submission APIs for retrieving and posting UGC, the V2.0 Content Search API, the Response API for brand replies, the Transactions API for scheduling review requests, the Product Sentiment API for NLP-derived feature insight, the Notifications Subscriptions and Privacy APIs, the Social Commerce Display API for visual UGC, bulk Displayable Content and Product Sentiment exports, and the Authentic Discovery API, which returns Schema.org JSON-LD so AI crawlers that do not run JavaScript can read a product's reviews. Authentication varies by product - a Portal-managed passkey (Bv-Passkey header or Passkey query parameter), HTTP bearer tokens from 2-legged or 3-legged OAuth2, or an X-Curalate-Api-Key header on the acquired Curalate social-commerce platform. Bazaarvoice serves a real llms.txt on every documentation section, publishes first-party Postman collections and iOS, Android, SEO, Magento and Salesforce Commerce SDKs on GitHub, and is ISO/IEC 27001 certified with a HackerOne vulnerability disclosure policy.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/screenshots/bazaarvoice-2026-07-25T202455.png",
-     "score": 62.7,
+     "score": 62.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 78.6,
-      "contract_quality": 45.9,
+      "contract_quality": 46.1,
       "contract_governance": 18.2,
       "operational_transparency": 48.7,
       "developer_ergonomics": 63.7,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1805,7 +1855,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Knak",
@@ -1823,7 +1873,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1856,56 +1906,6 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 34
-    },
-    {
-     "name": "Kentico",
-     "slug": "kentico",
-     "description": "Kentico is an enterprise .NET CMS and digital experience platform offering REST and GraphQL APIs for managing web content, e-commerce, digital marketing, and personalization. Xperience by Kentico provides headless channel GraphQL endpoints auto-generated per channel, a content item .NET API, file storage APIs supporting Azure Blob and Amazon S3, and a management REST service for CRUD operations on CMS objects. The platform supports ASP.NET Core with channel-based licensing covering website, email, and headless channels.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kentico/refs/heads/main/screenshots/kentico-2026-06-20T183955.png",
-     "score": 62.3,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 34.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 82.1,
-      "access_clarity": 86.8
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 35.3,
-      "matched_via": "fallback"
-     },
-     "agent_score": 33.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 35
     },
     {
@@ -1924,7 +1924,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1975,7 +1975,7 @@
       "developer_ergonomics": 66.7,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2026,7 +2026,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2077,7 +2077,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2128,7 +2128,7 @@
       "developer_ergonomics": 66.7,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2198,7 +2198,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2248,7 +2248,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2298,7 +2298,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2348,7 +2348,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2406,7 +2406,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2453,18 +2453,18 @@
      "slug": "cordial",
      "description": "Cordial is a cross-channel marketing and customer data platform headquartered in San Diego, California, used by consumer brands to unify customer data and orchestrate personalized messaging across email, SMS/MMS, RCS, mobile app (push, in-app, mobile inbox), website, and any external channel reachable over REST. The platform combines a native customer data platform built on a document database, real-time journey orchestration, identity resolution, and the Cordial Edge AI suite of brand-specific predictive models. Cordial is API-first: a documented Swagger 2.0 REST API at api.cordial.io exposes 106 operations across 24 resource groups covering contacts, contact activities, orders, products, supplements, lists, attributes, batch messages, automation templates, orchestrations, data jobs, imports/exports, alerts, and analytics. Alongside REST it publishes a hosted Model Context Protocol server with 56 read tools over 17 domains, a first-party npm CLI, mobile SDKs for iOS, Android, React Native and Expo, an embedded JavaScript listener, configurable outbound webhooks, and an open-source cookbook of packaged Claude Agent Skills.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/screenshots/cordial-2026-08-07T163810.png",
-     "score": 57.7,
+     "score": 58.2,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.0,
-      "contract_quality": 53.2,
+      "contract_quality": 55.1,
       "contract_governance": 4.5,
       "operational_transparency": 63.2,
       "developer_ergonomics": 76.2,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2526,7 +2526,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2573,18 +2573,18 @@
      "slug": "wunderkind",
      "description": "Wunderkind (formerly BounceX) is a performance marketing and identity resolution platform that turns anonymous website and mobile-app traffic into triggered, one-to-one email and text messages. Its Autonomous Marketing Platform pairs an identity graph with AI decisioning, and its Build with Wunderkind developer surface exposes that machinery as APIs: an Identity API for device-ID-to-email resolution, an Event Ingestion API for server-side behavioral events, Email and Text Message send APIs, a UCRM subscribe and unsubscribe API, Signals webhooks that deliver behavioral triggers into ESPs like Klaviyo, Salesforce Marketing Cloud, Braze, and Bloomreach, plus Web and Mobile SDKs for Android, iOS, Flutter, and React Native.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/screenshots/wunderkind-2026-08-17T082958.png",
-     "score": 57.0,
+     "score": 57.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 78.6,
-      "contract_quality": 53.3,
+      "contract_quality": 53.7,
       "contract_governance": 18.2,
       "operational_transparency": 65.8,
       "developer_ergonomics": 61.3,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2634,7 +2634,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2684,7 +2684,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2735,7 +2735,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2796,7 +2796,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2847,7 +2847,7 @@
       "developer_ergonomics": 33.9,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2898,7 +2898,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2949,7 +2949,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3007,7 +3007,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3041,93 +3041,24 @@
      },
      "tier": "Sold to the advertiser (buy side)",
      "rank": 56
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "developing",
-   "label": "Developing",
-   "range": "39.3 – 54.2",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 26,
-   "shown": 26,
-   "providers": [
-    {
-     "name": "SearchApi",
-     "slug": "searchapi",
-     "description": "SearchApi is a real-time SERP and search-data API that gives applications and AI agents structured access to results from 100+ search engines — Google Search, Google Maps, Google News, Google Scholar, Google Images, Google Shopping, Google Trends, Google Jobs, YouTube, Bing, Baidu, and marketplace engines like Amazon, Walmart, and eBay — returning clean JSON instead of scraped HTML. It handles proxy rotation, CAPTCHA solving, and geographic/locale targeting server-side, and ships an MCP server plus \"use-case bundles\" that group selected endpoints around a job so agents can be handed a capability rather than a whole catalog. Used for SEO/rank tracking, market and price intelligence, RAG grounding, and agentic research workflows.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/screenshots/searchapi-2026-08-17T081744.png",
-     "score": 54.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 13.9,
-      "contract_governance": 18.2,
-      "operational_transparency": 65.8,
-      "developer_ergonomics": 49.4,
-      "access_clarity": 92.1
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 39.2,
-      "matched_via": "fallback",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       }
-      ]
-     },
-     "agent_score": 60.2,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": "na",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the advertiser (buy side)",
-     "rank": 57
     },
     {
      "name": "Insider",
      "slug": "insider",
      "description": "Insider (rebranded Insider One; useinsider.com now redirects to insiderone.com) is an AI-native customer engagement and personalization platform used by 2,000+ global brands. It unifies a Customer Data Platform, cross-channel journey orchestration (Architect), personalization, predictive segmentation, product discovery (Eureka) and behavioural analytics across Web, Email, SMS/RCS, WhatsApp, Web Push, Mobile App, Site Search, InStory and conversational CX. Its developer surface is substantial and public: 113 REST operations across 18 hosts, published as a public Postman collection at developers.insiderone.com, covering the Unified Customer Database, consent and subscription management, transactional email/SMS/WhatsApp, web and app push, iOS Live Activities, OTP verification, product catalog, recommendations, Eureka search and campaign and journey analytics. Insider One also ships a first-party remote MCP server at mcp.insiderone.com with 35 OAuth-scoped tools, an llms.txt indexing ~2,800 markdown-retrievable doc pages, and an account-generated Agent Skill (SKILL.md) for Claude Code. It publishes per-endpoint rate limits, a cross-API status-and-error-code reference, and SOC 2 / ISO 27001 / ISO 27701 / CSA STAR attestations — but no OpenAPI, no pricing, no status page and no deprecation policy.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/screenshots/insider-2026-07-25T222527.png",
-     "score": 54.0,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 54.5,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
-      "discoverability": 75.0,
+      "discoverability": 80.0,
       "contract_quality": 21.6,
       "contract_governance": 18.2,
       "operational_transparency": 57.9,
       "developer_ergonomics": 70.8,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3167,127 +3098,94 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 58
-    },
+     "rank": 57
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "39.3 – 54.2",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 25,
+   "shown": 25,
+   "providers": [
     {
-     "name": "Pixc",
-     "slug": "pixc",
-     "description": "Pixc is an ecommerce enablement company that builds Shopify apps automating the visual busywork of running an online store — product photo resizing and AI framing, background removal and retouching, AI-generated alt text for SEO, AI lifestyle imagery, and automated visual merchandising of collections. Founded in 2014 and backed by 500 Global, Pixc also runs a professional bulk product photo-editing service billed in prepaid image credits, and serves 32,000+ Shopify merchants. Pixc publishes a public REST API — the Pixc Public API at https://dashboard.pixc.com/v1 — that lets a store or marketplace automate the same photo optimization programmatically — define a reusable template encoding the photo standard, submit batches of image URLs as orders, register webhooks for completion, and collect the optimized results as image URLs or packaged downloads.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pixc/refs/heads/main/screenshots/pixc-2026-08-17T081244.png",
-     "score": 53.7,
+     "name": "SearchApi",
+     "slug": "searchapi",
+     "description": "SearchApi is a real-time SERP and search-data API that gives applications and AI agents structured access to results from 100+ search engines — Google Search, Google Maps, Google News, Google Scholar, Google Images, Google Shopping, Google Trends, Google Jobs, YouTube, Bing, Baidu, and marketplace engines like Amazon, Walmart, and eBay — returning clean JSON instead of scraped HTML. It handles proxy rotation, CAPTCHA solving, and geographic/locale targeting server-side, and ships an MCP server plus \"use-case bundles\" that group selected endpoints around a job so agents can be handed a capability rather than a whole catalog. Used for SEO/rank tracking, market and price intelligence, RAG grounding, and agentic research workflows.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/screenshots/searchapi-2026-08-17T081744.png",
+     "score": 54.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 51.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 73.2,
-      "access_clarity": 76.3
+      "discoverability": 80.0,
+      "contract_quality": 13.9,
+      "contract_governance": 18.2,
+      "operational_transparency": 65.8,
+      "developer_ergonomics": 49.4,
+      "access_clarity": 92.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
       "regime_id": "horizontal",
-      "score": 31.8,
-      "matched_via": "fallback"
+      "score": 39.2,
+      "matched_via": "fallback",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
      },
-     "agent_score": 24.2,
-     "agent_band": "agent-aware",
+     "agent_score": 60.2,
+     "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": false,
+      "agentic_access": false,
+      "reversibility_documented": "na",
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": "na",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
+      "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the advertiser (buy side)",
-     "rank": 59
-    },
-    {
-     "name": "Sitefire",
-     "slug": "sitefire",
-     "description": "Sitefire is a Generative Engine Optimization (GEO) platform — the marketing suite for the agentic web and a self-described System of Record for AI visibility. It monitors how AI models (ChatGPT, Gemini, Perplexity, DeepSeek, Google AI Mode and AI Overviews) mention and cite a brand across tracked topics, diagnoses why content is or isn't cited using its 4C content classification, and generates actionable briefings plus AI-optimized articles that publish directly to CMS platforms such as Webflow and Framer. Sitefire connects to analytics (GA4, Cloudflare, AWS CloudFront) to measure AI referral and crawler traffic, and exposes its data and content workflows to AI agents through an official hosted MCP server (Spark) and a published Agent Skills bundle. A small public, unauthenticated REST API books product demos. Sitefire is a Y Combinator (W2026) company.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/screenshots/sitefire-2026-08-17T081906.png",
-     "score": 53.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.0,
-      "contract_quality": 45.9,
-      "contract_governance": 4.5,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 47.6,
-      "access_clarity": 77.6
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 36.4,
-      "matched_via": "fallback"
-     },
-     "agent_score": 56.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false,
+      "dry_run_mode": "na",
       "delegated_identity": "served",
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 60
+     "rank": 58
     },
     {
      "name": "Constructor.io",
      "slug": "constructorio",
      "description": "Constructor (Constructor.io) is an AI-powered ecommerce search and product discovery platform for online retailers. Its APIs cover autocomplete/autosuggest, keyword and natural-language search, image search, category browse, recommendations, quizzes, collections, offsite/email discovery, retail media (sponsored listings and display ads), an AI Shopping Agent and Product Insights Agent, plus a full catalog-management and configuration surface for items, variations, item groups, facets, searchabilities, synonyms, sort options, redirects and searchandising rules. Results are optimized against ecommerce KPIs (conversion, revenue per visit) using natural-language processing, behavioral re-ranking and per-user personalization, and are delivered through a REST API served from the ac.cnstrc.com family of hosts with first-party client libraries for JavaScript, Node.js, Python, Java, .NET, Ruby, Swift and Kotlin.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/screenshots/constructorio-2026-08-07T163752.png",
-     "score": 53.4,
+     "score": 53.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 71.7,
+      "discoverability": 76.7,
       "contract_quality": 55.5,
       "contract_governance": 18.2,
       "operational_transparency": 22.4,
       "developer_ergonomics": 57.7,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3331,6 +3229,108 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
+     "rank": 59
+    },
+    {
+     "name": "Pixc",
+     "slug": "pixc",
+     "description": "Pixc is an ecommerce enablement company that builds Shopify apps automating the visual busywork of running an online store — product photo resizing and AI framing, background removal and retouching, AI-generated alt text for SEO, AI lifestyle imagery, and automated visual merchandising of collections. Founded in 2014 and backed by 500 Global, Pixc also runs a professional bulk product photo-editing service billed in prepaid image credits, and serves 32,000+ Shopify merchants. Pixc publishes a public REST API — the Pixc Public API at https://dashboard.pixc.com/v1 — that lets a store or marketplace automate the same photo optimization programmatically — define a reusable template encoding the photo standard, submit batches of image URLs as orders, register webhooks for completion, and collect the optimized results as image URLs or packaged downloads.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pixc/refs/heads/main/screenshots/pixc-2026-08-17T081244.png",
+     "score": 53.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 51.3,
+      "contract_governance": 4.5,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 73.2,
+      "access_clarity": 76.3
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 31.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 24.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the advertiser (buy side)",
+     "rank": 60
+    },
+    {
+     "name": "Sitefire",
+     "slug": "sitefire",
+     "description": "Sitefire is a Generative Engine Optimization (GEO) platform — the marketing suite for the agentic web and a self-described System of Record for AI visibility. It monitors how AI models (ChatGPT, Gemini, Perplexity, DeepSeek, Google AI Mode and AI Overviews) mention and cite a brand across tracked topics, diagnoses why content is or isn't cited using its 4C content classification, and generates actionable briefings plus AI-optimized articles that publish directly to CMS platforms such as Webflow and Framer. Sitefire connects to analytics (GA4, Cloudflare, AWS CloudFront) to measure AI referral and crawler traffic, and exposes its data and content workflows to AI agents through an official hosted MCP server (Spark) and a published Agent Skills bundle. A small public, unauthenticated REST API books product demos. Sitefire is a Y Combinator (W2026) company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/screenshots/sitefire-2026-08-17T081906.png",
+     "score": 53.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.0,
+      "contract_quality": 45.9,
+      "contract_governance": 4.5,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 47.6,
+      "access_clarity": 77.6
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 36.4,
+      "matched_via": "fallback"
+     },
+     "agent_score": 56.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the advertiser (buy side)",
      "rank": 61
     },
     {
@@ -3349,7 +3349,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3385,57 +3385,6 @@
      "rank": 62
     },
     {
-     "name": "CrawlGraph",
-     "slug": "crawlgraph",
-     "description": "CrawlGraph is a backlink-intelligence SaaS built on Common Crawl's open hyperlink graph (121.1M domains / 3.90B domain-level links), positioned as a low-cost alternative to Ahrefs, Moz, Semrush and Majestic. It offers referring-domain lookups with authority scoring, competitor gap analysis, warm outreach-target discovery, and cross-release change comparison. The product ships an unusually complete developer surface for a solo-operator SaaS: a public OpenAPI 3.1 contract, a self-serve free API tier (15 backlink calls a month, no card), a hosted remote MCP server whose tools publish both input and output schemas, an open-source local MCP package on npm, a published llms.txt, and open CC-BY study datasets. It is operated by Search Engine Wizards in Finland and priced as a one-time $99 lifetime licence rather than a subscription.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crawlgraph/refs/heads/main/screenshots/crawlgraph-2026-07-25T210652.png",
-     "score": 53.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.0,
-      "contract_quality": 45.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 54.2,
-      "access_clarity": 64.5
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 30.4,
-      "matched_via": "fallback"
-     },
-     "agent_score": 36.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the advertiser (buy side)",
-     "rank": 63
-    },
-    {
      "name": "involve.me",
      "slug": "involve-me",
      "description": "involve.me is an AI quiz, form and funnel builder with built-in email automation and a lightweight CRM, operated by stereosense GmbH and used by marketing teams to capture, qualify and follow up on leads. Customers build quizzes, assessments, calculators, product finders, landing pages, surveys and payment pages in a no-code editor, publish them as a hosted page or an embedded widget, and route submissions into 55+ native CRM and email destinations. Its programmable surface is deliberately narrow: there is no public REST API and no OpenAPI, and the only machine-addressable paths are an outbound webhook that fires when a participant completes a funnel (Scale plan and above), a copy-paste JavaScript embed loader, Zapier and Make connectors, and an OAuth-protected Model Context Protocol server that exposes the marketing website's Statamic CMS rather than the product itself.",
@@ -3451,7 +3400,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3484,6 +3433,57 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
+     "rank": 63
+    },
+    {
+     "name": "CrawlGraph",
+     "slug": "crawlgraph",
+     "description": "CrawlGraph is a backlink-intelligence SaaS built on Common Crawl's open hyperlink graph (121.1M domains / 3.90B domain-level links), positioned as a low-cost alternative to Ahrefs, Moz, Semrush and Majestic. It offers referring-domain lookups with authority scoring, competitor gap analysis, warm outreach-target discovery, and cross-release change comparison. The product ships an unusually complete developer surface for a solo-operator SaaS: a public OpenAPI 3.1 contract, a self-serve free API tier (15 backlink calls a month, no card), a hosted remote MCP server whose tools publish both input and output schemas, an open-source local MCP package on npm, a published llms.txt, and open CC-BY study datasets. It is operated by Search Engine Wizards in Finland and priced as a one-time $99 lifetime licence rather than a subscription.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crawlgraph/refs/heads/main/screenshots/crawlgraph-2026-07-25T210652.png",
+     "score": 52.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.0,
+      "contract_quality": 43.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 54.2,
+      "access_clarity": 64.5
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 30.4,
+      "matched_via": "fallback"
+     },
+     "agent_score": 36.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the advertiser (buy side)",
      "rank": 64
     },
     {
@@ -3502,7 +3502,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3553,7 +3553,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3604,7 +3604,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3666,7 +3666,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3717,7 +3717,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3767,7 +3767,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3833,7 +3833,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3884,7 +3884,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3935,7 +3935,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3986,7 +3986,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4036,7 +4036,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4087,7 +4087,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4138,7 +4138,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4199,7 +4199,7 @@
       "developer_ergonomics": 50.6,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4249,7 +4249,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4311,7 +4311,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4362,7 +4362,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4423,7 +4423,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4484,7 +4484,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4535,7 +4535,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4585,7 +4585,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4621,6 +4621,57 @@
      "rank": 85
     },
     {
+     "name": "_done",
+     "slug": "done",
+     "description": "_done is an agent-native catalog of 27 single-purpose utility REST APIs — network and DNS lookups, domain intelligence, email-authentication checks, HTTP and SEO inspection, OCR, screenshots, hashing, JSON tooling, web3 resolution and finance calculators. There are no accounts, no signups and no API keys: every call is metered individually at $0.01 in USDC over the x402 protocol, settled on Base Mainnet or Solana Mainnet through the Coinbase CDP facilitator. Each service runs on its own subdomain, exposes a single POST operation, and publishes its own OpenAPI 3.1.0 spec annotated for AI agents with x-ai-instructions, x-guidance, x-pricing and x-402 payment metadata. Discovery is served from /.well-known/x402.json, /llms.txt, robots.txt and sitemap.xml. There is no MCP server, no A2A agent card, no SDK, no changelog, no status page and no published terms of service.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/screenshots/done-2026-09-02T145256.png",
+     "score": 35.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 69.6,
+      "contract_quality": 55.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 44.6,
+      "access_clarity": 26.3
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 13.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 26.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the advertiser (buy side)",
+     "rank": 86
+    },
+    {
      "name": "Fibr",
      "slug": "fibr",
      "description": "Fibr AI is an Agentic Web Experience Platform that turns static URLs into intelligent, adaptive landing pages that sense visitor intent and reshape themselves in real time using AI agents with human oversight. Its core product, Fibr Web Pilot, combines no-code A/B testing, conversion-rate optimization (CRO), and personalization — including ad-to-landing-page matching, audience and LLM-visitor personalization, bulk page creation, and AI-driven experimentation — for enterprises, agencies, and growth marketers. The platform integrates with Google Ads, Meta Ads, GA4, CDPs, and major CMS tools, and also ships a large library of free AI marketing tools (headline, hook, CTA, caption, and copy generators, a CRO audit, a landing-page analyzer, and an LLMs.txt generator). Founded in 2022-2023 by Ankur \"AJ\" Goyal and Pritam Roy and backed by Accel, Fibr is offered through Starter, Agency, and Enterprise pricing tiers. Fibr does not currently publish a public developer API or OpenAPI; this profile captures its identity, developer-adjacent surface, and security/compliance posture.",
@@ -4636,7 +4687,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4679,57 +4730,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
-    },
-    {
-     "name": "_done",
-     "slug": "done",
-     "description": "_done is an agent-native catalog of 27 single-purpose utility REST APIs — network and DNS lookups, domain intelligence, email-authentication checks, HTTP and SEO inspection, OCR, screenshots, hashing, JSON tooling, web3 resolution and finance calculators. There are no accounts, no signups and no API keys: every call is metered individually at $0.01 in USDC over the x402 protocol, settled on Base Mainnet or Solana Mainnet through the Coinbase CDP facilitator. Each service runs on its own subdomain, exposes a single POST operation, and publishes its own OpenAPI 3.1.0 spec annotated for AI agents with x-ai-instructions, x-guidance, x-pricing and x-402 payment metadata. Discovery is served from /.well-known/x402.json, /llms.txt, robots.txt and sitemap.xml. There is no MCP server, no A2A agent card, no SDK, no changelog, no status page and no published terms of service.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/screenshots/done-2026-09-02T145256.png",
-     "score": 34.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 64.3,
-      "contract_quality": 55.0,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 44.6,
-      "access_clarity": 26.3
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 13.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 26.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the advertiser (buy side)",
      "rank": 87
     },
     {
@@ -4748,7 +4748,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4798,7 +4798,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4848,7 +4848,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4898,7 +4898,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4949,7 +4949,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4999,7 +4999,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5050,7 +5050,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5100,7 +5100,7 @@
       "developer_ergonomics": 65.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5160,7 +5160,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5211,7 +5211,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5273,7 +5273,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5324,7 +5324,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5374,7 +5374,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5431,7 +5431,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5493,7 +5493,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5542,7 +5542,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5593,7 +5593,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5644,7 +5644,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5694,7 +5694,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 14.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5745,7 +5745,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5796,7 +5796,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5847,7 +5847,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5898,7 +5898,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5948,7 +5948,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6009,7 +6009,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6060,7 +6060,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6110,7 +6110,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6160,7 +6160,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,

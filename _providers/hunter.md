@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.4
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -48,61 +48,160 @@ apis:
   baseurl_source: declared
   description: Retrieve account information and usage statistics.
   name: Hunter Account API
+  phrasing_intents:
+  - id: getAccount
+    intent: Check my account plan and usage
+    question: How many searches and verifications do I have left on my Hunter plan?
+  phrasing_ops: 1
   slug: hunter-account-api
 - baseURL: https://api.hunter.io/v2
   baseurl_source: declared
   description: Manage email sequences and recipients.
   name: Hunter Campaigns API
+  phrasing_intents:
+  - id: listCampaigns
+    intent: List my email campaigns
+    question: How do I see all the email sequences in my Hunter account?
+  - id: listCampaignRecipients
+    intent: List the recipients of a campaign
+    question: Who is enrolled as a recipient in a particular campaign?
+  - id: addCampaignRecipients
+    intent: Add recipients to a campaign
+    question: How do I enroll new people into an email sequence?
+  - id: cancelCampaignRecipients
+    intent: Cancel scheduled emails for campaign recipients
+    question: How do I stop a campaign from sending any more emails to certain people?
+  - id: startCampaign
+    intent: Start an email campaign
+    question: How do I kick off sending for an email sequence?
+  phrasing_ops: 5
   slug: hunter-campaigns-api
 - baseURL: https://api.hunter.io/v2
   baseurl_source: declared
   description: Merge person and company enrichment for a single email address.
   name: Hunter Combined Enrichment API
+  phrasing_intents:
+  - id: combinedEnrichment
+    intent: Enrich an email with person and company data
+    question: Can I get both the person's profile and their employer's details from one email address?
+  phrasing_ops: 1
   slug: hunter-combined-enrichment-api
 - baseURL: https://api.hunter.io/v2
   baseurl_source: declared
   description: Enrich company information linked to a domain name.
   name: Hunter Company Enrichment API
+  phrasing_intents:
+  - id: companyEnrichment
+    intent: Enrich a company from its domain
+    question: How do I get a company's size, industry and location from just its domain?
+  phrasing_ops: 1
   slug: hunter-company-enrichment-api
 - baseURL: https://api.hunter.io/v2
   baseurl_source: declared
   description: Find companies matching criteria using natural language or filters.
   name: Hunter Discover API
+  phrasing_intents:
+  - id: discover
+    intent: Find companies matching my ideal customer profile
+    question: How do I find companies that fit my ideal customer profile?
+  phrasing_ops: 1
   slug: hunter-discover-api
 - baseURL: https://api.hunter.io/v2
   baseurl_source: declared
   description: Search for email addresses associated with a domain.
   name: Hunter Domain Search API
+  phrasing_intents:
+  - id: domainSearch
+    intent: Find all email addresses at a domain
+    question: How do I get every email address Hunter has found for a company's domain?
+  phrasing_ops: 1
   slug: hunter-domain-search-api
 - baseURL: https://api.hunter.io/v2
   baseurl_source: declared
   description: Count email addresses found for a domain.
   name: Hunter Email Count API
+  phrasing_intents:
+  - id: emailCount
+    intent: Count the email addresses found for a domain
+    question: How many email addresses are known for a given domain?
+  phrasing_ops: 1
   slug: hunter-email-count-api
 - baseURL: https://api.hunter.io/v2
   baseurl_source: declared
   description: Enrich personal information linked to an email or LinkedIn profile.
   name: Hunter Email Enrichment API
+  phrasing_intents:
+  - id: emailEnrichment
+    intent: Look up a person's profile from email or LinkedIn
+    question: Who is behind this email address, and where do they work?
+  phrasing_ops: 1
   slug: hunter-email-enrichment-api
 - baseURL: https://api.hunter.io/v2
   baseurl_source: declared
   description: Find the most likely email address for a person at a company.
   name: Hunter Email Finder API
+  phrasing_intents:
+  - id: emailFinder
+    intent: Find a person's email address
+    question: How do I find someone's work email from their name and company domain?
+  phrasing_ops: 1
   slug: hunter-email-finder-api
 - baseURL: https://api.hunter.io/v2
   baseurl_source: declared
   description: Verify the deliverability of an email address.
   name: Hunter Email Verifier API
+  phrasing_intents:
+  - id: emailVerifier
+    intent: Verify an email address is deliverable
+    question: How can I check whether an email address will actually receive mail?
+  phrasing_ops: 1
   slug: hunter-email-verifier-api
 - baseURL: https://api.hunter.io/v2
   baseurl_source: declared
   description: Manage leads stored in Hunter.
   name: Hunter Leads API
+  phrasing_intents:
+  - id: listLeads
+    intent: List the leads saved in my account
+    question: How do I pull every lead I've saved in Hunter?
+  - id: createLead
+    intent: Create a new lead
+    question: How do I add a brand-new prospect to my leads?
+  - id: upsertLead
+    intent: Create a lead or update it if the email exists
+    question: Can I save a lead without creating a duplicate if that email is already in the list?
+  - id: getLead
+    intent: Get the details of one lead
+    question: How can I look up everything stored on a single lead by its ID?
+  - id: updateLead
+    intent: Update an existing lead by ID
+    question: How do I change the job title or company on a lead I already saved?
+  - id: deleteLead
+    intent: Delete a lead
+    question: How do I permanently remove a lead from my account?
+  phrasing_ops: 6
   slug: hunter-leads-api
 - baseURL: https://api.hunter.io/v2
   baseurl_source: declared
   description: Manage leads list collections in Hunter.
   name: Hunter Leads Lists API
+  phrasing_intents:
+  - id: listLeadsLists
+    intent: List my leads lists
+    question: How do I see all the lead lists I've created in Hunter?
+  - id: createLeadsList
+    intent: Create a new leads list
+    question: How do I make a new list to group my leads?
+  - id: getLeadsList
+    intent: Get one leads list
+    question: How can I look up the details of a single leads list by its ID?
+  - id: updateLeadsList
+    intent: Rename a leads list
+    question: How do I rename one of my existing leads lists?
+  - id: deleteLeadsList
+    intent: Delete a leads list
+    question: How do I delete a leads list I no longer need?
+  phrasing_ops: 5
   slug: hunter-leads-lists-api
 arazzos:
 - description: Check remaining search quota before running a domain search.
@@ -855,7 +954,7 @@ score:
     catalog_gap: 31.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 75.0
     contract_governance: 45.5
@@ -863,7 +962,7 @@ score:
     developer_ergonomics: 60.7
     discoverability: 68.3
     operational_transparency: 76.3
-  previous_composite: 69.8
+  previous_composite: 71.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -885,7 +984,7 @@ score:
     regime_id: horizontal
     score: 41.2
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

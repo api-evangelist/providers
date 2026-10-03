@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.4
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -47,36 +47,158 @@ apis:
   baseurl_source: declared
   description: The Brand Intelligence API from Context.dev — 7 operation(s) for brand intelligence.
   name: Context.dev Brand Intelligence API
+  phrasing_intents:
+  - id: getBrandRetrieve
+    intent: Get a company's brand kit from its domain
+    question: Can I get a company's logos, colors and industry just from its website domain?
+  - id: postBrandRetrieve
+    intent: Look up a brand with one identifier in a request body
+    question: Which single endpoint lets me look up a brand by domain, name, email, ticker, transaction or direct URL in a JSON body?
+  - id: getBrandRetrieveByName
+    intent: Find a brand by its company name
+    question: I only know the company name, not its website. Can I still get its logo and colors?
+  - id: getBrandRetrieveByEmail
+    intent: Identify a company's brand from a work email
+    question: Can I figure out which company a signup belongs to from their work email address?
+  - id: getBrandRetrieveByTicker
+    intent: Get a public company's brand from its stock ticker
+    question: Can I get a public company's logo from its stock ticker symbol like AAPL?
+  - id: getBrandRetrieveByIsin
+    intent: Get a company's brand from its ISIN
+    question: Can I look up a company's brand assets from an ISIN securities identifier?
+  - id: getBrandTransactionIdentifier
+    intent: Identify the merchant behind a card transaction
+    question: How do I turn a messy bank transaction description into a recognizable merchant brand?
+  - id: getBrandRetrieveSimplified
+    intent: Get a lightweight brand summary for a domain
+    question: Is there a faster, smaller brand response with just the title, colors, logos and backdrops?
+  phrasing_ops: 8
   slug: contextdev-brand-intelligence-api
 - baseURL: https://api.context.dev/v1
   baseurl_source: declared
   description: Monitor pages, sitemaps, and extracted website data for exact or semantic changes. Webhook payloads are documented by the MonitorsChangeDetectedWebhookPayload and MonitorsRunCompletedWebhookPayload sc
   name: Context.dev Monitors API
+  phrasing_intents:
+  - id: createMonitor
+    intent: Create a website change monitor
+    question: How do I start watching a web page for changes?
+  - id: listMonitors
+    intent: List and search my website monitors
+    question: How do I see all the website monitors set up on my Context.dev account?
+  - id: getMonitor
+    intent: Get the details of one monitor
+    question: Where can I see the full configuration of a single monitor?
+  - id: updateMonitor
+    intent: Update an existing monitor's settings
+    question: Can I pause an existing monitor or rename it without recreating it?
+  - id: deleteMonitor
+    intent: Delete a monitor
+    question: How do I permanently remove a monitor I no longer need?
+  - id: listMonitorRuns
+    intent: List the run history of one monitor
+    question: When did a specific monitor last run, and did it succeed?
+  - id: listMonitorChanges
+    intent: List changes detected by one monitor
+    question: What changes has a particular monitor picked up on its page?
+  - id: listAccountRuns
+    intent: List monitor runs across my whole account
+    question: Is there one feed of runs across every monitor on my account?
+  phrasing_ops: 13
   slug: contextdev-monitors-api
 - baseURL: https://api.context.dev/v1
   baseurl_source: declared
   description: The Parsing API from Context.dev — 1 operation(s) for parsing.
   name: Context.dev Parsing API
+  phrasing_intents:
+  - id: postParse
+    intent: Convert a file's raw bytes into Markdown
+    question: How do I turn a PDF, Word or Excel file into Markdown an LLM can read?
+  phrasing_ops: 1
   slug: contextdev-parsing-api
 - baseURL: https://api.context.dev/v1
   baseurl_source: declared
   description: The People API from Context.dev — 1 operation(s) for people.
   name: Context.dev People API
+  phrasing_intents:
+  - id: postPeopleRetrieve
+    intent: Look up a person's profile from known identifiers
+    question: Can I get a normalized profile of a person from identifiers I already have about them?
+  phrasing_ops: 1
   slug: contextdev-people-api
 - baseURL: https://api.context.dev/v1
   baseurl_source: declared
   description: The Utility API from Context.dev — 3 operation(s) for utility.
   name: Context.dev Utility API
+  phrasing_intents:
+  - id: postBrandPrefetch
+    intent: Warm up brand data for a domain ahead of time
+    question: Can I make brand lookups for a domain faster by prefetching them before I need them?
+  - id: postBrandPrefetchByEmail
+    intent: Warm up brand data from a signup's email
+    question: Can I prefetch a company's brand data from a new user's work email at signup?
+  - id: postUtilityPrefetch
+    intent: Queue a prefetch by type and identifier
+    question: Is there a general utility prefetch that takes a type and a domain-or-email identifier?
+  phrasing_ops: 3
   slug: contextdev-utility-api
 - baseURL: https://api.context.dev/v1
   baseurl_source: declared
   description: The Web Extraction API from Context.dev — 9 operation(s) for web extraction.
   name: Context.dev Web Extraction API
+  phrasing_intents:
+  - id: postWebExtract
+    intent: Extract structured data from a site using a schema
+    question: Can I crawl a website and get back data shaped to my own JSON Schema?
+  - id: getWebCompetitors
+    intent: Find a company's direct competitors
+    question: Who are the direct competitors of a company, based on its website?
+  - id: getWebStyleguide
+    intent: Extract a website's design system
+    question: Can I pull a site's full design system — colors, typography, spacing, shadows and components?
+  - id: getWebFonts
+    intent: Find which fonts a website uses
+    question: What font families does a website use, and how often is each one used?
+  - id: getWebNaics
+    intent: Classify a brand into NAICS industry codes
+    question: What NAICS industry code fits a company, given its domain or name?
+  - id: getWebSic
+    intent: Classify a brand into SIC industry codes
+    question: Which SIC code does a company fall under, from its domain or name?
+  - id: postBrandAiQuery
+    intent: Ask AI to pull specific data points from a brand's site
+    question: Can AI read a company's website and answer specific data points I list, like pricing or HQ address?
+  - id: postBrandAiProduct
+    intent: Extract product details from one product page
+    question: Given a single URL, can it tell me whether it's a product page and pull the product info?
+  phrasing_ops: 9
   slug: contextdev-web-extraction-api
 - baseURL: https://api.context.dev/v1
   baseurl_source: declared
   description: The Web Scraping API from Context.dev — 7 operation(s) for web scraping.
   name: Context.dev Web Scraping API
+  phrasing_intents:
+  - id: getWebScrapeHtml
+    intent: Scrape a page's raw HTML
+    question: Can I get the raw HTML of a web page, rendered in a browser?
+  - id: getWebScrapeMarkdown
+    intent: Scrape a single page into Markdown
+    question: How do I turn one web page into clean Markdown for an LLM?
+  - id: getWebScrapeImages
+    intent: Collect all images on a web page
+    question: Can I list every image on a page, including SVGs, CSS backgrounds and video posters?
+  - id: getWebScrapeSitemap
+    intent: List every page URL on a website
+    question: How can I get a list of all the page URLs on a website from its sitemap?
+  - id: postWebCrawl
+    intent: Crawl a site and scrape many pages to Markdown
+    question: Can I crawl a whole docs site from one starting URL and get every page back as Markdown?
+  - id: postWebSearch
+    intent: Search the web and optionally scrape results
+    question: Can I run a web search and get each result scraped into Markdown in one call?
+  - id: getWebScreenshot
+    intent: Capture a screenshot of a website
+    question: Can I take a full-page screenshot of a website?
+  phrasing_ops: 7
   slug: contextdev-web-scraping-api
 artifact_total: 24
 asyncapis:
@@ -356,7 +478,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 81.6
     contract_governance: 18.2
@@ -364,7 +486,7 @@ score:
     developer_ergonomics: 78.6
     discoverability: 75.0
     operational_transparency: 65.8
-  previous_composite: 65.7
+  previous_composite: 67.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -382,7 +504,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

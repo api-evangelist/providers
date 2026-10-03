@@ -3,33 +3,33 @@
   "slug": "united-kingdom",
   "name": "United Kingdom",
   "flag": "🇬🇧",
-  "count": 437,
-  "by_tag": 363,
+  "count": 442,
+  "by_tag": 368,
   "by_hq": 74
  },
  {
   "slug": "china",
   "name": "China",
   "flag": "🇨🇳",
-  "count": 394,
-  "by_tag": 383,
-  "by_hq": 11
+  "count": 418,
+  "by_tag": 406,
+  "by_hq": 12
  },
  {
   "slug": "india",
   "name": "India",
   "flag": "🇮🇳",
-  "count": 364,
-  "by_tag": 355,
-  "by_hq": 9
+  "count": 380,
+  "by_tag": 370,
+  "by_hq": 10
  },
  {
   "slug": "united-states",
   "name": "United States",
   "flag": "🇺🇸",
-  "count": 328,
-  "by_tag": 306,
-  "by_hq": 22
+  "count": 331,
+  "by_tag": 308,
+  "by_hq": 23
  },
  {
   "slug": "germany",
@@ -43,88 +43,88 @@
   "slug": "australia",
   "name": "Australia",
   "flag": "🇦🇺",
-  "count": 224,
-  "by_tag": 224,
+  "count": 228,
+  "by_tag": 228,
   "by_hq": 0
  },
  {
   "slug": "canada",
   "name": "Canada",
   "flag": "🇨🇦",
-  "count": 194,
-  "by_tag": 189,
+  "count": 198,
+  "by_tag": 193,
   "by_hq": 5
  },
  {
   "slug": "france",
   "name": "France",
   "flag": "🇫🇷",
-  "count": 155,
-  "by_tag": 151,
+  "count": 156,
+  "by_tag": 152,
   "by_hq": 4
  },
  {
   "slug": "brazil",
   "name": "Brazil",
   "flag": "🇧🇷",
-  "count": 132,
-  "by_tag": 131,
+  "count": 134,
+  "by_tag": 133,
   "by_hq": 1
  },
  {
   "slug": "singapore",
   "name": "Singapore",
   "flag": "🇸🇬",
-  "count": 121,
-  "by_tag": 69,
+  "count": 123,
+  "by_tag": 71,
   "by_hq": 52
- },
- {
-  "slug": "mexico",
-  "name": "Mexico",
-  "flag": "🇲🇽",
-  "count": 119,
-  "by_tag": 113,
-  "by_hq": 6
  },
  {
   "slug": "japan",
   "name": "Japan",
   "flag": "🇯🇵",
-  "count": 114,
+  "count": 122,
+  "by_tag": 121,
+  "by_hq": 1
+ },
+ {
+  "slug": "mexico",
+  "name": "Mexico",
+  "flag": "🇲🇽",
+  "count": 120,
   "by_tag": 114,
-  "by_hq": 0
+  "by_hq": 6
  },
  {
   "slug": "south-korea",
   "name": "South Korea",
   "flag": "🇰🇷",
-  "count": 95,
-  "by_tag": 94,
+  "count": 108,
+  "by_tag": 107,
   "by_hq": 1
  },
  {
   "slug": "indonesia",
   "name": "Indonesia",
   "flag": "🇮🇩",
-  "count": 83,
-  "by_tag": 83,
+  "count": 85,
+  "by_tag": 85,
   "by_hq": 0
  },
  {
   "slug": "saudi-arabia",
   "name": "Saudi Arabia",
   "flag": "🇸🇦",
-  "count": 77,
-  "by_tag": 76,
+  "count": 78,
+  "by_tag": 77,
   "by_hq": 1
  },
  {
   "slug": "sweden",
   "name": "Sweden",
   "flag": "🇸🇪",
-  "count": 66,
-  "by_tag": 64,
+  "count": 68,
+  "by_tag": 66,
   "by_hq": 2
  },
  {
@@ -139,8 +139,8 @@
   "slug": "netherlands",
   "name": "Netherlands",
   "flag": "🇳🇱",
-  "count": 48,
-  "by_tag": 42,
+  "count": 49,
+  "by_tag": 43,
   "by_hq": 6
  },
  {
@@ -163,8 +163,8 @@
   "slug": "taiwan",
   "name": "Taiwan",
   "flag": "🇹🇼",
-  "count": 27,
-  "by_tag": 24,
+  "count": 28,
+  "by_tag": 25,
   "by_hq": 3
  },
  {
@@ -179,17 +179,25 @@
   "slug": "finland",
   "name": "Finland",
   "flag": "🇫🇮",
-  "count": 20,
-  "by_tag": 17,
+  "count": 21,
+  "by_tag": 18,
   "by_hq": 3
  },
  {
   "slug": "norway",
   "name": "Norway",
   "flag": "🇳🇴",
-  "count": 18,
-  "by_tag": 17,
+  "count": 19,
+  "by_tag": 18,
   "by_hq": 1
+ },
+ {
+  "slug": "poland",
+  "name": "Poland",
+  "flag": "🇵🇱",
+  "count": 14,
+  "by_tag": 10,
+  "by_hq": 4
  },
  {
   "slug": "turkey",
@@ -200,19 +208,11 @@
   "by_hq": 1
  },
  {
-  "slug": "poland",
-  "name": "Poland",
-  "flag": "🇵🇱",
-  "count": 12,
-  "by_tag": 9,
-  "by_hq": 3
- },
- {
   "slug": "russia",
   "name": "Russia",
   "flag": "🇷🇺",
-  "count": 5,
-  "by_tag": 5,
+  "count": 6,
+  "by_tag": 6,
   "by_hq": 0
  }
 ]

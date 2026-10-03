@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 10
@@ -59,186 +59,644 @@ apis:
   baseurl_source: declared
   description: The Alarms API from Cumulocity — 2 operation(s) for alarms.
   name: Cumulocity Alarms API
+  phrasing_intents:
+  - id: listAlarms
+    intent: List alarms raised on devices
+    question: Which alarms are currently active on my Cumulocity devices?
+  - id: createAlarm
+    intent: Raise a new alarm for a device
+    question: How can I raise an alarm against a device from my own code?
+  - id: bulkUpdateAlarms
+    intent: Update many alarms at once by filter
+    question: How do I acknowledge every active alarm on a device in one call?
+  - id: deleteAlarms
+    intent: Delete alarms matching a filter
+    question: Is there a way to purge a whole batch of old alarms by filter?
+  - id: getAlarm
+    intent: Look up a single alarm by ID
+    question: How do I fetch the full details of one alarm by its ID?
+  - id: updateAlarm
+    intent: Change the status or text of one alarm
+    question: How do I acknowledge or clear one specific alarm?
+  phrasing_ops: 6
   slug: cumulocity-alarms-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Application Binaries API from Cumulocity — 1 operation(s) for application binaries.
   name: Cumulocity Application Binaries API
+  phrasing_intents:
+  - id: listApplicationBinaries
+    intent: List an application's uploaded builds
+    question: Which build archives have been uploaded for an application?
+  - id: uploadApplicationBinary
+    intent: Upload a build for an application
+    question: How do I deploy a new zip of my web app or microservice?
+  phrasing_ops: 2
   slug: cumulocity-application-binaries-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Applications API from Cumulocity — 2 operation(s) for applications.
   name: Cumulocity Applications API
+  phrasing_intents:
+  - id: listApplications
+    intent: List applications in the tenant
+    question: Which applications and microservices are available in my tenant?
+  - id: createApplication
+    intent: Register a new application
+    question: How do I register a new web app or microservice in Cumulocity?
+  - id: getApplication
+    intent: Look up one application by ID
+    question: How do I get the details of a specific application?
+  - id: updateApplication
+    intent: Change an application's settings
+    question: Can I rename an existing application or change its availability?
+  - id: deleteApplication
+    intent: Delete an application
+    question: How do I remove an application from my tenant entirely?
+  phrasing_ops: 5
   slug: cumulocity-applications-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Asset Instances API from Cumulocity — 2 operation(s) for asset instances.
   name: Cumulocity Asset Instances API
+  phrasing_intents:
+  - id: listAssetInstances
+    intent: List digital twin asset instances
+    question: Which asset instances exist in my digital twin model?
+  - id: createAssetInstance
+    intent: Create an asset instance from a model
+    question: How do I create a new asset from an asset model in the digital twin manager?
+  - id: getAssetInstance
+    intent: Look up one asset instance
+    question: How do I see the properties and children of a single asset instance?
+  - id: updateAssetInstance
+    intent: Change an asset instance
+    question: Can I rename an asset instance or move it under a different parent?
+  - id: deleteAssetInstance
+    intent: Delete an asset instance
+    question: How do I remove an asset instance from the digital twin?
+  phrasing_ops: 5
   slug: cumulocity-asset-instances-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Asset Models API from Cumulocity — 2 operation(s) for asset models.
   name: Cumulocity Asset Models API
+  phrasing_intents:
+  - id: listAssetModels
+    intent: List digital twin asset models
+    question: What asset models are defined in my digital twin manager?
+  - id: createAssetModel
+    intent: Define a new asset model
+    question: How do I define a new asset type with its own properties?
+  - id: getAssetModel
+    intent: Look up one asset model
+    question: How do I see the property definitions of one asset model?
+  - id: updateAssetModel
+    intent: Change an asset model definition
+    question: Can I add properties to an asset model that already exists?
+  - id: deleteAssetModel
+    intent: Delete an asset model
+    question: How do I remove an asset model I no longer need?
+  phrasing_ops: 5
   slug: cumulocity-asset-models-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Audit Records API from Cumulocity — 2 operation(s) for audit records.
   name: Cumulocity Audit Records API
+  phrasing_intents:
+  - id: listAuditRecords
+    intent: List audit log records
+    question: Who changed what in my tenant last week?
+  - id: createAuditRecord
+    intent: Write a custom audit log entry
+    question: How do I write my own entry into the audit log?
+  - id: getAuditRecord
+    intent: Look up one audit record
+    question: How do I see the full details of one audit entry?
+  phrasing_ops: 3
   slug: cumulocity-audit-records-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Bayeux Handshake API from Cumulocity — 1 operation(s) for bayeux handshake.
   name: Cumulocity Bayeux Handshake API
+  phrasing_intents:
+  - id: bayeuxChannelEndpoint
+    intent: Exchange real-time Bayeux messages
+    question: How do I start a real-time CometD session with a handshake?
+  phrasing_ops: 1
   slug: cumulocity-bayeux-handshake-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: Binary attachments associated with managed objects.
   name: Cumulocity Binaries API
+  phrasing_intents:
+  - id: listBinaries
+    intent: List stored files
+    question: What files are stored in the inventory binary repository?
+  - id: uploadBinary
+    intent: Upload a file to the inventory
+    question: How do I upload a firmware image or config file?
+  - id: getBinary
+    intent: Download a stored file
+    question: How do I download a file I uploaded earlier?
+  - id: deleteBinary
+    intent: Delete a stored file
+    question: How do I delete an old firmware file from storage?
+  phrasing_ops: 4
   slug: cumulocity-binaries-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Bootstrap Users API from Cumulocity — 1 operation(s) for bootstrap users.
   name: Cumulocity Bootstrap Users API
+  phrasing_intents:
+  - id: getBootstrapUser
+    intent: Get a microservice's bootstrap credentials
+    question: How does my microservice get its bootstrap user credentials?
+  phrasing_ops: 1
   slug: cumulocity-bootstrap-users-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Bulk Operations API from Cumulocity — 2 operation(s) for bulk operations.
   name: Cumulocity Bulk Operations API
+  phrasing_intents:
+  - id: listBulkOperations
+    intent: List bulk device operations
+    question: Which bulk operations have been scheduled across device groups?
+  - id: createBulkOperation
+    intent: Send one operation to a whole device group
+    question: How do I send the same command to every device in a group?
+  - id: getBulkOperation
+    intent: Look up one bulk operation
+    question: How do I check the progress of a single bulk operation?
+  - id: updateBulkOperation
+    intent: Reschedule or change a bulk operation
+    question: Can I change the start date of a bulk operation that hasn't run yet?
+  - id: deleteBulkOperation
+    intent: Delete a bulk operation
+    question: How do I cancel and remove a scheduled bulk operation?
+  phrasing_ops: 5
   slug: cumulocity-bulk-operations-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: Hierarchical relationships between managed objects.
   name: Cumulocity Child References API
+  phrasing_intents:
+  - id: listChildDevices
+    intent: List a device's child devices
+    question: Which child devices are connected under a gateway?
+  - id: addChildDevice
+    intent: Attach a child device to a parent
+    question: How do I put a device under a gateway or group?
+  - id: listChildAssets
+    intent: List a managed object's child assets
+    question: What assets sit under a particular asset or group in the hierarchy?
+  - id: listChildAdditions
+    intent: List a managed object's child additions
+    question: What child additions are attached to a managed object?
+  phrasing_ops: 4
   slug: cumulocity-child-references-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Cloud Sync API from Cumulocity — 1 operation(s) for cloud sync.
   name: Cumulocity Cloud Sync API
+  phrasing_intents:
+  - id: getCloudSyncConfiguration
+    intent: Read the Edge cloud sync settings
+    question: Is my Edge installation syncing data to the cloud tenant?
+  - id: updateCloudSyncConfiguration
+    intent: Change the Edge cloud sync settings
+    question: How do I point my Edge to a cloud tenant for data sync?
+  phrasing_ops: 2
   slug: cumulocity-cloud-sync-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Current User API from Cumulocity — 1 operation(s) for current user.
   name: Cumulocity Current User API
+  phrasing_intents:
+  - id: getCurrentUser
+    intent: Show the signed-in user's profile
+    question: Who am I logged in as, and what roles do I have?
+  - id: updateCurrentUser
+    intent: Update my own user profile
+    question: How do I change my own password or email?
+  phrasing_ops: 2
   slug: cumulocity-current-user-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Device Credentials API from Cumulocity — 1 operation(s) for device credentials.
   name: Cumulocity Device Credentials API
+  phrasing_intents:
+  - id: requestDeviceCredentials
+    intent: Request credentials for a new device
+    question: How does an unprovisioned device poll for its credentials?
+  phrasing_ops: 1
   slug: cumulocity-device-credentials-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Event Binaries API from Cumulocity — 1 operation(s) for event binaries.
   name: Cumulocity Event Binaries API
+  phrasing_intents:
+  - id: getEventBinary
+    intent: Download a file attached to an event
+    question: How do I download the file attached to an event?
+  - id: attachEventBinary
+    intent: Attach a file to an event
+    question: How do I attach a photo or log file to an event?
+  - id: deleteEventBinary
+    intent: Remove the file attached to an event
+    question: How do I remove the attachment from an event but keep the event?
+  phrasing_ops: 3
   slug: cumulocity-event-binaries-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Events API from Cumulocity — 2 operation(s) for events.
   name: Cumulocity Events API
+  phrasing_intents:
+  - id: listEvents
+    intent: List events recorded for devices
+    question: What events has a particular device reported recently?
+  - id: createEvent
+    intent: Record a new event for a device
+    question: How do I log a custom event for a device in Cumulocity?
+  - id: deleteEvents
+    intent: Delete events matching a filter
+    question: Can I bulk delete a set of events by filter?
+  - id: getEvent
+    intent: Look up a single event by ID
+    question: How do I read the details of one event by its ID?
+  - id: updateEvent
+    intent: Change the text or details of an event
+    question: Can I edit the text of an event that was already recorded?
+  - id: deleteEvent
+    intent: Delete one event by ID
+    question: How do I remove a single event that was logged by mistake?
+  phrasing_ops: 6
   slug: cumulocity-events-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The External IDs API from Cumulocity — 2 operation(s) for external ids.
   name: Cumulocity External IDs API
+  phrasing_intents:
+  - id: getExternalId
+    intent: Find a device by its external ID
+    question: How do I find a device using its serial number or IMEI?
+  - id: deleteExternalId
+    intent: Remove an external ID mapping
+    question: How do I unlink a serial number from a device?
+  - id: listExternalIdsForGlobalId
+    intent: List all external IDs of a device
+    question: What serial numbers and other identifiers are linked to one device?
+  - id: createExternalId
+    intent: Link an external ID to a device
+    question: How do I register a device's serial number as an external ID?
+  phrasing_ops: 4
   slug: cumulocity-external-ids-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Groups API from Cumulocity — 2 operation(s) for groups.
   name: Cumulocity Groups API
+  phrasing_intents:
+  - id: listGroups
+    intent: List user groups in a tenant
+    question: Which user groups exist in my tenant?
+  - id: createGroup
+    intent: Create a user group
+    question: How do I create a new user group with its own roles?
+  - id: getGroup
+    intent: Look up one user group
+    question: How do I see which roles and users belong to one group?
+  - id: updateGroup
+    intent: Change a user group
+    question: Can I rename a user group or change its description?
+  - id: deleteGroup
+    intent: Delete a user group
+    question: How do I delete a user group that is no longer used?
+  phrasing_ops: 5
   slug: cumulocity-groups-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: Inventory documents representing devices, assets, groups, and digital twins.
   name: Cumulocity Managed Objects API
+  phrasing_intents:
+  - id: listManagedObjects
+    intent: Search the device and asset inventory
+    question: How do I list all devices in my Cumulocity inventory?
+  - id: createManagedObject
+    intent: Register a device or asset in the inventory
+    question: How do I register a new device in the inventory?
+  - id: getManagedObject
+    intent: Look up one device or asset
+    question: How do I fetch one device's inventory record by ID?
+  - id: updateManagedObject
+    intent: Change a device or asset record
+    question: How do I rename a device in the inventory?
+  - id: deleteManagedObject
+    intent: Delete a device or asset
+    question: How do I remove a device from the inventory?
+  phrasing_ops: 5
   slug: cumulocity-managed-objects-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Measurements API from Cumulocity — 2 operation(s) for measurements.
   name: Cumulocity Measurements API
+  phrasing_intents:
+  - id: listMeasurements
+    intent: List sensor measurements
+    question: What temperature readings did a device send yesterday?
+  - id: createMeasurement
+    intent: Send a new measurement reading
+    question: How do I push a sensor reading into Cumulocity?
+  - id: deleteMeasurements
+    intent: Delete measurements matching a filter
+    question: Can I delete all measurements from a device for a date range?
+  - id: getMeasurement
+    intent: Look up one measurement
+    question: How do I read a single measurement by its ID?
+  - id: deleteMeasurement
+    intent: Delete one measurement
+    question: How do I remove one bad sensor reading?
+  phrasing_ops: 5
   slug: cumulocity-measurements-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The New Device Requests API from Cumulocity — 2 operation(s) for new device requests.
   name: Cumulocity New Device Requests API
+  phrasing_intents:
+  - id: listNewDeviceRequests
+    intent: List pending device registrations
+    question: Which devices are waiting for registration approval?
+  - id: createNewDeviceRequest
+    intent: Start registering a new device
+    question: How do I start registering a device by its serial ID?
+  - id: getNewDeviceRequest
+    intent: Check one device registration request
+    question: What is the status of a particular device registration request?
+  - id: updateNewDeviceRequest
+    intent: Accept or reject a device registration
+    question: How do I accept a device that's waiting to be registered?
+  - id: deleteNewDeviceRequest
+    intent: Delete a device registration request
+    question: How do I cancel a device registration I started?
+  phrasing_ops: 5
   slug: cumulocity-new-device-requests-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Offload Configurations API from Cumulocity — 2 operation(s) for offload configurations.
   name: Cumulocity Offload Configurations API
+  phrasing_intents:
+  - id: listOffloadConfigurations
+    intent: List DataHub offload configurations
+    question: Which DataHub offloading pipelines are configured?
+  - id: createOffloadConfiguration
+    intent: Set up a new DataHub offload pipeline
+    question: How do I start offloading alarms or measurements to the data lake?
+  - id: getOffloadConfiguration
+    intent: Look up one offload configuration
+    question: How do I see the filter and schedule of one offload pipeline?
+  - id: updateOffloadConfiguration
+    intent: Change an offload pipeline
+    question: Can I change the schedule of an existing offload pipeline?
+  - id: deleteOffloadConfiguration
+    intent: Delete an offload pipeline
+    question: How do I remove an offload pipeline I no longer need?
+  phrasing_ops: 5
   slug: cumulocity-offload-configurations-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Offload Jobs API from Cumulocity — 1 operation(s) for offload jobs.
   name: Cumulocity Offload Jobs API
+  phrasing_intents:
+  - id: listOffloadJobs
+    intent: List runs of an offload pipeline
+    question: Did my DataHub offload pipeline run successfully last night?
+  - id: startOffloadJob
+    intent: Run an offload pipeline now
+    question: Can I trigger an offload run manually instead of waiting for the schedule?
+  phrasing_ops: 2
   slug: cumulocity-offload-jobs-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Operations API from Cumulocity — 2 operation(s) for operations.
   name: Cumulocity Operations API
+  phrasing_intents:
+  - id: listOperations
+    intent: List device operations
+    question: Which commands are still pending for a particular device?
+  - id: createOperation
+    intent: Send a command to a device
+    question: How do I send a restart command to a device remotely?
+  - id: deleteOperations
+    intent: Delete operations matching a filter
+    question: Can I clear out a batch of old device operations at once?
+  - id: getOperation
+    intent: Look up one device operation
+    question: How do I check whether a command I sent has succeeded?
+  - id: updateOperation
+    intent: Report progress on a device operation
+    question: How does a device agent mark an operation as executing or successful?
+  phrasing_ops: 5
   slug: cumulocity-operations-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Queries API from Cumulocity — 1 operation(s) for queries.
   name: Cumulocity Queries API
+  phrasing_intents:
+  - id: runQuery
+    intent: Run a SQL query over offloaded data
+    question: Can I run SQL against data offloaded to DataHub?
+  phrasing_ops: 1
   slug: cumulocity-queries-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Retention Rules API from Cumulocity — 2 operation(s) for retention rules.
   name: Cumulocity Retention Rules API
+  phrasing_intents:
+  - id: listRetentionRules
+    intent: List data retention rules
+    question: What data retention rules are set on my tenant?
+  - id: createRetentionRule
+    intent: Add a data retention rule
+    question: How do I make old measurements expire after a number of days?
+  - id: getRetentionRule
+    intent: Look up one retention rule
+    question: How do I see the details of one retention rule?
+  - id: updateRetentionRule
+    intent: Change a data retention rule
+    question: Can I change how many days an existing retention rule keeps data?
+  - id: deleteRetentionRule
+    intent: Delete a data retention rule
+    question: How do I remove a retention rule so data is no longer auto-deleted by it?
+  phrasing_ops: 5
   slug: cumulocity-retention-rules-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Roles API from Cumulocity — 1 operation(s) for roles.
   name: Cumulocity Roles API
+  phrasing_intents:
+  - id: listRoles
+    intent: List global user roles
+    question: Which roles can I assign to users and groups?
+  phrasing_ops: 1
   slug: cumulocity-roles-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Series API from Cumulocity — 1 operation(s) for series.
   name: Cumulocity Series API
+  phrasing_intents:
+  - id: getSeries
+    intent: Get aggregated measurement series
+    question: How do I get hourly or daily averages of a sensor series?
+  phrasing_ops: 1
   slug: cumulocity-series-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Software Updates API from Cumulocity — 1 operation(s) for software updates.
   name: Cumulocity Software Updates API
+  phrasing_intents:
+  - id: listEdgeUpdates
+    intent: List available Edge updates
+    question: Are there new versions available for my Edge installation?
+  - id: installEdgeUpdate
+    intent: Install an Edge update
+    question: How do I upgrade my Edge installation to a newer version?
+  phrasing_ops: 2
   slug: cumulocity-software-updates-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Subscriptions API from Cumulocity — 2 operation(s) for subscriptions.
   name: Cumulocity Subscriptions API
+  phrasing_intents:
+  - id: listSubscriptions
+    intent: List Notification 2.0 subscriptions
+    question: Which notification subscriptions exist for my devices?
+  - id: createSubscription
+    intent: Subscribe to device or tenant notifications
+    question: How do I subscribe to real-time notifications for a device?
+  - id: deleteSubscriptions
+    intent: Delete subscriptions matching a filter
+    question: Can I remove all my notification subscriptions in one go?
+  - id: getSubscription
+    intent: Look up one notification subscription
+    question: How do I see the filter and context of one subscription?
+  - id: deleteSubscription
+    intent: Delete one notification subscription
+    question: How do I stop one notification subscription?
+  phrasing_ops: 5
   slug: cumulocity-subscriptions-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: Discover the measurement types reported against a managed object.
   name: Cumulocity Supported Measurements API
+  phrasing_intents:
+  - id: listSupportedMeasurements
+    intent: List measurement types a device reports
+    question: What kinds of measurements does a device send?
+  - id: listSupportedSeries
+    intent: List measurement series a device reports
+    question: Which measurement series can I chart for a device?
+  phrasing_ops: 2
   slug: cumulocity-supported-measurements-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The System API from Cumulocity — 2 operation(s) for system.
   name: Cumulocity System API
+  phrasing_intents:
+  - id: getEdgeSystemStatus
+    intent: Check the Edge system status
+    question: Is my Edge system healthy right now?
+  - id: restartEdge
+    intent: Restart the Edge system
+    question: How do I restart my Edge system remotely?
+  phrasing_ops: 2
   slug: cumulocity-system-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Tenant Options API from Cumulocity — 2 operation(s) for tenant options.
   name: Cumulocity Tenant Options API
+  phrasing_intents:
+  - id: listTenantOptions
+    intent: List tenant configuration options
+    question: What configuration options are set on my tenant?
+  - id: createTenantOption
+    intent: Add a tenant configuration option
+    question: How do I store a new configuration value on my tenant?
+  - id: getTenantOption
+    intent: Read one tenant option
+    question: What value is a specific tenant option set to?
+  - id: updateTenantOption
+    intent: Change a tenant option value
+    question: How do I change the value of an existing tenant option?
+  - id: deleteTenantOption
+    intent: Delete a tenant option
+    question: How do I remove a tenant option I no longer use?
+  phrasing_ops: 5
   slug: cumulocity-tenant-options-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Tenant Statistics API from Cumulocity — 1 operation(s) for tenant statistics.
   name: Cumulocity Tenant Statistics API
+  phrasing_intents:
+  - id: listTenantStatistics
+    intent: Report tenant usage statistics
+    question: How much storage and how many requests has my tenant used this month?
+  phrasing_ops: 1
   slug: cumulocity-tenant-statistics-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Tenants API from Cumulocity — 2 operation(s) for tenants.
   name: Cumulocity Tenants API
+  phrasing_intents:
+  - id: listTenants
+    intent: List subtenants
+    question: Which subtenants exist under my enterprise tenant?
+  - id: createTenant
+    intent: Create a subtenant
+    question: How do I create a new customer tenant with its own admin?
+  - id: getTenant
+    intent: Look up one tenant
+    question: How do I see the details of one subtenant?
+  - id: updateTenant
+    intent: Change a tenant's details
+    question: Can I suspend a subtenant or change its contact details?
+  - id: deleteTenant
+    intent: Delete a tenant
+    question: How do I permanently remove a subtenant?
+  phrasing_ops: 5
   slug: cumulocity-tenants-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Tokens API from Cumulocity — 2 operation(s) for tokens.
   name: Cumulocity Tokens API
+  phrasing_intents:
+  - id: createToken
+    intent: Get a token to consume a subscription
+    question: How do I get a token to connect to a notification subscription?
+  - id: unsubscribeToken
+    intent: Invalidate a subscription token
+    question: How do I unsubscribe a consumer and invalidate its token?
+  phrasing_ops: 2
   slug: cumulocity-tokens-api
 - baseURL: https://{tenant}.cumulocity.com/inventory
   baseurl_source: declared
   description: The Users API from Cumulocity — 2 operation(s) for users.
   name: Cumulocity Users API
+  phrasing_intents:
+  - id: listUsers
+    intent: List users in a tenant
+    question: Who are all the users in my tenant?
+  - id: createUser
+    intent: Create a user account
+    question: How do I add a new user to my tenant?
+  - id: getUser
+    intent: Look up one user
+    question: How do I see a user's roles and groups?
+  - id: updateUser
+    intent: Change another user's account
+    question: Can I disable a user account without deleting it?
+  - id: deleteUser
+    intent: Delete a user account
+    question: How do I remove a user who has left the company?
+  phrasing_ops: 5
   slug: cumulocity-users-api
 artifact_total: 187
 asyncapis:
@@ -965,23 +1423,23 @@ rules:
   slug: cumulocity-rules
 score:
   band: exemplar
-  composite: 67.0
+  composite: 67.5
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 76.5
+    artifact_dirs: 21
+    catalog_earned: 79.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 38.5
+    catalog_gap: 35.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.8
+  delta: 0.5
   facets:
     access_clarity: 92.1
     contract_governance: 13.6
     contract_quality: 68.8
     developer_ergonomics: 63.1
-    discoverability: 67.9
+    discoverability: 73.2
     operational_transparency: 47.4
-  previous_composite: 66.2
+  previous_composite: 67.0
   provenance:
     agentic_access: derived
     contracts:
@@ -996,7 +1454,7 @@ score:
     regime_id: horizontal
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

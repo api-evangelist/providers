@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.6
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 2
@@ -48,126 +48,527 @@ apis:
   baseurl_source: spec
   description: 'Account API credential management: list, create, rotate and revoke opaque omk_* API keys. Secrets are returned once and recoverable only via an identical Idempotency-Key replay inside 24 hours.'
   name: OpenMercantil API Credentials API
+  phrasing_intents:
+  - id: listUserApiCredentials
+    intent: List my API credentials
+    question: Which API keys does my OpenMercantil account have and what scopes do they carry?
+  - id: createUserApiCredential
+    intent: Create an API credential
+    question: How do I generate a new API key for my account?
+  - id: rotateUserApiCredential
+    intent: Rotate an API credential
+    question: How do I replace a leaked API key with a fresh token?
+  - id: revokeUserApiCredential
+    intent: Revoke an API credential
+    question: How do I permanently disable one of my API keys?
+  phrasing_ops: 4
   slug: openmercantil-api-credentials-api
 - baseURL: https://openmercantil.es
   baseurl_source: spec
   description: Session-bound Stripe checkout, invoices and portal contracts. External actions are bounded, idempotent and never exposed through the public MCP.
   name: OpenMercantil Billing API
+  phrasing_intents:
+  - id: postDonationCheckout
+    intent: Start a one-time donation checkout
+    question: Can I make a one-off donation to support OpenMercantil?
+  - id: postCreditsCheckout
+    intent: Buy a credit pack
+    question: How do I buy more credits for company reports?
+  - id: postSubscriptionCheckout
+    intent: Start a subscription checkout
+    question: How do I subscribe to a paid plan?
+  - id: getBillingInvoices
+    intent: List my invoices and subscription
+    question: Where can I see my past invoices?
+  - id: getBillingPortal
+    intent: Open my billing portal by redirect
+    question: Can I be redirected straight to my Stripe billing portal?
+  - id: postBillingPortal
+    intent: Create a billing portal session as JSON
+    question: How do I get a Stripe customer portal URL returned as JSON?
+  - id: postLegacyBillingPortal
+    intent: Create a portal session via the legacy route
+    question: Does the old /api/v1/portal route still create a customer portal session?
+  - id: receiveStripeWebhook
+    intent: Receive a signed Stripe event
+    question: Where does Stripe deliver its signed events for OpenMercantil billing?
+  phrasing_ops: 8
   slug: openmercantil-billing-api
 - baseURL: https://openmercantil.es
   baseurl_source: spec
   description: Daily BORME publications, multi-source timeline and registry events
   name: OpenMercantil BORME API
+  phrasing_intents:
+  - id: getCompanyBySlugEvents
+    intent: List a company's BORME events by year
+    question: How do I page through the BORME registry events published about one Spanish company?
+  - id: getCompanyBySlugTimeline
+    intent: Get a company's multi-source timeline
+    question: Can I see one chronological timeline for a company combining BORME acts and public procurement records?
+  - id: getDailyByDate
+    intent: Get the BORME daily summary grouped by province
+    question: Which BORME acts were published on a given day, broken down by province and act type?
+  - id: getLegacyDailySummaryByDate
+    intent: Get a BORME daily summary via the legacy route
+    question: Does the old summary/date route still return the BORME daily summary?
+  - id: getEmpresaBySlugFacts
+    intent: Get structured BORME facts for a company
+    question: Which appointments, removals and capital changes has BORME published for a company?
+  - id: getLegacyCompanyBySlugFacts
+    intent: Get company BORME facts via the legacy English route
+    question: Is the old English company/facts route still available for extracted BORME facts?
+  phrasing_ops: 6
   slug: openmercantil-borme-api
 - baseURL: https://openmercantil.es
   baseurl_source: spec
   description: Company reports and registry events
   name: OpenMercantil Companies API
+  phrasing_intents:
+  - id: getCompanyBySlug
+    intent: Get a Spanish company's registry report
+    question: What does OpenMercantil's structured report on a Spanish company include?
+  - id: compareCompanies
+    intent: Compare two companies side by side
+    question: Can I compare two Spanish companies side by side in one request?
+  - id: listPublicCompanyDownloads
+    intent: List the public company dataset downloads
+    question: Which bulk company datasets can I download for free?
+  - id: getCompanyBySlugEvents
+    intent: List a company's BORME events by year
+    question: How do I see every BORME registry event published for a company?
+  - id: getCompanyBySlugTimeline
+    intent: Get a company's combined multi-source timeline
+    question: Can I get one chronological timeline mixing a company's BORME acts and procurement notices?
+  - id: getCompanyBySlugOfficers
+    intent: List a company's current and past officers
+    question: Who are the directors and administrators of a Spanish company?
+  - id: getCompanyBySlugContracts
+    intent: List procurement notices linked to a company
+    question: Which public procurement notices is a Spanish company linked to?
+  - id: getCompanyBySlugProcurement
+    intent: Get a company's procurement via the alias route
+    question: Is there a /procurement alias that returns the same payload as a company's contracts route?
+  phrasing_ops: 34
   slug: openmercantil-companies-api
 - baseURL: https://openmercantil.es
   baseurl_source: spec
   description: Bulk exports (CSV / JSON / aggregated stats)
   name: OpenMercantil Datasets API
+  phrasing_intents:
+  - id: listPublicCompanyDownloads
+    intent: List the public company dataset downloads
+    question: Which bulk company datasets can I download for free?
+  - id: getCcaaStatsJson
+    intent: Get company totals by autonomous community
+    question: How many companies are registered in each Spanish autonomous community?
+  - id: getLegacyCcaaStats
+    intent: Get CCAA aggregates via the legacy alias
+    question: Does the old suffix-less /ccaa/stats route still work?
+  - id: getSectoresStatsJson
+    intent: Get company totals by CNAE sector as JSON
+    question: How many companies are there in each CNAE sector section?
+  - id: getLegacySectoresStats
+    intent: Get sector aggregates via the legacy alias
+    question: Does the deprecated suffix-less /sectores/stats route still return data?
+  - id: getSectoresStatsCsv
+    intent: Download CNAE sector aggregates as CSV
+    question: Can I download the per-sector statistics as a CSV file?
+  - id: getContractsTopCompanies
+    intent: Rank corporate suppliers via top-companies route
+    question: Which companies top the contracts top-companies ranking by award procedures?
+  - id: getContractsTopPersons
+    intent: Rank persons by procurement-signing companies
+    question: Is there a ranking of people linked to companies that win public contracts?
+  phrasing_ops: 13
   slug: openmercantil-datasets-api
 - baseURL: https://openmercantil.es
   baseurl_source: spec
   description: Corporate and person-to-company relationship graphs. Every emitted record retains the source-specific terms authorized by the active public source catalog; no blanket relicensing applies.
   name: OpenMercantil Graph API
+  phrasing_intents:
+  - id: getGrafoBySlug
+    intent: Get a company's corporate parent/child graph
+    question: Who are a company's parent and subsidiary entities?
+  - id: getGrafoPersonaBySlug
+    intent: Get the companies linked to a person
+    question: Which companies is a person connected to in BORME?
+  - id: getCompanyBySlugNetwork
+    intent: Get a company's documentary network
+    question: Is the company documentary network projection available yet?
+  phrasing_ops: 3
   slug: openmercantil-graph-api
 - baseURL: https://openmercantil.es
   baseurl_source: spec
   description: Public read-only connector catalog. Never exposes credentials, OAuth tokens, webhook secrets or operator actions.
   name: OpenMercantil Integrations API
+  phrasing_intents:
+  - id: receiveStripeWebhook
+    intent: Receive a signed Stripe event
+    question: Where does Stripe deliver its signed events for OpenMercantil billing?
+  - id: listIntegrations
+    intent: List public data-source integrations
+    question: Which public data sources are integrated and legally allowed for reuse?
+  - id: getIntegration
+    intent: Get one integration's legal and transport status
+    question: Is a specific data source integration legally cleared and technically available?
+  phrasing_ops: 3
   slug: openmercantil-integrations-api
 - baseURL: https://openmercantil.es
   baseurl_source: spec
   description: 'Spanish mercantile-law layer (derecho mercantil): legislation corpus + article texts + act→norm bridge. Distributes the consolidated BOE legal corpus structured by OpenMercantil so LLMs and agents can'
   name: OpenMercantil Legal API
+  phrasing_intents:
+  - id: createCompanyLegalReport
+    intent: Generate a redacted legal report on a company
+    question: How do I order a legal report on a Spanish company with my credits?
+  - id: getLegalNorms
+    intent: List core Spanish mercantile-law norms
+    question: Which Spanish commercial laws and codes are covered?
+  - id: getLegacyLegalNorms
+    intent: List law norms via the singular legacy alias
+    question: Does the deprecated singular /legal/norm route still list all norms?
+  - id: getLegalNormBySlug
+    intent: Get one mercantile-law norm and its key articles
+    question: What are the key articles of a Spanish commercial law?
+  - id: getLegalArticleByNormByN
+    intent: Read the consolidated text of a law article
+    question: Can I read the consolidated text of one article of a Spanish law?
+  - id: getLegalActMap
+    intent: Map every BORME act type to its governing law
+    question: Which law governs each type of BORME registry act?
+  - id: getLegalActMapByActo
+    intent: Find the law governing one BORME act type
+    question: Which law and articles govern a capital increase or an appointment in BORME?
+  phrasing_ops: 7
   slug: openmercantil-legal-api
 - baseURL: https://openmercantil.es
   baseurl_source: spec
   description: Documentary mentions of natural persons in BORME (officer roles). Persons treated as documentary mentions only — no DNI, no contact data, no scoring.
   name: OpenMercantil Persons API
+  phrasing_intents:
+  - id: getCompanyBySlugOfficers
+    intent: List a company's current and past officers
+    question: Who are the directors and administrators of a Spanish company?
+  - id: getPersonaBySlug
+    intent: Get documentary registry mentions of a person
+    question: In which BORME publications is a person mentioned?
+  - id: getLegacyPersonBySlug
+    intent: Get person mentions via the legacy English route
+    question: Does the deprecated English person route still return registry mentions?
+  - id: getPersonSearch
+    intent: Search registry mentions of people by name
+    question: How do I find a person by name in company registry records?
+  - id: getPersonaBySlugContracts
+    intent: Get procurement linked to a person
+    question: Can I see public contracts connected to a specific person?
+  phrasing_ops: 5
   slug: openmercantil-persons-api
 - baseURL: https://openmercantil.es
   baseurl_source: spec
   description: Public procurement awards (PLACSP) and grants (BDNS)
   name: OpenMercantil Public Procurement API
+  phrasing_intents:
+  - id: getCompanyBySlugContracts
+    intent: List procurement notices linked to a company
+    question: Which public procurement notices is a Spanish company linked to?
+  - id: getCompanyBySlugProcurement
+    intent: Get a company's procurement via the alias route
+    question: Is there a /procurement alias that returns the same payload as a company's contracts route?
+  - id: getCompanyBySlugGrants
+    intent: List public grants awarded to a company
+    question: Which BDNS public subsidies has a Spanish company been awarded?
+  - id: getPersonaBySlugContracts
+    intent: Get procurement linked to a person
+    question: Can I see public contracts connected to a specific person?
+  - id: getCompanyBySlugTed
+    intent: List EU TED notices linked to a company
+    question: Which EU Tenders Electronic Daily notices mention a Spanish company's NIF?
+  - id: getContractsTopCompanies
+    intent: Rank corporate suppliers via top-companies route
+    question: Which companies top the contracts top-companies ranking by award procedures?
+  - id: getContractsTopPersons
+    intent: Rank persons by procurement-signing companies
+    question: Is there a ranking of people linked to companies that win public contracts?
+  - id: getContractsTopCompaniesCsv
+    intent: Download the top-companies ranking as CSV
+    question: Can I download the ranking of top procurement suppliers as a CSV?
+  phrasing_ops: 13
   slug: openmercantil-public-procurement-api
 - baseURL: https://openmercantil.es
   baseurl_source: spec
   description: Company and person search endpoints
   name: OpenMercantil Search API
+  phrasing_intents:
+  - id: getSearch
+    intent: Search Spanish companies by name or CIF
+    question: How do I find a Spanish company by its name or CIF tax ID?
+  - id: getPersonSearch
+    intent: Search registry mentions of a person's name
+    question: Where is a person's name mentioned in Spanish registry publications?
+  phrasing_ops: 2
   slug: openmercantil-search-api
 - baseURL: https://openmercantil.es
   baseurl_source: spec
   description: CNAE sector aggregates, ratios and company listings
   name: OpenMercantil Sectors API
+  phrasing_intents:
+  - id: getSectorByCnaeCompanies
+    intent: List companies in a CNAE sector with filters
+    question: Which Spanish companies operate in a given CNAE activity code?
+  - id: getSectorByCnaeRatios
+    intent: Get Banco de España ratios for a CNAE division
+    question: What are the Banco de España Central de Balances ratios by year for a two-digit CNAE division?
+  - id: getCnaeTree
+    intent: Browse the CNAE activity code hierarchy
+    question: What does the full CNAE-2009 activity classification hierarchy look like?
+  - id: getCnaeByCode
+    intent: Look up a CNAE code
+    question: What activity does a given CNAE code stand for?
+  - id: getSectorCompanies
+    intent: List companies in a sector (v1.1 route)
+    question: Is there a simpler v1.1 route that just lists companies under a sector code with a limit?
+  - id: getSectorRatios
+    intent: Get sector financial ratios (v1.1 route)
+    question: Where is the v1.1 endpoint for a sector's aggregated financial ratios?
+  - id: getSectorStats
+    intent: Get company counts and growth across sectors
+    question: Which CNAE sectors have the most companies and the fastest growth?
+  - id: getSectorStatsCsv
+    intent: Download sector statistics as CSV
+    question: Can I download the sector aggregate statistics as a CSV file?
+  phrasing_ops: 8
   slug: openmercantil-sectors-api
 - baseURL: https://openmercantil.es
   baseurl_source: spec
   description: Source catalog metadata, freshness and integration status
   name: OpenMercantil Sources API
+  phrasing_intents:
+  - id: getSourcesFreshness
+    intent: See how fresh each public data source is
+    question: How recent is the data from each public source OpenMercantil publishes?
+  - id: getSourcesStatus
+    intent: Get public metadata about the data sources
+    question: Which public sources are in the catalog and what data date do they carry?
+  - id: getCompanyGrants
+    intent: List public grants a company received
+    question: Has this Spanish company received any public subsidies or grants?
+  - id: getCompanySanctions
+    intent: Check a company for sanctions hits
+    question: Is this company on any sanctions list or fined by a competition authority?
+  - id: getCompanyCnmv
+    intent: Get a company's CNMV securities records
+    question: What does the Spanish securities regulator CNMV have on file for a company?
+  phrasing_ops: 5
   slug: openmercantil-sources-api
 - baseURL: https://openmercantil.es
   baseurl_source: spec
   description: Customer-support writes. Anonymous creation requires explicit privacy consent; replies require an authenticated owner session and CSRF. Ticket data is never exposed through the public MCP.
   name: OpenMercantil Support API
+  phrasing_intents:
+  - id: createSupportTicket
+    intent: Open a customer-support ticket
+    question: How do I contact OpenMercantil support?
+  - id: replySupportTicket
+    intent: Reply to one of my support tickets
+    question: How do I add a reply to a support ticket I opened?
+  phrasing_ops: 2
   slug: openmercantil-support-api
 - baseURL: https://openmercantil.es
   baseurl_source: spec
   description: Service health and metadata
   name: OpenMercantil System API
+  phrasing_intents:
+  - id: getHealth
+    intent: Check service health and BORME freshness
+    question: Is the OpenMercantil service up right now?
+  - id: getStats
+    intent: Get counts of published companies
+    question: How many Spanish legal entities are published in the dataset?
+  phrasing_ops: 2
   slug: openmercantil-system-api
 - baseURL: https://openmercantil.es
   baseurl_source: spec
   description: Authenticated Panel Pro endpoints — segments, lists, notes, tags, exports, audit. Requires session cookie (browser) and X-CSRF-Token header for mutations.
   name: OpenMercantil User API
+  phrasing_intents:
+  - id: getUserMe
+    intent: Get my account profile and plan
+    question: Which plan tier is my OpenMercantil account on?
+  - id: getUserOrganization
+    intent: Get my organization, seats and members
+    question: Which team members and seats does my organization have?
+  - id: createUserOrganization
+    intent: Create an organization
+    question: Can I set up a team organization on a MAX or Enterprise plan?
+  - id: updateUserOrganization
+    intent: Rename my organization
+    question: How do I change the name of my organization?
+  - id: createUserOrganizationInvite
+    intent: Invite someone to my organization
+    question: How do I invite a colleague to join my organization?
+  - id: resendUserOrganizationInvite
+    intent: Resend an organization invitation
+    question: My colleague lost their invite email; can I send the organization invitation again?
+  - id: deleteUserOrganizationInvite
+    intent: Cancel a pending organization invitation
+    question: How do I withdraw an invitation that hasn't been accepted yet?
+  - id: updateUserOrganizationMember
+    intent: Change a team member's role
+    question: How do I promote a team member to admin?
+  phrasing_ops: 65
   slug: openmercantil-user-api
 - baseURL: https://openmercantil.es
   baseurl_source: spec
   description: 'Account outbound webhooks: register, update, rotate the HMAC signing secret and delete event subscriptions. Three subscribable event types; deliveries are signed and fail closed on unknown events.'
   name: OpenMercantil Webhooks API
+  phrasing_intents:
+  - id: listUserWebhooks
+    intent: List my outbound webhooks
+    question: Which webhooks have I set up on my account?
+  - id: createUserWebhook
+    intent: Create an outbound webhook
+    question: How do I get notified at my own URL when registry events happen?
+  - id: updateUserWebhook
+    intent: Update an outbound webhook
+    question: Can I change the URL or events of an existing webhook?
+  - id: deleteUserWebhook
+    intent: Delete an outbound webhook
+    question: How do I remove a webhook I no longer need?
+  - id: rotateUserWebhookSecret
+    intent: Rotate a webhook signing secret
+    question: How do I rotate the signing secret of a webhook?
+  phrasing_ops: 5
   slug: openmercantil-webhooks-api
 - baseURL: https://openmercantil.es
   baseurl_source: spec
   description: Public procurement (PLACSP) rankings
   name: OpenMercantil Contracts API
+  phrasing_intents:
+  - id: getPersonContracts
+    intent: List public contracts linked to a person
+    question: Which public procurement contracts is a person associated with?
+  - id: getTopCompaniesByContracts
+    intent: Rank companies by public contract volume
+    question: Which companies win the most public contracts?
+  - id: getTopCompaniesByContractsCsv
+    intent: Download the company contracts ranking as CSV
+    question: Can I download the top companies by contracts as a CSV?
+  - id: getTopPersonsByContracts
+    intent: Rank persons by public contract volume
+    question: Which people are linked to the most public procurement contracts?
+  - id: getTopPersonsByContractsCsv
+    intent: Download the persons contracts ranking as CSV
+    question: Can I export the persons-by-contracts ranking to a spreadsheet?
+  phrasing_ops: 5
   slug: openmercantil-contracts-api
 - baseURL: https://openmercantil.es
   baseurl_source: spec
   description: Daily BORME summary feeds
   name: OpenMercantil Daily API
+  phrasing_intents:
+  - id: getDaily
+    intent: Get the BORME daily summary for a date
+    question: What was published in the Spanish mercantile registry gazette (BORME) on a given day?
+  - id: getSummaryForDate
+    intent: Get a cross-source public-record summary for a date
+    question: Is there a consolidated summary of public records for one day across BORME and the other integrated sources?
+  phrasing_ops: 2
   slug: openmercantil-daily-api
 - baseURL: https://openmercantil.es
   baseurl_source: spec
   description: Bulk and per-resource export endpoints
   name: OpenMercantil Export API
+  phrasing_intents:
+  - id: exportCompany
+    intent: Export a company report
+    question: Can I download a full report on one company as JSON or CSV?
+  - id: exportEvents
+    intent: Bulk export BORME events for a year
+    question: How do I bulk download all BORME events for a year?
+  - id: getSectorStatsCsv
+    intent: Download sector statistics as CSV
+    question: Can I get the aggregate CNAE sector statistics as a CSV file?
+  - id: getTopCompaniesByContractsCsv
+    intent: Download top companies by public contracts as CSV
+    question: Which companies win the most public contracts, as a CSV?
+  - id: getTopPersonsByContractsCsv
+    intent: Download top persons by public contracts as CSV
+    question: Which people are linked to the most public contracts, as a downloadable CSV?
+  phrasing_ops: 5
   slug: openmercantil-export-api
 - baseURL: https://openmercantil.es
   baseurl_source: spec
   description: Geolocation enrichment
   name: OpenMercantil Geocode API
+  phrasing_intents:
+  - id: geocodeCompany
+    intent: Geocode a company's registered address
+    question: Can I get latitude and longitude for a company's registered address?
+  phrasing_ops: 1
   slug: openmercantil-geocode-api
 - baseURL: https://openmercantil.es
   baseurl_source: spec
   description: Company relationship network and embargoes
   name: OpenMercantil Network API
+  phrasing_intents:
+  - id: getCompanyNetwork
+    intent: Get a company's officer and shareholder network
+    question: Who are the officers and shareholders connected to a company?
+  - id: getCompanyEmbargoes
+    intent: List embargoes recorded against a company
+    question: Have any seizures been recorded against a company?
+  phrasing_ops: 2
   slug: openmercantil-network-api
 - baseURL: https://openmercantil.es
   baseurl_source: spec
   description: Documentary risk signals from public sources (AEPD, CNMC, concursos, AEAT moroso, CENDOJ)
   name: OpenMercantil Risk Signals API
+  phrasing_intents:
+  - id: getCompanyBySlugSanctions
+    intent: Check a company against sanctions data
+    question: Is a Spanish company on any sanctions list?
+  - id: getCompanyBySlugRiskSignals
+    intent: Get documentary risk signals for a company
+    question: What risk signals are published for a Spanish company?
+  - id: getCompanyBySlugAeatMoroso
+    intent: Check if a company is on the AEAT debtor list
+    question: Does a Spanish company appear on the tax agency's list of debtors?
+  - id: getCompanyBySlugEmbargoes
+    intent: List embargo mentions for a company
+    question: Has a Spanish company had assets seized or embargoed according to public registries?
+  phrasing_ops: 4
   slug: openmercantil-risk-signals-api
 - baseURL: https://openmercantil.es
   baseurl_source: spec
   description: Company score, trust score and activity timeseries
   name: OpenMercantil Score API
+  phrasing_intents:
+  - id: getCompanyScore
+    intent: Get a company's composite score
+    question: What is the OpenMercantil composite score for a Spanish company?
+  - id: getCompanyActivity
+    intent: Get a company's registry activity over time
+    question: How active has a company been in the mercantile registry over time?
+  - id: getCompanyTrustScore
+    intent: Get a company's trust score
+    question: How trustworthy does a company look once registry, procurement and sanctions signals are combined?
+  phrasing_ops: 3
   slug: openmercantil-score-api
 - baseURL: https://openmercantil.es
   baseurl_source: spec
   description: Aggregate statistics by region and sector
   name: OpenMercantil Stats API
+  phrasing_intents:
+  - id: getSectorStats
+    intent: Get company statistics by sector
+    question: How many companies are there per CNAE sector and how fast are they growing?
+  - id: getSectorStatsCsv
+    intent: Download sector statistics as CSV
+    question: Can I download sector statistics as a CSV file?
+  - id: getCcaaStats
+    intent: Get company statistics by autonomous community
+    question: How many companies are there in each Spanish autonomous community?
+  phrasing_ops: 3
   slug: openmercantil-stats-api
 artifact_total: 61
 asyncapis:
@@ -557,7 +958,7 @@ score:
     catalog_gap: 36.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.6
+  delta: 0.0
   facets:
     access_clarity: 100.0
     contract_governance: 45.5
@@ -573,7 +974,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 88.2
+  previous_composite: 80.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -595,8 +996,8 @@ score:
     regime_id: government
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
-  trend: falling
+  scored_at: '2026-10-03'
+  trend: flat
   upsert:
     applies: true
     score: 27.8

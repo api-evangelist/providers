@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 91.4
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 56
@@ -58,101 +58,438 @@ apis:
   baseurl_source: declared
   description: Account info and settings
   name: Xquik Account API
+  phrasing_intents:
+  - id: getAccount
+    intent: View my account info
+    question: Can I pull up my own account info through the API?
+  - id: updateAccount
+    intent: Change my account locale
+    question: Can I change the language locale on my account?
+  - id: setXIdentity
+    intent: Link an X username to my account
+    question: Can I link my X username to my account?
+  phrasing_ops: 3
   slug: xquik-api-account-api
 - baseURL: https://xquik.com/api/v1
   baseurl_source: declared
   description: API key management (session auth only)
   name: Xquik API Keys API
+  phrasing_intents:
+  - id: listApiKeys
+    intent: List my API keys
+    question: Which API keys exist on my account?
+  - id: createApiKey
+    intent: Create a new API key
+    question: How do I generate a new API key?
+  - id: revokeApiKey
+    intent: Revoke an API key
+    question: Can I revoke an API key that leaked?
+  phrasing_ops: 3
   slug: xquik-api-api-keys-api
 - baseURL: https://xquik.com/api/v1
   baseurl_source: declared
   description: Long-form X Article extraction
   name: Xquik Articles API
+  phrasing_intents:
+  - id: getArticle
+    intent: Read the full content of an X Article
+    question: Can I get the full text of an X Article from its tweet ID?
+  phrasing_ops: 1
   slug: xquik-api-articles-api
 - baseURL: https://xquik.com/api/v1
   baseurl_source: declared
   description: X Community info, members, and tweets
   name: Xquik Communities API
+  phrasing_intents:
+  - id: getCommunityInfo
+    intent: Get an X Community's profile
+    question: How many members does an X Community have?
+  - id: getCommunityMembers
+    intent: List members of an X Community
+    question: Who are the members of an X Community?
+  - id: getCommunityModerators
+    intent: List moderators of an X Community
+    question: Who moderates an X Community?
+  - id: getCommunityTweets
+    intent: Read the tweet feed of an X Community
+    question: What has been posted recently in an X Community?
+  - id: searchCommunities
+    intent: Keyword-search tweets in a community
+    question: Can I keyword-search the posts inside one X Community using the community search endpoint?
+  - id: getAllCommunityTweets
+    intent: Query all community tweets matching a keyword
+    question: Can I query every tweet in a community that matches a keyword via the community tweets endpoint?
+  phrasing_ops: 6
   slug: xquik-api-communities-api
 - baseURL: https://xquik.com/api/v1
   baseurl_source: declared
   description: AI tweet composition, drafts, writing styles, and radar
   name: Xquik Composition API
+  phrasing_intents:
+  - id: compose
+    intent: Build, refine or score a post draft
+    question: Can Xquik help me build and refine a tweet draft step by step?
+  - id: listDrafts
+    intent: List my saved tweet drafts
+    question: Where can I see all my saved tweet drafts?
+  - id: createDraft
+    intent: Save a tweet draft
+    question: Can I save a tweet draft to finish later?
+  - id: getDraft
+    intent: Open a saved draft
+    question: Can I open a single saved draft by its ID?
+  - id: deleteDraft
+    intent: Delete a saved draft
+    question: How do I delete a draft I no longer need?
+  - id: listStyles
+    intent: List my cached style profiles
+    question: Which writing style profiles have I already analyzed?
+  - id: analyzeStyle
+    intent: Analyze an account's writing style
+    question: Can I analyze someone's writing style from their recent tweets?
+  - id: compareStyles
+    intent: Compare two writing style profiles
+    question: How does one account's tweeting style differ from another's?
+  phrasing_ops: 13
   slug: xquik-api-composition-api
 - baseURL: https://xquik.com/api/v1
   baseurl_source: declared
   description: Giveaway draws from tweet replies
   name: Xquik Draws API
+  phrasing_intents:
+  - id: listDraws
+    intent: List my giveaway draws
+    question: Can I see all the giveaway draws I've run?
+  - id: createDraw
+    intent: Run a giveaway draw on a tweet
+    question: How do I pick random giveaway winners from replies to a tweet?
+  - id: getDraw
+    intent: Get a giveaway draw's details
+    question: Who won a giveaway draw I ran?
+  - id: exportDraw
+    intent: Export a giveaway draw's data
+    question: Can I export a draw's data as a file?
+  phrasing_ops: 4
   slug: xquik-api-draws-api
 - baseURL: https://xquik.com/api/v1
   baseurl_source: declared
   description: Activity events from monitored accounts
   name: Xquik Events API
+  phrasing_intents:
+  - id: listEvents
+    intent: List events captured by my monitors
+    question: What events have my monitors picked up lately?
+  - id: getEvent
+    intent: Get one monitor event
+    question: Can I look up one specific monitor event by ID?
+  phrasing_ops: 2
   slug: xquik-api-events-api
 - baseURL: https://xquik.com/api/v1
   baseurl_source: declared
   description: Bulk data extraction (23 tool types)
   name: Xquik Extractions API
+  phrasing_intents:
+  - id: listExtractions
+    intent: List my extraction jobs
+    question: Which extraction jobs have I run?
+  - id: createExtraction
+    intent: Run a bulk data extraction job
+    question: Can I run a bulk extraction job on a tweet, user, community or list?
+  - id: estimateExtraction
+    intent: Estimate an extraction's credit cost
+    question: How much will an extraction job cost before I run it?
+  - id: getExtraction
+    intent: Read an extraction job's results
+    question: Can I read the results of a finished extraction?
+  - id: exportExtraction
+    intent: Export extraction results to a file
+    question: Can I export extraction results to a file?
+  phrasing_ops: 5
   slug: xquik-api-extractions-api
 - baseURL: https://xquik.com/api/v1
   baseurl_source: declared
   description: Accountless prepaid access for paid read endpoints
   name: Xquik Guest Wallets API
+  phrasing_intents:
+  - id: createGuestWallet
+    intent: Start a prepaid guest wallet checkout
+    question: Can I buy API reads without creating an Xquik account?
+  - id: topUpGuestWallet
+    intent: Top up an existing guest wallet
+    question: How do I add more funds to my existing guest key?
+  - id: getGuestWalletStatus
+    intent: Check guest wallet payment status
+    question: Has my guest wallet payment gone through yet?
+  phrasing_ops: 3
   slug: xquik-api-guest-wallets-api
 - baseURL: https://xquik.com/api/v1
   baseurl_source: declared
   description: X List followers, members, and tweets
   name: Xquik Lists API
+  phrasing_intents:
+  - id: getListFollowers
+    intent: List followers of an X List
+    question: Who follows a particular X List?
+  - id: getListMembers
+    intent: List members of an X List
+    question: Which accounts are members of an X List?
+  - id: getListTweets
+    intent: Read tweets from an X List
+    question: What are the latest tweets from accounts on an X List?
+  phrasing_ops: 3
   slug: xquik-api-lists-api
 - baseURL: https://xquik.com/api/v1
   baseurl_source: declared
   description: Media upload and download
   name: Xquik Media API
+  phrasing_intents:
+  - id: downloadMedia
+    intent: Download images and videos from tweets
+    question: Can I download the images and videos from a tweet?
+  phrasing_ops: 1
   slug: xquik-api-media-api
 - baseURL: https://xquik.com/api/v1
   baseurl_source: declared
   description: X account monitoring with 1-second checks
   name: Xquik Monitors API
+  phrasing_intents:
+  - id: listMonitors
+    intent: List my account monitors
+    question: Which X accounts am I currently monitoring?
+  - id: createMonitor
+    intent: Monitor an X account for activity
+    question: How do I get alerted when a specific X account posts?
+  - id: listKeywordMonitors
+    intent: List my keyword monitors
+    question: Which keyword monitors do I have running?
+  - id: createKeywordMonitor
+    intent: Monitor X for a keyword
+    question: Can I get notified whenever a keyword is tweeted?
+  - id: getKeywordMonitor
+    intent: Get a keyword monitor
+    question: Can I look up the settings of one keyword monitor?
+  - id: updateKeywordMonitor
+    intent: Pause or change a keyword monitor
+    question: Can I pause a keyword monitor without deleting it?
+  - id: deleteKeywordMonitor
+    intent: Delete a keyword monitor
+    question: What's the way to delete a keyword monitor I no longer need?
+  - id: getMonitor
+    intent: Get an account monitor
+    question: Can I check the settings of one account monitor?
+  phrasing_ops: 10
   slug: xquik-api-monitors-api
 - baseURL: https://xquik.com/api/v1
   baseurl_source: declared
   description: Subscription, billing, and credits
   name: Xquik Subscribe API
+  phrasing_intents:
+  - id: subscribe
+    intent: Start a subscription checkout
+    question: How do I start a paid subscription?
+  - id: getCredits
+    intent: Check my credit balance
+    question: How many credits do I have left?
+  - id: topUpCredits
+    intent: Buy credits through a hosted checkout
+    question: Can I buy more credits through a hosted checkout?
+  - id: getCreditTopupStatus
+    intent: Check a credit top-up's billing status
+    question: Did my credit top-up payment succeed?
+  - id: quickTopUpCredits
+    intent: Charge my saved card for credits
+    question: Can I buy credits instantly with my saved card?
+  phrasing_ops: 5
   slug: xquik-api-subscribe-api
 - baseURL: https://xquik.com/api/v1
   baseurl_source: declared
   description: Support ticket management
   name: Xquik Support API
+  phrasing_intents:
+  - id: downloadSupportAttachment
+    intent: Download a support ticket attachment
+    question: Can I download an image or video attached to my support ticket?
+  - id: createTicket
+    intent: Open a support ticket
+    question: How do I contact support about a problem?
+  - id: listTickets
+    intent: List my support tickets
+    question: What support tickets have I opened?
+  - id: getTicket
+    intent: Read a support ticket and its messages
+    question: Can I read the full conversation on a support ticket?
+  - id: updateTicketStatus
+    intent: Change a support ticket's status
+    question: Can I close a support ticket once my issue is fixed?
+  - id: addTicketMessage
+    intent: Reply to a support ticket
+    question: How do I reply to support on an existing ticket?
+  phrasing_ops: 6
   slug: xquik-api-support-api
 - baseURL: https://xquik.com/api/v1
   baseurl_source: declared
   description: Trending topics and hashtags by region
   name: Xquik Trends API
+  phrasing_intents:
+  - id: getXTrends
+    intent: Get trending X topics by region
+    question: What is trending on X right now in a given region?
+  - id: getTrends
+    intent: Get regional trends via the alias endpoint
+    question: Is there a shorter alias endpoint for regional trending topics?
+  phrasing_ops: 2
   slug: xquik-api-trends-api
 - baseURL: https://xquik.com/api/v1
   baseurl_source: declared
   description: Look up, search, and analyze individual tweets
   name: Xquik Tweets API
+  phrasing_intents:
+  - id: getBatchTweets
+    intent: Look up several tweets by ID
+    question: Can I fetch several tweets at once by their IDs?
+  - id: searchTweets
+    intent: Search tweets
+    question: How do I search tweets for a keyword?
+  - id: lookupTweet
+    intent: Get a single tweet
+    question: Can I get a single tweet's full text, author and metrics?
+  - id: getTweetFavoriters
+    intent: List users who liked a tweet
+    question: Who liked a specific tweet?
+  - id: getBookmarks
+    intent: Read my bookmarked tweets
+    question: Can I read my bookmarked tweets?
+  - id: getBookmarkFolders
+    intent: List my bookmark folders
+    question: What bookmark folders do I have?
+  - id: getTimeline
+    intent: Read my home timeline
+    question: Can I read my home timeline through the API?
+  - id: getTweetQuotes
+    intent: List quote tweets of a post
+    question: Who has quote-tweeted a post?
+  phrasing_ops: 11
   slug: xquik-api-tweets-api
 - baseURL: https://xquik.com/api/v1
   baseurl_source: declared
   description: Look up, search, and explore user profiles and relationships
   name: Xquik Users API
+  phrasing_intents:
+  - id: getBatchUsers
+    intent: Look up several users by ID
+    question: Can I look up several X users by ID in one call?
+  - id: searchUsers
+    intent: Search users by name or handle
+    question: Can I find X accounts by name or handle?
+  - id: getUser
+    intent: Get a user's profile
+    question: How many followers does a given X user have?
+  - id: checkFollow
+    intent: Check whether one user follows another
+    question: Does one X account follow another?
+  - id: getUserTweets
+    intent: List a user's recent tweets
+    question: What has an account tweeted recently?
+  - id: getUserReplies
+    intent: Read a user's With Replies timeline
+    question: Can I see a user's With Replies timeline?
+  - id: getUserLikes
+    intent: List tweets a user liked
+    question: Which tweets has a user liked?
+  - id: getUserMedia
+    intent: List a user's media tweets
+    question: Can I list only the photo and video tweets from an account?
+  phrasing_ops: 15
   slug: xquik-api-users-api
 - baseURL: https://xquik.com/api/v1
   baseurl_source: declared
   description: Webhook endpoint management and delivery
   name: Xquik Webhooks API
+  phrasing_intents:
+  - id: listWebhooks
+    intent: List my webhooks
+    question: Which webhook endpoints have I registered?
+  - id: createWebhook
+    intent: Register a webhook for monitor events
+    question: How do I receive monitor events at my own URL?
+  - id: updateWebhook
+    intent: Change a webhook's URL or events
+    question: Can I change the URL a webhook posts to?
+  - id: deleteWebhook
+    intent: Deactivate a webhook
+    question: What's the way to deactivate a webhook?
+  - id: listWebhookDeliveries
+    intent: List a webhook's deliveries
+    question: Did my webhook deliveries succeed?
+  - id: testWebhook
+    intent: Send a test event to a webhook
+    question: Can I send a test event to my webhook endpoint?
+  - id: resumeWebhook
+    intent: Test and resume a webhook
+    question: Can I test and reactivate a webhook in one step?
+  phrasing_ops: 7
   slug: xquik-api-webhooks-api
 - baseURL: https://xquik.com/api/v1
   baseurl_source: declared
   description: Connected X account management
   name: Xquik X Accounts API
+  phrasing_intents:
+  - id: listXAccounts
+    intent: List my connected X accounts
+    question: Which X accounts have I connected?
+  - id: connectXAccount
+    intent: Connect an X account
+    question: How do I connect my X account so the API can post for me?
+  - id: getXAccountConnectionAttempt
+    intent: Check an X account connection attempt
+    question: Did my X account connection attempt succeed?
+  - id: submitXAccountConnectionChallenge
+    intent: Submit an X email verification code
+    question: X asked for an email verification code while connecting; how do I submit it?
+  - id: getXAccount
+    intent: Get a connected X account
+    question: Can I see the details of one connected X account?
+  - id: disconnectXAccount
+    intent: Disconnect an X account
+    question: What's the way to disconnect an X account?
+  - id: reauthXAccount
+    intent: Re-authenticate a connected X account
+    question: What do I do when a connected X account needs to log in again?
+  - id: bulkRetryXAccounts
+    intent: Retry all temporarily failed X accounts
+    question: Can I retry all X accounts that failed to log in temporarily?
+  phrasing_ops: 8
   slug: xquik-api-x-accounts-api
 - baseURL: https://xquik.com/api/v1
   baseurl_source: declared
   description: X write actions (tweets, likes, follows, DMs)
   name: Xquik X Write API
+  phrasing_intents:
+  - id: createTweet
+    intent: Post a tweet
+    question: How do I post a tweet through the API?
+  - id: getWriteActionStatus
+    intent: Check a write action's status
+    question: Did my queued tweet or like actually go through?
+  - id: deleteTweet
+    intent: Delete a tweet
+    question: Can I delete a tweet I posted?
+  - id: likeTweet
+    intent: Like a tweet
+    question: Can I like a tweet from a connected account?
+  - id: unlikeTweet
+    intent: Remove a like from a tweet
+    question: How do I remove a like from a tweet?
+  - id: retweet
+    intent: Retweet a post
+    question: Can I retweet a post from my connected account?
+  - id: unretweet
+    intent: Undo a retweet
+    question: How do I undo a retweet?
+  - id: followUser
+    intent: Follow a user
+    question: Can I follow an X user from a connected account?
+  phrasing_ops: 19
   slug: xquik-api-x-write-api
 artifact_total: 40
 asyncapis:
@@ -552,7 +889,7 @@ score:
     catalog_gap: 22.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 100.0
     contract_governance: 80.9
@@ -560,7 +897,7 @@ score:
     developer_ergonomics: 94.0
     discoverability: 91.7
     operational_transparency: 81.6
-  previous_composite: 86.8
+  previous_composite: 88.7
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -578,7 +915,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

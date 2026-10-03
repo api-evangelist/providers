@@ -37,68 +37,161 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.9
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 api_count: 1
 apis:
 - baseURL: https://api.qualified.com
   baseurl_source: declared
   description: (Legacy) A visitor's conversations with a bot, in a self-contained shape. Superseded by the Conversations and Messages endpoints, which are recommended for new integrations, and remains fully supporte
   name: Qualified Bot Conversations API
+  phrasing_intents:
+  - id: listBotConversations
+    intent: List legacy bot conversation transcripts
+    question: Where can I still pull chatbot conversation transcripts through the older v1 reporting endpoint?
+  phrasing_ops: 1
   slug: qualified-com-bot-conversations-api
 - baseURL: https://api.qualified.com
   baseurl_source: declared
   description: Submit batches of writes for asynchronous processing.
   name: Qualified Bulk API
+  phrasing_intents:
+  - id: createBulkJob
+    intent: Submit a batch of writes as a bulk job
+    question: How do I push hundreds of record updates to Qualified in one asynchronous batch?
+  - id: getBulkJob
+    intent: Check a bulk job's status and results
+    question: Has my bulk job finished processing yet?
+  phrasing_ops: 2
   slug: qualified-com-bulk-api
 - baseURL: https://api.qualified.com
   baseurl_source: declared
   description: Cancel a booked meeting by its Salesforce Event ID.
   name: Qualified Cancel Meeting API
+  phrasing_intents:
+  - id: cancelMeeting
+    intent: Cancel a booked meeting
+    question: How do I cancel a meeting a prospect booked through Qualified?
+  phrasing_ops: 1
   slug: qualified-com-cancel-meeting-api
 - baseURL: https://api.qualified.com
   baseurl_source: declared
   description: Create and update accounts by domain. Companies cannot be read back.
   name: Qualified Companies API
+  phrasing_intents:
+  - id: upsertCompany
+    intent: Create or update a company by domain
+    question: How do I set account-level values like tier or owner for a whole company domain in Qualified?
+  - id: listCompanyFields
+    intent: List custom company field definitions
+    question: Which account-level custom fields can I set on a company?
+  phrasing_ops: 2
   slug: qualified-com-companies-api
 - baseURL: https://api.qualified.com
   baseurl_source: declared
   description: Engaged chat conversations, meaning the visitor exchanged messages with a rep, bot, or AI assistant.
   name: Qualified Conversations API
+  phrasing_intents:
+  - id: listConversations
+    intent: List engaged website conversations
+    question: How do I pull every engaged chat conversation that ended last week?
+  - id: getConversation
+    intent: Get one conversation by id
+    question: Can I look up the details of a single chat conversation by its id?
+  - id: listConversationMessages
+    intent: List the messages in one conversation
+    question: How do I read the full transcript of one specific conversation?
+  phrasing_ops: 3
   slug: qualified-com-conversations-api
 - baseURL: https://api.qualified.com
   baseurl_source: declared
   description: Outbound email activity sent from Qualified, with engagement timestamps.
   name: Qualified Emails API
+  phrasing_intents:
+  - id: listEmails
+    intent: List outbound email activity
+    question: How do I see which outbound emails were opened, clicked or bounced recently?
+  - id: getEmail
+    intent: Get one email activity by id
+    question: Can I check the status of a single sent email by its id?
+  phrasing_ops: 2
   slug: qualified-com-emails-api
 - baseURL: https://api.qualified.com
   baseurl_source: declared
   description: Submit GDPR deletion requests by email.
   name: Qualified GDPR API
+  phrasing_intents:
+  - id: createGdprDeletionRequest
+    intent: Request GDPR deletion of people by email
+    question: How do I erase people's data from Qualified for a GDPR request?
+  phrasing_ops: 1
   slug: qualified-com-gdpr-api
 - baseURL: https://api.qualified.com
   baseurl_source: declared
   description: Create, update, and read lead (person) records and their custom field values.
   name: Qualified Leads API
+  phrasing_intents:
+  - id: listLeads
+    intent: List known leads
+    question: How do I pull all leads that are new or changed since yesterday?
+  - id: upsertLead
+    intent: Create or update a lead by email
+    question: How do I add a new lead or update an existing one in Qualified?
+  - id: listLeadFields
+    intent: List custom lead field definitions
+    question: Which person-level custom fields exist on leads?
+  - id: getLead
+    intent: Get one lead by id
+    question: Can I retrieve a single lead's record using its lead id?
+  phrasing_ops: 4
   slug: qualified-com-leads-api
 - baseURL: https://api.qualified.com
   baseurl_source: declared
   description: Meetings offered or booked with a visitor.
   name: Qualified Meetings API
+  phrasing_intents:
+  - id: listMeetings
+    intent: List booked meetings
+    question: How do I pull every meeting booked through Qualified last month?
+  - id: getMeeting
+    intent: Get one meeting by id
+    question: Can I read a meeting's latest details in real time by its id?
+  phrasing_ops: 2
   slug: qualified-com-meetings-api
 - baseURL: https://api.qualified.com
   baseurl_source: declared
   description: Individual messages, either across all conversations or within one.
   name: Qualified Messages API
+  phrasing_intents:
+  - id: listMessages
+    intent: List messages across all conversations
+    question: How do I export every chat message across all conversations for a date range?
+  - id: getMessage
+    intent: Get one chat message by id
+    question: Can I fetch a single chat message by its id?
+  phrasing_ops: 2
   slug: qualified-com-messages-api
 - baseURL: https://api.qualified.com
   baseurl_source: declared
   description: (Legacy) A visitor's conversations with a human rep, in a self-contained shape. Superseded by the Conversations and Messages endpoints, which are recommended for new integrations, and remains fully su
   name: Qualified Rep Conversations API
+  phrasing_intents:
+  - id: listRepConversations
+    intent: List legacy conversations with human reps
+    question: How can I export chats visitors had with a live sales rep from the older v1 endpoint?
+  phrasing_ops: 1
   slug: qualified-com-rep-conversations-api
 - baseURL: https://api.qualified.com
   baseurl_source: declared
   description: Website sessions, with page views and the conversations and meetings that occurred in them.
   name: Qualified Sessions API
+  phrasing_intents:
+  - id: listSessions
+    intent: List website visitor sessions
+    question: How do I list website sessions that ended in a given time window?
+  - id: getSession
+    intent: Get one website session by id
+    question: Can I get the latest data for a single website session by id?
+  phrasing_ops: 2
   slug: qualified-com-sessions-api
 artifact_total: 19
 common:
@@ -289,7 +382,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.3
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
@@ -297,7 +390,7 @@ score:
     developer_ergonomics: 47.0
     discoverability: 73.2
     operational_transparency: 81.6
-  previous_composite: 64.5
+  previous_composite: 66.8
   provenance:
     conformance: first-party
     contracts:
@@ -320,7 +413,7 @@ score:
     regime_id: horizontal
     score: 41.8
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 api_count: 4
 apis:
 - description: Use your own applicant tracking or HR application to send candidate hire information to Insperity Premier Onboarding. One published operation, POST /public/Employee/Onboarding/v2, which accepts a call
@@ -205,6 +205,8 @@ score:
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
@@ -219,7 +221,7 @@ score:
     regime_id: employment_payroll
     score: 20.6
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: false
@@ -246,5 +248,6 @@ tags:
 - Professional Employer Organization
 - Workforce Management
 - Employer of Record
+- Employee Benefits
 website: https://www.insperity.com
 ---

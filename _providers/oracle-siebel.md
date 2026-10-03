@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 api_count: 1
 apis:
 - description: SOAP-based web services for enterprise integration with Siebel CRM, supporting complex business operations and workflows. Siebel provides both inbound web services for external clients to access Siebe
@@ -58,51 +58,197 @@ apis:
   baseurl_source: declared
   description: Operations on Account business objects including customer and prospect organizations with associated contacts, opportunities, and addresses
   name: Oracle Siebel Accounts API
+  phrasing_intents:
+  - id: listAccounts
+    intent: List accounts
+    question: How can I pull a list of all customer accounts out of Siebel CRM?
+  - id: createAccount
+    intent: Create a new account
+    question: How do I add a brand-new customer account to the CRM?
+  - id: getAccount
+    intent: Get one account by its ID
+    question: How do I look up a single account when I already have its row ID?
+  - id: upsertAccount
+    intent: Update or insert an account by ID
+    question: How do I change the status of an existing account?
+  - id: deleteAccount
+    intent: Delete an account
+    question: How do I permanently remove an account from the Siebel database?
+  - id: listAccountContacts
+    intent: List the contacts under an account
+    question: Who are the people linked to a particular customer account?
+  - id: upsertAccountContact
+    intent: Add or update a contact under an account
+    question: How do I attach a new person to an existing customer account?
+  - id: listAccountOpportunities
+    intent: List the opportunities under an account
+    question: What deals are open for a specific customer account?
+  phrasing_ops: 8
   slug: oracle-siebel-accounts-api
 - baseURL: https://{siebel-server}/siebel/v1.0
   baseurl_source: declared
   description: Operations on Activity business objects for managing tasks, appointments, call logs, and other scheduled items
   name: Oracle Siebel Activities API
+  phrasing_intents:
+  - id: listActivities
+    intent: List activities
+    question: How can I see all the tasks, calls and appointments logged in Siebel?
+  - id: createActivity
+    intent: Log a new activity
+    question: How do I log a new call or task in the CRM?
+  - id: getActivity
+    intent: Get one activity by its ID
+    question: How do I pull up the details of one specific activity?
+  - id: upsertActivity
+    intent: Update or insert an activity by ID
+    question: How do I mark an existing activity as done?
+  - id: deleteActivity
+    intent: Delete an activity
+    question: How do I remove an activity that was logged by mistake?
+  phrasing_ops: 5
   slug: oracle-siebel-activities-api
 - baseURL: https://{siebel-server}/siebel/v1.0
   baseurl_source: declared
   description: Invocation of Siebel business services and their methods for executing server-side business logic including integration object operations
   name: Oracle Siebel Business Services API
+  phrasing_intents:
+  - id: invokeBusinessService
+    intent: Run a business service method
+    question: How do I call a Siebel business service method over REST?
+  - id: describeBusinessServices
+    intent: List all business services and their methods
+    question: Which business services can I call on this Siebel server?
+  - id: describeBusinessService
+    intent: Describe one business service
+    question: What input and output arguments does a particular business service method expect?
+  phrasing_ops: 3
   slug: oracle-siebel-business-services-api
 - baseURL: https://{siebel-server}/siebel/v1.0
   baseurl_source: declared
   description: Operations on Contact business objects representing individual people associated with accounts and organizations
   name: Oracle Siebel Contacts API
+  phrasing_intents:
+  - id: listAccountContacts
+    intent: List the contacts under an account
+    question: Who are the people linked to a particular customer account?
+  - id: upsertAccountContact
+    intent: Add or update a contact under an account
+    question: How do I attach a new person to an existing customer account?
+  - id: listContacts
+    intent: List contacts
+    question: How can I export every contact across all accounts in the CRM?
+  - id: createContact
+    intent: Create a standalone contact
+    question: How do I add a new person to the contact list without picking an account first?
+  - id: getContact
+    intent: Get one contact by its ID
+    question: How do I retrieve a single contact when I know its row ID?
+  - id: upsertContact
+    intent: Update or insert a contact by ID
+    question: How do I update a contact's job title after they get promoted?
+  - id: deleteContact
+    intent: Delete a contact
+    question: How do I delete a person from the contacts list entirely?
+  phrasing_ops: 7
   slug: oracle-siebel-contacts-api
 - baseURL: https://{siebel-server}/siebel/v1.0
   baseurl_source: declared
   description: Discovery endpoints that return OpenAPI-compatible metadata describing available resources, fields, and operations
   name: Oracle Siebel Metadata API
+  phrasing_intents:
+  - id: describeBusinessServices
+    intent: List all business services and their methods
+    question: Which business services can I call on this Siebel server?
+  - id: describeBusinessService
+    intent: Describe one business service
+    question: What input and output arguments does a particular business service method expect?
+  - id: describeWorkspace
+    intent: List repository objects in a workspace
+    question: Which applets, views and other repository objects exist in a workspace?
+  - id: describeBusinessComponent
+    intent: Describe a business component's fields
+    question: What fields and data types does a business component have?
+  phrasing_ops: 4
   slug: oracle-siebel-metadata-api
 - baseURL: https://{siebel-server}/siebel/v1.0
   baseurl_source: declared
   description: Operations on Opportunity business objects for managing sales pipeline, deals, and revenue forecasting
   name: Oracle Siebel Opportunities API
+  phrasing_intents:
+  - id: listAccountOpportunities
+    intent: List the opportunities under an account
+    question: What deals are open for a specific customer account?
+  - id: listOpportunities
+    intent: List opportunities
+    question: How can I see every sales opportunity in the pipeline, across all accounts?
+  - id: createOpportunity
+    intent: Create a new opportunity
+    question: How do I open a new sales opportunity in the CRM?
+  - id: getOpportunity
+    intent: Get one opportunity by its ID
+    question: How do I look up a single deal by its row ID?
+  - id: upsertOpportunity
+    intent: Update or insert an opportunity by ID
+    question: How do I move an existing deal to the next sales stage?
+  - id: deleteOpportunity
+    intent: Delete an opportunity
+    question: How do I remove a dead deal from the pipeline permanently?
+  phrasing_ops: 6
   slug: oracle-siebel-opportunities-api
 - baseURL: https://{siebel-server}/siebel/v1.0
   baseurl_source: declared
   description: Operations on Order business objects for managing sales orders, order line items, and order fulfillment
   name: Oracle Siebel Orders API
+  phrasing_intents:
+  - id: listOrders
+    intent: List sales orders
+    question: How can I pull the list of orders from Siebel order entry?
+  phrasing_ops: 1
   slug: oracle-siebel-orders-api
 - baseURL: https://{siebel-server}/siebel/v1.0
   baseurl_source: declared
   description: Operations on Product business objects for product catalog management including pricing and product hierarchies
   name: Oracle Siebel Products API
+  phrasing_intents:
+  - id: listProducts
+    intent: List products in the catalog
+    question: How can I see every product in the Siebel product catalog?
+  phrasing_ops: 1
   slug: oracle-siebel-products-api
 - baseURL: https://{siebel-server}/siebel/v1.0
   baseurl_source: declared
   description: Access to Siebel repository objects including applets, views, business components, and other metadata through workspace-based paths
   name: Oracle Siebel Repository API
+  phrasing_intents:
+  - id: describeWorkspace
+    intent: List repository objects in a workspace
+    question: Which applets, views and other repository objects exist in a workspace?
+  - id: getRepositoryObject
+    intent: Get a repository object's definition
+    question: How do I read the definition of one applet or view in a workspace?
+  phrasing_ops: 2
   slug: oracle-siebel-repository-api
 - baseURL: https://{siebel-server}/siebel/v1.0
   baseurl_source: declared
   description: Operations on Service Request business objects for customer service case management and issue tracking
   name: Oracle Siebel Service Requests API
+  phrasing_intents:
+  - id: listServiceRequests
+    intent: List service requests
+    question: How can I see all open customer support tickets?
+  - id: createServiceRequest
+    intent: Open a new service request
+    question: How do I open a new support ticket for a customer?
+  - id: getServiceRequest
+    intent: Get one service request by its ID
+    question: How do I check the details of a specific support ticket?
+  - id: upsertServiceRequest
+    intent: Update or insert a service request by ID
+    question: How do I close out or change the status of an existing ticket?
+  - id: deleteServiceRequest
+    intent: Delete a service request
+    question: How do I delete a duplicate support ticket?
+  phrasing_ops: 5
   slug: oracle-siebel-service-requests-api
 artifact_total: 41
 asyncapis:
@@ -432,7 +578,7 @@ score:
     catalog_gap: 55.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.8
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
@@ -440,7 +586,7 @@ score:
     developer_ergonomics: 67.3
     discoverability: 63.3
     operational_transparency: 84.2
-  previous_composite: 67.6
+  previous_composite: 70.4
   provenance:
     conformance: derived
     contracts:
@@ -457,7 +603,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

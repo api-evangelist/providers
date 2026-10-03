@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.2
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 api_count: 8
 apis:
 - description: First-party remote Model Context Protocol server giving an agent read-only access to the caller's Northbeam dashboards — performance, attribution, spend and orders. Documented as a custom connector fo
@@ -43,36 +43,95 @@ apis:
   baseurl_source: declared
   description: The Attribution Models API from Northbeam — 1 operation(s) for attribution models.
   name: Northbeam Attribution Models API
+  phrasing_intents:
+  - id: getAttributionModels
+    intent: List available attribution models
+    question: Which attribution models can I choose from when exporting data from Northbeam?
+  phrasing_ops: 1
   slug: northbeam-attribution-models-api
 - baseURL: https://api.northbeam.io/v2/orders
   baseurl_source: declared
   description: The Breakdowns API from Northbeam — 1 operation(s) for breakdowns.
   name: Northbeam Breakdowns API
+  phrasing_intents:
+  - id: getBreakdowns
+    intent: List labels available for breakdowns
+    question: What breakdown labels can I split my Northbeam data by?
+  phrasing_ops: 1
   slug: northbeam-breakdowns-api
 - baseURL: https://api.northbeam.io/v2/orders
   baseurl_source: declared
   description: The Data Export API from Northbeam — 2 operation(s) for data export.
   name: Northbeam Data Export API
+  phrasing_intents:
+  - id: postDataExport
+    intent: Create a data export configuration
+    question: How do I start a new data export from Northbeam?
+  - id: getDataExportResultByExportId
+    intent: Fetch the result of a data export
+    question: Where do I get the output of a data export I already started?
+  phrasing_ops: 2
   slug: northbeam-data-export-api
 - baseURL: https://api.northbeam.io/v2/orders
   baseurl_source: declared
   description: The Metrics API from Northbeam — 1 operation(s) for metrics.
   name: Northbeam Metrics API
+  phrasing_intents:
+  - id: getMetrics
+    intent: List available metrics
+    question: Which metrics can I pull out of Northbeam in an export?
+  phrasing_ops: 1
   slug: northbeam-metrics-api
 - baseURL: https://api.northbeam.io/v2/orders
   baseurl_source: declared
   description: The Orders API from Northbeam — 2 operation(s) for orders.
   name: Northbeam Orders API
+  phrasing_intents:
+  - id: postOrders
+    intent: Upsert a batch of orders
+    question: How do I send new orders from my shop into Northbeam?
+  - id: patchOrders
+    intent: Partially update fields on existing orders
+    question: How do I change just a few fields on orders I already synced to Northbeam?
+  - id: getOrders
+    intent: List orders in a date range
+    question: Which orders has Northbeam received between two dates?
+  - id: addOrderAliases
+    intent: Attach alternate IDs to existing orders
+    question: Can I link an alternate order ID to an order that's already been synced?
+  phrasing_ops: 4
   slug: northbeam-orders-api
 - baseURL: https://api.northbeam.io/v2/orders
   baseurl_source: declared
   description: The Spend API from Northbeam — 1 operation(s) for spend.
   name: Northbeam Spend API
+  phrasing_intents:
+  - id: getSpend
+    intent: List daily spend records
+    question: What ad spend have I recorded for a given day?
+  - id: postSpend
+    intent: Upsert daily spend records
+    question: How do I upload daily ad spend for a platform that isn't connected?
+  - id: deleteSpend
+    intent: Delete a daily spend record
+    question: How do I remove a daily spend entry I uploaded by mistake?
+  phrasing_ops: 3
   slug: northbeam-spend-api
 - baseURL: https://api.northbeam.io/v2/orders
   baseurl_source: declared
   description: The Spend Hourly API from Northbeam — 1 operation(s) for spend hourly.
   name: Northbeam Spend Hourly API
+  phrasing_intents:
+  - id: getSpendHourly
+    intent: List hourly spend records
+    question: What hourly ad spend have I recorded within a time window?
+  - id: postSpendHourly
+    intent: Upsert hourly spend records
+    question: How do I upload ad spend broken down by hour?
+  - id: deleteSpendHourly
+    intent: Delete an hourly spend record
+    question: How do I remove an hourly spend entry that was wrong?
+  phrasing_ops: 3
   slug: northbeam-spend-hourly-api
 artifact_total: 16
 common:
@@ -336,7 +395,7 @@ score:
     catalog_gap: 32.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 100.0
     contract_governance: 31.8
@@ -344,7 +403,7 @@ score:
     developer_ergonomics: 55.4
     discoverability: 80.0
     operational_transparency: 36.8
-  previous_composite: 64.8
+  previous_composite: 66.7
   provenance:
     conformance: first-party
     contracts:
@@ -361,7 +420,7 @@ score:
     regime_id: horizontal
     score: 39.2
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

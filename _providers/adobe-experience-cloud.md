@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 1
@@ -58,146 +58,453 @@ apis:
   baseurl_source: declared
   description: Operations for managing Target activities (A/B, XT, MVT, AP)
   name: Adobe Experience Cloud Activities API
+  phrasing_intents:
+  - id: listActivities
+    intent: List Target activities
+    question: Which A/B tests and personalization activities are set up in our Adobe Target tenant?
+  - id: createActivity
+    intent: Create a Target activity
+    question: Can I set up a new A/B test in Adobe Target through the API?
+  - id: getActivity
+    intent: Get a Target activity's configuration
+    question: How can I see the experiences, audiences and metrics behind one specific activity?
+  - id: updateActivity
+    intent: Update a Target activity
+    question: Can I rename an existing activity or change its priority?
+  - id: deleteActivity
+    intent: Delete a Target activity
+    question: How do I permanently remove an old A/B test from Target?
+  - id: updateActivityState
+    intent: Activate, deactivate or archive an activity
+    question: Can I pause a running A/B test without deleting it?
+  phrasing_ops: 6
   slug: adobe-experience-cloud-activities-api
 - baseURL: https://mc.adobe.io/{tenant}
   baseurl_source: declared
   description: Operations for managing Target audiences
   name: Adobe Experience Cloud Audiences API
+  phrasing_intents:
+  - id: listAudiences
+    intent: List Target audiences
+    question: Which audiences have we defined in Adobe Target?
+  - id: createAudience
+    intent: Create a Target audience
+    question: How do I define a new audience with targeting rules in Target?
+  - id: getAudience
+    intent: Get an audience's targeting rules
+    question: What conditions make up a specific Target audience?
+  - id: updateAudience
+    intent: Update a Target audience
+    question: Can I change the targeting rules of an audience that already exists?
+  - id: deleteAudience
+    intent: Delete a Target audience
+    question: Why can't I delete an audience that an active activity uses?
+  phrasing_ops: 5
   slug: adobe-experience-cloud-audiences-api
 - baseURL: https://platform.adobe.io
   baseurl_source: declared
   description: Operations for batch data ingestion
   name: Adobe Experience Cloud Batches API
+  phrasing_intents:
+  - id: createBatch
+    intent: Start a data ingestion batch
+    question: How do I begin ingesting files into an Experience Platform dataset?
+  - id: getBatch
+    intent: Check a batch's ingestion status
+    question: Did my data ingestion batch succeed or fail?
+  phrasing_ops: 2
   slug: adobe-experience-cloud-batches-api
 - baseURL: https://analytics.adobe.io
   baseurl_source: declared
   description: Operations for managing calculated metrics
   name: Adobe Experience Cloud Calculated Metrics API
+  phrasing_intents:
+  - id: listCalculatedMetrics
+    intent: List calculated metrics
+    question: Which calculated metrics can I use in Adobe Analytics?
+  - id: createCalculatedMetric
+    intent: Create a calculated metric
+    question: How do I build a new calculated metric from a formula?
+  - id: getCalculatedMetric
+    intent: Get a calculated metric's definition
+    question: What formula sits behind one particular calculated metric?
+  - id: updateCalculatedMetric
+    intent: Update a calculated metric
+    question: Can I change the formula of an existing calculated metric?
+  - id: deleteCalculatedMetric
+    intent: Delete a calculated metric
+    question: Can a deleted calculated metric be recovered?
+  phrasing_ops: 5
   slug: adobe-experience-cloud-calculated-metrics-api
 - baseURL: https://mc.adobe.io/{organization}
   baseurl_source: declared
   description: The Campaign API from Adobe Experience Cloud — 3 operation(s) for campaign.
   name: Adobe Experience Cloud Campaign API
+  phrasing_intents:
+  - id: listServices
+    intent: List subscription services
+    question: Which mailing lists or subscription topics exist in Adobe Campaign?
+  - id: createService
+    intent: Create a subscription service
+    question: How do I set up a new newsletter or mailing list in Campaign?
+  - id: getService
+    intent: Get a subscription service
+    question: What are the settings of one specific subscription service?
+  - id: subscribeProfile
+    intent: Subscribe a profile to a service
+    question: Can I add an existing subscriber to a newsletter through the API?
+  phrasing_ops: 4
   slug: adobe-experience-cloud-campaign-api
 - baseURL: https://platform.adobe.io
   baseurl_source: declared
   description: Operations for managing marketing campaigns
   name: Adobe Experience Cloud Campaigns API
+  phrasing_intents:
+  - id: listCampaigns
+    intent: List marketing campaigns
+    question: Which marketing campaigns are set up in Journey Optimizer?
+  - id: createCampaign
+    intent: Create a marketing campaign
+    question: How do I launch a new email or push campaign to an audience?
+  - id: getCampaign
+    intent: Get a marketing campaign
+    question: What is the full setup of one specific campaign?
+  - id: deleteCampaign
+    intent: Delete a campaign
+    question: Can I delete a campaign that is still running?
+  phrasing_ops: 4
   slug: adobe-experience-cloud-campaigns-api
 - baseURL: https://platform.adobe.io
   baseurl_source: declared
   description: Operations for managing XDM classes
   name: Adobe Experience Cloud Classes API
+  phrasing_intents:
+  - id: listClasses
+    intent: List XDM classes
+    question: Which XDM classes exist in our tenant's schema registry?
+  phrasing_ops: 1
   slug: adobe-experience-cloud-classes-api
 - baseURL: https://platform.adobe.io
   baseurl_source: declared
   description: Operations for managing offer collections
   name: Adobe Experience Cloud Collections API
+  phrasing_intents:
+  - id: listCollections
+    intent: List offer collections
+    question: Which offer collections are defined for decisioning?
+  - id: createCollection
+    intent: Create an offer collection
+    question: Can I group related offers into a collection using a filter?
+  phrasing_ops: 2
   slug: adobe-experience-cloud-collections-api
 - baseURL: https://mc.adobe.io/{organization}
   baseurl_source: declared
   description: Operations for managing email and landing page content
   name: Adobe Experience Cloud Content API
+  phrasing_intents:
+  - id: listEmails
+    intent: List email deliveries
+    question: Which email deliveries exist in Adobe Campaign and what status are they in?
+  - id: getEmail
+    intent: Get an email delivery's content
+    question: Where can I see the HTML content and sender of one email delivery?
+  phrasing_ops: 2
   slug: adobe-experience-cloud-content-api
 - baseURL: https://platform.adobe.io
   baseurl_source: declared
   description: Operations for managing reusable content templates
   name: Adobe Experience Cloud Content Templates API
+  phrasing_intents:
+  - id: listContentTemplates
+    intent: List reusable content templates
+    question: Which reusable templates do we have for email, push, SMS and in-app?
+  - id: createContentTemplate
+    intent: Create a reusable content template
+    question: Can I save HTML as a reusable email template?
+  phrasing_ops: 2
   slug: adobe-experience-cloud-content-templates-api
 - baseURL: https://platform.adobe.io
   baseurl_source: declared
   description: Operations for managing datasets in the Data Lake
   name: Adobe Experience Cloud Datasets API
+  phrasing_intents:
+  - id: listDatasets
+    intent: List datasets in the Data Catalog
+    question: Which datasets are registered in our Experience Platform sandbox?
+  - id: createDataset
+    intent: Create a dataset from an XDM schema
+    question: How do I create a dataset based on an existing XDM schema?
+  - id: getDataset
+    intent: Get a dataset's metadata
+    question: What schema and settings does a specific dataset use?
+  - id: deleteDataset
+    intent: Delete a dataset and its batches
+    question: Does deleting a dataset also remove its ingested batches?
+  phrasing_ops: 4
   slug: adobe-experience-cloud-datasets-api
 - baseURL: https://analytics.adobe.io
   baseurl_source: declared
   description: Operations for managing saved date ranges
   name: Adobe Experience Cloud Date Ranges API
+  phrasing_intents:
+  - id: listDateRanges
+    intent: List saved date ranges
+    question: Which saved date ranges can I reuse in Adobe Analytics reports?
+  phrasing_ops: 1
   slug: adobe-experience-cloud-date-ranges-api
 - baseURL: https://platform.adobe.io
   baseurl_source: declared
   description: Operations for managing offer eligibility rules
   name: Adobe Experience Cloud Decision Rules API
+  phrasing_intents:
+  - id: listDecisionRules
+    intent: List offer decision rules
+    question: Which eligibility rules decide who sees our offers?
+  - id: createDecisionRule
+    intent: Create an offer decision rule
+    question: Can I write a PQL condition to control offer eligibility?
+  phrasing_ops: 2
   slug: adobe-experience-cloud-decision-rules-api
 - baseURL: https://delivery.adobetarget.com
   baseurl_source: declared
   description: Operations for real-time content delivery
   name: Adobe Experience Cloud Delivery API
+  phrasing_intents:
+  - id: deliverExperiences
+    intent: Fetch personalized content for mboxes
+    question: How do I fetch personalized Target content for a page from my server?
+  phrasing_ops: 1
   slug: adobe-experience-cloud-delivery-api
 - baseURL: https://analytics.adobe.io
   baseurl_source: declared
   description: Operations for retrieving dimension metadata
   name: Adobe Experience Cloud Dimensions API
+  phrasing_intents:
+  - id: listDimensions
+    intent: List dimensions for a report suite
+    question: Which dimensions can I report on in a given report suite?
+  phrasing_ops: 1
   slug: adobe-experience-cloud-dimensions-api
 - baseURL: https://mc.adobe.io/{tenant}
   baseurl_source: declared
   description: Operations for managing environments
   name: Adobe Experience Cloud Environments API
+  phrasing_intents:
+  - id: listEnvironments
+    intent: List Target environments
+    question: Which development, staging and production environments does our Target tenant have?
+  phrasing_ops: 1
   slug: adobe-experience-cloud-environments-api
 - baseURL: https://platform.adobe.io
   baseurl_source: declared
   description: Operations for identity namespace management
   name: Adobe Experience Cloud Identities API
+  phrasing_intents:
+  - id: listIdentityNamespaces
+    intent: List identity namespaces
+    question: Which identity namespaces like ECID, Email or Phone are available to us?
+  - id: createIdentityNamespace
+    intent: Create a custom identity namespace
+    question: How do I add a custom identity type such as a loyalty ID?
+  phrasing_ops: 2
   slug: adobe-experience-cloud-identities-api
 - baseURL: https://platform.adobe.io
   baseurl_source: declared
   description: Operations for managing customer journeys
   name: Adobe Experience Cloud Journeys API
+  phrasing_intents:
+  - id: listJourneys
+    intent: List customer journeys
+    question: Which customer journeys are configured in Journey Optimizer?
+  - id: createJourney
+    intent: Create a customer journey draft
+    question: How do I build a new customer journey with entry conditions?
+  - id: getJourney
+    intent: Get a journey's full definition
+    question: What activities and transitions make up a specific journey?
+  - id: updateJourney
+    intent: Update a draft journey
+    question: Can I edit a journey after it's been published?
+  - id: deleteJourney
+    intent: Delete a draft or closed journey
+    question: Can I delete a journey that is currently active?
+  - id: publishJourney
+    intent: Publish a journey to go live
+    question: How do I make a draft journey live?
+  - id: stopJourney
+    intent: Stop an active journey
+    question: What happens to profiles already in a journey when I stop it?
+  phrasing_ops: 7
   slug: adobe-experience-cloud-journeys-api
 - baseURL: https://platform.adobe.io
   baseurl_source: declared
   description: Operations for managing channel messages
   name: Adobe Experience Cloud Messages API
+  phrasing_intents:
+  - id: listMessages
+    intent: List channel messages
+    question: Which email, push, SMS and in-app messages are configured?
+  - id: createMessage
+    intent: Create a channel message
+    question: How do I set up a new push or SMS message configuration?
+  - id: getMessage
+    intent: Get a channel message
+    question: What content and delivery settings does a specific message have?
+  - id: deleteMessage
+    intent: Delete a channel message
+    question: Can I delete a message that an active journey still uses?
+  phrasing_ops: 4
   slug: adobe-experience-cloud-messages-api
 - baseURL: https://mc.adobe.io/{organization}
   baseurl_source: declared
   description: Operations for retrieving resource metadata
   name: Adobe Experience Cloud Metadata API
+  phrasing_intents:
+  - id: listMetadata
+    intent: Discover custom resources and fields
+    question: Which custom resources and extended profile attributes exist in our Campaign data model?
+  phrasing_ops: 1
   slug: adobe-experience-cloud-metadata-api
 - baseURL: https://analytics.adobe.io
   baseurl_source: declared
   description: Operations for retrieving metric metadata
   name: Adobe Experience Cloud Metrics API
+  phrasing_intents:
+  - id: listMetrics
+    intent: List metrics for a report suite
+    question: Which metrics can I use in a given report suite?
+  phrasing_ops: 1
   slug: adobe-experience-cloud-metrics-api
 - baseURL: https://platform.adobe.io
   baseurl_source: declared
   description: Operations for offer decisioning
   name: Adobe Experience Cloud Offers API
+  phrasing_intents:
+  - id: listOffers
+    intent: List decisioning offers in the offer library
+    question: Which personalized and fallback offers are in our Journey Optimizer offer library?
+  - id: createOffer
+    intent: Create a personalized decisioning offer
+    question: Can I create a personalized offer with eligibility rules for offer decisioning?
+  - id: getOffer
+    intent: Get a decisioning offer
+    question: What eligibility rules and constraints apply to one offer in the offer library?
+  - id: updateOffer
+    intent: Update a decisioning offer
+    question: Can I change the priority of an offer in the offer library?
+  - id: deleteOffer
+    intent: Delete a decisioning offer
+    question: Why can't I delete an offer that an active decision uses?
+  - id: getTargetOffers
+    intent: List Target content offers
+    question: Which HTML, JSON and redirect offers are configured in Adobe Target?
+  - id: postTargetOffers
+    intent: Create a Target content offer
+    question: Can I create an HTML or redirect offer in Target through the API?
+  - id: getTargetOffersByOfferId
+    intent: Get a Target content offer
+    question: Where can I see the content payload of one Target offer?
+  phrasing_ops: 10
   slug: adobe-experience-cloud-offers-api
 - baseURL: https://platform.adobe.io
   baseurl_source: declared
   description: Operations for managing offer placements
   name: Adobe Experience Cloud Placements API
+  phrasing_intents:
+  - id: listPlacements
+    intent: List offer placements
+    question: Which channels and content formats can our offers be shown in?
+  - id: createPlacement
+    intent: Create an offer placement
+    question: Can I define a new spot where offers display, like an email banner?
+  phrasing_ops: 2
   slug: adobe-experience-cloud-placements-api
 - baseURL: https://mc.adobe.io/{organization}
   baseurl_source: declared
   description: Operations for managing subscriber profiles
   name: Adobe Experience Cloud Profiles API
+  phrasing_intents:
+  - id: listProfiles
+    intent: List Campaign subscriber profiles
+    question: Can I find Campaign subscribers by email address?
+  - id: createProfile
+    intent: Create a Campaign subscriber profile
+    question: How do I add a new subscriber to Adobe Campaign?
+  - id: getProfile
+    intent: Get a Campaign subscriber profile
+    question: Where can I see all attributes of one subscriber by primary key?
+  - id: updateProfile
+    intent: Update fields on a Campaign profile
+    question: Can I change just a subscriber's email without resending every field?
+  - id: deleteProfile
+    intent: Delete a Campaign subscriber profile
+    question: Can a deleted Campaign subscriber be restored?
+  - id: getProfileEntities
+    intent: Look up a unified profile by identity
+    question: How do I look up a person's unified Experience Platform profile from an email or ECID?
+  phrasing_ops: 6
   slug: adobe-experience-cloud-profiles-api
 - baseURL: https://analytics.adobe.io
   baseurl_source: declared
   description: Operations for managing Analysis Workspace projects
   name: Adobe Experience Cloud Projects API
+  phrasing_intents:
+  - id: listProjects
+    intent: List Analysis Workspace projects
+    question: Which Analysis Workspace projects can I access?
+  - id: getProject
+    intent: Get an Analysis Workspace project
+    question: Where can I see the full definition of one Workspace project?
+  phrasing_ops: 2
   slug: adobe-experience-cloud-projects-api
 - baseURL: https://mc.adobe.io/{tenant}
   baseurl_source: declared
   description: Operations for managing enterprise properties
   name: Adobe Experience Cloud Properties API
+  phrasing_intents:
+  - id: listProperties
+    intent: List Target enterprise properties
+    question: Which enterprise properties control access to our Target activities and offers?
+  phrasing_ops: 1
   slug: adobe-experience-cloud-properties-api
 - baseURL: https://platform.adobe.io
   baseurl_source: declared
   description: Operations for the Query Service
   name: Adobe Experience Cloud Queries API
+  phrasing_intents:
+  - id: listQueries
+    intent: List submitted SQL queries
+    question: Which SQL queries have been run against Query Service recently?
+  - id: createQuery
+    intent: Run a SQL query on the Data Lake
+    question: How do I run SQL against my Experience Platform datasets?
+  - id: getQuery
+    intent: Check a submitted query's status
+    question: Has my Query Service query finished yet?
+  phrasing_ops: 3
   slug: adobe-experience-cloud-queries-api
 - baseURL: https://analytics.adobe.io
   baseurl_source: declared
   description: Operations for managing report suites
   name: Adobe Experience Cloud Report Suites API
+  phrasing_intents:
+  - id: listReportSuites
+    intent: List report suites
+    question: Which Adobe Analytics report suites can I access?
+  - id: getReportSuite
+    intent: Get a report suite's configuration
+    question: What currency and timezone is a report suite set to?
+  phrasing_ops: 2
   slug: adobe-experience-cloud-report-suites-api
 - baseURL: https://analytics.adobe.io
   baseurl_source: declared
   description: Operations for retrieving analytics report data
   name: Adobe Experience Cloud Reports API
+  phrasing_intents:
+  - id: getReport
+    intent: Run an Analytics report
+    question: How do I pull page views by day from Adobe Analytics?
+  phrasing_ops: 1
   slug: adobe-experience-cloud-reports-api
 - baseURL: https://platform.adobe.io
   baseurl_source: declared
@@ -208,26 +515,96 @@ apis:
   baseurl_source: declared
   description: Operations for managing XDM schemas via the Schema Registry
   name: Adobe Experience Cloud Schemas API
+  phrasing_intents:
+  - id: listSchemas
+    intent: List XDM schemas
+    question: Which XDM schemas are defined in our tenant?
+  - id: createSchema
+    intent: Create an XDM schema
+    question: How do I create a schema based on an XDM class and field groups?
+  - id: getSchema
+    intent: Get an XDM schema's definition
+    question: What fields and field groups does a specific schema contain?
+  - id: updateSchema
+    intent: Replace an XDM schema
+    question: Can I replace an existing schema's whole definition?
+  - id: deleteSchema
+    intent: Delete an unused XDM schema
+    question: Why can't I delete a schema that a dataset uses?
+  phrasing_ops: 5
   slug: adobe-experience-cloud-schemas-api
 - baseURL: https://platform.adobe.io
   baseurl_source: declared
   description: Operations for managing analytics segments
   name: Adobe Experience Cloud Segments API
+  phrasing_intents:
+  - id: listSegments
+    intent: List Analytics segments
+    question: Which Adobe Analytics segments can I use in reports?
+  - id: createSegment
+    intent: Create an Analytics segment
+    question: How do I build a new Analytics segment with container rules?
+  - id: getSegment
+    intent: Get an Analytics segment
+    question: What rules make up a specific Analytics segment?
+  - id: updateSegment
+    intent: Update an Analytics segment
+    question: Can I change the rules of an existing Analytics segment?
+  - id: deleteSegment
+    intent: Delete an Analytics segment
+    question: Can a deleted Analytics segment be recovered?
+  - id: listSegmentDefinitions
+    intent: List Experience Platform audience segments
+    question: Which PQL audience segment definitions exist in Experience Platform?
+  - id: createSegmentDefinition
+    intent: Create a PQL audience segment
+    question: How do I define an audience with a Profile Query Language expression?
+  - id: getSegmentDefinition
+    intent: Get a PQL segment definition
+    question: What PQL expression and merge policy does a platform segment definition use?
+  phrasing_ops: 9
   slug: adobe-experience-cloud-segments-api
 - baseURL: https://mc.adobe.io/{organization}
   baseurl_source: declared
   description: Operations for sending real-time transactional messages
   name: Adobe Experience Cloud Transactional Messages API
+  phrasing_intents:
+  - id: sendTransactionalMessage
+    intent: Send a transactional message
+    question: How do I send an order confirmation email triggered by an event?
+  - id: getTransactionalMessageStatus
+    intent: Check a transactional message's delivery
+    question: Was a transactional message I already sent delivered?
+  phrasing_ops: 2
   slug: adobe-experience-cloud-transactional-messages-api
 - baseURL: https://analytics.adobe.io
   baseurl_source: declared
   description: Operations for managing analytics users
   name: Adobe Experience Cloud Users API
+  phrasing_intents:
+  - id: listUsers
+    intent: List Analytics users
+    question: Who has access to our Adobe Analytics company?
+  - id: getUser
+    intent: Get an Analytics user
+    question: Is a particular user an admin in Adobe Analytics?
+  phrasing_ops: 2
   slug: adobe-experience-cloud-users-api
 - baseURL: https://mc.adobe.io/{organization}
   baseurl_source: declared
   description: Operations for managing automated workflows
   name: Adobe Experience Cloud Workflows API
+  phrasing_intents:
+  - id: listWorkflows
+    intent: List Campaign workflows
+    question: Which workflows are configured in Adobe Campaign and what is their status?
+  - id: getWorkflow
+    intent: Get a Campaign workflow
+    question: What activities and execution history does a specific workflow have?
+  - id: executeWorkflowCommand
+    intent: Start, pause, resume or stop a workflow
+    question: Can I start or pause a Campaign workflow through the API?
+  phrasing_ops: 3
   slug: adobe-experience-cloud-workflows-api
 arazzos:
 - description: List report suites, fetch one's configuration, then run a report against it.
@@ -1695,23 +2072,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 68.2
+  composite: 68.7
   coverage:
     artifact_dirs: 37
-    catalog_earned: 75.0
+    catalog_earned: 78.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 40.0
+    catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.2
+  delta: 0.5
   facets:
     access_clarity: 50.0
     contract_governance: 31.8
     contract_quality: 68.9
     developer_ergonomics: 74.4
-    discoverability: 75.0
+    discoverability: 80.0
     operational_transparency: 60.5
-  previous_composite: 66.0
+  previous_composite: 68.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1729,7 +2106,7 @@ score:
     regime_id: horizontal
     score: 40.2
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

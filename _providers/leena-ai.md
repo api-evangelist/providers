@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 api_count: 5
 apis:
 - baseURL: https://us-east-1-aic.leena.ai
@@ -272,7 +272,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
@@ -280,7 +280,7 @@ score:
     developer_ergonomics: 37.5
     discoverability: 80.0
     operational_transparency: 42.1
-  previous_composite: 33.4
+  previous_composite: 36.7
   provenance:
     conformance: first-party
     contracts:
@@ -297,7 +297,7 @@ score:
     regime_id: employment_payroll
     score: 41.8
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

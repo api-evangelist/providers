@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 60.8
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -62,31 +62,172 @@ apis:
   baseurl_source: declared
   description: 'Field management. Per-record-type quotas: max 500 fields total; max 20 PARAGRAPH (long-text) fields; max 20 FORMULA fields; max 30 REFERENCE fields. Field display names must be unique within a record '
   name: Adobe Workfront Fields API
+  phrasing_intents:
+  - id: getField
+    intent: Get a field by ID
+    question: How do I see a field's type and options, like the choices on a single-select?
+  - id: updateField
+    intent: Replace a field's definition in full
+    question: What happens to field settings I omit when I fully replace a field?
+  - id: deleteField
+    intent: Delete a field
+    question: How do I remove a field from a record type?
+  - id: patchField
+    intent: Change some settings on a field
+    question: Can I rename a field without resending its options?
+  - id: getFieldsByRecordType
+    intent: List the fields on a record type
+    question: What fields does a record type have?
+  - id: createField
+    intent: Add a field to a record type
+    question: How do I add a new column, like a due date, to a record type?
+  phrasing_ops: 6
   slug: workfront-fields-api
 - baseURL: https://{customer-domain}.my.workfront.adobe.com/attask/api/v22.0
   baseurl_source: declared
   description: Resource permissions, member management, and access requests.
   name: Adobe Workfront Permissions API
+  phrasing_intents:
+  - id: getAccessRequests
+    intent: List pending access requests on a resource
+    question: Who is waiting for me to approve access to my workspace?
+  - id: createAccessRequest
+    intent: Request access to a resource
+    question: How do I ask for access to a workspace I can't open?
+  - id: deleteAccessRequests
+    intent: Dismiss access requests on a resource
+    question: How do I dismiss access requests I don't want to approve?
+  - id: getMembers
+    intent: List who a resource is shared with and their roles
+    question: Which users, groups and teams have been given access to this record type?
+  - id: updateMembers
+    intent: Grant, change or revoke members' access
+    question: Can I add new people, change roles and remove others from a workspace in one request?
+  - id: getMyPermissions
+    intent: Check my effective permissions on a resource
+    question: Am I allowed to edit or delete this record?
+  - id: getInheritance
+    intent: See if a record type inherits workspace access
+    question: Do workspace members automatically get their workspace access on this record type?
+  phrasing_ops: 7
   slug: workfront-permissions-api
 - baseURL: https://{customer-domain}.my.workfront.adobe.com/attask/api/v22.0
   baseurl_source: declared
   description: Record Type Controller
   name: Adobe Workfront Record Types API
+  phrasing_intents:
+  - id: getRecordTypes
+    intent: List a workspace's record types (legacy v1)
+    question: Can the older v1 API list all record types in a workspace in one response?
+  - id: getRecordType
+    intent: Fetch a record type with the legacy v1 endpoint
+    question: Is there still a v1 endpoint to look up one record type by ID?
+  - id: getV2RecordTypesById
+    intent: Get a record type by ID
+    question: How do I see a record type's settings, primary field and permissions?
+  - id: updateRecordType
+    intent: Replace a record type's settings in full
+    question: What happens to settings I leave out when I fully replace a record type?
+  - id: deleteRecordType
+    intent: Permanently delete a record type and its records
+    question: Does deleting a record type also wipe out its fields and records?
+  - id: patchRecordType
+    intent: Change some settings on a record type
+    question: Can I just change a record type's icon without resending its other settings?
+  - id: getRecordTypesByWorkspace
+    intent: Page through a workspace's record types
+    question: What record types exist in my workspace, page by page?
+  - id: createRecordType
+    intent: Create a record type in a workspace
+    question: How do I add a new record type, like Campaigns, to a workspace?
+  phrasing_ops: 10
   slug: workfront-record-types-api
 - baseURL: https://{customer-domain}.my.workfront.adobe.com/attask/api/v22.0
   baseurl_source: declared
   description: Record Controller
   name: Adobe Workfront Records API
+  phrasing_intents:
+  - id: getRecord
+    intent: Fetch a record with the legacy v1 endpoint
+    question: Can I still pull a single record through the older v1 records endpoint?
+  - id: updateRecord
+    intent: Update a record with the legacy v1 endpoint
+    question: How would I change a record's field data using the original v1 records API?
+  - id: deleteRecord
+    intent: Delete a record with the legacy v1 endpoint
+    question: Does the older v1 records API let me delete a single record by its ID?
+  - id: createRecord
+    intent: Create a record with the legacy v1 endpoint
+    question: How did the v1 API create a record when the record type goes in the body rather than the path?
+  - id: searchRecordsGet
+    intent: Search records by field values via v1 query string
+    question: Can I search records by field value with a plain GET on the older v1 search endpoint?
+  - id: searchRecordsPost
+    intent: Search records by field values via v1 POST body
+    question: Can the v1 record search take its filters and sorting in a POST body instead of the URL?
+  - id: getV2RecordsById
+    intent: Get a record by ID
+    question: How can I look up one Workfront Planning record and see its field data?
+  - id: putV2RecordsById
+    intent: Replace a record's contents in full
+    question: What happens to fields I leave out when I fully replace a record?
+  phrasing_ops: 22
   slug: workfront-records-api
 - baseURL: https://{customer-domain}.my.workfront.adobe.com/attask/api/v22.0
   baseurl_source: declared
   description: 'View management. Limits: max 100 personal views per record type; max 255 characters for view name.'
   name: Adobe Workfront Views API
+  phrasing_intents:
+  - id: getView
+    intent: Get a view by ID
+    question: How do I see the filters, grouping and sorting saved on a view?
+  - id: updateView
+    intent: Replace a view's configuration in full
+    question: What happens to view settings I leave out on a full replacement?
+  - id: deleteView
+    intent: Delete a view
+    question: How do I get rid of a saved view?
+  - id: patchView
+    intent: Change some settings on a view
+    question: Can I hide a view from the list without changing its filters?
+  - id: getViewsByRecordType
+    intent: List the views on a record type
+    question: What saved views exist for a record type?
+  - id: createView
+    intent: Create a view for a record type
+    question: How do I add a timeline or calendar view to a record type?
+  phrasing_ops: 6
   slug: workfront-views-api
 - baseURL: https://{customer-domain}.my.workfront.adobe.com/attask/api/v22.0
   baseurl_source: declared
   description: Workspace Controller
   name: Adobe Workfront Workspaces API
+  phrasing_intents:
+  - id: getWorkspaces
+    intent: List all workspaces (legacy v1)
+    question: Can the older v1 API list every workspace without cursor paging?
+  - id: getWorkspace
+    intent: Fetch a workspace with the legacy v1 endpoint
+    question: Is there a v1 endpoint that still returns one workspace by ID?
+  - id: getV2WorkspacesById
+    intent: Get a workspace by ID
+    question: How do I look up a workspace's name, owner and record type sections?
+  - id: updateWorkspace
+    intent: Replace a workspace's settings in full
+    question: What happens to workspace settings I leave out on a full replacement?
+  - id: deleteWorkspace
+    intent: Delete a workspace
+    question: How do I delete a workspace I no longer need?
+  - id: patchWorkspace
+    intent: Change some settings on a workspace
+    question: Can I rename a workspace without touching its other settings?
+  - id: getV2Workspaces
+    intent: Page through all workspaces
+    question: What workspaces do I have in Workfront Planning?
+  - id: createWorkspace
+    intent: Create a workspace
+    question: How do I set up a new workspace for a team?
+  phrasing_ops: 8
   slug: workfront-workspaces-api
 artifact_total: 21
 asyncapis:
@@ -320,7 +461,7 @@ scopes:
   summary_line: 18 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 70.0
+  composite: 70.3
   coverage:
     artifact_dirs: 26
     catalog_earned: 61.0
@@ -328,15 +469,15 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.1
+  delta: 0.3
   facets:
     access_clarity: 73.7
     contract_governance: 4.5
-    contract_quality: 55.2
+    contract_quality: 56.4
     developer_ergonomics: 83.3
     discoverability: 75.0
     operational_transparency: 78.9
-  previous_composite: 66.9
+  previous_composite: 70.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -354,7 +495,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

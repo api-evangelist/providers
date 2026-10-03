@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.1
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -61,96 +61,230 @@ apis:
   baseurl_source: declared
   description: The Access Token API from Buildkite — 1 operation(s) for access token.
   name: Buildkite Access Token API
+  phrasing_intents:
+  - id: getAccessToken
+    intent: Inspect the API access token in use
+    question: Which scopes does the Buildkite API token I'm using right now have?
+  - id: revokeAccessToken
+    intent: Revoke the API access token in use
+    question: How do I revoke the access token I'm currently authenticating with?
+  phrasing_ops: 2
   slug: buildkite-com-access-token-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Agent Tokens API from Buildkite — 1 operation(s) for agent tokens.
   name: Buildkite Agent Tokens API
+  phrasing_intents:
+  - id: listAgentTokens
+    intent: List agent tokens for a cluster
+    question: Which agent registration tokens exist for one of my clusters?
+  phrasing_ops: 1
   slug: buildkite-com-agent-tokens-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Agents API from Buildkite — 3 operation(s) for agents.
   name: Buildkite Agents API
+  phrasing_intents:
+  - id: listAgents
+    intent: List an organization's agents
+    question: Which build agents are connected to my organization right now?
+  - id: getAgent
+    intent: Get details of one agent
+    question: What's the status and hostname of a specific build agent?
+  - id: stopAgent
+    intent: Stop a running agent
+    question: How do I stop a build agent remotely?
+  phrasing_ops: 3
   slug: buildkite-com-agents-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Annotations API from Buildkite — 1 operation(s) for annotations.
   name: Buildkite Annotations API
+  phrasing_intents:
+  - id: listAnnotations
+    intent: List annotations on a build
+    question: How do I read the annotations steps added to a build?
+  phrasing_ops: 1
   slug: buildkite-com-annotations-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Artifacts API from Buildkite — 1 operation(s) for artifacts.
   name: Buildkite Artifacts API
+  phrasing_intents:
+  - id: listArtifactsForBuild
+    intent: List artifacts produced by a build
+    question: Which files did a build upload as artifacts?
+  phrasing_ops: 1
   slug: buildkite-com-artifacts-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Builds API from Buildkite — 4 operation(s) for builds.
   name: Buildkite Builds API
+  phrasing_intents:
+  - id: listBuilds
+    intent: List builds for a pipeline
+    question: How do I see the recent builds of one of my pipelines?
+  - id: createBuild
+    intent: Trigger a new build of a pipeline
+    question: How do I trigger a new build through the Buildkite API?
+  - id: getBuild
+    intent: Get one build by number
+    question: What's the state of a specific build number?
+  - id: cancelBuild
+    intent: Cancel a running build
+    question: How do I cancel a build that's still running?
+  - id: rebuildBuild
+    intent: Rebuild a previous build
+    question: How do I re-run an entire build with the same commit and settings?
+  phrasing_ops: 5
   slug: buildkite-com-builds-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Clusters API from Buildkite — 1 operation(s) for clusters.
   name: Buildkite Clusters API
+  phrasing_intents:
+  - id: listClusters
+    intent: List an organization's clusters
+    question: Which clusters are set up in my Buildkite organization?
+  phrasing_ops: 1
   slug: buildkite-com-clusters-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Emojis API from Buildkite — 1 operation(s) for emojis.
   name: Buildkite Emojis API
+  phrasing_intents:
+  - id: listEmojis
+    intent: List an organization's custom emojis
+    question: What custom emojis has my organization uploaded?
+  phrasing_ops: 1
   slug: buildkite-com-emojis-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Jobs API from Buildkite — 2 operation(s) for jobs.
   name: Buildkite Jobs API
+  phrasing_intents:
+  - id: retryJob
+    intent: Retry a job in a build
+    question: How do I retry a single failed job without rebuilding everything?
+  - id: getJobLog
+    intent: Get a job's log output
+    question: How do I download the log output of a job?
+  phrasing_ops: 2
   slug: buildkite-com-jobs-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Meta API from Buildkite — 1 operation(s) for meta.
   name: Buildkite Meta API
+  phrasing_intents:
+  - id: getMeta
+    intent: Get Buildkite platform meta information
+    question: What general meta information does the Buildkite API publish about the platform?
+  phrasing_ops: 1
   slug: buildkite-com-meta-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Metrics API from Buildkite — 1 operation(s) for metrics.
   name: Buildkite Metrics API
+  phrasing_intents:
+  - id: getMetrics
+    intent: Get agent and job counts for a cluster
+    question: How many jobs are waiting and how many agents are idle in my cluster?
+  phrasing_ops: 1
   slug: buildkite-com-metrics-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Organizations API from Buildkite — 2 operation(s) for organizations.
   name: Buildkite Organizations API
+  phrasing_intents:
+  - id: listOrganizations
+    intent: List organizations I belong to
+    question: Which Buildkite organizations can my token access?
+  - id: getOrganization
+    intent: Get one organization
+    question: Can I fetch the details of a single organization by its slug?
+  phrasing_ops: 2
   slug: buildkite-com-organizations-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Pipeline Templates API from Buildkite — 1 operation(s) for pipeline templates.
   name: Buildkite Pipeline Templates API
+  phrasing_intents:
+  - id: listPipelineTemplates
+    intent: List an organization's pipeline templates
+    question: Which pipeline templates are available in my organization?
+  phrasing_ops: 1
   slug: buildkite-com-pipeline-templates-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Pipelines API from Buildkite — 2 operation(s) for pipelines.
   name: Buildkite Pipelines API
+  phrasing_intents:
+  - id: listPipelines
+    intent: List an organization's pipelines
+    question: What pipelines exist in my organization?
+  - id: createPipeline
+    intent: Create a new pipeline
+    question: How do I create a pipeline for a repository through the API?
+  - id: getPipeline
+    intent: Get one pipeline's settings
+    question: Can I see the repository and default branch a specific pipeline uses?
+  - id: updatePipeline
+    intent: Update an existing pipeline
+    question: How do I change the settings of a pipeline that already exists?
+  - id: deletePipeline
+    intent: Delete a pipeline
+    question: How do I delete a pipeline I no longer need?
+  phrasing_ops: 5
   slug: buildkite-com-pipelines-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Queues API from Buildkite — 1 operation(s) for queues.
   name: Buildkite Queues API
+  phrasing_intents:
+  - id: listQueues
+    intent: List queues in a cluster
+    question: Which queues are defined in one of my clusters?
+  phrasing_ops: 1
   slug: buildkite-com-queues-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Rules API from Buildkite — 1 operation(s) for rules.
   name: Buildkite Rules API
+  phrasing_intents:
+  - id: listRules
+    intent: List an organization's rules
+    question: What rules are set up in my organization?
+  phrasing_ops: 1
   slug: buildkite-com-rules-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Stacks API from Buildkite — 1 operation(s) for stacks.
   name: Buildkite Stacks API
+  phrasing_intents:
+  - id: getStacks
+    intent: Get stack configuration for a self-hosted queue
+    question: How does a self-hosted queue controller get its desired stack configuration?
+  phrasing_ops: 1
   slug: buildkite-com-stacks-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Teams API from Buildkite — 1 operation(s) for teams.
   name: Buildkite Teams API
+  phrasing_intents:
+  - id: listTeams
+    intent: List an organization's teams
+    question: Which teams exist in my Buildkite organization?
+  phrasing_ops: 1
   slug: buildkite-com-teams-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The User API from Buildkite — 1 operation(s) for user.
   name: Buildkite User API
+  phrasing_intents:
+  - id: getCurrentUser
+    intent: Get the authenticated user
+    question: Who is the user behind the API token I'm using?
+  phrasing_ops: 1
   slug: buildkite-com-user-api
 arazzos:
 - description: Inspect a finished build, then pull its annotations and artifacts for triage.
@@ -686,7 +820,7 @@ score:
     catalog_gap: 43.2
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 88.9
     contract_governance: 31.8
@@ -701,7 +835,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 65.2
+  previous_composite: 66.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -718,7 +852,7 @@ score:
     regime_id: horizontal
     score: 39.2
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

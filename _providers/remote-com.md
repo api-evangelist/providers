@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.5
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 1
@@ -53,196 +53,640 @@ apis:
   baseurl_source: declared
   description: Country and employment benefit offers
   name: Remote Benefit Offers API
+  phrasing_intents:
+  - id: listBenefitOffers
+    intent: Browse benefit offers by country
+    question: What benefit packages can I offer employees in each country?
+  - id: listBenefitOffersByEmployment
+    intent: List benefit offers eligible for an employee
+    question: Which benefit offers can a particular employee choose from?
+  - id: getEmploymentBenefitOffers
+    intent: Get an employee's selected benefits
+    question: What benefits has an employee currently been enrolled in?
+  - id: upsertEmploymentBenefitOffers
+    intent: Set an employee's benefit selections
+    question: How do I enroll an employee in benefits or change their existing selection?
+  - id: getEmploymentBenefitOffersSchema
+    intent: Get the benefits form schema for an employee
+    question: What fields do I need to fill in when enrolling an employee in benefits?
+  phrasing_ops: 5
   slug: remote-com-benefit-offers-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Annual benefit-renewal requests
   name: Remote Benefit Renewals API
+  phrasing_intents:
+  - id: listBenefitRenewalRequests
+    intent: List benefit renewal requests
+    question: Which benefit plans are up for renewal and waiting on my decision?
+  - id: showBenefitRenewalRequest
+    intent: View a benefit renewal request
+    question: What does a specific benefit renewal request propose for next year?
+  - id: showBenefitRenewalRequestSchema
+    intent: Get the response form for a benefit renewal
+    question: What fields are required when answering a benefit renewal request?
+  - id: updateBenefitRenewalRequestResponse
+    intent: Respond to a benefit renewal request
+    question: How do I accept or respond to a benefit renewal that Remote sent me?
+  phrasing_ops: 4
   slug: remote-com-benefit-renewals-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Customer-facing invoices and statements
   name: Remote Billing Documents API
+  phrasing_intents:
+  - id: listBillingDocuments
+    intent: List billing documents
+    question: What invoices and billing documents has Remote issued to my company?
+  - id: showBillingDocument
+    intent: View a billing document
+    question: How do I see the totals and details of one billing document?
+  - id: getBillingDocumentBreakdown
+    intent: Break down a billing document by line item
+    question: What exactly am I being charged for on a billing document, line by line?
+  - id: downloadBillingDocumentPdf
+    intent: Download a billing document as PDF
+    question: How do I get a PDF copy of a Remote invoice for my accounting team?
+  phrasing_ops: 4
   slug: remote-com-billing-documents-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Create, retrieve, and update company records
   name: Remote Companies API
+  phrasing_intents:
+  - id: listCompanies
+    intent: List companies my token can access
+    question: Which companies can my partner integration manage?
+  - id: createCompany
+    intent: Create a new company on Remote
+    question: How do I sign up a new customer company on Remote through the API?
+  - id: showCompany
+    intent: Get a company's details
+    question: How do I look up a company's profile by its id?
+  - id: updateCompany
+    intent: Update a company's name, address or tax number
+    question: Can I change a company's registered address or tax number?
+  - id: listCompanyLegalEntities
+    intent: List a company's hiring legal entities
+    question: Which legal entities does my company hire people under?
+  - id: showSchemaForm
+    intent: Get the localized data form for a resource
+    question: What country-specific fields does Remote require for a resource like an employment?
+  phrasing_ops: 6
   slug: remote-com-companies-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: List currencies a company can be billed in
   name: Remote Company Currencies API
+  phrasing_intents:
+  - id: listCompanyCurrencies
+    intent: List currencies a company can be billed in
+    question: Which currencies can my company choose for billing?
+  phrasing_ops: 1
   slug: remote-com-company-currencies-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Manage administrators and managers within a company
   name: Remote Company Managers API
+  phrasing_intents:
+  - id: listCompanyManagers
+    intent: List a company's managers
+    question: Who has manager or admin access to my company on Remote?
+  - id: createCompanyManager
+    intent: Add a manager to a company
+    question: How do I give a colleague admin access to our Remote account?
+  - id: showCompanyManager
+    intent: View one company manager
+    question: What role does a particular manager have at my company?
+  - id: deleteCompanyManager
+    intent: Remove a manager from a company
+    question: How do I revoke a manager's access to our company?
+  phrasing_ops: 4
   slug: remote-com-company-managers-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Reporting hierarchy and structure nodes for employees
   name: Remote Company Structure API
+  phrasing_intents:
+  - id: listCompanyStructureNodes
+    intent: List org chart nodes
+    question: How is my company's org structure laid out in Remote?
+  phrasing_ops: 1
   slug: remote-com-company-structure-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Read compliance profiles and supported jurisdictions
   name: Remote Compliance API
+  phrasing_intents:
+  - id: showCompanyComplianceProfile
+    intent: Check a company's compliance profile
+    question: Is my company eligible to hire right now, based on compliance signals?
+  - id: showOnboardingReservesStatus
+    intent: Check EOR onboarding reserve status
+    question: Has my reserve payment cleared so I can onboard new EOR hires?
+  phrasing_ops: 2
   slug: remote-com-compliance-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Submit and track contract amendments
   name: Remote Contract Amendments API
+  phrasing_intents:
+  - id: listContractAmendments
+    intent: List contract amendments
+    question: Which contract changes have been requested for my employees?
+  - id: createContractAmendment
+    intent: Request a contract amendment
+    question: How do I request a change to an employee's contract starting on a certain date?
+  - id: createAutomatableContractAmendment
+    intent: Submit an auto-approvable contract amendment
+    question: Can contract changes be approved automatically without Remote reviewing them by hand?
+  - id: showContractAmendment
+    intent: View a contract amendment
+    question: What is the status of a contract amendment I submitted?
+  - id: showContractAmendmentSchema
+    intent: Get the amendment form for an employment
+    question: Which contract fields can be amended for an employee in their country?
+  phrasing_ops: 5
   slug: remote-com-contract-amendments-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Sign, retrieve, and manage employment contract documents
   name: Remote Contract Documents API
+  phrasing_intents:
+  - id: createContractDocument
+    intent: Create a contract document
+    question: How do I generate a new contract document to be signed?
+  - id: showContractDocument
+    intent: View a contract document
+    question: Has a contract document been signed yet?
+  - id: signContractDocument
+    intent: Sign a contract document
+    question: Can I sign a contract document on behalf of my company through the API?
+  phrasing_ops: 3
   slug: remote-com-contract-documents-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Verify contractor-vs-employee classification
   name: Remote Contract Eligibility API
+  phrasing_intents:
+  - id: createContractEligibility
+    intent: Check contractor misclassification risk
+    question: Is it risky to engage someone as a contractor rather than an employee in a given country?
+  - id: listContractorEligibilityLegalEntities
+    intent: List entities for contractor eligibility checks
+    question: Which legal entities can I run contractor eligibility checks against?
+  phrasing_ops: 2
   slug: remote-com-contract-eligibility-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: List currencies available for contractor payments
   name: Remote Contractor Currencies API
+  phrasing_intents:
+  - id: listContractorCurrencies
+    intent: List currencies contractors can be paid in
+    question: Which currencies can my contractors invoice or be paid in?
+  phrasing_ops: 1
   slug: remote-com-contractor-currencies-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: List and inspect contractor invoices
   name: Remote Contractor Invoices API
+  phrasing_intents:
+  - id: listContractorInvoices
+    intent: List contractor invoices
+    question: Which invoices have my contractors submitted?
+  - id: showContractorInvoice
+    intent: View a contractor invoice
+    question: How do I see the amount and status of one contractor invoice?
+  phrasing_ops: 2
   slug: remote-com-contractor-invoices-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Manage contractor plan subscriptions (Standard, Plus, COR)
   name: Remote Contractor Subscriptions API
+  phrasing_intents:
+  - id: listContractorSubscriptions
+    intent: List contractor subscriptions
+    question: Which of my contractors are on Plus or Contractor of Record plans?
+  - id: manageContractorPlusSubscription
+    intent: Subscribe, change or cancel Contractor Plus
+    question: How do I add the Plus indemnity plan to a contractor?
+  - id: manageCorSubscription
+    intent: Subscribe, change or cancel Contractor of Record
+    question: How do I move a contractor onto a Contractor of Record subscription?
+  - id: deleteCorSubscription
+    intent: Delete a Contractor of Record subscription
+    question: How do I remove the COR subscription from a contractor entirely?
+  phrasing_ops: 4
   slug: remote-com-contractor-subscriptions-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Terminate Contractor-of-Record engagements
   name: Remote COR Termination API
+  phrasing_intents:
+  - id: showCorTerminationRequest
+    intent: View a COR termination request
+    question: What is the status of the request to end a Contractor of Record engagement?
+  - id: createCorTerminationRequest
+    intent: Request to end a COR engagement
+    question: How do I ask Remote to end a Contractor of Record engagement on a specific last day?
+  - id: terminateContractorOfRecordEmployment
+    intent: Terminate a Contractor of Record employment
+    question: How do I immediately terminate a Contractor of Record employment?
+  phrasing_ops: 3
   slug: remote-com-cor-termination-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Estimate the loaded cost of hiring in a given country
   name: Remote Cost Calculator API
+  phrasing_intents:
+  - id: estimateEmploymentCost
+    intent: Estimate the total cost of a hire
+    question: How much would it really cost to hire someone in Spain at a given salary?
+  phrasing_ops: 1
   slug: remote-com-cost-calculator-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: List of countries Remote supports
   name: Remote Countries API
+  phrasing_intents:
+  - id: listCountries
+    intent: List countries Remote supports
+    question: Which countries can I hire in through Remote?
+  - id: showCountry
+    intent: Get details for one country
+    question: What does Remote support for hiring in a particular country?
+  phrasing_ops: 2
   slug: remote-com-countries-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Customer-defined fields on companies and employments
   name: Remote Custom Fields API
+  phrasing_intents:
+  - id: listCustomFieldDefinitions
+    intent: List custom field definitions
+    question: What custom fields have we defined for employees?
+  - id: createCustomFieldDefinition
+    intent: Define a new custom field
+    question: How do I add a custom field like cost center to employee records?
+  - id: listCustomFieldValues
+    intent: List values stored in a custom field
+    question: What values have been filled in for a custom field across employees?
+  - id: upsertCustomFieldValue
+    intent: Set a custom field value for a record
+    question: How do I set or overwrite a custom field value for an employee?
+  phrasing_ops: 4
   slug: remote-com-custom-fields-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Manage company-defined departments and org structure
   name: Remote Departments API
+  phrasing_intents:
+  - id: listDepartments
+    intent: List a company's departments
+    question: What departments exist in my company on Remote?
+  - id: createDepartment
+    intent: Create a department
+    question: How do I add a new department to my company?
+  phrasing_ops: 2
   slug: remote-com-departments-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: View active and pending employment contracts
   name: Remote Employment Contracts API
+  phrasing_intents:
+  - id: listEmploymentContracts
+    intent: List an employee's contracts
+    question: What contracts has an employee had with us over time?
+  - id: getPendingContractChanges
+    intent: See pending contract changes for an employee
+    question: Are there contract changes waiting to take effect for an employee?
+  phrasing_ops: 2
   slug: remote-com-employment-contracts-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Create, read, update, and invite employment records
   name: Remote Employments API
+  phrasing_intents:
+  - id: listEmployments
+    intent: List employments
+    question: Who is currently employed or contracted through my company on Remote?
+  - id: createEmployment
+    intent: Create a new employment
+    question: How do I start hiring someone in another country through Remote?
+  - id: showEmployment
+    intent: Get an employment's details
+    question: What's the current status and job info for one employee?
+  - id: updateEmployment
+    intent: Update an employee's job, manager or department
+    question: Can I change an employee's manager or department?
+  - id: inviteEmployment
+    intent: Invite a hire to self-serve onboarding
+    question: How do I send a new hire the invitation to complete their own onboarding?
+  - id: showAdministrativeDetails
+    intent: View an employee's administrative details
+    question: Where do I see an employee's administrative details on file?
+  - id: updateAdministrativeDetails
+    intent: Update an employee's administrative details
+    question: Can I correct or replace an employee's administrative details?
+  phrasing_ops: 7
   slug: remote-com-employments-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Employee expense reimbursements
   name: Remote Expenses API
+  phrasing_intents:
+  - id: listExpenses
+    intent: List expenses
+    question: Which expense claims are waiting for approval?
+  - id: createExpense
+    intent: Submit an expense for an employee
+    question: How do I record a reimbursable expense on behalf of an employee?
+  - id: showExpense
+    intent: View an expense
+    question: What is the status of a specific expense claim?
+  - id: updateExpense
+    intent: Edit an existing expense
+    question: Can I fix the amount or category on an expense already submitted?
+  - id: deleteExpense
+    intent: Delete an expense
+    question: How do I remove an expense that was submitted by mistake?
+  - id: approveExpense
+    intent: Approve an expense
+    question: How do I approve an employee's expense so it gets reimbursed?
+  - id: declineExpense
+    intent: Decline an expense with a reason
+    question: How do I reject an expense claim and explain why?
+  phrasing_ops: 7
   slug: remote-com-expenses-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Document upload and retrieval
   name: Remote Files API
+  phrasing_intents:
+  - id: uploadFile
+    intent: Upload a file to a record
+    question: How do I attach a document to an employment or other record?
+  - id: downloadFile
+    intent: Download a file
+    question: How do I download a document that was uploaded to Remote?
+  phrasing_ops: 2
   slug: remote-com-files-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Inspect the identity of the current access token
   name: Remote Identity API
+  phrasing_intents:
+  - id: getTokenIdentity
+    intent: See what the current token can control
+    question: Which companies and users can my current access token act on?
+  phrasing_ops: 1
   slug: remote-com-identity-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: One-time bonuses and recurring incentives
   name: Remote Incentives API
+  phrasing_intents:
+  - id: listIncentives
+    intent: List incentives
+    question: What bonuses or commissions have been scheduled for employees?
+  - id: createIncentive
+    intent: Add a bonus or incentive payment
+    question: How do I pay an employee a one-time bonus through payroll?
+  - id: showIncentive
+    intent: View an incentive
+    question: What are the details of a bonus I scheduled?
+  - id: updateIncentive
+    intent: Change an existing incentive
+    question: Can I change the amount or effective date of a bonus I already created?
+  - id: deleteIncentive
+    intent: Delete an incentive
+    question: How do I cancel a bonus that hasn't been paid yet?
+  phrasing_ops: 5
   slug: remote-com-incentives-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Per-employee leave balances
   name: Remote Leave Balances API
+  phrasing_intents:
+  - id: listLeaveBalances
+    intent: Check an employee's leave balances
+    question: How many vacation days does an employee have left?
+  phrasing_ops: 1
   slug: remote-com-leave-balances-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Per-country leave policy definitions
   name: Remote Leave Policies API
+  phrasing_intents:
+  - id: listLeavePolicies
+    intent: List leave policies
+    question: What leave policies apply to employees in a given country?
+  - id: showLeavePolicy
+    intent: View a leave policy
+    question: What are the rules of a specific leave policy?
+  phrasing_ops: 2
   slug: remote-com-leave-policies-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Generate passwordless magic links for users and employees
   name: Remote Magic Links API
+  phrasing_intents:
+  - id: generateMagicLink
+    intent: Generate a passwordless login link
+    question: How can I log a user or employee into Remote without a password?
+  phrasing_ops: 1
   slug: remote-com-magic-links-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Drive employee offboarding flows
   name: Remote Offboarding API
+  phrasing_intents:
+  - id: submitOffboarding
+    intent: Start offboarding an employee
+    question: How do I begin offboarding an employee who is leaving?
+  - id: showOffboarding
+    intent: Check an offboarding's progress
+    question: Where does an employee's offboarding stand?
+  phrasing_ops: 2
   slug: remote-com-offboarding-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Drive employee onboarding flows
   name: Remote Onboarding API
+  phrasing_intents:
+  - id: inviteEmployment
+    intent: Invite a new hire to self-serve onboarding
+    question: How do I invite a new hire to fill out their own onboarding details?
+  - id: createEligibilityQuestionnaire
+    intent: Start an eligibility questionnaire for a hire
+    question: How do I check whether a new hire is eligible to be employed?
+  - id: showEligibilityQuestionnaire
+    intent: View an eligibility questionnaire
+    question: What answers were given on a hire's eligibility questionnaire?
+  - id: submitRiskReserveProofOfPayment
+    intent: Submit proof of an EOR risk reserve payment
+    question: How do I prove we paid the risk reserve required for EOR hiring?
+  phrasing_ops: 4
   slug: remote-com-onboarding-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Inspect payroll calendars for company, EOR, and Global Payroll
   name: Remote Payroll Calendars API
+  phrasing_intents:
+  - id: listPayrollCalendar
+    intent: List payroll calendar dates
+    question: When are the upcoming payroll cutoffs and pay dates?
+  - id: listCompanyPayrollCalendar
+    intent: List my company's payroll calendar
+    question: What is my own company's payroll schedule?
+  - id: listEorPayrollCalendar
+    intent: List the EOR payroll calendar
+    question: When does Remote run payroll for employer-of-record employees?
+  phrasing_ops: 3
   slug: remote-com-payroll-calendars-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Released payslips for employees
   name: Remote Payslips API
+  phrasing_intents:
+  - id: listPayslips
+    intent: List payslips
+    question: Where can I find an employee's payslips?
+  - id: showPayslip
+    intent: View a payslip
+    question: How do I open one payslip to see gross and net pay?
+  phrasing_ops: 2
   slug: remote-com-payslips-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Schedule recurring contractor invoices
   name: Remote Scheduled Invoices API
+  phrasing_intents:
+  - id: listScheduledContractorInvoices
+    intent: List scheduled contractor invoices
+    question: Which recurring contractor invoices are scheduled?
+  - id: bulkCreateScheduledContractorInvoices
+    intent: Schedule contractor invoices in bulk
+    question: How do I set up recurring invoices for many contractors at once?
+  - id: showScheduledContractorInvoice
+    intent: View a scheduled contractor invoice
+    question: What amount and recurrence is set on a scheduled contractor invoice?
+  - id: updateScheduledContractorInvoice
+    intent: Change a scheduled contractor invoice
+    question: Can I change the amount or end date of a recurring contractor invoice?
+  phrasing_ops: 4
   slug: remote-com-scheduled-invoices-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Configure SAML/OIDC single sign-on for a company
   name: Remote SSO API
+  phrasing_intents:
+  - id: showSsoConfiguration
+    intent: View the current SSO configuration
+    question: Is single sign-on set up for our Remote account?
+  - id: createSsoConfiguration
+    intent: Set up single sign-on
+    question: How do I configure SSO so employees log in with our identity provider?
+  - id: showSsoConfigurationDetails
+    intent: View detailed SSO settings
+    question: Where do I find the full details of our SSO setup, beyond whether it is on?
+  phrasing_ops: 3
   slug: remote-com-sso-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Time-off requests and approvals
   name: Remote Time Off API
+  phrasing_intents:
+  - id: listTimeOffRequests
+    intent: List time off requests
+    question: Who has time off booked next month?
+  - id: createTimeOffRequest
+    intent: Book time off for an employee
+    question: How do I record vacation for an employee?
+  - id: showTimeOffRequest
+    intent: View a time off request
+    question: What dates and status does a particular time off request have?
+  - id: updateTimeOffRequest
+    intent: Change the dates of a time off request
+    question: Can I change the dates of time off that's already booked?
+  - id: approveTimeOffRequest
+    intent: Approve a time off request
+    question: How do I approve an employee's vacation request?
+  - id: declineTimeOffRequest
+    intent: Decline a time off request
+    question: How do I turn down a leave request and give a reason?
+  - id: cancelTimeOffRequest
+    intent: Cancel a time off request
+    question: How do I cancel time off an employee no longer needs?
+  phrasing_ops: 7
   slug: remote-com-time-off-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Hourly and salaried timesheets
   name: Remote Timesheets API
+  phrasing_intents:
+  - id: listTimesheets
+    intent: List timesheets
+    question: Which timesheets are waiting for my approval?
+  - id: showTimesheet
+    intent: View a timesheet
+    question: How many hours were logged on a specific timesheet?
+  - id: approveTimesheet
+    intent: Approve a timesheet
+    question: How do I approve submitted hours so they go to payroll?
+  - id: sendTimesheetBack
+    intent: Send a timesheet back for revision
+    question: How do I return a timesheet to the employee to fix their hours?
+  phrasing_ops: 4
   slug: remote-com-timesheets-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Travel letter requests for employees moving across borders
   name: Remote Travel Letters API
+  phrasing_intents:
+  - id: listTravelLetterRequests
+    intent: List travel letter requests
+    question: Which employees have asked for a travel letter?
+  - id: createTravelLetterRequest
+    intent: Request a travel letter
+    question: How do I request an employment travel letter for a trip abroad?
+  - id: showTravelLetterRequest
+    intent: View a travel letter request
+    question: What is the status of a travel letter I requested?
+  - id: updateTravelLetterRequest
+    intent: Update a travel letter request
+    question: Can I change the details of a travel letter request already submitted?
+  phrasing_ops: 4
   slug: remote-com-travel-letters-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
   description: Work authorization (visa / right to work) requests
   name: Remote Work Authorization API
+  phrasing_intents:
+  - id: listWorkAuthorizationRequests
+    intent: List work authorization requests
+    question: Which employees have requested work authorization or visa support?
+  - id: showWorkAuthorizationRequest
+    intent: View a work authorization request
+    question: What is the status of an employee's work permit request?
+  - id: updateWorkAuthorizationRequest
+    intent: Update a work authorization request
+    question: Can I change or respond to a work authorization request?
+  phrasing_ops: 3
   slug: remote-com-work-authorization-api
 - baseURL: https://gateway.remote.com
   baseurl_source: declared
   description: OAuth 2.0 authorization endpoints
   name: Remote O Auth API
+  phrasing_intents:
+  - id: authorize
+    intent: Send a company admin to grant access
+    question: How does a company admin authorize my partner app to access their Remote account?
+  - id: exchangeOAuthToken
+    intent: Exchange a code or refresh token for an access token
+    question: How do I turn an authorization code into a company-scoped access token?
+  phrasing_ops: 2
   slug: remote-com-oauth-api
 arazzos:
 - description: Submit a contract amendment for an employment and track it to a resolved state.
@@ -893,7 +1337,7 @@ score:
     catalog_gap: 31.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 75.8
     contract_governance: 31.8
@@ -901,7 +1345,7 @@ score:
     developer_ergonomics: 70.2
     discoverability: 71.7
     operational_transparency: 66.3
-  previous_composite: 72.6
+  previous_composite: 73.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -922,7 +1366,7 @@ score:
     regime_id: employment_payroll
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 61.6
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -66,41 +66,111 @@ apis:
   baseurl_source: declared
   description: The Authentication API from Airwallex — 1 operation(s) for authentication.
   name: Airwallex Authentication API
+  phrasing_intents:
+  - id: login
+    intent: Obtain an API access token
+    question: How do I get a bearer token to call the Airwallex API?
+  phrasing_ops: 1
   slug: airwallex-authentication-api
 - baseURL: https://api.airwallex.com/api/v1
   baseurl_source: declared
   description: The Balances API from Airwallex — 1 operation(s) for balances.
   name: Airwallex Balances API
+  phrasing_intents:
+  - id: getCurrentBalances
+    intent: Check current account balances
+    question: How much money is in my Airwallex account right now?
+  phrasing_ops: 1
   slug: airwallex-balances-api
 - baseURL: https://api.airwallex.com/api/v1
   baseurl_source: declared
   description: The Beneficiaries API from Airwallex — 3 operation(s) for beneficiaries.
   name: Airwallex Beneficiaries API
+  phrasing_intents:
+  - id: listBeneficiaries
+    intent: List saved beneficiaries
+    question: Which beneficiaries have I already saved in Airwallex?
+  - id: createBeneficiary
+    intent: Add a new beneficiary
+    question: How do I add a new person or business I want to pay?
+  - id: getBeneficiary
+    intent: Look up one beneficiary
+    question: What details are stored for a specific beneficiary?
+  phrasing_ops: 3
   slug: airwallex-beneficiaries-api
 - baseURL: https://api.airwallex.com/api/v1
   baseurl_source: declared
   description: The Customers API from Airwallex — 2 operation(s) for customers.
   name: Airwallex Customers API
+  phrasing_intents:
+  - id: createCustomer
+    intent: Create a payment customer
+    question: How do I create a customer record for accepting payments in Airwallex?
+  - id: getCustomer
+    intent: Look up a payment customer
+    question: What details do I have stored for an existing customer?
+  phrasing_ops: 2
   slug: airwallex-customers-api
 - baseURL: https://api.airwallex.com/api/v1
   baseurl_source: declared
   description: The Payment Intents API from Airwallex — 5 operation(s) for payment intents.
   name: Airwallex Payment Intents API
+  phrasing_intents:
+  - id: createPaymentIntent
+    intent: Start a new payment
+    question: How do I start collecting a payment from a customer in Airwallex?
+  - id: getPaymentIntent
+    intent: Check a payment's status
+    question: Did a particular payment succeed or is it still pending?
+  - id: confirmPaymentIntent
+    intent: Confirm a payment
+    question: How do I confirm a payment intent so the charge goes through?
+  - id: capturePaymentIntent
+    intent: Capture an authorized payment
+    question: Can I collect funds on a payment that was only authorized?
+  - id: cancelPaymentIntent
+    intent: Cancel a payment
+    question: Can I cancel a payment that has not been completed yet?
+  phrasing_ops: 5
   slug: airwallex-payment-intents-api
 - baseURL: https://api.airwallex.com/api/v1
   baseurl_source: declared
   description: The Payouts API from Airwallex — 2 operation(s) for payouts.
   name: Airwallex Payouts API
+  phrasing_intents:
+  - id: createPayout
+    intent: Send a payout
+    question: How do I send a payout from my Airwallex account?
+  - id: getPayout
+    intent: Check a payout's status
+    question: Has a payout I sent been completed yet?
+  phrasing_ops: 2
   slug: airwallex-payouts-api
 - baseURL: https://api.airwallex.com/api/v1
   baseurl_source: declared
   description: The Refunds API from Airwallex — 2 operation(s) for refunds.
   name: Airwallex Refunds API
+  phrasing_intents:
+  - id: createRefund
+    intent: Refund a customer payment
+    question: How do I refund a customer who paid through Airwallex?
+  - id: getRefund
+    intent: Check a refund's status
+    question: Has a refund I issued been processed yet?
+  phrasing_ops: 2
   slug: airwallex-refunds-api
 - baseURL: https://api.airwallex.com/api/v1
   baseurl_source: declared
   description: The Transfers API from Airwallex — 2 operation(s) for transfers.
   name: Airwallex Transfers API
+  phrasing_intents:
+  - id: createTransfer
+    intent: Send a transfer to a beneficiary
+    question: How do I transfer money to a beneficiary with Airwallex?
+  - id: getTransfer
+    intent: Check a transfer's status
+    question: Has a transfer I sent arrived yet?
+  phrasing_ops: 2
   slug: airwallex-transfers-api
 artifact_total: 74
 asyncapis:
@@ -543,7 +613,7 @@ score:
     catalog_gap: 31.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 100.0
     contract_governance: 45.5
@@ -556,7 +626,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - global
-  previous_composite: 91.4
+  previous_composite: 85.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -580,8 +650,8 @@ score:
     regime_id: payments
     score: 57.1
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
-  trend: falling
+  scored_at: '2026-10-03'
+  trend: flat
   upsert:
     applies: true
     score: 0.0

@@ -16,18 +16,18 @@
      "slug": "halo-connect",
      "description": "Halo Connect is an Australian healthcare interoperability platform, founded in 2021 and headquartered in Brisbane, Queensland, that makes primary-care data integration simple by exposing on-premise practice management system (PMS) databases through a modern cloud API. Its Halo Link agent and Halo Cloud service let approved software integrators query systems such as Best Practice, Zedmed, and Dental4Windows using either SQL passthrough or a standards-based FHIR R4 (4.0.1) API built toward the AU Base 4.1.0 implementation guide, without maintaining a separate database agent per integration. Halo Connect built the first FHIR API for the Best Practice Premier medical-practice industry. The platform runs on Microsoft Azure hosted in Australia, and access is gated behind a Halo Cloud subscription using Azure API Management subscription keys and, for desktop applications, bearer JWT tokens issued from a token endpoint; there is no self-serve public API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/screenshots/halo-connect-2026-07-25T220547.png",
-     "score": 53.4,
+     "score": 53.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 73.2,
-      "contract_quality": 58.3,
+      "contract_quality": 59.8,
       "contract_governance": 18.2,
       "operational_transparency": 50.0,
       "developer_ergonomics": 66.1,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -67,18 +67,18 @@
      "slug": "best-practice",
      "description": "Best Practice Software is an Australian clinical and practice-management software company, headquartered in Bundaberg, Queensland, and one half of the Australian GP-software duopoly (alongside MedicalDirector). Its flagship products - Bp Premier (general practice), Bp VIP.net (specialist and allied), and Bp Allied - run in thousands of Australian medical practices. Best Practice's programmatic surface is delivered through Halo Connect (Halo Cloud / Halo Link), a FHIR-based integration platform that lets approved partners query practice data over a modern API instead of the legacy SQL database. The FHIR API for Bp Premier is built to the AU Base 4.1.0 implementation guide, falling back to HL7 FHIR R4 (4.0.1), and exposes resources such as Patient, Appointment, Slot (Find Free Slots) and a Patient $summary document. Halo Cloud also offers SQL Passthrough and Registered Queries for structured practice data. Access is gated - integrators require a Halo Cloud subscription plus per-practice pairing and PMS-managed database credentials, authenticated with an Azure API Management subscription key (desktop apps additionally use a bearer JWT and device id). This is not a self-serve public API; it is a partner-onboarded, standards-aligned interoperability layer for the Australian primary-care market.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/screenshots/best-practice-2026-07-25T202754.png",
-     "score": 47.6,
+     "score": 47.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 73.2,
-      "contract_quality": 57.7,
+      "contract_quality": 59.2,
       "contract_governance": 18.2,
       "operational_transparency": 39.5,
       "developer_ergonomics": 66.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -129,7 +129,7 @@
       "developer_ergonomics": 41.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -180,18 +180,18 @@
      "slug": "medadvisor",
      "description": "MedAdvisor (MedAdvisor Solutions) is an Australian-founded, ASX-listed medication management and patient engagement technology company whose pharmacy workflow software runs in more than 95% of Australian community pharmacies and reaches over 4 million patients. Its clinician-facing platform - the web-based \"MedAdvisor for Pharmacy\" that replaced the long-running PlusOne desktop software - handles dispense workflow, medication adherence, appointment and service booking (vaccinations, health checks, scope-of-practice services), e-script (eScript) token handling, refill ordering, and omnichannel patient communication, alongside a consumer medication app. On the developer side MedAdvisor exposes a real, Swagger-documented HTTP REST surface, the Pharmacy Unified API, at pharmacy-unified.api.medadvisor.com.au, including a \"3rd-Party Integration\" family (partner login, pharmacy lookup, eScript status, and order notification into the pharmacy PlusOne inbox) for third-party widgets and eCommerce integrations. Authentication is a JWT bearer token obtained via a clientId/clientSecret plus Base64-encoded pharmacy credentials exchange; the surface is HL7/HTTP REST rather than HL7 FHIR - no public FHIR CapabilityStatement or SMART-on-FHIR configuration is served. Home market is Australia, positioned as the dominant community-pharmacy engagement layer sitting between dispense systems, pharmaceutical programs, and patients.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/screenshots/medadvisor-2026-08-07T172313.png",
-     "score": 46.3,
+     "score": 46.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 73.2,
-      "contract_quality": 40.9,
+      "contract_quality": 41.1,
       "contract_governance": 18.2,
       "operational_transparency": 0.0,
       "developer_ergonomics": 35.1,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -253,7 +253,7 @@
       "developer_ergonomics": 36.9,
       "access_clarity": 50.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -315,7 +315,7 @@
       "developer_ergonomics": 70.4,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -366,7 +366,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -417,7 +417,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -467,7 +467,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -529,7 +529,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -580,7 +580,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -641,7 +641,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,

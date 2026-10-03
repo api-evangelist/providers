@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 62.4
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 api_count: 1
 apis:
 - description: FLORA's hosted remote Model Context Protocol server. Streamable HTTP at https://agents.flora.ai/mcp, authenticated with OAuth 2.1 + PKCE (RFC 8414 authorization-server metadata and RFC 9728 protected-
@@ -45,56 +45,162 @@ apis:
   baseurl_source: declared
   description: Prebuilt action catalog endpoints.
   name: FLORA Actions API
+  phrasing_intents:
+  - id: listActions
+    intent: List available prebuilt actions
+    question: Which prebuilt Flora actions can I run through the API?
+  - id: getAction
+    intent: Get details of one prebuilt action
+    question: What does a specific prebuilt action do and what metadata does it have?
+  phrasing_ops: 2
   slug: flora-fauna-actions-api
 - baseURL: https://app.flora.ai/api/v1
   baseurl_source: declared
   description: Asset upload and retrieval endpoints.
   name: FLORA Assets API
+  phrasing_intents:
+  - id: listAssets
+    intent: List assets in a workspace or project
+    question: How can I see all the media assets my Flora API key has access to?
+  - id: uploadAsset
+    intent: Upload a new asset
+    question: How do I import an image from a URL into my workspace as an asset?
+  - id: getAsset
+    intent: Get one asset's metadata
+    question: What metadata can I look up for a single asset by its ID?
+  - id: completeAssetUpload
+    intent: Mark a signed upload as complete
+    question: What do I call after I finish pushing the file to the signed upload URL?
+  - id: retryAssetUpload
+    intent: Retry a failed or expired asset upload
+    question: My signed upload URL expired before the file finished — can I get a fresh one?
+  phrasing_ops: 5
   slug: flora-fauna-assets-api
 - baseURL: https://app.flora.ai/api/v1
   baseurl_source: declared
   description: Project canvas endpoints.
   name: FLORA Canvas API
+  phrasing_intents:
+  - id: createCanvasAction
+    intent: Add a prebuilt action node to a canvas
+    question: How do I place a prebuilt action like rotate-image onto my project canvas?
+  - id: runCanvasAction
+    intent: Run an action node already on a canvas
+    question: How do I execute an action node that's already sitting on my canvas?
+  - id: listCanvasNodes
+    intent: List media nodes on a project canvas
+    question: Which images and videos are currently on a project's canvas?
+  - id: attachCanvasAsset
+    intent: Place an existing asset on a canvas
+    question: How do I put an asset I've already uploaded onto a project canvas?
+  phrasing_ops: 4
   slug: flora-fauna-canvas-api
 - baseURL: https://app.flora.ai/api/v1
   baseurl_source: declared
   description: Product feedback endpoints.
   name: FLORA Feedback API
+  phrasing_intents:
+  - id: recordFeedback
+    intent: Send product feedback
+    question: How do I report a bug or feature request to Flora through the API?
+  phrasing_ops: 1
   slug: flora-fauna-feedback-api
 - baseURL: https://app.flora.ai/api/v1
   baseurl_source: declared
   description: Generation endpoints.
   name: FLORA Generations API
+  phrasing_intents:
+  - id: startGeneration
+    intent: Start a model generation from a prompt
+    question: How do I generate an image or video from a text prompt and poll for the result?
+  phrasing_ops: 1
   slug: flora-fauna-generations-api
 - baseURL: https://app.flora.ai/api/v1
   baseurl_source: declared
   description: Model catalog endpoints.
   name: FLORA Models API
+  phrasing_intents:
+  - id: listModels
+    intent: List available generation models
+    question: Which models can I generate with?
+  phrasing_ops: 1
   slug: flora-fauna-models-api
 - baseURL: https://app.flora.ai/api/v1
   baseurl_source: declared
   description: Project management endpoints.
   name: FLORA Projects API
+  phrasing_intents:
+  - id: listProjects
+    intent: List projects in a workspace
+    question: Which projects are in my workspace, most recently active first?
+  - id: createProject
+    intent: Create a project
+    question: How do I start a new Flora project through the API?
+  - id: getProject
+    intent: Get a project's details
+    question: How can I look up the metadata for one project by its ID?
+  - id: getProjectCanvas
+    intent: Get a project canvas as a Mermaid flowchart
+    question: Can I export the layout of a project canvas as a Mermaid diagram?
+  - id: patchProjectCanvas
+    intent: Add and connect canvas nodes from Mermaid
+    question: Can I add nodes to a canvas by sending a Mermaid flowchart?
+  phrasing_ops: 5
   slug: flora-fauna-projects-api
 - baseURL: https://app.flora.ai/api/v1
   baseurl_source: declared
   description: Top-level run creation endpoints.
   name: FLORA Runs API
+  phrasing_intents:
+  - id: getRun
+    intent: Check a run's status and outputs
+    question: How do I check whether my generation or action run has finished?
+  - id: createActionRun
+    intent: Run a prebuilt action headlessly
+    question: Can I run an action like rotate-image on an image URL without touching any canvas?
+  - id: createGenerationRun
+    intent: Start a generation run on a project canvas
+    question: How do I generate an image into a project canvas through the normalized runs resource?
+  - id: createTopLevelTechniqueRun
+    intent: Start a technique run via the top-level runs route
+    question: How do I start a technique run using the newer top-level runs endpoint?
+  phrasing_ops: 4
   slug: flora-fauna-runs-api
 - baseURL: https://app.flora.ai/api/v1
   baseurl_source: declared
   description: Nested technique run endpoints.
   name: FLORA Technique Runs API
+  phrasing_intents:
+  - id: startTechniqueRun
+    intent: Start a technique run via its nested route
+    question: Can I get a callback to my HTTPS endpoint when a technique run finishes?
+  - id: getTechniqueRun
+    intent: Check a technique run's progress
+    question: How far along is my technique run and did it produce outputs?
+  phrasing_ops: 2
   slug: flora-fauna-technique-runs-api
 - baseURL: https://app.flora.ai/api/v1
   baseurl_source: declared
   description: Technique catalog endpoints.
   name: FLORA Techniques API
+  phrasing_intents:
+  - id: listTechniques
+    intent: Browse reusable techniques
+    question: Which reusable techniques are available to my API key?
+  - id: getTechnique
+    intent: Get a technique's input and output schema
+    question: What inputs does a technique expect before I start a run?
+  phrasing_ops: 2
   slug: flora-fauna-techniques-api
 - baseURL: https://app.flora.ai/api/v1
   baseurl_source: declared
   description: Workspace discovery endpoints.
   name: FLORA Workspaces API
+  phrasing_intents:
+  - id: listWorkspaces
+    intent: List my accessible workspaces
+    question: Which workspaces does my API key have access to?
+  phrasing_ops: 1
   slug: flora-fauna-workspaces-api
 artifact_total: 21
 asyncapis:
@@ -367,7 +473,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
@@ -377,10 +483,12 @@ score:
     operational_transparency: 42.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 66.0
+  previous_composite: 67.6
   provenance:
     conformance: first-party
     contracts:
@@ -401,7 +509,7 @@ score:
     regime_id: horizontal
     score: 36.4
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

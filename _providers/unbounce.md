@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 65.6
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,36 +55,113 @@ apis:
   baseurl_source: declared
   description: Account and sub-account resources
   name: Unbounce Accounts API
+  phrasing_intents:
+  - id: listAccounts
+    intent: List the accounts I can access
+    question: Which Unbounce accounts does my API key have access to?
+  - id: getAccount
+    intent: Get details of one account
+    question: What details can I look up for a single top-level account?
+  - id: listSubAccountsForAccount
+    intent: List an account's sub-accounts
+    question: How do I see all the sub-accounts (clients) under my account?
+  - id: getSubAccount
+    intent: Get details of one sub-account
+    question: Can I look up a single sub-account by its ID?
+  phrasing_ops: 4
   slug: unbounce-accounts-api
 - baseURL: https://api.unbounce.com
   baseurl_source: declared
   description: Domains attached to sub-accounts
   name: Unbounce Domains API
+  phrasing_intents:
+  - id: listDomainsForSubAccount
+    intent: List a sub-account's domains
+    question: Which custom domains are set up in a sub-account?
+  - id: getDomain
+    intent: Get details of one domain
+    question: Can I look up a single custom domain by its ID?
+  phrasing_ops: 2
   slug: unbounce-domains-api
 - baseURL: https://api.unbounce.com
   baseurl_source: declared
   description: Lead submissions captured by pages
   name: Unbounce Leads API
+  phrasing_intents:
+  - id: listLeadsForPage
+    intent: List the leads captured by a page
+    question: How do I pull all the form submissions a landing page has collected?
+  - id: getLeadForPage
+    intent: Get one lead from a specific page
+    question: Can I fetch a single lead scoped to the landing page it came from?
+  - id: listLeadDeletionRequests
+    intent: List lead deletion requests for a page
+    question: How do I see which lead deletion requests have been made for a page?
+  - id: getLeadDeletionRequest
+    intent: Check one lead deletion request
+    question: Has a particular lead deletion request finished processing?
+  - id: getLead
+    intent: Get a lead by its ID
+    question: Can I look up a lead by its ID alone, without knowing which page it came from?
+  phrasing_ops: 5
   slug: unbounce-leads-api
 - baseURL: https://api.unbounce.com
   baseurl_source: declared
   description: API meta-information
   name: Unbounce Meta API
+  phrasing_intents:
+  - id: getApiMeta
+    intent: Get API meta-information
+    question: What version and top-level links does the Unbounce API root return?
+  phrasing_ops: 1
   slug: unbounce-meta-api
 - baseURL: https://api.unbounce.com
   baseurl_source: declared
   description: Logical page groupings
   name: Unbounce PageGroups API
+  phrasing_intents:
+  - id: listPageGroupsForSubAccount
+    intent: List a sub-account's page groups
+    question: How do I see the page groups (folders) in a sub-account?
+  - id: listPagesForPageGroup
+    intent: List the pages in a page group
+    question: Which landing pages are filed under a particular page group?
+  phrasing_ops: 2
   slug: unbounce-pagegroups-api
 - baseURL: https://api.unbounce.com
   baseurl_source: declared
   description: Landing pages and form fields
   name: Unbounce Pages API
+  phrasing_intents:
+  - id: listAccountPages
+    intent: List all pages in an account
+    question: How do I list every landing page across a whole top-level account?
+  - id: listSubAccountPages
+    intent: List the pages in a sub-account
+    question: Which landing pages belong to one client sub-account?
+  - id: listPagesForDomain
+    intent: List the pages published on a domain
+    question: Which landing pages are published on a specific custom domain?
+  - id: listPages
+    intent: List every page I can access
+    question: How do I get all the landing pages my credentials can see in Unbounce?
+  - id: getPage
+    intent: Get details of one landing page
+    question: What details can I see for a single landing page, like its URL and state?
+  - id: listFormFields
+    intent: Get a page's form fields
+    question: Which form fields does a landing page's lead form collect?
+  phrasing_ops: 6
   slug: unbounce-pages-api
 - baseURL: https://api.unbounce.com
   baseurl_source: declared
   description: Users in the account
   name: Unbounce Users API
+  phrasing_intents:
+  - id: listUsers
+    intent: List users
+    question: Which users can I see through the API?
+  phrasing_ops: 1
   slug: unbounce-users-api
 artifact_total: 64
 asyncapis:
@@ -481,7 +558,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.1
+  delta: 0.0
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
@@ -489,7 +566,7 @@ score:
     developer_ergonomics: 71.4
     discoverability: 68.3
     operational_transparency: 73.7
-  previous_composite: 65.4
+  previous_composite: 68.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -507,7 +584,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: false

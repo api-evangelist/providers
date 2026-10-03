@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.2
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
-- acting_count: 3
+- acting_count: 13
   human_in_the_loop: 0
   name: Microsoft Azure Private Link Agentic Access
-  operation_count: 7
+  operation_count: 29
   slug: microsoft-azure-private-link-agentic-access
-  summary_line: 7 operations · 3 acting
+  summary_line: 29 operations · 13 acting
 api_count: 2
 apis:
 - baseURL: https://management.azure.com/
@@ -54,7 +54,27 @@ apis:
   description: Private Endpoints operations
   name: microsoft-azure-private-link Private Endpoints API
   slug: microsoft-azure-private-link-private-endpoints-api
-artifact_total: 15
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The PrivateDnsZoneGroups API from Microsoft Azure Private Link — 2 operation(s) for privatednszonegroups.
+  name: Microsoft Azure Private Link Private Dns Zone Groups API
+  slug: microsoft-azure-private-link-privatednszonegroups-api
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The PrivateLinkService API from Microsoft Azure Private Link — 1 operation(s) for privatelinkservice.
+  name: Microsoft Azure Private Link Private Link Service API
+  slug: microsoft-azure-private-link-privatelinkservice-api
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The PrivateLinkServices API from Microsoft Azure Private Link — 9 operation(s) for privatelinkservices.
+  name: Microsoft Azure Private Link Private Link Services API
+  slug: microsoft-azure-private-link-privatelinkservices-api
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The Subscriptions API from Microsoft Azure Private Link — 2 operation(s) for subscriptions.
+  name: Microsoft Azure Private Link Subscriptions API
+  slug: microsoft-azure-private-link-subscriptions-api
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -267,7 +287,7 @@ modified: '2026-09-17'
 name: Microsoft Azure Private Link
 nav: Providers
 network: true
-overview: 'Microsoft Azure Private Link publishes 2 APIs on the [APIs.io](https://apis.io/) network: microsoft-azure-private-link Operations API and microsoft-azure-private-link Private Endpoints API. Tagged areas include Networking, Private Connectivity, Cloud Infrastructure, Virtual Networks, and DNS.
+overview: 'Microsoft Azure Private Link publishes 6 APIs on the [APIs.io](https://apis.io/) network, including microsoft-azure-private-link Operations API, microsoft-azure-private-link Private Endpoints API, Private Dns Zone Groups API, and 3 more. Tagged areas include Networking, Private Connectivity, Cloud Infrastructure, Virtual Networks, and DNS.
 
 
   Microsoft Azure Private Link''s developer surface includes developer portal, documentation, API reference, getting-started guide, quickstart, engineering blog, pricing, and 34 more developer resources.'
@@ -287,7 +307,7 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 64.0
+  composite: 64.3
   coverage:
     artifact_dirs: 25
     catalog_earned: 52.0
@@ -295,15 +315,15 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.0
+  delta: 0.3
   facets:
     access_clarity: 68.4
     contract_governance: 4.5
-    contract_quality: 41.0
+    contract_quality: 42.2
     developer_ergonomics: 73.2
     discoverability: 73.2
     operational_transparency: 89.5
-  previous_composite: 61.0
+  previous_composite: 64.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -311,7 +331,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 7
     mcp: derived
     skills: derived
   regulatory:
@@ -321,7 +341,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

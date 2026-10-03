@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 63.1
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -49,66 +49,245 @@ apis:
   baseurl_source: declared
   description: Find contacts or companies from known identifiers — contact id, LinkedIn URL, email or name + company; company id, name or domain — and return a non-PII preview with `has` and `canReveal` fields descr
   name: Lusha Search API
+  phrasing_intents:
+  - id: searchContacts
+    intent: Preview contacts by identifier
+    question: How do I check whether Lusha knows a person before spending credits?
+  - id: searchCompanies
+    intent: Preview companies by identifier
+    question: How do I check what data exists for a company before enriching it?
+  phrasing_ops: 2
   slug: lusha-search-api
 - baseURL: https://api.lusha.com
   baseurl_source: declared
   description: 'Reveal full contact and company profiles by Lusha id, with an explicit `reveal` list controlling which fields are unlocked and charged, and optional waterfall fall-through to enabled third-party data '
   name: Lusha Enrich API
+  phrasing_intents:
+  - id: enrichContacts
+    intent: Reveal emails and phones for found contacts
+    question: How do I unlock the email and phone number for contacts I already searched?
+  - id: enrichCompanies
+    intent: Reveal full firmographics for found companies
+    question: How do I get revenue, funding and technologies for companies I already searched?
+  phrasing_ops: 2
   slug: lusha-enrich-api
 - baseURL: https://api.lusha.com
   baseurl_source: declared
   description: Resolve an identifier and return the fully revealed contact or company record in a single call, collapsing the two-phase search-then-enrich pattern where the caller has already decided to spend credit
   name: Lusha Search & Enrich API
+  phrasing_intents:
+  - id: searchAndEnrichContacts
+    intent: Find and reveal contacts in one call
+    question: Can I find a person and get their email and phone in a single request?
+  - id: searchAndEnrichCompanies
+    intent: Find and reveal companies in one call
+    question: Can I look up a company and get its full firmographics in a single call?
+  phrasing_ops: 2
   slug: lusha-search-enrich-api
 - baseURL: https://api.lusha.com
   baseurl_source: declared
   description: Filter-based search across Lusha's contact and company database — job title, seniority, department, location, company size, revenue, industry, technology and intent — with paged results and a dedupe s
   name: Lusha Prospecting API
+  phrasing_intents:
+  - id: prospectingContacts
+    intent: Find contacts matching my ideal customer profile
+    question: How do I find VPs of sales in the US at mid-size software companies?
+  - id: prospectingCompanies
+    intent: Find companies matching my target market
+    question: How do I find companies of a certain size and industry that use a given technology?
+  phrasing_ops: 2
   slug: lusha-prospecting-api
 - baseURL: https://api.lusha.com
   baseurl_source: declared
   description: AI-powered similarity search that expands a seed list of contacts or companies into comparable profiles, with exclusion lists, a dedupe session id and optional persistence into a Lusha table.
   name: Lusha Lookalikes API
+  phrasing_intents:
+  - id: getContactLookalikes
+    intent: Find people similar to seed contacts
+    question: How do I find more people like my best customers' buyers?
+  - id: getCompanyLookalikes
+    intent: Find companies similar to seed accounts
+    question: How do I find more companies like my best customers?
+  - id: postV3LookalikeContacts
+    intent: Find lookalike contacts (older endpoint)
+    question: Is there an older lookalike contacts endpoint without table saving?
+  - id: postV3LookalikeCompanies
+    intent: Find lookalike companies (older endpoint)
+    question: Is there an older lookalike companies endpoint without table saving?
+  phrasing_ops: 4
   slug: lusha-lookalike-api
 - baseURL: https://api.lusha.com
   baseurl_source: declared
   description: Persona classification over a fixed set of up to 25 named accounts — labels each returned contact decision_maker, potential_champion or end_user with a relevance score. Released 2026-08-12 as the repl
   name: Lusha Buying Group API
+  phrasing_intents:
+  - id: getContactsBuyingGroup
+    intent: Find the buying group at target companies
+    question: Who are the decision makers and champions at a company I want to sell to?
+  phrasing_ops: 1
   slug: lusha-buying-group-api
 - baseURL: https://api.lusha.com
   baseurl_source: declared
   description: Real-world activity data for contacts and companies — promotions and job changes on the contact side; headcount movement, hiring surges, web traffic, IT spend, news classes and LinkedIn activity inten
   name: Lusha Signals API
+  phrasing_intents:
+  - id: getContactSignals
+    intent: Get job changes and promotions for contacts
+    question: Which of my contacts recently got promoted or changed companies?
+  - id: getCompanySignals
+    intent: Get hiring, news and growth signals for companies
+    question: Which of my target accounts are hiring or in the news?
+  - id: getContactSignalTypes
+    intent: List contact signal types
+    question: What kinds of signals does Lusha track for people?
+  - id: getCompanySignalTypes
+    intent: List company signal types
+    question: What kinds of signals are tracked for companies?
+  - id: getCompanySignalFilters
+    intent: List company signal filter types
+    question: What filters can I apply to company signals, like news event type?
+  - id: getCompanySignalFilterValues
+    intent: Get values for one company signal filter
+    question: What news event types can I filter company signals by?
+  - id: getCompanySignalScores
+    intent: Score companies by buying signal activity
+    question: Which of my accounts show the most active buying signals?
+  - id: getContactSignalScores
+    intent: Score contacts by buying signal activity
+    question: Which of my contacts have the strongest buying signals right now?
+  phrasing_ops: 13
   slug: lusha-signals-api
 - baseURL: https://api.lusha.com
   baseurl_source: declared
   description: Companies ranked by website-visit signals for domains you track, filtered by score band, visitor country, session counts, unique visitors, high-intent pageviews and recency.
   name: Lusha Website Visitors API
+  phrasing_intents:
+  - id: getWebsiteVisits
+    intent: See which companies visited my website
+    question: Which companies have been visiting my website?
+  phrasing_ops: 1
   slug: lusha-website-visits-api
 - baseURL: https://api.lusha.com
   baseurl_source: declared
   description: Filter discovery for prospecting — enumerates the available filter types and the valid values for each, so callers never guess industry labels, seniority ids or technology names. Charges no credits.
   name: Lusha Filters API
+  phrasing_intents:
+  - id: getContactFilterTypes
+    intent: List contact prospecting filter types
+    question: What kinds of filters can I use when prospecting for contacts?
+  - id: getContactFilterValues
+    intent: Get valid values for one contact filter
+    question: What values are valid for the contact seniority or departments filter?
+  - id: getCompanyFilterTypes
+    intent: List company prospecting filter types
+    question: What kinds of filters can I use when prospecting for companies?
+  - id: getCompanyFilterValues
+    intent: Get valid values for one company filter
+    question: What values are valid for the company revenue or size filter?
+  phrasing_ops: 4
   slug: lusha-filters-api
 - baseURL: https://api.lusha.com
   baseurl_source: declared
   description: Persist, organise and enrich contacts in reusable tables with dynamic columns — create, list, read, update, delete tables; add and remove up to 500 entity ids per call; run enrichment columns over a s
   name: Lusha Contacts Tables API
+  phrasing_intents:
+  - id: createContactsTable
+    intent: Create a contacts table
+    question: How do I start a new people list table in Lusha?
+  - id: listContactsTables
+    intent: List contacts tables
+    question: Which contacts tables are mine or shared with my account?
+  - id: getContactsTable
+    intent: Get a contacts table and its status
+    question: Has my contacts table finished processing yet?
+  - id: updateContactsTable
+    intent: Rename, archive or reassign a contacts table
+    question: How do I rename a contacts table?
+  - id: deleteContactsTable
+    intent: Delete a contacts table
+    question: How do I permanently delete a contacts table?
+  - id: getContactsTableEntities
+    intent: Read the rows of a contacts table
+    question: How do I export the people and column values from a contacts table?
+  - id: addContactsTableEntities
+    intent: Add contacts to a table
+    question: How do I add more people to an existing contacts table?
+  - id: removeContactsTableEntities
+    intent: Remove contacts from a table
+    question: How do I take specific people out of a contacts table?
+  phrasing_ops: 11
   slug: lusha-contacts-tables-api
 - baseURL: https://api.lusha.com
   baseurl_source: declared
   description: The company-side twin of Contacts Tables — persist and enrich company working sets in tables with dynamic columns, capped at 50,000 entities per table and 500 tables per account.
   name: Lusha Companies Tables API
+  phrasing_intents:
+  - id: createCompaniesTable
+    intent: Create a companies table
+    question: How do I start a new account list table in Lusha?
+  - id: listCompaniesTables
+    intent: List companies tables
+    question: Which companies tables do I own or have shared with me?
+  - id: getCompaniesTable
+    intent: Get a companies table and its status
+    question: Is my companies table still processing?
+  - id: updateCompaniesTable
+    intent: Rename, archive or reassign a companies table
+    question: How do I rename a companies table?
+  - id: deleteCompaniesTable
+    intent: Delete a companies table
+    question: How do I permanently delete a companies table?
+  - id: getCompaniesTableEntities
+    intent: Read the rows of a companies table
+    question: How do I export the rows and column values from a companies table?
+  - id: addCompaniesTableEntities
+    intent: Add companies to a table
+    question: How do I add more companies to an existing table?
+  - id: removeCompaniesTableEntities
+    intent: Remove companies from a table
+    question: How do I take specific companies out of a table without deleting the table?
+  phrasing_ops: 11
   slug: lusha-companies-tables-api
 - baseURL: https://api.lusha.com
   baseurl_source: declared
   description: Subscription management for real-time signal callbacks — bulk create and delete up to 25 items per request, account-level HMAC-SHA256 secret with rotation, delivery test, contact opt-out notifications
   name: Lusha Webhooks API
+  phrasing_intents:
+  - id: createSubscription
+    intent: Subscribe a webhook to signal events
+    question: How do I get real-time signal notifications sent to my server?
+  - id: listSubscriptions
+    intent: List webhook subscriptions
+    question: Which webhook subscriptions do I have set up?
+  - id: getSubscriptionById
+    intent: Get one webhook subscription
+    question: How do I see the settings of one webhook subscription?
+  - id: updateSubscription
+    intent: Change or reactivate a webhook subscription
+    question: How do I change the URL a webhook subscription posts to?
+  - id: testSubscription
+    intent: Send a test event to a webhook
+    question: How do I check my webhook endpoint works before going live?
+  - id: deleteSubscriptions
+    intent: Delete webhook subscriptions
+    question: How do I delete several webhook subscriptions at once?
+  - id: getAuditLogs
+    intent: View webhook delivery logs
+    question: Why did my webhook deliveries fail?
+  - id: getAuditLogStats
+    intent: Get webhook delivery statistics
+    question: What's my webhook delivery success rate?
+  phrasing_ops: 11
   slug: lusha-webhooks-api
 - baseURL: https://api.lusha.com
   baseurl_source: declared
   description: Credit balance, plan information, per-action credit pricing and the live rate-limit tiers for the minute, hourly and daily windows.
   name: Lusha Account API
+  phrasing_intents:
+  - id: getAccountUsage
+    intent: Check credits, rate limits and plan
+    question: How many Lusha credits do I have left this billing cycle?
+  phrasing_ops: 1
   slug: lusha-account-api
 - description: 'First-party hosted Model Context Protocol server exposing 22 Lusha tools over streamable HTTP. Authenticates with OAuth 2.1 (scope `mcp`, PKCE S256, dynamic client registration at auth.lusha.com) for '
   name: Lusha MCP Server
@@ -117,26 +296,102 @@ apis:
   baseurl_source: declared
   description: 'Manage your account and monitor usage. Use this endpoint to: - Monitor credit usage - Understand consumption patterns - Align API usage with plan limits - Support governance and production operations '
   name: Lusha Account Management API
+  phrasing_intents:
+  - id: getAccountUsageStats
+    intent: Get API credit usage statistics
+    question: How many API credits have I used and how many remain?
+  phrasing_ops: 1
   slug: lusha-account-management-api
 - baseURL: https://api.lusha.com
   baseurl_source: declared
   description: Available filters for company searches
   name: Lusha Company Filters API
+  phrasing_intents:
+  - id: searchCompanyNames
+    intent: Look up company names for filtering
+    question: How do I find the exact company name to use in a prospecting filter?
+  - id: getCompanyIndustries
+    intent: List industries for company filters
+    question: What industries can I filter companies by?
+  - id: getCompanySizes
+    intent: List company size ranges
+    question: What employee size ranges can I filter companies by?
+  - id: getCompanyRevenues
+    intent: List company revenue ranges
+    question: What revenue ranges can I filter companies by?
+  - id: searchCompanyLocations
+    intent: Look up company locations for filtering
+    question: How do I find a company headquarters location to filter on?
+  - id: getCompanySicCodes
+    intent: List SIC codes for company filters
+    question: Which SIC codes can I filter companies by?
+  - id: getCompanyNaicsCodes
+    intent: List NAICS codes for company filters
+    question: Which NAICS codes can I filter companies by?
+  - id: getCompanyIntentTopics
+    intent: List buyer intent topics
+    question: What buyer intent topics can I filter companies by?
+  phrasing_ops: 9
   slug: lusha-company-filters-api
 - baseURL: https://api.lusha.com
   baseurl_source: declared
   description: Available filters for contact searches
   name: Lusha Contact Filters API
+  phrasing_intents:
+  - id: getContactDepartments
+    intent: List departments for contact filters
+    question: What departments can I filter contacts by?
+  - id: getContactSeniority
+    intent: List seniority levels for contact filters
+    question: What seniority levels can I filter contacts by?
+  - id: getContactDataPoints
+    intent: List contact data points to filter on
+    question: Can I filter to contacts that have a phone number or email on file?
+  - id: getContactCountries
+    intent: List countries for contact filters
+    question: Which countries can I filter contacts by?
+  - id: searchContactLocations
+    intent: Look up contact locations for filtering
+    question: How do I find a city or state to filter contacts by?
+  phrasing_ops: 5
   slug: lusha-contact-filters-api
 - baseURL: https://api.lusha.com
   baseurl_source: declared
   description: '**What is enrichment?** Enrichment is the process of adding missing or updated data to existing contact or company records. Use enrichment to: - Complete CRM records - Improve outbound accuracy and de'
   name: Lusha Enrichment API
+  phrasing_intents:
+  - id: searchSingleContact
+    intent: Find and enrich one person
+    question: How do I get the email and phone for one person from their LinkedIn URL?
+  - id: searchMultipleContacts
+    intent: Enrich a batch of people at once
+    question: How do I enrich a whole list of contacts in one request?
+  - id: searchSingleCompanyV2
+    intent: Look up one company
+    question: How do I get company details from a website domain?
+  - id: searchMultipleCompaniesV2
+    intent: Look up a batch of companies at once
+    question: How do I enrich a list of company domains in one call?
+  phrasing_ops: 4
   slug: lusha-enrichment-api
 - baseURL: https://api.lusha.com
   baseurl_source: declared
   description: With Lusha's Prospecting API, you can query Lusha's extensive database based on specific criteria (such as job title, seniority, location, and more) to retrieve detailed contact and company informatio
   name: Lusha Prospecting - Search & Enrich API
+  phrasing_intents:
+  - id: searchProspectingContacts
+    intent: Search contacts by prospecting filters
+    question: How do I search for contacts with filters in the older prospecting flow?
+  - id: enrichProspectingContacts
+    intent: Enrich contacts from a prospecting search
+    question: How do I reveal emails for contacts returned by a prospecting search?
+  - id: searchProspectingCompanies
+    intent: Search companies by prospecting filters
+    question: Which accounts match my industry and size filters in step two of prospecting?
+  - id: enrichProspectingCompanies
+    intent: Enrich companies from a prospecting search
+    question: How do I get full details for companies returned by a prospecting search?
+  phrasing_ops: 4
   slug: lusha-prospecting-search-enrich-api
 artifact_total: 44
 asyncapis:
@@ -438,15 +693,15 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.9
+  delta: 0.0
   facets:
     access_clarity: 93.4
     contract_governance: 18.2
-    contract_quality: 61.9
+    contract_quality: 62.0
     developer_ergonomics: 63.7
     discoverability: 75.0
     operational_transparency: 86.8
-  previous_composite: 69.8
+  previous_composite: 72.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -468,7 +723,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

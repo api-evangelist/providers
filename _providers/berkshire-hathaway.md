@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.4
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 api_count: 1
 apis:
 - description: The BNSF API Center provides customer APIs for programmatic integration with BNSF Railway freight shipping operations. APIs enable real-time shipment tracing, intermodal hub operations, pricing and ra
@@ -204,6 +204,11 @@ score:
     developer_ergonomics: 40.5
     discoverability: 67.0
     operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
   previous_composite: 25.5
   regulatory:
     applies: true
@@ -212,7 +217,7 @@ score:
     regime_id: energy_utilities
     score: 8.2
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: false

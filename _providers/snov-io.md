@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.2
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -64,56 +64,222 @@ apis:
   baseurl_source: declared
   description: OAuth 2.0 token management
   name: Snov.io Authentication API
+  phrasing_intents:
+  - id: getAccessToken
+    intent: Get an API access token
+    question: How do I get a bearer token for the Snov.io API using my client ID and secret?
+  phrasing_ops: 1
   slug: snov-io-authentication-api
 - baseURL: https://api.snov.io
   baseurl_source: declared
   description: Create and manage multi-channel outreach campaigns
   name: Snov.io Campaigns API
+  phrasing_intents:
+  - id: listCampaigns
+    intent: List my outreach campaigns
+    question: Which outreach campaigns do I have set up in Snov.io?
+  - id: createCampaign
+    intent: Create an outreach campaign
+    question: How do I create a new multi-channel outreach campaign?
+  - id: getCampaign
+    intent: Get a campaign's details
+    question: What settings does one specific campaign have?
+  - id: updateCampaign
+    intent: Update an existing campaign's settings
+    question: Can I rename a campaign I already created?
+  - id: deleteCampaign
+    intent: Delete a campaign
+    question: How do I permanently remove a campaign?
+  - id: changeCampaignState
+    intent: Start, pause or stop a campaign
+    question: Can I pause a running campaign and resume it later?
+  - id: listEmailSchedules
+    intent: List email send schedules
+    question: What send schedules are available for my campaign emails?
+  - id: createEmailStepContent
+    intent: Add an email step to a campaign
+    question: Can I add a follow-up email step to a campaign through the API?
+  phrasing_ops: 24
   slug: snov-io-campaigns-api
 - baseURL: https://api.snov.io
   baseurl_source: declared
   description: CRM pipeline and stage management
   name: Snov.io CRM Pipeline API
+  phrasing_intents:
+  - id: listPipelines
+    intent: List CRM pipelines
+    question: What sales pipelines are set up in my Snov.io CRM?
+  - id: listPipelineStages
+    intent: List CRM pipeline stages
+    question: What stages does my sales pipeline have?
+  phrasing_ops: 2
   slug: snov-io-crm-pipeline-api
 - baseURL: https://api.snov.io
   baseurl_source: declared
   description: Search for company information and email addresses by domain
   name: Snov.io Domain Search API
+  phrasing_intents:
+  - id: startDomainSearch
+    intent: Start a company domain search
+    question: How do I look up what Snov.io knows about a company domain?
+  - id: getDomainSearchResult
+    intent: Get company domain search results
+    question: Where do I get the results of a domain search I already started?
+  - id: startDomainProspectSearch
+    intent: Find prospects at a company domain
+    question: Can I find people who work at a company by its domain?
+  - id: getDomainProspectSearchResult
+    intent: Get domain prospect search results
+    question: Where do I collect the prospect profiles from a domain prospect search?
+  - id: startDomainEmailsSearch
+    intent: Find all email addresses at a domain
+    question: Can I get every email address associated with a company domain?
+  - id: getDomainEmailsSearchResult
+    intent: Get domain email addresses search results
+    question: Where are the email addresses from my domain emails search?
+  - id: startGenericContactsSearch
+    intent: Find generic contact addresses at a domain
+    question: Can I find a company's info@ or support@ style addresses?
+  - id: getGenericContactsSearchResult
+    intent: Get generic contacts search results
+    question: Where do I get the info@ and support@ addresses my search found?
+  phrasing_ops: 9
   slug: snov-io-domain-search-api
 - baseURL: https://api.snov.io
   baseurl_source: declared
   description: Manage sender email accounts
   name: Snov.io Email Accounts API
+  phrasing_intents:
+  - id: listEmailAccounts
+    intent: List connected sender email accounts
+    question: Which sender mailboxes have I connected?
+  - id: addEmailAccount
+    intent: Connect a sender email account
+    question: How do I connect a new mailbox for sending campaigns using SMTP?
+  - id: updateEmailAccount
+    intent: Update a sender email account
+    question: Can I change the signature on a sender account I already connected?
+  - id: checkSenderStatus
+    intent: Check a sender account's connection status
+    question: Why is my sender mailbox not sending — is its SMTP or IMAP connection broken?
+  phrasing_ops: 4
   slug: snov-io-email-accounts-api
 - baseURL: https://api.snov.io
   baseurl_source: declared
   description: Find email addresses by name, LinkedIn, or domain
   name: Snov.io Email Finder API
+  phrasing_intents:
+  - id: startFindEmailsByName
+    intent: Find emails from a person's name and domain
+    question: Can I find someone's email if I know their name and company domain?
+  - id: getFindEmailsByNameResult
+    intent: Get find-emails-by-name results
+    question: Where do I pick up the emails found from names and domains?
+  - id: startFindDomainByCompanyName
+    intent: Find company domains from company names
+    question: I only have company names — can I find their website domains?
+  - id: getFindDomainByCompanyNameResult
+    intent: Get company-name-to-domain results
+    question: Where do I get the domains found for my company names?
+  - id: startLinkedInProfileEnrichment
+    intent: Enrich LinkedIn profiles by URL
+    question: Can I get contact details from a list of LinkedIn profile URLs?
+  - id: getLinkedInProfileEnrichmentResult
+    intent: Get LinkedIn profile enrichment results
+    question: Where are the enriched LinkedIn profiles I requested?
+  - id: getProfileByEmail
+    intent: Enrich a person's profile from an email
+    question: Can I find out who's behind an email address — name, job, company?
+  phrasing_ops: 7
   slug: snov-io-email-finder-api
 - baseURL: https://api.snov.io
   baseurl_source: declared
   description: Verify email deliverability and validity
   name: Snov.io Email Verification API
+  phrasing_intents:
+  - id: startEmailVerification
+    intent: Verify a batch of email addresses
+    question: How do I check whether email addresses are valid before sending?
+  - id: getEmailVerificationResult
+    intent: Get email verification results
+    question: Where do I see which emails passed verification?
+  phrasing_ops: 2
   slug: snov-io-email-verification-api
 - baseURL: https://api.snov.io
   baseurl_source: declared
   description: Manage email warm-up campaigns for improved deliverability
   name: Snov.io Email Warm-up API
+  phrasing_intents:
+  - id: listWarmUpCampaigns
+    intent: List email warm-up campaigns
+    question: Which mailboxes do I have warm-up running for?
+  - id: createWarmUpCampaign
+    intent: Start warming up a sender mailbox
+    question: How do I warm up a new mailbox to improve deliverability?
+  - id: getWarmUpCampaign
+    intent: Get a warm-up campaign's details
+    question: What settings is a particular warm-up campaign using?
+  - id: updateWarmUpCampaign
+    intent: Change a warm-up campaign's settings
+    question: Can I pause a warm-up or make it run without an end date?
+  phrasing_ops: 4
   slug: snov-io-email-warm-up-api
 - baseURL: https://api.snov.io
   baseurl_source: declared
   description: Manage prospect records and lists
   name: Snov.io Prospects API
+  phrasing_intents:
+  - id: addProspect
+    intent: Add a prospect to a list
+    question: How do I add a new contact to one of my prospect lists?
+  - id: findProspectById
+    intent: Look up a prospect by ID
+    question: Can I fetch a prospect record if I have its ID?
+  - id: findProspectByEmail
+    intent: Look up a saved prospect by email
+    question: Is this email address already saved as a prospect in my lists?
+  - id: getProspectCustomFields
+    intent: List prospect custom fields
+    question: What custom fields are defined for my prospects?
+  - id: listProspectLists
+    intent: List prospect lists
+    question: Which prospect lists do I have?
+  - id: viewProspectsInList
+    intent: View the prospects in a list
+    question: Who is in a specific prospect list?
+  - id: createProspectList
+    intent: Create a prospect list
+    question: How do I create a new list to organize prospects?
+  phrasing_ops: 7
   slug: snov-io-prospects-api
 - baseURL: https://api.snov.io
   baseurl_source: declared
   description: User account management
   name: Snov.io User API
+  phrasing_intents:
+  - id: getUserBalance
+    intent: Check my credit balance
+    question: How many Snov.io credits do I have left?
+  phrasing_ops: 1
   slug: snov-io-user-api
 - baseURL: https://api.snov.io
   baseurl_source: declared
   description: Real-time event webhook subscriptions
   name: Snov.io Webhooks API
+  phrasing_intents:
+  - id: listWebhooks
+    intent: List webhook subscriptions
+    question: Which webhooks are currently subscribed on my account?
+  - id: addWebhook
+    intent: Subscribe a webhook to an event
+    question: How do I get real-time notifications when an event happens?
+  - id: updateWebhook
+    intent: Update a webhook subscription
+    question: Can I change the URL of a webhook I already set up?
+  - id: deleteWebhook
+    intent: Delete a webhook subscription
+    question: How do I stop receiving webhook notifications permanently?
+  phrasing_ops: 4
   slug: snov-io-webhooks-api
 - description: 'First-party remote Model Context Protocol server exposing 100+ Snov.io actions to AI assistants — prospect search and enrichment, list and folder management, email verification, Sales CRM (pipelines, '
   name: Snov.io Outreach MCP Server
@@ -428,7 +594,7 @@ score:
     catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.3
+  delta: 0.0
   facets:
     access_clarity: 93.4
     contract_governance: 18.2
@@ -436,7 +602,7 @@ score:
     developer_ergonomics: 58.9
     discoverability: 68.3
     operational_transparency: 57.9
-  previous_composite: 64.9
+  previous_composite: 67.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -454,7 +620,7 @@ score:
     regime_id: horizontal
     score: 39.2
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

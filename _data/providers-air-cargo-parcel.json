@@ -27,7 +27,7 @@
       "developer_ergonomics": 81.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -67,18 +67,18 @@
      "slug": "sendcloud",
      "description": "Sendcloud is Europe's leading shipping platform for e-commerce, headquartered in Eindhoven, Netherlands. The platform connects 30,000+ merchants to 160+ carriers (DHL, DPD, UPS, GLS, FedEx, PostNL, bpost, La Poste, Royal Mail, Hermes, and many more) and 100+ commerce / WMS / marketplace integrations across the UK, Netherlands, Belgium, France, Germany, Austria, Italy, and Spain. The Sendcloud APIs cover the full fulfillment lifecycle — Orders, Ship an Order, Shipments, Service Points, Parcel Tracking, Parcel Documents, Returns, Event Subscriptions, Webhooks, Integrations, Analytics, and Reporting — over a versioned v2 / v3 REST surface on https://panel.sendcloud.sc, authenticated with HTTP Basic (public + private key) or OAuth 2.0 client credentials.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/screenshots/sendcloud-2026-06-20T193651.png",
-     "score": 67.5,
+     "score": 68.0,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 75.0,
+      "discoverability": 80.0,
       "contract_quality": 70.4,
       "contract_governance": 27.3,
       "operational_transparency": 50.0,
       "developer_ergonomics": 69.0,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -140,7 +140,7 @@
       "developer_ergonomics": 75.0,
       "access_clarity": 60.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -191,7 +191,7 @@
       "developer_ergonomics": 48.8,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -253,7 +253,7 @@
       "developer_ergonomics": 73.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -304,7 +304,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -355,7 +355,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 46.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -416,7 +416,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 46.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -467,7 +467,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 60.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -518,7 +518,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -569,7 +569,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -620,7 +620,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -671,7 +671,7 @@
       "developer_ergonomics": 27.4,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -722,7 +722,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 53.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -783,7 +783,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -834,7 +834,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -885,7 +885,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -936,7 +936,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -987,7 +987,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1038,7 +1038,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1074,73 +1074,22 @@
      "rank": 20
     },
     {
-     "name": "Emirates SkyCargo",
-     "slug": "emirates-skycargo",
-     "description": "Emirates SkyCargo is the air cargo division of Emirates Airline, headquartered at Dubai International Airport in the United Arab Emirates, moving general freight, pharmaceuticals, perishables, live animals, valuables, mail and courier traffic across a network of more than 140 destinations on six continents using both freighters and passenger-aircraft bellyhold capacity. In the shipment chain it is the airborne carrier leg sitting between the freight forwarder and the ground handler, and it books almost exclusively through intermediaries rather than shippers directly. Its API posture is advertised but not published: Emirates SkyCargo states on its own Digital Booking Channels page that it offers \"a direct API connection to your in-house system\" covering booking creation, amendments, cancellations and track and trace, yet there is no developer portal, no API reference, no OpenAPI or AsyncAPI document, no base URL and no self-serve signup anywhere on skycargo.com. Access is obtained only by emailing SkyCargoAPISupport@emirates.com to negotiate a host-to-host connection, by integrating through the CargoWise transport management system, by submitting Freight Forwarding Requests over EDI, or by booking through the WebCargo, CargoAi, Pelicargo and cargo.one marketplaces, which themselves require IATA/CASS accreditation. The one standard the organization documents on its own surface is IATA e-AWB: agents must sign the IATA Multilateral e-AWB Agreement before submitting FWB and FHL cargo messages over EDI messaging. This is an EDI-and-bilateral-integration carrier with a customer-contract portal veneer, not a public API provider.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/emirates-skycargo/refs/heads/main/screenshots/emirates-skycargo-2026-08-07T164847.png",
-     "score": 14.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.1,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 26.2,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 7.8,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Air Cargo Carriers",
-     "rank": 21
-    },
-    {
      "name": "CargoAi",
      "slug": "cargoai",
      "description": "CargoAi is a Singapore-headquartered air cargo technology company that operates CargoMART, a digital marketplace where freight forwarders search routes, schedules, capacity and rates across 680+ airlines, book them, transmit the electronic air waybill, and track the shipment end to end. It sits in the middle of the air cargo chain as an aggregator between forwarders and their TMS vendors on one side and airline reservation and messaging systems on the other. Its API posture is genuinely public in documentation and sales-gated in access - the CargoCONNECT developer portal at cargoai.readme.io is open to anyone with no login and publishes a real OpenAPI 3.1 definition per operation, but an x-api-key is issued only after a commercial conversation with the CargoAi enterprise team. The published contract is a proprietary REST shape rather than an IATA ONE Record interface, though the payloads it carries are IATA-native - AWB numbers with airline prefixes, IATA airport and airline codes, Special Handling Codes, IATA cargo status event codes, FWB and FHL message content, and CO2 figures computed per IATA Recommended Practice 1678.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cargoai/refs/heads/main/screenshots/cargoai-2026-08-07T163015.png",
-     "score": 13.8,
+     "score": 14.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 71.7,
+      "discoverability": 76.7,
       "contract_quality": 15.3,
       "contract_governance": 0.0,
       "operational_transparency": 10.5,
       "developer_ergonomics": 22.6,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1173,6 +1122,57 @@
       "agentic_commerce": false
      },
      "tier": "Air Cargo Marketplaces",
+     "rank": 21
+    },
+    {
+     "name": "Emirates SkyCargo",
+     "slug": "emirates-skycargo",
+     "description": "Emirates SkyCargo is the air cargo division of Emirates Airline, headquartered at Dubai International Airport in the United Arab Emirates, moving general freight, pharmaceuticals, perishables, live animals, valuables, mail and courier traffic across a network of more than 140 destinations on six continents using both freighters and passenger-aircraft bellyhold capacity. In the shipment chain it is the airborne carrier leg sitting between the freight forwarder and the ground handler, and it books almost exclusively through intermediaries rather than shippers directly. Its API posture is advertised but not published: Emirates SkyCargo states on its own Digital Booking Channels page that it offers \"a direct API connection to your in-house system\" covering booking creation, amendments, cancellations and track and trace, yet there is no developer portal, no API reference, no OpenAPI or AsyncAPI document, no base URL and no self-serve signup anywhere on skycargo.com. Access is obtained only by emailing SkyCargoAPISupport@emirates.com to negotiate a host-to-host connection, by integrating through the CargoWise transport management system, by submitting Freight Forwarding Requests over EDI, or by booking through the WebCargo, CargoAi, Pelicargo and cargo.one marketplaces, which themselves require IATA/CASS accreditation. The one standard the organization documents on its own surface is IATA e-AWB: agents must sign the IATA Multilateral e-AWB Agreement before submitting FWB and FHL cargo messages over EDI messaging. This is an EDI-and-bilateral-integration carrier with a customer-contract portal veneer, not a public API provider.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/emirates-skycargo/refs/heads/main/screenshots/emirates-skycargo-2026-08-07T164847.png",
+     "score": 14.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.1,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 26.2,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 7.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Air Cargo Carriers",
      "rank": 22
     }
    ]
@@ -1201,7 +1201,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1252,7 +1252,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1303,7 +1303,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1354,7 +1354,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,

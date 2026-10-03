@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 api_count: 10
 apis:
 - description: Hokkaido University's own Shibboleth/SAML 2.0 identity provider, entityID https://shib-idp01.iic.hokudai.ac.jp/idp/shibboleth, scope hokudai.ac.jp, registered in the GakuNin national academic federati
@@ -225,7 +225,7 @@ score:
     regime_id: education
     score: 20.6
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: false

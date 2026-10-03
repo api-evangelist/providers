@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 3
@@ -63,11 +63,63 @@ apis:
   baseurl_source: declared
   description: Operations for managing agent pools (node pools) within AKS clusters
   name: Azure Kubernetes Service Agent Pools API
+  phrasing_intents:
+  - id: AgentPools_List
+    intent: List node pools in an AKS cluster
+    question: What node pools does my AKS cluster have?
+  - id: AgentPools_Get
+    intent: Get details of one node pool
+    question: How is a specific AKS node pool configured?
+  - id: AgentPools_CreateOrUpdate
+    intent: Add or reconfigure a node pool
+    question: How do I add a new node pool to an existing AKS cluster?
+  - id: AgentPools_Delete
+    intent: Delete a node pool from an AKS cluster
+    question: How do I remove an entire node pool from my cluster?
+  - id: AgentPools_GetUpgradeProfile
+    intent: Check available upgrades for a node pool
+    question: Is there an upgrade available for one of my AKS node pools?
+  - id: AgentPools_GetAvailableAgentPoolVersions
+    intent: List supported Kubernetes versions for a node pool
+    question: Which Kubernetes versions are supported for a given agent pool?
+  - id: AgentPools_UpgradeNodeImageVersion
+    intent: Upgrade a node pool to the latest node image
+    question: How do I patch my AKS nodes to the newest OS node image?
+  - id: AgentPools_AbortLatestOperation
+    intent: Cancel the running operation on a node pool
+    question: Can I stop a node pool upgrade or scale operation that is still running?
+  phrasing_ops: 9
   slug: microsoft-azure-kubernetes-service-agent-pools-api
 - baseURL: https://management.azure.com
   baseurl_source: declared
   description: Operations for managing AKS managed clusters
   name: Azure Kubernetes Service Managed Clusters API
+  phrasing_intents:
+  - id: ManagedClusters_List
+    intent: List all AKS clusters in a subscription
+    question: How do I see every AKS cluster across my whole Azure subscription?
+  - id: ManagedClusters_ListByResourceGroup
+    intent: List AKS clusters in a resource group
+    question: What AKS clusters are in a specific resource group?
+  - id: ManagedClusters_Get
+    intent: Get details of one AKS cluster
+    question: What is the current configuration of a single AKS cluster I name?
+  - id: ManagedClusters_CreateOrUpdate
+    intent: Create or reconfigure an AKS cluster
+    question: How do I create a new managed Kubernetes cluster in Azure?
+  - id: ManagedClusters_UpdateTags
+    intent: Update tags on an AKS cluster
+    question: Can I change just the tags on an AKS cluster without touching its configuration?
+  - id: ManagedClusters_Delete
+    intent: Delete an AKS cluster
+    question: How do I tear down an AKS cluster I no longer need?
+  - id: ManagedClusters_GetUpgradeProfile
+    intent: Check available upgrades for an AKS cluster
+    question: Which Kubernetes versions can my AKS cluster's control plane upgrade to?
+  - id: ManagedClusters_ListClusterAdminCredentials
+    intent: Get admin kubeconfig for an AKS cluster
+    question: How do I get the cluster-admin kubeconfig for my AKS cluster?
+  phrasing_ops: 15
   slug: microsoft-azure-kubernetes-service-managed-clusters-api
 arazzos:
 - description: Add a new agent (node) pool to an AKS cluster and poll until it finishes provisioning.
@@ -1045,13 +1097,13 @@ score:
   band: exemplar
   composite: 73.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 72.6
     catalog_earned_first_party: 0.0
     catalog_gap: 42.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 68.4
     contract_governance: 49.1
@@ -1062,7 +1114,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 72.2
+  previous_composite: 73.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1077,7 +1129,7 @@ score:
     regime_id: horizontal
     score: 39.2
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

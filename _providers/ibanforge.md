@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 52.9
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -52,46 +52,154 @@ apis:
   baseurl_source: declared
   description: API key management — generate free keys and check usage
   name: IBANforge API Keys API
+  phrasing_intents:
+  - id: generateApiKey
+    intent: Generate a free API key
+    question: Can I get an API key with no email and no card?
+  - id: openDeviceGrant
+    intent: Start a device authorization request for a key
+    question: How can an agent get an API key approved by a human without handling their email?
+  - id: collectDeviceGrantKey
+    intent: Collect the key after device approval
+    question: How often should an agent poll for the key after asking a human to approve it?
+  - id: lookupDeviceGrant
+    intent: Look up a pending device request by its code
+    question: What does a pending device request show before I approve it?
+  - id: approveDeviceGrant
+    intent: Approve a device request and issue the key
+    question: Can I approve an agent's key request and raise it to 200 requests a month by verifying my mailbox?
+  - id: denyDeviceGrant
+    intent: Refuse a device key request
+    question: What should I do with a device approval request that is not mine?
+  - id: getApiKeyUsage
+    intent: Check this month's usage of an API key
+    question: How many requests do I have left on my API key this month?
+  - id: getApiKeyReport
+    intent: Read the activity report of the presented key
+    question: Which endpoints has my API key called, and what failed?
+  phrasing_ops: 13
   slug: ibanforge-api-keys-api
 - baseURL: https://api.ibanforge.com
   baseurl_source: declared
   description: BIC/SWIFT lookup endpoints (paid via x402)
   name: IBANforge BIC API
+  phrasing_intents:
+  - id: lookupBIC
+    intent: Look up a bank by BIC/SWIFT code
+    question: Which bank does a given SWIFT code belong to?
+  phrasing_ops: 1
   slug: ibanforge-bic-api
 - baseURL: https://api.ibanforge.com
   baseurl_source: declared
   description: Compliance check endpoint — IBAN validation + sanctions + SEPA + VoP + risk score (paid via x402)
   name: IBANforge Compliance API
+  phrasing_intents:
+  - id: complianceCheck
+    intent: Run a pre-payment compliance check on an IBAN
+    question: Is the bank behind this IBAN on an OFAC, EU or UN sanctions list?
+  phrasing_ops: 1
   slug: ibanforge-compliance-api
 - baseURL: https://api.ibanforge.com
   baseurl_source: declared
   description: Prepaid credit bundles — pay once in USDC (x402), get an API key with N credits; batch validation debits 1 credit per IBAN
   name: IBANforge Credits API
+  phrasing_intents:
+  - id: getCreditBalance
+    intent: Check the prepaid credit balance of a key
+    question: How many prepaid credits are left on my key?
+  - id: listCreditBundles
+    intent: List prepaid credit bundles and prices
+    question: What prepaid credit bundles are available and what do they cost?
+  - id: buyCreditBundle
+    intent: Buy a prepaid credit bundle with USDC
+    question: Can I pay with USDC on Base to add credits to the key I already have?
+  phrasing_ops: 3
   slug: ibanforge-credits-api
 - baseURL: https://api.ibanforge.com
   baseurl_source: declared
   description: Free endpoints — no payment required
   name: IBANforge Free API
+  phrasing_intents:
+  - id: formatCheckIBAN
+    intent: Check an IBAN's format and checksum for free
+    question: Is there a free way to check an IBAN's mod-97 checksum and length?
+  - id: checkSwissQrBill
+    intent: Check a Swiss QR-bill payload
+    question: Does my Swiss QR-bill still use a combined (type K) address?
+  - id: checkPostalAddress
+    intent: Check a postal address against ISO 20022 rules
+    question: Is my structured postal address ready for the November 2026 ISO 20022 deadline?
+  - id: validatePaymentReference
+    intent: Validate a structured payment reference
+    question: Is this RF creditor reference checksum correct?
+  - id: validatePaymentReferencePost
+    intent: Validate a payment reference sent as JSON
+    question: Can I send a payment reference in a JSON body instead of the query string?
+  - id: listIBANStructures
+    intent: List all supported IBAN countries
+    question: Which countries use IBANs, and how long is each one?
+  - id: getIBANStructure
+    intent: Get the IBAN format template for a country
+    question: Where does the bank code sit inside a country's IBAN?
+  - id: submitFeedback
+    intent: Report wrong data or claim an x402 refund
+    question: How do I report a wrong or stale BIC answer?
+  phrasing_ops: 12
   slug: ibanforge-free-api
 - baseURL: https://api.ibanforge.com
   baseurl_source: declared
   description: IBAN validation endpoints (paid via x402)
   name: IBANforge IBAN API
+  phrasing_intents:
+  - id: validateIBAN
+    intent: Validate a single IBAN
+    question: Is this IBAN valid, and which bank and BIC does it map to?
+  - id: batchValidateIBAN
+    intent: Validate up to 100 IBANs at once
+    question: Can I validate a whole list of IBANs in one request?
+  phrasing_ops: 2
   slug: ibanforge-iban-api
 - baseURL: https://api.ibanforge.com
   baseurl_source: declared
   description: Model Context Protocol endpoint for AI agents (Streamable HTTP)
   name: IBANforge MCP API
+  phrasing_intents:
+  - id: mcpStreamableHttp
+    intent: Call IBANforge tools over MCP
+    question: Can an AI agent validate IBANs through an MCP server?
+  phrasing_ops: 1
   slug: ibanforge-mcp-api
 - baseURL: https://api.ibanforge.com
   baseurl_source: declared
   description: Swiss BC-Nummer / IID clearing lookup (paid via x402)
   name: IBANforge Swiss Clearing API
+  phrasing_intents:
+  - id: lookupChClearing
+    intent: Look up a Swiss bank by clearing number
+    question: Which Swiss bank has a given BC-Nummer?
+  phrasing_ops: 1
   slug: ibanforge-swiss-clearing-api
 - baseURL: https://api.ibanforge.com
   baseurl_source: declared
   description: 'The account page, https://ibanforge.com/account, for a person in a browser: a 6-digit code mailed to the address of the keys, then a read-only session cookie that shows every key of that address. Rota'
   name: IBANforge Account API
+  phrasing_intents:
+  - id: requestAccountSignInCode
+    intent: Email a sign-in code for the account page
+    question: How do I sign in to the IBANforge account page without a password?
+  - id: openAccountSession
+    intent: Exchange a sign-in code for an account session
+    question: What happens after I enter the 6-digit code I received by email?
+  - id: getAccountOverview
+    intent: List every active key of the signed-in address
+    question: Which API keys are attached to the email I signed in with?
+  - id: getAccountKeyReport
+    intent: Read the activity report of one account key
+    question: Can I see the traffic and errors of one of my keys from the account page, by its prefix?
+  - id: closeAccountSession
+    intent: Sign out of the account page
+    question: How do I log out of the IBANforge account page?
+  phrasing_ops: 5
   slug: ibanforge-account-api
 artifact_total: 38
 collections:
@@ -469,7 +577,7 @@ score:
     catalog_gap: 16.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 40.4
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 71.1
@@ -477,7 +585,7 @@ score:
     developer_ergonomics: 68.5
     discoverability: 91.7
     operational_transparency: 86.8
-  previous_composite: 33.6
+  previous_composite: 74.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -499,8 +607,8 @@ score:
     regime_id: banking_open_finance
     score: 24.4
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
-  trend: rising
+  scored_at: '2026-10-03'
+  trend: flat
   upsert:
     applies: true
     score: 0.0

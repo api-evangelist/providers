@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 59.2
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -48,26 +48,81 @@ apis:
   baseurl_source: declared
   description: The API Keys API from Triple Whale — 1 operation(s) for api keys.
   name: Triple Whale API Keys API
+  phrasing_intents:
+  - id: validate-your-triple-whale-api-key
+    intent: Check that an API key is valid
+    question: How can I test whether my Triple Whale API key actually works?
+  phrasing_ops: 1
   slug: triple-whale-api-keys-api
 - baseURL: https://api.triplewhale.com
   baseurl_source: declared
   description: The Compliance API from Triple Whale — 1 operation(s) for compliance.
   name: Triple Whale Compliance API
+  phrasing_intents:
+  - id: create-compliance-request
+    intent: Request deletion of a customer's personal data
+    question: How do I get a customer's PII deleted or masked for a GDPR request in Triple Whale?
+  phrasing_ops: 1
   slug: triple-whale-compliance-api
 - baseURL: https://api.triplewhale.com
   baseurl_source: declared
   description: The Data In API from Triple Whale — 10 operation(s) for data in.
   name: Triple Whale Data In API
+  phrasing_intents:
+  - id: create-ad-record
+    intent: Upload ad performance data
+    question: How do I send ad spend and performance from an unsupported ad platform into Triple Whale?
+  - id: create-order-record
+    intent: Upload one order from a custom sales platform
+    question: How do I push a single order from my custom storefront into Triple Whale?
+  - id: bulk-create-order-records
+    intent: Upload a batch of orders at once
+    question: How can I backfill thousands of historical orders from a custom platform in batches?
+  - id: create-subscription-record
+    intent: Upload a customer subscription
+    question: How do I send subscription data from my subscription app into Triple Whale?
+  - id: create-product-record
+    intent: Upload a product and its variants
+    question: How do I add products from a custom sales platform to Triple Whale's catalog?
+  - id: create-pps-record
+    intent: Upload a post-purchase survey response
+    question: How do I import post-purchase survey answers from my survey tool?
+  - id: create-customer-record
+    intent: Upload a customer profile
+    question: How do I send customer profiles with marketing consent into Triple Whale?
+  - id: enrich-orders-data
+    intent: Add costs or tags to an existing Shopify-style order
+    question: How do I add shipping costs to orders that already came in from Shopify?
+  phrasing_ops: 10
   slug: triple-whale-data-in-api
 - baseURL: https://api.triplewhale.com
   baseurl_source: declared
   description: The Data Out API from Triple Whale — 4 operation(s) for data out.
   name: Triple Whale Data Out API
+  phrasing_intents:
+  - id: data-out-execute-natural-language-query-moby
+    intent: Ask a data question in plain English
+    question: Can I ask my store data a question in plain English and get results back?
+  - id: data-out-execute-custom-sql-query
+    intent: Run a SQL query against store data
+    question: How can I run my own SQL against my shop's tables?
+  - id: get-customer-journey-attribution-data
+    intent: Export customer journeys with Pixel attribution
+    question: How do I export the touchpoint journey for every customer who ordered last month?
+  - id: get-summary-page-data
+    intent: Get Summary Page metrics for a period
+    question: How do I pull the numbers shown on my Summary dashboard programmatically?
+  phrasing_ops: 4
   slug: triple-whale-data-out-api
 - baseURL: https://api.triplewhale.com
   baseurl_source: declared
   description: The bi API from Triple Whale — 1 operation(s) for bi.
   name: Triple Whale Bi API
+  phrasing_intents:
+  - id: bi-avg-get
+    intent: Get average BI metrics by platform and segment
+    question: What are the average BI metrics for stores in my category?
+  phrasing_ops: 1
   slug: triple-whale-bi-api
 artifact_total: 27
 collections:
@@ -394,7 +449,7 @@ score:
     catalog_gap: 27.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 86.8
     contract_governance: 14.4
@@ -402,7 +457,7 @@ score:
     developer_ergonomics: 60.1
     discoverability: 80.0
     operational_transparency: 65.8
-  previous_composite: 66.9
+  previous_composite: 68.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -424,7 +479,7 @@ score:
     regime_id: horizontal
     score: 39.2
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

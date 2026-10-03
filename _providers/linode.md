@@ -12,36 +12,37 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
     delegated_identity: documented
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 32.1
-  scored_at: '2026-09-25'
+  score: 44.6
+  scored_at: '2026-10-03'
 agentic_access:
-- acting_count: 56
-  human_in_the_loop: 2
+- acting_count: 326
+  human_in_the_loop: 21
   name: Linode Agentic Access
-  operation_count: 116
+  operation_count: 655
   slug: linode-agentic-access
-  summary_line: 116 operations · 56 acting · 2 human-in-the-loop
+  summary_line: 655 operations · 326 acting · 21 human-in-the-loop
 api_count: 2
 apis:
 - description: The Linode CLI is a command-line interface that wraps the Linode API v4, allowing developers and system administrators to manage Akamai Connected Cloud resources directly from the terminal. It support
@@ -151,7 +152,527 @@ apis:
   description: Create and manage Virtual Private Clouds for isolated network environments and subnets for Linode instances.
   name: linode VPCs API
   slug: linode-vpcs-api
-artifact_total: 181
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Object Storage keys are used to authenticate access to your Object Storage buckets. Use these operations to create, view, update, and revoke these keys.
+  name: Linode Access keys API
+  slug: linode-access-keys-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use these operations to review and manage any agreements you need to acknowledge to use the API's services.
+  name: Linode Account agreements API
+  slug: linode-account-agreements-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use these operations to review the services available for use with your account.
+  name: Linode Account availability API
+  slug: linode-account-availability-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use these operations to review successful login data.
+  name: Linode Account logins API
+  slug: linode-account-logins-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Account settings applies to various services available on your account, including Backups, Linode Interfaces, a Longview subscription, Maintenance Policy, our Managed service, Network Helper, and Obje
+  name: Linode Account settings API
+  slug: linode-account-settings-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Used to manage transfer objects that show your network utilization.
+  name: Linode Account transfer API
+  slug: linode-account-transfer-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Akamai Cloud Pulse lets you configure alerts to monitor key metrics and events in real time and automatically trigger notifications or actions when predefined thresholds or conditions are met.
+  name: Linode Alerts API
+  slug: linode-alerts-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Mange any attachments you may need to include with your support tickets, such as log entry files and screenshot images.
+  name: Linode Attachments API
+  slug: linode-attachments-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Buckets are the primary containers within Object Storage. Each bucket stores your files (objects) and lets you access or share those files. Use these operations to create and manage buckets, as well a
+  name: Linode Buckets API
+  slug: linode-buckets-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Child accounts let you, as an Akamai partner (a parent account holder), switch between and manage your end customers' accounts (child accounts). Talk to your account team about [setting up a parent-ch
+  name: Linode Child accounts API
+  slug: linode-child-accounts-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use these operations to upgrade and manage a legacy configuration profile on your Linode to include networking interfaces.
+  name: Linode Configuration profile interfaces API
+  slug: linode-configuration-profile-interfaces-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: A configuration profile establishes the disk layout, kernel installation, and other specifics for a Linode. This is the legacy method used to define a Linode's makeup, and it does not include networki
+  name: Linode Configuration profiles API
+  slug: linode-configuration-profiles-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: The Configurations API from Linode — 3 operation(s) for configurations.
+  name: Linode Configurations API
+  slug: linode-configurations-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: View and manage access control lists (ACLs) for the control planes on your LKE clusters. Control Plane ACLs allow you to restrict access to your cluster's control plane to specific IP addresses or ran
+  name: Linode Control Plane ACL API
+  slug: linode-control-plane-acl-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use these operations to manage delegations for [parent and child accounts](https://techdocs.akamai.com/cloud-computing/docs/parent-and-child-accounts-for-akamai-partners).
+  name: Linode Delegation for parent and child accounts API
+  slug: linode-delegation-for-parent-and-child-accounts-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: The Devices API from Linode — 2 operation(s) for devices.
+  name: Linode Devices API
+  slug: linode-devices-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use these operations to create and manage domain records on your account.
+  name: Linode Domain records API
+  slug: linode-domain-records-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: These operations involve viewing specifics for a domain zone file.
+  name: Linode Domain zone files API
+  slug: linode-domain-zone-files-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: An endpoint is the S3-compatible URL to an Object Storage bucket. Use these operations to review details about your endpoints.
+  name: Linode Endpoints API
+  slug: linode-endpoints-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: These legacy operations are available to review and manage the transfer of one entity to another. These operations have been deprecated. Use the Service transfers category operations instead.
+  name: Linode Entity transfers API
+  slug: linode-entity-transfers-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: An event represents an action you've taken on your account, over the last 90 days. Use these operations to review your current events.
+  name: Linode Events API
+  slug: linode-events-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: The Firewall settings API from Linode — 1 operation(s) for firewall settings.
+  name: Linode Firewall settings API
+  slug: linode-firewall-settings-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: The Firewalls API from Linode — 6 operation(s) for firewalls.
+  name: Linode Firewalls API
+  slug: linode-firewalls-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Object Storage is Akamai cloud computing's S3-compatible data storage service. Use these operations to review and manage your Object Storage service.
+  name: Linode General API
+  slug: linode-general-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: View the grants (permissions) available to your user account.
+  name: Linode Grants API
+  slug: linode-grants-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use these operations to manage access to entities and roles on your account.
+  name: Linode Identity Management API
+  slug: linode-identity-management-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use the Identity Management IDP Configuration endpoints to configure SAML-based Single Sign-On (SSO) for your account. You can create and manage an external identity provider (IDP) configuration, cont
+  name: Linode IDP configuration API
+  slug: linode-idp-configuration-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use these operations to create and mange groups of users that can access your stored images.
+  name: Linode Image sharing API
+  slug: linode-image-sharing-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Review invoice and billing data for services on your account.
+  name: Linode Invoices API
+  slug: linode-invoices-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: 'Use the IP addresses endpoints to view Virtual Private Cloud (VPC): - IP addresses - default address ranges - forbidden CIDR blocks for your environment'
+  name: Linode IP addresses API
+  slug: linode-ip-addresses-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: The IPv4 addresses API from Linode — 2 operation(s) for ipv4 addresses.
+  name: Linode IPv4 addresses API
+  slug: linode-ipv4-addresses-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: The IPv6 pools API from Linode — 1 operation(s) for ipv6 pools.
+  name: Linode IPv6 pools API
+  slug: linode-ipv6-pools-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: The IPv6 ranges API from Linode — 2 operation(s) for ipv6 ranges.
+  name: Linode IPv6 ranges API
+  slug: linode-ipv6-ranges-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: View or regenerate the kubeconfig files for your LKE clusters, which authenticate and configure access to your Kubernetes clusters.
+  name: Linode Kubeconfigs API
+  slug: linode-kubeconfigs-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Clusters refer to the legacy methodology Object Storage used, before moving Object Storage to our actual data centers (regions). These operations have been deprecated and only apply if you're still us
+  name: Linode Legacy clusters API
+  slug: linode-legacy-clusters-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: The Backups service lets you enable automatic backups of the disks on your Linodes. Use these operations to manage your backups.
+  name: Linode Linode disk backups API
+  slug: linode-linode-disk-backups-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use these operations to manage the individual disks on your Linode.
+  name: Linode Linode disks API
+  slug: linode-linode-disks-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use these operations to manage the firewalls applied to your Linodes.
+  name: Linode Linode firewalls API
+  slug: linode-linode-firewalls-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: A Linode interface lets you set up networking on your Linode. A Linode interface links to the Linode, rather than to a legacy configuration profile. Use these operations to manage the Linode interface
+  name: Linode Linode interfaces API
+  slug: linode-linode-interfaces-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use these operations to view and manage the IP addresses assigned to your Linodes.
+  name: Linode Linode IP addresses API
+  slug: linode-linode-ip-addresses-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use these operations to review information for the Linux kernels on your Linodes.
+  name: Linode Linode kernels API
+  slug: linode-linode-kernels-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: A NodeBalancer is a managed load balancer that intelligently distributes incoming requests to multiple backend Linodes, so that there's no single point of failure. Use these operations to review the N
+  name: Linode Linode NodeBalancers API
+  slug: linode-linode-nodebalancers-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use these operations to review various statistics for your Linodes.
+  name: Linode Linode statistics API
+  slug: linode-linode-statistics-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use these operations to get information about Linode plan types, including pricing information, hardware resources, and network transfer allotment.
+  name: Linode Linode types API
+  slug: linode-linode-types-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: The Block Storage service lets you add storage drives, called volumes to your Linodes. This lets you store more data without resizing your Linode to a larger plan. Use these operations to review the B
+  name: Linode Linode volumes API
+  slug: linode-linode-volumes-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: View the API endpoints for your LKE clusters.
+  name: Linode LKE API endpoints API
+  slug: linode-lke-api-endpoints-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: View the Kubernetes Dashboard URLs for your LKE clusters, which provides a web-based user interface for managing and monitoring each Kubernetes cluster.
+  name: Linode LKE cluster dashboard API
+  slug: linode-lke-cluster-dashboard-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Create and manage Kubernetes clusters on LKE (Linode Kubernetes Engine).
+  name: Linode LKE clusters API
+  slug: linode-lke-clusters-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Create, manage, and configure node pools within your LKE clusters. Node pools allow you to group nodes with similar configurations and manage them collectively.
+  name: Linode LKE node pools API
+  slug: linode-lke-node-pools-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: View, recycle, and delete nodes within your LKE clusters. Nodes are the worker machines in your Kubernetes cluster that run your containerized applications.
+  name: Linode LKE nodes API
+  slug: linode-lke-nodes-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Regenerate service account tokens for your LKE clusters, which are used by the cluster's control plane components and Linode CSI drivers to authenticate with the Kubernetes API server.
+  name: Linode LKE service tokens API
+  slug: linode-lke-service-tokens-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: View the LKE tiers (types) available for your Kubernetes clusters. The cluster tier determines the control plane configuration and features available for your cluster.
+  name: Linode LKE types API
+  slug: linode-lke-types-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: View the Kubernetes versions available for deployment on your LKE clusters.
+  name: Linode LKE versions API
+  slug: linode-lke-versions-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Akamai Cloud Pulse lets you capture log data across multiple Akamai Cloud services and deliver it to the destination of your choice. These logs can help you improve operational efficiency, enhance sec
+  name: Linode Logs API
+  slug: linode-logs-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Create an manage Longview Clients to monitor the performance and health of your Linode instances and other servers.
+  name: Linode Longview clients API
+  slug: linode-longview-clients-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Get details on your current Longview plan subscription and, if needed, update your plan.
+  name: Linode Longview plans API
+  slug: linode-longview-plans-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Get publicly-accessible information about the Longview plans available on Akamai Cloud, including the number of supported clients.
+  name: Linode Longview subscriptions API
+  slug: linode-longview-subscriptions-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Get publicly-accessible information about the Longview plans available on Akamai Cloud, including network transfer and region-specific pricing.
+  name: Linode Longview types API
+  slug: linode-longview-types-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use these operations to view maintenance policies that are available for your Linodes.
+  name: Linode Maintenance policies API
+  slug: linode-maintenance-policies-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Review details on scheduled maintenance for your Akamai Cloud Computing services.
+  name: Linode Maintenances API
+  slug: linode-maintenances-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use these operations to view information about available beta programs and sign up to participate in them.
+  name: Linode Manage Beta programs API
+  slug: linode-manage-beta-programs-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Create and manage contacts associated with Linode Managed, who can be notified about issues with your managed Linodes.
+  name: Linode Managed contacts API
+  slug: linode-managed-contacts-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Create and manage credentials used by Linode Managed to access your Linodes for support and maintenance.
+  name: Linode Managed credentials API
+  slug: linode-managed-credentials-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: View details about issues detected on your managed Linodes and their resolution status.
+  name: Linode Managed issues API
+  slug: linode-managed-issues-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: View and update settings related to Linode Managed for each of your Linodes.
+  name: Linode Managed Linode settings API
+  slug: linode-managed-linode-settings-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Create and configure the service monitors that are used to check the health of your managed Linodes.
+  name: Linode Managed service monitors API
+  slug: linode-managed-service-monitors-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: View the unique SSH public key assigned to your Linode Managed account.
+  name: Linode Managed SSH keys API
+  slug: linode-managed-ssh-keys-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: View key metrics for your managed Linodes, including CPU usage, disk I/O, and network transfer.
+  name: Linode Managed statistics API
+  slug: linode-managed-statistics-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Akamai Cloud Pulse automatically collects and stores performance metrics for your cloud services. You can view them through dashboards and inspect them at the entity level. Metrics data provides insig
+  name: Linode Metrics API
+  slug: linode-metrics-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Managed Databases is Akamai's fully-managed, high-performance database service. Use these operations to create and manage clusters for MySQL engine databases.
+  name: Linode My SQL API
+  slug: linode-mysql-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Review network transfer pricing information.
+  name: Linode Network transfer prices API
+  slug: linode-network-transfer-prices-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: The NodeBalancer types API from Linode — 1 operation(s) for nodebalancer types.
+  name: Linode NodeBalancer types API
+  slug: linode-nodebalancer-types-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: The Nodes API from Linode — 2 operation(s) for nodes.
+  name: Linode Nodes API
+  slug: linode-nodes-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Review notifications that represent important, often time-sensitive details about your account.
+  name: Linode Notifications API
+  slug: linode-notifications-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: View authorized apps that have been granted access to your account. You can also revoke access for any authorized app.
+  name: Linode OAuth apps API
+  slug: linode-oauth-apps-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use an OAuth client to allow users (using their Akamai Cloud Computing account) to log in to your own application, and optionally grant your application some amount of access to their Akamai Cloud Com
+  name: Linode OAuth clients API
+  slug: linode-oauth-clients-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: View and update user preferences tied to OAuth clients.
+  name: Linode OAuth preferences API
+  slug: linode-oauth-preferences-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: The Marketplace offers the Partner referrals program. This is a new space for Akamai qualified partners to offer their products to Cloud Manager customers.
+  name: Linode Partner referrals API
+  slug: linode-partner-referrals-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use these operations to review and manage the payment method you've set up to pay your invoices.
+  name: Linode Payment methods API
+  slug: linode-payment-methods-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use these operations to view current payment due information and make a payment.
+  name: Linode Payments API
+  slug: linode-payments-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Manage personal access tokens for your user account. Personal access tokens can be used for authentication with the Linode API.
+  name: Linode Personal access tokens API
+  slug: linode-personal-access-tokens-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Operations to verify and delete the phone number associated with your user account, which is used to send SMS messages as a form of two-factor authentication (2FA).
+  name: Linode Phone number API
+  slug: linode-phone-number-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Managed Databases is Akamai's fully-managed, high-performance database service. Use these operations to create and manage clusters for PostgreSQL engine databases.
+  name: Linode Postgre SQL API
+  slug: linode-postgresql-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: The Prefix Lists API from Linode — 3 operation(s) for prefix lists.
+  name: Linode Prefix Lists API
+  slug: linode-prefix-lists-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: View a history of successful logins to your Linode account.
+  name: Linode Profile logins API
+  slug: linode-profile-logins-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use these operations to manage any promotional codes you've been granted for special offers.
+  name: Linode Promo credits API
+  slug: linode-promo-credits-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Quotas are limits related to your resource usage in Object Storage. Use these operations to review and manage your Object Storage quotas.
+  name: Linode Quotas API
+  slug: linode-quotas-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use these operations to create and view replies to correspondence for your support tickets.
+  name: Linode Replies API
+  slug: linode-replies-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: The Reserved IPs API from Linode — 3 operation(s) for reserved ips.
+  name: Linode Reserved IPs API
+  slug: linode-reserved-ips-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Add and manage locks on your Akamai Cloud resources to prevent you from inadvertently deleting them.
+  name: Linode Resource locks API
+  slug: linode-resource-locks-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use these operations to view information about available beta programs. You can sign up to participate in one of these programs using the [Enroll in a Beta program](https://techdocs.akamai.com/linode-
+  name: Linode Review Beta programs API
+  slug: linode-review-beta-programs-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: View and configure security questions for your user account. Security questions can be used to help verify your identity when contacting Akamai Support.
+  name: Linode Security questions API
+  slug: linode-security-questions-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use these operations to manage transfer requests for specific Akamai Cloud Computing services. For example, you could request a service transfer to move a Linode from one region to another. Service tr
+  name: Linode Service transfers API
+  slug: linode-service-transfers-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Manage SSH keys for your user account. When creating a Linode, you can choose to have one or more SSH keys automatically added to the new Linode for secure access.
+  name: Linode SSH keys API
+  slug: linode-ssh-keys-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use these operations to open, view, and close support tickets, when you need assistance from Akamai.
+  name: Linode Support tickets API
+  slug: linode-support-tickets-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: The Templates API from Linode — 2 operation(s) for templates.
+  name: Linode Templates API
+  slug: linode-templates-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: View details about trusted devices associated with your user account. If needed, you can revoke a trusted device so any future login attempts from that device will go through the full authentication p
+  name: Linode Trusted devices API
+  slug: linode-trusted-devices-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: The Two-factor authentication (2FA) API from Linode — 4 operation(s) for two-factor authentication (2fa).
+  name: Linode Two-factor authentication (2FA) API
+  slug: linode-two-factor-authentication-2fa-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Users are individuals on your account that you set up to perform specific tasks. Use these operations to view and manage users, including giving them various levels of access to the services on your a
+  name: Linode Users API
+  slug: linode-users-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Managed Databases is Akamai's fully-managed, high-performance database service. Use these operations to create and manage clusters for Valkey engine databases.
+  name: Linode Valkey API
+  slug: linode-valkey-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: The VLANs API from Linode — 2 operation(s) for vlans.
+  name: Linode VLANs API
+  slug: linode-vlans-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use these operations to review the available Block Storage volume types, including pricing.
+  name: Linode Volume types API
+  slug: linode-volume-types-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Use the VPC subnet endpoints to view, create, and manage Virtual Private Cloud (VPC) subnet resources.
+  name: Linode VPC subnets API
+  slug: linode-vpc-subnets-api
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: The Rulesets API from Linode — 2 operation(s) for rulesets.
+  name: Linode Rulesets API
+  slug: linode-rulesets-api
+artifact_total: 285
 collections:
 - collection_type: open
   name: API Collection
@@ -793,7 +1314,7 @@ modified: '2026-09-17'
 name: Linode
 nav: Providers
 network: true
-overview: 'Linode publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Account API, Databases API, Domains API, and 20 more. Tagged areas include Cloud Computing, Infrastructure-as-a-Service, Virtual Machines, Kubernetes, and Object Storage.
+overview: 'Linode publishes 127 APIs on the [APIs.io](https://apis.io/) network, including Account API, Databases API, Domains API, and 124 more. Tagged areas include Cloud Computing, Infrastructure-as-a-Service, Virtual Machines, Kubernetes, and Object Storage.
 
 
   The Linode catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -827,7 +1348,7 @@ scopes:
   summary_line: 30 scopes · authorizationCode
 score:
   band: strong
-  composite: 55.9
+  composite: 55.0
   coverage:
     artifact_dirs: 30
     catalog_earned: 79.8
@@ -835,15 +1356,15 @@ score:
     catalog_gap: 35.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.4
+  delta: -0.9
   facets:
     access_clarity: 52.6
     contract_governance: 28.0
-    contract_quality: 61.5
+    contract_quality: 58.1
     developer_ergonomics: 28.0
     discoverability: 71.7
     operational_transparency: 84.2
-  previous_composite: 55.5
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -851,7 +1372,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 19
+      total: 123
     mcp: first-party
     skills: derived
   regulatory:
@@ -861,7 +1382,7 @@ score:
     regime_id: horizontal
     score: 32.4
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

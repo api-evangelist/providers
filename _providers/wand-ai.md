@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 api_count: 3
 apis:
 - description: A public, unauthenticated JSON API served by the Wand platform status page. It reports overall platform health, the four Wand products and the twenty-two production services behind them, plus thirty-d
@@ -174,7 +174,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
@@ -182,7 +182,7 @@ score:
     developer_ergonomics: 14.3
     discoverability: 78.6
     operational_transparency: 28.9
-  previous_composite: 21.2
+  previous_composite: 24.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -193,7 +193,7 @@ score:
     regime_id: horizontal
     score: 37.3
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: false

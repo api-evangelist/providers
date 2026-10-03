@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 api_count: 2
 apis:
 - description: Public GraphQL subgraph indexing the Perpetual Protocol Curie (v2) perpetual futures protocol on Optimism (positions, markets, trades, liquidations, funding). Served via The Graph hosted service and S
@@ -201,7 +201,7 @@ score:
     regime_id: securities_market_data
     score: 11.1
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -51,21 +51,98 @@ apis:
   baseurl_source: declared
   description: Manage ad configurations within campaigns. Ads define the creative content, delivery schedules, targeting rules, and placement assignments that determine how and where advertising is served to users.
   name: Google Campaign Manager Ads API
+  phrasing_intents:
+  - id: listAds
+    intent: List ads, optionally filtered
+    question: Which ads are active in a given campaign right now?
+  - id: insertAd
+    intent: Create an ad in a campaign
+    question: How do I create a new ad with a start and end date under my campaign?
+  - id: getAd
+    intent: Look up one ad
+    question: What targeting and creative rotation does a specific ad use?
+  - id: updateAd
+    intent: Replace an ad's full configuration
+    question: How do I resubmit an ad with all of its writable fields filled in?
+  - id: patchAd
+    intent: Change selected fields on an ad
+    question: Can I pause an ad by changing only its active flag?
+  phrasing_ops: 5
   slug: google-campaign-manager-ads-api
 - baseURL: https://dfareporting.googleapis.com
   baseurl_source: declared
   description: Manage advertising campaigns. Campaigns serve as top-level organizational containers that group ads, placements, and creatives under a single advertiser with shared start and end dates, budgets, and t
   name: Google Campaign Manager Campaigns API
+  phrasing_intents:
+  - id: listCampaigns
+    intent: List campaigns, optionally filtered
+    question: Which campaigns does a particular advertiser have?
+  - id: insertCampaign
+    intent: Create a campaign for an advertiser
+    question: How do I set up a new campaign for an advertiser with start and end dates?
+  - id: getCampaign
+    intent: Look up one campaign
+    question: What are the flight dates and settings of a specific campaign?
+  - id: updateCampaign
+    intent: Replace a campaign's full configuration
+    question: How do I resubmit a campaign with all its fields, knowing omitted ones reset to defaults?
+  - id: patchCampaign
+    intent: Change selected fields on a campaign
+    question: Can I archive a campaign by changing only its archived flag?
+  phrasing_ops: 5
   slug: google-campaign-manager-campaigns-api
 - baseURL: https://dfareporting.googleapis.com
   baseurl_source: declared
   description: Manage placements representing ad inventory on publisher sites. Placements define the size, format, pricing, and site location where ads can be served, and generate the ad tags that publishers install
   name: Google Campaign Manager Placements API
+  phrasing_intents:
+  - id: listPlacements
+    intent: List placements, optionally filtered
+    question: Which placements are running on a particular publisher site?
+  - id: insertPlacement
+    intent: Create a placement on a publisher site
+    question: How do I add a new ad slot on a publisher site to my campaign?
+  - id: getPlacement
+    intent: Look up one placement
+    question: What site, size and pricing does a specific placement have?
+  - id: updatePlacement
+    intent: Replace a placement's full configuration
+    question: How do I resubmit a placement with its complete set of settings?
+  - id: patchPlacement
+    intent: Change selected fields on a placement
+    question: Can I just change a placement's status without touching its other settings?
+  - id: generatePlacementTags
+    intent: Generate ad tags for placements
+    question: How do I get the tag code a publisher needs to put on their site?
+  phrasing_ops: 6
   slug: google-campaign-manager-placements-api
 - baseURL: https://dfareporting.googleapis.com
   baseurl_source: declared
   description: Create, configure, and run reports to analyze campaign performance. Reports support multiple types including standard, reach, path to conversion, cross-dimension reach, floodlight, and cross-media rea
   name: Google Campaign Manager Reports API
+  phrasing_intents:
+  - id: listReports
+    intent: List saved reports for a user profile
+    question: Which reports have been set up under my Campaign Manager 360 profile?
+  - id: insertReport
+    intent: Create a new report definition
+    question: How do I build a new delivery report with my own dimensions and metrics?
+  - id: getReport
+    intent: Look up one report's definition
+    question: What dimensions, metrics and date range does a specific saved report use?
+  - id: updateReport
+    intent: Replace a report's full definition
+    question: How do I overwrite an existing report with a completely new configuration?
+  - id: patchReport
+    intent: Change selected fields on a report
+    question: Can I rename a report without resending its whole configuration?
+  - id: deleteReport
+    intent: Delete a saved report
+    question: How do I remove a report I no longer need from my profile?
+  - id: runReport
+    intent: Run a report to generate a file
+    question: How do I kick off a report so it produces a fresh downloadable file?
+  phrasing_ops: 7
   slug: google-campaign-manager-reports-api
 artifact_total: 229
 collections:
@@ -988,23 +1065,23 @@ scopes:
   summary_line: 3 scopes
 score:
   band: exemplar
-  composite: 66.9
+  composite: 67.4
   coverage:
     artifact_dirs: 32
-    catalog_earned: 67.0
+    catalog_earned: 70.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 48.0
+    catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.5
   facets:
     access_clarity: 52.6
     contract_governance: 31.8
     contract_quality: 63.2
     developer_ergonomics: 70.8
-    discoverability: 58.9
+    discoverability: 64.3
     operational_transparency: 84.2
-  previous_composite: 65.3
+  previous_composite: 66.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1022,7 +1099,7 @@ score:
     regime_id: horizontal
     score: 40.2
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

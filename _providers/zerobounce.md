@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -61,6 +61,14 @@ apis:
   baseurl_source: declared
   description: The ZeroBounce ChatGPT-plugin validation surface — 2 operations for single and batch email validation, served from members-api.zerobounce.net. The single-validation operation accepts up to 3 unauthent
   name: ZeroBounce Validation API
+  phrasing_intents:
+  - id: validate
+    intent: Check whether a single email address is valid
+    question: How do I check if one email address is real before I send to it?
+  - id: validateBatch
+    intent: Validate a list of email addresses in one request
+    question: Is there a way to verify a whole list of email addresses at once?
+  phrasing_ops: 2
   slug: zerobounce-validation-api
 - description: Official ZeroBounce Model Context Protocol server, published by ZeroBounce under Apache-2.0 and distributed on npm as @zerobounce/mcp. Exposes 16 tools covering validation, AI scoring, email finder, d
   name: ZeroBounce MCP Server
@@ -304,7 +312,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
@@ -312,7 +320,7 @@ score:
     developer_ergonomics: 74.4
     discoverability: 71.7
     operational_transparency: 84.2
-  previous_composite: 65.6
+  previous_composite: 67.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -336,7 +344,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

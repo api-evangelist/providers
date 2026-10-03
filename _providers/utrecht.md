@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 4
@@ -423,21 +423,21 @@ rules:
   slug: utrecht-rules
 score:
   band: developing
-  composite: 44.3
+  composite: 44.8
   coverage:
     artifact_dirs: 18
-    catalog_earned: 68.1
+    catalog_earned: 71.1
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.9
+    catalog_gap: 43.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.6
+  delta: 0.5
   facets:
     access_clarity: 47.9
     contract_governance: 9.8
     contract_quality: 52.9
     developer_ergonomics: 33.3
-    discoverability: 60.7
+    discoverability: 66.1
     operational_transparency: 34.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -450,7 +450,7 @@ score:
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 48.9
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -466,7 +466,7 @@ score:
     regime_id: education
     score: 30.4
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

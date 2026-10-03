@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -48,21 +48,80 @@ apis:
   baseurl_source: spec
   description: Service Bus namespace operations
   name: Azure Service Bus Namespaces API
+  phrasing_intents:
+  - id: Namespaces_List
+    intent: List all Service Bus namespaces in a subscription
+    question: Which Service Bus namespaces exist across my whole Azure subscription?
+  - id: Namespaces_ListByResourceGroup
+    intent: List namespaces in a resource group
+    question: What Service Bus namespaces are in this particular resource group?
+  - id: Namespaces_Get
+    intent: Get details of a namespace
+    question: How do I look up the configuration of one specific Service Bus namespace?
+  - id: Namespaces_CreateOrUpdate
+    intent: Create or update a Service Bus namespace
+    question: How do I provision a new Service Bus namespace in a region?
+  - id: Namespaces_Delete
+    intent: Delete a Service Bus namespace
+    question: How do I tear down a Service Bus namespace I no longer need?
+  phrasing_ops: 5
   slug: azure-service-bus-namespaces-api
 - baseURL: https://management.azure.com
   baseurl_source: spec
   description: Service Bus queue operations
   name: Azure Service Bus Queues API
+  phrasing_intents:
+  - id: Queues_ListByNamespace
+    intent: List the queues in a namespace
+    question: Which queues are defined in my Service Bus namespace?
+  - id: Queues_Get
+    intent: Get a queue's description
+    question: How do I check the settings of a single Service Bus queue?
+  - id: Queues_CreateOrUpdate
+    intent: Create or update a queue
+    question: How do I add a new queue to a Service Bus namespace?
+  - id: Queues_Delete
+    intent: Delete a queue
+    question: How do I remove a queue from a Service Bus namespace?
+  phrasing_ops: 4
   slug: azure-service-bus-queues-api
 - baseURL: https://management.azure.com
   baseurl_source: spec
   description: Service Bus topic subscription operations
   name: Azure Service Bus Subscriptions API
+  phrasing_intents:
+  - id: Subscriptions_ListByTopic
+    intent: List the subscriptions on a topic
+    question: Which subscriptions are listening on my Service Bus topic?
+  - id: Subscriptions_Get
+    intent: Get a topic subscription's description
+    question: How do I look up the settings of one subscription on a topic?
+  - id: Subscriptions_CreateOrUpdate
+    intent: Create or update a topic subscription
+    question: How do I subscribe a new consumer to a Service Bus topic?
+  - id: Subscriptions_Delete
+    intent: Delete a topic subscription
+    question: How do I stop a subscriber from receiving a topic's messages by removing its subscription?
+  phrasing_ops: 4
   slug: azure-service-bus-subscriptions-api
 - baseURL: https://management.azure.com
   baseurl_source: spec
   description: Service Bus topic operations
   name: Azure Service Bus Topics API
+  phrasing_intents:
+  - id: Topics_ListByNamespace
+    intent: List the topics in a namespace
+    question: Which topics are defined in my Service Bus namespace?
+  - id: Topics_Get
+    intent: Get a topic's description
+    question: How do I check how a single Service Bus topic is configured?
+  - id: Topics_CreateOrUpdate
+    intent: Create or update a topic
+    question: How do I add a new publish-subscribe topic to a Service Bus namespace?
+  - id: Topics_Delete
+    intent: Delete a topic
+    question: How do I remove a topic from a Service Bus namespace?
+  phrasing_ops: 4
   slug: azure-service-bus-topics-api
 - description: The management REST API enables namespace, queue, topic, and subscription configuration through Azure Resource Manager, including SKU, network rules, authorization rules, and disaster recovery configu
   name: Azure Service Bus Management REST API
@@ -71,6 +130,23 @@ apis:
   baseurl_source: declared
   description: The Messages API from Azure Service Bus — 3 operation(s) for messages.
   name: Azure Service Bus Messages API
+  phrasing_intents:
+  - id: sendMessage
+    intent: Send a message to a queue or topic
+    question: How do I post a message onto an Azure Service Bus queue over REST?
+  - id: receiveAndDelete
+    intent: Receive and delete the next queued message
+    question: How do I pull the next message off a queue and remove it in one step?
+  - id: peekLockMessage
+    intent: Peek and lock the next message for processing
+    question: How do I read the next message but keep it on the queue until I finish processing it?
+  - id: completeMessage
+    intent: Complete a peek-locked message
+    question: How do I mark a locked message as successfully processed so it leaves the queue?
+  - id: renewLock
+    intent: Renew the lock on a locked message
+    question: How do I extend the lock on a message that is taking a long time to process?
+  phrasing_ops: 5
   slug: microsoft-azure-service-bus-messages-api
 artifact_total: 66
 asyncapis:
@@ -402,13 +478,13 @@ score:
   band: exemplar
   composite: 68.0
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 64.9
     catalog_earned_first_party: 12.0
     catalog_gap: 50.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.2
+  delta: 0.0
   facets:
     access_clarity: 71.1
     contract_governance: 13.6
@@ -419,7 +495,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 65.8
+  previous_composite: 68.0
   provenance:
     agentic_access: derived
     contracts:
@@ -434,7 +510,7 @@ score:
     regime_id: horizontal
     score: 40.2
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

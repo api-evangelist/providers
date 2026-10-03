@@ -4,7 +4,7 @@ agent_readiness:
   dimensions:
     agent_card: flavored
     agent_skills: derived
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -22,84 +22,156 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.9
-  scored_at: '2026-09-25'
-api_count: 16
+  score: 36.7
+  scored_at: '2026-10-03'
+agentic_access:
+- acting_count: 111
+  human_in_the_loop: 3
+  name: Humanmirror Fr Agentic Access
+  operation_count: 140
+  slug: humanmirror-fr-agentic-access
+  summary_line: 140 operations · 111 acting · 3 human-in-the-loop
+api_count: 32
 apis:
-- baseURL: https://humanmirror.fr
-  baseurl_source: spec
-  description: 'HumanMirror x402 API v3.2.0: 82 pay-per-call operations settled in USDC on Base through x402 V2 — agent security (secret scanning, safe preflight, execution receipts, sanitize shield), data quality (c'
-  name: HumanMirror X402 API
-  slug: x402
-- baseURL: https://humanmirror.fr
-  baseurl_source: spec
-  description: 'Three separately published contracts for the M2M core: Sanitize Shield (indirect prompt-injection quarantine with a signed Cleanliness Proof), M2M Payload Normalizer (canonical JSON + stable SHA-256 d'
-  name: HumanMirror M2M Core Services
-  slug: m2m-core
-- baseURL: https://humanmirror.fr
-  baseurl_source: spec
-  description: Structured analysis of text, JSON records and numeric series (data quality, trends, anomalies, recommendations). Bearer hm_oracle_* key; one credit per successful analysis; 100 credits for 4.99 EUR vi
-  name: HumanMirror Oracle API
-  slug: oracle
-- baseURL: https://humanmirror.fr
-  baseurl_source: spec
-  description: Five deterministic micro-tools for agent data pipelines — clean_json, dedupe_records, normalize_entity, score_data_quality, detect_anomaly — multiplexed through POST /api/forge/run with a Bearer hm_fo
-  name: HumanMirror Forge API
-  slug: forge
-- baseURL: https://humanmirror.fr
-  baseurl_source: spec
-  description: 'Machine-to-machine tool discovery, routing and credit metering: free catalog search, a 100-credit trial key per network origin, Stripe checkout/claim for 5 000-credit packs, routed tool calls, and the'
-  name: HumanMirror Nexus API
-  slug: nexus
-- baseURL: https://humanmirror.fr
-  baseurl_source: spec
-  description: 'Deterministic operational utilities billed in Nexus credits under a Bearer hm_nexus_* key: Sentinel output inspection, Trace receipt issue + public verify, Lens schema inference and contract diff, Vau'
-  name: HumanMirror AgentOps API
-  slug: agentops
-- baseURL: https://humanmirror.fr
-  baseurl_source: spec
-  description: 'Free outcome-first fallback discovery for blocked agents: resolve a stated outcome to a live Nexus capability or record a sanitized capability gap in a privacy-thresholded public Machine Demand Graph '
-  name: HumanMirror Magnet API
-  slug: magnet
-- baseURL: https://humanmirror.fr
-  baseurl_source: spec
-  description: 'Verified outcome execution: quote and verify are free, a successful outcome.run costs 5 Nexus credits and failed execution or failed deterministic verification is refunded. The same three paths are mi'
-  name: HumanMirror Outcome API
-  slug: outcome
-- baseURL: https://humanmirror.fr
-  baseurl_source: spec
-  description: 'Single-tool verified-outcome interface (humanmirror_do): dry-run quotes are free, verified execution costs 6 Nexus credits, failures are refunded. The provider''s recommended default MCP surface for ag'
-  name: HumanMirror One API
-  slug: one
-- baseURL: https://humanmirror.fr
-  baseurl_source: spec
-  description: 'Verified 2-3 step agent missions billed as one whole transaction: free quote, 12 Nexus credits kept only if every step and the final proof succeed. One MCP tool (humanmirror_flow), registry entry fr.h'
-  name: HumanMirror Flow API
-  slug: flow
-- baseURL: https://humanmirror.fr
-  baseurl_source: spec
-  description: 'Non-custodial intent marketplace for autonomous agents: buyers publish a paid intent (0.010 USDC via x402), providers bid for free, the market awards the best admissible bid (0.050 USDC); live state i'
-  name: HumanMirror Intent Market API
-  slug: market
-- baseURL: https://humanmirror.fr
-  baseurl_source: spec
-  description: 'Cryptographic Proof-of-State and exact SHA-256 state-continuity drift detection (state-and-trust, 0.050 USDC via x402) plus the HumanMirror Universal Value Protocol (HUVP/1) resolver, policy firewall '
-  name: HumanMirror Agent OS API
-  slug: agent-os
-- baseURL: https://humanmirror.fr
-  baseurl_source: spec
-  description: 'Beta (1.0.0-beta) agent-to-human field-verification network: quote and post bounded public-world verification missions, register field workers, claim/submit/verify missions, and confirm the 80/20 buye'
-  name: HumanMirror Physical Oracle API
-  slug: physical-oracle
-- baseURL: https://humanmirror.fr
-  baseurl_source: spec
-  description: 'Public machine catalog and status for HumanMirror Automata, the family of ~35 operational guard services (renewal, broken-link, chargeback, KYC, invoice, dunning, uptime, webhook dead-letter …) whose '
-  name: HumanMirror Automata API
-  slug: automata
 - description: The OmniDome machine-society hub — registrar, agora, beacon, commons, settlement quotes, trust hall, agent exchange (1 bp fee) — exposed as a remote MCP server whose five discovery tools answer anonym
   name: OmniDome by HumanMirror (MCP)
   slug: omnidome
-artifact_total: 37
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: The Agent API from HumanMirror — 1 operation(s) for agent.
+  name: HumanMirror Agent API
+  slug: humanmirror-fr-agent-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: The Automata API from HumanMirror — 1 operation(s) for automata.
+  name: HumanMirror Automata API
+  slug: humanmirror-fr-automata-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: Canonical, bundle-priced HumanMirror services for autonomous agents. These routes supersede primitive legacy aliases.
+  name: HumanMirror Canonical agent bundles API
+  slug: humanmirror-fr-canonical-agent-bundles-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: The Circuit API from HumanMirror — 1 operation(s) for circuit.
+  name: HumanMirror Circuit API
+  slug: humanmirror-fr-circuit-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: The Consensus API from HumanMirror — 1 operation(s) for consensus.
+  name: HumanMirror Consensus API
+  slug: humanmirror-fr-consensus-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: The Flow API from HumanMirror — 4 operation(s) for flow.
+  name: HumanMirror Flow API
+  slug: humanmirror-fr-flow-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: The Forge API from HumanMirror — 3 operation(s) for forge.
+  name: HumanMirror Forge API
+  slug: humanmirror-fr-forge-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: The Lens API from HumanMirror — 2 operation(s) for lens.
+  name: HumanMirror Lens API
+  slug: humanmirror-fr-lens-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: The M2m API from HumanMirror — 6 operation(s) for m2m.
+  name: HumanMirror M2m API
+  slug: humanmirror-fr-m2m-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: The M2M Core API from HumanMirror — 2 operation(s) for m2m core.
+  name: HumanMirror M2M Core API
+  slug: humanmirror-fr-m2m-core-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: HumanMirror Next-Gen / Pack Futur — pre-launch 2027-2030 routes. 0.050 USDC per test call, included in Enterprise Fleet and available as Preview for HumanMirror Pro.
+  name: HumanMirror M2M Next-Gen Preview API
+  slug: humanmirror-fr-m2m-next-gen-preview-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: The Magnet API from HumanMirror — 3 operation(s) for magnet.
+  name: HumanMirror Magnet API
+  slug: humanmirror-fr-magnet-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: The Market API from HumanMirror — 4 operation(s) for market.
+  name: HumanMirror Market API
+  slug: humanmirror-fr-market-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: The Nexus API from HumanMirror — 6 operation(s) for nexus.
+  name: HumanMirror Nexus API
+  slug: humanmirror-fr-nexus-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: The One API from HumanMirror — 2 operation(s) for one.
+  name: HumanMirror One API
+  slug: humanmirror-fr-one-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: The Oracle API from HumanMirror — 2 operation(s) for oracle.
+  name: HumanMirror Oracle API
+  slug: humanmirror-fr-oracle-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: The Outcome API from HumanMirror — 4 operation(s) for outcome.
+  name: HumanMirror Outcome API
+  slug: humanmirror-fr-outcome-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: The Physical Oracle API from HumanMirror — 10 operation(s) for physical oracle.
+  name: HumanMirror Physical Oracle API
+  slug: humanmirror-fr-physical-oracle-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: The Referral API from HumanMirror — 3 operation(s) for referral.
+  name: HumanMirror Referral API
+  slug: humanmirror-fr-referral-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: The Sanitize API from HumanMirror — 1 operation(s) for sanitize.
+  name: HumanMirror Sanitize API
+  slug: humanmirror-fr-sanitize-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: The Sentinel API from HumanMirror — 1 operation(s) for sentinel.
+  name: HumanMirror Sentinel API
+  slug: humanmirror-fr-sentinel-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: The Sink API from HumanMirror — 1 operation(s) for sink.
+  name: HumanMirror Sink API
+  slug: humanmirror-fr-sink-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: The Trace API from HumanMirror — 2 operation(s) for trace.
+  name: HumanMirror Trace API
+  slug: humanmirror-fr-trace-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: The Value API from HumanMirror — 3 operation(s) for value.
+  name: HumanMirror Value API
+  slug: humanmirror-fr-value-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: The Vault API from HumanMirror — 1 operation(s) for vault.
+  name: HumanMirror Vault API
+  slug: humanmirror-fr-vault-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: The X402 API from HumanMirror — 52 operation(s) for x402.
+  name: HumanMirror X402 API
+  slug: humanmirror-fr-x402-api
+- baseURL: https://humanmirror.fr/api/omnidome/
+  baseurl_source: declared
+  description: The Zero API from HumanMirror — 1 operation(s) for zero.
+  name: HumanMirror Zero API
+  slug: humanmirror-fr-zero-api
+artifact_total: 53
 collections:
 - collection_type: postman
   name: HumanMirror AgentOps
@@ -114,6 +186,170 @@ collections:
   name: HumanMirror Nexus API
   slug: postman-humanmirror-fr-nexus
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/agentic-access/humanmirror-fr-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/humanmirror-fr-agentic-access.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/rules/humanmirror-fr-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/humanmirror-fr-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/json-ld/humanmirror-fr-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/humanmirror-fr-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/vocabulary/humanmirror-fr-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/humanmirror-fr-vocabulary.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/data-model/humanmirror-fr-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/humanmirror-fr-data-model.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/lifecycle/humanmirror-fr-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/humanmirror-fr-lifecycle.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/hosts/humanmirror-fr-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/humanmirror-fr-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/vendors/humanmirror-fr-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/humanmirror-fr-vendors.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/packages/humanmirror-fr-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/humanmirror-fr-packages.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/overlays/humanmirror-fr-x402-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/humanmirror-fr-x402-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://humanmirror.fr/api/x402/mcp/
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/skills/humanmirror-fr-secure-external-context.md
+  title: ''
+  type: AgentSkill
+  url: skills/humanmirror-fr-secure-external-context.md
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/skills/humanmirror-fr-genesis-skill.md
+  title: ''
+  type: AgentSkill
+  url: skills/humanmirror-fr-genesis-skill.md
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/overlays/humanmirror-fr-sanitize-shield-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/humanmirror-fr-sanitize-shield-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/overlays/humanmirror-fr-payload-normalizer-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/humanmirror-fr-payload-normalizer-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/overlays/humanmirror-fr-consensus-verify-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/humanmirror-fr-consensus-verify-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/overlays/humanmirror-fr-oracle-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/humanmirror-fr-oracle-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://humanmirror.fr/api/oracle/mcp/
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/overlays/humanmirror-fr-forge-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/humanmirror-fr-forge-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://humanmirror.fr/api/forge/mcp/
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/overlays/humanmirror-fr-nexus-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/humanmirror-fr-nexus-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://humanmirror.fr/api/nexus/mcp/
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/skills/humanmirror-fr-verified-outcome.md
+  title: ''
+  type: AgentSkill
+  url: skills/humanmirror-fr-verified-outcome.md
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/overlays/humanmirror-fr-agentops-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/humanmirror-fr-agentops-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/overlays/humanmirror-fr-magnet-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/humanmirror-fr-magnet-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/overlays/humanmirror-fr-outcome-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/humanmirror-fr-outcome-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/overlays/humanmirror-fr-one-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/humanmirror-fr-one-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://humanmirror.fr/api/one/mcp/
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/overlays/humanmirror-fr-flow-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/humanmirror-fr-flow-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://humanmirror.fr/api/flow/mcp/
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/overlays/humanmirror-fr-market-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/humanmirror-fr-market-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/overlays/humanmirror-fr-agent-os-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/humanmirror-fr-agent-os-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/overlays/humanmirror-fr-physical-oracle-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/humanmirror-fr-physical-oracle-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/overlays/humanmirror-fr-automata-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/humanmirror-fr-automata-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/security/humanmirror-fr-domain-security.yml
   title: ''
@@ -284,6 +520,10 @@ json_schemas:
   property_count: 6
   slug: humanmirror-fr-genesis
 jsonld:
+- class_count: 7
+  name: Humanmirror Fr Context
+  property_count: 14
+  slug: humanmirror-fr-context
 - class_count: 0
   name: Humanmirror Fr M2M Context
   property_count: 0
@@ -318,13 +558,13 @@ modified: '2026-09-19'
 name: HumanMirror
 nav: Providers
 network: true
-overview: 'HumanMirror publishes 15 APIs on the [APIs.io](https://apis.io/) network, including X402 API, M2M Core Services, Oracle API, and 12 more. Tagged areas include Company, AI Agents, Agent Security, Prompt Injection Defense, and x402.
+overview: 'HumanMirror publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Automata API, Canonical agent bundles API, and 25 more. Tagged areas include Company, AI Agents, Agent Security, Prompt Injection Defense, and x402.
 
 
-  The HumanMirror catalog on APIs.io includes 1 JSON-LD context.
+  The HumanMirror catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  HumanMirror''s developer surface includes authentication, getting-started guide, documentation, pricing, support, signup flow, CLI, and 26 more developer resources.'
+  HumanMirror''s developer surface includes authentication, getting-started guide, documentation, pricing, support, signup flow, CLI, and 60 more developer resources.'
 plans:
 - name: Humanmirror Fr Plans Pricing
   plan_count: 10
@@ -334,24 +574,36 @@ rate_limits:
 - limit_count: 6
   name: Humanmirror Fr Rate Limits
   slug: humanmirror-fr-rate-limits
+rules:
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: HumanMirror API Rules
+  rule_count: 10
+  severity_counts:
+    error: 7
+    hint: 0
+    info: 2
+    warn: 1
+  slug: humanmirror-fr-rules
 score:
   band: strong
-  composite: 56.9
+  composite: 64.8
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 73.0
+    artifact_dirs: 29
+    catalog_earned: 89.8
     catalog_earned_first_party: 24.0
-    catalog_gap: 42.0
+    catalog_gap: 25.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.4
+  delta: 7.9
   facets:
     access_clarity: 76.3
-    contract_governance: 18.2
-    contract_quality: 47.6
-    developer_ergonomics: 68.5
-    discoverability: 71.7
-    operational_transparency: 47.4
+    contract_governance: 35.6
+    contract_quality: 57.7
+    developer_ergonomics: 75.6
+    discoverability: 80.0
+    operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -360,14 +612,15 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 60.3
+  previous_composite: 56.9
   provenance:
+    agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 16
+      total: 27
     mcp: first-party
     skills: derived
   regulatory:
@@ -377,8 +630,8 @@ score:
     regime_id: payments
     score: 27.7
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
-  trend: flat
+  scored_at: '2026-10-03'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

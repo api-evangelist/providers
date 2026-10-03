@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 60.7
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 92
@@ -61,81 +61,395 @@ apis:
   baseurl_source: declared
   description: The Activity API from Novu — 1 operation(s) for activity.
   name: Novu Activity API
+  phrasing_intents:
+  - id: InboundWebhooksController_handleWebhook
+    intent: Report delivery provider engagement events
+    question: How do I send delivery and engagement events from my email or SMS provider back into Novu?
+  phrasing_ops: 1
   slug: novu-activity-api
 - baseURL: https://api.novu.co
   baseurl_source: declared
   description: The Channel Connections API from Novu — 2 operation(s) for channel connections.
   name: Novu Channel Connections API
+  phrasing_intents:
+  - id: ChannelConnectionsController_listChannelConnections
+    intent: List channel connections
+    question: Which chat workspace connections have been set up for my subscribers?
+  - id: ChannelConnectionsController_createChannelConnection
+    intent: Create a channel connection
+    question: How do I connect a chat workspace to an integration with its auth credentials?
+  - id: ChannelConnectionsController_getChannelConnectionByIdentifier
+    intent: Get a channel connection
+    question: How can I look up the details of one channel connection by its identifier?
+  - id: ChannelConnectionsController_updateChannelConnection
+    intent: Update a channel connection
+    question: How do I refresh the auth credentials on an existing channel connection?
+  - id: ChannelConnectionsController_deleteChannelConnection
+    intent: Delete a channel connection
+    question: How do I remove a chat workspace connection I no longer use?
+  phrasing_ops: 5
   slug: novu-channel-connections-api
 - baseURL: https://api.novu.co
   baseurl_source: declared
   description: The Channel Endpoints API from Novu — 2 operation(s) for channel endpoints.
   name: Novu Channel Endpoints API
+  phrasing_intents:
+  - id: ChannelEndpointsController_listChannelEndpoints
+    intent: List channel endpoints
+    question: Which chat endpoints are registered for a given subscriber?
+  - id: ChannelEndpointsController_createChannelEndpoint
+    intent: Create a channel endpoint
+    question: How do I register a new channel endpoint for a resource?
+  - id: ChannelEndpointsController_getChannelEndpoint
+    intent: Get a channel endpoint
+    question: How do I look up one channel endpoint by its identifier?
+  - id: ChannelEndpointsController_updateChannelEndpoint
+    intent: Update a channel endpoint
+    question: How do I change where an existing channel endpoint delivers to?
+  - id: ChannelEndpointsController_deleteChannelEndpoint
+    intent: Delete a channel endpoint
+    question: How do I remove a channel endpoint so no more messages go to it?
+  phrasing_ops: 5
   slug: novu-channel-endpoints-api
 - baseURL: https://api.novu.co
   baseurl_source: declared
   description: The Contexts API from Novu — 2 operation(s) for contexts.
   name: Novu Contexts API
+  phrasing_intents:
+  - id: ContextsController_createContext
+    intent: Create a context
+    question: How do I create a new context with a type, id and custom data?
+  - id: ContextsController_listContexts
+    intent: List contexts
+    question: How do I see all the contexts defined in my Novu environment?
+  - id: ContextsController_updateContext
+    intent: Update a context's data
+    question: How do I change the data on an existing context without recreating it?
+  - id: ContextsController_getContext
+    intent: Get a context
+    question: How do I fetch a single context by its type and id?
+  - id: ContextsController_deleteContext
+    intent: Delete a context
+    question: How do I remove a context I no longer need?
+  phrasing_ops: 5
   slug: novu-contexts-api
 - baseURL: https://api.novu.co
   baseurl_source: declared
   description: Used to manage your inbound email domains.
   name: Novu Domains API
+  phrasing_intents:
+  - id: DomainsController_listDomains
+    intent: List inbound-email domains
+    question: Which inbound email domains are registered in my current environment?
+  - id: DomainsController_createDomain
+    intent: Register an inbound-email domain
+    question: How do I set up a new domain so it can receive inbound email?
+  - id: DomainsController_getDomain
+    intent: Get a domain's configuration and DNS records
+    question: How can I see the configuration and required DNS records for one of my domains?
+  - id: DomainsController_updateDomain
+    intent: Update a domain's metadata
+    question: How do I change the metadata attached to an inbound domain?
+  - id: DomainsController_deleteDomain
+    intent: Delete an inbound-email domain
+    question: What happens to a domain's routes when I delete the domain?
+  - id: DomainsController_verifyDomain
+    intent: Verify a domain's MX records
+    question: I've added the MX records; how do I get Novu to re-check and verify my domain?
+  - id: DomainsController_diagnoseDomain
+    intent: Diagnose inbound DNS problems
+    question: Why isn't my domain receiving inbound email?
+  - id: DomainsController_listDomainRoutes
+    intent: List a domain's routes
+    question: Which addresses on my domain have inbound routes set up?
+  phrasing_ops: 15
   slug: novu-domains-api
 - baseURL: https://api.novu.co
   baseurl_source: declared
   description: The Environment Variables API from Novu — 3 operation(s) for environment variables.
   name: Novu Environment Variables API
+  phrasing_intents:
+  - id: EnvironmentVariablesController_listEnvironmentVariables
+    intent: List environment variables
+    question: What environment variables are defined for my Novu organization?
+  - id: EnvironmentVariablesController_createEnvironmentVariable
+    intent: Create an environment variable
+    question: How do I add a new variable like BASE_URL for my workflows to use?
+  - id: EnvironmentVariablesController_getEnvironmentVariableUsage
+    intent: See which workflows use a variable
+    question: Which workflows reference a given environment variable in their steps?
+  - id: EnvironmentVariablesController_getEnvironmentVariable
+    intent: Get an environment variable
+    question: How do I look up a single environment variable by its key?
+  - id: EnvironmentVariablesController_updateEnvironmentVariable
+    intent: Update an environment variable
+    question: How do I change a variable's value for just one environment?
+  - id: EnvironmentVariablesController_deleteEnvironmentVariable
+    intent: Delete an environment variable
+    question: How do I remove an environment variable I no longer need?
+  phrasing_ops: 6
   slug: novu-environment-variables-api
 - baseURL: https://api.novu.co
   baseurl_source: declared
   description: Environments allow you to manage different stages of your application development lifecycle. Each environment has its own set of API keys and configurations, enabling you to separate development, stag
   name: Novu Environments API
+  phrasing_intents:
+  - id: EnvironmentsControllerV1_createEnvironment
+    intent: Create an environment
+    question: How do I add a staging environment with its own API keys?
+  - id: EnvironmentsControllerV1_listMyEnvironments
+    intent: List environments
+    question: What environments does my Novu organization have?
+  - id: EnvironmentsControllerV1_updateMyEnvironment
+    intent: Update an environment
+    question: How do I rename an environment or change its color?
+  - id: EnvironmentsControllerV1_deleteEnvironment
+    intent: Delete an environment
+    question: What gets removed when I delete an environment?
+  - id: EnvironmentsController_getEnvironmentTags
+    intent: List workflow tags in an environment
+    question: Which tags are used across the workflows in an environment?
+  - id: EnvironmentsController_publishEnvironment
+    intent: Publish resources to another environment
+    question: How do I promote my development workflows to production?
+  - id: EnvironmentsController_diffEnvironment
+    intent: Compare two environments
+    question: What's different between my development and production workflows?
+  phrasing_ops: 7
   slug: novu-environments-api
 - baseURL: https://api.novu.co
   baseurl_source: declared
   description: Events represent a change in state of a subscriber. They are used to trigger workflows, and enable you to send notifications to subscribers based on their actions.
   name: Novu Events API
+  phrasing_intents:
+  - id: EventsController_trigger
+    intent: Trigger a workflow to send notifications
+    question: How do I send a notification to a subscriber with Novu?
+  - id: EventsController_triggerBulk
+    intent: Trigger many events in one request
+    question: Can I trigger several different workflows in a single API call?
+  - id: EventsController_broadcastEventToAll
+    intent: Broadcast a notification to all subscribers
+    question: How do I send an announcement to every subscriber at once?
+  - id: EventsController_cancel
+    intent: Cancel a triggered event
+    question: How do I stop a pending digest or delayed notification from going out?
+  phrasing_ops: 4
   slug: novu-events-api
 - baseURL: https://api.novu.co
   baseurl_source: declared
   description: With the help of the Integration Store, you can easily integrate your favorite delivery provider. During the runtime of the API, the Integrations Store is responsible for storing the configurations of
   name: Novu Integrations API
+  phrasing_intents:
+  - id: IntegrationsController_listIntegrations
+    intent: List all channel integrations
+    question: Which delivery providers have I integrated with Novu, active or not?
+  - id: IntegrationsController_createIntegration
+    intent: Add a delivery provider integration
+    question: How do I connect a new email or SMS provider to Novu?
+  - id: IntegrationsController_getActiveIntegrations
+    intent: List active integrations
+    question: Which of my integrations are currently turned on?
+  - id: IntegrationsController_updateIntegrationById
+    intent: Update an integration
+    question: How do I rotate the API key on an existing provider integration?
+  - id: IntegrationsController_removeIntegration
+    intent: Delete an integration
+    question: How do I remove a provider integration permanently?
+  - id: IntegrationsController_autoConfigureIntegration
+    intent: Auto-configure inbound webhooks for an integration
+    question: Can Novu set up the webhook signing keys and endpoints for a provider automatically?
+  - id: IntegrationsController_setIntegrationAsPrimary
+    intent: Make an integration the primary provider
+    question: How do I choose which email provider is used by default in a workflow?
+  - id: IntegrationsController_getChatOAuthUrl
+    intent: Generate a chat OAuth URL (deprecated)
+    question: What was the older, deprecated endpoint for generating a chat OAuth link?
+  phrasing_ops: 10
   slug: novu-integrations-api
 - baseURL: https://api.novu.co
   baseurl_source: declared
   description: Layouts are reusable wrappers for your email notifications.
   name: Novu Layouts API
+  phrasing_intents:
+  - id: LayoutsController_create
+    intent: Create a layout
+    question: How do I create a new shared layout for my emails?
+  - id: LayoutsController_list
+    intent: List email layouts
+    question: What layouts do I have available for my email templates?
+  - id: LayoutsController_update
+    intent: Update a layout
+    question: How do I rename a layout or change its content?
+  - id: LayoutsController_get
+    intent: Get a layout
+    question: How do I fetch the details of one layout?
+  - id: LayoutsController__delete
+    intent: Delete a layout
+    question: How do I remove a layout I no longer use?
+  - id: LayoutsController_duplicate
+    intent: Duplicate a layout
+    question: How do I copy an existing layout as a starting point for a new one?
+  - id: LayoutsController_generatePreview
+    intent: Preview a layout
+    question: How can I see what a layout will look like with sample data?
+  - id: LayoutsController_getUsage
+    intent: See which workflows use a layout
+    question: Which workflows are using a particular layout?
+  phrasing_ops: 8
   slug: novu-layouts-api
 - baseURL: https://api.novu.co
   baseurl_source: declared
   description: A message in Novu represents a notification delivered to a recipient on a particular channel. Messages contain information about the request that triggered its delivery, a view of the data sent to the
   name: Novu Messages API
+  phrasing_intents:
+  - id: MessagesController_getMessages
+    intent: List sent messages
+    question: How do I see the messages Novu has sent in this environment?
+  - id: MessagesController_deleteMessage
+    intent: Delete a message
+    question: How do I delete a single message by its id?
+  - id: MessagesController_deleteMessagesByTransactionId
+    intent: Delete all messages from a trigger
+    question: How do I delete every message produced by one triggered event?
+  phrasing_ops: 3
   slug: novu-messages-api
 - baseURL: https://api.novu.co
   baseurl_source: declared
   description: The Notifications API from Novu — 2 operation(s) for notifications.
   name: Novu Notifications API
+  phrasing_intents:
+  - id: NotificationsController_listNotifications
+    intent: List triggered notification events
+    question: How do I see the activity feed of workflows that were triggered?
+  - id: NotificationsController_getNotification
+    intent: Get a triggered event's details
+    question: How can I see the execution logs and status of one triggered event?
+  phrasing_ops: 2
   slug: novu-notifications-api
 - baseURL: https://api.novu.co
   baseurl_source: declared
   description: A subscriber in Novu represents someone who should receive a message. A subscriber's profile information contains important attributes about the subscriber that will be used in messages (name, email).
   name: Novu Subscribers API
+  phrasing_intents:
+  - id: SubscribersV1Controller_bulkCreateSubscribers
+    intent: Create many subscribers at once
+    question: How do I import a large batch of users as subscribers in one request?
+  - id: SubscribersV1Controller_updateSubscriberChannel
+    intent: Replace a subscriber's provider credentials
+    question: How do I overwrite a subscriber's push device tokens with a fresh set?
+  - id: SubscribersV1Controller_modifySubscriberChannel
+    intent: Add to a subscriber's provider credentials
+    question: Can I append a new FCM device token to a subscriber without dropping the old ones?
+  - id: SubscribersV1Controller_deleteSubscriberCredentials
+    intent: Remove a subscriber's provider credentials
+    question: How do I delete the stored push or chat credentials for a subscriber?
+  - id: SubscribersV1Controller_updateSubscriberOnlineFlag
+    intent: Set a subscriber's online status
+    question: Can I mark a subscriber as online or offline?
+  - id: SubscribersV1Controller_getNotificationsFeed
+    intent: Get a subscriber's inbox feed (v1)
+    question: What does the older page-based inbox feed endpoint return for a subscriber?
+  - id: SubscribersV1Controller_getUnseenCount
+    intent: Count a subscriber's unseen notifications
+    question: How many unseen inbox notifications does a subscriber have for the bell badge?
+  - id: SubscribersV1Controller_markMessagesAs
+    intent: Mark specific inbox messages (v1)
+    question: With the older v1 endpoint, can I mark several message ids as seen, read, unseen or unread at once?
+  phrasing_ops: 35
   slug: novu-subscribers-api
 - baseURL: https://api.novu.co
   baseurl_source: declared
   description: Topics are a way to group subscribers together so that they can be notified of events at once. A topic is identified by a custom key. This can be helpful for things like sending out marketing emails o
   name: Novu Topics API
+  phrasing_intents:
+  - id: TopicsV1Controller_getTopicSubscriber
+    intent: Check if a subscriber is in a topic
+    question: Is a particular subscriber part of a given topic?
+  - id: TopicsController_listTopics
+    intent: List topics
+    question: What topics have I set up for group notifications?
+  - id: TopicsController_upsertTopic
+    intent: Create or update a topic
+    question: How do I create a topic to notify a group of subscribers together?
+  - id: TopicsController_getTopic
+    intent: Get a topic
+    question: How do I look up a topic by its key?
+  - id: TopicsController_updateTopic
+    intent: Rename a topic
+    question: How do I change the display name of an existing topic?
+  - id: TopicsController_deleteTopic
+    intent: Delete a topic
+    question: What happens to a topic's subscriptions when I delete it?
+  - id: TopicsController_listTopicSubscriptions
+    intent: List a topic's subscribers
+    question: Who is subscribed to a given topic?
+  - id: TopicsController_createTopicSubscriptions
+    intent: Subscribe subscribers to a topic
+    question: How do I add several subscribers to a topic at once?
+  phrasing_ops: 11
   slug: novu-topics-api
 - baseURL: https://api.novu.co
   baseurl_source: declared
   description: Used to localize your notifications to different languages.
   name: Novu Translations API
+  phrasing_intents:
+  - id: TranslationController_uploadTranslationFiles
+    intent: Upload locale files for a workflow
+    question: How do I upload JSON translation files for one workflow?
+  - id: TranslationController_createTranslationEndpoint
+    intent: Create or update a translation
+    question: How do I add a translation for one locale to a workflow?
+  - id: TranslationController_getMasterJsonEndpoint
+    intent: Export all translations as master JSON
+    question: Can I export every workflow's translations for a locale in one JSON file?
+  - id: TranslationController_importMasterJsonEndpoint
+    intent: Import translations from master JSON
+    question: How do I import translations for many workflows at once from a JSON body?
+  - id: TranslationController_uploadMasterJsonEndpoint
+    intent: Upload a master translations file
+    question: Can I upload a master translations file and have the locale detected from its filename?
+  - id: TranslationController_getTranslationGroupEndpoint
+    intent: Get a translation group
+    question: Which locales have translations for a specific workflow or layout?
+  - id: TranslationController_getSingleTranslation
+    intent: Get one locale's translation
+    question: How do I read the French strings for a particular workflow?
+  - id: TranslationController_deleteTranslationEndpoint
+    intent: Delete one locale's translation
+    question: How do I remove just one language from a workflow's translations?
+  phrasing_ops: 9
   slug: novu-translations-api
 - baseURL: https://api.novu.co
   baseurl_source: declared
   description: All notifications are sent via a workflow. Each workflow acts as a container for the logic and blueprint that are associated with a type of notification in your system.
   name: Novu Workflows API
+  phrasing_intents:
+  - id: WorkflowController_create
+    intent: Create a workflow
+    question: How do I create a new notification workflow with email and in-app steps?
+  - id: WorkflowController_searchWorkflows
+    intent: List workflows
+    question: What notification workflows exist in my environment?
+  - id: WorkflowController_sync
+    intent: Sync a workflow to another environment
+    question: Can I copy a single workflow to my production environment?
+  - id: WorkflowController_update
+    intent: Replace a workflow's definition
+    question: How do I fully replace a workflow's steps and preferences?
+  - id: WorkflowController_getWorkflow
+    intent: Get a workflow
+    question: How do I fetch the full definition of one workflow?
+  - id: WorkflowController_removeWorkflow
+    intent: Delete a workflow
+    question: What's the way to delete a workflow I no longer need?
+  - id: WorkflowController_patchWorkflow
+    intent: Partially update a workflow
+    question: How do I deactivate a workflow without resending its steps?
+  - id: WorkflowController_generatePreview
+    intent: Preview a workflow step
+    question: How can I see what a workflow step's message will look like with test data?
+  phrasing_ops: 9
   slug: novu-workflows-api
 - baseURL: https://api.novu.co
   baseurl_source: declared
@@ -793,23 +1107,23 @@ rules:
   slug: novu-spectral-rules
 score:
   band: exemplar
-  composite: 71.1
+  composite: 71.6
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 87.6
+    artifact_dirs: 24
+    catalog_earned: 90.6
     catalog_earned_first_party: 0.0
-    catalog_gap: 27.4
+    catalog_gap: 24.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.4
+  delta: 0.5
   facets:
     access_clarity: 74.5
     contract_governance: 27.3
     contract_quality: 77.6
     developer_ergonomics: 83.3
-    discoverability: 70.0
+    discoverability: 75.0
     operational_transparency: 54.7
-  previous_composite: 74.5
+  previous_composite: 71.1
   provenance:
     agentic_access: derived
     contracts:
@@ -825,7 +1139,7 @@ score:
     regime_id: telecommunications
     score: 20.8
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.5
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ apis:
   description: The Health API from Automation Preflight API — 1 operation(s) for health.
   name: Automation Preflight API Health API
   slug: automation-preflight-api-health-api
-artifact_total: 16
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -85,6 +85,25 @@ collections:
   name: Automation Preflight Health API
   slug: open-automation-preflight-api-health-api
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/rules/automation-preflight-api-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/automation-preflight-api-rules.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/hosts/automation-preflight-api-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/automation-preflight-api-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/vendors/automation-preflight-api-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/automation-preflight-api-vendors.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.api.market/
 - group: company
   title: ''
   type: Website
@@ -234,7 +253,10 @@ network: true
 overview: 'Automation Preflight API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Acceptance Pack API, Analyze API, Direct API, and 1 more. Tagged areas include Automation, Integration, Developer Tools, Readiness, and Testing.
 
 
-  Automation Preflight API''s developer surface includes authentication, support, pricing, signup flow, sandbox, code examples, and 22 more developer resources.'
+  The Automation Preflight API catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  Automation Preflight API''s developer surface includes documentation, authentication, support, pricing, signup flow, sandbox, code examples, and 25 more developer resources.'
 plans:
 - name: Automation Preflight Api Plans
   plan_count: 4
@@ -244,25 +266,37 @@ rate_limits:
 - limit_count: 2
   name: Automation Preflight Api Rate Limits
   slug: automation-preflight-api-rate-limits
+rules:
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Automation Preflight API API Rules
+  rule_count: 11
+  severity_counts:
+    error: 9
+    hint: 0
+    info: 1
+    warn: 1
+  slug: automation-preflight-api-rules
 score:
   band: developing
-  composite: 47.6
+  composite: 49.2
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 57.0
+    artifact_dirs: 26
+    catalog_earned: 61.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 1.6
   facets:
     access_clarity: 76.3
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 47.3
     developer_ergonomics: 44.6
     discoverability: 73.2
     operational_transparency: 23.7
-  previous_composite: 47.7
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -280,7 +314,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

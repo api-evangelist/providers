@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.9
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -52,41 +52,117 @@ apis:
   baseurl_source: declared
   description: The Authentication API from Dremio | Intelligent Lakehouse Platform — 1 operation(s) for authentication.
   name: Dremio | Intelligent Lakehouse Platform Authentication API
+  phrasing_intents:
+  - id: login
+    intent: Sign in and get an auth token
+    question: How do I get an auth token for Dremio using my username and password?
+  phrasing_ops: 1
   slug: dremio-intelligent-lakehouse-platform-authentication-api
 - baseURL: https://{hostname}/api/v3
   baseurl_source: declared
   description: The Catalog API from Dremio | Intelligent Lakehouse Platform — 3 operation(s) for catalog.
   name: Dremio | Intelligent Lakehouse Platform Catalog API
+  phrasing_intents:
+  - id: listCatalog
+    intent: Browse the top-level catalog
+    question: What spaces, sources and home folders are at the top level of my catalog?
+  - id: getCatalogEntity
+    intent: Look up a catalog item by its ID
+    question: How do I fetch the details of a dataset or folder when I only have its ID?
+  - id: deleteCatalogEntity
+    intent: Delete a catalog item
+    question: How do I remove a dataset, folder or space from the catalog?
+  - id: getCatalogByPath
+    intent: Look up a catalog item by its path
+    question: How do I find a dataset by its dotted path instead of its ID?
+  phrasing_ops: 4
   slug: dremio-intelligent-lakehouse-platform-catalog-api
 - baseURL: https://{hostname}/api/v3
   baseurl_source: declared
   description: The Jobs API from Dremio | Intelligent Lakehouse Platform — 4 operation(s) for jobs.
   name: Dremio | Intelligent Lakehouse Platform Jobs API
+  phrasing_intents:
+  - id: submitJob
+    intent: Run a SQL query as a job
+    question: How do I run a SQL query against my lakehouse through the API?
+  - id: getJob
+    intent: Check a query job's status
+    question: Has my SQL query job finished running yet?
+  - id: getJobResults
+    intent: Fetch the results of a finished job
+    question: Where do I get the rows my completed query returned?
+  - id: cancelJob
+    intent: Cancel a running query job
+    question: How do I stop a SQL query that's taking too long?
+  phrasing_ops: 4
   slug: dremio-intelligent-lakehouse-platform-jobs-api
 - baseURL: https://{hostname}/api/v3
   baseurl_source: declared
   description: The PAT API from Dremio | Intelligent Lakehouse Platform — 1 operation(s) for pat.
   name: Dremio | Intelligent Lakehouse Platform PAT API
+  phrasing_intents:
+  - id: listUserTokens
+    intent: List a user's personal access tokens
+    question: Which personal access tokens does a given user have?
+  - id: createUserToken
+    intent: Create a personal access token for a user
+    question: How do I generate a new personal access token for a user?
+  phrasing_ops: 2
   slug: dremio-intelligent-lakehouse-platform-pat-api
 - baseURL: https://{hostname}/api/v3
   baseurl_source: declared
   description: The Reflections API from Dremio | Intelligent Lakehouse Platform — 2 operation(s) for reflections.
   name: Dremio | Intelligent Lakehouse Platform Reflections API
+  phrasing_intents:
+  - id: listReflections
+    intent: List reflections
+    question: What reflections exist across my datasets?
+  - id: createReflection
+    intent: Create a reflection to accelerate queries
+    question: How do I add a new reflection to speed up queries on a dataset?
+  - id: getReflection
+    intent: Get a reflection's details
+    question: How do I see how a specific reflection is configured?
+  - id: updateReflection
+    intent: Update an existing reflection
+    question: How do I change a reflection I already created?
+  - id: deleteReflection
+    intent: Delete a reflection
+    question: How do I drop a reflection I no longer need?
+  phrasing_ops: 5
   slug: dremio-intelligent-lakehouse-platform-reflections-api
 - baseURL: https://{hostname}/api/v3
   baseurl_source: declared
   description: The Roles API from Dremio | Intelligent Lakehouse Platform — 1 operation(s) for roles.
   name: Dremio | Intelligent Lakehouse Platform Roles API
+  phrasing_intents:
+  - id: listRoles
+    intent: List roles
+    question: What roles are defined in my Dremio instance?
+  phrasing_ops: 1
   slug: dremio-intelligent-lakehouse-platform-roles-api
 - baseURL: https://{hostname}/api/v3
   baseurl_source: declared
   description: The Scripts API from Dremio | Intelligent Lakehouse Platform — 1 operation(s) for scripts.
   name: Dremio | Intelligent Lakehouse Platform Scripts API
+  phrasing_intents:
+  - id: listScripts
+    intent: List saved SQL scripts
+    question: Which SQL scripts have been saved?
+  - id: createScript
+    intent: Save a new SQL script
+    question: How do I save a SQL query as a reusable script?
+  phrasing_ops: 2
   slug: dremio-intelligent-lakehouse-platform-scripts-api
 - baseURL: https://{hostname}/api/v3
   baseurl_source: declared
   description: The Sources API from Dremio | Intelligent Lakehouse Platform — 1 operation(s) for sources.
   name: Dremio | Intelligent Lakehouse Platform Sources API
+  phrasing_intents:
+  - id: listSources
+    intent: List connected data sources
+    question: Which data sources are connected to my lakehouse?
+  phrasing_ops: 1
   slug: dremio-intelligent-lakehouse-platform-sources-api
 artifact_total: 29
 collections:
@@ -362,7 +438,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.0
+  delta: 0.0
   facets:
     access_clarity: 100.0
     contract_governance: 18.2
@@ -370,7 +446,7 @@ score:
     developer_ergonomics: 80.4
     discoverability: 68.3
     operational_transparency: 76.3
-  previous_composite: 67.4
+  previous_composite: 69.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -388,7 +464,7 @@ score:
     regime_id: horizontal
     score: 41.8
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

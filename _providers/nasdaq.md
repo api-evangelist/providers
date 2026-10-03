@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 api_count: 1
 apis:
 - description: 'Real-time Nasdaq market data delivered over Apache Kafka (TLS) with SASL/OAUTHBEARER authentication against a Keycloak pro-realm token endpoint. Topics documented in the NCDS Java and Python SDKs: GID'
@@ -69,7 +69,7 @@ modified: '2026-09-16'
 name: Nasdaq
 nav: Providers
 network: true
-overview: 'Nasdaq publishes 1 API on the [APIs.io](https://apis.io/) network: Cloud Data Service (NCDS) — Kafka Streams. Tagged areas include Fortune 1000 and Real-Time.
+overview: 'Nasdaq publishes 1 API on the [APIs.io](https://apis.io/) network: Cloud Data Service (NCDS) — Kafka Streams. Tagged areas include Fortune 1000.
 
 
   The Nasdaq catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.'
@@ -96,7 +96,7 @@ score:
     catalog_gap: 86.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 13.6
@@ -104,7 +104,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 42.9
     operational_transparency: 2.6
-  previous_composite: 20.1
+  previous_composite: 18.0
   regulatory:
     applies: true
     matched_via: fallback
@@ -112,7 +112,7 @@ score:
     regime_id: horizontal
     score: 5.9
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: false
@@ -127,6 +127,5 @@ security:
 slug: nasdaq
 tags:
 - Fortune 1000
-- Real-Time
 website: https://nasdaq.com:9094
 ---

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.1
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 1
@@ -135,81 +135,302 @@ apis:
   baseurl_source: declared
   description: The Admin API from GitLab — 11 operation(s) for admin.
   name: GitLab Admin API
+  phrasing_intents:
+  - id: getApiV4AdminBatchedBackgroundMigrationsId
+    intent: Get a batched background migration
+    question: How do I check the progress of one batched background migration on my instance?
+  - id: getApiV4AdminBatchedBackgroundMigrations
+    intent: List batched background migrations
+    question: Which batched background migrations are running or queued on my self-managed GitLab?
+  - id: putApiV4AdminBatchedBackgroundMigrationsIdResume
+    intent: Resume a paused background migration
+    question: How do I restart a batched background migration I paused?
+  - id: putApiV4AdminBatchedBackgroundMigrationsIdPause
+    intent: Pause a batched background migration
+    question: How do I temporarily halt a batched background migration that is loading the database?
+  - id: getApiV4AdminCiVariablesKey
+    intent: Get an instance-level CI variable
+    question: How do I read the value and settings of one instance-wide CI/CD variable?
+  - id: putApiV4AdminCiVariablesKey
+    intent: Update an instance-level CI variable
+    question: How do I change the value of an existing instance-wide CI variable?
+  - id: deleteApiV4AdminCiVariablesKey
+    intent: Delete an instance-level CI variable
+    question: How do I remove a CI/CD variable that applies to every project on the instance?
+  - id: getApiV4AdminCiVariables
+    intent: List instance-level CI variables
+    question: What CI/CD variables are defined at the instance level?
+  phrasing_ops: 16
   slug: gitlab-admin-api
 - baseURL: https://gitlab.com/api/graphql
   baseurl_source: declared
   description: The Application API from GitLab — 2 operation(s) for application.
   name: GitLab Application API
+  phrasing_intents:
+  - id: getApiV4ApplicationAppearance
+    intent: Get the instance's appearance settings
+    question: What title, logo and header message is my GitLab instance currently using?
+  - id: putApiV4ApplicationAppearance
+    intent: Change the instance's branding and appearance
+    question: How do I set a custom logo and sign-in title for my self-managed GitLab?
+  - id: getApiV4ApplicationPlanLimits
+    intent: Get a plan's limits
+    question: What limits apply to a plan on my GitLab instance, like max pipeline size?
+  - id: putApiV4ApplicationPlanLimits
+    intent: Change a plan's limits
+    question: How do I raise the maximum npm package size for a plan?
+  phrasing_ops: 4
   slug: gitlab-application-api
 - baseURL: https://gitlab.com/api/graphql
   baseurl_source: declared
   description: The Applications API from GitLab — 2 operation(s) for applications.
   name: GitLab Applications API
+  phrasing_intents:
+  - id: deleteApiV4ApplicationsId
+    intent: Delete an OAuth application
+    question: How do I remove an OAuth application registered on the instance?
+  - id: getApiV4Applications
+    intent: List registered OAuth applications
+    question: Which OAuth applications are registered on my GitLab instance?
+  - id: postApiV4Applications
+    intent: Register a new OAuth application
+    question: How do I register an instance-wide OAuth app so I get a client ID and secret?
+  phrasing_ops: 3
   slug: gitlab-applications-api
 - baseURL: https://gitlab.com/api/graphql
   baseurl_source: declared
   description: Endpoints for initiating OAuth authorization flows.
   name: GitLab Authorization API
+  phrasing_intents:
+  - id: authorizeOAuth
+    intent: Start the OAuth authorization code flow
+    question: How do I send a user to GitLab to approve my app's access?
+  - id: authorizeDevice
+    intent: Start a device authorization grant
+    question: How do I sign in a CLI or TV app that can't open a browser?
+  phrasing_ops: 2
   slug: gitlab-authorization-api
 - baseURL: https://gitlab.com/api/graphql
   baseurl_source: declared
   description: The Avatar API from GitLab — 1 operation(s) for avatar.
   name: GitLab Avatar API
+  phrasing_intents:
+  - id: getApiV4Avatar
+    intent: Look up a user's avatar URL by email
+    question: How do I get the profile picture URL for someone from their email address?
+  phrasing_ops: 1
   slug: gitlab-avatar-api
 - baseURL: https://gitlab.com/api/graphql
   baseurl_source: declared
   description: The Broadcast Messages API from GitLab — 2 operation(s) for broadcast messages.
   name: GitLab Broadcast Messages API
+  phrasing_intents:
+  - id: getApiV4BroadcastMessagesId
+    intent: Get a broadcast message
+    question: How do I view one broadcast banner and its schedule?
+  - id: putApiV4BroadcastMessagesId
+    intent: Update a broadcast message
+    question: How do I change the wording or end date of an existing announcement banner?
+  - id: deleteApiV4BroadcastMessagesId
+    intent: Delete a broadcast message
+    question: How do I take down an announcement banner from my GitLab instance?
+  - id: getApiV4BroadcastMessages
+    intent: List all broadcast messages
+    question: What announcement banners are configured on the instance?
+  - id: postApiV4BroadcastMessages
+    intent: Create a broadcast message
+    question: How do I post a maintenance banner to all users of my GitLab instance?
+  phrasing_ops: 5
   slug: gitlab-broadcast-messages-api
 - baseURL: https://gitlab.com/api/graphql
   baseurl_source: declared
   description: The Bulk Imports API from GitLab — 5 operation(s) for bulk imports.
   name: GitLab Bulk Imports API
+  phrasing_intents:
+  - id: getApiV4BulkImportsImportIdEntitiesEntityId
+    intent: Get one entity from a group migration
+    question: How do I check the status of a single group or project inside a migration?
+  - id: getApiV4BulkImportsImportIdEntities
+    intent: List entities in one migration
+    question: Which groups and projects are part of a specific migration?
+  - id: getApiV4BulkImportsImportId
+    intent: Get a group migration
+    question: How do I check whether a GitLab-to-GitLab migration has finished?
+  - id: getApiV4BulkImportsEntities
+    intent: List entities across all migrations
+    question: Can I see every group and project I've migrated, across all my imports?
+  - id: getApiV4BulkImports
+    intent: List all group migrations
+    question: What GitLab migrations have I started?
+  - id: postApiV4BulkImports
+    intent: Start a group or project migration
+    question: How do I migrate a group from another GitLab instance by direct transfer?
+  phrasing_ops: 6
   slug: gitlab-bulk-imports-api
 - baseURL: https://gitlab.com/api/graphql
   baseurl_source: declared
   description: The Groups API from GitLab — 6 operation(s) for groups.
   name: GitLab Groups API
+  phrasing_intents:
+  - id: getApiV4GroupsIdBadgesBadgeId
+    intent: Get a group badge
+    question: How do I look up a single badge defined on a group?
+  - id: putApiV4GroupsIdBadgesBadgeId
+    intent: Update a group badge
+    question: How do I change the image or link on a badge shared across a group?
+  - id: deleteApiV4GroupsIdBadgesBadgeId
+    intent: Remove a badge from a group
+    question: How do I delete a badge that shows on every project in a group?
+  - id: getApiV4GroupsIdBadges
+    intent: List a group's badges
+    question: Which badges are defined at the group level?
+  - id: postApiV4GroupsIdBadges
+    intent: Add a badge to a group
+    question: How do I add a badge that appears on all projects in a GitLab group?
+  - id: getApiV4GroupsIdBadgesRender
+    intent: Preview how a group badge will render
+    question: Can I preview a group badge's resolved URLs before saving it?
+  - id: deleteApiV4GroupsIdAccessRequestsUserId
+    intent: Deny a user's request to join a group
+    question: How do I reject someone's request to join my group?
+  - id: putApiV4GroupsIdAccessRequestsUserIdApprove
+    intent: Approve a user's request to join a group
+    question: How do I approve a pending request to join a group?
+  phrasing_ops: 10
   slug: gitlab-groups-api
 - baseURL: https://gitlab.com/api/graphql
   baseurl_source: declared
   description: The Metadata API from GitLab — 1 operation(s) for metadata.
   name: GitLab Metadata API
+  phrasing_intents:
+  - id: getApiV4Metadata
+    intent: Get metadata about the GitLab instance
+    question: What version and revision is this GitLab instance running?
+  phrasing_ops: 1
   slug: gitlab-metadata-api
 - baseURL: https://gitlab.com/api/graphql
   baseurl_source: declared
   description: Manage webhooks for a specific project.
   name: GitLab Project Webhooks API
+  phrasing_intents:
+  - id: listProjectWebhooks
+    intent: List a project's webhooks
+    question: Which webhooks are configured on my GitLab project?
+  - id: addProjectWebhook
+    intent: Add a webhook to a project
+    question: How do I send a notification to my server whenever someone pushes to a project?
+  - id: getProjectWebhook
+    intent: Get a project webhook's configuration
+    question: How do I check which events a specific webhook is subscribed to?
+  - id: updateProjectWebhook
+    intent: Update a project webhook
+    question: How do I change the delivery URL of an existing project webhook?
+  - id: deleteProjectWebhook
+    intent: Delete a project webhook
+    question: How do I stop a project webhook from receiving deliveries altogether?
+  phrasing_ops: 5
   slug: gitlab-project-webhooks-api
 - baseURL: https://gitlab.com/api/graphql
   baseurl_source: declared
   description: The Projects API from GitLab — 17 operation(s) for projects.
   name: GitLab Projects API
+  phrasing_intents:
+  - id: deleteApiV4ProjectsIdRepositoryMergedBranches
+    intent: Delete all merged branches in a project
+    question: How do I clean up every branch that has already been merged in a GitLab project?
+  - id: getApiV4ProjectsIdRepositoryBranchesBranch
+    intent: Get details of a single branch
+    question: Where can I see the details and latest commit of one specific branch?
+  - id: deleteApiV4ProjectsIdRepositoryBranchesBranch
+    intent: Delete a single branch
+    question: How do I delete one named branch from a project repository?
+  - id: headApiV4ProjectsIdRepositoryBranchesBranch
+    intent: Check whether a branch exists
+    question: Is there a quick way to check if a branch exists without fetching its details?
+  - id: getApiV4ProjectsIdRepositoryBranches
+    intent: List a project's repository branches
+    question: How do I list all the branches in a GitLab project repository?
+  - id: postApiV4ProjectsIdRepositoryBranches
+    intent: Create a new branch from a ref
+    question: How do I create a new branch from main or a specific commit?
+  - id: putApiV4ProjectsIdRepositoryBranchesBranchUnprotect
+    intent: Remove protection from a branch
+    question: How do I unprotect a branch so anyone with access can push to it?
+  - id: putApiV4ProjectsIdRepositoryBranchesBranchProtect
+    intent: Protect a branch
+    question: How do I protect a branch so it can't be force-pushed or deleted?
+  phrasing_ops: 26
   slug: gitlab-projects-api
 - baseURL: https://gitlab.com/api/graphql
   baseurl_source: declared
   description: Endpoints for exchanging, refreshing, and revoking OAuth tokens.
   name: GitLab Tokens API
+  phrasing_intents:
+  - id: exchangeToken
+    intent: Exchange a code or refresh token for an access token
+    question: How do I turn an OAuth authorization code into an access token?
+  - id: revokeToken
+    intent: Revoke an OAuth access or refresh token
+    question: How do I invalidate an OAuth token when a user logs out?
+  - id: getTokenInfo
+    intent: Inspect the current OAuth token
+    question: What scopes does my current OAuth token have?
+  phrasing_ops: 3
   slug: gitlab-tokens-api
 - baseURL: https://gitlab.com/api/graphql
   baseurl_source: declared
   description: Endpoints for retrieving authenticated user information via OAuth.
   name: GitLab User Info API
+  phrasing_intents:
+  - id: getUserInfo
+    intent: Get the signed-in user's OpenID profile
+    question: How do I get the name and email of the user who signed in with OpenID Connect?
+  phrasing_ops: 1
   slug: gitlab-user-info-api
 - baseURL: https://gitlab.com/api/graphql
   baseurl_source: declared
   description: The Version API from GitLab — 1 operation(s) for version.
   name: GitLab Version API
+  phrasing_intents:
+  - id: getApiV4Version
+    intent: Get the instance version (deprecated)
+    question: Which GitLab version is my server on, using the older version endpoint?
+  phrasing_ops: 1
   slug: gitlab-version-api
 - baseURL: https://gitlab.com/api/graphql
   baseurl_source: declared
   description: Manage custom headers and URL variables for webhooks.
   name: GitLab Webhook Configuration API
+  phrasing_intents:
+  - id: setWebhookCustomHeader
+    intent: Set a custom header on a webhook
+    question: How do I add an authorization header to every delivery from a project webhook?
+  - id: deleteWebhookCustomHeader
+    intent: Remove a custom header from a webhook
+    question: How do I stop a webhook from sending one of its custom headers?
+  - id: setWebhookUrlVariable
+    intent: Set a URL variable on a webhook
+    question: How do I keep a secret out of a webhook URL by using a URL variable?
+  - id: deleteWebhookUrlVariable
+    intent: Remove a URL variable from a webhook
+    question: How do I delete a URL variable I no longer substitute into a webhook URL?
+  phrasing_ops: 4
   slug: gitlab-webhook-configuration-api
 - baseURL: https://gitlab.com/api/graphql
   baseurl_source: declared
   description: Access webhook delivery history and resend events.
   name: GitLab Webhook Events API
+  phrasing_intents:
+  - id: listProjectWebhookEvents
+    intent: List recent deliveries of a project webhook
+    question: How do I see what a webhook sent and what my server answered over the last week?
+  - id: resendWebhookEvent
+    intent: Resend a past webhook delivery
+    question: How do I retry a webhook delivery that failed?
+  - id: testProjectWebhook
+    intent: Send a test payload to a webhook
+    question: How do I check my webhook endpoint is reachable before real events arrive?
+  phrasing_ops: 3
   slug: gitlab-webhook-events-api
 arazzos:
 - description: Render a group badge preview, add it to the group, and confirm the list.
@@ -1362,23 +1583,23 @@ scopes:
   summary_line: 25 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: exemplar
-  composite: 75.0
+  composite: 75.5
   coverage:
     artifact_dirs: 36
-    catalog_earned: 75.5
+    catalog_earned: 78.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 39.5
+    catalog_gap: 36.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.0
+  delta: 0.5
   facets:
     access_clarity: 92.1
     contract_governance: 31.8
     contract_quality: 69.6
     developer_ergonomics: 72.6
-    discoverability: 75.0
+    discoverability: 80.0
     operational_transparency: 73.7
-  previous_composite: 72.0
+  previous_composite: 75.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1395,7 +1616,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

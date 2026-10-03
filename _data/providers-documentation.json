@@ -1,6 +1,6 @@
 {
- "total": 29,
- "shown": 29,
+ "total": 28,
+ "shown": 28,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -85,7 +85,7 @@
       "developer_ergonomics": 77.5,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -136,7 +136,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -205,7 +205,7 @@
       "developer_ergonomics": 32.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -256,7 +256,7 @@
       "developer_ergonomics": 75.6,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -318,7 +318,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -369,7 +369,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -420,7 +420,7 @@
       "developer_ergonomics": 48.1,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -471,7 +471,7 @@
       "developer_ergonomics": 69.0,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -522,7 +522,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -573,7 +573,7 @@
       "developer_ergonomics": 44.0,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -624,7 +624,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -675,7 +675,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -717,8 +717,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 7,
-   "shown": 7,
+   "count": 6,
+   "shown": 6,
    "providers": [
     {
      "name": "Document360",
@@ -736,7 +736,7 @@
       "developer_ergonomics": 36.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -787,7 +787,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -838,7 +838,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -889,7 +889,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -925,57 +925,6 @@
      "rank": 17
     },
     {
-     "name": "Swagger",
-     "slug": "swagger",
-     "description": "Swagger is an open-source framework by SmartBear for designing, building, documenting, and consuming RESTful APIs using the OpenAPI Specification. Originally created by Wordnik in 2011, Swagger became the OpenAPI Specification (OAS) in 2016 under the OpenAPI Initiative. The Swagger toolset includes Swagger UI for interactive documentation, Swagger Editor for writing OpenAPI specs, and Swagger Codegen for generating client SDKs and server stubs. The latest OpenAPI standard version is 3.2.0 (released September 2025).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swagger/refs/heads/main/screenshots/swagger-2026-06-20T194753.png",
-     "score": 29.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 62.5,
-      "contract_quality": 10.7,
-      "contract_governance": 13.6,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 26.2,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 10.8,
-      "matched_via": "fallback"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "API Reference Renderers",
-     "rank": 18
-    },
-    {
      "name": "ReDoc",
      "slug": "redoc",
      "description": "ReDoc is an open-source API documentation renderer for OpenAPI specifications by Redocly. It generates a responsive three-panel documentation layout from OpenAPI 3.1, 3.0, and Swagger 2.0 definitions. The left panel provides a search bar and navigation menu, the central panel displays documentation content, and the right panel shows request and response examples. ReDoc is available as a CLI tool, HTML custom element, React component, and Docker image. It supports vendor extensions for logos, tag groups, custom code samples, and internal operations.",
@@ -991,7 +940,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1024,7 +973,7 @@
       "agentic_commerce": false
      },
      "tier": "API Reference Renderers",
-     "rank": 19
+     "rank": 18
     },
     {
      "name": "Stoplight Elements",
@@ -1042,7 +991,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1075,7 +1024,7 @@
       "agentic_commerce": false
      },
      "tier": "API Reference Renderers",
-     "rank": 20
+     "rank": 19
     }
    ]
   },
@@ -1103,7 +1052,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1136,7 +1085,7 @@
       "agentic_commerce": false
      },
      "tier": "API Reference Renderers",
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "Fumadocs",
@@ -1154,7 +1103,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1187,7 +1136,7 @@
       "agentic_commerce": false
      },
      "tier": "Docs-as-Code Static Site Generators",
-     "rank": 22
+     "rank": 21
     },
     {
      "name": "Nextra",
@@ -1205,7 +1154,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1238,7 +1187,7 @@
       "agentic_commerce": false
      },
      "tier": "Docs-as-Code Static Site Generators",
-     "rank": 23
+     "rank": 22
     },
     {
      "name": "Docusaurus",
@@ -1256,7 +1205,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1289,7 +1238,7 @@
       "agentic_commerce": false
      },
      "tier": "Docs-as-Code Static Site Generators",
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "ApiNotes",
@@ -1307,7 +1256,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1340,7 +1289,7 @@
       "agentic_commerce": false
      },
      "tier": "Hosted Documentation Platforms",
-     "rank": 25
+     "rank": 24
     },
     {
      "name": "VitePress",
@@ -1358,7 +1307,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1391,7 +1340,7 @@
       "agentic_commerce": false
      },
      "tier": "Docs-as-Code Static Site Generators",
-     "rank": 26
+     "rank": 25
     },
     {
      "name": "DapperDox",
@@ -1409,7 +1358,7 @@
       "developer_ergonomics": 10.7,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1442,7 +1391,7 @@
       "agentic_commerce": false
      },
      "tier": "API Reference Renderers",
-     "rank": 27
+     "rank": 26
     },
     {
      "name": "MkDocs",
@@ -1460,7 +1409,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1493,7 +1442,7 @@
       "agentic_commerce": false
      },
      "tier": "Docs-as-Code Static Site Generators",
-     "rank": 28
+     "rank": 27
     }
    ]
   },
@@ -1521,7 +1470,7 @@
       "developer_ergonomics": 17.1,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1554,7 +1503,7 @@
       "agentic_commerce": false
      },
      "tier": "Docs-as-Code Static Site Generators",
-     "rank": 29
+     "rank": 28
     }
    ]
   }

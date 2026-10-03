@@ -1,6 +1,6 @@
 {
- "total": 124,
- "shown": 124,
+ "total": 126,
+ "shown": 126,
  "limit": 1000,
  "bands": [
   {
@@ -16,18 +16,18 @@
      "slug": "avalara",
      "description": "Avalara helps businesses of all sizes get tax compliance right. We deliver cloud-based solutions that work with existing business applications to calculate tax accurately and file returns automatically.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/screenshots/avalara-2026-06-20T172715.png",
-     "score": 70.8,
+     "score": 71.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 56.7,
-      "contract_quality": 66.0,
+      "discoverability": 61.7,
+      "contract_quality": 66.2,
       "contract_governance": 45.5,
       "operational_transparency": 42.1,
       "developer_ergonomics": 69.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -73,121 +73,21 @@
    "shown": 5,
    "providers": [
     {
-     "name": "FlowAccount",
-     "slug": "flowaccount",
-     "description": "FlowAccount is a Thai cloud accounting platform serving 130,000+ SMEs, 17,000+ accountants and admins, and 5,900+ accounting firms. Its products cover online accounting (quotations, invoices, tax invoices, receipts, expenses), MobilePOS point-of-sale, Payroll with bank integration, and AutoKey document capture. The FlowAccount Open API is an OAuth 2.0 (client-credentials) REST API of 153 operations across sandbox and production environments, letting integrations create and manage sales/purchase documents, contacts, and products, receive webhook event callbacks, and sync POS transactions. First-party SDKs are published for JavaScript/TypeScript, Java, PHP, .NET, and Go.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/screenshots/flowaccount-2026-07-25T214832.png",
-     "score": 59.3,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 54.0,
-      "contract_governance": 4.5,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 73.2,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Employment & Payroll",
-      "regime_id": "employment_payroll",
-      "score": 40.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 24.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 2
-    },
-    {
-     "name": "Intuit",
-     "slug": "intuit",
-     "description": "Collection of APIs offered by Intuit for financial and business management services.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/screenshots/intuit-2026-06-20T183515.png",
-     "score": 59.2,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 48.3,
-      "contract_quality": 72.4,
-      "contract_governance": 13.6,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 82.1,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 31.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 35.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "documented",
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 3
-    },
-    {
      "name": "flatin.pt",
      "slug": "flatin-pt",
      "description": "Portuguese property-tax APIs providing keyless access to IMI rates for all 308 municipalities and IMT/stamp duty purchase-cost calculations, sourced from official Autoridade Tributária tables. flatin.pt serves the same numbers as a REST API with an OpenAPI schema, a remote MCP server exposing four agent tools, an llms.txt for agent discovery, and a CC BY 4.0 open CSV dataset — no key and no sign-up.",
-     "score": 58.7,
+     "score": 59.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.0,
-      "contract_quality": 44.1,
+      "contract_quality": 47.1,
       "contract_governance": 53.6,
       "operational_transparency": 65.8,
       "developer_ergonomics": 63.7,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -219,6 +119,106 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 2
+    },
+    {
+     "name": "FlowAccount",
+     "slug": "flowaccount",
+     "description": "FlowAccount is a Thai cloud accounting platform serving 130,000+ SMEs, 17,000+ accountants and admins, and 5,900+ accounting firms. Its products cover online accounting (quotations, invoices, tax invoices, receipts, expenses), MobilePOS point-of-sale, Payroll with bank integration, and AutoKey document capture. The FlowAccount Open API is an OAuth 2.0 (client-credentials) REST API of 153 operations across sandbox and production environments, letting integrations create and manage sales/purchase documents, contacts, and products, receive webhook event callbacks, and sync POS transactions. First-party SDKs are published for JavaScript/TypeScript, Java, PHP, .NET, and Go.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/screenshots/flowaccount-2026-07-25T214832.png",
+     "score": 59.3,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 54.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 73.2,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Employment & Payroll",
+      "regime_id": "employment_payroll",
+      "score": 40.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 24.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 3
+    },
+    {
+     "name": "Intuit",
+     "slug": "intuit",
+     "description": "Collection of APIs offered by Intuit for financial and business management services.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/screenshots/intuit-2026-06-20T183515.png",
+     "score": 59.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 48.3,
+      "contract_quality": 72.4,
+      "contract_governance": 13.6,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 82.1,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 31.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 35.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "documented",
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 4
     },
     {
@@ -237,7 +237,7 @@
       "developer_ergonomics": 55.4,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -282,18 +282,18 @@
      "name": "ZenLedger",
      "slug": "zenledger",
      "description": "ZenLedger is a Seattle-founded crypto tax and digital-asset accounting company whose platform ingests transactions from 400+ exchanges, 100+ DeFi protocols and 10+ NFT marketplaces to calculate cost basis, capital gains and income, and generate US tax forms. Beyond the consumer product it operates two documented B2B REST APIs on api.zenledger.io: the Compliance Suite API (v3), a digital-asset trade-monitoring surface built with COMPLY for financial institutions and enterprise compliance teams that registers companies and users, imports wallets and exchange accounts, returns normalized transactions and holdings, and screens blockchain addresses against sanctions lists; and the Aggregator Suite API (v1), a partner surface that builds an aggregated portfolio from a set of accounts and returns the resulting tax calculation. Both authenticate with OAuth 2.0 client_credentials JWTs and are documented as versioned Postman collections at docs.zenledger.io.",
-     "score": 56.1,
+     "score": 56.2,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 73.2,
-      "contract_quality": 63.6,
+      "contract_quality": 64.0,
       "contract_governance": 18.2,
       "operational_transparency": 36.8,
       "developer_ergonomics": 39.4,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -342,18 +342,18 @@
      "name": "OptionsAhoy",
      "slug": "optionsahoy-com",
      "description": "AlphaLatitude Inc. is a Sunnyvale, California C-corporation (founded March 2026) that builds OptionsAhoy, an equity-compensation optimization product for individual investors: multi-year, multi-state tax planning for incentive stock options and the alternative minimum tax, non-qualified stock options, restricted stock units, qualified small business stock, single-stock concentration, protective-put and collar hedging, and selling equity to fund a cash goal. The paid platform is an invite-only beta; the eight calculators behind it are published free and keyless as in-browser tools and as three agent surfaces on one host — an 11-operation OpenAPI 3.1.0 REST API at https://optionsahoy.com/api/v1, a remote MCP server at https://optionsahoy.com/mcp (eight annotated tools, also shipped as the optionsahoy-mcp npm stdio package and a Claude Desktop bundle), and an A2A 0.3.0 agent card at /.well-known/agent-card.json with eight skills. The engine is deterministic (no model inference) and the provider publishes a verification page reproducing its federal and state tax math against IRS Rev. Proc. 2025-32, PSL Tax-Calculator and OpenTaxSolver.",
-     "score": 52.3,
+     "score": 51.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 50.8,
+      "discoverability": 75.0,
+      "contract_quality": 50.7,
       "contract_governance": 18.2,
       "operational_transparency": 28.9,
       "developer_ergonomics": 72.6,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -403,7 +403,7 @@
       "developer_ergonomics": 36.9,
       "access_clarity": 58.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -438,6 +438,55 @@
      "rank": 8
     },
     {
+     "name": "UniRate API",
+     "slug": "unirateapi",
+     "description": "The UniRate API provides current foreign-exchange rates, currency conversion, a list of supported currencies, and country VAT rates over a simple REST interface. Current-rate endpoints are available on a free, self-serve tier (get a key at https://unirateapi.com); historical, precious-metals and commodities endpoints require a Pro subscription. Open-source client libraries are published for Python, Node/TypeScript, Go, Rust, Ruby, PHP, Java, Swift, .NET and more, plus an official MCP server for AI agents.",
+     "score": 49.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 65.0,
+      "contract_quality": 47.1,
+      "contract_governance": 4.5,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 56.5,
+      "access_clarity": 65.8
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 24.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 32.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "na",
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": "derived",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 9
+    },
+    {
      "name": "Cadana",
      "slug": "cadana",
      "description": "Cadana is a white-label global payment and payroll infrastructure provider for talent platforms, staffing companies, and HR providers. Its APIs let partners onboard and pay employees and contractors in 100+ countries, run multi-currency payroll, provision embedded wallets and virtual accounts, calculate gross-to-net tax across 150+ jurisdictions, and automate statutory filing and government remittance. The platform is delivered as five REST APIs (Workforce Management, Embedded Payments, Embedded Consumer Wallets, Global Tax Engine, and Statutory Compliance) with bearer-token auth, Svix-signed webhooks, a sandbox, and an embeddable white-label UI and salary-calculator widget. Backed by 500 Global.",
@@ -453,7 +502,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -485,7 +534,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "inFakt",
@@ -503,7 +552,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -542,55 +591,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
-    },
-    {
-     "name": "UniRate API",
-     "slug": "unirateapi",
-     "description": "The UniRate API provides current foreign-exchange rates, currency conversion, a list of supported currencies, and country VAT rates over a simple REST interface. Current-rate endpoints are available on a free, self-serve tier (get a key at https://unirateapi.com); historical, precious-metals and commodities endpoints require a Pro subscription. Open-source client libraries are published for Python, Node/TypeScript, Go, Rust, Ruby, PHP, Java, Swift, .NET and more, plus an official MCP server for AI agents.",
-     "score": 47.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 65.0,
-      "contract_quality": 41.0,
-      "contract_governance": 4.5,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 56.5,
-      "access_clarity": 65.8
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 24.5,
-      "matched_via": "fallback"
-     },
-     "agent_score": 32.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "derived",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 11
     },
     {
@@ -609,7 +609,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 45.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -659,7 +659,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -720,7 +720,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -755,72 +755,22 @@
      "rank": 14
     },
     {
-     "name": "Fonoa",
-     "slug": "fonoa",
-     "description": "Fonoa is a global indirect tax automation platform that connects the full indirect tax lifecycle on one platform, serving enterprises across 100+ countries and jurisdictions. The platform provides APIs for real-time tax ID validation across 120+ countries, VAT/GST and sales tax calculation, e-invoicing compliance with local mandates, transaction reporting, and automated multi-country tax return filing. Companies such as Zoom, Uber, Booking.com, and Remote.com rely on Fonoa to automate and manage their global indirect tax obligations through a single API integration.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/screenshots/fonoa-2026-06-20T181458.png",
-     "score": 43.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 71.4,
-      "contract_quality": 56.6,
-      "contract_governance": 0.0,
-      "operational_transparency": 49.5,
-      "developer_ergonomics": 23.8,
-      "access_clarity": 34.7
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 27.5,
-      "matched_via": "fallback"
-     },
-     "agent_score": 29.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 15
-    },
-    {
      "name": "Workday Payroll",
      "slug": "workday-payroll",
      "description": "Workday Payroll provides comprehensive APIs for managing payroll operations, employee compensation, tax calculations, and payment processing within the Workday platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/screenshots/workday-payroll-2026-06-20T201609.png",
-     "score": 43.2,
+     "score": 43.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 57.1,
+      "discoverability": 62.5,
       "contract_quality": 74.5,
       "contract_governance": 27.3,
       "operational_transparency": 13.2,
       "developer_ergonomics": 22.6,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -852,6 +802,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 15
+    },
+    {
+     "name": "Fonoa",
+     "slug": "fonoa",
+     "description": "Fonoa is a global indirect tax automation platform that connects the full indirect tax lifecycle on one platform, serving enterprises across 100+ countries and jurisdictions. The platform provides APIs for real-time tax ID validation across 120+ countries, VAT/GST and sales tax calculation, e-invoicing compliance with local mandates, transaction reporting, and automated multi-country tax return filing. Companies such as Zoom, Uber, Booking.com, and Remote.com rely on Fonoa to automate and manage their global indirect tax obligations through a single API integration.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/screenshots/fonoa-2026-06-20T181458.png",
+     "score": 43.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 71.4,
+      "contract_quality": 56.6,
+      "contract_governance": 0.0,
+      "operational_transparency": 49.5,
+      "developer_ergonomics": 23.8,
+      "access_clarity": 34.7
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 27.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 29.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 16
     },
     {
@@ -869,7 +869,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -918,7 +918,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -974,7 +974,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1024,7 +1024,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 46.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1074,7 +1074,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1131,7 +1131,7 @@
       "developer_ergonomics": 56.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1181,7 +1181,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1231,7 +1231,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1281,7 +1281,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 49.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1341,7 +1341,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1376,122 +1376,22 @@
      "rank": 26
     },
     {
-     "name": "Column Tax",
-     "slug": "column-tax",
-     "description": "Column Tax is an IRS-authorized, API-first tax filing platform that lets banks, brokerages, neobanks, and SMB/freelancer fintech apps embed a full white-label income-tax preparation and e-file experience directly inside their own product. Partners create a Column Tax user via a server-side REST call, receive a short-lived authenticated URL, and launch the Column Tax UI (web loader or native iOS, Android, and React Native SDKs) embedded in their app, while webhooks report each user through the filing lifecycle. Column Tax offers DIY Filing and Expert Review products, is a SOC 2-certified and IRS-authorized e-file provider, and reports outcomes such as higher retention and direct-deposit switching for embedded partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/column-tax/refs/heads/main/screenshots/column-tax-2026-07-25T210102.png",
-     "score": 38.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 39.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 46.4,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 29.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 22.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 27
-    },
-    {
-     "name": "FreeAgent",
-     "slug": "freeagent",
-     "description": "FreeAgent is UK-focused cloud accounting software for small businesses, freelancers, and accountants, providing invoicing, expense tracking, time tracking, project management, banking, payroll, and Self Assessment / VAT filing through HMRC's Making Tax Digital. The FreeAgent API is a RESTful service that exposes contacts, invoices, estimates, expenses, bills, timeslips, projects, bank accounts, bank transactions, transaction explanations, and tax timeline events for company accounts and accountancy practices. Authentication uses OAuth 2.0 (authorization code flow) and responses are available in JSON or XML.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/freeagent/refs/heads/main/screenshots/freeagent-2026-06-20T181523.png",
-     "score": 38.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 46.3,
-      "contract_governance": 0.0,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 61.9,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Employment & Payroll",
-      "regime_id": "employment_payroll",
-      "score": 27.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 24.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 28
-    },
-    {
      "name": "Casey's General Stores",
      "slug": "caseys-general-stores",
      "description": "Casey's General Stores (NASDAQ: CASY) is one of the largest convenience-store chains in the United States, operating more than 2,900 stores selling fuel, made-from-scratch pizza, prepared food and convenience items, primarily in small midwestern communities. Behind the consumer brand Casey's runs a B2B API estate on Azure API Management at esl.caseys.io: 21 published OpenAPI 3.0.1 contracts and 158 operations covering stores and the division/region/district hierarchy, the Item Master (Pricebook), fuel pricing, per-store tax configuration, fuel tank telemetry, suppliers, vendor check-in, kitchen production planning, shelf-label printing, in-store messaging and IT service-management incidents — plus Conexxus POS Back Office Interface document ingestion carrying Conexxus Open Retailing identifiers. Access is by Azure APIM subscription key requested through the developer portal at developer.esl.caseys.io; a UAT environment mirrors the estate. No pricing, rate limits, SDKs, status page, changelog, deprecation policy or MCP server are published.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/screenshots/caseys-general-stores-2026-06-20T174033.png",
-     "score": 37.4,
+     "score": 38.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.0,
-      "contract_quality": 44.5,
+      "discoverability": 72.3,
+      "contract_quality": 45.0,
       "contract_governance": 18.2,
       "operational_transparency": 0.0,
       "developer_ergonomics": 42.3,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1523,6 +1423,106 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 27
+    },
+    {
+     "name": "Column Tax",
+     "slug": "column-tax",
+     "description": "Column Tax is an IRS-authorized, API-first tax filing platform that lets banks, brokerages, neobanks, and SMB/freelancer fintech apps embed a full white-label income-tax preparation and e-file experience directly inside their own product. Partners create a Column Tax user via a server-side REST call, receive a short-lived authenticated URL, and launch the Column Tax UI (web loader or native iOS, Android, and React Native SDKs) embedded in their app, while webhooks report each user through the filing lifecycle. Column Tax offers DIY Filing and Expert Review products, is a SOC 2-certified and IRS-authorized e-file provider, and reports outcomes such as higher retention and direct-deposit switching for embedded partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/column-tax/refs/heads/main/screenshots/column-tax-2026-07-25T210102.png",
+     "score": 38.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 39.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 46.4,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 29.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 22.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 28
+    },
+    {
+     "name": "FreeAgent",
+     "slug": "freeagent",
+     "description": "FreeAgent is UK-focused cloud accounting software for small businesses, freelancers, and accountants, providing invoicing, expense tracking, time tracking, project management, banking, payroll, and Self Assessment / VAT filing through HMRC's Making Tax Digital. The FreeAgent API is a RESTful service that exposes contacts, invoices, estimates, expenses, bills, timeslips, projects, bank accounts, bank transactions, transaction explanations, and tax timeline events for company accounts and accountancy practices. Authentication uses OAuth 2.0 (authorization code flow) and responses are available in JSON or XML.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/freeagent/refs/heads/main/screenshots/freeagent-2026-06-20T181523.png",
+     "score": 38.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 46.3,
+      "contract_governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 61.9,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Employment & Payroll",
+      "regime_id": "employment_payroll",
+      "score": 27.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 24.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 29
     },
     {
@@ -1541,7 +1541,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1591,7 +1591,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1641,7 +1641,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 57.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1691,7 +1691,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1741,7 +1741,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1791,7 +1791,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1841,7 +1841,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1891,7 +1891,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1941,7 +1941,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1991,7 +1991,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2041,7 +2041,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2091,7 +2091,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2141,7 +2141,7 @@
       "developer_ergonomics": 66.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2191,7 +2191,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2241,7 +2241,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2298,7 +2298,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2348,7 +2348,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2398,7 +2398,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2448,7 +2448,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2498,7 +2498,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2548,7 +2548,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 46.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2598,7 +2598,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2655,7 +2655,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2705,7 +2705,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 46.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2755,7 +2755,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2812,7 +2812,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 46.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2862,7 +2862,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 65.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2912,7 +2912,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 40.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2953,8 +2953,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 38,
-   "shown": 38,
+   "count": 39,
+   "shown": 39,
    "providers": [
     {
      "name": "Deloitte",
@@ -2972,7 +2972,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 45.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3022,7 +3022,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3072,7 +3072,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 37.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3122,7 +3122,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3172,7 +3172,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3222,7 +3222,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 44.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3272,7 +3272,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 46.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3321,7 +3321,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3371,7 +3371,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3421,7 +3421,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3471,7 +3471,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3521,7 +3521,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3571,7 +3571,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3621,7 +3621,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3670,7 +3670,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3720,7 +3720,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3769,7 +3769,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 41.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3819,7 +3819,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3869,7 +3869,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3919,7 +3919,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3969,7 +3969,7 @@
       "developer_ergonomics": 13.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4019,7 +4019,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4069,7 +4069,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4119,7 +4119,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4169,7 +4169,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4219,7 +4219,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4269,7 +4269,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4319,7 +4319,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4369,7 +4369,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4419,7 +4419,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4469,7 +4469,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4519,7 +4519,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4569,7 +4569,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4618,7 +4618,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4668,7 +4668,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4703,6 +4703,55 @@
      "rank": 92
     },
     {
+     "name": "Aprilgetaprilcom",
+     "slug": "aprilgetaprilcom",
+     "description": "Aprilgetaprilcom, operating as April, provides embedded tax solutions for modern financial platforms. Their AI‑powered tax engine enables platforms to offer tax filing, planning, and estimation tools as white‑label services. The company focuses on delivering a seamless, mobile‑first tax experience integrated into fintech, wealth management, and SMB applications, with compliance certifications and a developer‑focused API suite.",
+     "score": 12.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 16.7,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 13.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 93
+    },
+    {
      "name": "Internal Revenue Service",
      "slug": "internal-revenue-service",
      "description": "The Internal Revenue Service (IRS) is the United States federal tax collection agency and a bureau of the Department of the Treasury. The IRS publishes developer resources for tax software providers and transmitters including the Modernized e-File (MeF) system for electronic tax return submission, the e-Services suite for authorized e-file providers, and Publication 4164 (the MeF Guide for Software Developers and Transmitters) which documents the XML schemas and transmission protocols required for integration.",
@@ -4718,7 +4767,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4750,7 +4799,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 94
     },
     {
      "name": "Topia",
@@ -4768,7 +4817,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4800,7 +4849,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 95
     },
     {
      "name": "Alvarez & Marsal",
@@ -4817,7 +4866,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4849,7 +4898,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 96
     }
    ]
   },
@@ -4858,8 +4907,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 29,
-   "shown": 29,
+   "count": 30,
+   "shown": 30,
    "providers": [
     {
      "name": "Aerial Partners",
@@ -4876,7 +4925,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4908,7 +4957,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 97
     },
     {
      "name": "LedgiFi",
@@ -4926,7 +4975,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4958,7 +5007,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 98
     },
     {
      "name": "Loctax",
@@ -4976,7 +5025,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5008,7 +5057,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 99
     },
     {
      "name": "Numbi",
@@ -5026,7 +5075,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5058,7 +5107,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 100
     },
     {
      "name": "FlyFin",
@@ -5076,7 +5125,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5108,7 +5157,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 101
     },
     {
      "name": "Exactera",
@@ -5126,7 +5175,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5158,7 +5207,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 102
     },
     {
      "name": "Stride Health",
@@ -5176,7 +5225,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5208,7 +5257,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 103
     },
     {
      "name": "Prime Meridian",
@@ -5226,7 +5275,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5258,7 +5307,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 104
     },
     {
      "name": "Taxdoo",
@@ -5276,7 +5325,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5308,7 +5357,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 105
     },
     {
      "name": "Velotax",
@@ -5326,56 +5375,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 13.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 105
-    },
-    {
-     "name": "Taxscouts",
-     "slug": "taxscouts",
-     "description": "TaxScouts is a UK online tax-return and Self Assessment service that pairs individuals, sole traders, landlords and investors with accredited accountants to prepare, review and file their taxes with HMRC for a flat fee. Founded in London, TaxScouts was acquired by Taxfix and its taxscouts.com domain now redirects to taxfix.com/en-uk. The service is a consumer-facing web and mobile product with pricing tiers for one-off filing, optimisation with HMRC audit protection, and year-round accountant support. As of this profile it exposes no public developer API, developer portal, or machine-readable API documentation; this record captures its public identity and web properties for the API Evangelist network.",
-     "score": 9.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5410,6 +5410,55 @@
      "rank": 106
     },
     {
+     "name": "Taxscouts",
+     "slug": "taxscouts",
+     "description": "TaxScouts is a UK online tax-return and Self Assessment service that pairs individuals, sole traders, landlords and investors with accredited accountants to prepare, review and file their taxes with HMRC for a flat fee. Founded in London, TaxScouts was acquired by Taxfix and its taxscouts.com domain now redirects to taxfix.com/en-uk. The service is a consumer-facing web and mobile product with pricing tiers for one-off filing, optimisation with HMRC audit protection, and year-round accountant support. As of this profile it exposes no public developer API, developer portal, or machine-readable API documentation; this record captures its public identity and web properties for the API Evangelist network.",
+     "score": 9.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 13.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 107
+    },
+    {
      "name": "CohnReznick",
      "slug": "cohnreznick",
      "description": "CohnReznick is a top-25 US accounting, tax, and advisory firm formed in 2012 by the merger of J.H. Cohn LLP and Reznick Group, P.C. The firm serves clients across more than 30 industries from offices throughout the United States and four offshore subsidiaries, with its global reach extended through membership in the Nexia International network (operating in more than 128 countries). In May 2024 CohnReznick became the first US accounting firm of its scale to receive a strategic growth investment from a private equity sponsor when funds advised by Apax Partners acquired a majority stake. As part of that transaction the firm operates under an alternative-practice structure: audit and attest services are delivered by CohnReznick LLP (a licensed CPA firm) while tax and advisory services are delivered through CohnReznick Advisory LLC. Largest practice areas include Real Estate, Renewable Energy, Government Contracting, Asset Management (private equity, hedge funds, private credit, REITs), Financial Services, Healthcare, Life Sciences, Consumer & Industrial, Technology & Media, Public Sector, and Private Clients (family offices, high net worth individuals, professional sports). CohnReznick does not publish a public software developer API; this repository documents the firm's organizational profile, practice taxonomy, and linked-data context for API catalog purposes.",
@@ -5425,7 +5474,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5457,7 +5506,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 108
     },
     {
      "name": "Solomon",
@@ -5475,7 +5524,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5507,7 +5556,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 109
     },
     {
      "name": "CoinTracker",
@@ -5525,7 +5574,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5557,7 +5606,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 110
     },
     {
      "name": "ExpressSteuer (fka Express Group)",
@@ -5575,57 +5624,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 9.8,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 110
-    },
-    {
-     "name": "Crete Professionals Alliance",
-     "slug": "crete-professionals-alliance",
-     "description": "Crete Professionals Alliance (rebranded in 2025 as \"Current\", current.co) is a growth platform for independent accounting firms, backed by Bessemer Venture Partners. The alliance provides member firms with technology, talent, capital, and strategy to compete at enterprise scale, spanning 48 partner firms across 39 states and 3 countries with more than 2,000 employees. Service lines include accounting, advisory, audit and attest, client accounting services, and tax. This is a professional services / accounting company, not a developer-facing API provider: it publishes no developer portal, API, SDKs, or technical documentation. The record is maintained in the API Evangelist network for portfolio-graph coverage of Bessemer holdings.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crete-professionals-alliance/refs/heads/main/screenshots/crete-professionals-alliance-2026-07-25T210730.png",
-     "score": 6.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5660,22 +5659,22 @@
      "rank": 111
     },
     {
-     "name": "EY",
-     "slug": "ey",
-     "description": "One of the Big Four professional services firms providing audit, tax, consulting, and advisory services. Operates in over 150 countries helping businesses navigate regulatory and strategic challenges, and runs proprietary technology platforms such as EY Helix (analytics), EY Atlas (research), and EY Canvas (audit) for internal and engagement use.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ey/refs/heads/main/screenshots/ey-2026-06-20T180957.png",
-     "score": 6.1,
+     "name": "Crete Professionals Alliance",
+     "slug": "crete-professionals-alliance",
+     "description": "Crete Professionals Alliance (rebranded in 2025 as \"Current\", current.co) is a growth platform for independent accounting firms, backed by Bessemer Venture Partners. The alliance provides member firms with technology, talent, capital, and strategy to compete at enterprise scale, spanning 48 partner firms across 39 states and 3 countries with more than 2,000 employees. Service lines include accounting, advisory, audit and attest, client accounting services, and tax. This is a professional services / accounting company, not a developer-facing API provider: it publishes no developer portal, API, SDKs, or technical documentation. The record is maintained in the API Evangelist network for portfolio-graph coverage of Bessemer holdings.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crete-professionals-alliance/refs/heads/main/screenshots/crete-professionals-alliance-2026-07-25T210730.png",
+     "score": 6.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 43.8,
+      "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5710,6 +5709,56 @@
      "rank": 112
     },
     {
+     "name": "EY",
+     "slug": "ey",
+     "description": "One of the Big Four professional services firms providing audit, tax, consulting, and advisory services. Operates in over 150 countries helping businesses navigate regulatory and strategic challenges, and runs proprietary technology platforms such as EY Helix (analytics), EY Atlas (research), and EY Canvas (audit) for internal and engagement use.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ey/refs/heads/main/screenshots/ey-2026-06-20T180957.png",
+     "score": 6.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 43.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 9.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 113
+    },
+    {
      "name": "PwC (PricewaterhouseCoopers)",
      "slug": "pricewaterhousecoopers",
      "description": "PricewaterhouseCoopers (PwC) is one of the Big Four professional services firms, with approximately 370,000 staff across a global network of member firms coordinated by PricewaterhouseCoopers International Limited (PwCIL). PwC organizes delivery across three primary service lines — Assurance (audit), Tax (tax compliance, planning, and reporting), and Advisory (consulting, deals, and risk). The firm operates proprietary technology platforms including PwC Halo (a suite of data analytics tools used to support audit engagements), the Trusted AI initiative (PwC's responsible-AI governance and assurance framework), and ProEdge (a workforce upskilling platform). In April 2024 PwC announced a multi-year alliance with OpenAI positioning the firm as both OpenAI's largest customer and its first reseller of ChatGPT Enterprise, supporting PwC's broader generative-AI consulting practice. PwC's research and insights surface — pwc.com/insights, the annual Global CEO Survey, the Global Workforce Hopes and Fears Survey, the Money Tree report, and regional industry outlooks — is the firm's primary public-facing knowledge product. PwC does not publish a public developer portal, OpenAPI specifications, partner API documentation, or a GitHub organization at the corporate level. The github.com/pwc handle is held by an unrelated individual user (Patrick Clearwater). Any technical integrations with PwC platforms are arranged through engagement contracts and the PwC Technology Consulting practice rather than through self-service developer credentials. PwC's content distribution is reader-facing (newsletter subscriptions, the PwC US Newsroom, LinkedIn, YouTube) with no documented public RSS feed endpoint exposing news, press releases, or insights as a syndication contract.",
@@ -5725,7 +5774,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5757,7 +5806,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 114
     },
     {
      "name": "TrustWeaver",
@@ -5799,7 +5848,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 115
     },
     {
      "name": "Duane Morris",
@@ -5817,7 +5866,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5849,7 +5898,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 116
     },
     {
      "name": "Blank Rome",
@@ -5866,7 +5915,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5898,7 +5947,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 117
     },
     {
      "name": "Carr, Riggs & Ingram (CRI)",
@@ -5916,57 +5965,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 5.9,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 117
-    },
-    {
-     "name": "LumaTax",
-     "slug": "lumatax",
-     "description": "LumaTax is a US and Canadian sales tax automation platform that helps businesses automate sales tax filings, manage nexus exposure, and streamline remittance across multiple state and federal jurisdictions. The product imports transaction data from sources such as Amazon, Stripe, Shopify, and Excel, validates that data and assigns correct tax jurisdictions, generates categorized return summaries, files returns automatically, and stores past filings for audit preparation. Originally an independent Seattle fintech backed by Cowboy Ventures, LumaTax was acquired and is now offered as a product line under Taxually alongside CrossTax, EcoTax, and OneTax. As of enrichment it exposes no public developer portal, API reference, SDK, or machine-readable API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lumatax/refs/heads/main/screenshots/lumatax-2026-07-25T225703.png",
-     "score": 3.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6001,6 +6000,56 @@
      "rank": 118
     },
     {
+     "name": "LumaTax",
+     "slug": "lumatax",
+     "description": "LumaTax is a US and Canadian sales tax automation platform that helps businesses automate sales tax filings, manage nexus exposure, and streamline remittance across multiple state and federal jurisdictions. The product imports transaction data from sources such as Amazon, Stripe, Shopify, and Excel, validates that data and assigns correct tax jurisdictions, generates categorized return summaries, files returns automatically, and stores past filings for audit preparation. Originally an independent Seattle fintech backed by Cowboy Ventures, LumaTax was acquired and is now offered as a product line under Taxually alongside CrossTax, EcoTax, and OneTax. As of enrichment it exposes no public developer portal, API reference, SDK, or machine-readable API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lumatax/refs/heads/main/screenshots/lumatax-2026-07-25T225703.png",
+     "score": 3.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 119
+    },
+    {
      "name": "WISECRICKET HOLDING KY",
      "slug": "wisecricket-holding-ky",
      "description": "WiseCricket (WISECRICKET HOLDING KY) offers AI-powered fiscal and accounting audit software for businesses (\"Software de Auditoria Fiscal y Contable con IA para Empresas\"). The Spanish-language platform applies artificial intelligence to tax and accounting compliance, helping companies automate financial and tax audits and surface issues. It was surfaced as a 500 Global portfolio company and added to the API Evangelist network as a stub; enrichment found a marketing landing page but no public developer API, documentation, developer portal, or well-known discovery surface.",
@@ -6015,7 +6064,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6047,7 +6096,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 120
+    },
+    {
+     "name": "Arvo Tech",
+     "slug": "arvo-tech",
+     "description": "ArvoTech provides tech-driven bookkeeping, tax planning, R&D credits and CFO support to help startups and small businesses save money, stay compliant, and grow. Their platform automates accounting, tax credit discovery, and financial reporting, delivering real-time insights and compliance tools for emerging companies.",
+     "score": 3.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 44.6,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 121
     },
     {
      "name": "Ballard Spahr",
@@ -6065,7 +6163,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6097,7 +6195,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 122
     },
     {
      "name": "Folhamatic",
@@ -6114,7 +6212,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6146,7 +6244,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 123
     },
     {
      "name": "Sabrix",
@@ -6164,7 +6262,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6196,7 +6294,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 124
     },
     {
      "name": "Dechert",
@@ -6214,7 +6312,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6246,7 +6344,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 125
     },
     {
      "name": "Abound",
@@ -6263,7 +6361,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6295,7 +6393,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 126
     }
    ]
   }

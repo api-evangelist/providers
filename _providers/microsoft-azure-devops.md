@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -140,161 +140,522 @@ apis:
   baseurl_source: declared
   description: Operations for work item attachments
   name: Azure DevOps Attachments API
+  phrasing_intents:
+  - id: attachments_get
+    intent: Get a work item attachment's details
+    question: Where do I find the download URL for a file attached to a work item?
+  - id: attachments_upload
+    intent: Upload a file as a work item attachment
+    question: How do I upload a file so I can attach it to an Azure Boards work item?
+  phrasing_ops: 2
   slug: microsoft-azure-devops-attachments-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for accessing build artifacts
   name: Azure DevOps Build Artifacts API
+  phrasing_intents:
+  - id: builds_listArtifacts
+    intent: List the artifacts a build published
+    question: Which artifacts did a particular build publish in Azure DevOps?
+  phrasing_ops: 1
   slug: microsoft-azure-devops-build-artifacts-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for managing build pipeline definitions
   name: Azure DevOps Build Definitions API
+  phrasing_intents:
+  - id: definitions_list
+    intent: List build definitions
+    question: What build pipeline definitions exist in my Azure DevOps project?
+  - id: definitions_create
+    intent: Create a build definition
+    question: How do I set up a new classic build definition with its repository, process and agent queue?
+  - id: definitions_get
+    intent: Get a build definition's configuration
+    question: Where can I see the steps, triggers and variables configured on one build definition?
+  - id: definitions_update
+    intent: Replace a build definition
+    question: How do I change the triggers or variables on an existing build definition?
+  - id: definitions_delete
+    intent: Delete a build definition
+    question: Can I remove a build definition that I no longer use?
+  phrasing_ops: 5
   slug: microsoft-azure-devops-build-definitions-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for accessing build logs and timelines
   name: Azure DevOps Build Logs API
+  phrasing_intents:
+  - id: builds_getLogs
+    intent: List the log files of a build
+    question: Where can I get the logs for each step of a build?
+  - id: builds_getTimeline
+    intent: Get a build's timeline of jobs and tasks
+    question: Which task in a build failed and how long did each phase take?
+  phrasing_ops: 2
   slug: microsoft-azure-devops-build-logs-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for managing and queuing builds
   name: Azure DevOps Builds API
+  phrasing_intents:
+  - id: builds_list
+    intent: List builds
+    question: Which builds failed on the main branch recently?
+  - id: builds_queue
+    intent: Queue a new build
+    question: How do I kick off a build of a specific definition on a chosen branch?
+  - id: builds_get
+    intent: Get a build's status and result
+    question: Did a particular build succeed, and how long did it take?
+  - id: builds_delete
+    intent: Delete a build
+    question: Can I delete a build record together with its logs and artifacts?
+  phrasing_ops: 4
   slug: microsoft-azure-devops-builds-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for work item comments
   name: Azure DevOps Comments API
+  phrasing_intents:
+  - id: workItems_listComments
+    intent: List comments on a work item
+    question: What discussion has happened on a bug or task in Azure Boards?
+  - id: workItems_addComment
+    intent: Add a comment to a work item
+    question: How do I post a note to a work item's discussion?
+  phrasing_ops: 2
   slug: microsoft-azure-devops-comments-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for accessing commits and commit history
   name: Azure DevOps Commits API
+  phrasing_intents:
+  - id: commits_list
+    intent: List commits in a repository
+    question: What commits were made to a repo between two dates?
+  phrasing_ops: 1
   slug: microsoft-azure-devops-commits-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for listing consumers (webhook, service bus, etc.)
   name: Azure DevOps Consumers API
+  phrasing_intents:
+  - id: consumers_list
+    intent: List service hook consumers
+    question: What services can receive Azure DevOps service hook notifications?
+  phrasing_ops: 1
   slug: microsoft-azure-devops-consumers-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for managing and monitoring deployments to environments
   name: Azure DevOps Deployments API
+  phrasing_intents:
+  - id: deployments_list
+    intent: List release deployments
+    question: Which deployments failed to a given environment last week?
+  phrasing_ops: 1
   slug: microsoft-azure-devops-deployments-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for managing artifact feeds
   name: Azure DevOps Feeds API
+  phrasing_intents:
+  - id: feeds_list
+    intent: List package feeds
+    question: What Azure Artifacts feeds can I access in my organization?
+  - id: feeds_create
+    intent: Create a package feed
+    question: How do I create a new artifact feed for our packages?
+  - id: feeds_get
+    intent: Get a feed's configuration
+    question: Which upstream sources and visibility settings does a given feed have?
+  - id: feeds_update
+    intent: Update a feed's settings
+    question: How do I rename an existing feed or change its description?
+  - id: feeds_delete
+    intent: Delete a package feed
+    question: Does deleting a feed also remove every package in it?
+  phrasing_ops: 5
   slug: microsoft-azure-devops-feeds-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for sending test notifications
   name: Azure DevOps Notifications API
+  phrasing_intents:
+  - id: notifications_sendTest
+    intent: Send a test service hook notification
+    question: How can I check that a service hook reaches its endpoint before relying on it?
+  phrasing_ops: 1
   slug: microsoft-azure-devops-notifications-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for managing specific package versions
   name: Azure DevOps Package Versions API
+  phrasing_intents:
+  - id: packageVersions_delete
+    intent: Delete a package version from a feed
+    question: Can I remove one bad version of a package without deleting the whole package?
+  phrasing_ops: 1
   slug: microsoft-azure-devops-package-versions-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for listing and managing packages within feeds
   name: Azure DevOps Packages API
+  phrasing_intents:
+  - id: packages_list
+    intent: List packages in a feed
+    question: What packages are published in one of my Azure Artifacts feeds?
+  - id: packages_get
+    intent: Get a package and its versions
+    question: Which versions of a specific package exist in a feed?
+  phrasing_ops: 2
   slug: microsoft-azure-devops-packages-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for accessing artifacts from pipeline runs
   name: Azure DevOps Pipeline Artifacts API
+  phrasing_intents:
+  - id: artifacts_list
+    intent: List artifacts from a pipeline run
+    question: What binaries or test results did a pipeline run publish?
+  phrasing_ops: 1
   slug: microsoft-azure-devops-pipeline-artifacts-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for triggering and monitoring pipeline runs
   name: Azure DevOps Pipeline Runs API
+  phrasing_intents:
+  - id: runs_list
+    intent: List a pipeline's runs
+    question: What recent runs has a YAML pipeline had, and did they pass?
+  - id: runs_run
+    intent: Start a pipeline run
+    question: How do I trigger a YAML pipeline with different template parameters?
+  - id: runs_get
+    intent: Get a pipeline run's details
+    question: What state and result did a specific pipeline run end with?
+  phrasing_ops: 3
   slug: microsoft-azure-devops-pipeline-runs-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for managing pipeline definitions
   name: Azure DevOps Pipelines API
+  phrasing_intents:
+  - id: pipelines_list
+    intent: List pipelines
+    question: What YAML pipelines are defined in my Azure DevOps project?
+  - id: pipelines_create
+    intent: Create a pipeline from a YAML file
+    question: How do I register a YAML file in my repo as a new pipeline?
+  - id: pipelines_get
+    intent: Get a pipeline
+    question: Which repository and YAML file does a pipeline point to?
+  - id: listPipelines
+    intent: List pipelines in a named project
+    question: Which pipelines exist in one named project of an organization?
+  - id: createPipeline
+    intent: Create a pipeline in a named project
+    question: How do I add a YAML pipeline to a specific project in a given organization?
+  - id: getPipeline
+    intent: Get a pipeline in a named project
+    question: Where do I look up one pipeline when I know its organization, project and ID?
+  phrasing_ops: 6
   slug: microsoft-azure-devops-pipelines-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for listing event publishers and their event types
   name: Azure DevOps Publishers API
+  phrasing_intents:
+  - id: publishers_list
+    intent: List service hook publishers
+    question: What event sources can I subscribe to with Azure DevOps service hooks?
+  - id: publishers_listEventTypes
+    intent: List a publisher's event types
+    question: What events, like build completed or code pushed, can a publisher send?
+  phrasing_ops: 2
   slug: microsoft-azure-devops-publishers-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for creating and managing pull requests
   name: Azure DevOps Pull Requests API
+  phrasing_intents:
+  - id: pullRequests_list
+    intent: List pull requests in a repository
+    question: Which pull requests are still open against main in a repository?
+  - id: pullRequests_create
+    intent: Open a pull request
+    question: How do I open a pull request from my feature branch into main?
+  - id: pullRequests_get
+    intent: Get a pull request
+    question: What is the merge status and reviewer vote on a specific pull request?
+  - id: pullRequests_update
+    intent: Update, complete or abandon a pull request
+    question: How do I abandon or complete an existing pull request?
+  - id: pullRequests_listThreads
+    intent: List a pull request's comment threads
+    question: What review comments have been left on a pull request?
+  - id: pullRequests_addComment
+    intent: Start a comment thread on a pull request
+    question: How do I leave a review comment on a specific file in a pull request?
+  phrasing_ops: 6
   slug: microsoft-azure-devops-pull-requests-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for managing pushes and commits
   name: Azure DevOps Pushes API
+  phrasing_intents:
+  - id: pushes_list
+    intent: List pushes to a repository
+    question: Who pushed to a branch and when?
+  - id: pushes_create
+    intent: Push commits with file changes
+    question: How do I commit a file change to an Azure Repos branch without cloning it?
+  phrasing_ops: 2
   slug: microsoft-azure-devops-pushes-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for managing branches and tags (refs)
   name: Azure DevOps Refs API
+  phrasing_intents:
+  - id: refs_list
+    intent: List branches and tags
+    question: What branches exist in an Azure Repos repository?
+  phrasing_ops: 1
   slug: microsoft-azure-devops-refs-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for managing release pipeline definitions
   name: Azure DevOps Release Definitions API
+  phrasing_intents:
+  - id: releaseDefinitions_list
+    intent: List release definitions
+    question: What classic release pipelines are defined in my project?
+  - id: releaseDefinitions_create
+    intent: Create a release definition
+    question: How do I set up a new classic release pipeline with its environments and artifacts?
+  - id: releaseDefinitions_get
+    intent: Get a release definition
+    question: Which environments and artifact sources does a release definition use?
+  - id: releaseDefinitions_update
+    intent: Replace a release definition
+    question: How do I change the environments of an existing release definition?
+  - id: releaseDefinitions_delete
+    intent: Delete a release definition
+    question: Can I delete a release definition that still has releases?
+  phrasing_ops: 5
   slug: microsoft-azure-devops-release-definitions-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for managing release instances
   name: Azure DevOps Releases API
+  phrasing_intents:
+  - id: releases_list
+    intent: List releases
+    question: Which releases were created for a release definition this month?
+  - id: releases_create
+    intent: Create a release
+    question: How do I start a new release from a release definition?
+  - id: releases_get
+    intent: Get a release
+    question: What is the deployment status of each environment in a release?
+  - id: releases_update
+    intent: Update a release
+    question: How do I move a draft release to active?
+  phrasing_ops: 4
   slug: microsoft-azure-devops-releases-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for managing Git repositories
   name: Azure DevOps Repositories API
+  phrasing_intents:
+  - id: repositories_list
+    intent: List Git repositories
+    question: What Git repositories are in my Azure DevOps project?
+  - id: repositories_create
+    intent: Create a Git repository
+    question: How do I create a new Git repo in a project?
+  - id: repositories_get
+    intent: Get a repository
+    question: What is the default branch and clone URL of a repository?
+  - id: repositories_update
+    intent: Rename or reconfigure a repository
+    question: How do I rename a Git repository or change its default branch?
+  - id: repositories_delete
+    intent: Delete a repository
+    question: Does deleting a repository also delete its pull requests?
+  - id: items_list
+    intent: Browse files and folders in a repository
+    question: How do I see the files in a folder of a repo at a certain branch?
+  phrasing_ops: 6
   slug: microsoft-azure-devops-repositories-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for managing service hook subscriptions
   name: Azure DevOps Subscriptions API
+  phrasing_intents:
+  - id: subscriptions_list
+    intent: List service hook subscriptions
+    question: What service hooks are set up in my Azure DevOps organization?
+  - id: subscriptions_create
+    intent: Create a service hook subscription
+    question: How do I send a webhook to my endpoint whenever code is pushed?
+  - id: subscriptions_get
+    intent: Get a service hook subscription
+    question: What endpoint and filters does a given service hook use?
+  - id: subscriptions_update
+    intent: Update a service hook subscription
+    question: Can I change the URL an existing service hook posts to?
+  - id: subscriptions_delete
+    intent: Delete a service hook subscription
+    question: How do I stop a service hook from sending notifications?
+  phrasing_ops: 5
   slug: microsoft-azure-devops-subscriptions-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for managing test cases within test suites
   name: Azure DevOps Test Cases API
+  phrasing_intents:
+  - id: testCases_list
+    intent: List test cases in a test suite
+    question: Which test cases belong to a given test suite?
+  - id: testCases_add
+    intent: Add existing test cases to a suite
+    question: How do I put existing Test Case work items into a test suite?
+  phrasing_ops: 2
   slug: microsoft-azure-devops-test-cases-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for managing test plans
   name: Azure DevOps Test Plans API
+  phrasing_intents:
+  - id: testPlans_list
+    intent: List test plans
+    question: What test plans exist in my Azure DevOps project?
+  - id: testPlans_create
+    intent: Create a test plan
+    question: How do I create a test plan for a sprint?
+  - id: testPlans_get
+    intent: Get a test plan
+    question: Who owns a test plan and what iteration does it cover?
+  - id: testPlans_update
+    intent: Update a test plan
+    question: How do I extend the end date of an existing test plan?
+  - id: testPlans_delete
+    intent: Delete a test plan
+    question: Does deleting a test plan remove its suites too?
+  phrasing_ops: 5
   slug: microsoft-azure-devops-test-plans-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for managing test suites within test plans
   name: Azure DevOps Test Suites API
+  phrasing_intents:
+  - id: testSuites_list
+    intent: List test suites in a test plan
+    question: What test suites are in a test plan?
+  - id: testSuites_create
+    intent: Create a test suite
+    question: How do I add a requirement-based suite to a test plan?
+  - id: testSuites_get
+    intent: Get a test suite
+    question: What type is a test suite and which suite is its parent?
+  phrasing_ops: 3
   slug: microsoft-azure-devops-test-suites-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for managing wiki page content
   name: Azure DevOps Wiki Pages API
+  phrasing_intents:
+  - id: pages_get
+    intent: Read a wiki page
+    question: How do I get the Markdown of a wiki page by its path?
+  - id: pages_createOrUpdate
+    intent: Create or update a wiki page
+    question: How do I publish a new page to a project wiki?
+  - id: pages_delete
+    intent: Delete a wiki page
+    question: Can I remove a page from a wiki?
+  phrasing_ops: 3
   slug: microsoft-azure-devops-wiki-pages-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for managing wiki instances
   name: Azure DevOps Wikis API
+  phrasing_intents:
+  - id: wikis_list
+    intent: List wikis in a project
+    question: What wikis does my Azure DevOps project have?
+  - id: wikis_create
+    intent: Create a wiki
+    question: How do I publish a folder from a repo as a code wiki?
+  - id: wikis_get
+    intent: Get a wiki
+    question: Which repository and mapped path back a given wiki?
+  - id: wikis_update
+    intent: Change a code wiki's branch
+    question: How do I point a code wiki at a renamed main branch?
+  - id: wikis_delete
+    intent: Delete a wiki
+    question: Does deleting a project wiki also delete its Git repository?
+  phrasing_ops: 5
   slug: microsoft-azure-devops-wikis-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for querying and tracking work items using WIQL
   name: Azure DevOps Work Item Tracking API
+  phrasing_intents:
+  - id: workItems_queryByWiql
+    intent: Run a WIQL query for work items
+    question: What is the way to find work items with a query language in Azure Boards?
+  phrasing_ops: 1
   slug: microsoft-azure-devops-work-item-tracking-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for work item type definitions and fields
   name: Azure DevOps Work Item Types API
+  phrasing_intents:
+  - id: workItemTypes_list
+    intent: List work item types
+    question: What work item types, like Bug or Epic, does my project use?
+  - id: workItemTypes_get
+    intent: Get a work item type's fields and states
+    question: What states and transitions does the Bug type allow?
+  - id: fields_list
+    intent: List work item fields
+    question: What custom fields exist for work items?
+  phrasing_ops: 3
   slug: microsoft-azure-devops-work-item-types-api
 - baseURL: https://dev.azure.com/{organization}
   baseurl_source: declared
   description: Operations for managing work items (Bugs, Tasks, User Stories, etc.)
   name: Azure DevOps Work Items API
+  phrasing_intents:
+  - id: workItems_list
+    intent: Get several work items by ID
+    question: How do I fetch a batch of work items when I know their IDs?
+  - id: workItems_create
+    intent: Create a work item
+    question: How do I file a new bug in Azure Boards?
+  - id: workItems_get
+    intent: Get a work item
+    question: What is the current state of a work item?
+  - id: workItems_update
+    intent: Update a work item
+    question: How do I change a work item's state or assignee?
+  - id: workItems_delete
+    intent: Delete a work item
+    question: Can a deleted work item be restored from the recycle bin?
+  - id: getWorkItem
+    intent: Get a work item in a project
+    question: What is the status of a work item in a specific project?
+  - id: updateWorkItem
+    intent: Update a work item in a project
+    question: How do I change fields or links on a work item?
+  - id: createWorkItem
+    intent: Create a work item in a project
+    question: How do I create a new task in a specific project?
+  phrasing_ops: 9
   slug: microsoft-azure-devops-work-items-api
 - description: The Azure DevOps Artifacts API provides REST endpoints for managing package feeds including NuGet, npm, Maven, Python, and Universal Packages. APIs support feed creation, package publishing, version m
   name: Azure DevOps Artifacts API
@@ -306,16 +667,37 @@ apis:
   baseurl_source: declared
   description: Work item field definitions
   name: Azure DevOps Fields API
+  phrasing_intents:
+  - id: listWorkItemFields
+    intent: List work item fields in a project
+    question: What work item fields are defined in an Azure DevOps project?
+  phrasing_ops: 1
   slug: microsoft-azure-devops-fields-api
 - baseURL: https://vssps.dev.azure.com/{organization}/_apis/graph
   baseurl_source: declared
   description: Work item query execution
   name: Azure DevOps Queries API
+  phrasing_intents:
+  - id: queryWorkItemsByWiql
+    intent: Find work items with a WIQL query
+    question: How do I find all active bugs assigned to me in a project?
+  phrasing_ops: 1
   slug: microsoft-azure-devops-queries-api
 - baseURL: https://vssps.dev.azure.com/{organization}/_apis/graph
   baseurl_source: declared
   description: Pipeline run execution and monitoring
   name: Azure DevOps Runs API
+  phrasing_intents:
+  - id: listPipelineRuns
+    intent: List runs of a pipeline
+    question: What runs has a pipeline had in a given project?
+  - id: runPipeline
+    intent: Trigger a pipeline run
+    question: How do I start a pipeline run with custom variables?
+  - id: getPipelineRun
+    intent: Get one pipeline run
+    question: Did a specific pipeline run succeed?
+  phrasing_ops: 3
   slug: microsoft-azure-devops-runs-api
 arazzos:
 - description: Query a board column with WIQL, fetch the work item type, and acknowledge the top bug.
@@ -1248,26 +1630,26 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 76.3
+  composite: 76.7
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 76.0
+    artifact_dirs: 23
+    catalog_earned: 79.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 39.0
+    catalog_gap: 36.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.9
+  delta: 0.4
   facets:
     access_clarity: 84.2
     contract_governance: 27.3
     contract_quality: 71.5
     developer_ergonomics: 82.1
-    discoverability: 63.3
+    discoverability: 68.3
     operational_transparency: 76.3
   open_source:
     applies: true
     score: 75.0
-  previous_composite: 74.4
+  previous_composite: 76.3
   provenance:
     agentic_access: derived
     contracts:
@@ -1282,7 +1664,7 @@ score:
     regime_id: horizontal
     score: 40.2
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

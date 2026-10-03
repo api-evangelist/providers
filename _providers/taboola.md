@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -48,81 +48,269 @@ apis:
   baseurl_source: declared
   description: The Accounts API from Taboola — 3 operation(s) for accounts.
   name: Taboola Accounts API
+  phrasing_intents:
+  - id: getAllowedAccounts
+    intent: List the accounts my credentials can access
+    question: Which Taboola accounts can my API credentials act on?
+  - id: getAdvertiserAccountsInNetwork
+    intent: List advertiser accounts in a network
+    question: What advertiser accounts sit under my network account?
+  - id: getAccountDetails
+    intent: Get details of one account
+    question: How do I look up the details of a single account?
+  phrasing_ops: 3
   slug: taboola-accounts-api
 - baseURL: https://backstage.taboola.com/backstage/api/1.0
   baseurl_source: declared
   description: The Audience Targeting API from Taboola — 1 operation(s) for audience targeting.
   name: Taboola Audience Targeting API
+  phrasing_intents:
+  - id: getMyAudienceTargeting
+    intent: View a campaign's My Audience targeting
+    question: Which of my own audiences is a campaign currently targeting?
+  - id: updateMyAudienceTargeting
+    intent: Change a campaign's My Audience targeting
+    question: How do I point a campaign at one of my own audiences?
+  phrasing_ops: 2
   slug: taboola-audience-targeting-api
 - baseURL: https://backstage.taboola.com/backstage/api/1.0
   baseurl_source: declared
   description: Bulk create, update, and delete items across campaigns.
   name: Taboola Bulk Items API
+  phrasing_intents:
+  - id: massCreateItems
+    intent: Create many items in one campaign at once
+    question: How do I add a whole batch of ads to a single campaign in one request?
+  - id: bulkCreateItemsAcrossCampaigns
+    intent: Create the same items in several campaigns
+    question: How do I push the same set of ads into several campaigns at once?
+  - id: bulkUpdateItemsAcrossCampaigns
+    intent: Update items across several campaigns
+    question: Can I edit items that live in different campaigns with one call?
+  - id: bulkDeleteItemsAcrossCampaigns
+    intent: Delete items across several campaigns
+    question: Can I remove ads from many different campaigns in a single call?
+  phrasing_ops: 4
   slug: taboola-bulk-items-api
 - baseURL: https://backstage.taboola.com/backstage/api/1.0
   baseurl_source: declared
   description: Bulk update or create campaigns across accounts on the network.
   name: Taboola Bulk Operations API
+  phrasing_intents:
+  - id: getAllCampaignsAcrossNetwork
+    intent: List campaigns across the whole network
+    question: How do I see basic details for every campaign across my network's advertisers?
+  - id: bulkUpdateCampaigns
+    intent: Update many campaigns in one call
+    question: Can I change settings on many campaigns with a single API call?
+  phrasing_ops: 2
   slug: taboola-bulk-operations-api
 - baseURL: https://backstage.taboola.com/backstage/api/1.0
   baseurl_source: declared
   description: Standard ad items (creatives) belonging to a campaign.
   name: Taboola Campaign Items API
+  phrasing_intents:
+  - id: getAllCampaignItems
+    intent: List the items in a campaign
+    question: How do I see all the ads running in one campaign?
+  - id: createCampaignItem
+    intent: Add a new ad item to a campaign
+    question: How do I add a new ad with a landing page URL to a campaign?
+  - id: getCampaignItem
+    intent: Get one item from a campaign
+    question: How do I look up a single ad item by its ID?
+  - id: updateCampaignItem
+    intent: Edit an existing campaign item
+    question: How do I change the headline of an ad that's already live?
+  - id: deleteCampaignItem
+    intent: Delete an item from a campaign
+    question: How do I remove one ad from a campaign for good?
+  phrasing_ops: 5
   slug: taboola-campaign-items-api
 - baseURL: https://backstage.taboola.com/backstage/api/1.0
   baseurl_source: declared
   description: Create, retrieve, update, duplicate, and delete advertising campaigns.
   name: Taboola Campaigns API
+  phrasing_intents:
+  - id: getAllCampaigns
+    intent: List all campaigns in an account
+    question: How do I see all the campaigns in my advertiser account?
+  - id: createCampaign
+    intent: Create a new advertising campaign
+    question: How do I launch a new campaign with a CPC bid and daily cap?
+  - id: getCampaign
+    intent: Get one campaign's settings
+    question: How do I look up a single campaign by its ID?
+  - id: updateCampaign
+    intent: Update an existing campaign
+    question: How do I change the CPC bid on a campaign that's already running?
+  - id: deleteCampaign
+    intent: Terminate a campaign
+    question: How do I permanently delete a campaign?
+  - id: duplicateCampaign
+    intent: Duplicate an existing campaign
+    question: Can I copy an existing campaign instead of rebuilding it from scratch?
+  phrasing_ops: 6
   slug: taboola-campaigns-api
 - baseURL: https://backstage.taboola.com/backstage/api/1.0
   baseurl_source: declared
   description: The Combined Audiences API from Taboola — 2 operation(s) for combined audiences.
   name: Taboola Combined Audiences API
+  phrasing_intents:
+  - id: getAllCombinedAudiences
+    intent: List combined audiences in an account
+    question: What combined audiences have I built in my account?
+  - id: createCombinedAudience
+    intent: Create a combined audience
+    question: How do I combine several audience segments into one new audience?
+  - id: getCombinedAudience
+    intent: Get one combined audience
+    question: How do I see which segments make up a particular combined audience?
+  - id: updateCombinedAudience
+    intent: Update a combined audience
+    question: How do I change the segments in a combined audience I already created?
+  phrasing_ops: 4
   slug: taboola-combined-audiences-api
 - baseURL: https://backstage.taboola.com/backstage/api/1.0
   baseurl_source: declared
   description: The Conversion Rules API from Taboola — 4 operation(s) for conversion rules.
   name: Taboola Conversion Rules API
+  phrasing_intents:
+  - id: getAllConversionRules
+    intent: List an account's conversion rules
+    question: What conversion rules are set up on my account?
+  - id: createConversionRule
+    intent: Create a conversion rule
+    question: How do I start tracking a new conversion event like a purchase?
+  - id: getAllConversionRulesPlusData
+    intent: List conversion rules with their data
+    question: How many conversions has each of my conversion rules recorded?
+  - id: getConversionRule
+    intent: Get one conversion rule
+    question: How do I look up a single conversion rule by its ID?
+  - id: updateConversionRule
+    intent: Update a conversion rule
+    question: How do I rename or change an existing conversion rule?
+  - id: archiveConversionRule
+    intent: Archive a conversion rule
+    question: How do I retire a conversion rule I no longer use?
+  phrasing_ops: 6
   slug: taboola-conversion-rules-api
 - baseURL: https://backstage.taboola.com/backstage/api/1.0
   baseurl_source: declared
   description: The Custom Audiences API from Taboola — 1 operation(s) for custom audiences.
   name: Taboola Custom Audiences API
+  phrasing_intents:
+  - id: getAllCustomAudiences
+    intent: List custom audiences for an account
+    question: What custom audiences can I target from my account?
+  phrasing_ops: 1
   slug: taboola-custom-audiences-api
 - baseURL: https://backstage.taboola.com/backstage/api/1.0
   baseurl_source: declared
   description: The Dictionary API from Taboola — 16 operation(s) for dictionary.
   name: Taboola Dictionary API
+  phrasing_intents:
+  - id: getListOfCountries
+    intent: List countries available for targeting
+    question: Which countries can I target with my campaigns?
+  - id: getRegionsInCountry
+    intent: List regions within a country
+    question: What states or regions can I target inside a country?
+  - id: getCitiesInCountry
+    intent: List cities within a country
+    question: Which cities can I target in a given country?
+  - id: getPostalCodes
+    intent: List postal codes for a country
+    question: Can I target ads by zip or postal code?
+  - id: getDMAs
+    intent: List US DMAs
+    question: Which US designated market areas can I target?
+  - id: getListOfBrowsers
+    intent: List browsers available for targeting
+    question: Which web browsers can I include or exclude in targeting?
+  - id: getListOfOperatingSystems
+    intent: List operating systems for targeting
+    question: Which operating systems can I target my ads to?
+  - id: getListOfIosVersions
+    intent: List iOS versions for targeting
+    question: Can I target specific iOS versions?
+  phrasing_ops: 16
   slug: taboola-dictionary-api
 - baseURL: https://backstage.taboola.com/backstage/api/1.0
   baseurl_source: declared
   description: The First Party Audiences API from Taboola — 3 operation(s) for first party audiences.
   name: Taboola First Party Audiences API
+  phrasing_intents:
+  - id: createFirstPartyAudience
+    intent: Create a first-party audience
+    question: How do I create an audience from my own customer data?
+  - id: addRemoveAudienceUsers
+    intent: Add or remove users in a first-party audience
+    question: How do I upload hashed emails into one of my audiences?
+  - id: getMyAudience
+    intent: Get one first-party audience
+    question: How do I check the details of a first-party audience I uploaded?
+  phrasing_ops: 3
   slug: taboola-first-party-audiences-api
 - baseURL: https://backstage.taboola.com/backstage/api/1.0
   baseurl_source: declared
   description: The Lookalike Audiences API from Taboola — 1 operation(s) for lookalike audiences.
   name: Taboola Lookalike Audiences API
+  phrasing_intents:
+  - id: getLookalikeAudiences
+    intent: List lookalike audiences for an account
+    question: Which lookalike audiences are available to my account?
+  phrasing_ops: 1
   slug: taboola-lookalike-audiences-api
 - baseURL: https://backstage.taboola.com/backstage/api/1.0
   baseurl_source: declared
   description: The Marketplace Audiences API from Taboola — 1 operation(s) for marketplace audiences.
   name: Taboola Marketplace Audiences API
+  phrasing_intents:
+  - id: getMarketplaceAudiences
+    intent: List marketplace third-party audiences
+    question: Which third-party marketplace audiences can I target?
+  phrasing_ops: 1
   slug: taboola-marketplace-audiences-api
 - baseURL: https://backstage.taboola.com/backstage/api/1.0
   baseurl_source: declared
   description: Estimate reach for campaign targeting before launching.
   name: Taboola Reach Estimator API
+  phrasing_intents:
+  - id: estimateCampaignReach
+    intent: Estimate a campaign's reach
+    question: How many impressions could my targeting reach?
+  phrasing_ops: 1
   slug: taboola-reach-estimator-api
 - baseURL: https://backstage.taboola.com/backstage/api/1.0
   baseurl_source: declared
   description: The Reports API from Taboola — 3 operation(s) for reports.
   name: Taboola Reports API
+  phrasing_intents:
+  - id: getCampaignSummaryReport
+    intent: Get campaign performance by dimension
+    question: How did my campaigns perform day by day last month?
+  - id: getTopCampaignContent
+    intent: Get top performing ad items
+    question: Which of my ads performed best over a date range?
+  - id: getRealTimeAdsReport
+    intent: Get a near real-time ads performance snapshot
+    question: How are my ads performing right now?
+  phrasing_ops: 3
   slug: taboola-reports-api
 - baseURL: https://backstage.taboola.com/backstage/api/1.0
   baseurl_source: declared
   description: Performance video items (motion ads).
   name: Taboola Video Items API
+  phrasing_intents:
+  - id: getAllVideoItems
+    intent: List a campaign's performance video items
+    question: How do I see the motion ads in a campaign?
+  - id: createVideoItem
+    intent: Create a performance video item
+    question: How do I add a motion ad to a campaign?
+  phrasing_ops: 2
   slug: taboola-video-items-api
 artifact_total: 93
 collections:
@@ -679,23 +867,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 70.4
+  composite: 70.9
   coverage:
     artifact_dirs: 29
-    catalog_earned: 76.3
+    catalog_earned: 79.3
     catalog_earned_first_party: 16.0
-    catalog_gap: 38.8
+    catalog_gap: 35.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.0
+  delta: 0.5
   facets:
     access_clarity: 89.5
     contract_governance: 28.0
     contract_quality: 63.0
     developer_ergonomics: 72.6
-    discoverability: 76.7
+    discoverability: 81.7
     operational_transparency: 57.9
-  previous_composite: 67.4
+  previous_composite: 70.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -713,7 +901,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 api_count: 1
 apis:
 - baseURL: https://orderbook.filament.finance/sei
@@ -178,7 +178,7 @@ score:
     regime_id: securities_market_data
     score: 11.1
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: false
@@ -206,6 +206,5 @@ tags:
 - Blockchain
 - SEI
 - Web3
-- Real-Time
 website: https://filament.finance/
 ---

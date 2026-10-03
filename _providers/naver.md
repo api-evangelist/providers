@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 api_count: 18
 apis:
 - description: 'Naver Search API returns search results across Naver''s catalogs: blog, news, book, encyclopedia, café article, knowledge-in (Kin), web document, image, shopping product, and academic document. Each ca'
@@ -227,7 +227,7 @@ score:
     regime_id: telecommunications
     score: 4.7
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: false

@@ -1,6 +1,6 @@
 {
- "total": 77,
- "shown": 77,
+ "total": 78,
+ "shown": 78,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 92.9,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -77,7 +77,7 @@
       "developer_ergonomics": 82.1,
       "access_clarity": 81.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -116,18 +116,18 @@
      "slug": "lucidya-ltd",
      "description": "Lucidya is an AI-native customer experience management (CXM) platform for social listening, unified customer data, omnichannel engagement, surveys, and AI-powered text analysis, with deep Arabic-language and MENA-market capabilities. Its public developer platform (docs.lucidya.com) exposes a suite of RESTful APIs across six products — Social Listening, AI, CDP, OmniChannel, OmniServe Analytics, and Webhooks — for programmatic access to social data, customer profiles, analytics, AI text/audio models, and real-time event notifications. Lucidya is a 500 Global portfolio company headquartered in Saudi Arabia and is certified for SOC 2 Type 2 and ISO 27001.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/screenshots/lucidya-ltd-2026-07-25T225641.png",
-     "score": 67.5,
+     "score": 68.0,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 73.2,
+      "discoverability": 78.6,
       "contract_quality": 59.4,
       "contract_governance": 18.2,
       "operational_transparency": 84.2,
       "developer_ergonomics": 66.1,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -195,7 +195,7 @@
       "developer_ergonomics": 78.0,
       "access_clarity": 87.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -245,7 +245,7 @@
       "developer_ergonomics": 74.4,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -295,7 +295,7 @@
       "developer_ergonomics": 75.0,
       "access_clarity": 81.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -345,7 +345,7 @@
       "developer_ergonomics": 74.4,
       "access_clarity": 53.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -406,7 +406,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -456,7 +456,7 @@
       "developer_ergonomics": 78.0,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -495,18 +495,18 @@
      "slug": "lean-technologies",
      "description": "Lean Technologies is a MENA open finance and payments infrastructure platform serving the United Arab Emirates and Saudi Arabia. Its APIs let businesses connect to customers' bank accounts to read financial data (accounts, balances, transactions, identity, income and credit insights) and to move money via pay-by-bank payments, Account-on-File consents, payment links, payouts, refunds and scheduled payments. Lean provides the LinkSDK client for web, iOS, Android, React Native and Flutter, a FAPI-grade OAuth 2.0 authorization server, webhooks, a hosted documentation MCP server, and public Postman collections. Lean is regulated under the UAE Open Finance (CBUAE) and Saudi Open Banking (SAMA) frameworks and is SOC 2 Type II and ISO 27001 certified.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/screenshots/lean-technologies-2026-07-25T224735.png",
-     "score": 49.6,
+     "score": 49.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 76.7,
-      "contract_quality": 60.3,
+      "contract_quality": 60.4,
       "contract_governance": 18.2,
       "operational_transparency": 18.4,
       "developer_ergonomics": 62.5,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -556,7 +556,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -606,7 +606,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -656,7 +656,7 @@
       "developer_ergonomics": 46.4,
       "access_clarity": 40.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -695,18 +695,18 @@
      "slug": "sarj-ai-developer-api",
      "description": "Sarj.ai is a voice and chat AI agent platform built for Arabic, English and Urdu, focused on the Saudi and wider MENA market. The public developer surface is a REST API for outbound voice calls — place a call against a saved scenario (immediately, or booked up to 30 days ahead), cancel or reschedule it while it is still pending, create a retry policy governing how often a number is re-dialed, and retrieve the call's status, recording, transcript and asynchronous post-call outcome report. Alongside the call API, Sarj publishes two OpenAI-compatible speech APIs (Speech-to-Text with streaming, and Text-to-Speech with voice cloning), a hosted MCP server exposing createCall and getCall as native agent tools, a second unauthenticated MCP server over its documentation, an A2A agent card, a published Agent Skill with an agentskills.io discovery index, an llms.txt, webhook push notifications covering eleven call outcomes, and an official Python SDK.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/screenshots/sarj-ai-developer-api-2026-08-17T081723.png",
-     "score": 41.3,
+     "score": 41.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 75.0,
+      "discoverability": 80.0,
       "contract_quality": 48.7,
       "contract_governance": 18.2,
       "operational_transparency": 2.6,
       "developer_ergonomics": 33.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -747,9 +747,58 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 9,
-   "shown": 9,
+   "count": 10,
+   "shown": 10,
    "providers": [
+    {
+     "name": "Sahifa",
+     "slug": "sahifa",
+     "description": "Sahifa provides a PDF and screenshot API hosted in Saudi Arabia, converting HTML to PDF and web pages to images. It runs on Oracle Cloud in Jeddah, ensuring data never leaves the Kingdom. The service offers a free sandbox tier and paid plans for businesses needing secure, localized document rendering.",
+     "score": 38.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 62.5,
+      "contract_quality": 49.3,
+      "contract_governance": 22.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 52.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 24.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 25.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 15
+    },
     {
      "name": "King Saud University",
      "slug": "king-saud-university",
@@ -766,7 +815,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -798,7 +847,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Reachware",
@@ -816,7 +865,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -848,7 +897,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Sadq",
@@ -866,7 +915,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -898,7 +947,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "King Fahd University of Petroleum & Minerals",
@@ -916,7 +965,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -948,7 +997,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Abwab Ai",
@@ -966,7 +1015,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -998,7 +1047,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Taker",
@@ -1016,7 +1065,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1048,7 +1097,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Moyasar",
@@ -1066,57 +1115,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 10.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 21.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 21
-    },
-    {
-     "name": "Geidea",
-     "slug": "geidea",
-     "description": "Geidea is a Saudi-headquartered fintech and payments platform serving merchants across the MENA region (Saudi Arabia, Egypt, and the UAE). Its Payment Gateway lets merchants accept card and wallet payments through a hosted Geidea Checkout (HPP) page or a server-to-server Direct API for PCI-DSS-compliant merchants, covering the full transaction lifecycle - create session, 3-D Secure authentication, pay, capture, void, refund, cancel, tokenization, Pay by Link, and Pay by Invoice - with support for mada, Visa, Mastercard, Apple Pay, Google Pay, Meeza QR, and BNPL. Payments are authenticated with a merchant public key and API password over HTTP Basic auth plus an HMAC request signature, and results are delivered back to merchants via webhook (callback) notifications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/screenshots/geidea-2026-07-25T215522.png",
-     "score": 30.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 50.7,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.6,
-      "developer_ergonomics": 23.8,
-      "access_clarity": 26.8
-     },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1151,6 +1150,56 @@
      "rank": 22
     },
     {
+     "name": "Geidea",
+     "slug": "geidea",
+     "description": "Geidea is a Saudi-headquartered fintech and payments platform serving merchants across the MENA region (Saudi Arabia, Egypt, and the UAE). Its Payment Gateway lets merchants accept card and wallet payments through a hosted Geidea Checkout (HPP) page or a server-to-server Direct API for PCI-DSS-compliant merchants, covering the full transaction lifecycle - create session, 3-D Secure authentication, pay, capture, void, refund, cancel, tokenization, Pay by Link, and Pay by Invoice - with support for mada, Visa, Mastercard, Apple Pay, Google Pay, Meeza QR, and BNPL. Payments are authenticated with a merchant public key and API password over HTTP Basic auth plus an HMAC request signature, and results are delivered back to merchants via webhook (callback) notifications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/screenshots/geidea-2026-07-25T215522.png",
+     "score": 30.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 50.7,
+      "contract_governance": 0.0,
+      "operational_transparency": 21.6,
+      "developer_ergonomics": 23.8,
+      "access_clarity": 26.8
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 10.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 21.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 23
+    },
+    {
      "name": "Lendo",
      "slug": "lendo",
      "description": "Lendo (شركة ليندو السعودية للتمويل) is a Riyadh-based Saudi fintech licensed by the Saudi Central Bank (SAMA, License No. 61/A SH/202203, capital SAR 50M) that operates the Kingdom's first SAMA-licensed Sharia-compliant debt-based crowdfunding platform. Lendo connects small and medium enterprises needing liquidity with retail and institutional investors, offering invoice financing, working capital financing, purchase-order financing and term loans funded within 48 hours of document completion, alongside government-backed programs with Monshaat, SME Bank, the Tourism Development Fund, the Cultural Development Fund, Modon and the Kafala guarantee scheme. On the investor side it runs tiered retail products (Basic, Premium, High Net Worth), an auto-invest engine and an A-D credit scoring engine, reporting SAR 4.5B+ in cumulative financing across 10,000+ funded deals at a 2.93% overall default rate. Lendo publishes no public developer program, API documentation or SDKs; its production API host is authentication-gated and its machine-readable public surface is limited to an llms.txt and a SafeBase-hosted trust center.",
@@ -1166,7 +1215,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1198,7 +1247,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 24
     }
    ]
   },
@@ -1226,7 +1275,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1258,7 +1307,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "King Abdulaziz University",
@@ -1276,7 +1325,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1308,7 +1357,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Stllr Network",
@@ -1326,7 +1375,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1358,7 +1407,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Labayh",
@@ -1376,7 +1425,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1408,7 +1457,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Thamarah Al-Jill Co LLC",
@@ -1426,7 +1475,7 @@
       "developer_ergonomics": 13.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1458,7 +1507,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Pemo",
@@ -1476,7 +1525,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1508,7 +1557,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Speero",
@@ -1526,7 +1575,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1558,7 +1607,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Johrh",
@@ -1576,7 +1625,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1608,7 +1657,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "SiFi",
@@ -1626,7 +1675,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1658,7 +1707,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Physiohome",
@@ -1676,7 +1725,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1708,7 +1757,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "FIFOplus",
@@ -1726,57 +1775,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 13.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 34
-    },
-    {
-     "name": "Gathern",
-     "slug": "gathern",
-     "description": "Gathern (جاذر) is the first licensed peer-to-peer vacation-rental marketplace in Saudi Arabia, founded in Riyadh in 2016 and licensed by the Saudi Ministry of Tourism. Through its iOS, Android, and web apps, travelers book short-term private accommodations directly from local hosts — chalets, apartments, villas, farms, resorts, rest houses (istrahat), camps, caravans, and rooms — across more than 200 cities and provinces in the Kingdom, including Riyadh, Jeddah, Taif, Al Khobar, Dammam, Mecca, Medina, and AlUla. The platform lists tens of thousands of units, has served more than five million users, and holds a leading share of the alternative-hospitality sector in Saudi Arabia. Backed by 500 Global, STV, Sanabil Investments (a Public Investment Fund subsidiary), and others, Gathern raised a $72M Series B and is preparing for a Tadawul listing. Gathern operates as a consumer marketplace app and does not currently publish a public developer API surface; this profile tracks its public web properties for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gathern/refs/heads/main/screenshots/gathern-2026-07-25T215511.png",
-     "score": 12.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1811,10 +1810,10 @@
      "rank": 35
     },
     {
-     "name": "Safqah",
-     "slug": "safqah-holdings-limited",
-     "description": "Safqah Holdings Limited operates Safqah (Safqah Capital / Safqah Financial), a Saudi Arabian fintech platform headquartered in the Al-Malqa district of Riyadh and regulated by the Saudi Capital Market Authority (CMA). Safqah provides Sharia-compliant, debt-based real estate investment opportunities that let qualified individual and institutional investors fund real estate development deals starting from 1,000 SAR, alongside a financing arm that offers land acquisition, residential development, commercial development, raw land, and bridge financing to real estate developers. Investors track deal performance through periodic reporting and live project camera feeds. The platform is a consumer- and investor-facing web application with no publicly documented developer API, SDK, or integration surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/safqah-holdings-limited/refs/heads/main/screenshots/safqah-holdings-limited-2026-09-02T154254.png",
+     "name": "Gathern",
+     "slug": "gathern",
+     "description": "Gathern (جاذر) is the first licensed peer-to-peer vacation-rental marketplace in Saudi Arabia, founded in Riyadh in 2016 and licensed by the Saudi Ministry of Tourism. Through its iOS, Android, and web apps, travelers book short-term private accommodations directly from local hosts — chalets, apartments, villas, farms, resorts, rest houses (istrahat), camps, caravans, and rooms — across more than 200 cities and provinces in the Kingdom, including Riyadh, Jeddah, Taif, Al Khobar, Dammam, Mecca, Medina, and AlUla. The platform lists tens of thousands of units, has served more than five million users, and holds a leading share of the alternative-hospitality sector in Saudi Arabia. Backed by 500 Global, STV, Sanabil Investments (a Public Investment Fund subsidiary), and others, Gathern raised a $72M Series B and is preparing for a Tadawul listing. Gathern operates as a consumer marketplace app and does not currently publish a public developer API surface; this profile tracks its public web properties for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gathern/refs/heads/main/screenshots/gathern-2026-07-25T215511.png",
      "score": 12.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1826,7 +1825,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1861,6 +1860,56 @@
      "rank": 36
     },
     {
+     "name": "Safqah",
+     "slug": "safqah-holdings-limited",
+     "description": "Safqah Holdings Limited operates Safqah (Safqah Capital / Safqah Financial), a Saudi Arabian fintech platform headquartered in the Al-Malqa district of Riyadh and regulated by the Saudi Capital Market Authority (CMA). Safqah provides Sharia-compliant, debt-based real estate investment opportunities that let qualified individual and institutional investors fund real estate development deals starting from 1,000 SAR, alongside a financing arm that offers land acquisition, residential development, commercial development, raw land, and bridge financing to real estate developers. Investors track deal performance through periodic reporting and live project camera feeds. The platform is a consumer- and investor-facing web application with no publicly documented developer API, SDK, or integration surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/safqah-holdings-limited/refs/heads/main/screenshots/safqah-holdings-limited-2026-09-02T154254.png",
+     "score": 12.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 13.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 37
+    },
+    {
      "name": "Qanoniah",
      "slug": "adalah-for-it-systems-llc",
      "description": "Adalah for IT Systems LLC operates Qanoniah, a Saudi Arabian legal technology platform that enables companies to access, understand, and act on the latest and most accurate legal information and procedures in seconds. The AI-driven service targets legal and compliance teams across Saudi Arabia. Backed by 500 Global, the company is tracked in the API Evangelist network; no public API or developer surface has been discovered to date.",
@@ -1876,7 +1925,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1908,7 +1957,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Sabbar",
@@ -1926,7 +1975,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1958,7 +2007,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Siolla",
@@ -1976,7 +2025,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2008,7 +2057,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Emtethal",
@@ -2026,7 +2075,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2058,7 +2107,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 41
     }
    ]
   },
@@ -2086,7 +2135,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2118,7 +2167,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Juleb",
@@ -2136,7 +2185,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2168,7 +2217,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "Happy World",
@@ -2186,7 +2235,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2218,7 +2267,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "CarSwitch",
@@ -2235,7 +2284,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2267,7 +2316,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Drahim Holdings",
@@ -2285,7 +2334,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2317,7 +2366,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "Telgani",
@@ -2335,7 +2384,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2367,7 +2416,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "VOO (now SideUp)",
@@ -2385,57 +2434,7 @@
       "developer_ergonomics": 3.6,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 9.8,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 47
-    },
-    {
-     "name": "Sweater",
-     "slug": "sweater",
-     "description": "Sweater (سويتر) is a Saudi Arabian on-demand mobile car-care company that brings waterless vehicle washing, interior cleaning, detailing, and fragrance services to customers wherever their car is parked. Its app-based platform uses smart scheduling to dispatch field teams by location and uses roughly 7 liters of water per wash versus about 120 liters for traditional methods. The company reports 2M+ washes, 750K+ users, 500+ corporate partnerships, and operations across 8 Saudi cities (Riyadh, Dammam, Khobar, Jeddah, Jubail, Medina, Al-Hassa, and Mecca). Surfaced as a 500 Global portfolio company. It is a consumer/B2B services business with no public developer API surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sweater/refs/heads/main/screenshots/sweater-2026-09-02T161349.png",
-     "score": 8.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2470,6 +2469,56 @@
      "rank": 48
     },
     {
+     "name": "Sweater",
+     "slug": "sweater",
+     "description": "Sweater (سويتر) is a Saudi Arabian on-demand mobile car-care company that brings waterless vehicle washing, interior cleaning, detailing, and fragrance services to customers wherever their car is parked. Its app-based platform uses smart scheduling to dispatch field teams by location and uses roughly 7 liters of water per wash versus about 120 liters for traditional methods. The company reports 2M+ washes, 750K+ users, 500+ corporate partnerships, and operations across 8 Saudi cities (Riyadh, Dammam, Khobar, Jeddah, Jubail, Medina, Al-Hassa, and Mecca). Surfaced as a 500 Global portfolio company. It is a consumer/B2B services business with no public developer API surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sweater/refs/heads/main/screenshots/sweater-2026-09-02T161349.png",
+     "score": 8.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 9.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 49
+    },
+    {
      "name": "DailyMealz",
      "slug": "dailymealz",
      "description": "DailyMealz is a Saudi Arabia-based meal subscription service that delivers fresh daily lunches and full-day meal plans sourced from a network of more than sixty partner restaurants. Subscribers choose a package (healthy, keto, diet, and similar options), select meals from a rotating menu, and control delivery timing through the DailyMealz mobile app. The company also operates a DailyMealz for Business offering for corporate meal programs. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment; DailyMealz is an app-first consumer brand and publishes no public developer API surface, documentation portal, or API specifications as of this profiling round.",
@@ -2485,7 +2534,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2517,7 +2566,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "Nqoodlet",
@@ -2535,7 +2584,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2567,7 +2616,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Ajeer",
@@ -2585,7 +2634,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2617,7 +2666,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Barakah",
@@ -2635,57 +2684,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 5.9,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 52
-    },
-    {
-     "name": "ElMetr",
-     "slug": "elmetr",
-     "description": "ElMetr (المتر) is a Middle East legal-tech company providing online legal consultation and guidance for companies, entrepreneurs, and individuals. The platform combines licensed lawyers with modern technology to connect users with qualified legal help, offering subscription legal packages that cover company formation and registration, contract review, compliance, intellectual property, and dispute resolution. Founded in Egypt and now operating in Saudi Arabia, ElMetr aims to make legal work clear, fast, and fair so businesses can move faster and reduce risk from first idea through expansion. ElMetr is a 500 Global (500 Startups) portfolio company. This company profile has been through the API Evangelist enrichment pipeline; ElMetr does not currently publish a public developer API, SDKs, or API documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/elmetr/refs/heads/main/screenshots/elmetr-2026-07-25T213155.png",
-     "score": 5.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2720,6 +2719,56 @@
      "rank": 53
     },
     {
+     "name": "ElMetr",
+     "slug": "elmetr",
+     "description": "ElMetr (المتر) is a Middle East legal-tech company providing online legal consultation and guidance for companies, entrepreneurs, and individuals. The platform combines licensed lawyers with modern technology to connect users with qualified legal help, offering subscription legal packages that cover company formation and registration, contract review, compliance, intellectual property, and dispute resolution. Founded in Egypt and now operating in Saudi Arabia, ElMetr aims to make legal work clear, fast, and fair so businesses can move faster and reduce risk from first idea through expansion. ElMetr is a 500 Global (500 Startups) portfolio company. This company profile has been through the API Evangelist enrichment pipeline; ElMetr does not currently publish a public developer API, SDKs, or API documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/elmetr/refs/heads/main/screenshots/elmetr-2026-07-25T213155.png",
+     "score": 5.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 54
+    },
+    {
      "name": "Quantum",
      "slug": "quantum",
      "description": "Quantum is a Saudi Arabian advertising-technology (adtech) enabler that bridges online publishers and advertisers with data and technology. Its Quantum One omnichannel platform connects online and offline retail experiences across programmatic ads, in-app media buying, e-sampling, on-ground activations, influencer marketing, and out-of-home media, with goal-attainment tracking, ROI measurement, customer-engagement analytics, and conversion-rate analysis. As of this enrichment pass the company publishes no public developer API, documentation, or developer portal; the Quantum One tenant application does carry an API-key management screen, so the platform issues keys to signed-in customers, but no contract, reference, or machine-readable spec is published anywhere.",
@@ -2735,7 +2784,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2767,7 +2816,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "MisMar",
@@ -2784,7 +2833,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2816,7 +2865,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "Behja",
@@ -2834,7 +2883,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2866,7 +2915,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "EQUIPTAL",
@@ -2884,57 +2933,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 5.9,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 57
-    },
-    {
-     "name": "Governata",
-     "slug": "governata",
-     "description": "Governata is a Saudi Arabia-based data governance and management platform that helps government entities and enterprises turn complex data into business value through comprehensive, PDPL-aligned data management. Its product suite spans Data Governance (business glossary, data catalog, data classification, data lineage, metadata store, data quality), Master Data Management (domains, golden record, matching and survivorship), Data Privacy (personal-data discovery and protection under Saudi Arabia's Personal Data Protection Law, access management, and a service catalog), and Governata Core, an administrative backbone covering license management, audit trail, and workflows. Governata packages role-based solutions for chief data officers, compliance officers, data protection officers, and data stewards, and sector solutions for government, healthcare, financial services, insurance, telecom, retail, energy, and large enterprises. It is backed by 500 Global and is being profiled in the API Evangelist network. No public API, developer portal, or machine-readable specification was found at the time of enrichment; this profile captures the company's identity and web presence.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/governata/refs/heads/main/screenshots/governata-2026-07-25T220137.png",
-     "score": 4.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2969,11 +2968,11 @@
      "rank": 58
     },
     {
-     "name": "Autobia",
-     "slug": "autobia",
-     "description": "Autobia is a B2B e-commerce marketplace for the automotive aftermarket in Saudi Arabia, connecting auto-parts retailers, workshops, and service centers with wholesalers and dealers. The platform offers real-time pricing and instant ordering across more than 20,000 spare parts from multiple brands, centralizing sourcing to streamline procurement and improve supply-chain efficiency for the automotive sector. Backed by Techstars, Autobia operates via a web platform and native iOS and Android apps. No public developer API, documentation, or SDK is currently published.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autobia/refs/heads/main/screenshots/autobia-2026-07-25T201816.png",
-     "score": 4.3,
+     "name": "Governata",
+     "slug": "governata",
+     "description": "Governata is a Saudi Arabia-based data governance and management platform that helps government entities and enterprises turn complex data into business value through comprehensive, PDPL-aligned data management. Its product suite spans Data Governance (business glossary, data catalog, data classification, data lineage, metadata store, data quality), Master Data Management (domains, golden record, matching and survivorship), Data Privacy (personal-data discovery and protection under Saudi Arabia's Personal Data Protection Law, access management, and a service catalog), and Governata Core, an administrative backbone covering license management, audit trail, and workflows. Governata packages role-based solutions for chief data officers, compliance officers, data protection officers, and data stewards, and sector solutions for government, healthcare, financial services, insurance, telecom, retail, energy, and large enterprises. It is backed by 500 Global and is being profiled in the API Evangelist network. No public API, developer portal, or machine-readable specification was found at the time of enrichment; this profile captures the company's identity and web presence.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/governata/refs/heads/main/screenshots/governata-2026-07-25T220137.png",
+     "score": 4.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2981,10 +2980,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3019,10 +3018,10 @@
      "rank": 59
     },
     {
-     "name": "Esar",
-     "slug": "esar",
-     "description": "Esar (ايسار) is a Saudi Arabia and UAE based car rental marketplace that connects vehicle owners with renters through a mobile app, offering luxury, sports, family, and 4x4 vehicles across Riyadh, Jeddah, Mecca, and Dubai. The platform lets car owners list vehicles to earn recurring returns while giving travelers on-demand access to a curated fleet at competitive daily rates. Headquartered in Jeddah, Esar is an early-stage startup backed by 500 Global and the Taqadam accelerator. This API Evangelist profile tracks the company as a portfolio lead; no public developer API surface has been found to date.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/esar/refs/heads/main/screenshots/esar-2026-07-25T213623.png",
+     "name": "Autobia",
+     "slug": "autobia",
+     "description": "Autobia is a B2B e-commerce marketplace for the automotive aftermarket in Saudi Arabia, connecting auto-parts retailers, workshops, and service centers with wholesalers and dealers. The platform offers real-time pricing and instant ordering across more than 20,000 spare parts from multiple brands, centralizing sourcing to streamline procurement and improve supply-chain efficiency for the automotive sector. Backed by Techstars, Autobia operates via a web platform and native iOS and Android apps. No public developer API, documentation, or SDK is currently published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autobia/refs/heads/main/screenshots/autobia-2026-07-25T201816.png",
      "score": 4.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3034,7 +3033,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3069,10 +3068,10 @@
      "rank": 60
     },
     {
-     "name": "Haseel",
-     "slug": "haseel",
-     "description": "Haseel (حصيل) is a Riyadh-based technology startup, founded in 2018, that delivers fresh fruits and vegetables to consumers across Saudi Arabia through its iOS and Android mobile apps. The company sources high-quality produce and fulfills each order from the nearest of its branches inside Riyadh, pairing a curated selection with fast, reliable last-mile delivery. Haseel reports more than 400,000 app downloads, three branches inside Riyadh, and over 1,000 orders per day, and is backed by 500 Global. This profile is maintained in the API Evangelist network; Haseel is a consumer produce-delivery app and does not currently publish a public developer API or OpenAPI surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/haseel/refs/heads/main/screenshots/haseel-2026-07-25T220744.png",
+     "name": "Esar",
+     "slug": "esar",
+     "description": "Esar (ايسار) is a Saudi Arabia and UAE based car rental marketplace that connects vehicle owners with renters through a mobile app, offering luxury, sports, family, and 4x4 vehicles across Riyadh, Jeddah, Mecca, and Dubai. The platform lets car owners list vehicles to earn recurring returns while giving travelers on-demand access to a curated fleet at competitive daily rates. Headquartered in Jeddah, Esar is an early-stage startup backed by 500 Global and the Taqadam accelerator. This API Evangelist profile tracks the company as a portfolio lead; no public developer API surface has been found to date.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/esar/refs/heads/main/screenshots/esar-2026-07-25T213623.png",
      "score": 4.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3084,7 +3083,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3119,10 +3118,10 @@
      "rank": 61
     },
     {
-     "name": "Tammwel",
-     "slug": "tammwel",
-     "description": "Tammwel (Tamawal) is a Saudi Arabian digital financing intermediary that connects consumers with licensed financial institutions to compare and obtain Sharia-compliant financing. Its consumer platform and iOS/Android apps let users apply once and receive multiple offers across four products - personal loans, credit cards, auto financing, and mortgage financing (each up to 150,000 SAR) - emphasizing transparent pricing with no hidden fees. The company is a portfolio company of 500 Global. As of this enrichment pass Tammwel publishes no public API, developer portal, documentation, SDK, or /.well-known discovery surface; this profile captures its identity and infrastructure security posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tammwel/refs/heads/main/screenshots/tammwel-2026-09-02T162511.png",
+     "name": "Haseel",
+     "slug": "haseel",
+     "description": "Haseel (حصيل) is a Riyadh-based technology startup, founded in 2018, that delivers fresh fruits and vegetables to consumers across Saudi Arabia through its iOS and Android mobile apps. The company sources high-quality produce and fulfills each order from the nearest of its branches inside Riyadh, pairing a curated selection with fast, reliable last-mile delivery. Haseel reports more than 400,000 app downloads, three branches inside Riyadh, and over 1,000 orders per day, and is backed by 500 Global. This profile is maintained in the API Evangelist network; Haseel is a consumer produce-delivery app and does not currently publish a public developer API or OpenAPI surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/haseel/refs/heads/main/screenshots/haseel-2026-07-25T220744.png",
      "score": 4.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3134,7 +3133,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3169,22 +3168,22 @@
      "rank": 62
     },
     {
-     "name": "Awfar Market",
-     "slug": "awfar-market",
-     "description": "Awfar is a Cairo- and Riyadh-based digital solutions company (founded 2013) offering an integrated customer engagement and commerce platform. It combines an omnichannel Chat Center with AI agents (WhatsApp, Instagram, Facebook), a cloud Call Center, and a Commerce & Delivery platform for order, inventory, and logistics management within a single interface. Awfar serves more than 2,000 clients across retail, pharmacy, restaurant, e-commerce, tourism, healthcare, education, and real estate, and ships prebuilt integrations for Shopify, Meta, Odoo, Zid, and Salla plus custom API connections. Backed by 500 Global. No public developer portal or OpenAPI specification is published at this time; integration is arranged via the sales and demo channel.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/awfar-market/refs/heads/main/screenshots/awfar-market-2026-07-25T202027.png",
-     "score": 4.1,
+     "name": "Tammwel",
+     "slug": "tammwel",
+     "description": "Tammwel (Tamawal) is a Saudi Arabian digital financing intermediary that connects consumers with licensed financial institutions to compare and obtain Sharia-compliant financing. Its consumer platform and iOS/Android apps let users apply once and receive multiple offers across four products - personal loans, credit cards, auto financing, and mortgage financing (each up to 150,000 SAR) - emphasizing transparent pricing with no hidden fees. The company is a portfolio company of 500 Global. As of this enrichment pass Tammwel publishes no public API, developer portal, documentation, SDK, or /.well-known discovery surface; this profile captures its identity and infrastructure security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tammwel/refs/heads/main/screenshots/tammwel-2026-09-02T162511.png",
+     "score": 4.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 55.4,
+      "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3219,10 +3218,10 @@
      "rank": 63
     },
     {
-     "name": "Doos",
-     "slug": "doos",
-     "description": "Doos is a Saudi-based quick-commerce (q-commerce) platform and mobile app that delivers groceries, fresh produce, beauty, gifting, pharmacy, and lifestyle products in minutes across Saudi Arabia. Founded in 2023 by Tala Al Sahsah, it operates cloud/dark stores in Jeddah and Riyadh with localised assortments, prices, and promotions by city and delivery zone, offering a bilingual (Arabic/English) shopping experience. Doos is backed by 500 Global and received a strategic investment from Jahez to accelerate its expansion in the Kingdom's growing quick-commerce sector. This is a consumer-facing storefront; no public developer program or API has been identified at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/doos/refs/heads/main/screenshots/doos-2026-07-25T212306.png",
+     "name": "Awfar Market",
+     "slug": "awfar-market",
+     "description": "Awfar is a Cairo- and Riyadh-based digital solutions company (founded 2013) offering an integrated customer engagement and commerce platform. It combines an omnichannel Chat Center with AI agents (WhatsApp, Instagram, Facebook), a cloud Call Center, and a Commerce & Delivery platform for order, inventory, and logistics management within a single interface. Awfar serves more than 2,000 clients across retail, pharmacy, restaurant, e-commerce, tourism, healthcare, education, and real estate, and ships prebuilt integrations for Shopify, Meta, Odoo, Zid, and Salla plus custom API connections. Backed by 500 Global. No public developer portal or OpenAPI specification is published at this time; integration is arranged via the sales and demo channel.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/awfar-market/refs/heads/main/screenshots/awfar-market-2026-07-25T202027.png",
      "score": 4.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3234,7 +3233,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3269,10 +3268,10 @@
      "rank": 64
     },
     {
-     "name": "Erad",
-     "slug": "erad",
-     "description": "Erad is a licensed, Sharia-compliant fintech lender providing fast, flexible working capital to small and medium-sized businesses across Saudi Arabia and the United Arab Emirates. Founded in 2022 (Y Combinator S22) and headquartered in Riyadh, Erad offers revenue-based financing, invoice financing (advancing up to 90% of B2B/B2G invoices in as little as 48 hours), and supplier financing to revenue-generating SMEs. The company embeds working-capital products into supplier networks and business platforms, and is backed by investors including Y Combinator, 500 Global, Nuwa Capital, Khwarizmi Ventures, Aljazira Capital, VentureSouq, Oraseya Capital and Joa Capital, alongside debt facilities from Stride Ventures and a $125M asset-backed facility led by Jefferies with Channel Capital.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/erad/refs/heads/main/screenshots/erad-2026-07-25T213556.png",
+     "name": "Doos",
+     "slug": "doos",
+     "description": "Doos is a Saudi-based quick-commerce (q-commerce) platform and mobile app that delivers groceries, fresh produce, beauty, gifting, pharmacy, and lifestyle products in minutes across Saudi Arabia. Founded in 2023 by Tala Al Sahsah, it operates cloud/dark stores in Jeddah and Riyadh with localised assortments, prices, and promotions by city and delivery zone, offering a bilingual (Arabic/English) shopping experience. Doos is backed by 500 Global and received a strategic investment from Jahez to accelerate its expansion in the Kingdom's growing quick-commerce sector. This is a consumer-facing storefront; no public developer program or API has been identified at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/doos/refs/heads/main/screenshots/doos-2026-07-25T212306.png",
      "score": 4.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3284,7 +3283,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3319,10 +3318,10 @@
      "rank": 65
     },
     {
-     "name": "Salasa",
-     "slug": "salasa",
-     "description": "Salasa is an end-to-end eCommerce logistics provider based in Saudi Arabia, offering 3PL fulfillment (warehouse storage, automated pick/pack/ship), hyperlocal dark stores with 2-hour delivery in Riyadh, domestic on-demand and scheduled shipping, cross-border shipping with customs clearance, and reverse logistics / return management. Its Operations Management System (OMS) provides real-time tracking, inventory management, and analytics, and it connects to major eCommerce platforms (Salla, Zid, Shopify, WooCommerce, Magento, Amazon, Trendyol) and offers custom API integrations for merchants automating fulfillment and order synchronization.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/salasa/refs/heads/main/screenshots/salasa-2026-09-02T154316.png",
+     "name": "Erad",
+     "slug": "erad",
+     "description": "Erad is a licensed, Sharia-compliant fintech lender providing fast, flexible working capital to small and medium-sized businesses across Saudi Arabia and the United Arab Emirates. Founded in 2022 (Y Combinator S22) and headquartered in Riyadh, Erad offers revenue-based financing, invoice financing (advancing up to 90% of B2B/B2G invoices in as little as 48 hours), and supplier financing to revenue-generating SMEs. The company embeds working-capital products into supplier networks and business platforms, and is backed by investors including Y Combinator, 500 Global, Nuwa Capital, Khwarizmi Ventures, Aljazira Capital, VentureSouq, Oraseya Capital and Joa Capital, alongside debt facilities from Stride Ventures and a $125M asset-backed facility led by Jefferies with Channel Capital.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/erad/refs/heads/main/screenshots/erad-2026-07-25T213556.png",
      "score": 4.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3334,7 +3333,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3369,10 +3368,10 @@
      "rank": 66
     },
     {
-     "name": "UTURN",
-     "slug": "uturn",
-     "description": "UTURN Entertainment is a Saudi Arabian digital media and entertainment company founded in 2010 that has grown into the largest Arabic Multi-Channel Network (MCN) in the MENA region. It produces original digital content — comedy sketches, gaming (Saudi Gamer), women's lifestyle (Unseen), sports (MLM), and MMA (MMAnia) shows — distributed across YouTube, TikTok, Snapchat, and other social platforms, and offers content creation, sponsored content, branded content, and digital production services to brands. A 500 Global portfolio company, UTURN publishes no public API or developer surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uturn/refs/heads/main/screenshots/uturn-2026-09-02T165316.png",
+     "name": "Salasa",
+     "slug": "salasa",
+     "description": "Salasa is an end-to-end eCommerce logistics provider based in Saudi Arabia, offering 3PL fulfillment (warehouse storage, automated pick/pack/ship), hyperlocal dark stores with 2-hour delivery in Riyadh, domestic on-demand and scheduled shipping, cross-border shipping with customs clearance, and reverse logistics / return management. Its Operations Management System (OMS) provides real-time tracking, inventory management, and analytics, and it connects to major eCommerce platforms (Salla, Zid, Shopify, WooCommerce, Magento, Amazon, Trendyol) and offers custom API integrations for merchants automating fulfillment and order synchronization.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/salasa/refs/heads/main/screenshots/salasa-2026-09-02T154316.png",
      "score": 4.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3384,7 +3383,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3419,22 +3418,22 @@
      "rank": 67
     },
     {
-     "name": "BRKZ",
-     "slug": "brkz",
-     "description": "BRKZ is a Saudi Arabian construction-technology company operating a B2B online marketplace for building materials and construction equipment. Positioned as a top online building materials store in the Kingdom of Saudi Arabia (KSA), the platform connects contractors and construction businesses with material suppliers, streamlining procurement and offering nationwide delivery across Saudi Arabia. The bilingual (Arabic and English) storefront lets buyers source construction supplies online, and the company is backed by 500 Global among its investors. This profile was enriched from BRKZ's public web presence; the company runs a private, authenticated API host (api.brkz.com) but does not publish a public developer program, SDKs, or API documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brkz/refs/heads/main/screenshots/brkz-2026-07-25T203938.png",
-     "score": 3.8,
+     "name": "UTURN",
+     "slug": "uturn",
+     "description": "UTURN Entertainment is a Saudi Arabian digital media and entertainment company founded in 2010 that has grown into the largest Arabic Multi-Channel Network (MCN) in the MENA region. It produces original digital content — comedy sketches, gaming (Saudi Gamer), women's lifestyle (Unseen), sports (MLM), and MMA (MMAnia) shows — distributed across YouTube, TikTok, Snapchat, and other social platforms, and offers content creation, sponsored content, branded content, and digital production services to brands. A 500 Global portfolio company, UTURN publishes no public API or developer surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uturn/refs/heads/main/screenshots/uturn-2026-09-02T165316.png",
+     "score": 4.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 55.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3469,10 +3468,10 @@
      "rank": 68
     },
     {
-     "name": "Firnas Aero",
-     "slug": "firnas-aero",
-     "description": "Firnas Aero is a Saudi Arabian deep-tech startup building autonomous Drone-in-a-Box (DiaB) systems for aerial surveillance, industrial inspection, and environmental assessment. Its turnkey platform pairs self-charging, robotic battery-swapping drone stations with cloud-based remote management over 5G, Ethernet, or Wi-Fi, and applies machine-learning and deep-learning models for anomaly detection, Foreign Object Debris (FOD) detection, hazard identification, and geo-location. Based at KRTP HQ in Thuwal, Saudi Arabia, the company serves infrastructure, energy, and security clients including Red Sea Global, NEOM, and the Saudi Electricity Company, and is backed by 500 Global. It is tracked in the API Evangelist network as a company profile; no public developer API surface was found during enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/firnas-aero/refs/heads/main/screenshots/firnas-aero-2026-07-25T214600.png",
+     "name": "BRKZ",
+     "slug": "brkz",
+     "description": "BRKZ is a Saudi Arabian construction-technology company operating a B2B online marketplace for building materials and construction equipment. Positioned as a top online building materials store in the Kingdom of Saudi Arabia (KSA), the platform connects contractors and construction businesses with material suppliers, streamlining procurement and offering nationwide delivery across Saudi Arabia. The bilingual (Arabic and English) storefront lets buyers source construction supplies online, and the company is backed by 500 Global among its investors. This profile was enriched from BRKZ's public web presence; the company runs a private, authenticated API host (api.brkz.com) but does not publish a public developer program, SDKs, or API documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brkz/refs/heads/main/screenshots/brkz-2026-07-25T203938.png",
      "score": 3.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3484,157 +3483,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 5.5,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 69
-    },
-    {
-     "name": "MEDICAL INTELLIGENCE CO",
-     "slug": "medical-intelligence-co",
-     "description": "Medicarri (operated by Medical Intelligence Co) is a B2B healthtech marketplace based in Riyadh, Saudi Arabia that connects clinics and healthcare facilities with medical suppliers, letting buyers source medical supplies and equipment from many vendors in one place. The company was selected for Batch 4 of the Sanabil 500 MENA Seed Accelerator Program run by 500 Global and Sanabil Investments. As of this profile Medicarri operates a customer-facing e-commerce web application at medicarri.com and does not publish a public developer API, OpenAPI specification, or developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/medical-intelligence-co/refs/heads/main/screenshots/medical-intelligence-co-2026-08-07T172341.png",
-     "score": 3.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 4.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 70
-    },
-    {
-     "name": "Trella",
-     "slug": "trella",
-     "description": "Trella is a Cairo-headquartered B2B trucking marketplace and digital freight platform that connects shippers with carriers across the Middle East, North Africa, and Pakistan (MENA-P). Founded in 2019 by Omar Hagrass, Ali El Atrash, and Pierre Saad and backed by Y Combinator, Trella runs a digital load marketplace, a carrier mobile app, and a shipper web dashboard that together replace the traditional broker-driven, paper-based long-haul trucking workflow. Core platform services include load posting and carrier matching, instant quoting, GPS tracking and live shipment visibility, electronic proof of delivery (ePODs), load insurance, a control-tower operations layer for carrier quality and performance, and integrated payments and invoicing between shippers and carriers. The network spans 30,000+ carriers and operates from major freight hubs including Cairo, Alexandria, Port Said, Damietta, Sokhna, Jeddah, Dammam, Riyadh, and Dubai, serving industries such as FMCG, construction, manufacturing, agriculture, mining, e-commerce, retail, electronics, ceramics, and freight forwarding. Trella's revenue model is marketplace take-rate and value-added logistics services; there is no public developer API, SDK, OpenAPI specification, webhooks catalog, or open-source platform release for the Trella marketplace.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trella/refs/heads/main/screenshots/trella-2026-06-20T195648.png",
-     "score": 3.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-25",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 5.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 71
-    },
-    {
-     "name": "FAI & GLOBAL SOLUTIONS HOLDING LIMITED",
-     "slug": "fai-and-global-solutions-holding-limited",
-     "description": "FAI & GLOBAL SOLUTIONS HOLDING LIMITED is a Saudi Arabian holding company surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment. Its site at fai.sa is a WordPress property served from nginx behind a WAF that returns HTTP 403 to every external request except /robots.txt, so no company description, developer portal, documentation, or API surface could be retrieved during the enrichment pass. No public API, specification, SDK, or event surface has been observed to date; the domain-security posture was probed successfully and is recorded in security/. Re-probe from an allowed network on a later round to confirm whether a developer surface exists behind the block.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fai-and-global-solutions-holding-limited/refs/heads/main/screenshots/fai-and-global-solutions-holding-limited-2026-07-25T214150.png",
-     "score": 3.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3666,14 +3515,14 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 69
     },
     {
-     "name": "Desaisiv",
-     "slug": "desaisiv-inc",
-     "description": "DESAISIV is a corporate InsurTech platform focused on health insurance in Saudi Arabia and the wider MENA region. Founded in 2022, the company builds AI and automation products for insurers and third-party administrators (TPAs), including smart underwriting automation, a real-time quotation engine, OCR-powered claims intelligence, a corporates insurance marketplace, and SME portals. Its platform bridges data, systems, insurers, and corporates to streamline underwriting, quoting, and claims. DESAISIV is backed by 500 Global, Terra VC, Oqal, and other MENA/UK/US investors via a US$2M pre-seed round. This profile is maintained in the API Evangelist network; the company does not currently publish a public developer portal or API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/desaisiv-inc/refs/heads/main/screenshots/desaisiv-inc-2026-07-25T211740.png",
-     "score": 3.3,
+     "name": "Firnas Aero",
+     "slug": "firnas-aero",
+     "description": "Firnas Aero is a Saudi Arabian deep-tech startup building autonomous Drone-in-a-Box (DiaB) systems for aerial surveillance, industrial inspection, and environmental assessment. Its turnkey platform pairs self-charging, robotic battery-swapping drone stations with cloud-based remote management over 5G, Ethernet, or Wi-Fi, and applies machine-learning and deep-learning models for anomaly detection, Foreign Object Debris (FOD) detection, hazard identification, and geo-location. Based at KRTP HQ in Thuwal, Saudi Arabia, the company serves infrastructure, energy, and security clients including Red Sea Global, NEOM, and the Saudi Electricity Company, and is backed by 500 Global. It is tracked in the API Evangelist network as a company profile; no public developer API surface was found during enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/firnas-aero/refs/heads/main/screenshots/firnas-aero-2026-07-25T214600.png",
+     "score": 3.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3681,17 +3530,167 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 1.2,
+      "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 4.9,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 70
+    },
+    {
+     "name": "MEDICAL INTELLIGENCE CO",
+     "slug": "medical-intelligence-co",
+     "description": "Medicarri (operated by Medical Intelligence Co) is a B2B healthtech marketplace based in Riyadh, Saudi Arabia that connects clinics and healthcare facilities with medical suppliers, letting buyers source medical supplies and equipment from many vendors in one place. The company was selected for Batch 4 of the Sanabil 500 MENA Seed Accelerator Program run by 500 Global and Sanabil Investments. As of this profile Medicarri operates a customer-facing e-commerce web application at medicarri.com and does not publish a public developer API, OpenAPI specification, or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/medical-intelligence-co/refs/heads/main/screenshots/medical-intelligence-co-2026-08-07T172341.png",
+     "score": 3.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 4.7,
       "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 71
+    },
+    {
+     "name": "Trella",
+     "slug": "trella",
+     "description": "Trella is a Cairo-headquartered B2B trucking marketplace and digital freight platform that connects shippers with carriers across the Middle East, North Africa, and Pakistan (MENA-P). Founded in 2019 by Omar Hagrass, Ali El Atrash, and Pierre Saad and backed by Y Combinator, Trella runs a digital load marketplace, a carrier mobile app, and a shipper web dashboard that together replace the traditional broker-driven, paper-based long-haul trucking workflow. Core platform services include load posting and carrier matching, instant quoting, GPS tracking and live shipment visibility, electronic proof of delivery (ePODs), load insurance, a control-tower operations layer for carrier quality and performance, and integrated payments and invoicing between shippers and carriers. The network spans 30,000+ carriers and operates from major freight hubs including Cairo, Alexandria, Port Said, Damietta, Sokhna, Jeddah, Dammam, Riyadh, and Dubai, serving industries such as FMCG, construction, manufacturing, agriculture, mining, e-commerce, retail, electronics, ceramics, and freight forwarding. Trella's revenue model is marketplace take-rate and value-added logistics services; there is no public developer API, SDK, OpenAPI specification, webhooks catalog, or open-source platform release for the Trella marketplace.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trella/refs/heads/main/screenshots/trella-2026-06-20T195648.png",
+     "score": 3.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 5.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 72
+    },
+    {
+     "name": "FAI & GLOBAL SOLUTIONS HOLDING LIMITED",
+     "slug": "fai-and-global-solutions-holding-limited",
+     "description": "FAI & GLOBAL SOLUTIONS HOLDING LIMITED is a Saudi Arabian holding company surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment. Its site at fai.sa is a WordPress property served from nginx behind a WAF that returns HTTP 403 to every external request except /robots.txt, so no company description, developer portal, documentation, or API surface could be retrieved during the enrichment pass. No public API, specification, SDK, or event surface has been observed to date; the domain-security posture was probed successfully and is recorded in security/. Re-probe from an allowed network on a later round to confirm whether a developer surface exists behind the block.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fai-and-global-solutions-holding-limited/refs/heads/main/screenshots/fai-and-global-solutions-holding-limited-2026-07-25T214150.png",
+     "score": 3.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3719,11 +3718,11 @@
      "rank": 73
     },
     {
-     "name": "Melon Digital Insurance",
-     "slug": "melon-digital-insurance",
-     "description": "Melon is a digital-first insurance agency based in Saudi Arabia, building modern Insurtech products for individuals across the Kingdom. The company has received preliminary approval from the Saudi Insurance Authority (IA) to operate as a digital insurance agency, with final licensing pending, and is currently pre-launch (\"launching soon\"). Melon uses technology and AI to deliver transparent, fair pricing, simple policies, and a seamless, fully digital customer experience. It is backed by 500 Global. As of this enrichment pass, Melon publishes only a marketing landing page (melon.sa) with no public developer portal, API documentation, or machine-readable API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/melon-digital-insurance/refs/heads/main/screenshots/melon-digital-insurance-2026-08-07T172450.png",
-     "score": 3.1,
+     "name": "Desaisiv",
+     "slug": "desaisiv-inc",
+     "description": "DESAISIV is a corporate InsurTech platform focused on health insurance in Saudi Arabia and the wider MENA region. Founded in 2022, the company builds AI and automation products for insurers and third-party administrators (TPAs), including smart underwriting automation, a real-time quotation engine, OCR-powered claims intelligence, a corporates insurance marketplace, and SME portals. Its platform bridges data, systems, insurers, and corporates to streamline underwriting, quoting, and claims. DESAISIV is backed by 500 Global, Terra VC, Oqal, and other MENA/UK/US investors via a US$2M pre-seed round. This profile is maintained in the API Evangelist network; the company does not currently publish a public developer portal or API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/desaisiv-inc/refs/heads/main/screenshots/desaisiv-inc-2026-07-25T211740.png",
+     "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3731,10 +3730,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 1.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3769,11 +3768,11 @@
      "rank": 74
     },
     {
-     "name": "Noon",
-     "slug": "noon",
-     "description": "Noon is a Dubai-headquartered e-commerce marketplace and digital ecosystem launched in 2017 as a joint venture between Saudi Arabia's Public Investment Fund and Emirati businessman Mohamed Alabbar. Frequently described as the Amazon of the MENA region, Noon operates as the leading online shopping destination across the Kingdom of Saudi Arabia, the United Arab Emirates, and Egypt, offering electronics, mobiles, fashion, beauty, home, appliances, baby, and grocery categories through a hybrid first-party and third-party seller marketplace. Beyond the core marketplace, Noon has expanded into a lifestyle super-app spanning Noon Food (quick-service restaurant delivery competing with Talabat and Deliveroo), Noon Daily (next-day grocery delivery), Noon Minutes (15-minute instant grocery and essentials delivery), Noon Pay and the Noon mobile wallet (QR payments, bill pay, and a co-branded credit card), Noon VIP (loyalty/subscription), NowNow (on-demand delivery in KSA), and SIVVI (acquired regional fashion brand). Noon operates its own last-mile logistics arm and warehouses across the region, and provides a Fulfilled by Partner Integration (FBPI) program with commercial APIs that allow third-party sellers and channel-integration partners (ChannelEngine, Unicommerce, Vinculum, Ecom Energize and others) to programmatically publish catalog, sync inventory, and manage shipments. These APIs are gated to onboarded sellers and certified integrators inside the noon.partners environment — there is no general public developer portal, no published OpenAPI specification, and no Noon-maintained SDKs, CLIs, or open-source repositories.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/noon/refs/heads/main/screenshots/noon-2026-08-07T185509.png",
-     "score": 2.7,
+     "name": "Melon Digital Insurance",
+     "slug": "melon-digital-insurance",
+     "description": "Melon is a digital-first insurance agency based in Saudi Arabia, building modern Insurtech products for individuals across the Kingdom. The company has received preliminary approval from the Saudi Insurance Authority (IA) to operate as a digital insurance agency, with final licensing pending, and is currently pre-launch (\"launching soon\"). Melon uses technology and AI to deliver transparent, fair pricing, simple policies, and a seamless, fully digital customer experience. It is backed by 500 Global. As of this enrichment pass, Melon publishes only a marketing landing page (melon.sa) with no public developer portal, API documentation, or machine-readable API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/melon-digital-insurance/refs/heads/main/screenshots/melon-digital-insurance-2026-08-07T172450.png",
+     "score": 3.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3784,13 +3783,13 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 5.4,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 4.9,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -3819,9 +3818,10 @@
      "rank": 75
     },
     {
-     "name": "Sanad Cash",
-     "slug": "sanad-cash",
-     "description": "Sanad Cash was a Saudi Arabia-based fintech startup that operated an on-demand payment platform, giving employees early access to earned wages and providing employers with tools to manage on-demand pay. The company raised a $1.6M seed round in January 2022 with participation from Impact46 and was backed by 500 Global. Sanad Cash was acquired by HyperPay in July 2023, and the Sanad Cash business was subsequently acquired by Qashio in October 2025. The independent sanadcash.com property is no longer reachable (no live HTTPS service), so this profile documents the company's identity and residual domain footprint rather than a live developer/API surface.",
+     "name": "Noon",
+     "slug": "noon",
+     "description": "Noon is a Dubai-headquartered e-commerce marketplace and digital ecosystem launched in 2017 as a joint venture between Saudi Arabia's Public Investment Fund and Emirati businessman Mohamed Alabbar. Frequently described as the Amazon of the MENA region, Noon operates as the leading online shopping destination across the Kingdom of Saudi Arabia, the United Arab Emirates, and Egypt, offering electronics, mobiles, fashion, beauty, home, appliances, baby, and grocery categories through a hybrid first-party and third-party seller marketplace. Beyond the core marketplace, Noon has expanded into a lifestyle super-app spanning Noon Food (quick-service restaurant delivery competing with Talabat and Deliveroo), Noon Daily (next-day grocery delivery), Noon Minutes (15-minute instant grocery and essentials delivery), Noon Pay and the Noon mobile wallet (QR payments, bill pay, and a co-branded credit card), Noon VIP (loyalty/subscription), NowNow (on-demand delivery in KSA), and SIVVI (acquired regional fashion brand). Noon operates its own last-mile logistics arm and warehouses across the region, and provides a Fulfilled by Partner Integration (FBPI) program with commercial APIs that allow third-party sellers and channel-integration partners (ChannelEngine, Unicommerce, Vinculum, Ecom Energize and others) to programmatically publish catalog, sync inventory, and manage shipments. These APIs are gated to onboarded sellers and certified integrators inside the noon.partners environment — there is no general public developer portal, no published OpenAPI specification, and no Noon-maintained SDKs, CLIs, or open-source repositories.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/noon/refs/heads/main/screenshots/noon-2026-08-07T185509.png",
      "score": 2.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3833,7 +3833,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3868,6 +3868,55 @@
      "rank": 76
     },
     {
+     "name": "Sanad Cash",
+     "slug": "sanad-cash",
+     "description": "Sanad Cash was a Saudi Arabia-based fintech startup that operated an on-demand payment platform, giving employees early access to earned wages and providing employers with tools to manage on-demand pay. The company raised a $1.6M seed round in January 2022 with participation from Impact46 and was backed by 500 Global. Sanad Cash was acquired by HyperPay in July 2023, and the Sanad Cash business was subsequently acquired by Qashio in October 2025. The independent sanadcash.com property is no longer reachable (no live HTTPS service), so this profile documents the company's identity and residual domain footprint rather than a live developer/API surface.",
+     "score": 2.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-03",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 5.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 77
+    },
+    {
      "name": "Alwans",
      "slug": "alwans",
      "description": "Alwans is a Saudi technology investment and startup-development company based in Al Khubar, Saudi Arabia, and launched in January 2010. The firm is focused on enriching local Arabic technical content and competing globally by investing in and building startup ideas and technology projects, with an emphasis on e-commerce, online marketing, mobile applications, and mobile games. Alwans is a small team (2-10 employees) and is itself backed by 500 Global; its portfolio includes companies such as Foodics and Fnjalah. It publishes no public API, developer portal, or SDKs -- this profile is an identity record within the API Evangelist network.",
@@ -3883,7 +3932,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-25",
+     "scored_at": "2026-10-03",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3915,7 +3964,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 78
     }
    ]
   }

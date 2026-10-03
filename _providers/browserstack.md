@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.1
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -98,31 +98,97 @@ apis:
   baseurl_source: declared
   description: Operations on Automate access keys.
   name: BrowserStack AccessKey API
+  phrasing_intents:
+  - id: recycleAccessKey
+    intent: Rotate the Automate access key
+    question: How do I rotate my BrowserStack Automate access key if it leaked?
+  phrasing_ops: 1
   slug: browserstack-accesskey-api
 - baseURL: https://api.browserstack.com
   baseurl_source: declared
   description: Operations describing supported browsers and devices.
   name: BrowserStack Browsers API
+  phrasing_intents:
+  - id: getBrowsers
+    intent: List supported browsers, OS and real devices
+    question: Which browsers and operating systems can I run Automate tests on in BrowserStack?
+  phrasing_ops: 1
   slug: browserstack-browsers-api
 - baseURL: https://api.browserstack.com
   baseurl_source: declared
   description: Operations on Automate builds.
   name: BrowserStack Builds API
+  phrasing_intents:
+  - id: listBuilds
+    intent: List recent test builds
+    question: How do I see my recent BrowserStack Automate builds?
+  - id: updateBuild
+    intent: Rename a test build
+    question: Can I rename a build after its tests have run?
+  - id: deleteBuild
+    intent: Delete a test build
+    question: How do I delete an old build from my Automate dashboard?
+  phrasing_ops: 3
   slug: browserstack-builds-api
 - baseURL: https://api.browserstack.com
   baseurl_source: declared
   description: Operations describing the current Automate subscription plan and capacity.
   name: BrowserStack Plan API
+  phrasing_intents:
+  - id: getPlan
+    intent: Check Automate plan capacity and usage
+    question: How many parallel sessions does my BrowserStack Automate plan allow?
+  phrasing_ops: 1
   slug: browserstack-plan-api
 - baseURL: https://api.browserstack.com
   baseurl_source: declared
   description: Operations on Automate projects.
   name: BrowserStack Projects API
+  phrasing_intents:
+  - id: listProjects
+    intent: List Automate projects
+    question: What projects do I have in BrowserStack Automate?
+  - id: getProject
+    intent: Get details of one project
+    question: How do I look up the details of a single Automate project?
+  - id: updateProject
+    intent: Rename a project
+    question: Can I rename an existing Automate project?
+  - id: deleteProject
+    intent: Delete an empty project
+    question: How do I delete an Automate project?
+  - id: getProjectBadgeKey
+    intent: Get a project's status badge key
+    question: How do I get the status badge key to show build status in my README?
+  phrasing_ops: 5
   slug: browserstack-projects-api
 - baseURL: https://api.browserstack.com
   baseurl_source: declared
   description: Operations on Automate sessions.
   name: BrowserStack Sessions API
+  phrasing_intents:
+  - id: listBuildSessions
+    intent: List the test sessions in a build
+    question: How do I see all the test sessions that ran in one build?
+  - id: getSession
+    intent: Get details of one test session
+    question: How do I look up a single Automate session's details and status?
+  - id: updateSession
+    intent: Mark a session passed or failed
+    question: How do I mark a BrowserStack session as passed or failed from my test script?
+  - id: deleteSession
+    intent: Delete a test session
+    question: How do I delete a single test session and its recordings?
+  - id: getSessionLogs
+    intent: Download a session's Selenium logs
+    question: Where can I get the Selenium command logs for a test run?
+  - id: getSessionNetworkLogs
+    intent: Download a session's network logs (HAR)
+    question: How do I get the HAR file of network traffic from a test session?
+  - id: getSessionConsoleLogs
+    intent: Download a session's browser console logs
+    question: What JavaScript errors showed up in the browser console during my test?
+  phrasing_ops: 7
   slug: browserstack-sessions-api
 artifact_total: 39
 collections:
@@ -384,7 +450,7 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 100.0
     contract_governance: 18.2
@@ -392,7 +458,7 @@ score:
     developer_ergonomics: 73.2
     discoverability: 66.7
     operational_transparency: 78.9
-  previous_composite: 66.1
+  previous_composite: 67.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -410,7 +476,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-09-25'
+  scored_at: '2026-10-03'
   trend: flat
   upsert:
     applies: true
