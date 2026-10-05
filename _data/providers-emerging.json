@@ -1,12 +1,12 @@
 {
- "total": 6633,
+ "total": 6632,
  "bands": [
   {
    "band": "emerging",
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 6633,
+   "count": 6632,
    "providers": [
     {
      "name": "ABN AMRO",
@@ -71775,58 +71775,6 @@
       "agentic_commerce": false
      },
      "rank": 1362
-    },
-    {
-     "name": "Outscraper",
-     "slug": "outscraper",
-     "url": "https://providers.apis.io/providers/outscraper/",
-     "type": "API Provider",
-     "description": "Outscraper provides data scraping and extraction APIs for Google Maps, business data, reviews, and other web data sources. Filter and export company databases by NAICS codes and other criteria.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/outscraper/refs/heads/main/screenshots/outscraper-2026-06-20T191238.png",
-     "score": 21.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 23.8,
-      "access_clarity": 53.9
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 13.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 11.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 1363
     },
     {
      "name": "Palette 2",
