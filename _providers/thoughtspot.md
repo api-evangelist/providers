@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 140
-  human_in_the_loop: 11
+- acting_count: 179
+  human_in_the_loop: 13
   name: Thoughtspot Agentic Access
   operation_count: 191
   slug: thoughtspot-agentic-access
-  summary_line: 191 operations · 140 acting · 11 human-in-the-loop
+  summary_line: 191 operations · 179 acting · 13 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://my.thoughtspot.cloud/api/rest/2.0
@@ -700,7 +700,7 @@ description: ThoughtSpot is an agentic analytics and business intelligence platf
 image: https://raw.githubusercontent.com/thoughtspot/visual-embed-sdk/main/static/doc-images/images/TS-Logo-black-no-bg.svg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at agent.thoughtspot.app over HTTP; 4 tools listed.
   name: ThoughtSpot
   slug: thoughtspot
 modified: '2026-07-21'
@@ -725,7 +725,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
@@ -733,7 +733,7 @@ score:
     developer_ergonomics: 75.6
     discoverability: 75.0
     operational_transparency: 42.1
-  previous_composite: 58.4
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -759,7 +759,7 @@ score:
     regime_id: horizontal
     score: 27.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

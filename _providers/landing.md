@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 46.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -196,7 +196,7 @@ layout: provider
 mcp_servers:
 - description: 'Read-only public access to Landing''s furnished apartment catalog: search by market and dates, fetch a home, check availability, get an anonymous quote. No authentication is required to call any tool.'
   name: Landing MCP Server
-  slug: landing-mcp-server
+  slug: landing-public-mcp-server
 modified: '2026-07-19'
 name: Landing
 nav: Providers
@@ -242,7 +242,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

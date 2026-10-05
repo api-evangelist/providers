@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -69,6 +69,11 @@ collections:
   name: Azure Machine Learning REST API
   slug: open-microsoft-azure-machine-learning
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-machine-learning/refs/heads/main/capabilities/microsoft-azure-machine-learning-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/microsoft-azure-machine-learning-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -172,7 +177,7 @@ network: true
 overview: 'Azure Machine Learning publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Workspaces API. Tagged areas include Artificial Intelligence, Azure, Machine Learning, MLOps, and Model Deployment.
 
 
-  Azure Machine Learning''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, support, and 9 more developer resources.'
+  Azure Machine Learning''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, support, and 10 more developer resources.'
 plans:
 - name: Microsoft Azure Machine Learning Plans Pricing
   plan_count: 3
@@ -191,13 +196,13 @@ score:
   band: developing
   composite: 48.1
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 46.0
     catalog_earned_first_party: 0.0
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 47.4
     contract_governance: 0.0
@@ -205,7 +210,7 @@ score:
     developer_ergonomics: 64.3
     discoverability: 80.4
     operational_transparency: 26.3
-  previous_composite: 48.1
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     contracts:
@@ -220,7 +225,7 @@ score:
     regime_id: horizontal
     score: 27.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

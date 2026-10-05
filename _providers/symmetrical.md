@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -83,6 +83,10 @@ created: '2026-07-17'
 description: Symmetrical.ai is a Polish-British HR and payroll fintech, founded in 2019 in Warsaw with offices in London and Barcelona and backed by Partech. It provides payroll and HR bureau outsourcing plus an HR platform automating wage calculation, digital document management, onboarding, leave and time tracking, and real-time analytics, alongside employee financial wellbeing tools such as earned-wage / salary-on-demand access. Symmetrical is ISO/IEC 27001 certified. The company operates an authentication-gated developer documentation portal (developer.symmetrical.ai) but publishes no public OpenAPI, API reference, or SDKs; this profile captures its public identity plus probed security posture.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/symmetrical.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.symmetrical.ai over HTTP.
+  name: Symmetrical MCP Server
+  slug: symmetrical
 modified: '2026-07-21'
 name: Symmetrical
 nav: Providers
@@ -102,7 +106,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
@@ -118,7 +122,7 @@ score:
     regions:
     - cee
     - europe
-  previous_composite: 19.1
+  previous_composite: 18.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -129,7 +133,7 @@ score:
     regime_id: employment_payroll
     score: 23.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

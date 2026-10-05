@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
 common:
 - group: company
   title: ''
@@ -72,6 +72,10 @@ created: '2026-07-17'
 description: Boards is a mobile-first collaboration and duplication platform for network marketing and direct sales teams. It lets leaders turn what works for them into a simple, repeatable system that new team members can follow, sharing content, training, and workflows so a business can scale beyond its founder. The product centers on team alignment, faster onboarding of new members, and giving distributors a single place with everything they need to succeed, alongside a Success Academy for training and a brand and referral program. Boards is backed by Bessemer Venture Partners. It publishes no public API, developer portal, or SDKs; its surface is a consumer web and mobile app.
 image: https://static.wixstatic.com/media/b17a8e_2378b409375446ae9013da01e9db7260~mv2.jpg/v1/fill/w_2400,h_1260,al_c/b17a8e_2378b409375446ae9013da01e9db7260~mv2.jpg
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.boards.com over HTTP.
+  name: Boards MCP Server
+  slug: boards
 modified: '2026-07-18'
 name: Boards
 nav: Providers
@@ -91,7 +95,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
@@ -99,7 +103,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 51.7
     operational_transparency: 0.0
-  previous_composite: 12.3
+  previous_composite: 13.3
   provenance:
     mcp: first-party
   regulatory:
@@ -109,7 +113,7 @@ score:
     regime_id: horizontal
     score: 7.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

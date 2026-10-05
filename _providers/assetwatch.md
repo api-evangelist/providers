@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: AssetWatch provides an API for asset condition monitoring and predictive maintenance data.
@@ -127,7 +127,7 @@ score:
     regime_id: horizontal
     score: 18.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

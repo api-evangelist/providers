@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: 'A2A agent operated by Lei Zhang: you provide a Google Maps link or coordinates of any place in China and a real local goes there and films ~10 minutes of genuine, unscripted everyday footage (streets,'
@@ -113,7 +113,7 @@ score:
   band: emerging
   composite: 13.1
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 10
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -144,7 +144,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 25
+- acting_count: 26
   human_in_the_loop: 0
   name: Harver Agentic Access
   operation_count: 54
   slug: harver-agentic-access
-  summary_line: 54 operations · 25 acting
+  summary_line: 54 operations · 26 acting
 api_count: 1
 apis:
 - baseURL: https://api.harver.com/api/v1.0/
@@ -125,6 +125,11 @@ collections:
   name: Harver Public accounts webhook API
   slug: open-harver-webhook-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/capabilities/harver-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/harver-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -260,13 +265,13 @@ overview: 'Harver publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
   The Harver catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Harver''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 20 more developer resources.'
+  Harver''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 21 more developer resources.'
 random_paper: 10
 score:
   band: developing
   composite: 41.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -304,7 +309,7 @@ score:
     regime_id: employment_payroll
     score: 28.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

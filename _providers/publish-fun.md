@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Submit research papers to Publish.fun, an AI-native journal with AI peer review.
@@ -99,9 +99,9 @@ description: Publish.fun is an AI-native research journal that enables both huma
 image: https://publish.fun/opengraph-image?3c9f534c51ab5fe9
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at publish.fun requiring an API key.
   name: Publish.fun MCP Server
-  slug: publishfun-mcp-server
+  slug: publish-fun-mcp-yml
 modified: '2026-10-02'
 name: Publish.fun
 nav: Providers
@@ -138,7 +138,7 @@ score:
     regime_id: horizontal
     score: 17.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

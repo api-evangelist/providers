@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The Dataloop (Dell Data Orchestration Engine) platform REST API. Every part of the platform — projects, datasets, items, annotations, recipes and ontologies, tasks and assignments, packages, services,
@@ -196,7 +196,7 @@ description: 'Dataloop is an enterprise AI data platform for the full unstructur
 image: https://dataloop.ai/wp-content/uploads/2024/02/dataloop-logo-main.svg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server over HTTP; 1 tool listed.
   name: Dataloop MCP Server
   slug: dataloop-mcp-server
 modified: '2026-08-04'
@@ -221,7 +221,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
@@ -229,7 +229,7 @@ score:
     developer_ergonomics: 71.4
     discoverability: 71.7
     operational_transparency: 60.5
-  previous_composite: 51.2
+  previous_composite: 49.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -244,7 +244,7 @@ score:
     regime_id: horizontal
     score: 32.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

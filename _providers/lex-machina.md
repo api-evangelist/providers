@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 2
+- acting_count: 5
   human_in_the_loop: 0
   name: Lex Machina Agentic Access
   operation_count: 57
   slug: lex-machina-agentic-access
-  summary_line: 57 operations · 2 acting
+  summary_line: 57 operations · 5 acting
 api_count: 1
 apis:
 - baseURL: https://api.lexmachina.com
@@ -135,7 +135,7 @@ apis:
   description: Provides API status.
   name: Lex Machina Status API
   slug: lex-machina-status-api
-artifact_total: 71
+artifact_total: 72
 collections:
 - collection_type: open
   name: API Collection
@@ -207,6 +207,11 @@ collections:
   name: Lex Machina API
   slug: open-lex-machina
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lex-machina/refs/heads/main/capabilities/lex-machina-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lex-machina-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/lex-machina/refs/heads/main/agentic-access/lex-machina-agentic-access.yml
   title: ''
@@ -351,6 +356,10 @@ features:
 - SOC 2 and ISO certifications via LexisNexis enterprise security program
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lex-machina.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.lexmachina.com over HTTP.
+  name: Lex Machina MCP Server
+  slug: lex-machina
 modified: '2026-05-25'
 name: Lex Machina
 nav: Providers
@@ -358,19 +367,19 @@ network: true
 overview: 'Lex Machina publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Attorneys API, Authorization API, and 15 more. Tagged areas include Legal, Legal Analytics, Legal Tech, Litigation, and Litigation Analytics.
 
 
-  Lex Machina''s developer surface includes authentication, developer portal, documentation, engineering blog, YouTube channel, support, and 21 more developer resources.'
+  Lex Machina''s developer surface includes authentication, developer portal, documentation, engineering blog, YouTube channel, support, and 22 more developer resources.'
 random_paper: 17
 score:
   band: thin
   composite: 29.9
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.0
   facets:
     access_clarity: 17.1
     contract_governance: 0.0
@@ -378,7 +387,7 @@ score:
     developer_ergonomics: 28.6
     discoverability: 68.3
     operational_transparency: 2.6
-  previous_composite: 29.9
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     contracts:
@@ -394,7 +403,7 @@ score:
     regime_id: government
     score: 21.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

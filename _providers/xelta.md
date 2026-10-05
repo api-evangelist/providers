@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: Xelta's REST API — 74 operations across seven tags (Auth, Models, Site Scan / Brand DNA, Community, Upload, Asset History, Contact) described by an OpenAPI 3.0.0 document served live at https://api.xe
@@ -32,7 +32,7 @@ apis:
 - description: 'Hosted, remote Model Context Protocol server — Xelta''s documented agent surface, reached at a single streamable-HTTP /mcp endpoint. Probed live 2026-09-01: a JSON-RPC tools/list returns HTTP 401 inval'
   name: Xelta MCP Server
   slug: xelta-mcp-server
-artifact_total: 2
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -108,6 +108,10 @@ created: '2026-08-31'
 description: 'Xelta AI Studio is a credit-based generative-AI creative platform from Xelta Pvt Ltd, unifying 90+ third-party models (FAL, BytePlus, OpenAI, Google, HuggingFace, Replicate) behind one account for image generation, video and micro-drama production, voice and dubbing, website building, and marketing/ad automation. It ships THREE distinct developer surfaces that barely acknowledge one another: a hosted OAuth 2.1 MCP server at mcp.xelta.ai (the company''s documented agent surface, with five first-party Agent Skills published to npm), a 74-operation REST API at api.xelta.ai whose OpenAPI 3.0.0 is served live but linked from nowhere, and an llms.txt site guide that mentions neither. The REST API covers auth, model discovery and generation, uploads, asset history, a community gallery and a Brand DNA / campaign engine; the MCP server covers generation and website building. Not one MCP tool maps to a REST operation.'
 image: https://xelta.ai/og-image.jpg
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.xelta.ai over HTTP.
+  name: Xelta - Create Images, Videos & More with Generative AI MCP Server
+  slug: xelta
 modified: '2026-09-01'
 name: Xelta - Create Images, Videos & More with Generative AI
 nav: Providers
@@ -127,7 +131,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 38.2
     contract_governance: 0.0
@@ -135,7 +139,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 75.8
     operational_transparency: 0.0
-  previous_composite: 19.5
+  previous_composite: 20.0
   provenance:
     mcp: first-party
     skills: first-party
@@ -146,7 +150,7 @@ score:
     regime_id: horizontal
     score: 12.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

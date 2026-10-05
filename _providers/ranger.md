@@ -26,16 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.0
-  scored_at: '2026-10-03'
+  score: 19.4
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 3
+artifact_total: 4
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/ranger/refs/heads/main/security/ranger-domain-security.yml
@@ -126,6 +126,10 @@ created: '2026-07-17'
 description: 'Ranger is an AI-powered quality-assurance platform that lets coding agents verify their own work in a real browser. Its CLI (@ranger-testing/ranger-cli) sets up a project so an AI coding agent — Claude Code, OpenCode, Cursor, Codex, or any bash-capable agent — can run autonomous end-to-end feature reviews: creating scenarios, driving Chromium, self-maintaining broken tests, auto-scaling parallel browsers, and collecting screenshots, recordings, and traces as evidence, with results reviewed on a shared dashboard. Ranger is agent-native rather than a conventional REST API: it ships a Claude Code plugin (ranger@trailhead), Agent Skills installed to .claude/skills/, slash commands, hooks, and OAuth 2.0 / OpenID Connect authentication (login.ranger.net), with MCP-based auth delegation for managed agent platforms. Backed by General Catalyst and Homebrew.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ranger.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.ranger.net over HTTP.
+  name: Ranger MCP Server
+  slug: ranger
 modified: '2026-07-20'
 name: Ranger
 nav: Providers
@@ -145,7 +149,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 46.1
     contract_governance: 0.0
@@ -153,7 +157,7 @@ score:
     developer_ergonomics: 64.3
     discoverability: 58.3
     operational_transparency: 0.0
-  previous_composite: 29.0
+  previous_composite: 27.8
   provenance:
     mcp: first-party
   regulatory:
@@ -163,7 +167,7 @@ score:
     regime_id: horizontal
     score: 22.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

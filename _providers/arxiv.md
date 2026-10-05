@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 0
+- acting_count: 1
   human_in_the_loop: 0
   name: Arxiv Agentic Access
   operation_count: 3
   slug: arxiv-agentic-access
-  summary_line: 3 operations
+  summary_line: 3 operations · 1 acting
 api_count: 2
 apis:
 - description: Daily RSS feeds of new arXiv submissions, organised by archive and subject category. Primarily intended for human consumption; the OAI-PMH and query APIs are recommended for machine integration.
@@ -276,7 +276,7 @@ modified: '2026-05-29'
 name: arXiv
 nav: Providers
 network: true
-overview: 'arXiv publishes 4 APIs on the [APIs.io](https://apis.io/) network, including OAI-PMH API, Query API, and 2 more. Tagged areas include Science And Math, Scholarly Publishing, Preprints, Open Access, and Research.
+overview: 'arXiv publishes 4 APIs on the [APIs.io](https://apis.io/) network, including OAI-PMH API, Query API, and 2 more. Tagged areas include Scholarly Publishing, Preprints, Open Access, Research, and Open Source.
 
 
   The arXiv catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -325,7 +325,7 @@ score:
     catalog_gap: 48.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.4
   facets:
     access_clarity: 40.0
     contract_governance: 27.3
@@ -333,7 +333,7 @@ score:
     developer_ergonomics: 52.4
     discoverability: 73.2
     operational_transparency: 34.2
-  previous_composite: 48.1
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     contracts:
@@ -348,7 +348,7 @@ score:
     regime_id: education
     score: 18.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false
@@ -371,7 +371,6 @@ solutions:
 - description: S3 and Kaggle distributions for corpus-scale work.
   name: Bulk Full-Text
 tags:
-- Science And Math
 - Scholarly Publishing
 - Preprints
 - Open Access
@@ -381,6 +380,7 @@ tags:
 - Research Data
 - OAI-PMH
 - Research Repository
+- Science
 use_cases:
 - description: Build search and recommendation interfaces over the arXiv corpus.
   name: Research Discovery Tools

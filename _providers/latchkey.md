@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://api.latchkey.dev
@@ -31,7 +31,7 @@ apis:
   description: Create, submit, observe and cancel runner jobs.
   name: Latchkey Jobs API Jobs API
   slug: latchkey-jobs-api
-artifact_total: 8
+artifact_total: 7
 common:
 - group: agent
   title: ''
@@ -178,10 +178,7 @@ layout: provider
 mcp_servers:
 - description: ''
   name: Latchkey Jobs API MCP Server
-  slug: latchkey-jobs-api-mcp-server
-- description: ''
-  name: Latchkey Jobs API MCP Server
-  slug: latchkey-jobs-api-mcp-server-2
+  slug: mcp
 modified: '2026-09-07'
 name: Latchkey Jobs API
 nav: Providers
@@ -209,7 +206,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 69.7
     contract_governance: 4.5
@@ -217,7 +214,7 @@ score:
     developer_ergonomics: 54.8
     discoverability: 75.0
     operational_transparency: 34.2
-  previous_composite: 52.2
+  previous_composite: 51.6
   provenance:
     conformance: derived
     contracts:
@@ -234,7 +231,7 @@ score:
     regime_id: horizontal
     score: 30.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

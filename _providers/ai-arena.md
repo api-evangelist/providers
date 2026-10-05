@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,16 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-03'
+  score: 27.0
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 3
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -142,6 +142,10 @@ created: '2026-07-17'
 description: 'AI Arena is a web3/AI gaming company built by ArenaX Labs, backed by Paradigm and Framework Ventures. Its flagship title, AI Arena, is an Ethereum/Arbitrum-native PvP fighting game where players purchase, train through imitation learning, and battle characters powered by real artificial intelligence, with a native $NRN (Neuron) token and an on-chain marketplace for AI models. Beyond the game, ArenaX Labs ships developer infrastructure for reinforcement learning: RLMesh, an open-source, Gymnasium-compatible framework that connects RL models to environments across process, dependency, and machine boundaries over a gRPC wire protocol (rlmesh-wire-v1), with Python and Rust SDKs; and SAI (competesai.com), a gamified RL research and competition platform with its own CLI. This profile was enriched by the API Evangelist pipeline from public sources — GitHub, package registries, and the RLMesh documentation.'
 image: https://raw.githubusercontent.com/api-evangelist/ai-arena/refs/heads/main/images/ai-arena.jpg
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.rlmesh.dev over HTTP.
+  name: AI Arena MCP Server
+  slug: ai-arena
 modified: '2026-07-17'
 name: AI Arena
 nav: Providers
@@ -161,7 +165,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
@@ -169,7 +173,7 @@ score:
     developer_ergonomics: 66.7
     discoverability: 58.3
     operational_transparency: 42.1
-  previous_composite: 33.6
+  previous_composite: 33.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -180,7 +184,7 @@ score:
     regime_id: horizontal
     score: 20.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

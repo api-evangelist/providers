@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 2
+- acting_count: 11
   human_in_the_loop: 0
   name: Opentravel Alliance Agentic Access
-  operation_count: 9
+  operation_count: 15
   slug: opentravel-alliance-agentic-access
-  summary_line: 9 operations · 2 acting
+  summary_line: 15 operations · 11 acting
 api_count: 8
 apis:
 - baseURL: http://127.0.0.1/
@@ -446,9 +446,9 @@ json_schemas:
   slug: opentravel-2020a-organization-hospitality-4-0-0-trim.schema
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at opentravel.org.
   name: OAuth 2.1 protected MCP server at https://opentravel.org/wp-json/mcp/mcp-oauth-server
-  slug: oauth-21-protected-mcp-server-at-httpsopentravelorgwp-jsonmcpmcp-oauth-server
+  slug: oauth-2-1-protected-mcp-server-at-https-opentravel-org-wp-json-mcp-mcp-oauth-server
 modified: '2026-07-28'
 name: OpenTravel Alliance
 nav: Providers
@@ -476,7 +476,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 32.9
     contract_governance: 19.7
@@ -491,7 +491,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 45.6
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -509,7 +509,7 @@ score:
     regime_id: horizontal
     score: 32.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 56.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -352,9 +352,9 @@ description: 'Scrunch AI (scrunch.com) is an AI customer experience platform for
 image: https://cdn.sanity.io/images/3lyosn52/production/3846d0bcd45fb4d64491c6d548d181d696aaa339-1200x753.png?rect=0,62,1200,630&w=1200&h=630&q=75&fit=crop&auto=format
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at app.scrunchai.com over streamable HTTP; 33 tools listed.
   name: Scrunch AI MCP Server
-  slug: scrunch-ai-mcp-server
+  slug: scrunch
 modified: '2026-08-13'
 name: Scrunch AI
 nav: Providers
@@ -390,7 +390,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
@@ -398,7 +398,7 @@ score:
     developer_ergonomics: 58.9
     discoverability: 75.0
     operational_transparency: 26.3
-  previous_composite: 61.3
+  previous_composite: 59.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -416,7 +416,7 @@ score:
     regime_id: horizontal
     score: 36.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

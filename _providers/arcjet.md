@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -59,7 +59,7 @@ apis:
   description: The Report API from Arcjet — 1 operation(s) for report.
   name: Arcjet Report API
   slug: arcjet-report-api
-artifact_total: 14
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -74,6 +74,11 @@ collections:
   name: Arcjet Decide API
   slug: open-arcjet
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/capabilities/arcjet-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/arcjet-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/agentic-access/arcjet-agentic-access.yml
   title: ''
@@ -133,6 +138,10 @@ finops:
   slug: arcjet-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arcjet.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.arcjet.com over HTTP.
+  name: Arcjet MCP Server
+  slug: arcjet
 modified: '2026-06-20'
 name: Arcjet
 nav: Providers
@@ -140,7 +149,7 @@ network: true
 overview: 'Arcjet publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Decide API, Report API, and 1 more. Tagged areas include Security, Rate Limiting, Bot Detection, WAF, and Developer Security.
 
 
-  Arcjet''s developer surface includes authentication, documentation, and 9 more developer resources.'
+  Arcjet''s developer surface includes authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Arcjet Plans Pricing
   plan_count: 5
@@ -154,13 +163,13 @@ score:
   band: thin
   composite: 37.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 61.6
     catalog_earned_first_party: 0.0
     catalog_gap: 53.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.0
   facets:
     access_clarity: 36.3
     contract_governance: 0.0
@@ -168,7 +177,7 @@ score:
     developer_ergonomics: 36.9
     discoverability: 68.3
     operational_transparency: 31.1
-  previous_composite: 37.1
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -184,7 +193,7 @@ score:
     regime_id: horizontal
     score: 17.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

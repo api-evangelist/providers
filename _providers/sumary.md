@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -82,6 +82,10 @@ created: '2026-07-17'
 description: Sumary is a Denmark-based fintech building an AI-native workflow engine for finance and accounting teams. Its platform layers autonomous accounting agents, anomaly detection, and on-demand reporting over a company's existing accounting systems — automating reconciliations and variance explanations, validating transactions to catch errors and potential fraud, and generating management reports, margin analyses, and cost breakdowns for bookkeepers, controllers, CFOs, and finance leaders. The company raised a $4.2M (27M DKK) pre-seed round led by byFounders with participation from Partech and Tenity. No public API, developer portal, or OpenAPI surface has been located; this profile captures the company's web, trust, and domain-security surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sumary.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.sumary.com over HTTP.
+  name: Sumary MCP Server
+  slug: sumary
 modified: '2026-07-21'
 name: Sumary
 nav: Providers
@@ -127,7 +131,7 @@ score:
     regime_id: horizontal
     score: 15.0
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

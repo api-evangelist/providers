@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: unknown
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
@@ -34,15 +34,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 62.2
-  scored_at: '2026-10-03'
+  score: 59.9
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 1717
-  human_in_the_loop: 47
+- acting_count: 1203
+  human_in_the_loop: 31
   name: Github Agentic Access
-  operation_count: 3388
+  operation_count: 2431
   slug: github-agentic-access
-  summary_line: 3388 operations · 1717 acting · 47 human-in-the-loop
+  summary_line: 2431 operations · 1203 acting · 31 human-in-the-loop
 api_count: 38
 apis:
 - baseURL: https://api.github.com/
@@ -998,7 +998,7 @@ arazzos:
 - description: Confirm a head branch exists, then merge it into a base branch.
   name: GitHub Verify a Branch and Merge It
   slug: github-verify-and-merge-branch-workflow
-artifact_total: 1275
+artifact_total: 1376
 asyncapis:
 - description: GitHub Webhooks deliver HTTP POST payloads to a configured URL whenever specified events occur on GitHub, such as pushes, pull requests, issues, releases, and more. Webhooks can be configured at the r
   name: GitHub Webhooks
@@ -2151,6 +2151,86 @@ collections:
   name: GitHub Repos API
   slug: open-temp
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/finops/github-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/github-finops.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/rules/github-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/github-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/rules/github-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/github-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/rules/github-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/github-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/rules/github-asyncapi-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/github-asyncapi-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/vocabulary/github-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/github-vocabulary.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/asyncapi/github-webhooks-asyncapi.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/github-webhooks-asyncapi.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/data-model/github-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/github-data-model.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/errors/github-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/github-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/conformance/github-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/github-conformance.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/overlays/github-actions-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/github-actions-api-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/well-known/github-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/github-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/hosts/github-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/github-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/vendors/github-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/github-vendors.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/packages/github-packages.yml
+  title: ''
+  type: Packages
+  url: packages/github-packages.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/vendor-facets/github-vendor-facets.yml
   title: ''
@@ -3287,6 +3367,12 @@ graphqls:
   slug: github-graphql
 image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
 json_schemas:
+- name: advanced-security-active-committers
+  property_count: 3
+  slug: github-advanced-security-active-committers
+- name: Api Overview
+  property_count: 5
+  slug: github-api-overview
 - name: application-grant
   property_count: 7
   slug: github-app-api-application-grant
@@ -3305,6 +3391,15 @@ json_schemas:
 - name: webhook-config
   property_count: 4
   slug: github-app-api-webhook-config
+- name: App Permissions
+  property_count: 45
+  slug: github-app-permissions
+- name: Application Grant
+  property_count: 7
+  slug: github-application-grant
+- name: audit-log-event
+  property_count: 43
+  slug: github-audit-log-event
 - name: global-hook-2
   property_count: 10
   slug: github-auth-api-global-hook-2
@@ -3329,6 +3424,30 @@ json_schemas:
 - name: root
   property_count: 33
   slug: github-auth-api-root
+- name: Authorization
+  property_count: 15
+  slug: github-authorization
+- name: Base Gist
+  property_count: 20
+  slug: github-base-gist
+- name: Blob
+  property_count: 7
+  slug: github-blob
+- name: Branch Restriction Policy
+  property_count: 7
+  slug: github-branch-restriction-policy
+- name: Check Annotation
+  property_count: 10
+  slug: github-check-annotation
+- name: CheckRun
+  property_count: 17
+  slug: github-check-run
+- name: Check Suite Preference
+  property_count: 2
+  slug: github-check-suite-preference
+- name: CheckSuite
+  property_count: 19
+  slug: github-check-suite
 - name: code-of-conduct
   property_count: 5
   slug: github-code-of-conduct-api-code-of-conduct
@@ -3353,12 +3472,60 @@ json_schemas:
 - name: webhook-check-run-created
   property_count: 6
   slug: github-code-of-conduct-api-webhook-check-run-created
+- name: Code Of Conduct
+  property_count: 5
+  slug: github-code-of-conduct
+- name: code-scanning-alert-instance
+  property_count: 10
+  slug: github-code-scanning-alert-instance
+- name: code-scanning-alert-items
+  property_count: 15
+  slug: github-code-scanning-alert-items
+- name: code-scanning-alert
+  property_count: 15
+  slug: github-code-scanning-alert
+- name: code-scanning-analysis
+  property_count: 15
+  slug: github-code-scanning-analysis
+- name: code-scanning-default-setup
+  property_count: 4
+  slug: github-code-scanning-default-setup
+- name: code-scanning-organization-alert-items
+  property_count: 16
+  slug: github-code-scanning-organization-alert-items
+- name: Code Search Result Item
+  property_count: 13
+  slug: github-code-search-result-item
 - name: code-of-conduct
   property_count: 5
   slug: github-codes-code-of-conduct
 - name: GitHub Commit
   property_count: 11
   slug: github-commit
+- name: Commit Search Result Item
+  property_count: 12
+  slug: github-commit-search-result-item
+- name: dependabot-alert
+  property_count: 15
+  slug: github-dependabot-alert
+- name: dependabot-alert-with-repository
+  property_count: 16
+  slug: github-dependabot-alert-with-repository
+- name: DependabotPublicKey
+  property_count: 2
+  slug: github-dependabot-public-key
+- name: Dependabot Secret
+  property_count: 3
+  slug: github-dependabot-secret
+- name: Dependency Graph Diff
+  property_count: 0
+  slug: github-dependency-graph-diff
+- name: Dependency Graph SPDX SBOM
+  property_count: 1
+  slug: github-dependency-graph-spdx-sbom
+- name: Deployment
+  property_count: 18
+  slug: github-deployment
 - name: webhook-branch-protection-rule-created
   property_count: 7
   slug: github-emojis-webhook-branch-protection-rule-created
@@ -3377,6 +3544,18 @@ json_schemas:
 - name: webhook-check-run-completed
   property_count: 6
   slug: github-emojis-webhook-check-run-completed
+- name: Empty Object
+  property_count: 0
+  slug: github-empty-object
+- name: Enterprise Security Analysis Settings
+  property_count: 5
+  slug: github-enterprise-security-analysis-settings
+- name: enterprise-settings
+  property_count: 2
+  slug: github-enterprise-settings
+- name: Event
+  property_count: 8
+  slug: github-event
 - name: global-hook-2
   property_count: 10
   slug: github-events-api-global-hook-2
@@ -3401,6 +3580,12 @@ json_schemas:
 - name: root
   property_count: 33
   slug: github-events-api-root
+- name: ExternalGroup
+  property_count: 5
+  slug: github-external-group
+- name: Feed
+  property_count: 11
+  slug: github-feed
 - name: feed
   property_count: 11
   slug: github-feeds-feed
@@ -3419,6 +3604,18 @@ json_schemas:
 - name: webhook-check-run-completed
   property_count: 6
   slug: github-feeds-webhook-check-run-completed
+- name: Full Repository
+  property_count: 102
+  slug: github-full-repository
+- name: Gist Comment
+  property_count: 8
+  slug: github-gist-comment
+- name: Gist Commit
+  property_count: 5
+  slug: github-gist-commit
+- name: Gist Simple
+  property_count: 21
+  slug: github-gist-simple
 - name: base-gist
   property_count: 20
   slug: github-gists-base-gist
@@ -3443,6 +3640,21 @@ json_schemas:
 - name: webhook-branch-protection-rule-created
   property_count: 7
   slug: github-gists-webhook-branch-protection-rule-created
+- name: Git Commit
+  property_count: 10
+  slug: github-git-commit
+- name: Git Reference
+  property_count: 4
+  slug: github-git-ref
+- name: Git Tag
+  property_count: 8
+  slug: github-git-tag
+- name: Git Tree
+  property_count: 4
+  slug: github-git-tree
+- name: Gitignore Template
+  property_count: 2
+  slug: github-gitignore-template
 - name: gitignore-template
   property_count: 2
   slug: github-gitignore-templates-gitignore-template
@@ -3467,6 +3679,15 @@ json_schemas:
 - name: webhook-check-run-created
   property_count: 6
   slug: github-gitignore-templates-webhook-check-run-created
+- name: GPG Key
+  property_count: 15
+  slug: github-gpg-key
+- name: Simple webhook delivery
+  property_count: 11
+  slug: github-hook-delivery-item
+- name: Webhook delivery
+  property_count: 14
+  slug: github-hook-delivery
 - name: app-permissions
   property_count: 45
   slug: github-installation-app-permissions
@@ -3482,6 +3703,9 @@ json_schemas:
 - name: integration-installation-request
   property_count: 5
   slug: github-installation-integration-installation-request
+- name: Installation
+  property_count: 20
+  slug: github-installation
 - name: validation-error
   property_count: 3
   slug: github-installation-validation-error
@@ -3491,9 +3715,21 @@ json_schemas:
 - name: webhook-branch-protection-rule-deleted
   property_count: 7
   slug: github-installation-webhook-branch-protection-rule-deleted
+- name: GitHub app
+  property_count: 17
+  slug: github-integration
+- name: Issue Comment
+  property_count: 14
+  slug: github-issue-comment
+- name: Issue Event
+  property_count: 22
+  slug: github-issue-event
 - name: GitHub Issue
   property_count: 24
   slug: github-issue
+- name: Issue Search Result Item
+  property_count: 35
+  slug: github-issue-search-result-item
 - name: global-hook-2
   property_count: 10
   slug: github-issues-api-global-hook-2
@@ -3518,6 +3754,24 @@ json_schemas:
 - name: root
   property_count: 33
   slug: github-issues-api-root
+- name: Job
+  property_count: 23
+  slug: github-job
+- name: Key
+  property_count: 7
+  slug: github-key
+- name: Ldap Private User
+  property_count: 42
+  slug: github-ldap-mapping-user
+- name: License Content
+  property_count: 13
+  slug: github-license-content
+- name: License
+  property_count: 13
+  slug: github-license
+- name: License Simple
+  property_count: 6
+  slug: github-license-simple
 - name: basic-error
   property_count: 4
   slug: github-licenses-basic-error
@@ -3611,6 +3865,15 @@ json_schemas:
 - name: webhook-check-run-created
   property_count: 6
   slug: github-meta-webhook-check-run-created
+- name: Migration
+  property_count: 18
+  slug: github-migration
+- name: Milestone
+  property_count: 16
+  slug: github-milestone
+- name: Minimal Repository
+  property_count: 87
+  slug: github-minimal-repository
 - name: basic-error
   property_count: 4
   slug: github-networks-basic-error
@@ -3659,6 +3922,9 @@ json_schemas:
 - name: webhook-check-run-completed
   property_count: 6
   slug: github-notifications-webhook-check-run-completed
+- name: Actions OIDC Subject customization
+  property_count: 1
+  slug: github-oidc-custom-sub
 - name: global-hook-2
   property_count: 10
   slug: github-openapi-global-hook-2
@@ -3683,9 +3949,18 @@ json_schemas:
 - name: root
   property_count: 33
   slug: github-openapi-root
+- name: Dependabot Secret for an Organization
+  property_count: 5
+  slug: github-organization-dependabot-secret
+- name: Organization Full
+  property_count: 56
+  slug: github-organization-full
 - name: GitHub Organization
   property_count: 37
   slug: github-organization
+- name: organization-secret-scanning-alert
+  property_count: 18
+  slug: github-organization-secret-scanning-alert
 - name: basic-error
   property_count: 4
   slug: github-organizations-basic-error
@@ -3710,6 +3985,30 @@ json_schemas:
 - name: validation-error-simple
   property_count: 3
   slug: github-organizations-validation-error-simple
+- name: Package
+  property_count: 11
+  slug: github-package
+- name: Package Version
+  property_count: 11
+  slug: github-package-version
+- name: Pending Deployment
+  property_count: 5
+  slug: github-pending-deployment
+- name: Private User
+  property_count: 42
+  slug: github-private-user
+- name: Project Card
+  property_count: 13
+  slug: github-project-card
+- name: Project Collaborator Permission
+  property_count: 2
+  slug: github-project-collaborator-permission
+- name: Project Column
+  property_count: 8
+  slug: github-project-column
+- name: Project
+  property_count: 15
+  slug: github-project
 - name: basic-error
   property_count: 4
   slug: github-projects-basic-error
@@ -3734,9 +4033,21 @@ json_schemas:
 - name: validation-error-simple
   property_count: 3
   slug: github-projects-validation-error-simple
+- name: Public User
+  property_count: 39
+  slug: github-public-user
+- name: Pull Request Review Comment
+  property_count: 29
+  slug: github-pull-request-review-comment
+- name: Pull Request Review
+  property_count: 13
+  slug: github-pull-request-review
 - name: GitHub Pull Request
   property_count: 36
   slug: github-pull-request
+- name: Pull Request Simple
+  property_count: 36
+  slug: github-pull-request-simple
 - name: basic-error
   property_count: 4
   slug: github-rate-limit--basic-error
@@ -3746,6 +4057,12 @@ json_schemas:
 - name: rate-limit
   property_count: 4
   slug: github-rate-limit--rate-limit
+- name: Rate Limit Overview
+  property_count: 2
+  slug: github-rate-limit-overview
+- name: Reaction
+  property_count: 5
+  slug: github-reaction
 - name: basic-error
   property_count: 4
   slug: github-repo-actions-api-basic-error
@@ -3926,6 +4243,9 @@ json_schemas:
 - name: validation-error-simple
   property_count: 3
   slug: github-repo-pulls-api-validation-error-simple
+- name: Repo Search Result Item
+  property_count: 89
+  slug: github-repo-search-result-item
 - name: basic-error
   property_count: 4
   slug: github-repo-subscription-api-basic-error
@@ -3983,6 +4303,15 @@ json_schemas:
 - name: GitHub Repository
   property_count: 35
   slug: github-repository
+- name: Legacy Review Comment
+  property_count: 28
+  slug: github-review-comment
+- name: root
+  property_count: 33
+  slug: github-root
+- name: scim-enterprise-group-list
+  property_count: 5
+  slug: github-scim-enterprise-group-list
 - name: group-response
   property_count: 4
   slug: github-scim-group-response
@@ -3998,6 +4327,21 @@ json_schemas:
 - name: user-response
   property_count: 8
   slug: github-scim-user-response
+- name: secret-scanning-alert-resolution-comment
+  property_count: 0
+  slug: github-secret-scanning-alert-resolution-comment
+- name: secret-scanning-alert-resolution
+  property_count: 0
+  slug: github-secret-scanning-alert-resolution
+- name: secret-scanning-alert
+  property_count: 17
+  slug: github-secret-scanning-alert
+- name: secret-scanning-alert-state
+  property_count: 0
+  slug: github-secret-scanning-alert-state
+- name: secret-scanning-location
+  property_count: 2
+  slug: github-secret-scanning-location
 - name: configuration-status
   property_count: 2
   slug: github-setup-configuration-status
@@ -4010,6 +4354,27 @@ json_schemas:
 - name: ssh-key
   property_count: 2
   slug: github-setup-ssh-key
+- name: Short Blob
+  property_count: 2
+  slug: github-short-blob
+- name: Simple User
+  property_count: 21
+  slug: github-simple-user
+- name: snapshot
+  property_count: 8
+  slug: github-snapshot
+- name: SSH Signing Key
+  property_count: 4
+  slug: github-ssh-signing-key
+- name: Team Discussion
+  property_count: 18
+  slug: github-team-discussion
+- name: Full Team
+  property_count: 18
+  slug: github-team-full
+- name: Team Repository
+  property_count: 89
+  slug: github-team-repository
 - name: basic-error
   property_count: 4
   slug: github-teams-basic-error
@@ -4034,9 +4399,21 @@ json_schemas:
 - name: validation-error
   property_count: 3
   slug: github-teams-validation-error
+- name: Thread
+  property_count: 9
+  slug: github-thread
+- name: Timeline Event
+  property_count: 0
+  slug: github-timeline-issue-events
+- name: Topic Search Result Item
+  property_count: 16
+  slug: github-topic-search-result-item
 - name: GitHub User
   property_count: 28
   slug: github-user
+- name: User Search Result Item
+  property_count: 34
+  slug: github-user-search-result-item
 - name: basic-error
   property_count: 4
   slug: github-users-api-basic-error
@@ -4064,6 +4441,9 @@ json_schemas:
 - name: GitHub Webhook Delivery
   property_count: 14
   slug: github-webhook-delivery
+- name: Workflow Run
+  property_count: 36
+  slug: github-workflow-run
 json_structures:
 - name: Github App Api Application Grant Structure
   property_count: 7
@@ -4859,16 +5239,16 @@ network: true
 overview: 'GitHub publishes 56 APIs on the [APIs.io](https://apis.io/) network, including Gists API, Issues API, Licenses API, and 53 more. Tagged areas include Code, Developer Tools, Pipelines, Platform, and Software Development.
 
 
-  The GitHub catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
+  The GitHub catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 4 Spectral governance rulesets.
 
 
-  GitHub''s developer surface includes pricing, authentication, documentation, CLI, support, getting-started guide, engineering blog, and 67 more developer resources.'
+  GitHub''s developer surface includes pricing, authentication, documentation, CLI, support, getting-started guide, engineering blog, and 83 more developer resources.'
 plans:
 - name: Github Plans Pricing
   plan_count: 6
   slug: github-plans-pricing
 - name: Github Price Estimates
-  plan_count: 0
+  plan_count: 1
   slug: github-price-estimates
 random_paper: 5
 rate_limits:
@@ -4897,6 +5277,17 @@ rules:
     info: 1
     warn: 5
   slug: github-jsonschema-spectral-rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: GitHub API Rules
+  rule_count: 12
+  severity_counts:
+    error: 8
+    hint: 0
+    info: 1
+    warn: 3
+  slug: github-rules
 - effective_rule_count: 20
   extends: []
   name: GitHub API Rules
@@ -4909,31 +5300,33 @@ rules:
   slug: github-spectral-rules
 score:
   band: exemplar
-  composite: 77.7
+  composite: 80.3
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 77.5
+    artifact_dirs: 35
+    catalog_earned: 91.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 37.5
+    catalog_gap: 24.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 3.1
   facets:
     access_clarity: 84.2
-    contract_governance: 13.6
-    contract_quality: 70.2
-    developer_ergonomics: 79.0
+    contract_governance: 31.8
+    contract_quality: 75.6
+    developer_ergonomics: 74.4
     discoverability: 71.7
     operational_transparency: 92.1
   previous_composite: 77.2
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 35
     mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
@@ -4941,7 +5334,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true
@@ -4971,6 +5364,7 @@ tags:
 - Source Control
 - T1
 - GitHub
+- Git
 use_cases:
 - description: Automate build, test, and deployment pipelines with GitHub Actions API.
   name: CI/CD Automation

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://api.agnost.ai
@@ -109,7 +109,7 @@ apis:
   description: Health checks, webhooks, internal endpoints
   name: Agnost AI System API
   slug: agnost-ai-system-api
-artifact_total: 35
+artifact_total: 34
 collections:
 - collection_type: open
   name: API Collection
@@ -157,6 +157,11 @@ collections:
   name: Agnost AI Alerts System API
   slug: open-agnost-ai-system-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/capabilities/agnost-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/agnost-ai-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -314,9 +319,6 @@ mcp_servers:
 - description: Hosted, OAuth 2.1-protected MCP server (streamable-HTTP) for querying your Agnost dashboard from Claude Desktop, Cursor, and any MCP client.
   name: Agnost MCP Server
   slug: agnost-mcp-server
-- description: 'Hosted, OAuth-protected MCP server that lets any MCP-aware client (Claude Desktop, Cursor, streamable-HTTP + OAuth 2.1 clients) query an Agnost dashboard in natural language: errors, intents, conversa'
-  name: Agnost AI MCP Server
-  slug: agnost-ai-mcp-server
 modified: '2026-07-18'
 name: Agnost AI
 nav: Providers
@@ -324,7 +326,7 @@ network: true
 overview: 'Agnost AI publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, API Keys API, Auth API, and 11 more. Tagged areas include Company, AI Agents, Agent Analytics, Observability, and OpenTelemetry.
 
 
-  Agnost AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 26 more developer resources.'
+  Agnost AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 27 more developer resources.'
 random_paper: 19
 scopes:
 - name: Agnost Ai Scopes
@@ -335,13 +337,13 @@ score:
   band: developing
   composite: 49.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
@@ -349,7 +351,7 @@ score:
     developer_ergonomics: 66.1
     discoverability: 75.0
     operational_transparency: 26.3
-  previous_composite: 49.9
+  previous_composite: 48.3
   provenance:
     conformance: first-party
     contracts:
@@ -366,7 +368,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

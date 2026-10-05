@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: API documentation for AULBIO platform services.
@@ -82,7 +82,7 @@ score:
   band: emerging
   composite: 11.6
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -95,6 +95,13 @@ score:
     developer_ergonomics: 9.5
     discoverability: 57.1
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - south-korea
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - japan-korea
   provenance:
     mcp: unknown
   regulatory:
@@ -104,7 +111,7 @@ score:
     regime_id: health
     score: 10.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

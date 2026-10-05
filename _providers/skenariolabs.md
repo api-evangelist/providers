@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -79,6 +79,10 @@ created: '2026-07-17'
 description: SkenarioLabs is a Helsinki-based real estate finance data intelligence company (founded 2015) that turns fragmented building data into auditable, asset-level intelligence for European banks and financial institutions. From a single address it reconstructs complete building profiles covering automated valuation, climate and transition risk, energy performance, technical condition, and renovation potential — aligned with CRREM, EU Taxonomy, ECB, EBA, CRR3, MEPS, and SFDR frameworks. It serves 200+ institutional clients monitoring over 60 billion euros of collateral and scores more than one million assets monthly. SkenarioLabs delivers its intelligence ad hoc into loan origination, portfolio audit, and continuous risk-monitoring workflows rather than through a public self-serve developer API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skenariolabs.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at skenariolabs.com over HTTP; 3 tools listed.
+  name: SkenarioLabs MCP Server
+  slug: skenariolabs
 modified: '2026-07-21'
 name: SkenarioLabs
 nav: Providers
@@ -98,7 +102,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -114,7 +118,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 11.2
+  previous_composite: 11.4
   provenance:
     mcp: first-party
   regulatory:
@@ -124,7 +128,7 @@ score:
     regime_id: horizontal
     score: 13.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

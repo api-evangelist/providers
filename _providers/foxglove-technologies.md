@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -488,7 +488,7 @@ layout: provider
 mcp_servers:
 - description: Foxglove Desktop can run a Model Context Protocol server so external agents (Claude Code, Cursor, Claude Desktop and other MCP clients) can see and control the running app. It is desktop-only — the we
   name: Foxglove Technologies MCP Server
-  slug: foxglove-technologies-mcp-server
+  slug: foxglove
 modified: '2026-08-16'
 name: Foxglove Technologies
 nav: Providers
@@ -519,7 +519,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 78.9
     contract_governance: 4.5
@@ -527,7 +527,7 @@ score:
     developer_ergonomics: 80.4
     discoverability: 71.7
     operational_transparency: 34.2
-  previous_composite: 59.4
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -549,7 +549,7 @@ score:
     regime_id: horizontal
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

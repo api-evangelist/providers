@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -97,6 +97,11 @@ collections:
   name: Kickbox Email Verification API
   slug: open-kickbox
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/capabilities/kickbox-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/kickbox-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/agentic-access/kickbox-agentic-access.yml
   title: ''
@@ -272,9 +277,9 @@ description: Kickbox is an email verification and list cleaning service that hel
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kickbox.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at docs.kickbox.com over HTTP.
   name: Kickbox documentation MCP server (auth-gated)
-  slug: kickbox-documentation-mcp-server-auth-gated
+  slug: kickbox-docs
 modified: '2026-08-13'
 name: Kickbox
 nav: Providers
@@ -285,7 +290,7 @@ overview: 'Kickbox publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
   The Kickbox catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kickbox''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, API reference, and 31 more developer resources.'
+  Kickbox''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, API reference, and 32 more developer resources.'
 plans:
 - name: Kickbox Plans Pricing
   plan_count: 13
@@ -305,7 +310,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 69.7
     contract_governance: 4.5
@@ -313,7 +318,7 @@ score:
     developer_ergonomics: 72.0
     discoverability: 66.7
     operational_transparency: 47.4
-  previous_composite: 55.7
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -331,7 +336,7 @@ score:
     regime_id: horizontal
     score: 23.0
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

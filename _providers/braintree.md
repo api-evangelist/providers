@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -110,7 +110,7 @@ apis:
   description: Operations for creating, capturing, voiding, refunding, and retrieving payment transactions.
   name: braintree Transactions API
   slug: braintree-transactions-api
-artifact_total: 64
+artifact_total: 65
 asyncapis:
 - description: Braintree Webhooks deliver automated HTTP POST notifications to a merchant-configured destination URL when specific events occur within the payment gateway. Webhook notifications are triggered by tran
   name: Braintree Webhooks
@@ -153,6 +153,11 @@ collections:
   name: Braintree Payments Add-Ons Transactions API
   slug: open-braintree-transactions-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/capabilities/braintree-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/braintree-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/agentic-access/braintree-agentic-access.yml
   title: ''
@@ -331,17 +336,21 @@ jsonld:
   property_count: 8
   slug: braintree-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.paypal.com over HTTP.
+  name: Braintree MCP Server
+  slug: braintree
 modified: '2026-09-16'
 name: Braintree
 nav: Providers
 network: true
-overview: 'Braintree publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Add-Ons API, Client Tokens API, and 11 more. Tagged areas include Payments, Transaction, Mobile, and Subscription.
+overview: 'Braintree publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Add-Ons API, Client Tokens API, and 11 more. Tagged areas include Payments, Transaction, Mobile, Subscription, and Payment Processing.
 
 
   The Braintree catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Braintree''s developer surface includes sandbox, changelog, authentication, and 15 more developer resources.'
+  Braintree''s developer surface includes sandbox, changelog, authentication, and 16 more developer resources.'
 plans:
 - name: Braintree Plans Pricing
   plan_count: 6
@@ -380,23 +389,23 @@ scopes:
   summary_line: 40 scopes
 score:
   band: thin
-  composite: 37.8
+  composite: 38.7
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 42.5
+    artifact_dirs: 27
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.5
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.1
   facets:
     access_clarity: 23.7
     contract_governance: 13.6
     contract_quality: 64.9
     developer_ergonomics: 28.6
-    discoverability: 46.7
+    discoverability: 55.0
     operational_transparency: 26.3
-  previous_composite: 37.8
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     contracts:
@@ -412,7 +421,7 @@ score:
     regime_id: payments
     score: 33.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true
@@ -441,4 +450,5 @@ tags:
 - Transaction
 - Mobile
 - Subscription
+- Payment Processing
 ---

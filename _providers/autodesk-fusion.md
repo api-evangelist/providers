@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 63
+- acting_count: 64
   human_in_the_loop: 3
   name: Autodesk Fusion Agentic Access
   operation_count: 146
   slug: autodesk-fusion-agentic-access
-  summary_line: 146 operations · 63 acting · 3 human-in-the-loop
+  summary_line: 146 operations · 64 acting · 3 human-in-the-loop
 api_count: 8
 apis:
 - description: The Fusion Automation API is a cloud-based Premium API that runs Fusion scripts and automation jobs at scale without requiring desktop software. It supports parametric design customization, advanced m
@@ -455,23 +455,23 @@ scopes:
   summary_line: 14 scopes · clientCredentials/implicit/authorizationCode
 score:
   band: developing
-  composite: 42.3
+  composite: 41.8
   coverage:
     artifact_dirs: 16
-    catalog_earned: 61.0
+    catalog_earned: 58.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -2.3
   facets:
     access_clarity: 46.8
     contract_governance: 0.0
     contract_quality: 50.0
     developer_ergonomics: 28.6
-    discoverability: 71.4
+    discoverability: 66.1
     operational_transparency: 40.0
-  previous_composite: 41.8
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     contracts:
@@ -486,7 +486,7 @@ score:
     regime_id: horizontal
     score: 21.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

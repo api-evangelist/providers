@@ -26,14 +26,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.7
-  scored_at: '2026-10-03'
+  score: 11.2
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: The Tempo product itself - a hosted AI app builder where users prompt, generate, edit, and preview React / Next.js applications in the browser. Combines a visual canvas, AI-generated code, and live pr
@@ -42,7 +42,7 @@ apis:
 - description: Official documentation for using Tempo - prompts and generation, working with the canvas, code editing, integrations with auth / database / hosting providers, and exporting projects.
   name: Tempo Documentation
   slug: docs
-artifact_total: 6
+artifact_total: 7
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/tempo-labs/refs/heads/main/security/tempo-labs-domain-security.yml
@@ -69,6 +69,10 @@ finops:
   slug: tempo-labs-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tempo-labs.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.tempo.new over HTTP.
+  name: Tempo Labs MCP Server
+  slug: tempo-labs
 modified: '2026-05-23'
 name: Tempo Labs
 nav: Providers
@@ -96,7 +100,7 @@ score:
     catalog_gap: 65.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.0
   facets:
     access_clarity: 26.8
     contract_governance: 0.0
@@ -104,7 +108,7 @@ score:
     developer_ergonomics: 9.5
     discoverability: 60.0
     operational_transparency: 18.9
-  previous_composite: 14.3
+  previous_composite: 17.3
   provenance:
     mcp: first-party
   regulatory:
@@ -114,7 +118,7 @@ score:
     regime_id: horizontal
     score: 5.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

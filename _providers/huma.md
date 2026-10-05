@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 380
-  human_in_the_loop: 5
+- acting_count: 527
+  human_in_the_loop: 6
   name: Huma Agentic Access
-  operation_count: 985
+  operation_count: 984
   slug: huma-agentic-access
-  summary_line: 985 operations · 380 acting · 5 human-in-the-loop
+  summary_line: 984 operations · 527 acting · 6 human-in-the-loop
 api_count: 1
 apis:
 - description: Huma's software development kits for building or enhancing applications with out-of-the-box Huma functionality across iOS, Android, and Angular, covering authentication/authorization, connected Device
@@ -559,21 +559,21 @@ overview: 'Huma publishes 77 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 9
 score:
   band: developing
-  composite: 46.0
+  composite: 45.4
   coverage:
     artifact_dirs: 17
-    catalog_earned: 32.0
+    catalog_earned: 29.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    catalog_gap: 86.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -2.4
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 44.5
     developer_ergonomics: 58.9
-    discoverability: 64.3
+    discoverability: 58.9
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -583,7 +583,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 45.4
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -605,7 +605,7 @@ score:
     regime_id: health
     score: 20.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

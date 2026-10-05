@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Unified data foundation for financial institutions, enabling integration and automation of onboarding, lending, servicing, and AI-driven insights.
@@ -97,9 +97,9 @@ created: '2026-09-26'
 description: Ascent Platform provides a unified data foundation for financial institutions, enabling banks and credit unions to integrate and automate workflows across onboarding, lending, servicing, and AI-driven insights. Their platform connects disparate systems, eliminates data silos, and offers configurable AI to surface actionable insights, improving decision-making and operational efficiency for modern banking.
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at api.ascentplatform.io.
   name: Ascent Platform MCP Server
-  slug: ascent-platform-mcp-server
+  slug: ascent-platform-mcp-yml
 modified: '2026-09-26'
 name: Ascent Platform
 nav: Providers
@@ -135,7 +135,7 @@ score:
     regime_id: banking_open_finance
     score: 8.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

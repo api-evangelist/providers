@@ -25,14 +25,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: Open-source (Apache-2.0) HTML5-canvas financial charting library — the flagship first-party client SDK, distributed on npm as lightweight-charts.
@@ -41,7 +41,7 @@ apis:
 - description: Free, self-hosted Charting Library plus the Datafeed API and the Broker Integration REST API that brokerages implement for in-chart trading.
   name: TradingView Advanced Charts & Broker API
   slug: tradingview-advanced-charts-broker-api
-artifact_total: 4
+artifact_total: 5
 common:
 - group: operate
   title: ''
@@ -161,6 +161,10 @@ created: '2026-07-17'
 description: 'TradingView is a charting, social, and market-data platform for traders and investors, and one of the most-visited finance sites in the world. Its developer surface is delivered primarily as client-side, embeddable UI components and self-hosted JavaScript charting libraries rather than a hosted market-data REST API: the open-source (Apache-2.0) Lightweight Charts library, the free self-hosted Advanced Charts (Charting Library) with its custom Datafeed API, the Trading Platform library, and a large catalog of copy-paste embeddable widgets (charts, tickers, heatmaps, screeners, economic calendars). For brokerages, TradingView publishes a Broker Integration REST API contract that a broker implements to enable order entry and account management directly from the chart. Client libraries ship on npm (lightweight-charts), with official iOS and Android wrappers, and the organization runs a self-hosted bug bounty program.'
 image: https://www.tradingview.com/static/images/logo-preview.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.tradingview.com over HTTP.
+  name: TradingView MCP Server
+  slug: tradingview
 modified: '2026-07-21'
 name: TradingView
 nav: Providers
@@ -180,7 +184,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
@@ -191,7 +195,7 @@ score:
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 30.0
+  previous_composite: 30.2
   provenance:
     mcp: first-party
   regulatory:
@@ -201,7 +205,7 @@ score:
     regime_id: securities_market_data
     score: 18.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

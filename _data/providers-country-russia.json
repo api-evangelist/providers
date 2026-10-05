@@ -27,7 +27,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -87,7 +87,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -136,7 +136,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -185,7 +185,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -246,7 +246,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -296,7 +296,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,

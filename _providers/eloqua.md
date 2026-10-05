@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 329
+- acting_count: 335
   human_in_the_loop: 5
   name: Eloqua Agentic Access
   operation_count: 760
   slug: eloqua-agentic-access
-  summary_line: 760 operations · 329 acting · 5 human-in-the-loop
+  summary_line: 760 operations · 335 acting · 5 human-in-the-loop
 api_count: 3
 apis:
 - baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
@@ -1114,23 +1114,23 @@ scopes:
   summary_line: 1 scope · authorizationCode/implicit/password
 score:
   band: developing
-  composite: 51.1
+  composite: 50.5
   coverage:
     artifact_dirs: 27
-    catalog_earned: 66.3
+    catalog_earned: 63.3
     catalog_earned_first_party: 12.0
-    catalog_gap: 48.8
+    catalog_gap: 51.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 1.4
   facets:
     access_clarity: 42.1
     contract_governance: 14.4
     contract_quality: 48.5
     developer_ergonomics: 56.5
-    discoverability: 78.6
+    discoverability: 73.2
     operational_transparency: 57.9
-  previous_composite: 50.5
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1148,7 +1148,7 @@ score:
     regime_id: horizontal
     score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

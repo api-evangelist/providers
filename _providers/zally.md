@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -84,6 +84,11 @@ collections:
   name: Zally - Zalando's API Linter Api Violations Supported Rules API
   slug: open-zally-supported-rules-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/capabilities/zally-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/zally-capability-edges.yml
 - group: auth
   title: ''
   type: SecurityPolicy
@@ -278,7 +283,7 @@ overview: 'Zally publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ap
   The Zally catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Zally''s developer surface includes authentication, documentation, changelog, CLI, and 15 more developer resources.'
+  Zally''s developer surface includes authentication, documentation, changelog, CLI, and 16 more developer resources.'
 plans:
 - name: Zally Plans Pricing
   plan_count: 3
@@ -313,13 +318,13 @@ score:
   band: developing
   composite: 41.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 70.2
     catalog_earned_first_party: 0.0
     catalog_gap: 44.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.7
   facets:
     access_clarity: 15.8
     contract_governance: 23.5
@@ -327,7 +332,7 @@ score:
     developer_ergonomics: 44.0
     discoverability: 66.1
     operational_transparency: 36.8
-  previous_composite: 41.0
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -342,7 +347,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

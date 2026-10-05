@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 23
+- acting_count: 29
   human_in_the_loop: 0
   name: Invoice Ninja Agentic Access
   operation_count: 44
   slug: invoice-ninja-agentic-access
-  summary_line: 44 operations · 23 acting
+  summary_line: 44 operations · 29 acting
 api_count: 1
 apis:
 - baseURL: https://invoicing.co
@@ -133,6 +133,11 @@ collections:
   name: Invoice Ninja v5 API
   slug: open-invoice-ninja
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/invoice-ninja/refs/heads/main/capabilities/invoice-ninja-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/invoice-ninja-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/invoice-ninja/refs/heads/main/agentic-access/invoice-ninja-agentic-access.yml
   title: ''
@@ -191,7 +196,7 @@ network: true
 overview: 'Invoice Ninja publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Authentication API, Bank Integrations API, and 7 more. Tagged areas include Invoicing, Billing, Payments, Accounting, and Open Source.
 
 
-  Invoice Ninja''s developer surface includes authentication, engineering blog, documentation, pricing, signup flow, and 6 more developer resources.'
+  Invoice Ninja''s developer surface includes authentication, engineering blog, documentation, pricing, signup flow, and 7 more developer resources.'
 random_paper: 2
 score:
   band: thin
@@ -203,7 +208,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
@@ -211,7 +216,7 @@ score:
     developer_ergonomics: 31.0
     discoverability: 66.1
     operational_transparency: 2.6
-  previous_composite: 28.0
+  previous_composite: 28.8
   provenance:
     agentic_access: derived
     contracts:
@@ -226,7 +231,7 @@ score:
     regime_id: payments
     score: 10.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

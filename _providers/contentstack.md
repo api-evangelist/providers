@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 0
@@ -55,568 +55,166 @@ apis:
   baseurl_source: declared
   description: The Contentstack Analytics API provides access to usage and performance metrics for CMS, Launch, and Automate products within a Contentstack organization. Developers can retrieve analytics data progra
   name: Contentstack Analytics API
-  phrasing_intents:
-  - id: getCacheRevalidationUsage
-    intent: Check cache revalidation quota usage
-    question: How many cache revalidations has my organization used this period?
-  phrasing_ops: 1
   slug: analytics-api
 - baseURL: https://automations-api.contentstack.com
   baseurl_source: declared
   description: Accounts represent authenticated connections to external services and third-party platforms used by automations as action targets.
   name: contentstack Accounts API
-  phrasing_intents:
-  - id: getAllAccounts
-    intent: List connected service accounts
-    question: Which third-party accounts are connected to my automation project?
-  phrasing_ops: 1
   slug: contentstack-accounts-api
 - baseURL: https://cdn.contentstack.io/v3
   baseurl_source: declared
   description: Assets are media files such as images, videos, and documents stored in the Contentstack asset library.
   name: contentstack Assets API
-  phrasing_intents:
-  - id: getAllAssets
-    intent: List published assets
-    question: How do I list all images and files in my Contentstack stack?
-  - id: uploadAsset
-    intent: Upload an asset file
-    question: How do I upload an image or PDF to my stack?
-  - id: getSingleAsset
-    intent: Get one asset's details
-    question: How do I get the file URL and size of a specific asset?
-  phrasing_ops: 3
   slug: contentstack-assets-api
 - baseURL: https://personalize-api.contentstack.com
   baseurl_source: declared
   description: Attributes represent individual user data characteristics such as age, location, or browsing history used to define audience segments.
   name: contentstack Attributes API
-  phrasing_intents:
-  - id: getAllAttributes
-    intent: List Personalize user attributes
-    question: Which user attributes can I use to build audience rules?
-  - id: createAttribute
-    intent: Define a new user attribute
-    question: How do I add a custom attribute like plan tier for audience targeting?
-  - id: updateAttribute
-    intent: Update a user attribute definition
-    question: Can I change the data type of an attribute I already defined?
-  - id: deleteAttribute
-    intent: Delete a user attribute
-    question: Why can't I delete an attribute that audience rules still use?
-  phrasing_ops: 4
   slug: contentstack-attributes-api
 - baseURL: https://personalize-api.contentstack.com
   baseurl_source: declared
   description: Audiences are defined segments of users grouped by demographic, behavioral, or other attribute-based criteria for targeted content experiences.
   name: contentstack Audiences API
-  phrasing_intents:
-  - id: getAllAudiences
-    intent: List audience segments
-    question: What audiences have I defined in Personalize?
-  - id: createAudience
-    intent: Create an audience segment
-    question: How do I build an audience from attribute conditions?
-  - id: updateAudience
-    intent: Update an audience's rules
-    question: How do I change the rules of an existing audience?
-  - id: deleteAudience
-    intent: Delete an audience
-    question: Can I delete an audience that an active experience still uses?
-  phrasing_ops: 4
   slug: contentstack-audiences-api
 - baseURL: https://automations-api.contentstack.com
   baseurl_source: declared
   description: Audit logs track all administrative actions taken within an automation project, providing a history of configuration changes.
   name: contentstack Audit Logs API
-  phrasing_intents:
-  - id: getAllAuditLogs
-    intent: List admin audit logs for a project
-    question: Who changed or deleted an automation in my project?
-  phrasing_ops: 1
   slug: contentstack-audit-logs-api
 - baseURL: https://automations-api.contentstack.com
   baseurl_source: declared
   description: Automations are individual workflow definitions that connect triggers (such as Contentstack content events) to actions (such as sending notifications or updating external systems).
   name: contentstack Automations API
-  phrasing_intents:
-  - id: getAllAutomations
-    intent: List automations in a project
-    question: Which automations are defined in my Automation Hub project?
-  - id: getAutomation
-    intent: Get an automation's configuration
-    question: How do I view the trigger and steps of one automation?
-  - id: activateAutomation
-    intent: Activate an automation
-    question: How do I turn on an automation so it runs on its trigger?
-  - id: deactivateAutomation
-    intent: Deactivate an automation
-    question: How do I pause an automation without deleting it?
-  phrasing_ops: 4
   slug: contentstack-automations-api
 - baseURL: https://brand-kits-api.contentstack.com
   baseurl_source: declared
   description: Brand Kits are centralized repositories for an organization's brand identity assets, guidelines, and AI configuration. They are used to ensure consistent brand voice and style across AI-generated cont
   name: contentstack Brand Kits API
-  phrasing_intents:
-  - id: getAllBrandKits
-    intent: List Brand Kits
-    question: Which Brand Kits exist in my Contentstack organization?
-  - id: createBrandKit
-    intent: Create a Brand Kit
-    question: How do I set up a Brand Kit for AI content generation?
-  - id: getBrandKit
-    intent: Get a Brand Kit
-    question: How do I view the full brand identity settings of one Brand Kit?
-  - id: updateBrandKit
-    intent: Update a Brand Kit
-    question: Can I rename an existing Brand Kit?
-  - id: deleteBrandKit
-    intent: Delete a Brand Kit
-    question: Does deleting a Brand Kit also remove its voice profiles?
-  phrasing_ops: 5
   slug: contentstack-brand-kits-api
 - baseURL: https://cdn.contentstack.io/v3
   baseurl_source: declared
   description: Content types define the structure of content entries in a Contentstack stack. They specify the fields and their data types that entries must conform to.
   name: contentstack Content Types API
-  phrasing_intents:
-  - id: getAllContentTypes
-    intent: List content types in a stack
-    question: What content types are defined in my Contentstack stack?
-  - id: createContentType
-    intent: Create a content type schema
-    question: How do I define a new content type with its fields?
-  - id: getSingleContentType
-    intent: Get a content type's schema
-    question: How do I see the field definitions of one content type?
-  - id: updateContentType
-    intent: Change a content type's schema
-    question: Will changing a content type's schema affect entries that already exist?
-  - id: deleteContentType
-    intent: Delete a content type
-    question: Do I have to delete all entries before removing a content type?
-  phrasing_ops: 5
   slug: contentstack-content-types-api
 - baseURL: https://launch-api.contentstack.com
   baseurl_source: declared
   description: Deployments represent individual build and publish operations to a Launch environment. Each deployment has associated build logs, server logs, and status tracking.
   name: contentstack Deployments API
-  phrasing_intents:
-  - id: getAllDeployments
-    intent: List deployments for a Launch environment
-    question: How do I see the deployment history of a Launch environment?
-  - id: createDeployment
-    intent: Deploy to a Launch environment
-    question: How do I trigger a new deployment on Launch?
-  - id: getDeployment
-    intent: Get a deployment's status
-    question: Did my Launch deployment finish successfully?
-  - id: getDeploymentLogs
-    intent: Get build logs for a deployment
-    question: Where can I read the build output of a failed Launch deployment?
-  - id: getServerLogs
-    intent: Get runtime server logs for a deployment
-    question: How do I debug server-side rendering errors on my Launch site?
-  phrasing_ops: 5
   slug: contentstack-deployments-api
 - baseURL: https://cdn.contentstack.io/v3
   baseurl_source: declared
   description: Entries are instances of content types that hold the actual content data. They can be filtered, sorted, paginated, and localized.
   name: contentstack Entries API
-  phrasing_intents:
-  - id: getAllEntries
-    intent: List published entries of a content type
-    question: How do I fetch all published entries for a content type in Contentstack?
-  - id: createEntry
-    intent: Create a draft entry
-    question: How do I add a new entry to a content type?
-  - id: getSingleEntry
-    intent: Get one published entry
-    question: How do I retrieve a single published entry by its UID?
-  - id: updateEntry
-    intent: Update fields on an existing entry
-    question: How do I change field values on an entry that already exists?
-  - id: deleteEntry
-    intent: Delete an entry
-    question: Do I need to unpublish an entry before deleting it?
-  - id: publishEntry
-    intent: Publish an entry to environments
-    question: How do I make an entry live on my production environment?
-  - id: unpublishEntry
-    intent: Unpublish an entry from environments
-    question: How do I take an entry offline so the delivery API stops returning it?
-  phrasing_ops: 7
   slug: contentstack-entries-api
 - baseURL: https://cdn.contentstack.io/v3
   baseurl_source: declared
   description: Entry variants are customized versions of an entry created for personalization or A/B testing purposes.
   name: contentstack Entry Variants API
-  phrasing_intents:
-  - id: getAllEntryVariants
-    intent: List personalization variants of an entry
-    question: What personalized variants exist for one of my entries?
-  - id: getSingleEntryVariant
-    intent: Get one variant of an entry
-    question: How do I fetch a specific variant of an entry by variant UID?
-  phrasing_ops: 2
   slug: contentstack-entry-variants-api
 - baseURL: https://api.contentstack.io/v3
   baseurl_source: declared
   description: Endpoints for managing deployment environments (e.g., production, staging) within a stack.
   name: contentstack Environments API
-  phrasing_intents:
-  - id: getAllEnvironments
-    intent: List a stack's publishing environments
-    question: Which publishing environments like production and staging are set up in my stack?
-  - id: getProjectsByProjectUidEnvironments
-    intent: List a Launch project's environments
-    question: What environments and domains does my Launch project have?
-  - id: createEnvironment
-    intent: Create a Launch environment
-    question: How do I add a new hosting environment to a Launch project?
-  - id: getEnvironment
-    intent: Get a Launch environment's details
-    question: What's the latest deployment status of one Launch environment?
-  - id: updateEnvironment
-    intent: Update a Launch environment
-    question: Can I change the domain of an existing Launch environment?
-  - id: deleteEnvironment
-    intent: Delete a Launch environment
-    question: Does deleting a Launch environment remove its deployment history too?
-  - id: revalidateCache
-    intent: Revalidate the CDN cache for an environment
-    question: How do I force the CDN to serve fresh content for my Launch site?
-  phrasing_ops: 7
   slug: contentstack-environments-api
 - baseURL: https://personalize-edge.contentstack.com
   baseurl_source: declared
   description: The events endpoint allows applications to track user actions and behavioral events for experience analytics and audience rule evaluation.
   name: contentstack Events API
-  phrasing_intents:
-  - id: trackEvents
-    intent: Track user events
-    question: How do I record an impression when a visitor sees an experience?
-  - id: getAllEvents
-    intent: List custom event definitions
-    question: Which custom events are defined in my Personalize project?
-  phrasing_ops: 2
   slug: contentstack-events-api
 - baseURL: https://automations-api.contentstack.com
   baseurl_source: declared
   description: Execution logs record each time an automation runs, including the trigger context, steps executed, and success or failure status.
   name: contentstack Execution Logs API
-  phrasing_intents:
-  - id: getAllExecutionLogs
-    intent: List automation run history
-    question: How can I see every time my automations ran?
-  - id: getExecutionLog
-    intent: Get one automation run's details
-    question: Why did a specific automation run fail?
-  phrasing_ops: 2
   slug: contentstack-execution-logs-api
 - baseURL: https://personalize-api.contentstack.com
   baseurl_source: declared
   description: Experiences define personalized content variations delivered to specific audience segments, supporting both segmented and A/B test configurations.
   name: contentstack Experiences API
-  phrasing_intents:
-  - id: getAllExperiences
-    intent: List personalization experiences
-    question: Which experiences are set up in my Personalize project?
-  - id: createExperience
-    intent: Create a segmented or A/B test experience
-    question: How do I set up an A/B test in Contentstack Personalize?
-  - id: getExperience
-    intent: Get one experience's configuration
-    question: How can I check the status and variants of a single experience?
-  - id: updateExperience
-    intent: Update an experience's variants or targeting
-    question: Can I change the variants on an experience that already exists?
-  - id: deleteExperience
-    intent: Delete an experience
-    question: Can I delete an experience while it is still active?
-  - id: getExperiencePriority
-    intent: Get the experience priority order
-    question: Which experience wins when a visitor qualifies for more than one?
-  - id: updateExperiencePriority
-    intent: Reorder experience priority
-    question: How do I make one experience take precedence over another?
-  phrasing_ops: 7
   slug: contentstack-experiences-api
 - baseURL: https://launch-api.contentstack.com
   baseurl_source: declared
   description: File upload endpoints provide pre-signed URLs for securely uploading build artifacts to Contentstack Launch infrastructure before triggering a deployment.
   name: contentstack File Uploads API
-  phrasing_intents:
-  - id: getProjectUploadUrl
-    intent: Get a signed URL to upload a build
-    question: How do I upload my build package before deploying to Launch?
-  phrasing_ops: 1
   slug: contentstack-file-uploads-api
 - baseURL: https://personalize-api.contentstack.com
   baseurl_source: declared
   description: Geolocation endpoints provide geographic datasets including regions, countries, and cities for location-based audience targeting.
   name: contentstack Geolocation API
-  phrasing_intents:
-  - id: getGeoRegions
-    intent: List regions for location targeting
-    question: Which geographic regions can I target in an audience rule?
-  - id: getGeoCountries
-    intent: List countries for location targeting
-    question: Which countries are available for audience geotargeting?
-  - id: getGeoCities
-    intent: List cities for location targeting
-    question: Can I target visitors by city in Personalize?
-  phrasing_ops: 3
   slug: contentstack-geolocation-api
 - baseURL: https://cdn.contentstack.io/v3
   baseurl_source: declared
   description: Global fields are reusable field groups that can be referenced across multiple content types within a Contentstack stack.
   name: contentstack Global Fields API
-  phrasing_intents:
-  - id: getAllGlobalFields
-    intent: List reusable global fields
-    question: What global fields are available to reuse in my content types?
-  - id: getSingleGlobalField
-    intent: Get a global field's schema
-    question: How do I view the schema of one global field?
-  phrasing_ops: 2
   slug: contentstack-global-fields-api
 - baseURL: https://brand-kits-api.contentstack.com
   baseurl_source: declared
   description: LLM Configuration endpoints allow organizations to register custom API credentials for large language model providers, enabling content generation through their own LLM subscriptions.
   name: contentstack LLM Configuration API
-  phrasing_intents:
-  - id: getLlmConfig
-    intent: Get a Brand Kit's custom LLM settings
-    question: Which LLM provider is my Brand Kit configured to use?
-  - id: configureLlm
-    intent: Set custom LLM credentials for a Brand Kit
-    question: Can I use my own LLM API key for content generation in a Brand Kit?
-  phrasing_ops: 2
   slug: contentstack-llm-configuration-api
 - baseURL: https://personalize-edge.contentstack.com
   baseurl_source: declared
   description: The manifest endpoint returns a list of all active experiences and their corresponding variants that are activated for the current user based on their attributes and audience membership.
   name: contentstack Manifest API
-  phrasing_intents:
-  - id: getManifest
-    intent: Get the personalization manifest for a visitor
-    question: Which content variants should I show a visitor at session start?
-  phrasing_ops: 1
   slug: contentstack-manifest-api
 - baseURL: https://api.contentstack.io/v3
   baseurl_source: declared
   description: Endpoints for managing Contentstack organizations, including user invitations, roles, stacks, and audit logs at the organization level.
   name: contentstack Organizations API
-  phrasing_intents:
-  - id: getAllOrganizations
-    intent: List my organizations
-    question: Which Contentstack organizations am I a member of?
-  - id: getOrganization
-    intent: Get an organization's details
-    question: What plan is my organization on?
-  - id: getOrganizationStacks
-    intent: List stacks in an organization
-    question: Which stacks belong to a specific organization?
-  phrasing_ops: 3
   slug: contentstack-organizations-api
 - baseURL: https://automations-api.contentstack.com
   baseurl_source: declared
   description: Automation projects are containers for automations within a Contentstack organization. Each project groups related automations and can have its own variables and account connections.
   name: contentstack Projects API
-  phrasing_intents:
-  - id: getAllProjects
-    intent: List automation projects in an organization
-    question: Which Automation Hub projects exist in my Contentstack organization?
-  - id: createProject
-    intent: Create an automation project
-    question: How do I start a new Automation Hub project to hold my automations?
-  - id: getProject
-    intent: Get an automation project's details
-    question: What's the status and creation date of one of my automation projects?
-  - id: updateProject
-    intent: Rename or redescribe an automation project
-    question: Can I rename an Automation Hub project after creating it?
-  - id: deleteProject
-    intent: Delete an automation project
-    question: What gets removed when I delete an Automation Hub project?
-  - id: getProjects
-    intent: List Launch hosting projects
-    question: Which Contentstack Launch projects do I have for hosting web apps?
-  - id: postProjects
-    intent: Create a Launch project for a web app
-    question: How do I create a Launch project to deploy my website?
-  - id: getProjectsByProjectUid
-    intent: Get a Launch project's details
-    question: Which stack is a given Launch project linked to?
-  phrasing_ops: 10
   slug: contentstack-projects-api
 - baseURL: https://auth-api.contentstack.com
   baseurl_source: declared
   description: SCIM group endpoints allow Identity Providers to manage group memberships in Contentstack, which map to role-based access control within the CMS.
   name: contentstack SCIM Groups API
-  phrasing_intents:
-  - id: listScimGroups
-    intent: List SCIM groups in an organization
-    question: How does my identity provider list the groups in a Contentstack org over SCIM?
-  - id: createScimGroup
-    intent: Provision a group via SCIM
-    question: How do I push a new group from my IdP into Contentstack?
-  - id: getScimGroup
-    intent: Get a SCIM group
-    question: How do I fetch one SCIM group resource by its ID?
-  - id: replaceScimGroup
-    intent: Replace a SCIM group and its full membership
-    question: How do I sync a group's entire membership from my IdP in one call?
-  - id: updateScimGroup
-    intent: Add or remove SCIM group members
-    question: Can I add a single member to a SCIM group without resending the full list?
-  - id: deleteScimGroup
-    intent: Delete a SCIM group
-    question: What happens to group members when a SCIM group is deleted?
-  phrasing_ops: 6
   slug: contentstack-scim-groups-api
 - baseURL: https://auth-api.contentstack.com
   baseurl_source: declared
   description: Schema discovery endpoints implement the SCIM 2.0 service provider configuration, returning supported schemas and resource types for IdP compatibility validation.
   name: contentstack SCIM Schema Discovery API
-  phrasing_intents:
-  - id: getScimSchemas
-    intent: Get supported SCIM schemas
-    question: Which SCIM user and group attributes does Contentstack support?
-  - id: getScimResourceTypes
-    intent: Get supported SCIM resource types
-    question: What SCIM resource types and endpoints are available?
-  phrasing_ops: 2
   slug: contentstack-scim-schema-discovery-api
 - baseURL: https://auth-api.contentstack.com
   baseurl_source: declared
   description: SCIM user endpoints enable Identity Providers to provision, update, and deprovision user accounts within a Contentstack organization following the SCIM 2.0 User schema.
   name: contentstack SCIM Users API
-  phrasing_intents:
-  - id: listScimUsers
-    intent: List SCIM users in an organization
-    question: How does my IdP list Contentstack users over SCIM?
-  - id: createScimUser
-    intent: Provision a user via SCIM
-    question: How do I provision a new Contentstack user from my identity provider?
-  - id: getScimUser
-    intent: Get a SCIM user
-    question: How do I fetch a single SCIM user resource by ID?
-  - id: replaceScimUser
-    intent: Replace a SCIM user's full record
-    question: What happens to attributes I omit when fully replacing a SCIM user?
-  - id: updateScimUser
-    intent: Activate, deactivate or patch a SCIM user
-    question: How do I deactivate a Contentstack user through SCIM without replacing the record?
-  phrasing_ops: 5
   slug: contentstack-scim-users-api
 - baseURL: https://api.contentstack.io/v3
   baseurl_source: declared
   description: Endpoints for creating and managing Contentstack stacks, including settings, users, sharing, and ownership transfer.
   name: contentstack Stacks API
-  phrasing_intents:
-  - id: getAllStacks
-    intent: List stacks I can access
-    question: Which Contentstack stacks do I have access to?
-  - id: createStack
-    intent: Create a stack
-    question: How do I create a new stack in my organization?
-  - id: getStack
-    intent: Get a stack's settings
-    question: How do I see a stack's plan and region?
-  - id: updateStack
-    intent: Update a stack's settings
-    question: How do I rename a stack or change its description?
-  - id: deleteStack
-    intent: Delete a stack
-    question: What gets deleted when I remove a whole stack?
-  phrasing_ops: 5
   slug: contentstack-stacks-api
 - baseURL: https://cdn.contentstack.io/v3
   baseurl_source: declared
   description: The synchronization endpoints allow developers to sync published content incrementally, enabling efficient local caching and offline-first patterns.
   name: contentstack Synchronization API
-  phrasing_intents:
-  - id: syncContent
-    intent: Sync published content changes
-    question: How do I download all published entries and assets for an offline copy?
-  phrasing_ops: 1
   slug: contentstack-synchronization-api
 - baseURL: https://personalize-edge.contentstack.com
   baseurl_source: declared
   description: Endpoints for setting, updating, and merging user attribute data used to determine audience membership and personalized content targeting.
   name: contentstack User Attributes API
-  phrasing_intents:
-  - id: setUserAttributes
-    intent: Set attributes on a visitor
-    question: How do I store profile data about a visitor for audience targeting?
-  - id: mergeUserAttributes
-    intent: Merge an anonymous visitor into a known user
-    question: How do I combine an anonymous visitor's data with their account after login?
-  phrasing_ops: 2
   slug: contentstack-user-attributes-api
 - baseURL: https://api.contentstack.io/v3
   baseurl_source: declared
   description: Endpoints for authenticating users and managing session tokens within Contentstack.
   name: contentstack User Sessions API
-  phrasing_intents:
-  - id: loginUser
-    intent: Log in and get an authtoken
-    question: How do I get an authtoken with my email and password?
-  - id: logoutUser
-    intent: Log out and invalidate the authtoken
-    question: How do I invalidate my current authtoken?
-  phrasing_ops: 2
   slug: contentstack-user-sessions-api
 - baseURL: https://api.contentstack.io/v3
   baseurl_source: declared
   description: Endpoints for managing Contentstack user accounts including profile updates, password resets, and account activation.
   name: contentstack Users API
-  phrasing_intents:
-  - id: getUser
-    intent: Get my user profile
-    question: Which organizations does my Contentstack account belong to?
-  - id: updateUser
-    intent: Update my user profile
-    question: How do I change my first or last name on my account?
-  phrasing_ops: 2
   slug: contentstack-users-api
 - baseURL: https://automations-api.contentstack.com
   baseurl_source: declared
   description: Project variables are reusable key-value pairs that can be referenced across multiple automations within a project.
   name: contentstack Variables API
-  phrasing_intents:
-  - id: getAllVariables
-    intent: List automation project variables
-    question: What reusable variables are defined in my automation project?
-  - id: createVariable
-    intent: Create a project variable
-    question: How do I store an API key as a secret variable for my automations?
-  phrasing_ops: 2
   slug: contentstack-variables-api
 - baseURL: https://brand-kits-api.contentstack.com
   baseurl_source: declared
   description: Voice Profiles define the writing style, tone, and persona characteristics for AI content generation within a Brand Kit. Multiple voice profiles can be created to support different content contexts or
   name: contentstack Voice Profiles API
-  phrasing_intents:
-  - id: getAllVoiceProfiles
-    intent: List a Brand Kit's voice profiles
-    question: Which voice profiles are attached to my Brand Kit?
-  - id: createVoiceProfile
-    intent: Create a voice profile
-    question: How do I define a writing tone for AI-generated content in a Brand Kit?
-  - id: getVoiceProfile
-    intent: Get a voice profile
-    question: How do I view the tone and style guidelines of one voice profile?
-  - id: updateVoiceProfile
-    intent: Update a voice profile
-    question: Can I change the tone of an existing voice profile?
-  - id: deleteVoiceProfile
-    intent: Delete a voice profile
-    question: How do I remove a voice profile from a Brand Kit?
-  phrasing_ops: 5
   slug: contentstack-voice-profiles-api
 artifact_total: 202
 asyncapis:
@@ -1369,20 +967,20 @@ rules:
   slug: contentstack-rules
 scopes:
 - name: Contentstack Scopes
-  scope_count: 0
+  scope_count: 105
   slug: contentstack-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 105 scopes · authorization_code
 score:
   band: exemplar
   composite: 75.1
   coverage:
-    artifact_dirs: 34
+    artifact_dirs: 36
     catalog_earned: 84.0
     catalog_earned_first_party: 24.0
     catalog_gap: 31.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.5
   facets:
     access_clarity: 100.0
     contract_governance: 27.3
@@ -1390,7 +988,7 @@ score:
     developer_ergonomics: 63.7
     discoverability: 76.7
     operational_transparency: 84.2
-  previous_composite: 75.0
+  previous_composite: 73.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1412,7 +1010,7 @@ score:
     regime_id: horizontal
     score: 39.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -4,6 +4,67 @@
  "limit": 1000,
  "bands": [
   {
+   "band": "strong",
+   "label": "Strong",
+   "range": "54.3 – 66.4",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "Tomorrow.io",
+     "slug": "tomorrow-io",
+     "description": "Tomorrow.io is a Boston-based weather intelligence platform combining a global proprietary numerical weather model, a constellation of microsatellite weather radars, and a developer-facing v4 REST API. The platform exposes 60+ hyperlocal data layers — core weather, air quality, pollen, solar, soil, fire, flood, lightning, maritime, aviation, road — together with map tiles, severe-weather event detection, routable forecast queries, climate normals, historical archive access, customer-defined locations, named insights, and threshold-based webhook alerts. Used by airlines, on-demand logistics platforms, agriculture, energy, and the US Air Force, Tomorrow.io's API is designed for ETA-aware route planning, geofenced alerting, agentic workflows, and large-scale operational decisioning under weather risk.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/screenshots/tomorrow-io-2026-06-20T195444.png",
+     "score": 63.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 65.0,
+      "contract_quality": 64.0,
+      "contract_governance": 27.3,
+      "operational_transparency": 49.5,
+      "developer_ergonomics": 73.8,
+      "access_clarity": 81.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 24.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 32.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 1
+    }
+   ],
+   "open": true
+  },
+  {
    "band": "developing",
    "label": "Developing",
    "range": "39.3 – 54.2",
@@ -27,7 +88,7 @@
       "developer_ergonomics": 46.4,
       "access_clarity": 67.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -59,25 +120,25 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 1
+     "rank": 2
     },
     {
      "name": "Maersk",
      "slug": "maersk-line",
      "description": "A.P. Moller - Maersk is the Danish integrated container shipping and logistics company. Maersk operates one of the world's largest ocean fleets and a global network of warehouses, inland transport, customs services, and air-freight capacity through Maersk Air Cargo. The Maersk Developer Portal exposes a catalogue of APIs for Track and Trace, Ocean Booking (DCSA-aligned), Schedules, Product Offers and pricing, electronic Bills of Lading, Verified Gross Mass, Demurrage and Detention, Air Booking, VGM, and container Maintenance and Repair. Many of Maersk's APIs implement Digital Container Shipping Association (DCSA) interface standards so the same client can address multiple carriers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/screenshots/maersk-line-2026-06-20T184832.png",
-     "score": 48.7,
+     "score": 48.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 62.5,
+      "discoverability": 57.1,
       "contract_quality": 65.5,
       "contract_governance": 27.3,
       "operational_transparency": 5.3,
       "developer_ergonomics": 38.1,
       "access_clarity": 57.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -109,7 +170,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 2
+     "rank": 3
     },
     {
      "name": "DNV",
@@ -127,7 +188,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -159,7 +220,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "Sofar Ocean",
@@ -177,7 +238,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -209,25 +270,25 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "SERTICA",
      "slug": "sertica",
      "description": "SERTICA is a maritime fleet and ship management system from RINA (originally built by Logimatic in Denmark, first code written in 1989), used to run planned maintenance, procurement, HSQE, crewing, performance, logbooks and vessel reporting across a fleet. It is deployed as a per-customer site rather than a shared multi-tenant service, and it publishes a genuinely large machine-readable contract: the SERTICA Web API is an OpenAPI 3.0.4 document with 2,743 paths, 3,340 operations and 1,104 schemas, served publicly at https://docs.sertica.com/api/swagger/v1/swagger.json and browsable in a live Swagger UI. It is a REST/JSON API authenticated with a 24-hour JWT obtained by posting a SERTICA user login to /Auth, with authorization expressed as per-user SERTICA user rights rather than OAuth scopes. Beyond CRUD it carries the statutory maritime surface - MARPOL Oil, Garbage and Ballast Water electronic record books with signing and printout operations, SFI-coded components, ISM management-system documents, and PunchOut/ShipServ procurement integration.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sertica/refs/heads/main/screenshots/sertica-2026-06-20T193727.png",
-     "score": 46.5,
+     "score": 46.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 73.2,
+      "discoverability": 67.9,
       "contract_quality": 53.2,
       "contract_governance": 4.5,
       "operational_transparency": 23.7,
       "developer_ergonomics": 56.5,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -259,7 +320,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Nortech",
@@ -277,7 +338,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -309,7 +370,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Navis (Kaleris)",
@@ -327,7 +388,7 @@
       "developer_ergonomics": 39.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -359,7 +420,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Starlink",
@@ -377,7 +438,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -409,7 +470,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "MarineTraffic",
@@ -427,7 +488,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 37.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -459,14 +520,14 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Xweather",
      "slug": "xweather",
      "description": "Xweather, a Vaisala company, provides weather data APIs delivering science-backed, hyper-local weather intelligence for operational applications. The Xweather Weather API exposes current conditions, forecasts, severe weather alerts, lightning data, air quality, observations, wildfire information, tropical cyclone tracks, and maritime weather through a single REST API. Authentication uses a client_id and client_secret passed as query parameters or HTTP headers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/screenshots/xweather-2026-06-20T201723.png",
-     "score": 42.7,
+     "score": 43.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -474,10 +535,10 @@
       "contract_quality": 61.2,
       "contract_governance": 27.3,
       "operational_transparency": 10.5,
-      "developer_ergonomics": 40.5,
+      "developer_ergonomics": 42.9,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -509,7 +570,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "SEDNA",
@@ -527,7 +588,7 @@
       "developer_ergonomics": 33.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -559,7 +620,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 12
     }
    ],
    "open": true
@@ -588,7 +649,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 60.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -620,7 +681,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Voyager Portal",
@@ -638,7 +699,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -670,7 +731,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Saildrone",
@@ -688,7 +749,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -720,7 +781,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Kpler",
@@ -738,7 +799,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -770,7 +831,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Port Community Systems",
@@ -788,7 +849,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -820,7 +881,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "AISStream",
@@ -838,7 +899,7 @@
       "developer_ergonomics": 40.0,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -870,7 +931,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Sinay",
@@ -888,7 +949,7 @@
       "developer_ergonomics": 20.2,
       "access_clarity": 49.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -920,7 +981,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "CargoSmart",
@@ -938,7 +999,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -970,7 +1031,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Datalastic",
@@ -988,7 +1049,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1020,7 +1081,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Searoutes",
@@ -1038,7 +1099,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1070,7 +1131,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "AISHub",
@@ -1088,7 +1149,7 @@
       "developer_ergonomics": 20.2,
       "access_clarity": 40.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1120,7 +1181,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "MyShipTracking",
@@ -1138,7 +1199,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1170,7 +1231,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "WaveBL",
@@ -1187,7 +1248,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1219,10 +1280,9 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 25
     }
-   ],
-   "open": true
+   ]
   },
   {
    "band": "emerging",
@@ -1248,7 +1308,7 @@
       "developer_ergonomics": 32.9,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1280,7 +1340,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Kymeta",
@@ -1298,7 +1358,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1330,7 +1390,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Sea Machines Robotics",
@@ -1348,7 +1408,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1380,7 +1440,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Arundo Analytics",
@@ -1398,7 +1458,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1430,7 +1490,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Aegis Marine Shipmanagement",
@@ -1447,7 +1507,7 @@
       "developer_ergonomics": 23.2,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1479,7 +1539,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Marlo Technologies",
@@ -1497,7 +1557,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1529,7 +1589,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Spire Global",
@@ -1547,7 +1607,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1579,7 +1639,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "CMA CGM",
@@ -1597,7 +1657,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1629,7 +1689,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Boatsetter",
@@ -1647,7 +1707,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1679,7 +1739,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Kabal",
@@ -1697,7 +1757,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1729,7 +1789,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Inmarsat",
@@ -1747,7 +1807,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1779,7 +1839,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Seaboard",
@@ -1796,7 +1856,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1828,7 +1888,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Saronic Technologies",
@@ -1846,7 +1906,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1878,7 +1938,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 38
     }
    ]
   },
@@ -1887,8 +1947,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 32,
-   "shown": 32,
+   "count": 31,
+   "shown": 31,
    "providers": [
     {
      "name": "Harbor Lab",
@@ -1906,7 +1966,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1938,7 +1998,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Blueworldtechnologies",
@@ -1955,7 +2015,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1987,7 +2047,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Blue Water Autonomy",
@@ -2005,7 +2065,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2037,7 +2097,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Amogy",
@@ -2055,7 +2115,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2087,7 +2147,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Ocean Aero",
@@ -2105,7 +2165,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2137,7 +2197,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "HavocAI",
@@ -2155,7 +2215,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2187,7 +2247,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Vatn Systems",
@@ -2204,7 +2264,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2236,7 +2296,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Vake",
@@ -2254,7 +2314,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2286,7 +2346,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "REGENT Craft",
@@ -2304,7 +2364,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2336,7 +2396,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "DP World",
@@ -2354,7 +2414,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2386,7 +2446,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Windward",
@@ -2404,7 +2464,7 @@
       "developer_ergonomics": 10.7,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2436,7 +2496,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "Seafair",
@@ -2454,7 +2514,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2486,7 +2546,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "Captain's Eye",
@@ -2504,7 +2564,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2536,7 +2596,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Hapag-Lloyd",
@@ -2554,57 +2614,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 5.9,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 51
-    },
-    {
-     "name": "MSC Mediterranean Shipping Company",
-     "slug": "msc-cargo",
-     "description": "MSC (Mediterranean Shipping Company) is a privately-held, family-owned global container shipping and logistics group headquartered in Geneva, Switzerland, founded in 1970 by Gianluigi Aponte and now led by CEO Soren Toft under the Aponte-Diamant family. MSC is the world's largest container shipping line by fleet size and capacity, operating roughly 900 cargo vessels with a combined intake of about 7 million TEU and controlling more than a fifth of global container capacity as of late 2025. The carrier offers a portfolio of digital shipment-management products through its myMSC e-business platform — including Instant Quote for online rate generation, online booking, electronic Bill of Lading and Sea Waybill issuance via eDocs, container Track & Trace, and the myMSC mobile app — and exposes a Direct Integrations program for shippers, freight forwarders, and NVOCCs that combines REST APIs and EDI message exchange. The MSC Developer Portal (developerportal.msc.com), hosted on Microsoft Azure API Management, publishes documentation and EDI message implementation guides for products such as the DCSA-aligned Track & Trace API (v1.2 and v2.2), Booking, Booking Confirmation (X12 301 / EDIFACT IFTMIN), and Shipping Instructions, alongside ANSI X12 and EDIFACT IFTMIN / IFTMBC / COPRAR reference documents. MSC also runs direct-integration partnerships with INTTRA, Infor Nexus, and CargoSmart. API and EDI access is not self-service: prospective integrators must submit a Direct Integration request, and fees may apply.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/msc-cargo/refs/heads/main/screenshots/msc-cargo-2026-08-07T184417.png",
-     "score": 5.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 49.1,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2639,10 +2649,10 @@
      "rank": 52
     },
     {
-     "name": "ZIM Integrated Shipping Services",
-     "slug": "zim-com",
-     "description": "ZIM Integrated Shipping Services Ltd. (NYSE: ZIM) is a global container liner shipping company founded in 1945 and headquartered in Haifa, Israel. ZIM operates in more than 90 countries, serving over 30,000 customers across more than 300 ports worldwide with a differentiated global-niche strategy focused on agile fleet management and select trade lanes. The company is publicly traded on the New York Stock Exchange and, as of 2026, is the subject of a pending acquisition by Hapag-Lloyd at approximately $35.00 per share. ZIM's digital surface includes the myZIM customer area, ZIMonitor cargo visibility, an electronic Bill of Lading (eB/L) service, a Draft B/L tool, EDI integrations for booking and shipping instructions, a mobile application, and a developer API portal at api.zim.com hosted on Microsoft Azure API Management. Access to the ZIM API requires registering through ZIM API Support and obtaining a security token; rate limits are set per organization at registration. No public OpenAPI specification, SDKs, or GitHub organization are published, so ZIM is profiled here as a Tier-3 catalog entry pending spec disclosure or partner access.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zim-com/refs/heads/main/screenshots/zim-com-2026-06-20T201909.png",
+     "name": "MSC Mediterranean Shipping Company",
+     "slug": "msc-cargo",
+     "description": "MSC (Mediterranean Shipping Company) is a privately-held, family-owned global container shipping and logistics group headquartered in Geneva, Switzerland, founded in 1970 by Gianluigi Aponte and now led by CEO Soren Toft under the Aponte-Diamant family. MSC is the world's largest container shipping line by fleet size and capacity, operating roughly 900 cargo vessels with a combined intake of about 7 million TEU and controlling more than a fifth of global container capacity as of late 2025. The carrier offers a portfolio of digital shipment-management products through its myMSC e-business platform — including Instant Quote for online rate generation, online booking, electronic Bill of Lading and Sea Waybill issuance via eDocs, container Track & Trace, and the myMSC mobile app — and exposes a Direct Integrations program for shippers, freight forwarders, and NVOCCs that combines REST APIs and EDI message exchange. The MSC Developer Portal (developerportal.msc.com), hosted on Microsoft Azure API Management, publishes documentation and EDI message implementation guides for products such as the DCSA-aligned Track & Trace API (v1.2 and v2.2), Booking, Booking Confirmation (X12 301 / EDIFACT IFTMIN), and Shipping Instructions, alongside ANSI X12 and EDIFACT IFTMIN / IFTMBC / COPRAR reference documents. MSC also runs direct-integration partnerships with INTTRA, Infor Nexus, and CargoSmart. API and EDI access is not self-service: prospective integrators must submit a Direct Integration request, and fees may apply.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/msc-cargo/refs/heads/main/screenshots/msc-cargo-2026-08-07T184417.png",
      "score": 5.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2654,7 +2664,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2689,22 +2699,22 @@
      "rank": 53
     },
     {
-     "name": "AliciaBots",
-     "slug": "aliciabots",
-     "description": "AliciaBots is a maritime robotics company, backed by Techstars, that builds autonomous robot teams for cleaning and inspecting ship hulls. Its flagship Roverclean robot operates independently to remove marine growth and monitor hull condition in real time without interrupting a vessel's voyage, using self-learning adaptive systems, precision cleaning, and remote monitoring and control to improve fuel efficiency and help operators meet IMO regulatory standards. AliciaBots does not currently publish a public API or developer program; this profile tracks the company as a network lead.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aliciabots/refs/heads/main/screenshots/aliciabots-2026-07-25T195613.png",
-     "score": 4.8,
+     "name": "ZIM Integrated Shipping Services",
+     "slug": "zim-com",
+     "description": "ZIM Integrated Shipping Services Ltd. (NYSE: ZIM) is a global container liner shipping company founded in 1945 and headquartered in Haifa, Israel. ZIM operates in more than 90 countries, serving over 30,000 customers across more than 300 ports worldwide with a differentiated global-niche strategy focused on agile fleet management and select trade lanes. The company is publicly traded on the New York Stock Exchange and, as of 2026, is the subject of a pending acquisition by Hapag-Lloyd at approximately $35.00 per share. ZIM's digital surface includes the myZIM customer area, ZIMonitor cargo visibility, an electronic Bill of Lading (eB/L) service, a Draft B/L tool, EDI integrations for booking and shipping instructions, a mobile application, and a developer API portal at api.zim.com hosted on Microsoft Azure API Management. Access to the ZIM API requires registering through ZIM API Support and obtaining a security token; rate limits are set per organization at registration. No public OpenAPI specification, SDKs, or GitHub organization are published, so ZIM is profiled here as a Tier-3 catalog entry pending spec disclosure or partner access.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zim-com/refs/heads/main/screenshots/zim-com-2026-06-20T201909.png",
+     "score": 5.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 49.1,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
+      "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2739,10 +2749,10 @@
      "rank": 54
     },
     {
-     "name": "PierSight Space",
-     "slug": "piersight-space",
-     "description": "PierSight Space is an India-based space technology company building a constellation of Synthetic Aperture Radar (SAR) and Automatic Identification System (AIS) satellites for persistent, all-weather maritime surveillance of the world's oceans. Founded by former ISRO engineer Gaurav Seth, PierSight delivers near-real-time ocean monitoring (targeting ~30-minute data latency and 100% ocean coverage) to detect illegal, unreported and unregulated (IUU) fishing, monitor oil spills, protect Exclusive Economic Zones, support maritime insurance risk assessment, and improve shipping operations. The company has raised roughly $8M from investors including Alpha Wave Ventures, Elevation Capital, and Techstars. As of this enrichment pass PierSight sells data solutions to enterprise and government clients and does not publish a public developer API, SDKs, or API documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/piersight-space/refs/heads/main/screenshots/piersight-space-2026-09-02T151238.png",
+     "name": "AliciaBots",
+     "slug": "aliciabots",
+     "description": "AliciaBots is a maritime robotics company, backed by Techstars, that builds autonomous robot teams for cleaning and inspecting ship hulls. Its flagship Roverclean robot operates independently to remove marine growth and monitor hull condition in real time without interrupting a vessel's voyage, using self-learning adaptive systems, precision cleaning, and remote monitoring and control to improve fuel efficiency and help operators meet IMO regulatory standards. AliciaBots does not currently publish a public API or developer program; this profile tracks the company as a network lead.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aliciabots/refs/heads/main/screenshots/aliciabots-2026-07-25T195613.png",
      "score": 4.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2754,7 +2764,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2789,22 +2799,22 @@
      "rank": 55
     },
     {
-     "name": "ThayerMahan",
-     "slug": "thayermahan",
-     "description": "ThayerMahan, Inc. is a U.S. maritime autonomy and ocean-intelligence company headquartered in Groton, Connecticut, founded in 2016 and led by former U.S. Navy Vice Admiral Michael Connor. It builds and operates uncrewed surface and subsurface sensing systems — Outpost, SeaPicket, SeaGuard (a non-kinetic counter-UUV defeat system) and the TransparenSea data platform — combining passive acoustic arrays, electronic sensors, edge processing, AI classification and human analysts to deliver persistent undersea surveillance, port and critical-infrastructure security, subsea infrastructure monitoring, passive acoustic marine-mammal monitoring and illegal-fishing (IUU) detection for defense, government and commercial offshore customers. ThayerMahan sells outcomes as a service rather than developer tooling: it publishes no developer portal, no API documentation and no machine-readable contract. The only public reference to programmatic access is on the TransparenSea page, which states that contact reports are delivered by application programming interface (API), voice report, or other means in near real-time — a customer-delivery integration negotiated per engagement, not a self-serve public API. Its GitHub organization holds two forks of third-party tools and no first-party libraries.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thayermahan/refs/heads/main/screenshots/thayermahan-2026-09-02T163318.png",
-     "score": 4.4,
+     "name": "PierSight Space",
+     "slug": "piersight-space",
+     "description": "PierSight Space is an India-based space technology company building a constellation of Synthetic Aperture Radar (SAR) and Automatic Identification System (AIS) satellites for persistent, all-weather maritime surveillance of the world's oceans. Founded by former ISRO engineer Gaurav Seth, PierSight delivers near-real-time ocean monitoring (targeting ~30-minute data latency and 100% ocean coverage) to detect illegal, unreported and unregulated (IUU) fishing, monitor oil spills, protect Exclusive Economic Zones, support maritime insurance risk assessment, and improve shipping operations. The company has raised roughly $8M from investors including Alpha Wave Ventures, Elevation Capital, and Techstars. As of this enrichment pass PierSight sells data solutions to enterprise and government clients and does not publish a public developer API, SDKs, or API documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/piersight-space/refs/heads/main/screenshots/piersight-space-2026-09-02T151238.png",
+     "score": 4.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 55.4,
+      "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2839,121 +2849,22 @@
      "rank": 56
     },
     {
-     "name": "Andrenam",
-     "slug": "andrenam",
-     "description": "Andrenam is a defense technology company building an AI-powered maritime sensing network for undersea surveillance. It develops mass-manufacturable, low-cost buoy-based autonomous sonar systems that deploy from manned and unmanned vessels to detect, track, and identify real-time maritime traffic using cloud and edge AI, then dispatch resources to priority areas. Its product line spans deployment, AI-enhanced detection, and integration with naval command-and-control systems, targeting government and military maritime-domain-awareness customers. No public API, developer portal, or documentation surface is currently published.",
-     "score": 4.3,
+     "name": "ThayerMahan",
+     "slug": "thayermahan",
+     "description": "ThayerMahan, Inc. is a U.S. maritime autonomy and ocean-intelligence company headquartered in Groton, Connecticut, founded in 2016 and led by former U.S. Navy Vice Admiral Michael Connor. It builds and operates uncrewed surface and subsurface sensing systems — Outpost, SeaPicket, SeaGuard (a non-kinetic counter-UUV defeat system) and the TransparenSea data platform — combining passive acoustic arrays, electronic sensors, edge processing, AI classification and human analysts to deliver persistent undersea surveillance, port and critical-infrastructure security, subsea infrastructure monitoring, passive acoustic marine-mammal monitoring and illegal-fishing (IUU) detection for defense, government and commercial offshore customers. ThayerMahan sells outcomes as a service rather than developer tooling: it publishes no developer portal, no API documentation and no machine-readable contract. The only public reference to programmatic access is on the TransparenSea page, which states that contact reports are delivered by application programming interface (API), voice report, or other means in near real-time — a customer-delivery integration negotiated per engagement, not a self-serve public API. Its GitHub organization holds two forks of third-party tools and no first-party libraries.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thayermahan/refs/heads/main/screenshots/thayermahan-2026-09-02T163318.png",
+     "score": 4.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 55.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 5.5,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 57
-    },
-    {
-     "name": "Orbital Insight",
-     "slug": "orbital-insight",
-     "description": "Orbital Insight was a Palo Alto, California geospatial analytics company founded in 2013 by James Crawford (formerly Bell Labs, Google Books, and NASA's Mars rover program). The company applied computer vision and machine learning to satellite imagery, aerial photography, AIS vessel signals, and IoT/mobile location data to produce intelligence on supply chains, global commodities (notably oil storage via its Global Geospatial Crude Index), geopolitical events, demographics, retail foot traffic, disaster damage, and national-security questions. Its flagship product was the GO platform (later rebranded TerraScope), a self-service geospatial intelligence platform layering proprietary models over commercial satellite imagery from partners including DigitalGlobe, Airbus, Planet Labs, and e-GEOS. Orbital Insight raised funding from In-Q-Tel, GV (Google Ventures), Sequoia Capital, CME Ventures, and others, and acquired Boston-based FeatureX in 2018. After a period of financial distress in 2023, Orbital Insight was acquired by Privateer (co-founded by Apple's Steve Wozniak and Alex Fielding) on May 6, 2024. Following the acquisition, the standalone orbitalinsight.com brand was wound down and the TerraScope platform is now offered by Privateer alongside its Wayfinder space-domain-awareness data engine, fused into Privateer's \"Elements\" all-domain data platform. As of 2026 there is no public self-service Orbital Insight developer API, SDK, or open-source release; the orbitalinsight GitHub organization has only two archived repositories (a region-aggregation reference and a fork of tileserver-gl) and no current developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/orbital-insight/refs/heads/main/screenshots/orbital-insight-2026-06-20T191159.png",
-     "score": 4.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 4.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 58
-    },
-    {
-     "name": "Ocean Network Express",
-     "slug": "ocean-network-express",
-     "description": "Ocean Network Express (ONE) is a Singapore-headquartered global container liner shipping company formed in 2017 through the integration of the container shipping businesses of three Japanese carriers — Nippon Yusen Kaisha (NYK), Mitsui O.S.K. Lines (MOL), and Kawasaki Kisen Kaisha (K-Line) — with commercial operations launching on 1 April 2018. Operating under the magenta \"ONE\" brand and the Standard Carrier Alpha Code ONEY, the company runs a fleet exceeding 2,200,000 TEU across 165+ weekly service loops calling at 244+ ports worldwide, making it one of the largest ocean container carriers globally. ONE participates in THE Alliance vessel sharing agreement and offers reefer, dangerous goods, out-of-gauge, and project cargo services alongside standard dry container moves. Its customer-facing digital surface centers on the ONE eCommerce platform (ecomm.one-line.com), which provides cargo tracking, instant quotation via ONE QUOTE (powered by Descartes Kontainers), spot booking, shipping instructions, electronic bill of lading, ePayment, and demurrage/detention inquiry. A partner-facing developer portal exists at developers.one-line.com alongside EDI integration channels, but ONE does not publish a fully open, self-service OpenAPI specification, public SDK, or open-source code at either the github.com/ocean-network-express or github.com/OceanNetworkExpress organizations (both exist with zero public repositories). Tracking, booking, and schedule integrations are most commonly accessed by shippers and BCOs through third-party aggregators (Vizion, Portcast, JSONCargo, Terminal49, Tradlinx) or via DCSA-conformant carrier APIs delivered under commercial agreement.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ocean-network-express/refs/heads/main/screenshots/ocean-network-express-2026-06-20T190604.png",
-     "score": 4.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 49.1,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2985,25 +2896,124 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 57
     },
     {
-     "name": "AICE",
-     "slug": "aice",
-     "description": "AICE is a defense-technology company building the next generation of underwater defense systems: autonomous swarms of modular marine drones that secure naval assets and coastal infrastructure against evolving underwater threats. Founded in 2026 by former NASA engineer Gregoire Chomette and European Robotics Champion Remi Bouteiller, the company is part of the Y Combinator Spring 2026 batch, is based in the San Francisco Bay Area with hardware manufactured in France, and applies swarm robotics and AI to surveillance, detection, and protection of critical subsea infrastructure. AICE currently ships hardware and does not publish a public API, SDK, or developer platform; this profile tracks the company for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aice/refs/heads/main/screenshots/aice-2026-07-25T195343.png",
-     "score": 3.7,
+     "name": "Andrenam",
+     "slug": "andrenam",
+     "description": "Andrenam is a defense technology company building an AI-powered maritime sensing network for undersea surveillance. It develops mass-manufacturable, low-cost buoy-based autonomous sonar systems that deploy from manned and unmanned vessels to detect, track, and identify real-time maritime traffic using cloud and edge AI, then dispatch resources to priority areas. Its product line spans deployment, AI-enhanced detection, and integration with naval command-and-control systems, targeting government and military maritime-domain-awareness customers. No public API, developer portal, or documentation surface is currently published.",
+     "score": 4.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 58
+    },
+    {
+     "name": "Orbital Insight",
+     "slug": "orbital-insight",
+     "description": "Orbital Insight was a Palo Alto, California geospatial analytics company founded in 2013 by James Crawford (formerly Bell Labs, Google Books, and NASA's Mars rover program). The company applied computer vision and machine learning to satellite imagery, aerial photography, AIS vessel signals, and IoT/mobile location data to produce intelligence on supply chains, global commodities (notably oil storage via its Global Geospatial Crude Index), geopolitical events, demographics, retail foot traffic, disaster damage, and national-security questions. Its flagship product was the GO platform (later rebranded TerraScope), a self-service geospatial intelligence platform layering proprietary models over commercial satellite imagery from partners including DigitalGlobe, Airbus, Planet Labs, and e-GEOS. Orbital Insight raised funding from In-Q-Tel, GV (Google Ventures), Sequoia Capital, CME Ventures, and others, and acquired Boston-based FeatureX in 2018. After a period of financial distress in 2023, Orbital Insight was acquired by Privateer (co-founded by Apple's Steve Wozniak and Alex Fielding) on May 6, 2024. Following the acquisition, the standalone orbitalinsight.com brand was wound down and the TerraScope platform is now offered by Privateer alongside its Wayfinder space-domain-awareness data engine, fused into Privateer's \"Elements\" all-domain data platform. As of 2026 there is no public self-service Orbital Insight developer API, SDK, or open-source release; the orbitalinsight GitHub organization has only two archived repositories (a region-aggregation reference and a fork of tileserver-gl) and no current developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/orbital-insight/refs/heads/main/screenshots/orbital-insight-2026-06-20T191159.png",
+     "score": 4.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 4.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 59
+    },
+    {
+     "name": "Ocean Network Express",
+     "slug": "ocean-network-express",
+     "description": "Ocean Network Express (ONE) is a Singapore-headquartered global container liner shipping company formed in 2017 through the integration of the container shipping businesses of three Japanese carriers — Nippon Yusen Kaisha (NYK), Mitsui O.S.K. Lines (MOL), and Kawasaki Kisen Kaisha (K-Line) — with commercial operations launching on 1 April 2018. Operating under the magenta \"ONE\" brand and the Standard Carrier Alpha Code ONEY, the company runs a fleet exceeding 2,200,000 TEU across 165+ weekly service loops calling at 244+ ports worldwide, making it one of the largest ocean container carriers globally. ONE participates in THE Alliance vessel sharing agreement and offers reefer, dangerous goods, out-of-gauge, and project cargo services alongside standard dry container moves. Its customer-facing digital surface centers on the ONE eCommerce platform (ecomm.one-line.com), which provides cargo tracking, instant quotation via ONE QUOTE (powered by Descartes Kontainers), spot booking, shipping instructions, electronic bill of lading, ePayment, and demurrage/detention inquiry. A partner-facing developer portal exists at developers.one-line.com alongside EDI integration channels, but ONE does not publish a fully open, self-service OpenAPI specification, public SDK, or open-source code at either the github.com/ocean-network-express or github.com/OceanNetworkExpress organizations (both exist with zero public repositories). Tracking, booking, and schedule integrations are most commonly accessed by shippers and BCOs through third-party aggregators (Vizion, Portcast, JSONCargo, Terminal49, Tradlinx) or via DCSA-conformant carrier APIs delivered under commercial agreement.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ocean-network-express/refs/heads/main/screenshots/ocean-network-express-2026-06-20T190604.png",
+     "score": 4.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 49.1,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3038,71 +3048,22 @@
      "rank": 60
     },
     {
-     "name": "Fleetzero",
-     "slug": "fleetzero",
-     "description": "Fleetzero is a Houston-based maritime technology company, founded in 2021 and led by U.S. Navy veterans and shipping-industry experts, building battery-electric energy and robotics systems to decarbonize ocean shipping at cost parity with fossil fuels. Its Leviathan modular marine energy storage system, 3.8 MWh marine battery containers, and 55 MWh battery barges provide propulsion power and mobile charging infrastructure for cargo vessels. Backed by Obvious Ventures, Fleetzero was added to the API Evangelist network as a portfolio-lead stub; it currently publishes no public developer, API, or documentation surface, so this profile carries company identity and infrastructure signals only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fleetzero/refs/heads/main/screenshots/fleetzero-2026-07-25T214742.png",
-     "score": 3.6,
+     "name": "AICE",
+     "slug": "aice",
+     "description": "AICE is a defense-technology company building the next generation of underwater defense systems: autonomous swarms of modular marine drones that secure naval assets and coastal infrastructure against evolving underwater threats. Founded in 2026 by former NASA engineer Gregoire Chomette and European Robotics Champion Remi Bouteiller, the company is part of the Y Combinator Spring 2026 batch, is based in the San Francisco Bay Area with hardware manufactured in France, and applies swarm robotics and AI to surveillance, detection, and protection of critical subsea infrastructure. AICE currently ships hardware and does not publish a public API, SDK, or developer platform; this profile tracks the company for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aice/refs/heads/main/screenshots/aice-2026-07-25T195343.png",
+     "score": 3.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 4.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 61
-    },
-    {
-     "name": "Iridium",
-     "slug": "iridium-com",
-     "description": "Iridium Communications Inc. (NASDAQ: IRDM) is a McLean, Virginia satellite communications company operating a constellation of 66 cross-linked Low Earth Orbit (LEO) satellites that deliver truly global L-band voice, data, IoT, and positioning/navigation/timing (PNT) services across every region of the Earth, including the polar oceans. Iridium sells satellite phones (Iridium Extreme), satellite messengers, satellite IoT modules and modems (Iridium 9602/9603, Iridium Certus 9770/9810/9704, Iridium Edge, Iridium Edge Pro, Iridium Edge Solar), Short Burst Data (SBD) messaging, broadband Certus terminals, and next-generation Iridium NTN Direct 5G Non-Terrestrial Network services built on 3GPP NB-IoT for direct-to-device smartphone and IoT connectivity. Iridium CloudConnect — co-developed with Amazon Web Services — pipes satellite IoT data as JSON into customer-owned Amazon SQS queues inside their own AWS VPC over a dedicated private Iridium-AWS interconnect, making Iridium the first global cloud-native satellite IoT backhaul. The company serves aviation, maritime, government/defense, land-mobile, autonomous systems, and IoT markets through a partner ecosystem of more than 500 service providers, value-added resellers, and hardware OEMs, and in May 2026 announced a planned acquisition of Aireon, operator of the world's only space-based air traffic surveillance network. Iridium's business model is airtime/subscription revenue plus hardware module licensing and engineering services; there is no public, self-service developer API or OpenAPI — network access is mediated through Iridium-authorized service providers, the Iridium CloudConnect AWS integration, and hardware-level AT-command and SBD interfaces on Iridium modems.",
-     "score": 3.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 49.1,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3134,13 +3095,62 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 61
+    },
+    {
+     "name": "Fleetzero",
+     "slug": "fleetzero",
+     "description": "Fleetzero is a Houston-based maritime technology company, founded in 2021 and led by U.S. Navy veterans and shipping-industry experts, building battery-electric energy and robotics systems to decarbonize ocean shipping at cost parity with fossil fuels. Its Leviathan modular marine energy storage system, 3.8 MWh marine battery containers, and 55 MWh battery barges provide propulsion power and mobile charging infrastructure for cargo vessels. Backed by Obvious Ventures, Fleetzero was added to the API Evangelist network as a portfolio-lead stub; it currently publishes no public developer, API, or documentation surface, so this profile carries company identity and infrastructure signals only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fleetzero/refs/heads/main/screenshots/fleetzero-2026-07-25T214742.png",
+     "score": 3.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 4.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 62
     },
     {
-     "name": "Philly Shipyard",
-     "slug": "philly-shipyard",
-     "description": "Philly Shipyard (now Hanwha Philly Shipyard, Inc.) is a commercial shipbuilder based at the former Philadelphia Naval Shipyard, constructing Jones Act-compliant container ships, product and Aframax tankers, and National Security Multi-Mission Vessels (NSMVs) for the U.S. Maritime Administration and state maritime academies. In December 2024, Hanwha Systems and Hanwha Ocean (subsidiaries of South Korea's Hanwha Group) completed the acquisition of Philly Shipyard for approximately $100M, rebranding the operation as Hanwha Philly Shipyard Inc. (HPSI). No public developer APIs have been identified at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/philly-shipyard/refs/heads/main/screenshots/philly-shipyard-2026-06-20T191645.png",
+     "name": "Iridium",
+     "slug": "iridium-com",
+     "description": "Iridium Communications Inc. (NASDAQ: IRDM) is a McLean, Virginia satellite communications company operating a constellation of 66 cross-linked Low Earth Orbit (LEO) satellites that deliver truly global L-band voice, data, IoT, and positioning/navigation/timing (PNT) services across every region of the Earth, including the polar oceans. Iridium sells satellite phones (Iridium Extreme), satellite messengers, satellite IoT modules and modems (Iridium 9602/9603, Iridium Certus 9770/9810/9704, Iridium Edge, Iridium Edge Pro, Iridium Edge Solar), Short Burst Data (SBD) messaging, broadband Certus terminals, and next-generation Iridium NTN Direct 5G Non-Terrestrial Network services built on 3GPP NB-IoT for direct-to-device smartphone and IoT connectivity. Iridium CloudConnect — co-developed with Amazon Web Services — pipes satellite IoT data as JSON into customer-owned Amazon SQS queues inside their own AWS VPC over a dedicated private Iridium-AWS interconnect, making Iridium the first global cloud-native satellite IoT backhaul. The company serves aviation, maritime, government/defense, land-mobile, autonomous systems, and IoT markets through a partner ecosystem of more than 500 service providers, value-added resellers, and hardware OEMs, and in May 2026 announced a planned acquisition of Aireon, operator of the world's only space-based air traffic surveillance network. Iridium's business model is airtime/subscription revenue plus hardware module licensing and engineering services; there is no public, self-service developer API or OpenAPI — network access is mediated through Iridium-authorized service providers, the Iridium CloudConnect AWS integration, and hardware-level AT-command and SBD interfaces on Iridium modems.",
      "score": 3.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3152,7 +3162,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3187,22 +3197,22 @@
      "rank": 63
     },
     {
-     "name": "Dimeq",
-     "slug": "dimeq",
-     "description": "Dimeq is a Norwegian maritime safety technology company working to prevent loss of life at sea and set new health, safety and environmental (HSE) standards for the maritime sector. Its Eye-D System is an IoT-based digital ecosystem that delivers real-time positioning of crew and passengers to one-meter accuracy during emergencies, man-overboard detection using environmental sensors, automatic mustering that registers people in seconds, and statistical analysis for accident documentation and prevention, while keeping data anonymous and GDPR-compliant outside of emergencies. The D-Router gateway supports Wi-Fi, Ethernet, PLC, fiber optics, UWB, Bluetooth, LoRa, ZigBee and MATTER connectivity. This is a hardware/IoT product company with no public developer portal, API, SDK or documentation surface at the time of enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dimeq/refs/heads/main/screenshots/dimeq-2026-07-25T212045.png",
-     "score": 3.4,
+     "name": "Philly Shipyard",
+     "slug": "philly-shipyard",
+     "description": "Philly Shipyard (now Hanwha Philly Shipyard, Inc.) is a commercial shipbuilder based at the former Philadelphia Naval Shipyard, constructing Jones Act-compliant container ships, product and Aframax tankers, and National Security Multi-Mission Vessels (NSMVs) for the U.S. Maritime Administration and state maritime academies. In December 2024, Hanwha Systems and Hanwha Ocean (subsidiaries of South Korea's Hanwha Group) completed the acquisition of Philly Shipyard for approximately $100M, rebranding the operation as Hanwha Philly Shipyard Inc. (HPSI). No public developer APIs have been identified at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/philly-shipyard/refs/heads/main/screenshots/philly-shipyard-2026-06-20T191645.png",
+     "score": 3.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 49.1,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3237,10 +3247,10 @@
      "rank": 64
     },
     {
-     "name": "Seasats",
-     "slug": "seasats",
-     "description": "Seasats designs and manufactures autonomous uncrewed surface vehicles (USVs) for ocean intelligence, maritime domain awareness, and defense missions. Its platform lines include the hand-deployable Lightfish (6-month endurance), the fast-response Quickfish (35+ knots with an integrated drone bay), and the heavy-payload Heavyfish. Vessels carry modular payloads, run persistent autonomous surveys, and integrate with existing command-and-control (C2) architectures. Seasats is a Techstars-backed company. As of this enrichment pass Seasats publishes no public developer API, SDK, documentation portal, or machine-readable discovery surface; its integration story is C2 interoperability, not a web API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/seasats/refs/heads/main/screenshots/seasats-2026-09-02T154653.png",
+     "name": "Dimeq",
+     "slug": "dimeq",
+     "description": "Dimeq is a Norwegian maritime safety technology company working to prevent loss of life at sea and set new health, safety and environmental (HSE) standards for the maritime sector. Its Eye-D System is an IoT-based digital ecosystem that delivers real-time positioning of crew and passengers to one-meter accuracy during emergencies, man-overboard detection using environmental sensors, automatic mustering that registers people in seconds, and statistical analysis for accident documentation and prevention, while keeping data anonymous and GDPR-compliant outside of emergencies. The D-Router gateway supports Wi-Fi, Ethernet, PLC, fiber optics, UWB, Bluetooth, LoRa, ZigBee and MATTER connectivity. This is a hardware/IoT product company with no public developer portal, API, SDK or documentation surface at the time of enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dimeq/refs/heads/main/screenshots/dimeq-2026-07-25T212045.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3252,7 +3262,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3287,22 +3297,22 @@
      "rank": 65
     },
     {
-     "name": "COSCO Shipping",
-     "slug": "cosco-shipping",
-     "description": "A Chinese state-owned multinational shipping and logistics conglomerate and the world's largest container shipping fleet by capacity. Operates container shipping, port terminals, bulk cargo services, and digital supply chain platforms (Syncon Hub, My Reefer, Hi-Dolphin) across global trade routes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cosco-shipping/refs/heads/main/screenshots/cosco-shipping-2026-06-20T175053.png",
-     "score": 3.3,
+     "name": "Seasats",
+     "slug": "seasats",
+     "description": "Seasats designs and manufactures autonomous uncrewed surface vehicles (USVs) for ocean intelligence, maritime domain awareness, and defense missions. Its platform lines include the hand-deployable Lightfish (6-month endurance), the fast-response Quickfish (35+ knots with an integrated drone bay), and the heavy-payload Heavyfish. Vessels carry modular payloads, run persistent autonomous surveys, and integrate with existing command-and-control (C2) architectures. Seasats is a Techstars-backed company. As of this enrichment pass Seasats publishes no public developer API, SDK, documentation portal, or machine-readable discovery surface; its integration story is C2 interoperability, not a web API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/seasats/refs/heads/main/screenshots/seasats-2026-09-02T154653.png",
+     "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 43.8,
+      "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3337,29 +3347,29 @@
      "rank": 66
     },
     {
-     "name": "Federal Maritime Commission",
-     "slug": "fmc-gov",
-     "description": "The Federal Maritime Commission (FMC) is an independent agency of the United States government responsible for the regulation of international ocean transportation. The FMC oversees the practices of ocean common carriers, marine terminal operators, and other regulated entities.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fmc-gov/refs/heads/main/screenshots/home-federal-maritime-commission-2026-06-20T182815.png",
+     "name": "COSCO Shipping",
+     "slug": "cosco-shipping",
+     "description": "A Chinese state-owned multinational shipping and logistics conglomerate and the world's largest container shipping fleet by capacity. Operates container shipping, port terminals, bulk cargo services, and digital supply chain platforms (Syncon Hub, My Reefer, Hi-Dolphin) across global trade routes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cosco-shipping/refs/heads/main/screenshots/cosco-shipping-2026-06-20T175053.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 39.3,
+      "discoverability": 43.8,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
       "score": 5.9,
-      "matched_via": "tags"
+      "matched_via": "fallback"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3401,7 +3411,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3451,7 +3461,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,

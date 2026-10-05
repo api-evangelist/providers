@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -48,189 +48,71 @@ apis:
   baseurl_source: declared
   description: Retrieve a user's loyalty account, rewards, and points balances.
   name: Thanx Account API
-  phrasing_intents:
-  - id: getAccount
-    intent: Get a user's loyalty account
-    question: What rewards and points does my loyalty account have available right now?
-  phrasing_ops: 1
   slug: thanx-account-api
 - baseURL: https://api.thanx.com
   baseurl_source: declared
   description: Acquire privileged end-user access tokens.
   name: Thanx Auth API
-  phrasing_intents:
-  - id: createToken
-    intent: Get an access token for a merchant's end user
-    question: How do I get a privileged access token to act on behalf of a loyalty member?
-  phrasing_ops: 1
   slug: thanx-auth-api
 - baseURL: https://loyalty.thanx.com
   baseurl_source: declared
   description: Create and update ordering baskets and redeem rewards or points products.
   name: Thanx Baskets API
-  phrasing_intents:
-  - id: createUpdateBasket
-    intent: Create or update an order basket with loyalty discounts
-    question: How do I calculate loyalty discounts on an online order before checkout?
-  phrasing_ops: 1
   slug: thanx-baskets-api
 - baseURL: https://api.thanx.com
   baseurl_source: declared
   description: Create, retrieve, list campaigns and issue rewards.
   name: Thanx Campaigns API
-  phrasing_intents:
-  - id: createCampaign
-    intent: Create a marketing campaign
-    question: How do I set up a new marketing campaign with a control group?
-  - id: listCampaigns
-    intent: List a merchant's campaigns
-    question: Which marketing campaigns are set up for my merchant?
-  - id: getCampaign
-    intent: Get one campaign's details
-    question: What are the variants and settings of a particular campaign?
-  - id: issueRewards
-    intent: Issue campaign rewards to a batch of users
-    question: How do I send campaign rewards to a list of customers at once?
-  phrasing_ops: 4
   slug: thanx-campaigns-api
 - baseURL: https://api.thanx.com
   baseurl_source: declared
   description: Register and manage payment cards for card-linked loyalty.
   name: Thanx Cards API
-  phrasing_intents:
-  - id: createCard
-    intent: Register a payment card for card-linked loyalty
-    question: How do I link a credit card so purchases earn loyalty automatically?
-  - id: getCards
-    intent: List my registered payment cards
-    question: Which payment cards are linked to my loyalty account?
-  - id: deleteCard
-    intent: Remove a registered card
-    question: How do I unlink a card I no longer use from my loyalty account?
-  phrasing_ops: 3
   slug: thanx-cards-api
 - baseURL: https://api.thanx.com
   baseurl_source: declared
   description: Create, retrieve, and delete digital gift cards.
   name: Thanx Gift Cards API
-  phrasing_intents:
-  - id: getGiftCards
-    intent: List my gift cards
-    question: Which gift cards do I have on my account?
-  - id: createGiftCard
-    intent: Create a digital gift card
-    question: How do I create a new digital gift card?
-  phrasing_ops: 2
   slug: thanx-gift-cards-api
 - baseURL: https://api.thanx.com
   baseurl_source: declared
   description: Track and revoke asynchronous reward issuance jobs.
   name: Thanx Issuance Jobs API
-  phrasing_intents:
-  - id: getIssuanceJob
-    intent: Check a reward issuance job's status
-    question: Has my bulk reward issuance finished processing yet?
-  - id: revokeIssuanceJob
-    intent: Revoke a reward issuance job
-    question: Can I take back rewards that were issued by mistake in a bulk job?
-  phrasing_ops: 2
   slug: thanx-issuance-jobs-api
 - baseURL: https://api.thanx.com
   baseurl_source: declared
   description: Retrieve merchant locations.
   name: Thanx Locations API
-  phrasing_intents:
-  - id: getLocations
-    intent: List merchant locations
-    question: Which store locations does a merchant have?
-  phrasing_ops: 1
   slug: thanx-locations-api
 - baseURL: https://api.thanx.com
   baseurl_source: declared
   description: Look up merchants, locations, and scopes.
   name: Thanx Metadata API
-  phrasing_intents:
-  - id: getMerchants
-    intent: List merchants the partner can access
-    question: Which merchants does my partner integration have access to?
-  - id: getPartnerLocations
-    intent: List locations the partner can access
-    question: Which locations can my partner integration work with?
-  - id: getScopes
-    intent: List the partner's OAuth scopes
-    question: What OAuth scopes are available to my partner account?
-  phrasing_ops: 3
   slug: thanx-metadata-api
 - baseURL: https://api.thanx.com
   baseurl_source: declared
   description: Points balances, products, experiences, and multipliers.
   name: Thanx Points API
-  phrasing_intents:
-  - id: getPointsBalance
-    intent: Get a user's points balance
-    question: How many points do I have in a points program?
-  phrasing_ops: 1
   slug: thanx-points-api
 - baseURL: https://api.thanx.com
   baseurl_source: declared
   description: Retrieve and report consumer purchases.
   name: Thanx Purchases API
-  phrasing_intents:
-  - id: getPurchases
-    intent: List consumer purchases
-    question: What purchases has a particular customer made?
-  - id: createPurchase
-    intent: Report a consumer purchase
-    question: How do I report a customer's purchase so it counts toward loyalty?
-  phrasing_ops: 2
   slug: thanx-purchases-api
 - baseURL: https://api.thanx.com
   baseurl_source: declared
   description: Retrieve, activate, finalize, and grant loyalty rewards.
   name: Thanx Rewards API
-  phrasing_intents:
-  - id: getRewards
-    intent: List loyalty rewards
-    question: Which loyalty rewards does a customer currently have?
-  - id: getReward
-    intent: Get one reward's details
-    question: What are the details and state of a specific reward?
-  - id: activateReward
-    intent: Activate a reward for redemption
-    question: How do I make a reward ready to redeem?
-  - id: finalizeReward
-    intent: Finalize a reward after redemption
-    question: How do I mark a reward as finished once it has been redeemed?
-  phrasing_ops: 4
   slug: thanx-rewards-api
 - baseURL: https://api.thanx.com
   baseurl_source: declared
   description: Ingest marketing subscribers.
   name: Thanx Subscribers API
-  phrasing_intents:
-  - id: createSubscriber
-    intent: Add a marketing subscriber for a merchant
-    question: How do I add someone to a merchant's marketing list?
-  phrasing_ops: 1
   slug: thanx-subscribers-api
 - baseURL: https://api.thanx.com
   baseurl_source: declared
   description: Create, retrieve, update, and delete Thanx users.
   name: Thanx Users API
-  phrasing_intents:
-  - id: getUser
-    intent: Get my own user profile
-    question: What profile details does my signed-in loyalty account have?
-  - id: createUser
-    intent: Sign up a new user
-    question: How do I sign up a new member for the loyalty program?
-  - id: getPartnerUser
-    intent: Look up a user by ID as a partner
-    question: How can a partner look up a specific loyalty member by ID?
-  - id: getPartnerUsers
-    intent: List a merchant's users
-    question: Which loyalty members belong to a merchant?
-  phrasing_ops: 4
   slug: thanx-users-api
 artifact_total: 153
 asyncapis:
@@ -335,6 +217,11 @@ collections:
   name: Thanx Consumer Account Users API
   slug: open-thanx-users-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/capabilities/thanx-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/thanx-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -875,7 +762,7 @@ overview: 'Thanx publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
   The Thanx catalog on APIs.io includes 1 event-driven AsyncAPI specification, 3 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
-  Thanx''s developer surface includes authentication, documentation, getting-started guide, pricing, changelog, tooling, code examples, and 48 more developer resources.'
+  Thanx''s developer surface includes authentication, documentation, getting-started guide, pricing, changelog, tooling, code examples, and 49 more developer resources.'
 plans:
 - name: Thanx Plans Pricing
   plan_count: 1
@@ -909,17 +796,17 @@ rules:
   slug: thanx-spectral-rules
 scopes:
 - name: Thanx Scopes
-  scope_count: 0
+  scope_count: 12
   slug: thanx-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 12 scopes
 score:
   band: exemplar
-  composite: 75.9
+  composite: 75.4
   coverage:
-    artifact_dirs: 34
-    catalog_earned: 92.0
+    artifact_dirs: 35
+    catalog_earned: 89.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 23.0
+    catalog_gap: 26.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.5
@@ -928,9 +815,9 @@ score:
     contract_governance: 45.5
     contract_quality: 75.8
     developer_ergonomics: 84.5
-    discoverability: 80.0
+    discoverability: 75.0
     operational_transparency: 86.8
-  previous_composite: 75.4
+  previous_composite: 74.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -948,7 +835,7 @@ score:
     regime_id: horizontal
     score: 31.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

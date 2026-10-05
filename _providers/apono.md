@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 5
 apis:
 - description: API reference for Apono's privileged access management platform.
@@ -109,7 +109,7 @@ score:
     regime_id: horizontal
     score: 5.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -150,6 +150,11 @@ apis:
   slug: artashippinginc-webhooks-api
 artifact_total: 33
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/capabilities/artashippinginc-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/artashippinginc-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/artashippinginc/refs/heads/main/agentic-access/artashippinginc-agentic-access.yml
   title: ''
@@ -261,7 +266,7 @@ score:
   band: emerging
   composite: 21.1
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 45.0
     catalog_earned_first_party: 0.0
     catalog_gap: 70.0
@@ -297,7 +302,7 @@ score:
     regime_id: horizontal
     score: 10.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 0.0

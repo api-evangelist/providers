@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -65,7 +65,7 @@ apis:
   description: Cross-encoder reranking
   name: Jina AI Reranker API
   slug: jina-ai-reranker-api
-artifact_total: 19
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -92,6 +92,11 @@ collections:
   name: Jina AI Reranker API
   slug: open-jina-ai-reranker
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/capabilities/jina-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/jina-ai-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/agentic-access/jina-ai-agentic-access.yml
   title: ''
@@ -155,6 +160,9 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
+- description: Remote MCP server at mcp.jina.ai over HTTP; 22 tools listed.
+  name: Jina AI MCP Server
+  slug: jina-ai
 modified: '2026-05-19'
 name: Jina AI
 nav: Providers
@@ -162,7 +170,7 @@ network: true
 overview: 'Jina AI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Batch API, Embeddings API, Reader API, and 1 more. Tagged areas include Artificial Intelligence, Embeddings, Machine Learning, Reranking, and Search.
 
 
-  Jina AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, and 7 more developer resources.'
+  Jina AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, and 8 more developer resources.'
 plans:
 - name: Jina Ai Plans Pricing
   plan_count: 5
@@ -176,13 +184,13 @@ score:
   band: thin
   composite: 32.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 49.0
     catalog_earned_first_party: 0.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.2
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
@@ -190,7 +198,7 @@ score:
     developer_ergonomics: 31.0
     discoverability: 80.0
     operational_transparency: 10.5
-  previous_composite: 32.1
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     contracts:
@@ -206,7 +214,7 @@ score:
     regime_id: horizontal
     score: 10.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

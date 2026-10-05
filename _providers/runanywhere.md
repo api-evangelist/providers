@@ -32,13 +32,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Hosted control plane the RunAnywhere SDKs talk to for model delivery, extraction, versioning, and configuration. Authenticated with an API key supplied at SDK initialization. No public OpenAPI is publ
   name: RunAnywhere Control Plane API
   slug: runanywhere-control-plane-api
-artifact_total: 2
+artifact_total: 3
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/runanywhere/refs/heads/main/security/runanywhere-domain-security.yml
@@ -101,6 +101,10 @@ created: '2026-07-17'
 description: RunAnywhere is a Y Combinator (W2026) infrastructure company building the layer for deploying fast, private, multimodal AI on-device at scale. It ships one open-source C++ core runtime with native bindings for Swift, Kotlin, React Native, Flutter, and the browser, plus hand-written GPU/NPU inference engines (MetalRT for Apple GPUs, QHexRT for Qualcomm Hexagon NPUs) that run LLM, VLM, speech-to-text, text-to-speech, and embedding workloads locally. The SDKs handle model delivery, extraction, storage management, versioning, and observability, and support hybrid routing that tries on-device inference first before optionally falling back to the cloud. A hosted control plane (api.runanywhere.ai) manages model delivery and configuration via API key.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/runanywhere.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at docs.runanywhere.ai over HTTP; 3 tools listed.
+  name: RunAnywhere MCP Server
+  slug: runanywhere
 modified: '2026-07-21'
 name: RunAnywhere
 nav: Providers
@@ -120,7 +124,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 6.6
     contract_governance: 0.0
@@ -128,7 +132,7 @@ score:
     developer_ergonomics: 64.3
     discoverability: 75.0
     operational_transparency: 2.6
-  previous_composite: 21.3
+  previous_composite: 22.1
   provenance:
     mcp: first-party
   regulatory:
@@ -138,7 +142,7 @@ score:
     regime_id: horizontal
     score: 10.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

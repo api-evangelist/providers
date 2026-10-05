@@ -27,7 +27,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -74,18 +74,18 @@
      "slug": "nhs-england",
      "description": "NHS England (which absorbed NHS Digital in 2023) is the national body that runs England's public health and social care API platform at digital.nhs.uk and api.service.nhs.uk. It publishes a large catalogue of internet-facing APIs - most of them HL7 FHIR R4 built to the FHIR UK Core profile - covering the national spine services: the Personal Demographics Service (PDS), GP Connect, the e-Referral Service (e-RS), the Electronic Prescription Service (EPS), the Organisation Data Service (ODS), Booking and Referral Standard (BaRS), immunisation history, the NHS App, NHS Notify, and the Directory of Healthcare Services. Access is governed centrally: applications onboard through the NHS API platform and authenticate with OAuth 2.0 bearer tokens - application-restricted (signed-JWT client credentials / API key) or user-restricted via NHS login (OIDC) and NHS CIS2 - with production access gated behind registration, assurance, and connection agreements. Home market is the United Kingdom (England). Positioning: a single national health system operating public, standards-based (FHIR UK Core) interoperability APIs rather than a commercial API vendor.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/screenshots/nhs-england-2026-08-07T185240.png",
-     "score": 46.1,
+     "score": 45.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 69.6,
+      "discoverability": 64.3,
       "contract_quality": 55.9,
       "contract_governance": 18.2,
       "operational_transparency": 44.7,
       "developer_ergonomics": 66.1,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -125,18 +125,18 @@
      "slug": "huma",
      "description": "Huma (Huma Therapeutics Limited) is a United Kingdom-headquartered digital health and remote patient monitoring company that provides a regulated, configurable platform for building and running healthcare and life-sciences applications. Its Huma Workspace lets clinical teams assemble no-code apps, connected-device data capture, ePRO questionnaires, algorithm-based assessments, and a clinician portal for telemedicine and remote monitoring, while its developer surface exposes a backend Integration API and native iOS, Android, and Angular SDKs for embedding Huma functionality into first-party applications. Huma operates as CE-marked / MDR Class IIb medical-device software and is ISO 13485 and ISO 27001 certified, positioning it as clinical-grade infrastructure used by health systems (including the NHS in its UK home market), pharma, and clinical-trials programs. The developer platform documents a backend Integration API and mobile SDKs; API access is gated behind a Huma Workspace account. A full Huma Platform OpenAPI (3.0.3, 984 operations across 76 tags) is served, unlinked, from the ReDoc reference at workspace-gcp-uk.api.huma.com/specs/; authentication is JWT bearer and Hawk MAC (no OAuth2 scheme). No public HL7 FHIR CapabilityStatement is published.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/huma/refs/heads/main/screenshots/huma-2026-07-25T221642.png",
-     "score": 46.0,
+     "score": 45.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 64.3,
+      "discoverability": 58.9,
       "contract_quality": 44.5,
       "contract_governance": 18.2,
       "operational_transparency": 21.1,
       "developer_ergonomics": 58.9,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -194,7 +194,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -252,7 +252,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 46.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -314,7 +314,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -365,7 +365,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -427,7 +427,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 9.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -478,7 +478,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -529,7 +529,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -590,7 +590,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -641,7 +641,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -692,7 +692,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,

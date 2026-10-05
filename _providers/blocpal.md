@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
 artifact_total: 2
 common:
@@ -89,7 +89,7 @@ score:
   band: emerging
   composite: 11.5
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -102,6 +102,11 @@ score:
     developer_ergonomics: 0.0
     discoverability: 50.0
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - canada
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
   provenance:
     mcp: derived
   regulatory:
@@ -111,7 +116,7 @@ score:
     regime_id: banking_open_finance
     score: 15.0
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

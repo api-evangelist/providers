@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/draftpilotai/refs/heads/main/security/draftpilotai-trust-center.yml
@@ -90,6 +90,10 @@ created: '2026-07-17'
 description: DraftPilot.ai is an AI-powered contract redlining product for in-house legal teams, delivered as a Microsoft Word add-in. It reviews and marks up contracts against a company's own playbooks in minutes, flagging issues and suggesting edits as tracked changes directly inside Word, with no CLM change required. DraftPilot can generate playbooks from template contracts or prior mark-ups, redraft clauses, and onboard in about three minutes. Founded in 2024 and based in London (Daniel Van Binsbergen, founder of Lexoo), the company is backed by 500 Global and was selected by Axiom to power its Tech+Talent AI contracting initiative. It maintains SOC 2 Type II and ISO 27001 certifications, AES-256 encryption at rest, TLS in transit, GDPR/UK GDPR compliance, and does not use customer data for model training. DraftPilot does not publish a public API, SDKs, or developer documentation; it is a productized legal-AI application.
 image: https://www.draftpilot.ai/open-graph/home.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.draftpilot.ai over HTTP.
+  name: DraftPilot.ai MCP Server
+  slug: draftpilotai
 modified: '2026-07-18'
 name: DraftPilot.ai
 nav: Providers
@@ -109,7 +113,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 60.5
     contract_governance: 0.0
@@ -125,7 +129,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 20.0
+  previous_composite: 19.5
   provenance:
     mcp: first-party
   regulatory:
@@ -135,7 +139,7 @@ score:
     regime_id: horizontal
     score: 17.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

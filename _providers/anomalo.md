@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 19
 apis:
 - description: Official Anomalo MCP (Model Context Protocol) server, published by Anomalo as a Google Gemini CLI extension under the Apache-2.0 license. Runs locally over stdio against a customer's own Anomalo insta
@@ -279,7 +279,7 @@ description: Anomalo is an AI-powered data quality and data observability platfo
 image: https://www.anomalo.com/wp-content/uploads/2024/01/logo-1.svg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Local (stdio) MCP server; 9 tools listed.
   name: Anomalo MCP Server
   slug: anomalo-mcp-server
 modified: '2026-07-31'
@@ -306,7 +306,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.8
   facets:
     access_clarity: 42.1
     contract_governance: 4.5
@@ -314,7 +314,7 @@ score:
     developer_ergonomics: 44.6
     discoverability: 78.6
     operational_transparency: 18.4
-  previous_composite: 35.5
+  previous_composite: 32.7
   provenance:
     conformance: derived
     contracts:
@@ -331,7 +331,7 @@ score:
     regime_id: horizontal
     score: 36.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

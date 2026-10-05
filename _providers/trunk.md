@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 8
+- acting_count: 15
   human_in_the_loop: 0
   name: Trunk Agentic Access
   operation_count: 16
   slug: trunk-agentic-access
-  summary_line: 16 operations · 8 acting
+  summary_line: 16 operations · 15 acting
 api_count: 1
 apis:
 - description: CI test-result ingestion surface. The trunk-analytics-cli (and the trunk-io/analytics-uploader GitHub Action) uploads JUnit XML, Bazel BEP, and XCResult test reports to Trunk for flaky-test detection,
@@ -83,6 +83,11 @@ collections:
   name: Trunk Flaky Tests Merge Queue API
   slug: open-trunk-merge-queue-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/capabilities/trunk-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/trunk-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -214,7 +219,7 @@ overview: 'Trunk publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
   The Trunk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Trunk''s developer surface includes documentation, engineering blog, authentication, CLI, and 20 more developer resources.'
+  Trunk''s developer surface includes documentation, engineering blog, authentication, CLI, and 21 more developer resources.'
 plans:
 - name: Trunk Plans Pricing
   plan_count: 3
@@ -228,13 +233,13 @@ score:
   band: developing
   composite: 46.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 61.6
     catalog_earned_first_party: 0.0
     catalog_gap: 53.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
     access_clarity: 36.3
     contract_governance: 4.5
@@ -242,7 +247,7 @@ score:
     developer_ergonomics: 51.8
     discoverability: 66.1
     operational_transparency: 49.5
-  previous_composite: 46.1
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -260,7 +265,7 @@ score:
     regime_id: horizontal
     score: 22.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

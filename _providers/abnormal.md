@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://api.abnormalplatform.com/v1
@@ -185,6 +185,11 @@ collections:
   name: Abnormal Security Client Vendors API
   slug: open-abnormal-vendors-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/capabilities/abnormal-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/abnormal-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/mcp/abnormal-mcp.yml
   title: ''
@@ -357,19 +362,19 @@ overview: 'Abnormal AI publishes 17 APIs on the [APIs.io](https://apis.io/) netw
   The Abnormal AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Abnormal AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 28 more developer resources.'
+  Abnormal AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 29 more developer resources.'
 random_paper: 8
 score:
   band: developing
   composite: 53.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
@@ -377,7 +382,7 @@ score:
     developer_ergonomics: 57.7
     discoverability: 73.2
     operational_transparency: 52.6
-  previous_composite: 53.1
+  previous_composite: 51.6
   provenance:
     conformance: derived
     contracts:
@@ -394,7 +399,7 @@ score:
     regime_id: horizontal
     score: 36.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

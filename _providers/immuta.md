@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 36
-  human_in_the_loop: 4
+- acting_count: 32
+  human_in_the_loop: 2
   name: Immuta Agentic Access
-  operation_count: 95
+  operation_count: 83
   slug: immuta-agentic-access
-  summary_line: 95 operations · 36 acting · 4 human-in-the-loop
+  summary_line: 83 operations · 32 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - description: The Immuta Govern app API — the tenant-hosted REST surface for registering data sources and connections, authoring data, subscription and write policies, managing domains, projects, purposes, tags, fr
@@ -292,9 +292,9 @@ description: 'Immuta is a data security and access-governance platform that lets
 image: https://www.immuta.com/wp-content/uploads/2024/10/favicon.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at documentation.immuta.com over HTTP; 4 tools listed.
   name: Immuta MCP Server
-  slug: immuta-mcp-server
+  slug: immuta-documentation
 modified: '2026-08-01'
 name: Immuta
 nav: Providers
@@ -317,7 +317,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.6
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
@@ -325,7 +325,7 @@ score:
     developer_ergonomics: 66.1
     discoverability: 75.0
     operational_transparency: 44.7
-  previous_composite: 54.2
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -343,7 +343,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

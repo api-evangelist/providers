@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 56.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 65
+- acting_count: 68
   human_in_the_loop: 60
   name: Devcycle Agentic Access
   operation_count: 112
   slug: devcycle-agentic-access
-  summary_line: 112 operations · 65 acting · 60 human-in-the-loop
+  summary_line: 112 operations · 68 acting · 60 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api.devcycle.com/v1
@@ -337,6 +337,11 @@ collections:
   slug: open-devcycle-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/capabilities/devcycle-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/devcycle-capability-edges.yml
+- group: other
   href: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/overlays/devcycle-bucketing-overlay.yaml
   title: ''
   type: Overlay
@@ -523,9 +528,9 @@ description: DevCycle is an OpenFeature-native feature flag and feature manageme
 image: https://devcycle.com/social-default.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.devcycle.com; 22 tools listed.
   name: DevCycle MCP Server
-  slug: devcycle-mcp-server
+  slug: devcycle
 modified: '2026-09-16'
 name: DevCycle
 nav: Providers
@@ -536,19 +541,19 @@ overview: 'DevCycle publishes 25 APIs on the [APIs.io](https://apis.io/) network
   The DevCycle catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  DevCycle''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 33 more developer resources.'
+  DevCycle''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 34 more developer resources.'
 random_paper: 11
 score:
   band: strong
   composite: 60.1
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 28
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 53.9
     contract_governance: 4.5
@@ -556,7 +561,7 @@ score:
     developer_ergonomics: 79.8
     discoverability: 75.0
     operational_transparency: 52.6
-  previous_composite: 60.1
+  previous_composite: 58.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -578,7 +583,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

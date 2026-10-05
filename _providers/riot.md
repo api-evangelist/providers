@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 18
+- acting_count: 9
   human_in_the_loop: 0
   name: Riot Agentic Access
-  operation_count: 80
+  operation_count: 40
   slug: riot-agentic-access
-  summary_line: 80 operations · 18 acting
+  summary_line: 40 operations · 9 acting
 api_count: 2
 apis:
 - baseURL: https://public-api.tryriot.com/v1
@@ -143,6 +143,11 @@ collections:
   name: Riot Webhook Events API
   slug: open-riot-webhook-events-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/capabilities/riot-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/riot-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/mcp/riot-mcp.yml
   title: ''
@@ -322,7 +327,7 @@ overview: 'Riot publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
   The Riot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Riot''s developer surface includes documentation, API reference, engineering blog, support, pricing, changelog, authentication, and 29 more developer resources.'
+  Riot''s developer surface includes documentation, API reference, engineering blog, support, pricing, changelog, authentication, and 30 more developer resources.'
 random_paper: 6
 rate_limits:
 - limit_count: 0
@@ -337,13 +342,13 @@ score:
   band: developing
   composite: 52.3
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.8
   facets:
     access_clarity: 40.8
     contract_governance: 18.2
@@ -359,7 +364,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 52.3
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -377,7 +382,7 @@ score:
     regime_id: horizontal
     score: 38.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

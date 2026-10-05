@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
   description: InstaML transaction writes.
   name: InstantDB Transactions API
   slug: instantdb-transactions-api
-artifact_total: 21
+artifact_total: 22
 asyncapis:
 - description: 'AsyncAPI 2.6 description of InstantDB''s **realtime sync** surface. Unlike a request/response REST API, InstantDB is a sync engine. The client SDK''s **Reactor** opens a persistent WebSocket connection '
   name: InstantDB Realtime Sync (WebSocket)
@@ -103,6 +103,11 @@ collections:
   name: InstantDB Admin HTTP API
   slug: open-instantdb
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/capabilities/instantdb-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/instantdb-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/agentic-access/instantdb-agentic-access.yml
   title: ''
@@ -161,6 +166,10 @@ finops:
   slug: instantdb-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/instantdb.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.instantdb.com over HTTP.
+  name: InstantDB MCP Server
+  slug: instantdb
 modified: '2026-06-20'
 name: InstantDB
 nav: Providers
@@ -171,7 +180,7 @@ overview: 'InstantDB publishes 6 APIs on the [APIs.io](https://apis.io/) network
   The InstantDB catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  InstantDB''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  InstantDB''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Instantdb Plans Pricing
   plan_count: 4
@@ -197,13 +206,13 @@ score:
   band: developing
   composite: 39.4
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 66.1
     catalog_earned_first_party: 0.0
     catalog_gap: 48.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.8
   facets:
     access_clarity: 36.3
     contract_governance: 13.6
@@ -211,7 +220,7 @@ score:
     developer_ergonomics: 32.1
     discoverability: 68.3
     operational_transparency: 31.1
-  previous_composite: 39.4
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     contracts:
@@ -227,7 +236,7 @@ score:
     regime_id: horizontal
     score: 11.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

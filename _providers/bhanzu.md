@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -158,9 +158,9 @@ jsonld:
   slug: bhanzu-context
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at bhanzu.com.
   name: Bhanzu MCP Server
-  slug: bhanzu-mcp-server
+  slug: bhanzu-mcp-yml
 modified: '2026-09-28'
 name: Bhanzu
 nav: Providers
@@ -189,7 +189,7 @@ score:
   band: thin
   composite: 29.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 54.8
     catalog_earned_first_party: 0.0
     catalog_gap: 60.3
@@ -218,7 +218,7 @@ score:
     regime_id: education
     score: 17.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 0.0

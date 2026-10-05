@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 42
+- acting_count: 44
   human_in_the_loop: 0
   name: Agile Crm Agentic Access
   operation_count: 71
   slug: agile-crm-agentic-access
-  summary_line: 71 operations · 42 acting
+  summary_line: 71 operations · 44 acting
 api_count: 1
 apis:
 - description: HTTPS-only REST API for managing contacts, companies, deals, campaigns, tasks, notes, and tickets in Agile CRM. Authentication uses HTTP Basic auth with the account email as username and the REST clie
@@ -139,6 +139,11 @@ collections:
   name: Agile CRM REST API
   slug: open-agile-crm
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/capabilities/agile-crm-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/agile-crm-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/agentic-access/agile-crm-agentic-access.yml
   title: ''
@@ -298,7 +303,7 @@ overview: 'Agile CRM publishes 11 APIs on the [APIs.io](https://apis.io/) networ
   The Agile CRM catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Agile CRM''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, API reference, getting-started guide, and 25 more developer resources.'
+  Agile CRM''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, API reference, getting-started guide, and 26 more developer resources.'
 plans:
 - name: Agile Crm Plans Pricing
   plan_count: 4
@@ -312,13 +317,13 @@ score:
   band: developing
   composite: 49.7
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 69.7
     contract_governance: 4.5
@@ -326,7 +331,7 @@ score:
     developer_ergonomics: 66.1
     discoverability: 66.1
     operational_transparency: 10.5
-  previous_composite: 49.7
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -344,7 +349,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

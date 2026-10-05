@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -144,6 +144,11 @@ collections:
   name: Trakstar Hire Auth Users API
   slug: open-trakstar-users-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/capabilities/trakstar-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/trakstar-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/agentic-access/trakstar-agentic-access.yml
   title: ''
@@ -268,7 +273,7 @@ overview: 'Trakstar publishes 12 APIs on the [APIs.io](https://apis.io/) network
   The Trakstar catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Trakstar''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
+  Trakstar''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
 plans:
 - name: Trakstar Plans Pricing
   plan_count: 4
@@ -293,13 +298,13 @@ score:
   band: developing
   composite: 42.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 66.6
     catalog_earned_first_party: 0.0
     catalog_gap: 48.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.9
   facets:
     access_clarity: 54.7
     contract_governance: 23.5
@@ -307,7 +312,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 21.1
-  previous_composite: 42.4
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     contracts:
@@ -322,7 +327,7 @@ score:
     regime_id: education
     score: 21.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

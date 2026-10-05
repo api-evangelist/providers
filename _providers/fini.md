@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 38
+- acting_count: 39
   human_in_the_loop: 0
   name: Fini Agentic Access
   operation_count: 56
   slug: fini-agentic-access
-  summary_line: 56 operations · 38 acting
+  summary_line: 56 operations · 39 acting
 api_count: 1
 apis:
 - baseURL: https://api-prod.usefini.com/v2
@@ -122,6 +122,11 @@ collections:
   name: Fini AI Agents Tags API
   slug: open-fini-tags-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/capabilities/fini-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fini-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -254,7 +259,7 @@ network: true
 overview: 'Fini publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Articles API, Conversations API, and 6 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Customer Support, and Customer Experience.
 
 
-  Fini''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, authentication, and 20 more developer resources.'
+  Fini''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
 random_paper: 4
 score:
   band: developing
@@ -266,7 +271,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
@@ -274,7 +279,7 @@ score:
     developer_ergonomics: 16.1
     discoverability: 73.2
     operational_transparency: 10.5
-  previous_composite: 43.8
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -292,7 +297,7 @@ score:
     regime_id: horizontal
     score: 32.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

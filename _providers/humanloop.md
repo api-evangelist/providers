@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -105,6 +105,11 @@ collections:
   name: Humanloop API
   slug: open-humanloop
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/humanloop/refs/heads/main/capabilities/humanloop-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/humanloop-capability-edges.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -183,7 +188,7 @@ network: true
 overview: 'Humanloop publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Evaluators API, Logs API, and 4 more. Tagged areas include LLM Platform, Prompt Management, Evaluation, LLMOps, and Observability.
 
 
-  Humanloop''s developer surface includes authentication, documentation, engineering blog, and 12 more developer resources.'
+  Humanloop''s developer surface includes authentication, documentation, engineering blog, and 13 more developer resources.'
 plans:
 - name: Humanloop Plans Pricing
   plan_count: 1
@@ -197,13 +202,13 @@ score:
   band: thin
   composite: 38.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 54.4
     catalog_earned_first_party: 0.0
     catalog_gap: 60.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
     access_clarity: 47.9
     contract_governance: 0.0
@@ -211,7 +216,7 @@ score:
     developer_ergonomics: 31.0
     discoverability: 73.2
     operational_transparency: 21.6
-  previous_composite: 38.6
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     contracts:
@@ -226,7 +231,7 @@ score:
     regime_id: horizontal
     score: 19.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

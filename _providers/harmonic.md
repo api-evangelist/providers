@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Programmatic access to Aristotle, Harmonic's formal reasoning agent. Over HTTPS with an API key, submit Lean 4 proofs with `sorry` placeholders, natural-language math problems, or LaTeX papers; Aristo
@@ -131,7 +131,7 @@ layout: provider
 mcp_servers:
 - description: Harmonic does not (as of this pass) publish an official MCP server for the Aristotle API. A working community MCP server, lean-aristotle-mcp (maintained by GitHub user septract), wraps the Aristotle c
   name: Harmonic MCP Server
-  slug: harmonic-mcp-server
+  slug: lean-aristotle-mcp
 modified: '2026-07-19'
 name: Harmonic
 nav: Providers
@@ -169,7 +169,7 @@ score:
     regime_id: horizontal
     score: 18.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

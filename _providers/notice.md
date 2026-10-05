@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: RESTful enterprise API for real-time private market data across 6,000+ companies - Notice Price, verified trades and indications of interest - retrievable up to once per minute. Sold as a 12-month ent
@@ -133,9 +133,9 @@ created: '2026-08-26'
 description: Notice (notice.co) is a private-market data and investing platform founded in 2021 by Philip West and Tyson Hendricksen and headquartered in Wilmington, Delaware. It publishes Notice Price, a real-time evaluated price for private company stock recomputed every three seconds from private market transactions, indications of interest and public comparables, alongside company profiles, rankings, industry screeners and the Notice.co 50 Index (N50) covering 6,000+ private companies. Its commercial surface is a RESTful enterprise API that imports that same real-time data - Notice Price, verified trades and indications of interest - into a subscriber's own systems, plus a live OAuth-protected MCP server at api.notice.co/mcp and a free embeddable chart widget. Notice shares trade on secondary marketplaces including Forge and Nasdaq Private Market.
 layout: provider
 mcp_servers:
-- description: ''
+- description: 'Notice runs a live, remote MCP server at https://api.notice.co/mcp. It was established by probe, not by a vendor claim: an unauthenticated POST of tools/list returns HTTP 401 with a WWW-Authenticate: '
   name: Notice MCP Server
-  slug: notice-mcp-server
+  slug: notice
 modified: '2026-08-26'
 name: Notice
 nav: Providers
@@ -155,9 +155,9 @@ rate_limits:
   slug: notice-rate-limits
 scopes:
 - name: Notice Scopes
-  scope_count: 0
+  scope_count: 6
   slug: notice-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 6 scopes
 score:
   band: thin
   composite: 27.5
@@ -168,7 +168,7 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
@@ -181,7 +181,7 @@ score:
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 27.5
+  previous_composite: 29.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -192,7 +192,7 @@ score:
     regime_id: securities_market_data
     score: 30.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

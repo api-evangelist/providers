@@ -1,6 +1,6 @@
 {
- "total": 68,
- "shown": 68,
+ "total": 69,
+ "shown": 69,
  "limit": 1000,
  "bands": [
   {
@@ -26,7 +26,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -87,7 +87,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -143,7 +143,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -193,7 +193,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -243,7 +243,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -293,7 +293,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -332,18 +332,18 @@
      "slug": "university-of-gothenburg",
      "description": "The University of Gothenburg (Göteborgs universitet) is a public research university in Sweden, founded in 1891, with roughly 37,000 students and 6,000 employees. Its programmable footprint is larger and more genuinely its own than the June 2026 profile of this repository recorded, and it is concentrated in one place: Språkbanken Text, the Swedish Language Bank's text division at the Department of Swedish, Multilingualism, Language Technology. Språkbanken publishes SIX OpenAPI documents from a single documentation index at ws.spraakbanken.gu.se/docs — Korp (corpus concordance search over 1,133 corpora), Karp v7 and Karp search v1 (lexical resources), Mink (upload, annotate and publish your own corpus), Sparv (the annotation pipeline as a job service) and the Språkbanken Text Metadata API (a 1,499-resource catalogue with BibTeX export). All six run on University of Gothenburg hosts, carry sb-info@svenska.gu.se as contact, and answered anonymous requests with HTTP 200 on 2026-09-01. The Gothenburg University Library separately operates GUPEA on DSpace 8.3, exposing both an OAI-PMH 2.0 harvesting endpoint (fourteen metadata formats, including the Swedish national uppsok thesis profile) and a HAL+JSON REST API on gupea.ub.gu.se. The University also runs its own Shibboleth SAML 2.0 identity provider, published as machine-readable metadata through SWAMID and eduGAIN. What is thin here is PRODUCT, not surface. There is no central developer portal, no API programme, no changelog, no status page, no rate-limit signal, no support channel and no documented credential-issuance route for any of the write surfaces. Five of the six contracts declare a security scheme and not one explains how to obtain a credential; two of them publish relative servers[] and no contact at all. This is a research unit's engineering that happens to be excellent, published without any of the institutional scaffolding that would make it findable. Everything else that looks like a University of Gothenburg API is a relationship rather than a contract — DOI registration with DataCite through the Swedish National Data Service and with Crossref directly, a Microsoft Entra tenancy on medarbetarportalen.gu.se — and those are recorded here with x-operator and no vendor contract stored.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/screenshots/university-of-gothenburg-2026-06-20T200152.png",
-     "score": 49.0,
+     "score": 48.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 62.5,
+      "discoverability": 57.1,
       "contract_quality": 62.7,
       "contract_governance": 40.9,
       "operational_transparency": 24.2,
       "developer_ergonomics": 33.3,
       "access_clarity": 47.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -393,7 +393,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -443,7 +443,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 37.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -493,7 +493,7 @@
       "developer_ergonomics": 43.5,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -539,56 +539,6 @@
    "shown": 11,
    "providers": [
     {
-     "name": "Chalmers University of Technology",
-     "slug": "chalmers-university-of-technology",
-     "description": "Chalmers University of Technology (Chalmers tekniska hogskola) is a private technical university in Gothenburg, Sweden, run by the Chalmers Foundation and ranked in the QS World University Rankings. Unlike most of the university cohort, Chalmers operates a genuinely institution-owned API: the Chalmers Research API at api.research.chalmers.se, a first-party CRIS interface over research projects, organizations and publications, described by a live Swagger 2.0 document and protected by HTTP Basic authentication (public reads return 401). Around it sit two institution-hosted OAI-PMH endpoints — Chalmers Research (records back to 1942) and the Chalmers Open Digital Repository, a self-hosted DSpace 8.3 whose REST API answers on odr.chalmers.se — plus a SAML 2.0 identity provider registered in SWAMID, the Swedish national federation. Chalmers is a DataCite consortium member with its own repository account, and its CRIS carries ORCID iDs. There is no consolidated, self-service developer portal, no public open-data portal and no public course-catalog API; the teaching, timetable and data-deposit layers run on vendor tenancies (Canvas, TimeEdit, SND) whose contracts belong to those vendors, not to Chalmers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/screenshots/chalmers-university-of-technology-2026-06-20T174208.png",
-     "score": 38.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 57.9,
-      "contract_governance": 13.6,
-      "operational_transparency": 24.2,
-      "developer_ergonomics": 28.6,
-      "access_clarity": 37.4
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 20.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 11
-    },
-    {
      "name": "Einride",
      "slug": "einride",
      "description": "Einride is a Swedish freight technology company delivering an end-to-end platform for electric and autonomous road freight, combining purpose-built autonomous trucks, electric vehicles, smart charging, and the Saga operating software. Its developer-facing product, Einride Extend, exposes open, resource-oriented APIs (designed with Google AIP) over both gRPC and HTTP for booking truck tours and creating, releasing, and tracking shipments. The Extend APIs are alpha (v1beta1) and offered to select developers during an early-access phase, with a saga CLI, Buf Schema Registry proto module, and React UI component library. Einride serves customers including PepsiCo, Heineken, and DP World across Europe, the US, and the Middle East.",
@@ -604,7 +554,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -636,6 +586,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 11
+    },
+    {
+     "name": "Chalmers University of Technology",
+     "slug": "chalmers-university-of-technology",
+     "description": "Chalmers University of Technology (Chalmers tekniska hogskola) is a private technical university in Gothenburg, Sweden, run by the Chalmers Foundation and ranked in the QS World University Rankings. Unlike most of the university cohort, Chalmers operates a genuinely institution-owned API: the Chalmers Research API at api.research.chalmers.se, a first-party CRIS interface over research projects, organizations and publications, described by a live Swagger 2.0 document and protected by HTTP Basic authentication (public reads return 401). Around it sit two institution-hosted OAI-PMH endpoints — Chalmers Research (records back to 1942) and the Chalmers Open Digital Repository, a self-hosted DSpace 8.3 whose REST API answers on odr.chalmers.se — plus a SAML 2.0 identity provider registered in SWAMID, the Swedish national federation. Chalmers is a DataCite consortium member with its own repository account, and its CRIS carries ORCID iDs. There is no consolidated, self-service developer portal, no public open-data portal and no public course-catalog API; the teaching, timetable and data-deposit layers run on vendor tenancies (Canvas, TimeEdit, SND) whose contracts belong to those vendors, not to Chalmers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/screenshots/chalmers-university-of-technology-2026-06-20T174208.png",
+     "score": 38.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 60.7,
+      "contract_quality": 57.9,
+      "contract_governance": 13.6,
+      "operational_transparency": 24.2,
+      "developer_ergonomics": 28.6,
+      "access_clarity": 37.4
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 20.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 12
     },
     {
@@ -654,7 +654,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 49.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -704,7 +704,7 @@
       "developer_ergonomics": 25.0,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -753,7 +753,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -803,7 +803,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -853,7 +853,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -903,7 +903,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -953,7 +953,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1003,7 +1003,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1053,7 +1053,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1113,7 +1113,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1170,7 +1170,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 37.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1220,7 +1220,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1269,7 +1269,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1329,7 +1329,7 @@
       "developer_ergonomics": 15.5,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1379,7 +1379,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1429,7 +1429,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1478,7 +1478,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1528,7 +1528,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1578,7 +1578,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1628,7 +1628,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1678,7 +1678,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1728,7 +1728,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1778,7 +1778,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1819,8 +1819,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 33,
-   "shown": 33,
+   "count": 34,
+   "shown": 34,
    "providers": [
     {
      "name": "Anyfin",
@@ -1838,7 +1838,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1888,7 +1888,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1938,7 +1938,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1988,7 +1988,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2038,7 +2038,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2088,7 +2088,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2138,7 +2138,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2188,7 +2188,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2238,7 +2238,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2288,7 +2288,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2338,7 +2338,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2388,7 +2388,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2438,7 +2438,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2487,7 +2487,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2537,7 +2537,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2587,7 +2587,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2637,7 +2637,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2687,7 +2687,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2737,7 +2737,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2787,7 +2787,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2837,7 +2837,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2886,7 +2886,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2936,7 +2936,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2986,7 +2986,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3036,7 +3036,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3086,7 +3086,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3135,7 +3135,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3170,10 +3170,9 @@
      "rank": 62
     },
     {
-     "name": "Na Kd",
-     "slug": "na-kd",
-     "description": "Na Kd (NA-KD) is a Swedish online fashion retailer for women, selling clothing, shoes, and accessories direct-to-consumer through na-kd.com. It was added to the API Evangelist network as a venture-portfolio lead, backed by Northzone and Partech. As of this enrichment pass NA-KD publishes no public developer API, SDK, MCP server, or /.well-known discovery surface; this profile captures the company identity and its live domain-security posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/na-kd/refs/heads/main/screenshots/na-kd-2026-08-07T184557.png",
+     "name": "Bosonic",
+     "slug": "bosonic",
+     "description": "Bosonic is a venture and consulting collective based in Sweden, dedicated to bringing great products to life through experimentation, iteration, and autonomy over hierarchy. The team offers software development, product ownership, and consultancy across sectors, emphasizing pragmatism, continuous self‑improvement, and innovative solutions for partners such as Womni, Manwell, and Finanzero.",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3185,7 +3184,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3220,6 +3219,56 @@
      "rank": 63
     },
     {
+     "name": "Na Kd",
+     "slug": "na-kd",
+     "description": "Na Kd (NA-KD) is a Swedish online fashion retailer for women, selling clothing, shoes, and accessories direct-to-consumer through na-kd.com. It was added to the API Evangelist network as a venture-portfolio lead, backed by Northzone and Partech. As of this enrichment pass NA-KD publishes no public developer API, SDK, MCP server, or /.well-known discovery surface; this profile captures the company identity and its live domain-security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/na-kd/refs/heads/main/screenshots/na-kd-2026-08-07T184557.png",
+     "score": 3.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 64
+    },
+    {
      "name": "Apotea",
      "slug": "apotea",
      "description": "Apotea is a Swedish online pharmacy offering a wide range of medicines, health and beauty products. The site provides fast, free shipping and a user-friendly shopping experience, with categories covering dermatology, allergy, eye care, and more. It operates under Swedish regulations and is listed on the Swedish Medicines Agency site. The company’s digital presence includes extensive product listings, a premium service, and a dedicated customer support portal.",
@@ -3234,7 +3283,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3266,7 +3315,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "Norstel",
@@ -3283,7 +3332,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3315,7 +3364,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "Cult of the North",
@@ -3332,57 +3381,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 0.0,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 66
-    },
-    {
-     "name": "Tenet Industries",
-     "slug": "tenet-industries",
-     "description": "Tenet Industries is a Swedish defense-technology startup founded in 2026 by Hugo Frisk, Fabian Andersson, and Emil Falk (students from KTH Royal Institute of Technology and the Stockholm School of Economics) building low-cost, mass-producible defense systems. Applying design-for-manufacturing and first-principles engineering, the company starts with strike/attack drones — a kamikaze quadcopter that assembles in two minutes with roughly half the parts of comparable systems — and extends the same hardware/software platform to loitering munitions, jammers, radars, and missile systems. Backed by Y Combinator ($500K). As a defense hardware manufacturer, Tenet Industries currently publishes no public API, SDK, developer portal, or event surface; this profile is maintained as a company record in the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tenet-industries/refs/heads/main/screenshots/tenet-industries-2026-09-02T163054.png",
-     "score": 2.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3417,6 +3416,56 @@
      "rank": 67
     },
     {
+     "name": "Tenet Industries",
+     "slug": "tenet-industries",
+     "description": "Tenet Industries is a Swedish defense-technology startup founded in 2026 by Hugo Frisk, Fabian Andersson, and Emil Falk (students from KTH Royal Institute of Technology and the Stockholm School of Economics) building low-cost, mass-producible defense systems. Applying design-for-manufacturing and first-principles engineering, the company starts with strike/attack drones — a kamikaze quadcopter that assembles in two minutes with roughly half the parts of comparable systems — and extends the same hardware/software platform to loitering munitions, jammers, radars, and missile systems. Backed by Y Combinator ($500K). As a defense hardware manufacturer, Tenet Industries currently publishes no public API, SDK, developer portal, or event surface; this profile is maintained as a company record in the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tenet-industries/refs/heads/main/screenshots/tenet-industries-2026-09-02T163054.png",
+     "score": 2.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 0.0,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 68
+    },
+    {
      "name": "Campanja",
      "slug": "campanja",
      "description": "Campanja was a Stockholm-based advertising-technology company founded in 2010 that built a high-frequency paid-search bid-optimization engine. Its platform placed millions of automated bids per day across Google AdWords, Google Shopping, and Yahoo/Bing search campaigns, using real-time tracking and predictive big-data modeling to improve return on ad spend for large online advertisers while cutting media cost. Campanja raised a $5M Series A (Hoxton Ventures, DFJ Esprit) and was acquired by [24]7.ai in 2015, where its technology was folded into the [24]7 Customer Acquisition Cloud. The independent company is effectively defunct and campanja.com no longer resolves to a live site. This profile was surfaced as a 500 Global portfolio lead and processed by the API Evangelist enrichment pipeline.",
@@ -3431,7 +3480,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3463,7 +3512,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 69
     }
    ]
   }

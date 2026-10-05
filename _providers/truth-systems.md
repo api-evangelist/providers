@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The Get Context Output API from Truth Systems — 1 operation(s) for get context output.
@@ -49,6 +49,11 @@ collections:
   name: Gateway Get Context Output API
   slug: open-truth-systems-get-context-output-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/truth-systems/refs/heads/main/capabilities/truth-systems-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/truth-systems-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/truth-systems/refs/heads/main/overlays/truth-systems-gateway-overlay.yaml
   title: ''
@@ -144,19 +149,19 @@ network: true
 overview: 'Truth Systems publishes 1 API on the [APIs.io](https://apis.io/) network: Get Context Output API. Tagged areas include Company, Artificial Intelligence, AI Governance, Hallucination Detection, and Fact Checking.
 
 
-  Truth Systems'' developer surface includes developer portal, documentation, support, authentication, and 13 more developer resources.'
+  Truth Systems'' developer surface includes developer portal, documentation, support, authentication, and 14 more developer resources.'
 random_paper: 18
 score:
   band: thin
   composite: 30.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.5
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
@@ -164,7 +169,7 @@ score:
     developer_ergonomics: 63.7
     discoverability: 63.3
     operational_transparency: 2.6
-  previous_composite: 30.3
+  previous_composite: 32.8
   provenance:
     conformance: derived
     contracts:
@@ -181,7 +186,7 @@ score:
     regime_id: horizontal
     score: 15.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -180,6 +180,11 @@ collections:
   name: Amazon Trusted Advisor (AWS Support)
   slug: open-amazon-trusted-advisor
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/capabilities/amazon-trusted-advisor-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-trusted-advisor-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/agentic-access/amazon-trusted-advisor-agentic-access.yml
   title: ''
@@ -284,7 +289,7 @@ overview: 'Amazon Trusted Advisor publishes 16 APIs on the [APIs.io](https://api
   The Amazon Trusted Advisor catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Amazon Trusted Advisor''s developer surface includes developer portal, documentation, developer console, support, signup flow, and 12 more developer resources.'
+  Amazon Trusted Advisor''s developer surface includes developer portal, documentation, developer console, support, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Trusted Advisor Plans Pricing
   plan_count: 3
@@ -310,13 +315,13 @@ score:
   band: developing
   composite: 46.9
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 57.3
     catalog_earned_first_party: 0.0
     catalog_gap: 57.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 61.8
     contract_governance: 25.0
@@ -324,7 +329,7 @@ score:
     developer_ergonomics: 50.0
     discoverability: 62.5
     operational_transparency: 26.3
-  previous_composite: 46.9
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     contracts:
@@ -339,7 +344,7 @@ score:
     regime_id: horizontal
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

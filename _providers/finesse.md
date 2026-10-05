@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: 'Agent-facing commerce endpoint implementing the Universal Commerce Protocol (version 2026-04-08, with 2026-01-23 also supported) over MCP/JSON-RPC 2.0. Thirteen tools cover catalog search and lookup, '
@@ -45,7 +45,7 @@ apis:
 - description: 'Unauthenticated read-only product endpoints that FINESSE documents for agents in its own agents.md: a paged product feed at /products.json, per-product and per-collection JSON, product search, and a s'
   name: FINESSE Storefront JSON (read-only)
   slug: finesse-storefront-json-read-only
-artifact_total: 9
+artifact_total: 8
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/finesse/refs/heads/main/security/finesse-domain-security.yml
@@ -171,12 +171,9 @@ description: 'FINESSE is a Los Angeles direct-to-consumer womenswear brand, foun
 image: https://finesse.us/cdn/shop/files/opt-1.jpg?v=1745528244
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at finesse.us over HTTP; 13 tools listed.
   name: FINESSE UCP Commerce MCP
   slug: finesse-ucp-commerce-mcp
-- description: ''
-  name: FINESSE MCP Server
-  slug: finesse-mcp-server
 modified: '2026-08-12'
 name: FINESSE
 nav: Providers
@@ -196,9 +193,9 @@ rate_limits:
   slug: finesse-rate-limits
 scopes:
 - name: Finesse Scopes
-  scope_count: 0
+  scope_count: 4
   slug: finesse-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 4 scopes
 score:
   band: thin
   composite: 29.5
@@ -209,7 +206,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.9
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
@@ -217,7 +214,7 @@ score:
     developer_ergonomics: 54.8
     discoverability: 66.7
     operational_transparency: 0.0
-  previous_composite: 29.5
+  previous_composite: 27.6
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -229,7 +226,7 @@ score:
     regime_id: horizontal
     score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

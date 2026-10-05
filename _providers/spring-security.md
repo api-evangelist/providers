@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 7
-  human_in_the_loop: 1
+- acting_count: 11
+  human_in_the_loop: 2
   name: Spring Security Agentic Access
-  operation_count: 15
+  operation_count: 23
   slug: spring-security-agentic-access
-  summary_line: 15 operations · 7 acting · 1 human-in-the-loop
+  summary_line: 23 operations · 11 acting · 2 human-in-the-loop
 api_count: 2
 apis:
 - description: Core security features for authentication and authorization. Provides UserDetailsService, password encoding, security context management, method security, and HTTP security configuration.
@@ -132,6 +132,11 @@ collections:
   name: Spring Server Authorization Token API
   slug: open-spring-security-token-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/capabilities/spring-security-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/spring-security-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -235,7 +240,7 @@ overview: 'Spring Security publishes 12 APIs on the [APIs.io](https://apis.io/) 
   The Spring Security catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spring Security''s developer surface includes authentication, engineering blog, changelog, and 13 more developer resources.'
+  Spring Security''s developer surface includes authentication, engineering blog, changelog, and 14 more developer resources.'
 plans:
 - name: Spring Security Plans Pricing
   plan_count: 1
@@ -271,13 +276,13 @@ score:
   band: thin
   composite: 37.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 54.5
     catalog_earned_first_party: 0.0
     catalog_gap: 60.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.8
   facets:
     access_clarity: 13.2
     contract_governance: 13.6
@@ -288,7 +293,7 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 37.8
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     contracts:
@@ -303,7 +308,7 @@ score:
     regime_id: horizontal
     score: 22.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

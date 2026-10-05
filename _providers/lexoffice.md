@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -166,6 +166,11 @@ collections:
   name: lexoffice (lexware Office) Public API
   slug: open-lexoffice
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/capabilities/lexoffice-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lexoffice-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/agentic-access/lexoffice-agentic-access.yml
   title: ''
@@ -223,7 +228,7 @@ network: true
 overview: 'lexoffice publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Credit Notes API, Delivery Notes API, and 11 more. Tagged areas include Accounting, Invoicing, Bookkeeping, Finance, and Germany.
 
 
-  lexoffice''s developer surface includes authentication, documentation, and 7 more developer resources.'
+  lexoffice''s developer surface includes authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Lexoffice Plans Pricing
   plan_count: 4
@@ -237,13 +242,13 @@ score:
   band: thin
   composite: 34.8
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 61.6
     catalog_earned_first_party: 0.0
     catalog_gap: 53.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.3
   facets:
     access_clarity: 36.3
     contract_governance: 0.0
@@ -259,7 +264,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 34.8
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -274,7 +279,7 @@ score:
     regime_id: horizontal
     score: 11.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

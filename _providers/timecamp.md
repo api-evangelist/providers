@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 91
+- acting_count: 94
   human_in_the_loop: 1
   name: Timecamp Agentic Access
-  operation_count: 151
+  operation_count: 146
   slug: timecamp-agentic-access
-  summary_line: 151 operations · 91 acting · 1 human-in-the-loop
+  summary_line: 146 operations · 94 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://app.timecamp.com/third_party/api
@@ -181,7 +181,7 @@ apis:
   description: The [v3] Time Entry Restriction API from TimeCamp — 3 operation(s) for [v3] time entry restriction.
   name: TimeCamp [v3] Time Entry Restriction API
   slug: timecamp-v3-time-entry-restriction-api
-artifact_total: 62
+artifact_total: 63
 collections:
 - collection_type: open
   name: API Collection
@@ -338,6 +338,10 @@ finops:
   slug: timecamp-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/timecamp.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.timecamp.com over HTTP.
+  name: TimeCamp MCP Server
+  slug: timecamp
 modified: '2026-07-11'
 name: TimeCamp
 nav: Providers
@@ -357,23 +361,23 @@ rate_limits:
   slug: timecamp-rate-limits
 score:
   band: thin
-  composite: 35.1
+  composite: 34.6
   coverage:
     artifact_dirs: 13
-    catalog_earned: 58.0
+    catalog_earned: 55.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -2.9
   facets:
     access_clarity: 46.8
     contract_governance: 0.0
     contract_quality: 51.4
     developer_ergonomics: 19.0
-    discoverability: 68.3
+    discoverability: 63.3
     operational_transparency: 18.9
-  previous_composite: 34.6
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -389,7 +393,7 @@ score:
     regime_id: horizontal
     score: 11.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

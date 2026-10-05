@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -125,6 +125,11 @@ collections:
   name: Archera.ai Commitment Plans Well-Known API
   slug: open-archera-well-known-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/capabilities/archera-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/archera-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/overlays/archera-openapi-overlay.yaml
   title: ''
@@ -259,7 +264,7 @@ layout: provider
 mcp_servers:
 - description: Archera operates and hosts a remote MCP (Model Context Protocol) server that connects an AI assistant to a user's Archera account — cloud commitments, cost data, and optimization recommendations. Stre
   name: Archera MCP Server
-  slug: archera-mcp-server
+  slug: archera
 modified: '2026-07-18'
 name: Archera
 nav: Providers
@@ -267,7 +272,7 @@ network: true
 overview: 'Archera publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Commitment Plans API, Commitments API, Exchanges API, and 7 more. Tagged areas include Company, Developer Tools, FinOps, Cloud Cost Management, and Cloud Commitments.
 
 
-  Archera''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 21 more developer resources.'
+  Archera''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 22 more developer resources.'
 random_paper: 0
 scopes:
 - name: Archera Scopes
@@ -278,13 +283,13 @@ score:
   band: developing
   composite: 44.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.4
   facets:
     access_clarity: 53.9
     contract_governance: 18.2
@@ -292,7 +297,7 @@ score:
     developer_ergonomics: 54.2
     discoverability: 75.0
     operational_transparency: 0.0
-  previous_composite: 44.2
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -310,7 +315,7 @@ score:
     regime_id: horizontal
     score: 39.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true
@@ -340,5 +345,6 @@ tags:
 - MCP
 - Azure
 - Google Cloud
+- Reserved Instances
 website: https://archera.ai
 ---

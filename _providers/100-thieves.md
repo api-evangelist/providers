@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -154,9 +154,9 @@ description: '100 Thieves is an American lifestyle brand and gaming organization
 image: https://100thieves.com/cdn/shop/files/100-Thieves-arcade.jpg?v=1710263463
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at 100thieves.com over HTTP; 13 tools listed.
   name: 100 Thieves MCP Server
-  slug: 100-thieves-mcp-server
+  slug: 100-thieves-ucp-shopping
 modified: '2026-08-05'
 name: 100 Thieves
 nav: Providers
@@ -181,7 +181,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.9
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
@@ -196,7 +196,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 27.7
+  previous_composite: 33.6
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -209,8 +209,8 @@ score:
     regime_id: horizontal
     score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

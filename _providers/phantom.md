@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 10
 apis:
 - description: Solana wallet provider injected at window.phantom.solana exposing connect, disconnect, signMessage, signIn (Sign-In With Solana), signTransaction, signAllTransactions, and signAndSendTransaction. Impl
@@ -65,7 +65,7 @@ apis:
 - description: 'Developer portal for registering apps that integrate Phantom. Provides account creation, app creation with App IDs, domain verification, redirect URL configuration, app metadata editing, and contract '
   name: Phantom Portal
   slug: phantom-portal
-artifact_total: 12
+artifact_total: 13
 common:
 - group: operate
   title: ''
@@ -297,6 +297,10 @@ created: '2026-05-24'
 description: Phantom is a self-custodial multi-chain crypto wallet for Solana, Ethereum, Polygon, Base, Bitcoin, Sui, Monad, and HyperEVM, distributed as a mobile app (iOS/Android) and browser extension with more than 20 million users. For developers, Phantom exposes injected Provider APIs per chain on window.phantom (Solana, EVM, Bitcoin, Sui) following the Wallet Standard and EIP-1193, a Universal Link / phantom:// Deeplinks API for mobile dApp integration with encrypted session handshakes, a multi-platform Connect SDK suite (React, React Native, Browser SDKs) with embedded wallet support and OAuth social login (Google, Apple), and a Phantom MCP Server that exposes 27 tools across wallet operations, swaps, portfolio rebalancing, and Hyperliquid perpetuals for AI agents — each agent receives its own wallet via device-code authentication. Apps register through the Phantom Portal to obtain an App ID, configure redirect URLs, verify domains, and opt into auto-confirm contracts.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/phantom.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at docs.phantom.com over HTTP; 3 tools listed.
+  name: Phantom MCP Server
+  slug: phantom
 modified: '2026-05-24'
 name: Phantom
 nav: Providers
@@ -316,7 +320,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
@@ -327,7 +331,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 24.2
+  previous_composite: 23.4
   provenance:
     mcp: first-party
   regulatory:
@@ -337,7 +341,7 @@ score:
     regime_id: payments
     score: 10.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

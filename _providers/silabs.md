@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -86,6 +86,10 @@ created: '2026-07-17'
 description: 'Silicon Labs (Silabs) is a fabless semiconductor company headquartered in Austin, Texas that designs silicon, software, and solutions for a more connected, IoT world. Its portfolio includes wireless connectivity SoCs and modules for Bluetooth, Bluetooth Mesh, Zigbee, Thread, Matter, Z-Wave, Wi-Fi, and proprietary sub-GHz protocols, along with 32-bit microcontrollers, sensors, and timing devices. Developers build on Silicon Labs hardware using the Simplicity Studio IDE, the Simplicity SDK (formerly Gecko SDK), the docs.silabs.com developer documentation, and the Silicon Labs Community. Silicon Labs is a hardware and embedded-software provider rather than a web-API vendor: its public developer surface is embedded C/C++ SDKs, tools, and reference examples on GitHub (github.com/SiliconLabs), not a hosted REST API — so this profile carries identity, developer-portal, and security signals rather than API specifications.'
 image: https://www.silabs.com/content/dam/siliconlabs/images/social-thumbnails/homepage-thumbnail.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.silabs.com over HTTP.
+  name: Silicon Labs MCP Server
+  slug: silabs
 modified: '2026-07-21'
 name: Silicon Labs
 nav: Providers
@@ -105,7 +109,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -120,7 +124,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 16.9
+  previous_composite: 16.2
   provenance:
     mcp: first-party
   regulatory:
@@ -130,7 +134,7 @@ score:
     regime_id: horizontal
     score: 19.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

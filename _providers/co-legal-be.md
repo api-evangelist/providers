@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: Agent2Agent 1.0 surface of Co-Legal's public legal/fiscal assistant. The agent card at https://agent.co-legal.be/.well-known/agent-card.json (version 1.27.9, JWS ES256-signed, verified against /.well-
@@ -32,7 +32,7 @@ apis:
 - description: Remote Model Context Protocol server at https://agent.co-legal.be/mcp (Streamable HTTP, POST only, negotiated protocol version 2025-06-18, serverInfo colegal-legal-lookup 1.27.9). initialize and tools
   name: Co-Legal Legal Lookup MCP Server
   slug: co-legal-legal-lookup-mcp-server
-artifact_total: 10
+artifact_total: 9
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/co-legal-be/refs/heads/main/security/co-legal-be-vulnerability-disclosure.yml
@@ -217,12 +217,9 @@ description: 'Co-Legal B.V. is a Dutch company (KvK 42135345, Delft) building AI
 image: https://co-legal.be/assets/icon-512.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: 'Co-Legal operates ONE remote MCP server at https://agent.co-legal.be/mcp — the same Cloud Run host that serves its A2A agent card and JSON-RPC endpoint. It is POST-only Streamable HTTP (a GET returns '
   name: Co-Legal MCP Server
-  slug: co-legal-mcp-server
-- description: ''
-  name: Co-Legal MCP endpoint (Streamable HTTP)
-  slug: co-legal-mcp-endpoint-streamable-http
+  slug: co-legal-be-mcp-yml
 - description: ''
   name: MCP discovery pointer
   slug: mcp-discovery-pointer
@@ -247,13 +244,13 @@ score:
   band: developing
   composite: 42.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 16
     catalog_earned: 53.0
     catalog_earned_first_party: 16.0
     catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.1
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
@@ -270,7 +267,7 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 42.3
+  previous_composite: 36.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -282,8 +279,8 @@ score:
     regime_id: horizontal
     score: 57.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

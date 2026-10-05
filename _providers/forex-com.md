@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 4
+- acting_count: 5
   human_in_the_loop: 1
   name: Forex Com Agentic Access
   operation_count: 17
   slug: forex-com-agentic-access
-  summary_line: 17 operations · 4 acting · 1 human-in-the-loop
+  summary_line: 17 operations · 5 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - description: 'Place and manage trade orders on the FOREX.com platform against live streaming prices. Supports market price orders with configurable direction (Buy/Sell), quantity, stop-loss, take-profit, and price '
@@ -240,13 +240,13 @@ score:
   band: developing
   composite: 46.1
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 12
     catalog_earned: 56.6
     catalog_earned_first_party: 0.0
     catalog_gap: 58.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.1
   facets:
     access_clarity: 70.5
     contract_governance: 0.0
@@ -254,7 +254,7 @@ score:
     developer_ergonomics: 47.6
     discoverability: 48.2
     operational_transparency: 28.4
-  previous_composite: 46.1
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     contracts:
@@ -269,7 +269,7 @@ score:
     regime_id: securities_market_data
     score: 30.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

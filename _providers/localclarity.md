@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 1
+- acting_count: 5
   human_in_the_loop: 0
   name: Localclarity Agentic Access
   operation_count: 6
   slug: localclarity-agentic-access
-  summary_line: 6 operations · 1 acting
+  summary_line: 6 operations · 5 acting
 api_count: 3
 apis:
 - baseURL: https://dev.localclarity.com/
@@ -50,6 +50,11 @@ apis:
   slug: localclarity-endpoints-api
 artifact_total: 8
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/capabilities/localclarity-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/localclarity-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/overlays/localclarity-openapi-overlay.yaml
   title: ''
@@ -213,7 +218,7 @@ overview: 'LocalClarity publishes 1 API on the [APIs.io](https://apis.io/) netwo
   The LocalClarity catalog on APIs.io includes 1 JSON-LD context.
 
 
-  LocalClarity''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 24 more developer resources.'
+  LocalClarity''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 25 more developer resources.'
 plans:
 - name: Localclarity Plans Pricing
   plan_count: 3
@@ -227,13 +232,13 @@ score:
   band: developing
   composite: 51.8
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 60.0
     catalog_earned_first_party: 12.0
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 77.6
     contract_governance: 4.5
@@ -241,7 +246,7 @@ score:
     developer_ergonomics: 49.4
     discoverability: 71.4
     operational_transparency: 28.9
-  previous_composite: 51.8
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -259,7 +264,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

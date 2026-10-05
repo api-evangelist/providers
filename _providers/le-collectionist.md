@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -57,6 +57,10 @@ created: '2026-07-17'
 description: 'Le Collectionist is a French luxury travel and villa-rental marketplace that curates high-end vacation homes and provides concierge services for guests, alongside a revenue-management offering for property owners and a commission-based referral program for travel agencies. Surfaced as a portfolio company of Partech and added to the API Evangelist network, the company operates a consumer booking website, an owner portal, and a travel magazine, but publishes no public developer API, developer portal, or programmatic partner integration at this time. Sector: Marketplace / Travel & Hospitality.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/le-collectionist.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.lecollectionist.com over HTTP; 1 tool listed.
+  name: Le Collectionist MCP Server
+  slug: le-collectionist
 modified: '2026-07-20'
 name: Le Collectionist
 nav: Providers
@@ -76,7 +80,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -92,7 +96,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 5.1
+  previous_composite: 6.4
   provenance:
     mcp: first-party
   regulatory:
@@ -102,7 +106,7 @@ score:
     regime_id: horizontal
     score: 5.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

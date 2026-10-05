@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 38
+- acting_count: 39
   human_in_the_loop: 1
   name: Nhost Agentic Access
-  operation_count: 58
+  operation_count: 54
   slug: nhost-agentic-access
-  summary_line: 58 operations · 38 acting · 1 human-in-the-loop
+  summary_line: 54 operations · 39 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - description: Instant, real-time GraphQL API auto-generated from PostgreSQL database schemas via Hasura. Supports queries, mutations, and live subscriptions with row- and column-level role-based access control.
@@ -110,7 +110,7 @@ apis:
   description: Email and ticket verification operations for confirming user actions
   name: Nhost Verification API
   slug: nhost-verification-api
-artifact_total: 43
+artifact_total: 44
 collections:
 - collection_type: open
   name: API Collection
@@ -149,6 +149,11 @@ collections:
   name: Nhost authentication verification API
   slug: open-nhost-verification-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/capabilities/nhost-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nhost-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/agentic-access/nhost-agentic-access.yml
   title: ''
@@ -268,6 +273,10 @@ jsonld:
   property_count: 4
   slug: nhost-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.nhost.io over HTTP.
+  name: Nhost MCP Server
+  slug: nhost
 modified: '2026-06-12'
 name: Nhost
 nav: Providers
@@ -278,7 +287,7 @@ overview: 'Nhost publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
   The Nhost catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Nhost''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
+  Nhost''s developer surface includes authentication, documentation, engineering blog, pricing, and 15 more developer resources.'
 plans:
 - name: Nhost Plans Pricing
   plan_count: 4
@@ -303,7 +312,7 @@ score:
   band: developing
   composite: 42.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 63.3
     catalog_earned_first_party: 0.0
     catalog_gap: 51.7
@@ -333,7 +342,7 @@ score:
     regime_id: horizontal
     score: 27.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true
@@ -367,5 +376,6 @@ tags:
 - Open Source
 - Firebase Alternative
 - Backend-as-a-Service
+- Passwordless
 website: https://nhost.io/
 ---

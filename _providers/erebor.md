@@ -26,20 +26,20 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.6
-  scored_at: '2026-10-03'
+  score: 14.0
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Erebor's developer API for programmatic access to banking, money-movement, and stablecoin operations. The gateway at api.erebor.bank authenticates requests with an API key and returns a structured JSO
   name: Erebor API
   slug: erebor-api
-artifact_total: 3
+artifact_total: 4
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/erebor/refs/heads/main/security/erebor-domain-security.yml
@@ -108,6 +108,10 @@ created: '2026-07-17'
 description: Erebor is a digital-first, FDIC-insured national bank built for the innovation economy — technology startups, cryptocurrency and stablecoin businesses, and AI and defense companies that traditional banks have historically underserved. Co-founded by Palmer Luckey (Anduril) and Joe Lonsdale (8VC) and backed by Founders Fund, Lux Capital, Haun Ventures, and 8VC, Erebor received OCC preliminary conditional approval in October 2025, FDIC deposit-insurance approval in December 2025, and launched in February 2026. It offers deposit accounts, wires and money movement, and stablecoin operations. Erebor exposes a developer API at api.erebor.bank secured with API keys, an Auth0-authenticated developer dashboard at developer.erebor.bank, and Fern-based developer documentation at docs.erebor.bank. The public developer docs are login-gated, so the machine-readable surface captured here is limited to what is observable without credentials.
 image: https://erebor.bank/apple-touch-icon.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at docs.erebor.bank over HTTP.
+  name: Erebor MCP Server
+  slug: erebor
 modified: '2026-07-19'
 name: Erebor
 nav: Providers
@@ -127,7 +131,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
@@ -135,7 +139,7 @@ score:
     developer_ergonomics: 19.0
     discoverability: 75.0
     operational_transparency: 0.0
-  previous_composite: 12.4
+  previous_composite: 12.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -146,7 +150,7 @@ score:
     regime_id: banking_open_finance
     score: 13.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -25,20 +25,20 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: First-party R package for importing, transforming, and visualizing PicnicHealth real-world research data (cohorts, medications, labs, clinical codes). Distributed via PicnicHealth's Posit/RStudio Pack
   name: PicnicHealth Research Data (R Package)
   slug: picnichealth-research-data-r-package
-artifact_total: 2
+artifact_total: 3
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/picnicai/refs/heads/main/security/picnicai-domain-security.yml
@@ -93,6 +93,10 @@ created: '2026-07-17'
 description: PicnicHealth (PicnicAI; legally Mission Health Labs, Inc.) is a San Francisco health-data company and Y Combinator alum (S14, founded 2014) that turns patients' fragmented medical records into structured, research-ready real-world datasets. Its consumer product gives patients a unified timeline of care across every provider, while PicnicResearch supplies de-identified, ontology-mapped (RxNorm, SNOMED, LOINC, ICD) real-world data to biopharma via AI extraction plus human clinical curation. The primary developer surface is a first-party R package distributed through PicnicHealth's own Posit/RStudio Package Manager for importing and visualizing research cohorts.
 image: https://picnic.ai/favicon.ico
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.picnichealth.com over HTTP.
+  name: Picnicai MCP Server
+  slug: picnicai
 modified: '2026-07-20'
 name: Picnicai
 nav: Providers
@@ -112,7 +116,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
@@ -120,7 +124,7 @@ score:
     developer_ergonomics: 28.6
     discoverability: 75.0
     operational_transparency: 2.6
-  previous_composite: 15.0
+  previous_composite: 14.6
   provenance:
     mcp: first-party
   regulatory:
@@ -130,7 +134,7 @@ score:
     regime_id: health
     score: 4.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

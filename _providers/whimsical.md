@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 0
+- acting_count: 5
   human_in_the_loop: 0
   name: Whimsical Agentic Access
   operation_count: 5
   slug: whimsical-agentic-access
-  summary_line: 5 operations
+  summary_line: 5 operations · 5 acting
 api_count: 1
 apis:
 - description: 'Limited-beta REST API. Endpoints are read-oriented and use POST verbs: `users.get`, `teams.list`, `comments.list`, `files.list`, `files.get`. Authentication is OAuth 2.1, with credentials issued by Wh'
@@ -76,7 +76,7 @@ apis:
   description: The Users.get API from Whimsical — 1 operation(s) for users.get.
   name: Whimsical Users.get API
   slug: whimsical-users-get-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -168,6 +168,10 @@ finops:
   slug: whimsical-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/whimsical.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.whimsical.com over HTTP.
+  name: Whimsical MCP Server
+  slug: whimsical
 modified: '2026-05-08'
 name: Whimsical
 nav: Providers
@@ -200,7 +204,7 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
@@ -208,7 +212,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 68.3
     operational_transparency: 7.9
-  previous_composite: 29.2
+  previous_composite: 28.6
   provenance:
     agentic_access: derived
     contracts:
@@ -224,7 +228,7 @@ score:
     regime_id: horizontal
     score: 27.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

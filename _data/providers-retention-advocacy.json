@@ -16,18 +16,18 @@
      "slug": "thanx",
      "description": "Thanx is a customer engagement, loyalty, and marketing automation platform for restaurants and other offline businesses, built to acquire, engage, and retain best customers and grow customer lifetime value. The platform combines data infrastructure, lifecycle marketing, loyalty and CRM, and digital ordering experiences. Thanx is API-first and publishes a public developer portal documenting a Consumer API for custom consumer experiences, a Partner API for privileged integration use cases, and a Loyalty API for digital ordering and kiosk providers, along with webhooks and Connex data-export integrations to warehouses like Snowflake and BigQuery. Thanx serves roughly 500 brands and processes over a billion transactions annually. It also publishes a hosted Docs MCP server for natural-language API search and an open agent-skills starter kit.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/screenshots/thanx-2026-06-20T195212.png",
-     "score": 75.9,
+     "score": 75.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 75.0,
       "contract_quality": 75.8,
       "contract_governance": 45.5,
       "operational_transparency": 86.8,
       "developer_ergonomics": 84.5,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -66,18 +66,18 @@
      "slug": "talon-one",
      "description": "Talon.One is an enterprise promotion, loyalty, and incentives engine that lets teams build and run coupons, discounts, referrals, bundles, giveaways, and multi-tier loyalty programs from a single rules-based platform. It exposes two primary REST APIs. The Integration API pushes real-time customer sessions, profiles, and events into the rules engine and returns the effects (discounts, awarded loyalty points, accepted coupons) to apply in the calling application. The Management API programmatically administers applications, campaigns, rulesets, coupons, loyalty programs, audiences, custom attributes, collections, and analytics exports that back the Campaign Manager. Talon.One is delivered as a managed, per-customer deployment; each account calls its own base URL (https://yourbaseurl.talon.one) and authenticates with an API key whose prefix distinguishes the Integration key (ApiKey-v1) from the Management key (ManagementKey-v1).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/screenshots/talon-one-2026-08-17T080429.png",
-     "score": 74.8,
+     "score": 74.3,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 73.3,
+      "discoverability": 68.3,
       "contract_quality": 61.8,
       "contract_governance": 4.5,
       "operational_transparency": 81.6,
       "developer_ergonomics": 81.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -135,7 +135,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -193,7 +193,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -232,18 +232,18 @@
      "slug": "punchh",
      "description": "Punchh, now part of PAR Technology and offered under the PAR Engagement brand, is an enterprise loyalty, offers, and customer engagement platform for restaurants. It unifies guest data from online ordering, mobile apps, POS, and kiosks into a single view so brands can run personalized loyalty and marketing programs. PAR exposes well-documented Punchh APIs through its developer portal covering platform functions, mobile, online ordering, POS and kiosk integration, and a webhooks manager, with sample collections published to Postman. Most integration surfaces require partner certification. Over 275 restaurant brands rely on Punchh to grow customer lifetime value.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/screenshots/punchh-2026-06-20T192311.png",
-     "score": 69.4,
+     "score": 68.8,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 78.6,
+      "discoverability": 73.2,
       "contract_quality": 64.0,
       "contract_governance": 45.5,
       "operational_transparency": 92.1,
       "developer_ergonomics": 68.5,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -293,7 +293,7 @@
       "developer_ergonomics": 72.0,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -343,7 +343,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -405,7 +405,7 @@
       "developer_ergonomics": 78.0,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -441,56 +441,6 @@
      "rank": 8
     },
     {
-     "name": "FirstPromoter",
-     "slug": "firstpromoter",
-     "description": "FirstPromoter is an affiliate, referral and influencer marketing platform for SaaS and subscription businesses, run by Igil Web SRL since 2016. It tracks clicks, leads and sales, manages promoters and campaigns, calculates multi-tier commissions and rewards, and pays affiliates through PayPal, Wise, Stripe and managed payouts. The public v2 REST API spans 37 first-party OpenAPI definitions and 179 operations across an admin surface, a promoter-facing surface and a server-side tracking surface, alongside a 44-event webhooks v2 system, a browser tracking library, and a remote MCP server for AI clients.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/screenshots/firstpromoter-2026-06-20T181244.png",
-     "score": 64.8,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 65.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 71.4,
-      "access_clarity": 85.5
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 39.2,
-      "matched_via": "fallback"
-     },
-     "agent_score": 62.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 9
-    },
-    {
      "name": "Extole",
      "slug": "extole",
      "description": "Extole is an enterprise referral, advocacy, and loyalty marketing platform that lets consumer brands run customer-acquisition programs powered by word-of-mouth. Its API surface spans four OpenAPI 3.0 specifications: a consumer-facing Integration API for advocate share links, referrals, and profiles; a server-side Integration API for rewards, persons, events, and files; and Management and Management Expert APIs for audiences, campaigns, components, zone rendering, reports, settings, and event webhooks. Authentication is token-based (Authorization header, extole_token cookie, or access_token query parameter) against api.extole.io, with first-party SDKs (iOS, Android, React Native), a developer CLI, published Postman collections, and an ISO 27001 / GDPR trust center. Extole also runs a first-party remote MCP server at mcp.extole.com — OAuth 2.1 with PKCE against idp.extole.com, 31 published toolsets — alongside published rate limits, a 90-code error registry, and a developer center at docs.extole.com. Surfaced originally as a Norwest Venture Partners portfolio lead and enriched from Extole's public developer surface.",
@@ -506,7 +456,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -545,6 +495,56 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
+     "rank": 9
+    },
+    {
+     "name": "FirstPromoter",
+     "slug": "firstpromoter",
+     "description": "FirstPromoter is an affiliate, referral and influencer marketing platform for SaaS and subscription businesses, run by Igil Web SRL since 2016. It tracks clicks, leads and sales, manages promoters and campaigns, calculates multi-tier commissions and rewards, and pays affiliates through PayPal, Wise, Stripe and managed payouts. The public v2 REST API spans 37 first-party OpenAPI definitions and 179 operations across an admin surface, a promoter-facing surface and a server-side tracking surface, alongside a 44-event webhooks v2 system, a browser tracking library, and a remote MCP server for AI clients.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/screenshots/firstpromoter-2026-06-20T181244.png",
+     "score": 64.3,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.0,
+      "contract_quality": 65.3,
+      "contract_governance": 18.2,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 71.4,
+      "access_clarity": 85.5
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 39.2,
+      "matched_via": "fallback"
+     },
+     "agent_score": 62.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
      "rank": 10
     },
     {
@@ -563,7 +563,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -610,18 +610,18 @@
      "slug": "creatoriq",
      "description": "CreatorIQ is an enterprise creator- and influencer-marketing platform used by brands and agencies to discover creators, build and manage a private creator network, run and measure campaigns, handle creator payouts, and report on performance across Instagram, TikTok, YouTube and other social networks. Its public REST API — documented on a Stoplight portal at apidocs.creatoriq.com and served from https://apis.creatoriq.com — exposes the customer's own CRM: publishers (creators), campaigns, lists, one-sheets, notes, divisions, social accounts and post/account metrics, an asynchronous reporting surface of forty report views, ecommerce promo codes and transactions, affiliate link tracking, conversion metrics, SafeIQ brand-safety scoring, and a Payments API for payouts and payables. A pub/sub webhook API lets integrators subscribe to campaign, creator, one-sheet and list events with MD5 and SHA-256 signed callbacks. Authentication is a single `x-api-key` header issued per partner or per division by a CreatorIQ account manager; there is no self-serve signup.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/screenshots/creatoriq-2026-08-17T080838.png",
-     "score": 62.4,
+     "score": 61.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 71.4,
+      "discoverability": 66.1,
       "contract_quality": 63.0,
       "contract_governance": 4.5,
       "operational_transparency": 78.9,
       "developer_ergonomics": 66.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -682,7 +682,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -717,22 +717,72 @@
      "rank": 13
     },
     {
-     "name": "Partnerize",
-     "slug": "partnerize",
-     "description": "Partnerize is a partnership-automation platform for affiliate, influencer and performance marketing, used by brands to discover and recruit partners, track clicks and conversions, calculate and pay commissions, guard against fraud, and report on channel performance. Its API is built API-first — the Partnerize console runs on top of it — and is published as two OpenAPI documents, a Brands API and a Partners API, covering 327 operations across three concurrent versions (v1, v2 and v3) on api.partnerize.com, authenticated with HTTP Basic over an application key and a user API key.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/partnerize/refs/heads/main/screenshots/partnerize-2026-06-20T191430.png",
-     "score": 60.2,
+     "name": "Refersion",
+     "slug": "refersion",
+     "description": "Affiliate marketing platform for e-commerce brands providing a REST and GraphQL API for managing affiliates, tracking referrals, processing commissions, and integrating with Shopify, BigCommerce, WooCommerce, and other platforms.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/screenshots/refersion-2026-06-20T192744.png",
+     "score": 59.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 73.2,
+      "contract_quality": 63.2,
+      "contract_governance": 28.0,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 39.9,
+      "access_clarity": 84.2
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 24.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 32.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 14
+    },
+    {
+     "name": "Partnerize",
+     "slug": "partnerize",
+     "description": "Partnerize is a partnership-automation platform for affiliate, influencer and performance marketing, used by brands to discover and recruit partners, track clicks and conversions, calculate and pay commissions, guard against fraud, and report on channel performance. Its API is built API-first — the Partnerize console runs on top of it — and is published as two OpenAPI documents, a Brands API and a Partners API, covering 327 operations across three concurrent versions (v1, v2 and v3) on api.partnerize.com, authenticated with HTTP Basic over an application key and a user API key.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/partnerize/refs/heads/main/screenshots/partnerize-2026-06-20T191430.png",
+     "score": 59.7,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 67.9,
       "contract_quality": 59.1,
       "contract_governance": 28.0,
       "operational_transparency": 47.4,
       "developer_ergonomics": 66.1,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -765,56 +815,6 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 14
-    },
-    {
-     "name": "Refersion",
-     "slug": "refersion",
-     "description": "Affiliate marketing platform for e-commerce brands providing a REST and GraphQL API for managing affiliates, tracking referrals, processing commissions, and integrating with Shopify, BigCommerce, WooCommerce, and other platforms.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/screenshots/refersion-2026-06-20T192744.png",
-     "score": 59.8,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 63.2,
-      "contract_governance": 28.0,
-      "operational_transparency": 60.5,
-      "developer_ergonomics": 39.9,
-      "access_clarity": 84.2
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 24.5,
-      "matched_via": "fallback"
-     },
-     "agent_score": 32.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 15
     },
     {
@@ -833,7 +833,7 @@
       "developer_ergonomics": 55.4,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -890,7 +890,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -940,7 +940,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1001,7 +1001,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1073,7 +1073,7 @@
       "developer_ergonomics": 66.2,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1123,7 +1123,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1173,7 +1173,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1223,7 +1223,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1274,7 +1274,7 @@
       "developer_ergonomics": 69.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1325,7 +1325,7 @@
       "developer_ergonomics": 17.3,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1375,7 +1375,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1425,7 +1425,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1461,57 +1461,6 @@
      "rank": 27
     },
     {
-     "name": "Incentivio",
-     "slug": "incentivio",
-     "description": "Incentivio is a Boston-based digital guest engagement platform for multi-unit restaurant brands, unifying online ordering, loyalty, marketing automation, and guest analytics into a single system. Its Incentivio Connect product is an AI-powered, API-first restaurant data platform that ingests data from POS, loyalty, mobile apps, web, and marketplaces, resolves it into a single persistent Guest ID, and scores guests for lifetime value, churn risk, visit frequency, journey stage, propensity-to-purchase, and offer sensitivity. The platform is BigQuery-native with a Star Schema data model, SOC 2 aligned with encryption at rest and in transit and RBAC, and pairs an API-first surface with reverse ETL to sync unified guest records back to existing CRM and ad platforms. Incentivio is built on modern APIs and offers deep partner integrations with POS, payments, delivery, and marketing systems such as Toast, Oracle Simphony, Square, SpotOn, and PAR Brink. Incentivio runs a Theneo-hosted developer portal at apidocs.incentivio.com that publishes no public projects, but two production Spring Boot services expose live, unauthenticated springdoc OpenAPI definitions on Incentivio's own hosts: the guest-facing Mobile & Ordering API (125 operations) and the operator-facing Admin API (421 operations), both fronted by an OAuth 2.0 authorization server advertised via RFC 8414 metadata. Narrative documentation, pricing, and self-service onboarding remain gated behind partnership and enterprise onboarding (the Connect Enterprise tier markets dedicated API SLAs).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/incentivio/refs/heads/main/screenshots/incentivio-2026-06-20T183307.png",
-     "score": 42.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 62.5,
-      "contract_quality": 50.9,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 39.9,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 26.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 24.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the advertiser (buy side)",
-     "rank": 28
-    },
-    {
      "name": "ShopMy",
      "slug": "shopmy",
      "description": "ShopMy is a creator-commerce and influencer-marketing platform connecting top brands with content creators across beauty, fashion, and lifestyle. Creators build curated digital shops and earn performance commissions (typically 10-30%) plus paid brand partnerships, while brands run affiliate programs, product gifting (Lookbooks), and performance budgets (Opportunities). The ShopMy Partners API lets Brand Partners pull detailed affiliate order reports, and lets OAuth developer applications create and read product links, manage shelf collections, resolve and rate product URLs, search the catalog, and read public profile information on behalf of authenticated ShopMy users. Backed by Bain Capital Ventures, Bessemer Venture Partners, and Menlo Ventures.",
@@ -1527,7 +1476,7 @@
       "developer_ergonomics": 38.7,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1560,7 +1509,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "CRM Bonus",
@@ -1578,7 +1527,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1611,6 +1560,57 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
+     "rank": 29
+    },
+    {
+     "name": "Incentivio",
+     "slug": "incentivio",
+     "description": "Incentivio is a Boston-based digital guest engagement platform for multi-unit restaurant brands, unifying online ordering, loyalty, marketing automation, and guest analytics into a single system. Its Incentivio Connect product is an AI-powered, API-first restaurant data platform that ingests data from POS, loyalty, mobile apps, web, and marketplaces, resolves it into a single persistent Guest ID, and scores guests for lifetime value, churn risk, visit frequency, journey stage, propensity-to-purchase, and offer sensitivity. The platform is BigQuery-native with a Star Schema data model, SOC 2 aligned with encryption at rest and in transit and RBAC, and pairs an API-first surface with reverse ETL to sync unified guest records back to existing CRM and ad platforms. Incentivio is built on modern APIs and offers deep partner integrations with POS, payments, delivery, and marketing systems such as Toast, Oracle Simphony, Square, SpotOn, and PAR Brink. Incentivio runs a Theneo-hosted developer portal at apidocs.incentivio.com that publishes no public projects, but two production Spring Boot services expose live, unauthenticated springdoc OpenAPI definitions on Incentivio's own hosts: the guest-facing Mobile & Ordering API (125 operations) and the operator-facing Admin API (421 operations), both fronted by an OAuth 2.0 authorization server advertised via RFC 8414 metadata. Narrative documentation, pricing, and self-service onboarding remain gated behind partnership and enterprise onboarding (the Connect Enterprise tier markets dedicated API SLAs).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/incentivio/refs/heads/main/screenshots/incentivio-2026-06-20T183307.png",
+     "score": 41.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 57.1,
+      "contract_quality": 50.9,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 39.9,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 26.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 24.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the advertiser (buy side)",
      "rank": 30
     },
     {
@@ -1629,7 +1629,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1680,7 +1680,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1751,7 +1751,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1801,7 +1801,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1852,7 +1852,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1903,7 +1903,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1960,7 +1960,7 @@
       "developer_ergonomics": 39.3,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2010,7 +2010,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2061,7 +2061,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2112,7 +2112,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2163,7 +2163,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2231,7 +2231,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2282,7 +2282,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2339,7 +2339,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2390,7 +2390,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2441,7 +2441,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2492,7 +2492,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2542,7 +2542,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2593,7 +2593,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2642,7 +2642,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2702,7 +2702,7 @@
       "developer_ergonomics": 3.6,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2753,7 +2753,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2803,7 +2803,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2854,7 +2854,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,

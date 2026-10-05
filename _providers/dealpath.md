@@ -28,20 +28,20 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-03'
+  score: 13.7
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Dealpath's REST API for programmatic access to deals, pipeline, and portfolio data. Bearer-token authentication (token provisioned by Dealpath); responses are JSON and advertise X-RateLimit-* headers.
   name: Dealpath API
   slug: dealpath-api
-artifact_total: 4
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -121,6 +121,10 @@ created: '2026-07-17'
 description: Dealpath is an AI-powered deal management platform for commercial real estate investing, used by 300+ institutional firms to centralize deal data, automate workflows, and surface analytics across the full investment lifecycle from sourcing and pipeline management through underwriting, due diligence, IC approval, close, and portfolio insights. Its product areas include market tracking and comps, Dealpath Connect deal sourcing, pipeline visibility, deal execution, reporting dashboards, relationship/CRM management, and Dealpath AI. Dealpath exposes a bearer-token REST API at api.dealpath.com (documented on Stoplight) so customers can programmatically feed opportunities into their pipeline and establish bidirectional data flows with other business systems.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dealpath.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.dealpath.com over HTTP.
+  name: Dealpath MCP Server
+  slug: dealpath
 modified: '2026-07-18'
 name: Dealpath
 nav: Providers
@@ -144,7 +148,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
@@ -152,7 +156,7 @@ score:
     developer_ergonomics: 40.5
     discoverability: 75.0
     operational_transparency: 23.7
-  previous_composite: 28.2
+  previous_composite: 27.7
   provenance:
     mcp: first-party
   regulatory:
@@ -162,7 +166,7 @@ score:
     regime_id: horizontal
     score: 19.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

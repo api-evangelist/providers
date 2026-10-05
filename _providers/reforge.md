@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: 'Reforge Launch delivers feature flags, live configuration, dynamic log levels, and experiments through first-party SDKs and a CLI. SDKs fetch configuration from a global delivery network and evaluate '
@@ -143,7 +143,7 @@ layout: provider
 mcp_servers:
 - description: 'The Reforge CLI ships an MCP server that connects an AI assistant to a Reforge workspace. `reforge mcp` configures the server for a supported editor/assistant (e.g. Claude Code, Codeium), letting the '
   name: Reforge MCP Server
-  slug: reforge-mcp-server
+  slug: reforge
 modified: '2026-07-21'
 name: Reforge
 nav: Providers
@@ -163,7 +163,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 38.2
     contract_governance: 4.5
@@ -171,7 +171,7 @@ score:
     developer_ergonomics: 59.5
     discoverability: 71.7
     operational_transparency: 10.5
-  previous_composite: 30.0
+  previous_composite: 29.0
   provenance:
     conformance: derived
     mcp: first-party
@@ -182,7 +182,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

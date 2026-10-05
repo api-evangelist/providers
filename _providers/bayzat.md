@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Bayzat provides a cloud‑based HR, payroll, benefits and spend‑management platform with an API (access gated).
@@ -112,7 +112,7 @@ score:
   band: emerging
   composite: 17.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 7
     catalog_earned: 30.0
     catalog_earned_first_party: 0.0
     catalog_gap: 85.0
@@ -125,6 +125,11 @@ score:
     developer_ergonomics: 2.4
     discoverability: 53.6
     operational_transparency: 15.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - middle-east
   provenance:
     mcp: unknown
   regulatory:
@@ -134,7 +139,7 @@ score:
     regime_id: employment_payroll
     score: 18.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -155,5 +160,6 @@ tags:
 - Benefits
 - Software-as-a-Service
 - GCC
+- Employee Benefits
 website: https://www.bayzat.com
 ---

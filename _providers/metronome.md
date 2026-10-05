@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 79
+- acting_count: 120
   human_in_the_loop: 3
   name: Metronome Agentic Access
   operation_count: 133
   slug: metronome-agentic-access
-  summary_line: 133 operations · 79 acting · 3 human-in-the-loop
+  summary_line: 133 operations · 120 acting · 3 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.metronome.com
@@ -198,6 +198,11 @@ collections:
   name: Metronome
   slug: open-metronome
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/capabilities/metronome-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/metronome-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/agentic-access/metronome-agentic-access.yml
   title: ''
@@ -261,7 +266,7 @@ network: true
 overview: 'Metronome publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Billable Metrics API, Contracts API, and 15 more. Tagged areas include Billing, FinOps, Metering, Pricing, and Usage-Based Billing.
 
 
-  Metronome''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Metronome''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Metronome Plans Pricing
   plan_count: 3
@@ -275,13 +280,13 @@ score:
   band: thin
   composite: 38.9
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
@@ -289,7 +294,7 @@ score:
     developer_ergonomics: 35.7
     discoverability: 64.3
     operational_transparency: 26.3
-  previous_composite: 38.9
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     contracts:
@@ -304,7 +309,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

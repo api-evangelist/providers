@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -255,6 +255,11 @@ collections:
   slug: open-roboflow-yolo-world-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/capabilities/roboflow-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/roboflow-capability-edges.yml
+- group: other
   href: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/overlays/roboflow-inference-overlay.yaml
   title: ''
   type: Overlay
@@ -418,9 +423,9 @@ description: Roboflow is a computer vision platform used by over one million eng
 image: https://cdn.prod.website-files.com/5f6bc60e665f54545a1e52a5/670954c541fe7e67c3d2cb01_og-logo.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.roboflow.com over HTTP; 67 tools listed.
   name: Roboflow MCP Server
-  slug: roboflow-mcp-server
+  slug: roboflow
 modified: '2026-09-16'
 name: Roboflow
 nav: Providers
@@ -428,7 +433,7 @@ network: true
 overview: 'Roboflow publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Clip API, Dashboard.html API, Doctr API, and 23 more. Tagged areas include Computer Vision, Machine Learning, Artificial Intelligence, Object Detection, and Image Annotation.
 
 
-  Roboflow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+  Roboflow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
 random_paper: 16
 rate_limits:
 - limit_count: 3
@@ -443,13 +448,13 @@ score:
   band: strong
   composite: 55.9
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.0
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
@@ -457,7 +462,7 @@ score:
     developer_ergonomics: 78.6
     discoverability: 75.0
     operational_transparency: 65.8
-  previous_composite: 55.9
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -479,7 +484,7 @@ score:
     regime_id: horizontal
     score: 36.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

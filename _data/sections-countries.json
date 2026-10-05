@@ -3,33 +3,33 @@
   "slug": "united-kingdom",
   "name": "United Kingdom",
   "flag": "🇬🇧",
-  "count": 442,
-  "by_tag": 368,
-  "by_hq": 74
+  "count": 445,
+  "by_tag": 369,
+  "by_hq": 76
  },
  {
   "slug": "china",
   "name": "China",
   "flag": "🇨🇳",
-  "count": 418,
-  "by_tag": 406,
+  "count": 422,
+  "by_tag": 410,
   "by_hq": 12
  },
  {
   "slug": "india",
   "name": "India",
   "flag": "🇮🇳",
-  "count": 380,
-  "by_tag": 370,
+  "count": 383,
+  "by_tag": 373,
   "by_hq": 10
  },
  {
   "slug": "united-states",
   "name": "United States",
   "flag": "🇺🇸",
-  "count": 332,
-  "by_tag": 309,
-  "by_hq": 23
+  "count": 334,
+  "by_tag": 310,
+  "by_hq": 24
  },
  {
   "slug": "germany",
@@ -59,8 +59,8 @@
   "slug": "france",
   "name": "France",
   "flag": "🇫🇷",
-  "count": 156,
-  "by_tag": 152,
+  "count": 157,
+  "by_tag": 153,
   "by_hq": 4
  },
  {
@@ -72,20 +72,20 @@
   "by_hq": 1
  },
  {
-  "slug": "singapore",
-  "name": "Singapore",
-  "flag": "🇸🇬",
-  "count": 123,
-  "by_tag": 71,
-  "by_hq": 52
- },
- {
   "slug": "japan",
   "name": "Japan",
   "flag": "🇯🇵",
-  "count": 122,
-  "by_tag": 121,
+  "count": 125,
+  "by_tag": 124,
   "by_hq": 1
+ },
+ {
+  "slug": "singapore",
+  "name": "Singapore",
+  "flag": "🇸🇬",
+  "count": 124,
+  "by_tag": 72,
+  "by_hq": 52
  },
  {
   "slug": "mexico",
@@ -99,8 +99,8 @@
   "slug": "south-korea",
   "name": "South Korea",
   "flag": "🇰🇷",
-  "count": 108,
-  "by_tag": 107,
+  "count": 110,
+  "by_tag": 109,
   "by_hq": 1
  },
  {
@@ -123,16 +123,16 @@
   "slug": "sweden",
   "name": "Sweden",
   "flag": "🇸🇪",
-  "count": 68,
-  "by_tag": 66,
+  "count": 69,
+  "by_tag": 67,
   "by_hq": 2
  },
  {
   "slug": "italy",
   "name": "Italy",
   "flag": "🇮🇹",
-  "count": 49,
-  "by_tag": 48,
+  "count": 50,
+  "by_tag": 49,
   "by_hq": 1
  },
  {
@@ -192,20 +192,20 @@
   "by_hq": 1
  },
  {
+  "slug": "turkey",
+  "name": "Turkey",
+  "flag": "🇹🇷",
+  "count": 14,
+  "by_tag": 13,
+  "by_hq": 1
+ },
+ {
   "slug": "poland",
   "name": "Poland",
   "flag": "🇵🇱",
   "count": 14,
   "by_tag": 10,
   "by_hq": 4
- },
- {
-  "slug": "turkey",
-  "name": "Turkey",
-  "flag": "🇹🇷",
-  "count": 13,
-  "by_tag": 12,
-  "by_hq": 1
  },
  {
   "slug": "russia",

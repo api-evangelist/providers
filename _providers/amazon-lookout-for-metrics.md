@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 19
+- acting_count: 29
   human_in_the_loop: 0
   name: Amazon Lookout For Metrics Agentic Access
   operation_count: 30
   slug: amazon-lookout-for-metrics-agentic-access
-  summary_line: 30 operations · 19 acting
+  summary_line: 30 operations · 29 acting
 api_count: 1
 apis:
 - baseURL: https://lookoutmetrics.amazonaws.com
@@ -2594,12 +2594,12 @@ score:
   composite: 0.0
   coverage:
     artifact_dirs: 18
-    catalog_earned: 71.4
+    catalog_earned: 68.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.6
+    catalog_gap: 46.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -47.7
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -2608,7 +2608,7 @@ score:
     discoverability: 0.0
     operational_transparency: 0.0
   lifecycle: defunct
-  previous_composite: 0.0
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     contracts:
@@ -2623,8 +2623,8 @@ score:
     regime_id: horizontal
     score: 32.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -183,7 +183,7 @@ score:
   band: thin
   composite: 38.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 45.8
     catalog_earned_first_party: 0.0
     catalog_gap: 69.3
@@ -196,6 +196,13 @@ score:
     developer_ergonomics: 52.4
     discoverability: 62.5
     operational_transparency: 15.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - saudi-arabia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - middle-east
   provenance:
     agentic_access: derived
     conformance: derived
@@ -212,7 +219,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 0.0

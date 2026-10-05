@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: White-labeled embedded finance REST API for offering business financing — creating businesses, persons, and bank accounts; generating capital offers; creating capital, line-of-credit, and pay-over-tim
@@ -135,7 +135,7 @@ layout: provider
 mcp_servers:
 - description: Parafin operates a hosted, remote MCP server over Streamable HTTP at https://docs.parafin.com/mcp that exposes documentation search to agents. It is protected by OAuth 2.1 (RFC 8414 authorization-serv
   name: Parafin MCP Server
-  slug: parafin-mcp-server
+  slug: parafin-docs
 modified: '2026-07-20'
 name: Parafin
 nav: Providers
@@ -155,7 +155,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
@@ -163,7 +163,7 @@ score:
     developer_ergonomics: 33.3
     discoverability: 71.7
     operational_transparency: 2.6
-  previous_composite: 15.5
+  previous_composite: 15.6
   provenance:
     mcp: first-party
   regulatory:
@@ -173,7 +173,7 @@ score:
     regime_id: payments
     score: 14.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

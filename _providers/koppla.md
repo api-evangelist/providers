@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: koppla advertises an "Offene Schnittstelle / API" (open interface / API) as an included capability of its Enterprise plan, alongside a Power BI integration that pushes koppla schedule data into custom
@@ -205,9 +205,9 @@ description: koppla GmbH is a Potsdam, Germany based construction technology com
 image: https://framerusercontent.com/images/8nYdPiJ2n9S523P0LvOTKwYtTI.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server over HTTP; 154 tools listed. A candidate, not confirmed as published by the provider.
   name: Koppla MCP Server
-  slug: koppla-mcp-server
+  slug: koppla
 modified: '2026-07-19'
 name: Koppla
 nav: Providers
@@ -221,13 +221,13 @@ score:
   band: developing
   composite: 43.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.2
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
@@ -243,7 +243,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 43.9
+  previous_composite: 41.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -259,7 +259,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

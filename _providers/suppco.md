@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
 - group: other
   title: ''
@@ -84,6 +84,10 @@ created: '2026-07-17'
 description: SuppCo is a consumer supplement tracking and optimization platform, describing itself as the world's first real supplement tracker and optimizer. Its iOS and Android app lets people log their supplement stack and get a personalized StackScore across quality, dosing, goal coverage, and nutrient levels, plus a TrustScore that rates products on 29 attributes. It is backed by a database of 160,000+ products, 20,000+ research studies, and 80+ expert protocols from functional-medicine practitioners. SuppCo is in open beta (free, with an optional Pro tier) and was acquired by Function Health. No public developer API, OpenAPI, or developer portal is currently published; this profile captures its public web, security, and legal surface. Surfaced as a portfolio company of Union Square Ventures.
 image: https://supp.co/favicon.ico
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.supp.co over HTTP; 15 tools listed.
+  name: SuppCo MCP Server
+  slug: suppco
 modified: '2026-07-21'
 name: SuppCo
 nav: Providers
@@ -103,7 +107,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -111,7 +115,7 @@ score:
     developer_ergonomics: 4.8
     discoverability: 51.7
     operational_transparency: 10.5
-  previous_composite: 12.2
+  previous_composite: 12.5
   provenance:
     mcp: first-party
   regulatory:
@@ -121,7 +125,7 @@ score:
     regime_id: health
     score: 15.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

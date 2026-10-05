@@ -14,8 +14,8 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: false
-    agent_skills: unknown
+    agent_card: conformant
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.6
-  scored_at: '2026-10-03'
+  score: 49.2
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -381,7 +381,7 @@ arazzos:
 - description: Find a host, review its applicable errata, and update its content view assignment.
   name: Red Hat Satellite Host Errata Remediation
   slug: red-hat-satellite-host-errata-remediation-workflow
-artifact_total: 316
+artifact_total: 365
 asyncapis:
 - description: The Red Hat Streams for Apache Kafka Bridge provides an HTTP-based interface for producing and consuming messages to and from Apache Kafka topics without requiring a native Kafka client. Deployed on O
   name: Red Hat Streams for Apache Kafka Bridge Events
@@ -532,6 +532,125 @@ collections:
   name: Red Hat Ansible Automation Platform Add-Ons Workflow Job Templates API
   slug: open-red-hat-workflow-job-templates-api
 common:
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://apis.io/developer/onboarding
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/finops/red-hat-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/red-hat-finops.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/rate-limits/red-hat-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/red-hat-rate-limits.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/rules/red-hat-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/red-hat-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/rules/red-hat-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/red-hat-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/rules/red-hat-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/red-hat-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/rules/red-hat-asyncapi-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/red-hat-asyncapi-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/json-ld/red-hat-satellite-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/red-hat-satellite-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/json-ld/red-hat-quay-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/red-hat-quay-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/json-ld/red-hat-openshift-cluster-manager-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/red-hat-openshift-cluster-manager-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/json-ld/red-hat-keycloak-admin-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/red-hat-keycloak-admin-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/json-ld/red-hat-insights-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/red-hat-insights-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/json-ld/red-hat-ansible-automation-platform-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/red-hat-ansible-automation-platform-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/vocabulary/red-hat-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/red-hat-vocabulary.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/asyncapi/red-hat-notifications-webhooks-asyncapi.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/red-hat-notifications-webhooks-asyncapi.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.redhat.com/en/trust
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://access.redhat.com/support/policy/updates/errata
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/a2a/red-hat-a2a.yml
+  title: ''
+  type: AgentCard
+  url: a2a/red-hat-a2a.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/mcp/red-hat-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/red-hat-tool-crosswalk.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/hosts/red-hat-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/red-hat-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/vendors/red-hat-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/red-hat-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.redhat.com/en/about/newsroom
+- group: other
+  title: ''
+  type: Leadership
+  url: https://access.redhat.com/management
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.redhat.com/api-catalog
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/plans/red-hat-plans-pricing.yml
   title: ''
@@ -786,10 +905,6 @@ common:
   title: ''
   type: Portal
   url: https://developers.redhat.com
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://developers.redhat.com/get-started
 - group: docs
   title: ''
   type: Documentation
@@ -923,7 +1038,7 @@ common:
   type: Pricing
   url: https://www.redhat.com/en/store
 created: '2024-01-15'
-description: APIs and developer resources from Red Hat, a leading provider of enterprise open source solutions including Linux, cloud, container, and Kubernetes technologies.
+description: Red Hat provides a comprehensive suite of enterprise open source solutions, offering APIs and developer resources across Linux operating systems, cloud platforms, container technologies, and Kubernetes orchestration. Their offerings enable organizations to manage subscriptions, advanced cluster management, security, cost management, image building, vulnerability assessment, and more, facilitating hybrid cloud deployments and enterprise-grade automation.
 examples:
 - key_count: 1
   name: Red Hat Ansible Automation Platform Error Example
@@ -1087,6 +1202,9 @@ finops:
   slug: red-hat-finops
 image: https://www.redhat.com/cms/managed-files/Logo-Red_Hat-A-Standard-RGB.svg
 json_schemas:
+- name: AddonList
+  property_count: 5
+  slug: red-hat-addon-list
 - name: Error
   property_count: 1
   slug: red-hat-ansible-automation-platform-error
@@ -1120,6 +1238,36 @@ json_schemas:
 - name: Red Hat Ansible Automation Platform Job
   property_count: 22
   slug: red-hat-ansible-job
+- name: Client
+  property_count: 12
+  slug: red-hat-client
+- name: CloudProviderList
+  property_count: 5
+  slug: red-hat-cloud-provider-list
+- name: CloudRegionList
+  property_count: 5
+  slug: red-hat-cloud-region-list
+- name: ClusterList
+  property_count: 5
+  slug: red-hat-cluster-list
+- name: Cluster
+  property_count: 13
+  slug: red-hat-cluster
+- name: Group
+  property_count: 4
+  slug: red-hat-group
+- name: Host
+  property_count: 13
+  slug: red-hat-host
+- name: IdentityProviderList
+  property_count: 5
+  slug: red-hat-identity-provider-list
+- name: IdentityProviderRepresentation
+  property_count: 5
+  slug: red-hat-identity-provider-representation
+- name: IdentityProvider
+  property_count: 7
+  slug: red-hat-identity-provider
 - name: Red Hat Insights Advisory
   property_count: 13
   slug: red-hat-insights-advisory
@@ -1150,6 +1298,15 @@ json_schemas:
 - name: Topic
   property_count: 6
   slug: red-hat-insights-topic
+- name: Inventory
+  property_count: 10
+  slug: red-hat-inventory
+- name: Job
+  property_count: 13
+  slug: red-hat-job
+- name: JobTemplate
+  property_count: 17
+  slug: red-hat-job-template
 - name: Client
   property_count: 12
   slug: red-hat-keycloak-admin-client
@@ -1168,6 +1325,12 @@ json_schemas:
 - name: User
   property_count: 11
   slug: red-hat-keycloak-admin-user
+- name: MachinePoolList
+  property_count: 5
+  slug: red-hat-machine-pool-list
+- name: MachinePool
+  property_count: 7
+  slug: red-hat-machine-pool
 - name: AddonList
   property_count: 5
   slug: red-hat-openshift-cluster-manager-addon-list
@@ -1209,6 +1372,54 @@ json_schemas:
   slug: red-hat-openshift-cluster
 - name: Organization
   property_count: 5
+  slug: red-hat-organization
+- name: PaginatedContentViewList
+  property_count: 5
+  slug: red-hat-paginated-content-view-list
+- name: PaginatedCredentialList
+  property_count: 4
+  slug: red-hat-paginated-credential-list
+- name: PaginatedEnvironmentList
+  property_count: 5
+  slug: red-hat-paginated-environment-list
+- name: PaginatedErrataList
+  property_count: 5
+  slug: red-hat-paginated-errata-list
+- name: PaginatedHostGroupList
+  property_count: 5
+  slug: red-hat-paginated-host-group-list
+- name: PaginatedHostList
+  property_count: 5
+  slug: red-hat-paginated-host-list
+- name: PaginatedInventoryList
+  property_count: 4
+  slug: red-hat-paginated-inventory-list
+- name: PaginatedJobList
+  property_count: 4
+  slug: red-hat-paginated-job-list
+- name: PaginatedJobTemplateList
+  property_count: 4
+  slug: red-hat-paginated-job-template-list
+- name: PaginatedList
+  property_count: 4
+  slug: red-hat-paginated-list
+- name: PaginatedOrganizationList
+  property_count: 5
+  slug: red-hat-paginated-organization-list
+- name: PaginatedProjectList
+  property_count: 4
+  slug: red-hat-paginated-project-list
+- name: PaginatedRepositoryList
+  property_count: 5
+  slug: red-hat-paginated-repository-list
+- name: PaginatedRuleList
+  property_count: 3
+  slug: red-hat-paginated-rule-list
+- name: PaginatedSystemList
+  property_count: 3
+  slug: red-hat-paginated-system-list
+- name: Organization
+  property_count: 5
   slug: red-hat-quay-organization
 - name: RepositoryList
   property_count: 2
@@ -1228,6 +1439,27 @@ json_schemas:
 - name: User
   property_count: 4
   slug: red-hat-quay-user
+- name: Realm
+  property_count: 12
+  slug: red-hat-realm
+- name: RepositoryList
+  property_count: 2
+  slug: red-hat-repository-list
+- name: Repository
+  property_count: 7
+  slug: red-hat-repository
+- name: RobotAccount
+  property_count: 4
+  slug: red-hat-robot-account
+- name: Role
+  property_count: 5
+  slug: red-hat-role
+- name: Rule
+  property_count: 12
+  slug: red-hat-rule
+- name: RuleStats
+  property_count: 3
+  slug: red-hat-rule-stats
 - name: Host
   property_count: 13
   slug: red-hat-satellite-host
@@ -1252,6 +1484,33 @@ json_schemas:
 - name: PaginatedRepositoryList
   property_count: 5
   slug: red-hat-satellite-paginated-repository-list
+- name: SecurityScanResult
+  property_count: 2
+  slug: red-hat-security-scan-result
+- name: SubscriptionList
+  property_count: 5
+  slug: red-hat-subscription-list
+- name: System
+  property_count: 10
+  slug: red-hat-system
+- name: SystemStats
+  property_count: 3
+  slug: red-hat-system-stats
+- name: TagList
+  property_count: 3
+  slug: red-hat-tag-list
+- name: Topic
+  property_count: 6
+  slug: red-hat-topic
+- name: User_2
+  property_count: 4
+  slug: red-hat-user-2
+- name: User
+  property_count: 11
+  slug: red-hat-user
+- name: VersionList
+  property_count: 5
+  slug: red-hat-version-list
 json_structures:
 - name: Red Hat Ansible Automation Platform Error Structure
   property_count: 1
@@ -1442,7 +1701,7 @@ layout: provider
 mcp_servers:
 - description: Red Hat ships official Model Context Protocol servers as part of its AI portfolio rather than a single company-wide hosted endpoint. The primary one is the MCP server for Red Hat OpenShift (technology
   name: Red Hat MCP Server
-  slug: red-hat-mcp-server
+  slug: red-hat-mcp-yml
 modified: '2026-08-21'
 name: Red Hat
 nav: Providers
@@ -1450,10 +1709,10 @@ network: true
 overview: 'Red Hat publishes 75 APIs on the [APIs.io](https://apis.io/) network, including Streams for Apache Kafka Bridge API, Notifications API, Add-Ons API, and 72 more. Tagged areas include Red Hat, Cloud, Containers, Enterprise, and Hybrid Cloud.
 
 
-  The Red Hat catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 7 JSON-LD contexts, and 3 Spectral governance rulesets.
+  The Red Hat catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 7 JSON-LD contexts, and 4 Spectral governance rulesets.
 
 
-  Red Hat''s developer surface includes authentication, changelog, CLI, sandbox, developer portal, getting-started guide, documentation, and 79 more developer resources.'
+  Red Hat''s developer surface includes getting-started guide, API reference, authentication, changelog, CLI, sandbox, developer portal, and 103 more developer resources.'
 plans:
 - name: Red Hat Plans Pricing
   plan_count: 3
@@ -1491,30 +1750,41 @@ rules:
   name: Red Hat API Rules
   rule_count: 16
   severity_counts:
+    error: 13
+    hint: 0
+    info: 2
+    warn: 1
+  slug: red-hat-rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Red Hat API Rules
+  rule_count: 16
+  severity_counts:
     error: 8
     hint: 0
     info: 0
     warn: 8
   slug: red-hat-spectral-rules
 score:
-  band: strong
-  composite: 65.1
+  band: exemplar
+  composite: 70.6
   coverage:
-    artifact_dirs: 35
-    catalog_earned: 54.5
+    artifact_dirs: 39
+    catalog_earned: 64.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.5
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 7.8
   facets:
-    access_clarity: 85.5
-    contract_governance: 18.2
+    access_clarity: 93.4
+    contract_governance: 31.8
     contract_quality: 67.9
-    developer_ergonomics: 71.9
-    discoverability: 55.0
-    operational_transparency: 34.2
-  previous_composite: 64.5
+    developer_ergonomics: 67.3
+    discoverability: 66.7
+    operational_transparency: 50.0
+  previous_composite: 62.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1524,6 +1794,7 @@ score:
       marker_coverage: 0.0
       total: 34
     mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
@@ -1531,8 +1802,8 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: rising
   upsert:
     applies: true
     score: 22.2

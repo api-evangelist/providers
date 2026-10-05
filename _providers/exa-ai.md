@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 57.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 34
+- acting_count: 36
   human_in_the_loop: 1
   name: Exa Ai Agentic Access
   operation_count: 66
   slug: exa-ai-agentic-access
-  summary_line: 66 operations · 34 acting · 1 human-in-the-loop
+  summary_line: 66 operations · 36 acting · 1 human-in-the-loop
 api_count: 7
 apis:
 - baseURL: https://api.exa.ai
@@ -640,7 +640,7 @@ layout: provider
 mcp_servers:
 - description: Exa operates an official remote MCP server at https://mcp.exa.ai/mcp. It runs a free, rate-limited tier with no auth; paid/agent tools authenticate with an Exa API key (x-api-key header) or OAuth. The
   name: Exa MCP Server
-  slug: exa-mcp-server
+  slug: exa
 modified: '2026-06-20'
 name: Exa
 nav: Providers
@@ -674,23 +674,23 @@ rules:
   slug: exa-ai-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 59.0
+  composite: 58.5
   coverage:
     artifact_dirs: 27
-    catalog_earned: 84.9
+    catalog_earned: 81.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 30.2
+    catalog_gap: 33.2
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -0.7
   facets:
     access_clarity: 78.4
     contract_governance: 14.4
     contract_quality: 67.3
     developer_ergonomics: 38.1
-    discoverability: 80.0
+    discoverability: 75.0
     operational_transparency: 38.9
-  previous_composite: 58.5
+  previous_composite: 59.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -707,7 +707,7 @@ score:
     regime_id: horizontal
     score: 29.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

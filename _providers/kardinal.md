@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 4
@@ -244,9 +244,9 @@ description: Kardinal is a Paris-based logistics optimization company whose Alwa
 image: https://kardinal.ai/wp-content/uploads/2020/01/cropped-Icon-blue-270x270.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at developers.kardinal.ai over HTTP; 3 tools listed.
   name: Kardinal MCP Server
-  slug: kardinal-mcp-server
+  slug: kardinal-api-docs
 modified: '2026-08-17'
 name: Kardinal
 nav: Providers
@@ -308,7 +308,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

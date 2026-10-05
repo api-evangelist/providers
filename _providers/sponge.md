@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 51.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 31
+- acting_count: 33
   human_in_the_loop: 0
   name: Sponge Agentic Access
   operation_count: 57
   slug: sponge-agentic-access
-  summary_line: 57 operations · 31 acting
+  summary_line: 57 operations · 33 acting
 api_count: 1
 apis:
 - baseURL: https://api.wallet.paysponge.com
@@ -275,7 +275,7 @@ layout: provider
 mcp_servers:
 - description: Sponge publishes official, hosted (remote) MCP servers for both the agent Wallet and the merchant Gateway. Wallet servers authenticate with an agent API key (sponge_live_...) for CLI clients, or OAuth
   name: Sponge MCP Server
-  slug: sponge-mcp-server
+  slug: sponge-mcp-yml
 modified: '2026-09-16'
 name: Sponge
 nav: Providers
@@ -300,7 +300,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
@@ -308,7 +308,7 @@ score:
     developer_ergonomics: 83.3
     discoverability: 75.0
     operational_transparency: 2.6
-  previous_composite: 46.3
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -326,7 +326,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

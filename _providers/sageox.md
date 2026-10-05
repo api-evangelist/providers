@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 66.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 103
+- acting_count: 105
   human_in_the_loop: 3
   name: Sageox Agentic Access
   operation_count: 223
   slug: sageox-agentic-access
-  summary_line: 223 operations · 103 acting · 3 human-in-the-loop
+  summary_line: 223 operations · 105 acting · 3 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: http://localhost:3000
@@ -236,6 +236,11 @@ collections:
   name: SageOx Admin Users API
   slug: open-sageox-users-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/capabilities/sageox-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sageox-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/skills/sageox-capture-a-recording.md
   title: ''
@@ -260,7 +265,7 @@ created: '2026-07-17'
 description: Sageox is a company surfaced as a portfolio company of canaan-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at sageox.ai over HTTP; 4 tools listed.
   name: SageOx MCP (Ox MCP)
   slug: sageox-mcp-ox-mcp
 modified: '2026-07-17'
@@ -278,13 +283,13 @@ score:
   band: emerging
   composite: 23.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 15.0
     catalog_earned_first_party: 0.0
     catalog_gap: 100.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
@@ -298,7 +303,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 23.0
+  previous_composite: 24.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -316,7 +321,7 @@ score:
     regime_id: horizontal
     score: 15.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

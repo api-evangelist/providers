@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Mutiny's hosted Model Context Protocol server and its only public programmatic entry point. It exposes the workspace's asset creation, template, content library and publishing capabilities to any MCP-
   name: Mutiny MCP Server
   slug: mutiny-mcp-server
-artifact_total: 8
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -178,12 +178,9 @@ description: Mutiny is a GTM (go-to-market) assistant built for customer-facing 
 image: https://framerusercontent.com/assets/Ec1hAhKLtluxlMfLydNP0NTrIA.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.mutinyhq.com over HTTP; 12 tools listed.
   name: Mutiny HQ MCP Server
-  slug: mutiny-hq-mcp-server
-- description: ''
-  name: Mutiny HQ MCP Server
-  slug: mutiny-hq-mcp-server-2
+  slug: mutiny
 modified: '2026-08-13'
 name: Mutiny HQ
 nav: Providers
@@ -216,7 +213,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.0
   facets:
     access_clarity: 77.6
     contract_governance: 18.2
@@ -224,7 +221,7 @@ score:
     developer_ergonomics: 54.8
     discoverability: 75.0
     operational_transparency: 2.6
-  previous_composite: 39.6
+  previous_composite: 36.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -241,7 +238,7 @@ score:
     regime_id: horizontal
     score: 36.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

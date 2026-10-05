@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 12
+- acting_count: 15
   human_in_the_loop: 0
   name: Trustpilot Agentic Access
   operation_count: 38
   slug: trustpilot-agentic-access
-  summary_line: 38 operations · 12 acting
+  summary_line: 38 operations · 15 acting
 api_count: 4
 apis:
 - description: The Trustpilot Consumer API provides access to reviews written by individual consumers. Developers can retrieve a consumer's review history with filtering by stars, language, location, and business un
@@ -135,6 +135,11 @@ collections:
   name: Trustpilot Business Units Invitations API
   slug: open-trustpilot-invitations-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/capabilities/trustpilot-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/trustpilot-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -317,7 +322,7 @@ overview: 'Trustpilot publishes 9 APIs on the [APIs.io](https://apis.io/) networ
   The Trustpilot catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Trustpilot''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, changelog, support, and 18 more developer resources.'
+  Trustpilot''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, changelog, support, and 19 more developer resources.'
 plans:
 - name: Trustpilot Plans Pricing
   plan_count: 5
@@ -364,7 +369,7 @@ score:
     catalog_gap: 54.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
     access_clarity: 60.5
     contract_governance: 13.6
@@ -372,7 +377,7 @@ score:
     developer_ergonomics: 39.3
     discoverability: 78.6
     operational_transparency: 42.1
-  previous_composite: 51.0
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     contracts:
@@ -387,7 +392,7 @@ score:
     regime_id: horizontal
     score: 40.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

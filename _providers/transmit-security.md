@@ -11,30 +11,31 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-03'
+  score: 45.1
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -87,7 +88,7 @@ apis:
   description: The Verification API from Transmit Security — 6 operation(s) for verification.
   name: Transmit Security Verification API
   slug: transmit-security-verification-api
-artifact_total: 47
+artifact_total: 48
 collections:
 - collection_type: postman
   name: One-Time Login Applications API
@@ -141,6 +142,100 @@ collections:
   name: One-Time Login Applications Verification API
   slug: open-transmit-security-verification-api
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/rules/transmit-security-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/transmit-security-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/rules/transmit-security-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/transmit-security-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/json-ld/transmit-security-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/transmit-security-context.jsonld
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/data-model/transmit-security-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/transmit-security-data-model.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/changelog/transmit-security-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/transmit-security-changelog.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/errors/transmit-security-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/transmit-security-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/conformance/transmit-security-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/transmit-security-conformance.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/llms/transmit-security-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/transmit-security-llms.txt
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/well-known/transmit-security-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/transmit-security-status-security.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/well-known/transmit-security-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/transmit-security-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/hosts/transmit-security-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/transmit-security-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/vendors/transmit-security-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/transmit-security-vendors.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/packages/transmit-security-packages.yml
+  title: ''
+  type: Packages
+  url: packages/transmit-security-packages.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.transmitsecurity.com/s/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://transmitsecurity.com/legal/privacy-policy-for-bindid
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://transmitsecurity.com/media/
+- group: other
+  title: ''
+  type: Leadership
+  url: https://transmitsecurity.com/leadership
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.transmitsecurity.com/guides/quick_start/enable_communication
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://api.transmitsecurity.io/risk-collect/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -288,10 +383,10 @@ network: true
 overview: 'Transmit Security publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Auth API, Manage API, and 6 more. Tagged areas include CIAM, Identity, Authentication, Passkeys, and WebAuthn.
 
 
-  The Transmit Security catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Transmit Security catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Transmit Security''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 15 more developer resources.'
+  Transmit Security''s developer surface includes changelog, support, getting-started guide, authentication, documentation, engineering blog, pricing, and 33 more developer resources.'
 plans:
 - name: Transmit Security Plans Pricing
   plan_count: 4
@@ -312,46 +407,60 @@ rules:
     info: 1
     warn: 5
   slug: transmit-security-jsonschema-spectral-rules
+- effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: Transmit Security API Rules
+  rule_count: 15
+  severity_counts:
+    error: 8
+    hint: 0
+    info: 2
+    warn: 5
+  slug: transmit-security-rules
 scopes:
 - name: Transmit Security Scopes
   scope_count: 4
   slug: transmit-security-scopes
   summary_line: 4 scopes · clientCredentials
 score:
-  band: developing
-  composite: 49.9
+  band: strong
+  composite: 59.9
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 89.4
+    artifact_dirs: 30
+    catalog_earned: 90.6
     catalog_earned_first_party: 0.0
-    catalog_gap: 25.7
+    catalog_gap: 24.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.4
+  delta: 9.2
   facets:
-    access_clarity: 46.8
-    contract_governance: 23.5
-    contract_quality: 56.0
-    developer_ergonomics: 32.1
-    discoverability: 71.4
+    access_clarity: 57.4
+    contract_governance: 31.8
+    contract_quality: 54.4
+    developer_ergonomics: 60.1
+    discoverability: 82.1
     operational_transparency: 62.6
-  previous_composite: 49.5
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
-      marker_coverage: 12.5
+      derived: 0
+      marker_coverage: 0.0
       total: 8
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 26.5
+    score: 30.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: rising
   upsert:
     applies: true
     score: 11.1

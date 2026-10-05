@@ -13,7 +13,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,14 +28,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: verified
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.8
-  scored_at: '2026-10-03'
+  score: 35.2
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -133,7 +132,7 @@ apis:
   description: The WMS / WMTS API from TomTom — 3 operation(s) for wms / wmts.
   name: TomTom WMS / WMTS API
   slug: tomtom-wms-wmts-api
-artifact_total: 80
+artifact_total: 81
 collections:
 - collection_type: open
   name: API Collection
@@ -338,6 +337,10 @@ jsonld:
   property_count: 4
   slug: tomtom-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.tomtom.com over HTTP.
+  name: TomTom MCP Server
+  slug: tomtom
 modified: '2026-05-19'
 name: TomTom
 nav: Providers
@@ -414,7 +417,7 @@ score:
     regime_id: horizontal
     score: 26.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

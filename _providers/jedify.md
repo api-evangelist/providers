@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Asynchronous REST API for asking natural-language analytics questions against connected data. Create a session, submit an inquiry, then poll or long-poll for a grounded answer with generated SQL, stru
@@ -137,9 +137,9 @@ description: Jedify is an enterprise AI platform that fuses business context wit
 image: https://jedify.com/wp-content/uploads/logo01-1-1.svg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at be.jedify.com over HTTP; 19 tools listed.
   name: Jedify MCP Server
-  slug: jedify-mcp-server
+  slug: jedify
 modified: '2026-07-19'
 name: Jedify
 nav: Providers
@@ -159,7 +159,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
@@ -167,7 +167,7 @@ score:
     developer_ergonomics: 54.2
     discoverability: 75.0
     operational_transparency: 15.8
-  previous_composite: 22.3
+  previous_composite: 22.6
   provenance:
     mcp: first-party
     skills: derived
@@ -178,7 +178,7 @@ score:
     regime_id: horizontal
     score: 14.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

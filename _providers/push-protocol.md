@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 5
 apis:
 - description: JavaScript/TypeScript SDK (@pushchain/core) for the Push Chain Universal Layer 1 blockchain. Exposes PushChain.initialize(signer, {network}) for client setup, pushChainClient.universal.sendTransaction
@@ -51,7 +51,7 @@ apis:
 - description: 'React UI component library providing PushUniversalWalletProvider and PushUniversalAccountButton for abstracting wallet connection and universal signer creation in web applications. Supports MetaMask, '
   name: Push Chain UI Kit
   slug: push-chain-ui-kit
-artifact_total: 9
+artifact_total: 10
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/push-protocol/refs/heads/main/security/push-protocol-domain-security.yml
@@ -125,6 +125,10 @@ finops:
   slug: push-protocol-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/push-protocol.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.push.org over HTTP; 4 tools listed.
+  name: Push Protocol MCP Server
+  slug: push-protocol
 modified: 2026-06-13 00:00:00+00:00
 name: Push Protocol
 nav: Providers
@@ -152,7 +156,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 58.4
     contract_governance: 0.0
@@ -160,7 +164,7 @@ score:
     developer_ergonomics: 38.1
     discoverability: 65.0
     operational_transparency: 28.4
-  previous_composite: 28.4
+  previous_composite: 28.7
   provenance:
     mcp: first-party
   regulatory:
@@ -170,7 +174,7 @@ score:
     regime_id: payments
     score: 12.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

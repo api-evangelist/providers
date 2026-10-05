@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
   description: Manage event webhook subscriptions.
   name: Personio Webhooks API
   slug: personio-webhooks-api
-artifact_total: 17
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -97,6 +97,11 @@ collections:
   name: Personio Public API v2
   slug: open-personio
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/personio/refs/heads/main/capabilities/personio-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/personio-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/personio/refs/heads/main/agentic-access/personio-agentic-access.yml
   title: ''
@@ -149,6 +154,10 @@ created: '2026-05-11'
 description: Personio is a European HR management and recruiting platform serving small and mid-sized businesses with a unified HRIS covering employee records, absence management, time tracking, payroll preparation, performance, and applicant tracking. The platform is headquartered in Munich and is widely adopted across Germany, Austria, Switzerland, the UK, the Netherlands, and Spain. Personio exposes a Public API at api.personio.de that supports Bearer token authentication via Client ID/Secret (v1 token endpoint and v2 OAuth 2.0 client credentials flow), with webhooks now available for Person entity events.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/personio.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.personio.de over HTTP.
+  name: Personio MCP Server
+  slug: personio
 modified: '2026-05-11'
 name: Personio
 nav: Providers
@@ -156,19 +165,19 @@ network: true
 overview: 'Personio publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Absence Periods API, Auth API, Persons API, and 3 more. Tagged areas include Human Resources, HRIS, Recruiting, Applicant Tracking, and Absence Management.
 
 
-  Personio''s developer surface includes authentication, documentation, pricing, signup flow, and 7 more developer resources.'
+  Personio''s developer surface includes authentication, documentation, pricing, signup flow, and 8 more developer resources.'
 random_paper: 21
 score:
   band: thin
   composite: 27.7
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.7
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
@@ -184,7 +193,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 27.7
+  previous_composite: 29.4
   provenance:
     agentic_access: derived
     contracts:
@@ -200,7 +209,7 @@ score:
     regime_id: employment_payroll
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

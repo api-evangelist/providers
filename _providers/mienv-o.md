@@ -32,13 +32,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: REST API for comparing carrier rates, creating shipments and shipping labels, and tracking parcels across Latin American carriers. Live, authenticated host at api.mienvio.mx/v2.
   name: Mienvío Shipping API
   slug: mienvío-shipping-api
-artifact_total: 2
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -87,6 +87,10 @@ created: '2026-07-17'
 description: Mienvío is a Mexican logistics control-tower platform that unifies multiple parcel carriers behind a single multi-carrier shipping API and dashboard for e-commerce, retail, marketplace, and fintech shippers across Latin America. It compares carrier rates, automates routing by cost, SLA, and coverage zone, generates shipping labels, and provides real-time tracking, delivery-incident management, and post-purchase customer notifications. Merchants integrate through the REST API (api.mienvio.mx/v2) or prebuilt Shopify and WooCommerce connectors, shipping nationally, internationally, and locally across Mexico, Colombia, Chile, Costa Rica, Peru, Guatemala, and El Salvador.
 image: https://cdn.prod.website-files.com/65b146ad7d71aced5d8ce108/66215bcd108d7fa4e58d0d3b_icono-256.jpg
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.mienvio.mx over HTTP.
+  name: Mienvío MCP Server
+  slug: mienv-o
 modified: '2026-07-20'
 name: Mienvío
 nav: Providers
@@ -106,7 +110,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 17.1
     contract_governance: 0.0
@@ -121,7 +125,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 12.9
+  previous_composite: 12.5
   provenance:
     mcp: first-party
   regulatory:
@@ -131,7 +135,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

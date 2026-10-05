@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 95
-  human_in_the_loop: 6
+- acting_count: 97
+  human_in_the_loop: 7
   name: Anaconda Agentic Access
-  operation_count: 235
+  operation_count: 223
   slug: anaconda-agentic-access
-  summary_line: 235 operations · 95 acting · 6 human-in-the-loop
+  summary_line: 223 operations · 97 acting · 7 human-in-the-loop
 api_count: 5
 apis:
 - description: The public REST API behind anaconda.org — the community package repository that serves conda and PyPI artifacts. Exposes user/organization profiles, packages, releases, files, labels and channels, and
@@ -238,6 +238,11 @@ collections:
   name: Anaconda Server Websocket API
   slug: open-anaconda-websocket-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/capabilities/anaconda-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/anaconda-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/agentic-access/anaconda-agentic-access.yml
   title: ''
@@ -459,9 +464,9 @@ description: Anaconda, Inc. is the Austin, Texas company behind the Anaconda Dis
 image: https://www.anaconda.com/wp-content/uploads/2024/07/anaconda-logo.svg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at anaconda.com.
   name: Anaconda MCP Server
-  slug: anaconda-mcp-server
+  slug: anaconda-mcp-yml
 modified: '2026-09-16'
 name: Anaconda
 nav: Providers
@@ -472,7 +477,7 @@ overview: 'Anaconda publishes 24 APIs on the [APIs.io](https://apis.io/) network
   The Anaconda catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Anaconda''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 40 more developer resources.'
+  Anaconda''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 41 more developer resources.'
 random_paper: 7
 scopes:
 - name: Anaconda Scopes
@@ -483,13 +488,13 @@ score:
   band: developing
   composite: 53.9
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 26
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
@@ -497,7 +502,7 @@ score:
     developer_ergonomics: 73.2
     discoverability: 71.7
     operational_transparency: 34.2
-  previous_composite: 53.9
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -515,7 +520,7 @@ score:
     regime_id: horizontal
     score: 38.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

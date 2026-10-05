@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: Remote Model Context Protocol server (Streamable HTTP) at https://travel.augworlds.ai/mcp. Clients authenticate with OAuth 2.1 — the client registers itself and runs authorization_code + PKCE with a b
@@ -123,12 +123,12 @@ description: Travel World is the agent-native travel product of Augmented Worlds
 image: https://travel.augworlds.ai/favicon.ico
 layout: provider
 mcp_servers:
+- description: 'Travel World operates ONE remote MCP server at https://travel.augworlds.ai/mcp (Streamable HTTP, hosted on Vercel). It is gated: an anonymous POST tools/list or initialize returns HTTP 401 {"error":"U'
+  name: Travel World MCP Server
+  slug: augworlds-ai-mcp-yml
 - description: ''
   name: Travel World MCP Server
-  slug: travel-world-mcp-server
-- description: ''
-  name: Travel World MCP Server
-  slug: travel-world-mcp-server-2
+  slug: mcp
 modified: '2026-09-19'
 name: Travel World
 nav: Providers
@@ -148,20 +148,20 @@ rate_limits:
   slug: augworlds-ai-rate-limits
 scopes:
 - name: Augworlds Ai Scopes
-  scope_count: 0
+  scope_count: 6
   slug: augworlds-ai-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 6 scopes
 score:
   band: thin
   composite: 27.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 13
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.8
   facets:
     access_clarity: 55.3
     contract_governance: 18.2
@@ -169,7 +169,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 68.3
     operational_transparency: 0.0
-  previous_composite: 27.2
+  previous_composite: 24.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -180,7 +180,7 @@ score:
     regime_id: horizontal
     score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

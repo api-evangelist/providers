@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 5
+- acting_count: 11
   human_in_the_loop: 0
   name: Flinks Agentic Access
   operation_count: 12
   slug: flinks-agentic-access
-  summary_line: 12 operations · 5 acting
+  summary_line: 12 operations · 11 acting
 api_count: 1
 apis:
 - baseURL: https://{instance}-api.private.fin.ag/v3/{customerId}/BankingServices
@@ -75,7 +75,7 @@ apis:
   description: The Score API from Flinks — 2 operation(s) for score.
   name: Flinks Score API
   slug: flinks-score-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -171,6 +171,10 @@ finops:
   slug: flinks-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flinks.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at docs.flinks.com over HTTP; 3 tools listed.
+  name: Flinks MCP Server
+  slug: flinks
 modified: '2026-07-01'
 name: Flinks
 nav: Providers
@@ -198,7 +202,7 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.2
   facets:
     access_clarity: 34.7
     contract_governance: 0.0
@@ -213,7 +217,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 34.5
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     contracts:
@@ -229,7 +233,7 @@ score:
     regime_id: banking_open_finance
     score: 18.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://farmer.vuestorefront.cloud
@@ -187,6 +187,11 @@ collections:
   name: farmer cdn v2.2/instance/{namespace}/pods API
   slug: open-alokai-formerly-vue-storefront-v2-2-instance-namespace-pods-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/capabilities/alokai-formerly-vue-storefront-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/alokai-formerly-vue-storefront-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/mcp/alokai-formerly-vue-storefront-mcp.yml
   title: ''
@@ -324,13 +329,13 @@ network: true
 overview: 'Alokai (formerly Vue Storefront) publishes 18 APIs on the [APIs.io](https://apis.io/) network, including cdn API, deploy_check API, Flush Cache API, and 15 more. Tagged areas include Company, Software-as-a-Service, E-Commerce, Composable Commerce, and Headless Commerce.
 
 
-  Alokai (formerly Vue Storefront)''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
+  Alokai (formerly Vue Storefront)''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 22 more developer resources.'
 random_paper: 6
 score:
   band: developing
   composite: 46.5
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -361,7 +366,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

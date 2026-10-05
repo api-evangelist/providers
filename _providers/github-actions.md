@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 2
@@ -51,273 +51,56 @@ apis:
   baseurl_source: declared
   description: Download and manage workflow run artifacts
   name: GitHub Actions Artifacts API
-  phrasing_intents:
-  - id: listArtifactsForRepo
-    intent: List build artifacts across a repository
-    question: What build artifacts are stored across all the workflow runs in my repository?
-  - id: getArtifact
-    intent: Look up one workflow artifact
-    question: How big is a specific artifact and when does it expire?
-  - id: deleteArtifact
-    intent: Delete a workflow artifact
-    question: How do I remove an old build artifact to free up Actions storage?
-  - id: downloadArtifact
-    intent: Download an artifact as a zip archive
-    question: How do I download the files a workflow uploaded as an artifact?
-  - id: listWorkflowRunArtifacts
-    intent: List the artifacts produced by one workflow run
-    question: What artifacts did a particular workflow run upload?
-  phrasing_ops: 5
   slug: github-actions-artifacts-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: Manage workflow dependency caches
   name: GitHub Actions Cache API
-  phrasing_intents:
-  - id: listActionsCaches
-    intent: List a repository's Actions caches
-    question: What dependency caches are my GitHub Actions workflows keeping for this repo?
-  - id: deleteActionsCacheByKey
-    intent: Delete caches matching a full cache key
-    question: How do I clear every cache entry that has a specific key?
-  - id: deleteActionsCacheById
-    intent: Delete one Actions cache by its ID
-    question: Can I delete a single cache entry when I know its cache ID?
-  - id: getActionsCacheUsage
-    intent: Check a repository's Actions cache usage
-    question: How much cache storage is my repository using in GitHub Actions?
-  phrasing_ops: 4
   slug: github-actions-cache-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: Access information about workflow jobs
   name: GitHub Actions Jobs API
-  phrasing_intents:
-  - id: listJobsForWorkflowRun
-    intent: List the jobs in a workflow run
-    question: Which jobs ran in a workflow run and which of them failed?
-  - id: listJobsForWorkflowRunAttempt
-    intent: List jobs for a specific run attempt
-    question: What jobs ran during the second attempt of a re-run workflow?
-  - id: getJobForWorkflowRun
-    intent: Get the status and steps of one job
-    question: Which step of a job failed and on what runner did it run?
-  - id: downloadJobLogsForWorkflowRun
-    intent: Download the log of a single job
-    question: How do I download the plain text log for one job instead of the whole run?
-  - id: rerunJobForWorkflowRun
-    intent: Re-run a single job and its dependents
-    question: Can I retry just one job instead of the whole workflow run?
-  phrasing_ops: 5
   slug: github-actions-jobs-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: Manage OIDC subject claim customization
   name: GitHub Actions OIDC API
-  phrasing_intents:
-  - id: getCustomOidcSubClaimForRepo
-    intent: View a repository's OIDC subject claim template
-    question: What does the OIDC subject claim look like for tokens issued to my repository's workflows?
-  - id: setCustomOidcSubClaimForRepo
-    intent: Customize a repository's OIDC subject claim
-    question: How do I change which claims go into the OIDC sub for one repository?
-  - id: getCustomOidcSubClaimForOrg
-    intent: View an organization's OIDC subject claim template
-    question: Which claim keys does my organization put into the OIDC subject claim?
-  - id: setCustomOidcSubClaimForOrg
-    intent: Customize an organization's OIDC subject claim
-    question: How do I set a custom OIDC subject claim for every repository in my organization?
-  phrasing_ops: 4
   slug: github-actions-oidc-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: Control Actions enablement and permissions
   name: GitHub Actions Permissions API
-  phrasing_intents:
-  - id: getGithubActionsPermissionsRepo
-    intent: Check whether Actions is enabled on a repository
-    question: Is GitHub Actions turned on for this repository, and which actions is it allowed to use?
-  - id: setGithubActionsPermissionsRepo
-    intent: Enable Actions and set allowed actions for a repo
-    question: How do I turn off GitHub Actions for a single repository?
-  - id: getGithubActionsDefaultWorkflowPermissionsRepo
-    intent: View default GITHUB_TOKEN permissions for a repo
-    question: Does the GITHUB_TOKEN in my repository's workflows get read-only or read-write access by default?
-  - id: setGithubActionsDefaultWorkflowPermissionsRepo
-    intent: Set default GITHUB_TOKEN permissions for a repo
-    question: How do I make the GITHUB_TOKEN read-only by default in a repository?
-  - id: getGithubActionsPermissionsOrg
-    intent: View an organization's Actions permissions policy
-    question: Which repositories in my organization are allowed to use GitHub Actions?
-  - id: setGithubActionsPermissionsOrg
-    intent: Set an organization's Actions permissions policy
-    question: How do I limit GitHub Actions to only selected repositories across my organization?
-  phrasing_ops: 6
   slug: github-actions-permissions-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: Manage encrypted secrets for Actions
   name: GitHub Actions Secrets API
-  phrasing_intents:
-  - id: listRepoSecrets
-    intent: List a repository's own Actions secrets
-    question: What secrets are defined directly on my repository for workflows to use?
-  - id: getRepoPublicKey
-    intent: Get the key for encrypting a repository secret
-    question: Which public key do I encrypt a new repository secret with before uploading it?
-  - id: getRepoSecret
-    intent: Look up one repository secret's metadata
-    question: When was a particular repository secret last updated?
-  - id: createOrUpdateRepoSecret
-    intent: Create or update a repository secret
-    question: How do I add a new secret to my repository for workflows to read?
-  - id: deleteRepoSecret
-    intent: Delete a repository secret
-    question: How do I remove a secret from a single repository?
-  - id: listRepoOrgSecrets
-    intent: List organization secrets shared with a repository
-    question: Which organization-level secrets can my repository's workflows access?
-  - id: listOrgSecrets
-    intent: List all of an organization's Actions secrets
-    question: What Actions secrets are defined at the organization level?
-  - id: getOrgPublicKey
-    intent: Get the key for encrypting an organization secret
-    question: Which public key do I use to encrypt an organization-level secret?
-  phrasing_ops: 13
   slug: github-actions-secrets-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: Manage runner groups for organizations
   name: GitHub Actions Self-Hosted Runner Groups API
-  phrasing_intents:
-  - id: listSelfHostedRunnerGroupsForOrg
-    intent: List an organization's self-hosted runner groups
-    question: What self-hosted runner groups has my organization set up?
-  - id: createSelfHostedRunnerGroupForOrg
-    intent: Create a self-hosted runner group
-    question: How do I create a new group to organize my organization's self-hosted runners?
-  - id: getSelfHostedRunnerGroupForOrg
-    intent: Get the settings of one runner group
-    question: What visibility does a particular self-hosted runner group have?
-  - id: updateSelfHostedRunnerGroupForOrg
-    intent: Rename or change visibility of a runner group
-    question: How do I rename an existing self-hosted runner group?
-  - id: deleteSelfHostedRunnerGroupFromOrg
-    intent: Delete a self-hosted runner group
-    question: How do I delete a runner group my organization no longer uses?
-  phrasing_ops: 5
   slug: github-actions-self-hosted-runner-groups-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: Manage self-hosted runners for workflows
   name: GitHub Actions Self-Hosted Runners API
-  phrasing_intents:
-  - id: listSelfHostedRunnersForRepo
-    intent: List a repository's self-hosted runners
-    question: Which self-hosted runners are registered to my repository and are they online?
-  - id: getSelfHostedRunnerForRepo
-    intent: Get details of one self-hosted runner
-    question: Is a specific self-hosted runner online and busy right now?
-  - id: deleteSelfHostedRunnerFromRepo
-    intent: Force-remove a self-hosted runner from a repo
-    question: How do I force the removal of a dead runner that no longer exists on the machine?
-  - id: listRunnerApplicationsForRepo
-    intent: List runner application downloads
-    question: Where do I download the runner application binary for Linux, macOS or Windows?
-  - id: createRegistrationTokenForRepo
-    intent: Get a token to register a new runner
-    question: How do I get the token the config script needs to register a self-hosted runner?
-  - id: createRemoveTokenForRepo
-    intent: Get a token to unregister a runner
-    question: Which token does the config script need to cleanly remove a runner from my repository?
-  - id: listLabelsForSelfHostedRunnerForRepo
-    intent: List the labels on a self-hosted runner
-    question: What labels does a self-hosted runner have that jobs can target with runs-on?
-  - id: addCustomLabelsToSelfHostedRunnerForRepo
-    intent: Add custom labels to a runner
-    question: How do I tag a self-hosted runner with an extra label like gpu without losing its existing ones?
-  phrasing_ops: 11
   slug: github-actions-self-hosted-runners-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: Create and manage workflow variables
   name: GitHub Actions Variables API
-  phrasing_intents:
-  - id: listRepoVariables
-    intent: List a repository's Actions variables
-    question: What configuration variables are defined for my repository's workflows?
-  - id: createRepoVariable
-    intent: Create a repository variable
-    question: How do I add a new non-secret variable that my workflows can reference with vars?
-  - id: getRepoVariable
-    intent: Read one repository variable
-    question: What is the current value of a specific repository variable?
-  - id: updateRepoVariable
-    intent: Change an existing repository variable
-    question: How do I change the value of a variable that already exists in my repo?
-  - id: deleteRepoVariable
-    intent: Delete a repository variable
-    question: How do I remove a variable my workflows no longer use?
-  phrasing_ops: 5
   slug: github-actions-variables-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: Manage and monitor workflow run executions
   name: GitHub Actions Workflow Runs API
-  phrasing_intents:
-  - id: listWorkflowRunsForRepo
-    intent: List workflow runs across a whole repository
-    question: What workflow runs have happened in my repository recently, across all workflows?
-  - id: getWorkflowRun
-    intent: Get the status of one workflow run
-    question: Did a particular workflow run succeed or fail?
-  - id: deleteWorkflowRun
-    intent: Delete a workflow run
-    question: How do I remove an old workflow run from my repository's history?
-  - id: approveWorkflowRun
-    intent: Approve a first-time contributor's fork run
-    question: How do I let a workflow run from a first-time contributor's fork pull request go ahead?
-  - id: getWorkflowRunApprovals
-    intent: See the deployment review history for a run
-    question: Who approved or rejected the deployments in a workflow run, and with what comment?
-  - id: getWorkflowRunAttempt
-    intent: Get one attempt of a re-run workflow
-    question: What was the outcome of the first attempt before I re-ran a workflow?
-  - id: downloadWorkflowRunAttemptLogs
-    intent: Download logs for one attempt of a run
-    question: How do I download the logs from an earlier attempt of a run I have since re-run?
-  - id: cancelWorkflowRun
-    intent: Cancel a workflow run
-    question: How do I stop a workflow run that is in progress?
-  phrasing_ops: 17
   slug: github-actions-workflow-runs-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: Manage workflow files and workflow runs
   name: GitHub Actions Workflows API
-  phrasing_intents:
-  - id: listRepoWorkflows
-    intent: List the workflows defined in a repository
-    question: What GitHub Actions workflows exist in my repository?
-  - id: getWorkflow
-    intent: Get one workflow's definition details
-    question: Can I look up a workflow by its file name, like ci.yml, instead of its numeric ID?
-  - id: disableWorkflow
-    intent: Disable a workflow
-    question: How do I stop a workflow from running without deleting its file?
-  - id: enableWorkflow
-    intent: Re-enable a disabled workflow
-    question: How do I turn a manually disabled workflow back on?
-  - id: createWorkflowDispatch
-    intent: Manually trigger a workflow run
-    question: How do I kick off a workflow on demand through the API?
-  - id: listWorkflowRuns
-    intent: List the runs of one specific workflow
-    question: What is the run history of just my deploy workflow?
-  - id: getWorkflowUsage
-    intent: Check billable minutes used by a workflow
-    question: How many billable minutes has one workflow used this billing cycle?
-  phrasing_ops: 7
   slug: github-actions-workflows-api
 arazzos:
 - description: Get a run, find its pending deployment environments, approve them, then poll the run to completion.
@@ -1129,7 +912,7 @@ layout: provider
 mcp_servers:
 - description: GitHub operates an official remote MCP server at https://api.githubcopilot.com/mcp/ (HTTP transport, OAuth / PAT authenticated) and ships the same server for local use via a Docker image and the VS Co
   name: GitHub Actions MCP Server
-  slug: github-actions-mcp-server
+  slug: github
 modified: '2026-09-17'
 name: GitHub Actions
 nav: Providers
@@ -1187,7 +970,7 @@ score:
     catalog_gap: 28.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.6
   facets:
     access_clarity: 93.4
     contract_governance: 31.8
@@ -1195,7 +978,7 @@ score:
     developer_ergonomics: 83.3
     discoverability: 75.0
     operational_transparency: 97.4
-  previous_composite: 82.8
+  previous_composite: 80.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1213,7 +996,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

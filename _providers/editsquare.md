@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: API for creating video renders, managing projects, templates, and teams.
@@ -230,7 +230,7 @@ score:
   band: developing
   composite: 49.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 67.8
     catalog_earned_first_party: 12.0
     catalog_gap: 47.3
@@ -258,7 +258,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 0.0

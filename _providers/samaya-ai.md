@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: 'Hosted remote MCP server at https://mcp.samaya.ai/mcp that connects ChatGPT, Claude and other AI applications to Samaya''s expert financial research capabilities. Live and reachable: an anonymous tools'
@@ -197,12 +197,12 @@ description: 'Samaya AI builds domain-trained "Expert AI Agents" for financial s
 image: https://cdn.prod.website-files.com/68d859e7b33c148e692a2d17/68e48e3a26edcad357d09fa9_open-graph-image.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.samaya.ai over streamable HTTP requiring OAuth.
   name: Samaya MCP Server
   slug: samaya-mcp-server
 - description: ''
   name: Samaya AI MCP Server
-  slug: samaya-ai-mcp-server
+  slug: mcp
 modified: '2026-08-26'
 name: Samaya AI
 nav: Providers
@@ -235,7 +235,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 26.3
     contract_governance: 18.2
@@ -243,7 +243,7 @@ score:
     developer_ergonomics: 28.0
     discoverability: 75.0
     operational_transparency: 18.4
-  previous_composite: 35.0
+  previous_composite: 33.7
   provenance:
     conformance: first-party
     contracts:
@@ -260,7 +260,7 @@ score:
     regime_id: horizontal
     score: 32.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

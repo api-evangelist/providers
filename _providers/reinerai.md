@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
 common:
 - group: company
   title: ''
@@ -64,6 +64,10 @@ created: '2026-07-17'
 description: Reiner.ai (operated by AI Mapping GmbH of Cologne, Germany) is a construction- and planning-industry AI platform for architects, engineers, and planners. It combines leading LLMs with domain-specific "Reiner Knowledge" and "Reiner Logic" layers to deliver Reiner Chat, task-specific KI-Agenten (AI agents) for site protocols, explanatory reports and project applications, company-knowledge integration, and a library of 50+ prebuilt construction prompts. The product is delivered as a hosted web application (app.reiner.ai); as of this enrichment pass there is no public developer API, SDKs, or developer documentation.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reinerai.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at docs.reiner.ai over HTTP.
+  name: Reiner.ai MCP Server
+  slug: reinerai
 modified: '2026-07-21'
 name: Reiner.ai
 nav: Providers
@@ -83,7 +87,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.7
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
@@ -99,7 +103,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 8.3
+  previous_composite: 10.0
   provenance:
     mcp: first-party
   regulatory:
@@ -109,7 +113,7 @@ score:
     regime_id: horizontal
     score: 3.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

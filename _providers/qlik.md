@@ -10,227 +10,42 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
+    agent_skills: derived
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
-    openapi_examples: documented
+    mcp_server: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.4
-  scored_at: '2026-10-03'
-api_count: 69
+  score: 29.0
+  scored_at: '2026-10-04'
+agentic_access:
+- acting_count: 24
+  human_in_the_loop: 0
+  name: Qlik Agentic Access
+  operation_count: 48
+  slug: qlik-agentic-access
+  summary_line: 48 operations · 24 acting
+api_count: 1
 apis:
 - description: Qlik provides APIs to support automation, configuration, observability, and integration with third-party applications to incorporate Qlik Cloud capabilities directly into those applications.
   name: Qlik
   slug: qlik
-- description: Manages Qlik Cloud Analytics applications, including creating, updating, copying, publishing, and deleting apps. Apps are a core part of Qlik Cloud Analytics and represent either an Analytics app or a
-  name: Qlik Apps API
-  slug: apps
-- description: Manages user resources within Qlik Cloud tenants. Users represent clients accessing the Qlik Cloud tenant, with support for listing, creating, updating, deleting users and managing invitations.
-  name: Qlik Users API
-  slug: users
-- description: Manages logical containers within a Qlik tenant that control access for users and groups through space roles to determine what content users can access.
-  name: Qlik Spaces API
-  slug: spaces
-- description: Provides a list of core resources in the Qlik platform, including resources such as apps, automations, and data sets that a user has access to.
-  name: Qlik Items API
-  slug: items
-- description: Manages API key lifecycle for authenticating with Qlik Cloud APIs, including creating, listing, and revoking API keys.
-  name: Qlik API Keys API
-  slug: api-keys
-- description: Provides access to events emitted upon each action taken in a Qlik Cloud tenant, offering detailed access to what is happening in the tenant. Events are stored for 90 days.
-  name: Qlik Audits API
-  slug: audits
-- description: Manages automations in Qlik Automate, which are no-code workflows connecting applications together. Supports creating, updating, deleting, and executing automations.
-  name: Qlik Automations API
-  slug: automations
-- description: Manages connections used by automations to interact with external services and applications within Qlik Automate.
-  name: Qlik Automation Connections API
-  slug: automation-connections
-- description: Manages connectors available for automations in Qlik Automate, providing integration capabilities with third-party services.
-  name: Qlik Automation Connectors API
-  slug: automation-connectors
-- description: Manages AutoML dataset predictions, enabling batch prediction workflows on datasets using trained machine learning models.
-  name: Qlik AutoML Dataset Predictions API
-  slug: automl-predictions
-- description: Manages AutoML real-time prediction deployments, enabling on-demand predictions using trained machine learning models.
-  name: Qlik AutoML Real-Time Predictions API
-  slug: automl-deployments
-- description: Manages AI assistants within Qlik Cloud, enabling conversational analytics and natural language interactions with data.
-  name: Qlik Assistants API
-  slug: assistants
-- description: Manages tenant-wide banner notifications displayed to users within the Qlik Cloud interface.
-  name: Qlik Banners API
-  slug: banners
-- description: Manages branding and customization of the Qlik Cloud tenant appearance, including logos, colors, and styling.
-  name: Qlik Brands API
-  slug: brands
-- description: Provides the framework to catalog various content a user has access to using tags, public and private collections, and favorites.
-  name: Qlik Collections API
-  slug: collections
-- description: Manages conditions used for evaluating expressions and triggering actions within Qlik Cloud.
-  name: Qlik Conditions API
-  slug: conditions
-- description: Manages Content Security Policy origins, controlling which external domains can interact with the Qlik Cloud tenant.
-  name: Qlik CSP Origins API
-  slug: csp-origins
-- description: Provides CSRF tokens for securing requests to Qlik Cloud APIs against cross-site request forgery attacks.
-  name: Qlik CSRF Token API
-  slug: csrf-token
-- description: Manages data-driven alerts that notify users when conditions in their data are met within Qlik Cloud.
-  name: Qlik Data Alerts API
-  slug: data-alerts
-- description: Manages data assets within the Qlik Cloud catalog, providing metadata and governance for data resources.
-  name: Qlik Data Assets API
-  slug: data-assets
-- description: Manages connections between Qlik Cloud Analytics apps and Data Integration projects and external data sources.
-  name: Qlik Data Connections API
-  slug: data-connections
-- description: Manages credentials used by data connections to authenticate with external data sources.
-  name: Qlik Data Credentials API
-  slug: data-credentials
-- description: Manages data files uploaded to Qlik Cloud for use in analytics applications and data integration projects.
-  name: Qlik Data Files API
-  slug: data-files
-- description: Manages data sets within Qlik Cloud's catalog system. A data set is a member of a data asset, with support for creation, retrieval, update, and profile management.
-  name: Qlik Data Sets API
-  slug: data-sets
-- description: Manages data source configurations for Qlik Cloud, defining the external systems from which data can be loaded.
-  name: Qlik Data Sources API
-  slug: data-sources
-- description: Manages data stores used in Qlik Cloud for data warehousing and integration scenarios.
-  name: Qlik Data Stores API
-  slug: data-stores
-- description: Manages data quality assessments and profiles for data assets within Qlik Cloud.
-  name: Qlik Data Qualities API
-  slug: data-qualities
-- description: Manages data integration projects for building data pipelines and transformation workflows within Qlik Cloud.
-  name: Qlik Data Integration Projects API
-  slug: di-projects
-- description: Manages Direct Access Agents that provide secure connectivity between Qlik Cloud and on-premises data sources.
-  name: Qlik Direct Access Agents API
-  slug: direct-access-agents
-- description: Manages encryption keys and configurations for securing data at rest within Qlik Cloud.
-  name: Qlik Encryption API
-  slug: encryption
-- description: Tracks and reports on entitlement consumption metrics for Qlik Cloud license usage.
-  name: Qlik Entitlement Consumption API
-  slug: consumption
-- description: Manages visualization extensions in Qlik Sense, allowing third-party visualizations and other presentation objects to be used in the Qlik Sense client.
-  name: Qlik Extensions API
-  slug: extensions
-- description: Manages business glossaries for defining and sharing terminology and definitions across the Qlik Cloud tenant.
-  name: Qlik Glossaries API
-  slug: glossaries
-- description: Manages groups within Qlik Cloud to which space and tenant roles can be assigned to simplify access control management.
-  name: Qlik Groups API
-  slug: groups
-- description: Manages identity provider configurations for Qlik Cloud, enabling integration with external authentication systems.
-  name: Qlik Identity Providers API
-  slug: identity-providers
-- description: Manages knowledge bases used by Qlik AI assistants and natural language features for conversational analytics.
-  name: Qlik Knowledgebases API
-  slug: knowledgebases
-- description: Manages tenant and user license entitlements in Qlik Cloud, including assignments, consumption tracking, and auto-assignment configuration.
-  name: Qlik Licenses API
-  slug: licenses
-- description: Manages data lineage graph visualizations that trace the origin and transformation of data across Qlik Cloud resources.
-  name: Qlik Lineage Graphs API
-  slug: lineage-graphs
-- description: Manages login flows and session management for accessing Qlik Cloud.
-  name: Qlik Login API
-  slug: login
-- description: Manages machine learning experiments, models, and deployments within Qlik Cloud for predictive analytics.
-  name: Qlik Machine Learning API
-  slug: ml
-- description: Enables natural language question and answer interactions with data in Qlik Cloud analytics applications.
-  name: Qlik Natural Language API
-  slug: questions
-- description: Manages notes and annotations attached to Qlik Cloud analytics content for collaboration and documentation.
-  name: Qlik Notes API
-  slug: notes
-- description: Manages notification preferences and delivery for Qlik Cloud events and alerts.
-  name: Qlik Notifications API
-  slug: notifications
-- description: Manages OAuth 2.0 authorization flows for secure authentication with Qlik Cloud APIs.
-  name: Qlik OAuth API
-  slug: oauth
-- description: Manages OAuth client registrations for applications integrating with Qlik Cloud through OAuth 2.0.
-  name: Qlik OAuth Clients API
-  slug: oauth-clients
-- description: Lists and revokes active OAuth tokens for managing authenticated sessions in Qlik Cloud.
-  name: Qlik OAuth Tokens API
-  slug: oauth-tokens
-- description: Returns OAuth 2.0 metadata related to the tenant, including authorization endpoint, token endpoint, and supported grant types.
-  name: Qlik OAuth Well-Known Configuration API
-  slug: well-known
-- description: Returns entitled attributes based on the license, providing information about resource limits and usage quotas.
-  name: Qlik Quotas API
-  slug: quotas
-- description: Manages scheduled reload tasks for analytics applications, enabling automated data refresh on defined schedules.
-  name: Qlik Reload Tasks API
-  slug: reload-tasks
-- description: Triggers and manages app data reloads to refresh analytics application data via REST API instead of only through the JSON-RPC WebSocket API.
-  name: Qlik Reloads API
-  slug: reloads
-- description: Manages report templates that define the structure and formatting of generated reports from Qlik analytics data.
-  name: Qlik Report Templates API
-  slug: report-templates
-- description: Generates downloadable report assets from data in analytics applications, supporting multiple output formats including Excel, PDF, PowerPoint, HTML, and images.
-  name: Qlik Reports API
-  slug: reports
-- description: Manages tenant roles that are assigned to users or groups to control permissions and access within Qlik Cloud.
-  name: Qlik Roles API
-  slug: roles
-- description: Manages sharing tasks for distributing analytics content and reports to recipients within Qlik Cloud.
-  name: Qlik Sharing Tasks API
-  slug: sharing-tasks
-- description: Manages general task scheduling and execution within Qlik Cloud for orchestrating platform operations.
-  name: Qlik Tasks API
-  slug: tasks
-- description: Manages temporary content storage for file uploads and transient data within Qlik Cloud.
-  name: Qlik Temporary Contents API
-  slug: temp-contents
-- description: Manages Qlik Cloud tenant configurations, settings, and metadata.
-  name: Qlik Tenants API
-  slug: tenants
-- description: Manages tenant-level configuration settings for customizing the behavior of the Qlik Cloud platform.
-  name: Qlik Tenant Settings API
-  slug: tenant-settings
-- description: Manages themes for customizing the styling and appearance of the Qlik Sense client experience, including uploading, downloading, and managing theme archives.
-  name: Qlik Themes API
-  slug: themes
-- description: Manages email transport configuration for sending notifications and reports from Qlik Cloud.
-  name: Qlik Email Configuration API
-  slug: transports
-- description: Manages administrator-defined pinned links displayed in the Qlik Cloud interface for quick access to resources.
-  name: Qlik Pinned Links API
-  slug: ui-config
-- description: Manages web integration configurations that allow external websites to embed and interact with Qlik Cloud content.
-  name: Qlik Web Integrations API
-  slug: web-integrations
-- description: Manages web-based push notifications for real-time updates within the Qlik Cloud user interface.
-  name: Qlik Web Notifications API
-  slug: web-notifications
-- description: Manages webhooks for providing real-time event information from Qlik Cloud to external applications, with delivery history tracking.
-  name: Qlik Webhooks API
-  slug: webhooks
 - description: Manages IP restriction policies for controlling network access to the Qlik Cloud tenant.
   name: Qlik IP Policies API
   slug: ip-policies
@@ -243,8 +58,117 @@ apis:
 - description: The JSON-RPC API over WebSocket that enables interaction with the Qlik Associative Engine for Qlik Sense applications, providing session-based access to app data models, objects, and calculations.
   name: Qlik Engine JSON-RPC API
   slug: qix
-artifact_total: 74
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1
+  baseurl_source: declared
+  description: The Apps API from Qlik — 22 operation(s) for apps.
+  name: Qlik Apps API
+  slug: qlik-apps-api
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1
+  baseurl_source: declared
+  description: The evaluation API from Qlik — 5 operation(s) for evaluation.
+  name: Qlik Evaluation API
+  slug: qlik-evaluation-api
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1
+  baseurl_source: declared
+  description: The filters API from Qlik — 3 operation(s) for filters.
+  name: Qlik Filters API
+  slug: qlik-filters-api
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1
+  baseurl_source: declared
+  description: The insight-analyses API from Qlik — 3 operation(s) for insight-analyses.
+  name: Qlik Insight Analyses API
+  slug: qlik-insight-analyses-api
+artifact_total: 18
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/agentic-access/qlik-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/qlik-agentic-access.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/finops/qlik-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/qlik-finops.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/rate-limits/qlik-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/qlik-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/plans/qlik-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/qlik-plans-pricing.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/rules/qlik-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/qlik-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/json-ld/qlik-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/qlik-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/vocabulary/qlik-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/qlik-vocabulary.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/data-model/qlik-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/qlik-data-model.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/changelog/qlik-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/qlik-changelog.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/conventions/qlik-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/qlik-conventions.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/authentication/qlik-authentication.yml
+  title: ''
+  type: Authentication
+  url: authentication/qlik-authentication.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/errors/qlik-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/qlik-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/conformance/qlik-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/qlik-conformance.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/hosts/qlik-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/qlik-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/vendors/qlik-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/qlik-vendors.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/packages/qlik-packages.yml
+  title: ''
+  type: Packages
+  url: packages/qlik-packages.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://portal.qlik.dev/
 - group: company
   title: ''
   type: Website
@@ -326,6 +250,13 @@ common:
   title: ''
   type: MCPServer
   url: https://github.com/qlik-oss/qlik-mcp-registry
+coverage:
+  detail: the company publishes developer documentation but serves no machine-readable contract from it
+  evidence:
+  - status: 200
+    url: https://qlik.dev
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2025-02-24'
 description: APIs for Qlik's analytics and data integration platform.
 finops:
@@ -333,6 +264,11 @@ finops:
   service_category: API
   slug: qlik-finops
 image: https://www.qlik.com/us/-/media/images/qlik/global/qlik-logo.png
+jsonld:
+- class_count: 96
+  name: Qlik Context
+  property_count: 275
+  slug: qlik-context
 layout: provider
 mcp_servers:
 - description: ''
@@ -342,10 +278,13 @@ modified: '2026-09-16'
 name: Qlik
 nav: Providers
 network: true
-overview: 'Qlik publishes 69 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Users API, Spaces API, and 66 more. Tagged areas include Security, Access Control, Machine Learning, and Artificial Intelligence.
+overview: 'Qlik publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Evaluation API, Filters API, and 6 more. Tagged areas include Security, Access Control, Machine Learning, Artificial Intelligence, and Analytics.
 
 
-  Qlik''s developer surface includes authentication, getting-started guide, CLI, documentation, code examples, changelog, engineering blog, and 13 more developer resources.'
+  The Qlik catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Qlik''s developer surface includes changelog, authentication, getting-started guide, CLI, documentation, code examples, engineering blog, and 31 more developer resources.'
 plans:
 - name: Qlik Plans Pricing
   plan_count: 3
@@ -355,40 +294,65 @@ rate_limits:
 - limit_count: 5
   name: Qlik Rate Limits
   slug: qlik-rate-limits
+rules:
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Qlik API Rules
+  rule_count: 9
+  severity_counts:
+    error: 4
+    hint: 0
+    info: 3
+    warn: 2
+  slug: qlik-rules
 score:
-  band: thin
-  composite: 36.2
+  band: developing
+  composite: 46.4
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 34.0
+    artifact_dirs: 25
+    catalog_earned: 52.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 81.0
+    catalog_gap: 62.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.8
   facets:
     access_clarity: 36.8
-    contract_governance: 0.0
-    contract_quality: 30.5
-    developer_ergonomics: 52.4
-    discoverability: 45.0
+    contract_governance: 22.0
+    contract_quality: 58.4
+    developer_ergonomics: 54.2
+    discoverability: 48.2
     operational_transparency: 44.7
-  previous_composite: 36.2
+  previous_composite: 36.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 18.2
+    score: 22.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/screenshots/qlik-2026-06-20T192340.png
 security:
+- kind: authentication
+  name: Qlik Authentication
+  slug: qlik-authentication
+  summary_line: 2 schemes
 - kind: domain-security
   name: Qlik Domain Security
   slug: qlik-domain-security
@@ -399,5 +363,8 @@ tags:
 - Access Control
 - Machine Learning
 - Artificial Intelligence
+- Analytics
+- Data Integration
+- Cloud
 website: https://qlik.dev
 ---

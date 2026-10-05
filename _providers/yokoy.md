@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
@@ -219,6 +219,11 @@ collections:
   slug: open-yokoy-user-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/capabilities/yokoy-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/yokoy-capability-edges.yml
+- group: other
   href: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/overlays/yokoy-openapi-overlay.yaml
   title: ''
   type: Overlay
@@ -338,7 +343,7 @@ network: true
 overview: 'Yokoy publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Card account API, Company card API, Cost center API, and 19 more. Tagged areas include Company, Spend Management, Expense Management, Invoice Management, and Finance Automation.
 
 
-  Yokoy''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, and 18 more developer resources.'
+  Yokoy''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, and 19 more developer resources.'
 random_paper: 21
 scopes:
 - name: Yokoy Scopes
@@ -349,13 +354,13 @@ score:
   band: thin
   composite: 38.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.5
   facets:
     access_clarity: 15.8
     contract_governance: 18.2
@@ -363,7 +368,7 @@ score:
     developer_ergonomics: 25.6
     discoverability: 73.2
     operational_transparency: 28.9
-  previous_composite: 38.3
+  previous_composite: 41.8
   provenance:
     conformance: first-party
     contracts:
@@ -384,7 +389,7 @@ score:
     regime_id: payments
     score: 33.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

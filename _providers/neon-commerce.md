@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -325,9 +325,9 @@ description: Neon Commerce (Neon) is the direct-to-consumer commerce and payment
 image: https://www.neonpay.com/api/media/file/meta-image-1200x630.jpg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server over HTTP; 48 tools listed. A candidate, not confirmed as published by the provider.
   name: Neon Commerce MCP Server
-  slug: neon-commerce-mcp-server
+  slug: neon-commerce
 modified: '2026-07-20'
 name: Neon Commerce
 nav: Providers
@@ -344,13 +344,13 @@ score:
   band: developing
   composite: 49.9
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 23
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
@@ -358,7 +358,7 @@ score:
     developer_ergonomics: 64.9
     discoverability: 78.6
     operational_transparency: 36.8
-  previous_composite: 49.9
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -376,7 +376,7 @@ score:
     regime_id: payments
     score: 29.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

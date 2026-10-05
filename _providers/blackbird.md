@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -132,6 +132,11 @@ collections:
   name: Flynet App Users API
   slug: open-blackbird-users-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/capabilities/blackbird-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/blackbird-capability-edges.yml
 - group: commercial
   title: ''
   type: TermsOfService
@@ -282,7 +287,7 @@ layout: provider
 mcp_servers:
 - description: Flynet (Blackbird) ships two official MCP servers. The Docs MCP is a hosted, remote HTTP server (Mintlify-hosted, no credentials) that lets any MCP-aware agent search the live Flynet docs. The API MCP
   name: Blackbird MCP Server
-  slug: blackbird-mcp-server
+  slug: blackbird-mcp-yml
 modified: '2026-07-18'
 name: Blackbird
 nav: Providers
@@ -290,7 +295,7 @@ network: true
 overview: 'Blackbird publishes 10 APIs on the [APIs.io](https://apis.io/) network, including App API, Challenges API, Check-ins API, and 7 more. Tagged areas include Company, Restaurant, Loyalty, Payments, and Dining.
 
 
-  Blackbird''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
+  Blackbird''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
 random_paper: 2
 scopes:
 - name: Blackbird Scopes
@@ -301,13 +306,13 @@ score:
   band: developing
   composite: 43.4
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.6
   facets:
     access_clarity: 13.2
     contract_governance: 4.5
@@ -315,7 +320,7 @@ score:
     developer_ergonomics: 78.6
     discoverability: 71.7
     operational_transparency: 15.8
-  previous_composite: 43.4
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -333,7 +338,7 @@ score:
     regime_id: payments
     score: 24.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

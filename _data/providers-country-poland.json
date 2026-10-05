@@ -26,7 +26,7 @@
       "developer_ergonomics": 75.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -87,7 +87,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -144,18 +144,18 @@
      "slug": "university-of-warsaw",
      "description": "The University of Warsaw (Uniwersytet Warszawski) is Poland's largest and highest-ranked university and a member of the 4EU+ European University Alliance. Unusually for this cohort it operates real first-party programmable surfaces rather than only vendor tenancies: the USOS API at usosapps.uw.edu.pl, a documented OAuth 1.0a REST-like protocol over the institution's own academic database (courses, faculties, calendar, users, payments), and two springdoc services that publish their own OpenAPI and Swagger UI — the Student Portal 4EU+ API at api.sp4eu.uw.edu.pl (OpenAPI 3.1, 74 paths, read endpoints answer anonymously) and Jaskier at api.jaskier.uw.edu.pl, the university's central institutional API (OpenAPI 3.0.1, 729 paths, 458 schemas, bearer-gated data). Research data is handled by two institution-hosted repositories — Dane Badawcze UW (Dataverse, DOI prefix 10.58132) and ReIn UW (DSpace-CRIS 8.1) — each with a native REST API and an OAI-PMH 2.0 endpoint. The university runs its own Shibboleth SAML identity provider at login.uw.edu.pl, registered in eduGAIN through the Polish PIONIER.Id federation, and it is a DataCite repository client and a Crossref member with 31 DOI prefixes. What it does NOT have is a single central developer portal: the USOS developers site is the only signup surface, the library discovery layer is an Ex Libris Alma/Primo tenancy, and the LMS is a Moodle install with no public LTI advertisement.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-warsaw/refs/heads/main/screenshots/university-of-warsaw-2026-06-20T200305.png",
-     "score": 49.1,
+     "score": 48.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 71.4,
+      "discoverability": 66.1,
       "contract_quality": 60.0,
       "contract_governance": 14.4,
       "operational_transparency": 24.2,
       "developer_ergonomics": 45.2,
       "access_clarity": 50.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -205,7 +205,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -261,7 +261,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -311,7 +311,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 50.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -350,18 +350,18 @@
      "slug": "modivo",
      "description": "MODIVO is a Polish multibrand fashion and lifestyle retailer that operates one of the largest fashion e-commerce platforms in Central and Eastern Europe, selling clothing, footwear, accessories, beauty and home products from more than a thousand brands across Poland, the Czech Republic, Slovakia, Romania, Hungary, Ukraine, the Baltics and Western Europe. MODIVO S.A. is the listed parent of the former CCC Group (renamed MODIVO S.A. in February 2026) and the group behind the eobuwie.pl, CCC, HalfPrice, worldbox and DeeZee retail brands; the MODIVO storefront company itself is the former eobuwie.pl S.A., a consumer-technology investment of SoftBank Vision Fund. MODIVO does not run a developer portal, but its storefront is an Adobe Commerce (Magento 2.4) deployment that serves two live, publicly readable machine contracts from its own domain: a self-describing Swagger 2.0 REST schema at https://modivo.pl/rest/all/schema?services=all and an openly introspectable GraphQL endpoint at https://modivo.pl/graphql. Third-party sellers integrate through a Mirakl-hosted marketplace tenant, and brands buy sponsored placements through MODIVO Ads, the group's retail-media platform spanning MODIVO and eobuwie.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/modivo/refs/heads/main/screenshots/modivo-2026-08-07T184029.png",
-     "score": 40.8,
+     "score": 40.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 78.6,
+      "discoverability": 73.2,
       "contract_quality": 58.4,
       "contract_governance": 4.5,
       "operational_transparency": 7.9,
       "developer_ergonomics": 37.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -421,7 +421,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 44.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -471,7 +471,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -531,7 +531,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -540,7 +540,7 @@
       "score": 23.5,
       "matched_via": "tags"
      },
-     "agent_score": 12.2,
+     "agent_score": 8.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -559,7 +559,7 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": "verified",
+      "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -580,7 +580,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -640,7 +640,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -689,7 +689,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -738,7 +738,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,

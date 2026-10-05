@@ -12,36 +12,37 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.1
-  scored_at: '2026-10-03'
+  score: 40.0
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 46
+- acting_count: 106
   human_in_the_loop: 0
   name: Moesif Agentic Access
-  operation_count: 87
+  operation_count: 174
   slug: moesif-agentic-access
-  summary_line: 87 operations · 46 acting
+  summary_line: 174 operations · 106 acting
 api_count: 2
 apis:
 - description: The Moesif Collector API is the high-volume ingestion endpoint that receives API event data from server, client, and gateway SDKs. It accepts HTTP API call records, user/company entity updates, and cu
@@ -122,7 +123,7 @@ apis:
   description: The Workspaces API from Moesif — 8 operation(s) for workspaces.
   name: Moesif Workspaces API
   slug: moesif-workspaces-api
-artifact_total: 41
+artifact_total: 75
 collections:
 - collection_type: open
   name: API Collection
@@ -176,6 +177,77 @@ collections:
   name: Management API
   slug: open-moesif
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/rules/moesif-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/moesif-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/json-ld/moesif-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/moesif-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/vocabulary/moesif-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/moesif-vocabulary.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/data-model/moesif-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/moesif-data-model.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/conformance/moesif-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/moesif-conformance.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/llms/moesif-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/moesif-llms.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/mcp/moesif-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/moesif-mcp.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/well-known/moesif-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/moesif-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/hosts/moesif-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/moesif-hosts.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/packages/moesif-packages.yml
+  title: ''
+  type: Packages
+  url: packages/moesif-packages.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.moesif.com/extensions/support
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.moesif.com/security
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.moesif.com/press
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://api.moesif.net
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/agentic-access/moesif-agentic-access.yml
   title: ''
@@ -344,6 +416,11 @@ common:
   title: ''
   type: Sample
   url: https://github.com/Moesif/moesif-developer-portal
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/capabilities/moesif-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/moesif-capability-edges.yml
 created: '2025-01-08'
 description: Moesif is an API analytics, monitoring, monetization, and governance platform for API and AI product teams. The platform unifies API observability (analytics, logs, metrics, traces via OpenTelemetry), usage-based monetization (billing meters, product catalog, prepaid credits, Stripe integration), quotas and governance (rate limiting, contract enforcement), and customer-experience tooling (behavioral cohorts, emails, embedded metrics, developer portal). Moesif has expanded into AI agent and LLM analytics with usage-based billing for AI apps, GenAI-powered "Ask AI" analytics queries, and content monetization for LLM training.
 finops:
@@ -351,7 +428,113 @@ finops:
   service_category: API
   slug: moesif-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moesif.png
+json_schemas:
+- name: AddSubscriptionDTO
+  property_count: 18
+  slug: moesif-add-subscription-dto
+- name: AppCreateDTO
+  property_count: 4
+  slug: moesif-app-create-dto
+- name: AppResponseDTO
+  property_count: 8
+  slug: moesif-app-response-dto
+- name: AppUpdateDTO
+  property_count: 4
+  slug: moesif-app-update-dto
+- name: BillingMeterDocument
+  property_count: 11
+  slug: moesif-billing-meter-document
+- name: BillingMetricResponse
+  property_count: 1
+  slug: moesif-billing-metric-response
+- name: BillingReportBalanceTransCreate
+  property_count: 8
+  slug: moesif-billing-report-balance-trans-create
+- name: BillingReport
+  property_count: 29
+  slug: moesif-billing-report
+- name: CohortCreateItem
+  property_count: 12
+  slug: moesif-cohort-create-item
+- name: CohortDocument
+  property_count: 18
+  slug: moesif-cohort-document
+- name: CohortUpdateItem
+  property_count: 13
+  slug: moesif-cohort-update-item
+- name: CommentItem
+  property_count: 2
+  slug: moesif-comment-item
+- name: CompanyUpdateDTO
+  property_count: 5
+  slug: moesif-company-update-dto
+- name: DashboardDocument
+  property_count: 13
+  slug: moesif-dashboard-document
+- name: DashboardUpdateItem
+  property_count: 7
+  slug: moesif-dashboard-update-item
+- name: EmailTemplateCreateItem
+  property_count: 8
+  slug: moesif-email-template-create-item
+- name: EmailTemplateUpdateItem
+  property_count: 8
+  slug: moesif-email-template-update-item
+- name: eventResponseDTO
+  property_count: 3
+  slug: moesif-event-response-dto
+- name: GovernanceRuleCreateItem
+  property_count: 13
+  slug: moesif-governance-rule-create-item
+- name: GovernanceRuleUpdateItem
+  property_count: 13
+  slug: moesif-governance-rule-update-item
+- name: GovernanceRulesDocument
+  property_count: 17
+  slug: moesif-governance-rules-document
+- name: MoesifPlan
+  property_count: 11
+  slug: moesif-moesif-plan
+- name: MoesifPrice
+  property_count: 17
+  slug: moesif-moesif-price
+- name: object
+  property_count: 0
+  slug: moesif-object
+- name: searchEventsResponseDTO
+  property_count: 3
+  slug: moesif-search-events-response-dto
+- name: SignedTokenDTO
+  property_count: 3
+  slug: moesif-signed-token-dto
+- name: SubscriptionDTO
+  property_count: 22
+  slug: moesif-subscription-dto
+- name: userResponseDTO
+  property_count: 3
+  slug: moesif-user-response-dto
+- name: UserUpdateDTO
+  property_count: 11
+  slug: moesif-user-update-dto
+- name: WorkspaceCreateItem
+  property_count: 12
+  slug: moesif-workspace-create-item
+- name: WorkspaceDocument
+  property_count: 21
+  slug: moesif-workspace-document
+- name: WorkspaceUpdateItem
+  property_count: 8
+  slug: moesif-workspace-update-item
+jsonld:
+- class_count: 89
+  name: Moesif Context
+  property_count: 273
+  slug: moesif-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.moesif.com over HTTP.
+  name: Moesif MCP Server
+  slug: moesif
 modified: '2026-05-22'
 name: Moesif
 nav: Providers
@@ -359,10 +542,10 @@ network: true
 overview: 'Moesif publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Balance Transactions API, Billing Meters API, and 13 more. Tagged areas include Analytics, Monitoring, Monetization, Governance, and Observability.
 
 
-  The Moesif catalog on APIs.io includes 1 Spectral governance ruleset.
+  The Moesif catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Moesif''s developer surface includes authentication, documentation, API reference, pricing, signup flow, getting-started guide, engineering blog, and 34 more developer resources.'
+  Moesif''s developer surface includes support, authentication, documentation, API reference, pricing, signup flow, getting-started guide, and 50 more developer resources.'
 plans:
 - name: Moesif Plans Pricing
   plan_count: 3
@@ -390,41 +573,49 @@ scopes:
   slug: moesif-scopes
   summary_line: 71 scopes · password
 score:
-  band: strong
-  composite: 54.7
+  band: exemplar
+  composite: 66.9
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 59.5
+    artifact_dirs: 27
+    catalog_earned: 80.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.5
+    catalog_gap: 34.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 21.2
   facets:
     access_clarity: 50.0
-    contract_governance: 40.9
-    contract_quality: 45.2
-    developer_ergonomics: 59.5
-    discoverability: 68.3
-    operational_transparency: 26.3
-  previous_composite: 54.7
+    contract_governance: 62.9
+    contract_quality: 58.8
+    developer_ergonomics: 75.6
+    discoverability: 76.7
+    operational_transparency: 36.8
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 15
     mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: ccpa
+    jurisdictions_satisfied: 2
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 29.4
+    score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: rising
   upsert:
     applies: true
     score: 50.0

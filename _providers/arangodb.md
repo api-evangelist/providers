@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 143
+- acting_count: 146
   human_in_the_loop: 5
   name: Arangodb Agentic Access
   operation_count: 254
   slug: arangodb-agentic-access
-  summary_line: 254 operations · 143 acting · 5 human-in-the-loop
+  summary_line: 254 operations · 146 acting · 5 human-in-the-loop
 api_count: 1
 apis:
 - description: The control-plane API of the Arango Managed Platform (formerly ArangoGraph Insights Platform / Oasis) — the managed ArangoDB cloud. It is a gRPC API defined in protocol buffers, covering organizations
@@ -233,6 +233,11 @@ collections:
   slug: open-arangodb-views-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/capabilities/arangodb-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/arangodb-capability-edges.yml
+- group: other
   href: https://raw.githubusercontent.com/api-evangelist/arangodb/refs/heads/main/overlays/arangodb-core-overlay.yaml
   title: ''
   type: Overlay
@@ -384,9 +389,9 @@ description: ArangoDB (now operating as Arango) is the company behind the open-s
 image: https://arango.ai/wp-content/uploads/2026/03/arango-home-social-horz-2026.03-compress.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Local (stdio) MCP server; 4 tools listed.
   name: ArangoDB MCP Server
-  slug: arangodb-mcp-server
+  slug: arangodb
 modified: '2026-08-02'
 name: ArangoDB
 nav: Providers
@@ -394,19 +399,19 @@ network: true
 overview: 'ArangoDB publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Analyzers API, Authentication API, and 21 more. Tagged areas include Company, Database, Graph Database, Multi-Model Database, and NoSQL.
 
 
-  ArangoDB''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
+  ArangoDB''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 26 more developer resources.'
 random_paper: 16
 score:
   band: developing
   composite: 46.3
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
@@ -414,7 +419,7 @@ score:
     developer_ergonomics: 73.2
     discoverability: 73.2
     operational_transparency: 42.1
-  previous_composite: 46.3
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -432,7 +437,7 @@ score:
     regime_id: horizontal
     score: 19.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://api.sigma360.com/external/v2
@@ -111,6 +111,11 @@ collections:
   name: Sigma360 Account Utilities API
   slug: open-sigma-ratings-utilities-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-ratings/refs/heads/main/capabilities/sigma-ratings-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sigma-ratings-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -251,13 +256,13 @@ overview: 'Sigma360 publishes 8 APIs on the [APIs.io](https://apis.io/) network,
   The Sigma360 catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Sigma360''s developer surface includes documentation, API reference, getting-started guide, changelog, signup flow, support, authentication, and 21 more developer resources.'
+  Sigma360''s developer surface includes documentation, API reference, getting-started guide, changelog, signup flow, support, authentication, and 22 more developer resources.'
 random_paper: 14
 score:
   band: developing
   composite: 45.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -292,7 +297,7 @@ score:
     regime_id: horizontal
     score: 26.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

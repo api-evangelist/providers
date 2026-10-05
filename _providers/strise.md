@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: GraphQL API for programmatic access to core Strise functionality — search companies and persons, screen for PEP/sanctions/ownership, run reviews, manage a monitoring portfolio, and subscribe to webhoo
@@ -179,7 +179,7 @@ layout: provider
 mcp_servers:
 - description: Official hosted, remote MCP server that exposes a curated subset of the Strise Connect (GraphQL) platform to Claude and other MCP-aware assistants. Built on Connect. Destructive tools are flagged dest
   name: Strise MCP Server
-  slug: strise-mcp-server
+  slug: strise
 modified: '2026-07-21'
 name: Strise
 nav: Providers
@@ -202,7 +202,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
@@ -218,7 +218,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 48.7
+  previous_composite: 47.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -234,7 +234,7 @@ score:
     regime_id: horizontal
     score: 31.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

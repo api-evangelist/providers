@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Imviva provides an API platform but no machine‑readable contract was discovered. The website lists product information but no developer documentation or OpenAPI spec is publicly available.
@@ -65,7 +65,7 @@ score:
   band: minimal
   composite: 4.2
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 30.0
     catalog_earned_first_party: 0.0
     catalog_gap: 85.0
@@ -87,7 +87,7 @@ score:
     regime_id: health
     score: 4.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

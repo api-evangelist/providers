@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://app.botsociety.io
@@ -75,6 +75,11 @@ collections:
   name: Botsociety Conversations Variables API
   slug: open-botsociety-variables-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/botsociety/refs/heads/main/capabilities/botsociety-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/botsociety-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -172,19 +177,19 @@ network: true
 overview: 'BotSociety publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Conversations API, Designs API, Messages API, and 1 more. Tagged areas include Company, Chatbots, Conversational AI, Voice Assistant, and Bot Design.
 
 
-  BotSociety''s developer surface includes documentation, API reference, authentication, changelog, and 14 more developer resources.'
+  BotSociety''s developer surface includes documentation, API reference, authentication, changelog, and 15 more developer resources.'
 random_paper: 15
 score:
   band: emerging
   composite: 16.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -192,7 +197,7 @@ score:
     developer_ergonomics: 33.9
     discoverability: 73.2
     operational_transparency: 18.4
-  previous_composite: 16.0
+  previous_composite: 16.1
   provenance:
     conformance: derived
     contracts:
@@ -209,7 +214,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

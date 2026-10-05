@@ -1,6 +1,6 @@
 {
- "total": 136,
- "shown": 136,
+ "total": 137,
+ "shown": 137,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -77,7 +77,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -116,18 +116,18 @@
      "slug": "nationbuilder",
      "description": "NationBuilder is a community-engagement and organizing platform for political campaigns, advocacy groups, nonprofits, and membership organizations, pairing a supporter CRM with a website/page builder, email and text messaging, event and petition tools, and integrated fundraising. Its developer surface is a REST API offered in two flavors: the current v2 API, which follows the JSON:API specification and authenticates with OAuth 2.0 (authorization-code with optional PKCE and refresh tokens), and a legacy v1 API that uses per-nation API tokens. The API exposes people/signups, donations, events, petitions, memberships, lists, tags, and related resources so integrators can sync supporter data and automate outreach. NationBuilder is multi-tenant: each nation is reached at its own {nation-slug}.nationbuilder.com host.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nationbuilder/refs/heads/main/screenshots/nationbuilder-2026-08-17T124218.png",
-     "score": 61.7,
+     "score": 61.2,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 73.2,
+      "discoverability": 67.9,
       "contract_quality": 54.3,
       "contract_governance": 18.2,
       "operational_transparency": 63.2,
       "developer_ergonomics": 58.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -177,7 +177,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -227,7 +227,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -277,7 +277,7 @@
       "developer_ergonomics": 63.1,
       "access_clarity": 40.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -338,7 +338,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -388,7 +388,7 @@
       "developer_ergonomics": 55.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -438,7 +438,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -476,18 +476,18 @@
      "name": "IAB Tech Lab",
      "slug": "iab-tech-lab",
      "description": "IAB Technology Laboratory (IAB Tech Lab) is the non-profit consortium that writes the technical standards the digital advertising supply chain runs on — OpenRTB (real-time bidding), AdCOM, OpenDirect (programmatic direct), VAST and VMAP (video ad serving), the Transparency and Consent Framework and Global Privacy Platform (consent signals), ads.txt, app-ads.txt and sellers.json (supply-chain transparency), the Open Measurement SDK and the content/audience/ad-product taxonomies. Its machine-readable contracts are published in the open on GitHub: an OpenRTB 2.x Protocol Buffers definition, the AdCOM protobuf, an OpenDirect Swagger specification, VAST XSDs, and an agentic-advertising stack (buyer-agent, seller-agent, Deals API, Agentic RTB Framework gRPC) that ships OpenAPI 3.1 contracts, JSON Schema primitives, MCP servers and A2A agent cards as reference implementations. The Tech Lab Tools Portal and its Core API sit behind a member login.",
-     "score": 50.7,
+     "score": 50.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 62.5,
+      "discoverability": 57.5,
       "contract_quality": 48.8,
       "contract_governance": 18.2,
       "operational_transparency": 18.4,
       "developer_ergonomics": 61.3,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -536,7 +536,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -586,7 +586,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -621,56 +621,6 @@
      "rank": 12
     },
     {
-     "name": "Wikipedia / MediaWiki",
-     "slug": "wikipedia",
-     "description": "Wikipedia is the free, multilingual online encyclopedia operated by the non-profit Wikimedia Foundation. The platform exposes its content and structured data through several public APIs: the original MediaWiki Action API (action=query|edit|parse|upload), the MediaWiki Core REST API (page CRUD, search, transforms), the Wikimedia REST API (page summaries, mobile HTML, math, citation, reading lists, recommendations), the Wikidata Query Service SPARQL endpoint (structured knowledge graph queries), and the Wikimedia Enterprise APIs (commercial Snapshot, On-demand, Realtime). All free APIs are governed by the Wikimedia API usage guidelines: contactable User-Agent, serial requests, maxlag for bots.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/screenshots/wikipedia-2026-06-20T201453.png",
-     "score": 47.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 83.9,
-      "contract_quality": 37.7,
-      "contract_governance": 27.3,
-      "operational_transparency": 31.1,
-      "developer_ergonomics": 42.9,
-      "access_clarity": 46.8
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 22.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 33.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 13
-    },
-    {
      "name": "Chariot",
      "slug": "chariot",
      "description": "Chariot is the leading payments platform for charitable giving, best known for DAFpay — the first donor-advised fund (DAF) payment option, named one of TIME's Best Inventions of 2025. Its REST API lets nonprofits, fundraising platforms, and grantmakers connect donor-advised funds, accept DAF donations through the embeddable Chariot Connect flow, move grant money via disbursements and inbound transfers, subscribe to webhook events, and read connected bank-account data through a Financial Data Exchange (FDX) v6 open-banking API. Chariot is building financial infrastructure for the multi-hundred-billion-dollar donor-advised fund market, the fastest-growing segment of philanthropy.",
@@ -686,7 +636,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -718,6 +668,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 13
+    },
+    {
+     "name": "Wikipedia / MediaWiki",
+     "slug": "wikipedia",
+     "description": "Wikipedia is the free, multilingual online encyclopedia operated by the non-profit Wikimedia Foundation. The platform exposes its content and structured data through several public APIs: the original MediaWiki Action API (action=query|edit|parse|upload), the MediaWiki Core REST API (page CRUD, search, transforms), the Wikimedia REST API (page summaries, mobile HTML, math, citation, reading lists, recommendations), the Wikidata Query Service SPARQL endpoint (structured knowledge graph queries), and the Wikimedia Enterprise APIs (commercial Snapshot, On-demand, Realtime). All free APIs are governed by the Wikimedia API usage guidelines: contactable User-Agent, serial requests, maxlag for bots.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/screenshots/wikipedia-2026-06-20T201453.png",
+     "score": 46.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 78.6,
+      "contract_quality": 37.7,
+      "contract_governance": 27.3,
+      "operational_transparency": 31.1,
+      "developer_ergonomics": 42.9,
+      "access_clarity": 46.8
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 22.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 33.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 14
     },
     {
@@ -735,7 +735,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -785,7 +785,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -831,18 +831,18 @@
      "slug": "musicbrainz",
      "description": "MusicBrainz is an open-source, community-maintained music encyclopedia operated by the MetaBrainz Foundation, a US 501(c)(3) non-profit. It collects metadata about artists, releases, recordings, works, labels, places, areas, events, instruments, series, URLs, and the relationships between them, then exposes the catalog through a free public REST web service at https://musicbrainz.org/ws/2/. The dataset itself is released under CC0 (core data) and CC-BY-NC-SA (supplemental tables), the schema is open, and full database dumps and a live replication feed are available. The web service is read-mostly with authenticated submission endpoints for tags, ratings, collections, barcodes, and ISRCs, and is rate-limited to one request per IP per second with a mandatory descriptive User-Agent header.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/screenshots/musicbrainz-2026-06-20T185906.png",
-     "score": 44.7,
+     "score": 44.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 71.4,
+      "discoverability": 66.1,
       "contract_quality": 28.6,
       "contract_governance": 27.3,
       "operational_transparency": 31.1,
       "developer_ergonomics": 53.6,
       "access_clarity": 49.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -892,7 +892,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -942,7 +942,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -992,7 +992,7 @@
       "developer_ergonomics": 59.5,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1053,7 +1053,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1103,7 +1103,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1153,7 +1153,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 49.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1203,7 +1203,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 54.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1253,7 +1253,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 44.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1303,7 +1303,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 44.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1353,7 +1353,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1403,7 +1403,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 37.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1453,7 +1453,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 44.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1503,7 +1503,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 44.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1553,7 +1553,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1603,7 +1603,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1653,7 +1653,7 @@
       "developer_ergonomics": 48.2,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1703,7 +1703,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1753,7 +1753,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1803,7 +1803,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 44.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1853,7 +1853,7 @@
       "developer_ergonomics": 27.4,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1903,7 +1903,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 37.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1953,7 +1953,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2003,7 +2003,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2053,7 +2053,7 @@
       "developer_ergonomics": 22.6,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2103,7 +2103,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2153,7 +2153,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2203,7 +2203,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2253,7 +2253,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2303,7 +2303,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2353,7 +2353,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2403,7 +2403,7 @@
       "developer_ergonomics": 22.6,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2453,7 +2453,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2503,7 +2503,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2553,7 +2553,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2603,7 +2603,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2653,7 +2653,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2703,7 +2703,7 @@
       "developer_ergonomics": 13.7,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2712,13 +2712,13 @@
       "score": 18.6,
       "matched_via": "tags"
      },
-     "agent_score": 26.1,
+     "agent_score": 19.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": "platform",
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": "derived",
@@ -2753,7 +2753,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2803,7 +2803,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2863,7 +2863,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2913,7 +2913,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2963,7 +2963,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3013,7 +3013,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 34.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3062,7 +3062,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3112,7 +3112,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3162,7 +3162,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3212,7 +3212,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3261,7 +3261,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3311,7 +3311,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3361,7 +3361,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3411,7 +3411,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3461,7 +3461,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3511,7 +3511,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3561,7 +3561,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3611,7 +3611,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3661,7 +3661,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3711,7 +3711,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3760,7 +3760,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3810,7 +3810,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 41.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3859,7 +3859,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3909,7 +3909,7 @@
       "developer_ergonomics": 17.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3959,7 +3959,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4009,7 +4009,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4059,7 +4059,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4068,7 +4068,7 @@
       "score": 13.7,
       "matched_via": "fallback"
      },
-     "agent_score": 12.2,
+     "agent_score": 8.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -4087,7 +4087,7 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": "verified",
+      "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -4109,7 +4109,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4159,7 +4159,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4209,7 +4209,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4259,7 +4259,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4309,7 +4309,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4359,7 +4359,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4409,7 +4409,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4459,7 +4459,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4509,7 +4509,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4559,7 +4559,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4609,7 +4609,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4659,7 +4659,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4709,7 +4709,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4759,7 +4759,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4809,7 +4809,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4859,7 +4859,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4900,8 +4900,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 39,
-   "shown": 39,
+   "count": 40,
+   "shown": 40,
    "providers": [
     {
      "name": "FundMiner",
@@ -4919,7 +4919,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4968,7 +4968,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5018,7 +5018,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5067,7 +5067,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5117,7 +5117,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5167,7 +5167,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5217,7 +5217,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5267,7 +5267,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5317,7 +5317,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5367,7 +5367,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5417,7 +5417,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5467,7 +5467,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5517,7 +5517,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5567,7 +5567,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5617,7 +5617,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5667,7 +5667,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5702,6 +5702,55 @@
      "rank": 113
     },
     {
+     "name": "Brami",
+     "slug": "brami",
+     "description": "Brami is an Italian community-driven nonprofit organization focused on revitalizing local cultural spaces and promoting civic engagement. It operates a platform that connects volunteers, donors, and local authorities to support events, educational programs, and community projects. Through its online portal, Brami facilitates contributions, volunteer sign‑ups, and information sharing, aiming to strengthen neighborhood ties and preserve cultural heritage across Italy.",
+     "score": 5.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 44.6,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 9.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 114
+    },
+    {
      "name": "Givecampus",
      "slug": "givecampus",
      "description": "GiveCampus is a digital-first fundraising and alumni-engagement platform built for educational institutions - K-12 schools, colleges, universities, and their affiliated foundations, alumni associations, and nonprofits. The platform provides online giving pages, Giving Days, crowdfunding and peer-to-peer (advocacy) fundraising, matching and challenge gifts, event and volunteer management, donor management and advancement CRM tooling, payment processing, and stewardship and engagement features that help advancement teams raise more money at a lower cost. Founded in 2015 and backed by Y Combinator, GiveCampus is used by thousands of schools and institutions across the United States and internationally. This API Evangelist profile tracks GiveCampus as a company in the network; the company operates a closed SaaS product and does not publish a public developer API, so this record is identity- and infrastructure-focused.",
@@ -5717,7 +5766,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5749,7 +5798,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 115
     },
     {
      "name": "Monell Chemical Senses Center",
@@ -5767,7 +5816,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5799,7 +5848,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 116
     },
     {
      "name": "Mentor Spaces",
@@ -5817,7 +5866,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5849,7 +5898,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 117
     },
     {
      "name": "ChurchTrac",
@@ -5866,7 +5915,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5898,7 +5947,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 118
     },
     {
      "name": "Arc Institute",
@@ -5916,7 +5965,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5948,7 +5997,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 119
     },
     {
      "name": "Sirum",
@@ -5966,7 +6015,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5998,7 +6047,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 120
     },
     {
      "name": "Elwyn",
@@ -6016,7 +6065,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6048,7 +6097,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 121
     },
     {
      "name": "GetCalFresh",
@@ -6066,7 +6115,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6098,7 +6147,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 122
     },
     {
      "name": "Verra",
@@ -6116,7 +6165,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6148,7 +6197,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 123
     },
     {
      "name": "OpenCola",
@@ -6166,7 +6215,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6198,7 +6247,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 124
     },
     {
      "name": "Human DX",
@@ -6216,7 +6265,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6248,7 +6297,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 125
     },
     {
      "name": "Better Earth",
@@ -6265,56 +6314,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 5.9,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 125
-    },
-    {
-     "name": "WeDidIt",
-     "slug": "wedidit",
-     "description": "WeDidIt was a Brooklyn, New York fundraising platform founded in 2012 by Su Sanni and Benjamin Lamson that gave small nonprofits online donation pages, crowdfunding, peer-to-peer, ticketing, and fiscal-sponsorship tools, plus a mobile app for in-person card donations. A 500 Global portfolio company and 43North winner, it was acquired by Allegiance Fundraising Group in June 2019 and its product folded into the Allegiance suite. No public developer API was ever documented, and the wedid.it domain has since lapsed to an unrelated site, so no API surface remains to profile.",
-     "score": 3.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6349,10 +6349,9 @@
      "rank": 126
     },
     {
-     "name": "Win-Win",
-     "slug": "win-win",
-     "description": "Win-Win (trywinwin.com) is a charitable-fundraising platform that gamifies giving. Participants compete in tournaments hosted by celebrities and influencers, predicting head-to-head matchup outcomes and making tax-deductible donations to charitable causes while climbing leaderboards to win prizes and experiences. Win-Win also offers B2B tooling for nonprofits and corporations to launch their own gamified fundraising campaigns, alongside a consumer mobile app. Surfaced as a 500 Global portfolio company. No public API or developer surface is currently published.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/win-win/refs/heads/main/screenshots/win-win-2026-09-02T170753.png",
+     "name": "WeDidIt",
+     "slug": "wedidit",
+     "description": "WeDidIt was a Brooklyn, New York fundraising platform founded in 2012 by Su Sanni and Benjamin Lamson that gave small nonprofits online donation pages, crowdfunding, peer-to-peer, ticketing, and fiscal-sponsorship tools, plus a mobile app for in-person card donations. A 500 Global portfolio company and 43North winner, it was acquired by Allegiance Fundraising Group in June 2019 and its product folded into the Allegiance suite. No public developer API was ever documented, and the wedid.it domain has since lapsed to an unrelated site, so no API surface remains to profile.",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6364,7 +6363,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6399,6 +6398,56 @@
      "rank": 127
     },
     {
+     "name": "Win-Win",
+     "slug": "win-win",
+     "description": "Win-Win (trywinwin.com) is a charitable-fundraising platform that gamifies giving. Participants compete in tournaments hosted by celebrities and influencers, predicting head-to-head matchup outcomes and making tax-deductible donations to charitable causes while climbing leaderboards to win prizes and experiences. Win-Win also offers B2B tooling for nonprofits and corporations to launch their own gamified fundraising campaigns, alongside a consumer mobile app. Surfaced as a 500 Global portfolio company. No public API or developer surface is currently published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/win-win/refs/heads/main/screenshots/win-win-2026-09-02T170753.png",
+     "score": 3.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 128
+    },
+    {
      "name": "Opencurriculum",
      "slug": "opencurriculum",
      "description": "OpenCurriculum is a nonprofit education-technology organization (a Y Combinator alum) that builds curriculum-planning software for K-12 schools. Its web application helps teachers and administrators create and organize lesson plans, unit plans, and courses; draw on a curated library of high-quality, ready-to-go teaching ideas, resources, and strategies; align instruction to standards and learning goals; collaborate with colleagues on instructional design; and track progress through planner, calendar, and semester views with alignment analytics. The organization is based in Sacramento, California. As of this enrichment pass OpenCurriculum publishes no public API, developer portal, SDK, OpenAPI specification, webhooks, or /.well-known discovery surface; it maintains a small public GitHub organization (one public repository, \"flow\", an open-source learning-app maker). This profile therefore carries company identity only, with no API artifacts to enrich.",
@@ -6414,7 +6463,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6446,7 +6495,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 129
     },
     {
      "name": "CrowdRise",
@@ -6463,7 +6512,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6495,7 +6544,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 129
+     "rank": 130
     },
     {
      "name": "Bempower",
@@ -6512,7 +6561,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6544,7 +6593,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 131
     },
     {
      "name": "Go Deed",
@@ -6562,7 +6611,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6594,7 +6643,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 131
+     "rank": 132
     },
     {
      "name": "Capital.xyz",
@@ -6612,7 +6661,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6644,7 +6693,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 133
     },
     {
      "name": "Funderful",
@@ -6661,57 +6710,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 0.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 133
-    },
-    {
-     "name": "Make School",
-     "slug": "make-school",
-     "description": "Make School was a San Francisco-based computer science college and coding bootcamp, backed by a16z, that offered an applied computer science bachelor's program. As of August 2021 the degree program moved to Dominican University of California, and Make School.org now operates as a 501(c)(3) nonprofit running a scholarship program for former Bachelor in Applied Computer Science students. The organization publishes no public API, developer portal, or technical documentation. It was added to the API Evangelist network as a portfolio-lead stub and this enrichment pass confirmed there is no API surface to catalog.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/make-school/refs/heads/main/screenshots/make-school-2026-07-25T225930.png",
-     "score": 2.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6746,6 +6745,56 @@
      "rank": 134
     },
     {
+     "name": "Make School",
+     "slug": "make-school",
+     "description": "Make School was a San Francisco-based computer science college and coding bootcamp, backed by a16z, that offered an applied computer science bachelor's program. As of August 2021 the degree program moved to Dominican University of California, and Make School.org now operates as a 501(c)(3) nonprofit running a scholarship program for former Bachelor in Applied Computer Science students. The organization publishes no public API, developer portal, or technical documentation. It was added to the API Evangelist network as a portfolio-lead stub and this enrichment pass confirmed there is no API surface to catalog.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/make-school/refs/heads/main/screenshots/make-school-2026-07-25T225930.png",
+     "score": 2.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 0.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 135
+    },
+    {
      "name": "Immunity Project",
      "slug": "immunity-project",
      "description": "Immunity Project was a San Francisco nonprofit and Y Combinator company (batch Winter 2014, one of YC's first non-profits alongside Watsi) that set out to develop a free HIV/AIDS vaccine. Its approach studied naturally immune \"HIV controllers\" and applied machine learning to reverse-engineer the immune response, aiming to deliver a crowdfunded, virus-free vaccine via nasal spray. Founders included Reid Rubsamen, Naveen Jain, and Ian Cinnamon. The organization surfaced in the API Evangelist network as a Y Combinator portfolio lead; enrichment found no developer portal, documentation, or API surface, and its former domain (immunityproject.org) has lapsed and now redirects to an unrelated third-party news outlet, indicating the project is effectively defunct.",
@@ -6760,7 +6809,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6792,7 +6841,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 135
+     "rank": 136
     },
     {
      "name": "OpenToken",
@@ -6809,7 +6858,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6841,7 +6890,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 137
     }
    ]
   }

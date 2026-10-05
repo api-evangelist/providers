@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Managed Cloud REST surface covering OAuth auth, a Proxy API to a Core instance, Data API, Filters API, Alerts API, and the MCP endpoint. Auth via API keys or OAuth.
@@ -51,111 +51,41 @@ apis:
   baseurl_source: declared
   description: The Accounts API from Blnk Finance — 2 operation(s) for accounts.
   name: Blnk Finance Accounts API
-  phrasing_intents:
-  - id: CreateAccount
-    intent: Link a bank account to a balance
-    question: How do I attach an external bank account to a ledger balance and an identity?
-  - id: UpdateAccount
-    intent: Change a bank account's details
-    question: How do I correct the bank name or account number on an existing account?
-  - id: GetAccount
-    intent: Look up a bank account record
-    question: Where can I see the bank name and account number stored for an account ID?
-  phrasing_ops: 3
   slug: blnkfinance-accounts-api
 - baseURL: http://localhost:5001
   baseurl_source: declared
   description: The Backup API from Blnk Finance — 2 operation(s) for backup.
   name: Blnk Finance Backup API
-  phrasing_intents:
-  - id: BackDB
-    intent: Back up the ledger database locally
-    question: How do I take a backup of the Blnk database on the server itself?
-  - id: BackDBToS3
-    intent: Back up the ledger database to Amazon S3
-    question: Can I push a backup of the ledger database straight to an S3 bucket?
-  phrasing_ops: 2
   slug: blnkfinance-backup-api
 - baseURL: http://localhost:5001
   baseurl_source: declared
   description: The Balance Monitors API from Blnk Finance — 2 operation(s) for balance monitors.
   name: Blnk Finance Balance Monitors API
-  phrasing_intents:
-  - id: CreateBalanceMonitor
-    intent: Watch a balance and get notified on a condition
-    question: How do I get a webhook callback when a balance drops below a threshold?
-  - id: UpdateBalanceMonitor
-    intent: Change a balance monitor's condition
-    question: Can I change the threshold an existing balance monitor alerts on?
-  - id: GetBalanceMonitor
-    intent: View a balance monitor's settings
-    question: What condition is an existing balance monitor watching for?
-  phrasing_ops: 3
   slug: blnkfinance-balance-monitors-api
 - baseURL: http://localhost:5001
   baseurl_source: declared
   description: The Balances API from Blnk Finance — 2 operation(s) for balances.
   name: Blnk Finance Balances API
-  phrasing_intents:
-  - id: CreateBalance
-    intent: Open a new balance in a ledger
-    question: How do I create a wallet balance in a specific currency inside a ledger?
-  - id: GetBalance
-    intent: Check a balance's current amount
-    question: What is the current amount sitting in a given balance?
-  phrasing_ops: 2
   slug: blnkfinance-balances-api
 - baseURL: http://localhost:5001
   baseurl_source: declared
   description: The Identities API from Blnk Finance — 2 operation(s) for identities.
   name: Blnk Finance Identities API
-  phrasing_intents:
-  - id: CreateIdentity
-    intent: Register a customer or business identity
-    question: How do I add a new customer or organization record with an address in Blnk?
-  - id: UpdateIdentity
-    intent: Update a person's identity details
-    question: How do I change the email address or phone number on an existing identity?
-  - id: GetIdentity
-    intent: Look up an identity's profile
-    question: Where do I see the stored name, address and contact details for an identity ID?
-  phrasing_ops: 3
   slug: blnkfinance-identities-api
 - baseURL: http://localhost:5001
   baseurl_source: declared
   description: The Ledgers API from Blnk Finance — 2 operation(s) for ledgers.
   name: Blnk Finance Ledgers API
-  phrasing_intents:
-  - id: Createledger
-    intent: Create a new ledger
-    question: How do I set up a new ledger to group my balances?
-  - id: GetLedger
-    intent: Look up a ledger
-    question: What name and metadata does an existing ledger have?
-  phrasing_ops: 2
   slug: blnkfinance-ledgers-api
 - baseURL: http://localhost:5001
   baseurl_source: declared
   description: The Refund Transaction API from Blnk Finance — 1 operation(s) for refund transaction.
   name: Blnk Finance Refund Transaction API
-  phrasing_intents:
-  - id: RefundTransaction
-    intent: Refund a recorded transaction
-    question: How do I reverse a transaction that was already recorded in the ledger?
-  phrasing_ops: 1
   slug: blnkfinance-refund-transaction-api
 - baseURL: http://localhost:5001
   baseurl_source: declared
   description: The Transactions API from Blnk Finance — 2 operation(s) for transactions.
   name: Blnk Finance Transactions API
-  phrasing_intents:
-  - id: RecordTransaction
-    intent: Move money between balances
-    question: How do I record a transfer of funds from one balance to another?
-  - id: UpdateInflightTransaction
-    intent: Commit or void an inflight transaction
-    question: How do I commit a transaction that is still on hold as inflight?
-  phrasing_ops: 2
   slug: blnkfinance-transactions-api
 artifact_total: 20
 asyncapis:
@@ -371,10 +301,10 @@ layout: provider
 mcp_servers:
 - description: 'Open, no-auth Mintlify DOCUMENTATION-SEARCH MCP on a first-party host. Probed live 2026-08-27: initialize + tools/list returned 200, serverInfo "Blnk Finance", protocolVersion 2025-11-25, 3 tools. It '
   name: Blnk Finance MCP Server
-  slug: blnk-finance-mcp-server
+  slug: mcp
 - description: 'Cloud ledger MCP: https://api.cloud.blnkfinance.com/mcp/{instance_id}, 33 tools, Bearer + mcp:read/mcp:write.'
   name: Blnk Finance MCP Server
-  slug: blnk-finance-mcp-server-2
+  slug: blnkfinance-mcp-yml
 modified: '2026-08-27'
 name: Blnk Finance
 nav: Providers
@@ -410,7 +340,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.4
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
@@ -418,7 +348,7 @@ score:
     developer_ergonomics: 85.7
     discoverability: 60.0
     operational_transparency: 73.7
-  previous_composite: 67.4
+  previous_composite: 71.8
   provenance:
     conformance: first-party
     contracts:
@@ -439,7 +369,7 @@ score:
     regime_id: payments
     score: 41.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true
@@ -476,6 +406,5 @@ tags:
 - MCP
 - AI Agents
 - Developer Tools
-- A2A
 website: https://www.blnkfinance.com/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: ID.me's OpenID Connect and OAuth 2.0 identity provider. Supports the authorization code flow (with PKCE), refresh tokens, encrypted ID tokens and userinfo, and returns verified identity attributes and
@@ -189,7 +189,7 @@ layout: provider
 mcp_servers:
 - description: Official hosted MCP server for the ID.me developer documentation, advertised in docs.id.me/llms.txt for AI client integration (Claude Code, Cursor, etc.). Surfaces the ID.me integration docs — OIDC/OA
   name: ID.me Developer Docs
-  slug: idme-developer-docs
+  slug: id-me-developer-docs
 modified: '2026-09-16'
 name: ID.me
 nav: Providers
@@ -217,7 +217,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.8
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
@@ -225,7 +225,7 @@ score:
     developer_ergonomics: 69.0
     discoverability: 71.7
     operational_transparency: 36.8
-  previous_composite: 45.5
+  previous_composite: 50.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -236,7 +236,7 @@ score:
     regime_id: government
     score: 37.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

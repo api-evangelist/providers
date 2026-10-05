@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: The MCP server the BoltMCP Helm chart deploys into the customer's own Kubernetes cluster. Customers define their own servers and tools through the BoltMCP dashboard, so the tool surface is tenant-defi
@@ -137,7 +137,7 @@ description: 'BoltMCP is a UK company (BoltMCP Limited) selling a self-hosted pl
 image: https://www.boltmcp.io/boltmcp-logo/icon/icon-mark-light-original.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at server.{global.domain} over HTTP requiring OAuth.
   name: BoltMCP MCP Server
   slug: boltmcp-mcp-server
 modified: '2026-09-14'
@@ -172,7 +172,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
@@ -180,7 +180,7 @@ score:
     developer_ergonomics: 50.0
     discoverability: 68.3
     operational_transparency: 18.4
-  previous_composite: 22.7
+  previous_composite: 22.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -192,7 +192,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

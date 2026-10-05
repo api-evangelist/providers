@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: Official hosted remote MCP server, in public beta, exposing a catalogue of 131 tools (97 read, 34 write) across campaigns, segments, customer profiles, catalogs, templates, shared assets, tags, report
@@ -301,7 +301,7 @@ layout: provider
 mcp_servers:
 - description: Blueshift operates an official hosted remote MCP server, in public beta, at https://app.getblueshift.com/mcp (US and rest of world) and https://app.eu.getblueshift.com/mcp (EU). Transport is streamabl
   name: Blueshift MCP Server
-  slug: blueshift-mcp-server
+  slug: blueshift
 modified: '2026-08-12'
 name: Blueshift
 nav: Providers
@@ -324,9 +324,9 @@ rate_limits:
   slug: blueshift-rate-limits
 scopes:
 - name: Blueshift Scopes
-  scope_count: 0
+  scope_count: 8
   slug: blueshift-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 8 scopes
 score:
   band: strong
   composite: 65.9
@@ -337,7 +337,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.1
   facets:
     access_clarity: 92.1
     contract_governance: 0.0
@@ -345,7 +345,7 @@ score:
     developer_ergonomics: 55.4
     discoverability: 75.0
     operational_transparency: 73.7
-  previous_composite: 65.9
+  previous_composite: 70.0
   provenance:
     conformance: first-party
     contracts:
@@ -362,7 +362,7 @@ score:
     regime_id: telecommunications
     score: 39.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

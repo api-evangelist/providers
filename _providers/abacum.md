@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -77,6 +77,10 @@ created: '2026-07-17'
 description: Abacum is an AI-native financial planning and analysis (FP&A) platform built for CFOs and finance teams to connect financial data, automate planning and reporting, and align cross-functional teams. It unifies budgeting and forecasting, headcount and revenue planning, scenario modeling, investor and board reporting, and P&L / balance-sheet / cash-flow roll-ups, with 700+ prebuilt integrations across ERP and accounting systems (NetSuite, Sage Intacct, QuickBooks, Xero, Dynamics 365), HRIS and payroll (Workday, Rippling, BambooHR, Gusto, Deel), CRM (Salesforce, HubSpot), billing (Stripe, Chargebee, Maxio), and data warehouses (Snowflake, BigQuery, Databricks). An Excel connector and embedded workflows keep planning models and actuals in sync. Abacum surfaced in the API Evangelist network as a portfolio company of Creandum and Scale Venture Partners.
 image: https://framerusercontent.com/images/Xlv87HIlTj3ncQi5jZqYzXOo0.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.abacum.ai over HTTP.
+  name: Abacum MCP Server
+  slug: abacum
 modified: '2026-07-17'
 name: Abacum
 nav: Providers
@@ -96,7 +100,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
@@ -104,7 +108,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 51.7
     operational_transparency: 0.0
-  previous_composite: 14.4
+  previous_composite: 14.3
   provenance:
     mcp: first-party
   regulatory:
@@ -114,7 +118,7 @@ score:
     regime_id: horizontal
     score: 14.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

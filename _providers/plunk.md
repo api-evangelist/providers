@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -48,119 +48,36 @@ apis:
   baseurl_source: declared
   description: Create and send marketing campaigns.
   name: Plunk Campaigns API
-  phrasing_intents:
-  - id: listCampaigns
-    intent: List email campaigns
-    question: Which email campaigns do I have in Plunk right now?
-  - id: createCampaign
-    intent: Create a new email campaign draft
-    question: How do I set up a new marketing email campaign?
-  - id: updateCampaign
-    intent: Edit a draft campaign
-    question: Can I change the subject line of a campaign that's still a draft?
-  - id: deleteCampaign
-    intent: Delete a campaign
-    question: Can I permanently remove a campaign I no longer need?
-  - id: sendCampaign
-    intent: Send or schedule a campaign now or later
-    question: How do I schedule a campaign to go out at a specific date and time?
-  - id: postCampaignsSend
-    intent: Send a campaign live or as a test, with delay
-    question: Can I do a test send of a campaign before sending it for real?
-  phrasing_ops: 6
   slug: plunk-campaigns-api
 - baseURL: https://api.useplunk.com/v1
   baseurl_source: declared
   description: Manage contacts and their subscription state.
   name: Plunk Contacts API
-  phrasing_intents:
-  - id: listContacts
-    intent: List contacts
-    question: Which contacts are on my Plunk mailing list?
-  - id: createContact
-    intent: Create or upsert a contact by email
-    question: How do I add a new contact to my list?
-  - id: updateContact
-    intent: Update a contact by id in the request body
-    question: Is there an update endpoint where the contact id goes in the body rather than the URL?
-  - id: deleteContact
-    intent: Delete a contact by id in the request body
-    question: Can I delete a contact by sending its id in the request body?
-  - id: getContact
-    intent: Get a single contact
-    question: How do I look up one contact's details by their id?
-  - id: patchContactsById
-    intent: Patch a contact's email, subscription or data
-    question: Can I change a contact's email address?
-  - id: deleteContactsById
-    intent: Permanently delete a contact by URL id
-    question: How do I permanently remove a contact when I have its id for the URL path?
-  - id: getContactCount
-    intent: Count all contacts
-    question: How many contacts are in my project in total?
-  phrasing_ops: 10
   slug: plunk-contacts-api
 - baseURL: https://api.useplunk.com/v1
   baseurl_source: declared
   description: Track contact events that drive automations.
   name: Plunk Events API
-  phrasing_intents:
-  - id: trackEvent
-    intent: Track a named event for a contact
-    question: How do I record that a user signed up so my Plunk automations fire?
-  phrasing_ops: 1
   slug: plunk-events-api
 - baseURL: https://api.useplunk.com/v1
   baseurl_source: declared
   description: Send transactional email.
   name: Plunk Transactional API
-  phrasing_intents:
-  - id: sendEmail
-    intent: Send a transactional email
-    question: How do I send a one-off transactional email with Plunk?
-  phrasing_ops: 1
   slug: plunk-transactional-api
 - baseURL: https://api.useplunk.com/v1
   baseurl_source: declared
   description: Public API endpoints for sending emails and tracking events
   name: Plunk Public API
-  phrasing_intents:
-  - id: sendEmail
-    intent: Send a transactional email
-    question: How do I send a password reset email through Plunk?
-  - id: trackEvent
-    intent: Track an event for a contact
-    question: How do I log a custom event like a purchase against a contact?
-  - id: verifyEmail
-    intent: Verify an email address
-    question: Can I check whether an email address is valid before I add it?
-  phrasing_ops: 3
   slug: plunk-public-api-api
 - baseURL: https://api.useplunk.com/v1
   baseurl_source: declared
   description: Audience segmentation
   name: Plunk Segments API
-  phrasing_intents:
-  - id: listSegments
-    intent: List audience segments
-    question: Which audience segments have I set up in Plunk?
-  - id: createSegment
-    intent: Create an audience segment
-    question: How do I create a segment that updates automatically as contact data changes?
-  phrasing_ops: 2
   slug: plunk-segments-api
 - baseURL: https://api.useplunk.com/v1
   baseurl_source: declared
   description: Email template management
   name: Plunk Templates API
-  phrasing_intents:
-  - id: listTemplates
-    intent: List email templates
-    question: Which email templates do I have in Plunk?
-  - id: createTemplate
-    intent: Create an email template
-    question: How do I save a reusable email template with variable placeholders?
-  phrasing_ops: 2
   slug: plunk-templates-api
 artifact_total: 20
 asyncapis:
@@ -187,6 +104,11 @@ collections:
   name: Plunk API
   slug: open-plunk
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/capabilities/plunk-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/plunk-capability-edges.yml
 - group: commercial
   title: ''
   type: License
@@ -368,7 +290,7 @@ overview: 'Plunk publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
   The Plunk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Plunk''s developer surface includes authentication, documentation, changelog, API reference, getting-started guide, support, pricing, and 29 more developer resources.'
+  Plunk''s developer surface includes authentication, documentation, changelog, API reference, getting-started guide, support, pricing, and 30 more developer resources.'
 plans:
 - name: Plunk Plans Pricing
   plan_count: 3
@@ -382,13 +304,13 @@ score:
   band: exemplar
   composite: 75.1
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.2
+  delta: 0.5
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
@@ -396,7 +318,7 @@ score:
     developer_ergonomics: 64.9
     discoverability: 73.2
     operational_transparency: 73.7
-  previous_composite: 74.9
+  previous_composite: 74.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -418,7 +340,7 @@ score:
     regime_id: horizontal
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

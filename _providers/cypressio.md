@@ -27,20 +27,20 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.7
-  scored_at: '2026-10-03'
+  score: 11.2
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Enterprise reporting API that returns test and run analytics and raw test-result data from Cypress Cloud. Requests are HTTP GET with an organization API key passed as the token query parameter, and da
   name: Cypress Cloud Data Extract API
   slug: cypress-cloud-data-extract-api
-artifact_total: 4
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -168,6 +168,10 @@ created: '2026-07-17'
 description: Cypress.io, Inc. builds Cypress, an open-source, JavaScript-based end-to-end and component testing framework that runs tests directly in the browser with time-travel debugging, automatic waiting, and cross-browser support. Its commercial Cypress Cloud service adds test parallelization, smart orchestration, analytics, Test Replay, UI Coverage, and automated accessibility checks, plus an enterprise Data Extract API for exporting test and run analytics in CSV, JSON, or XLSX. Cypress is widely adopted across CI/CD pipelines for reliable, developer-friendly web application testing.
 image: https://avatars.githubusercontent.com/u/8908513?v=4
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.cypress.io over HTTP.
+  name: Cypress.io MCP Server
+  slug: cypressio
 modified: '2026-09-19'
 name: Cypress.io
 nav: Providers
@@ -187,7 +191,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 46.1
     contract_governance: 0.0
@@ -195,7 +199,7 @@ score:
     developer_ergonomics: 71.4
     discoverability: 75.0
     operational_transparency: 47.4
-  previous_composite: 37.8
+  previous_composite: 37.3
   provenance:
     mcp: first-party
   regulatory:
@@ -205,7 +209,7 @@ score:
     regime_id: horizontal
     score: 19.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

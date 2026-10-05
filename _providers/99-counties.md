@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Agent-driven commerce for the 99 Counties Shopify store via the Universal Commerce Protocol over MCP — catalog search, cart, checkout, fulfillment, and buyer-approved order completion.
@@ -124,9 +124,9 @@ description: 99 Counties is a regenerative-agriculture meat company selling 100%
 image: https://cdn.shopify.com/s/files/1/0350/7175/4378/files/Beef_Sub_Nav_f7d12905-6f5c-4d2a-a699-a144b387aabc.jpg?v=1665766002
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at 99counties.com over HTTP; 5 tools listed.
   name: 99 Counties MCP Server
-  slug: 99-counties-mcp-server
+  slug: 99-counties-ucp
 modified: '2026-07-17'
 name: 99 Counties
 nav: Providers
@@ -151,7 +151,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.7
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
@@ -159,7 +159,7 @@ score:
     developer_ergonomics: 25.6
     discoverability: 75.0
     operational_transparency: 0.0
-  previous_composite: 24.4
+  previous_composite: 21.7
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -171,7 +171,7 @@ score:
     regime_id: horizontal
     score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -35,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: SightCall's REST API is used by application back ends to request session tokens, manage users and sessions, provision providers and pull reporting. Authentication is by API key in the Authorization he
   name: SightCall REST API
   slug: rest-api
-artifact_total: 6
+artifact_total: 7
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/sightcall/refs/heads/main/security/sightcall-trust-center.yml
@@ -151,6 +151,10 @@ created: '2026-08-27'
 description: SightCall is a San Francisco headquartered enterprise remote visual support platform. Its VISION product connects experts, technicians and customers over live AR-enhanced WebRTC video so that field service, customer service, insurance and telehealth teams can diagnose and resolve issues without an on-site visit. The platform layers computer vision (defect detection, parts recognition, OCR of serial numbers, gauges and meter readings), AI session insights, and Xpert Knowledge, which turns recorded sessions into structured step-by-step tutorials. SightCall ships iOS, Android and Web client SDKs plus a REST API for session management, user provisioning, reporting and workflow integration, and is embedded into Salesforce Service Cloud, Microsoft Dynamics 365, ServiceNow, SAP, Zendesk, Genesys, Five9, NICE and Guidewire. The developer portal carrying the REST API reference and SDK documentation is not public - SightCall directs developers to contact the company for access.
 image: https://sightcall.com/wp-content/uploads/SightCall.jpg
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.sightcall.com over HTTP.
+  name: SightCall MCP Server
+  slug: sightcall
 modified: '2026-08-27'
 name: SightCall
 nav: Providers
@@ -178,7 +182,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
     access_clarity: 60.5
     contract_governance: 0.0
@@ -186,7 +190,7 @@ score:
     developer_ergonomics: 26.2
     discoverability: 75.0
     operational_transparency: 10.5
-  previous_composite: 27.4
+  previous_composite: 29.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -197,7 +201,7 @@ score:
     regime_id: insurance
     score: 24.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

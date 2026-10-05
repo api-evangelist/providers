@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -232,7 +232,7 @@ layout: provider
 mcp_servers:
 - description: Official first-party MCP server that exposes the BitOasis cryptocurrency exchange API as tools for AI assistants. Published by BitOasis Technologies on PyPI as bitoasis-mcp (MIT). Runs locally over st
   name: BitOasis MCP Server
-  slug: bitoasis-mcp-server
+  slug: bitoasis
 modified: '2026-07-18'
 name: BitOasis
 nav: Providers
@@ -278,7 +278,7 @@ score:
     regime_id: securities_market_data
     score: 15.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 3
@@ -95,6 +95,11 @@ apis:
   slug: firma-dev-workspaces-api
 artifact_total: 78
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/capabilities/firma-dev-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/firma-dev-capability-edges.yml
 - group: build
   href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/mcp/firma-dev-tool-crosswalk.yml
   title: ''
@@ -430,9 +435,9 @@ jsonld:
   slug: firma-dev-context
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at docs.firma.dev.
   name: Firma.dev MCP Server
-  slug: firmadev-mcp-server
+  slug: firma-dev-mcp-yml
 modified: '2026-09-25'
 name: Firma.dev
 nav: Providers
@@ -443,7 +448,7 @@ overview: 'Firma.dev publishes 12 APIs on the [APIs.io](https://apis.io/) networ
   The Firma.dev catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Firma.dev''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, support, and 26 more developer resources.'
+  Firma.dev''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, support, and 27 more developer resources.'
 plans:
 - name: Firma Dev Plans Pricing
   plan_count: 2
@@ -495,7 +500,7 @@ score:
     regime_id: horizontal
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 33.3

@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -100,6 +100,10 @@ created: '2026-07-17'
 description: Hello Patient builds AI agents (branded "Mia") for patient conversations across voice, text, and web chat, helping healthcare practices automate their front office, back office, and patient-growth workflows. Mia handles 24/7 appointment scheduling, insurance verification, and patient intake on the front office; revenue-cycle (RCM) follow-up and no-show recovery on the back office; and lead conversion, patient recall, and targeted outreach for growth. The platform serves dentistry, dermatology, ENT, mental health, optometry, primary care, urgent care, veterinary, and consumer-health practices, and integrates with EHR and practice systems including ModMed, AdvancedMD, NextGen, eClinicalWorks, Athena Health, Veradigm, Zenoti, and others. Hello Patient is HIPAA compliant and SOC 2 Type 2 certified. It is backed by 8VC and Scale Venture Partners. No public developer API is documented at this time; this profile is maintained by the API Evangelist network.
 image: https://cdn.prod.website-files.com/67363ec98e673c430a5d5eeb/6871773ed05ac7f7b4c6f785_OG%20-%20Home.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.hellopatient.com over HTTP.
+  name: Hello Patient MCP Server
+  slug: hello-patient
 modified: '2026-07-19'
 name: Hello Patient
 nav: Providers
@@ -119,7 +123,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
@@ -127,7 +131,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 58.3
     operational_transparency: 0.0
-  previous_composite: 16.1
+  previous_composite: 16.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -146,7 +150,7 @@ score:
     regime_id: health
     score: 14.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

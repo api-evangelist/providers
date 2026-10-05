@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Agentio's hosted, remote Model Context Protocol server. A brand adds https://mcp.agentio.com/mcp to any MCP client (Claude, ChatGPT, or any other custom-connector host), authorizes over OAuth 2.1, and
@@ -160,7 +160,7 @@ description: Agentio is an AI-native platform for creator advertising that conne
 image: https://cdn.prod.website-files.com/64dabf3558320122b88c5b84/6912391402abbaf1724f8173_agentio-logo-cropped%20(1).png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.agentio.com over HTTP.
   name: Agentio Brand Connector
   slug: agentio-brand-connector
 modified: '2026-08-12'
@@ -195,7 +195,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.1
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
@@ -210,7 +210,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 31.3
+  previous_composite: 28.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -221,7 +221,7 @@ score:
     regime_id: horizontal
     score: 36.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Streamable HTTP MCP server providing search_gaps, get_top_gaps, and validate_idea operations.
@@ -107,9 +107,9 @@ description: DDMarketer provides a data-driven platform that surfaces validated 
 image: https://www.ddmarketer.com/opengraph-image?f9406f769821b2fc
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at www.ddmarketer.com requiring an API key.
   name: DDMarketer MCP Server
-  slug: ddmarketer-mcp-server
+  slug: ddmarketer-mcp-yml
 modified: '2026-09-28'
 name: DDMarketer
 nav: Providers
@@ -149,7 +149,7 @@ score:
     regime_id: horizontal
     score: 13.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

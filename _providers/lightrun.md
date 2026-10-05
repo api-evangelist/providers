@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 5
@@ -216,6 +216,11 @@ collections:
   name: Lightrun Actions Watched packages API
   slug: open-lightrun-watched-packages-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/capabilities/lightrun-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lightrun-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -384,7 +389,7 @@ layout: provider
 mcp_servers:
 - description: Connect AI assistants to live runtime context for production debugging.
   name: Lightrun MCP Server
-  slug: lightrun-mcp-server
+  slug: com-lightrun-mcp-server
 modified: '2026-09-16'
 name: Lightrun
 nav: Providers
@@ -395,7 +400,7 @@ overview: 'Lightrun publishes 20 APIs on the [APIs.io](https://apis.io/) network
   The Lightrun catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lightrun''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 28 more developer resources.'
+  Lightrun''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 29 more developer resources.'
 random_paper: 19
 scopes:
 - name: Lightrun Scopes
@@ -412,7 +417,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
@@ -420,7 +425,7 @@ score:
     developer_ergonomics: 73.8
     discoverability: 75.0
     operational_transparency: 42.1
-  previous_composite: 55.8
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -438,7 +443,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

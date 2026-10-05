@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 3
 apis:
 - description: 'A live, first-party, anonymously discoverable Model Context Protocol server implementing the Shopify Universal Commerce Protocol shopping service for the CURE storefront. Thirteen tools cover catalog '
@@ -231,9 +231,9 @@ rate_limits:
   slug: cure-hydration-rate-limits
 scopes:
 - name: Cure Hydration Scopes
-  scope_count: 0
+  scope_count: 4
   slug: cure-hydration-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 4 scopes · authorization_code/refresh_token/urn:ietf:params:oauth:grant-type:jwt-bearer
 score:
   band: thin
   composite: 35.9
@@ -244,7 +244,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -11.1
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
@@ -252,7 +252,7 @@ score:
     developer_ergonomics: 54.8
     discoverability: 68.3
     operational_transparency: 0.0
-  previous_composite: 35.9
+  previous_composite: 47.0
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -264,8 +264,8 @@ score:
     regime_id: health
     score: 32.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

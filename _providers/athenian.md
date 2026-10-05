@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 41
-  human_in_the_loop: 2
+- acting_count: 55
+  human_in_the_loop: 3
   name: Athenian Agentic Access
   operation_count: 79
   slug: athenian-agentic-access
-  summary_line: 79 operations · 41 acting · 2 human-in-the-loop
+  summary_line: 79 operations · 55 acting · 3 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.athenian.co/v1
@@ -175,6 +175,11 @@ collections:
   slug: open-athenian-version-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/capabilities/athenian-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/athenian-capability-edges.yml
+- group: other
   href: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/overlays/athenian-openapi-overlay.yaml
   title: ''
   type: Overlay
@@ -245,19 +250,19 @@ network: true
 overview: 'Athenian publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Align API, Events API, Filter API, and 12 more. Tagged areas include Company, Engineering Intelligence, Software Development Analytics, Developer Productivity, and DevOps.
 
 
-  Athenian''s developer surface includes authentication and 12 more developer resources.'
+  Athenian''s developer surface includes authentication and 13 more developer resources.'
 random_paper: 4
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -30.2
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -266,7 +271,7 @@ score:
     discoverability: 0.0
     operational_transparency: 0.0
   lifecycle: defunct
-  previous_composite: 0.0
+  previous_composite: 30.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -284,8 +289,8 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: falling
   upsert:
     applies: true
     score: 72.2

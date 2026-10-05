@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 19
+- acting_count: 23
   human_in_the_loop: 0
   name: Filebase Agentic Access
   operation_count: 34
   slug: filebase-agentic-access
-  summary_line: 34 operations · 19 acting
+  summary_line: 34 operations · 23 acting
 api_count: 4
 apis:
 - description: The Filebase S3-Compatible API provides standard AWS S3 protocol support for bucket and object management. Developers can use any existing S3 SDK, CLI tool, or framework with endpoint s3.filebase.io a
@@ -150,6 +150,11 @@ collections:
   name: Filebase IPFS Pinning Service Buckets Usage API
   slug: open-filebase-usage-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/capabilities/filebase-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/filebase-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/agentic-access/filebase-agentic-access.yml
   title: ''
@@ -258,7 +263,7 @@ overview: 'Filebase publishes 15 APIs on the [APIs.io](https://apis.io/) network
   The Filebase catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Filebase''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+  Filebase''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Filebase Plans Pricing
   plan_count: 3
@@ -283,13 +288,13 @@ score:
   band: thin
   composite: 38.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 68.1
     catalog_earned_first_party: 0.0
     catalog_gap: 46.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -2.1
   facets:
     access_clarity: 46.8
     contract_governance: 9.8
@@ -297,7 +302,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 71.4
     operational_transparency: 13.2
-  previous_composite: 38.2
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     contracts:
@@ -312,7 +317,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

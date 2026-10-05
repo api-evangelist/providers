@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: REST API for the CipherTrust Manager control plane. Manages encryption keys, secrets, certificates, tokenization, users, connections, and policies. Base path /api/v1 with JWT bearer authentication obt
@@ -42,6 +42,28 @@ apis:
   slug: ciphertrust-manager-rest-api
 artifact_total: 4
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/hosts/ciphertrust-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/ciphertrust-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/vendors/ciphertrust-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/ciphertrust-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://cpl.thalesgroup.com/about-us/newsroom
+- group: other
+  title: ''
+  type: Leadership
+  url: https://cpl.thalesgroup.com/leadership
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs-cybersec.thalesgroup.com/bundle/latest-cdsp-cm/page/get_started/index.html
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/security/ciphertrust-vulnerability-disclosure.yml
   title: ''
@@ -114,11 +136,38 @@ common:
   title: ''
   type: Compliance
   url: https://cpl.thalesgroup.com/encryption/ciphertrust-manager
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/llms/ciphertrust-llms.txt
+- group: company
   title: ''
-  type: LLMsTxt
-  url: llms/ciphertrust-llms.txt
+  type: Blog
+  url: https://cpl.thalesgroup.com/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://cpl.thalesgroup.com/encryption/ciphertrust-manager#pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://cpl.thalesgroup.com/contact-us
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://docs-cybersec.thalesgroup.com/bundle/latest-cdsp-cm/page/legal/terms.html
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://docs-cybersec.thalesgroup.com/bundle/latest-cdsp-cm/page/legal/privacy.html
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/thalesgroup/workspace/ciphertrust
+coverage:
+  checked: '2026-10-04'
+  detail: Documentation pages are rendered via JavaScript and provide no machine‑readable OpenAPI/AsyncAPI spec.
+  evidence:
+  - status: 200
+    url: https://docs-cybersec.thalesgroup.com/bundle/latest-cdsp-cm/page/reference/index.html
+  reason: js-rendered-docs
+  state: unreadable
 created: '2026-07-17'
 description: CipherTrust Manager is Thales's centralized key- and data-security management platform and the control plane of the CipherTrust Data Security Platform (CDSP). It provides a unified plane for encryption key lifecycle management, secrets management, certificates, tokenization, data discovery, and policy enforcement across on-premises, hybrid, and multi-cloud environments including AWS, Azure, and Google Cloud, with HSM/KMIP integration, Kubernetes and DevSecOps support, role-based access controls, and post-quantum cryptography readiness. Developers and platform teams automate it through a REST API (base path /api/v1, JWT bearer authentication), an official HashiCorp Terraform provider (ThalesGroup/ciphertrust), an Ansible collection, and PowerShell orchestration modules, plus Application Protection SDKs for embedding encryption, key management, and tokenization in apps.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ciphertrust.png
@@ -130,38 +179,39 @@ network: true
 overview: 'CipherTrust publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Encryption, Key Management, and Secrets Management.
 
 
-  CipherTrust''s developer surface includes documentation, API reference, support, authentication, and 13 more developer resources.'
+  CipherTrust''s developer surface includes getting-started guide, documentation, API reference, support, authentication, engineering blog, pricing, and 20 more developer resources.'
 random_paper: 3
 score:
-  band: emerging
-  composite: 23.7
+  band: thin
+  composite: 38.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 11
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 15.8
   facets:
-    access_clarity: 7.9
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 50.0
-    discoverability: 64.3
+    developer_ergonomics: 69.0
+    discoverability: 67.9
     operational_transparency: 13.2
-  previous_composite: 23.7
+  previous_composite: 22.2
   provenance:
     conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 27.5
+    score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

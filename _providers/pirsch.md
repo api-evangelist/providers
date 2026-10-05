@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -48,325 +48,76 @@ apis:
   baseurl_source: declared
   description: Manage shareable access links for dashboard visibility
   name: Pirsch Access Links API
-  phrasing_intents:
-  - id: listAccessLinks
-    intent: List shareable access links for a domain
-    question: Which shareable dashboard access links exist for my site?
-  - id: createAccessLink
-    intent: Create a shareable access link to a dashboard
-    question: How do I give a client read access to my Pirsch dashboard without an account?
-  - id: updateAccessLink
-    intent: Change an access link's description or expiry
-    question: Can I extend the expiry date of an access link I already shared?
-  - id: deleteAccessLink
-    intent: Revoke a shareable access link
-    question: How can I revoke a dashboard link I shared with someone?
-  phrasing_ops: 4
   slug: pirsch-access-links-api
 - baseURL: https://api.pirsch.io/api/v1
   baseurl_source: declared
   description: Obtain access tokens using OAuth2 client credentials
   name: Pirsch Authentication API
-  phrasing_intents:
-  - id: getToken
-    intent: Obtain an API access token
-    question: How do I get a bearer token for the Pirsch API from my client credentials?
-  phrasing_ops: 1
   slug: pirsch-authentication-api
 - baseURL: https://api.pirsch.io/api/v1
   baseurl_source: declared
   description: Manage OAuth2 and access-key API clients
   name: Pirsch Clients API
-  phrasing_intents:
-  - id: listClients
-    intent: List the API clients on a domain
-    question: Which API clients and access tokens are set up for my site?
-  - id: createClient
-    intent: Create an API client for a domain
-    question: How do I create an OAuth client so my server can send data to Pirsch?
-  - id: deleteClient
-    intent: Delete an API client
-    question: How do I revoke an API client's access to my analytics?
-  phrasing_ops: 3
   slug: pirsch-clients-api
 - baseURL: https://api.pirsch.io/api/v1
   baseurl_source: declared
   description: Define and manage conversion goals with path patterns or events
   name: Pirsch Conversion Goals API
-  phrasing_intents:
-  - id: listConversionGoals
-    intent: List a domain's conversion goals
-    question: Which conversion goals have I configured for my site?
-  - id: createConversionGoal
-    intent: Create a conversion goal
-    question: How do I track a conversion when visitors reach my thank-you page?
-  - id: updateConversionGoal
-    intent: Edit an existing conversion goal
-    question: How do I change the path pattern on a conversion goal I already created?
-  - id: deleteConversionGoal
-    intent: Delete a conversion goal
-    question: How can I remove a conversion goal I no longer need?
-  - id: testGoalRegex
-    intent: Test a goal regex against a sample path
-    question: Can I check whether my goal's regex matches a URL before saving it?
-  phrasing_ops: 5
   slug: pirsch-conversion-goals-api
 - baseURL: https://api.pirsch.io/api/v1
   baseurl_source: declared
   description: Manage tracked domains and their configuration
   name: Pirsch Domains API
-  phrasing_intents:
-  - id: listDomains
-    intent: List the domains I can access
-    question: Which websites do I have access to in Pirsch?
-  - id: createDomain
-    intent: Add a website for tracking
-    question: How do I start tracking a new website?
-  - id: deleteDomain
-    intent: Permanently delete a domain and its data
-    question: How do I stop tracking a site and erase all its analytics?
-  - id: updateDomainHostname
-    intent: Change a domain's hostname
-    question: My site moved to a new hostname. How do I update it?
-  - id: updateDomainSubdomain
-    intent: Change a domain's dashboard subdomain
-    question: Can I rename the dashboard subdomain for one of my sites?
-  - id: updateDomainTimezone
-    intent: Change a domain's reporting timezone
-    question: How do I make my site's statistics use my local timezone?
-  - id: updateDomainSettings
-    intent: Update a domain's settings
-    question: Where do I change the general settings of an existing domain?
-  - id: listAlternativeDomains
-    intent: List a domain's alternative hostnames
-    question: Which extra hostnames are counted toward my site's statistics?
-  phrasing_ops: 11
   slug: pirsch-domains-api
 - baseURL: https://api.pirsch.io/api/v1
   baseurl_source: declared
   description: Schedule and manage recurring email analytics reports
   name: Pirsch Email Reports API
-  phrasing_intents:
-  - id: listEmailReports
-    intent: List scheduled email reports for a domain
-    question: Which scheduled email reports are set up for my site?
-  - id: createEmailReport
-    intent: Schedule an analytics email report
-    question: How do I get my site's statistics emailed to my team every week?
-  - id: updateEmailReport
-    intent: Change an email report's schedule
-    question: Can I change an existing email report from weekly to monthly?
-  - id: deleteEmailReport
-    intent: Cancel a scheduled email report
-    question: How do I stop an analytics email report from being sent?
-  phrasing_ops: 4
   slug: pirsch-email-reports-api
 - baseURL: https://api.pirsch.io/api/v1
   baseurl_source: declared
   description: Define and manage multi-step conversion funnels
   name: Pirsch Funnels API
-  phrasing_intents:
-  - id: listFunnels
-    intent: List a domain's funnels
-    question: Which funnels have I defined for my site?
-  - id: createOrUpdateFunnel
-    intent: Create or edit a funnel's steps
-    question: How do I build a signup funnel from landing page to confirmation?
-  - id: deleteFunnel
-    intent: Delete a funnel
-    question: How can I remove a funnel I no longer use?
-  phrasing_ops: 3
   slug: pirsch-funnels-api
 - baseURL: https://api.pirsch.io/api/v1
   baseurl_source: declared
   description: Manage domain members, roles, and invitations
   name: Pirsch Members API
-  phrasing_intents:
-  - id: listMembers
-    intent: List members of a domain or organization
-    question: Who has access to my site's analytics?
-  - id: inviteMembers
-    intent: Invite people by email to a domain
-    question: How do I invite my colleagues to view my site's statistics?
-  - id: updateMember
-    intent: Change a member's role
-    question: How do I make a teammate an admin on my site?
-  - id: removeMember
-    intent: Remove a member's access
-    question: How do I take away a former employee's access to my dashboard?
-  - id: listInvitations
-    intent: List pending invitations
-    question: Which invitations are still pending for my site?
-  - id: acceptInvitation
-    intent: Accept an invitation
-    question: How do I accept an invitation someone sent me to their site?
-  - id: deleteInvitation
-    intent: Withdraw a pending invitation
-    question: How do I cancel an invitation I sent to the wrong email?
-  phrasing_ops: 7
   slug: pirsch-members-api
 - baseURL: https://api.pirsch.io/api/v1
   baseurl_source: declared
   description: Create and manage UTM-enriched short links
   name: Pirsch Short Links API
-  phrasing_intents:
-  - id: listShortLinks
-    intent: List a domain's short links
-    question: Which short links have I created for my site?
-  - id: createOrUpdateShortLink
-    intent: Create or edit a tracked short link
-    question: How do I make a short link with UTM campaign tags for a newsletter?
-  - id: deleteShortLink
-    intent: Delete a short link
-    question: How can I remove a short link I no longer want to work?
-  phrasing_ops: 3
   slug: pirsch-short-links-api
 - baseURL: https://api.pirsch.io/api/v1
   baseurl_source: declared
   description: Query analytics statistics by date range and filter criteria
   name: Pirsch Statistics API
-  phrasing_intents:
-  - id: getTotalStatistics
-    intent: Get total visitors, views and bounces
-    question: How many visitors and page views did my site get last month?
-  - id: getVisitorStatistics
-    intent: Chart visitors over time
-    question: How did my daily visitor count change over the last quarter?
-  - id: getPageStatistics
-    intent: Get traffic broken down by page
-    question: Which pages on my site got the most visitors?
-  - id: getHostnameStatistics
-    intent: Get traffic broken down by hostname
-    question: How is traffic split between my site's different hostnames?
-  - id: getReferrerStatistics
-    intent: See which referrers send traffic
-    question: Which websites are sending me the most visitors?
-  - id: getChannelStatistics
-    intent: Get traffic by channel
-    question: How much of my traffic comes from search versus social versus direct?
-  - id: getUtmSourceStatistics
-    intent: Get visitors by UTM source
-    question: Which utm_source values brought the most visitors?
-  - id: getUtmMediumStatistics
-    intent: Get visitors by UTM medium
-    question: Which utm_medium, like email or cpc, drove the most traffic?
-  phrasing_ops: 28
   slug: pirsch-statistics-api
 - baseURL: https://api.pirsch.io/api/v1
   baseurl_source: declared
   description: Send page views, events, and session keep-alive signals
   name: Pirsch Tracking API
-  phrasing_intents:
-  - id: sendPageView
-    intent: Record a single page view server-side
-    question: How do I track page views from my backend instead of a JavaScript snippet?
-  - id: sendPageViewBatch
-    intent: Record many page views in one request
-    question: Can I send a backlog of page views in one request?
-  - id: sendEvent
-    intent: Record a custom event
-    question: How do I track a button click or signup as a custom event?
-  - id: sendEventBatch
-    intent: Record many custom events at once
-    question: Can I send multiple custom events in a single call?
-  - id: keepSessionAlive
-    intent: Extend a visitor's session
-    question: How do I keep a visitor's session from timing out while they stay on a page?
-  - id: keepSessionAliveBatch
-    intent: Extend many visitor sessions at once
-    question: Can I extend several visitor sessions in one request?
-  phrasing_ops: 6
   slug: pirsch-tracking-api
 - baseURL: https://api.pirsch.io/api/v1
   baseurl_source: declared
   description: Filter traffic and configure spike/warning notifications
   name: Pirsch Traffic Management API
-  phrasing_intents:
-  - id: listTrafficFilters
-    intent: List a domain's traffic filters
-    question: Which traffic filters are excluding visits from my site's stats?
-  - id: createOrUpdateTrafficFilter
-    intent: Create or edit a traffic filter
-    question: How do I exclude my office IP from my analytics?
-  - id: deleteTrafficFilter
-    intent: Delete a traffic filter
-    question: How do I stop excluding traffic that a filter currently blocks?
-  - id: toggleSpikeNotifications
-    intent: Turn traffic spike alerts on or off
-    question: Can I get notified when my site suddenly gets a traffic spike?
-  - id: configureSpikeNotifications
-    intent: Set the traffic spike alert threshold
-    question: What counts as a spike, and can I set the threshold myself?
-  - id: toggleTrafficWarnings
-    intent: Turn no-traffic warnings on or off
-    question: Can I be warned if my site stops receiving traffic?
-  - id: configureTrafficWarnings
-    intent: Set days without traffic before a warning
-    question: How many days without traffic should pass before I'm warned?
-  phrasing_ops: 7
   slug: pirsch-traffic-management-api
 - baseURL: https://api.pirsch.io/api/v1
   baseurl_source: declared
   description: Manage the authenticated user account
   name: Pirsch User API
-  phrasing_intents:
-  - id: getUser
-    intent: Get my account details
-    question: What account information does Pirsch have on me?
-  - id: updateUserName
-    intent: Change my full name
-    question: How do I change the name shown on my account?
-  - id: updateUserEmail
-    intent: Change my account email address
-    question: How do I move my account to a new email address?
-  - id: updateUserPassword
-    intent: Change my password
-    question: How do I change my account password?
-  - id: updateUserLanguage
-    intent: Change my interface language
-    question: Can I switch the dashboard interface to German?
-  - id: updateUserFilter
-    intent: Change my default dashboard time range
-    question: Can the dashboard open on the last 30 days by default?
-  - id: getUserNews
-    intent: Get release news and announcements
-    question: What's new in the latest product releases?
-  - id: markNewsRead
-    intent: Mark news items as read
-    question: How do I dismiss announcements I've already read?
-  phrasing_ops: 9
   slug: pirsch-user-api
 - baseURL: https://api.pirsch.io/api/v1
   baseurl_source: declared
   description: Save and manage custom analytics views
   name: Pirsch Views API
-  phrasing_intents:
-  - id: listViews
-    intent: List saved analytics views
-    question: Which saved dashboard views do I have for my site?
-  - id: createOrUpdateView
-    intent: Save or edit an analytics view
-    question: How do I save a dashboard view for a fixed date range?
-  - id: deleteView
-    intent: Delete a saved view
-    question: How can I remove a saved view I no longer use?
-  phrasing_ops: 3
   slug: pirsch-views-api
 - baseURL: https://api.pirsch.io/api/v1
   baseurl_source: declared
   description: Configure webhooks for event-driven integrations
   name: Pirsch Webhooks API
-  phrasing_intents:
-  - id: listWebhooks
-    intent: List a domain's webhooks
-    question: Which webhooks are configured for my site?
-  - id: createOrUpdateWebhook
-    intent: Create or edit a webhook
-    question: How do I get a webhook call when an event happens on my site?
-  - id: deleteWebhook
-    intent: Delete a webhook
-    question: How do I stop a webhook from firing?
-  phrasing_ops: 3
   slug: pirsch-webhooks-api
 artifact_total: 49
 asyncapis:
@@ -423,6 +174,11 @@ collections:
   name: Pirsch Access Links Webhooks API
   slug: open-pirsch-webhooks-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/capabilities/pirsch-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/pirsch-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/agentic-access/pirsch-agentic-access.yml
   title: ''
@@ -814,7 +570,7 @@ overview: 'Pirsch publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
   The Pirsch catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Pirsch''s developer surface includes authentication, documentation, engineering blog, pricing, API reference, getting-started guide, support, and 66 more developer resources.'
+  Pirsch''s developer surface includes authentication, documentation, engineering blog, pricing, API reference, getting-started guide, support, and 67 more developer resources.'
 plans:
 - name: Pirsch Plans Pricing
   plan_count: 3
@@ -839,13 +595,13 @@ score:
   band: exemplar
   composite: 68.5
   coverage:
-    artifact_dirs: 30
+    artifact_dirs: 31
     catalog_earned: 82.8
     catalog_earned_first_party: 24.0
     catalog_gap: 32.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 92.1
     contract_governance: 23.5
@@ -853,7 +609,7 @@ score:
     developer_ergonomics: 66.1
     discoverability: 67.0
     operational_transparency: 57.9
-  previous_composite: 68.5
+  previous_composite: 68.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -871,7 +627,7 @@ score:
     regime_id: horizontal
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

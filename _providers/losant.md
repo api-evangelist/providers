@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 62.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 1
@@ -75,7 +75,7 @@ apis:
   description: Workflow Engine resources on the Losant Platform.
   name: Losant Workflow Engine API
   slug: losant-workflow-engine-api
-artifact_total: 69
+artifact_total: 68
 asyncapis:
 - description: ''
   name: Losant Event Surface
@@ -157,6 +157,11 @@ collections:
   name: Losant Application Workflow Engine API
   slug: open-losant-workflow-engine-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/capabilities/losant-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/losant-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -598,12 +603,9 @@ jsonld:
   slug: losant-context
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.losant.com over HTTP requiring OAuth; 3 tools listed.
   name: Losant MCP Server
-  slug: losant-mcp-server
-- description: ''
-  name: Losant hosted MCP endpoint
-  slug: losant-hosted-mcp-endpoint
+  slug: losant
 modified: '2026-08-26'
 name: Losant
 nav: Providers
@@ -614,7 +616,7 @@ overview: 'Losant publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The Losant catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Losant''s developer surface includes authentication, developer portal, documentation, getting-started guide, CLI, engineering blog, pricing, and 72 more developer resources.'
+  Losant''s developer surface includes authentication, developer portal, documentation, getting-started guide, CLI, engineering blog, pricing, and 73 more developer resources.'
 plans:
 - name: Losant Plans Pricing
   plan_count: 4
@@ -661,7 +663,7 @@ score:
     catalog_gap: 25.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.7
   facets:
     access_clarity: 92.1
     contract_governance: 45.5
@@ -669,7 +671,7 @@ score:
     developer_ergonomics: 91.1
     discoverability: 73.3
     operational_transparency: 94.7
-  previous_composite: 83.1
+  previous_composite: 80.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -687,7 +689,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

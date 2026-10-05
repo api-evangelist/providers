@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -89,6 +89,11 @@ collections:
   name: Azure Private Link REST API
   slug: open-microsoft-azure-private-link
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/capabilities/microsoft-azure-private-link-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/microsoft-azure-private-link-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -290,7 +295,7 @@ network: true
 overview: 'Microsoft Azure Private Link publishes 6 APIs on the [APIs.io](https://apis.io/) network, including microsoft-azure-private-link Operations API, microsoft-azure-private-link Private Endpoints API, Private Dns Zone Groups API, and 3 more. Tagged areas include Networking, Private Connectivity, Cloud Infrastructure, Virtual Networks, and DNS.
 
 
-  Microsoft Azure Private Link''s developer surface includes developer portal, documentation, API reference, getting-started guide, quickstart, engineering blog, pricing, and 34 more developer resources.'
+  Microsoft Azure Private Link''s developer surface includes developer portal, documentation, API reference, getting-started guide, quickstart, engineering blog, pricing, and 35 more developer resources.'
 plans:
 - name: Microsoft Azure Private Link Plans Pricing
   plan_count: 0
@@ -315,7 +320,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.3
+  delta: 3.3
   facets:
     access_clarity: 68.4
     contract_governance: 4.5
@@ -323,7 +328,7 @@ score:
     developer_ergonomics: 73.2
     discoverability: 73.2
     operational_transparency: 89.5
-  previous_composite: 64.0
+  previous_composite: 61.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -341,7 +346,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

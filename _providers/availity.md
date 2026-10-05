@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 8
+- acting_count: 9
   human_in_the_loop: 0
   name: Availity Agentic Access
   operation_count: 19
   slug: availity-agentic-access
-  summary_line: 19 operations · 8 acting
+  summary_line: 19 operations · 9 acting
 api_count: 4
 apis:
 - description: The Availity Healthcare HIPAA Transactions API provides a unified interface for standard HIPAA EDI transactions. REST APIs enable healthcare providers and vendors to submit and receive X12 EDI transac
@@ -63,107 +63,36 @@ apis:
   baseurl_source: declared
   description: Attach documentation to authorization requests
   name: availity Auth Attachments API
-  phrasing_intents:
-  - id: submitAuthAttachment
-    intent: Submit an authorization with supporting documents
-    question: How do I attach medical records to an authorization request?
-  - id: getAttachmentStatus
-    intent: Check processing status of an auth attachment
-    question: Has the payer finished processing the documents I attached to my authorization?
-  phrasing_ops: 2
   slug: availity-auth-attachments-api
 - baseURL: https://api.availity.com
   baseurl_source: declared
   description: Electronic claim attachment submission and retrieval
   name: availity Claim Attachments API
-  phrasing_intents:
-  - id: submitClaimAttachment
-    intent: Submit supporting documentation for a claim
-    question: How do I send supporting paperwork for a claim the payer asked about?
-  - id: getClaimAttachmentStatus
-    intent: Check processing status of a claim attachment
-    question: Did the payer process the documents I attached to my claim?
-  phrasing_ops: 2
   slug: availity-claim-attachments-api
 - baseURL: https://api.availity.com
   baseurl_source: declared
   description: Claim status inquiries and tracking
   name: availity Claim Status API
-  phrasing_intents:
-  - id: createClaimStatusInquiry
-    intent: Check the status of a submitted claim
-    question: How do I find out whether a payer has adjudicated my claim?
-  - id: listClaimStatusInquiries
-    intent: List past claim status inquiries
-    question: Can I review the claim status checks we ran this month?
-  phrasing_ops: 2
   slug: availity-claim-status-api
 - baseURL: https://api.availity.com
   baseurl_source: declared
   description: Real-time eligibility and benefits verification
   name: availity Eligibility API
-  phrasing_intents:
-  - id: checkEligibility
-    intent: Check a patient's insurance eligibility and benefits
-    question: How do I verify a patient's insurance coverage before their appointment?
-  - id: listEligibilities
-    intent: List past eligibility inquiries
-    question: Can I see the eligibility checks my practice already ran last week?
-  - id: getEligibility
-    intent: Get one eligibility inquiry result
-    question: How do I pull up the result of a specific eligibility check by its transaction ID?
-  - id: listPayers
-    intent: List health plan payers supported for eligibility
-    question: Which health plans can I run eligibility checks against?
-  phrasing_ops: 4
   slug: availity-eligibility-api
 - baseURL: https://api.availity.com
   baseurl_source: declared
   description: Enhanced claim status with value-add data
   name: availity Enhanced Claim Status API
-  phrasing_intents:
-  - id: searchClaimBy276
-    intent: Search claim status by patient using X12 276
-    question: Can I look up a claim's status using the patient's name and birth date?
-  - id: pollSearchBy276
-    intent: Poll results of an X12 276 claim search
-    question: How do I get the results of a 276 claim status search I already submitted?
-  - id: summarySearchClaims
-    intent: Run a summary search across claims
-    question: Can I find all claims paid on a particular check number?
-  - id: detailSearchClaim
-    intent: Look up full detail for one claim
-    question: How do I get detailed status for a single claim when I have the claim number?
-  phrasing_ops: 4
   slug: availity-enhanced-claim-status-api
 - baseURL: https://api.availity.com
   baseurl_source: declared
   description: Check if authorization is required before submission
   name: availity Is Auth Required API
-  phrasing_intents:
-  - id: checkIsAuthRequired
-    intent: Check whether a payer requires prior authorization
-    question: Does this procedure need prior authorization from the patient's health plan?
-  - id: getIsAuthRequiredResult
-    intent: Get the result of an auth-required check
-    question: Is the answer back on whether my service needs prior authorization?
-  phrasing_ops: 2
   slug: availity-is-auth-required-api
 - baseURL: https://api.availity.com
   baseurl_source: declared
   description: Prior authorization and service review requests
   name: availity Service Reviews API
-  phrasing_intents:
-  - id: createServiceReview
-    intent: Submit a prior authorization request
-    question: How do I request prior authorization from a health plan through Availity?
-  - id: listServiceReviews
-    intent: List past service review submissions
-    question: Can I see all the prior authorization requests our practice has submitted?
-  - id: getServiceReview
-    intent: Get a service review's status and details
-    question: Has my prior authorization request been approved yet?
-  phrasing_ops: 3
   slug: availity-service-reviews-api
 arazzos:
 - description: Submit an X12 275 claim attachment, then poll for its processing status until the payer accepts it.
@@ -1027,13 +956,13 @@ score:
   band: exemplar
   composite: 68.9
   coverage:
-    artifact_dirs: 34
+    artifact_dirs: 33
     catalog_earned: 92.4
     catalog_earned_first_party: 24.0
     catalog_gap: 22.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.4
   facets:
     access_clarity: 73.7
     contract_governance: 45.5
@@ -1041,7 +970,7 @@ score:
     developer_ergonomics: 78.0
     discoverability: 71.4
     operational_transparency: 52.6
-  previous_composite: 68.9
+  previous_composite: 73.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1059,7 +988,7 @@ score:
     regime_id: insurance
     score: 41.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

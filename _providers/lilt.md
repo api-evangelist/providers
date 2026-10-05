@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://api.lilt.com
@@ -154,6 +154,11 @@ collections:
   name: LILT Create Workflows API
   slug: open-lilt-workflows-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/capabilities/lilt-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lilt-capability-edges.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/security/lilt-trust-center.yml
   title: ''
@@ -328,7 +333,7 @@ overview: 'Lilt publishes 13 APIs on the [APIs.io](https://apis.io/) network, in
   The Lilt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lilt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+  Lilt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 random_paper: 19
 rate_limits:
 - limit_count: 3
@@ -343,13 +348,13 @@ score:
   band: strong
   composite: 60.8
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.8
   facets:
     access_clarity: 60.5
     contract_governance: 4.5
@@ -357,7 +362,7 @@ score:
     developer_ergonomics: 66.1
     discoverability: 75.0
     operational_transparency: 73.7
-  previous_composite: 60.8
+  previous_composite: 59.0
   provenance:
     conformance: derived
     contracts:
@@ -374,7 +379,7 @@ score:
     regime_id: horizontal
     score: 36.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

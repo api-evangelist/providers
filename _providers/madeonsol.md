@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -234,7 +234,7 @@ score:
   band: strong
   composite: 56.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 42.8
     catalog_earned_first_party: 12.0
     catalog_gap: 72.3
@@ -263,7 +263,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

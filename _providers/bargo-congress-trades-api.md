@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
   description: Normalized House and Senate securities transactions.
   name: Bargo Congress Trades API Trades API
   slug: bargo-congress-trades-api-trades-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -236,10 +236,7 @@ layout: provider
 mcp_servers:
 - description: Bargo hosts a focused Streamable HTTP MCP server for the Congress Trades dataset at https://www.bargo.ai/free-apis/congress/mcp, exposing exactly three narrowly scoped read-only tools. The tool list b
   name: Bargo Congress Trades API MCP Server
-  slug: bargo-congress-trades-api-mcp-server
-- description: ''
-  name: Bargo Congress Trades API MCP Server
-  slug: bargo-congress-trades-api-mcp-server-2
+  slug: bargo-congress
 modified: '2026-08-09'
 name: Bargo Congress Trades API
 nav: Providers
@@ -263,7 +260,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.5
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
@@ -271,7 +268,7 @@ score:
     developer_ergonomics: 71.4
     discoverability: 75.0
     operational_transparency: 34.2
-  previous_composite: 48.2
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -289,7 +286,7 @@ score:
     regime_id: government
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

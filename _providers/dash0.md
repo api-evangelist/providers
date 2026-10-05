@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 57.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -197,6 +197,11 @@ collections:
   name: Dash0 Edge Collectors Query Telemetry API
   slug: open-dash0-query-telemetry-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/capabilities/dash0-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/dash0-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/overlays/dash0-openapi-overlay.yaml
   title: ''
@@ -390,9 +395,9 @@ description: Dash0 is an OpenTelemetry-native observability platform for enginee
 image: https://www.dash0.com/images/og-image.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at api.<region>.aws.dash0.com over HTTP.
   name: Dash0 MCP Server
-  slug: dash0-mcp-server
+  slug: dash0
 modified: '2026-09-16'
 name: Dash0
 nav: Providers
@@ -403,7 +408,7 @@ overview: 'Dash0 publishes 18 APIs on the [APIs.io](https://apis.io/) network, i
   The Dash0 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dash0''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
+  Dash0''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
 random_paper: 2
 scopes:
 - name: Dash0 Scopes
@@ -414,13 +419,13 @@ score:
   band: strong
   composite: 63.1
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 26
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.2
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
@@ -428,7 +433,7 @@ score:
     developer_ergonomics: 69.6
     discoverability: 75.0
     operational_transparency: 52.6
-  previous_composite: 63.1
+  previous_composite: 59.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -450,7 +455,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

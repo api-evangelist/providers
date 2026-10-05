@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Upload and share your files
@@ -56,19 +56,19 @@ modified: '2026-05-28'
 name: BayFiles
 nav: Providers
 network: true
-overview: BayFiles publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Storage And File Sharing and Public APIs.
+overview: BayFiles publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Public APIs and File Sharing.
 random_paper: 11
 score:
   band: minimal
   composite: 4.2
   coverage:
-    artifact_dirs: 1
+    artifact_dirs: 2
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.9
+  delta: -2.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -82,7 +82,7 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 3.3
+  previous_composite: 6.7
   regulatory:
     applies: true
     matched_via: fallback
@@ -90,7 +90,7 @@ score:
     regime_id: horizontal
     score: 0.0
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false
@@ -98,7 +98,7 @@ score:
     reason: no_specs
 slug: bayfiles
 tags:
-- Cloud Storage And File Sharing
 - Public APIs
+- File Sharing
 website: https://bayfiles.com/docs/api
 ---

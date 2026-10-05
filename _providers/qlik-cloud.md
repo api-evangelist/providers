@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -123,6 +123,11 @@ collections:
   name: Qlik Cloud REST API
   slug: open-qlik-cloud
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/capabilities/qlik-cloud-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/qlik-cloud-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/agentic-access/qlik-cloud-agentic-access.yml
   title: ''
@@ -201,7 +206,7 @@ network: true
 overview: 'Qlik Cloud publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Api Keys API, Apps API, Csrf Token API, and 10 more. Tagged areas include Analytics, Business Intelligence, Cloud, Data Integration, and Software-as-a-Service.
 
 
-  Qlik Cloud''s developer surface includes authentication, getting-started guide, developer portal, and 11 more developer resources.'
+  Qlik Cloud''s developer surface includes authentication, getting-started guide, developer portal, and 12 more developer resources.'
 plans:
 - name: Qlik Cloud Plans Pricing
   plan_count: 3
@@ -221,7 +226,7 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
@@ -229,7 +234,7 @@ score:
     developer_ergonomics: 42.9
     discoverability: 53.3
     operational_transparency: 18.4
-  previous_composite: 31.8
+  previous_composite: 33.2
   provenance:
     agentic_access: derived
     contracts:
@@ -244,7 +249,7 @@ score:
     regime_id: horizontal
     score: 15.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true
@@ -267,5 +272,6 @@ tags:
 - Data Integration
 - Software-as-a-Service
 - Visualization
+- Data Visualization
 website: https://www.qlik.com
 ---

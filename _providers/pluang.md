@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -74,6 +74,10 @@ created: '2026-07-17'
 description: Pluang is an Indonesian multi-asset investment and trading platform that lets retail users invest across a single app in US stocks and ETFs (fractional from $1), Indonesian stocks, cryptocurrencies with staking, mutual funds (Reksa Dana), physical gold and silver, options, and leveraged crypto futures. Features include Auto Invest dollar-cost averaging, the Pocket portfolio bundling tool, TradingView-powered charting, USD yield products, and the Aura AI recommendation assistant. Pluang operates under OJK and Bappebti regulatory oversight across its subsidiaries and reports 12M+ users. It exposes no public developer API; this profile captures its public web, legal, and security surface. Surfaced as an accel portfolio company and enriched by the API Evangelist pipeline.
 image: https://image-cdn.pluang.com/web/og-banners/homePage.webp
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.pluang.com over HTTP.
+  name: Pluang MCP Server
+  slug: pluang
 modified: '2026-07-20'
 name: Pluang
 nav: Providers
@@ -93,7 +97,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 27.6
     contract_governance: 0.0
@@ -108,7 +112,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 11.6
+  previous_composite: 10.9
   provenance:
     mcp: first-party
   regulatory:
@@ -118,7 +122,7 @@ score:
     regime_id: securities_market_data
     score: 13.0
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 218
   human_in_the_loop: 25
@@ -425,6 +425,11 @@ apis:
   slug: automileab-client-users-api
 artifact_total: 83
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/automileab/refs/heads/main/capabilities/automileab-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/automileab-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/automileab/refs/heads/main/agentic-access/automileab-agentic-access.yml
   title: ''
@@ -512,7 +517,7 @@ overview: 'Automileab publishes 78 APIs on the [APIs.io](https://apis.io/) netwo
   The Automileab catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Automileab''s developer surface includes authentication, documentation, getting-started guide, support, engineering blog, and 11 more developer resources.'
+  Automileab''s developer surface includes authentication, documentation, getting-started guide, support, engineering blog, and 12 more developer resources.'
 random_paper: 3
 rules:
 - effective_rule_count: 49
@@ -535,7 +540,7 @@ score:
   band: thin
   composite: 37.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 36.5
     catalog_earned_first_party: 0.0
     catalog_gap: 78.5
@@ -564,7 +569,7 @@ score:
     regime_id: horizontal
     score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 50.0

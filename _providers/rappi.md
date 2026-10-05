@@ -25,20 +25,20 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.6
-  scored_at: '2026-10-03'
+  score: 15.0
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The Rappi Partners REST API is the integration surface used by approved restaurants, grocery and retail merchants, and middleware/POS providers to operate on the Rappi marketplace. Authentication is O
   name: Rappi Partners REST API
   slug: partners-api
-artifact_total: 21
+artifact_total: 22
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/rappi/refs/heads/main/security/rappi-domain-security.yml
@@ -140,6 +140,10 @@ integrations:
 - description: RappiTravel aggregates flight and hotel inventory from third-party GDS and travel partners.
   name: Travel Suppliers
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.rappi.com over HTTP.
+  name: Rappi MCP Server
+  slug: rappi
 modified: '2026-05-24'
 name: Rappi
 nav: Providers
@@ -159,7 +163,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -174,7 +178,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 6.3
+  previous_composite: 5.5
   provenance:
     mcp: first-party
   regulatory:
@@ -184,7 +188,7 @@ score:
     regime_id: payments
     score: 10.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

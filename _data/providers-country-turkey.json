@@ -1,6 +1,6 @@
 {
- "total": 13,
- "shown": 13,
+ "total": 14,
+ "shown": 14,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 72.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -77,7 +77,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -127,7 +127,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -187,7 +187,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -237,7 +237,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -287,7 +287,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -337,7 +337,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -387,7 +387,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -429,8 +429,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 5,
-   "shown": 5,
+   "count": 6,
+   "shown": 6,
    "providers": [
     {
      "name": "Fazla Gida",
@@ -448,7 +448,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -498,7 +498,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -533,28 +533,27 @@
      "rank": 10
     },
     {
-     "name": "KAMI",
-     "slug": "kami",
-     "description": "KAMI (Çizgi Studio) is a next-generation transmedia entertainment platform out of Turkey that lets a community read, write, and live inside stories. The mobile app and web platform offer thousands of original webtoons, comics (çizgi roman), novels, and AI-character chat across genres like romance, thriller, fantasy, and horror, plus vertical drama viewing. Community-validated narratives are measured through read rates, micro-transactions, and engagement, then graduate into vertical-drama production and licensable intellectual property — a \"story IP engine.\" KAMI is a consumer product (2.5M+ users) with no public developer API; it is part of the wearekami.com ecosystem and a 500 Global Creators Ventures portfolio company, added to the API Evangelist network for enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kami/refs/heads/main/screenshots/kami-2026-07-25T223440.png",
-     "score": 4.7,
+     "name": "Boruspanprecision",
+     "slug": "boruspanprecision",
+     "description": "Boruspanprecision is a precision engineering subsidiary of Borusan Holding, specializing in high‑accuracy pipe and component manufacturing for industrial and automotive sectors. The company offers advanced machining services, custom‑made precision profiles, and engineering consultancy, leveraging Borusan’s extensive manufacturing network and sustainability initiatives. It serves global clients with a focus on quality, innovation, and environmental responsibility.",
+     "score": 6.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 44.6,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 6.6
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
       "regime_id": "horizontal",
-      "score": 5.9,
+      "score": 11.8,
       "matched_via": "fallback"
      },
      "agent_score": 0.0,
@@ -583,11 +582,11 @@
      "rank": 11
     },
     {
-     "name": "Rasyonet",
-     "slug": "rasyonet",
-     "description": "Rasyonet is a Turkish fintech company providing integrated financial software solutions and capital markets data platforms for institutional clients, asset managers, and financial analysts. Founded in 2000 and headquartered at ITU ARI Teknopark in Istanbul, Rasyonet offers tools for analyzing global equity markets, economic indicators, mutual and pension funds, fixed-income securities, portfolio analytics, and automated financial reporting. Their flagship EquityRT platform delivers equity research, company valuation, and peer benchmarking capabilities via desktop and Excel integration. No public developer API or machine-readable specification has been documented at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rasyonet/refs/heads/main/screenshots/rasyonet-2026-06-20T192606.png",
-     "score": 3.4,
+     "name": "KAMI",
+     "slug": "kami",
+     "description": "KAMI (Çizgi Studio) is a next-generation transmedia entertainment platform out of Turkey that lets a community read, write, and live inside stories. The mobile app and web platform offer thousands of original webtoons, comics (çizgi roman), novels, and AI-character chat across genres like romance, thriller, fantasy, and horror, plus vertical drama viewing. Community-validated narratives are measured through read rates, micro-transactions, and engagement, then graduate into vertical-drama production and licensable intellectual property — a \"story IP engine.\" KAMI is a consumer product (2.5M+ users) with no public developer API; it is part of the wearekami.com ecosystem and a 500 Global Creators Ventures portfolio company, added to the API Evangelist network for enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kami/refs/heads/main/screenshots/kami-2026-07-25T223440.png",
+     "score": 4.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -596,9 +595,9 @@
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
+      "access_clarity": 6.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -633,6 +632,56 @@
      "rank": 12
     },
     {
+     "name": "Rasyonet",
+     "slug": "rasyonet",
+     "description": "Rasyonet is a Turkish fintech company providing integrated financial software solutions and capital markets data platforms for institutional clients, asset managers, and financial analysts. Founded in 2000 and headquartered at ITU ARI Teknopark in Istanbul, Rasyonet offers tools for analyzing global equity markets, economic indicators, mutual and pension funds, fixed-income securities, portfolio analytics, and automated financial reporting. Their flagship EquityRT platform delivers equity research, company valuation, and peer benchmarking capabilities via desktop and Excel integration. No public developer API or machine-readable specification has been documented at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rasyonet/refs/heads/main/screenshots/rasyonet-2026-06-20T192606.png",
+     "score": 3.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 13
+    },
+    {
      "name": "MNT-Halan",
      "slug": "mnt-halan",
      "description": "MNT-Halan is a Cairo, Egypt-headquartered fintech holding company and Egypt's first private fintech unicorn, founded in 2017 by Mounir Nakhla (CEO) and Ahmed Mohsen (CTO). MNT-Halan operates a financial super app (\"Halan\") and a vertically integrated digital ecosystem covering micro-finance and SME lending, consumer credit, e-payments and money transfers, an e-wallet, prepaid and installment cards, payroll advances, investment and gold-installment products, and e-commerce (electronics, appliances, FMCG, e-grocer). Lending products span nano loans up to EGP 2,000, microloans, consumer loans up to EGP 500,000 over 36 installments, SME loans from EGP 200,000 up to EGP 15 million, education and home financing up to EGP 4 million, light-vehicle financing, and buy-now-pay-later. The Halan app and its supporting agent network reportedly serve 5–7 million customers, have disbursed in excess of USD 4 billion in loans across 3 million borrowers, and process 100+ million USD in monthly payments and 50+ million USD in monthly e-commerce sales. After raising USD 400 million in 2023 to cross unicorn status and an additional USD 157.5 million in 2024 (including an IFC investment), MNT-Halan expanded beyond Egypt into Turkey (via the August 2024 acquisition of Tam Finans), the UAE (December 2024 launch), and Pakistan. MNT-Halan's revenue model is interest and fees on lending, merchant and payment fees, e-commerce gross margin, and card interchange; the company markets directly to consumers and SMEs through its Halan app and physical outlets, and does not publish a public developer API, SDK, partner sandbox, or open-source code repository.",
@@ -648,7 +697,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -680,7 +729,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 14
     }
    ]
   }

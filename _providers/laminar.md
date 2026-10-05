@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 3
 apis:
 - description: Run SELECT-only ClickHouse SQL over a project's observability data via POST /v1/sql/query. Authenticates with a project API key as a bearer token, accepts a query plus typed {name:Type} parameters, an
@@ -200,9 +200,9 @@ description: 'Laminar is an open-source, OpenTelemetry-native observability and 
 image: https://laminar.sh/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at api.lmnr.ai over HTTP; 3 tools listed.
   name: Laminar MCP Server
-  slug: laminar-mcp-server
+  slug: laminar
 modified: '2026-07-19'
 name: Laminar
 nav: Providers
@@ -226,7 +226,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
@@ -237,7 +237,7 @@ score:
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 46.2
+  previous_composite: 45.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -249,7 +249,7 @@ score:
     regime_id: horizontal
     score: 22.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

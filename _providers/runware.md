@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Single task-based endpoint for image, video, audio, 3D, and text inference across 400K+ models, reachable over HTTP, WebSocket, and Server-Sent Events.
@@ -185,9 +185,9 @@ description: Runware is a unified AI inference platform — "one API for all AI"
 image: https://runware.ai/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.runware.ai over HTTP; 8 tools listed.
   name: Runware MCP Server
-  slug: runware-mcp-server
+  slug: runware
 modified: '2026-07-21'
 name: Runware
 nav: Providers
@@ -207,7 +207,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.5
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
@@ -215,7 +215,7 @@ score:
     developer_ergonomics: 66.7
     discoverability: 75.0
     operational_transparency: 44.7
-  previous_composite: 43.5
+  previous_composite: 41.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -231,7 +231,7 @@ score:
     regime_id: horizontal
     score: 32.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

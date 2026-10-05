@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 65.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 82
+- acting_count: 83
   human_in_the_loop: 1
   name: Bria Agentic Access
   operation_count: 104
   slug: bria-agentic-access
-  summary_line: 104 operations · 82 acting · 1 human-in-the-loop
+  summary_line: 104 operations · 83 acting · 1 human-in-the-loop
 api_count: 10
 apis:
 - description: Bria's hosted, remote Model Context Protocol server, exposing image generation and editing to any MCP client. Authenticated with either a static api_token header or an OAuth 2.0 bearer token; anonymou
@@ -350,9 +350,9 @@ description: 'Bria is an enterprise visual generative AI platform that exposes i
 image: https://cdn.sanity.io/images/zppcnj0l/production/315c9e01bd4534858413ec77d68e9130e9e86b17-1270x240.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.prod.bria-api.com over HTTP.
   name: Bria MCP Server
-  slug: bria-mcp-server
+  slug: bria
 modified: '2026-08-08'
 name: Bria
 nav: Providers
@@ -391,7 +391,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.8
   facets:
     access_clarity: 78.9
     contract_governance: 4.5
@@ -399,7 +399,7 @@ score:
     developer_ergonomics: 76.2
     discoverability: 80.0
     operational_transparency: 65.8
-  previous_composite: 63.7
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -417,7 +417,7 @@ score:
     regime_id: horizontal
     score: 36.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

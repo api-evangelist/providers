@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 81
-  human_in_the_loop: 5
+- acting_count: 79
+  human_in_the_loop: 4
   name: Datastax Agentic Access
-  operation_count: 129
+  operation_count: 123
   slug: datastax-agentic-access
-  summary_line: 129 operations · 81 acting · 5 human-in-the-loop
+  summary_line: 123 operations · 79 acting · 4 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.astra.datastax.com
@@ -191,6 +191,11 @@ collections:
   name: Astra DevOps Access List VPC Peering API
   slug: open-datastax-vpc-peering-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/capabilities/datastax-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/datastax-capability-edges.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -346,9 +351,9 @@ description: DataStax is the company behind Astra DB, a serverless, multi-cloud 
 image: https://www.datastax.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
+- description: Local (stdio) MCP server; 19 tools listed.
   name: DataStax MCP Server
-  slug: datastax-mcp-server
+  slug: astra-db-mcp
 modified: '2026-07-18'
 name: DataStax
 nav: Providers
@@ -356,7 +361,7 @@ network: true
 overview: 'DataStax publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Access List API, Authentication API, Clone API, and 14 more. Tagged areas include Company, Enterprise, Database, Vector Database, and Cassandra.
 
 
-  DataStax''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, pricing, engineering blog, and 26 more developer resources.'
+  DataStax''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, pricing, engineering blog, and 27 more developer resources.'
 random_paper: 0
 scopes:
 - name: Datastax Scopes
@@ -367,13 +372,13 @@ score:
   band: developing
   composite: 46.4
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 13.2
     contract_governance: 4.5
@@ -381,7 +386,7 @@ score:
     developer_ergonomics: 70.8
     discoverability: 73.2
     operational_transparency: 18.4
-  previous_composite: 46.4
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -399,7 +404,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true
@@ -426,5 +431,6 @@ tags:
 - Serverless
 - Streaming
 - Developer Tools
+- Vector Search
 website: https://www.datastax.com
 ---

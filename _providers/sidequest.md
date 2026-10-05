@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://api.sidequestvr.com
@@ -180,9 +180,9 @@ overview: 'SideQuest publishes 5 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 15
 scopes:
 - name: Sidequest Scopes
-  scope_count: 0
+  scope_count: 13
   slug: sidequest-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 13 scopes
 score:
   band: thin
   composite: 26.3
@@ -218,7 +218,7 @@ score:
     regime_id: horizontal
     score: 26.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

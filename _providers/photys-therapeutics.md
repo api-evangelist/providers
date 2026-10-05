@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The Wix-platform Site MCP server Photys serves from its own production host. Nine tools over public site content — business details, in-site search, site API docs discovery, an anonymous visitor-token
@@ -97,7 +97,7 @@ description: 'Photys Therapeutics is a clinical-stage biopharmaceutical company 
 image: https://static.wixstatic.com/ficons/2079da_8b1665acced14f96aa889139336df6ad%7Emv2.ico
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at www.photys.com; 9 tools listed.
   name: Site Visitor Assistant for site "Photys"
   slug: site-visitor-assistant-for-site-photys
 modified: '2026-08-26'
@@ -127,7 +127,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
@@ -135,7 +135,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 75.0
     operational_transparency: 2.6
-  previous_composite: 12.5
+  previous_composite: 12.9
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -146,7 +146,7 @@ score:
     regime_id: health
     score: 13.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

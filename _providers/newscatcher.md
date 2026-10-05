@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 32
+- acting_count: 48
   human_in_the_loop: 1
   name: Newscatcher Agentic Access
-  operation_count: 76
+  operation_count: 79
   slug: newscatcher-agentic-access
-  summary_line: 76 operations · 32 acting · 1 human-in-the-loop
+  summary_line: 79 operations · 48 acting · 1 human-in-the-loop
 api_count: 3
 apis:
 - baseURL: https://v3-api.newscatcherapi.com/api
@@ -178,6 +178,11 @@ collections:
   name: Local News AggregationCount Webhooks API
   slug: open-newscatcher-webhooks-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/newscatcher/refs/heads/main/capabilities/newscatcher-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/newscatcher-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/newscatcher/refs/heads/main/agentic-access/newscatcher-agentic-access.yml
   title: ''
@@ -300,7 +305,7 @@ overview: 'Newscatcher publishes 16 APIs on the [APIs.io](https://apis.io/) netw
   The Newscatcher catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Newscatcher''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
+  Newscatcher''s developer surface includes authentication, documentation, engineering blog, pricing, and 15 more developer resources.'
 plans:
 - name: Newscatcher Plans Pricing
   plan_count: 7
@@ -325,13 +330,13 @@ score:
   band: developing
   composite: 45.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 83.4
     catalog_earned_first_party: 0.0
     catalog_gap: 31.7
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.0
   facets:
     access_clarity: 46.8
     contract_governance: 23.5
@@ -339,7 +344,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 71.4
     operational_transparency: 49.5
-  previous_composite: 45.8
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     contracts:
@@ -354,7 +359,7 @@ score:
     regime_id: horizontal
     score: 15.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

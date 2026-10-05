@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 10
+- acting_count: 14
   human_in_the_loop: 1
   name: Mojang Agentic Access
   operation_count: 29
   slug: mojang-agentic-access
-  summary_line: 29 operations · 10 acting · 1 human-in-the-loop
+  summary_line: 29 operations · 14 acting · 1 human-in-the-loop
 api_count: 14
 apis:
 - baseURL: https://api.mojang.com
@@ -596,7 +596,7 @@ modified: '2026-05-30'
 name: Mojang
 nav: Providers
 network: true
-overview: 'Mojang publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Attributes API, Authentication API, Blocklist API, and 11 more. Tagged areas include Games And Comics, Minecraft, Gaming, Identity, and Player Profiles.
+overview: 'Mojang publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Attributes API, Authentication API, Blocklist API, and 11 more. Tagged areas include Minecraft, Gaming, Identity, Player Profiles, and Sessions.
 
 
   The Mojang catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -640,7 +640,7 @@ score:
     catalog_gap: 44.2
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 0.0
     contract_governance: 27.3
@@ -651,7 +651,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 26.3
+  previous_composite: 26.9
   provenance:
     agentic_access: derived
     contracts:
@@ -666,7 +666,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true
@@ -683,12 +683,12 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: mojang
 tags:
-- Games And Comics
 - Minecraft
 - Gaming
 - Identity
 - Player Profiles
 - Sessions
 - Public APIs
+- Video Games
 website: https://www.minecraft.net
 ---

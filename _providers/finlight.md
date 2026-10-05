@@ -29,21 +29,21 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: verified
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.8
-  scored_at: '2026-10-03'
+  score: 39.2
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 0
+- acting_count: 1
   human_in_the_loop: 0
   name: Finlight Agentic Access
   operation_count: 3
   slug: finlight-agentic-access
-  summary_line: 3 operations
+  summary_line: 3 operations · 1 acting
 api_count: 1
 apis:
 - baseURL: https://api.finlight.me
@@ -56,7 +56,7 @@ apis:
   description: Available news sources and their configuration
   name: Finlight Sources API
   slug: finlight-sources-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -167,6 +167,10 @@ json_schemas:
   property_count: 3
   slug: source
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.finlight.me over HTTP.
+  name: Finlight MCP Server
+  slug: finlight
 modified: '2026-06-13'
 name: Finlight
 nav: Providers
@@ -208,7 +212,7 @@ score:
     catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.0
   facets:
     access_clarity: 60.0
     contract_governance: 9.8
@@ -216,7 +220,7 @@ score:
     developer_ergonomics: 31.0
     discoverability: 68.3
     operational_transparency: 0.0
-  previous_composite: 38.3
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     contracts:
@@ -232,7 +236,7 @@ score:
     regime_id: securities_market_data
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

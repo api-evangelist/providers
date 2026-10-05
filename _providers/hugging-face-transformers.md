@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 147
+- acting_count: 152
   human_in_the_loop: 2
   name: Hugging Face Transformers Agentic Access
-  operation_count: 286
+  operation_count: 283
   slug: hugging-face-transformers-agentic-access
-  summary_line: 286 operations · 147 acting · 2 human-in-the-loop
+  summary_line: 283 operations · 152 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - description: Open-source Python library that provides pretrained models, tokenizers, and pipelines for inference and fine-tuning across NLP, vision, audio, and multimodal tasks. The high-level pipeline API gives d
@@ -250,6 +250,11 @@ collections:
   name: Hub API Endpoints
   slug: open-hugging-face-transformers
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/capabilities/hugging-face-transformers-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hugging-face-transformers-capability-edges.yml
 - group: operate
   title: ''
   type: Releases
@@ -426,9 +431,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hugging-face-transformers.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at huggingface.co; 7 tools listed.
   name: Hugging Face Transformers MCP Server
-  slug: hugging-face-transformers-mcp-server
+  slug: hugging-face
 modified: '2026-06-20'
 name: Hugging Face Transformers
 nav: Providers
@@ -436,7 +441,7 @@ network: true
 overview: 'Hugging Face Transformers publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Agentic Provisioning API, Auth API, Buckets API, and 24 more. Tagged areas include Artificial Intelligence, Computer Vision, Deep Learning, Machine Learning, and Natural Language Processing.
 
 
-  Hugging Face Transformers'' developer surface includes authentication, changelog, CLI, engineering blog, documentation, YouTube channel, signup flow, and 30 more developer resources.'
+  Hugging Face Transformers'' developer surface includes authentication, changelog, CLI, engineering blog, documentation, YouTube channel, signup flow, and 31 more developer resources.'
 plans:
 - name: Hugging Face Transformers Plans Pricing
   plan_count: 3
@@ -455,13 +460,13 @@ score:
   band: strong
   composite: 60.0
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.2
   facets:
     access_clarity: 60.5
     contract_governance: 4.5
@@ -472,7 +477,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 60.0
+  previous_composite: 57.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -489,7 +494,7 @@ score:
     regime_id: horizontal
     score: 37.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

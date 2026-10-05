@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -73,6 +73,11 @@ collections:
   name: Invoice Invoices Scribo API
   slug: open-causa-prima-scribo-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/capabilities/causa-prima-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/causa-prima-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -196,7 +201,7 @@ layout: provider
 mcp_servers:
 - description: Hosted Scribo MCP server for free EN 16931-compliant e-invoice generation. Compatible with Claude Desktop/Claude.ai (custom connector), Cursor, Cline, ChatGPT App, and OpenAI Codex CLI. No install, no
   name: Causa Prima MCP Server
-  slug: causa-prima-mcp-server
+  slug: scribo
 modified: '2026-07-18'
 name: Causa Prima
 nav: Providers
@@ -204,19 +209,19 @@ network: true
 overview: 'Causa Prima publishes 3 APIs on the [APIs.io](https://apis.io/) network: Invoices API, Jurisdictions API, and Scribo API. Tagged areas include Company, Artificial Intelligence, Fintech, E-Invoicing, and Invoicing.
 
 
-  Causa Prima''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, and 20 more developer resources.'
+  Causa Prima''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, and 21 more developer resources.'
 random_paper: 7
 score:
   band: developing
   composite: 40.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.8
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
@@ -232,7 +237,13 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 40.5
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -250,7 +261,7 @@ score:
     regime_id: payments
     score: 25.0
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

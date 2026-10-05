@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: API documentation hosted at Confluence Genetics website, but no machine-readable contract found.
@@ -87,7 +87,7 @@ score:
   band: minimal
   composite: 10.6
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -109,7 +109,7 @@ score:
     regime_id: horizontal
     score: 13.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

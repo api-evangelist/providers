@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 3
 apis:
 - description: 'Hosted Model Context Protocol endpoint at https://api.rosentic.com/mcp (Streamable HTTP, POST), live since 2026-07-23, exposing three read tools over stored scan snapshots — run_status (every lane in '
@@ -35,7 +35,7 @@ apis:
 - description: 'The Bearer-key REST surface documented on the orchestrator-integration page for wiring Conductor, Claude Squad, LangGraph and other agent orchestrators to a Rosentic workspace: GET /v1/feed/rules retu'
   name: Rosentic Dashboard Feed API
   slug: rosentic-dashboard-feed-api
-artifact_total: 10
+artifact_total: 9
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/rosentic-com/refs/heads/main/security/rosentic-com-domain-security.yml
@@ -184,12 +184,9 @@ description: 'Rosentic is a developer-tools company whose product checks the ope
 image: https://raw.githubusercontent.com/Rosentic/cursor-plugin/main/assets/logo.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Rosentic ships MCP two ways and they are different products. (1) Rosentic Remote — a hosted Streamable-HTTP endpoint at https://api.rosentic.com/mcp, live since 2026-07-23 per the provider's changelog
   name: Rosentic MCP Server
-  slug: rosentic-mcp-server
-- description: ''
-  name: Rosentic Remote endpoint (Streamable HTTP, OAuth 2.1)
-  slug: rosentic-remote-endpoint-streamable-http-oauth-21
+  slug: rosentic-com-mcp-yml
 modified: '2026-09-19'
 name: Rosentic
 nav: Providers
@@ -216,13 +213,13 @@ score:
   band: developing
   composite: 42.2
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 60.0
     catalog_earned_first_party: 20.0
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 55.3
     contract_governance: 18.2
@@ -230,7 +227,7 @@ score:
     developer_ergonomics: 69.0
     discoverability: 80.0
     operational_transparency: 42.1
-  previous_composite: 42.2
+  previous_composite: 40.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -242,7 +239,7 @@ score:
     regime_id: horizontal
     score: 26.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

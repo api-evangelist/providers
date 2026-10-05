@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ apis:
   description: The subscriptions API from GoCardless — 3 operation(s) for subscriptions.
   name: GoCardless Subscriptions API
   slug: gocardless-subscriptions-api
-artifact_total: 45
+artifact_total: 46
 asyncapis:
 - description: AsyncAPI description of the GoCardless webhook surface. GoCardless POSTs a JSON envelope containing one or more events (up to 250 per request) to each subscribed `webhook_endpoint`. Every request incl
   name: GoCardless Webhooks
@@ -307,6 +307,10 @@ created: '2026-05-11'
 description: GoCardless is a global account-to-account payments platform specializing in pull-based bank debit (UK Bacs, SEPA Direct Debit, ACH, BECS, PAD, Autogiro) and open-banking instant bank payments, used by businesses to collect recurring subscriptions, invoices, and one-off payments directly from customer bank accounts. The GoCardless REST API exposes customers, bank accounts, mandates, payments, payouts, subscriptions, refunds, events, webhooks, and verification flows. Authentication uses Bearer access tokens issued from the dashboard, with separate sandbox and live environments; every request must include a GoCardless-Version header.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gocardless.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.gocardless.com over HTTP.
+  name: GoCardless MCP Server
+  slug: gocardless
 modified: '2026-05-30'
 name: GoCardless
 nav: Providers
@@ -357,7 +361,7 @@ score:
     catalog_gap: 62.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.6
   facets:
     access_clarity: 63.2
     contract_governance: 11.4
@@ -365,7 +369,7 @@ score:
     developer_ergonomics: 45.2
     discoverability: 75.0
     operational_transparency: 34.2
-  previous_composite: 49.1
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     contracts:
@@ -381,7 +385,7 @@ score:
     regime_id: banking_open_finance
     score: 31.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

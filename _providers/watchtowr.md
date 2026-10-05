@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -210,6 +210,11 @@ collections:
   name: watchTowr Platform Client Activity Log Testing Infrastructure API
   slug: open-watchtowr-testing-infrastructure-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/watchtowr/refs/heads/main/capabilities/watchtowr-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/watchtowr-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -346,7 +351,7 @@ layout: provider
 mcp_servers:
 - description: watchTowr publishes an official open-source MCP server (watchtowr/watchtowr-mcp, v0.1.2) that connects AI assistants to the watchTowr Platform Client API — attack surface assets, findings, hunts, cert
   name: watchTowr MCP Server
-  slug: watchtowr-mcp-server
+  slug: watchtowr-mcp
 modified: '2026-07-21'
 name: watchTowr
 nav: Providers
@@ -354,19 +359,19 @@ network: true
 overview: 'watchTowr publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Activity Log API, Assets API, Business Unit API, and 17 more. Tagged areas include Company, Security, Cybersecurity, Attack Surface Management, and EASM.
 
 
-  watchTowr''s developer surface includes documentation, developer portal, engineering blog, support, authentication, and 23 more developer resources.'
+  watchTowr''s developer surface includes documentation, developer portal, engineering blog, support, authentication, and 24 more developer resources.'
 random_paper: 5
 score:
   band: thin
   composite: 34.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
@@ -374,7 +379,7 @@ score:
     developer_ergonomics: 47.0
     discoverability: 73.2
     operational_transparency: 21.1
-  previous_composite: 34.7
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -392,7 +397,7 @@ score:
     regime_id: horizontal
     score: 26.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

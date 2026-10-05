@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 30
+- acting_count: 32
   human_in_the_loop: 0
   name: Nhs England Agentic Access
-  operation_count: 69
+  operation_count: 70
   slug: nhs-england-agentic-access
-  summary_line: 69 operations · 30 acting
+  summary_line: 70 operations · 32 acting
 api_count: 7
 apis:
 - description: National electronic database of NHS patient demographic details - name, address, date of birth, related people, registered GP, nominated pharmacy and NHS number - exposed as an HL7 FHIR R4 API. Produc
@@ -372,21 +372,21 @@ overview: 'NHS England publishes 25 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 3
 score:
   band: developing
-  composite: 46.1
+  composite: 45.6
   coverage:
     artifact_dirs: 20
-    catalog_earned: 35.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -4.0
   facets:
     access_clarity: 7.9
     contract_governance: 18.2
     contract_quality: 55.9
     developer_ergonomics: 66.1
-    discoverability: 69.6
+    discoverability: 64.3
     operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -396,7 +396,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 45.6
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -414,7 +414,7 @@ score:
     regime_id: health
     score: 32.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

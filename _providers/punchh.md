@@ -35,922 +35,245 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 191
+- acting_count: 195
   human_in_the_loop: 3
   name: Punchh Agentic Access
   operation_count: 288
   slug: punchh-agentic-access
-  summary_line: 288 operations · 191 acting · 3 human-in-the-loop
+  summary_line: 288 operations · 195 acting · 3 human-in-the-loop
 api_count: 15
 apis:
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: Punchh provides robust APIs for integrating POS (Point-of-Sale) terminals with its back end. The integration helps businesses to offer their customers loyalty programs directly from their POS systems.
   name: Punchh POS API
-  phrasing_intents:
-  - id: pos_redemption_possible
-    intent: Check if a redemption can apply to a check
-    question: Can the POS verify a reward will work on a check before redeeming it?
-  - id: pos_create_redemption
-    intent: Redeem a reward or discount on a receipt
-    question: How does the POS redeem a guest's reward against a receipt in Redemptions 1.0?
-  - id: pos_void_redemption
-    intent: Void one processed redemption
-    question: How do I undo a single redemption and give the offer back to the guest?
-  - id: pos_void_multiple_redemptions
-    intent: Void several redemptions at once
-    question: Can the POS void multiple redemptions in one request?
-  - id: pos_applicable_offers
-    intent: List offers that apply to a check
-    question: Which of a guest's offers apply to the items on their current check?
-  - id: pos_get_active_redemptions
-    intent: List a guest's active redemptions at the POS
-    question: Which redemptions does a guest currently have open?
-  - id: get-api-pos-users-find
-    intent: Identify a guest at the POS
-    question: How does the POS find a loyalty guest before applying Redemptions 2.0 discounts?
-  - id: post-api-auth-discounts-auto_select
-    intent: Auto-fill a guest's discount basket
-    question: Can discounts be queued into a guest's basket automatically at checkout?
-  phrasing_ops: 15
   slug: punchh-pos-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Api2 API from Punchh — 26 operation(s) for api2.
   name: Punchh Api2 API
-  phrasing_intents:
-  - id: delete-api2-mobile-redemptions
-    intent: Cancel an unprocessed redemption from the app
-    question: Can a guest cancel a redemption code in the mobile app before it has been used at the store?
-  - id: mobile_create_redemption_using_banked_currency
-    intent: Redeem banked currency for a redemption code
-    question: How can a guest turn part of their banked currency balance into a redemption code?
-  - id: mobile_create_redemption_using_visits
-    intent: Redeem a completed visit card
-    question: In a visit-based loyalty program, how does a guest redeem a completed punch card from the app?
-  - id: mobile_create_redemption_using_redeemable
-    intent: Redeem loyalty points for a redeemable
-    question: How does a guest spend loyalty points on a specific redeemable item from the catalog?
-  - id: mobile_create_redemption_using_reward_id
-    intent: Redeem a reward a guest was given
-    question: How do I generate a redemption code for a reward the guest received from a campaign?
-  - id: mobile_list_applicable_offers
-    intent: List offers that apply to a cart in the app
-    question: Which offers can a guest apply to the items currently in their mobile order?
-  - id: sso_create_online_redemption
-    intent: Add discounts to the guest's discount basket
-    question: How does the mobile app add a reward to the guest's discount basket?
-  - id: delete-api-auth-discounts-unselect
-    intent: Remove discounts from the discount basket
-    question: Can a guest take a discount back out of their basket in the app?
-  phrasing_ops: 33
   slug: punchh-api2-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Auth API from Punchh — 14 operation(s) for auth.
   name: Punchh Auth API
-  phrasing_intents:
-  - id: sso_create_online_redemption
-    intent: Redeem a reward against an online order receipt
-    question: How does an online ordering site apply a guest's reward or redemption code to a checkout under the older Redemptions 1.0 flow?
-  - id: sso_fetch_redemption_code
-    intent: Generate a redemption code to use at the POS
-    question: How do I get a tracking code a guest can show at the register to redeem a reward?
-  - id: sso_void_processed_redemption
-    intent: Void a processed Redemptions 1.0 redemption
-    question: Can I reverse a redemption that has already been processed and give the offer back to the guest?
-  - id: sso_applicable_offers
-    intent: List rewards that apply to an online check
-    question: Which of the guest's rewards can be used on the items in this online order?
-  - id: post-api-auth-discounts-auto_select
-    intent: Auto-fill the discount basket for an order
-    question: Can the best discount be queued in the guest's basket automatically when auto-redemption is on?
-  - id: postApiAuthDiscountsSelect
-    intent: Add chosen discounts to the guest's basket
-    question: How does an online ordering site add a guest's chosen reward to their discount basket?
-  - id: delete-api-auth-discounts-unselect
-    intent: Remove discounts from the online discount basket
-    question: Can a guest drop a reward from their discount basket before checking out online?
-  - id: get-api-auth-discounts-active
-    intent: View the guest's current discount basket
-    question: What rewards has the guest already put in their discount basket?
-  phrasing_ops: 16
   slug: punchh-auth-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Badges API from Punchh — 1 operation(s) for badges.
   name: Punchh Badges API
-  phrasing_intents:
-  - id: mobile_update_badge
-    intent: Link a badge to a Facebook story
-    question: How do I attach the Facebook post a guest shared to the badge they earned?
-  phrasing_ops: 1
   slug: punchh-badges-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Beacons API from Punchh — 2 operation(s) for beacons.
   name: Punchh Beacons API
-  phrasing_intents:
-  - id: mobile_record_beacon_entry
-    intent: Record a guest entering a beacon's range
-    question: What happens when a loyalty member walks into range of a store beacon?
-  - id: mobile_record_beacon_exit
-    intent: Record a guest leaving a beacon's range
-    question: What gets triggered when a guest leaves a store beacon's range?
-  phrasing_ops: 2
   slug: punchh-beacons-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Business Admin Users API from Punchh — 3 operation(s) for business admin users.
   name: Punchh Business Admin Users API
-  phrasing_intents:
-  - id: dashboard_get_admin_roles_list
-    intent: List admin roles in the business
-    question: Which admin roles have been set up for our business?
-  - id: dashboard_create_business_admin
-    intent: Create a business admin
-    question: Can I add a new dashboard admin directly without sending an invite?
-  - id: dashboard_update_business_admin
-    intent: Update a business admin
-    question: Can I change a business admin's role or details?
-  - id: dashboard_show_business_admin
-    intent: Get a business admin's details
-    question: How can I see the details of one business admin?
-  - id: dashboard_delete_business_admin
-    intent: Delete a business admin
-    question: How do I remove an admin who left the company?
-  - id: dashboard_invite_business_admin
-    intent: Invite someone to be a business admin
-    question: How do I invite a new manager to use the loyalty dashboard?
-  phrasing_ops: 6
   slug: punchh-business-admin-users-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Business Migration Users API from Punchh — 3 operation(s) for business migration users.
   name: Punchh Business Migration Users API
-  phrasing_intents:
-  - id: dashboard_create_business_migration_user
-    intent: Add a guest to migrate from an old program
-    question: How do I bring a member over from our previous loyalty program with their points?
-  - id: dashboard_update_business_migration_user
-    intent: Update a business migration user
-    question: How do I correct the points or contact details on a migration record?
-  - id: dashboard_delete_business_migration_user
-    intent: Delete a business migration user
-    question: Can I remove a guest from the migration list before they're imported?
-  - id: post-api2-dashboard-migration_users-bulk_bmu_upload
-    intent: Bulk upload migration users from a CSV
-    question: Can I upload a whole CSV of members from our previous loyalty program at once?
-  phrasing_ops: 4
   slug: punchh-business-migration-users-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Challenges API from Punchh — 5 operation(s) for challenges.
   name: Punchh Challenges API
-  phrasing_intents:
-  - id: mobile_list_challenges
-    intent: List the business's challenges
-    question: What challenges is the brand running for loyalty members right now?
-  - id: mobile_Fetch_challenge_details
-    intent: Get details of one challenge
-    question: What are the rules and rewards of a specific challenge?
-  - id: mobile_list_user_challenges
-    intent: List a guest's available, active and past challenges
-    question: Which challenges has this guest joined and how far along are they?
-  - id: put-api2-mobile-challenge_opt_in
-    intent: Opt a guest into a challenge
-    question: How does a guest explicitly join a challenge campaign?
-  - id: put-api2-mobile-challenge_opt_out
-    intent: Opt a guest out of a challenge
-    question: Can a guest leave a challenge they already joined?
-  phrasing_ops: 5
   slug: punchh-challenges-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Check-in API from Punchh — 3 operation(s) for check-in.
   name: Punchh Check In API
-  phrasing_intents:
-  - id: sso_loyalty_checkin
-    intent: Award loyalty for an online order
-    question: How does a signed-in guest earn points for an online order?
-  - id: sso_update_loyalty_checkin
-    intent: Update a pending online order check-in
-    question: How do I change the details of an online order check-in that's still pending?
-  - id: sso_void_loyalty_checkin
-    intent: Void a pending loyalty check-in
-    question: How do I cancel a pending check-in when an online order is abandoned?
-  - id: sso_create_loyalty_checkin
-    intent: Check a guest in by store number (legacy)
-    question: Is there an older endpoint that checks a guest in using only a store number?
-  - id: sso_Fetch_a_Checkin_by_external_uid
-    intent: Look up a check-in by its external ID
-    question: How do I retrieve a loyalty check-in using the ID my ordering system assigned?
-  - id: post-api2-dashboard-checkins
-    intent: Create a check-in without the guest's token
-    question: How can I award points for a future-dated order when I don't have the guest's access token?
-  phrasing_ops: 6
   slug: punchh-check-in-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Check-ins API from Punchh — 6 operation(s) for check-ins.
   name: Punchh Check Ins API
-  phrasing_intents:
-  - id: mobile_create_loyalty_checkin_by_barcode
-    intent: Earn points by scanning a receipt barcode
-    question: How does a guest get points by scanning the barcode on their receipt?
-  - id: mobile_create_loyalty_checkin_by_qr_code
-    intent: Earn points by scanning a QR code
-    question: Can guests earn loyalty points by scanning a QR code in the app?
-  - id: mobile_create_loyalty_checkin_by_receipt_image
-    intent: Earn points by uploading a receipt photo
-    question: Can a guest snap a photo of a receipt to get loyalty credit?
-  - id: mobile_Fetch_checins
-    intent: List a guest's check-ins
-    question: Where can a guest see all of their past check-ins?
-  - id: mobile_account_balance
-    intent: Get a guest's rewards and banked balance
-    question: What membership level and banked currency does a guest have?
-  - id: mobile_transaction_details
-    intent: Get details of one transaction
-    question: How can a guest see what happened on a specific transaction?
-  phrasing_ops: 6
   slug: punchh-check-ins-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Check User Balance API from Punchh — 4 operation(s) for check user balance.
   name: Punchh Check User Balance API
-  phrasing_intents:
-  - id: sso_account_balance
-    intent: Get a guest's points and credit totals
-    question: What is a guest's points balance and membership level?
-  - id: sso_list_available_rewards
-    intent: List rewards available to a guest
-    question: Which rewards or offers can a guest use right now?
-  - id: sso_fetch_user_balance
-    intent: Get balance with redemptions, badges and notices
-    question: Can I get a guest's active redemptions and badges with their balance?
-  - id: sso_balance_timelines
-    intent: Show a guest's balance over time
-    question: How has a signed-in guest's balance changed over time?
-  phrasing_ops: 4
   slug: punchh-check-user-balance-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Collectibles API from Punchh — 3 operation(s) for collectibles.
   name: Punchh Collectibles API
-  phrasing_intents:
-  - id: get-api2-mobile-collectibles
-    intent: List the business's digital collectibles
-    question: What digital collectibles can guests earn from this brand?
-  - id: get-api2-mobile-collectibles-collectible_id
-    intent: Get details of one collectible
-    question: Which active campaigns award a particular collectible?
-  - id: get-api2-mobile-users_collectibles
-    intent: List collectibles a guest has earned
-    question: Which collectibles has this guest earned so far?
-  phrasing_ops: 3
   slug: punchh-collectibles-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Coupons API from Punchh — 1 operation(s) for coupons.
   name: Punchh Coupons API
-  phrasing_intents:
-  - id: mobile_apply_coupons
-    intent: Apply a coupon or promo code
-    question: How does a guest enter a promo code in the app to get a reward?
-  phrasing_ops: 1
   slug: punchh-coupons-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Custom Segments API from Punchh — 5 operation(s) for custom segments.
   name: Punchh Custom Segments API
-  phrasing_intents:
-  - id: dashboard_list_all_custom_segments
-    intent: List all custom segments
-    question: What custom segments has my business created?
-  - id: dashboard_create_custom_segment
-    intent: Create an empty custom segment
-    question: How do I create a new custom segment to hold a hand-picked list of guests?
-  - id: dashboard_update_custom_segment
-    intent: Rename or redescribe a custom segment
-    question: Can I change the name or description of an existing custom segment?
-  - id: dashboard_delete_custom_segment
-    intent: Delete a custom segment
-    question: How do I permanently remove a custom segment we no longer use?
-  - id: dashboard_search_user_in_custom_segment
-    intent: Check whether a guest is in a custom segment
-    question: Is a particular guest already a member of this custom segment?
-  - id: dashboard_add_user_to_custom_segment
-    intent: Add one guest to a custom segment
-    question: How do I add a single guest to a custom segment?
-  - id: dashboard_remove_user_from_custom_segment
-    intent: Remove one guest from a custom segment
-    question: How do I take a single guest out of a custom segment?
-  - id: post-api2-dashboard-custom_segments-members-bulk_add
-    intent: Bulk add guests to a segment from a CSV
-    question: Can I upload a CSV of user IDs and emails to fill a custom segment?
-  phrasing_ops: 10
   slug: punchh-custom-segments-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Deals API from Punchh — 2 operation(s) for deals.
   name: Punchh Deals API
-  phrasing_intents:
-  - id: sso_list_all_deals
-    intent: List deals available to a guest
-    question: Which deals can a signed-in web guest choose from?
-  - id: sso_save_selected_deals
-    intent: Save a deal to a guest's account
-    question: How does a web guest add a deal to their account?
-  - id: sso_get_the_deal_detail
-    intent: Get the details of a deal
-    question: What does a particular deal include before a guest saves it?
-  phrasing_ops: 3
   slug: punchh-deals-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Drive-Thru API from Punchh — 1 operation(s) for drive-thru.
   name: Punchh Drive Thru API
-  phrasing_intents:
-  - id: post-api2-mobile-drivethru_code
-    intent: Generate a drive-thru loyalty short code
-    question: How can a guest identify themselves at the drive-thru window by saying a short code?
-  phrasing_ops: 1
   slug: punchh-drive-thru-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The eClub API from Punchh — 1 operation(s) for eclub.
   name: Punchh E Club API
-  phrasing_intents:
-  - id: dashboard_eclub_guest_upload
-    intent: Upload or update eClub guests
-    question: How do I bulk add email club guests collected at a store?
-  phrasing_ops: 1
   slug: punchh-eclub-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Feedback API from Punchh — 4 operation(s) for feedback.
   name: Punchh Feedback API
-  phrasing_intents:
-  - id: mobile_create_feedback
-    intent: Submit guest feedback from the app
-    question: How does a guest leave a rating and comment about a visit in the app?
-  - id: mobile_update_feedback
-    intent: Attach media to feedback from the app
-    question: Can a guest add a photo or video to feedback they already sent from the app?
-  - id: post-api2-dashboard-feedbacks
-    intent: Record feedback for a guest from the back end
-    question: How can our support system log feedback for a guest without their access token?
-  - id: patch-api2-dashboard-feedbacks-feedback_id
-    intent: Update a guest's feedback from the back end
-    question: Can an admin edit the message on feedback that was already recorded?
-  phrasing_ops: 4
   slug: punchh-feedback-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The File Upload API from Punchh — 1 operation(s) for file upload.
   name: Punchh File Upload API
-  phrasing_intents:
-  - id: mobile_file_upload
-    intent: Get a signed URL to upload a file
-    question: How does the app get a signed URL to upload a photo?
-  phrasing_ops: 1
   slug: punchh-file-upload-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Franchisee API from Punchh — 1 operation(s) for franchisee.
   name: Punchh Franchisee API
-  phrasing_intents:
-  - id: dashboard_create_franchisee
-    intent: Create a franchisee for locations
-    question: How does a business admin set up a new franchisee for their locations?
-  - id: dashboard_update_franchisee
-    intent: Update a franchisee's details
-    question: Can I change the details of an existing franchisee?
-  - id: dashboard_delete_franchisee
-    intent: Delete a franchisee
-    question: How do I remove a franchisee that no longer operates our stores?
-  phrasing_ops: 3
   slug: punchh-franchisee-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Game API from Punchh — 1 operation(s) for game.
   name: Punchh Game API
-  phrasing_intents:
-  - id: get-api2-mobile-par_games
-    intent: List active game URLs for the app
-    question: Which games has the brand set up for guests to play in the app?
-  phrasing_ops: 1
   slug: punchh-game-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Gift Cards API from Punchh — 14 operation(s) for gift cards.
   name: Punchh Gift Cards API
-  phrasing_intents:
-  - id: mobile_purchase_gift_card
-    intent: Buy a new gift card in the app
-    question: How does a guest buy a brand-new gift card for themselves in the app?
-  - id: mobile_reload_gift_card
-    intent: Add funds to an existing gift card
-    question: Can a guest top up the balance on a gift card they already have?
-  - id: mobile_import_physical_gift_card
-    intent: Add a physical gift card to the app
-    question: How can a guest load a plastic gift card into their app wallet?
-  - id: mobile_udpate_gift_card
-    intent: Rename a gift card or set auto-reload
-    question: Can a guest turn on auto-reload when their gift card balance gets low?
-  - id: mobile_delete_gift_card
-    intent: Remove a gift card from the guest's app
-    question: Can a guest hide a gift card from their app without deleting it from the system?
-  - id: mobile_fetch_gift_cards
-    intent: List a guest's active gift cards
-    question: Which gift cards does the guest currently have in their app?
-  - id: mobile_fetch_gift_card_balance
-    intent: Check a gift card's balance
-    question: How much money is left on a particular gift card?
-  - id: mobile_fetch_gift_card_transaction_history
-    intent: View a gift card's transaction history
-    question: Where can a guest see past purchases and reloads on a gift card?
-  phrasing_ops: 15
   slug: punchh-gift-cards-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Invitations API from Punchh — 4 operation(s) for invitations.
   name: Punchh Invitations API
-  phrasing_intents:
-  - id: mobile_get_invitations
-    intent: List a guest's pending invitations
-    question: Which gift card invitations are still waiting for this guest?
-  - id: Mobile_Create_Gift_Card_Claim_Token
-    intent: Create a claim token to hand off a gift card
-    question: How do I generate a claim link or token so someone else can take my gift card?
-  - id: mobile_Check_Status_of_the_claim_token
-    intent: Check whether a gift card claim token is valid
-    question: Is this gift card claim token still valid?
-  - id: Mobile_delete_an_invitation_claim_token
-    intent: Delete a gift card invitation
-    question: How do I cancel a gift card invitation I sent by mistake?
-  - id: mobile_transfer_a_gift_card_using_invitation_claim_token
-    intent: Claim a gift card with an invitation token
-    question: How does the recipient accept a gift card that was sent with a claim token?
-  phrasing_ops: 5
   slug: punchh-invitations-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Locations API from Punchh — 9 operation(s) for locations.
   name: Punchh Locations API
-  phrasing_intents:
-  - id: mobile_location_configuration
-    intent: Get a store location's configuration
-    question: What configuration does a store location expose to the app or POS?
-  - id: mobile_diagnostic_logs
-    intent: Send POS diagnostic logs for a location
-    question: How do I report POS terminal diagnostics for a store to the loyalty platform?
-  - id: mobile_search_locations
-    intent: Find nearby store locations
-    question: Which restaurant locations are closest to a guest's GPS position?
-  - id: dashboard_get_location_list
-    intent: List a business's locations
-    question: How do I get all store locations and their details for a business?
-  - id: dashboard_create_location
-    intent: Create a store location
-    question: What admin permission do I need to add a new store location?
-  - id: dashboard_update_location
-    intent: Edit a store location
-    question: Can I change a store location's details after it was created?
-  - id: dashboard_delete_location
-    intent: Delete a store location immediately
-    question: How do I remove a closed store location from the business right away?
-  - id: dashboard_get_location_group_list
-    intent: List location groups and their stores
-    question: Which location groups exist and which stores are in each?
-  phrasing_ops: 16
   slug: punchh-locations-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Loyalty Transfers API from Punchh — 3 operation(s) for loyalty transfers.
   name: Punchh Loyalty Transfers API
-  phrasing_intents:
-  - id: mobile_loyalty_transfer_points
-    intent: Send loyalty points to another member
-    question: Can a guest give some of their loyalty points to a friend?
-  - id: mobile_loyalty_transfer_currency
-    intent: Send banked reward currency to another member
-    question: Can a guest share their banked reward dollars with a family member?
-  - id: mobile_loyalty_transfer_reward
-    intent: Give a loyalty reward to another member
-    question: Can a guest gift one of their earned rewards to someone else?
-  phrasing_ops: 3
   slug: punchh-loyalty-transfers-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Meta API from Punchh — 1 operation(s) for meta.
   name: Punchh Meta API
-  phrasing_intents:
-  - id: dashboard_meta_api
-    intent: List the business's redeemables for admins
-    question: Which redeemables has our business created?
-  phrasing_ops: 1
   slug: punchh-meta-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Meta & Version API from Punchh — 3 operation(s) for meta & version.
   name: Punchh Meta & Version API
-  phrasing_intents:
-  - id: mobile_program_meta_API
-    intent: Get loyalty program details for the app
-    question: How does the mobile app learn the program type, locations and redeemables for a business?
-  - id: mobile_version_note
-    intent: Get release notes for an app version
-    question: What changed in a specific version of the brand's app?
-  - id: mobile_making_batch_requests
-    intent: Send several mobile API calls in one request
-    question: Can the app bundle several API calls into a single HTTP request?
-  phrasing_ops: 3
   slug: punchh-meta-version-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Migration API from Punchh — 2 operation(s) for migration.
   name: Punchh Migration API
-  phrasing_intents:
-  - id: mobile_generate_otp_token
-    intent: Send a migration one-time password
-    question: Can I email a guest a one-time password to move their old loyalty account?
-  - id: mobile_verify_token
-    intent: Verify a migration one-time password
-    question: How do I confirm the OTP a guest received during account migration?
-  - id: mobile_migration_lookup
-    intent: Get a guest's migrated account details
-    question: What details were imported for a guest from the old loyalty program?
-  - id: mobile_basic_migration_lookup
-    intent: Check if a guest is in migration data
-    question: Is a guest present in the business's imported migration data?
-  phrasing_ops: 4
   slug: punchh-migration-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Notifications API from Punchh — 5 operation(s) for notifications.
   name: Punchh Notifications API
-  phrasing_intents:
-  - id: mobile_fetch_user_notifications
-    intent: List a guest's push notifications
-    question: Which push notifications has a guest received in the app?
-  - id: mobile_delete_user_notification
-    intent: Delete a guest's notification
-    question: How does a guest clear a notification from their inbox?
-  - id: mobile_messages
-    intent: List rich messages for a guest
-    question: What rich messages are available for a guest to view in the app?
-  - id: mobile_mark_messages_read
-    intent: Mark rich messages as read
-    question: Can I mark a guest's user-specific rich messages as read?
-  - id: mobile_delete_messages
-    intent: Delete a rich message
-    question: How does a guest dismiss a user-specific rich message for good?
-  phrasing_ops: 5
   slug: punchh-notifications-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Offers API from Punchh — 2 operation(s) for offers.
   name: Punchh Offers API
-  phrasing_intents:
-  - id: mobile_list_user_offers
-    intent: List a guest's offers in the app
-    question: Which offers does a guest currently have in the app?
-  - id: mobile_mark_read
-    intent: Mark offers as read
-    question: Can I record that a guest opened an offer from a push notification?
-  phrasing_ops: 2
   slug: punchh-offers-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Passcodes API from Punchh — 2 operation(s) for passcodes.
   name: Punchh Passcodes API
-  phrasing_intents:
-  - id: mobile_forgot_passcode
-    intent: Email a guest a passcode reset link
-    question: What happens when a guest taps reset passcode in the app?
-  - id: mobile_create_passcode
-    intent: Set a secondary passcode for a guest
-    question: How does a guest set up a PIN to protect gift cards and payments in the app?
-  phrasing_ops: 2
   slug: punchh-passcodes-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Payment Cards API from Punchh — 2 operation(s) for payment cards.
   name: Punchh Payment Cards API
-  phrasing_intents:
-  - id: create_api2-mobile-payment_cards
-    intent: Save a payment card to the guest's app
-    question: How does the app save a guest's credit card for future purchases?
-  - id: get-api2-mobile-payment_cards
-    intent: List a guest's saved payment cards
-    question: Which credit cards has the guest saved in the app?
-  - id: put-api2-mobile-payment_cards
-    intent: Rename or set a saved card as default
-    question: Can a guest change the nickname on a saved card?
-  - id: delete-api2-mobile-payment_cards
-    intent: Delete a saved payment card
-    question: How does a guest remove a credit card they no longer use from the app?
-  phrasing_ops: 4
   slug: punchh-payment-cards-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Payments API from Punchh — 7 operation(s) for payments.
   name: Punchh Payments API
-  phrasing_intents:
-  - id: mobile_fetch_client_token
-    intent: Get a secure client token for a service
-    question: How does the app get a secure token for gift card or online ordering services?
-  - id: mobile_get_client_token
-    intent: Get a payment gateway client token
-    question: Where does the app get a client token to start a card payment?
-  - id: mobile_record_payment
-    intent: Record an in-app payment
-    question: How does the app record a payment after the guest enters their card?
-  - id: get-api2-mobile-iframe_payments-new
-    intent: Get a PAR Pay card entry page for a token
-    question: How does a guest save a payment card to buy or reload gift cards?
-  - id: pos_create_payment_ssf
-    intent: Charge a payment at the POS via single scan
-    question: How does the POS charge a guest who scanned a single scan code?
-  - id: pos_update_payments
-    intent: Mark a POS payment's status
-    question: How does the POS tell the loyalty platform a payment is complete?
-  - id: pos_void_payments
-    intent: Void or cancel a POS payment
-    question: How do I cancel a payment request that hasn't settled yet?
-  - id: pos_get_payments_status
-    intent: Check a POS payment's status
-    question: Did the guest's payment succeed, or was it cancelled?
-  phrasing_ops: 9
   slug: punchh-payments-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Point Of Sale API from Punchh — 8 operation(s) for point of sale.
   name: Punchh Point Of Sale API
-  phrasing_intents:
-  - id: pos_location_config
-    intent: Get a store location's POS configuration
-    question: How does a POS terminal pull the loyalty settings for its own store location?
-  - id: pos_program_meta
-    intent: Get loyalty program details for the POS
-    question: What program type and redeemables does the register need to know about this loyalty program?
-  - id: pos_create_user
-    intent: Enroll a new loyalty member at the register
-    question: Can a cashier sign a guest up for loyalty right at the POS with just a phone number?
-  - id: pos_user_search
-    intent: Look up a loyalty guest and their balance at the POS
-    question: How does the register find a guest's loyalty account by phone, email or QR code?
-  - id: pos_checkin
-    intent: Award loyalty for an in-store check
-    question: How does the POS credit a guest with points for a purchase they just made in store?
-  - id: receipt_details
-    intent: Send receipt details from the POS
-    question: How do I push every receipt from my POS so guests can scan it later for points?
-  - id: pos_create_transaction
-    intent: Record a visit without earning loyalty
-    question: Can I log a guest's store visit without giving them any points?
-  - id: get-api-pos-users-balance
-    intent: Fetch a guest's account balance and subscriptions
-    question: What points, rewards and subscription benefits does a guest have available at the register?
-  phrasing_ops: 8
   slug: punchh-point-of-sale-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Redemptions API from Punchh — 2 operation(s) for redemptions.
   name: Punchh Redemptions API
-  phrasing_intents:
-  - id: dashboard_search_redemption_code
-    intent: Look up a redemption code
-    question: Is a guest's redemption code valid, and what does it unlock?
-  - id: dashboard_process_redemption
-    intent: Mark a redemption code as processed
-    question: How do I mark a redemption as used once the guest has received the item?
-  - id: dashboard_force_redeem
-    intent: Force-redeem an offer for a guest
-    question: Can a manager override the normal flow and redeem an offer for a guest?
-  phrasing_ops: 3
   slug: punchh-redemptions-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Referrals API from Punchh — 1 operation(s) for referrals.
   name: Punchh Referrals API
-  phrasing_intents:
-  - id: mobile_fetch_possible_referrers
-    intent: List who may have referred a guest
-    question: Which members might have referred a new guest to the loyalty program?
-  - id: mobile_select_referrer
-    intent: Choose the member who referred a guest
-    question: How does a guest credit the friend who referred them?
-  phrasing_ops: 2
   slug: punchh-referrals-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Rewards API from Punchh — 5 operation(s) for rewards.
   name: Punchh Rewards API
-  phrasing_intents:
-  - id: sso_estimate_loyalty_points_earning
-    intent: Estimate points from an order subtotal
-    question: How many points would a guest earn on a $25 subtotal before they check out?
-  - id: sso_points_conversion_api
-    intent: Convert points to cash, fuel or charity
-    question: Can a guest turn loyalty points into cash credit or a fuel discount?
-  - id: sso_estimate_points_earning
-    intent: Estimate points for a cart with menu items
-    question: What would the items in this cart earn in points before the order is placed?
-  - id: sso_ordering_meta
-    intent: Get the base redeemable for ordering
-    question: What is the base redeemable configured for online ordering?
-  - id: sso_auth_fetchavailableoffers
-    intent: List offers available to a guest
-    question: How many offers does this guest have available right now?
-  phrasing_ops: 5
   slug: punchh-rewards-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Single Scan Code API from Punchh — 1 operation(s) for single scan code.
   name: Punchh Single Scan Code API
-  phrasing_intents:
-  - id: mobile_gen_ssc
-    intent: Generate a single scan code for checkout
-    question: Can a guest pay, redeem a reward and tip with one scan at the register?
-  phrasing_ops: 1
   slug: punchh-single-scan-code-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Social Cause Campaign API from Punchh — 2 operation(s) for social cause campaign.
   name: Punchh Social Cause Campaign API
-  phrasing_intents:
-  - id: mobile_get_social_cause_campaigns
-    intent: Search active charity campaigns
-    question: Which charities can guests donate to through the loyalty app?
-  - id: Mobile_Create_donation
-    intent: Donate to a social cause campaign
-    question: How does a guest donate points or money to a charity campaign?
-  - id: mobile_social_cause_campaign_details
-    intent: View a guest's donations to a cause
-    question: How much has this guest donated to a particular charity campaign?
-  phrasing_ops: 3
   slug: punchh-social-cause-campaign-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Social Cause Campaigns API from Punchh — 3 operation(s) for social cause campaigns.
   name: Punchh Social Cause Campaigns API
-  phrasing_intents:
-  - id: dashboard_create_social_cause_campaigns
-    intent: Create a social cause campaign
-    question: How do I set up a charity campaign that loyalty guests can support?
-  - id: dashboard_social_cause_activate
-    intent: Activate a social cause campaign
-    question: How do I make a social cause campaign live for guests?
-  - id: dashboard_social_cause_deactivate
-    intent: Deactivate a social cause campaign
-    question: How do I end a charity campaign once the fundraising period is over?
-  phrasing_ops: 3
   slug: punchh-social-cause-campaigns-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Surveys API from Punchh — 1 operation(s) for surveys.
   name: Punchh Surveys API
-  phrasing_intents:
-  - id: mobile_fetch_user_survey
-    intent: Get the link to a guest's survey
-    question: Where can a guest find the survey they've been asked to complete?
-  phrasing_ops: 1
   slug: punchh-surveys-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Swag API from Punchh — 4 operation(s) for swag.
   name: Punchh Swag API
-  phrasing_intents:
-  - id: mobile_update_user_banking_preferences
-    intent: Opt a guest in or out of saving points for swag
-    question: Can a guest stop points from auto-converting so they can save for merch?
-  - id: mobile_get_user_banking_preferences
-    intent: Get a guest's Save Points for Swag settings
-    question: Has a guest opted in to saving points for swag?
-  - id: mobile_create_swag_redemption
-    intent: Redeem saved points for a swag item
-    question: How does a guest trade saved points for branded merchandise?
-  - id: mobile_fetch_available_user_merch
-    intent: List swag items a guest can redeem
-    question: What branded merch can a guest get with their points?
-  - id: dashboard_get_swag_shipping_details
-    intent: Export shipping details for swag deliveries
-    question: Which swag redemptions need to be shipped this week?
-  phrasing_ops: 5
   slug: punchh-swag-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The User Management API from Punchh — 5 operation(s) for user management.
   name: Punchh User Management API
-  phrasing_intents:
-  - id: sso_forgot_password
-    intent: Send a guest a password reset email
-    question: How does a guest on the web ordering site reset a forgotten password?
-  - id: sso_fetch_user_informaton
-    intent: Get a signed-in guest's profile details
-    question: Can I read a guest's birthday, anniversary and zip code after SSO login?
-  - id: sso_update_user_information
-    intent: Update a guest's profile or password
-    question: Can a guest change their name or anniversary from the website?
-  - id: sso_account_history
-    intent: Get a guest's account history
-    question: Where can a web guest see their check-ins and other loyalty events?
-  - id: sso_change_password
-    intent: Change a guest's password without the old one
-    question: Can a guest set a new password without entering their current one?
-  - id: sso_user_enrollment
-    intent: Enroll a guest in a social cause campaign
-    question: Can a guest join a charity campaign from the web ordering site?
-  - id: sso_user_disenrollment
-    intent: Disenroll a guest from a campaign
-    question: How does a web guest leave a social cause campaign?
-  phrasing_ops: 7
   slug: punchh-user-management-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The User Sign-up and SSO API from Punchh — 8 operation(s) for user sign-up and sso.
   name: Punchh User Sign-up and SSO API
-  phrasing_intents:
-  - id: sso_signup
-    intent: Register a new guest account online
-    question: How does an online ordering site register a new loyalty guest with email and password?
-  - id: sso_login
-    intent: Log a guest in with email and password
-    question: How do I sign an existing guest in with their email and password?
-  - id: sso_create_acces_token_for_sso
-    intent: Exchange a security token for an auth token
-    question: How does a partner site turn its SSO security token into a guest authentication token?
-  - id: sso_Get_reset_password_token_of_the_user
-    intent: Get a password reset token for a guest
-    question: How can a guest who forgot their password get a reset token?
-  - id: oauth_token
-    intent: Exchange an OAuth code for an SSO token
-    question: After a guest logs in on the hosted sign-in form, how do I get an access token from the authorization code?
-  - id: sso_connect_with_facebook
-    intent: Sign a guest in or up with Facebook
-    question: Can guests register for loyalty using their Facebook account?
-  - id: Sign_in_with_apple
-    intent: Sign a guest in with Apple
-    question: Can guests use Sign in with Apple on the web ordering site?
-  - id: post-api-auth-users-connect_with_google
-    intent: Sign a guest in with Google
-    question: How do I let guests log in with their Google account on the web?
-  phrasing_ops: 8
   slug: punchh-user-sign-up-and-sso-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The Users API from Punchh — 35 operation(s) for users.
   name: Punchh Users API
-  phrasing_intents:
-  - id: mobile_signin
-    intent: Sign a guest in to the loyalty app
-    question: How do I log a guest into a restaurant's loyalty app with their email and password?
-  - id: mobile_connect_with_facebook
-    intent: Register or log in a guest with Facebook
-    question: Can guests register on the loyalty app using their Facebook account?
-  - id: mobile_login_with_apple
-    intent: Sign a guest in with Apple
-    question: Does the loyalty app support Sign in with Apple using Apple's private relay email?
-  - id: mobile_logout
-    intent: Log a guest out of the mobile app
-    question: How do I end a guest's session in the mobile loyalty app?
-  - id: mobile_fetch_user_information
-    intent: Get the signed-in guest's profile
-    question: What profile details can the app show for the guest who is signed in?
-  - id: mobile_update_user_profile
-    intent: Update the signed-in guest's profile
-    question: Can a guest change their own name or phone number from the mobile app?
-  - id: mobile_sign_up
-    intent: Register a new guest in the mobile app
-    question: How do I sign up a new guest on a business's loyalty app?
-  - id: delete-api2-mobile-users
-    intent: Request deletion of the guest's own account
-    question: Can a guest ask to have their loyalty account deleted from inside the app?
-  phrasing_ops: 43
   slug: punchh-users-api
 - baseURL: https://{server_name}.punchh.com
   baseurl_source: declared
   description: The WiFi Acquisition API from Punchh — 2 operation(s) for wifi acquisition.
   name: Punchh WiFi Acquisition API
-  phrasing_intents:
-  - id: mobile_wifi_enrollment
-    intent: Check a WiFi guest's email from the captive portal
-    question: Can the WiFi login page check whether a guest's email is already a member?
-  - id: mobile_enroll_guest_for_wifi
-    intent: Enroll a guest from the WiFi captive portal
-    question: How does a guest who logs into store WiFi join the eClub from the portal?
-  - id: dashboard_guest_lookup_for_wifi_enrollment
-    intent: Check a WiFi guest by email or phone as an admin
-    question: Using an admin key, can I check if a phone number already belongs to a member?
-  - id: dashboard_enroll_guests_for_wifi
-    intent: Enroll WiFi guests into eClub as an admin
-    question: Can a WiFi vendor enroll guests into the eClub with a business admin key?
-  phrasing_ops: 4
   slug: punchh-wifi-acquisition-api
 artifact_total: 132
 asyncapis:
@@ -1501,23 +824,23 @@ rules:
   slug: punchh-spectral-rules
 score:
   band: exemplar
-  composite: 69.4
+  composite: 68.8
   coverage:
     artifact_dirs: 32
-    catalog_earned: 92.0
+    catalog_earned: 89.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 23.0
+    catalog_gap: 26.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -2.8
   facets:
     access_clarity: 50.0
     contract_governance: 45.5
     contract_quality: 64.0
     developer_ergonomics: 68.5
-    discoverability: 78.6
+    discoverability: 73.2
     operational_transparency: 92.1
-  previous_composite: 68.8
+  previous_composite: 71.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1535,7 +858,7 @@ score:
     regime_id: payments
     score: 27.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

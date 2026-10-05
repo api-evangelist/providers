@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 34
+- acting_count: 38
   human_in_the_loop: 0
   name: Nex Agentic Access
   operation_count: 61
   slug: nex-agentic-access
-  summary_line: 61 operations · 34 acting
+  summary_line: 61 operations · 38 acting
 api_count: 1
 apis:
 - baseURL: https://app.nex.ai/api/developers
@@ -180,6 +180,11 @@ collections:
   slug: open-nex-timeline-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/capabilities/nex-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nex-capability-edges.yml
+- group: other
   href: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/overlays/nex-openapi-overlay.yaml
   title: ''
   type: Overlay
@@ -309,7 +314,7 @@ layout: provider
 mcp_servers:
 - description: Nex ships its context/memory surface to AI agents as a Model Context Protocol (MCP) server delivered through the `nex` CLI ("organizational context & memory for AI agents via MCP"). It connects email,
   name: Nex MCP Server
-  slug: nex-mcp-server
+  slug: nex
 modified: '2026-07-20'
 name: Nex
 nav: Providers
@@ -317,7 +322,7 @@ network: true
 overview: 'Nex publishes 16 APIs on the [APIs.io](https://apis.io/) network, including AI Lists API, Compounding API, Context API, and 13 more. Tagged areas include Company, AI Agents, Knowledge Graph, Context, and Memory.
 
 
-  Nex''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 20 more developer resources.'
+  Nex''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
 random_paper: 1
 scopes:
 - name: Nex Scopes
@@ -328,13 +333,13 @@ score:
   band: developing
   composite: 47.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
@@ -342,7 +347,7 @@ score:
     developer_ergonomics: 66.1
     discoverability: 71.7
     operational_transparency: 2.6
-  previous_composite: 47.6
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -360,7 +365,7 @@ score:
     regime_id: horizontal
     score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

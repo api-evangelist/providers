@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 16
+- acting_count: 17
   human_in_the_loop: 0
   name: Cobalt Agentic Access
   operation_count: 31
   slug: cobalt-agentic-access
-  summary_line: 31 operations · 16 acting
+  summary_line: 31 operations · 17 acting
 api_count: 1
 apis:
 - baseURL: https://api.gocobalt.io/api/v2
@@ -164,6 +164,11 @@ collections:
   name: Cobalt Applications Webhooks API
   slug: open-cobalt-webhooks-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/capabilities/cobalt-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cobalt-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1388,7 +1393,7 @@ overview: 'Cobalt publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
   The Cobalt catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Cobalt''s developer surface includes authentication, getting-started guide, documentation, pricing, signup flow, engineering blog, and 19 more developer resources.'
+  Cobalt''s developer surface includes authentication, getting-started guide, documentation, pricing, signup flow, engineering blog, and 20 more developer resources.'
 plans:
 - name: Cobalt Plans Pricing
   plan_count: 3
@@ -1422,23 +1427,23 @@ rules:
   slug: cobalt-rules
 score:
   band: strong
-  composite: 54.9
+  composite: 54.3
   coverage:
     artifact_dirs: 15
-    catalog_earned: 59.5
+    catalog_earned: 56.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.5
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.3
   facets:
     access_clarity: 68.4
     contract_governance: 13.6
     contract_quality: 62.2
     developer_ergonomics: 44.0
-    discoverability: 57.1
+    discoverability: 51.8
     operational_transparency: 36.8
-  previous_composite: 54.3
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1453,7 +1458,7 @@ score:
     regime_id: horizontal
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

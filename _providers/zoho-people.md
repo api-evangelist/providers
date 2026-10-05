@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -109,6 +109,11 @@ collections:
   name: Zoho People REST API
   slug: open-zoho-people
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/capabilities/zoho-people-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/zoho-people-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/agentic-access/zoho-people-agentic-access.yml
   title: ''
@@ -244,7 +249,7 @@ overview: 'Zoho People publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
   The Zoho People catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Zoho People''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 13 more developer resources.'
+  Zoho People''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 14 more developer resources.'
 plans:
 - name: Zoho People Plans Pricing
   plan_count: 5
@@ -285,13 +290,13 @@ score:
   band: developing
   composite: 46.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 80.4
     catalog_earned_first_party: 0.0
     catalog_gap: 34.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 53.4
     contract_governance: 27.3
@@ -299,7 +304,7 @@ score:
     developer_ergonomics: 28.6
     discoverability: 66.1
     operational_transparency: 37.4
-  previous_composite: 46.2
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     contracts:
@@ -314,7 +319,7 @@ score:
     regime_id: employment_payroll
     score: 32.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 124
+- acting_count: 113
   human_in_the_loop: 0
   name: Seekr Agentic Access
-  operation_count: 248
+  operation_count: 212
   slug: seekr-agentic-access
-  summary_line: 248 operations · 124 acting
+  summary_line: 212 operations · 113 acting
 api_count: 8
 apis:
 - description: A hosted, anonymous, read-only MCP server that gives an AI assistant direct access to the SeekrFlow documentation and the four SeekrFlow OpenAPI specs, so the assistant can generate working authentica
@@ -526,7 +526,7 @@ description: Seekr Technologies builds explainable, auditable, sovereign AI for 
 image: https://s48368.pcdn.co/wp-content/uploads/2025/10/Seekr-Thumbnail-OG-Image-1.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at docs.seekr.com over HTTP; 3 tools listed.
   name: Seekr
   slug: seekr
 modified: '2026-08-05'
@@ -547,23 +547,23 @@ plans:
 random_paper: 10
 score:
   band: strong
-  composite: 63.5
+  composite: 63.0
   coverage:
     artifact_dirs: 23
-    catalog_earned: 52.0
+    catalog_earned: 49.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -4.7
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 48.5
     developer_ergonomics: 71.4
-    discoverability: 76.7
+    discoverability: 71.7
     operational_transparency: 39.5
-  previous_composite: 63.0
+  previous_composite: 67.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -585,7 +585,7 @@ score:
     regime_id: government
     score: 27.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true
@@ -613,7 +613,6 @@ tags:
 - Fine-Tuning
 - Inference
 - RAG
-- Vector Database
 - Explainability
 - AI Governance
 - Model Evaluation

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: A governed Model Context Protocol gateway that turns GlobalData's business intelligence into tools an AI agent can call directly. One MCP server endpoint per industry vertical, all sharing a single to
@@ -137,7 +137,7 @@ description: 'GlobalData Plc is a London-listed data, analytics and insights com
 image: https://www.globaldata.com/wp-content/uploads/2025/12/cropped-cropped-gd_icon-192x192.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: 'GlobalData Plc operates a first-party, production Model Context Protocol gateway at mcp.globaldata.com that exposes its business-intelligence estate as callable agent tools. The gateway is documented '
   name: GlobalData Intelligence Center MCP
   slug: globaldata-intelligence-center-mcp
 modified: '2026-09-13'
@@ -159,9 +159,9 @@ rate_limits:
   slug: globaldata-rate-limits
 scopes:
 - name: Globaldata Scopes
-  scope_count: 0
+  scope_count: 4
   slug: globaldata-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 4 scopes
 score:
   band: emerging
   composite: 22.5
@@ -172,7 +172,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.1
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
@@ -180,7 +180,7 @@ score:
     developer_ergonomics: 20.8
     discoverability: 61.7
     operational_transparency: 0.0
-  previous_composite: 22.5
+  previous_composite: 25.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -192,7 +192,7 @@ score:
     regime_id: energy_utilities
     score: 34.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

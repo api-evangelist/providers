@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 0
+- acting_count: 1
   human_in_the_loop: 0
   name: Saas Alerts Agentic Access
   operation_count: 5
   slug: saas-alerts-agentic-access
-  summary_line: 5 operations
+  summary_line: 5 operations · 1 acting
 api_count: 1
 apis:
 - baseURL: https://api.saasalerts.com
@@ -76,6 +76,11 @@ collections:
   name: SaaS Alerts API
   slug: open-saas-alerts
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/saas-alerts/refs/heads/main/capabilities/saas-alerts-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/saas-alerts-capability-edges.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -180,7 +185,7 @@ overview: 'SaaS Alerts publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
   The SaaS Alerts catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SaaS Alerts'' developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
+  SaaS Alerts'' developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Saas Alerts Plans Pricing
   plan_count: 3
@@ -216,13 +221,13 @@ score:
   band: developing
   composite: 41.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 58.5
     catalog_earned_first_party: 0.0
     catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 53.9
     contract_governance: 13.6
@@ -230,7 +235,7 @@ score:
     developer_ergonomics: 32.1
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 41.2
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -245,7 +250,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

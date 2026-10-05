@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://otx.alienvault.com/api/v1
@@ -75,6 +75,11 @@ collections:
   name: AlienVault OTX DirectConnect Indicators Users API
   slug: open-alienvault-users-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/capabilities/alienvault-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/alienvault-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -178,19 +183,19 @@ network: true
 overview: 'AlienVault publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Indicators API, Pulses API, Search API, and 1 more. Tagged areas include Company, Security, Threat Intelligence, Cybersecurity, and Open Threat Exchange.
 
 
-  AlienVault''s developer surface includes documentation, API reference, signup flow, authentication, and 16 more developer resources.'
+  AlienVault''s developer surface includes documentation, API reference, signup flow, authentication, and 17 more developer resources.'
 random_paper: 21
 score:
   band: emerging
   composite: 23.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
@@ -198,7 +203,7 @@ score:
     developer_ergonomics: 20.8
     discoverability: 73.2
     operational_transparency: 2.6
-  previous_composite: 23.0
+  previous_composite: 24.3
   provenance:
     conformance: derived
     contracts:
@@ -215,7 +220,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

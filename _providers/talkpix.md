@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 6
 apis:
 - description: The Estimate API from TalkPix API — 1 operation(s) for estimate.
@@ -206,7 +206,7 @@ score:
   band: thin
   composite: 37.5
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 72.0
     catalog_earned_first_party: 12.0
     catalog_gap: 43.0
@@ -234,7 +234,7 @@ score:
     regime_id: horizontal
     score: 17.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 0.0

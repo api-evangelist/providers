@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 42
+- acting_count: 54
   human_in_the_loop: 1
   name: Smartlead Ai Agentic Access
-  operation_count: 98
+  operation_count: 112
   slug: smartlead-ai-agentic-access
-  summary_line: 98 operations · 42 acting · 1 human-in-the-loop
+  summary_line: 112 operations · 54 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - description: REST endpoints to create, list, fetch, update, schedule, pause, resume, and delete email campaigns, plus manage sequences, A/B variants, and sender account assignments inside a campaign.
@@ -143,6 +143,11 @@ collections:
   name: Smartlead API
   slug: open-smartlead-ai
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/capabilities/smartlead-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/smartlead-ai-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/agentic-access/smartlead-ai-agentic-access.yml
   title: ''
@@ -338,7 +343,7 @@ layout: provider
 mcp_servers:
 - description: SmartLead operates a remote MCP server on its documentation/API host. `tools/list` answered anonymously over Streamable HTTP (SSE), so the tool set below is the server's real, live manifest with its r
   name: Smartlead MCP Server
-  slug: smartlead-mcp-server
+  slug: smart-lead-api
 modified: '2026-08-13'
 name: Smartlead
 nav: Providers
@@ -349,7 +354,7 @@ overview: 'Smartlead publishes 19 APIs on the [APIs.io](https://apis.io/) networ
   The Smartlead catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Smartlead''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, pricing, engineering blog, and 34 more developer resources.'
+  Smartlead''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, pricing, engineering blog, and 35 more developer resources.'
 plans:
 - name: Smartlead Ai Plans Pricing
   plan_count: 4
@@ -363,13 +368,13 @@ score:
   band: strong
   composite: 61.0
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 85.5
     contract_governance: 4.5
@@ -377,7 +382,7 @@ score:
     developer_ergonomics: 71.4
     discoverability: 75.0
     operational_transparency: 42.1
-  previous_composite: 61.0
+  previous_composite: 60.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -399,7 +404,7 @@ score:
     regime_id: horizontal
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

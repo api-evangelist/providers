@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://www.characterquilt.com
@@ -60,6 +60,11 @@ collections:
   name: CharacterQuilt Brand Profiles Branding Discovery API
   slug: open-characterquilt-discovery-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/capabilities/characterquilt-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/characterquilt-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/mcp/characterquilt-mcp.yml
   title: ''
@@ -174,9 +179,9 @@ description: 'CharacterQuilt is an AI-native marketing infrastructure company (Y
 image: https://cdn.prod.website-files.com/678e847c65f5a9cc363424b0/68d6b1531e1346581672508b_Open%20Graph%20Image.jpg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server over HTTP.
   name: CharacterQuilt MCP Server
-  slug: characterquilt-mcp-server
+  slug: characterquilt
 modified: '2026-08-13'
 name: CharacterQuilt
 nav: Providers
@@ -184,7 +189,7 @@ network: true
 overview: 'CharacterQuilt publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Branding API, Discovery API, and 1 more. Tagged areas include Company, Marketing, Artificial Intelligence, AI Agents, and Marketing Automation.
 
 
-  CharacterQuilt''s developer surface includes engineering blog, pricing, signup flow, support, authentication, and 19 more developer resources.'
+  CharacterQuilt''s developer surface includes engineering blog, pricing, signup flow, support, authentication, and 20 more developer resources.'
 plans:
 - name: Characterquilt Plans Pricing
   plan_count: 3
@@ -196,14 +201,14 @@ rate_limits:
   slug: characterquilt-rate-limits
 scopes:
 - name: Characterquilt Scopes
-  scope_count: 0
+  scope_count: 5
   slug: characterquilt-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 5 scopes
 score:
   band: developing
   composite: 43.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 44.0
     catalog_earned_first_party: 12.0
     catalog_gap: 71.0
@@ -241,7 +246,7 @@ score:
     regime_id: horizontal
     score: 31.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

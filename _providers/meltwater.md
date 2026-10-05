@@ -35,276 +35,75 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 60.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 34
+- acting_count: 32
   human_in_the_loop: 0
   name: Meltwater Agentic Access
-  operation_count: 87
+  operation_count: 80
   slug: meltwater-agentic-access
-  summary_line: 87 operations · 34 acting
+  summary_line: 80 operations · 32 acting
 api_count: 3
 apis:
 - baseURL: https://api.meltwater.com
   baseurl_source: declared
   description: Account Management API and Usage APIs
   name: Meltwater Account Management API
-  phrasing_intents:
-  - id: list_companies
-    intent: List the companies on my account
-    question: Which companies does my Meltwater account belong to?
-  - id: list_workspaces
-    intent: List the workspaces on my account
-    question: What workspaces do I have set up?
-  - id: list_tokens
-    intent: List my API tokens
-    question: Which API tokens have been issued on my account?
-  - id: getV3UsageMeMetricsByMetric
-    intent: Check usage of a feature metric
-    question: How many documents have I exported through the API this period?
-  - id: getV3UsageMeRequests
-    intent: See how many API calls I have made
-    question: How many API requests have I made this month?
-  phrasing_ops: 5
   slug: meltwater-account-management-api
 - baseURL: https://api.meltwater.com
   baseurl_source: declared
   description: Upload your own content into the Meltwater Platform.
   name: Meltwater Bring Your Own Content (BYOC) API
-  phrasing_intents:
-  - id: handleByocDocuments
-    intent: Import my own documents into Meltwater
-    question: How do I bring my own content into the Meltwater platform?
-  - id: getV3ImportsBatches
-    intent: List my content import batches
-    question: Which of my content import batches failed last week?
-  - id: getV3ImportsBatchesByBatchId
-    intent: Check the status of one import batch
-    question: Did my uploaded content batch finish importing, and how many documents made it?
-  - id: getV3ImportsImportTagsByImportTag
-    intent: Get statistics for an import tag
-    question: How many documents have been imported under one of my import tags?
-  phrasing_ops: 4
   slug: meltwater-bring-your-own-content-byoc-api
 - baseURL: https://api.meltwater.com
   baseurl_source: declared
   description: Fetch analytics on data within your private index.
   name: Meltwater Explore+ Analytics API
-  phrasing_intents:
-  - id: postV3ExplorePlusAnalyticsCustom
-    intent: Analyse earned media in my private index
-    question: How do I run analytics over the earned coverage stored in my Explore+ private index?
-  - id: getV3ExplorePlusAnalyticsCustomCatalog
-    intent: List analytics options for my private index
-    question: What analysis types can I run against my private index?
-  phrasing_ops: 2
   slug: meltwater-explore-analytics-api
 - baseURL: https://api.meltwater.com
   baseurl_source: declared
   description: Manage your Explore+ assets including searches and custom fields.
   name: Meltwater Explore+ Assets API
-  phrasing_intents:
-  - id: getV3ExplorePlusAssetsCustomFields
-    intent: List custom fields
-    question: What custom fields are set up in my workspace?
-  - id: postV3ExplorePlusAssetsCustomFields
-    intent: Create a custom field
-    question: How do I add a new custom field for classifying content?
-  - id: getV3ExplorePlusAssetsCustomFieldsByCustomFieldId
-    intent: Get one custom field
-    question: What is configured on a specific custom field?
-  - id: putV3ExplorePlusAssetsCustomFieldsByCustomFieldId
-    intent: Update a custom field
-    question: How do I rename or change an existing custom field?
-  - id: deleteV3ExplorePlusAssetsCustomFieldsByCustomFieldId
-    intent: Delete a custom field
-    question: How do I remove a custom field I no longer need?
-  - id: postV3ExplorePlusAssetsCustomFieldsByCustomFieldIdValues
-    intent: Add a value to a custom field
-    question: How do I add a new option to an existing custom field?
-  - id: getV3ExplorePlusAssetsCustomFieldsByCustomFieldIdValuesByValueId
-    intent: Get one custom field value
-    question: What does a particular value of a custom field contain?
-  - id: putV3ExplorePlusAssetsCustomFieldsByCustomFieldIdValuesByValueId
-    intent: Update a custom field value
-    question: How do I rename one of the values in a custom field?
-  phrasing_ops: 20
   slug: meltwater-explore-assets-api
 - baseURL: https://api.meltwater.com
   baseurl_source: declared
   description: Export earned documents from your private index.
   name: Meltwater Explore+ Search API
-  phrasing_intents:
-  - id: postV3ExplorePlusSearch
-    intent: Search documents in my private index
-    question: How do I pull documents out of my Explore+ private index?
-  phrasing_ops: 1
   slug: meltwater-explore-search-api
 - baseURL: https://api.meltwater.com
   baseurl_source: declared
   description: Analyse multiple types of Meltwater data, run volume time series, top tags and sentiment counts.
   name: Meltwater Listening Analytics API
-  phrasing_intents:
-  - id: getV3Analytics-searchId-start-end-tz-source-country-language-company_id
-    intent: Summarize analytics for a saved search
-    question: How much coverage did my saved search get over a time range in Meltwater?
-  - id: getV3AnalyticsTop_tags-searchId-start-end-tz-source-country-language-size-company_id
-    intent: Rank the top tags and hashtags in a saved search
-    question: Which hashtags show up most in the results of my saved search?
-  - id: getV3AnalyticsTop_locations-searchId-start-end-tz-source-country-language-size-level-company_id
-    intent: Rank the top locations in a saved search
-    question: Where geographically is my saved search being talked about most?
-  - id: getV3AnalyticsTop_shared-searchId-start-end-tz-source-country-language-size-sort_by-company_id
-    intent: Rank the most shared documents in a saved search
-    question: Which posts matching my saved search were shared the most?
-  - id: getV3AnalyticsTop_entities-searchId-start-end-tz-source-country-language-size-sentiment-company_id
-    intent: Rank the top named entities in a saved search
-    question: Which people, brands and organizations are named most in my saved search?
-  - id: getV3AnalyticsTop_sources-searchId-start-end-tz-source-country-language-size-min_authority-company_id
-    intent: Rank the top sources and authors in a saved search
-    question: Which outlets or authors produce the most results for my saved search?
-  - id: getV3AnalyticsTop_keyphrases-searchId-start-end-tz-source-country-language-size-sentiment-company_id
-    intent: Rank the top keyphrases in a saved search
-    question: What phrases keep coming up in coverage matched by my saved search?
-  - id: getV3AnalyticsTop_mentions-searchId-start-end-tz-source
-    intent: Rank the top @mentions in a saved search
-    question: Which accounts get @mentioned most in my saved search results?
-  phrasing_ops: 12
   slug: meltwater-listening-analytics-api
 - baseURL: https://api.meltwater.com
   baseurl_source: declared
   description: Data exports for onetime and recurring jobs.
   name: Meltwater Listening Exports API
-  phrasing_intents:
-  - id: create_onetime_export
-    intent: Create a one-time export
-    question: How do I export listening results once, without a schedule?
-  - id: list_onetime_exports
-    intent: List my one-time exports
-    question: Which one-time exports have I created?
-  - id: show_onetime_export
-    intent: Get a one-time export's details
-    question: Is my one-time export finished yet?
-  - id: delete_onetime_export
-    intent: Delete a one-time export
-    question: How do I get rid of an old one-time export?
-  - id: create_recurring_export
-    intent: Create a recurring export
-    question: How do I set up an export of listening data that repeats on a schedule?
-  - id: list_recurring_exports
-    intent: List my recurring exports
-    question: Which recurring exports are currently scheduled?
-  - id: show_recurring_export
-    intent: Get a recurring export's details
-    question: What schedule is a particular recurring export on?
-  - id: delete_recurring_export
-    intent: Delete a recurring export
-    question: How do I stop a recurring export from running again?
-  phrasing_ops: 8
   slug: meltwater-listening-exports-api
 - baseURL: https://api.meltwater.com
   baseurl_source: declared
   description: Search Meltwater data using saved searches to integrate with your own API connectors and internal systems.
   name: Meltwater Listening Search API
-  phrasing_intents:
-  - id: create-earned-search
-    intent: Search earned media results with a saved search
-    question: How do I pull the actual earned media documents matching my saved search in Meltwater?
-  phrasing_ops: 1
   slug: meltwater-listening-search-api
 - baseURL: https://api.meltwater.com
   baseurl_source: declared
   description: Manage Saved Searches
   name: Meltwater Listening Search Management API
-  phrasing_intents:
-  - id: list_searches
-    intent: List my saved searches
-    question: Which saved searches do I have in Meltwater?
-  - id: create_search
-    intent: Create a saved search
-    question: How do I create a new saved search to monitor a brand?
-  - id: get_search
-    intent: Get one saved search's definition
-    question: What query is behind a particular saved search?
-  - id: update_search
-    intent: Update an existing saved search
-    question: How do I change the keywords of a saved search I already have?
-  - id: delete_search
-    intent: Delete a saved search
-    question: How do I remove a saved search I no longer use?
-  - id: search_count
-    intent: Estimate how many results a search returns
-    question: Roughly how many results does my saved search match in a given period?
-  - id: list_tags
-    intent: List my document tags
-    question: What tags have been created for labelling documents?
-  - id: postV3Tags
-    intent: Create a new document tag
-    question: How do I define a brand-new tag before labelling any documents with it?
-  phrasing_ops: 13
   slug: meltwater-listening-search-management-api
 - baseURL: https://api.meltwater.com
   baseurl_source: declared
   description: Streaming of Meltwater data to integrate with your internal systems and workflows.
   name: Meltwater Listening Streaming API
-  phrasing_intents:
-  - id: getAllHooks
-    intent: List my streaming hooks
-    question: Which streaming hooks have I set up?
-  - id: createHook
-    intent: Stream a saved search's results to a URL
-    question: How do I get Meltwater search results pushed to my own endpoint in real time?
-  - id: deleteHook
-    intent: Delete a streaming hook
-    question: How do I stop search results being sent to my endpoint?
-  - id: getHook
-    intent: Get one streaming hook
-    question: Which search and target URL is a particular hook tied to?
-  phrasing_ops: 4
   slug: meltwater-listening-streaming-api
 - baseURL: https://api.meltwater.com
   baseurl_source: declared
   description: AI-powered chat completion and project listing features.
   name: Meltwater Mira API
-  phrasing_intents:
-  - id: postV3MiraChat
-    intent: Ask Mira a question
-    question: How do I send a single prompt to Meltwater's Mira assistant?
-  - id: postV3MiraResponses
-    intent: Send a multi-message conversation to Mira
-    question: Can I pass a whole message history to Mira rather than one prompt?
-  - id: getV3MiraProjects
-    intent: List my Mira projects
-    question: Which Mira projects do I have access to?
-  phrasing_ops: 3
   slug: meltwater-mira-api-api
 - baseURL: https://api.meltwater.com
   baseurl_source: declared
   description: Retrieve owned social metrics and analytics.
   name: Meltwater Owned Analytics API
-  phrasing_intents:
-  - id: getV3OwnedAccounts
-    intent: List connected social accounts
-    question: Which owned social accounts are connected to my company?
-  - id: getV3OwnedAccountsMetricsBreakdown
-    intent: Break down an owned account metric by category
-    question: What countries does my Facebook page audience come from?
-  - id: getV3OwnedAccountsMetricsHeatmap
-    intent: Get a day-and-hour heatmap for an owned account
-    question: When during the week is my page audience most active?
-  - id: getV3OwnedAccountsMetricsNestedBreakdown
-    intent: Break down an owned account metric two levels deep
-    question: How is my page audience split by gender and then by age group?
-  - id: getV3OwnedAccountsMetricsNumeric
-    intent: Get simple numeric metrics for an owned account
-    question: How many fans does my page have right now?
-  - id: getV3OwnedAccountsPostsTopPosts
-    intent: Find the top posts on owned social accounts
-    question: Which of my own posts got the most engagement last month?
-  - id: getV3OwnedSupportedMetrics
-    intent: List supported owned social metrics
-    question: Which metric IDs can I request for my owned social accounts?
-  phrasing_ops: 7
   slug: meltwater-owned-analytics-api
 - description: Meltwater MCP is a single remote Model Context Protocol server that exposes a customer's Meltwater assets (saved searches, tags and other configured objects) and Meltwater data (news and social mentio
   name: Meltwater MCP
@@ -313,43 +112,16 @@ apis:
   baseurl_source: declared
   description: Analyze data with metrics and KPIs for LLM prompts
   name: Meltwater Analyze API
-  phrasing_intents:
-  - id: analyze
-    intent: Run an analytics query with nested analyses
-    question: How do I run an analytics query over a date range in Meltwater?
-  phrasing_ops: 1
   slug: meltwater-analyze-api
 - baseURL: https://api.meltwater.com
   baseurl_source: declared
   description: Export content and manage export jobs
   name: Meltwater Export API
-  phrasing_intents:
-  - id: listExports
-    intent: List content export jobs
-    question: Which content export jobs exist for a given data provider?
-  - id: createExport
-    intent: Create a content export job
-    question: How do I export content from my saved searches to a file?
-  - id: getExport
-    intent: Get a content export job's details
-    question: How do I check on a content export job I already started?
-  - id: deleteExport
-    intent: Delete a content export job
-    question: How do I remove a content export job I no longer need?
-  phrasing_ops: 4
   slug: meltwater-export-api
 - baseURL: https://api.meltwater.com
   baseurl_source: declared
   description: Endpoints to list LLM prompts and folders available for analytics
   name: Meltwater LLM API
-  phrasing_intents:
-  - id: listLLMPrompts
-    intent: List my LLM prompts
-    question: Which LLM prompts do I have saved for LLM analytics?
-  - id: listLLMFolders
-    intent: List my LLM prompt folders
-    question: How are my LLM prompts organized into folders?
-  phrasing_ops: 2
   slug: meltwater-llm-api
 artifact_total: 44
 asyncapis:
@@ -645,9 +417,9 @@ jsonld:
   slug: meltwater-api
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at api.meltwater.com requiring an API key.
   name: Meltwater MCP Server
-  slug: meltwater-mcp-server
+  slug: meltwater-mcp-yml
 modified: '2026-09-16'
 name: Meltwater
 nav: Providers
@@ -694,7 +466,7 @@ score:
     catalog_gap: 32.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.7
   facets:
     access_clarity: 85.5
     contract_governance: 28.0
@@ -702,7 +474,7 @@ score:
     developer_ergonomics: 66.1
     discoverability: 80.0
     operational_transparency: 84.2
-  previous_composite: 73.2
+  previous_composite: 70.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -720,7 +492,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

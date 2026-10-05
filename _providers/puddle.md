@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/puddle/refs/heads/main/security/puddle-vulnerability-disclosure.yml
@@ -78,6 +78,10 @@ created: '2026-07-17'
 description: Puddle is a technical-interview platform for evaluating software-engineering candidates in real-world, AI-enabled conditions. Candidates work through live coding assessments inside a sandboxed environment with an integrated IDE and terminal, and are free to use modern AI tools (such as Claude Code) during the session. Puddle captures detailed signals about how a candidate approaches a problem across structured phases (problem discussion, architecture, implementation, and debrief) and produces an outcome report with confidence scores, focus and iteration-pace metrics, and hiring recommendations. It is sold as a B2B SaaS recruitment-assessment tool via demo and early-access waitlist. Puddle was surfaced as an a16z portfolio company and added to the API Evangelist network. As of this pass Puddle publishes no public API, developer documentation, SDK, or OpenAPI surface; the profile below captures its verifiable public web and security presence.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/puddle.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at app.usepuddle.com over HTTP.
+  name: Puddle MCP Server
+  slug: puddle
 modified: '2026-07-20'
 name: Puddle
 nav: Providers
@@ -94,7 +98,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 6.6
     contract_governance: 0.0
@@ -102,7 +106,7 @@ score:
     developer_ergonomics: 0.0
     discoverability: 58.3
     operational_transparency: 10.5
-  previous_composite: 7.8
+  previous_composite: 8.4
   provenance:
     mcp: first-party
   regulatory:
@@ -112,7 +116,7 @@ score:
     regime_id: horizontal
     score: 10.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 1
+- acting_count: 3
   human_in_the_loop: 0
   name: Coresignal Agentic Access
   operation_count: 4
   slug: coresignal-agentic-access
-  summary_line: 4 operations · 1 acting
+  summary_line: 4 operations · 3 acting
 api_count: 3
 apis:
 - description: 'The Agentic Search API enables natural language search across Coresignal''s company, employee, and jobs datasets, returning relevant records based on conversational queries. Designed for AI agents and '
@@ -55,27 +55,11 @@ apis:
   baseurl_source: declared
   description: Retrieve full company records by ID.
   name: Coresignal Collect API
-  phrasing_intents:
-  - id: collectCompany
-    intent: Get the full record for one company
-    question: How do I pull the complete enriched profile for a single company once I have its Coresignal ID?
-  - id: bulkCollectCompanies
-    intent: Get full records for many companies at once
-    question: Can I retrieve full records for a whole batch of company IDs in one request?
-  phrasing_ops: 2
   slug: coresignal-collect-api
 - baseURL: https://api.coresignal.com/cdapi/v2/multi_source_company
   baseurl_source: declared
   description: Search and filter company records.
   name: Coresignal Search API
-  phrasing_intents:
-  - id: searchCompaniesByFilter
-    intent: Find companies matching simple filters
-    question: How do I find companies in a given industry and country without writing an Elasticsearch query?
-  - id: searchCompaniesByEsDsl
-    intent: Search companies with an Elasticsearch DSL query
-    question: Can I send my own Elasticsearch DSL query to search Coresignal's company data?
-  phrasing_ops: 2
   slug: coresignal-search-api
 arazzos:
 - description: Run an Elasticsearch DSL company query, then bulk collect the full records for every matching ID.
@@ -493,9 +477,9 @@ jsonld:
   slug: coresignal-context
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.coresignal.com over streamable HTTP requiring OAuth; 5 tools listed.
   name: Coresignal MCP Server
-  slug: coresignal-mcp-server
+  slug: com-coresignal-mcp
 modified: '2026-08-13'
 name: Coresignal
 nav: Providers
@@ -569,13 +553,13 @@ score:
   band: exemplar
   composite: 70.1
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 34
     catalog_earned: 84.0
     catalog_earned_first_party: 24.0
     catalog_gap: 31.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.8
   facets:
     access_clarity: 92.1
     contract_governance: 45.5
@@ -583,7 +567,7 @@ score:
     developer_ergonomics: 55.4
     discoverability: 80.0
     operational_transparency: 65.8
-  previous_composite: 70.1
+  previous_composite: 68.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -601,7 +585,7 @@ score:
     regime_id: horizontal
     score: 39.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

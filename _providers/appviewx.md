@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: API documentation is not publicly machine-readable; attempts to fetch OpenAPI specs returned 404 on both api and docs hosts.
@@ -104,7 +104,7 @@ score:
   band: emerging
   composite: 20.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 30.0
     catalog_earned_first_party: 0.0
     catalog_gap: 85.0
@@ -126,7 +126,7 @@ score:
     regime_id: horizontal
     score: 17.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

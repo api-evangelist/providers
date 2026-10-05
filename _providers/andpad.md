@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: ANDPAD's external REST API for integrating partner services with the ANDPAD construction management platform via the ANDPAD App Market. Served from api.andpad.jp with a versioned /v1 base path, JSON r
@@ -133,7 +133,7 @@ score:
   band: emerging
   composite: 20.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 7
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -162,7 +162,7 @@ score:
     regime_id: horizontal
     score: 17.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

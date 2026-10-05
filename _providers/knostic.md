@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -84,6 +84,11 @@ collections:
   name: Knostic AgentMesh extensions skills API
   slug: open-knostic-skills-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/capabilities/knostic-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/knostic-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/mcp/knostic-mcp.yml
   title: ''
@@ -248,7 +253,7 @@ network: true
 overview: 'Knostic publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Extensions API, MCP API, Scans API, and 1 more. Tagged areas include Company, Security, Artificial Intelligence, AI Agents, and Agent Security.
 
 
-  Knostic''s developer surface includes documentation, API reference, support, engineering blog, authentication, changelog, CLI, and 24 more developer resources.'
+  Knostic''s developer surface includes documentation, API reference, support, engineering blog, authentication, changelog, CLI, and 25 more developer resources.'
 random_paper: 15
 rate_limits:
 - limit_count: 3
@@ -258,7 +263,7 @@ score:
   band: developing
   composite: 47.7
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -294,7 +299,7 @@ score:
     regime_id: horizontal
     score: 27.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

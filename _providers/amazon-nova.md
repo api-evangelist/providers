@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -79,6 +79,11 @@ collections:
   name: Amazon Nova on Amazon Bedrock Runtime API
   slug: open-amazon-nova
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/capabilities/amazon-nova-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-nova-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/agentic-access/amazon-nova-agentic-access.yml
   title: ''
@@ -333,9 +338,9 @@ integrations:
   name: AWS IAM
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at aws-mcp.us-east-1.api.aws requiring OAuth; 8 tools listed.
   name: Amazon Nova MCP Server
-  slug: amazon-nova-mcp-server
+  slug: amazon-nova-mcp-yml
 modified: '2026-09-01'
 name: Amazon Nova
 nav: Providers
@@ -346,7 +351,7 @@ overview: 'Amazon Nova publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
   The Amazon Nova catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Amazon Nova''s developer surface includes authentication, documentation, support, engineering blog, developer console, signup flow, API reference, and 39 more developer resources.'
+  Amazon Nova''s developer surface includes authentication, documentation, support, engineering blog, developer console, signup flow, API reference, and 40 more developer resources.'
 plans:
 - name: Amazon Nova Plans Pricing
   plan_count: 0
@@ -360,13 +365,13 @@ score:
   band: strong
   composite: 62.1
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 42.0
     catalog_earned_first_party: 12.0
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 61.8
     contract_governance: 18.2
@@ -374,7 +379,7 @@ score:
     developer_ergonomics: 80.4
     discoverability: 58.3
     operational_transparency: 81.6
-  previous_composite: 62.1
+  previous_composite: 60.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -392,7 +397,7 @@ score:
     regime_id: horizontal
     score: 32.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

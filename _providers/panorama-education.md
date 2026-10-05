@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -92,6 +92,10 @@ created: '2026-07-17'
 description: Panorama Education is a K-12 education technology company whose student success platform is used by thousands of school districts to turn student data into action across academics and behavior (MTSS/RTI), universal screening, social- emotional learning (SEL) and survey instruments, attendance, graduation planning, and family and staff engagement. The platform ingests data nightly from 24+ student information systems, learning management systems, and 100+ benchmark and state assessments using the OneRoster standard and secure file transfer. Panorama does not publish a public self-service developer API; integrations are delivered as managed B2B data synchronization. The company is SOC 2 Type 2 attested, 1EdTech Data Privacy certified, ESSA Level II/IV rated, and a Student Privacy Pledge signatory (FERPA/COPPA/PPRA/CCPA aligned).
 image: https://www.panoramaed.com/hubfs/panorama-education-district-view.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.panoramaed.com over HTTP.
+  name: Panorama Education MCP Server
+  slug: panorama-education
 modified: '2026-07-20'
 name: Panorama Education
 nav: Providers
@@ -111,7 +115,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.7
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
@@ -119,7 +123,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 58.3
     operational_transparency: 0.0
-  previous_composite: 21.4
+  previous_composite: 24.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -138,7 +142,7 @@ score:
     regime_id: education
     score: 31.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

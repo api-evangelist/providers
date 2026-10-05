@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -65,6 +65,11 @@ collections:
   name: Public Companies Oauth API
   slug: open-cobee-oauth-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/capabilities/cobee-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cobee-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/overlays/cobee-public-api-overlay.yaml
   title: ''
@@ -190,13 +195,13 @@ network: true
 overview: 'Cobee by Pluxee publishes 2 APIs on the [APIs.io](https://apis.io/) network: Companies API and OAUTH API. Tagged areas include Company, Employee Benefits, Compensation, Human Resources, and Payroll.
 
 
-  Cobee by Pluxee''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 18 more developer resources.'
+  Cobee by Pluxee''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 19 more developer resources.'
 random_paper: 4
 score:
   band: developing
   composite: 44.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -236,7 +241,7 @@ score:
     regime_id: employment_payroll
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

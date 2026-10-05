@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 65.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 13
+- acting_count: 44
   human_in_the_loop: 0
   name: The Hog Agentic Access
   operation_count: 52
   slug: the-hog-agentic-access
-  summary_line: 52 operations · 13 acting
+  summary_line: 52 operations · 44 acting
 api_count: 1
 apis:
 - baseURL: https://developer.thehog.ai
@@ -277,7 +277,7 @@ description: The Hog is a real-time web intelligence API for AI agents and go-to
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-hog.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.thehog.ai.
   name: The Hog
   slug: the-hog
 modified: '2026-08-14'
@@ -299,20 +299,20 @@ rate_limits:
   slug: the-hog-rate-limits
 scopes:
 - name: The Hog Scopes
-  scope_count: 0
+  scope_count: 7
   slug: the-hog-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 7 scopes
 score:
   band: developing
   composite: 50.6
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 53.0
     catalog_earned_first_party: 16.0
     catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 52.6
     contract_governance: 4.5
@@ -320,7 +320,7 @@ score:
     developer_ergonomics: 69.0
     discoverability: 75.0
     operational_transparency: 23.7
-  previous_composite: 50.6
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -338,7 +338,7 @@ score:
     regime_id: horizontal
     score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 11
 apis:
 - description: The Agora Video Calling API enables real-time, interactive video communication with sub-200ms global latency. Supports one-to-one calls, group calls, and multi-host scenarios across mobile, web, deskt
@@ -68,7 +68,7 @@ apis:
 - description: The Agora Analytics API surfaces quality, performance, and usage metrics for all RTC, signaling, chat, and recording sessions. Provides call inspector, real-time dashboards, geographic performance, an
   name: Agora Analytics API
   slug: agora-analytics-api
-artifact_total: 42
+artifact_total: 43
 common:
 - group: operate
   title: ''
@@ -280,6 +280,10 @@ integrations:
 - description: Native engine plugins for in-game voice, video, and signaling.
   name: Unity and Unreal Engine
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.agora.io over HTTP; 4 tools listed.
+  name: Agora MCP Server
+  slug: agora-io
 modified: '2026-05-25'
 name: Agora
 nav: Providers
@@ -317,7 +321,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

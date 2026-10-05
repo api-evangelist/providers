@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/applied-compute/refs/heads/main/security/applied-compute-domain-security.yml
@@ -85,6 +85,10 @@ created: '2026-07-17'
 description: Applied Compute is a San Francisco AI company founded in 2025 by former OpenAI researchers, building "Specific Intelligence" for the enterprise. It operates a cloud platform for training, inference, and continuous improvement of custom, open AI models and long-horizon, tool-using agents grounded in a company's own proprietary data. Rather than selling a generic model, Applied Compute embeds engineers with customer teams to fine-tune models, mine production data, run online/reinforcement learning, and deploy autonomous agents that operate inside the customer's environment with observability over rollouts. The company emerged from stealth in October 2025 and is backed by Kleiner Perkins, Benchmark, Sequoia Capital, Lux Capital, Greenoaks, Neo, Elad Gil, and others at a reported ~$1.3B valuation. Named customers include DoorDash, Cognition, Harvey, and Mercor.
 image: https://mintcdn.com/appliedcompute/pJSHZ0UHJbHRexgo/logo/light.svg
 layout: provider
+mcp_servers:
+- description: Remote MCP server at docs.appliedcompute.com over HTTP; 3 tools listed.
+  name: Applied Compute MCP Server
+  slug: applied-compute
 modified: '2026-07-17'
 name: Applied Compute
 nav: Providers
@@ -104,7 +108,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -112,7 +116,7 @@ score:
     developer_ergonomics: 2.4
     discoverability: 51.7
     operational_transparency: 2.6
-  previous_composite: 9.8
+  previous_composite: 10.0
   provenance:
     mcp: first-party
   regulatory:
@@ -122,7 +126,7 @@ score:
     regime_id: horizontal
     score: 12.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

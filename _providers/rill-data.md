@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://api.rilldata.com
@@ -50,6 +50,11 @@ collections:
   name: Rill Admin Orgs API
   slug: open-rill-data-orgs-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/capabilities/rill-data-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/rill-data-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/overlays/rill-data-admin-overlay.yaml
   title: ''
@@ -178,7 +183,7 @@ layout: provider
 mcp_servers:
 - description: Official hosted Rill Model Context Protocol server. Exposes Rill's governed metrics views and project files to LLMs so analysts can query predefined measures and dimensions through natural language. A
   name: Rill Data MCP Server
-  slug: rill-data-mcp-server
+  slug: rill
 modified: '2026-07-21'
 name: Rill Data
 nav: Providers
@@ -186,7 +191,7 @@ network: true
 overview: 'Rill Data publishes 1 API on the [APIs.io](https://apis.io/) network: Orgs API. Tagged areas include Company, Analytics, Business Intelligence, Dashboards, and Metrics.
 
 
-  Rill Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 20 more developer resources.'
+  Rill Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
 random_paper: 10
 scopes:
 - name: Rill Data Scopes
@@ -197,13 +202,13 @@ score:
   band: developing
   composite: 46.0
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
@@ -211,7 +216,7 @@ score:
     developer_ergonomics: 66.1
     discoverability: 68.3
     operational_transparency: 34.2
-  previous_composite: 46.0
+  previous_composite: 44.8
   provenance:
     conformance: first-party
     contracts:
@@ -228,7 +233,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 506
   human_in_the_loop: 20
@@ -603,6 +603,11 @@ asyncapis:
   name: Apiclaw Webhooks
   slug: apiclaw-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apiclaw/refs/heads/main/capabilities/apiclaw-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/apiclaw-capability-edges.yml
 - group: start
   title: ''
   type: GettingStarted
@@ -733,9 +738,9 @@ jsonld:
   slug: apiclaw-context
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at apiclaw.biz.
   name: APIClaw MCP Server
-  slug: apiclaw-mcp-server
+  slug: apiclaw-mcp-yml
 modified: '2026-09-27'
 name: APIClaw
 nav: Providers
@@ -746,7 +751,7 @@ overview: 'APIClaw publishes 113 APIs on the [APIs.io](https://apis.io/) network
   The APIClaw catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  APIClaw''s developer surface includes getting-started guide, authentication, documentation, API reference, engineering blog, support, signup flow, and 17 more developer resources.'
+  APIClaw''s developer surface includes getting-started guide, authentication, documentation, API reference, engineering blog, support, signup flow, and 18 more developer resources.'
 plans:
 - name: Apiclaw Plans Pricing
   plan_count: 7
@@ -768,7 +773,7 @@ score:
   band: developing
   composite: 52.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 65.8
     catalog_earned_first_party: 12.0
     catalog_gap: 49.3
@@ -798,7 +803,7 @@ score:
     regime_id: horizontal
     score: 15.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 61.1

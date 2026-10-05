@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The Mondoo Platform API is a GraphQL API for programmatically querying assets, configuring integrations, and fetching vulnerability, policy, and compliance reports. Authentication is token-based via s
@@ -180,7 +180,7 @@ layout: provider
 mcp_servers:
 - description: Mondoo exposes an MCP (Model Context Protocol) server through its open-source cnquery / cnspec CLIs and the MQL shell. Agents can run it locally to perform live MQL schema lookup, query validation, an
   name: Mondoo MCP Server
-  slug: mondoo-mcp-server
+  slug: mondoo-cnquery
 modified: '2026-07-20'
 name: Mondoo
 nav: Providers
@@ -200,7 +200,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
@@ -208,7 +208,7 @@ score:
     developer_ergonomics: 71.4
     discoverability: 73.2
     operational_transparency: 44.7
-  previous_composite: 38.1
+  previous_composite: 39.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -220,7 +220,7 @@ score:
     regime_id: horizontal
     score: 30.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

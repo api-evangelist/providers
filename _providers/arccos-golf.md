@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: 'Universal Commerce Protocol (UCP) MCP endpoint published on the Arccos Golf Shopify storefront for agent-driven commerce. An anonymous JSON-RPC tools/list returns 13 tools covering catalog search and '
@@ -66,7 +66,7 @@ apis:
   description: The Webhooks API from Arccos Golf — 2 operation(s) for webhooks.
   name: Arccos Golf Webhooks API
   slug: arccos-golf-webhooks-api
-artifact_total: 19
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Arccos Golf Webhooks
@@ -244,12 +244,9 @@ description: Arccos Golf is the golf performance-tracking platform behind the Ar
 image: https://www.arccosgolf.com/cdn/shop/files/Arccos_Logo-Inline.svg
 layout: provider
 mcp_servers:
-- description: ''
+- description: MCP server; 13 tools listed.
   name: Arccos Golf Storefront UCP MCP Server
   slug: arccos-golf-storefront-ucp-mcp-server
-- description: ''
-  name: Arccos Golf MCP Server
-  slug: arccos-golf-mcp-server
 modified: '2026-08-06'
 name: Arccos Golf
 nav: Providers
@@ -277,7 +274,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
@@ -285,7 +282,7 @@ score:
     developer_ergonomics: 61.3
     discoverability: 71.7
     operational_transparency: 10.5
-  previous_composite: 41.7
+  previous_composite: 40.4
   provenance:
     conformance: derived
     contracts:
@@ -302,7 +299,7 @@ score:
     regime_id: horizontal
     score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

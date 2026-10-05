@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The documented v1 API on HyperDX Cloud, covering alerts, dashboards and chart series queries at api.hyperdx.io under /api/v1, authenticated with a Bearer personal API key. Documented as prose on hyper
@@ -97,6 +97,11 @@ asyncapis:
   name: Hyperdx Webhooks
   slug: hyperdx-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/capabilities/hyperdx-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hyperdx-capability-edges.yml
 - group: commercial
   title: ''
   type: License
@@ -280,7 +285,7 @@ overview: 'HyperDX publishes 11 APIs on the [APIs.io](https://apis.io/) network,
   The HyperDX catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  HyperDX''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  HyperDX''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 30 more developer resources.'
 plans:
 - name: Hyperdx Plans Pricing
   plan_count: 4
@@ -294,13 +299,13 @@ score:
   band: strong
   composite: 62.5
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
@@ -308,7 +313,7 @@ score:
     developer_ergonomics: 80.4
     discoverability: 68.3
     operational_transparency: 63.2
-  previous_composite: 62.5
+  previous_composite: 63.3
   provenance:
     conformance: derived
     contracts:
@@ -325,7 +330,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: Remote MCP server exposing a recruiter's inbound job applications to an agent, and letting it accept or reject them. Named "Wellfound recruiter applications" in its own RFC 9728 protected-resource doc
@@ -168,7 +168,7 @@ description: Wellfound (formerly AngelList Talent) is a startup hiring marketpla
 image: https://reach.wellfound.com/assets/marketing/og/homepage-2fb80e2936cb06211fa7702e4b089510c772d1b887166b884b4720f73445e875.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Wellfound runs TWO separate first-party hosted MCP servers, each with its own OAuth authorization server, its own scope vocabulary and its own protected-resource document. Neither is documented on any
   name: Wellfound MCP servers
   slug: wellfound-mcp-servers
 modified: '2026-09-04'
@@ -203,7 +203,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.9
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
@@ -211,7 +211,7 @@ score:
     developer_ergonomics: 19.0
     discoverability: 68.3
     operational_transparency: 26.3
-  previous_composite: 32.3
+  previous_composite: 28.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -222,7 +222,7 @@ score:
     regime_id: employment_payroll
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

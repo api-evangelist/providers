@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -262,7 +262,7 @@ description: NeverBounce is an email verification and list cleaning service — 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neverbounce.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at developers.neverbounce.com.
   name: NeverBounce Developer Docs MCP
   slug: neverbounce-developer-docs-mcp
 modified: '2026-08-13'
@@ -321,7 +321,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

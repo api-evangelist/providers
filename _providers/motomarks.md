@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 3
 apis:
 - description: Bearer-authenticated REST/JSON API for listing brands and retrieving full brand detail including color palettes, website, social links, and metadata.
@@ -35,7 +35,7 @@ apis:
 - description: Hosted streamable-HTTP MCP server exposing read-only brand tools, account tools, resources, and prompts. Auth via OAuth 2.1 or Bearer secret key. Registry name io.motomarks/mcp.
   name: MCP Server
   slug: mcp-server
-artifact_total: 11
+artifact_total: 10
 common:
 - group: company
   title: ''
@@ -151,10 +151,7 @@ layout: provider
 mcp_servers:
 - description: ''
   name: Motomarks MCP Server
-  slug: motomarks-mcp-server
-- description: Official hosted Model Context Protocol server for the Motomarks car-logo API and image CDN. Streamable-HTTP transport at https://motomarks.io/api/mcp, MCP Registry name io.motomarks/mcp. Anonymous ses
-  name: Motomarks MCP Server
-  slug: motomarks-mcp-server-2
+  slug: mcp
 modified: '2026-09-09'
 name: Motomarks
 nav: Providers
@@ -187,7 +184,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.5
   facets:
     access_clarity: 63.2
     contract_governance: 0.0
@@ -195,7 +192,7 @@ score:
     developer_ergonomics: 47.6
     discoverability: 80.0
     operational_transparency: 60.5
-  previous_composite: 41.7
+  previous_composite: 38.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -207,7 +204,7 @@ score:
     regime_id: horizontal
     score: 40.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

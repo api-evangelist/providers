@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ apis:
   description: The Subscriptions API from Baremetrics — 2 operation(s) for subscriptions.
   name: Baremetrics Subscriptions API
   slug: baremetrics-subscriptions-api
-artifact_total: 21
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -108,6 +108,11 @@ collections:
   name: Baremetrics Annotations Subscriptions API
   slug: open-baremetrics-subscriptions-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/capabilities/baremetrics-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/baremetrics-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/agentic-access/baremetrics-agentic-access.yml
   title: ''
@@ -178,6 +183,10 @@ finops:
   slug: baremetrics-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/baremetrics.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.baremetrics.com over HTTP.
+  name: Baremetrics MCP Server
+  slug: baremetrics
 modified: '2026-06-13'
 name: Baremetrics
 nav: Providers
@@ -185,7 +194,7 @@ network: true
 overview: 'Baremetrics publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Annotations API, Charges API, Customers API, and 4 more. Tagged areas include Subscription Analytics, MRR, ARR, Churn Rate, and LTV.
 
 
-  Baremetrics'' developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+  Baremetrics'' developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Baremetrics Plans Pricing
   plan_count: 3
@@ -199,13 +208,13 @@ score:
   band: thin
   composite: 36.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 58.0
     catalog_earned_first_party: 0.0
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.9
   facets:
     access_clarity: 46.8
     contract_governance: 0.0
@@ -213,7 +222,7 @@ score:
     developer_ergonomics: 19.0
     discoverability: 68.3
     operational_transparency: 40.0
-  previous_composite: 36.2
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -229,7 +238,7 @@ score:
     regime_id: horizontal
     score: 11.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

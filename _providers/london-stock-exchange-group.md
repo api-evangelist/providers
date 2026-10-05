@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 24.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 40
+- acting_count: 48
   human_in_the_loop: 2
   name: London Stock Exchange Group Agentic Access
-  operation_count: 86
+  operation_count: 78
   slug: london-stock-exchange-group-agentic-access
-  summary_line: 86 operations · 40 acting · 2 human-in-the-loop
+  summary_line: 78 operations · 48 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api-worldcheck.refinitiv.com/v2
@@ -170,6 +170,11 @@ collections:
   name: London Stock Exchange Group LSEG World-Check One Api-Info Zfs API
   slug: open-london-stock-exchange-group-zfs-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/london-stock-exchange-group/refs/heads/main/capabilities/london-stock-exchange-group-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/london-stock-exchange-group-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -336,7 +341,7 @@ network: true
 overview: 'London Stock Exchange Group publishes 15 APIs on the [APIs.io](https://apis.io/) network, including LSEG World-Check One Case API, LSEG World-Check One Media-Check API, LSEG World-Check One Smart Filter API, and 12 more. Tagged areas include Finance, Stock Exchange, Market Data, KYC, and Compliance.
 
 
-  London Stock Exchange Group''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
+  London Stock Exchange Group''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
 plans:
 - name: London Stock Exchange Group Plans Pricing
   plan_count: 3
@@ -350,13 +355,13 @@ score:
   band: developing
   composite: 47.3
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 46.0
     catalog_earned_first_party: 0.0
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.8
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
@@ -369,7 +374,7 @@ score:
     countries:
     - united-kingdom
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 47.3
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -387,7 +392,7 @@ score:
     regime_id: securities_market_data
     score: 28.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
 artifact_total: 2
 common:
@@ -60,9 +60,9 @@ created: '2026-09-25'
 description: Arcticherocore is a stub company identified in the API Evangelist secondary-market harvest. It currently lacks a publicly accessible website or detailed public information. The company appears in equity and investment listings but its own domain does not resolve, and no official API documentation or developer portal is discoverable. This entry serves as a placeholder for future enrichment as more data becomes available.
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at api.bouncewatch.com requiring OAuth.
   name: Arcticherocore MCP Server
-  slug: arcticherocore-mcp-server
+  slug: arcticherocore-mcp-yml
 modified: '2026-09-25'
 name: Arcticherocore
 nav: Providers
@@ -73,7 +73,7 @@ score:
   band: minimal
   composite: 4.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
@@ -101,7 +101,7 @@ score:
     regime_id: horizontal
     score: 11.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

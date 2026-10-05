@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 45
+- acting_count: 52
   human_in_the_loop: 0
   name: Dojo Agentic Access
   operation_count: 75
   slug: dojo-agentic-access
-  summary_line: 75 operations · 45 acting
+  summary_line: 75 operations · 52 acting
 api_count: 5
 apis:
 - baseURL: https://api.dojo.tech
@@ -162,6 +162,11 @@ collections:
   name: Transaction API
   slug: open-dojo-transactions-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/capabilities/dojo-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/dojo-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/agentic-access/dojo-agentic-access.yml
   title: ''
@@ -350,19 +355,19 @@ overview: 'Dojo publishes 19 APIs on the [APIs.io](https://apis.io/) network, in
   The Dojo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dojo''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, sandbox, engineering blog, and 31 more developer resources.'
+  Dojo''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, sandbox, engineering blog, and 32 more developer resources.'
 random_paper: 10
 score:
   band: developing
   composite: 53.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.8
   facets:
     access_clarity: 38.2
     contract_governance: 4.5
@@ -378,7 +383,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 53.6
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -396,7 +401,7 @@ score:
     regime_id: payments
     score: 27.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

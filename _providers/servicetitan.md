@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 37
+- acting_count: 38
   human_in_the_loop: 0
   name: Servicetitan Agentic Access
   operation_count: 90
   slug: servicetitan-agentic-access
-  summary_line: 90 operations · 37 acting
+  summary_line: 90 operations · 38 acting
 api_count: 8
 apis:
 - description: Manage marketing campaigns, campaign categories, suppression lists, and attribution data that powers cost-per-lead and cost-per-booked-job reporting. Underpins Marketing Pro email and SMS campaigns.
@@ -867,23 +867,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 54.1
+  composite: 53.6
   coverage:
     artifact_dirs: 19
-    catalog_earned: 75.0
+    catalog_earned: 72.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.1
+    catalog_gap: 43.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 1.5
   facets:
     access_clarity: 60.5
     contract_governance: 23.5
     contract_quality: 55.1
     developer_ergonomics: 51.2
-    discoverability: 71.4
+    discoverability: 66.1
     operational_transparency: 40.0
-  previous_composite: 53.6
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     contracts:
@@ -898,7 +898,7 @@ score:
     regime_id: horizontal
     score: 39.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

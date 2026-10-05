@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The Guildcode REST API for creating workspace-scoped agent sessions, posting events, and reading session events and tasks. HTTP Basic authentication; no public OpenAPI spec.
@@ -132,7 +132,7 @@ layout: provider
 mcp_servers:
 - description: The Guild CLI ships an MCP server that exposes Guild control-plane operations as tools for MCP clients, so client agents can list and inspect workspaces, agents, sessions, triggers, credentials, and i
   name: Guild.ai MCP Server
-  slug: guildai-mcp-server
+  slug: guild
 modified: '2026-07-19'
 name: Guild.ai
 nav: Providers
@@ -170,7 +170,7 @@ score:
     regime_id: horizontal
     score: 18.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

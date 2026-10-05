@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -136,9 +136,9 @@ description: BrightAI builds Physical AI for essential services — continuous, 
 image: https://cdn.prod.website-files.com/6a4ea9e79536d28883c64986/6a4ea9e79536d28883c64b40_bright-ai-favicon-256x256.jpg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at public.stateful.world over HTTP; 6 tools listed.
   name: BrightAI MCP Server
-  slug: brightai-mcp-server
+  slug: brightai-public
 modified: '2026-08-08'
 name: BrightAI
 nav: Providers
@@ -152,13 +152,13 @@ score:
   band: emerging
   composite: 24.4
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.2
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
@@ -166,7 +166,7 @@ score:
     developer_ergonomics: 28.0
     discoverability: 75.0
     operational_transparency: 0.0
-  previous_composite: 24.4
+  previous_composite: 25.6
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -179,7 +179,7 @@ score:
     regime_id: energy_utilities
     score: 21.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

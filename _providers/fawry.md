@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -83,6 +83,11 @@ collections:
   name: FawryPay Server API
   slug: open-fawrypay-server-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fawry/refs/heads/main/capabilities/fawry-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fawry-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/fawry/refs/heads/main/agentic-access/fawry-agentic-access.yml
   title: ''
@@ -264,7 +269,7 @@ network: true
 overview: 'Fawry publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Installments API, Orders API, Payments API, and 1 more. Tagged areas include Payments, E-Payments, Digital Finance, Fintech, and Egypt.
 
 
-  Fawry''s developer surface includes developer portal, getting-started guide, documentation, signup flow, support, code examples, YouTube channel, and 32 more developer resources.'
+  Fawry''s developer surface includes developer portal, getting-started guide, documentation, signup flow, support, code examples, YouTube channel, and 33 more developer resources.'
 random_paper: 3
 score:
   band: thin
@@ -276,7 +281,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
@@ -291,7 +296,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
-  previous_composite: 28.0
+  previous_composite: 28.2
   provenance:
     agentic_access: derived
     contracts:
@@ -306,7 +311,7 @@ score:
     regime_id: payments
     score: 5.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true
@@ -338,5 +343,6 @@ tags:
 - Magento
 - Shopify
 - WooCommerce
+- MENA
 website: https://fawry.com/
 ---

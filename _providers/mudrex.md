@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 3
 apis:
 - description: Programmatic control over a Mudrex futures trading account. Transfer funds between the spot and futures wallets (USDT and INR), list tradeable instruments and contract specifications, get and set leve
@@ -193,7 +193,7 @@ layout: provider
 mcp_servers:
 - description: Mudrex operates an official hosted MCP server at https://mudrex.com/mcp that converts the Mudrex Futures Trading API into MCP tools for AI assistants. Clients connect through mcp-remote and authentica
   name: Mudrex MCP Server
-  slug: mudrex-mcp-server
+  slug: mudrex
 modified: '2026-08-04'
 name: Mudrex
 nav: Providers
@@ -220,7 +220,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
@@ -235,7 +235,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 42.0
+  previous_composite: 43.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -247,7 +247,7 @@ score:
     regime_id: securities_market_data
     score: 20.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

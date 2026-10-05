@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 58
+- acting_count: 60
   human_in_the_loop: 3
   name: Composio Agentic Access
   operation_count: 107
   slug: composio-agentic-access
-  summary_line: 107 operations · 58 acting · 3 human-in-the-loop
+  summary_line: 107 operations · 60 acting · 3 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://backend.composio.dev/api/v3
@@ -290,6 +290,11 @@ collections:
   name: Composio Platform Account Management x-internal API
   slug: open-composio-x-internal-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/capabilities/composio-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/composio-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/vendor-facets/composio-vendor-facets.yml
   title: ''
@@ -704,7 +709,7 @@ layout: provider
 mcp_servers:
 - description: 'Composio exposes its 1000+ toolkits over the Model Context Protocol as a hosted, per-session MCP server. The recommended path is the Tool Router: create a session with `mcp: true` and read the hosted '
   name: Composio MCP Server
-  slug: composio-mcp-server
+  slug: composio-mcp-yml
 modified: '2026-06-20'
 name: Composio
 nav: Providers
@@ -715,7 +720,7 @@ overview: 'Composio publishes 17 APIs on the [APIs.io](https://apis.io/) network
   The Composio catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Composio''s developer surface includes changelog, CLI, authentication, developer portal, documentation, getting-started guide, API reference, and 55 more developer resources.'
+  Composio''s developer surface includes changelog, CLI, authentication, developer portal, documentation, getting-started guide, API reference, and 56 more developer resources.'
 plans:
 - name: Composio Plans Pricing
   plan_count: 4
@@ -751,13 +756,13 @@ score:
   band: strong
   composite: 57.1
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 34
     catalog_earned: 55.5
     catalog_earned_first_party: 0.0
     catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
@@ -768,7 +773,7 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 57.1
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -785,7 +790,7 @@ score:
     regime_id: horizontal
     score: 30.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

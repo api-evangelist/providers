@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -81,6 +81,11 @@ collections:
   name: Counter API
   slug: open-counter-dev
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/counter-dev/refs/heads/main/capabilities/counter-dev-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/counter-dev-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/counter-dev/refs/heads/main/agentic-access/counter-dev-agentic-access.yml
   title: ''
@@ -233,7 +238,7 @@ overview: 'Counter publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
   The Counter catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Counter''s developer surface includes authentication, documentation, engineering blog, sandbox, CLI, getting-started guide, support, and 22 more developer resources.'
+  Counter''s developer surface includes authentication, documentation, engineering blog, sandbox, CLI, getting-started guide, support, and 23 more developer resources.'
 plans:
 - name: Counter Dev Plans Pricing
   plan_count: 2
@@ -247,13 +252,13 @@ score:
   band: developing
   composite: 48.1
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 60.0
     catalog_earned_first_party: 20.0
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 52.6
     contract_governance: 4.5
@@ -261,7 +266,7 @@ score:
     developer_ergonomics: 64.9
     discoverability: 66.1
     operational_transparency: 34.2
-  previous_composite: 48.1
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -279,7 +284,7 @@ score:
     regime_id: horizontal
     score: 20.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

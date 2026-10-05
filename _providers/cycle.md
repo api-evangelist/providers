@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -77,6 +77,10 @@ created: '2026-07-17'
 description: CYCLE (operated by CM Invest B.V., Amsterdam) is a European electric-mobility subscription service that provides e-bikes and cargo bikes to professional delivery riders, couriers, and businesses. Its all-inclusive monthly subscriptions bundle maintenance, on-site repairs, bike swaps, GPS tracking, theft protection, and remote motor control across 100+ cities in Germany, Austria, the Netherlands, Belgium, Poland, Italy, and the UK. CYCLE was added to the API Evangelist network as a company profile; the provider publishes a consumer/business marketing and operations site but exposes no public developer API, SDKs, or developer portal at this time.
 image: https://cdn.prod.website-files.com/6537d430c3fa07bb5981739f/6537e2ceae04e00980e42876_cycle%20logo.svg
 layout: provider
+mcp_servers:
+- description: Remote MCP server at docs.cycle.eco over HTTP.
+  name: Cycle MCP Server
+  slug: cycle
 modified: '2026-07-18'
 name: Cycle
 nav: Providers
@@ -114,7 +118,7 @@ score:
     regime_id: horizontal
     score: 13.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

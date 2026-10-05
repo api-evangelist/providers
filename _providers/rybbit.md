@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -49,52 +49,16 @@ apis:
   baseurl_source: declared
   description: Stats API for events and reporting per site.
   name: Rybbit Analytics API
-  phrasing_intents:
-  - id: listUsers
-    intent: List the visitors tracked on a site
-    question: Can I page through every user Rybbit has recorded for one of my sites?
-  - id: getUser
-    intent: Look up one visitor's profile
-    question: How do I pull up the profile of a single visitor by their user ID?
-  - id: listUserSessions
-    intent: List every visit made by one user
-    question: Which visits has one particular user made to my site over time?
-  - id: getUserSessionCount
-    intent: Count sessions per user on a site
-    question: How many times has each user come back to my site?
-  - id: getJourneys
-    intent: See common navigation paths through a site
-    question: What paths do visitors usually take from page to page on my site?
-  phrasing_ops: 5
   slug: rybbit-analytics-api
 - baseURL: https://app.rybbit.io/api
   baseurl_source: declared
   description: Public ingestion endpoint for pageviews and custom events.
   name: Rybbit Event Tracking API
-  phrasing_intents:
-  - id: trackEvent
-    intent: Record a pageview or custom event
-    question: How do I send a pageview to Rybbit from my server instead of the tracking script?
-  phrasing_ops: 1
   slug: rybbit-event-tracking-api
 - baseURL: https://app.rybbit.io/api
   baseurl_source: declared
   description: Session-level analytics and cohort retention.
   name: Rybbit Sessions API
-  phrasing_intents:
-  - id: listSessions
-    intent: List sessions on a site
-    question: How do I list all the visits to my site between two dates?
-  - id: getSession
-    intent: Replay the pageviews and events of one session
-    question: What pages did a visitor view, in order, during one specific session?
-  - id: listSessionLocations
-    intent: Map where a site's sessions come from
-    question: Where in the world are my site's visits coming from?
-  - id: getRetention
-    intent: Analyze cohort retention for a site
-    question: How many visitors come back after their first visit, grouped by cohort?
-  phrasing_ops: 4
   slug: rybbit-sessions-api
 artifact_total: 18
 collections:
@@ -114,6 +78,11 @@ collections:
   name: Rybbit API
   slug: open-rybbit
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/capabilities/rybbit-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/rybbit-capability-edges.yml
 - group: commercial
   title: ''
   type: License
@@ -345,7 +314,7 @@ layout: provider
 mcp_servers:
 - description: Rybbit ships a first-party HOSTED (remote) Model Context Protocol server as part of the product — the same server code is in the AGPL-3.0 repository, so a self-hosted instance exposes it at <BASE_URL>
   name: Rybbit MCP Server
-  slug: rybbit-mcp-server
+  slug: rybbit
 modified: '2026-08-13'
 name: Rybbit
 nav: Providers
@@ -353,7 +322,7 @@ network: true
 overview: 'Rybbit publishes 3 APIs on the [APIs.io](https://apis.io/) network: Analytics API, Event Tracking API, and Sessions API. Tagged areas include Analytics, Web Analytics, Product Analytics, Privacy, and Open Source.
 
 
-  Rybbit''s developer surface includes authentication, engineering blog, documentation, changelog, sandbox, API reference, getting-started guide, and 41 more developer resources.'
+  Rybbit''s developer surface includes authentication, engineering blog, documentation, changelog, sandbox, API reference, getting-started guide, and 42 more developer resources.'
 plans:
 - name: Rybbit Plans Pricing
   plan_count: 5
@@ -372,13 +341,13 @@ score:
   band: exemplar
   composite: 68.2
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.0
   facets:
     access_clarity: 100.0
     contract_governance: 18.2
@@ -386,7 +355,7 @@ score:
     developer_ergonomics: 74.4
     discoverability: 75.0
     operational_transparency: 60.5
-  previous_composite: 68.2
+  previous_composite: 65.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -410,7 +379,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

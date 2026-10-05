@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -194,6 +194,11 @@ collections:
   name: Dropbox Sign Account Unclaimed Draft API
   slug: open-hellosign-unclaimed-draft-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/capabilities/hellosign-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hellosign-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -375,7 +380,7 @@ layout: provider
 mcp_servers:
 - description: Official hosted MCP server published by Dropbox Sign (formerly HelloSign) for AI client integration (Claude Code, Cursor, etc.), advertised in the docs llms.txt. Serves the Dropbox Sign developer docu
   name: Dropbox Sign (HelloSign) MCP Server
-  slug: dropbox-sign-hellosign-mcp-server
+  slug: dropbox-sign-docs
 modified: '2026-09-16'
 name: Dropbox Sign (HelloSign)
 nav: Providers
@@ -386,7 +391,7 @@ overview: 'Dropbox Sign (HelloSign) publishes 13 APIs on the [APIs.io](https://a
   The Dropbox Sign (HelloSign) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dropbox Sign (HelloSign)''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 31 more developer resources.'
+  Dropbox Sign (HelloSign)''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 32 more developer resources.'
 random_paper: 19
 scopes:
 - name: Hellosign Scopes
@@ -403,7 +408,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.9
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
@@ -411,7 +416,7 @@ score:
     developer_ergonomics: 64.9
     discoverability: 75.0
     operational_transparency: 50.0
-  previous_composite: 59.6
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -433,7 +438,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

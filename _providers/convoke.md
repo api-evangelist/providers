@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/convoke/refs/heads/main/security/convoke-domain-security.yml
@@ -73,6 +73,10 @@ created: '2026-07-17'
 description: Convoke is building an AI-native operating system for the biopharmaceutical industry. Founded in 2024 and based in South San Francisco, the platform unifies fragmented internal knowledge, workflows, and external data into a continuously updating workspace, codifies the decision logic behind high-stakes choices, and generates critical deliverables such as competitive intelligence briefs, portfolio strategy analyses, market research, and scientific manuscripts across the drug development lifecycle. Convoke serves biopharma teams working in business development, competitive intelligence, portfolio strategy, market research, and medical affairs. The company raised an $8.6M seed round co-led by Kleiner Perkins and Dimension. As of this profile, Convoke publishes a public marketing and company site but no public developer API, SDK, or documentation surface.
 image: https://framerusercontent.com/images/Iv0xFY0plj2ZF7UOeWLJ7vJcdy8.jpg
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.convoke.bio over HTTP.
+  name: Convoke MCP Server
+  slug: convoke
 modified: '2026-07-18'
 name: Convoke
 nav: Providers
@@ -92,7 +96,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
@@ -100,7 +104,7 @@ score:
     developer_ergonomics: 2.4
     discoverability: 51.7
     operational_transparency: 0.0
-  previous_composite: 7.0
+  previous_composite: 6.7
   provenance:
     mcp: first-party
   regulatory:
@@ -110,7 +114,7 @@ score:
     regime_id: health
     score: 7.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

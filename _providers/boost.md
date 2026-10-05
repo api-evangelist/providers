@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -237,7 +237,7 @@ layout: provider
 mcp_servers:
 - description: An MCP server that provides AI-powered integration with the Boost V2 and RewardKit APIs.
   name: Boost MCP Server
-  slug: boost-mcp-server
+  slug: boost-api-mcp
 modified: '2026-09-16'
 name: Boost
 nav: Providers
@@ -257,7 +257,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
     access_clarity: 13.2
     contract_governance: 4.5
@@ -265,7 +265,7 @@ score:
     developer_ergonomics: 70.8
     discoverability: 71.7
     operational_transparency: 2.6
-  previous_composite: 37.1
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -283,7 +283,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

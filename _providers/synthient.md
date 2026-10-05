@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,6 +70,11 @@ apis:
   slug: synthient-torrents-api
 artifact_total: 22
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/synthient/refs/heads/main/capabilities/synthient-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/synthient-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/synthient/refs/heads/main/agentic-access/synthient-agentic-access.yml
   title: ''
@@ -262,7 +267,7 @@ layout: provider
 mcp_servers:
 - description: ''
   name: Synthient API MCP Server
-  slug: synthient-api-mcp-server
+  slug: synthient-mcp-yml
 modified: '2026-09-28'
 name: Synthient API
 nav: Providers
@@ -273,7 +278,7 @@ overview: 'Synthient API publishes 7 APIs on the [APIs.io](https://apis.io/) net
   The Synthient API catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Synthient API''s developer surface includes CLI, authentication, pricing, engineering blog, documentation, API reference, getting-started guide, and 28 more developer resources.'
+  Synthient API''s developer surface includes CLI, authentication, pricing, engineering blog, documentation, API reference, getting-started guide, and 29 more developer resources.'
 plans:
 - name: Synthient Plans Pricing
   plan_count: 4
@@ -299,7 +304,7 @@ score:
   band: strong
   composite: 60.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 86.8
     catalog_earned_first_party: 24.0
     catalog_gap: 28.3
@@ -329,7 +334,7 @@ score:
     regime_id: horizontal
     score: 30.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 0.0

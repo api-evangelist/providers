@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 38.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 2
@@ -95,6 +95,11 @@ asyncapis:
   name: Arcadiapower2 Webhooks
   slug: arcadiapower2-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/arcadiapower2/refs/heads/main/capabilities/arcadiapower2-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/arcadiapower2-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/arcadiapower2/refs/heads/main/vendors/arcadiapower2-vendors.yml
   title: ''
@@ -270,7 +275,7 @@ overview: 'Arcadiapower2 publishes 11 APIs on the [APIs.io](https://apis.io/) ne
   The Arcadiapower2 catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Arcadiapower2''s developer surface includes changelog, sandbox, authentication, engineering blog, getting-started guide, documentation, and 23 more developer resources.'
+  Arcadiapower2''s developer surface includes changelog, sandbox, authentication, engineering blog, getting-started guide, documentation, and 24 more developer resources.'
 random_paper: 18
 rate_limits:
 - limit_count: 4
@@ -322,7 +327,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 0.0

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -118,6 +118,11 @@ collections:
   name: Trelica REST Application Users Workflows API
   slug: open-trelica-workflows-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/capabilities/trelica-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/trelica-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -261,7 +266,7 @@ overview: 'Trelica publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
   The Trelica catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Trelica''s developer surface includes authentication, documentation, and 20 more developer resources.'
+  Trelica''s developer surface includes authentication, documentation, and 21 more developer resources.'
 plans:
 - name: Trelica Plans Pricing
   plan_count: 3
@@ -302,7 +307,7 @@ score:
   band: thin
   composite: 34.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 66.0
     catalog_earned_first_party: 0.0
     catalog_gap: 49.0
@@ -334,7 +339,7 @@ score:
     regime_id: horizontal
     score: 26.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

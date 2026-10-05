@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 7
+- acting_count: 8
   human_in_the_loop: 0
   name: Weavix Agentic Access
   operation_count: 19
   slug: weavix-agentic-access
-  summary_line: 19 operations · 7 acting
+  summary_line: 19 operations · 8 acting
 api_count: 1
 apis:
 - baseURL: https://api.weavix.com
@@ -247,9 +247,9 @@ description: 'weavix is the "Internet of Workers" frontline communication and wo
 image: https://weavix.com/wp-content/uploads/2023/03/weavix-logo.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server over HTTP; 18 tools listed. A candidate, not confirmed as published by the provider.
   name: Weavix MCP Server
-  slug: weavix-mcp-server
+  slug: weavix
 modified: '2026-07-21'
 name: Weavix
 nav: Providers
@@ -266,13 +266,13 @@ score:
   band: developing
   composite: 41.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.8
   facets:
     access_clarity: 60.5
     contract_governance: 4.5
@@ -287,7 +287,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 41.6
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -305,7 +305,7 @@ score:
     regime_id: horizontal
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

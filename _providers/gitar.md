@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -74,6 +74,11 @@ collections:
   name: Gitar External GitLab MR Status Installation Health API
   slug: open-gitar-installation-health-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gitar/refs/heads/main/capabilities/gitar-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gitar-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -215,7 +220,7 @@ network: true
 overview: 'Gitar publishes 3 APIs on the [APIs.io](https://apis.io/) network: GitLab MR Status API, GitLab Projects API, and Installation Health API. Tagged areas include Company, Developer Tools, Code Review, CI/CD, and Code Quality.
 
 
-  Gitar''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 22 more developer resources.'
+  Gitar''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
 random_paper: 7
 score:
   band: developing
@@ -257,7 +262,7 @@ score:
     regime_id: horizontal
     score: 27.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Magic The Gathering Game Information
@@ -61,11 +61,11 @@ modified: '2026-05-28'
 name: Magic The Gathering
 nav: Providers
 network: true
-overview: Magic The Gathering publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Games And Comics and Public APIs.
+overview: Magic The Gathering publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Public APIs, Gaming, and Card Games.
 random_paper: 7
 score:
   band: minimal
-  composite: 5.1
+  composite: 4.4
   coverage:
     artifact_dirs: 3
     catalog_earned: 22.0
@@ -73,7 +73,7 @@ score:
     catalog_gap: 93.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.2
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -81,15 +81,15 @@ score:
     developer_ergonomics: 9.5
     discoverability: 46.4
     operational_transparency: 0.0
-  previous_composite: 5.1
+  previous_composite: 7.6
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 5.9
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 5.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false
@@ -103,7 +103,8 @@ security:
   summary_line: TLSv1.3
 slug: magic-the-gathering
 tags:
-- Games And Comics
 - Public APIs
+- Gaming
+- Card Games
 website: http://magicthegathering.io/
 ---

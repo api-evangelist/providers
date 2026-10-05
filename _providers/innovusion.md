@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: A live, OAuth-gated Model Context Protocol endpoint served from Seyond's own corporate host at https://seyond.com/wp-json/mcp/mcp-oauth-server. It is provided by the WordPress MCP adapter running on s
@@ -181,7 +181,7 @@ description: 'Seyond (formerly Innovusion) is a Sunnyvale, California LiDAR make
 image: https://seyond.com/wp-content/uploads/2024/11/cropped-seyond_favicon-192x192.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at seyond.com requiring OAuth.
   name: Seyond MCP Server
   slug: seyond-mcp-server
 modified: '2026-08-23'
@@ -203,9 +203,9 @@ rate_limits:
   slug: innovusion-rate-limits
 scopes:
 - name: Innovusion Scopes
-  scope_count: 0
+  scope_count: 1
   slug: innovusion-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 1 scope
 score:
   band: thin
   composite: 29.4
@@ -216,7 +216,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.8
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
@@ -224,7 +224,7 @@ score:
     developer_ergonomics: 54.8
     discoverability: 68.3
     operational_transparency: 18.4
-  previous_composite: 29.4
+  previous_composite: 26.6
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -235,7 +235,7 @@ score:
     regime_id: horizontal
     score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

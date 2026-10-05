@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 57.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 268
+- acting_count: 271
   human_in_the_loop: 23
   name: Qovery Agentic Access
   operation_count: 508
   slug: qovery-agentic-access
-  summary_line: 508 operations · 268 acting · 23 human-in-the-loop
+  summary_line: 508 operations · 271 acting · 23 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.qovery.com
@@ -516,7 +516,7 @@ apis:
   description: The Variable Main Calls API from Qovery — 5 operation(s) for variable main calls.
   name: Qovery Variable Main Calls API
   slug: qovery-variable-main-calls-api
-artifact_total: 205
+artifact_total: 206
 collections:
 - collection_type: open
   name: API Collection
@@ -921,6 +921,10 @@ finops:
   slug: qovery-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qovery.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.qovery.com over HTTP.
+  name: Qovery MCP Server
+  slug: qovery
 modified: '2026-05-25'
 name: Qovery
 nav: Providers
@@ -943,23 +947,23 @@ rate_limits:
   slug: qovery-rate-limits
 score:
   band: developing
-  composite: 42.5
+  composite: 42.0
   coverage:
     artifact_dirs: 15
-    catalog_earned: 50.0
+    catalog_earned: 47.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 65.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.2
   facets:
     access_clarity: 57.9
     contract_governance: 0.0
     contract_quality: 52.6
     developer_ergonomics: 39.8
-    discoverability: 51.7
+    discoverability: 46.7
     operational_transparency: 31.6
-  previous_composite: 42.0
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     contracts:
@@ -975,7 +979,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

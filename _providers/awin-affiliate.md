@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,72 +48,26 @@ apis:
   baseurl_source: declared
   description: Accounts the authenticated user can access.
   name: Awin Accounts API
-  phrasing_intents:
-  - id: getAccounts
-    intent: List the accounts my user can access
-    question: Which Awin publisher and advertiser accounts can my login access?
-  phrasing_ops: 1
   slug: awin-affiliate-accounts-api
 - baseURL: https://api.awin.com
   baseurl_source: declared
   description: Commission groups and rates for a programme.
   name: Awin Commission Groups API
-  phrasing_intents:
-  - id: getCommissionGroups
-    intent: Get an advertiser's commission groups and rates
-    question: What commission rates does an advertiser pay me as a publisher on Awin?
-  phrasing_ops: 1
   slug: awin-affiliate-commission-groups-api
 - baseURL: https://api.awin.com
   baseurl_source: declared
   description: Advertiser programmes and their details.
   name: Awin Programmes API
-  phrasing_intents:
-  - id: getProgrammes
-    intent: List the advertiser programmes a publisher works with
-    question: Which advertiser programmes have I joined as an Awin publisher?
-  - id: getProgrammeDetails
-    intent: Get details of one advertiser programme
-    question: What are the valid domains, KPIs and commission range for one advertiser's programme?
-  phrasing_ops: 2
   slug: awin-affiliate-programmes-api
 - baseURL: https://api.awin.com
   baseurl_source: declared
   description: Aggregated performance reports.
   name: Awin Reports API
-  phrasing_intents:
-  - id: getPublisherAdvertiserReport
-    intent: Report a publisher's performance by advertiser
-    question: Which advertisers earned me the most as a publisher over a date range?
-  - id: getPublisherCreativeReport
-    intent: Report a publisher's performance by creative
-    question: Which banners and creatives drove the most clicks and impressions on my publisher site?
-  - id: getPublisherCampaignReport
-    intent: Report a publisher's performance by campaign
-    question: Which campaigns brought me the most clicks and sales as a publisher?
-  - id: getAdvertiserPublisherReport
-    intent: Report an advertiser's performance by publisher
-    question: Which publishers drive the most sales for my advertiser programme?
-  - id: getAdvertiserCreativeReport
-    intent: Report an advertiser's performance by creative
-    question: Which of my advertiser creatives get the most impressions across publishers?
-  - id: getAdvertiserCampaignReport
-    intent: Report an advertiser's performance by campaign
-    question: Which of my advertiser campaigns drew the most clicks and sales from publishers?
-  phrasing_ops: 6
   slug: awin-affiliate-reports-api
 - baseURL: https://api.awin.com
   baseurl_source: declared
   description: Individual publisher and advertiser transactions.
   name: Awin Transactions API
-  phrasing_intents:
-  - id: getPublisherTransactions
-    intent: List a publisher's individual transactions
-    question: Which individual sales did I earn commission on as a publisher last week?
-  - id: getAdvertiserTransactions
-    intent: List an advertiser's individual transactions
-    question: How do I export every affiliate sale tracked for my advertiser account in a date range?
-  phrasing_ops: 2
   slug: awin-affiliate-transactions-api
 artifact_total: 21
 asyncapis:
@@ -375,7 +329,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 100.0
     contract_governance: 18.2
@@ -383,7 +337,7 @@ score:
     developer_ergonomics: 67.3
     discoverability: 73.2
     operational_transparency: 78.9
-  previous_composite: 70.0
+  previous_composite: 68.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -405,7 +359,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

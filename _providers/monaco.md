@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 62.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 27
+- acting_count: 35
   human_in_the_loop: 0
   name: Monaco Agentic Access
   operation_count: 51
   slug: monaco-agentic-access
-  summary_line: 51 operations · 27 acting
+  summary_line: 51 operations · 35 acting
 api_count: 1
 apis:
 - baseURL: https://api.monaco.com
@@ -153,6 +153,11 @@ collections:
   name: Monaco Public Accounts Users API
   slug: open-monaco-users-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/capabilities/monaco-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/monaco-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/overlays/monaco-openapi-overlay.yaml
   title: ''
@@ -285,9 +290,9 @@ description: Monaco is an AI-native revenue platform for startups that replaces 
 image: https://www.monaco.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.monaco.com over HTTP requiring OAuth; 24 tools listed.
   name: Monaco MCP Server
-  slug: monaco-mcp-server
+  slug: monaco
 modified: '2026-08-13'
 name: Monaco
 nav: Providers
@@ -295,7 +300,7 @@ network: true
 overview: 'Monaco publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Audiences API, Auth API, and 10 more. Tagged areas include Company, CRM, Sales, Revenue Operations, and Artificial Intelligence.
 
 
-  Monaco''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 22 more developer resources.'
+  Monaco''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 23 more developer resources.'
 plans:
 - name: Monaco Plans Pricing
   plan_count: 0
@@ -314,13 +319,13 @@ score:
   band: developing
   composite: 49.6
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.4
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
@@ -328,7 +333,7 @@ score:
     developer_ergonomics: 54.2
     discoverability: 75.0
     operational_transparency: 18.4
-  previous_composite: 49.6
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -346,7 +351,7 @@ score:
     regime_id: horizontal
     score: 41.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

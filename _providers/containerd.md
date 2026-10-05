@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,6 +69,11 @@ collections:
   name: Containerd Metrics API
   slug: open-containerd-metrics
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/containerd/refs/heads/main/capabilities/containerd-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/containerd-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -173,7 +178,7 @@ overview: 'Containerd publishes 4 APIs on the [APIs.io](https://apis.io/) networ
   The Containerd catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Containerd''s developer surface includes documentation, getting-started guide, changelog, and 14 more developer resources.'
+  Containerd''s developer surface includes documentation, getting-started guide, changelog, and 15 more developer resources.'
 plans:
 - name: Containerd Plans Pricing
   plan_count: 1
@@ -209,13 +214,13 @@ score:
   band: thin
   composite: 29.0
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 51.5
     catalog_earned_first_party: 0.0
     catalog_gap: 48.5
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.8
   facets:
     access_clarity: 0.0
     contract_governance: 13.6
@@ -226,7 +231,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 29.0
+  previous_composite: 31.8
   provenance:
     agentic_access: derived
     contracts:
@@ -241,7 +246,7 @@ score:
     regime_id: horizontal
     score: 10.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

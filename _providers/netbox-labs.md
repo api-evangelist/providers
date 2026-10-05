@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://demo.netbox.dev/api/
@@ -281,9 +281,9 @@ description: NetBox Labs is the commercial company behind NetBox, the open-sourc
 image: https://netboxlabs.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
+- description: Local (stdio) MCP server; 4 tools listed.
   name: NetBox Labs MCP Server
-  slug: netbox-labs-mcp-server
+  slug: netbox-mcp-server
 modified: '2026-07-20'
 name: NetBox Labs
 nav: Providers
@@ -301,13 +301,13 @@ score:
   band: strong
   composite: 60.5
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 92.1
     contract_governance: 4.5
@@ -315,7 +315,7 @@ score:
     developer_ergonomics: 66.1
     discoverability: 75.0
     operational_transparency: 52.6
-  previous_composite: 60.5
+  previous_composite: 58.9
   provenance:
     conformance: derived
     contracts:
@@ -332,7 +332,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

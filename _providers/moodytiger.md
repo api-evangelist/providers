@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Agent-facing shopping surface for the moodytiger Shopify store implemented with the Universal Commerce Protocol (UCP). Agents discover capabilities at /.well-known/ucp and transact (catalog search, ca
@@ -94,7 +94,7 @@ description: 'moodytiger is a technology-driven, design-led activewear brand for
 image: http://moodytiger.com/cdn/shop/files/1200_628.jpg?v=1684201715
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at moodytiger.com over HTTP; 5 tools listed.
   name: moodytiger UCP Shopping
   slug: moodytiger-ucp-shopping
 modified: '2026-07-20'
@@ -116,7 +116,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -124,7 +124,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 75.0
     operational_transparency: 0.0
-  previous_composite: 17.1
+  previous_composite: 16.6
   provenance:
     mcp: platform-generated
     skills: first-party
@@ -135,7 +135,7 @@ score:
     regime_id: horizontal
     score: 19.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

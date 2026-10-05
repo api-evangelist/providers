@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -70,6 +70,11 @@ collections:
   name: Paidy Payments Tokens API
   slug: open-paidy-tokens-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/paidy/refs/heads/main/capabilities/paidy-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/paidy-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -170,7 +175,7 @@ overview: 'Paidy publishes 3 APIs on the [APIs.io](https://apis.io/) network, in
   The Paidy catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Paidy''s developer surface includes authentication, documentation, API reference, changelog, status page, and 7 more developer resources.'
+  Paidy''s developer surface includes authentication, documentation, API reference, changelog, status page, and 8 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
@@ -195,13 +200,13 @@ score:
   band: thin
   composite: 37.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 58.5
     catalog_earned_first_party: 0.0
     catalog_gap: 56.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.3
   facets:
     access_clarity: 37.4
     contract_governance: 9.8
@@ -216,7 +221,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 37.8
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     contracts:
@@ -231,7 +236,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

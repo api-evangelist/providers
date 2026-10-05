@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 59.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
   description: The Spaces API from Contentful — 10 operation(s) for spaces.
   name: Contentful Spaces API
   slug: contentful-spaces-api
-artifact_total: 27
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -208,11 +208,14 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
+- description: Remote MCP server at mcp.contentful.com over HTTP.
+  name: Contentful MCP Server
+  slug: contentful
 modified: '2026-05-30'
 name: Contentful
 nav: Providers
 network: true
-overview: 'Contentful publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Spaces API, and 6 more. Tagged areas include CMS, Content, and Content Management.
+overview: 'Contentful publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Spaces API, and 6 more. Tagged areas include CMS, Content, Content Management, and Headless CMS.
 
 
   Contentful''s developer surface includes authentication, developer portal, documentation, changelog, engineering blog, signup flow, support, and 18 more developer resources.'
@@ -229,13 +232,13 @@ score:
   band: developing
   composite: 44.1
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 14
     catalog_earned: 39.0
     catalog_earned_first_party: 0.0
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 47.4
     contract_governance: 0.0
@@ -243,7 +246,7 @@ score:
     developer_ergonomics: 39.8
     discoverability: 56.7
     operational_transparency: 47.4
-  previous_composite: 44.1
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     contracts:
@@ -259,7 +262,7 @@ score:
     regime_id: horizontal
     score: 26.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false
@@ -300,5 +303,6 @@ tags:
 - CMS
 - Content
 - Content Management
+- Headless CMS
 website: https://www.contentful.com/
 ---

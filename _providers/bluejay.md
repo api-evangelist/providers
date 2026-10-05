@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 123
+- acting_count: 128
   human_in_the_loop: 1
   name: Bluejay Agentic Access
   operation_count: 174
   slug: bluejay-agentic-access
-  summary_line: 174 operations · 123 acting · 1 human-in-the-loop
+  summary_line: 174 operations · 128 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.getbluejay.ai
@@ -682,9 +682,9 @@ description: Bluejay is the testing, monitoring, and improvement layer for conve
 image: https://framerusercontent.com/assets/0eWRRDcsziAELTSPQghHwloyXH0.jpg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at api.getbluejay.ai over HTTP.
   name: Bluejay MCP Server
-  slug: bluejay-mcp-server
+  slug: bluejay
 modified: '2026-09-16'
 name: Bluejay
 nav: Providers
@@ -699,23 +699,23 @@ overview: 'Bluejay publishes 61 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 0
 score:
   band: developing
-  composite: 51.0
+  composite: 50.5
   coverage:
     artifact_dirs: 21
-    catalog_earned: 37.0
+    catalog_earned: 34.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.4
   facets:
     access_clarity: 46.1
     contract_governance: 4.5
     contract_quality: 56.1
     developer_ergonomics: 61.3
-    discoverability: 75.0
+    discoverability: 70.0
     operational_transparency: 23.7
-  previous_composite: 50.5
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -733,7 +733,7 @@ score:
     regime_id: horizontal
     score: 27.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

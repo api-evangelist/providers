@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 10
 apis:
 - description: Redpanda implements the Apache Kafka wire protocol natively, allowing existing Kafka clients (producers, consumers, AdminClient, Streams, Connect) to work unchanged against Redpanda brokers on TCP por
@@ -66,7 +66,7 @@ apis:
 - description: Redpanda Iceberg Topics expose topic data as Apache Iceberg tables in object storage, accessible from the Iceberg REST catalog and consumable by query engines like Spark, Trino, and Snowflake.
   name: Redpanda Iceberg Topic API
   slug: redpanda-iceberg-topic-api
-artifact_total: 23
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -233,6 +233,9 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
+- description: Remote MCP server at docs.redpanda.com over HTTP; 6 tools listed.
+  name: Redpanda MCP Server
+  slug: redpanda
 modified: '2026-05-19'
 name: Redpanda
 nav: Providers
@@ -260,7 +263,7 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 40.8
     contract_governance: 0.0
@@ -268,7 +271,7 @@ score:
     developer_ergonomics: 38.1
     discoverability: 63.3
     operational_transparency: 26.3
-  previous_composite: 33.3
+  previous_composite: 33.8
   provenance:
     mcp: first-party
   regulatory:
@@ -278,7 +281,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

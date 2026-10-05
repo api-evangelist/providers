@@ -32,13 +32,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Bikky provides push-button API integrations with leading POS, online ordering, loyalty, and marketing providers, sending data in real time for most POS and ordering sources and nightly for reservation
   name: Bikky Integrations
   slug: rest-api
-artifact_total: 5
+artifact_total: 6
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/bikky/refs/heads/main/security/bikky-domain-security.yml
@@ -124,6 +124,10 @@ created: '2026-06-02'
 description: Bikky is a New York-based Customer Data Platform (CDP) built exclusively for large, multi-unit restaurant brands, serving thousands of locations for companies such as Bojangles, MOD Pizza, Dave's Hot Chicken, and Long John Silver's. By integrating with point-of-sale, online ordering, payment, and loyalty systems, Bikky builds a single source of truth on guests, cleaning, standardizing, and de-duplicating data to reveal behavior, frequency, lifetime value, and menu performance across channels. Bikky offers push-button API integrations with leading ordering, loyalty, and marketing providers, plus Snowflake data shares, SFTP, and CSV import for data exchange. It does not appear to publish a public, self-service developer API or documentation; integration and data access are arranged directly with Bikky.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bikky.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.bikky.com over HTTP.
+  name: Bikky MCP Server
+  slug: bikky
 modified: '2026-08-13'
 name: Bikky
 nav: Providers
@@ -151,7 +155,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.0
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
@@ -166,7 +170,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 22.9
+  previous_composite: 20.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -177,7 +181,7 @@ score:
     regime_id: horizontal
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

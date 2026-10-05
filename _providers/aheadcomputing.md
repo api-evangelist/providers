@@ -26,16 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/aheadcomputing/refs/heads/main/security/aheadcomputing-domain-security.yml
@@ -90,6 +90,10 @@ created: '2026-08-06'
 description: AheadComputing Inc. is a Portland, Oregon fabless semiconductor startup founded in 2024 by former Intel CPU architects — CEO Debbie Marr, Jonathon Pearce, Mark Dechene and Srikanth Srinivasan — that designs and licenses high-performance 64-bit RISC-V application processor cores. The company markets a clean-slate, massive out-of-order "big core" architecture aimed at eliminating per-core CPU bottlenecks for AI, cloud, client, mobile and edge workloads, and has raised roughly $53M across a $21.5M seed and a $30M Seed2 round co-led by Eclipse, Toyota Ventures and Cambium. Its product is silicon IP licensed to chip designers rather than software, so it publishes no public API, developer portal, SDK or machine-readable contract.
 image: https://cdn.prod.website-files.com/6909ebc0bb1e997f5360fd6a/695be60fcabc7b3e07a37ab0_webflow_webclip.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.aheadcomputing.com over HTTP.
+  name: AheadComputing MCP Server
+  slug: aheadcomputing
 modified: '2026-08-06'
 name: AheadComputing
 nav: Providers
@@ -109,7 +113,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
@@ -117,7 +121,7 @@ score:
     developer_ergonomics: 2.4
     discoverability: 52.5
     operational_transparency: 0.0
-  previous_composite: 7.0
+  previous_composite: 7.6
   provenance:
     mcp: first-party
   regulatory:
@@ -127,7 +131,7 @@ score:
     regime_id: horizontal
     score: 9.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

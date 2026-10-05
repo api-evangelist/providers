@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 7
-  human_in_the_loop: 2
+- acting_count: 10
+  human_in_the_loop: 3
   name: Method Security Agentic Access
   operation_count: 18
   slug: method-security-agentic-access
-  summary_line: 18 operations · 7 acting · 2 human-in-the-loop
+  summary_line: 18 operations · 10 acting · 3 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://your-instance.method.delivery/method-api-gateway/api
@@ -292,7 +292,7 @@ layout: provider
 mcp_servers:
 - description: Method operates an official hosted MCP server for its documentation, advertised across the docs site and llms.txt for AI-client integration (Claude Code, Cursor, etc.). It exposes documentation search
   name: Method Security MCP Server
-  slug: method-security-mcp-server
+  slug: method-docs
 modified: '2026-07-20'
 name: Method Security
 nav: Providers
@@ -315,7 +315,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.0
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
@@ -323,7 +323,7 @@ score:
     developer_ergonomics: 68.5
     discoverability: 71.7
     operational_transparency: 36.8
-  previous_composite: 49.9
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -341,8 +341,8 @@ score:
     regime_id: government
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

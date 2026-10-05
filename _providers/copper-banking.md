@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: An undocumented Model Context Protocol server operated by Copper at mcp.getcopper.com. The host publishes RFC 8414 OAuth 2.0 Authorization Server Metadata at /.well-known/oauth-authorization-server de
@@ -116,9 +116,9 @@ description: Copper (Copper Banking) is a Seattle-based consumer fintech founded
 image: https://cdn.prod.website-files.com/61f9b891f832346a0a7b9f9a/673cf4a1dd4ac006b4602fab_OpenGraph_1200x627.jpg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.getcopper.com.
   name: Copper Banking MCP Server
-  slug: copper-banking-mcp-server
+  slug: copper
 modified: '2026-08-04'
 name: Copper Banking
 nav: Providers
@@ -143,7 +143,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.1
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
@@ -158,7 +158,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 21.5
+  previous_composite: 23.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -169,7 +169,7 @@ score:
     regime_id: banking_open_finance
     score: 37.0
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

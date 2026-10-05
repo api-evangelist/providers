@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: http://localhost:8080
@@ -67,6 +67,11 @@ asyncapis:
   name: Bito Webhooks
   slug: bito-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/capabilities/bito-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bito-capability-edges.yml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/plans/bito-plans-pricing.yml
   title: ''
@@ -222,7 +227,7 @@ overview: 'Bito publishes 7 APIs on the [APIs.io](https://apis.io/) network, inc
   The Bito catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Bito''s developer surface includes changelog, getting-started guide, documentation, engineering blog, pricing, support, and 22 more developer resources.'
+  Bito''s developer surface includes changelog, getting-started guide, documentation, engineering blog, pricing, support, and 23 more developer resources.'
 plans:
 - name: Bito Plans Pricing
   plan_count: 4
@@ -244,7 +249,7 @@ score:
   band: developing
   composite: 51.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 55.8
     catalog_earned_first_party: 12.0
     catalog_gap: 59.3
@@ -272,7 +277,7 @@ score:
     regime_id: horizontal
     score: 27.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 0.0

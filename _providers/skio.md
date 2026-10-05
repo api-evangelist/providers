@@ -26,14 +26,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-10-03'
+  score: 24.1
+  scored_at: '2026-10-04'
 api_count: 4
 apis:
 - description: Query and manage recurring subscriptions - list and fetch subscriptions and their lines, then create, cancel, pause, unpause, reactivate, skip, ship now, swap product variants, edit interval, apply di
@@ -48,7 +48,7 @@ apis:
 - description: Read products and product variants, manage pricing policies and billing and delivery policies, and add or remove product variants from selling plan groups that define which products can be sold as sub
   name: Skio Products & Selling Plans API
   slug: skio-products-selling-plans-api
-artifact_total: 9
+artifact_total: 10
 common:
 - group: other
   title: ''
@@ -98,6 +98,10 @@ graphqls:
   slug: skio-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skio.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.skio.com over HTTP.
+  name: Skio MCP Server
+  slug: skio
 modified: '2026-07-10'
 name: Skio
 nav: Providers
@@ -125,7 +129,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.9
   facets:
     access_clarity: 26.8
     contract_governance: 0.0
@@ -133,7 +137,7 @@ score:
     developer_ergonomics: 16.7
     discoverability: 73.3
     operational_transparency: 28.4
-  previous_composite: 27.0
+  previous_composite: 29.9
   provenance:
     mcp: first-party
   regulatory:
@@ -143,7 +147,7 @@ score:
     regime_id: horizontal
     score: 5.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

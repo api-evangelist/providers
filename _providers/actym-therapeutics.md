@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
 artifact_total: 5
 common:
@@ -92,7 +92,7 @@ description: Actym Therapeutics is a clinical-stage biotechnology company develo
 image: https://static.wixstatic.com/media/6cf7e0_57b74df73b9347cebd4f77f40a6f71e1%7Emv2.png/v1/fit/w_2500,h_1330,al_c/6cf7e0_57b74df73b9347cebd4f77f40a6f71e1%7Emv2.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: 'Actym Therapeutics serves a live, anonymous Model Context Protocol endpoint on its own domain at https://www.actymthera.com/_api/mcp. The server is PLATFORM-AUTHORED: it is the Wix Site MCP runtime th'
   name: Actym Therapeutics Site MCP Server
   slug: actym-therapeutics-site-mcp-server
 modified: '2026-09-06'
@@ -122,7 +122,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
@@ -130,7 +130,7 @@ score:
     developer_ergonomics: 16.7
     discoverability: 58.3
     operational_transparency: 0.0
-  previous_composite: 14.1
+  previous_composite: 14.5
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -141,7 +141,7 @@ score:
     regime_id: health
     score: 16.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

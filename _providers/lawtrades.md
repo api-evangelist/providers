@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -106,6 +106,10 @@ created: '2026-07-17'
 description: LawTrades is a legal talent marketplace, founded in 2016, that matches companies with vetted independent attorneys, paralegals, and legal operations professionals on flexible, on-demand terms rather than through traditional law firms or ALSPs. The platform covers eleven practice areas — commercial contracts, corporate law, data privacy and cyber security, intellectual property, labor and employment, legal operations, litigation, M&A, product counsel, real estate, and regulatory compliance — and handles matching, work-log management, invoicing, payments, and real-time spend analytics in-product. A human-in-the-loop AI layer drafts documents and flags risk for lawyer review. LawTrades raised a $6M Series A backed by 500 Global, Draper Associates, Social Capital, and AngelList. As of this enrichment pass the company publishes no public API, developer portal, SDKs, or machine-readable API description.
 image: https://cdn.prod.website-files.com/631b8bcafde15c05a06e9106/636c1a2c1b886a4ca4f3f2c6_lawtrades_logo_with_type_black.svg
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.lawtrades.com over HTTP.
+  name: LawTrades MCP Server
+  slug: lawtrades
 modified: '2026-07-19'
 name: LawTrades
 nav: Providers
@@ -125,7 +129,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 27.6
     contract_governance: 0.0
@@ -133,7 +137,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 58.3
     operational_transparency: 0.0
-  previous_composite: 12.3
+  previous_composite: 12.7
   provenance:
     mcp: first-party
   regulatory:
@@ -143,7 +147,7 @@ score:
     regime_id: horizontal
     score: 12.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

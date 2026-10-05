@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: 'A live first-party Model Context Protocol server that lets a Valid managed-service client query their whole advertising account — spend, channels, creative performance, attribution — in plain English '
@@ -110,7 +110,7 @@ description: 'Valid is an AI-native advertising agency that grows consumer compa
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/valid.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.valid.co over HTTP.
   name: Chat With Your Ads MCP Server
   slug: chat-with-your-ads-mcp-server
 modified: '2026-08-12'
@@ -132,9 +132,9 @@ rate_limits:
   slug: valid-rate-limits
 scopes:
 - name: Valid Scopes
-  scope_count: 0
+  scope_count: 3
   slug: valid-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 3 scopes
 score:
   band: emerging
   composite: 20.8
@@ -145,7 +145,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.2
   facets:
     access_clarity: 27.6
     contract_governance: 18.2
@@ -160,7 +160,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 20.8
+  previous_composite: 18.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -171,7 +171,7 @@ score:
     regime_id: horizontal
     score: 31.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -97,6 +97,10 @@ description: Coris is an AI platform for merchant and payment risk, providing mo
   public surfaces (marketing site, status page, trust center, legal pages).
 image: https://files.readme.io/3f05149-small-Coris_Logo_vF_w_With_padding.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.coris.ai over HTTP.
+  name: Coris MCP Server
+  slug: coris
 modified: '2026-07-18'
 name: Coris
 nav: Providers
@@ -116,7 +120,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
@@ -129,7 +133,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 14.2
+  previous_composite: 13.7
   provenance:
     mcp: first-party
   regulatory:
@@ -139,7 +143,7 @@ score:
     regime_id: payments
     score: 11.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

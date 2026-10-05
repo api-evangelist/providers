@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -124,6 +124,11 @@ collections:
   name: Account Account API SEO Research API API
   slug: open-spyfu-seo-research-api-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/capabilities/spyfu-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/spyfu-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/agentic-access/spyfu-agentic-access.yml
   title: ''
@@ -368,7 +373,7 @@ layout: provider
 mcp_servers:
 - description: SpyFu serves a remote Model Context Protocol endpoint from its own developer portal host at https://developer.spyfu.com/mcp. A GET returns HTTP 200 with the plain-text body "This URL can only be acces
   name: SpyFu MCP Server
-  slug: spyfu-mcp-server
+  slug: spyfu-developer-docs
 modified: '2026-09-16'
 name: SpyFu
 nav: Providers
@@ -379,7 +384,7 @@ overview: 'SpyFu publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
   The SpyFu catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  SpyFu''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, API reference, support, and 30 more developer resources.'
+  SpyFu''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, API reference, support, and 31 more developer resources.'
 plans:
 - name: Spyfu Plans Pricing
   plan_count: 3
@@ -404,13 +409,13 @@ score:
   band: strong
   composite: 55.8
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 29
     catalog_earned: 88.2
     catalog_earned_first_party: 24.0
     catalog_gap: 26.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 77.6
     contract_governance: 28.0
@@ -418,7 +423,7 @@ score:
     developer_ergonomics: 33.9
     discoverability: 80.0
     operational_transparency: 50.0
-  previous_composite: 55.8
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -436,7 +441,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

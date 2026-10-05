@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -86,6 +86,10 @@ created: '2026-07-17'
 description: Finaloop is a real-time, ecommerce-native bookkeeping and accounting platform for direct-to-consumer (DTC) and multichannel brands. It replaces QuickBooks/Xero, human bookkeepers, and integration tooling with automation plus a team of ecommerce accounting experts, delivering always-current financials. Finaloop continuously syncs sales, returns, fees, reimbursements, inventory movements, COGS, and banking across 60+ ecommerce, marketplace, payment, banking, lending, and 3PL integrations (Shopify, Amazon, TikTok Shop, Walmart, PayPal, Stripe, Chase, ShipBob, and more) to produce real-time P&L, balance sheet, and cash-flow statements, inventory analytics, and tax services. Finaloop exposes no public developer API; its APIs are internal connectors to source platforms, so this profile is identity- and posture-focused rather than spec-bearing.
 image: https://cdn.prod.website-files.com/633534248ff88b82a9d4bbb1/6374d36ed341423dd86154d2_Frame%2034194.min.jpg
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.finaloop.com over HTTP.
+  name: Finaloop MCP Server
+  slug: finaloop
 modified: '2026-07-19'
 name: Finaloop
 nav: Providers
@@ -105,7 +109,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 38.2
     contract_governance: 0.0
@@ -113,7 +117,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 58.3
     operational_transparency: 2.6
-  previous_composite: 14.9
+  previous_composite: 15.1
   provenance:
     mcp: first-party
   regulatory:
@@ -123,7 +127,7 @@ score:
     regime_id: horizontal
     score: 13.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

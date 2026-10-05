@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
   description: Product search, lookup, comparison, deals, and price history.
   name: BuyWhere Products API
   slug: buywhere-products-api
-artifact_total: 32
+artifact_total: 33
 collections:
 - collection_type: open
   name: API Collection
@@ -78,6 +78,11 @@ collections:
   name: BuyWhere Product Catalog API
   slug: open-buywhere
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/capabilities/buywhere-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/buywhere-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/a2a/buywhere-a2a.yml
   title: ''
@@ -224,6 +229,10 @@ jsonld:
   property_count: 4
   slug: buywhere-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.buywhere.ai over HTTP; 13 tools listed.
+  name: BuyWhere MCP Server
+  slug: buywhere
 modified: '2026-05-19'
 name: BuyWhere
 nav: Providers
@@ -234,7 +243,7 @@ overview: 'BuyWhere publishes 3 APIs on the [APIs.io](https://apis.io/) network:
   The BuyWhere catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  BuyWhere''s developer surface includes authentication, documentation, GitHub presence, and 16 more developer resources.'
+  BuyWhere''s developer surface includes authentication, documentation, GitHub presence, and 17 more developer resources.'
 plans:
 - name: Buywhere Plans Pricing
   plan_count: 3
@@ -276,7 +285,7 @@ score:
     catalog_gap: 27.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.8
   facets:
     access_clarity: 36.3
     contract_governance: 27.3
@@ -289,7 +298,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 42.7
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     contracts:
@@ -305,7 +314,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

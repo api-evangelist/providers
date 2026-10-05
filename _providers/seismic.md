@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 51.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
   name: Seismic Agentic Access
-  operation_count: 60
+  operation_count: 57
   slug: seismic-agentic-access
-  summary_line: 60 operations · 20 acting
+  summary_line: 57 operations · 20 acting
 api_count: 4
 apis:
 - baseURL: https://api.seismic.com/integration/v2
@@ -588,7 +588,7 @@ layout: provider
 mcp_servers:
 - description: Seismic ships a first-party REMOTE MCP server over Streamable HTTP. The endpoint and the tool surface below come from Seismic's own documentation; the endpoint, its auth challenge and its RFC 9728 met
   name: Seismic MCP Server
-  slug: seismic-mcp-server
+  slug: seismic
 modified: '2026-09-17'
 name: Seismic
 nav: Providers
@@ -633,9 +633,9 @@ rules:
   slug: seismic-rules
 scopes:
 - name: Seismic Scopes
-  scope_count: 0
+  scope_count: 50
   slug: seismic-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 50 scopes
 score:
   band: strong
   composite: 66.4
@@ -646,7 +646,7 @@ score:
     catalog_gap: 23.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.5
   facets:
     access_clarity: 72.4
     contract_governance: 45.5
@@ -654,7 +654,7 @@ score:
     developer_ergonomics: 38.1
     discoverability: 86.7
     operational_transparency: 57.9
-  previous_composite: 66.4
+  previous_composite: 63.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -672,7 +672,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

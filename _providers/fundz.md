@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Company profiles, funding rounds, SEC filings and fund formations, keyed to real-time business events.
@@ -101,6 +101,11 @@ collections:
   name: Fundz Products API
   slug: open-fundz-products-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/capabilities/fundz-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fundz-capability-edges.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/security/fundz-domain-security.yml
   title: ''
@@ -261,7 +266,7 @@ layout: provider
 mcp_servers:
 - description: 'FundzWatch MCP server, listed on the OFFICIAL Model Context Protocol registry — not only a third-party directory. It is distributed as an npm package over stdio: an agent operator installs and runs it'
   name: io.github.Fund-z/fundzwatch
-  slug: iogithubfund-zfundzwatch
+  slug: io-github-fund-z-fundzwatch
 modified: '2026-08-14'
 name: Fundz
 nav: Providers
@@ -272,7 +277,7 @@ overview: 'Fundz publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
   The Fundz catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Fundz''s developer surface includes documentation, pricing, signup flow, authentication, sandbox, API reference, getting-started guide, and 27 more developer resources.'
+  Fundz''s developer surface includes documentation, pricing, signup flow, authentication, sandbox, API reference, getting-started guide, and 28 more developer resources.'
 plans:
 - name: Fundz Plans Pricing
   plan_count: 4
@@ -295,7 +300,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.1
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
@@ -303,7 +308,7 @@ score:
     developer_ergonomics: 73.2
     discoverability: 73.2
     operational_transparency: 44.7
-  previous_composite: 60.2
+  previous_composite: 63.3
   provenance:
     conformance: derived
     contracts:
@@ -320,7 +325,7 @@ score:
     regime_id: securities_market_data
     score: 28.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

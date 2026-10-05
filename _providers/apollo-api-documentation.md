@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 57.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 46
+- acting_count: 54
   human_in_the_loop: 1
   name: Apollo Api Documentation Agentic Access
   operation_count: 80
   slug: apollo-api-documentation-agentic-access
-  summary_line: 80 operations · 46 acting · 1 human-in-the-loop
+  summary_line: 80 operations · 54 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.apollo.io/api/v1
@@ -169,6 +169,11 @@ collections:
   name: Apollo.io API
   slug: open-apollo-api-documentation
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/capabilities/apollo-api-documentation-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/apollo-api-documentation-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -421,7 +426,7 @@ overview: 'Apollo API Documentation publishes 15 APIs on the [APIs.io](https://a
   The Apollo API Documentation catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Apollo API Documentation''s developer surface includes authentication, engineering blog, documentation, getting-started guide, API reference, CLI, quickstart, and 39 more developer resources.'
+  Apollo API Documentation''s developer surface includes authentication, engineering blog, documentation, getting-started guide, API reference, CLI, quickstart, and 40 more developer resources.'
 plans:
 - name: Apollo Api Documentation Plans Pricing
   plan_count: 4
@@ -433,20 +438,20 @@ rate_limits:
   slug: apollo-api-documentation-rate-limits
 scopes:
 - name: Apollo Api Documentation Scopes
-  scope_count: 0
+  scope_count: 67
   slug: apollo-api-documentation-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 67 scopes
 score:
   band: strong
   composite: 62.2
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.9
   facets:
     access_clarity: 100.0
     contract_governance: 4.5
@@ -454,7 +459,7 @@ score:
     developer_ergonomics: 42.3
     discoverability: 75.0
     operational_transparency: 50.0
-  previous_composite: 62.2
+  previous_composite: 60.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -472,7 +477,7 @@ score:
     regime_id: horizontal
     score: 39.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

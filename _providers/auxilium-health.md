@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: platform
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.5
-  scored_at: '2026-10-03'
+  score: 2.2
+  scored_at: '2026-10-04'
 api_count: 0
 artifact_total: 2
 common:
@@ -81,9 +81,9 @@ description: Auxilium Health provides a comprehensive suite of patient support p
 image: https://static.wixstatic.com/media/410637_0a2011e0519745a2a2d88844ef9b6dd2%7Emv2.png/v1/fit/w_2500,h_1330,al_c/410637_0a2011e0519745a2a2d88844ef9b6dd2%7Emv2.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at www.auxiliumhealth.ca.
   name: Auxilium Health MCP Server
-  slug: auxilium-health-mcp-server
+  slug: auxilium-health-mcp-yml
 modified: '2026-09-26'
 name: Auxilium Health
 nav: Providers
@@ -110,8 +110,15 @@ score:
     developer_ergonomics: 14.3
     discoverability: 58.3
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - canada
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
   provenance:
-    mcp: first-party
+    mcp: platform-generated
   regulatory:
     applies: true
     matched_via: tags
@@ -119,7 +126,7 @@ score:
     regime_id: health
     score: 7.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 60.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - baseURL: https://api.parallel.ai
@@ -276,7 +276,7 @@ description: 'Parallel Web Systems builds infrastructure for intelligence on the
 image: https://assets.parallel.ai/dark-parallel-avatar-540.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server over streamable HTTP; 2 tools listed.
   name: Parallel Web Search MCP Server
   slug: parallel-web-search-mcp-server
 modified: '2026-08-14'
@@ -301,9 +301,9 @@ rate_limits:
   slug: parallel-web-systems-rate-limits
 scopes:
 - name: Parallel Web Systems Scopes
-  scope_count: 0
+  scope_count: 1
   slug: parallel-web-systems-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 1 scope
 score:
   band: strong
   composite: 62.8
@@ -314,7 +314,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.7
   facets:
     access_clarity: 68.4
     contract_governance: 4.5
@@ -322,7 +322,7 @@ score:
     developer_ergonomics: 65.5
     discoverability: 71.7
     operational_transparency: 81.6
-  previous_composite: 62.8
+  previous_composite: 61.1
   provenance:
     conformance: derived
     contracts:
@@ -339,7 +339,7 @@ score:
     regime_id: horizontal
     score: 39.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

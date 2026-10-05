@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: 'The partner-facing H&R Block integration surface — tax-data import from financial institutions, payroll providers and employer solutions. No public contract, reference or portal is reachable: api.hrbl'
@@ -158,9 +158,9 @@ rate_limits:
   slug: hanr-block-rate-limits
 scopes:
 - name: Hanr Block Scopes
-  scope_count: 0
+  scope_count: 7
   slug: hanr-block-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 7 scopes
 score:
   band: thin
   composite: 26.8
@@ -171,7 +171,7 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.4
   facets:
     access_clarity: 40.8
     contract_governance: 18.2
@@ -179,7 +179,7 @@ score:
     developer_ergonomics: 19.0
     discoverability: 66.1
     operational_transparency: 18.4
-  previous_composite: 26.8
+  previous_composite: 23.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -190,7 +190,7 @@ score:
     regime_id: horizontal
     score: 40.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false
@@ -217,7 +217,7 @@ tags:
 - Fortune 1000
 - Identity
 - Authentication
-- OpenID Connect
 - Consumer Software
+- Tax
 website: https://www.hrblock.com
 ---

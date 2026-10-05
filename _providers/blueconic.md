@@ -35,403 +35,155 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 17
+- acting_count: 18
   human_in_the_loop: 1
   name: Blueconic Agentic Access
   operation_count: 64
   slug: blueconic-agentic-access
-  summary_line: 64 operations · 17 acting · 1 human-in-the-loop
+  summary_line: 64 operations · 18 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: 'The Audit Event API allows users to connect BlueConic to a SIEM system. We recommend using this API to periodically receive security-related activities based on a rolling window. The API has a 30-day '
   name: BlueConic Audit Events API
-  phrasing_intents:
-  - id: getAuditEvents
-    intent: Review the audit trail of account changes
-    question: Who changed what in our BlueConic account recently?
-  phrasing_ops: 1
   slug: blueconic-audit-events-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: The Channel API allows you to retrieve information about [channels in BlueConic](https://support.blueconic.com/hc/en-us/articles/200472632-Overview-What-are-channels-in-BlueConic).
   name: BlueConic Channels API
-  phrasing_intents:
-  - id: getAllChannels
-    intent: List all channels
-    question: Which channels (websites, apps, email) are set up in BlueConic?
-  - id: getOneChannel
-    intent: Look up a single channel
-    question: What are the settings of one specific channel?
-  phrasing_ops: 2
   slug: blueconic-channels-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: BlueConic Connections lets you connect with other systems to synchronize customer data. The following methods allow you to retrieve the connection configuration and run history. [Read more](https://su
   name: BlueConic Connections API
-  phrasing_intents:
-  - id: getAllConnections
-    intent: List all connections
-    question: Which data connections and integrations do we have set up?
-  - id: getOneConnection
-    intent: Look up a single connection
-    question: What is configured on one particular connection?
-  - id: getConnectionRuns
-    intent: Review the run history of a batch connection
-    question: When did my batch connection last run, and did it succeed?
-  phrasing_ops: 3
   slug: blueconic-connections-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: A Dialogue is an online (personalized) conversation with a visitor to a channel. [Read more](https://support.blueconic.com/hc/en-us/articles/200456521-What-are-dialogues-)
   name: BlueConic Dialogues API
-  phrasing_intents:
-  - id: getAllDialogues
-    intent: List all dialogues
-    question: Which dialogues (pop-ups, banners, inline content) exist in BlueConic?
-  - id: getOneDialogue
-    intent: Look up a single dialogue
-    question: What is the setup of one specific dialogue?
-  phrasing_ops: 2
   slug: blueconic-dialogues-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: Retrieve all types of groups, such as “Househould” or “Account”. Each group type has its own properties that can be used for segmentation. <a href="https://support.blueconic.com/hc/en-us/articles/3600
   name: BlueConic Group Types API
-  phrasing_intents:
-  - id: getAllGroupTypes
-    intent: List the available group types
-    question: What kinds of groups (households, companies, accounts) are defined in BlueConic?
-  phrasing_ops: 1
   slug: blueconic-group-types-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: The following methods allow you to create, modify, retrieve, and delete BlueConic groups. To manage group properties, use the [Properties endpoints](https://rest.apidoc.blueconic.com/#tag--Properties)
   name: BlueConic Groups API
-  phrasing_intents:
-  - id: getOneGroupOfGroupType
-    intent: Look up a single group
-    question: What are the property values of one specific group, like a household or company?
-  - id: getAllGroupsByGroupType
-    intent: List the groups of a group type
-    question: Which groups exist for a given group type?
-  - id: createUpdateDeleteGroups
-    intent: Create, update or delete groups in bulk
-    question: How do I create or update several groups in one request?
-  phrasing_ops: 3
   slug: blueconic-groups-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: Used to track an interaction (view, click, or conversion) with a BlueConic Dialogue. See [Tracking metrics for views, clicks, and conversions](https://support.blueconic.com/hc/en-us/articles/360020105
   name: BlueConic Interaction events API
-  phrasing_intents:
-  - id: createEvent
-    intent: Record a view, click or conversion on an interaction
-    question: How do I tell BlueConic a visitor viewed or clicked a dialogue variant?
-  phrasing_ops: 1
   slug: blueconic-interaction-events-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: Get the interactions (i.e. listeners and/or dialogues) that must be executed for a given profile that visits a certain web page (for web channels), a screen (on mobile or CTV channels) or a campaign I
   name: BlueConic Interactions API
-  phrasing_intents:
-  - id: getInteractions
-    intent: Get the interactions to show a visitor
-    question: Which dialogues or interactions should be shown to a visitor on a given page?
-  phrasing_ops: 1
   slug: blueconic-interactions-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: The following methods allow you to retrieve information about lifecycles. See [Lifecycles](https://support.blueconic.com/en/articles/247909-lifecycles-overview).
   name: BlueConic Lifecycles API
-  phrasing_intents:
-  - id: getAllLifecycles
-    intent: List all lifecycles
-    question: Which customer lifecycles are defined in BlueConic?
-  - id: getOneLifecycle
-    intent: Look up a single lifecycle
-    question: What stages make up one particular lifecycle?
-  phrasing_ops: 2
   slug: blueconic-lifecycles-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: Listeners add information about visitors to their profile, based on their online behavior or provided input. Use this endpoint to retrieve listener configuration. [Read more](https://support.blueconic
   name: BlueConic Listeners API
-  phrasing_intents:
-  - id: getAllListeners
-    intent: List all listeners
-    question: Which listeners are collecting data into profiles right now?
-  - id: getOneListener
-    intent: Look up a single listener
-    question: What rules does one specific listener use?
-  phrasing_ops: 2
   slug: blueconic-listeners-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: The following methods allow you to create, modify, retrieve, and delete machine learning Models in ONNX format. See [Models](https://support.blueconic.com/en/articles/307965-real-time-models).
   name: BlueConic Models API
-  phrasing_intents:
-  - id: getAllModels
-    intent: List all machine learning models
-    question: Which models have been uploaded to BlueConic?
-  - id: createModel
-    intent: Upload a new model
-    question: How do I upload a new machine learning model?
-  - id: getOneModelMetadata
-    intent: Look up a model's metadata
-    question: What metadata is stored for one particular model?
-  - id: updateModel
-    intent: Replace a model's metadata or binary
-    question: Can I swap in a retrained binary for an existing model?
-  - id: deleteModel
-    intent: Delete a model
-    question: How do I remove a model we no longer use?
-  - id: getModelONNXBinary
-    intent: Download a model's ONNX binary
-    question: Can I download the ONNX file of a model?
-  phrasing_ops: 6
   slug: blueconic-models-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: The following methods allow you to retrieve AI Workbench notebooks and their run history. See [AI Workbench Overview](https://support.blueconic.com/en/articles/247838-ai-workbench-overview).
   name: BlueConic Notebooks API
-  phrasing_intents:
-  - id: getAllNotebooks
-    intent: List all notebooks
-    question: Which notebooks exist in our BlueConic account?
-  - id: getOneNotebook
-    intent: Look up a single notebook
-    question: What's configured on one specific notebook?
-  - id: getNotebookRunHistory
-    intent: Review a notebook's batch run history
-    question: When did a notebook last run in batch, and did it succeed?
-  phrasing_ops: 3
   slug: blueconic-notebooks-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: The OAuth 2.0 API allows external applications to be authenticated and authorized to access the public BlueConic API. The OAuth 2.0 specification is implemented according to [RFC 6749](https://www.rfc
   name: BlueConic OAuth 2.0 API
-  phrasing_intents:
-  - id: startAuthorizationCodeFlow
-    intent: Start the OAuth authorization code flow
-    question: How do I send a user to grant my app access to their BlueConic account?
-  - id: revokeToken
-    intent: Revoke an access or refresh token
-    question: How do I invalidate a refresh token when a user disconnects?
-  - id: getToken
-    intent: Exchange a grant for an access token
-    question: What's the call to exchange an authorization code for an access token?
-  phrasing_ops: 3
   slug: blueconic-oauth-2-0-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: Objectives are used to group items needed for your marketing objectives. When consent is required, items in the objective only get access to profiles that have given consent to the objective. [Read mo
   name: BlueConic Objectives API
-  phrasing_intents:
-  - id: getAllObjectives
-    intent: List all objectives
-    question: Which consent objectives are defined in BlueConic?
-  - id: getOneObjective
-    intent: Look up a single objective
-    question: What does one particular objective cover?
-  phrasing_ops: 2
   slug: blueconic-objectives-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: Pageview events are used to track page views by profiles. This is used by BlueConic Listeners. See [Listeners and Trackers](https://support.blueconic.com/hc/en-us/sections/200913331-Listeners-and-Trac
   name: BlueConic Pageview events API
-  phrasing_intents:
-  - id: createPageviewEvent
-    intent: Record a page view for a visitor
-    question: How do I log that a visitor viewed a page from my server?
-  phrasing_ops: 1
   slug: blueconic-pageview-events-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: Retrieve plugins from the gallery, or limit results to installed plugins only. See [Plugins](https://support.blueconic.com/en/articles/248049-plugins-overview).
   name: BlueConic Plugins API
-  phrasing_intents:
-  - id: getOnePlugin
-    intent: Look up a single plugin
-    question: What does one specific plugin do and how is it set up?
-  - id: getAllPlugins
-    intent: List installed plugins
-    question: Which plugins are installed in our account?
-  phrasing_ops: 2
   slug: blueconic-plugins-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: Consent management events for a profile; consent changed or permission level changed. [Read more about using Objectives for privacy and consent](https://support.blueconic.com/hc/en-us/articles/3600021
   name: BlueConic Profile events API
-  phrasing_intents:
-  - id: getProfileEvents
-    intent: Review a profile's consent change history
-    question: When did a visitor change their consent or permission level?
-  phrasing_ops: 1
   slug: blueconic-profile-events-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: 'The following methods allow you to create, modify, retrieve properties from, and delete [BlueConic Profiles](https://support.blueconic.com/hc/en-us/articles/115001671965-Overview-BlueConic-Profiles), '
   name: BlueConic Profiles API
-  phrasing_intents:
-  - id: searchProfiles
-    intent: Find profiles by a unique property value
-    question: How do I find a visitor's profile by their email address?
-  - id: createUpdateDeleteProfiles
-    intent: Create, update or delete profiles in bulk
-    question: What's the recommended way to upsert many profiles at once?
-  - id: getOneProfile
-    intent: Retrieve a visitor's full profile
-    question: What do we know about a specific visitor, including their segments?
-  phrasing_ops: 3
   slug: blueconic-profiles-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: The following methods allow you to retrieve and update [Profile Properties](https://support.blueconic.com/hc/en-us/articles/202608231-Capturing-customer-data-in-Profile-Properties) and [Group Properti
   name: BlueConic Properties API
-  phrasing_intents:
-  - id: getOneProfileOrGroupProperty
-    intent: Look up a profile or group property
-    question: How is one profile property defined?
-  - id: createUpdateProfileOrGroupProperty
-    intent: Create or update a profile or group property
-    question: How do I add a new custom profile property?
-  - id: deleteProfileOrGroupProperty
-    intent: Delete a profile or group property
-    question: How do I remove a property we no longer use?
-  - id: getAllProfileOrGroupProperties
-    intent: List profile or group properties
-    question: Which profile properties exist in our account?
-  phrasing_ops: 4
   slug: blueconic-properties-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: Generate individualized content and product recommendations for a given profile. [Read more](https://support.blueconic.com/hc/en-us/articles/115005971169-Overview-Content-and-Product-Recommendations).
   name: BlueConic Recommendations API
-  phrasing_intents:
-  - id: getRecommendationsPostJsonpAsync
-    intent: Generate content recommendations for a visitor
-    question: How do I get personalized product or article recommendations for a visitor?
-  phrasing_ops: 1
   slug: blueconic-recommendations-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: All reporting related endpoints.
   name: BlueConic Reporting API
-  phrasing_intents:
-  - id: getDialogueStatistics
-    intent: Get performance statistics for dialogues
-    question: How are my dialogues performing in views, clicks and conversions?
-  phrasing_ops: 1
   slug: blueconic-reporting-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: A role contains a collection of data privacy and feature access permissions that you can assign to a user. Every BlueConic user is assigned to at least one role. A user can only access the features th
   name: BlueConic Roles API
-  phrasing_intents:
-  - id: getAllRoles
-    intent: List all user roles
-    question: Which user roles are defined in BlueConic?
-  - id: getOneRole
-    intent: Look up a single role
-    question: What permissions does one specific role grant?
-  phrasing_ops: 2
   slug: blueconic-roles-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: A segment is a group of profiles characterized by a defined set of attributes & properties. The following methods allow you to retrieve information from segments and the profiles within a given segmen
   name: BlueConic Segments API
-  phrasing_intents:
-  - id: getProfilesInSegment
-    intent: Export the profiles in a segment
-    question: How do I export every profile that belongs to a segment?
-  - id: getAllSegments
-    intent: List all segments
-    question: Which segments are defined in our account?
-  phrasing_ops: 2
   slug: blueconic-segments-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: A store is a database for managing metadata about products or articles. You can populate it using a Product collector or Content collector, which scrapes data from your website. This metadata powers f
   name: BlueConic Stores API
-  phrasing_intents:
-  - id: getContentItemsFromStore
-    intent: List or filter items in a content store
-    question: Which items are in one of my content stores?
-  - id: addContentItemsToStore
-    intent: Add items to a content store
-    question: How do I load products or articles into a content store?
-  - id: getAllContentStores
-    intent: List all content stores
-    question: Which content stores do we have?
-  - id: createContentStore
-    intent: Create a content store
-    question: What's needed to set up a new content store for recommendations?
-  - id: deleteContentItemsFromStore
-    intent: Bulk delete items from a content store
-    question: How do I remove several items from a content store at once?
-  - id: updateContentStore
-    intent: Update a content store's settings
-    question: Can I rename an existing content store?
-  phrasing_ops: 6
   slug: blueconic-stores-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: Roll up BlueConic timeline event data and store the results in a profile property. You can use that profile property for segmentation, reporting, and activation. [Read more](https://support.blueconic.
   name: BlueConic Timeline event rollups API
-  phrasing_intents:
-  - id: getAllRollups
-    intent: List all timeline event rollups
-    question: Which timeline event rollups are configured?
-  - id: getOneRollup
-    intent: Look up a timeline event rollup
-    question: How is one particular timeline event rollup configured?
-  phrasing_ops: 2
   slug: blueconic-timeline-event-rollups-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: Timeline events store time-based data on events that occur for a profile, such as product orders or page views. In BlueConic, a Timeline event type defines how events are stored in a profile. For exam
   name: BlueConic Timeline Event Types API
-  phrasing_intents:
-  - id: getOneTimelineEventType
-    intent: Look up a timeline event type
-    question: What fields does one specific timeline event type have?
-  - id: getTimelineEventTypes
-    intent: List all timeline event types
-    question: Which timeline event types are defined, like orders or email clicks?
-  phrasing_ops: 2
   slug: blueconic-timeline-event-types-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: The following methods allow you to create, modify, and retrieve URL mappings (tracking pixel or shortened URL). These can be created via the External tracker tab, but can also be created as a separate
   name: BlueConic URL mappings API
-  phrasing_intents:
-  - id: createURLMapping
-    intent: Create a URL mapping
-    question: How do I map a URL so visits to it set profile properties?
-  - id: getOneURLMapping
-    intent: Look up a URL mapping
-    question: Which properties does an existing URL mapping set?
-  - id: updateURLMapping
-    intent: Update an existing URL mapping
-    question: Can I change the URL or properties of a mapping I already created?
-  phrasing_ops: 3
   slug: blueconic-url-mappings-api
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
   baseurl_source: declared
   description: Users are the people who have access to the BlueConic environment. [Read more](https://support.blueconic.com/hc/en-us/articles/360000013785-Users)
   name: BlueConic Users API
-  phrasing_intents:
-  - id: getAllUsers
-    intent: List all BlueConic users
-    question: Who has a user account in our BlueConic tenant?
-  - id: getOneUser
-    intent: Look up a single user
-    question: What roles and details does one specific user have?
-  phrasing_ops: 2
   slug: blueconic-users-api
 artifact_total: 163
 asyncapis:
@@ -1074,10 +826,10 @@ layout: provider
 mcp_servers:
 - description: ''
   name: BlueConic MCP Server
-  slug: blueconic-mcp-server
+  slug: blueconic-mcp
 - description: BlueConic ships an official MCP surface in two shapes. Every BlueConic tenant serves a hosted HTTP MCP endpoint at https://{tenantname}.blueconic.net/mcp, and a local stdio server ships as the npm pac
   name: BlueConic MCP server manifest
-  slug: blueconic-mcp-server-manifest
+  slug: blueconic
 modified: '2026-08-13'
 name: BlueConic
 nav: Providers
@@ -1116,23 +868,23 @@ scopes:
   summary_line: 27 scopes · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 68.9
+  composite: 68.4
   coverage:
     artifact_dirs: 31
-    catalog_earned: 64.5
+    catalog_earned: 61.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 50.5
+    catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 2.5
   facets:
     access_clarity: 55.3
     contract_governance: 31.8
     contract_quality: 61.6
     developer_ergonomics: 78.6
-    discoverability: 68.3
+    discoverability: 63.3
     operational_transparency: 94.7
-  previous_composite: 68.4
+  previous_composite: 65.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1150,7 +902,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

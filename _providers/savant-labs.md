@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -108,6 +108,10 @@ created: '2026-07-17'
 description: Savant Labs is an agentic AI platform for business analytics, finance, and data automation. It turns AI conversations into governed, audit-ready agents that automate regulated finance workflows such as month-end close, reconciliations, tax automation, and financial consolidation, with human review and audit-ready evidence. The no-code platform combines data preparation, blending, cleansing, automation, and a Vision Agent that extracts data from PDFs and images, connecting to ERPs (SAP, Oracle, NetSuite), data warehouses, BI tools, and spreadsheets through hundreds of pre-built connectors. Savant Labs is SOC 2 Type II certified with GDPR and HIPAA support, and is used by teams at Dell Technologies, ConocoPhillips, and Rover. It was surfaced as a portfolio company of Bloomberg Beta.
 image: https://savantlabs.io/wp-content/uploads/2025/10/home-banner-new.webp
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.savantlabs.io over HTTP.
+  name: Savant Labs MCP Server
+  slug: savant-labs
 modified: '2026-07-21'
 name: Savant Labs
 nav: Providers
@@ -121,13 +125,13 @@ score:
   band: emerging
   composite: 25.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 53.9
     contract_governance: 18.2
@@ -135,7 +139,7 @@ score:
     developer_ergonomics: 16.7
     discoverability: 58.3
     operational_transparency: 15.8
-  previous_composite: 25.4
+  previous_composite: 24.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -152,7 +156,7 @@ score:
     regime_id: horizontal
     score: 23.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

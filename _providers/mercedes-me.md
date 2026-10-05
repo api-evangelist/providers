@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 1
-  human_in_the_loop: 0
+- acting_count: 5
+  human_in_the_loop: 1
   name: Mercedes Me Agentic Access
   operation_count: 39
   slug: mercedes-me-agentic-access
-  summary_line: 39 operations · 1 acting
+  summary_line: 39 operations · 5 acting · 1 human-in-the-loop
 api_count: 4
 apis:
 - description: The Vehicle Status API delivers real-time vehicle state — doors, windows, deck lid, sunroof, tire pressure, and overall lock state — for a customer-consented Mercedes-Benz vehicle by VIN. Returns last
@@ -451,13 +451,13 @@ score:
   band: developing
   composite: 51.9
   coverage:
-    artifact_dirs: 30
+    artifact_dirs: 31
     catalog_earned: 79.0
     catalog_earned_first_party: 12.0
     catalog_gap: 36.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 39.5
     contract_governance: 45.5
@@ -465,7 +465,7 @@ score:
     developer_ergonomics: 58.9
     discoverability: 62.5
     operational_transparency: 15.8
-  previous_composite: 51.9
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -483,7 +483,7 @@ score:
     regime_id: horizontal
     score: 32.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

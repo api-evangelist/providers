@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,20 +25,20 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.0
-  scored_at: '2026-10-03'
+  score: 28.4
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The BuildOps Public API, named by the BuildOps Dev Center as the REST + webhook-callback integration surface for customers, software partners and vendors. The Dev Center gates its reference behind "In
   name: BuildOps Public API
   slug: public-api
-artifact_total: 7
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Buildops Webhooks
@@ -158,6 +158,10 @@ description: BuildOps is an AI-native, all-in-one commercial contractor manageme
   is a Data Dictionary describing BuildOps datasets on the Dashboard module and a Snowflake private share. BuildOps does publish a security policy and a Vanta-hosted Trust Center carrying SOC 2 Type I.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/buildops.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at docs.buildops.com over HTTP.
+  name: BuildOps MCP Server
+  slug: buildops
 modified: '2026-08-10'
 name: BuildOps
 nav: Providers
@@ -188,7 +192,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 60.5
     contract_governance: 0.0
@@ -196,7 +200,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 75.0
     operational_transparency: 13.2
-  previous_composite: 34.8
+  previous_composite: 34.2
   provenance:
     mcp: first-party
   regulatory:
@@ -206,7 +210,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

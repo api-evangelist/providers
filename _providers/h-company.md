@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 4
@@ -129,6 +129,11 @@ collections:
   name: Computer-Use Agents Webhooks API
   slug: open-h-company-webhooks-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/capabilities/h-company-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/h-company-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/overlays/h-company-computer-use-agents-overlay.yaml
   title: ''
@@ -276,9 +281,9 @@ description: 'H Company (hcompany.ai) is a Paris-based AI lab, backed by Accel a
 image: https://framerusercontent.com/assets/Xk8HZOz0eejLsPdcyokpuQJa3c.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at agp.eu.hcompany.ai over HTTP; 6 tools listed.
   name: H Company MCP Server
-  slug: h-company-mcp-server
+  slug: hai-agents
 modified: '2026-07-19'
 name: H Company
 nav: Providers
@@ -289,7 +294,7 @@ overview: 'H Company publishes 10 APIs on the [APIs.io](https://apis.io/) networ
   The H Company catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  H Company''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
+  H Company''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
 random_paper: 6
 score:
   band: developing
@@ -301,7 +306,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
@@ -317,7 +322,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 51.8
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -335,7 +340,7 @@ score:
     regime_id: horizontal
     score: 22.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true
@@ -361,5 +366,6 @@ tags:
 - LLM
 - MCP
 - Developer Tools
+- Foundation Models
 website: https://www.hcompany.ai/
 ---

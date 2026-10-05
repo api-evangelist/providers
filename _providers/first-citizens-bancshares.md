@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 10
 apis:
 - description: The Authorization API issues OAuth2 access tokens for the SVB commercial banking platform (now part of First Citizens). Partners exchange client credentials at /v1/security/oauth/token for a bearer to
@@ -202,7 +202,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
@@ -217,7 +217,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 33.6
+  previous_composite: 35.2
   provenance:
     conformance: derived
   regulatory:
@@ -227,7 +227,7 @@ score:
     regime_id: banking_open_finance
     score: 24.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

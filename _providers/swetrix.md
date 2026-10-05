@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -51,223 +51,61 @@ apis:
   baseurl_source: declared
   description: Manage chart annotations
   name: Swetrix Annotations API
-  phrasing_intents:
-  - id: listAnnotations
-    intent: List a project's chart annotations
-    question: Which notes have been pinned to dates on my analytics charts?
-  - id: createAnnotation
-    intent: Add a note to a chart on a specific date
-    question: How do I mark a release date on my traffic chart with a note?
-  - id: updateAnnotation
-    intent: Change an existing annotation's date or text
-    question: Can I fix the wording of a chart annotation I already added?
-  - id: deleteAnnotation
-    intent: Remove an annotation from a project
-    question: How do I get rid of a chart annotation I no longer need?
-  phrasing_ops: 4
   slug: swetrix-annotations-api
 - baseURL: https://api.swetrix.com
   baseurl_source: declared
   description: Custom event analytics
   name: Swetrix Custom Events API
-  phrasing_intents:
-  - id: getCustomEvents
-    intent: Chart custom event counts over time
-    question: How many times did my signup custom event fire each day this month?
-  phrasing_ops: 1
   slug: swetrix-custom-events-api
 - baseURL: https://api.swetrix.com
   baseurl_source: declared
   description: Record JavaScript error events
   name: Swetrix Errors API
-  phrasing_intents:
-  - id: listErrors
-    intent: List grouped JavaScript errors for a project
-    question: Which JavaScript errors are my visitors hitting most this week?
-  - id: getError
-    intent: View details of one error group
-    question: What are the full details behind a specific error group?
-  - id: getErrorOverview
-    intent: Chart error counts over time
-    question: Is my site's error rate going up or down over time?
-  - id: recordError
-    intent: Report a JavaScript error from a page
-    question: How do I send a caught JavaScript exception to Swetrix?
-  phrasing_ops: 4
   slug: swetrix-errors-api
 - baseURL: https://api.swetrix.com
   baseurl_source: declared
   description: Feature flag evaluation statistics
   name: Swetrix Feature Flags API
-  phrasing_intents:
-  - id: getFeatureFlagStats
-    intent: See how often a feature flag evaluated true or false
-    question: How often is my feature flag coming back true versus false?
-  phrasing_ops: 1
   slug: swetrix-feature-flags-api
 - baseURL: https://api.swetrix.com
   baseurl_source: declared
   description: Manage conversion funnels
   name: Swetrix Funnels API
-  phrasing_intents:
-  - id: listFunnels
-    intent: List a project's saved funnels
-    question: Which conversion funnels have I already saved for this project?
-  - id: createFunnel
-    intent: Save a new conversion funnel
-    question: How do I define a signup funnel as a sequence of pages?
-  - id: updateFunnel
-    intent: Rename a saved funnel or change its steps
-    question: Can I add or reorder pages in a funnel I already saved?
-  - id: deleteFunnel
-    intent: Delete a saved funnel
-    question: How do I remove a funnel I no longer use?
-  - id: getFunnelAnalysis
-    intent: Analyze conversion and drop-off through a funnel
-    question: Where do visitors drop off between my homepage, signup and dashboard?
-  phrasing_ops: 5
   slug: swetrix-funnels-api
 - baseURL: https://api.swetrix.com
   baseurl_source: declared
   description: Manage organisations and member access
   name: Swetrix Organisations API
-  phrasing_intents:
-  - id: listOrganisations
-    intent: List the organisations I belong to
-    question: Which organisations am I a member of?
-  - id: createOrganisation
-    intent: Create a new organisation
-    question: How do I set up a new organisation to share analytics projects with a team?
-  - id: getOrganisation
-    intent: View details of one organisation
-    question: What are the details of a specific organisation I belong to?
-  - id: updateOrganisation
-    intent: Rename an organisation
-    question: How do I rename an organisation?
-  - id: deleteOrganisation
-    intent: Permanently delete an organisation
-    question: Who is allowed to permanently delete an organisation?
-  - id: inviteOrganisationMember
-    intent: Invite someone to an organisation with a role
-    question: How do I invite a colleague by email to my organisation?
-  - id: updateOrganisationMember
-    intent: Change an organisation member's role
-    question: Can I promote an existing organisation member to a different role?
-  - id: removeOrganisationMember
-    intent: Remove a member from an organisation
-    question: What's the way to kick someone out of my organisation?
-  phrasing_ops: 8
   slug: swetrix-organisations-api
 - baseURL: https://api.swetrix.com
   baseurl_source: declared
   description: Frontend and backend performance metrics
   name: Swetrix Performance API
-  phrasing_intents:
-  - id: getPerformanceLog
-    intent: Chart page load and timing metrics
-    question: What's the p95 time to first byte on my site this month?
-  - id: getPerformanceBirdseye
-    intent: Compare performance against the previous period
-    question: Did my sites get faster or slower compared with the previous period?
-  phrasing_ops: 2
   slug: swetrix-performance-api
 - baseURL: https://api.swetrix.com
   baseurl_source: declared
   description: Manage analytics projects
   name: Swetrix Projects API
-  phrasing_intents:
-  - id: listProjects
-    intent: List my analytics projects
-    question: Which analytics projects do I have?
-  - id: createProject
-    intent: Create a new analytics project
-    question: How do I start tracking a new website as an analytics project?
-  - id: getProject
-    intent: View one analytics project's details
-    question: What settings does a particular project currently have?
-  - id: updateProject
-    intent: Change a project's settings
-    question: How do I restrict which origins can send data to my project?
-  - id: deleteProject
-    intent: Permanently delete a project and its data
-    question: Does deleting a project also wipe all of its collected analytics data?
-  - id: pinProject
-    intent: Pin a project to the top of the dashboard
-    question: How do I keep my most important project at the top of the dashboard?
-  - id: unpinProject
-    intent: Unpin a project from the dashboard
-    question: Can I take a project out of the pinned section?
-  phrasing_ops: 7
   slug: swetrix-projects-api
 - baseURL: https://api.swetrix.com
   baseurl_source: declared
   description: Record revenue transactions (server-side only, requires API key)
   name: Swetrix Revenue API
-  phrasing_intents:
-  - id: recordRevenue
-    intent: Record a sale, refund or subscription payment
-    question: How do I send a completed sale from my server into Swetrix revenue analytics?
-  phrasing_ops: 1
   slug: swetrix-revenue-api
 - baseURL: https://api.swetrix.com
   baseurl_source: declared
   description: Individual visitor session data
   name: Swetrix Sessions API
-  phrasing_intents:
-  - id: listSessions
-    intent: List individual visitor sessions
-    question: Can I browse individual visitor sessions from last week?
-  - id: getSession
-    intent: View one visitor session's pages and details
-    question: Which pages did a particular visitor go through in their session?
-  phrasing_ops: 2
   slug: swetrix-sessions-api
 - baseURL: https://api.swetrix.com
   baseurl_source: declared
   description: Aggregated traffic and pageview analytics
   name: Swetrix Traffic API
-  phrasing_intents:
-  - id: getTrafficLog
-    intent: Get a project's traffic data over time
-    question: How many visitors and pageviews did my site get each day last month?
-  - id: getBirdseyeSummary
-    intent: Compare traffic totals against the previous period
-    question: Is my traffic up or down compared with the previous period?
-  - id: getLiveVisitors
-    intent: See who is on the site right now
-    question: How many people are on my site right now?
-  - id: getKeywords
-    intent: Get search keywords from Google Search Console
-    question: Which Google search keywords are bringing people to my site?
-  - id: getUserFlow
-    intent: See how visitors move between pages
-    question: Where do visitors usually go after landing on my homepage?
-  - id: getFilters
-    intent: List available values for an analytics dimension
-    question: Which browsers or countries can I filter my analytics by?
-  phrasing_ops: 6
   slug: swetrix-traffic-api
 - baseURL: https://api.swetrix.com
   baseurl_source: declared
   description: Manage saved dashboard views (segments)
   name: Swetrix Views API
-  phrasing_intents:
-  - id: listViews
-    intent: List a project's saved dashboard views
-    question: Which saved segments exist on my project's dashboard?
-  - id: createView
-    intent: Save a new dashboard view or segment
-    question: How do I save a filtered segment of my dashboard for reuse?
-  - id: getView
-    intent: View one saved dashboard view's configuration
-    question: What filters are stored in a particular saved view?
-  - id: updateView
-    intent: Change a saved view's name, filters or events
-    question: Can I change the filters on a segment I already saved?
-  - id: deleteView
-    intent: Delete a saved dashboard view
-    question: How do I get rid of a saved segment I don't use anymore?
-  phrasing_ops: 5
   slug: swetrix-views-api
 artifact_total: 58
 asyncapis:
@@ -360,6 +198,11 @@ collections:
   name: Swetrix Admin Annotations Views API
   slug: open-swetrix-views-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/capabilities/swetrix-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/swetrix-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -671,7 +514,7 @@ overview: 'Swetrix publishes 13 APIs on the [APIs.io](https://apis.io/) network,
   The Swetrix catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Swetrix''s developer surface includes authentication, documentation, engineering blog, pricing, GitHub presence, signup flow, support, and 52 more developer resources.'
+  Swetrix''s developer surface includes authentication, documentation, engineering blog, pricing, GitHub presence, signup flow, support, and 53 more developer resources.'
 plans:
 - name: Swetrix Plans Pricing
   plan_count: 3
@@ -707,13 +550,13 @@ score:
   band: exemplar
   composite: 77.0
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 34
     catalog_earned: 81.0
     catalog_earned_first_party: 24.0
     catalog_gap: 34.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 85.5
     contract_governance: 45.5
@@ -721,7 +564,7 @@ score:
     developer_ergonomics: 83.9
     discoverability: 73.2
     operational_transparency: 81.6
-  previous_composite: 77.0
+  previous_composite: 75.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -743,7 +586,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

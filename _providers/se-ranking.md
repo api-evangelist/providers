@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 27
+- acting_count: 28
   human_in_the_loop: 0
   name: Se Ranking Agentic Access
   operation_count: 86
   slug: se-ranking-agentic-access
-  summary_line: 86 operations · 27 acting
+  summary_line: 86 operations · 28 acting
 api_count: 1
 apis:
 - description: REST API providing access to SE Ranking's SEO datasets including keyword research, backlink analysis, domain analysis, SERP data, website audits, and AI search visibility tracking. Uses a credit-based
@@ -115,6 +115,11 @@ collections:
   name: SE Ranking Data Account & system Website Audit API
   slug: open-se-ranking-website-audit-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/capabilities/se-ranking-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/se-ranking-capability-edges.yml
 - group: commercial
   title: ''
   type: License
@@ -334,9 +339,9 @@ jsonld:
   slug: se-ranking-context
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at api.seranking.com over streamable HTTP requiring OAuth; 217 tools listed.
   name: SE Ranking MCP Server
-  slug: se-ranking-mcp-server
+  slug: se-ranking
 modified: '2026-08-13'
 name: SE Ranking
 nav: Providers
@@ -347,7 +352,7 @@ overview: 'SE Ranking publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
   The SE Ranking catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  SE Ranking''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 32 more developer resources.'
+  SE Ranking''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 33 more developer resources.'
 plans:
 - name: Se Ranking Plans Pricing
   plan_count: 6
@@ -377,13 +382,13 @@ score:
   band: strong
   composite: 61.8
   coverage:
-    artifact_dirs: 29
+    artifact_dirs: 30
     catalog_earned: 75.3
     catalog_earned_first_party: 24.0
     catalog_gap: 39.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 84.2
     contract_governance: 14.4
@@ -391,7 +396,7 @@ score:
     developer_ergonomics: 66.7
     discoverability: 68.3
     operational_transparency: 57.9
-  previous_composite: 61.8
+  previous_composite: 60.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -409,7 +414,7 @@ score:
     regime_id: horizontal
     score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

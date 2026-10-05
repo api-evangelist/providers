@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -203,6 +203,11 @@ collections:
   name: PlanetScale Platform Backups Webhooks API
   slug: open-planetscale-webhooks-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/capabilities/planetscale-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/planetscale-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -357,7 +362,7 @@ overview: 'Planetscale publishes 20 APIs on the [APIs.io](https://apis.io/) netw
   The Planetscale catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Planetscale''s developer surface includes authentication, engineering blog, and 7 more developer resources.'
+  Planetscale''s developer surface includes authentication, engineering blog, and 8 more developer resources.'
 plans:
 - name: Planetscale Plans Pricing
   plan_count: 5
@@ -393,13 +398,13 @@ score:
   band: thin
   composite: 29.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 45.5
     catalog_earned_first_party: 0.0
     catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 15.8
     contract_governance: 13.6
@@ -407,7 +412,7 @@ score:
     developer_ergonomics: 19.0
     discoverability: 42.9
     operational_transparency: 10.5
-  previous_composite: 29.8
+  previous_composite: 31.2
   provenance:
     agentic_access: derived
     contracts:
@@ -422,7 +427,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

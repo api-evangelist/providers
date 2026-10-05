@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 0
+- acting_count: 1
   human_in_the_loop: 0
   name: Mattermark Agentic Access
   operation_count: 11
   slug: mattermark-agentic-access
-  summary_line: 11 operations
+  summary_line: 11 operations · 1 acting
 api_count: 2
 apis:
 - description: 'GraphQL access to the Mattermark dataset using the Mattermark Search Filter Language (MSFL) for complex company and investor queries. Read-only: the published schema declares 57 types under a single R'
@@ -82,6 +82,11 @@ apis:
   slug: mattermark-utilities-api
 artifact_total: 12
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/capabilities/mattermark-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mattermark-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/agentic-access/mattermark-agentic-access.yml
   title: ''
@@ -233,7 +238,7 @@ network: true
 overview: 'Mattermark publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Complex Queries API, Funding Events API, and 4 more. Tagged areas include Company, Business Intelligence, Company Data, Investor, and Funding.
 
 
-  Mattermark''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, authentication, changelog, and 23 more developer resources.'
+  Mattermark''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, authentication, changelog, and 24 more developer resources.'
 plans:
 - name: Mattermark Plans Pricing
   plan_count: 4
@@ -247,7 +252,7 @@ score:
   band: developing
   composite: 47.0
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -279,7 +284,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

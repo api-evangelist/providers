@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -193,6 +193,11 @@ collections:
   name: Chameleon REST API
   slug: open-chameleon
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/chameleon/refs/heads/main/capabilities/chameleon-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/chameleon-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/chameleon/refs/heads/main/agentic-access/chameleon-agentic-access.yml
   title: ''
@@ -287,7 +292,7 @@ overview: 'Chameleon publishes 18 APIs on the [APIs.io](https://apis.io/) networ
   The Chameleon catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Chameleon''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
+  Chameleon''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Chameleon Plans Pricing
   plan_count: 1
@@ -301,13 +306,13 @@ score:
   band: thin
   composite: 32.1
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 47.0
     catalog_earned_first_party: 0.0
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
@@ -315,7 +320,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 64.3
     operational_transparency: 26.3
-  previous_composite: 32.1
+  previous_composite: 32.7
   provenance:
     agentic_access: derived
     contracts:
@@ -330,7 +335,7 @@ score:
     regime_id: horizontal
     score: 21.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

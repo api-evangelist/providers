@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Authenticated REST administration and reporting surface for the iboss Zero Trust SASE/SSE cloud platform, served under the /ibcloud/web path on the iboss cloud gateway hosts. Probed anonymously it ans
@@ -44,6 +44,25 @@ apis:
   slug: iboss-zero-trust-sse-platform-api
 artifact_total: 6
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/iboss/refs/heads/main/lifecycle/iboss-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/iboss-lifecycle.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/iboss/refs/heads/main/hosts/iboss-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/iboss-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/iboss/refs/heads/main/vendors/iboss-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/iboss-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.iboss.com/news
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/iboss/refs/heads/main/security/iboss-domain-security.yml
   title: ''
@@ -65,14 +84,30 @@ common:
   title: ''
   type: Blog
   url: https://www.iboss.com/blog
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.iboss.com
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.iboss.com/rss.xml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.iboss.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/iboss
 - group: commercial
   title: ''
   type: Pricing
   url: https://www.iboss.com/pricing
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.iboss.com/get-demo
 - group: start
   title: ''
   type: Login
@@ -138,11 +173,6 @@ common:
   title: ''
   type: TrustCenter
   url: security/iboss-trust-center.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/iboss/refs/heads/main/packages/iboss-packages.yml
-  title: ''
-  type: Packages
-  url: packages/iboss-packages.yml
 coverage:
   checked: '2026-08-22'
   detail: 'iboss runs a live platform API — api.ibosscloud.com/ibcloud/web answers HTTP 401 with XSRF-TOKEN and JSESSIONID cookies and a "Server: iboss cloud" header — but publishes no contract for it: docs.iboss.com 307-redirects to a sign-in-gated app.gitbook.com space rather than a published docs site, and the 344-URL sitemap contains no /api, /developer or /reference route.'
@@ -169,7 +199,7 @@ network: true
 overview: 'iboss publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cybersecurity, Zero Trust, and SASE.
 
 
-  iboss'' developer surface includes support, engineering blog, pricing, authentication, and 18 more developer resources.'
+  iboss'' developer surface includes support, engineering blog, documentation, pricing, getting-started guide, authentication, and 23 more developer resources.'
 plans:
 - name: Iboss Plans Pricing
   plan_count: 3
@@ -180,23 +210,23 @@ rate_limits:
   name: Iboss Rate Limits
   slug: iboss-rate-limits
 score:
-  band: emerging
-  composite: 23.3
+  band: thin
+  composite: 29.5
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.1
   facets:
     access_clarity: 46.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 11.9
-    discoverability: 73.2
-    operational_transparency: 15.8
+    developer_ergonomics: 33.3
+    discoverability: 75.0
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -204,7 +234,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 23.3
+  previous_composite: 23.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -215,8 +245,8 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -74,7 +74,7 @@ apis:
   description: The Traces API from Grafana Tempo — 1 operation(s) for traces.
   name: Grafana Tempo Traces API
   slug: grafana-tempo-traces-api
-artifact_total: 21
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -101,6 +101,11 @@ collections:
   name: Grafana Tempo HTTP API
   slug: open-tempo-http-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/capabilities/grafana-tempo-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/grafana-tempo-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/agentic-access/grafana-tempo-agentic-access.yml
   title: ''
@@ -152,6 +157,10 @@ finops:
   slug: grafana-tempo-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/grafana-tempo.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.grafana.com over HTTP.
+  name: Grafana Tempo MCP Server
+  slug: grafana-tempo
 modified: '2026-05-19'
 name: Grafana Tempo
 nav: Providers
@@ -162,7 +171,7 @@ overview: 'Grafana Tempo publishes 6 APIs on the [APIs.io](https://apis.io/) net
   The Grafana Tempo catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Grafana Tempo''s developer surface includes documentation, getting-started guide, GitHub presence, engineering blog, pricing, and 5 more developer resources.'
+  Grafana Tempo''s developer surface includes documentation, getting-started guide, GitHub presence, engineering blog, pricing, and 6 more developer resources.'
 plans:
 - name: Grafana Tempo Plans Pricing
   plan_count: 3
@@ -187,13 +196,13 @@ score:
   band: thin
   composite: 32.5
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 49.7
     catalog_earned_first_party: 0.0
     catalog_gap: 65.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 34.2
     contract_governance: 9.8
@@ -201,7 +210,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 66.7
     operational_transparency: 13.2
-  previous_composite: 32.5
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     contracts:
@@ -217,7 +226,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

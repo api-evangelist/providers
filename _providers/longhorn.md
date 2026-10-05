@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -126,6 +126,11 @@ collections:
   name: Longhorn Manager BackingImages Volumes API
   slug: open-longhorn-volumes-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/capabilities/longhorn-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/longhorn-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -230,7 +235,7 @@ overview: 'Longhorn publishes 9 APIs on the [APIs.io](https://apis.io/) network,
   The Longhorn catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Longhorn''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, and 13 more developer resources.'
+  Longhorn''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, and 14 more developer resources.'
 plans:
 - name: Longhorn Plans Pricing
   plan_count: 3
@@ -255,13 +260,13 @@ score:
   band: developing
   composite: 44.6
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 57.7
     catalog_earned_first_party: 0.0
     catalog_gap: 57.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
@@ -272,7 +277,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 44.6
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     contracts:
@@ -287,7 +292,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

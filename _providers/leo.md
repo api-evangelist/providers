@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://api.meetleo.com
@@ -54,7 +54,7 @@ apis:
   description: The Health API from LeO — 1 operation(s) for health.
   name: LeO Health API
   slug: leo-health-api
-artifact_total: 12
+artifact_total: 11
 common:
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/leo/refs/heads/main/capabilities/leo-capability-edges.yml
@@ -198,15 +198,12 @@ description: 'LeO is an AI-powered sales and prospecting platform for commercial
 image: https://static.wixstatic.com/media/38dea4_5b1d1b85783146d8b6cf1c6f354c9be8%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/38dea4_5b1d1b85783146d8b6cf1c6f354c9be8%7Emv2.jpg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.meetleo.com over HTTP; 3 tools listed.
   name: LeO MCP Connector
   slug: leo-mcp-connector
-- description: ''
-  name: LeO MCP Server
-  slug: leo-mcp-server
-- description: ''
+- description: Remote MCP server at www.meetleo.com over HTTP; 9 tools listed.
   name: LeO 3.0 Site Visitor Assistant
-  slug: leo-30-site-visitor-assistant
+  slug: leo-3-0-site-visitor-assistant
 modified: '2026-08-14'
 name: LeO
 nav: Providers
@@ -226,9 +223,9 @@ rate_limits:
   slug: leo-rate-limits
 scopes:
 - name: Leo Scopes
-  scope_count: 0
+  scope_count: 7
   slug: leo-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 7 scopes
 score:
   band: developing
   composite: 45.3
@@ -239,7 +236,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.4
   facets:
     access_clarity: 77.6
     contract_governance: 18.2
@@ -247,7 +244,7 @@ score:
     developer_ergonomics: 37.5
     discoverability: 75.8
     operational_transparency: 0.0
-  previous_composite: 45.3
+  previous_composite: 49.7
   provenance:
     conformance: first-party
     contracts:
@@ -268,7 +265,7 @@ score:
     regime_id: insurance
     score: 38.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

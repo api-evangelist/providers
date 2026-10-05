@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: platform
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.5
-  scored_at: '2026-10-03'
+  score: 2.2
+  scored_at: '2026-10-04'
 api_count: 0
 artifact_total: 2
 common:
@@ -55,9 +55,9 @@ created: '2026-09-27'
 description: Bbb3 is a placeholder company identified during the API Evangelist harvest process from secondary-market sources. It currently exists as a stub entry within the network, awaiting comprehensive profiling and enrichment. No public-facing website, documentation, or API endpoints have been discovered for Bbb3 at this time, and further investigation is required to determine its actual digital presence and offerings.
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at www.bb3advertising.com.
   name: Bbb3 MCP Server
-  slug: bbb3-mcp-server
+  slug: bbb3-mcp-yml
 modified: '2026-09-27'
 name: Bbb3
 nav: Providers
@@ -68,7 +68,7 @@ score:
   band: minimal
   composite: 2.5
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 20.0
     catalog_earned_first_party: 0.0
     catalog_gap: 95.0
@@ -88,7 +88,7 @@ score:
     - owner: catalog
       reason: venue_as_website
   provenance:
-    mcp: first-party
+    mcp: platform-generated
   regulatory:
     applies: true
     matched_via: fallback
@@ -96,7 +96,7 @@ score:
     regime_id: horizontal
     score: 5.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

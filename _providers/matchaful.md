@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The store's Shopify-provided Universal Commerce Protocol agent-commerce surface — a live MCP shopping endpoint (search_catalog, create_cart, create_checkout, update_checkout, complete_checkout) docume
@@ -89,9 +89,9 @@ description: 'Matchaful is a premium Japanese matcha brand selling single-origin
 image: https://www.matchaful.com/cdn/shop/files/matchaful-organic-matcha-website-hero.jpg?v=1780489902
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at www.matchaful.com over HTTP; 5 tools listed.
   name: Matchaful MCP Server
-  slug: matchaful-mcp-server
+  slug: matchaful-ucp-shopping
 modified: '2026-07-20'
 name: Matchaful
 nav: Providers
@@ -111,7 +111,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
@@ -119,7 +119,7 @@ score:
     developer_ergonomics: 14.3
     discoverability: 75.0
     operational_transparency: 0.0
-  previous_composite: 16.9
+  previous_composite: 17.3
   provenance:
     mcp: platform-generated
     skills: first-party
@@ -130,7 +130,7 @@ score:
     regime_id: horizontal
     score: 13.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: The GraphQL API behind my.wingtra.com, Wingtra's customer and partner portal. The schema answers anonymous introspection and returns 84 types, 38 query root fields and 33 mutations covering drone regi
@@ -173,9 +173,9 @@ rate_limits:
   slug: wingtra-rate-limits
 scopes:
 - name: Wingtra Scopes
-  scope_count: 0
+  scope_count: 14
   slug: wingtra-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 14 scopes
 score:
   band: developing
   composite: 44.7
@@ -186,7 +186,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.7
   facets:
     access_clarity: 77.6
     contract_governance: 18.2
@@ -202,7 +202,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 44.7
+  previous_composite: 42.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -213,7 +213,7 @@ score:
     regime_id: horizontal
     score: 39.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 38
+- acting_count: 40
   human_in_the_loop: 1
   name: Lev Agentic Access
   operation_count: 81
   slug: lev-agentic-access
-  summary_line: 81 operations · 38 acting · 1 human-in-the-loop
+  summary_line: 81 operations · 40 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.lev.com/api/external/v2
@@ -411,7 +411,7 @@ description: 'Lev is an AI platform and product system for commercial real estat
 image: https://www.lev.com/api/og?title=Lev&eyebrow=LEV&accent=commercial+real+estate.
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.lev.com over HTTP; 60 tools listed.
   name: Lev
   slug: lev
 modified: '2026-09-16'
@@ -446,7 +446,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.9
   facets:
     access_clarity: 85.5
     contract_governance: 4.5
@@ -454,7 +454,7 @@ score:
     developer_ergonomics: 67.3
     discoverability: 75.0
     operational_transparency: 73.7
-  previous_composite: 63.0
+  previous_composite: 67.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -472,7 +472,7 @@ score:
     regime_id: securities_market_data
     score: 39.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

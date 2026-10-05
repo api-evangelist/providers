@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 19
@@ -497,7 +497,7 @@ layout: provider
 mcp_servers:
 - description: ''
   name: tessl.io MCP Server
-  slug: tesslio-mcp-server
+  slug: tesslio-mcp-yml
 modified: '2026-07-21'
 name: tessl.io
 nav: Providers
@@ -550,7 +550,7 @@ score:
     regime_id: horizontal
     score: 27.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

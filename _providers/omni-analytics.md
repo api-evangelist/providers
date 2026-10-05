@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: 'The Omni REST API provides programmatic access to an Omni instance: models, topics, views and fields; documents, dashboards and folders; query execution and scheduling; users, groups and permissions; '
@@ -182,7 +182,7 @@ layout: provider
 mcp_servers:
 - description: 'Official Omni MCP server for natural language querying across your datasets, scoped to specific models and respecting user permissions. Configured via AI Hub > MCP. Works with Claude, ChatGPT, Cursor '
   name: Omni Analytics MCP Server
-  slug: omni-analytics-mcp-server
+  slug: omni
 modified: '2026-09-16'
 name: Omni Analytics
 nav: Providers
@@ -202,7 +202,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
@@ -210,7 +210,7 @@ score:
     developer_ergonomics: 78.6
     discoverability: 71.7
     operational_transparency: 44.7
-  previous_composite: 42.6
+  previous_composite: 41.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -230,7 +230,7 @@ score:
     regime_id: horizontal
     score: 27.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

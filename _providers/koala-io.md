@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -101,6 +101,11 @@ collections:
   name: Koala API
   slug: open-koala-io
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/capabilities/koala-io-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/koala-io-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/agentic-access/koala-io-agentic-access.yml
   title: ''
@@ -367,9 +372,9 @@ jsonld:
   slug: koala-io-context
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at koala.mintlify.app over HTTP; 3 tools listed.
   name: Koala MCP Server
-  slug: koala-mcp-server
+  slug: koala-docs
 modified: '2026-08-13'
 name: Koala
 nav: Providers
@@ -380,7 +385,7 @@ overview: 'Koala publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
   The Koala catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Koala''s developer surface includes authentication, documentation, pricing, code examples, API reference, getting-started guide, signup flow, and 43 more developer resources.'
+  Koala''s developer surface includes authentication, documentation, pricing, code examples, API reference, getting-started guide, signup flow, and 44 more developer resources.'
 plans:
 - name: Koala Io Plans Pricing
   plan_count: 4
@@ -411,7 +416,7 @@ score:
     catalog_gap: 35.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 85.5
     contract_governance: 28.0
@@ -419,7 +424,7 @@ score:
     developer_ergonomics: 55.4
     discoverability: 75.0
     operational_transparency: 60.5
-  previous_composite: 64.9
+  previous_composite: 64.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -443,7 +448,7 @@ score:
     regime_id: horizontal
     score: 30.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

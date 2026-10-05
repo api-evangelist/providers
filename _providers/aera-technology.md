@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: 'An authenticated Model Context Protocol (MCP) endpoint served from Aera Technology''s own corporate WordPress host. Anonymous discovery works: the site publishes RFC 9728 protected-resource metadata an'
@@ -157,9 +157,9 @@ description: Aera Technology is the Decision Intelligence company behind Aera De
 image: https://www.aeratechnology.com/wp-content/uploads/2025/11/aera-logo.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at www.aeratechnology.com over HTTP.
   name: Aera Technology MCP Server
-  slug: aera-technology-mcp-server
+  slug: aera-technology
 modified: '2026-08-06'
 name: Aera Technology
 nav: Providers
@@ -184,7 +184,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.8
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
@@ -192,7 +192,7 @@ score:
     developer_ergonomics: 19.0
     discoverability: 75.0
     operational_transparency: 26.3
-  previous_composite: 28.2
+  previous_composite: 24.4
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -209,7 +209,7 @@ score:
     regime_id: horizontal
     score: 41.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

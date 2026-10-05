@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/datagrail/refs/heads/main/security/datagrail-domain-security.yml
@@ -106,6 +106,10 @@ description: DataGrail is a San Francisco-based data privacy platform founded in
   alongside an open-source ecosystem on GitHub that includes mobile Consent SDKs for iOS and Android, a Google Tag Manager consent template, and a Terraform AWS ECS module for deploying Request Manager Agents. The company serves enterprise customers including Salesforce, HubSpot, Okta, Netgear, and Dexcom, advertises 2,000+ pre-built integrations across CRM, marketing, communications, HR, data, e-commerce, and support platforms, holds patents on its Live Data Map and Smart Verification technology, is SOC 2 and ISO certified, and is backed by Felicis Ventures, HubSpot Ventures, Okta Ventures, Basis Set Ventures, Cloud Apps Capital, Operator Collective, Thomson Reuters Ventures, and Third Point Ventures.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/datagrail.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at acme.datagrail.io over HTTP.
+  name: DataGrail MCP Server
+  slug: datagrail
 modified: '2026-05-25'
 name: DataGrail
 nav: Providers
@@ -125,7 +129,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -140,7 +144,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 14.9
+  previous_composite: 15.4
   provenance:
     mcp: first-party
   regulatory:
@@ -150,7 +154,7 @@ score:
     regime_id: horizontal
     score: 10.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

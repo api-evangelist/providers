@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -94,6 +94,11 @@ collections:
   name: Robin Legal Intelligence Platform API
   slug: open-robin-ai
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/capabilities/robin-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/robin-ai-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/agentic-access/robin-ai-agentic-access.yml
   title: ''
@@ -321,7 +326,7 @@ overview: 'Robin AI publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   The Robin AI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Robin AI''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, support, and 25 more developer resources.'
+  Robin AI''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, support, and 26 more developer resources.'
 plans:
 - name: Robin Ai Plans Pricing
   plan_count: 4
@@ -357,13 +362,13 @@ score:
   band: developing
   composite: 43.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 72.3
     catalog_earned_first_party: 0.0
     catalog_gap: 42.7
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 63.9
     contract_governance: 13.6
@@ -379,7 +384,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 43.0
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     contracts:
@@ -394,7 +399,7 @@ score:
     regime_id: horizontal
     score: 21.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

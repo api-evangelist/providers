@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://api-qa.phenompro.com
@@ -115,6 +115,11 @@ collections:
   name: Phenom Talent Experience Platform Applicants User Management API
   slug: open-phenom-user-management-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/phenom/refs/heads/main/capabilities/phenom-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/phenom-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/phenom/refs/heads/main/overlays/phenom-platform-overlay.yaml
   title: ''
@@ -253,19 +258,19 @@ network: true
 overview: 'Phenom publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Applicants API, Applications API, Candidates API, and 6 more. Tagged areas include Company, Human Resources, Talent Experience, Recruiting, and Applicant Tracking.
 
 
-  Phenom''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 21 more developer resources.'
+  Phenom''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 22 more developer resources.'
 random_paper: 9
 score:
   band: developing
   composite: 44.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
@@ -280,7 +285,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 44.8
+  previous_composite: 44.4
   provenance:
     conformance: first-party
     contracts:
@@ -297,7 +302,7 @@ score:
     regime_id: employment_payroll
     score: 32.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

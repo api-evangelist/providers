@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -90,7 +90,7 @@ apis:
   description: These endpoints allows your application to get user specific information such as liked sounds.
   name: Epidemic Sound Users API
   slug: epidemic-sound-users-api
-artifact_total: 48
+artifact_total: 49
 collections:
 - collection_type: open
   name: API Collection
@@ -312,6 +312,10 @@ finops:
   slug: epidemic-sound-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/epidemic-sound.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at www.epidemicsound.com over HTTP.
+  name: Epidemic Sound MCP Server
+  slug: epidemic-sound
 modified: '2026-09-16'
 name: Epidemic Sound
 nav: Providers
@@ -344,7 +348,7 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 46.8
     contract_governance: 0.0
@@ -360,7 +364,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 42.4
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     contracts:
@@ -376,7 +380,7 @@ score:
     regime_id: horizontal
     score: 21.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 1
+- acting_count: 5
   human_in_the_loop: 0
   name: Sourcebot Agentic Access
   operation_count: 17
   slug: sourcebot-agentic-access
-  summary_line: 17 operations · 1 acting
+  summary_line: 17 operations · 5 acting
 api_count: 1
 apis:
 - baseURL: https://app.sourcebot.dev
@@ -90,6 +90,11 @@ collections:
   name: Sourcebot Public Enterprise (EE) Enterprise (EE) System API
   slug: open-sourcebot-system-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sourcebot/refs/heads/main/capabilities/sourcebot-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sourcebot-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/sourcebot/refs/heads/main/overlays/sourcebot-public-overlay.yaml
   title: ''
@@ -226,7 +231,7 @@ layout: provider
 mcp_servers:
 - description: Sourcebot's "agent code context layer" — an MCP server that gives coding agents (Cursor, Claude Code, VS Code, and any MCP-compatible client) grounded search and navigation context across every repo i
   name: Sourcebot MCP Server
-  slug: sourcebot-mcp-server
+  slug: sourcebot
 modified: '2026-07-21'
 name: Sourcebot
 nav: Providers
@@ -234,13 +239,13 @@ network: true
 overview: 'Sourcebot publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Enterprise (EE) API, Git API, Repositories API, and 2 more. Tagged areas include Company, Code Search, Code Intelligence, Developer Tools, and Source Code.
 
 
-  Sourcebot''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, pricing, signup flow, and 22 more developer resources.'
+  Sourcebot''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, pricing, signup flow, and 23 more developer resources.'
 random_paper: 14
 score:
   band: developing
   composite: 47.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -272,7 +277,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 1
+- acting_count: 4
   human_in_the_loop: 1
   name: Govee Agentic Access
   operation_count: 5
   slug: govee-agentic-access
-  summary_line: 5 operations · 1 acting · 1 human-in-the-loop
+  summary_line: 5 operations · 4 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://openapi.api.govee.com/router/api/v1
@@ -167,7 +167,7 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.1
   facets:
     access_clarity: 26.8
     contract_governance: 0.0
@@ -175,7 +175,7 @@ score:
     developer_ergonomics: 25.0
     discoverability: 66.1
     operational_transparency: 31.1
-  previous_composite: 32.7
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     contracts:
@@ -190,7 +190,7 @@ score:
     regime_id: horizontal
     score: 11.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

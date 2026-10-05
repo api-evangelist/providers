@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 58.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 3
@@ -124,6 +124,11 @@ collections:
   name: GC AI External Chat Utility API
   slug: open-gc-ai-utility-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/capabilities/gc-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gc-ai-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -273,9 +278,9 @@ description: GC AI is the AI platform for in-house legal teams, built by three-t
 image: https://framerusercontent.com/images/Zth3qSTP7QF72InJJ60jCoqi190.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at app.gc.ai over HTTP; 58 tools listed.
   name: GC AI MCP Server
-  slug: gc-ai-mcp-server
+  slug: gc-ai
 modified: '2026-07-19'
 name: GC AI
 nav: Providers
@@ -283,7 +288,7 @@ network: true
 overview: 'GC AI publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Files API, Folders API, and 6 more. Tagged areas include Company, Legal, Legal AI, Contracts, and In-House Counsel.
 
 
-  GC AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+  GC AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
 random_paper: 9
 rate_limits:
 - limit_count: 2
@@ -299,7 +304,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 47.4
     contract_governance: 4.5
@@ -307,7 +312,7 @@ score:
     developer_ergonomics: 58.9
     discoverability: 75.0
     operational_transparency: 52.6
-  previous_composite: 51.6
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -329,7 +334,7 @@ score:
     regime_id: horizontal
     score: 27.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

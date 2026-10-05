@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 0
+- acting_count: 35
   human_in_the_loop: 0
   name: Usgs Water Agentic Access
   operation_count: 284
   slug: usgs-water-agentic-access
-  summary_line: 284 operations
+  summary_line: 284 operations · 35 acting
 api_count: 1
 apis:
 - description: Provides near real-time water data — streamflow, gage height, temperature, specific conductance, and hundreds of other parameters — from thousands of USGS monitoring sites. Values are typically record
@@ -585,23 +585,23 @@ rules:
   slug: usgs-water-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.5
+  composite: 43.0
   coverage:
     artifact_dirs: 15
-    catalog_earned: 65.7
+    catalog_earned: 62.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.3
+    catalog_gap: 52.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -4.3
   facets:
     access_clarity: 61.1
     contract_governance: 9.8
     contract_quality: 54.9
     developer_ergonomics: 21.4
-    discoverability: 66.1
+    discoverability: 60.7
     operational_transparency: 34.7
-  previous_composite: 43.0
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     contracts:
@@ -616,7 +616,7 @@ score:
     regime_id: government
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

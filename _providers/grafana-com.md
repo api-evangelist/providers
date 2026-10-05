@@ -10,68 +10,39 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
+    agent_skills: derived
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.0
-  scored_at: '2026-10-03'
-api_count: 20
+  score: 31.8
+  scored_at: '2026-10-04'
+agentic_access:
+- acting_count: 167
+  human_in_the_loop: 23
+  name: Grafana Com Agentic Access
+  operation_count: 314
+  slug: grafana-com-agentic-access
+  summary_line: 314 operations · 167 acting · 23 human-in-the-loop
+api_count: 1
 apis:
-- description: The full Grafana HTTP API surface for self-managed Grafana and Grafana Enterprise. Covers dashboards, folders, data sources, organizations, users, teams, service accounts, API keys, access control (RB
-  name: Grafana HTTP API
-  slug: grafana-http-api
-- description: Create, read, update, delete, search, version, and permission dashboards. Exposes the Kubernetes-style `/apis/dashboard.grafana.app/v1/namespaces/:namespace/dashboards` resource (and the legacy `/api/
-  name: Grafana Dashboard API
-  slug: grafana-dashboard-api
-- description: 'Manage Grafana folders, perform cross-folder dashboard search, and administer folder-level permissions. Folders are the primary organizational unit for grouping dashboards and applying access control '
-  name: Grafana Folder and Search API
-  slug: grafana-folder-api
-- description: 'Programmatically register and manage Grafana data sources (Prometheus, Loki, Tempo, Mimir, Pyroscope, Postgres, MySQL, Elasticsearch, InfluxDB, CloudWatch, Azure Monitor, Google Cloud Monitoring, and '
-  name: Grafana Data Source API
-  slug: grafana-data-source-api
-- description: Provision Grafana Alerting resources programmatically — alert rules, contact points, mute timings, notification policies, and notification templates. Supports headers for file-provisioning workflows a
-  name: Grafana Alerting Provisioning API
-  slug: grafana-alerting-api
-- description: Create, read, update, and delete annotations on Grafana dashboards. Annotations mark events (deploys, incidents, releases) on time-series panels and can be scoped to a dashboard, panel, or organizatio
-  name: Grafana Annotations API
-  slug: grafana-annotations-api
-- description: Manage Grafana organizations, users, teams, team membership, external team sync, and user or org-scoped preferences (default home dashboard, theme, timezone, week start).
-  name: Grafana Organization and Users API
-  slug: grafana-org-api
-- description: 'Manage fine-grained role-based access control assignments, custom roles, permission grants against folders/dashboards/data sources, service accounts, service account tokens, and SSO provider settings '
-  name: Grafana Access Control (RBAC) API
-  slug: grafana-rbac-api
-- description: Server-wide administrative endpoints including global users, settings, server stats, encryption keys, pause-all-alerts, plus Grafana Enterprise extensions for licensing, scheduled PDF/CSV reporting, a
-  name: Grafana Admin API
-  slug: grafana-admin-api
-- description: 'Manage reusable library panels and library variables. Library elements let dashboard authors define a panel or variable once and reference it across many dashboards, with updates propagating to every '
-  name: Grafana Library Elements API
-  slug: grafana-library-elements-api
-- description: Define correlations between data sources to enable in-place pivoting (e.g. trace ID in Tempo to logs in Loki) inside Explore and dashboards. Powers the "click a value, jump to related telemetry" UX th
-  name: Grafana Correlations API
-  slug: grafana-correlations-api
-- description: Capture and share dashboard snapshots (rendered point-in-time copies including data), generate short URLs for long Explore queries and dashboard links, and read or write a user's Explore query history
-  name: Grafana Snapshot, Short URL, and Query History API
-  slug: grafana-snapshot-shorturl-api
 - description: Manage Grafana Cloud stacks (instances), plugins, data sources, regions, access policies, and tokens at `https://grafana.com/api`. Authenticated with Cloud Access Policy bearer tokens. The recommended
   name: Grafana Cloud API
   slug: grafana-cloud-api
@@ -96,8 +67,324 @@ apis:
 - description: Create and manage synthetic probes (HTTP, HTTPS, DNS, TCP, ICMP/ping, traceroute, multi-step scripted browser, gRPC) executed from Grafana Labs' global probe network plus optional private probes. Resu
   name: Grafana Synthetic Monitoring API
   slug: synthetic-monitoring-api
-artifact_total: 64
+- baseURL: /api
+  baseurl_source: spec
+  description: 'The API can be used to create, update, get and list roles, and create or remove built-in role assignments. To use the API, you would need to enable fine-grained access control. This only available in '
+  name: Grafana Access Control API
+  slug: grafana-com-access-control-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The Admin HTTP API does not currently work with an API Token. API Tokens are currently only linked to an organization and an organization role. They cannot be given the permission of server admin, onl
+  name: Grafana Admin API
+  slug: grafana-com-admin-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The admin_ldap API from Grafana — 5 operation(s) for admin_ldap.
+  name: Grafana Admin Ldap API
+  slug: grafana-com-admin-ldap-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The admin_provisioning API from Grafana — 4 operation(s) for admin_provisioning.
+  name: Grafana Admin Provisioning API
+  slug: grafana-com-admin-provisioning-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The admin_users API from Grafana — 11 operation(s) for admin_users.
+  name: Grafana Admin Users API
+  slug: grafana-com-admin-users-api
+- baseURL: /api
+  baseurl_source: spec
+  description: Grafana Annotations feature released in Grafana 4.6. Annotations are saved in the Grafana database (sqlite, mysql or postgres). Annotations can be organization annotations that can be shown on any das
+  name: Grafana Annotations API
+  slug: grafana-com-annotations-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The convert_prometheus API from Grafana — 6 operation(s) for convert_prometheus.
+  name: Grafana Convert Prometheus API
+  slug: grafana-com-convert-prometheus-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The correlations API from Grafana — 4 operation(s) for correlations.
+  name: Grafana Correlations API
+  slug: grafana-com-correlations-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The dashboard_public API from Grafana — 6 operation(s) for dashboard_public.
+  name: Grafana Dashboard Public API
+  slug: grafana-com-dashboard-public-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The dashboards API from Grafana — 20 operation(s) for dashboards.
+  name: Grafana Dashboards API
+  slug: grafana-com-dashboards-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The devices API from Grafana — 2 operation(s) for devices.
+  name: Grafana Devices API
+  slug: grafana-com-devices-api
+- baseURL: /api
+  baseurl_source: spec
+  description: These are only available in Grafana Enterprise
+  name: Grafana Enterprise API
+  slug: grafana-com-enterprise-api
+- baseURL: /api
+  baseurl_source: spec
+  description: 'Folders are identified by the identifier (id) and the unique identifier (uid). The identifier (id) of a folder is an auto-incrementing numeric value and is only unique per Grafana install. The unique '
+  name: Grafana Folders API
+  slug: grafana-com-folders-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The health API from Grafana — 2 operation(s) for health.
+  name: Grafana Health API
+  slug: grafana-com-health-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The invites API from Grafana — 2 operation(s) for invites.
+  name: Grafana Invites API
+  slug: grafana-com-invites-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The identifier (ID) of a library element is an auto-incrementing numeric value that is unique per Grafana install. The unique identifier (UID) of a library element uniquely identifies library elements
+  name: Grafana Library Elements API
+  slug: grafana-com-library-elements-api
+- baseURL: /api
+  baseurl_source: spec
+  description: 'Licensing is only available in Grafana Enterprise. Read more about Grafana Enterprise. If you are running Grafana Enterprise and have Fine-grained access control enabled, for some endpoints you would '
+  name: Grafana Licensing API
+  slug: grafana-com-licensing-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The migrations API from Grafana — 10 operation(s) for migrations.
+  name: Grafana Migrations API
+  slug: grafana-com-migrations-api
+- baseURL: /api
+  baseurl_source: spec
+  description: If you are running Grafana Enterprise and have Fine-grained access control enabled, for some endpoints you would need to have relevant permissions. Refer to specific resources to understand what permi
+  name: Grafana Org API
+  slug: grafana-com-org-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The Admin Organizations HTTP API does not currently work with an API Token. API Tokens are currently only linked to an organization and an organization role. They cannot be given the permission of ser
+  name: Grafana Orgs API
+  slug: grafana-com-orgs-api
+- baseURL: /api
+  baseurl_source: spec
+  description: Permissions with `folderId=-1` are the default permissions for users with the Viewer and Editor roles. Permissions can be set for a user, a team or a role (Viewer or Editor). Permissions cannot be set
+  name: Grafana Permissions API
+  slug: grafana-com-permissions-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The playlists API from Grafana — 3 operation(s) for playlists.
+  name: Grafana Playlists API
+  slug: grafana-com-playlists-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The preferences API from Grafana — 3 operation(s) for preferences.
+  name: Grafana Preferences API
+  slug: grafana-com-preferences-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The provisioning API from Grafana — 17 operation(s) for provisioning.
+  name: Grafana Provisioning API
+  slug: grafana-com-provisioning-api
+- baseURL: /api
+  baseurl_source: spec
+  description: 'The identifier (ID) of a query in query history is an auto-incrementing numeric value that is unique per Grafana install. The unique identifier (UID) of a query history uniquely identifies queries in '
+  name: Grafana Query History API
+  slug: grafana-com-query-history-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The quota API from Grafana — 6 operation(s) for quota.
+  name: Grafana Quota API
+  slug: grafana-com-quota-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The recording_rules API from Grafana — 4 operation(s) for recording_rules.
+  name: Grafana Recording Rules API
+  slug: grafana-com-recording-rules-api
+- baseURL: /api
+  baseurl_source: spec
+  description: This API allows you to interact programmatically with the Reporting feature. Reporting is only available in Grafana Enterprise. Read more about Grafana Enterprise. If you have Fine-grained access Cont
+  name: Grafana Reports API
+  slug: grafana-com-reports-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The saml API from Grafana — 4 operation(s) for saml.
+  name: Grafana SAML API
+  slug: grafana-com-saml-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The search API from Grafana — 2 operation(s) for search.
+  name: Grafana Search API
+  slug: grafana-com-search-api
+- baseURL: /api
+  baseurl_source: spec
+  description: If you are running Grafana Enterprise, for some endpoints you'll need to have specific permissions. Refer to [Role-based access control permissions](https://grafana.com/docs/grafana/latest/administrat
+  name: Grafana Service Accounts API
+  slug: grafana-com-service-accounts-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The signed_in_user API from Grafana — 10 operation(s) for signed_in_user.
+  name: Grafana Signed In User API
+  slug: grafana-com-signed-in-user-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The signing_keys API from Grafana — 1 operation(s) for signing_keys.
+  name: Grafana Signing Keys API
+  slug: grafana-com-signing-keys-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The snapshots API from Grafana — 5 operation(s) for snapshots.
+  name: Grafana Snapshots API
+  slug: grafana-com-snapshots-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The sso_settings API from Grafana — 2 operation(s) for sso_settings.
+  name: Grafana SSO Settings API
+  slug: grafana-com-sso-settings-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The sync_team_groups API from Grafana — 2 operation(s) for sync_team_groups.
+  name: Grafana Sync Team Groups API
+  slug: grafana-com-sync-team-groups-api
+- baseURL: /api
+  baseurl_source: spec
+  description: This API can be used to create/update/delete Teams and to add/remove users to Teams. All actions require that the user has the Admin role for the organization.
+  name: Grafana Teams API
+  slug: grafana-com-teams-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The user API from Grafana — 1 operation(s) for user.
+  name: Grafana User API
+  slug: grafana-com-user-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The users API from Grafana — 6 operation(s) for users.
+  name: Grafana Users API
+  slug: grafana-com-users-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The versions API from Grafana — 3 operation(s) for versions.
+  name: Grafana Versions API
+  slug: grafana-com-versions-api
+- baseURL: /api
+  baseurl_source: spec
+  description: If you are running Grafana Enterprise and have Fine-grained access control enabled, for some endpoints you would need to have relevant permissions. Refer to specific resources to understand what permi
+  name: Grafana Data Sources API
+  slug: grafana-com-data-sources-api
+artifact_total: 97
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/grafana-com/refs/heads/main/agentic-access/grafana-com-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/grafana-com-agentic-access.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/grafana-com/refs/heads/main/finops/grafana-com-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/grafana-com-finops.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/grafana-com/refs/heads/main/rate-limits/grafana-com-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/grafana-com-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/grafana-com/refs/heads/main/plans/grafana-com-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/grafana-com-plans-pricing.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grafana-com/refs/heads/main/rules/grafana-com-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/grafana-com-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grafana-com/refs/heads/main/vocabulary/grafana-com-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/grafana-com-vocabulary.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/grafana-com/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grafana-com/refs/heads/main/data-model/grafana-com-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/grafana-com-data-model.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/grafana-com/refs/heads/main/changelog/grafana-com-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/grafana-com-changelog.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.grafana.com/
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/grafana-com/refs/heads/main/security/grafana-com-vulnerability-disclosure.yml
+  title: ''
+  type: Security
+  url: security/grafana-com-vulnerability-disclosure.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/grafana-com/refs/heads/main/authentication/grafana-com-authentication.yml
+  title: ''
+  type: Authentication
+  url: authentication/grafana-com-authentication.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grafana-com/refs/heads/main/errors/grafana-com-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/grafana-com-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grafana-com/refs/heads/main/conformance/grafana-com-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/grafana-com-conformance.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/grafana-com/refs/heads/main/llms/grafana-com-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/grafana-com-llms.txt
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/grafana-com/refs/heads/main/well-known/grafana-com-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/grafana-com-status-security.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/grafana-com/refs/heads/main/well-known/grafana-com-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/grafana-com-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/grafana-com/refs/heads/main/hosts/grafana-com-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/grafana-com-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/grafana-com/refs/heads/main/vendors/grafana-com-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/grafana-com-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://grafana.com/press/
+- group: start
+  title: ''
+  type: Login
+  url: https://grafana.com/auth/sign-in/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://grafana.com/docs/learning-paths/grafana-cloud-onboarding
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/grafana-com/refs/heads/main/security/grafana-com-vulnerability-disclosure.yml
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/grafana-com-vulnerability-disclosure.yml
 - group: company
   title: ''
   type: Website
@@ -376,6 +663,13 @@ common:
   title: ''
   type: Mastodon
   url: https://fosstodon.org/@grafana
+coverage:
+  detail: the company publishes developer documentation but serves no machine-readable contract from it
+  evidence:
+  - status: 200
+    url: https://www.grafana.com/
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-05-25T00:00:00.000Z'
 description: Grafana Labs builds the open and composable observability stack used by millions of engineers to visualize, query, alert on, and explore their metrics, logs, traces, and profiles. The flagship Grafana OSS dashboarding platform is paired with Grafana Loki (logs), Grafana Mimir (Prometheus-compatible metrics), Grafana Tempo (distributed traces), and Grafana Pyroscope (continuous profiling) — all under the LGTM stack. Grafana Cloud delivers the entire portfolio as a managed SaaS with a generous free tier, while Grafana Enterprise extends self-managed deployments with premium plugins, reporting, RBAC, LBAC, and caching. The ecosystem extends to Grafana k6 (load testing), Grafana Alloy (OpenTelemetry-native collector), Grafana Beyla (eBPF auto-instrumentation), Grafana Faro (frontend observability), Grafana OnCall (incident response), and Synthetic Monitoring. A canonical OpenAPI specification at public/api-merged.json powers the official Go client, the Terraform provider, the Grafana
   Operator, and a deep dashboards-as-code toolchain (Foundation SDK, Grafonnet, Grizzly, Scenes).
@@ -429,10 +723,13 @@ modified: '2026-05-25'
 name: Grafana
 nav: Providers
 network: true
-overview: 'Grafana publishes 20 APIs on the [APIs.io](https://apis.io/) network, including HTTP API, Dashboard API, Folder and Search API, and 17 more. Tagged areas include Observability, Monitoring, Dashboards, Logs, and Metrics.
+overview: 'Grafana publishes 49 APIs on the [APIs.io](https://apis.io/) network, including Access Control API, Admin API, Admin Ldap API, and 46 more. Tagged areas include Observability, Monitoring, Dashboards, Logs, and Metrics.
 
 
-  Grafana''s developer surface includes developer portal, documentation, authentication, tooling, pricing, engineering blog, signup flow, and 62 more developer resources.'
+  The Grafana catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  Grafana''s developer surface includes changelog, authentication, getting-started guide, developer portal, documentation, tooling, pricing, and 85 more developer resources.'
 plans:
 - name: Grafana Com Plans Pricing
   plan_count: 5
@@ -442,44 +739,73 @@ rate_limits:
 - limit_count: 7
   name: Grafana Com Rate Limits
   slug: grafana-com-rate-limits
+rules:
+- effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: Grafana API Rules
+  rule_count: 13
+  severity_counts:
+    error: 5
+    hint: 0
+    info: 2
+    warn: 6
+  slug: grafana-com-rules
 score:
-  band: developing
-  composite: 52.2
+  band: exemplar
+  composite: 71.0
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 59.6
+    artifact_dirs: 22
+    catalog_earned: 62.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.4
+    catalog_gap: 52.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 18.7
   facets:
-    access_clarity: 88.9
-    contract_governance: 0.0
-    contract_quality: 24.0
-    developer_ergonomics: 61.9
-    discoverability: 62.5
-    operational_transparency: 65.3
-  previous_composite: 51.7
+    access_clarity: 96.8
+    contract_governance: 22.0
+    contract_quality: 47.3
+    developer_ergonomics: 75.6
+    discoverability: 66.1
+    operational_transparency: 75.8
+  previous_composite: 52.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 41
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
+    score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/grafana-com/refs/heads/main/screenshots/grafana-com-2026-06-20T182343.png
 security:
+- kind: authentication
+  name: Grafana Com Authentication
+  slug: grafana-com-authentication
+  summary_line: 3 schemes
 - kind: domain-security
   name: Grafana Com Domain Security
   slug: grafana-com-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Grafana Com Vulnerability Disclosure
+  slug: grafana-com-vulnerability-disclosure
+  summary_line: disclosure policy published
 - kind: trust-center
   name: Grafana Com Trust Center
   slug: grafana-com-trust-center

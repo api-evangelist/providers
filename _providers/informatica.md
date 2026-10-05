@@ -13,29 +13,30 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
-    agent_skills: false
+    agent_card: conformant
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
-    protected_resource_metadata: false
-    rate_limit_signal: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-03'
+  score: 54.4
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -93,7 +94,7 @@ apis:
   description: Manage task execution schedules.
   name: Informatica Schedules API
   slug: informatica-schedules-api
-artifact_total: 151
+artifact_total: 153
 collections:
 - collection_type: open
   name: API Collection
@@ -120,6 +121,138 @@ collections:
   name: Informatica IICS Platform REST Authentication Schedules API
   slug: open-informatica-schedules-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/finops/informatica-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/informatica-finops.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/rate-limits/informatica-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/informatica-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/plans/informatica-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/informatica-plans-pricing.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/rules/informatica-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/informatica-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/rules/informatica-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/informatica-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/rules/informatica-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/informatica-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/vocabulary/informatica-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/informatica-vocabulary.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/data-model/informatica-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/informatica-data-model.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/conventions/informatica-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/informatica-conventions.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/security/informatica-vulnerability-disclosure.yml
+  title: ''
+  type: Security
+  url: security/informatica-vulnerability-disclosure.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/lifecycle/informatica-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/informatica-lifecycle.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/lifecycle/informatica-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/informatica-lifecycle.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/errors/informatica-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/informatica-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/conformance/informatica-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/informatica-conformance.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/a2a/informatica-a2a.yml
+  title: ''
+  type: AgentCard
+  url: a2a/informatica-a2a.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/well-known/informatica-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/informatica-security.txt
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/well-known/informatica-apis-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/informatica-apis-security.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/well-known/informatica-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/informatica-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/hosts/informatica-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/informatica-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/vendors/informatica-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/informatica-vendors.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/packages/informatica-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/informatica-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/packages/informatica-packages.yml
+  title: ''
+  type: Packages
+  url: packages/informatica-packages.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.informatica.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://apis.io/onboarding/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://apis.io/llms.txt
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/security/informatica-vulnerability-disclosure.yml
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/informatica-vulnerability-disclosure.yml
 - group: company
   title: ''
   type: Website
@@ -550,10 +683,10 @@ network: true
 overview: 'Informatica publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Connections API, Jobs API, and 9 more. Tagged areas include Address Verification, B2B Gateway, Cloud Services, Data Governance, and Data Integration.
 
 
-  The Informatica catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
+  The Informatica catalog on APIs.io includes 2 JSON-LD contexts and 3 Spectral governance rulesets.
 
 
-  Informatica''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 11 more developer resources.'
+  Informatica''s developer surface includes getting-started guide, API reference, authentication, developer portal, documentation, support, engineering blog, and 36 more developer resources.'
 plans:
 - name: Informatica Plans Pricing
   plan_count: 3
@@ -574,6 +707,17 @@ rules:
     info: 2
     warn: 3
   slug: informatica-jsonschema-spectral-rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Informatica API Rules
+  rule_count: 17
+  severity_counts:
+    error: 15
+    hint: 0
+    info: 1
+    warn: 1
+  slug: informatica-rules
 - effective_rule_count: 57
   extends:
   - spectral:oas
@@ -587,39 +731,42 @@ rules:
   slug: informatica-spectral-rules
 score:
   band: developing
-  composite: 42.3
+  composite: 50.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 33
     catalog_earned: 63.0
     catalog_earned_first_party: 0.0
     catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 6.5
   facets:
-    access_clarity: 22.4
-    contract_governance: 27.3
+    access_clarity: 30.3
+    contract_governance: 31.8
     contract_quality: 69.7
-    developer_ergonomics: 54.8
+    developer_ergonomics: 63.7
     discoverability: 57.1
-    operational_transparency: 7.9
-  previous_composite: 41.8
+    operational_transparency: 26.3
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 6
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
+    score: 27.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -633,6 +780,10 @@ security:
   name: Informatica Domain Security
   slug: informatica-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Informatica Vulnerability Disclosure
+  slug: informatica-vulnerability-disclosure
+  summary_line: security.txt · contact published
 slug: informatica
 tags:
 - Address Verification

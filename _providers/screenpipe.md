@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 42
+- acting_count: 43
   human_in_the_loop: 3
   name: Screenpipe Agentic Access
   operation_count: 71
   slug: screenpipe-agentic-access
-  summary_line: 71 operations · 42 acting · 3 human-in-the-loop
+  summary_line: 71 operations · 43 acting · 3 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: http://localhost:3030
@@ -394,7 +394,8 @@ common:
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
-description: Screenpipe is a local-first, source-available desktop application (by Mediar AI, Y Combinator S26) that continuously captures everything you see, say, and hear on your computer, reads on-screen text through OS accessibility APIs with an OCR fallback, transcribes system and microphone audio locally with Whisper, and stores it all in a local SQLite database as a private, searchable memory. It exposes a full local REST API at http://localhost:3030 (71 operations across search, frames, audio, meetings, memories, speakers, tags, vault, cloud sync, cloud archive, and data retention) and ships as an MCP server so agents like Claude, Cursor, Codex, and Cline can query screen history and meeting transcripts. Automations are built as "pipes" — scheduled AI agents written in plain markdown. It is positioned as an open, local-first alternative to Rewind.ai, Microsoft Recall, and cloud meeting bots.
+description: Screenpipe is a local-first, source-available desktop application (by Mediar AI, Y Combinator S26) that continuously captures everything you see, say, and hear on your computer, reads on-screen text through OS accessibility APIs with an OCR fallback, transcribes system and microphone audio with local Whisper by default (or, when the user selects one in settings, with a cloud engine such as Deepgram or screenpipe-cloud, or an OpenAI-compatible transcription endpoint; audio leaves the device only when a remote engine is selected), and stores it all in a local SQLite database as a private, searchable memory. It exposes a full local REST API at http://localhost:3030 (71 operations across search, frames, audio, meetings, memories, speakers, tags, vault, cloud sync, cloud archive, and data retention) and ships as an MCP server so agents like Claude, Cursor, Codex, and Cline can query screen history and meeting transcripts. Automations are built as "pipes" — scheduled AI agents written
+  in plain markdown. It is positioned as a local-first alternative to Rewind.ai, Microsoft Recall, and cloud meeting bots.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/screenpipe.png
 json_schemas:
 - name: ActivitySummaryResponse
@@ -572,9 +573,9 @@ jsonld:
   slug: screenpipe-context
 layout: provider
 mcp_servers:
-- description: ''
+- description: Local (stdio) MCP server; 2 tools listed.
   name: Screenpipe MCP Server
-  slug: screenpipe-mcp-server
+  slug: screenpipe
 modified: '2026-07-21'
 name: Screenpipe
 nav: Providers
@@ -613,7 +614,7 @@ score:
     catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 19.5
+  delta: 20.0
   facets:
     access_clarity: 78.9
     contract_governance: 35.6
@@ -621,7 +622,7 @@ score:
     developer_ergonomics: 73.2
     discoverability: 66.1
     operational_transparency: 36.8
-  previous_composite: 41.3
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -647,7 +648,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: rising
   upsert:
     applies: true

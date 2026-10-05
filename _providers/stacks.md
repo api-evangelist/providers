@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -94,6 +94,10 @@ created: '2026-07-17'
 description: Stacks is an AI-native financial close and accounting platform for controllers, CFOs, and accounting teams. It automates the monthly close across existing ERPs with agentic tooling for account reconciliations and transaction matching, journal-entry posting and review, close-management checklists and approvals, and AI-powered analysis, variance explanation, and reporting. Stacks connects directly to ERP systems (Microsoft Dynamics 365, NetSuite, SAP S/4HANA, Workday), data warehouses (Snowflake, Databricks, BigQuery, Redshift), file storage, and spreadsheets, and offers an Excel add-in for manual journals. A developer API for custom reconciliation logic is announced as "coming soon." Stacks is a fintech company backed by EQT Ventures, General Catalyst, Lux Capital, Union Square Ventures, and Version One Ventures. Profile enriched by the API Evangelist pipeline from public web surfaces (no public API specification is yet available).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stacks.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.stacks.ai over HTTP.
+  name: Stacks MCP Server
+  slug: stacks
 modified: '2026-07-21'
 name: Stacks
 nav: Providers
@@ -113,7 +117,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
@@ -121,7 +125,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 58.3
     operational_transparency: 10.5
-  previous_composite: 12.8
+  previous_composite: 12.2
   provenance:
     mcp: first-party
   regulatory:
@@ -131,7 +135,7 @@ score:
     regime_id: horizontal
     score: 19.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

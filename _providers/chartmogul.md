@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ apis:
   description: The Subscriptions API from ChartMogul — 1 operation(s) for subscriptions.
   name: ChartMogul Subscriptions API
   slug: chartmogul-subscriptions-api
-artifact_total: 23
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -111,6 +111,11 @@ collections:
   name: ChartMogul REST API
   slug: open-chartmogul
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/capabilities/chartmogul-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/chartmogul-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/agentic-access/chartmogul-agentic-access.yml
   title: ''
@@ -176,6 +181,9 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
+- description: Remote MCP server at mcp.chartmogul.com over HTTP.
+  name: ChartMogul MCP Server
+  slug: chartmogul
 modified: '2026-05-30'
 name: ChartMogul
 nav: Providers
@@ -183,13 +191,13 @@ network: true
 overview: 'ChartMogul publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Account API, Customers API, and 5 more. Tagged areas include Subscription Analytics, SaaS Metrics, Revenue Analytics, MRR, and Churn.
 
 
-  ChartMogul''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
+  ChartMogul''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
 random_paper: 0
 score:
   band: thin
   composite: 37.0
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -219,7 +227,7 @@ score:
     regime_id: horizontal
     score: 22.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

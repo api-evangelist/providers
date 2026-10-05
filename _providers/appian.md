@@ -15,7 +15,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -23,19 +23,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.0
-  scored_at: '2026-10-03'
+  score: 20.8
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -113,7 +113,7 @@ arazzos:
 - description: List an application's packages, branch on whether any packages exist, and export the most recently modified one.
   name: Appian Resolve a Named Package and Export It
   slug: appian-resolve-and-export-named-package-workflow
-artifact_total: 130
+artifact_total: 139
 collections:
 - collection_type: postman
   name: Appian Application Package Details Export API
@@ -158,6 +158,91 @@ collections:
   name: API Collection
   slug: open-appian
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/finops/appian-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/appian-finops.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/rate-limits/appian-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/appian-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/plans/appian-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/appian-plans-pricing.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/rules/appian-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/appian-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/rules/appian-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/appian-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/vocabulary/appian-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/appian-vocabulary.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/data-model/appian-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/appian-data-model.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/changelog/appian-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/appian-changelog.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/errors/appian-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/appian-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/conformance/appian-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/appian-conformance.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/llms/appian-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/appian-llms.txt
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/well-known/appian-www-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/appian-www-security.txt
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/well-known/appian-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/appian-security.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/well-known/appian-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/appian-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/hosts/appian-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/appian-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/vendors/appian-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/appian-vendors.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -700,6 +785,12 @@ json_schemas:
   slug: appian-databasescript
 - name: DeploymentRequest
   property_count: 5
+  slug: appian-deployment-request
+- name: DeploymentResponse
+  property_count: 3
+  slug: appian-deployment-response
+- name: DeploymentRequest
+  property_count: 5
   slug: appian-deploymentrequest
 - name: DeploymentResponse
   property_count: 3
@@ -707,12 +798,18 @@ json_schemas:
 - name: DeploymentStatus
   property_count: 0
   slug: appian-deploymentstatus
+- name: ExportDeploymentResult
+  property_count: 8
+  slug: appian-export-deployment-result
 - name: ExportConfiguration
   property_count: 4
   slug: appian-exportconfiguration
 - name: ExportDeploymentResult
   property_count: 8
   slug: appian-exportdeploymentresult
+- name: ImportDeploymentResult
+  property_count: 2
+  slug: appian-import-deployment-result
 - name: ImportConfiguration
   property_count: 8
   slug: appian-importconfiguration
@@ -722,6 +819,15 @@ json_schemas:
 - name: ImportSummaryCount
   property_count: 4
   slug: appian-importsummarycount
+- name: InspectionRequest
+  property_count: 4
+  slug: appian-inspection-request
+- name: InspectionResponse
+  property_count: 2
+  slug: appian-inspection-response
+- name: InspectionResult
+  property_count: 2
+  slug: appian-inspection-result
 - name: InspectionError
   property_count: 3
   slug: appian-inspectionerror
@@ -740,6 +846,9 @@ json_schemas:
 - name: InspectionWarning
   property_count: 3
   slug: appian-inspectionwarning
+- name: PackageListResponse
+  property_count: 2
+  slug: appian-package-list-response
 - name: Package
   property_count: 11
   slug: appian-package
@@ -862,13 +971,13 @@ modified: '2026-05-19'
 name: Appian
 nav: Providers
 network: true
-overview: 'Appian publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Application Package Details API, Export API, Import API, and 9 more. Tagged areas include Automation, Business Process Management, Enterprise Software, Low-Code, and Process Automation.
+overview: 'Appian publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Export API, Import API, Inspection API, and 9 more. Tagged areas include Automation, Business Process Management, Enterprise Software, Low-Code, and Process Automation.
 
 
-  The Appian catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Appian catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Appian''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, pricing, and 89 more developer resources.'
+  Appian''s developer surface includes changelog, authentication, developer portal, documentation, getting-started guide, support, engineering blog, and 106 more developer resources.'
 plans:
 - name: Appian Plans Pricing
   plan_count: 4
@@ -889,32 +998,46 @@ rules:
     info: 2
     warn: 3
   slug: appian-jsonschema-spectral-rules
+- effective_rule_count: 60
+  extends:
+  - spectral:oas
+  name: Appian API Rules
+  rule_count: 19
+  severity_counts:
+    error: 17
+    hint: 0
+    info: 1
+    warn: 1
+  slug: appian-rules
 score:
-  band: strong
-  composite: 62.1
+  band: exemplar
+  composite: 69.0
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 55.3
+    artifact_dirs: 28
+    catalog_earned: 70.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.8
+    catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.3
   facets:
     access_clarity: 76.3
-    contract_governance: 9.8
-    contract_quality: 59.9
-    developer_ergonomics: 72.6
-    discoverability: 57.1
+    contract_governance: 45.5
+    contract_quality: 66.0
+    developer_ergonomics: 74.4
+    discoverability: 64.3
     operational_transparency: 63.2
-  previous_composite: 62.1
+  previous_composite: 60.7
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 5
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
@@ -922,8 +1045,8 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

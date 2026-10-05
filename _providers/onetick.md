@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 5
 apis:
 - description: HTTPS REST access to OneTick Cloud market data and analytics queries, authenticated with an OAuth2 client-credentials Bearer token issued by the OneTick Keycloak realm (https://cloud-auth.parent.oneti
@@ -50,7 +50,7 @@ apis:
 - description: Cloud API for extracting adjusted and unadjusted point-in-time quotes and trades at nanosecond precision across 200+ venues for transaction cost analysis, packaged for Python integration; marketed sal
   name: OneTick Point-in-Time TCA API
   slug: onetick-point-in-time-tca-api
-artifact_total: 8
+artifact_total: 9
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/security/onetick-domain-security.yml
@@ -158,6 +158,10 @@ created: '2026-07-21'
 description: OneTick, from OneMarketData, is an enterprise tick database and analytics platform for capital markets, capturing, storing, and analyzing trade, quote, and order-book time series at scale for quant research, transaction cost analysis, and trade surveillance. OneTick Cloud sells historical and reference market data covering 200+ global equities, options, and futures venues (history back to 1993, corporate actions, symbol cross-reference) delivered on demand through an OAuth2-secured REST WebAPI, a pandas-like Python API (onetick-py), a directed-graph Python API, SQL querying, and file delivery, with a self-serve trial registration. The detailed REST endpoint reference sits behind the cloud dashboard login. OneMarketData merged with KX in September 2025 under TA Associates ownership.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onetick.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.cloud.onetick.com over HTTP; 12 tools listed.
+  name: OneTick (OneMarketData) MCP Server
+  slug: onetick
 modified: '2026-07-22'
 name: OneTick (OneMarketData)
 nav: Providers
@@ -182,7 +186,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.8
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
@@ -190,7 +194,7 @@ score:
     developer_ergonomics: 54.8
     discoverability: 80.0
     operational_transparency: 34.2
-  previous_composite: 34.2
+  previous_composite: 36.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -201,7 +205,7 @@ score:
     regime_id: securities_market_data
     score: 32.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false
@@ -225,9 +229,9 @@ tags:
 - Historical Data
 - Trading
 - Analytics
-- Surveillance
 - Time Series
 - Stocks
 - Options
+- Trade Surveillance
 website: https://www.onetick.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -82,6 +82,11 @@ collections:
   name: Ocean Security Metrics Threats API
   slug: open-ocean-security-threats-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/capabilities/ocean-security-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ocean-security-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/skills/ocean-security-investigate-phishing-reports.md
   title: ''
@@ -183,19 +188,19 @@ network: true
 overview: 'Ocean Security publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Metrics API, Settings API, Sonar API, and 1 more. Tagged areas include Company, Security, Email Security, Cybersecurity, and Phishing.
 
 
-  Ocean Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 14 more developer resources.'
+  Ocean Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 15 more developer resources.'
 random_paper: 21
 score:
   band: thin
   composite: 36.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
@@ -203,7 +208,7 @@ score:
     developer_ergonomics: 42.3
     discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 36.8
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -221,7 +226,7 @@ score:
     regime_id: horizontal
     score: 22.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

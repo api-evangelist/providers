@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 7
+- acting_count: 9
   human_in_the_loop: 0
   name: Ezoic Agentic Access
   operation_count: 19
   slug: ezoic-agentic-access
-  summary_line: 19 operations · 7 acting
+  summary_line: 19 operations · 9 acting
 api_count: 2
 apis:
 - baseURL: https://api-gateway.ezoic.com/subscriptions/v1
@@ -298,9 +298,9 @@ description: 'Ezoic is a website monetization and audience-growth platform for p
 image: https://www.ezoic.com/wp-content/uploads/2021/03/ezoic-logo.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at analytics-mcp.ezoic.com.
   name: ezoic MCP Server
-  slug: ezoic-mcp-server
+  slug: ezoic-mcp-yml
 modified: '2026-08-13'
 name: ezoic
 nav: Providers
@@ -320,9 +320,9 @@ rate_limits:
   slug: ezoic-rate-limits
 scopes:
 - name: Ezoic Scopes
-  scope_count: 0
+  scope_count: 2
   slug: ezoic-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 2 scopes
 score:
   band: developing
   composite: 53.1
@@ -333,7 +333,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.1
   facets:
     access_clarity: 69.7
     contract_governance: 18.2
@@ -341,7 +341,7 @@ score:
     developer_ergonomics: 74.4
     discoverability: 75.0
     operational_transparency: 36.8
-  previous_composite: 53.1
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -359,7 +359,7 @@ score:
     regime_id: horizontal
     score: 40.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

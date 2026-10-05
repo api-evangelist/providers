@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: The hosted map-data surface behind Aibee's indoor map and wayfinding products. It is not documented as a public API and has no published reference or specification; it is recorded here because Aibee's
@@ -173,7 +173,7 @@ score:
     regime_id: horizontal
     score: 17.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

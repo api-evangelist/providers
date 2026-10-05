@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The agent-callable surface of Parsley Health's direct-to-consumer supplement store. A live, anonymous Universal Commerce Protocol MCP endpoint exposes thirteen tools for catalog search, product lookup
@@ -208,7 +208,7 @@ description: 'Parsley Health is a physician-led virtual and in-person medical pr
 image: https://cdn-builder.parsleyhealth.com/api/v1/image/assets%2F996895949aaa465aa438b22f75b680b6%2F3ca4c568b1cc4dc7b064ff122217abe6
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at store.parsleyhealth.com; 13 tools listed.
   name: Parsley Health Store — UCP / MCP commerce endpoint
   slug: parsley-health-store-ucp-mcp-commerce-endpoint
 modified: '2026-08-15'
@@ -230,9 +230,9 @@ rate_limits:
   slug: parsley-health-rate-limits
 scopes:
 - name: Parsley Health Scopes
-  scope_count: 0
+  scope_count: 4
   slug: parsley-health-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 4 scopes
 score:
   band: thin
   composite: 30.3
@@ -243,7 +243,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.4
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
@@ -251,7 +251,7 @@ score:
     developer_ergonomics: 30.4
     discoverability: 75.8
     operational_transparency: 2.6
-  previous_composite: 30.3
+  previous_composite: 32.7
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -263,7 +263,7 @@ score:
     regime_id: health
     score: 36.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

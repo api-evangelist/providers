@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 33.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -94,6 +94,11 @@ asyncapis:
   name: Videogen Io Webhooks
   slug: videogen-io-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/videogen-io/refs/heads/main/capabilities/videogen-io-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/videogen-io-capability-edges.yml
 - group: start
   title: ''
   type: SignUp
@@ -295,7 +300,7 @@ overview: 'VideoGen publishes 11 APIs on the [APIs.io](https://apis.io/) network
   The VideoGen catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  VideoGen''s developer surface includes signup flow, CLI, changelog, authentication, documentation, pricing, engineering blog, and 28 more developer resources.'
+  VideoGen''s developer surface includes signup flow, CLI, changelog, authentication, documentation, pricing, engineering blog, and 29 more developer resources.'
 plans:
 - name: Videogen Io Plans Pricing
   plan_count: 3
@@ -321,7 +326,7 @@ score:
   band: strong
   composite: 63.0
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 86.8
     catalog_earned_first_party: 24.0
     catalog_gap: 28.3
@@ -350,7 +355,7 @@ score:
     regime_id: horizontal
     score: 22.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 0.0

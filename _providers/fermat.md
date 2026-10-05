@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: Remote Model Context Protocol server exposing 64 read-only tools over FERMAT commerce data — product catalog, funnel analytics, ad performance, destination insights, experiments, session and behaviora
@@ -204,7 +204,7 @@ description: FERMÀT is an AI-native commerce platform that consolidates the sho
 image: https://www.fermatcommerce.com/assets/marketing/brand/open-graph.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.fermatcommerce.com requiring OAuth; 64 tools listed.
   name: Fermat Platform (External)
   slug: fermat-platform-external
 modified: '2026-08-13'
@@ -237,7 +237,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 35.5
     contract_governance: 18.2
@@ -245,7 +245,7 @@ score:
     developer_ergonomics: 56.5
     discoverability: 75.8
     operational_transparency: 15.8
-  previous_composite: 41.9
+  previous_composite: 40.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -263,7 +263,7 @@ score:
     regime_id: horizontal
     score: 27.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

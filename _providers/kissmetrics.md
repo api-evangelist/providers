@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -65,6 +65,11 @@ collections:
   name: Kissmetrics REST API — queries
   slug: open-kissmetrics-queries-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/capabilities/kissmetrics-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/kissmetrics-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/agentic-access/kissmetrics-agentic-access.yml
   title: ''
@@ -237,7 +242,7 @@ network: true
 overview: 'Kissmetrics publishes 2 APIs on the [APIs.io](https://apis.io/) network, including REST API, and 1 more. Tagged areas include Analytics, Product Analytics, Behavioral Analytics, Marketing Analytics, and Customer Analytics.
 
 
-  Kissmetrics'' developer surface includes authentication, code examples, documentation, API reference, getting-started guide, pricing, signup flow, and 29 more developer resources.'
+  Kissmetrics'' developer surface includes authentication, code examples, documentation, API reference, getting-started guide, pricing, signup flow, and 30 more developer resources.'
 plans:
 - name: Kissmetrics Plans Pricing
   plan_count: 4
@@ -257,7 +262,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
@@ -265,7 +270,7 @@ score:
     developer_ergonomics: 53.6
     discoverability: 80.0
     operational_transparency: 28.9
-  previous_composite: 51.8
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -283,7 +288,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

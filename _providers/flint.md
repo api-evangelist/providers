@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -67,6 +67,11 @@ collections:
   name: Flint Agent Tasks API
   slug: open-flint-agent-tasks-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/capabilities/flint-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/flint-capability-edges.yml
 - group: commercial
   title: ''
   type: License
@@ -277,7 +282,7 @@ layout: provider
 mcp_servers:
 - description: Flint's official hosted remote MCP server (HTTP). Add it as a custom connector in Claude (claude.ai/settings/connectors), with `claude mcp add flint --transport http https://mcp.tryflint.com/mcp` in C
   name: Flint MCP Server
-  slug: flint-mcp-server
+  slug: flint
 modified: '2026-08-13'
 name: Flint
 nav: Providers
@@ -288,7 +293,7 @@ overview: 'Flint publishes 2 APIs on the [APIs.io](https://apis.io/) network, in
   The Flint catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Flint''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, authentication, and 38 more developer resources.'
+  Flint''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, authentication, and 39 more developer resources.'
 plans:
 - name: Flint Plans Pricing
   plan_count: 3
@@ -307,13 +312,13 @@ score:
   band: strong
   composite: 64.4
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.4
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
@@ -321,7 +326,7 @@ score:
     developer_ergonomics: 64.3
     discoverability: 75.0
     operational_transparency: 52.6
-  previous_composite: 64.4
+  previous_composite: 62.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -343,7 +348,7 @@ score:
     regime_id: horizontal
     score: 41.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

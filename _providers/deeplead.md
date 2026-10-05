@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Machine‑Control‑Protocol API providing access to Deeplead's lead generation functions.
@@ -110,9 +110,9 @@ description: Deeplead provides an automated cold‑email outreach platform that 
 image: https://deeplead.io/opengraph-image
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at www.deeplead.io requiring OAuth.
   name: Deeplead MCP Server
-  slug: deeplead-mcp-server
+  slug: deeplead-mcp-yml
 modified: '2026-09-27'
 name: Deeplead
 nav: Providers
@@ -130,7 +130,7 @@ score:
   band: emerging
   composite: 24.1
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 40.0
     catalog_earned_first_party: 8.0
     catalog_gap: 75.0
@@ -152,7 +152,7 @@ score:
     regime_id: horizontal
     score: 18.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

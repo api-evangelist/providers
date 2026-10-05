@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
 artifact_total: 6
 common:
@@ -125,7 +125,7 @@ description: Xage Security is a Palo Alto, California zero trust access and prot
 image: https://xage.com/wp-content/uploads/2023/07/cropped-Xage-Favicon-192x192.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at xage.com requiring OAuth.
   name: Xage Security Website MCP Server
   slug: xage-security-website-mcp-server
 modified: '2026-09-04'
@@ -147,9 +147,9 @@ rate_limits:
   slug: xage-rate-limits
 scopes:
 - name: Xage Scopes
-  scope_count: 0
+  scope_count: 1
   slug: xage-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 1 scope
 score:
   band: emerging
   composite: 15.6
@@ -160,7 +160,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.5
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
@@ -168,7 +168,7 @@ score:
     developer_ergonomics: 19.0
     discoverability: 52.5
     operational_transparency: 0.0
-  previous_composite: 15.6
+  previous_composite: 13.1
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -179,7 +179,7 @@ score:
     regime_id: horizontal
     score: 30.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

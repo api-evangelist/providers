@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://bucketlist.nl
@@ -134,10 +134,6 @@ common:
   title: ''
   type: x-coverage
   url: https://bucketlist.nl/
-coverage:
-  detail: the company publishes no developer documentation host and no machine-readable contract on its own domain
-  reason: no-developer-program
-  state: none
 created: '2026-09-25'
 description: Bucketlist.nl is a lifestyle platform that helps users discover destinations and unique experiences, save ideas, and plan their next adventure. It offers a curated collection of bucket‑list items across the world, allowing users to build personal lists, explore travel options, and find practical booking information.
 image: https://bucketlist.nl/concept/coastal-dream-hero-v2.png
@@ -188,6 +184,14 @@ score:
     developer_ergonomics: 23.2
     discoverability: 55.4
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - netherlands
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - benelux
+    - europe
   provenance:
     conformance: derived
     contracts:
@@ -204,7 +208,7 @@ score:
     regime_id: horizontal
     score: 18.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

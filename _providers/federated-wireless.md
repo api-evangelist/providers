@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 6
 apis:
 - description: The external API of the Federated Wireless Spectrum Controller, the cloud platform that manages CBRS spectrum assignment, CBSD lifecycle, monitoring and compliance. The Spectrum Controller web applica
@@ -214,7 +214,7 @@ layout: provider
 mcp_servers:
 - description: Federated Wireless publishes a remote Model Context Protocol server on its primary company host, federatedwireless.ai. It is not announced in any Federated Wireless documentation, press release or MCP
   name: Federated Wireless MCP Server
-  slug: federated-wireless-mcp-server
+  slug: federated-wireless
 modified: '2026-08-12'
 name: Federated Wireless
 nav: Providers
@@ -247,7 +247,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.2
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
@@ -262,7 +262,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 25.4
+  previous_composite: 27.6
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -273,7 +273,7 @@ score:
     regime_id: telecommunications
     score: 35.0
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

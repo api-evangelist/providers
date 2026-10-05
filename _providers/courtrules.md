@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Deterministic court rules compliance checking for federal filings
@@ -126,9 +126,9 @@ description: Court Rules provides structured legal and enforcement data from U.S
 image: https://www.courtrules.app/opengraph-image?a428ae78c988eff6
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.courtrules.app.
   name: Court Rules MCP Server
-  slug: court-rules-mcp-server
+  slug: courtrules-mcp-yml
 modified: '2026-10-02'
 name: Court Rules
 nav: Providers
@@ -146,7 +146,7 @@ score:
   band: thin
   composite: 29.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 44.0
     catalog_earned_first_party: 12.0
     catalog_gap: 71.0
@@ -169,7 +169,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

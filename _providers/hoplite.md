@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The Hoplite platform API at api.hoplite.sh. Documented through the developer docs (no public OpenAPI published as of this profiling). Surfaces include model-provider discovery (GET /api/model-provider
@@ -145,7 +145,7 @@ layout: provider
 mcp_servers:
 - description: Hoplite operates its own official hosted Model Context Protocol server so an MCP client (Claude Code, Cursor, or any MCP client) can list projects, start Hoplite agent threads, and call reviewed Hopli
   name: Hoplite MCP Server
-  slug: hoplite-mcp-server
+  slug: hoplite
 modified: '2026-07-19'
 name: Hoplite
 nav: Providers
@@ -168,7 +168,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
@@ -176,7 +176,7 @@ score:
     developer_ergonomics: 50.0
     discoverability: 75.0
     operational_transparency: 23.7
-  previous_composite: 35.8
+  previous_composite: 36.4
   provenance:
     conformance: derived
     mcp: first-party
@@ -187,7 +187,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

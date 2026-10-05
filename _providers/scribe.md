@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 0
+- acting_count: 1
   human_in_the_loop: 0
   name: Scribe Agentic Access
   operation_count: 4
   slug: scribe-agentic-access
-  summary_line: 4 operations
+  summary_line: 4 operations · 1 acting
 api_count: 1
 apis:
 - baseURL: https://public-api.scribehow.com
@@ -75,6 +75,11 @@ collections:
   name: Scribe Search & Retrieval Documents Teams API
   slug: open-scribe-teams-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/scribe/refs/heads/main/capabilities/scribe-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/scribe-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/scribe/refs/heads/main/overlays/scribe-search-retrieval-overlay.yaml
   title: ''
@@ -209,7 +214,7 @@ network: true
 overview: 'Scribe publishes 3 APIs on the [APIs.io](https://apis.io/) network: Documents API, Search API, and Teams API. Tagged areas include Company, Ai Ml, Documentation, Knowledge Management, and Search.
 
 
-  Scribe''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
+  Scribe''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
 random_paper: 16
 rate_limits:
 - limit_count: 2
@@ -219,13 +224,13 @@ score:
   band: developing
   composite: 51.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
@@ -233,7 +238,7 @@ score:
     developer_ergonomics: 49.4
     discoverability: 73.2
     operational_transparency: 36.8
-  previous_composite: 51.5
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -259,7 +264,7 @@ score:
     regime_id: horizontal
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

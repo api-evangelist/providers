@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -70,6 +70,10 @@ created: '2026-07-17'
 description: 'Bounce operates the world''s largest luggage storage network, connecting travelers with more than 32,000 vetted partner locations across 4,000+ cities worldwide where they can securely drop off bags, luggage, and packages by the hour or day and explore hands-free. Founded by Cody Candee in 2018, the company runs a two-sided marketplace: travelers book storage in advance or on the spot through the Bounce web and mobile apps, while local shops, hotels, and businesses earn revenue as storage partners. Bounce also offers luggage-delivery between hotels, airports, and city locations, a hotel solutions program, and an affiliate program. It is backed by Andreessen Horowitz, General Catalyst, and Sapphire. This profile currently tracks the company''s public web surface; Bounce publishes an llms.txt but no public developer API.'
 image: https://bounce.com/static/thumbnail.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.bounce.com over HTTP.
+  name: Bounce MCP Server
+  slug: bounce
 modified: '2026-07-18'
 name: Bounce
 nav: Providers
@@ -89,7 +93,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -97,7 +101,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 58.3
     operational_transparency: 0.0
-  previous_composite: 11.2
+  previous_composite: 11.4
   provenance:
     mcp: first-party
   regulatory:
@@ -107,7 +111,7 @@ score:
     regime_id: horizontal
     score: 13.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

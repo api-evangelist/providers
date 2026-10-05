@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
 artifact_total: 4
 common:
@@ -98,7 +98,7 @@ description: 'Urbint builds AI-powered operational resilience software for gas, 
 image: https://5737483.fs1.hubspotusercontent-na1.net/hubfs/5737483/MJTW%20Assets/dev/logos/urbint-logo@2x.svg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Urbint ships a real, first-party MCP server — but it serves the design system, not the product. It is bundled inside the @urbint/cl npm package as mcp-server/, built from TypeScript source, and run ov
   name: Urbint Component Library MCP Server
   slug: urbint-component-library-mcp-server
 modified: '2026-09-02'
@@ -128,7 +128,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
@@ -136,7 +136,7 @@ score:
     developer_ergonomics: 4.8
     discoverability: 55.0
     operational_transparency: 2.6
-  previous_composite: 15.5
+  previous_composite: 17.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -147,7 +147,7 @@ score:
     regime_id: energy_utilities
     score: 18.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

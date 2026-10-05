@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -196,9 +196,9 @@ examples:
 image: https://bespokenspirits.com/cdn/shop/files/HERO_IMAGE_0808cb9f-0b04-48f3-851a-6f6bd2307ad4.png?v=1749075439
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at bespokenspirits.com.
   name: Bespoken Spirits MCP Server
-  slug: bespoken-spirits-mcp-server
+  slug: bespoken-spirits-mcp-yml
 modified: '2026-08-07'
 name: Bespoken Spirits
 nav: Providers
@@ -223,7 +223,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.7
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
@@ -231,7 +231,7 @@ score:
     developer_ergonomics: 35.7
     discoverability: 80.8
     operational_transparency: 0.0
-  previous_composite: 28.2
+  previous_composite: 25.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -244,7 +244,7 @@ score:
     regime_id: horizontal
     score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

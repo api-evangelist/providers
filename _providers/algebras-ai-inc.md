@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 24
+- acting_count: 25
   human_in_the_loop: 2
   name: Algebras Ai Inc Agentic Access
   operation_count: 44
   slug: algebras-ai-inc-agentic-access
-  summary_line: 44 operations · 24 acting · 2 human-in-the-loop
+  summary_line: 44 operations · 25 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://platform.algebras.ai/api/v1
@@ -254,9 +254,9 @@ description: Algebras AI is an AI-powered localization platform that translates 
 image: https://algebras.ai/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at platform.algebras.ai over HTTP; 8 tools listed.
   name: Algebras AI MCP Server
-  slug: algebras-ai-mcp-server
+  slug: algebras
 modified: '2026-07-17'
 name: Algebras AI
 nav: Providers
@@ -276,7 +276,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 27.6
     contract_governance: 4.5
@@ -284,7 +284,7 @@ score:
     developer_ergonomics: 61.9
     discoverability: 75.0
     operational_transparency: 18.4
-  previous_composite: 40.3
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -302,7 +302,7 @@ score:
     regime_id: horizontal
     score: 19.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 3
+- acting_count: 4
   human_in_the_loop: 0
   name: Holistics Agentic Access
   operation_count: 13
   slug: holistics-agentic-access
-  summary_line: 13 operations · 3 acting
+  summary_line: 13 operations · 4 acting
 api_count: 1
 apis:
 - baseURL: https://secure.holistics.io/api/v2
@@ -71,7 +71,7 @@ apis:
   description: Submit report queries and retrieve results.
   name: Holistics Reports API
   slug: holistics-reports-api
-artifact_total: 18
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -95,6 +95,11 @@ collections:
   name: Holistics API
   slug: open-holistics
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/capabilities/holistics-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/holistics-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/agentic-access/holistics-agentic-access.yml
   title: ''
@@ -153,6 +158,10 @@ finops:
   slug: holistics-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/holistics.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp-apac.holistics.io over HTTP.
+  name: Holistics MCP Server
+  slug: holistics
 modified: '2026-06-20'
 name: Holistics
 nav: Providers
@@ -160,7 +169,7 @@ network: true
 overview: 'Holistics publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Data Pipeline API, Datasets API, Export API, and 2 more. Tagged areas include Business Intelligence, Analytics, Self-Service BI, Data Modeling, and Embedded Analytics.
 
 
-  Holistics'' developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Holistics'' developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Holistics Plans Pricing
   plan_count: 5
@@ -180,7 +189,7 @@ score:
     catalog_gap: 53.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.0
   facets:
     access_clarity: 36.3
     contract_governance: 0.0
@@ -188,7 +197,7 @@ score:
     developer_ergonomics: 32.1
     discoverability: 68.3
     operational_transparency: 31.1
-  previous_composite: 35.2
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -204,7 +213,7 @@ score:
     regime_id: horizontal
     score: 11.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

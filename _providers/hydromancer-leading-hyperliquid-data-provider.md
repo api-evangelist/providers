@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: Hyperliquid data REST API using a single POST /info operation dispatcher (type field selects the operation). Bearer-token authentication. Provides user state, positions, asset data, order data, histor
@@ -132,7 +132,7 @@ created: '2026-09-21'
 description: Hydromancer is data infrastructure for the Hyperliquid ecosystem, offering real-time REST and WebSocket APIs, L2/L4 orderbook streaming, liquidations feeds, oracle and perp/spot price data, HIP-3/HIP-4 market events, and granular historical datasets (via its Reservoir exports). The REST API is a single POST /info dispatcher with Bearer-token authentication and token-metered subscription pricing; the WebSocket API delivers low-latency streams with tiered connection and subscription limits. Documentation is agent-native (llms.txt plus Markdown twins of every page). Onboarding is manual, with a discretionary free tier for public-goods and early-stage teams.
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at docs.hydromancer.xyz over streamable HTTP; 3 tools listed.
   name: Hydromancer MCP Server
   slug: hydromancer-mcp-server
 modified: '2026-09-21'
@@ -159,13 +159,13 @@ score:
   band: thin
   composite: 30.7
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 15
     catalog_earned: 59.0
     catalog_earned_first_party: 24.0
     catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 42.1
     contract_governance: 0.0
@@ -173,7 +173,7 @@ score:
     developer_ergonomics: 42.9
     discoverability: 71.7
     operational_transparency: 55.3
-  previous_composite: 30.7
+  previous_composite: 30.6
   provenance:
     mcp: first-party
   regulatory:
@@ -183,7 +183,7 @@ score:
     regime_id: securities_market_data
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

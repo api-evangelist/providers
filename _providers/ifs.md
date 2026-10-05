@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -98,6 +98,11 @@ collections:
   name: IFS Cloud ERP Finance Work Orders API
   slug: open-ifs-work-orders-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/capabilities/ifs-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ifs-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/agentic-access/ifs-agentic-access.yml
   title: ''
@@ -271,7 +276,7 @@ overview: 'IFS publishes 7 APIs on the [APIs.io](https://apis.io/) network, incl
   The IFS catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  IFS''s developer surface includes authentication, engineering blog, developer portal, documentation, API reference, getting-started guide, support, and 25 more developer resources.'
+  IFS''s developer surface includes authentication, engineering blog, developer portal, documentation, API reference, getting-started guide, support, and 26 more developer resources.'
 plans:
 - name: Ifs Plans Pricing
   plan_count: 0
@@ -301,13 +306,13 @@ score:
   band: developing
   composite: 49.4
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 54.3
     catalog_earned_first_party: 0.0
     catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.9
   facets:
     access_clarity: 44.7
     contract_governance: 28.0
@@ -323,7 +328,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 49.4
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -339,7 +344,7 @@ score:
     regime_id: energy_utilities
     score: 42.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

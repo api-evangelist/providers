@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 255
+- acting_count: 259
   human_in_the_loop: 15
   name: H2O Ai Agentic Access
   operation_count: 429
   slug: h2o-ai-agentic-access
-  summary_line: 429 operations · 255 acting · 15 human-in-the-loop
+  summary_line: 429 operations · 259 acting · 15 human-in-the-loop
 api_count: 2
 apis:
 - description: H2OGPTe MCP Server is H2O.ai's first-party Model Context Protocol server for Enterprise h2oGPTe. It runs locally over stdio and proxies traffic to the h2oGPTe REST API, generating one MCP tool per RES
@@ -174,7 +174,7 @@ apis:
   description: The Tags API from H2O.ai — 3 operation(s) for tags.
   name: H2O.ai Tags API
   slug: h2o-ai-tags-api
-artifact_total: 58
+artifact_total: 162
 collections:
 - collection_type: open
   name: API Collection
@@ -255,6 +255,11 @@ collections:
   name: h2oGPTe REST Tags API
   slug: open-h2o-ai-tags-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/capabilities/h2o-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/h2o-ai-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/overlays/h2o-ai-h2ogpte-overlay.yaml
   title: ''
@@ -410,14 +415,334 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+coverage:
+  checked: '2026-10-03'
+  detail: The public documentation pages are HTML without any published OpenAPI, AsyncAPI, GraphQL, gRPC, or WSDL contracts.
+  evidence:
+  - status: 200
+    url: https://docs.h2o.ai/enterprise-h2ogpte/guide/apis
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-08-04'
 description: H2O.ai is an open-source artificial-intelligence and machine-learning company whose platform spans H2O-3 (a distributed, in-memory ML engine), H2O Driverless AI (automatic machine learning), H2O MLOps (model deployment, scoring and monitoring), H2O Wave (a Python/R framework for realtime AI apps), H2O LLM Studio, and Enterprise h2oGPTe (a private generative-AI, RAG and agent platform). Enterprise h2oGPTe publishes a 422-operation OpenAPI 3.0.1 contract covering collections, document ingestion, chat, agents, extractors, GraphRAG, guardrails, models, permissions and scheduled tasks, and H2O MLOps publishes an OpenAPI contract for its model-scoring endpoints. H2O.ai also ships a first-party MCP server that proxies the h2oGPTe REST API to agent clients, together with official Python, R, Java and JavaScript client libraries distributed via PyPI, CRAN, Maven Central and npm.
 image: https://avatars.githubusercontent.com/u/1402695?v=4
+json_schemas:
+- name: AddShowcaseChatRequest
+  property_count: 4
+  slug: h2o-ai-add-showcase-chat-request
+- name: Agent
+  property_count: 9
+  slug: h2o-ai-agent
+- name: AgentServerDirectoryStats
+  property_count: 15
+  slug: h2o-ai-agent-server-directory-stats
+- name: AgentToolSpec
+  property_count: 6
+  slug: h2o-ai-agent-tool-spec
+- name: AiAssistantCollectionLink
+  property_count: 9
+  slug: h2o-ai-ai-assistant-collection-link
+- name: AiAssistantCreateRequest
+  property_count: 17
+  slug: h2o-ai-ai-assistant-create-request
+- name: AiAssistantScheduleLink
+  property_count: 12
+  slug: h2o-ai-ai-assistant-schedule-link
+- name: AiAssistant
+  property_count: 30
+  slug: h2o-ai-ai-assistant
+- name: AiAssistantSpec
+  property_count: 14
+  slug: h2o-ai-ai-assistant-spec
+- name: AiAssistantUpdateRequest
+  property_count: 16
+  slug: h2o-ai-ai-assistant-update-request
+- name: APIKeyCreateRequest
+  property_count: 5
+  slug: h2o-ai-apikey-create-request
+- name: APIKeyInfo
+  property_count: 13
+  slug: h2o-ai-apikey-info
+- name: APIKeyResult
+  property_count: 2
+  slug: h2o-ai-apikey-result
+- name: APIKeyUpdateExpiryRequest
+  property_count: 1
+  slug: h2o-ai-apikey-update-expiry-request
+- name: APIKeyUpdateInactivityIntervalRequest
+  property_count: 1
+  slug: h2o-ai-apikey-update-inactivity-interval-request
+- name: ChatCompletionRequest
+  property_count: 13
+  slug: h2o-ai-chat-completion-request
+- name: ChatMessage
+  property_count: 11
+  slug: h2o-ai-chat-message
+- name: ChatSession
+  property_count: 9
+  slug: h2o-ai-chat-session
+- name: CollectionCreateRequest
+  property_count: 8
+  slug: h2o-ai-collection-create-request
+- name: Collection
+  property_count: 23
+  slug: h2o-ai-collection
+- name: CollectionSettings
+  property_count: 17
+  slug: h2o-ai-collection-settings
+- name: CollectionUpdateRequest
+  property_count: 3
+  slug: h2o-ai-collection-update-request
+- name: ConfirmUserDeletionRequest
+  property_count: 1
+  slug: h2o-ai-confirm-user-deletion-request
+- name: ContributionsRequest
+  property_count: 3
+  slug: h2o-ai-contributions-request
+- name: ContributionsResponse
+  property_count: 2
+  slug: h2o-ai-contributions-response
+- name: CountWithQueueDetails
+  property_count: 0
+  slug: h2o-ai-count-with-queue-details
+- name: CreateCustomAgentKeyAssociationRequest
+  property_count: 3
+  slug: h2o-ai-create-custom-agent-key-association-request
+- name: CustomAgentDetail
+  property_count: 7
+  slug: h2o-ai-custom-agent-detail
+- name: CustomAgentKeyAssociation
+  property_count: 8
+  slug: h2o-ai-custom-agent-key-association
+- name: CustomAgentToolAssociation
+  property_count: 7
+  slug: h2o-ai-custom-agent-tool-association
+- name: DeleteSharedChatsRequest
+  property_count: 1
+  slug: h2o-ai-delete-shared-chats-request
+- name: DocumentExtractionResult
+  property_count: 5
+  slug: h2o-ai-document-extraction-result
+- name: Document
+  property_count: 18
+  slug: h2o-ai-document
+- name: ExtractionRequest
+  property_count: 7
+  slug: h2o-ai-extraction-request
+- name: ExtractorCreateRequest
+  property_count: 14
+  slug: h2o-ai-extractor-create-request
+- name: Extractor
+  property_count: 17
+  slug: h2o-ai-extractor
+- name: ForumPermission
+  property_count: 3
+  slug: h2o-ai-forum-permission
+- name: ForumPostCreateRequest
+  property_count: 5
+  slug: h2o-ai-forum-post-create-request
+- name: ForumPost
+  property_count: 19
+  slug: h2o-ai-forum-post
+- name: ForumReplyCreateRequest
+  property_count: 4
+  slug: h2o-ai-forum-reply-create-request
+- name: Forum
+  property_count: 11
+  slug: h2o-ai-forum
+- name: ForumVoteRequest
+  property_count: 2
+  slug: h2o-ai-forum-vote-request
+- name: GlobalConfigurationItem
+  property_count: 11
+  slug: h2o-ai-global-configuration-item
+- name: GroupInfo
+  property_count: 3
+  slug: h2o-ai-group-info
+- name: GroupSharePermission
+  property_count: 2
+  slug: h2o-ai-group-share-permission
+- name: GuardrailViolationsDashboard
+  property_count: 5
+  slug: h2o-ai-guardrail-violations-dashboard
+- name: GuardrailViolationsList
+  property_count: 2
+  slug: h2o-ai-guardrail-violations-list
+- name: GuardrailViolationsSummary
+  property_count: 6
+  slug: h2o-ai-guardrail-violations-summary
+- name: GuardrailsSettingsCreateRequest
+  property_count: 5
+  slug: h2o-ai-guardrails-settings-create-request
+- name: GuardrailsSettings
+  property_count: 21
+  slug: h2o-ai-guardrails-settings
+- name: H2OGPTSystemInfo
+  property_count: 33
+  slug: h2o-ai-h2-ogptsystem-info
+- name: IngestFromAzureBlobStorageBody
+  property_count: 5
+  slug: h2o-ai-ingest-from-azure-blob-storage-body
+- name: IngestFromConfluenceBody
+  property_count: 5
+  slug: h2o-ai-ingest-from-confluence-body
+- name: IngestFromGcsBody
+  property_count: 3
+  slug: h2o-ai-ingest-from-gcs-body
+- name: IngestFromS3Body
+  property_count: 4
+  slug: h2o-ai-ingest-from-s3-body
+- name: IngestFromSharepointOnlineBody
+  property_count: 3
+  slug: h2o-ai-ingest-from-sharepoint-online-body
+- name: JobDetails
+  property_count: 18
+  slug: h2o-ai-job-details
+- name: ListShowcaseCategoriesResponse
+  property_count: 1
+  slug: h2o-ai-list-showcase-categories-response
+- name: MemoryBlockCreateRequest
+  property_count: 6
+  slug: h2o-ai-memory-block-create-request
+- name: MemoryBlockPrivacyRequest
+  property_count: 2
+  slug: h2o-ai-memory-block-privacy-request
+- name: MemoryBlock
+  property_count: 16
+  slug: h2o-ai-memory-block
+- name: MemoryBlockUpdateRequest
+  property_count: 6
+  slug: h2o-ai-memory-block-update-request
+- name: Model
+  property_count: 5
+  slug: h2o-ai-model
+- name: ProcessDocumentJobRequest
+  property_count: 17
+  slug: h2o-ai-process-document-job-request
+- name: PromptTemplateCreateRequest
+  property_count: 0
+  slug: h2o-ai-prompt-template-create-request
+- name: PromptTemplate
+  property_count: 0
+  slug: h2o-ai-prompt-template
+- name: QAFeedback
+  property_count: 23
+  slug: h2o-ai-qafeedback
+- name: QuestionRequest
+  property_count: 9
+  slug: h2o-ai-question-request
+- name: ReorderShowcaseChatsRequest
+  property_count: 1
+  slug: h2o-ai-reorder-showcase-chats-request
+- name: ResetAndShareRequest
+  property_count: 1
+  slug: h2o-ai-reset-and-share-request
+- name: ResetAndShareWithGroupsRequest
+  property_count: 1
+  slug: h2o-ai-reset-and-share-with-groups-request
+- name: RoleInfo
+  property_count: 4
+  slug: h2o-ai-role-info
+- name: ScheduledConnectorDetails
+  property_count: 14
+  slug: h2o-ai-scheduled-connector-details
+- name: ScheduledTaskAdminSummary
+  property_count: 15
+  slug: h2o-ai-scheduled-task-admin-summary
+- name: ScheduledTaskAdminUpdateRequest
+  property_count: 8
+  slug: h2o-ai-scheduled-task-admin-update-request
+- name: ScheduledTaskCreateRequest
+  property_count: 9
+  slug: h2o-ai-scheduled-task-create-request
+- name: ScheduledTaskExecutionStats
+  property_count: 3
+  slug: h2o-ai-scheduled-task-execution-stats
+- name: ScheduledTask
+  property_count: 20
+  slug: h2o-ai-scheduled-task
+- name: ScheduledTaskUpdateRequest
+  property_count: 11
+  slug: h2o-ai-scheduled-task-update-request
+- name: ScoreRequest
+  property_count: 7
+  slug: h2o-ai-score-request
+- name: ScoreResponse
+  property_count: 5
+  slug: h2o-ai-score-response
+- name: SelfTestResult
+  property_count: 8
+  slug: h2o-ai-self-test-result
+- name: SetDefaultMemoryBlockRequest
+  property_count: 2
+  slug: h2o-ai-set-default-memory-block-request
+- name: ShareChatRequest
+  property_count: 4
+  slug: h2o-ai-share-chat-request
+- name: ShareChatResponse
+  property_count: 2
+  slug: h2o-ai-share-chat-response
+- name: ShareMemoryBlockRequest
+  property_count: 1
+  slug: h2o-ai-share-memory-block-request
+- name: SharePermission
+  property_count: 2
+  slug: h2o-ai-share-permission
+- name: SharedChatDetail
+  property_count: 7
+  slug: h2o-ai-shared-chat-detail
+- name: SharedChatInfo
+  property_count: 8
+  slug: h2o-ai-shared-chat-info
+- name: ShowcaseChat
+  property_count: 16
+  slug: h2o-ai-showcase-chat
+- name: SummarizeRequest
+  property_count: 7
+  slug: h2o-ai-summarize-request
+- name: TagCreateRequest
+  property_count: 1
+  slug: h2o-ai-tag-create-request
+- name: Tag
+  property_count: 4
+  slug: h2o-ai-tag
+- name: TagUpdateRequest
+  property_count: 2
+  slug: h2o-ai-tag-update-request
+- name: UpdateSharedChatRequest
+  property_count: 2
+  slug: h2o-ai-update-shared-chat-request
+- name: UpdateShowcaseChatRequest
+  property_count: 3
+  slug: h2o-ai-update-showcase-chat-request
+- name: UploadShowcaseThumbnailResponse
+  property_count: 1
+  slug: h2o-ai-upload-showcase-thumbnail-response
+- name: UserConfigurationItem
+  property_count: 4
+  slug: h2o-ai-user-configuration-item
+- name: UserDeletionRequest
+  property_count: 1
+  slug: h2o-ai-user-deletion-request
+- name: UserInfo
+  property_count: 3
+  slug: h2o-ai-user-info
+- name: UserJobDetails
+  property_count: 3
+  slug: h2o-ai-user-job-details
+- name: UserPermission
+  property_count: 5
+  slug: h2o-ai-user-permission
+jsonld:
+- class_count: 120
+  name: H2O Ai Context
+  property_count: 328
+  slug: h2o-ai-context
 layout: provider
 mcp_servers:
 - description: H2OGPTe MCP Server is H2O.ai's first-party Model Context Protocol server for Enterprise h2oGPTe. It is a LOCAL stdio proxy — there is no hosted/remote MCP endpoint — and it builds its tool surface dir
   name: H2O.ai MCP Server
-  slug: h2oai-mcp-server
+  slug: h2ogpte-mcp-server
 modified: '2026-08-04'
 name: H2O.ai
 nav: Providers
@@ -425,27 +750,42 @@ network: true
 overview: 'H2O.ai publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Admin Sessions API, Agents API, AI Assistants API, and 23 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, MLOps, and Generative AI.
 
 
-  H2O.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
+  The H2O.ai catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  H2O.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 28 more developer resources.'
 random_paper: 6
+rules:
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: H2O.ai API Rules
+  rule_count: 14
+  severity_counts:
+    error: 11
+    hint: 0
+    info: 2
+    warn: 1
+  slug: h2o-ai-rules
 score:
-  band: developing
-  composite: 51.8
+  band: strong
+  composite: 56.3
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
+    artifact_dirs: 30
+    catalog_earned: 58.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.4
   facets:
     access_clarity: 36.8
-    contract_governance: 4.5
-    contract_quality: 50.9
+    contract_governance: 18.2
+    contract_quality: 64.5
     developer_ergonomics: 70.8
-    discoverability: 66.1
+    discoverability: 60.7
     operational_transparency: 44.7
-  previous_composite: 51.8
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -467,8 +807,8 @@ score:
     regime_id: horizontal
     score: 32.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: rising
   upsert:
     applies: true
     score: 27.8
@@ -481,7 +821,7 @@ security:
 - kind: domain-security
   name: H2O Ai Domain Security
   slug: h2o-ai-domain-security
-  summary_line: TLSv1.3 · DNSSEC · DMARC
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 - kind: vulnerability-disclosure
   name: H2O Ai Vulnerability Disclosure
   slug: h2o-ai-vulnerability-disclosure

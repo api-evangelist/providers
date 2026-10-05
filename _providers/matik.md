@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://app.matik.io/api/1.0/
@@ -205,9 +205,9 @@ description: Matik is a data-driven content automation platform that generates p
 image: https://cdn.prod.website-files.com/6169c25fc3b5f387dbc1b0ab/672c8fdcb72e6d3999cd7f45_Matik%20Logo%20On%20White%20Colored.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server over HTTP; 8 tools listed.
   name: Matik MCP Server
-  slug: matik-mcp-server
+  slug: matik
 modified: '2026-08-14'
 name: Matik
 nav: Providers
@@ -243,7 +243,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
@@ -251,7 +251,7 @@ score:
     developer_ergonomics: 63.7
     discoverability: 71.7
     operational_transparency: 26.3
-  previous_composite: 48.4
+  previous_composite: 46.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -267,7 +267,7 @@ score:
     regime_id: horizontal
     score: 36.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

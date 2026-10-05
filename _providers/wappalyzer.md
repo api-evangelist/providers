@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -60,20 +60,6 @@ apis:
   baseurl_source: declared
   description: The four anonymous, unauthenticated technology and category reference endpoints on the v2 host — the technology directory (7,281 entries), a single technology profile, the category directory (106 entr
   name: Wappalyzer Metadata API
-  phrasing_intents:
-  - id: listTechnologies
-    intent: List every technology Wappalyzer can detect
-    question: Which technologies can Wappalyzer detect?
-  - id: getTechnology
-    intent: Get the profile of one technology
-    question: How widely adopted is a particular technology, and in which countries?
-  - id: listCategories
-    intent: List all technology categories
-    question: What categories are technologies grouped into?
-  - id: getCategory
-    intent: Get a category and the technologies in it
-    question: Which technologies belong to a specific category?
-  phrasing_ops: 4
   slug: wappalyzer-metadata-api
 - description: First-party hosted Model Context Protocol server at https://mcp.wappalyzer.com/mcp — remote Streamable HTTP, OAuth 2.1 with PKCE and dynamic client registration, exposing three read-only tools and fou
   name: Wappalyzer MCP Server
@@ -82,63 +68,26 @@ apis:
   baseurl_source: declared
   description: Shared authentication, billing, and response conventions.
   name: Wappalyzer Basics API
-  phrasing_intents:
-  - id: getCreditBalance
-    intent: Check remaining API credit balance
-    question: How many Wappalyzer credits do I have left on my account?
-  phrasing_ops: 1
   slug: wappalyzer-basics-api
 - baseURL: https://api.wappalyzer.com
   baseurl_source: declared
   description: Lead list creation, pricing, and download lifecycle.
   name: Wappalyzer Lists API
-  phrasing_intents:
-  - id: listLeadLists
-    intent: List the lead lists I have created
-    question: Which lead lists have I already created?
-  - id: createLeadList
-    intent: Build a new lead list of websites by technology
-    question: How do I build a list of websites that use a particular technology?
-  - id: getLeadList
-    intent: Fetch one lead list and its status
-    question: Is my lead list ready yet?
-  - id: finalizeLeadList
-    intent: Spend credits to finalize a ready lead list
-    question: How do I pay credits to unlock a lead list once it's ready?
-  - id: deleteLeadList
-    intent: Delete a lead list
-    question: Can I remove a lead list I no longer need?
-  phrasing_ops: 5
   slug: wappalyzer-lists-api
 - baseURL: https://api.wappalyzer.com
   baseurl_source: declared
   description: Website technology lookup and asynchronous crawl callbacks.
   name: Wappalyzer Lookup API
-  phrasing_intents:
-  - id: lookupWebsites
-    intent: Look up the technologies a website uses
-    question: What technologies is a given website built with?
-  phrasing_ops: 1
   slug: wappalyzer-lookup-api
 - baseURL: https://api.wappalyzer.com
   baseurl_source: declared
   description: Dataset-backed website-serving subdomain discovery.
   name: Wappalyzer Subdomains API
-  phrasing_intents:
-  - id: lookupSubdomains
-    intent: Discover subdomains that serve websites
-    question: Which subdomains of a domain are serving websites?
-  phrasing_ops: 1
   slug: wappalyzer-subdomains-api
 - baseURL: https://api.wappalyzer.com
   baseurl_source: declared
   description: Email verification and deliverability checks.
   name: Wappalyzer Verify API
-  phrasing_intents:
-  - id: verifyEmail
-    intent: Verify an email address
-    question: Is this email address valid and deliverable?
-  phrasing_ops: 1
   slug: wappalyzer-verify-api
 artifact_total: 32
 asyncapis:
@@ -398,7 +347,7 @@ layout: provider
 mcp_servers:
 - description: 'Wappalyzer ships two first-party MCP servers: a hosted remote Streamable-HTTP server at https://mcp.wappalyzer.com/mcp secured with OAuth 2.1 (the API key is resolved server-side from the signed-in Wa'
   name: Wappalyzer MCP Server
-  slug: wappalyzer-mcp-server
+  slug: wappalyzer
 modified: '2026-08-14'
 name: Wappalyzer
 nav: Providers
@@ -440,7 +389,7 @@ score:
     catalog_gap: 26.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 84.2
     contract_governance: 28.0
@@ -448,7 +397,7 @@ score:
     developer_ergonomics: 58.9
     discoverability: 75.0
     operational_transparency: 63.2
-  previous_composite: 68.1
+  previous_composite: 67.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -466,7 +415,7 @@ score:
     regime_id: horizontal
     score: 30.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true
@@ -497,5 +446,6 @@ tags:
 - Subdomain Discovery
 - Email Verification
 - Market Research
+- Data Enrichment
 website: https://www.wappalyzer.com/
 ---

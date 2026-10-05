@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: REST API for ProdPad's product management platform providing programmatic access to ideas, customer feedback, personas, roadmaps, OKRs, and webhooks. Authenticate with a bearer token and interact with
@@ -131,7 +131,7 @@ score:
   band: thin
   composite: 27.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 61.8
     catalog_earned_first_party: 0.0
     catalog_gap: 53.2
@@ -153,7 +153,7 @@ score:
     regime_id: horizontal
     score: 21.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

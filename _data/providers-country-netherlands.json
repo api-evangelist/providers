@@ -16,18 +16,18 @@
      "slug": "kpn",
      "description": "Koninklijke KPN N.V. is the incumbent telecommunications and IT provider of the Netherlands, operating the country's national fixed (copper and fibre) and mobile networks and selling telephony, broadband, television, IoT connectivity and managed IT services to consumers, businesses and — through KPN Wholesale — to other operators. In the telecom API value chain KPN sits on the network-operator side, but it is a conspicuous exception to the carrier norm: rather than routing developers exclusively through aggregators, KPN runs a genuine self-serve developer portal at developer.kpn.com where anyone can register a free account, get a client ID and secret, test in a sandbox at no cost, and see per-transaction pricing, then upgrade to production via a KRN company number or an iDIN identity check. Thirty-four OpenAPI/Swagger definitions are published anonymously downloadable under KPN's public SwaggerHub organisation, all fronted by an Apigee-style gateway at api-prd.kpn.com with OAuth 2.0 client-credentials. KPN is listed in the official CAMARA landscape as an operator and, with Odido and Vodafone under the COIN association and GSMA Open Gateway, launched CAMARA-standard fraud-prevention APIs for the Dutch market in October 2025; its SIM Swap definition points explicitly at github.com/camaraproject as its product documentation. KPN is not an Aduna shareholder and does not reach developers through that JV. Notably, KPN also resells Vonage and Apidaze CPaaS products through its own portal — the aggregator layer appearing inside the carrier's own catalogue rather than the other way round.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/screenshots/kpn-2026-08-07T171335.png",
-     "score": 62.5,
+     "score": 61.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 69.6,
+      "discoverability": 64.3,
       "contract_quality": 59.4,
       "contract_governance": 18.2,
       "operational_transparency": 86.8,
       "developer_ergonomics": 60.1,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -65,18 +65,18 @@
      "name": "Nedap",
      "slug": "nedap",
      "description": "Nedap N.V. is a Dutch technology company founded in 1929 and listed on Euronext Amsterdam, headquartered in Groenlo, the Netherlands, with roughly 1,000 employees. It builds what it calls Digital Twin Technology across four markets — Healthcare (the Ons electronic health record suite and MediKIT for general practitioners), Livestock (cow monitoring), Retail (the iD Cloud RFID inventory platform and iSenseOS loss prevention) and Security (Nedap Access physical identity management and long-range vehicle/driver identification readers). Its most openly documented API surface is Ons API at ons-api.nl, a 926-operation OpenAPI 3.0.3 REST contract for the Ons care platform covering client dossiers, care planning, scheduling, rostering, payroll and finance, together with a 31-path openEHR composition and archetype surface, a webhook event service described in OpenAPI 3.1 webhooks, and a small scopes-and-clearances authorization API. A FHIR read/search surface built on the Dutch ZIB information models is documented but is not in the public specification — those endpoints sit behind the Ons API Dashboard. Access is gated on a client TLS certificate signed by Nedap's own CA and issued through the Ons API Dashboard, so the specifications are public while the runtime is not.",
-     "score": 61.7,
+     "score": 61.2,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 78.6,
+      "discoverability": 73.2,
       "contract_quality": 51.8,
       "contract_governance": 18.2,
       "operational_transparency": 97.4,
       "developer_ergonomics": 73.2,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -126,7 +126,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -186,7 +186,7 @@
       "developer_ergonomics": 76.2,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -242,7 +242,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 47.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -291,7 +291,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -341,7 +341,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -397,18 +397,18 @@
      "name": "30MHz",
      "slug": "30mhz",
      "description": "30MHz is a Rotterdam-based horticulture technology company that builds a wireless sensor network and the ZENSIE data platform for greenhouse and controlled-environment growers. Battery-powered sensors capture temperature, humidity, PAR/light, CO2, substrate moisture and EC in the crop, stream it to ZENSIE over LoRa gateways, and surface it as dashboards, maps, alerts, cultivation strategies and AI-generated growing advice. The platform integrates with climate computers (Priva, Hoogendoorn, Ridder) and third-party data services such as Meteomatics weather, and exposes a public REST API — the ZENSIE API at api.30mhz.com — covering sensors, checks (data sources), data query and ingest, dashboards, widgets, organizations, notifications, locations, zones, cultivations, licensing and billing, so growers, advisors and technology partners can push data into the platform and pull it back out into their own systems.",
-     "score": 51.9,
+     "score": 51.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 66.1,
+      "discoverability": 60.7,
       "contract_quality": 54.5,
       "contract_governance": 4.5,
       "operational_transparency": 18.4,
       "developer_ergonomics": 58.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -443,56 +443,6 @@
      "rank": 8
     },
     {
-     "name": "Silverflow",
-     "slug": "silverflow",
-     "description": "Silverflow is an Amsterdam-based cloud-native card processing platform that connects acquirers, payment service providers, payment facilitators and merchants directly to the card networks (Visa, Mastercard, Amex, Discover, Diners, Maestro, Bancontact) through a single REST API. Founded in 2019, the company replaces legacy acquiring processor infrastructure with a contract-first, OpenAPI 3.0-described platform covering merchant and acceptor onboarding, 3-D Secure and BEP authentication, processor and network tokenization, authorization, clearing and settlement, incremental authorizations, reversals, refunds and payouts, terminal-to-cloud POS charges, ATM card management, dispute and chargeback handling, fraud notifications, transaction risk assessment, interchange and scheme-fee estimation, and a full reconciliation and reporting suite. The Silverflow API exposes 137 operations across 101 paths, emits 31 CloudEvents 1.0 webhook notifications through an event-subscription surface, and publishes a sandbox with amount-driven authorization test scenarios.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/screenshots/silverflow-2026-09-02T155511.png",
-     "score": 50.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 59.4,
-      "contract_governance": 4.5,
-      "operational_transparency": 57.9,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 17.1
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 33.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 41.5,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "verified",
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "verified",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 9
-    },
-    {
      "name": "Wageningen University & Research",
      "slug": "wageningen-university-research",
      "description": "Wageningen University & Research (WUR) is the Dutch public research university and research foundation for healthy food and the living environment, in Wageningen, Netherlands, and ranked #100 in the QS World University Rankings 2025. Its programmable footprint is real but small, and it sits in the research institutes rather than in a central developer platform: AgroDataCube, run by Wageningen Environmental Research at agrodatacube.wur.nl, is a token-gated REST API over an open agri-food data collection for the Netherlands; the WFBR API Portal, run by Wageningen Food & Biobased Research on its own Azure API Management instance, publishes a Food API behind registration and WUR's own terms of use; the university library operates a complete, keyless OAI-PMH 2.0 endpoint at library.wur.nl/oai over \"Wageningen University & Research Publications\", serving Dublin Core, MODS, DIDL and OpenAIRE/DataCite metadata; and Wageningen Marine Research runs an OGC WMS/WFS GeoServer at opengeodata.wmr.wur.nl. WUR also operates two SAML identity providers registered in SURFconext and therefore eduGAIN. What WUR does not have is a central API programme: there is no institution-wide developer portal, no course-catalog or registrar API (api.wur.nl and ssc.wur.nl resolve but time out from the public internet), and no published OpenAPI of its own — every OpenAPI in this repository is ours, derived from WUR's Postman collections and from live probes. The Research Portal at research.wur.nl is an Elsevier Pure tenancy: WUR's data and DOIs, Elsevier's contract, and it is recorded here as a tenant relationship rather than credited to WUR as engineering.",
@@ -508,7 +458,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 61.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -540,7 +490,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 9
     },
     {
      "name": "University of Twente",
@@ -558,7 +508,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 47.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -590,6 +540,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 10
+    },
+    {
+     "name": "Silverflow",
+     "slug": "silverflow",
+     "description": "Silverflow is an Amsterdam-based cloud-native card processing platform that connects acquirers, payment service providers, payment facilitators and merchants directly to the card networks (Visa, Mastercard, Amex, Discover, Diners, Maestro, Bancontact) through a single REST API. Founded in 2019, the company replaces legacy acquiring processor infrastructure with a contract-first, OpenAPI 3.0-described platform covering merchant and acceptor onboarding, 3-D Secure and BEP authentication, processor and network tokenization, authorization, clearing and settlement, incremental authorizations, reversals, refunds and payouts, terminal-to-cloud POS charges, ATM card management, dispute and chargeback handling, fraud notifications, transaction risk assessment, interchange and scheme-fee estimation, and a full reconciliation and reporting suite. The Silverflow API exposes 137 operations across 101 paths, emits 31 CloudEvents 1.0 webhook notifications through an event-subscription surface, and publishes a sandbox with amount-driven authorization test scenarios.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/screenshots/silverflow-2026-09-02T155511.png",
+     "score": 50.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 67.9,
+      "contract_quality": 59.4,
+      "contract_governance": 4.5,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 66.1,
+      "access_clarity": 17.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 33.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 41.5,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "verified",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "verified",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 11
     },
     {
@@ -597,18 +597,18 @@
      "slug": "university-of-amsterdam",
      "description": "The University of Amsterdam (Universiteit van Amsterdam, UvA) is a public research university in Amsterdam, Netherlands, a LERU member and one of the two large research universities in the city. It operates no central developer portal and issues no public API keys, and the honest shape of its programmable footprint is three institution-run surfaces surrounded by six vendor platforms it is a tenant of. What it genuinely runs itself: a shared AI gateway with the Amsterdam University of Applied Sciences at llmproxy.uva.nl that serves a full OpenAPI 3.1 description and issues keys to staff, students and developers on request; a SAML 2.0 identity provider whose signed federation metadata is published on its own host and registered in SURFconext and eduGAIN; and the DataNose course and registration API on its own network, whose Swagger UI answers but whose generated description currently returns 500. Everything else that looks like a UvA API is a contract someone else wrote: the library's Linked Open Data platform is a TriplyDB tenancy, the research repository is Figshare, UvA-DARE and its OAI-PMH feed are Elsevier Pure, the archives OAI provider is LYRASIS-hosted ArchivesSpace, the central catalogue OAI endpoint is Ex Libris Alma and now returns 403 to the public, and the timetable API is Eveoh MyTimetable behind SSO. The data in those systems is the university's; the interfaces are not.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/screenshots/university-of-amsterdam-2026-08-17T083414.png",
-     "score": 47.0,
+     "score": 46.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 76.8,
+      "discoverability": 71.4,
       "contract_quality": 55.2,
       "contract_governance": 0.0,
       "operational_transparency": 21.6,
       "developer_ergonomics": 35.7,
       "access_clarity": 47.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -658,7 +658,7 @@
       "developer_ergonomics": 64.9,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -697,18 +697,18 @@
      "slug": "utrecht",
      "description": "Utrecht University (Universiteit Utrecht) is a public research university in Utrecht, Netherlands, founded in 1636 and a member of the League of European Research Universities. It is one of the few universities in this catalog whose largest machine-readable surface is its OWN engineering rather than a vendor's: Utrecht authors and operates Yoda, a GPL-3.0 iRODS-based research data management platform (github.com/UtrechtUniversity/yoda-ruleset), and runs it in production at portal.yoda.uu.nl. The Yoda HTTP API is real but not open — every call redirects to SolisID login unless it carries a session cookie or a Yoda data access token — so the OpenAPIs in this repo describe a live institution-operated API that no anonymous client can call. Alongside it the University Library runs a DSpace 9.0 institutional repository whose REST API and OAI-PMH interface are both openly readable at dspace.library.uu.nl, and IT Services operates a SAML 2.0 identity provider registered in the SURFconext federation. The research information system is NOT Utrecht's: research-portal.uu.nl is an Elsevier Pure tenancy (uu.elsevierpure.com), recorded here as a tenant relationship and not as Utrecht's contract. There is no central developer portal, no api.uu.nl, no public course-catalog or campus API, and no published API terms or rate limits; OSIRIS, the student administration system, returns 403 to unauthenticated clients.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/screenshots/utrecht-2026-06-20T200730.png",
-     "score": 44.8,
+     "score": 44.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 66.1,
+      "discoverability": 60.7,
       "contract_quality": 52.9,
       "contract_governance": 9.8,
       "operational_transparency": 34.7,
       "developer_ergonomics": 33.3,
       "access_clarity": 47.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -757,7 +757,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -807,7 +807,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 47.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -857,7 +857,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 47.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -918,7 +918,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 49.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -968,7 +968,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1018,7 +1018,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1068,7 +1068,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 47.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1117,7 +1117,7 @@
       "developer_ergonomics": 23.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1167,7 +1167,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 47.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1217,7 +1217,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 47.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1277,7 +1277,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1326,7 +1326,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1376,7 +1376,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 47.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1426,7 +1426,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1475,7 +1475,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1525,7 +1525,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1575,7 +1575,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1625,7 +1625,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1675,7 +1675,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1735,7 +1735,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1785,7 +1785,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1835,7 +1835,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1885,7 +1885,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1935,7 +1935,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1985,7 +1985,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2035,7 +2035,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2084,7 +2084,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2133,7 +2133,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2183,7 +2183,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2232,7 +2232,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2281,7 +2281,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2331,7 +2331,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2381,7 +2381,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2431,7 +2431,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2481,7 +2481,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,

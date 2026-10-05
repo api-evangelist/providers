@@ -1,6 +1,6 @@
 {
- "total": 160,
- "shown": 160,
+ "total": 163,
+ "shown": 163,
  "limit": 1000,
  "bands": [
   {
@@ -16,18 +16,18 @@
      "slug": "mindbody",
      "description": "Mindbody is a business management and consumer marketplace platform for the fitness, beauty, and wellness industries, providing scheduling, point of sale, client management, marketing, and reporting tools for studios, gyms, salons, and spas. The Mindbody Public API (v6) provides REST endpoints for appointments, classes, clients, enrollments, sales, sites, staff, payroll, and cross-site identity, and is paired with a Webhooks API that pushes real-time event notifications using API key + SiteId headers, with optional OAuth 2.0 bearer tokens from the Mindbody Identity Service for staff- and client-scoped operations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/screenshots/mindbody-2026-06-20T185555.png",
-     "score": 63.9,
+     "score": 63.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 66.1,
+      "discoverability": 60.7,
       "contract_quality": 64.5,
       "contract_governance": 27.3,
       "operational_transparency": 62.6,
       "developer_ergonomics": 72.6,
       "access_clarity": 67.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -76,7 +76,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -125,7 +125,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -197,7 +197,7 @@
       "developer_ergonomics": 85.7,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -247,7 +247,7 @@
       "developer_ergonomics": 39.3,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -297,7 +297,7 @@
       "developer_ergonomics": 41.7,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -358,7 +358,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -408,7 +408,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -458,7 +458,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -508,7 +508,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -558,7 +558,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -608,7 +608,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -658,7 +658,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -708,7 +708,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -758,7 +758,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -808,7 +808,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -868,7 +868,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -917,7 +917,7 @@
       "developer_ergonomics": 18.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -967,7 +967,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1017,7 +1017,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1067,7 +1067,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1117,7 +1117,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1167,7 +1167,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1217,7 +1217,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1267,7 +1267,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1317,7 +1317,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1367,7 +1367,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1417,7 +1417,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1467,7 +1467,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1516,7 +1516,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1566,7 +1566,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1616,7 +1616,7 @@
       "developer_ergonomics": 13.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1666,7 +1666,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1716,7 +1716,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1766,7 +1766,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1816,7 +1816,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1866,7 +1866,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1916,7 +1916,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1966,7 +1966,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2016,7 +2016,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2066,7 +2066,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2116,7 +2116,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2165,7 +2165,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2215,7 +2215,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2265,7 +2265,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2315,7 +2315,7 @@
       "developer_ergonomics": 6.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2365,7 +2365,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2415,7 +2415,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2465,7 +2465,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2500,56 +2500,6 @@
      "rank": 49
     },
     {
-     "name": "Womaness",
-     "slug": "womaness",
-     "description": "Womaness is a women-founded midlife wellness brand created to modernize aging for women and to help them navigate the phases their bodies move through around menopause. The direct-to-consumer company sells clean, estrogen-free, doctor-approved and clinically tested skincare, supplements, sexual-health and menopause-support products (including Let's Neck serum, Melt for You inserts and Daily V Soothe) through a Shopify-hosted online store and select retail partners. Surfaced as a portfolio company of Obvious Ventures and added to the API Evangelist network; it is a consumer e-commerce brand with no first-party public developer API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/womaness/refs/heads/main/screenshots/womaness-2026-09-02T170905.png",
-     "score": 13.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 58.3,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 14.3,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 15.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 12.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "platform",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 50
-    },
-    {
      "name": "Bravo Sierra",
      "slug": "bravo-sierra",
      "description": "Bravo Sierra is an American personal care company founded in New York City in 2018, building high-performance, clean body care for the most active people. Its \"military-native\" line — deodorant, body wash, cleansing bars, body fragrance, hair styling paste, and antibacterial body wipes — is designed and field-tested with U.S. Special Operations Forces (starting with the 75th Ranger Regiment's 2nd Battalion) and manufactured in the USA. The direct-to-consumer brand runs on Shopify, offers subscriptions, and gives back a portion of every sale to programs supporting active service members, veterans, and their families. It was added to the API Evangelist network as a portfolio company of Canaan Partners; it publishes a consumer e-commerce storefront rather than a public developer API, so this profile captures identity and the store's first-party well-known discovery and domain-security surface.",
@@ -2565,7 +2515,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2597,7 +2547,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 50
     },
     {
      "name": "GlossGenius",
@@ -2615,7 +2565,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2647,6 +2597,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 51
+    },
+    {
+     "name": "Womaness",
+     "slug": "womaness",
+     "description": "Womaness is a women-founded midlife wellness brand created to modernize aging for women and to help them navigate the phases their bodies move through around menopause. The direct-to-consumer company sells clean, estrogen-free, doctor-approved and clinically tested skincare, supplements, sexual-health and menopause-support products (including Let's Neck serum, Melt for You inserts and Daily V Soothe) through a Shopify-hosted online store and select retail partners. Surfaced as a portfolio company of Obvious Ventures and added to the API Evangelist network; it is a consumer e-commerce brand with no first-party public developer API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/womaness/refs/heads/main/screenshots/womaness-2026-09-02T170905.png",
+     "score": 13.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 55.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 14.3,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 15.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 10.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 52
     },
     {
@@ -2665,7 +2665,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2715,7 +2715,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2765,7 +2765,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2815,7 +2815,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2865,7 +2865,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2915,7 +2915,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2965,7 +2965,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3015,7 +3015,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3065,7 +3065,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3114,7 +3114,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3164,7 +3164,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3214,7 +3214,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3264,7 +3264,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3314,7 +3314,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3349,56 +3349,6 @@
      "rank": 66
     },
     {
-     "name": "Checkerspot",
-     "slug": "checkerspot",
-     "description": "Checkerspot is an Alameda, California biotechnology company, founded in 2016 and incorporated as a Public Benefit Corporation, that designs and produces functional fats and oils through precision fermentation of microalgae. Its biology-driven molecule licensing platform pairs algal strain development, an advanced analytical platform, bioinformatics, high-throughput screening, fermentation scale-up and downstream oil refining, built around the proprietary microbe Prototheca moriformis, which the company reports reaches over 80% oil content by dry cell weight. The commercial molecule portfolio includes a high sn-2 palmitate algal oil that mimics the triglyceride structure of human milk fat for infant nutrition, an Omega-7 (palmitoleic acid) algal oil, a designer high-oleic tropical-fat alternative to palm oil, and Algolein tG C18/80 for cosmetic formulation; earlier work commercialized algae-derived urethane composites through the WNDR Alpine outdoor brand. Checkerspot works through ingredient and manufacturing partners including AAK, Huvepharma and La Fabrique Vegetale, and closed a USD 55 million Series C led by ArrowMark Partners with participation from Cox Enterprises. It is a business-to-business ingredient and molecule licensing company rather than a software vendor: it operates a WordPress marketing site, publishes no developer portal, no API documentation, no SDK and no machine-readable API contract, and has no GitHub organization.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/checkerspot/refs/heads/main/screenshots/checkerspot-2026-08-07T163304.png",
-     "score": 11.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 58.3,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 18.6,
-      "matched_via": "fallback"
-     },
-     "agent_score": 2.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "platform",
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 67
-    },
-    {
      "name": "Ashland",
      "slug": "ashland",
      "description": "Ashland is a global specialty chemicals company headquartered in Wilmington, Delaware, that provides high-performance ingredients and additives for the pharmaceutical, personal care, food and beverage, coatings, adhesives, and industrial markets. The company's product portfolio includes cellulose ethers, vinyl pyrrolidone polymers, acrylates, and specialty polymers sold under brands such as Benecel, Klucel, Natrosol, Plasdone, and Povidone. Ashland serves over 10,000 customers in more than 100 countries. Ashland does not offer a public developer API but provides digital product selection tools, safety data sheets, and technical documentation through its website.",
@@ -3413,7 +3363,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3445,6 +3395,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 67
+    },
+    {
+     "name": "Checkerspot",
+     "slug": "checkerspot",
+     "description": "Checkerspot is an Alameda, California biotechnology company, founded in 2016 and incorporated as a Public Benefit Corporation, that designs and produces functional fats and oils through precision fermentation of microalgae. Its biology-driven molecule licensing platform pairs algal strain development, an advanced analytical platform, bioinformatics, high-throughput screening, fermentation scale-up and downstream oil refining, built around the proprietary microbe Prototheca moriformis, which the company reports reaches over 80% oil content by dry cell weight. The commercial molecule portfolio includes a high sn-2 palmitate algal oil that mimics the triglyceride structure of human milk fat for infant nutrition, an Omega-7 (palmitoleic acid) algal oil, a designer high-oleic tropical-fat alternative to palm oil, and Algolein tG C18/80 for cosmetic formulation; earlier work commercialized algae-derived urethane composites through the WNDR Alpine outdoor brand. Checkerspot works through ingredient and manufacturing partners including AAK, Huvepharma and La Fabrique Vegetale, and closed a USD 55 million Series C led by ArrowMark Partners with participation from Cox Enterprises. It is a business-to-business ingredient and molecule licensing company rather than a software vendor: it operates a WordPress marketing site, publishes no developer portal, no API documentation, no SDK and no machine-readable API contract, and has no GitHub organization.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/checkerspot/refs/heads/main/screenshots/checkerspot-2026-08-07T163304.png",
+     "score": 11.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 55.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 18.6,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 68
     },
     {
@@ -3463,7 +3463,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3513,7 +3513,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3563,7 +3563,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3612,7 +3612,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3653,8 +3653,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 88,
-   "shown": 88,
+   "count": 91,
+   "shown": 91,
    "providers": [
     {
      "name": "Airblack",
@@ -3671,7 +3671,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3721,7 +3721,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3771,7 +3771,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3821,7 +3821,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3871,7 +3871,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3921,7 +3921,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3971,7 +3971,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4021,7 +4021,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4056,31 +4056,30 @@
      "rank": 80
     },
     {
-     "name": "Goop",
-     "slug": "goop",
-     "description": "Goop is a modern lifestyle and wellness brand founded in 2008 by Gwyneth Paltrow, launched from her kitchen as a weekly email newsletter and grown into a content-and-commerce company spanning editorial journalism, e-commerce, and its own product lines across beauty, skincare, supplements, food, fashion, home, and travel. Goop operates goop.com as a curated online shop and digital magazine, publishes wellness and beauty guidance, and sells goop-branded product lines (including goopglow and goop Beauty) alongside a curated marketplace of third-party brands. It is a privately held company backed by Lightspeed Venture Partners (Series C, 2017) and other investors. Goop does not currently operate a public developer program or API; this profile captures its company identity and public web surface for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/goop/refs/heads/main/screenshots/goop-2026-07-25T220106.png",
-     "score": 9.8,
+     "name": "Blank Beauty",
+     "slug": "blank-beauty",
+     "description": "Blank Beauty is a direct-to-consumer nail polish brand offering cruelty‑free, vegan, and customizable nail products. Founded to provide high‑quality, affordable polish with a focus on sustainability, the company operates an online storefront, a custom‑color creation tool, and a subscription service. It serves a global customer base through its e‑commerce site and social media channels, emphasizing community engagement and innovative product launches.",
+     "score": 10.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 55.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 10.9,
-      "matched_via": "tags"
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 13.7,
+      "matched_via": "fallback"
      },
-     "agent_score": 0.0,
+     "agent_score": 4.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -4099,17 +4098,17 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": false,
+      "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": "platform"
      },
      "rank": 81
     },
     {
-     "name": "Welly",
-     "slug": "welly",
-     "description": "Welly is a health and wellness brand and Certified B Corporation that designs first aid and personal care products, best known for its patterned Flex Fabric adhesive bandages, first aid kits, hydrocolloid blemish and bug-bite patches, and antiseptic wipes. Founded to make caring for everyday cuts, scrapes, and playtime injuries more joyful, Welly sells direct-to-consumer through a Shopify storefront at getwelly.com and via national retail partners. As a consumer packaged-goods company it publishes no public developer API or documentation; this profile is maintained in the API Evangelist network as a company record enriched from its public web presence.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/welly/refs/heads/main/screenshots/welly-2026-09-02T170616.png",
+     "name": "Goop",
+     "slug": "goop",
+     "description": "Goop is a modern lifestyle and wellness brand founded in 2008 by Gwyneth Paltrow, launched from her kitchen as a weekly email newsletter and grown into a content-and-commerce company spanning editorial journalism, e-commerce, and its own product lines across beauty, skincare, supplements, food, fashion, home, and travel. Goop operates goop.com as a curated online shop and digital magazine, publishes wellness and beauty guidance, and sells goop-branded product lines (including goopglow and goop Beauty) alongside a curated marketplace of third-party brands. It is a privately held company backed by Lightspeed Venture Partners (Series C, 2017) and other investors. Goop does not currently operate a public developer program or API; this profile captures its company identity and public web surface for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/goop/refs/heads/main/screenshots/goop-2026-07-25T220106.png",
      "score": 9.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4121,7 +4120,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4156,11 +4155,11 @@
      "rank": 82
     },
     {
-     "name": "Kinlo",
-     "slug": "kinlo",
-     "description": "KINLO is a consumer skincare and suncare brand formulating sun protection and skincare products specifically for melanin-rich skin. Co-founded with tennis champion Naomi Osaka, the line addresses a market gap in SPF for melanated skin tones, offering dermatologist-tested, tinted, reef-safe formulations with ingredients like niacinamide that blend without a white cast. Products are sold direct and exclusively through Amazon with Buy with Prime. KINLO is a direct-to-consumer commerce brand with no public API, developer portal, SDKs, or programmatic surface; it was surfaced as a portfolio company of initialized-capital and added to the API Evangelist network as a consumer-brand profile.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kinlo/refs/heads/main/screenshots/kinlo-2026-08-07T171245.png",
-     "score": 9.7,
+     "name": "Welly",
+     "slug": "welly",
+     "description": "Welly is a health and wellness brand and Certified B Corporation that designs first aid and personal care products, best known for its patterned Flex Fabric adhesive bandages, first aid kits, hydrocolloid blemish and bug-bite patches, and antiseptic wipes. Founded to make caring for everyday cuts, scrapes, and playtime injuries more joyful, Welly sells direct-to-consumer through a Shopify storefront at getwelly.com and via national retail partners. As a consumer packaged-goods company it publishes no public developer API or documentation; this profile is maintained in the API Evangelist network as a company record enriched from its public web presence.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/welly/refs/heads/main/screenshots/welly-2026-09-02T170616.png",
+     "score": 9.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -4171,14 +4170,14 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 13.7,
-      "matched_via": "fallback"
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 10.9,
+      "matched_via": "tags"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4206,10 +4205,10 @@
      "rank": 83
     },
     {
-     "name": "Public Goods",
-     "slug": "public-goods",
-     "description": "Public Goods is a direct-to-consumer e-commerce retailer selling household essentials, personal care, and home products under its own private label, with an emphasis on natural formulations, simplified ingredient lists, minimalist packaging, and sustainable sourcing. The company operates a membership model (an annual fee unlocking member pricing, free shipping, and store credit) and a wholesale channel. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. As a consumer retail brand it publishes no developer API, SDK, or technical documentation surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/public-goods/refs/heads/main/screenshots/public-goods-2026-09-02T152313.png",
+     "name": "Kinlo",
+     "slug": "kinlo",
+     "description": "KINLO is a consumer skincare and suncare brand formulating sun protection and skincare products specifically for melanin-rich skin. Co-founded with tennis champion Naomi Osaka, the line addresses a market gap in SPF for melanated skin tones, offering dermatologist-tested, tinted, reef-safe formulations with ingredients like niacinamide that blend without a white cast. Products are sold direct and exclusively through Amazon with Buy with Prime. KINLO is a direct-to-consumer commerce brand with no public API, developer portal, SDKs, or programmatic surface; it was surfaced as a portfolio company of initialized-capital and added to the API Evangelist network as a consumer-brand profile.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kinlo/refs/heads/main/screenshots/kinlo-2026-08-07T171245.png",
      "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4221,7 +4220,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4256,10 +4255,10 @@
      "rank": 84
     },
     {
-     "name": "Remedyskin",
-     "slug": "remedyskin",
-     "description": "Remedyskin (Remedy Science, operated by Doctorly Skin Inc.) is a dermatologist-developed skincare and beauty brand founded by Dr. Muneeb Shah. It sells a direct-to-consumer line of advanced skincare treatments organized by concern (dark spots, aging, pore size, body texture) and skin type, spanning cleansers, treatment serums, moisturizers, targeted solutions, and bundles, built around a \"Do No Harm\" formulation principle that excludes fragrances and common irritants. The storefront runs on Shopify with a Gorgias-powered help center and mobile apps on iOS and Android. It was surfaced as a portfolio company of norwest-venture-partners. Enrichment found no public API, developer portal, or SDK surface — this is a consumer e-commerce brand with no developer program.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/remedyskin/refs/heads/main/screenshots/remedyskin-2026-09-02T153342.png",
+     "name": "Public Goods",
+     "slug": "public-goods",
+     "description": "Public Goods is a direct-to-consumer e-commerce retailer selling household essentials, personal care, and home products under its own private label, with an emphasis on natural formulations, simplified ingredient lists, minimalist packaging, and sustainable sourcing. The company operates a membership model (an annual fee unlocking member pricing, free shipping, and store credit) and a wholesale channel. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. As a consumer retail brand it publishes no developer API, SDK, or technical documentation surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/public-goods/refs/heads/main/screenshots/public-goods-2026-09-02T152313.png",
      "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4271,7 +4270,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4306,6 +4305,56 @@
      "rank": 85
     },
     {
+     "name": "Remedyskin",
+     "slug": "remedyskin",
+     "description": "Remedyskin (Remedy Science, operated by Doctorly Skin Inc.) is a dermatologist-developed skincare and beauty brand founded by Dr. Muneeb Shah. It sells a direct-to-consumer line of advanced skincare treatments organized by concern (dark spots, aging, pore size, body texture) and skin type, spanning cleansers, treatment serums, moisturizers, targeted solutions, and bundles, built around a \"Do No Harm\" formulation principle that excludes fragrances and common irritants. The storefront runs on Shopify with a Gorgias-powered help center and mobile apps on iOS and Android. It was surfaced as a portfolio company of norwest-venture-partners. Enrichment found no public API, developer portal, or SDK surface — this is a consumer e-commerce brand with no developer program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/remedyskin/refs/heads/main/screenshots/remedyskin-2026-09-02T153342.png",
+     "score": 9.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 13.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 86
+    },
+    {
      "name": "Worldover",
      "slug": "worldover",
      "description": "Worldover is the AI operating system for chemicals and cosmetics companies, replacing fragmented ERP, PLM, QMS, LIMS, and regulatory tools with one AI-orchestrated system custom-built around each team's workflows. Powered by Willow, its chemical and regulatory intelligence engine, it runs AI agents for demand planning, regulatory monitoring, quality, formulation R&D, supply chain, SDS authoring, and PLM updates. Headquartered in London and backed by Index Ventures, Chalfen, and EF, Worldover serves beauty brands, manufacturers, ingredient providers, distributors, and pharma and supplements companies. No public developer API is published.",
@@ -4321,7 +4370,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4353,7 +4402,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 87
     },
     {
      "name": "Arocell2a9d",
@@ -4370,7 +4419,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4402,7 +4451,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 87
+     "rank": 88
     },
     {
      "name": "Revlon",
@@ -4420,57 +4469,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 13.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 88
-    },
-    {
-     "name": "Kimberly-Clark",
-     "slug": "kimberly-clark",
-     "description": "Kimberly-Clark is a global personal care and consumer tissue company with brands including Huggies, Kleenex, Scott, Kotex, Cottonelle, Poise, Depend, and Pull-Ups. No public APIs or developer portal have been identified for Kimberly-Clark; this repository tracks corporate, supplier, and integration surfaces for ongoing API discovery.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kimberly-clark/refs/heads/main/screenshots/kimberly-clark-2026-07-25T223748.png",
-     "score": 9.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 49.1,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4505,22 +4504,22 @@
      "rank": 89
     },
     {
-     "name": "Beaubble",
-     "slug": "beaubble",
-     "description": "Beaubble is a community-driven beauty commerce platform that lets creators launch their own customized, premium beauty brands and products by engaging their audiences. The company runs a direct-to-consumer storefront at beaubble.com featuring creator-led lines from talent such as Teni Panosian, Elsa Hosk, Shanina Shaik, Abbie Herbert, Rudi Berry, and Avrey Ovard, selling items like lip stains, freckle pens, and curated bundles. Backed by 500 Global, Beaubble is a consumer e-commerce brand with no public developer API surface; this profile was created by the API Evangelist enrichment pipeline and captures the company's public web presence and domain-security posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/beaubble/refs/heads/main/screenshots/beaubble-2026-07-25T202559.png",
-     "score": 8.8,
+     "name": "Kimberly-Clark",
+     "slug": "kimberly-clark",
+     "description": "Kimberly-Clark is a global personal care and consumer tissue company with brands including Huggies, Kleenex, Scott, Kotex, Cottonelle, Poise, Depend, and Pull-Ups. No public APIs or developer portal have been identified for Kimberly-Clark; this repository tracks corporate, supplier, and integration surfaces for ongoing API discovery.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kimberly-clark/refs/heads/main/screenshots/kimberly-clark-2026-07-25T223748.png",
+     "score": 9.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 49.1,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4555,59 +4554,10 @@
      "rank": 90
     },
     {
-     "name": "Beautylish",
-     "slug": "beautylish",
-     "description": "Beautylish is a San Francisco based online beauty retailer and community, founded in 2010 by Nils Johnson, Vu Nguyen and Sameer Iyengar. It began as a community where beauty enthusiasts shared tutorials, reviews and product knowledge, and launched its own e-commerce storefront in 2012. Beautylish curates makeup, skincare, hair, fragrance, nails, bath and body, wellness and tool brands from around the world, pairs them with editorial content and makeup-artist guidance, and operates its own fulfillment, rewards (Beautylish Rewards), flexible payments and Zero Day Delivery programs. The company runs a first-party storefront rather than a developer platform: as of this profile it publishes no developer portal, no public API reference, no OpenAPI or other machine-readable contract, and no SDKs. Its public partner surface is a ShareASale/Awin affiliate program rather than an API.",
-     "score": 8.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 51.8,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 3.6,
-      "access_clarity": 17.1
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 9.8,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 91
-    },
-    {
-     "name": "Haus Laboratories",
-     "slug": "haus-laboratories",
-     "description": "Haus Labs by Lady Gaga (formerly Haus Laboratories) is an American clean-beauty cosmetics brand founded by Lady Gaga. It first launched in September 2019 and relaunched in June 2022 with Sephora as its exclusive retail partner. The brand makes skincare-infused, high-performance color cosmetics and makeup — including its Triclone Skin Tech Foundation plus lip, eye, and complexion products — that are always vegan and cruelty-free. It sells direct-to-consumer through hauslabs.com and through Sephora. Haus Labs is a consumer packaged goods / beauty company with no public developer API; this profile is maintained in the API Evangelist network as a company record surfaced from the Lightspeed Venture Partners portfolio.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/haus-laboratories/refs/heads/main/screenshots/haus-laboratories-2026-08-07T170005.png",
+     "name": "Beaubble",
+     "slug": "beaubble",
+     "description": "Beaubble is a community-driven beauty commerce platform that lets creators launch their own customized, premium beauty brands and products by engaging their audiences. The company runs a direct-to-consumer storefront at beaubble.com featuring creator-led lines from talent such as Teni Panosian, Elsa Hosk, Shanina Shaik, Abbie Herbert, Rudi Berry, and Avrey Ovard, selling items like lip stains, freckle pens, and curated bundles. Backed by 500 Global, Beaubble is a consumer e-commerce brand with no public developer API surface; this profile was created by the API Evangelist enrichment pipeline and captures the company's public web presence and domain-security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/beaubble/refs/heads/main/screenshots/beaubble-2026-07-25T202559.png",
      "score": 8.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4616,59 +4566,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 7.8,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 92
-    },
-    {
-     "name": "Aquishair",
-     "slug": "aquishair",
-     "description": "Aquishair is a UK‑based brand that designs and sells premium hair towels, turbans and related hair‑care accessories. Their products focus on quick drying, softness and style, marketed toward women seeking convenient, high‑quality hair solutions. The company emphasizes natural materials and scientific formulation, offering a range that includes the popular Lisse Dair hair turban and other innovative hair‑care items. Aquishair operates an online store and provides detailed product information, brand story, and support through its website.",
-     "score": 8.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 46.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4700,25 +4601,24 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 91
     },
     {
-     "name": "Daash",
-     "slug": "daash",
-     "description": "DAASH is an AI-powered predictive commerce intelligence platform built specifically for the beauty and cosmetics industry. It combines consumer shopping panels covering 6M+ people with social and advertising trend data and enriched product attributes to estimate sales performance, market share, and emerging trends at the SKU level. DAASH delivers weekly competitive intelligence to beauty brands, manufacturers, and financial services firms so they can uncover category shifts, benchmark competitor performance, and spot growth opportunities. The company was founded at the intersection of predictive intelligence and consumer products by retail and data experts (Philip Smolin, CEO; Justin Stewart, CTO; Melissa Munnerlyn, CMO), and is a portfolio company of Bullpen Capital. DAASH is delivered as a hosted SaaS application (my.daash.co); it currently exposes no public developer API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/daash/refs/heads/main/screenshots/daash-2026-07-25T211116.png",
-     "score": 8.3,
+     "name": "Beautylish",
+     "slug": "beautylish",
+     "description": "Beautylish is a San Francisco based online beauty retailer and community, founded in 2010 by Nils Johnson, Vu Nguyen and Sameer Iyengar. It began as a community where beauty enthusiasts shared tutorials, reviews and product knowledge, and launched its own e-commerce storefront in 2012. Beautylish curates makeup, skincare, hair, fragrance, nails, bath and body, wellness and tool brands from around the world, pairs them with editorial content and makeup-artist guidance, and operates its own fulfillment, rewards (Beautylish Rewards), flexible payments and Zero Day Delivery programs. The company runs a first-party storefront rather than a developer platform: as of this profile it publishes no developer portal, no public API reference, no OpenAPI or other machine-readable contract, and no SDKs. Its public partner surface is a ShareASale/Awin affiliate program rather than an API.",
+     "score": 8.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 51.8,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 3.6,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4750,7 +4650,156 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 92
+    },
+    {
+     "name": "Haus Laboratories",
+     "slug": "haus-laboratories",
+     "description": "Haus Labs by Lady Gaga (formerly Haus Laboratories) is an American clean-beauty cosmetics brand founded by Lady Gaga. It first launched in September 2019 and relaunched in June 2022 with Sephora as its exclusive retail partner. The brand makes skincare-infused, high-performance color cosmetics and makeup — including its Triclone Skin Tech Foundation plus lip, eye, and complexion products — that are always vegan and cruelty-free. It sells direct-to-consumer through hauslabs.com and through Sephora. Haus Labs is a consumer packaged goods / beauty company with no public developer API; this profile is maintained in the API Evangelist network as a company record surfaced from the Lightspeed Venture Partners portfolio.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/haus-laboratories/refs/heads/main/screenshots/haus-laboratories-2026-08-07T170005.png",
+     "score": 8.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 7.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 93
+    },
+    {
+     "name": "Aquishair",
+     "slug": "aquishair",
+     "description": "Aquishair is a UK‑based brand that designs and sells premium hair towels, turbans and related hair‑care accessories. Their products focus on quick drying, softness and style, marketed toward women seeking convenient, high‑quality hair solutions. The company emphasizes natural materials and scientific formulation, offering a range that includes the popular Lisse Dair hair turban and other innovative hair‑care items. Aquishair operates an online store and provides detailed product information, brand story, and support through its website.",
+     "score": 8.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 46.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 13.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 94
+    },
+    {
+     "name": "Daash",
+     "slug": "daash",
+     "description": "DAASH is an AI-powered predictive commerce intelligence platform built specifically for the beauty and cosmetics industry. It combines consumer shopping panels covering 6M+ people with social and advertising trend data and enriched product attributes to estimate sales performance, market share, and emerging trends at the SKU level. DAASH delivers weekly competitive intelligence to beauty brands, manufacturers, and financial services firms so they can uncover category shifts, benchmark competitor performance, and spot growth opportunities. The company was founded at the intersection of predictive intelligence and consumer products by retail and data experts (Philip Smolin, CEO; Justin Stewart, CTO; Melissa Munnerlyn, CMO), and is a portfolio company of Bullpen Capital. DAASH is delivered as a hosted SaaS application (my.daash.co); it currently exposes no public developer API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/daash/refs/heads/main/screenshots/daash-2026-07-25T211116.png",
+     "score": 8.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 17.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 9.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 95
     },
     {
      "name": "ACTIVON Co., Ltd.",
@@ -4767,7 +4816,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4799,7 +4848,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 96
     },
     {
      "name": "Ulta Salon, Cosmetics & Fragrance",
@@ -4817,7 +4866,7 @@
       "developer_ergonomics": 3.6,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4849,7 +4898,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 97
     },
     {
      "name": "Gravel AI",
@@ -4867,56 +4916,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 5.9,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 97
-    },
-    {
-     "name": "Beautyhaul",
-     "slug": "beautyhaul",
-     "description": "Beautyhaul is an Indonesian e‑commerce platform specializing in beauty products, offering a wide range of makeup, skincare, fragrance and personal care items. The site emphasizes original, BPOM‑approved products with discounts up to 50% off, catering to both local and multinational brands. It provides online shopping, store pick‑up, and detailed product information, aiming to solve skin concerns and deliver affordable beauty solutions.",
-     "score": 7.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.1,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4951,6 +4951,55 @@
      "rank": 98
     },
     {
+     "name": "Beautyhaul",
+     "slug": "beautyhaul",
+     "description": "Beautyhaul is an Indonesian e‑commerce platform specializing in beauty products, offering a wide range of makeup, skincare, fragrance and personal care items. The site emphasizes original, BPOM‑approved products with discounts up to 50% off, catering to both local and multinational brands. It provides online shopping, store pick‑up, and detailed product information, aiming to solve skin concerns and deliver affordable beauty solutions.",
+     "score": 7.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.1,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 99
+    },
+    {
      "name": "Eyva",
      "slug": "eyva",
      "description": "Eyva (operated by datazeit GmbH of Cologne, Germany) is an AI-powered portfolio-intelligence platform for the beauty and personal-care industry. It unifies consumer, market, and product data so product, marketing, and R&D teams can detect emerging consumer trends across Google search, TikTok, Instagram, and product reviews, benchmark their portfolio, run gap and competitive analysis, track ingredients and claims, and develop AI-assisted product concepts. The platform bundles an AI research assistant, automated AI reporting, and data-backed product recommendations, and is used by 700+ teams at brands including Beiersdorf, Nivea, dm, BASF, Babor, and Lavera. Eyva is a portfolio company of Earlybird Venture Capital. It is a B2B SaaS delivered through a demo-led sales motion and an authenticated web application; no public developer API surface is currently published.",
@@ -4966,7 +5015,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4998,7 +5047,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 100
     },
     {
      "name": "The Estée Lauder Companies",
@@ -5016,7 +5065,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5048,7 +5097,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 101
     },
     {
      "name": "Amyris",
@@ -5066,7 +5115,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5098,7 +5147,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 102
     },
     {
      "name": "Ephemeral Solutions",
@@ -5116,7 +5165,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5148,7 +5197,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 103
     },
     {
      "name": "FabFitFun",
@@ -5166,7 +5215,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5175,7 +5224,7 @@
       "score": 9.8,
       "matched_via": "fallback"
      },
-     "agent_score": 12.2,
+     "agent_score": 8.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -5194,11 +5243,11 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": "verified",
+      "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 104
     },
     {
      "name": "Styleseat",
@@ -5216,7 +5265,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5248,7 +5297,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 105
     },
     {
      "name": "Coty",
@@ -5266,57 +5315,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 9.8,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 105
-    },
-    {
-     "name": "THG",
-     "slug": "thg",
-     "description": "THG plc (formerly The Hut Group) is a UK-based consumer brands group founded in 2004 in Manchester and listed on the London Stock Exchange. Following the 2025 demerger of its Ingenuity technology and fulfilment division, THG is a pure-play consumer brands business operating two divisions: THG Beauty (home to Lookfantastic, Cult Beauty, Dermstore and prestige brand partners) and THG Nutrition (led by Myprotein, one of the world's largest online sports-nutrition brands). THG designs, manufactures and sells beauty and nutrition products direct-to-consumer across global markets. It was surfaced in the API Evangelist network as a portfolio company of Balderton Capital, an early investor. THG operates corporate, investor-relations and careers web properties but publishes no public developer API, developer portal, or API documentation; this profile captures its identity and a live domain-security probe.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thg/refs/heads/main/screenshots/thg-2026-09-02T163526.png",
-     "score": 6.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5351,11 +5350,11 @@
      "rank": 106
     },
     {
-     "name": "A-Frame",
-     "slug": "a-frame",
-     "description": "A-Frame Brands is a Los Angeles-based consumer brand incubator and product-development company founded in 2019 by entrepreneur Ari Bloom and actor Hill Harper. It partners with celebrities and cultural figures to build purpose-driven personal-care, beauty, fragrance, home-care, and pet-care brands, taking each from opportunity identification through product development, design, sourcing, production, and retail go-to-market. Brands in its portfolio include LOVED01 (John Legend), Kinlo (Naomi Osaka), Proudly (Gabrielle Union and Dwyane Wade), and Purrfect Paws, sold through retailers such as Target, Walmart, Amazon, CVS, JCPenney, QVC, and Bath & Body Works. Backed by Initialized Capital. This is a consumer company profile in the API Evangelist network; A-Frame publishes no public API or developer program.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/a-frame/refs/heads/main/screenshots/a-frame-2026-07-25T181307.png",
-     "score": 6.1,
+     "name": "THG",
+     "slug": "thg",
+     "description": "THG plc (formerly The Hut Group) is a UK-based consumer brands group founded in 2004 in Manchester and listed on the London Stock Exchange. Following the 2025 demerger of its Ingenuity technology and fulfilment division, THG is a pure-play consumer brands business operating two divisions: THG Beauty (home to Lookfantastic, Cult Beauty, Dermstore and prestige brand partners) and THG Nutrition (led by Myprotein, one of the world's largest online sports-nutrition brands). THG designs, manufactures and sells beauty and nutrition products direct-to-consumer across global markets. It was surfaced in the API Evangelist network as a portfolio company of Balderton Capital, an early investor. THG operates corporate, investor-relations and careers web properties but publishes no public developer API, developer portal, or API documentation; this profile captures its identity and a live domain-security probe.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thg/refs/heads/main/screenshots/thg-2026-09-02T163526.png",
+     "score": 6.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -5363,10 +5362,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5401,6 +5400,105 @@
      "rank": 107
     },
     {
+     "name": "A-Frame",
+     "slug": "a-frame",
+     "description": "A-Frame Brands is a Los Angeles-based consumer brand incubator and product-development company founded in 2019 by entrepreneur Ari Bloom and actor Hill Harper. It partners with celebrities and cultural figures to build purpose-driven personal-care, beauty, fragrance, home-care, and pet-care brands, taking each from opportunity identification through product development, design, sourcing, production, and retail go-to-market. Brands in its portfolio include LOVED01 (John Legend), Kinlo (Naomi Osaka), Proudly (Gabrielle Union and Dwyane Wade), and Purrfect Paws, sold through retailers such as Target, Walmart, Amazon, CVS, JCPenney, QVC, and Bath & Body Works. Backed by Initialized Capital. This is a consumer company profile in the API Evangelist network; A-Frame publishes no public API or developer program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/a-frame/refs/heads/main/screenshots/a-frame-2026-07-25T181307.png",
+     "score": 6.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 9.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 108
+    },
+    {
+     "name": "Botalys",
+     "slug": "botalys",
+     "description": "Botalys develops and supplies premium botanical ingredients through biomimetic indoor farming. The company offers rare botanicals such as Korean Ginseng, Rhodiola, and Sichuan Red Sage for nutraceuticals and cosmetics, emphasizing quality, traceability, and sustainability. It provides a platform for tailored plant development and sample packs, aiming to make sourcing of rare botanicals possible and sustainable for clients.",
+     "score": 6.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 9.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 109
+    },
+    {
      "name": "Achats Group",
      "slug": "achatsgroup",
      "description": "Achats Group (아샤그룹) is a South Korean media-commerce company founded in February 2017 and led by CEO Vivian Eun Young Lee, with offices in Pangyo (Seongnam) and Magok (Seoul). It manufactures and sells everyday consumer goods — sanitizing and deodorizing sprays, foot care, living care, health drinks and cosmetics — under its own brands Cellomon, ND247 / Neverdie, Biotreat and BringB, marketing them through short-form video and social advertising that routes buyers into its own Cafe24 storefronts and a Naver Smart Store. Public records put total funding near USD 6.2 million through a Series B. It is a direct-to-consumer consumer-goods business, not a software vendor: as of 2026-09-06 achatsgroup.co.kr is a Cafe24-hosted brochure site still carrying unedited pages from its purchased template, with no developer portal, no API documentation, no SDK and no machine-readable API contract, and the brand storefronts are hosted Cafe24 malls whose only /api path is Cafe24's own.",
@@ -5415,7 +5513,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5447,7 +5545,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 110
     },
     {
      "name": "GlamSt",
@@ -5465,7 +5563,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5497,7 +5595,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 111
     },
     {
      "name": "LVMH",
@@ -5515,7 +5613,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5547,7 +5645,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 112
     },
     {
      "name": "Ipsy",
@@ -5565,7 +5663,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5597,7 +5695,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 113
     },
     {
      "name": "Sephora",
@@ -5615,7 +5713,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5647,7 +5745,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 114
     },
     {
      "name": "Reckitt Benckiser",
@@ -5665,7 +5763,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5697,7 +5795,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 115
     },
     {
      "name": "Bota Biosciences",
@@ -5715,7 +5813,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5747,7 +5845,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 116
     },
     {
      "name": "Preemadonna",
@@ -5765,7 +5863,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5797,7 +5895,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 117
     },
     {
      "name": "Henkel",
@@ -5815,7 +5913,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5847,7 +5945,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 118
     },
     {
      "name": "Curejoy",
@@ -5865,7 +5963,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5897,7 +5995,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 119
     },
     {
      "name": "Essity",
@@ -5915,7 +6013,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5947,7 +6045,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 120
     },
     {
      "name": "Purplle",
@@ -5965,7 +6063,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5997,7 +6095,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 121
     },
     {
      "name": "Y&S",
@@ -6014,107 +6112,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 5.9,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 120
-    },
-    {
-     "name": "Church and Dwight",
-     "slug": "church-and-dwight",
-     "description": "Church & Dwight Co., Inc. is a Fortune 500 American consumer packaged goods (CPG) company headquartered in Princeton, New Jersey, that manufactures and markets a portfolio of household, personal care, health and wellness, beauty, and specialty products. Best known as the parent company of the Arm & Hammer baking soda brand (the company's flagship since 1846), Church & Dwight operates through three reporting segments: Consumer Domestic, Consumer International, and Specialty Products Division. The company's brand portfolio includes Arm & Hammer, Trojan, OxiClean, Vitafusion, L'il Critters, Therabreath, Hero (Mighty Patch), Batiste, Waterpik, OraJel, Nair, Spinbrush, First Response, RepHresh, Zicam, Flawless, Toppik, Viviscal, Kaboom, Orange Glo, XTRA laundry detergent, and Arrid antiperspirant. Church & Dwight does not currently publish a public consumer-facing developer API; partner integrations are managed through internal portals, and consumer experiences focus on brand websites, e-commerce direct-to-consumer storefronts, and the Innovation Portal for external R&D partnerships.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/church-and-dwight/refs/heads/main/screenshots/church-and-dwight-2026-06-20T174337.png",
-     "score": 3.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 49.1,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 4.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 121
-    },
-    {
-     "name": "GoWabi",
-     "slug": "gowabi",
-     "description": "GoWabi is a Bangkok-based beauty and wellness booking marketplace serving Thailand and selected markets across Southeast Asia. Consumers use its web and mobile apps to discover and book more than 5,000 spas, massage studios, beauty clinics, nail, hair, dental, fitness, and wellness providers, with discounted deals, cashback rewards, and multiple payment options (credit card, Alipay, BNPL). GoWabi also offers a B2B SaaS/CRM tool integrated with partner point-of-sale systems to help salons, spas, clinics, and studios manage bookings and operations. It is backed by 500 Global. GoWabi operates a private mobile app backend (mobile-api.gowabi.com) but publishes no public developer API, documentation, or portal at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gowabi/refs/heads/main/screenshots/gowabi-2026-07-25T220145.png",
-     "score": 3.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6149,22 +6147,22 @@
      "rank": 122
     },
     {
-     "name": "Kenvue",
-     "slug": "kenvue",
-     "description": "Kenvue is the world's largest pure-play consumer health company by revenue, formed from the consumer health spin-off of Johnson & Johnson. Everyday care is a powerful catalyst in making you feel better, inside and out. Kenvue's iconic brands include Tylenol, Neutrogena, Listerine, Aveeno, Band-Aid, and Johnson's.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kenvue/refs/heads/main/screenshots/kenvue-2026-06-20T183953.png",
-     "score": 3.7,
+     "name": "Church and Dwight",
+     "slug": "church-and-dwight",
+     "description": "Church & Dwight Co., Inc. is a Fortune 500 American consumer packaged goods (CPG) company headquartered in Princeton, New Jersey, that manufactures and markets a portfolio of household, personal care, health and wellness, beauty, and specialty products. Best known as the parent company of the Arm & Hammer baking soda brand (the company's flagship since 1846), Church & Dwight operates through three reporting segments: Consumer Domestic, Consumer International, and Specialty Products Division. The company's brand portfolio includes Arm & Hammer, Trojan, OxiClean, Vitafusion, L'il Critters, Therabreath, Hero (Mighty Patch), Batiste, Waterpik, OraJel, Nair, Spinbrush, First Response, RepHresh, Zicam, Flawless, Toppik, Viviscal, Kaboom, Orange Glo, XTRA laundry detergent, and Arrid antiperspirant. Church & Dwight does not currently publish a public consumer-facing developer API; partner integrations are managed through internal portals, and consumer experiences focus on brand websites, e-commerce direct-to-consumer storefronts, and the Innovation Portal for external R&D partnerships.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/church-and-dwight/refs/heads/main/screenshots/church-and-dwight-2026-06-20T174337.png",
+     "score": 3.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 49.1,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6199,22 +6197,22 @@
      "rank": 123
     },
     {
-     "name": "Prose",
-     "slug": "prose",
-     "description": "Prose is a New York City-based direct-to-consumer beauty company that makes truly custom haircare and skincare. Customers complete an online consultation covering hair type, scalp, lifestyle, diet, and local environment, and Prose then formulates personalized shampoo, conditioner, hair masks, supplements, and skincare made to order and sold primarily through a subscription model. Prose was surfaced as a portfolio company of forerunner-ventures and insight-partners. It operates no public developer API; its verified GitHub organization publishes internal tooling and third-party client libraries only, so this profile carries company identity and a domain-security probe rather than API artifacts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/prose/refs/heads/main/screenshots/prose-2026-09-02T152213.png",
-     "score": 3.7,
+     "name": "GoWabi",
+     "slug": "gowabi",
+     "description": "GoWabi is a Bangkok-based beauty and wellness booking marketplace serving Thailand and selected markets across Southeast Asia. Consumers use its web and mobile apps to discover and book more than 5,000 spas, massage studios, beauty clinics, nail, hair, dental, fitness, and wellness providers, with discounted deals, cashback rewards, and multiple payment options (credit card, Alipay, BNPL). GoWabi also offers a B2B SaaS/CRM tool integrated with partner point-of-sale systems to help salons, spas, clinics, and studios manage bookings and operations. It is backed by 500 Global. GoWabi operates a private mobile app backend (mobile-api.gowabi.com) but publishes no public developer API, documentation, or portal at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gowabi/refs/heads/main/screenshots/gowabi-2026-07-25T220145.png",
+     "score": 3.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6249,10 +6247,60 @@
      "rank": 124
     },
     {
-     "name": "ScentBird",
-     "slug": "scentbird",
-     "description": "Scentbird is a New York City-based monthly fragrance subscription service, founded in 2014 and backed by 500 Global and Y Combinator. Members receive a travel-size (8ml) designer fragrance each month for a flat subscription fee, selecting from a rotating catalog of hundreds of designer and niche perfume and cologne brands, and can also purchase full-size bottles, candles, and beauty products through the direct-to-consumer storefront. Scentbird operates as a consumer e-commerce and subscription brand; its public engineering presence is a GitHub organization of internal tooling and open-source forks (data-integration taps, shipping-API clients, Grails plugins), and it does not currently publish a public developer API, OpenAPI specification, or developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scentbird/refs/heads/main/screenshots/scentbird-2026-09-02T154519.png",
+     "name": "Kenvue",
+     "slug": "kenvue",
+     "description": "Kenvue is the world's largest pure-play consumer health company by revenue, formed from the consumer health spin-off of Johnson & Johnson. Everyday care is a powerful catalyst in making you feel better, inside and out. Kenvue's iconic brands include Tylenol, Neutrogena, Listerine, Aveeno, Band-Aid, and Johnson's.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kenvue/refs/heads/main/screenshots/kenvue-2026-06-20T183953.png",
+     "score": 3.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 4.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 125
+    },
+    {
+     "name": "Prose",
+     "slug": "prose",
+     "description": "Prose is a New York City-based direct-to-consumer beauty company that makes truly custom haircare and skincare. Customers complete an online consultation covering hair type, scalp, lifestyle, diet, and local environment, and Prose then formulates personalized shampoo, conditioner, hair masks, supplements, and skincare made to order and sold primarily through a subscription model. Prose was surfaced as a portfolio company of forerunner-ventures and insight-partners. It operates no public developer API; its verified GitHub organization publishes internal tooling and third-party client libraries only, so this profile carries company identity and a domain-security probe rather than API artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/prose/refs/heads/main/screenshots/prose-2026-09-02T152213.png",
      "score": 3.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6264,7 +6312,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6296,74 +6344,25 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 125
-    },
-    {
-     "name": "Avon Products",
-     "slug": "avon-products",
-     "description": "Avon Products is a global manufacturer and marketer of beauty and related products, primarily distributed through a network of independent sales representatives. Founded in 1886 and headquartered in Northampton, UK as Avon International, it was owned by Natura &Co from 2020 until Regent acquired it in January 2026; its corporate site is avonworldwide.com. The North American business (avon.com) was separated in 2016 and has been run as a distinct company.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/avon-products/refs/heads/main/screenshots/avon-products-2026-07-25T202009.png",
-     "score": 3.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 5.9,
-      "matched_via": "fallback"
-     },
-     "agent_score": 5.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 126
     },
     {
-     "name": "BeautyDate",
-     "slug": "beautydate",
-     "description": "BeautyDate (beautydate.com.br) is a Brazilian beauty and wellness marketplace that connects consumers with salons and independent beauty professionals for discovering and booking appointments online. It was surfaced as a 500 Global venture-portfolio company and added to the API Evangelist network for enrichment. At the time of this enrichment pass the public website and application endpoints were unreachable (HTTP 530 behind Cloudflare, with api.beautydate.com.br redirecting to a down app.beautydate.com.br origin), so no developer portal, API documentation, or machine-readable specification could be captured.",
-     "score": 3.4,
+     "name": "ScentBird",
+     "slug": "scentbird",
+     "description": "Scentbird is a New York City-based monthly fragrance subscription service, founded in 2014 and backed by 500 Global and Y Combinator. Members receive a travel-size (8ml) designer fragrance each month for a flat subscription fee, selecting from a rotating catalog of hundreds of designer and niche perfume and cologne brands, and can also purchase full-size bottles, candles, and beauty products through the direct-to-consumer storefront. Scentbird operates as a consumer e-commerce and subscription brand; its public engineering presence is a GitHub organization of internal tooling and open-source forks (data-integration taps, shipping-API clients, Grails plugins), and it does not currently publish a public developer API, OpenAPI specification, or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scentbird/refs/heads/main/screenshots/scentbird-2026-09-02T154519.png",
+     "score": 3.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6398,9 +6397,10 @@
      "rank": 127
     },
     {
-     "name": "Effa",
-     "slug": "effa",
-     "description": "Effa is a sustainable consumer goods company that makes the world's first 100% recyclable paper toothbrush, a disposable, plastic-free alternative to conventional plastic toothbrushes aimed at hotels, airlines, and retail consumers. Founded in Ukraine by Dasha and Ilya Kichuk and headquartered in San Francisco, California, the company supplies eco-friendly personal care and amenity products to hospitality and travel clients, with reported customers including Netflix and Radisson. Effa is backed by 500 Global and Startup Wise Guys. Effa does not currently publish a public API, developer portal, or machine-readable API specification; this profile tracks the company for the API Evangelist network.",
+     "name": "Avon Products",
+     "slug": "avon-products",
+     "description": "Avon Products is a global manufacturer and marketer of beauty and related products, primarily distributed through a network of independent sales representatives. Founded in 1886 and headquartered in Northampton, UK as Avon International, it was owned by Natura &Co from 2020 until Regent acquired it in January 2026; its corporate site is avonworldwide.com. The North American business (avon.com) was separated in 2016 and has been run as a distinct company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/avon-products/refs/heads/main/screenshots/avon-products-2026-07-25T202009.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6412,7 +6412,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6421,8 +6421,8 @@
       "score": 5.9,
       "matched_via": "fallback"
      },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
+     "agent_score": 5.4,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
@@ -6432,10 +6432,10 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
@@ -6447,10 +6447,9 @@
      "rank": 128
     },
     {
-     "name": "Good Glamm Group",
-     "slug": "good-glamm-group",
-     "description": "Good Glamm Group is an India-based content-to-commerce conglomerate in the personal care and cosmetics sector, founded in September 2021 by Darpan Sanghvi, Priyanka Gill, and Naiyya Saggi and briefly valued as a unicorn after 2021 Series D funding. Its house of brands includes MyGlamm, St.Botanica, The Moms Co, Sirona, Organic Harvest, POPxo, ScoopWhoop, BabyChakra, MissMalini, and Tweak, spanning India, Dubai, Singapore, and the USA. The group was surfaced as a portfolio company of Bessemer Venture Partners and Prosus Ventures. As of this enrichment pass the goodglamm.com domain serves a Corporate Insolvency Resolution Process (CIRP) stakeholder portal, and no public developer API or documentation surface was found.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/good-glamm-group/refs/heads/main/screenshots/good-glamm-group-2026-07-25T220036.png",
+     "name": "BeautyDate",
+     "slug": "beautydate",
+     "description": "BeautyDate (beautydate.com.br) is a Brazilian beauty and wellness marketplace that connects consumers with salons and independent beauty professionals for discovering and booking appointments online. It was surfaced as a 500 Global venture-portfolio company and added to the API Evangelist network for enrichment. At the time of this enrichment pass the public website and application endpoints were unreachable (HTTP 530 behind Cloudflare, with api.beautydate.com.br redirecting to a down app.beautydate.com.br origin), so no developer portal, API documentation, or machine-readable specification could be captured.",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6462,7 +6461,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6497,10 +6496,9 @@
      "rank": 129
     },
     {
-     "name": "Madison-reed",
-     "slug": "madison-reed",
-     "description": "Madison Reed is a female-founded and female-led direct-to-consumer hair color company offering 8-Free permanent, demi-permanent, and root touch-up hair color crafted in Italy, sold as at-home kits and delivered as professional services at 95+ Hair Color Bar locations across the United States. The company blends e-commerce retail, subscription replenishment, and in-person salon booking. It was surfaced as a portfolio company of Norwest Venture Partners and True Ventures. As of this enrichment pass the company publishes no public developer program, API documentation, or machine-readable API surface; this profile captures identity and probed domain-security posture only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/madison-reed/refs/heads/main/screenshots/madison-reed-2026-07-25T225833.png",
+     "name": "Effa",
+     "slug": "effa",
+     "description": "Effa is a sustainable consumer goods company that makes the world's first 100% recyclable paper toothbrush, a disposable, plastic-free alternative to conventional plastic toothbrushes aimed at hotels, airlines, and retail consumers. Founded in Ukraine by Dasha and Ilya Kichuk and headquartered in San Francisco, California, the company supplies eco-friendly personal care and amenity products to hospitality and travel clients, with reported customers including Netflix and Radisson. Effa is backed by 500 Global and Startup Wise Guys. Effa does not currently publish a public API, developer portal, or machine-readable API specification; this profile tracks the company for the API Evangelist network.",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6512,7 +6510,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6547,9 +6545,10 @@
      "rank": 130
     },
     {
-     "name": "Maelyscosmetics",
-     "slug": "maelyscosmetics",
-     "description": "MAELYS Cosmetics is a direct-to-consumer body care brand offering clinically proven body solutions focused on firming, toning, and addressing concerns such as cellulite, stretch marks, and loose skin. Surfaced as a portfolio company of norwest-venture-partners and added to the API Evangelist network. The company operates a consumer e-commerce storefront and publishes no public developer API, documentation, or developer portal at this time.",
+     "name": "Good Glamm Group",
+     "slug": "good-glamm-group",
+     "description": "Good Glamm Group is an India-based content-to-commerce conglomerate in the personal care and cosmetics sector, founded in September 2021 by Darpan Sanghvi, Priyanka Gill, and Naiyya Saggi and briefly valued as a unicorn after 2021 Series D funding. Its house of brands includes MyGlamm, St.Botanica, The Moms Co, Sirona, Organic Harvest, POPxo, ScoopWhoop, BabyChakra, MissMalini, and Tweak, spanning India, Dubai, Singapore, and the USA. The group was surfaced as a portfolio company of Bessemer Venture Partners and Prosus Ventures. As of this enrichment pass the goodglamm.com domain serves a Corporate Insolvency Resolution Process (CIRP) stakeholder portal, and no public developer API or documentation surface was found.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/good-glamm-group/refs/heads/main/screenshots/good-glamm-group-2026-07-25T220036.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6561,7 +6560,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6596,9 +6595,10 @@
      "rank": 131
     },
     {
-     "name": "Manime",
-     "slug": "manime",
-     "description": "ManiMe (Manime) is a direct-to-consumer beauty company offering custom-fit semi-cured gel manicure and pedicure kits. Customers scan their nails with a smartphone and ManiMe manufactures made-to-measure gel nail sets shipped to the home for at-home application. The company was backed by Canaan Partners and Techstars. As of this enrichment pass the manime.co storefront (a Shopify store) returns HTTP 402 \"Store unavailable\", indicating the store is currently closed or inactive. No public developer API, API documentation, developer portal, SDKs, or webhook surface could be found.",
+     "name": "Madison-reed",
+     "slug": "madison-reed",
+     "description": "Madison Reed is a female-founded and female-led direct-to-consumer hair color company offering 8-Free permanent, demi-permanent, and root touch-up hair color crafted in Italy, sold as at-home kits and delivered as professional services at 95+ Hair Color Bar locations across the United States. The company blends e-commerce retail, subscription replenishment, and in-person salon booking. It was surfaced as a portfolio company of Norwest Venture Partners and True Ventures. As of this enrichment pass the company publishes no public developer program, API documentation, or machine-readable API surface; this profile captures identity and probed domain-security posture only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/madison-reed/refs/heads/main/screenshots/madison-reed-2026-07-25T225833.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6610,7 +6610,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6645,10 +6645,9 @@
      "rank": 132
     },
     {
-     "name": "Markato",
-     "slug": "markato",
-     "description": "Markato (legally On Your Marks) is a brand builder and distributor for health, beauty, and wellness brands across Asia, positioning itself as a next-generation distribution disruptor. From bases in Hong Kong, Singapore, Taiwan, Malaysia, Thailand, and Australia, it helps high-potential brands enter, grow, and dominate the region's most competitive markets. Its capabilities span strategic channel development into top-tier offline and online retailers (Sephora, Watsons, Mannings, SaSa), e-commerce and social commerce operations across Shopee, TikTok, and Lazada, 360-degree marketing and brand building, and end-to-end local operations, logistics, product registration, and compliance. Markato is backed by a roughly US$4M seed round led by Lightspeed Venture Partners, with a team drawn from L'Oreal, P&G, McKinsey, and Lane Crawford. Markato is a services and distribution business and does not currently publish a public API, developer portal, or SDKs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/markato/refs/heads/main/screenshots/markato-2026-07-25T230206.png",
+     "name": "Maelyscosmetics",
+     "slug": "maelyscosmetics",
+     "description": "MAELYS Cosmetics is a direct-to-consumer body care brand offering clinically proven body solutions focused on firming, toning, and addressing concerns such as cellulite, stretch marks, and loose skin. Surfaced as a portfolio company of norwest-venture-partners and added to the API Evangelist network. The company operates a consumer e-commerce storefront and publishes no public developer API, documentation, or developer portal at this time.",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6660,7 +6659,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6695,10 +6694,9 @@
      "rank": 133
     },
     {
-     "name": "Mensa Brands",
-     "slug": "mensa-brands",
-     "description": "Mensa Brands (rebranded BRND.ME) is an India-based, technology-led house of brands founded in 2021 by Ananth Narayanan (former Myntra CEO), building and scaling digital-first consumer brands across fashion, beauty, personal care, home and FMCG. Backed by Accel, Tiger Global and Prosus Ventures, it reached unicorn status and operates a portfolio of acquired D2C brands. This profile was surfaced as a portfolio company of prosus-ventures; a public developer API surface was searched for and none was found — the company exposes a corporate/consumer web presence rather than a developer platform.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mensa-brands/refs/heads/main/screenshots/mensa-brands-2026-08-07T172528.png",
+     "name": "Manime",
+     "slug": "manime",
+     "description": "ManiMe (Manime) is a direct-to-consumer beauty company offering custom-fit semi-cured gel manicure and pedicure kits. Customers scan their nails with a smartphone and ManiMe manufactures made-to-measure gel nail sets shipped to the home for at-home application. The company was backed by Canaan Partners and Techstars. As of this enrichment pass the manime.co storefront (a Shopify store) returns HTTP 402 \"Store unavailable\", indicating the store is currently closed or inactive. No public developer API, API documentation, developer portal, SDKs, or webhook surface could be found.",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6710,7 +6708,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6745,10 +6743,10 @@
      "rank": 134
     },
     {
-     "name": "MyGlamm",
-     "slug": "myglamm",
-     "description": "MyGlamm is an Indian direct-to-consumer beauty and cosmetics brand operated by Sanghvi Beauty and Technologies Private Limited (the Good Glamm Group), backed by Accel. It sells makeup, skincare and personal-care products online and through retail. As of mid-2026 the parent company is undergoing corporate insolvency proceedings and its primary domain serves an insolvency stakeholder notice portal. No public developer API, developer portal, or API documentation surface was found during enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/myglamm/refs/heads/main/screenshots/myglamm-2026-08-07T184520.png",
+     "name": "Markato",
+     "slug": "markato",
+     "description": "Markato (legally On Your Marks) is a brand builder and distributor for health, beauty, and wellness brands across Asia, positioning itself as a next-generation distribution disruptor. From bases in Hong Kong, Singapore, Taiwan, Malaysia, Thailand, and Australia, it helps high-potential brands enter, grow, and dominate the region's most competitive markets. Its capabilities span strategic channel development into top-tier offline and online retailers (Sephora, Watsons, Mannings, SaSa), e-commerce and social commerce operations across Shopee, TikTok, and Lazada, 360-degree marketing and brand building, and end-to-end local operations, logistics, product registration, and compliance. Markato is backed by a roughly US$4M seed round led by Lightspeed Venture Partners, with a team drawn from L'Oreal, P&G, McKinsey, and Lane Crawford. Markato is a services and distribution business and does not currently publish a public API, developer portal, or SDKs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/markato/refs/heads/main/screenshots/markato-2026-07-25T230206.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6760,7 +6758,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6795,10 +6793,10 @@
      "rank": 135
     },
     {
-     "name": "Plantner",
-     "slug": "plantner-inc",
-     "description": "Plantner Inc. (PLANTNER) is a South Korean biotechnology company specializing in the extraction and manufacturing of alginic acid, a biodegradable marine-derived biomaterial. Operating as a bio-industry platform provider, Plantner supplies alginic acid-based solutions across medical devices (wound dressings, nutraceuticals), pharmaceuticals (gastroprotective agents, drug-delivery systems), cosmetics (modeling masks, hydrogels), advanced biotech (bio-ink, organoids, delivery carriers), and agriculture (controlled-release fertilizers, mulching films, eco-friendly herbicides). Headquartered in Seoul with an R&D center in Suwon, the company is a 500 Global portfolio company. It is a materials/biotech manufacturer and does not currently publish a developer API, documentation, or developer portal; this profile is maintained in the API Evangelist network as a company record.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/plantner-inc/refs/heads/main/screenshots/plantner-inc-2026-09-02T151441.png",
+     "name": "Mensa Brands",
+     "slug": "mensa-brands",
+     "description": "Mensa Brands (rebranded BRND.ME) is an India-based, technology-led house of brands founded in 2021 by Ananth Narayanan (former Myntra CEO), building and scaling digital-first consumer brands across fashion, beauty, personal care, home and FMCG. Backed by Accel, Tiger Global and Prosus Ventures, it reached unicorn status and operates a portfolio of acquired D2C brands. This profile was surfaced as a portfolio company of prosus-ventures; a public developer API surface was searched for and none was found — the company exposes a corporate/consumer web presence rather than a developer platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mensa-brands/refs/heads/main/screenshots/mensa-brands-2026-08-07T172528.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6810,7 +6808,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6845,10 +6843,10 @@
      "rank": 136
     },
     {
-     "name": "RareLee",
-     "slug": "rarelee",
-     "description": "RareLee (Rarelee) is a Seoul-based premium personal style consulting company founded in 2017, offering data-driven hair, makeup, and fashion analysis. Its consultants classify a client's face shape, features, and skeletal structure across millions of type combinations to recommend personalized hairstyles, makeup designs, and coordinated outfits, both online and in person. Rarelee serves celebrity clientele and has collaborated with brands such as Shinsegae and Marriott. It is a direct-to-consumer service with no public API, developer portal, or technical integration surface; it was added to the API Evangelist network as a 500 Global portfolio lead for enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rarelee/refs/heads/main/screenshots/rarelee-2026-09-02T152911.png",
+     "name": "MyGlamm",
+     "slug": "myglamm",
+     "description": "MyGlamm is an Indian direct-to-consumer beauty and cosmetics brand operated by Sanghvi Beauty and Technologies Private Limited (the Good Glamm Group), backed by Accel. It sells makeup, skincare and personal-care products online and through retail. As of mid-2026 the parent company is undergoing corporate insolvency proceedings and its primary domain serves an insolvency stakeholder notice portal. No public developer API, developer portal, or API documentation surface was found during enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/myglamm/refs/heads/main/screenshots/myglamm-2026-08-07T184520.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6860,7 +6858,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6895,10 +6893,10 @@
      "rank": 137
     },
     {
-     "name": "ShearShare",
-     "slug": "shearshare",
-     "description": "ShearShare is a B2B2C marketplace that lets salon and barbershop owners rent out unused chairs, booths, and suites to licensed beauty and barbering professionals on a flexible, on-demand basis — space-as-a-service for the hair, beauty, and grooming industry. Through its mobile app and web platform, independent stylists, barbers, and cosmetologists discover and book professional space by the day, while shop owners monetize idle capacity. Founded in 2015 by Dr. Tye Caldwell and Courtney Caldwell and headquartered in McKinney, Texas, the company has been featured on ABC's Shark Tank and is backed by 500 Global among other investors.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shearshare/refs/heads/main/screenshots/shearshare-2026-09-02T155121.png",
+     "name": "Plantner",
+     "slug": "plantner-inc",
+     "description": "Plantner Inc. (PLANTNER) is a South Korean biotechnology company specializing in the extraction and manufacturing of alginic acid, a biodegradable marine-derived biomaterial. Operating as a bio-industry platform provider, Plantner supplies alginic acid-based solutions across medical devices (wound dressings, nutraceuticals), pharmaceuticals (gastroprotective agents, drug-delivery systems), cosmetics (modeling masks, hydrogels), advanced biotech (bio-ink, organoids, delivery carriers), and agriculture (controlled-release fertilizers, mulching films, eco-friendly herbicides). Headquartered in Seoul with an R&D center in Suwon, the company is a 500 Global portfolio company. It is a materials/biotech manufacturer and does not currently publish a developer API, documentation, or developer portal; this profile is maintained in the API Evangelist network as a company record.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/plantner-inc/refs/heads/main/screenshots/plantner-inc-2026-09-02T151441.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6910,7 +6908,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6945,10 +6943,10 @@
      "rank": 138
     },
     {
-     "name": "SPES (speschina)",
-     "slug": "speschina",
-     "description": "SPES (诗裴丝) is a China-based consumer personal-care and beauty brand operating a direct-to-consumer business across Chinese e-commerce and social-commerce channels, including its Tmall flagship store, a JD.com storefront, and Douyin, Xiaohongshu (RED), and Weibo social accounts, with a WeChat official account. The brand runs a marketing website (a Vue.js / Element UI single-page app served from Alibaba Cloud) and was surfaced as a portfolio company of Qiming Venture Partners. It does not currently publish any public developer API, OpenAPI specification, SDK, developer portal, or API documentation; the only HTTP API referenced by its site is a private content backend for the marketing pages. This profile records the enrichment pass that confirmed there is no public API surface to catalog.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/speschina/refs/heads/main/screenshots/speschina-2026-09-02T160420.png",
+     "name": "RareLee",
+     "slug": "rarelee",
+     "description": "RareLee (Rarelee) is a Seoul-based premium personal style consulting company founded in 2017, offering data-driven hair, makeup, and fashion analysis. Its consultants classify a client's face shape, features, and skeletal structure across millions of type combinations to recommend personalized hairstyles, makeup designs, and coordinated outfits, both online and in person. Rarelee serves celebrity clientele and has collaborated with brands such as Shinsegae and Marriott. It is a direct-to-consumer service with no public API, developer portal, or technical integration surface; it was added to the API Evangelist network as a 500 Global portfolio lead for enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rarelee/refs/heads/main/screenshots/rarelee-2026-09-02T152911.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6960,7 +6958,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6995,10 +6993,10 @@
      "rank": 139
     },
     {
-     "name": "To Summer",
-     "slug": "to-summer",
-     "description": "To Summer (观夏 / Guanxia) is a Chinese premium home-fragrance and lifestyle brand founded in Beijing, known for its Eastern-inspired scented candles, incense, diffusers, perfumes, and bath and body products. Positioned as a direct-to-consumer scent brand, it sells primarily through its own website, WeChat mini-program, Tmall flagship store, and a growing footprint of physical concept stores across China. To Summer is backed by IDG Capital and was surfaced through the API Evangelist venture-portfolio pipeline. As a consumer retail brand it exposes a customer-facing e-commerce experience rather than a public developer API; this profile captures its identity and the outcome of an enrichment probe that found no public API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/to-summer/refs/heads/main/screenshots/to-summer-2026-09-02T163842.png",
+     "name": "ShearShare",
+     "slug": "shearshare",
+     "description": "ShearShare is a B2B2C marketplace that lets salon and barbershop owners rent out unused chairs, booths, and suites to licensed beauty and barbering professionals on a flexible, on-demand basis — space-as-a-service for the hair, beauty, and grooming industry. Through its mobile app and web platform, independent stylists, barbers, and cosmetologists discover and book professional space by the day, while shop owners monetize idle capacity. Founded in 2015 by Dr. Tye Caldwell and Courtney Caldwell and headquartered in McKinney, Texas, the company has been featured on ABC's Shark Tank and is backed by 500 Global among other investors.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shearshare/refs/heads/main/screenshots/shearshare-2026-09-02T155121.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7010,7 +7008,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7045,22 +7043,22 @@
      "rank": 140
     },
     {
-     "name": "Unilever",
-     "slug": "unilever",
-     "description": "A British-Dutch multinational consumer goods company with a portfolio spanning food, personal care, and household brands. Owns over 400 brands including Dove, Ben & Jerry's, Hellmann's, and Vaseline sold in 190 countries.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/unilever/refs/heads/main/screenshots/unilever-2026-06-20T200030.png",
-     "score": 3.2,
+     "name": "SPES (speschina)",
+     "slug": "speschina",
+     "description": "SPES (诗裴丝) is a China-based consumer personal-care and beauty brand operating a direct-to-consumer business across Chinese e-commerce and social-commerce channels, including its Tmall flagship store, a JD.com storefront, and Douyin, Xiaohongshu (RED), and Weibo social accounts, with a WeChat official account. The brand runs a marketing website (a Vue.js / Element UI single-page app served from Alibaba Cloud) and was surfaced as a portfolio company of Qiming Venture Partners. It does not currently publish any public developer API, OpenAPI specification, SDK, developer portal, or API documentation; the only HTTP API referenced by its site is a private content backend for the marketing pages. This profile records the enrichment pass that confirmed there is no public API surface to catalog.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/speschina/refs/heads/main/screenshots/speschina-2026-09-02T160420.png",
+     "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 42.9,
+      "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7095,21 +7093,22 @@
      "rank": 141
     },
     {
-     "name": "Annieaesthetic",
-     "slug": "annieaesthetic",
-     "description": "Annieaesthetic is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling. Currently, no public website or API documentation has been identified for this entity, and it appears only as a placeholder entry awaiting further discovery and verification of its digital presence and services.",
-     "score": 3.0,
+     "name": "To Summer",
+     "slug": "to-summer",
+     "description": "To Summer (观夏 / Guanxia) is a Chinese premium home-fragrance and lifestyle brand founded in Beijing, known for its Eastern-inspired scented candles, incense, diffusers, perfumes, and bath and body products. Positioned as a direct-to-consumer scent brand, it sells primarily through its own website, WeChat mini-program, Tmall flagship store, and a growing footprint of physical concept stores across China. To Summer is backed by IDG Capital and was surfaced through the API Evangelist venture-portfolio pipeline. As a consumer retail brand it exposes a customer-facing e-commerce experience rather than a public developer API; this profile captures its identity and the outcome of an enrichment probe that found no public API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/to-summer/refs/heads/main/screenshots/to-summer-2026-09-02T163842.png",
+     "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 44.6,
+      "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7144,22 +7143,22 @@
      "rank": 142
     },
     {
-     "name": "Kiute",
-     "slug": "kiute",
-     "description": "Kiute was a French salon management and online booking platform for hair salons, barbershops and beauty institutes, formed from the September 2020 merger of Flexy (FlexyBeauty) and LeCiseau, backed by Serena, Newfund, Matmut Innovation, 123IM, UL Invest and Bourrelier Group. Its Kiute Pro product combined a point-of-sale till, appointment calendar, client records, marketing and an online booking marketplace serving roughly 10,000 beauty and wellness businesses. Booksy acquired Kiute on 2021-11-09 and has since retired the brand: as of 2026-08-17 every Kiute host answers a blanket HTTP 301 to Booksy for every path — kiute.com, www.kiute.com, app.kiute.com and kiute.fr to https://booksy.com/fr-fr/, pro.kiute.com to https://biz.booksy.com/fr-fr — and no api, docs, developers or help subdomain resolves. Kiute publishes no API, no specification and no developer program of its own; the successor surface is the Booksy Public API, profiled separately in this network at all/booksy/ and documented at docs.booksy.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kiute/refs/heads/main/screenshots/kiute-2026-09-02T150056.png",
-     "score": 3.0,
+     "name": "Unilever",
+     "slug": "unilever",
+     "description": "A British-Dutch multinational consumer goods company with a portfolio spanning food, personal care, and household brands. Owns over 400 brands including Dove, Ben & Jerry's, Hellmann's, and Vaseline sold in 190 countries.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/unilever/refs/heads/main/screenshots/unilever-2026-06-20T200030.png",
+     "score": 3.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 44.6,
+      "discoverability": 42.9,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7194,6 +7193,154 @@
      "rank": 143
     },
     {
+     "name": "Annieaesthetic",
+     "slug": "annieaesthetic",
+     "description": "Annieaesthetic is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling. Currently, no public website or API documentation has been identified for this entity, and it appears only as a placeholder entry awaiting further discovery and verification of its digital presence and services.",
+     "score": 3.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 44.6,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 144
+    },
+    {
+     "name": "Bota",
+     "slug": "bota",
+     "description": "Bota provides biotechnology‑derived ingredients for the food, nutrition, and personal‑care markets. It produces bio‑preservatives, nutritional supplements, clean‑label food ingredients, and synthetic biological materials for personal‑care formulations. The company also offers custom protein, enzyme, and peptide services, including rapid iterative enzyme engineering and high‑performance protein solutions, supported by its biofoundry and pilot‑scale manufacturing facilities.",
+     "score": 3.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 44.6,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 145
+    },
+    {
+     "name": "Kiute",
+     "slug": "kiute",
+     "description": "Kiute was a French salon management and online booking platform for hair salons, barbershops and beauty institutes, formed from the September 2020 merger of Flexy (FlexyBeauty) and LeCiseau, backed by Serena, Newfund, Matmut Innovation, 123IM, UL Invest and Bourrelier Group. Its Kiute Pro product combined a point-of-sale till, appointment calendar, client records, marketing and an online booking marketplace serving roughly 10,000 beauty and wellness businesses. Booksy acquired Kiute on 2021-11-09 and has since retired the brand: as of 2026-08-17 every Kiute host answers a blanket HTTP 301 to Booksy for every path — kiute.com, www.kiute.com, app.kiute.com and kiute.fr to https://booksy.com/fr-fr/, pro.kiute.com to https://biz.booksy.com/fr-fr — and no api, docs, developers or help subdomain resolves. Kiute publishes no API, no specification and no developer program of its own; the successor surface is the Booksy Public API, profiled separately in this network at all/booksy/ and documented at docs.booksy.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kiute/refs/heads/main/screenshots/kiute-2026-09-02T150056.png",
+     "score": 3.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 44.6,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 146
+    },
+    {
      "name": "Walker and Company *",
      "slug": "walker-and-company",
      "description": "Walker and Company * is a company surfaced as a portfolio company of gv and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.",
@@ -7209,7 +7356,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7241,7 +7388,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 147
     },
     {
      "name": "ModivCare",
@@ -7259,7 +7406,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7291,7 +7438,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 145
+     "rank": 148
     },
     {
      "name": "afujingyou",
@@ -7308,155 +7455,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 0.0,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 146
-    },
-    {
-     "name": "Glo Pharma",
-     "slug": "glo-pharma",
-     "description": "GLO Pharma is a beauty and aesthetics company developing next-generation products for at-home use, best known for the subtopical skincare brand Ourself. Backed by Lightspeed Venture Partners (Series A, 2020), the company operates as a direct-to-consumer beauty and personal-care business rather than a technology or API provider: it sells physical skincare and aesthetic products to end consumers and does not publish a developer platform, public API, OpenAPI specification, or developer portal. It is tracked in the API Evangelist network as a Lightspeed portfolio company profile; enrichment found no API surface to catalog.",
-     "score": 2.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 0.0,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 147
-    },
-    {
-     "name": "Herbeast",
-     "slug": "herbeast",
-     "description": "Herbeast is a sustainable skin care and lifestyle brand based in China, backed by Lightspeed Venture Partners. The company explores the application of Chinese herbal essence to the skin, grounding its formulations in the concepts and technical principles of biomedicine. Founded and led by CEO Yisa He with Chief Scientist and co-founder Yanjing Bai, Herbeast operates as a consumer skin care and lifestyle products brand rather than an API-first technology provider. As of this enrichment pass it publishes no public developer portal, API documentation, or machine-readable API surface; its only observed web property (herbeast.com) resolves to a deactivated Shopify storefront. It is retained in the API Evangelist network as a Lightspeed portfolio identity record, not as an active API producer.",
-     "score": 2.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 0.0,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 148
-    },
-    {
-     "name": "L Brands",
-     "slug": "l-brands",
-     "description": "L Brands was a Fortune 500 specialty retail holding company best known for Victoria's Secret, PINK, and Bath & Body Works. In 2021 the company split into two independent publicly traded companies, with Bath & Body Works, Inc. retaining the original NYSE listing and Victoria's Secret & Co. spun off as a standalone retailer. The L Brands brand is no longer in active use; this repository preserves the historical corporate record. No public developer API has been documented.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/l-brands/refs/heads/main/screenshots/l-brands-2026-06-20T184233.png",
-     "score": 2.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7491,10 +7490,9 @@
      "rank": 149
     },
     {
-     "name": "Lyracollective",
-     "slug": "lyracollective",
-     "description": "Lyra Collective is a consumer-products holding company that owns and operates a portfolio of everyday care brands across skincare, feminine care, and family and pet products, including LOLA, EVER, QRX Labs, TriLASTIN, Nuvadermis, Natemia, Leash Boss, and Lusso Gear. It positions itself around \"Exceptional Care, For Everyday Moments,\" emphasizing clean, quality essentials sold direct-to-consumer and through retail. Surfaced as a portfolio company of Norwest Venture Partners and added to the API Evangelist network. As a consumer-brands operator it publishes no public developer portal, API, or API documentation; there is no API surface to enrich.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lyracollective/refs/heads/main/screenshots/lyracollective-2026-07-25T225757.png",
+     "name": "Glo Pharma",
+     "slug": "glo-pharma",
+     "description": "GLO Pharma is a beauty and aesthetics company developing next-generation products for at-home use, best known for the subtopical skincare brand Ourself. Backed by Lightspeed Venture Partners (Series A, 2020), the company operates as a direct-to-consumer beauty and personal-care business rather than a technology or API provider: it sells physical skincare and aesthetic products to end consumers and does not publish a developer platform, public API, OpenAPI specification, or developer portal. It is tracked in the API Evangelist network as a Lightspeed portfolio company profile; enrichment found no API surface to catalog.",
      "score": 2.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7506,7 +7504,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7541,9 +7539,9 @@
      "rank": 150
     },
     {
-     "name": "Manicube (Elizabeth Arden Red Door)",
-     "slug": "manicube-elizabeth-arden-red-door",
-     "description": "Manicube (Elizabeth Arden Red Door) is a company surfaced as a portfolio company of bain-capital-ventures and added to the API Evangelist network as a stub for enrichment. Sector: commerce. This profile is a lead awaiting the enrichment pipeline.",
+     "name": "Herbeast",
+     "slug": "herbeast",
+     "description": "Herbeast is a sustainable skin care and lifestyle brand based in China, backed by Lightspeed Venture Partners. The company explores the application of Chinese herbal essence to the skin, grounding its formulations in the concepts and technical principles of biomedicine. Founded and led by CEO Yisa He with Chief Scientist and co-founder Yanjing Bai, Herbeast operates as a consumer skin care and lifestyle products brand rather than an API-first technology provider. As of this enrichment pass it publishes no public developer portal, API documentation, or machine-readable API surface; its only observed web property (herbeast.com) resolves to a deactivated Shopify storefront. It is retained in the API Evangelist network as a Lightspeed portfolio identity record, not as an active API producer.",
      "score": 2.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7555,7 +7553,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7590,10 +7588,10 @@
      "rank": 151
     },
     {
-     "name": "MBX",
-     "slug": "mbx",
-     "description": "MBX (formerly Memebox) is a global, multi-brand beauty and personal care company founded in 2012 and part of Y Combinator's Winter 2014 batch. Headquartered in San Francisco with operations in Seoul, Shanghai, and Taipei, MBX uses data-driven consumer insights and Korean beauty innovation to build and scale a portfolio of cosmetics brands — including Kaja, I Dew Care, Pony Effect, I'm Meme, and Nooni — sold through retail partners such as Sephora and Ulta. The company has raised over $190M from investors including Cowboy Ventures, Y Combinator, Formation 8, Goodwater Capital, Johnson & Johnson, and Pear VC. MBX operates as a direct-to-consumer and wholesale CPG business; it does not publish a public developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mbx/refs/heads/main/screenshots/mbx-2026-08-07T172220.png",
+     "name": "L Brands",
+     "slug": "l-brands",
+     "description": "L Brands was a Fortune 500 specialty retail holding company best known for Victoria's Secret, PINK, and Bath & Body Works. In 2021 the company split into two independent publicly traded companies, with Bath & Body Works, Inc. retaining the original NYSE listing and Victoria's Secret & Co. spun off as a standalone retailer. The L Brands brand is no longer in active use; this repository preserves the historical corporate record. No public developer API has been documented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/l-brands/refs/heads/main/screenshots/l-brands-2026-06-20T184233.png",
      "score": 2.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7605,7 +7603,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7640,28 +7638,28 @@
      "rank": 152
     },
     {
-     "name": "Nu Skin Enterprises",
-     "slug": "nu-skin-enterprises",
-     "description": "Nu Skin Enterprises is a global multilevel marketing company that develops and distributes personal care products and dietary supplements through a network of independent distributors. No public APIs have been documented at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nu-skin-enterprises/refs/heads/main/screenshots/nu-skin-enterprises-2026-06-20T190512.png",
+     "name": "Lyracollective",
+     "slug": "lyracollective",
+     "description": "Lyra Collective is a consumer-products holding company that owns and operates a portfolio of everyday care brands across skincare, feminine care, and family and pet products, including LOLA, EVER, QRX Labs, TriLASTIN, Nuvadermis, Natemia, Leash Boss, and Lusso Gear. It positions itself around \"Exceptional Care, For Everyday Moments,\" emphasizing clean, quality essentials sold direct-to-consumer and through retail. Surfaced as a portfolio company of Norwest Venture Partners and added to the API Evangelist network. As a consumer-brands operator it publishes no public developer portal, API, or API documentation; there is no API surface to enrich.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lyracollective/refs/heads/main/screenshots/lyracollective-2026-07-25T225757.png",
      "score": 2.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 39.3,
+      "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
       "regime_id": "horizontal",
-      "score": 5.9,
+      "score": 0.0,
       "matched_via": "fallback"
      },
      "agent_score": 0.0,
@@ -7690,10 +7688,9 @@
      "rank": 153
     },
     {
-     "name": "Skinseoul Lab",
-     "slug": "skinseoul-lab",
-     "description": "Skinseoul Lab operates skin-seoul.com, a direct-to-consumer Korean beauty (K-beauty) e-commerce brand selling skincare and cosmetics to international customers, backed by 500 Global. Its public presence is a Next.js storefront fronted by Cloudflare with an Express commerce backend; enrichment probing (2026-07-21) found no public developer API, documentation, developer portal, or /.well-known/ discovery surface. The api.skin-seoul.com host returns only a plaintext \"OK\" health response, indicating an internal storefront backend rather than a documented public API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skinseoul-lab/refs/heads/main/screenshots/skinseoul-lab-2026-09-02T155739.png",
+     "name": "Manicube (Elizabeth Arden Red Door)",
+     "slug": "manicube-elizabeth-arden-red-door",
+     "description": "Manicube (Elizabeth Arden Red Door) is a company surfaced as a portfolio company of bain-capital-ventures and added to the API Evangelist network as a stub for enrichment. Sector: commerce. This profile is a lead awaiting the enrichment pipeline.",
      "score": 2.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7705,7 +7702,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7740,10 +7737,10 @@
      "rank": 154
     },
     {
-     "name": "Socialee",
-     "slug": "socialee",
-     "description": "Socialee is a beauty shopping platform that blends social media with e-commerce, letting shoppers discover and buy products through shoppable videos, write reviews, and earn rewards as creators. Its catalog spans makeup, skincare, fragrance, haircare, and bath & body, with next-day delivery and 7-day returns. Surfaced as a 500 Global portfolio company and added to the API Evangelist network; an enrichment pass on 2026-07-21 found no public API, developer portal, or .well-known discovery surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/socialee/refs/heads/main/screenshots/socialee-2026-09-02T160050.png",
+     "name": "MBX",
+     "slug": "mbx",
+     "description": "MBX (formerly Memebox) is a global, multi-brand beauty and personal care company founded in 2012 and part of Y Combinator's Winter 2014 batch. Headquartered in San Francisco with operations in Seoul, Shanghai, and Taipei, MBX uses data-driven consumer insights and Korean beauty innovation to build and scale a portfolio of cosmetics brands — including Kaja, I Dew Care, Pony Effect, I'm Meme, and Nooni — sold through retail partners such as Sephora and Ulta. The company has raised over $190M from investors including Cowboy Ventures, Y Combinator, Formation 8, Goodwater Capital, Johnson & Johnson, and Pear VC. MBX operates as a direct-to-consumer and wholesale CPG business; it does not publish a public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mbx/refs/heads/main/screenshots/mbx-2026-08-07T172220.png",
      "score": 2.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7755,7 +7752,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7790,21 +7787,72 @@
      "rank": 155
     },
     {
-     "name": "Brandless",
-     "slug": "brandless",
-     "description": "Brandless is an American direct-to-consumer e-commerce retailer of own-label food, beauty, personal care and household goods, founded in 2016 by Tina Sharkey and Ido Leffler and launched in July 2017. SoftBank-backed, it ceased operations on 10 February 2020; its assets were bought in June 2020 by Clarke Capital Partners and Ikonifi and the brand relaunched that summer under Utah-based ownership, later led by Cydni Tetro and then Tiffany Vail. The storefront ran on Shopify and sold physical consumer packaged goods only — Brandless never operated a developer program, public API, SDK or webhook surface of its own. As of this profile the brandless.com domain no longer resolves and the site is parked, so there is no live company surface to profile.",
-     "score": 2.1,
+     "name": "Nu Skin Enterprises",
+     "slug": "nu-skin-enterprises",
+     "description": "Nu Skin Enterprises is a global multilevel marketing company that develops and distributes personal care products and dietary supplements through a network of independent distributors. No public APIs have been documented at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nu-skin-enterprises/refs/heads/main/screenshots/nu-skin-enterprises-2026-06-20T190512.png",
+     "score": 2.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 44.6,
+      "discoverability": 39.3,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 156
+    },
+    {
+     "name": "Skinseoul Lab",
+     "slug": "skinseoul-lab",
+     "description": "Skinseoul Lab operates skin-seoul.com, a direct-to-consumer Korean beauty (K-beauty) e-commerce brand selling skincare and cosmetics to international customers, backed by 500 Global. Its public presence is a Next.js storefront fronted by Cloudflare with an Express commerce backend; enrichment probing (2026-07-21) found no public developer API, documentation, developer portal, or /.well-known/ discovery surface. The api.skin-seoul.com host returns only a plaintext \"OK\" health response, indicating an internal storefront backend rather than a documented public API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skinseoul-lab/refs/heads/main/screenshots/skinseoul-lab-2026-09-02T155739.png",
+     "score": 2.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7836,75 +7884,25 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 156
-    },
-    {
-     "name": "ARIVE",
-     "slug": "getarive",
-     "description": "ARIVE (getarive.com) was an urban quick-commerce platform founded in Paris during the COVID-19 pandemic that delivered fashion, beauty, and lifestyle products to customers within hours. Operating across Berlin, Munich, Hamburg, Düsseldorf, Frankfurt, and Paris, it connected more than 500 brands and 200 local stores directly to young, convenience-focused urban shoppers. Backed by Balderton Capital, LaFamiglia, and Triple Point Capital with roughly €31.7M raised, the company ceased operations in mid-2023 following a sale of the business. No public API, developer portal, SDK, or other technical surface was ever published; this profile is retained for network and portfolio-graph completeness.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/getarive/refs/heads/main/screenshots/getarive-2026-07-25T215716.png",
-     "score": 0.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 0.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 7.8,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 157
     },
     {
-     "name": "Bolt Threads",
-     "slug": "bolt-threads",
-     "description": "Bolt Threads, Inc. was a San Francisco Bay Area biomaterials company founded in 2009 to engineer protein- and mycelium-based materials. It is best known for Microsilk, a bioengineered spider-silk fiber; Mylo, a mycelium-derived leather alternative developed with partners including adidas, Kering, Lululemon, Patagonia and Stella McCartney; and b-silk protein, a silk-protein ingredient for beauty and personal care. The company went public on Nasdaq in August 2024 via a SPAC business combination under the ticker BSLK, halted Mylo production, was suspended from Nasdaq in January 2026, and now trades OTC Pink while deregistering with the SEC. Its website serves only a notice that the company is no longer operating. Bolt Threads was a materials manufacturer, not a software vendor, and never operated a developer program, public API, SDK, or machine-readable specification.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bolt-threads/refs/heads/main/screenshots/bolt-threads-2026-09-02T144929.png",
-     "score": 0.0,
+     "name": "Socialee",
+     "slug": "socialee",
+     "description": "Socialee is a beauty shopping platform that blends social media with e-commerce, letting shoppers discover and buy products through shoppable videos, write reviews, and earn rewards as creators. Its catalog spans makeup, skincare, fragrance, haircare, and bath & body, with next-day delivery and 7-day returns. Surfaced as a 500 Global portfolio company and added to the API Evangelist network; an enrichment pass on 2026-07-21 found no public API, developer portal, or .well-known discovery surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/socialee/refs/heads/main/screenshots/socialee-2026-09-02T160050.png",
+     "score": 2.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 0.0,
+      "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7939,21 +7937,21 @@
      "rank": 158
     },
     {
-     "name": "Eve Com",
-     "slug": "eve-com",
-     "description": "Eve.com was a dot-com era e-commerce retailer of prestige beauty and personal care products, founded in 1998 by Mariam Naficy and Varsha Rao. It raised venture funding from Lightspeed Venture Partners (1999) and reached a Series B before being acquired by Idealab in 2000, after which the business ceased independent operations. It is retained in the API Evangelist network only as a historical Lightspeed portfolio lead; it published no developer program, API, SDKs, or documentation. The eve.com domain is today operated by an unrelated entity (CCP Games / the EVE Online game universe) and is not a surface for this company, so no live API or developer artifacts can be harvested for it.",
-     "score": 0.0,
+     "name": "Brandless",
+     "slug": "brandless",
+     "description": "Brandless is an American direct-to-consumer e-commerce retailer of own-label food, beauty, personal care and household goods, founded in 2016 by Tina Sharkey and Ido Leffler and launched in July 2017. SoftBank-backed, it ceased operations on 10 February 2020; its assets were bought in June 2020 by Clarke Capital Partners and Ikonifi and the brand relaunched that summer under Utah-based ownership, later led by Cydni Tetro and then Tiffany Vail. The storefront ran on Shopify and sold physical consumer packaged goods only — Brandless never operated a developer program, public API, SDK or webhook surface of its own. As of this profile the brandless.com domain no longer resolves and the site is parked, so there is no live company surface to profile.",
+     "score": 2.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 0.0,
+      "discoverability": 44.6,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7988,6 +7986,155 @@
      "rank": 159
     },
     {
+     "name": "ARIVE",
+     "slug": "getarive",
+     "description": "ARIVE (getarive.com) was an urban quick-commerce platform founded in Paris during the COVID-19 pandemic that delivered fashion, beauty, and lifestyle products to customers within hours. Operating across Berlin, Munich, Hamburg, Düsseldorf, Frankfurt, and Paris, it connected more than 500 brands and 200 local stores directly to young, convenience-focused urban shoppers. Backed by Balderton Capital, LaFamiglia, and Triple Point Capital with roughly €31.7M raised, the company ceased operations in mid-2023 following a sale of the business. No public API, developer portal, SDK, or other technical surface was ever published; this profile is retained for network and portfolio-graph completeness.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/getarive/refs/heads/main/screenshots/getarive-2026-07-25T215716.png",
+     "score": 0.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 0.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 7.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 160
+    },
+    {
+     "name": "Bolt Threads",
+     "slug": "bolt-threads",
+     "description": "Bolt Threads, Inc. was a San Francisco Bay Area biomaterials company founded in 2009 to engineer protein- and mycelium-based materials. It is best known for Microsilk, a bioengineered spider-silk fiber; Mylo, a mycelium-derived leather alternative developed with partners including adidas, Kering, Lululemon, Patagonia and Stella McCartney; and b-silk protein, a silk-protein ingredient for beauty and personal care. The company went public on Nasdaq in August 2024 via a SPAC business combination under the ticker BSLK, halted Mylo production, was suspended from Nasdaq in January 2026, and now trades OTC Pink while deregistering with the SEC. Its website serves only a notice that the company is no longer operating. Bolt Threads was a materials manufacturer, not a software vendor, and never operated a developer program, public API, SDK, or machine-readable specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bolt-threads/refs/heads/main/screenshots/bolt-threads-2026-09-02T144929.png",
+     "score": 0.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 0.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 0.0,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 161
+    },
+    {
+     "name": "Eve Com",
+     "slug": "eve-com",
+     "description": "Eve.com was a dot-com era e-commerce retailer of prestige beauty and personal care products, founded in 1998 by Mariam Naficy and Varsha Rao. It raised venture funding from Lightspeed Venture Partners (1999) and reached a Series B before being acquired by Idealab in 2000, after which the business ceased independent operations. It is retained in the API Evangelist network only as a historical Lightspeed portfolio lead; it published no developer program, API, SDKs, or documentation. The eve.com domain is today operated by an unrelated entity (CCP Games / the EVE Online game universe) and is not a surface for this company, so no live API or developer artifacts can be harvested for it.",
+     "score": 0.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 0.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 0.0,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 162
+    },
+    {
      "name": "Yoderm",
      "slug": "yoderm",
      "description": "YoDerm was a consumer telehealth company operating an online dermatology platform that let patients upload photos and a medical questionnaire, receive a personalized treatment plan from a U.S. board-certified dermatologist within 48 hours, and have prescriptions filled by mail-order pharmacy. Founded in Oakland, California around 2012, it rebranded to Apostrophe in 2019, was acquired by Hims & Hers Health (reported ~$190M), and ceased standalone operations in March 2025 when the parent folded dermatology into its main platform. It was surfaced as a portfolio company of 500 Global. YoDerm is a direct-to-consumer telehealth product with no public developer program, no documented API, and no OpenAPI, MCP, webhook, or SDK surface; the yoderm.com domain now returns HTTP 503.",
@@ -8002,7 +8149,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -8034,7 +8181,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 160
+     "rank": 163
     }
    ]
   }

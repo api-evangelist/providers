@@ -16,18 +16,18 @@
      "slug": "avalara",
      "description": "Avalara helps businesses of all sizes get tax compliance right. We deliver cloud-based solutions that work with existing business applications to calculate tax accurately and file returns automatically.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/screenshots/avalara-2026-06-20T172715.png",
-     "score": 71.4,
+     "score": 70.9,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 61.7,
+      "discoverability": 56.7,
       "contract_quality": 66.2,
       "contract_governance": 45.5,
       "operational_transparency": 42.1,
       "developer_ergonomics": 69.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -89,7 +89,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -140,7 +140,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -191,7 +191,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -242,7 +242,7 @@
       "developer_ergonomics": 56.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -293,18 +293,18 @@
      "slug": "dsv",
      "description": "DSV A/S is a Danish transport and logistics group headquartered in Hedehusene, Denmark, and one of the world's largest freight forwarders — roughly 150,000 employees across more than 90 countries after its 2025 acquisition of Schenker from Deutsche Bahn. It sells air, sea, road, rail and parcel forwarding plus contract logistics and customs brokerage, sitting in the intermediation layer between shippers and the carriers, terminals and customs authorities it books capacity with. Its API posture is a real, publicly browsable Azure API Management developer portal at developer.dsv.com carrying 29 downloadable OpenAPI 3.0.1 contracts for booking, tracking, quoting, labels, documents, invoicing, customs, warehousing and webhooks — but every published product is a DEMO/test environment, production access is gated behind myDSV customer credentials and an 'apply to go live' step, and for a large part of DSV's customer base the real integration path is still EDIFACT D10B, ANSI X12 and DSV XML message packages moved over AS2, SFTP or HTTPS. The REST surface is entirely DSV-proprietary: no DCSA, IATA ONE Record, Cargo-XML or GS1 EPCIS conformance is claimed anywhere.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dsv/refs/heads/main/screenshots/dsv-2026-08-07T164531.png",
-     "score": 38.9,
+     "score": 38.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.9,
+      "discoverability": 62.5,
       "contract_quality": 47.3,
       "contract_governance": 0.0,
       "operational_transparency": 34.2,
       "developer_ergonomics": 47.6,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -355,7 +355,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -364,7 +364,7 @@
       "score": 16.7,
       "matched_via": "fallback"
      },
-     "agent_score": 40.6,
+     "agent_score": 37.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -383,7 +383,7 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": "verified",
+      "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -406,7 +406,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -457,7 +457,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 40.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -508,7 +508,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -559,7 +559,7 @@
       "developer_ergonomics": 13.1,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -599,18 +599,18 @@
      "slug": "aeb",
      "description": "AEB SE is a German supply chain and global trade software company, headquartered in Stuttgart and 100% employee-owned, whose platform is used by 7,300+ companies for customs filing, trade compliance, multi-carrier shipping, transport and freight cost management, and warehouse management. In the logistics chain AEB sits at the intermediation layer of customs and trade tech: it is the certified filer between the shipper or forwarder and the customs authority (German ATLAS, EU AES/NCTS/ICS, EMCS, Intrastat, UK CHIEF), and the multi-carrier abstraction between the shipper and 300+ carriers, generating the carrier EDI so the customer never has to. Its API posture is unusually open for this tier: four public ReadMe developer hubs (Customs, Trade Compliance, Transport & Freight Management, SAP add-ons) publish machine-readable OpenAPI 3.0.1 for every product, served live and unauthenticated from AEB's own test and demo instances, with shared try-it credentials in the docs. But the contract is entirely proprietary — a REST-over-RPC business-facade shape unique to AEB, with a legacy SOAP business facade still exposed beside it — and production access requires registering with AEB and licensing the products, so it is a documented, quotable, contract-gated API rather than a self-serve one.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aeb/refs/heads/main/screenshots/aeb-2026-08-07T160936.png",
-     "score": 31.2,
+     "score": 30.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 71.4,
+      "discoverability": 66.1,
       "contract_quality": 46.9,
       "contract_governance": 0.0,
       "operational_transparency": 10.5,
       "developer_ergonomics": 21.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -661,7 +661,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -670,8 +670,8 @@
       "score": 11.8,
       "matched_via": "fallback"
      },
-     "agent_score": 30.2,
-     "agent_band": "agent-ready",
+     "agent_score": 26.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
@@ -689,7 +689,7 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": "verified",
+      "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -722,7 +722,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 45.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -773,7 +773,7 @@
       "developer_ergonomics": 46.4,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -824,7 +824,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -875,7 +875,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -911,57 +911,6 @@
      "rank": 17
     },
     {
-     "name": "Kuehne+Nagel",
-     "slug": "kuehne-nagel",
-     "description": "Kuehne+Nagel International AG is a Swiss freight forwarder and contract logistics provider headquartered in Schindellegi, Switzerland, and one of the largest forwarders in the world across sea logistics, air logistics, road logistics and contract logistics. As a forwarder it sits in the intermediation layer of the supply chain — between shippers on one side and ocean carriers, airlines, hauliers, terminals and customs authorities on the other — and most of the data it exposes is carrier and terminal data it aggregates rather than originates. Its API posture is honest but conditional: a real WSO2-based developer portal at portal.api.kuehne-nagel.com lists 17 published APIs and serves every OpenAPI definition anonymously, but every subscription is customer-contract gated — a myKN account, a Kuehne+Nagel customer ID (CID) and an account manager who completes the \"customer setup\" are stated pre-requisites, so nobody outside a commercial relationship can call the gateway. Underneath the REST veneer the company's own connectivity page still advertises EDIFACT, ANSI X.12, Tradacoms, RosettaNet, iDOC, GS1 and CargoImp over AS2, OFTP-2, (S)FTP and VAN as the primary integration path, and its one customs \"EDI\" API is an unschematized pass-through. One surface — OceanEventInbox v1 — is explicitly built to the DCSA equipment-event standard, which makes Kuehne+Nagel a non-member implementer of a carrier standards body; the other sixteen APIs are proprietary Kuehne+Nagel contracts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kuehne-nagel/refs/heads/main/screenshots/kuehne-nagel-2026-08-07T171345.png",
-     "score": 20.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 71.4,
-      "contract_quality": 47.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 0.0,
-      "matched_via": "fallback"
-     },
-     "agent_score": 28.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "verified",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Freight Forwarders",
-     "rank": 18
-    },
-    {
      "name": "GS1",
      "slug": "gs1",
      "description": "GS1 (GS1 AISBL) is the not-for-profit, neutral standards body headquartered at Avenue Louise 523, 1050 Brussels, Belgium, that maintains the identification keys and data standards the rest of the supply chain hangs its transactions on — GTIN, GLN, SSCC, GINC and GSIN, the barcode and EPC/RFID capture standards, EPCIS and the Core Business Vocabulary for supply chain visibility events, GS1 Digital Link, and EANCOM, GS1's own subset of UN/EDIFACT. GS1 does not run a commercial logistics service; it sits underneath every party in the chain, defining the identifiers a shipper, forwarder, carrier, terminal, customs authority and last-mile network all quote at each other. Its API posture is unusually open for a standards body: the full standards library is downloadable free as PDF from ref.gs1.org with no login, EPCIS 2.0.1 ships a normative OpenAPI 3.0.3 REST binding plus JSON Schema, XSD, WSDL, SHACL and JSON-LD ontologies, and GS1 AISBL itself operates a live, unauthenticated GS1-Conformant Resolver at id.gs1.org. What is gated is the other half — issuing GS1 identifiers and querying the Verified by GS1 registry are federated to national GS1 Member Organisations and sold under paid membership or a commercial API subscription, not offered self-serve by the Global Office.",
@@ -977,7 +926,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1010,6 +959,57 @@
       "agentic_commerce": false
      },
      "tier": "Industry Bodies & Standards",
+     "rank": 18
+    },
+    {
+     "name": "Kuehne+Nagel",
+     "slug": "kuehne-nagel",
+     "description": "Kuehne+Nagel International AG is a Swiss freight forwarder and contract logistics provider headquartered in Schindellegi, Switzerland, and one of the largest forwarders in the world across sea logistics, air logistics, road logistics and contract logistics. As a forwarder it sits in the intermediation layer of the supply chain — between shippers on one side and ocean carriers, airlines, hauliers, terminals and customs authorities on the other — and most of the data it exposes is carrier and terminal data it aggregates rather than originates. Its API posture is honest but conditional: a real WSO2-based developer portal at portal.api.kuehne-nagel.com lists 17 published APIs and serves every OpenAPI definition anonymously, but every subscription is customer-contract gated — a myKN account, a Kuehne+Nagel customer ID (CID) and an account manager who completes the \"customer setup\" are stated pre-requisites, so nobody outside a commercial relationship can call the gateway. Underneath the REST veneer the company's own connectivity page still advertises EDIFACT, ANSI X.12, Tradacoms, RosettaNet, iDOC, GS1 and CargoImp over AS2, OFTP-2, (S)FTP and VAN as the primary integration path, and its one customs \"EDI\" API is an unschematized pass-through. One surface — OceanEventInbox v1 — is explicitly built to the DCSA equipment-event standard, which makes Kuehne+Nagel a non-member implementer of a carrier standards body; the other sixteen APIs are proprietary Kuehne+Nagel contracts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kuehne-nagel/refs/heads/main/screenshots/kuehne-nagel-2026-08-07T171345.png",
+     "score": 20.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 47.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 0.0,
+      "matched_via": "fallback"
+     },
+     "agent_score": 28.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "verified",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Freight Forwarders",
      "rank": 19
     },
     {
@@ -1028,7 +1028,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1079,7 +1079,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1140,7 +1140,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1191,7 +1191,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1241,7 +1241,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,

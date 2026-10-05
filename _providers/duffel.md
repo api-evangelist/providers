@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 19
+- acting_count: 21
   human_in_the_loop: 0
   name: Duffel Agentic Access
   operation_count: 39
   slug: duffel-agentic-access
-  summary_line: 39 operations · 19 acting
+  summary_line: 39 operations · 21 acting
 api_count: 1
 apis:
 - baseURL: https://api.duffel.com
@@ -134,6 +134,11 @@ collections:
   name: Duffel API
   slug: open-duffel
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/capabilities/duffel-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/duffel-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/agentic-access/duffel-agentic-access.yml
   title: ''
@@ -204,7 +209,7 @@ network: true
 overview: 'Duffel publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Ancillaries API, Offer Requests API, Offers API, and 7 more. Tagged areas include Travel, Flights, Hotels, Booking, and Payments.
 
 
-  Duffel''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  Duffel''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Duffel Plans Pricing
   plan_count: 3
@@ -218,13 +223,13 @@ score:
   band: thin
   composite: 33.1
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 58.0
     catalog_earned_first_party: 0.0
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.2
   facets:
     access_clarity: 36.3
     contract_governance: 0.0
@@ -232,7 +237,7 @@ score:
     developer_ergonomics: 31.0
     discoverability: 66.1
     operational_transparency: 21.6
-  previous_composite: 33.1
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -247,7 +252,7 @@ score:
     regime_id: payments
     score: 16.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

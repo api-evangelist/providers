@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 27
-  human_in_the_loop: 3
+- acting_count: 65
+  human_in_the_loop: 4
   name: Reolink Agentic Access
-  operation_count: 69
+  operation_count: 65
   slug: reolink-agentic-access
-  summary_line: 69 operations · 27 acting · 3 human-in-the-loop
+  summary_line: 65 operations · 65 acting · 4 human-in-the-loop
 api_count: 1
 apis:
 - baseURL_template: https://{camera_ip}
@@ -276,13 +276,13 @@ score:
   band: thin
   composite: 33.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 16
     catalog_earned: 67.0
     catalog_earned_first_party: 0.0
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.7
   facets:
     access_clarity: 15.8
     contract_governance: 27.3
@@ -290,7 +290,7 @@ score:
     developer_ergonomics: 28.6
     discoverability: 57.1
     operational_transparency: 13.2
-  previous_composite: 33.5
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     contracts:
@@ -305,7 +305,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Bulk contact matching and enrichment. A customer creates a dataset, uploads a UTF-8 CSV of contacts as a dataset-file via a multipart upload, and Aidentified matches and enriches every record once. Th
@@ -164,9 +164,9 @@ description: Aidentified is a Wealth Network Intelligence platform for financial
 image: https://cdn.prod.website-files.com/684cc996f51fd9e61fd926ba/684f6ebd6781811cd93569ed_logo-aidentified-cube-grad-webclip.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.aidentified.com over HTTP requiring OAuth.
   name: Aidentified MCP Server
-  slug: aidentified-mcp-server
+  slug: aidentified
 modified: '2026-09-14'
 name: Aidentified
 nav: Providers
@@ -186,9 +186,9 @@ rate_limits:
   slug: aidentified-rate-limits
 scopes:
 - name: Aidentified Scopes
-  scope_count: 0
+  scope_count: 6
   slug: aidentified-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 6 scopes
 score:
   band: developing
   composite: 40.0
@@ -199,7 +199,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.5
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
@@ -214,7 +214,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 40.0
+  previous_composite: 36.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -225,7 +225,7 @@ score:
     regime_id: horizontal
     score: 39.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

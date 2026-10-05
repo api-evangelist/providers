@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/auxos/refs/heads/main/security/auxos-domain-security.yml
@@ -57,6 +57,10 @@ created: '2026-07-17'
 description: Auxos is an AI-powered customer research platform that builds 1:1 AI clones of a company's real customers to simulate how they respond to business decisions before those decisions ship. The company recruits and interviews real people matching a client's ideal customer profile, then models each participant as an always-on AI avatar grounded in that interview data. Teams use the resulting synthetic audience to test surveys, messaging, ad creative, pricing, and product flows and retrieve population-scale quantitative results plus qualitative commentary in minutes rather than the weeks traditional market research takes. Auxos is a Y Combinator (Spring 2026) company founded by Ashton Daniel, Jerry Wu, and Kerry Lu, targeting marketing, product, and research teams. This profile is maintained by API Evangelist; as of enrichment Auxos publishes no public developer or API surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/auxos.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.useauxos.com over HTTP.
+  name: Auxos MCP Server
+  slug: auxos
 modified: '2026-07-18'
 name: Auxos
 nav: Providers
@@ -73,7 +77,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 6.6
     contract_governance: 0.0
@@ -81,7 +85,7 @@ score:
     developer_ergonomics: 0.0
     discoverability: 51.7
     operational_transparency: 0.0
-  previous_composite: 5.0
+  previous_composite: 6.3
   provenance:
     mcp: first-party
   regulatory:
@@ -91,7 +95,7 @@ score:
     regime_id: horizontal
     score: 5.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

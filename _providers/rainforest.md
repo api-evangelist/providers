@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 1
@@ -315,6 +315,11 @@ collections:
   name: Authentication ACH Returns Sessions API
   slug: open-rainforest-sessions-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/capabilities/rainforest-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/rainforest-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -508,19 +513,19 @@ overview: 'Rainforest publishes 23 APIs on the [APIs.io](https://apis.io/) netwo
   The Rainforest catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Rainforest''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 32 more developer resources.'
+  Rainforest''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 33 more developer resources.'
 random_paper: 7
 score:
   band: strong
   composite: 54.3
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.6
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
@@ -528,7 +533,7 @@ score:
     developer_ergonomics: 50.6
     discoverability: 78.6
     operational_transparency: 46.1
-  previous_composite: 54.3
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -546,7 +551,7 @@ score:
     regime_id: payments
     score: 33.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

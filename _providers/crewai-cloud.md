@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -87,7 +87,7 @@ arazzos:
 - description: Inspect an existing execution, deliver human feedback, then poll until it settles.
   name: CrewAI AMP Resume a Paused Execution
   slug: crewai-cloud-resume-paused-execution-workflow
-artifact_total: 62
+artifact_total: 63
 asyncapis:
 - description: 'Outbound webhook events published by CrewAI AMP during crew execution. Three callback URLs can be supplied per kickoff — `taskWebhookUrl`, `stepWebhookUrl`, and `crewWebhookUrl`. AMP POSTs JSON event '
   name: CrewAI AMP Webhook Streaming
@@ -446,6 +446,10 @@ jsonld:
   property_count: 10
   slug: crewai-cloud-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at crewai.com over HTTP; 5 tools listed.
+  name: CrewAI Cloud MCP Server
+  slug: crewai-cloud
 modified: '2026-05-24'
 name: CrewAI Cloud
 nav: Providers
@@ -509,7 +513,7 @@ score:
     catalog_gap: 45.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 50.5
     contract_governance: 49.1
@@ -517,7 +521,7 @@ score:
     developer_ergonomics: 39.3
     discoverability: 66.7
     operational_transparency: 18.4
-  previous_composite: 49.7
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     contracts:
@@ -533,7 +537,7 @@ score:
     regime_id: horizontal
     score: 22.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

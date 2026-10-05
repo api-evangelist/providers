@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 56.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -86,6 +86,11 @@ collections:
   name: Sendspark DVM Bundles Workspace API
   slug: open-sendspark-workspace-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/capabilities/sendspark-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sendspark-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/overlays/sendspark-openapi-overlay.yaml
   title: ''
@@ -263,9 +268,9 @@ description: Sendspark is a video messaging and AI-personalized video platform f
 image: https://www.sendspark.com/hubfs/favicon-96x96.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at apiv2.sendspark.com over HTTP; 6 tools listed.
   name: Sendspark MCP Server
-  slug: sendspark-mcp-server
+  slug: sendspark
 modified: '2026-08-13'
 name: Sendspark
 nav: Providers
@@ -276,7 +281,7 @@ overview: 'Sendspark publishes 4 APIs on the [APIs.io](https://apis.io/) network
   The Sendspark catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Sendspark''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 30 more developer resources.'
+  Sendspark''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 31 more developer resources.'
 plans:
 - name: Sendspark Plans Pricing
   plan_count: 5
@@ -295,13 +300,13 @@ score:
   band: strong
   composite: 60.0
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.7
   facets:
     access_clarity: 84.2
     contract_governance: 4.5
@@ -309,7 +314,7 @@ score:
     developer_ergonomics: 64.3
     discoverability: 75.0
     operational_transparency: 50.0
-  previous_composite: 60.0
+  previous_composite: 58.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -327,7 +332,7 @@ score:
     regime_id: horizontal
     score: 36.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

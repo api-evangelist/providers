@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: 'The Ximilar REST API at https://api.ximilar.com. One account token in an ''Authorization: Token'' header unlocks every service the active plan includes: fashion, home-decor and photo tagging, collectibl'
   name: Ximilar API
   slug: ximilar
-artifact_total: 9
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Ximilar Webhooks
@@ -212,9 +212,6 @@ mcp_servers:
 - description: 'Ximilar publishes a first-party MCP server for its Computer Vision Platform. It is a Python FastMCP server distributed inside the official ximilar-client repository (ximilar/server/server.py) and run '
   name: Ximilar MCP Server
   slug: ximilar-mcp-server
-- description: ''
-  name: Ximilar MCP Server
-  slug: ximilar-mcp-server-2
 modified: '2026-08-28'
 name: Ximilar
 nav: Providers
@@ -245,7 +242,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
@@ -253,7 +250,7 @@ score:
     developer_ergonomics: 61.9
     discoverability: 71.7
     operational_transparency: 57.9
-  previous_composite: 59.4
+  previous_composite: 58.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -264,7 +261,7 @@ score:
     regime_id: horizontal
     score: 27.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

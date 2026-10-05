@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -126,6 +126,11 @@ apis:
   slug: avoma-webhooks-api
 artifact_total: 25
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avoma/refs/heads/main/capabilities/avoma-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/avoma-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/avoma/refs/heads/main/agentic-access/avoma-agentic-access.yml
   title: ''
@@ -269,7 +274,7 @@ overview: 'Avoma publishes 18 APIs on the [APIs.io](https://apis.io/) network, i
   The Avoma catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Avoma''s developer surface includes support, changelog, authentication, documentation, API reference, engineering blog, pricing, and 20 more developer resources.'
+  Avoma''s developer surface includes support, changelog, authentication, documentation, API reference, engineering blog, pricing, and 21 more developer resources.'
 plans:
 - name: Avoma Plans Pricing
   plan_count: 5
@@ -291,7 +296,7 @@ score:
   band: strong
   composite: 55.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 54.8
     catalog_earned_first_party: 12.0
     catalog_gap: 60.3
@@ -320,7 +325,7 @@ score:
     regime_id: horizontal
     score: 32.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 27.8

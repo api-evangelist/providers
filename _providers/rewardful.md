@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: REST API for programmatically managing campaigns, affiliates, referrals, commissions, payouts, and webhooks within a Rewardful account.
@@ -241,7 +241,7 @@ layout: provider
 mcp_servers:
 - description: Rewardful serves a live, anonymous, remote MCP server from its own developer docs host. It is the GitBook documentation MCP (GitBook is Rewardful's docs platform), so its four tools operate over the D
   name: Rewardful Developer Center MCP Server
-  slug: rewardful-developer-center-mcp-server
+  slug: rewardful-developer-center
 modified: '2026-08-14'
 name: Rewardful
 nav: Providers
@@ -272,7 +272,7 @@ score:
     catalog_gap: 39.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 100.0
     contract_governance: 31.8
@@ -280,7 +280,7 @@ score:
     developer_ergonomics: 64.3
     discoverability: 75.0
     operational_transparency: 65.8
-  previous_composite: 68.1
+  previous_composite: 66.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -298,7 +298,7 @@ score:
     regime_id: horizontal
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

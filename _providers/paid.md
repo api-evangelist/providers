@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 37.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - baseURL: https://api.agentpaid.io/api/v2
@@ -225,6 +225,11 @@ collections:
   slug: open-paid-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/capabilities/paid-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/paid-capability-edges.yml
+- group: other
   href: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/overlays/paid-v1-overlay.yaml
   title: ''
   type: Overlay
@@ -363,9 +368,9 @@ description: Paid (paid.ai) is the monetization platform for AI agents. It gives
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/paid.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Paid publishes a hosted, remote MCP server over its documentation surface for AI clients (Claude Code, Cursor, etc.); it also drives conversational custom-view generation over the Paid platform.
   name: Paid MCP Server
-  slug: paid-mcp-server
+  slug: paid-mcp-yml
 modified: '2026-07-20'
 name: Paid
 nav: Providers
@@ -376,19 +381,19 @@ overview: 'Paid publishes 22 APIs on the [APIs.io](https://apis.io/) network, in
   The Paid catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Paid''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, authentication, and 22 more developer resources.'
+  Paid''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, authentication, and 23 more developer resources.'
 random_paper: 18
 score:
   band: strong
   composite: 56.8
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.5
   facets:
     access_clarity: 38.2
     contract_governance: 4.5
@@ -396,7 +401,7 @@ score:
     developer_ergonomics: 81.0
     discoverability: 71.7
     operational_transparency: 10.5
-  previous_composite: 56.8
+  previous_composite: 59.3
   provenance:
     conformance: derived
     contracts:
@@ -413,7 +418,7 @@ score:
     regime_id: payments
     score: 20.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

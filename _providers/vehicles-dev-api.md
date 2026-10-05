@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://api.vehicles.dev
@@ -215,9 +215,9 @@ created: '2026-08-15'
 description: Automotive vehicle data platform offering a live REST API for VIN decoding, specifications, recalls, market valuation, depreciation, ownership costs, listings, price history, and photos, backed by federal sources (NHTSA vPIC, NHTSA recalls, EPA) and a continuously crawled US dealer-listings store. Ships an OpenAPI 3.1 contract and a local MCP server exposing all ten endpoints as read-only tools.
 layout: provider
 mcp_servers:
-- description: ''
+- description: Local (stdio) MCP server requiring an API key; 10 tools listed.
   name: Vehicles.dev MCP Server
-  slug: vehiclesdev-mcp-server
+  slug: vehicles-dev
 modified: '2026-08-16'
 name: Vehicles.dev
 nav: Providers
@@ -245,7 +245,7 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
@@ -253,7 +253,7 @@ score:
     developer_ergonomics: 56.5
     discoverability: 61.7
     operational_transparency: 31.6
-  previous_composite: 42.7
+  previous_composite: 44.2
   provenance:
     conformance: derived
     contracts:
@@ -270,7 +270,7 @@ score:
     regime_id: horizontal
     score: 15.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

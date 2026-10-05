@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the Althea storefront on Shopify: a live Storefront MCP server (search_catalog, get_cart, update_cart, get_product_details, search_shop_policies_and_faqs), a Universa'
@@ -116,7 +116,7 @@ layout: provider
 mcp_servers:
 - description: 'Althea Global runs on Shopify and exposes native agent-commerce endpoints. Two MCP servers are live at the store domain: the Shopify Storefront MCP (/api/mcp) which returns a working tools/list, and t'
   name: Althea MCP Server
-  slug: althea-mcp-server
+  slug: althea-mcp-yml
 modified: '2026-07-17'
 name: Althea
 nav: Providers
@@ -141,7 +141,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.7
   facets:
     access_clarity: 27.6
     contract_governance: 18.2
@@ -149,7 +149,7 @@ score:
     developer_ergonomics: 26.2
     discoverability: 75.0
     operational_transparency: 0.0
-  previous_composite: 23.2
+  previous_composite: 20.5
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -160,7 +160,7 @@ score:
     regime_id: horizontal
     score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

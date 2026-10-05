@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -339,7 +339,7 @@ arazzos:
 - description: Find a CSM contact by email and update it if it exists, otherwise create it.
   name: ServiceNow Upsert Contact
   slug: servicenow-upsert-contact-workflow
-artifact_total: 303
+artifact_total: 328
 asyncapis:
 - description: ServiceNow supports outbound event-driven integrations through business rules, event management, and outbound REST messages. When records are created, updated, or deleted in ServiceNow tables, busines
   name: ServiceNow Events and Notifications
@@ -442,6 +442,65 @@ collections:
   name: ServiceNow Trouble Ticket API
   slug: open-servicenow-trouble-ticket-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/finops/servicenow-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/servicenow-finops.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/rate-limits/servicenow-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/servicenow-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/plans/servicenow-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/servicenow-plans-pricing.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/rules/servicenow-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/servicenow-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/rules/servicenow-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/servicenow-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/rules/servicenow-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/servicenow-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/rules/servicenow-asyncapi-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/servicenow-asyncapi-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/vocabulary/servicenow-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/servicenow-vocabulary.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.servicenow.com/company/trust.html
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/lifecycle/servicenow-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/servicenow-lifecycle.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/hosts/servicenow-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/servicenow-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/vendors/servicenow-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/servicenow-vendors.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/capabilities/servicenow-capability-edges.yml
   title: ''
@@ -1136,15 +1195,42 @@ json_schemas:
 - name: Error
   property_count: 1
   slug: servicenow-aggregate-error
+- name: AggregateResult
+  property_count: 2
+  slug: servicenow-aggregate-result
 - name: Attachment
   property_count: 16
   slug: servicenow-attachment-attachment
 - name: Error
   property_count: 1
   slug: servicenow-attachment-error
+- name: Attachment
+  property_count: 16
+  slug: servicenow-attachment
+- name: CartItemInput
+  property_count: 2
+  slug: servicenow-cart-item-input
+- name: CartItem
+  property_count: 4
+  slug: servicenow-cart-item
+- name: Cart
+  property_count: 2
+  slug: servicenow-cart
+- name: CatalogItemDetail
+  property_count: 10
+  slug: servicenow-catalog-item-detail
+- name: CatalogItem
+  property_count: 6
+  slug: servicenow-catalog-item
 - name: ServiceNow Catalog Request
   property_count: 17
   slug: servicenow-catalog-request
+- name: Catalog
+  property_count: 5
+  slug: servicenow-catalog
+- name: Category
+  property_count: 5
+  slug: servicenow-category
 - name: ChangeRequestInput
   property_count: 16
   slug: servicenow-change-management-change-request-input
@@ -1160,9 +1246,18 @@ json_schemas:
 - name: Error
   property_count: 1
   slug: servicenow-change-management-error
+- name: ChangeRequestInput
+  property_count: 16
+  slug: servicenow-change-request-input
 - name: ServiceNow Change Request
   property_count: 39
   slug: servicenow-change-request
+- name: ChangeTaskInput
+  property_count: 6
+  slug: servicenow-change-task-input
+- name: ChangeTask
+  property_count: 8
+  slug: servicenow-change-task
 - name: CmdbInstance
   property_count: 26
   slug: servicenow-cmdb-instance-cmdb-instance
@@ -1172,9 +1267,21 @@ json_schemas:
 - name: Error
   property_count: 1
   slug: servicenow-cmdb-instance-error
+- name: CmdbInstance
+  property_count: 26
+  slug: servicenow-cmdb-instance
+- name: CmdbInstanceSummary
+  property_count: 2
+  slug: servicenow-cmdb-instance-summary
 - name: ServiceNow Configuration Item
   property_count: 44
   slug: servicenow-configuration-item
+- name: ContactCreate
+  property_count: 56
+  slug: servicenow-contact-create
+- name: Contact
+  property_count: 65
+  slug: servicenow-contact
 - name: Error
   property_count: 1
   slug: servicenow-import-set-error
@@ -1184,9 +1291,24 @@ json_schemas:
 - name: ImportSetResult
   property_count: 10
   slug: servicenow-import-set-import-set-result
+- name: ImportSetInput
+  property_count: 0
+  slug: servicenow-import-set-input
+- name: ImportSetResult
+  property_count: 10
+  slug: servicenow-import-set-result
 - name: ServiceNow Incident
   property_count: 45
   slug: servicenow-incident
+- name: OrderResult
+  property_count: 3
+  slug: servicenow-order-result
+- name: RecordInput
+  property_count: 0
+  slug: servicenow-record-input
+- name: Record
+  property_count: 8
+  slug: servicenow-record
 - name: CartItemInput
   property_count: 2
   slug: servicenow-service-catalog-cart-item-input
@@ -1226,6 +1348,15 @@ json_schemas:
 - name: Record
   property_count: 8
   slug: servicenow-table-record
+- name: TroubleTicketCreate
+  property_count: 9
+  slug: servicenow-trouble-ticket-create
+- name: TroubleTicket
+  property_count: 14
+  slug: servicenow-trouble-ticket
+- name: TroubleTicketUpdate
+  property_count: 8
+  slug: servicenow-trouble-ticket-update
 - name: ServiceNow User
   property_count: 30
   slug: servicenow-user
@@ -1438,9 +1569,9 @@ jsonld:
   slug: trouble-ticket-context
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at www.servicenow.com over HTTP; 12 tools listed.
   name: ServiceNow MCP Server
-  slug: servicenow-mcp-server
+  slug: servicenow
 modified: '2026-06-20'
 name: ServiceNow
 nav: Providers
@@ -1448,10 +1579,10 @@ network: true
 overview: 'ServiceNow publishes 63 APIs on the [APIs.io](https://apis.io/) network, including Event Management Topic Open API, Aggregate Statistics API, Attachments API, and 60 more. Tagged areas include ServiceNow, Automation, Cloud Services, Digital Workflows, and Enterprise Platform.
 
 
-  The ServiceNow catalog on APIs.io includes 1 event-driven AsyncAPI specification, 10 JSON-LD contexts, and 3 Spectral governance rulesets.
+  The ServiceNow catalog on APIs.io includes 1 event-driven AsyncAPI specification, 10 JSON-LD contexts, and 4 Spectral governance rulesets.
 
 
-  ServiceNow''s developer surface includes authentication, CLI, changelog, sandbox, developer portal, engineering blog, documentation, and 101 more developer resources.'
+  ServiceNow''s developer surface includes authentication, CLI, changelog, sandbox, developer portal, engineering blog, documentation, and 113 more developer resources.'
 plans:
 - name: Servicenow Plans Pricing
   plan_count: 1
@@ -1483,6 +1614,17 @@ rules:
     info: 1
     warn: 5
   slug: servicenow-jsonschema-spectral-rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: ServiceNow API Rules
+  rule_count: 16
+  severity_counts:
+    error: 13
+    hint: 0
+    info: 1
+    warn: 2
+  slug: servicenow-rules
 - effective_rule_count: 68
   extends:
   - spectral:oas
@@ -1500,24 +1642,24 @@ scopes:
   slug: servicenow-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 64.9
+  band: exemplar
+  composite: 67.5
   coverage:
-    artifact_dirs: 37
+    artifact_dirs: 39
     catalog_earned: 62.0
     catalog_earned_first_party: 0.0
     catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 5.0
   facets:
-    access_clarity: 65.8
+    access_clarity: 73.7
     contract_governance: 31.8
     contract_quality: 61.5
     developer_ergonomics: 86.2
     discoverability: 69.6
-    operational_transparency: 42.1
-  previous_composite: 64.3
+    operational_transparency: 50.0
+  previous_composite: 62.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1534,8 +1676,8 @@ score:
     regime_id: horizontal
     score: 39.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

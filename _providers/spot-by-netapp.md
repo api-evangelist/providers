@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -165,6 +165,11 @@ collections:
   name: Spot by NetApp API
   slug: open-spot-by-netapp
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/capabilities/spot-by-netapp-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/spot-by-netapp-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -289,7 +294,7 @@ overview: 'Spot by NetApp publishes 10 APIs on the [APIs.io](https://apis.io/) n
   The Spot by NetApp catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spot by NetApp''s developer surface includes authentication, developer portal, documentation, GitHub presence, CLI, developer console, engineering blog, and 13 more developer resources.'
+  Spot by NetApp''s developer surface includes authentication, developer portal, documentation, GitHub presence, CLI, developer console, engineering blog, and 14 more developer resources.'
 plans:
 - name: Spot By Netapp Plans Pricing
   plan_count: 3
@@ -325,13 +330,13 @@ score:
   band: developing
   composite: 42.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 58.5
     catalog_earned_first_party: 0.0
     catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 15.8
     contract_governance: 13.6
@@ -339,7 +344,7 @@ score:
     developer_ergonomics: 77.4
     discoverability: 66.1
     operational_transparency: 13.2
-  previous_composite: 42.2
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     contracts:
@@ -354,7 +359,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

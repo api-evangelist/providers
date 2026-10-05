@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 58.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ apis:
   description: The Markets API from Trading Economics — 9 operation(s) for markets.
   name: Trading Economics Markets API
   slug: tradingeconomics-markets-api
-artifact_total: 24
+artifact_total: 25
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the Trading Economics **WebSocket streaming surface** at `wss://stream.tradingeconomics.com/`. Unlike many data providers whose "streaming" is HTTP polling or SSE, Trading '
   name: Trading Economics Streaming API (WebSocket)
@@ -175,6 +175,10 @@ finops:
   slug: tradingeconomics-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tradingeconomics.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.tradingeconomics.com over HTTP.
+  name: Trading Economics MCP Server
+  slug: tradingeconomics
 modified: '2026-07-11'
 name: Trading Economics
 nav: Providers
@@ -217,7 +221,7 @@ score:
     catalog_gap: 49.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.8
   facets:
     access_clarity: 46.8
     contract_governance: 11.4
@@ -225,7 +229,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 68.3
     operational_transparency: 31.1
-  previous_composite: 39.3
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     contracts:
@@ -241,7 +245,7 @@ score:
     regime_id: horizontal
     score: 17.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

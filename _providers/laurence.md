@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: 'Laurence MCP is a hosted, remote Model Context Protocol server that exposes a read-only set of nine tools over a customer''s Amazon Advertising and Amazon Marketing Stream data — allowed ads profiles, '
@@ -170,7 +170,7 @@ layout: provider
 mcp_servers:
 - description: 'Laurence operates an official hosted, remote MCP server that brings a customer''s Amazon Advertising and Amazon Marketing Stream (AMS) data into Claude Code, Cursor, and Codex. The server is available '
   name: Laurence MCP Server
-  slug: laurence-mcp-server
+  slug: laurence
 modified: '2026-08-13'
 name: Laurence
 nav: Providers
@@ -190,9 +190,9 @@ rate_limits:
   slug: laurence-rate-limits
 scopes:
 - name: Laurence Scopes
-  scope_count: 0
+  scope_count: 4
   slug: laurence-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 4 scopes
 score:
   band: emerging
   composite: 25.4
@@ -203,7 +203,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.4
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
@@ -211,7 +211,7 @@ score:
     developer_ergonomics: 30.4
     discoverability: 75.0
     operational_transparency: 2.6
-  previous_composite: 25.4
+  previous_composite: 23.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -223,7 +223,7 @@ score:
     regime_id: horizontal
     score: 31.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

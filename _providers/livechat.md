@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 29
+- acting_count: 35
   human_in_the_loop: 0
   name: Livechat Agentic Access
   operation_count: 35
   slug: livechat-agentic-access
-  summary_line: 35 operations · 29 acting
+  summary_line: 35 operations · 35 acting
 api_count: 1
 apis:
 - description: REST and RTM APIs for agents to manage chats, send messages, transfer conversations, and update statuses. Authenticated with OAuth 2.1 bearer tokens or Personal Access Tokens.
@@ -95,7 +95,7 @@ apis:
   description: The Threads API from LiveChat — 4 operation(s) for threads.
   name: LiveChat Threads API
   slug: livechat-threads-api
-artifact_total: 25
+artifact_total: 26
 collections:
 - collection_type: open
   name: API Collection
@@ -184,6 +184,10 @@ created: '2026-05-11'
 description: LiveChat is a customer service and live chat platform used by businesses to engage website visitors, run sales conversations, and route support tickets across agent teams. The Text Platform (which powers LiveChat) exposes a suite of REST APIs for chats, agents, customers, configuration, and reporting, with both Web API and RTM (real-time messaging) interfaces. Authentication uses OAuth 2.1 with Personal Access Tokens or full OAuth authorization code flow.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/livechat.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.text.com over HTTP.
+  name: LiveChat MCP Server
+  slug: livechat
 modified: '2026-05-30'
 name: LiveChat
 nav: Providers
@@ -203,7 +207,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.7
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
@@ -211,7 +215,7 @@ score:
     developer_ergonomics: 31.0
     discoverability: 68.3
     operational_transparency: 2.6
-  previous_composite: 30.5
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     contracts:
@@ -227,7 +231,7 @@ score:
     regime_id: horizontal
     score: 11.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

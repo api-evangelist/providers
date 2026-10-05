@@ -27,20 +27,20 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.7
-  scored_at: '2026-10-03'
+  score: 11.2
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Token-authenticated HTTP API behind the Charles conversational commerce platform. Clients authenticate against a per-tenant "universe" host and the central api.hello-charles.com service, then work wit
   name: Charles API
   slug: charles-api
-artifact_total: 3
+artifact_total: 4
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/charles-co/refs/heads/main/security/charles-co-domain-security.yml
@@ -137,6 +137,10 @@ created: '2026-07-17'
 description: Charles (charlesAI, hello-charles.com) is a Berlin-based conversational commerce and CRM platform that lets brands sell, market, and support customers over WhatsApp, Instagram, Facebook Messenger, and Webchat. Founded in 2019, the platform connects chat-app APIs (WhatsApp Business, Messenger) with e-commerce and CRM systems such as Shopify, Salesforce, SAP, and HubSpot, and layers AI agents over them to automate the full funnel from acquisition and conversion to retention while staying GDPR compliant. Charles exposes a token-authenticated HTTP API organized around per-tenant "universe" hosts, a public Postman workspace, and a (now deprecated) JavaScript/TypeScript browser SDK published to npm. It was surfaced as a portfolio lead of Speedinvest and enriched into the API Evangelist network from its public developer surface.
 image: https://www.hello-charles.com/hubfs/feature_charles.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.hello-charles.com over HTTP.
+  name: Charles Co MCP Server
+  slug: charles-co
 modified: '2026-07-18'
 name: Charles Co
 nav: Providers
@@ -182,7 +186,7 @@ score:
     regime_id: horizontal
     score: 15.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

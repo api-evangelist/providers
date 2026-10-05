@@ -38,14 +38,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 59.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 3
+- acting_count: 8
   human_in_the_loop: 1
   name: Zillapi Agentic Access
   operation_count: 29
   slug: zillapi-agentic-access
-  summary_line: 29 operations · 3 acting · 1 human-in-the-loop
+  summary_line: 29 operations · 8 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.zillapi.com
@@ -279,12 +279,12 @@ description: Independent third-party provider of Zillow-sourced U.S. residential
 image: https://zillapi.com/og.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at api.zillapi.com over HTTP requiring OAuth; 4 tools listed.
   name: Zillapi MCP Server
-  slug: zillapi-mcp-server
+  slug: zillapi
 - description: 'Zillow MCP for AI agents: property data, Zestimates & listings — 300+ fields per home. Free tier.'
   name: MCP registry server.json (com.zillapi/zillow-mcp)
-  slug: mcp-registry-serverjson-comzillapizillow-mcp
+  slug: mcp-registry-server-json-com-zillapi-zillow-mcp
 modified: '2026-09-11'
 name: Zillapi
 nav: Providers
@@ -320,7 +320,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
@@ -328,7 +328,7 @@ score:
     developer_ergonomics: 64.3
     discoverability: 85.0
     operational_transparency: 52.6
-  previous_composite: 63.8
+  previous_composite: 61.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -346,7 +346,7 @@ score:
     regime_id: horizontal
     score: 40.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

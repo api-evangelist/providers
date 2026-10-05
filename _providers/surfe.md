@@ -35,73 +35,35 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 3
+- acting_count: 7
   human_in_the_loop: 0
   name: Surfe Agentic Access
   operation_count: 10
   slug: surfe-agentic-access
-  summary_line: 10 operations · 3 acting
+  summary_line: 10 operations · 7 acting
 api_count: 1
 apis:
 - baseURL: https://api.surfe.com/v2
   baseurl_source: declared
   description: Credit balance and account utilities.
   name: Surfe Account API
-  phrasing_intents:
-  - id: getCredits
-    intent: Check remaining credit balance
-    question: How many Surfe credits do I have left?
-  phrasing_ops: 1
   slug: surfe-account-api
 - baseURL: https://api.surfe.com/v2
   baseurl_source: declared
   description: Search and enrich organizations.
   name: Surfe Companies API
-  phrasing_intents:
-  - id: searchCompanies
-    intent: Search companies matching ICP filters
-    question: How do I find companies in a given industry with a certain employee count?
-  - id: startCompanyEnrichment
-    intent: Start a bulk company enrichment job
-    question: Can I enrich a list of company domains with firmographic data in bulk?
-  - id: getCompanyEnrichment
-    intent: Get a company enrichment job's results
-    question: Has my company enrichment job finished yet?
-  phrasing_ops: 3
   slug: surfe-companies-api
 - baseURL: https://api.surfe.com/v2
   baseurl_source: declared
   description: Search and enrich individual contacts.
   name: Surfe People API
-  phrasing_intents:
-  - id: searchPeople
-    intent: Search people by persona and company filters
-    question: How do I find prospects by job title and seniority at companies in a certain industry?
-  - id: startPeopleEnrichment
-    intent: Start a bulk people enrichment job
-    question: How do I get verified emails and mobile numbers for a list of LinkedIn profiles?
-  - id: getPeopleEnrichment
-    intent: Get a people enrichment job's results
-    question: Is my contact enrichment job completed yet?
-  - id: findPeopleByEmail
-    intent: Look up people from email addresses
-    question: Can I look up who owns an email address and what company they work for?
-  phrasing_ops: 4
   slug: surfe-people-api
 - baseURL: https://api.surfe.com/v2
   baseurl_source: declared
   description: ICP definition and lookalike account recommendations.
   name: Surfe Recommendations API
-  phrasing_intents:
-  - id: upsertICP
-    intent: Create or update the ideal customer profile
-    question: How do I define my ideal customer profile for lookalike recommendations?
-  - id: fetchRecommendations
-    intent: Get lookalike account recommendations
-    question: Which new accounts look like my best-fit customers?
-  phrasing_ops: 2
   slug: surfe-recommendations-api
 artifact_total: 21
 asyncapis:
@@ -326,7 +288,7 @@ layout: provider
 mcp_servers:
 - description: Surfe publishes a hosted, remote MCP server (labelled Beta in its own docs) at https://mcp.eu.surfe.com/mcp. It is a URL an MCP client POSTs to — there is no npx/stdio package to install — and it expo
   name: Surfe MCP Server
-  slug: surfe-mcp-server
+  slug: surfe
 modified: '2026-08-13'
 name: Surfe
 nav: Providers
@@ -362,7 +324,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.0
   facets:
     access_clarity: 100.0
     contract_governance: 18.2
@@ -370,7 +332,7 @@ score:
     developer_ergonomics: 66.1
     discoverability: 68.3
     operational_transparency: 76.3
-  previous_composite: 75.6
+  previous_composite: 72.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -388,7 +350,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 12
@@ -91,7 +91,7 @@ apis:
   description: The tokens API from Smithery — 1 operation(s) for tokens.
   name: Smithery Tokens API
   slug: smithery-tokens-api
-artifact_total: 42
+artifact_total: 43
 collections:
 - collection_type: open
   name: API Collection
@@ -307,10 +307,13 @@ layout: provider
 mcp_servers:
 - description: Hosted MCP gateway endpoint that bundles all connections in a namespace behind a single URL
   name: Smithery MCP Server (mcp.smithery.run)
-  slug: smithery-mcp-server-mcpsmitheryrun
+  slug: smithery-mcp-server-mcp-smithery-run
 - description: 'Smithery-built tool: Rust MCP server for macOS desktop control'
   name: mouseless
   slug: mouseless
+- description: Remote MCP server at mcp.smithery.ai over HTTP.
+  name: Smithery MCP Server
+  slug: smithery
 modified: '2026-05-22'
 name: Smithery
 nav: Providers
@@ -357,13 +360,13 @@ score:
   band: developing
   composite: 44.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 20
     catalog_earned: 72.0
     catalog_earned_first_party: 0.0
     catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
     access_clarity: 15.8
     contract_governance: 27.3
@@ -371,7 +374,7 @@ score:
     developer_ergonomics: 53.6
     discoverability: 75.0
     operational_transparency: 13.2
-  previous_composite: 44.0
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     contracts:
@@ -387,7 +390,7 @@ score:
     regime_id: horizontal
     score: 15.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

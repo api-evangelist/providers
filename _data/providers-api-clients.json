@@ -16,27 +16,38 @@
      "slug": "postman",
      "description": "Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows, AI Agent Builder, the Postman MCP Server and MCP Generator, API Governance, the Private API Network, Live Collections, Insights, and a public Postman API Network with millions of public workspaces.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/screenshots/postman-2026-06-20T192015.png",
-     "score": 73.7,
+     "score": 79.6,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 83.3,
-      "contract_quality": 66.8,
-      "contract_governance": 27.3,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 73.1,
+      "contract_quality": 73.3,
+      "contract_governance": 45.5,
+      "operational_transparency": 63.2,
+      "developer_ergonomics": 78.0,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
       "regime_id": "horizontal",
       "score": 35.3,
-      "matched_via": "fallback"
+      "matched_via": "fallback",
+      "jurisdictions_satisfied": 2,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       },
+       {
+        "standard": "ccpa",
+        "jurisdiction": "US"
+       }
+      ]
      },
-     "agent_score": 57.2,
+     "agent_score": 54.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -49,7 +60,7 @@
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
       "event_surface_described": "derived",
-      "agent_skills": "unknown",
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -70,9 +81,60 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 2,
-   "shown": 2,
+   "count": 3,
+   "shown": 3,
    "providers": [
+    {
+     "name": "Insomnia",
+     "slug": "insomnia",
+     "description": "Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools, and collaborative features with cloud sync, local vault, and Git storage options.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/insomnia/refs/heads/main/screenshots/insomnia-2026-06-20T183403.png",
+     "score": 53.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 57.1,
+      "contract_quality": 62.5,
+      "contract_governance": 35.6,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 58.9,
+      "access_clarity": 60.5
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 24.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 19.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": false,
+      "rate_limit_signal": "derived",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Client Platforms",
+     "rank": 2
+    },
     {
      "name": "Fiddler",
      "slug": "fiddler",
@@ -89,7 +151,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -122,7 +184,7 @@
       "agentic_commerce": false
      },
      "tier": "Local-First & Offline-First Clients",
-     "rank": 2
+     "rank": 3
     },
     {
      "name": "API Dash",
@@ -140,7 +202,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -173,7 +235,7 @@
       "agentic_commerce": false
      },
      "tier": "Local-First & Offline-First Clients",
-     "rank": 3
+     "rank": 4
     }
    ],
    "open": true
@@ -183,60 +245,9 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 6,
-   "shown": 6,
+   "count": 5,
+   "shown": 5,
    "providers": [
-    {
-     "name": "Insomnia",
-     "slug": "insomnia",
-     "description": "Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools, and collaborative features with cloud sync, local vault, and Git storage options.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/insomnia/refs/heads/main/screenshots/insomnia-2026-06-20T183403.png",
-     "score": 37.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 57.1,
-      "contract_quality": 62.5,
-      "contract_governance": 9.8,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 31.0,
-      "access_clarity": 26.3
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 16.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Client Platforms",
-     "rank": 4
-    },
     {
      "name": "HTTPie",
      "slug": "httpie",
@@ -253,7 +264,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -304,7 +315,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -355,7 +366,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -395,18 +406,18 @@
      "slug": "hoppscotch",
      "description": "Hoppscotch is a lightweight open-source browser-based API client supporting REST, GraphQL, WebSockets, SSE, and MQTT.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hoppscotch/refs/heads/main/screenshots/hoppscotch-2026-06-20T182832.png",
-     "score": 30.9,
+     "score": 30.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 58.3,
+      "discoverability": 55.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 47.4,
       "developer_ergonomics": 35.7,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -415,13 +426,13 @@
       "score": 13.7,
       "matched_via": "fallback"
      },
-     "agent_score": 11.2,
-     "agent_band": "agent-aware",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": false,
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -457,7 +468,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -518,7 +529,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -569,7 +580,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -620,7 +631,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -671,7 +682,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -722,7 +733,7 @@
       "developer_ergonomics": 15.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -773,7 +784,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -824,7 +835,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -875,7 +886,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -926,7 +937,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -977,7 +988,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1028,7 +1039,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1079,7 +1090,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1130,7 +1141,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1181,7 +1192,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1232,7 +1243,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1283,7 +1294,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1334,7 +1345,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1385,7 +1396,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1436,7 +1447,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1487,7 +1498,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1548,7 +1559,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1599,7 +1610,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1650,7 +1661,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1701,7 +1712,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1752,7 +1763,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,

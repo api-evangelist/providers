@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 76
+- acting_count: 89
   human_in_the_loop: 6
   name: Opkey Agentic Access
   operation_count: 90
   slug: opkey-agentic-access
-  summary_line: 90 operations · 76 acting · 6 human-in-the-loop
+  summary_line: 90 operations · 89 acting · 6 human-in-the-loop
 api_count: 1
 apis:
 - description: The official pCloudy MCP server, published by pCloudy as the Python package pcloudy-mcp and run over stdio with uvx. It exposes 36 tools across four groups — device booking, browser booking, app manag
@@ -175,6 +175,11 @@ collections:
   slug: open-opkey-xctest-automation-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/capabilities/opkey-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/opkey-capability-edges.yml
+- group: other
   href: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/overlays/opkey-pcloudy-overlay.yaml
   title: ''
   type: Overlay
@@ -298,7 +303,7 @@ description: 'Opkey (Smart Software Testing Solutions, Inc.) is a US-headquarter
 image: https://content.pcloudy.com/apidocs/pcloudy-logo.svg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Local (stdio) MCP server; 36 tools listed.
   name: pCloudy-mcp-tool
   slug: pcloudy-mcp-tool
 modified: '2026-09-16'
@@ -308,13 +313,13 @@ network: true
 overview: 'Opkey publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Apk Instrumentation API, Apk Instrumentation Apis API, App Center Api, and 13 more. Tagged areas include Company, Testing, Test Automation, Quality Assurance, and DevOps.
 
 
-  Opkey''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 19 more developer resources.'
+  Opkey''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 20 more developer resources.'
 random_paper: 2
 score:
   band: developing
   composite: 48.9
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -346,7 +351,7 @@ score:
     regime_id: horizontal
     score: 27.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

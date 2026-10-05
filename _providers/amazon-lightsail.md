@@ -35,511 +35,125 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 97
+- acting_count: 151
   human_in_the_loop: 13
   name: Amazon Lightsail Agentic Access
   operation_count: 162
   slug: amazon-lightsail-agentic-access
-  summary_line: 162 operations · 97 acting · 13 human-in-the-loop
+  summary_line: 162 operations · 151 acting · 13 human-in-the-loop
 api_count: 3
 apis:
 - baseURL: https://lightsail.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Account API from Amazon Lightsail — 14 operation(s) for account.
   name: Amazon Lightsail Account API
-  phrasing_intents:
-  - id: CreateCloudFormationStack
-    intent: Create an EC2 instance from an exported snapshot
-    question: How do I turn an exported Lightsail snapshot into a full EC2 instance?
-  - id: DeleteKnownHostKeys
-    intent: Reset browser SSH/RDP known host keys
-    question: The browser SSH client says the host key changed — how can I clear the saved key?
-  - id: DisableAddOn
-    intent: Turn off an add-on such as automatic snapshots
-    question: How do I switch off automatic snapshots on an instance or disk?
-  - id: EnableAddOn
-    intent: Enable or change an add-on on a resource
-    question: How can I turn on automatic daily snapshots for my Lightsail instance?
-  - id: GetActiveNames
-    intent: List names of all active resources
-    question: What resource names are currently in use in my Lightsail account?
-  - id: GetCloudFormationStackRecords
-    intent: List CloudFormation stack records from exports
-    question: Where can I see the CloudFormation stacks created when I moved snapshots to EC2?
-  - id: GetProfile
-    intent: Get my Lightsail account profile
-    question: What does my Lightsail account profile look like?
-  - id: IsVpcPeered
-    intent: Check whether the Lightsail VPC is peered
-    question: Is my Lightsail VPC peered with my default VPC?
-  phrasing_ops: 14
   slug: amazon-lightsail-account-api
 - baseURL: https://lightsail.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Alarms API from Amazon Lightsail — 4 operation(s) for alarms.
   name: Amazon Lightsail Alarms API
-  phrasing_intents:
-  - id: DeleteAlarm
-    intent: Delete a metric alarm
-    question: How do I get rid of an alarm I no longer need?
-  - id: GetAlarms
-    intent: List configured metric alarms
-    question: Which alarms are set up on my Lightsail resources?
-  - id: PutAlarm
-    intent: Create or update a metric alarm
-    question: How do I get alerted when my instance CPU goes over 80%?
-  - id: TestAlarm
-    intent: Test an alarm's notifications
-    question: How can I check that an alarm actually sends me a notification?
-  phrasing_ops: 4
   slug: amazon-lightsail-alarms-api
 - baseURL: https://lightsail.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Blueprints API from Amazon Lightsail — 1 operation(s) for blueprints.
   name: Amazon Lightsail Blueprints API
-  phrasing_intents:
-  - id: GetBlueprints
-    intent: List available instance images (blueprints)
-    question: Which operating systems and apps can I launch a Lightsail instance with?
-  phrasing_ops: 1
   slug: amazon-lightsail-blueprints-api
 - baseURL: https://lightsail.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Buckets API from Amazon Lightsail — 11 operation(s) for buckets.
   name: Amazon Lightsail Buckets API
-  phrasing_intents:
-  - id: CreateBucket
-    intent: Create an object storage bucket
-    question: How do I create a Lightsail bucket to store files and images?
-  - id: CreateBucketAccessKey
-    intent: Create an access key for a bucket
-    question: How do I get programmatic credentials for a single bucket?
-  - id: DeleteBucket
-    intent: Delete a storage bucket
-    question: How do I delete a bucket that still has objects in it?
-  - id: DeleteBucketAccessKey
-    intent: Revoke a bucket access key
-    question: My bucket secret key leaked — how do I revoke that access key?
-  - id: GetBucketAccessKeys
-    intent: List a bucket's access key IDs
-    question: Which access keys exist for my bucket?
-  - id: GetBucketBundles
-    intent: List bucket storage plans
-    question: What storage plans and prices are available for buckets?
-  - id: GetBucketMetricData
-    intent: Get storage metrics for a bucket
-    question: How much space is my bucket using over time?
-  - id: GetBuckets
-    intent: List buckets or get one bucket's details
-    question: What buckets do I have and what are their access settings?
-  phrasing_ops: 11
   slug: amazon-lightsail-buckets-api
 - baseURL: https://lightsail.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Bundles API from Amazon Lightsail — 1 operation(s) for bundles.
   name: Amazon Lightsail Bundles API
-  phrasing_intents:
-  - id: GetBundles
-    intent: List instance plans (bundles)
-    question: What instance sizes and monthly prices can I choose from?
-  phrasing_ops: 1
   slug: amazon-lightsail-bundles-api
 - baseURL: https://lightsail.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Certificates API from Amazon Lightsail — 7 operation(s) for certificates.
   name: Amazon Lightsail Certificates API
-  phrasing_intents:
-  - id: AttachLoadBalancerTlsCertificate
-    intent: Attach a TLS certificate to a load balancer
-    question: How do I enable HTTPS on my load balancer with a validated certificate?
-  - id: CreateCertificate
-    intent: Request a certificate for a CDN or container service
-    question: How do I get an SSL certificate for my Lightsail distribution's custom domain?
-  - id: CreateLoadBalancerTlsCertificate
-    intent: Create a TLS certificate on a load balancer
-    question: How do I create an SSL certificate specifically for a Lightsail load balancer?
-  - id: DeleteCertificate
-    intent: Delete a CDN/container certificate
-    question: How do I delete a certificate I made for my CDN distribution?
-  - id: DeleteLoadBalancerTlsCertificate
-    intent: Delete a load balancer's TLS certificate
-    question: How do I remove a TLS certificate from my load balancer?
-  - id: GetCertificates
-    intent: List CDN and container certificates
-    question: Which of my distribution certificates are still pending validation?
-  - id: GetLoadBalancerTlsCertificates
-    intent: List a load balancer's TLS certificates
-    question: What certificates are associated with my load balancer?
-  phrasing_ops: 7
   slug: amazon-lightsail-certificates-api
 - baseURL: https://lightsail.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Contact Methods API from Amazon Lightsail — 4 operation(s) for contact methods.
   name: Amazon Lightsail Contact Methods API
-  phrasing_intents:
-  - id: CreateContactMethod
-    intent: Add an email or SMS contact method
-    question: How do I get Lightsail notifications sent to my phone by text?
-  - id: DeleteContactMethod
-    intent: Remove a notification contact method
-    question: How do I stop getting Lightsail alerts by SMS?
-  - id: GetContactMethods
-    intent: List notification contact methods
-    question: Which email and phone contacts get my Lightsail notifications?
-  - id: SendContactMethodVerification
-    intent: Send a verification to an email contact
-    question: How do I verify the email address I added for notifications?
-  phrasing_ops: 4
   slug: amazon-lightsail-contact-methods-api
 - baseURL: https://lightsail.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Container Services API from Amazon Lightsail — 10 operation(s) for container services.
   name: Amazon Lightsail Container Services API
-  phrasing_intents:
-  - id: GetContainerAPIMetadata
-    intent: Get Lightsail container API metadata
-    question: Which version of the lightsailctl plugin is current?
-  - id: CreateContainerServiceRegistryLogin
-    intent: Get temporary Docker registry login credentials
-    question: How do I log my local Docker in so I can push images to a container service?
-  - id: GetContainerServicePowers
-    intent: List container service power sizes
-    question: What power levels (CPU and memory) can a container service use?
-  - id: CreateContainerService
-    intent: Create a container service
-    question: How do I create a Lightsail container service to run my Docker app?
-  - id: GetContainerServices
-    intent: List container services or get one
-    question: Which container services am I running and what state are they in?
-  - id: DeleteContainerService
-    intent: Delete a container service
-    question: How do I tear down a container service I'm done with?
-  - id: UpdateContainerService
-    intent: Change a container service's power, scale or domains
-    question: How do I scale my container service to more nodes?
-  - id: GetContainerLog
-    intent: Read a container's log events
-    question: How do I see the logs from a container in my service?
-  phrasing_ops: 14
   slug: amazon-lightsail-container-services-api
 - baseURL: https://lightsail.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Cost Estimate API from Amazon Lightsail — 1 operation(s) for cost estimate.
   name: Amazon Lightsail Cost Estimate API
-  phrasing_intents:
-  - id: GetCostEstimate
-    intent: Estimate a resource's cost over a time range
-    question: How much has my Lightsail instance cost this month so far?
-  phrasing_ops: 1
   slug: amazon-lightsail-cost-estimate-api
 - baseURL: https://lightsail.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Distributions API from Amazon Lightsail — 11 operation(s) for distributions.
   name: Amazon Lightsail Distributions API
-  phrasing_intents:
-  - id: AttachCertificateToDistribution
-    intent: Attach a certificate to a CDN distribution
-    question: How do I use my custom domain with HTTPS on a Lightsail CDN distribution?
-  - id: CreateDistribution
-    intent: Create a CDN distribution
-    question: How do I put a CDN in front of my Lightsail instance or bucket?
-  - id: DeleteDistribution
-    intent: Delete a CDN distribution
-    question: How do I delete a CDN distribution I no longer need?
-  - id: DetachCertificateFromDistribution
-    intent: Remove the certificate from a distribution
-    question: How do I stop using my custom-domain certificate on a distribution?
-  - id: GetDistributionBundles
-    intent: List CDN distribution plans
-    question: What CDN plans are available and how much transfer do they include?
-  - id: GetDistributionLatestCacheReset
-    intent: Check the last CDN cache reset
-    question: When was my distribution's cache last cleared?
-  - id: GetDistributionMetricData
-    intent: Get traffic metrics for a distribution
-    question: How many requests is my CDN distribution serving?
-  - id: GetDistributions
-    intent: List CDN distributions
-    question: What CDN distributions do I have and what domains do they serve?
-  phrasing_ops: 11
   slug: amazon-lightsail-distributions-api
 - baseURL: https://lightsail.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Domains API from Amazon Lightsail — 7 operation(s) for domains.
   name: Amazon Lightsail Domains API
-  phrasing_intents:
-  - id: CreateDomain
-    intent: Create a DNS zone for a domain
-    question: How do I manage my domain's DNS in Lightsail?
-  - id: CreateDomainEntry
-    intent: Add a DNS record to a domain
-    question: How do I add an A record pointing my domain at an instance?
-  - id: DeleteDomain
-    intent: Delete a domain's DNS zone
-    question: How do I delete a domain and all of its DNS records?
-  - id: DeleteDomainEntry
-    intent: Delete one DNS record
-    question: How do I remove a single DNS record from my domain?
-  - id: GetDomain
-    intent: Get a domain and its DNS records
-    question: What DNS records are set on one of my domains?
-  - id: GetDomains
-    intent: List all DNS zones in the account
-    question: Which domains are managed in my Lightsail account?
-  - id: UpdateDomainEntry
-    intent: Change an existing DNS record
-    question: How do I point an existing A record at a new IP address?
-  phrasing_ops: 7
   slug: amazon-lightsail-domains-api
 - baseURL: https://lightsail.us-east-1.amazonaws.com
   baseurl_source: declared
   description: Lightsail virtual server instance management
   name: Amazon Lightsail Instances API
-  phrasing_intents:
-  - id: CreateInstances
-    intent: Create instances via the REST-style /instances path
-    question: Can I create instances by POSTing to the /instances resource path?
-  - id: GetInstances
-    intent: List instances via the REST-style /instances path
-    question: Is there a plain GET /instances resource path for listing my servers?
-  - id: GetInstance
-    intent: Get an instance via the REST-style /instances path
-    question: Can I fetch one server with a plain GET on its /instances resource path?
-  - id: DeleteInstance
-    intent: Delete an instance via an HTTP DELETE on /instances
-    question: Can I remove a server with an HTTP DELETE on its /instances path?
-  - id: StartInstance
-    intent: Start an instance via the REST-style /start path
-    question: Can I boot a server by POSTing to its /start sub-path?
-  - id: StopInstance
-    intent: Stop an instance via the REST-style /stop path
-    question: Can I shut down a server by POSTing to its /stop sub-path?
-  - id: CloseInstancePublicPorts
-    intent: Close a firewall port on an instance
-    question: How do I close port 22 to the public on my instance?
-  - id: postLsApi20161128CreateInstances
-    intent: Launch new instances from a blueprint
-    question: How do I launch a new Lightsail server running WordPress or Ubuntu?
-  phrasing_ops: 22
   slug: amazon-lightsail-instances-api
 - baseURL: https://lightsail.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Load Balancers API from Amazon Lightsail — 9 operation(s) for load balancers.
   name: Amazon Lightsail Load Balancers API
-  phrasing_intents:
-  - id: AttachInstancesToLoadBalancer
-    intent: Add instances to a load balancer
-    question: How do I put my web servers behind a Lightsail load balancer?
-  - id: CreateLoadBalancer
-    intent: Create a load balancer
-    question: How do I create a load balancer for my Lightsail instances?
-  - id: DeleteLoadBalancer
-    intent: Delete a load balancer
-    question: How do I delete a load balancer I no longer need?
-  - id: DetachInstancesFromLoadBalancer
-    intent: Remove instances from a load balancer
-    question: How do I take an instance out of the load balancer for maintenance?
-  - id: GetLoadBalancer
-    intent: Get one load balancer's details
-    question: Are the instances behind my load balancer healthy?
-  - id: GetLoadBalancerMetricData
-    intent: Get health metrics for a load balancer
-    question: How many requests is my load balancer handling?
-  - id: GetLoadBalancerTlsPolicies
-    intent: List load balancer TLS security policies
-    question: Which TLS security policies can I apply to a load balancer?
-  - id: GetLoadBalancers
-    intent: List all load balancers
-    question: What load balancers are in my account?
-  phrasing_ops: 9
   slug: amazon-lightsail-load-balancers-api
 - baseURL: https://lightsail.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Operations API from Amazon Lightsail — 3 operation(s) for operations.
   name: Amazon Lightsail Operations API
-  phrasing_intents:
-  - id: GetOperation
-    intent: Check the status of one operation
-    question: Did the request I just made finish successfully?
-  - id: GetOperations
-    intent: List all recent operations in the account
-    question: What changes have been made in my Lightsail account recently?
-  - id: GetOperationsForResource
-    intent: List operations for one resource
-    question: What has happened to a specific instance or static IP?
-  phrasing_ops: 3
   slug: amazon-lightsail-operations-api
 - baseURL: https://lightsail.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Regions API from Amazon Lightsail — 1 operation(s) for regions.
   name: Amazon Lightsail Regions API
-  phrasing_intents:
-  - id: GetRegions
-    intent: List Lightsail regions and zones
-    question: Which AWS regions is Lightsail available in?
-  phrasing_ops: 1
   slug: amazon-lightsail-regions-api
 - baseURL: https://lightsail.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Relational Databases API from Amazon Lightsail — 22 operation(s) for relational databases.
   name: Amazon Lightsail Relational Databases API
-  phrasing_intents:
-  - id: CreateRelationalDatabase
-    intent: Create a managed database
-    question: How do I spin up a managed MySQL or PostgreSQL database in Lightsail?
-  - id: CreateRelationalDatabaseFromSnapshot
-    intent: Restore a database from a snapshot or point in time
-    question: How do I restore a database from one of its snapshots?
-  - id: CreateRelationalDatabaseSnapshot
-    intent: Take a snapshot of a database
-    question: How can I back up my managed database right now?
-  - id: DeleteRelationalDatabase
-    intent: Delete a managed database
-    question: How do I delete a database but keep a final snapshot?
-  - id: DeleteRelationalDatabaseSnapshot
-    intent: Delete a database snapshot
-    question: How do I remove an old database snapshot?
-  - id: GetRelationalDatabase
-    intent: Get one database's details
-    question: What's the endpoint and port of my managed database?
-  - id: GetRelationalDatabaseBlueprints
-    intent: List database engines and versions
-    question: Which MySQL and PostgreSQL versions can I create?
-  - id: GetRelationalDatabaseBundles
-    intent: List database plans
-    question: What database sizes and monthly prices are offered?
-  phrasing_ops: 22
   slug: amazon-lightsail-relational-databases-api
 - baseURL: https://lightsail.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Setup API from Amazon Lightsail — 1 operation(s) for setup.
   name: Amazon Lightsail Setup API
-  phrasing_intents:
-  - id: GetSetupHistory
-    intent: Review recent HTTPS setup attempts on an instance
-    question: Why did my HTTPS setup on the instance fail?
-  phrasing_ops: 1
   slug: amazon-lightsail-setup-api
 - baseURL: https://lightsail.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Snapshots API from Amazon Lightsail — 15 operation(s) for snapshots.
   name: Amazon Lightsail Snapshots API
-  phrasing_intents:
-  - id: CopySnapshot
-    intent: Copy a snapshot, even to another region
-    question: How do I copy an instance snapshot to another AWS region?
-  - id: CreateDiskFromSnapshot
-    intent: Restore a disk from a disk snapshot
-    question: How do I restore a block storage disk from a snapshot?
-  - id: CreateDiskSnapshot
-    intent: Take a snapshot of a block storage disk
-    question: How do I back up a block storage disk?
-  - id: CreateInstanceSnapshot
-    intent: Take a snapshot of an instance
-    question: How do I back up my whole Lightsail server before an upgrade?
-  - id: CreateInstancesFromSnapshot
-    intent: Launch instances from an instance snapshot
-    question: How do I restore a server from a snapshot onto a bigger plan?
-  - id: DeleteAutoSnapshot
-    intent: Delete an automatic snapshot by date
-    question: How do I delete one day's automatic snapshot of an instance?
-  - id: DeleteDiskSnapshot
-    intent: Delete a manual disk snapshot
-    question: How do I delete an old block storage disk snapshot?
-  - id: DeleteInstanceSnapshot
-    intent: Delete a manual instance snapshot
-    question: How do I delete an instance snapshot to stop paying for it?
-  phrasing_ops: 15
   slug: amazon-lightsail-snapshots-api
 - baseURL: https://lightsail.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Static IPs API from Amazon Lightsail — 6 operation(s) for static ips.
   name: Amazon Lightsail Static IPs API
-  phrasing_intents:
-  - id: AllocateStaticIp
-    intent: Reserve a new static IP address
-    question: How do I get a fixed public IP that doesn't change on reboot?
-  - id: AttachStaticIp
-    intent: Attach a static IP to an instance
-    question: How do I assign my static IP to an instance?
-  - id: DetachStaticIp
-    intent: Detach a static IP from its instance
-    question: How do I unassign a static IP but keep it reserved?
-  - id: GetStaticIp
-    intent: Get details of one static IP
-    question: Which instance is a given static IP attached to?
-  - id: GetStaticIps
-    intent: List all static IPs
-    question: What static IP addresses do I have reserved?
-  - id: ReleaseStaticIp
-    intent: Release a static IP address
-    question: How do I give back a static IP I no longer need?
-  phrasing_ops: 6
   slug: amazon-lightsail-static-ips-api
 - baseURL: https://lightsail.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Tags API from Amazon Lightsail — 2 operation(s) for tags.
   name: Amazon Lightsail Tags API
-  phrasing_intents:
-  - id: TagResource
-    intent: Add tags to a resource
-    question: How do I tag my Lightsail resources by project or cost center?
-  - id: UntagResource
-    intent: Remove tags from a resource
-    question: How can I remove a tag key from a Lightsail resource?
-  phrasing_ops: 2
   slug: amazon-lightsail-tags-api
 - baseURL: https://lightsail.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The blockstorage API from Amazon Lightsail — 6 operation(s) for blockstorage.
   name: Amazon Lightsail Blockstorage API
-  phrasing_intents:
-  - id: AttachDisk
-    intent: Attach a block storage disk to an instance
-    question: How do I add extra storage to my Lightsail instance?
-  - id: CreateDisk
-    intent: Create a new empty block storage disk
-    question: How do I create a new blank SSD disk for an instance?
-  - id: DeleteDisk
-    intent: Delete a block storage disk
-    question: How do I permanently delete a disk I no longer use?
-  - id: DetachDisk
-    intent: Detach a disk from its instance
-    question: How do I unplug a disk from an instance without deleting it?
-  - id: GetDisk
-    intent: Get details of one block storage disk
-    question: What size and state is a particular disk in?
-  - id: GetDisks
-    intent: List all block storage disks
-    question: Which block storage disks do I have in this region?
-  phrasing_ops: 6
   slug: amazon-lightsail-blockstorage-api
 - baseURL: https://lightsail.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Keypairs API from Amazon Lightsail — 6 operation(s) for keypairs.
   name: Amazon Lightsail Keypairs API
-  phrasing_intents:
-  - id: CreateKeyPair
-    intent: Generate a new SSH key pair
-    question: How do I create a new SSH key pair for my instances?
-  - id: DeleteKeyPair
-    intent: Delete an SSH key pair
-    question: How do I delete an SSH key pair I no longer use?
-  - id: DownloadDefaultKeyPair
-    intent: Download the regional default key pair
-    question: Where do I get the default SSH private key for this region?
-  - id: GetKeyPair
-    intent: Get details of one key pair
-    question: What's the fingerprint of a particular key pair?
-  - id: GetKeyPairs
-    intent: List all SSH key pairs
-    question: Which SSH key pairs exist in my account?
-  - id: ImportKeyPair
-    intent: Import an existing public SSH key
-    question: How do I use my own existing SSH key with Lightsail?
-  phrasing_ops: 6
   slug: amazon-lightsail-keypairs-api
 artifact_total: 54
 collections:
@@ -559,6 +173,11 @@ collections:
   name: Amazon Lightsail API
   slug: open-openapi
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/capabilities/amazon-lightsail-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-lightsail-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/overlays/amazon-lightsail-overlay.yaml
   title: ''
@@ -847,9 +466,9 @@ jsonld:
   slug: amazon-lightsail-context
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at aws-mcp.us-east-1.api.aws requiring an API key; 8 tools listed.
   name: Amazon Lightsail MCP Server
-  slug: amazon-lightsail-mcp-server
+  slug: amazon-lightsail-mcp-yml
 modified: '2026-09-17'
 name: Amazon Lightsail
 nav: Providers
@@ -860,7 +479,7 @@ overview: 'Amazon Lightsail publishes 22 APIs on the [APIs.io](https://apis.io/)
   The Amazon Lightsail catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Lightsail''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 46 more developer resources.'
+  Amazon Lightsail''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 47 more developer resources.'
 plans:
 - name: Amazon Lightsail Plans Pricing
   plan_count: 100
@@ -902,7 +521,7 @@ score:
     catalog_gap: 40.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.9
+  delta: 2.0
   facets:
     access_clarity: 100.0
     contract_governance: 45.5
@@ -910,7 +529,7 @@ score:
     developer_ergonomics: 81.5
     discoverability: 80.0
     operational_transparency: 44.7
-  previous_composite: 74.4
+  previous_composite: 73.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -928,7 +547,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

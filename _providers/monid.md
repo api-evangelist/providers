@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 56.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 7
+- acting_count: 9
   human_in_the_loop: 3
   name: Monid Agentic Access
   operation_count: 33
   slug: monid-agentic-access
-  summary_line: 33 operations · 7 acting · 3 human-in-the-loop
+  summary_line: 33 operations · 9 acting · 3 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.monid.ai
@@ -102,6 +102,11 @@ collections:
   name: Monid API
   slug: open-monid
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/capabilities/monid-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/monid-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/agentic-access/monid-agentic-access.yml
   title: ''
@@ -232,7 +237,7 @@ network: true
 overview: 'Monid publishes 10 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Auth API, Controls API, and 7 more. Tagged areas include Company, Agents, MCP, Tools, and Data.
 
 
-  Monid''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, signup flow, and 18 more developer resources.'
+  Monid''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, signup flow, and 19 more developer resources.'
 random_paper: 7
 scopes:
 - name: Monid Scopes
@@ -243,13 +248,13 @@ score:
   band: thin
   composite: 37.5
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
@@ -264,7 +269,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 37.5
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -282,7 +287,7 @@ score:
     regime_id: horizontal
     score: 26.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

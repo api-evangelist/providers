@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -113,7 +113,7 @@ apis:
   description: Endpoints for creating, listing, retrieving, and deleting webhook subscriptions that receive real-time event notifications.
   name: Calendly Webhook Subscriptions API
   slug: calendly-webhook-subscriptions-api
-artifact_total: 42
+artifact_total: 43
 asyncapis:
 - description: 'The Calendly Webhook API enables developers to receive real-time notifications when scheduling events occur in Calendly. By creating webhook subscriptions, applications can automatically receive data '
   name: Calendly Webhook Events
@@ -162,6 +162,11 @@ collections:
   name: Calendly Scheduling Activity Log Webhook Subscriptions API
   slug: open-calendly-webhook-subscriptions-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/capabilities/calendly-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/calendly-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/agentic-access/calendly-agentic-access.yml
   title: ''
@@ -265,6 +270,10 @@ jsonld:
   property_count: 9
   slug: calendly-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.calendly.com over HTTP.
+  name: Calendly MCP Server
+  slug: calendly
 modified: '2026-05-19'
 name: Calendly
 nav: Providers
@@ -275,7 +284,7 @@ overview: 'Calendly publishes 14 APIs on the [APIs.io](https://apis.io/) network
   The Calendly catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Calendly''s developer surface includes authentication, developer portal, documentation, engineering blog, and 14 more developer resources.'
+  Calendly''s developer surface includes authentication, developer portal, documentation, engineering blog, and 15 more developer resources.'
 plans:
 - name: Calendly Plans Pricing
   plan_count: 4
@@ -311,13 +320,13 @@ score:
   band: developing
   composite: 40.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 54.5
     catalog_earned_first_party: 0.0
     catalog_gap: 60.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 43.4
     contract_governance: 13.6
@@ -325,7 +334,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 75.0
     operational_transparency: 7.9
-  previous_composite: 40.7
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     contracts:
@@ -341,7 +350,7 @@ score:
     regime_id: horizontal
     score: 30.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

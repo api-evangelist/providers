@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The agent-facing commerce interface for the Hero Bread online store. An MCP server at https://shop.hero.co/api/ucp/mcp implements the Universal Commerce Protocol shopping service (dev.ucp.shopping) wi
@@ -166,9 +166,9 @@ description: 'Hero Bread is an American food-technology company that makes low-n
 image: https://cdn.sanity.io/images/85daklna/production/028e6f6b81bdfad5074d500c93636f8f18866203-2000x1670.webp
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at shop.hero.co; 13 tools listed.
   name: Hero Bread MCP Server
-  slug: hero-bread-mcp-server
+  slug: hero-bread-mcp-yml
 modified: '2026-08-22'
 name: Hero Bread
 nav: Providers
@@ -201,7 +201,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.7
   facets:
     access_clarity: 38.2
     contract_governance: 18.2
@@ -209,7 +209,12 @@ score:
     developer_ergonomics: 30.4
     discoverability: 75.0
     operational_transparency: 0.0
-  previous_composite: 26.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 23.5
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -221,7 +226,7 @@ score:
     regime_id: horizontal
     score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: platform
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.5
-  scored_at: '2026-10-03'
+  score: 2.2
+  scored_at: '2026-10-04'
 api_count: 0
 artifact_total: 2
 common:
@@ -55,9 +55,9 @@ created: '2026-09-26'
 description: 'Auum is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.'
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at www.auum.fr.
   name: Auum MCP Server
-  slug: auum-mcp-server
+  slug: auum-mcp-yml
 modified: '2026-09-26'
 name: Auum
 nav: Providers
@@ -68,7 +68,7 @@ score:
   band: minimal
   composite: 1.7
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 15.0
     catalog_earned_first_party: 0.0
     catalog_gap: 100.0
@@ -88,7 +88,7 @@ score:
     - owner: catalog
       reason: venue_as_website
   provenance:
-    mcp: first-party
+    mcp: platform-generated
   regulatory:
     applies: true
     matched_via: fallback
@@ -96,7 +96,7 @@ score:
     regime_id: horizontal
     score: 5.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

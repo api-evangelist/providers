@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 186
+- acting_count: 187
   human_in_the_loop: 4
   name: Emory Agentic Access
   operation_count: 344
   slug: emory-agentic-access
-  summary_line: 344 operations · 186 acting · 4 human-in-the-loop
+  summary_line: 344 operations · 187 acting · 4 human-in-the-loop
 api_count: 1
 apis:
 - description: Emory's instance of the Instructure Canvas learning management system exposes the standard Canvas LMS REST API. Access requires an Emory Canvas account and developer keys / API access tokens; the refe
@@ -456,21 +456,21 @@ rules:
   slug: emory-rules
 score:
   band: developing
-  composite: 40.9
+  composite: 40.3
   coverage:
     artifact_dirs: 18
-    catalog_earned: 66.1
+    catalog_earned: 63.1
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.9
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -3.0
   facets:
     access_clarity: 26.8
     contract_governance: 9.8
     contract_quality: 53.8
     developer_ergonomics: 38.1
-    discoverability: 57.1
+    discoverability: 51.8
     operational_transparency: 40.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -479,7 +479,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 40.3
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -495,7 +495,7 @@ score:
     regime_id: education
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

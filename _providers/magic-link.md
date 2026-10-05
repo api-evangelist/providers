@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -61,7 +61,7 @@ apis:
   description: Magic user metadata and session management
   name: Magic Users API
   slug: magic-link-users-api
-artifact_total: 14
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -76,6 +76,11 @@ collections:
   name: Magic Admin API
   slug: open-magic-link
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/magic-link/refs/heads/main/capabilities/magic-link-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/magic-link-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/magic-link/refs/heads/main/agentic-access/magic-link-agentic-access.yml
   title: ''
@@ -126,6 +131,10 @@ finops:
   slug: magic-link-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/magic-link.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at docs.magic.link over HTTP; 3 tools listed.
+  name: Magic MCP Server
+  slug: magic-link
 modified: '2026-05-08'
 name: Magic
 nav: Providers
@@ -133,7 +142,7 @@ network: true
 overview: 'Magic publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Client API, Users API, and 2 more. Tagged areas include Web3, Wallets, Authentication, Embedded Wallets, and MPC.
 
 
-  Magic''s developer surface includes authentication, engineering blog, and 7 more developer resources.'
+  Magic''s developer surface includes authentication, engineering blog, and 8 more developer resources.'
 plans:
 - name: Magic Link Plans Pricing
   plan_count: 4
@@ -147,13 +156,13 @@ score:
   band: emerging
   composite: 13.4
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 13
     catalog_earned: 45.0
     catalog_earned_first_party: 0.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
@@ -161,7 +170,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 68.3
     operational_transparency: 5.3
-  previous_composite: 13.4
+  previous_composite: 12.7
   provenance:
     agentic_access: derived
     contracts:
@@ -177,7 +186,7 @@ score:
     regime_id: payments
     score: 10.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
   description: Blended currency exchange rates
   name: Frankfurter Rates API
   slug: frankfurter-rates-api
-artifact_total: 87
+artifact_total: 88
 collections:
 - collection_type: open
   name: API Collection
@@ -351,6 +351,10 @@ jsonld:
   property_count: 22
   slug: frankfurter-v2-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.frankfurter.dev over HTTP; 4 tools listed.
+  name: Frankfurter MCP Server
+  slug: frankfurter
 modified: '2026-05-29'
 name: Frankfurter
 nav: Providers
@@ -397,13 +401,13 @@ score:
   band: thin
   composite: 37.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 77.4
     catalog_earned_first_party: 0.0
     catalog_gap: 37.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.2
   facets:
     access_clarity: 18.9
     contract_governance: 27.3
@@ -411,7 +415,7 @@ score:
     developer_ergonomics: 14.3
     discoverability: 75.0
     operational_transparency: 37.4
-  previous_composite: 37.2
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     contracts:
@@ -427,7 +431,7 @@ score:
     regime_id: horizontal
     score: 10.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false
@@ -455,6 +459,7 @@ tags:
 - MIT
 - Self-Hosted
 - Public APIs
+- Exchange Rates
 use_cases:
 - description: Embed blended FX rates into invoicing, payouts, and conversion.
   name: Treasury and Payments Pricing

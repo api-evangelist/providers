@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -100,7 +100,7 @@ apis:
   description: The Webhooks API from Groove — 2 operation(s) for webhooks.
   name: Groove Webhooks API
   slug: groove-webhooks-api
-artifact_total: 29
+artifact_total: 30
 asyncapis:
 - description: AsyncAPI 2.6 description of Groove's webhook surface as documented for the legacy Groove REST API v1. Groove enables customers to register webhook subscriptions through `POST https://api.groovehq.com/
   name: Groove Webhooks
@@ -140,6 +140,11 @@ collections:
   name: Groove REST API v1
   slug: open-groove
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/capabilities/groove-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/groove-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/agentic-access/groove-agentic-access.yml
   title: ''
@@ -195,6 +200,10 @@ graphqls:
   slug: groove-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groove.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.groovehq.com over HTTP.
+  name: Groove MCP Server
+  slug: groove
 modified: '2026-05-30'
 name: Groove
 nav: Providers
@@ -205,7 +214,7 @@ overview: 'Groove publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
   The Groove catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Groove''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, GitHub presence, and 5 more developer resources.'
+  Groove''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, GitHub presence, and 6 more developer resources.'
 random_paper: 20
 rules:
 - effective_rule_count: 35
@@ -229,7 +238,7 @@ score:
     catalog_gap: 74.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.7
   facets:
     access_clarity: 23.7
     contract_governance: 11.4
@@ -237,7 +246,7 @@ score:
     developer_ergonomics: 33.3
     discoverability: 68.3
     operational_transparency: 5.3
-  previous_composite: 32.1
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -253,7 +262,7 @@ score:
     regime_id: horizontal
     score: 11.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

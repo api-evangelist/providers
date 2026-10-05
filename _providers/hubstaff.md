@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ apis:
   description: Webhook subscriptions delivering real-time event notifications (timer.start, timer.stop, task.create, shift.late, etc.).
   name: Hubstaff Webhooks API
   slug: hubstaff-webhooks-api
-artifact_total: 47
+artifact_total: 48
 collections:
 - collection_type: open
   name: API Collection
@@ -206,6 +206,11 @@ collections:
   name: Hubstaff API
   slug: open-hubstaff
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hubstaff/refs/heads/main/capabilities/hubstaff-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hubstaff-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/hubstaff/refs/heads/main/agentic-access/hubstaff-agentic-access.yml
   title: ''
@@ -277,6 +282,10 @@ finops:
   slug: hubstaff-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hubstaff.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.hubstaff.com over HTTP.
+  name: Hubstaff MCP Server
+  slug: hubstaff
 modified: '2026-07-11'
 name: Hubstaff
 nav: Providers
@@ -284,7 +293,7 @@ network: true
 overview: 'Hubstaff publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Activities API, App & URL Tracking API, Attendance API, and 16 more. Tagged areas include Time Tracking, Timesheets, Workforce Management, Productivity, and Employee Monitoring.
 
 
-  Hubstaff''s developer surface includes authentication, documentation, pricing, support, engineering blog, and 9 more developer resources.'
+  Hubstaff''s developer surface includes authentication, documentation, pricing, support, engineering blog, and 10 more developer resources.'
 plans:
 - name: Hubstaff Plans Pricing
   plan_count: 6
@@ -298,13 +307,13 @@ score:
   band: thin
   composite: 39.0
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 61.6
     catalog_earned_first_party: 0.0
     catalog_gap: 53.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.7
   facets:
     access_clarity: 46.8
     contract_governance: 0.0
@@ -312,7 +321,7 @@ score:
     developer_ergonomics: 35.7
     discoverability: 68.3
     operational_transparency: 31.1
-  previous_composite: 39.0
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     contracts:
@@ -328,7 +337,7 @@ score:
     regime_id: employment_payroll
     score: 17.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

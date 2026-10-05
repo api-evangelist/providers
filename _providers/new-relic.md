@@ -16,7 +16,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -29,14 +29,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: verified
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.9
-  scored_at: '2026-10-03'
+  score: 41.2
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -83,116 +83,36 @@ apis:
   baseurl_source: declared
   description: The New Relic Alerts REST API provides endpoints for programmatically managing alert policies, conditions, notification channels, and muting rules. New Relic recommends using NerdGraph for new alert m
   name: New Relic Alerts API
-  phrasing_intents:
-  - id: getAlertsChannels
-    intent: List alert notification channels
-    question: Which notification channels are set up on my New Relic account?
-  - id: postAlertsChannels
-    intent: Create an alert notification channel
-    question: How do I add a new place for alert notifications to be sent?
-  - id: deleteAlertsChannelsChannelId
-    intent: Delete an alert notification channel
-    question: Can I remove a notification channel I no longer use for alerts?
-  - id: getAlertsConditions
-    intent: List APM, Browser and Mobile metric conditions
-    question: What application metric conditions are in one of my alert policies?
-  - id: postAlertsConditionsPoliciesPolicyId
-    intent: Create an application metric alert condition
-    question: How do I alert when an APM application's metric crosses a threshold?
-  - id: putAlertsConditionsConditionId
-    intent: Update an application metric alert condition
-    question: Can I change the threshold on an existing APM metric alert condition?
-  - id: deleteAlertsConditionsConditionId
-    intent: Delete an application metric alert condition
-    question: How do I get rid of an APM metric condition that keeps firing for no reason?
-  - id: getAlertsEntityConditionsEntityId
-    intent: List the alert conditions an entity belongs to
-    question: Which alert conditions is a particular application or server part of?
-  phrasing_ops: 35
   slug: new-relic-alerts-api
 - baseURL: https://api.newrelic.com/v2/
   baseurl_source: declared
   description: The Applications API from New Relic — 18 operation(s) for applications.
   name: New Relic Applications API
-  phrasing_intents:
-  - id: getApplications
-    intent: List APM applications
-    question: Which APM applications are reporting to my New Relic account?
-  - id: getApplicationsIdDeployments
-    intent: List an application's deployment history
-    question: When was an application last deployed, and what revision went out?
-  - id: postApplicationsIdDeployments
-    intent: Record a deployment marker for an application
-    question: How do I mark a release on my application's performance charts?
-  - id: deleteApplicationsIdDeploymentsId
-    intent: Delete a deployment marker
-    question: Can I remove a deployment marker I recorded by mistake?
-  - id: getApplicationsIdHosts
-    intent: List the hosts running an application
-    question: Which servers is one of my applications running on?
-  - id: getApplicationsIdHostsHostIdMetrics
-    intent: List metric names for an application host
-    question: What metric names are available for one host of an application?
-  - id: getApplicationsIdHostsHostIdMetricsData
-    intent: Get metric values for an application host
-    question: What was the response time on one specific host of my app over the last hour?
-  - id: getApplicationsIdHostsId
-    intent: Get one host of an application
-    question: How is one particular server running my application performing?
-  phrasing_ops: 21
   slug: new-relic-applications-api
 - baseURL: https://api.newrelic.com/v2/
   baseurl_source: declared
   description: Custom event ingestion endpoints
   name: New Relic Events API
-  phrasing_intents:
-  - id: sendEvents
-    intent: Send custom events to an account
-    question: How do I send my own custom events into New Relic so I can query them with NRQL?
-  phrasing_ops: 1
   slug: new-relic-events-api
 - baseURL: https://api.newrelic.com/v2/
   baseurl_source: declared
   description: The Get API from New Relic — 30 operation(s) for get.
   name: New Relic Get API
-  phrasing_intents:
-  - id: getKeyTransactions
-    intent: List key transactions
-    question: Which key transactions am I tracking in New Relic?
-  - id: getKeyTransactionsId
-    intent: Get a key transaction
-    question: How is one specific key transaction performing right now?
-  phrasing_ops: 2
   slug: new-relic-get-api
 - baseURL: https://api.newrelic.com/v2/
   baseurl_source: declared
   description: Log data ingestion endpoints
   name: New Relic Logs API
-  phrasing_intents:
-  - id: sendLogs
-    intent: Send log records
-    question: How do I ship my application's log lines straight to New Relic over HTTP?
-  phrasing_ops: 1
   slug: new-relic-logs-api
 - baseURL: https://api.newrelic.com/v2/
   baseurl_source: declared
   description: Metric data ingestion endpoints
   name: New Relic Metrics API
-  phrasing_intents:
-  - id: sendMetrics
-    intent: Send metric data points
-    question: How do I push my own count, gauge or summary metrics into New Relic?
-  phrasing_ops: 1
   slug: new-relic-metrics-api
 - baseURL: https://api.newrelic.com/v2/
   baseurl_source: declared
   description: Distributed trace span ingestion
   name: New Relic Traces API
-  phrasing_intents:
-  - id: sendTraces
-    intent: Send distributed trace spans
-    question: How do I send distributed tracing spans to New Relic from my own instrumentation?
-  phrasing_ops: 1
   slug: new-relic-traces-api
 arazzos:
 - description: Resolve an app, branch on health status, and pull recent metric data.
@@ -255,7 +175,7 @@ arazzos:
 - description: Resolve a policy by name, update it, then update one of its conditions.
   name: New Relic Update Policy And Condition
   slug: new-relic-update-policy-and-condition-workflow
-artifact_total: 964
+artifact_total: 966
 asyncapis:
 - description: Describes New Relic's documented event-driven and streaming surfaces. New Relic does not publish a customer-facing WebSocket or Server-Sent Events streaming endpoint, and the NerdGraph GraphQL API doe
   name: New Relic Streaming and Event-Driven Surfaces
@@ -382,6 +302,134 @@ collections:
   name: New Relic
   slug: open-new-relic
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/finops/new-relic-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/new-relic-finops.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/rate-limits/new-relic-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/new-relic-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/plans/new-relic-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/new-relic-plans-pricing.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/rules/new-relic-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/new-relic-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/rules/new-relic-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/new-relic-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/rules/new-relic-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/new-relic-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/rules/new-relic-asyncapi-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/new-relic-asyncapi-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/json-ld/new-relic-trace-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/new-relic-trace-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/json-ld/new-relic-metric-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/new-relic-metric-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/json-ld/new-relic-log-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/new-relic-log-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/json-ld/new-relic-event-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/new-relic-event-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/vocabulary/new-relic-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/new-relic-vocabulary.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/asyncapi/new-relic-streaming-asyncapi.yml
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/new-relic-streaming-asyncapi.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/data-model/new-relic-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/new-relic-data-model.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/cli/new-relic-cli.yml
+  title: ''
+  type: CLI
+  url: cli/new-relic-cli.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/errors/new-relic-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/new-relic-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/conformance/new-relic-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/new-relic-conformance.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/overlays/new-relic-alerts-api-overlay.yml
+  title: ''
+  type: Overlay
+  url: overlays/new-relic-alerts-api-overlay.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/llms/new-relic-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/new-relic-llms.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/mcp/new-relic-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/new-relic-mcp.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/hosts/new-relic-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/new-relic-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/vendors/new-relic-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/new-relic-vendors.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/packages/new-relic-packages.yml
+  title: ''
+  type: Packages
+  url: packages/new-relic-packages.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://newrelic.com/about/newsroom
+- group: other
+  title: ''
+  type: Leadership
+  url: https://newrelic.com/about/leadership
 - group: company
   title: ''
   type: Website
@@ -741,7 +789,7 @@ common:
   type: Vocabulary
   url: vocabulary/new-relic-vocabulary.yaml
 created: '2025-01-13'
-description: New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience.
+description: New Relic offers an AI‑powered observability platform that provides application performance monitoring, digital experience monitoring, infrastructure monitoring, log management, and security services. The platform helps enterprises gain real‑time visibility into cloud costs, multi‑cloud and Kubernetes environments, and AI model behavior. It is aimed at engineers and IT teams that need to monitor, troubleshoot, and optimize the performance and reliability of their digital systems.
 examples:
 - key_count: 2
   name: Event Api Custom Event Example
@@ -3314,6 +3362,10 @@ jsonld:
   property_count: 6
   slug: new-relic-trace-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.newrelic.com over HTTP.
+  name: New Relic MCP Server
+  slug: new-relic
 modified: '2026-05-19'
 name: New Relic
 nav: Providers
@@ -3321,10 +3373,10 @@ network: true
 overview: 'New Relic publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Applications API, Events API, and 15 more. Tagged areas include Analysis, Analytics, APM, DevOps, and Infrastructure.
 
 
-  The New Relic catalog on APIs.io includes 1 event-driven AsyncAPI specification, 10 JSON-LD contexts, and 3 Spectral governance rulesets.
+  The New Relic catalog on APIs.io includes 1 event-driven AsyncAPI specification, 10 JSON-LD contexts, and 4 Spectral governance rulesets.
 
 
-  New Relic''s developer surface includes authentication, developer portal, pricing, documentation, engineering blog, signup flow, developer console, and 75 more developer resources.'
+  New Relic''s developer surface includes CLI, authentication, developer portal, pricing, documentation, engineering blog, signup flow, and 101 more developer resources.'
 plans:
 - name: New Relic Plans Pricing
   plan_count: 4
@@ -3356,6 +3408,17 @@ rules:
     info: 1
     warn: 5
   slug: new-relic-jsonschema-spectral-rules
+- effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: New Relic API Rules
+  rule_count: 13
+  severity_counts:
+    error: 12
+    hint: 0
+    info: 1
+    warn: 0
+  slug: new-relic-rules
 - effective_rule_count: 69
   extends:
   - spectral:oas
@@ -3369,34 +3432,36 @@ rules:
   slug: new-relic-spectral-rules
 score:
   band: exemplar
-  composite: 69.9
+  composite: 72.3
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 73.0
+    artifact_dirs: 36
+    catalog_earned: 78.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.0
+    catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 4.2
   facets:
     access_clarity: 68.4
-    contract_governance: 27.3
+    contract_governance: 31.8
     contract_quality: 80.6
-    developer_ergonomics: 85.7
-    discoverability: 65.0
+    developer_ergonomics: 87.5
+    discoverability: 83.3
     operational_transparency: 55.3
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 69.4
+  previous_composite: 68.1
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 7
     mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
@@ -3404,7 +3469,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

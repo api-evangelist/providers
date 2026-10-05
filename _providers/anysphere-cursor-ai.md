@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 1
@@ -44,6 +44,11 @@ asyncapis:
   name: Anysphere Cursor Ai Webhooks
   slug: anysphere-cursor-ai-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/capabilities/anysphere-cursor-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/anysphere-cursor-ai-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/overlays/anysphere-cursor-ai-openapi-overlay.yml
   title: ''
@@ -253,7 +258,7 @@ overview: 'Anysphere Cursor Ai publishes 1 API on the [APIs.io](https://apis.io/
   The Anysphere Cursor Ai catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Anysphere Cursor Ai''s developer surface includes changelog, authentication, API reference, documentation, engineering blog, pricing, support, and 28 more developer resources.'
+  Anysphere Cursor Ai''s developer surface includes changelog, authentication, API reference, documentation, engineering blog, pricing, support, and 29 more developer resources.'
 plans:
 - name: Anysphere Cursor Ai Plans Pricing
   plan_count: 5
@@ -305,7 +310,7 @@ score:
     regime_id: horizontal
     score: 32.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 100.0

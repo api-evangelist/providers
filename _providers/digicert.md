@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -82,7 +82,7 @@ apis:
   description: The User API from Digicert — 1 operation(s) for user.
   name: Digicert User API
   slug: digicert-user-api
-artifact_total: 23
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -106,6 +106,11 @@ collections:
   name: DigiCert CertCentral Services API
   slug: open-digicert
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/digicert/refs/heads/main/capabilities/digicert-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/digicert-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/digicert/refs/heads/main/agentic-access/digicert-agentic-access.yml
   title: ''
@@ -189,6 +194,10 @@ graphqls:
   slug: digicert-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/digicert.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.digicert.com over HTTP; 26 tools listed.
+  name: Digicert MCP Server
+  slug: digicert
 modified: '2026-05-19'
 name: Digicert
 nav: Providers
@@ -196,7 +205,7 @@ network: true
 overview: 'Digicert publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account API, Domain API, Order API, and 6 more. Tagged areas include Certificates, Encryption, PKI, SSL, and TLS.
 
 
-  Digicert''s developer surface includes authentication, documentation, support, engineering blog, pricing, GitHub presence, changelog, and 10 more developer resources.'
+  Digicert''s developer surface includes authentication, documentation, support, engineering blog, pricing, GitHub presence, changelog, and 11 more developer resources.'
 plans:
 - name: Digicert Plans Pricing
   plan_count: 3
@@ -216,7 +225,7 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 47.4
     contract_governance: 0.0
@@ -224,7 +233,7 @@ score:
     developer_ergonomics: 28.6
     discoverability: 71.7
     operational_transparency: 55.3
-  previous_composite: 40.2
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     contracts:
@@ -240,7 +249,7 @@ score:
     regime_id: horizontal
     score: 19.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

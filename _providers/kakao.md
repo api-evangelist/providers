@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 4
+- acting_count: 5
   human_in_the_loop: 1
   name: Kakao Agentic Access
   operation_count: 14
   slug: kakao-agentic-access
-  summary_line: 14 operations · 4 acting · 1 human-in-the-loop
+  summary_line: 14 operations · 5 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - description: Kakao Login is Korea's most widely used social-identity provider, built on OAuth 2.0 / OpenID Connect. The API issues access and refresh tokens, returns user profile attributes (nickname, profile imag
@@ -256,7 +256,7 @@ score:
     catalog_gap: 60.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
     access_clarity: 26.8
     contract_governance: 0.0
@@ -271,7 +271,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 31.7
+  previous_composite: 33.2
   provenance:
     agentic_access: derived
     contracts:
@@ -286,7 +286,7 @@ score:
     regime_id: payments
     score: 10.0
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

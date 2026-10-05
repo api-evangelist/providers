@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -39,7 +39,7 @@ apis:
 - description: 'Agent2Agent (A2A) protocol surface: an agent card served from https://mcp.hakuto-0209.com/.well-known/agent-card.json (protocolVersion 0.3, JSONRPC transport, version 0.1.0, provider.organization Hane'
   name: b612 A2A Agent
   slug: b612-a2a-agent
-artifact_total: 9
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -147,12 +147,9 @@ description: 'HaneruTo — trading as hakuto, brand B612 SHEEP — is a Japanese
 image: https://hakuto-0209.com/assets/og.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: HaneruTo operates ONE remote MCP server, b612, at https://mcp.hakuto-0209.com/mcp — the same host that serves its A2A agent card and JSON-RPC endpoint (Vercel origin b612-a2a.vercel.app). It is Stream
   name: HaneruTo MCP Server
-  slug: haneruto-mcp-server
-- description: ''
-  name: b612 MCP endpoint (Streamable HTTP)
-  slug: b612-mcp-endpoint-streamable-http
+  slug: hakuto-0209-com-mcp-yml
 modified: '2026-09-19'
 name: HaneruTo
 nav: Providers
@@ -174,13 +171,13 @@ score:
   band: thin
   composite: 30.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 15
     catalog_earned: 53.0
     catalog_earned_first_party: 16.0
     catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.5
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
@@ -195,7 +192,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 30.0
+  previous_composite: 27.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -207,7 +204,7 @@ score:
     regime_id: horizontal
     score: 32.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

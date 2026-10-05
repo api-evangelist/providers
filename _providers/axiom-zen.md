@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: ZenHub API provides endpoints for managing issues, pipelines, and analytics within GitHub repositories.
@@ -154,9 +154,9 @@ description: ZenHub provides advanced project management tools tightly integrate
 image: https://www.zenhub.com/assets/webflow/66705b996a92992273ef8431_home-page-open-graph-image.jpg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at api.zenhub.com.
   name: ZenHub MCP Server
-  slug: zenhub-mcp-server
+  slug: axiom-zen-mcp-yml
 modified: '2026-09-27'
 name: ZenHub
 nav: Providers
@@ -181,7 +181,7 @@ score:
   band: developing
   composite: 47.2
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 52.0
     catalog_earned_first_party: 20.0
     catalog_gap: 63.0
@@ -203,7 +203,7 @@ score:
     regime_id: horizontal
     score: 19.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

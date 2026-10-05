@@ -27,7 +27,7 @@
       "developer_ergonomics": 81.5,
       "access_clarity": 96.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -85,7 +85,7 @@
       "developer_ergonomics": 89.3,
       "access_clarity": 63.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -132,108 +132,6 @@
    "shown": 10,
    "providers": [
     {
-     "name": "Factset",
-     "slug": "factset",
-     "description": "FactSet creates flexible, open data and software solutions for tens of thousands of investment professionals around the world, providing instant access to financial data and analytics that investors use to make crucial decisions.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/screenshots/factset-2026-06-20T181011.png",
-     "score": 63.5,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 73.3,
-      "contract_quality": 60.0,
-      "contract_governance": 31.8,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 83.9,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 38.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 52.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "verified",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "tier": "Enterprise Platform",
-     "rank": 3
-    },
-    {
-     "name": "Dow Jones",
-     "slug": "dow-jones",
-     "description": "Dow Jones is a financial news and information company, publisher of The Wall Street Journal, Barron's, MarketWatch, and Dow Jones Newswires, and operator of the Factiva news archive and the Risk & Compliance data business. Its Developer Platform (developer.dowjones.com) publishes REST APIs for entity screening and monitoring, third-party risk, due-diligence reports, risk profile search, and news content (Newswires real-time search, top stories, calendars, newsletters), secured by the Dow Jones Identity Service (OAuth 2.0 / OIDC) or Factiva user keys.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png",
-     "score": 63.2,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 78.6,
-      "contract_quality": 58.4,
-      "contract_governance": 18.2,
-      "operational_transparency": 76.3,
-      "developer_ergonomics": 75.6,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 44.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 48.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "verified",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "tier": "Enterprise Platform",
-     "rank": 4
-    },
-    {
      "name": "Financial Modeling Prep",
      "slug": "financial-modeling-prep",
      "description": "Financial Modeling Prep (FMP) provides financial market data via REST APIs, including real-time and historical stock quotes, company fundamentals, income statements, balance sheets, cash flow statements, financial ratios, insider transactions, earnings, dividends, ETF and mutual fund data, and economic indicators - with up to 30 years of historical coverage.",
@@ -249,7 +147,7 @@
       "developer_ergonomics": 48.2,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -282,6 +180,108 @@
       "agentic_commerce": false
      },
      "tier": "Developer-First",
+     "rank": 3
+    },
+    {
+     "name": "Factset",
+     "slug": "factset",
+     "description": "FactSet creates flexible, open data and software solutions for tens of thousands of investment professionals around the world, providing instant access to financial data and analytics that investors use to make crucial decisions.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/screenshots/factset-2026-06-20T181011.png",
+     "score": 63.0,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 68.3,
+      "contract_quality": 60.0,
+      "contract_governance": 31.8,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 83.9,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 38.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 52.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "tier": "Enterprise Platform",
+     "rank": 4
+    },
+    {
+     "name": "Dow Jones",
+     "slug": "dow-jones",
+     "description": "Dow Jones is a financial news and information company, publisher of The Wall Street Journal, Barron's, MarketWatch, and Dow Jones Newswires, and operator of the Factiva news archive and the Risk & Compliance data business. Its Developer Platform (developer.dowjones.com) publishes REST APIs for entity screening and monitoring, third-party risk, due-diligence reports, risk profile search, and news content (Newswires real-time search, top stories, calendars, newsletters), secured by the Dow Jones Identity Service (OAuth 2.0 / OIDC) or Factiva user keys.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png",
+     "score": 61.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 78.6,
+      "contract_quality": 58.4,
+      "contract_governance": 18.2,
+      "operational_transparency": 76.3,
+      "developer_ergonomics": 68.5,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 44.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 48.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "tier": "Enterprise Platform",
      "rank": 5
     },
     {
@@ -300,7 +300,7 @@
       "developer_ergonomics": 75.6,
       "access_clarity": 81.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -351,7 +351,7 @@
       "developer_ergonomics": 69.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -402,7 +402,7 @@
       "developer_ergonomics": 57.7,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -453,7 +453,7 @@
       "developer_ergonomics": 83.3,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -504,7 +504,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -555,7 +555,7 @@
       "developer_ergonomics": 53.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -613,7 +613,7 @@
       "developer_ergonomics": 60.1,
       "access_clarity": 81.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -675,7 +675,7 @@
       "developer_ergonomics": 60.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -726,7 +726,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -762,57 +762,6 @@
      "rank": 14
     },
     {
-     "name": "DTN",
-     "slug": "dtn",
-     "description": "DTN is an operational intelligence company delivering weather, agriculture, energy, and commodity market data through a catalog of 36 published APIs on its developer portal. Coverage spans current conditions, point and probabilistic forecasts, 30-year station observation history, lightning, radar and map tiles, tropical cyclones, marine weather, aviation weather (METARs, TAFs, NOTAMs, PIREPs, SIGMETs, flight hazards), soil conditions, renewables production forecasting, refined fuels, and Prophet X commodity market data. All APIs authenticate with OAuth2 client credentials via the DTN Auth and Identity Service, publish OpenAPI specs and Postman collections, and stream real-time data over WebSocket and HTTP streaming surfaces.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/screenshots/dtn-2026-06-20T180300.png",
-     "score": 52.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 78.6,
-      "contract_quality": 60.5,
-      "contract_governance": 14.4,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 68.5,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 34.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 34.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Feed & Infrastructure",
-     "rank": 15
-    },
-    {
      "name": "Kaiko",
      "slug": "kaiko",
      "description": "Kaiko is an institutional-grade crypto market data provider. Its product line spans Kaiko REST (historical and reference data), Kaiko Stream (real-time WebSocket and gRPC), Cloud Delivery (S3 and Snowflake direct shares), Kaiko On-chain, and Kaiko Indices (regulated benchmark indices). Authentication uses API keys; access is sales-led.",
@@ -828,7 +777,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -861,7 +810,7 @@
       "agentic_commerce": false
      },
      "tier": "Crypto Market Data",
-     "rank": 16
+     "rank": 15
     },
     {
      "name": "Tradier",
@@ -879,7 +828,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -912,6 +861,57 @@
       "agentic_commerce": false
      },
      "tier": "Developer-First",
+     "rank": 16
+    },
+    {
+     "name": "DTN",
+     "slug": "dtn",
+     "description": "DTN is an operational intelligence company delivering weather, agriculture, energy, and commodity market data through a catalog of 36 published APIs on its developer portal. Coverage spans current conditions, point and probabilistic forecasts, 30-year station observation history, lightning, radar and map tiles, tropical cyclones, marine weather, aviation weather (METARs, TAFs, NOTAMs, PIREPs, SIGMETs, flight hazards), soil conditions, renewables production forecasting, refined fuels, and Prophet X commodity market data. All APIs authenticate with OAuth2 client credentials via the DTN Auth and Identity Service, publish OpenAPI specs and Postman collections, and stream real-time data over WebSocket and HTTP streaming surfaces.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/screenshots/dtn-2026-06-20T180300.png",
+     "score": 52.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 60.5,
+      "contract_governance": 14.4,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 68.5,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 34.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 34.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Feed & Infrastructure",
      "rank": 17
     },
     {
@@ -930,7 +930,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -981,7 +981,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1032,7 +1032,7 @@
       "developer_ergonomics": 76.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1083,7 +1083,7 @@
       "developer_ergonomics": 29.2,
       "access_clarity": 58.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1123,18 +1123,18 @@
      "slug": "benzinga",
      "description": "Benzinga is a Detroit-based financial media and market data company (founded 2010, acquired by Beringer Capital in 2021) that licenses its newsroom and data products through a developer-first API platform at docs.benzinga.com. Products span real-time financial news (Newsfeed, Press Releases, Why Is It Moving), quantified news sentiment, a deep corporate-events Calendar (earnings, dividends, ratings, IPOs, splits, economics, FDA, M&A, government and insider trades), delayed quotes, historical OHLCV bars, fundamentals, logos, ticker trends, and earnings-call transcripts. Delivery is REST over https://api.benzinga.com with API-key auth, plus WebSocket streams, a TCP streaming service (tcp-v1.benzinga.io:11337), and a data webhook engine. OpenAPI and AsyncAPI specs are published in the public Benzinga/benzinga-docs GitHub repo. Access is licensing-led with a developer console registration flow; no public pricing page.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/benzinga/refs/heads/main/screenshots/benzinga-2026-07-22T202216.png",
-     "score": 50.4,
+     "score": 49.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 78.6,
+      "discoverability": 73.2,
       "contract_quality": 54.0,
       "contract_governance": 4.5,
       "operational_transparency": 52.6,
       "developer_ergonomics": 66.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1170,57 +1170,6 @@
      "rank": 22
     },
     {
-     "name": "CryptoCompare",
-     "slug": "cryptocompare",
-     "description": "CryptoCompare (now CoinDesk Data / CCData, acquired by CoinDesk in late 2024) is a long-standing crypto market data aggregator covering 300+ exchanges, 10,000+ assets, and 300,000+ trading pairs. The platform exposes two REST API surfaces — the legacy min-api.cryptocompare.com (Price, Historical OHLCV, Top Lists, News, Social, Order Book, Exchanges, Blockchain) and the modern data-api.cryptocompare.com / CoinDesk Data API (Spot, Index / Reference Rates including CADLI and CCIX, Asset, News, On-Chain, Futures, Options, Overview) — plus a unified WebSocket streamer at wss://streamer.cryptocompare.com/v2 that multiplexes Trade, Ticker, CCCAGG aggregate index, Order Book L2 updates and snapshots, Full Volume, Top Tier Full Volume, OHLC Candles, and Top of Book channels. Authentication uses an API key supplied as the api_key query parameter or as an `Authorization: Apikey {key}` header. Access is metered by monthly call credits with per-second / per-minute / per-hour / per-day ceilings; the Free tier issues 100,000 monthly credits and commercial Starter / Professional / Enterprise tiers escalate credit budgets, history depth, and surface coverage (news, social, on-chain, derivatives, full streamer, on-demand bulk exports, reference-rate licensing).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/screenshots/cryptocompare-2026-06-20T175310.png",
-     "score": 49.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.0,
-      "contract_quality": 69.1,
-      "contract_governance": 31.8,
-      "operational_transparency": 46.8,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 49.5
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 21.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 57.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": "na",
-      "error_semantics": "derived",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "tier": "Crypto Market Data",
-     "rank": 23
-    },
-    {
      "name": "Alpha Vantage",
      "slug": "alpha-vantage",
      "description": "Alpha Vantage provides a single REST market-data API at https://www.alphavantage.co/query exposing 100+ functions across stocks (intraday/daily/weekly/monthly time series, global quote), fundamentals (income statement, balance sheet, cash flow, earnings), forex, crypto, commodities, economic indicators, technical indicators (50+ TA functions), Alpha Intelligence (news, sentiment, insider transactions, top gainers/losers), and options data. Authentication is by apikey query parameter; output is JSON or CSV.",
@@ -1236,7 +1185,7 @@
       "developer_ergonomics": 72.0,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1269,7 +1218,7 @@
       "agentic_commerce": false
      },
      "tier": "Developer-First",
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "Deutsche Börse",
@@ -1287,7 +1236,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1320,7 +1269,7 @@
       "agentic_commerce": false
      },
      "tier": "Exchange Data Arm",
-     "rank": 25
+     "rank": 24
     },
     {
      "name": "Cboe Global Markets",
@@ -1338,7 +1287,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1371,6 +1320,57 @@
       "agentic_commerce": false
      },
      "tier": "Exchange Data Arm",
+     "rank": 25
+    },
+    {
+     "name": "CryptoCompare",
+     "slug": "cryptocompare",
+     "description": "CryptoCompare (now CoinDesk Data / CCData, acquired by CoinDesk in late 2024) is a long-standing crypto market data aggregator covering 300+ exchanges, 10,000+ assets, and 300,000+ trading pairs. The platform exposes two REST API surfaces — the legacy min-api.cryptocompare.com (Price, Historical OHLCV, Top Lists, News, Social, Order Book, Exchanges, Blockchain) and the modern data-api.cryptocompare.com / CoinDesk Data API (Spot, Index / Reference Rates including CADLI and CCIX, Asset, News, On-Chain, Futures, Options, Overview) — plus a unified WebSocket streamer at wss://streamer.cryptocompare.com/v2 that multiplexes Trade, Ticker, CCCAGG aggregate index, Order Book L2 updates and snapshots, Full Volume, Top Tier Full Volume, OHLC Candles, and Top of Book channels. Authentication uses an API key supplied as the api_key query parameter or as an `Authorization: Apikey {key}` header. Access is metered by monthly call credits with per-second / per-minute / per-hour / per-day ceilings; the Free tier issues 100,000 monthly credits and commercial Starter / Professional / Enterprise tiers escalate credit budgets, history depth, and surface coverage (news, social, on-chain, derivatives, full streamer, on-demand bulk exports, reference-rate licensing).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/screenshots/cryptocompare-2026-06-20T175310.png",
+     "score": 49.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 70.0,
+      "contract_quality": 69.1,
+      "contract_governance": 31.8,
+      "operational_transparency": 46.8,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 49.5
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 21.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 57.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": "na",
+      "error_semantics": "derived",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "tier": "Crypto Market Data",
      "rank": 26
     },
     {
@@ -1389,7 +1389,7 @@
       "developer_ergonomics": 64.9,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1440,7 +1440,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1491,7 +1491,7 @@
       "developer_ergonomics": 73.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1542,7 +1542,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1593,7 +1593,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1644,7 +1644,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 47.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1695,7 +1695,7 @@
       "developer_ergonomics": 48.2,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1753,7 +1753,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1804,7 +1804,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1855,7 +1855,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1906,7 +1906,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1957,7 +1957,7 @@
       "developer_ergonomics": 43.5,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2018,7 +2018,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2069,7 +2069,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2120,7 +2120,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2171,7 +2171,7 @@
       "developer_ergonomics": 48.8,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2222,7 +2222,7 @@
       "developer_ergonomics": 67.9,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2273,7 +2273,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2324,7 +2324,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2375,7 +2375,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2426,7 +2426,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2477,7 +2477,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2538,7 +2538,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2589,7 +2589,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2640,7 +2640,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2691,7 +2691,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2742,7 +2742,7 @@
       "developer_ergonomics": 44.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2793,7 +2793,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2854,7 +2854,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2905,7 +2905,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2956,7 +2956,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,

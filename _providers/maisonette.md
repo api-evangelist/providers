@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: 'Maisonette''s agent-facing commerce surface: a Universal Commerce Protocol (2026-04-08) MCP server exposing thirteen tools across catalog search and lookup, cart, checkout and order. tools/list answers'
@@ -160,9 +160,9 @@ description: 'Maisonette is a New York-based online marketplace for babies and c
 image: https://www.maisonette.com/cdn/shop/files/Favicon_Maisonette_ac4c0de7-1fd8-4114-b034-f15a8d57ac59.png?v=1776358749&width=512
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at www.maisonette.com.
   name: Maisonette MCP Server
-  slug: maisonette-mcp-server
+  slug: maisonette-mcp-yml
 modified: '2026-08-25'
 name: Maisonette
 nav: Providers
@@ -182,9 +182,9 @@ rate_limits:
   slug: maisonette-rate-limits
 scopes:
 - name: Maisonette Scopes
-  scope_count: 0
+  scope_count: 4
   slug: maisonette-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 4 scopes
 score:
   band: emerging
   composite: 24.9
@@ -195,7 +195,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.7
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
@@ -210,7 +210,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 24.9
+  previous_composite: 22.2
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -222,7 +222,7 @@ score:
     regime_id: horizontal
     score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

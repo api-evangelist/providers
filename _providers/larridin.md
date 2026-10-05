@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -89,6 +89,11 @@ collections:
   name: Larridin Scout Adoption Workflow Intelligence API
   slug: open-larridin-workflow-intelligence-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/capabilities/larridin-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/larridin-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/agentic-access/larridin-agentic-access.yml
   title: ''
@@ -236,7 +241,7 @@ layout: provider
 mcp_servers:
 - description: 'Larridin publishes an official Model Context Protocol server that connects AI assistants and agents to Scout. It is enabled per organization: additional tools may be enabled for an organization and ac'
   name: Larridin MCP Server
-  slug: larridin-mcp-server
+  slug: larridin
 modified: '2026-07-19'
 name: Larridin
 nav: Providers
@@ -244,7 +249,7 @@ network: true
 overview: 'Larridin publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Adoption API, Proficiency API, Surveys API, and 2 more. Tagged areas include Company, Artificial Intelligence, AI Adoption, AI Governance, and Analytics.
 
 
-  Larridin''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, authentication, and 24 more developer resources.'
+  Larridin''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, authentication, and 25 more developer resources.'
 random_paper: 17
 scopes:
 - name: Larridin Scopes
@@ -261,7 +266,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.5
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
@@ -269,7 +274,7 @@ score:
     developer_ergonomics: 58.9
     discoverability: 75.0
     operational_transparency: 13.2
-  previous_composite: 48.3
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -287,7 +292,7 @@ score:
     regime_id: horizontal
     score: 41.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

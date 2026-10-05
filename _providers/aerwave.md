@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
 artifact_total: 4
 common:
@@ -144,7 +144,7 @@ description: Aerwave is a Dallas, Texas managed Wi-Fi provider founded in 2019 t
 image: https://register.getaerwave.com/images/aerwave_website_logo.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: 'Aerwave serves a live, anonymous Model Context Protocol endpoint at https://www.aerwave.com/_api/mcp. It is advertised in the company''s own llms.txt at https://www.aerwave.com/llms.txt and answered a '
   name: Aerwave Site MCP
   slug: aerwave-site-mcp
 modified: '2026-09-12'
@@ -193,7 +193,7 @@ score:
     regime_id: telecommunications
     score: 15.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

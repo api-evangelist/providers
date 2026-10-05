@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
   description: OAuth 2.0 authorization endpoints.
   name: Podio O Auth API
   slug: podio-oauth-api
-artifact_total: 18
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -165,6 +165,10 @@ created: '2026-05-11'
 description: Podio is a flexible work management and collaboration platform (originally acquired by Citrix in 2012, and now part of Progress Software following the October 2024 acquisition of ShareFile and Podio) that lets teams build custom apps, workspaces, and workflows for project management, CRM, and internal operations. The Podio API offers a complete programmable interface to all Podio functionality including apps, items, tasks, workspaces, users, files, and webhooks, with official client libraries available for PHP, .NET, Ruby, Java, Python, Android, and Objective-C.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/podio.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.podio.com over HTTP.
+  name: Podio MCP Server
+  slug: podio
 modified: '2026-05-11'
 name: Podio
 nav: Providers
@@ -189,7 +193,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
@@ -197,7 +201,7 @@ score:
     developer_ergonomics: 26.2
     discoverability: 68.3
     operational_transparency: 18.4
-  previous_composite: 34.7
+  previous_composite: 34.2
   provenance:
     agentic_access: derived
     contracts:
@@ -213,7 +217,7 @@ score:
     regime_id: horizontal
     score: 27.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

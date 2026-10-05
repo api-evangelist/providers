@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: External backend contract for integrators using the Bilt Checkout SDK, documented at developers.bilt.com. No owned OpenAPI spec found on Bilt's own domain.
@@ -210,7 +210,7 @@ score:
     regime_id: payments
     score: 14.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 0.0

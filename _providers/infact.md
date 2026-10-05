@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: 'The HPZone GraphQL API exposes read access to the HPZone communicable-disease control record — cases, contacts, situations, enquiries, actions and contexts — over a single POST endpoint. Access is by '
@@ -117,9 +117,9 @@ rate_limits:
   slug: infact-rate-limits
 scopes:
 - name: Infact Scopes
-  scope_count: 0
+  scope_count: 2
   slug: infact-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 2 scopes · oauth2 client_credentials
 score:
   band: emerging
   composite: 12.9
@@ -130,7 +130,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.7
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
@@ -138,7 +138,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 62.5
     operational_transparency: 0.0
-  previous_composite: 12.9
+  previous_composite: 14.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -149,7 +149,7 @@ score:
     regime_id: health
     score: 26.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

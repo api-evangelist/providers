@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: platform
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.5
-  scored_at: '2026-10-03'
+  score: 2.2
+  scored_at: '2026-10-04'
 api_count: 0
 artifact_total: 2
 common:
@@ -72,9 +72,9 @@ created: '2026-09-29'
 description: Blue Ocean Barns develops Brominata®, a patented seaweed-based feed supplement that dramatically reduces methane emissions from cattle, improving energy conversion and profitability for farmers. By leveraging Asparagopsis taxiformis, the product can cut enteric methane by up to 80%, contributing to climate-smart agriculture and offering a sustainable solution for the livestock industry.
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at www.blueoceanbarns.com.
   name: Blue Ocean Barns MCP Server
-  slug: blue-ocean-barns-mcp-server
+  slug: blue-ocean-barns-mcp-yml
 modified: '2026-09-29'
 name: Blue Ocean Barns
 nav: Providers
@@ -99,7 +99,7 @@ score:
     discoverability: 56.7
     operational_transparency: 0.0
   provenance:
-    mcp: first-party
+    mcp: platform-generated
   regulatory:
     applies: true
     matched_via: fallback
@@ -107,7 +107,7 @@ score:
     regime_id: horizontal
     score: 5.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

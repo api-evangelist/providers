@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,6 +45,11 @@ apis:
   slug: invoicecraftly-structured-invoicing-api
 artifact_total: 12
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/invoicecraftly/refs/heads/main/capabilities/invoicecraftly-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/invoicecraftly-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/invoicecraftly/refs/heads/main/overlays/invoicecraftly-openapi-overlay.yml
   title: ''
@@ -199,7 +204,7 @@ overview: 'InvoiceCraftly Developer Document API publishes 2 APIs on the [APIs.i
   The InvoiceCraftly Developer Document API catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  InvoiceCraftly Developer Document API''s developer surface includes changelog, documentation, API reference, authentication, getting-started guide, support, and 20 more developer resources.'
+  InvoiceCraftly Developer Document API''s developer surface includes changelog, documentation, API reference, authentication, getting-started guide, support, and 21 more developer resources.'
 plans:
 - name: Invoicecraftly Plans Pricing
   plan_count: 1
@@ -251,7 +256,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 0.0

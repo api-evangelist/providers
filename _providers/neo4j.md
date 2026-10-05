@@ -13,29 +13,30 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: unknown
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 30.5
-  scored_at: '2026-10-03'
+  score: 45.3
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -95,7 +96,7 @@ apis:
   description: Manage explicit transactions with full control over the transaction lifecycle including open, run, commit, and rollback operations.
   name: Neo4j Transactions API
   slug: neo4j-transactions-api
-artifact_total: 43
+artifact_total: 58
 collections:
 - collection_type: postman
   name: Neo4j Aura Authentication API
@@ -149,6 +150,143 @@ collections:
   name: Neo4j Aura Authentication Transactions API
   slug: open-neo4j-transactions-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/finops/neo4j-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/neo4j-finops.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/rate-limits/neo4j-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/neo4j-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/plans/neo4j-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/neo4j-plans-pricing.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/rules/neo4j-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/neo4j-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/rules/neo4j-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/neo4j-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/json-ld/neo4j-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/neo4j-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/vocabulary/neo4j-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/neo4j-vocabulary.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/data-model/neo4j-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/neo4j-data-model.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/cli/neo4j-cli.yml
+  title: ''
+  type: CLI
+  url: cli/neo4j-cli.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/changelog/neo4j-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/neo4j-changelog.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.neo4j.com/
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/errors/neo4j-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/neo4j-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/conformance/neo4j-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/neo4j-conformance.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/llms/neo4j-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/neo4j-llms.txt
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/well-known/neo4j-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/neo4j-security.txt
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/well-known/neo4j-help-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/neo4j-help-security.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/well-known/neo4j-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/neo4j-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/hosts/neo4j-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/neo4j-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/vendors/neo4j-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/neo4j-vendors.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/packages/neo4j-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/neo4j-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/packages/neo4j-packages.yml
+  title: ''
+  type: Packages
+  url: packages/neo4j-packages.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://neo4j.com/blog/security/graphs-for-cybersecurity/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://neo4j.com/pricing/
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://neo4j.com/news/
+- group: other
+  title: ''
+  type: Leadership
+  url: https://neo4j.com/leadership/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://neo4j.com/release-notes/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://neo4j.com/docs/reference/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://neo4j.com/docs/getting-started/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -226,6 +364,11 @@ common:
   title: ''
   type: LlmsText
   url: https://neo4j.com/llms.txt
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/capabilities/neo4j-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/neo4j-capability-edges.yml
 created: '2025-03-05'
 description: Neo4j is the leading graph database platform, enabling developers to build applications powered by connected data. Their developer platform provides HTTP, Query, and Aura cloud APIs alongside official drivers for Python, Java, and JavaScript, as well as a GraphQL library for rapid API development backed by the Neo4j graph database.
 finops:
@@ -241,12 +384,54 @@ json_schemas:
 - name: Neo4j Aura Instance
   property_count: 12
   slug: neo4j-aura-instance
+- name: CreateInstanceRequest
+  property_count: 7
+  slug: neo4j-create-instance-request
 - name: Neo4j Cypher Statement
   property_count: 4
   slug: neo4j-cypher-statement
+- name: DiscoveryResponse
+  property_count: 5
+  slug: neo4j-discovery-response
 - name: Neo4j Graph Elements
   property_count: 2
   slug: neo4j-graph-elements
+- name: InstanceCreated
+  property_count: 7
+  slug: neo4j-instance-created
+- name: Instance
+  property_count: 12
+  slug: neo4j-instance
+- name: OverwriteInstanceRequest
+  property_count: 2
+  slug: neo4j-overwrite-instance-request
+- name: QueryRequest
+  property_count: 1
+  slug: neo4j-query-request
+- name: QueryResponse
+  property_count: 2
+  slug: neo4j-query-response
+- name: RestoreSnapshotRequest
+  property_count: 6
+  slug: neo4j-restore-snapshot-request
+- name: Snapshot
+  property_count: 5
+  slug: neo4j-snapshot
+- name: Tenant
+  property_count: 3
+  slug: neo4j-tenant
+- name: TokenResponse
+  property_count: 3
+  slug: neo4j-token-response
+- name: TransactionRequest
+  property_count: 1
+  slug: neo4j-transaction-request
+- name: TransactionResponse
+  property_count: 4
+  slug: neo4j-transaction-response
+- name: UpdateInstanceRequest
+  property_count: 2
+  slug: neo4j-update-instance-request
 jsonld:
 - class_count: 0
   name: Neo4J Context
@@ -260,10 +445,10 @@ network: true
 overview: 'Neo4j publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Query API, Authentication API, Discovery API, and 9 more. Tagged areas include Neo4j, Graph Database, Cypher, Cloud, and GraphQL.
 
 
-  The Neo4j catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Neo4j catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Neo4j''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 13 more developer resources.'
+  Neo4j''s developer surface includes CLI, changelog, pricing, API reference, getting-started guide, authentication, developer portal, and 41 more developer resources.'
 plans:
 - name: Neo4J Plans Pricing
   plan_count: 8
@@ -284,32 +469,46 @@ rules:
     info: 2
     warn: 4
   slug: neo4j-jsonschema-spectral-rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Neo4j API Rules
+  rule_count: 16
+  severity_counts:
+    error: 13
+    hint: 0
+    info: 1
+    warn: 2
+  slug: neo4j-rules
 score:
-  band: developing
-  composite: 45.1
+  band: strong
+  composite: 61.3
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 49.3
+    artifact_dirs: 31
+    catalog_earned: 60.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.8
+    catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 17.4
   facets:
-    access_clarity: 51.3
-    contract_governance: 9.8
-    contract_quality: 57.9
-    developer_ergonomics: 45.7
-    discoverability: 64.3
-    operational_transparency: 10.5
-  previous_composite: 45.1
+    access_clarity: 69.7
+    contract_governance: 22.0
+    contract_quality: 64.0
+    developer_ergonomics: 74.4
+    discoverability: 67.9
+    operational_transparency: 36.8
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 7
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
@@ -317,8 +516,8 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

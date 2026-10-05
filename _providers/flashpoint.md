@@ -25,20 +25,20 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Flashpoint's REST API exposes threat intelligence, compromised credentials, vulnerability, and fraud data programmatically. Access is documented on the Flashpoint developer portal (docs.flashpoint.io)
   name: Flashpoint API
   slug: flashpoint-api
-artifact_total: 2
+artifact_total: 3
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/flashpoint/refs/heads/main/security/flashpoint-domain-security.yml
@@ -82,6 +82,10 @@ created: '2026-07-17'
 description: Flashpoint is a threat intelligence company delivering decisive intelligence for cybersecurity, fraud prevention, corporate and physical security, vulnerability management, insider threat, and national security teams. Its Ignite platform and Flashpoint API surface data collected from illicit online communities, the deep and dark web, chat services, and open sources — exposing threat actors, compromised credentials, vulnerabilities, and fraud indicators. Flashpoint makes this finished intelligence and raw data available programmatically through a REST API at api.flashpoint.io, documented at docs.flashpoint.io, so security teams can integrate alerting, data feeds, and finished intelligence into SOC, SIEM, and security automation workflows.
 image: https://flashpoint.io/wp-content/themes/flashpoint/favicons/favicon-192.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.flashpoint.io over HTTP.
+  name: Flashpoint MCP Server
+  slug: flashpoint
 modified: '2026-07-19'
 name: Flashpoint
 nav: Providers
@@ -101,7 +105,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
     access_clarity: 6.6
     contract_governance: 0.0
@@ -109,7 +113,7 @@ score:
     developer_ergonomics: 20.2
     discoverability: 75.0
     operational_transparency: 2.6
-  previous_composite: 11.7
+  previous_composite: 13.3
   provenance:
     mcp: first-party
   regulatory:
@@ -119,7 +123,7 @@ score:
     regime_id: horizontal
     score: 5.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

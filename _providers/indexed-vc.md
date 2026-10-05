@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -75,6 +75,11 @@ apis:
   slug: indexed-vc-webhooks-api
 artifact_total: 20
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/indexed-vc/refs/heads/main/capabilities/indexed-vc-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/indexed-vc-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/indexed-vc/refs/heads/main/agentic-access/indexed-vc-agentic-access.yml
   title: ''
@@ -207,7 +212,7 @@ overview: 'Indexed publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
   The Indexed catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Indexed''s developer surface includes authentication, documentation, pricing, support, and 16 more developer resources.'
+  Indexed''s developer surface includes authentication, documentation, pricing, support, and 17 more developer resources.'
 plans:
 - name: Indexed Vc Plans Pricing
   plan_count: 5
@@ -259,7 +264,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 0.0

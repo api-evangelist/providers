@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -36,7 +36,7 @@ apis:
 - description: 'Seller agent for flight search and travel checkout, exposed on one host through two protocol doors: A2A JSON-RPC 0.3 at https://travel.agenthaven.dev/a2a (message/send with a DataPart {action, input} '
   name: Agent Bench Travel Merchant
   slug: agent-bench-travel-merchant
-artifact_total: 8
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -135,12 +135,9 @@ created: '2026-09-19'
 description: 'Agent Bench operates agenthaven.dev, a DNSSEC-signed zone that publishes AI agents through DNS-AID, and runs one live agent in it: the Agent Bench Travel Merchant at travel.agenthaven.dev — a proof-of-concept seller agent that quotes real flight fares (Google Flights via SerpApi) and turns a chosen quote into a Stripe test-mode payment intent under a buyer-supplied spending mandate. It is reachable over A2A (JSON-RPC 0.3, agent card at the canonical well-known path, pinned by SHA-256 digest and ES256 signature in the DNS SVCB record) and MCP (2025-06-18, two tools with full input and output schemas, anonymous tools/list). It publishes a SPIFFE JWT-SVID for the running instance, DANE TLSA pins, an ARD trust catalog, a GoDaddy ANS registration and a public hash-chained ledger of every quote, refusal and checkout. No OpenAPI, no SDKs, no pricing; no real money moves and no ticket is issued.'
 layout: provider
 mcp_servers:
-- description: ''
+- description: Agent Bench operates ONE remote MCP server at https://travel.agenthaven.dev/mcp, on the same host as its A2A JSON-RPC endpoint (/a2a) and its documentation. It is POST-only Streamable HTTP without ser
   name: Agent Bench MCP Server
-  slug: agent-bench-mcp-server
-- description: ''
-  name: MCP endpoint (Streamable HTTP, POST only)
-  slug: mcp-endpoint-streamable-http-post-only
+  slug: agenthaven-dev-mcp-yml
 modified: '2026-09-19'
 name: Agent Bench
 nav: Providers
@@ -162,13 +159,13 @@ score:
   band: emerging
   composite: 18.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 18
     catalog_earned: 47.0
     catalog_earned_first_party: 12.0
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
@@ -176,7 +173,7 @@ score:
     developer_ergonomics: 30.4
     discoverability: 65.0
     operational_transparency: 31.6
-  previous_composite: 18.2
+  previous_composite: 18.0
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -189,7 +186,7 @@ score:
     regime_id: payments
     score: 15.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 10
 apis:
 - description: Remote Model Context Protocol server operated by IRONSCALES at mcp.ironscales.com, served over streamable HTTP at /mcp/. Access is OAuth 2.0 protected — an unauthenticated tools/list returns an RFC 67
@@ -87,7 +87,7 @@ apis:
   description: The Settings API from IRONSCALES — 4 operation(s) for settings.
   name: IRONSCALES Settings API
   slug: ironscales-settings-api
-artifact_total: 27
+artifact_total: 26
 collections:
 - collection_type: open
   name: API Collection
@@ -120,6 +120,11 @@ collections:
   name: IRONSCALES Management Settings API
   slug: open-ironscales-settings-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/capabilities/ironscales-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ironscales-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/overlays/ironscales-management-api-overlay.yaml
   title: ''
@@ -283,12 +288,9 @@ description: IRONSCALES is an AI-powered, API-based email security platform prot
 image: https://ironscales.com/hubfs/Icons%20and%20Logos/ironscales_icon_only_dark_blue-01.svg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.ironscales.com over HTTP.
   name: IRONSCALES MCP Server
-  slug: ironscales-mcp-server
-- description: ''
-  name: IRONSCALES MCP Server
-  slug: ironscales-mcp-server-2
+  slug: ironscales
 modified: '2026-08-04'
 name: IRONSCALES
 nav: Providers
@@ -296,7 +298,7 @@ network: true
 overview: 'IRONSCALES publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Campaigns API, Deepfake API, and 7 more. Tagged areas include Email Security, Cybersecurity, Phishing, Anti-Phishing, and Business Email Compromise.
 
 
-  IRONSCALES''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+  IRONSCALES''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
 random_paper: 19
 rate_limits:
 - limit_count: 1
@@ -306,13 +308,13 @@ score:
   band: strong
   composite: 56.9
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 60.5
     contract_governance: 4.5
@@ -320,7 +322,7 @@ score:
     developer_ergonomics: 58.9
     discoverability: 80.0
     operational_transparency: 63.2
-  previous_composite: 56.9
+  previous_composite: 55.5
   provenance:
     conformance: derived
     contracts:
@@ -341,7 +343,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

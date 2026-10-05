@@ -13,7 +13,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,14 +28,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.5
-  scored_at: '2026-10-03'
+  score: 35.9
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -81,7 +80,7 @@ apis:
   description: Event subscription and notification management
   name: SignNow Webhooks API
   slug: signnow-webhooks-api
-artifact_total: 37
+artifact_total: 38
 collections:
 - collection_type: postman
   name: SignNow REST Authentication API
@@ -132,6 +131,11 @@ collections:
   name: SignNow REST API
   slug: open-signnow
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/capabilities/signnow-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/signnow-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -231,6 +235,9 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
+- description: Remote MCP server at mcp-server.signnow.com over HTTP.
+  name: SignNow MCP Server
+  slug: signnow
 modified: '2026-05-19'
 name: SignNow
 nav: Providers
@@ -241,7 +248,7 @@ overview: 'SignNow publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
   The SignNow catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SignNow''s developer surface includes authentication, documentation, release notes, pricing, engineering blog, and 11 more developer resources.'
+  SignNow''s developer surface includes authentication, documentation, release notes, pricing, engineering blog, and 12 more developer resources.'
 plans:
 - name: Signnow Plans Pricing
   plan_count: 3
@@ -277,13 +284,13 @@ score:
   band: developing
   composite: 42.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 53.5
     catalog_earned_first_party: 0.0
     catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 36.8
     contract_governance: 13.6
@@ -291,7 +298,7 @@ score:
     developer_ergonomics: 45.2
     discoverability: 60.0
     operational_transparency: 36.8
-  previous_composite: 42.5
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     contracts:
@@ -307,7 +314,7 @@ score:
     regime_id: horizontal
     score: 20.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -39,14 +39,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 59.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 0
+- acting_count: 1
   human_in_the_loop: 0
   name: Stayingapi Agentic Access
   operation_count: 9
   slug: stayingapi-agentic-access
-  summary_line: 9 operations
+  summary_line: 9 operations · 1 acting
 api_count: 1
 apis:
 - description: 'Hosted MCP server (Streamable HTTP, OAuth 2.1/PKCE) exposing 7 read-only tools mapping 1:1 to the REST endpoints: search_stays, check_availability, get_listing, get_price, compare_prices, get_reviews,'
@@ -320,7 +320,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
@@ -328,7 +328,7 @@ score:
     developer_ergonomics: 76.2
     discoverability: 85.0
     operational_transparency: 73.7
-  previous_composite: 64.8
+  previous_composite: 63.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -346,7 +346,7 @@ score:
     regime_id: horizontal
     score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

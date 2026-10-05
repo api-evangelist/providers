@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Wix Site MCP endpoint served from the official AVATR Hong Kong site. Answers an anonymous JSON-RPC tools/list with 9 tools over the public marketing site (business details, in-site search, plus Wix do
@@ -126,7 +126,7 @@ description: 'AVATR Technology (Chongqing) Co., Ltd. (阿维塔科技) is a Chin
 image: https://static.avatr.com/pc-website/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
+- description: The AVATR Hong Kong site (www.avatr.hk) is built on Wix and exposes the Wix Site MCP endpoint at https://www.avatr.hk/_api/mcp. It answers an anonymous JSON-RPC tools/list with 9 tools. This is a PLAT
   name: Avatr Hong Kong site MCP server
   slug: avatr-hong-kong-site-mcp-server
 modified: '2026-08-06'
@@ -145,7 +145,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -160,7 +160,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 13.4
+  previous_composite: 13.7
   provenance:
     mcp: platform-generated
   regulatory:
@@ -170,7 +170,7 @@ score:
     regime_id: horizontal
     score: 13.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

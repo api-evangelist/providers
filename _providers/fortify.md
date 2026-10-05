@@ -23,19 +23,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-03'
+  score: 19.5
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 1
@@ -255,7 +255,7 @@ apis:
   description: Access and manage vulnerability findings
   name: Fortify Vulnerabilities API
   slug: fortify-vulnerabilities-api
-artifact_total: 151
+artifact_total: 254
 collections:
 - collection_type: postman
   name: Fortify on Demand Alert Definitions API
@@ -523,6 +523,56 @@ collections:
   slug: open-fortify-vulnerabilities-api
 common:
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/finops/fortify-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/fortify-finops.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/rate-limits/fortify-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/fortify-rate-limits.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/rules/fortify-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/fortify-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/rules/fortify-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/fortify-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/json-ld/fortify-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/fortify-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/vocabulary/fortify-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/fortify-vocabulary.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/data-model/fortify-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/fortify-data-model.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/errors/fortify-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/fortify-problem-types.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/hosts/fortify-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/fortify-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/vendors/fortify-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/fortify-vendors.yml
+- group: commercial
   title: ''
   type: Pricing
   url: https://cybersecurity.opentext.com/products/saas-backup/pricing/
@@ -733,18 +783,324 @@ finops:
   slug: fortify-finops
 image: https://www.microfocus.com/brand/fortify-logo.png
 json_schemas:
+- name: AlertDefinitionListResponse
+  property_count: 2
+  slug: fortify-alert-definition-list-response
+- name: ApiKeyListResponse
+  property_count: 2
+  slug: fortify-api-key-list-response
+- name: ApiKeyRequest
+  property_count: 2
+  slug: fortify-api-key-request
+- name: ApiKeyResponse
+  property_count: 1
+  slug: fortify-api-key-response
+- name: ApiKey
+  property_count: 5
+  slug: fortify-api-key
+- name: ApiResultArtifact
+  property_count: 3
+  slug: fortify-api-result-artifact
+- name: ApiResultAttributeDefinition
+  property_count: 3
+  slug: fortify-api-result-attribute-definition
+- name: ApiResultAuthToken
+  property_count: 3
+  slug: fortify-api-result-auth-token
+- name: ApiResultCustomTag
+  property_count: 3
+  slug: fortify-api-result-custom-tag
+- name: ApiResultFileToken
+  property_count: 3
+  slug: fortify-api-result-file-token
+- name: ApiResultIssue
+  property_count: 3
+  slug: fortify-api-result-issue
+- name: ApiResultJob
+  property_count: 3
+  slug: fortify-api-result-job
+- name: ApiResultLocalUser
+  property_count: 3
+  slug: fortify-api-result-local-user
+- name: ApiResultProject
+  property_count: 3
+  slug: fortify-api-result-project
+- name: ApiResultProjectVersion
+  property_count: 3
+  slug: fortify-api-result-project-version
+- name: ApiResultSavedReport
+  property_count: 3
+  slug: fortify-api-result-saved-report
+- name: ApiResultVoid
+  property_count: 2
+  slug: fortify-api-result-void
+- name: ApplicationIssueCountListResponse
+  property_count: 1
+  slug: fortify-application-issue-count-list-response
 - name: Fortify Application
   property_count: 10
   slug: fortify-application
+- name: ArtifactListResponse
+  property_count: 2
+  slug: fortify-artifact-list-response
+- name: AttributeListResponse
+  property_count: 2
+  slug: fortify-attribute-list-response
+- name: AttributeValue
+  property_count: 4
+  slug: fortify-attribute-value
+- name: AuthEntityListResponse
+  property_count: 2
+  slug: fortify-auth-entity-list-response
+- name: AuthEntity
+  property_count: 3
+  slug: fortify-auth-entity
+- name: CategoryRollupsResponse
+  property_count: 1
+  slug: fortify-category-rollups-response
+- name: CloudPoolListResponse
+  property_count: 2
+  slug: fortify-cloud-pool-list-response
+- name: CreateAttributeDefinitionRequest
+  property_count: 6
+  slug: fortify-create-attribute-definition-request
+- name: CreateFileTokenRequest
+  property_count: 1
+  slug: fortify-create-file-token-request
+- name: CreateLocalUserRequest
+  property_count: 8
+  slug: fortify-create-local-user-request
+- name: CreateProjectRequest
+  property_count: 3
+  slug: fortify-create-project-request
+- name: CreateProjectVersionRequest
+  property_count: 6
+  slug: fortify-create-project-version-request
+- name: CreateScanScheduleRequest
+  property_count: 6
+  slug: fortify-create-scan-schedule-request
+- name: CreateScanSettingsRequest
+  property_count: 6
+  slug: fortify-create-scan-settings-request
+- name: CreateSensorPoolRequest
+  property_count: 2
+  slug: fortify-create-sensor-pool-request
+- name: CreateTokenRequest
+  property_count: 3
+  slug: fortify-create-token-request
+- name: CustomTagListResponse
+  property_count: 2
+  slug: fortify-custom-tag-list-response
+- name: DastScan
+  property_count: 17
+  slug: fortify-dast-scan
+- name: DastScanSummary
+  property_count: 11
+  slug: fortify-dast-scan-summary
+- name: DeleteResponse
+  property_count: 1
+  slug: fortify-delete-response
+- name: FeatureListResponse
+  property_count: 2
+  slug: fortify-feature-list-response
+- name: FortifyConnectNetworkListResponse
+  property_count: 2
+  slug: fortify-fortify-connect-network-list-response
+- name: GenerateReportRequest
+  property_count: 4
+  slug: fortify-generate-report-request
+- name: GetAuditOptionsResponse
+  property_count: 1
+  slug: fortify-get-audit-options-response
+- name: GetDastAutomatedScanSetupResponse
+  property_count: 7
+  slug: fortify-get-dast-automated-scan-setup-response
+- name: GetDynamicScanSetupResponse
+  property_count: 4
+  slug: fortify-get-dynamic-scan-setup-response
+- name: GetStaticScanOptionsResponse
+  property_count: 2
+  slug: fortify-get-static-scan-options-response
+- name: HealthResponse
+  property_count: 2
+  slug: fortify-health-response
+- name: IssueListResponse
+  property_count: 2
+  slug: fortify-issue-list-response
+- name: IssueSelectorSetResponse
+  property_count: 1
+  slug: fortify-issue-selector-set-response
+- name: JobListResponse
+  property_count: 2
+  slug: fortify-job-list-response
+- name: LocalUserListResponse
+  property_count: 2
+  slug: fortify-local-user-list-response
+- name: LookupItemListResponse
+  property_count: 2
+  slug: fortify-lookup-item-list-response
+- name: MarkNotificationsAsReadRequest
+  property_count: 1
+  slug: fortify-mark-notifications-as-read-request
+- name: MicroserviceListResponse
+  property_count: 2
+  slug: fortify-microservice-list-response
+- name: MobileScanSetup
+  property_count: 5
+  slug: fortify-mobile-scan-setup
+- name: NotificationListResponse
+  property_count: 2
+  slug: fortify-notification-list-response
+- name: OpenSourceComponentListResponse
+  property_count: 2
+  slug: fortify-open-source-component-list-response
+- name: PerformanceIndicatorListResponse
+  property_count: 2
+  slug: fortify-performance-indicator-list-response
+- name: PersonalAccessToken
+  property_count: 4
+  slug: fortify-personal-access-token
+- name: PollingScanSummary
+  property_count: 5
+  slug: fortify-polling-scan-summary
+- name: PostApiKeyResponse
+  property_count: 3
+  slug: fortify-post-api-key-response
+- name: PostApplicationRequest
+  property_count: 9
+  slug: fortify-post-application-request
+- name: PostApplicationResponse
+  property_count: 3
+  slug: fortify-post-application-response
+- name: PostAttributeRequest
+  property_count: 4
+  slug: fortify-post-attribute-request
+- name: PostAuditActionRequest
+  property_count: 1
+  slug: fortify-post-audit-action-request
+- name: PostMicroserviceRequest
+  property_count: 1
+  slug: fortify-post-microservice-request
+- name: PostMicroserviceResponse
+  property_count: 2
+  slug: fortify-post-microservice-response
+- name: PostReleaseRequest
+  property_count: 5
+  slug: fortify-post-release-request
+- name: ProjectListResponse
+  property_count: 2
+  slug: fortify-project-list-response
+- name: ProjectVersionActionRequest
+  property_count: 2
+  slug: fortify-project-version-action-request
+- name: ProjectVersionListResponse
+  property_count: 2
+  slug: fortify-project-version-list-response
 - name: Fortify Project Version
   property_count: 11
   slug: fortify-project-version
+- name: PutApplicationRequest
+  property_count: 5
+  slug: fortify-put-application-request
+- name: PutAttributeRequest
+  property_count: 3
+  slug: fortify-put-attribute-request
+- name: PutDastAutomatedOpenApiScanSetupRequest
+  property_count: 7
+  slug: fortify-put-dast-automated-open-api-scan-setup-request
+- name: PutDastAutomatedWebsiteScanSetupRequest
+  property_count: 10
+  slug: fortify-put-dast-automated-website-scan-setup-request
+- name: PutDynamicScanSetupRequest
+  property_count: 9
+  slug: fortify-put-dynamic-scan-setup-request
+- name: PutDynamicScanSetupResponse
+  property_count: 1
+  slug: fortify-put-dynamic-scan-setup-response
+- name: PutMobileScanSetupRequest
+  property_count: 5
+  slug: fortify-put-mobile-scan-setup-request
+- name: PutMobileScanSetupResponse
+  property_count: 1
+  slug: fortify-put-mobile-scan-setup-response
 - name: Fortify Release
   property_count: 19
   slug: fortify-release
+- name: ReportDefinitionListResponse
+  property_count: 2
+  slug: fortify-report-definition-list-response
+- name: SavedReportListResponse
+  property_count: 2
+  slug: fortify-saved-report-list-response
+- name: ScanPolicyListResponse
+  property_count: 2
+  slug: fortify-scan-policy-list-response
+- name: ScanPolicy
+  property_count: 4
+  slug: fortify-scan-policy
+- name: ScanScheduleListResponse
+  property_count: 2
+  slug: fortify-scan-schedule-list-response
+- name: ScanSchedule
+  property_count: 7
+  slug: fortify-scan-schedule
 - name: Fortify Scan
   property_count: 20
   slug: fortify-scan
+- name: ScanSettingsListResponse
+  property_count: 2
+  slug: fortify-scan-settings-list-response
+- name: ScanSettings
+  property_count: 11
+  slug: fortify-scan-settings
+- name: SensorListResponse
+  property_count: 2
+  slug: fortify-sensor-list-response
+- name: SensorPoolListResponse
+  property_count: 2
+  slug: fortify-sensor-pool-list-response
+- name: SensorPool
+  property_count: 5
+  slug: fortify-sensor-pool
+- name: Sensor
+  property_count: 11
+  slug: fortify-sensor
+- name: StartDynamicScanRequest
+  property_count: 8
+  slug: fortify-start-dynamic-scan-request
+- name: StartScanCicdRequest
+  property_count: 2
+  slug: fortify-start-scan-cicd-request
+- name: StartScanRequest
+  property_count: 3
+  slug: fortify-start-scan-request
+- name: StartScanResponse
+  property_count: 2
+  slug: fortify-start-scan-response
+- name: UpdateLocalUserRequest
+  property_count: 6
+  slug: fortify-update-local-user-request
+- name: UpdateProjectRequest
+  property_count: 3
+  slug: fortify-update-project-request
+- name: UpdateProjectVersionRequest
+  property_count: 5
+  slug: fortify-update-project-version-request
+- name: UpdateScanScheduleRequest
+  property_count: 6
+  slug: fortify-update-scan-schedule-request
+- name: UpdateScanSettingsRequest
+  property_count: 6
+  slug: fortify-update-scan-settings-request
+- name: UpdateSensorPoolRequest
+  property_count: 2
+  slug: fortify-update-sensor-pool-request
+- name: UpdateSensorRequest
+  property_count: 2
+  slug: fortify-update-sensor-request
+- name: VulnerabilityListResponse
+  property_count: 2
+  slug: fortify-vulnerability-list-response
 - name: Fortify Vulnerability
   property_count: 24
   slug: fortify-vulnerability
@@ -761,10 +1117,10 @@ network: true
 overview: 'Fortify publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Alert Definitions API, API Keys API, Applications API, and 39 more. Tagged areas include Application Security, DAST, DevSecOps, SAST, and SCA.
 
 
-  The Fortify catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Fortify catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Fortify''s developer surface includes pricing, API reference, CLI, authentication, developer portal, documentation, getting-started guide, and 38 more developer resources.'
+  Fortify''s developer surface includes pricing, API reference, CLI, authentication, developer portal, documentation, getting-started guide, and 48 more developer resources.'
 plans:
 - name: Fortify Plans Pricing
   plan_count: 0
@@ -785,25 +1141,36 @@ rules:
     info: 2
     warn: 3
   slug: fortify-jsonschema-spectral-rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Fortify API Rules
+  rule_count: 17
+  severity_counts:
+    error: 13
+    hint: 0
+    info: 1
+    warn: 3
+  slug: fortify-rules
 score:
   band: strong
-  composite: 56.5
+  composite: 58.9
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 56.3
+    artifact_dirs: 31
+    catalog_earned: 67.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.8
+    catalog_gap: 47.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 3.5
   facets:
     access_clarity: 52.6
-    contract_governance: 14.4
-    contract_quality: 61.1
+    contract_governance: 22.0
+    contract_quality: 67.2
     developer_ergonomics: 72.0
     discoverability: 85.7
     operational_transparency: 34.2
-  previous_composite: 55.9
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -821,7 +1188,7 @@ score:
     regime_id: horizontal
     score: 30.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

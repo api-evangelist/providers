@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -100,6 +100,11 @@ collections:
   name: Badger Maps API
   slug: open-badger-maps
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/capabilities/badger-maps-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/badger-maps-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/agentic-access/badger-maps-agentic-access.yml
   title: ''
@@ -268,7 +273,7 @@ overview: 'Badger Maps publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
   The Badger Maps catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Badger Maps'' developer surface includes authentication, documentation, engineering blog, sandbox, API reference, getting-started guide, support, and 26 more developer resources.'
+  Badger Maps'' developer surface includes authentication, documentation, engineering blog, sandbox, API reference, getting-started guide, support, and 27 more developer resources.'
 plans:
 - name: Badger Maps Plans Pricing
   plan_count: 6
@@ -282,13 +287,13 @@ score:
   band: strong
   composite: 57.1
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 84.2
     contract_governance: 4.5
@@ -296,7 +301,7 @@ score:
     developer_ergonomics: 48.2
     discoverability: 66.1
     operational_transparency: 57.9
-  previous_composite: 57.1
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -314,7 +319,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

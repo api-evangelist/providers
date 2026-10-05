@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Labcorp supports HL7 FHIR-based exchange of laboratory orders, results, and diagnostic reports with provider and health-system EHR systems. The interface typically exposes FHIR resources such as Servi
@@ -107,7 +107,7 @@ score:
   band: emerging
   composite: 14.1
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 6
     catalog_earned: 39.0
     catalog_earned_first_party: 0.0
     catalog_gap: 76.0
@@ -129,7 +129,7 @@ score:
     regime_id: health
     score: 7.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

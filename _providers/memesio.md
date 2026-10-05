@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 33.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 5
@@ -48,84 +48,84 @@ apis:
 - baseURL: https://memesio.com/api
   baseurl_source: declared
   description: The agent-infra API from Memesio — 16 operation(s) for agent-infra.
-  name: Memesio Agent Infra API
+  name: Memesio agent-infra API
   slug: memesio-agent-infra-api
 - baseURL: https://memesio.com/api
   baseurl_source: declared
   description: The ai-captions API from Memesio — 9 operation(s) for ai-captions.
-  name: Memesio AI Captions API
+  name: Memesio ai-captions API
   slug: memesio-ai-captions-api
 - baseURL: https://memesio.com/api
   baseurl_source: declared
   description: The ai-jobs API from Memesio — 8 operation(s) for ai-jobs.
-  name: Memesio AI Jobs API
+  name: Memesio ai-jobs API
   slug: memesio-ai-jobs-api
 - baseURL: https://memesio.com/api
   baseurl_source: declared
   description: The ai-providers API from Memesio — 7 operation(s) for ai-providers.
-  name: Memesio AI Providers API
+  name: Memesio ai-providers API
   slug: memesio-ai-providers-api
 - baseURL: https://memesio.com/api
   baseurl_source: declared
   description: The analytics API from Memesio — 8 operation(s) for analytics.
-  name: Memesio Analytics API
+  name: Memesio analytics API
   slug: memesio-analytics-api
 - baseURL: https://memesio.com/api
   baseurl_source: declared
   description: The auth API from Memesio — 10 operation(s) for auth.
-  name: Memesio Auth API
+  name: Memesio auth API
   slug: memesio-auth-api
 - baseURL: https://memesio.com/api
   baseurl_source: declared
   description: The billing API from Memesio — 2 operation(s) for billing.
-  name: Memesio Billing API
+  name: Memesio billing API
   slug: memesio-billing-api
 - baseURL: https://memesio.com/api
   baseurl_source: declared
   description: The collaboration API from Memesio — 1 operation(s) for collaboration.
-  name: Memesio Collaboration API
+  name: Memesio collaboration API
   slug: memesio-collaboration-api
 - baseURL: https://memesio.com/api
   baseurl_source: declared
   description: The compliance API from Memesio — 1 operation(s) for compliance.
-  name: Memesio Compliance API
+  name: Memesio compliance API
   slug: memesio-compliance-api
 - baseURL: https://memesio.com/api
   baseurl_source: declared
   description: The developer-api API from Memesio — 4 operation(s) for developer-api.
-  name: Memesio Developer API
+  name: Memesio developer-api
   slug: memesio-developer-api-api
 - baseURL: https://memesio.com/api
   baseurl_source: declared
   description: The growth API from Memesio — 12 operation(s) for growth.
-  name: Memesio Growth API
+  name: Memesio growth API
   slug: memesio-growth-api
 - baseURL: https://memesio.com/api
   baseurl_source: declared
   description: The media API from Memesio — 1 operation(s) for media.
-  name: Memesio Media API
+  name: Memesio media API
   slug: memesio-media-api
 - baseURL: https://memesio.com/api
   baseurl_source: declared
   description: The memes API from Memesio — 4 operation(s) for memes.
-  name: Memesio Memes API
+  name: Memesio memes API
   slug: memesio-memes-api
 - baseURL: https://memesio.com/api
   baseurl_source: declared
   description: The public-free API from Memesio — 2 operation(s) for public-free.
-  name: Memesio Public Free API
+  name: Memesio public-free API
   slug: memesio-public-free-api
 - baseURL: https://memesio.com/api
   baseurl_source: declared
   description: The trend-alerts API from Memesio — 11 operation(s) for trend-alerts.
-  name: Memesio Trend Alerts API
+  name: Memesio trend-alerts API
   slug: memesio-trend-alerts-api
 - baseURL: https://memesio.com/api
   baseurl_source: declared
   description: The video API from Memesio — 9 operation(s) for video.
-  name: Memesio Video API
+  name: Memesio video API
   slug: memesio-video-api
-artifact_total: 232
+artifact_total: 233
 collections:
 - collection_type: open
   name: API Collection
@@ -817,11 +817,15 @@ jsonld:
   property_count: 30
   slug: memesio-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at memesio.com over HTTP; 8 tools listed.
+  name: Memesio MCP Server
+  slug: memesio
 modified: '2026-09-16'
 name: Memesio
 nav: Providers
 network: true
-overview: 'Memesio publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Agent Infra API, AI Captions API, AI Jobs API, and 13 more. Tagged areas include Memes, Media, Image Generation, Content, and Developer Tools.
+overview: 'Memesio publishes 16 APIs on the [APIs.io](https://apis.io/) network, including agent-infra API, ai-captions API, ai-jobs API, and 13 more. Tagged areas include Memes, Media, Image Generation, Content, and Developer Tools.
 
 
   The Memesio catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -863,13 +867,13 @@ score:
   band: developing
   composite: 41.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 18
     catalog_earned: 67.8
     catalog_earned_first_party: 0.0
     catalog_gap: 47.2
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
     access_clarity: 49.5
     contract_governance: 27.3
@@ -877,7 +881,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 80.0
     operational_transparency: 15.8
-  previous_composite: 41.2
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     contracts:
@@ -893,7 +897,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

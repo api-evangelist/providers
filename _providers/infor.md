@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -58,27 +58,11 @@ apis:
   baseurl_source: declared
   description: ION document routing and processing
   name: Infor ION Documents API
-  phrasing_intents:
-  - id: listIonDocuments
-    intent: List ION business documents and their routing
-    question: Which ION business documents have been routed between my Infor applications lately?
-  - id: getIonDocument
-    intent: Get one ION document with its payload
-    question: How do I see the full payload of a single ION document?
-  phrasing_ops: 2
   slug: infor-ion-documents-api
 - baseURL: https://mingle-ionapi.inforcloudsuite.com/{tenant}/M3
   baseurl_source: declared
   description: Infor M3 business API programs
   name: Infor M3 API
-  phrasing_intents:
-  - id: callM3ApiGet
-    intent: Read data from an Infor M3 MI transaction
-    question: How do I pull customer basic data out of Infor M3 through the ION API Gateway?
-  - id: callM3ApiPost
-    intent: Write to Infor M3 with an MI Add/Change/Delete
-    question: How do I add or change a customer record in Infor M3 via an MI transaction?
-  phrasing_ops: 2
   slug: infor-m3-api-api
 - description: The Infor Document Management REST API, published on the Infor Developer Portal at developer.infor.com/api and served through the ION API Gateway under the IDM suite path. It covers the content reposi
   name: Infor Document Management (IDM) API
@@ -402,7 +386,7 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.0
   facets:
     access_clarity: 72.4
     contract_governance: 31.8
@@ -410,7 +394,7 @@ score:
     developer_ergonomics: 82.7
     discoverability: 73.2
     operational_transparency: 63.2
-  previous_composite: 68.1
+  previous_composite: 66.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -428,7 +412,7 @@ score:
     regime_id: horizontal
     score: 39.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

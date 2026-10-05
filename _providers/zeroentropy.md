@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://api.zeroentropy.dev/v1
@@ -99,6 +99,11 @@ collections:
   name: ZeroEntropy Admin Usage API
   slug: open-zeroentropy-usage-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/capabilities/zeroentropy-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/zeroentropy-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/mcp/zeroentropy-mcp.yml
   title: ''
@@ -204,13 +209,13 @@ network: true
 overview: 'ZeroEntropy publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Collections API, Documents API, and 4 more. Tagged areas include Company, Enterprise Saas, Artificial Intelligence, Search, and Retrieval.
 
 
-  ZeroEntropy''s developer surface includes authentication, documentation, API reference, quickstart, signup flow, pricing, engineering blog, and 14 more developer resources.'
+  ZeroEntropy''s developer surface includes authentication, documentation, API reference, quickstart, signup flow, pricing, engineering blog, and 15 more developer resources.'
 random_paper: 1
 score:
   band: developing
   composite: 41.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -241,7 +246,7 @@ score:
     regime_id: horizontal
     score: 27.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -26,16 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
 common:
 - group: company
   title: ''
@@ -49,6 +49,10 @@ created: '2026-07-17'
 description: FanBridge was an email and SMS marketing platform for musicians, artists, bands, and creators, letting them grow and message their fan mailing lists, run newsletters, and capture subscribers from shows and social channels. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network as a stub. Enrichment (2026-07-19) confirmed FanBridge is defunct - it was acquired by Kit (formerly ConvertKit) and ceased operations on April 11, 2022, with active accounts migrated to the Kit platform. The domain fanbridge.com now 302-redirects to kit.com/fanbridge. There is no standalone FanBridge developer API, documentation, SDK, or event surface; the developer docs linked from the destination site belong to Kit, not FanBridge.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fanbridge.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.kit.com over HTTP.
+  name: Fanbridge MCP Server
+  slug: fanbridge
 modified: '2026-09-15'
 name: Fanbridge
 nav: Providers
@@ -65,7 +69,6 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -74,7 +77,6 @@ score:
     discoverability: 0.0
     operational_transparency: 0.0
   lifecycle: defunct
-  previous_composite: 0.0
   provenance:
     mcp: first-party
   regulatory:
@@ -84,8 +86,7 @@ score:
     regime_id: horizontal
     score: 0.0
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

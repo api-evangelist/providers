@@ -25,20 +25,20 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.7
-  scored_at: '2026-10-03'
+  score: 11.2
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: 'Raken Public API 3.0 is a REST API protected by OAuth 2.0 that exposes the core entities of the Raken construction field-management platform: projects (and their child projects, notes, members, produc'
   name: Raken Public API
   slug: raken-public-api
-artifact_total: 20
+artifact_total: 21
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/raken/refs/heads/main/security/raken-domain-security.yml
@@ -221,6 +221,10 @@ features:
 - Open-source MobX state libraries (mobx-mc) published under the rakenapp GitHub organization
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/raken.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.rakenapp.com over HTTP.
+  name: Raken MCP Server
+  slug: raken
 modified: '2026-05-25'
 name: Raken
 nav: Providers
@@ -240,7 +244,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 38.2
     contract_governance: 0.0
@@ -255,7 +259,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 26.5
+  previous_composite: 25.9
   provenance:
     mcp: first-party
   regulatory:
@@ -265,7 +269,7 @@ score:
     regime_id: horizontal
     score: 19.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

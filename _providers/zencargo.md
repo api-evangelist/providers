@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,14 +27,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.2
-  scored_at: '2026-10-03'
+  score: 26.6
+  scored_at: '2026-10-04'
 api_count: 7
 apis:
 - description: 'Query bookings by Zencargo reference and retrieve booking details: cargo, consignor/consignee, forwarder, incoterms, load type, mode of transport, bills of lading, required delivery date, and attached'
@@ -58,7 +58,7 @@ apis:
 - description: Outbound HTTP webhooks. Zencargo POSTs a JSON payload (topic, targetType, targetId) to a customer-registered HTTPS callback URL when events such as BOOKING_CREATED occur, signed with a base64 Zencargo
   name: Zencargo Webhooks
   slug: zencargo-webhooks
-artifact_total: 13
+artifact_total: 14
 collections:
 - collection_type: open
   name: Zencargo GraphQL API
@@ -117,6 +117,10 @@ finops:
   slug: zencargo-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zencargo.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.zencargo.com over HTTP.
+  name: Zencargo MCP Server
+  slug: zencargo
 modified: '2026-07-12'
 name: Zencargo
 nav: Providers
@@ -144,7 +148,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
     access_clarity: 26.8
     contract_governance: 0.0
@@ -152,7 +156,7 @@ score:
     developer_ergonomics: 31.0
     discoverability: 65.0
     operational_transparency: 31.1
-  previous_composite: 30.3
+  previous_composite: 32.2
   provenance:
     mcp: first-party
   regulatory:
@@ -162,7 +166,7 @@ score:
     regime_id: horizontal
     score: 11.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

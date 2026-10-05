@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: http://localhost:3000/api
@@ -83,6 +83,11 @@ collections:
   name: Vendor API Bridge Configuration Assignment Tenant Secret API
   slug: open-ironcore-labs-tenant-secret-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/capabilities/ironcore-labs-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ironcore-labs-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/overlays/ironcore-labs-vendor-bridge-overlay.yaml
   title: ''
@@ -253,7 +258,7 @@ network: true
 overview: 'IronCore Labs publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Configuration Assignment API, KMS Configuration API, Tag API, and 2 more. Tagged areas include Company, Encryption, Privacy, Security, and Application-Layer Encryption.
 
 
-  IronCore Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 28 more developer resources.'
+  IronCore Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 29 more developer resources.'
 random_paper: 8
 score:
   band: developing
@@ -290,7 +295,7 @@ score:
     regime_id: horizontal
     score: 32.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true
@@ -323,7 +328,6 @@ tags:
 - Key Management
 - Cryptography
 - Artificial Intelligence
-- Vector Database
 - Software-as-a-Service
 website: https://ironcorelabs.com/
 ---

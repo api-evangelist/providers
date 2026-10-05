@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Ethereum-compatible JSON-RPC 2.0 API served by SKALE Chains (per-chain RPC/WSS endpoints), plus SKALE Programmable Privacy methods (bite_getDecryptedTransactionData, bite_getCommitteesInfo).
@@ -133,7 +133,7 @@ layout: provider
 mcp_servers:
 - description: ''
   name: Skale Labs MCP Server
-  slug: skale-labs-mcp-server
+  slug: skale-labs-mcp-yml
 modified: '2026-07-21'
 name: Skale Labs
 nav: Providers
@@ -173,7 +173,7 @@ score:
     regime_id: payments
     score: 12.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

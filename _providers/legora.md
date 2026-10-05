@@ -25,20 +25,20 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: 'Legora aOS is the company''s agentic operating system for legal work, connecting information, communication, and execution across Agent, Monitors, Lists, Legal Research, Tabular Review, Workflows, and '
   name: Legora aOS
   slug: legora-aos
-artifact_total: 2
+artifact_total: 3
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/legora/refs/heads/main/security/legora-domain-security.yml
@@ -93,6 +93,10 @@ created: '2026-05-24'
 description: Legora is a Stockholm- and London-based legal AI company (formerly Leya) building a collaborative AI workspace for lawyers. The platform is centered on Legora aOS, an agentic operating system that connects information, communication, and the execution of legal work across Agent, Monitors, Lists, Legal Research, Tabular Review, Workflows, and the client-facing Portal, with Word and Outlook add-ins, an Editor, and a mobile app. Legora is sold to elite law firms and in-house legal teams via enterprise contracts; customers include Mannheimer Swartling, Goodwin Procter, Cleary Gottlieb, Linklaters, Bird & Bird, and HWL Ebsworth, with 400+ firms across 40+ countries. There is no public, self-serve developer API, SDK, or open-source release; integrations are arranged through enterprise sales and partnership engagements, and the platform runs on Azure OpenAI Service with SOC 2 Type II, ISO 27001, ISO 42001, GDPR, and HIPAA controls.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/legora.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.legora.com over HTTP.
+  name: Legora MCP Server
+  slug: legora
 modified: '2026-05-24'
 name: Legora
 nav: Providers
@@ -112,7 +116,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.3
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
@@ -128,7 +132,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 11.7
+  previous_composite: 14.0
   provenance:
     mcp: first-party
   regulatory:
@@ -138,7 +142,7 @@ score:
     regime_id: horizontal
     score: 5.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

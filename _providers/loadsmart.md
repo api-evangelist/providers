@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 158
-  human_in_the_loop: 120
+- acting_count: 160
+  human_in_the_loop: 122
   name: Loadsmart Agentic Access
-  operation_count: 290
+  operation_count: 284
   slug: loadsmart-agentic-access
-  summary_line: 290 operations · 158 acting · 120 human-in-the-loop
+  summary_line: 284 operations · 160 acting · 122 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api.loadsmart.com
@@ -286,7 +286,7 @@ apis:
   description: The YMS - Yard View API from Loadsmart — 4 operation(s) for yms - yard view.
   name: Loadsmart YMS - Yard View API
   slug: loadsmart-yms-yard-view-api
-artifact_total: 122
+artifact_total: 123
 collections:
 - collection_type: open
   name: API Collection
@@ -616,6 +616,10 @@ finops:
   slug: loadsmart-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/loadsmart.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.loadsmart.com over HTTP.
+  name: Loadsmart MCP Server
+  slug: loadsmart
 modified: '2026-05-25'
 name: Loadsmart
 nav: Providers
@@ -635,21 +639,21 @@ rate_limits:
   slug: loadsmart-rate-limits
 score:
   band: developing
-  composite: 41.0
+  composite: 40.5
   coverage:
     artifact_dirs: 14
-    catalog_earned: 58.0
+    catalog_earned: 55.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -2.7
   facets:
     access_clarity: 36.3
     contract_governance: 0.0
     contract_quality: 46.7
     developer_ergonomics: 52.4
-    discoverability: 68.3
+    discoverability: 63.3
     operational_transparency: 29.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -658,7 +662,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 40.5
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     contracts:
@@ -674,7 +678,7 @@ score:
     regime_id: horizontal
     score: 11.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

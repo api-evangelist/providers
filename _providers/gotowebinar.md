@@ -34,265 +34,80 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 23
+- acting_count: 25
   human_in_the_loop: 0
   name: Gotowebinar Agentic Access
   operation_count: 63
   slug: gotowebinar-agentic-access
-  summary_line: 63 operations · 23 acting
+  summary_line: 63 operations · 25 acting
 api_count: 3
 apis:
 - baseURL: https://api.getgo.com/G2W/rest/v2
   baseurl_source: declared
   description: Read attendees for past webinar sessions.
   name: GoToWebinar Attendees API
-  phrasing_intents:
-  - id: getAttendees
-    intent: List who attended one webinar session
-    question: Who actually showed up to a specific session of my GoTo Webinar event?
-  - id: getAttendee
-    intent: Get one attendee's details for a session
-    question: What registration details are kept for a single person who attended a session?
-  - id: getAttendeePollAnswers
-    intent: Get one attendee's poll answers
-    question: How did a particular attendee vote in the polls during a session?
-  - id: getAttendeeQuestions
-    intent: Get questions one attendee asked in a session
-    question: What questions did a specific attendee type in during the webinar session?
-  - id: getAttendeeSurveyAnswers
-    intent: Get one attendee's survey answers
-    question: How did a particular attendee fill out the session survey?
-  - id: listAllAttendees
-    intent: List attendees across every session of a webinar
-    question: Who attended any session of my webinar, across all of its sessions combined?
-  phrasing_ops: 6
   slug: gotowebinar-attendees-api
 - baseURL: https://api.getgo.com/G2W/rest/v2
   baseurl_source: declared
   description: Manage co-organizers on a webinar.
   name: GoToWebinar Co-Organizers API
-  phrasing_intents:
-  - id: getCoorganizers
-    intent: List a webinar's co-organizers
-    question: Who are the co-organizers on my GoTo Webinar event?
-  - id: createCoorganizers
-    intent: Add co-organizers to a webinar
-    question: How do I add a co-organizer to a webinar I'm running?
-  - id: deleteCoorganizer
-    intent: Remove a co-organizer from a webinar
-    question: How do I take someone off the co-organizer list for a webinar?
-  - id: resendCoorganizerInvitation
-    intent: Resend a co-organizer's invitation email
-    question: A co-organizer never got their invite email, can I send it again?
-  phrasing_ops: 4
   slug: gotowebinar-co-organizers-api
 - baseURL: https://api.getgo.com/G2W/rest/v2
   baseurl_source: declared
   description: Manage panelists on a webinar.
   name: GoToWebinar Panelists API
-  phrasing_intents:
-  - id: getPanelists
-    intent: List a webinar's panelists
-    question: Who is on the panel for my GoTo Webinar event?
-  - id: createPanelists
-    intent: Add panelists to a webinar
-    question: How do I add guest speakers as panelists to a webinar?
-  - id: resendPanelistInvitation
-    intent: Resend a panelist's invitation email
-    question: A panelist lost their invite, how do I send it to them again?
-  - id: deleteWebinarPanelist
-    intent: Remove a panelist from a webinar
-    question: How do I drop a speaker from a webinar's panel?
-  phrasing_ops: 4
   slug: gotowebinar-panelists-api
 - baseURL: https://api.getgo.com/G2W/rest/v2
   baseurl_source: declared
   description: Retrieve poll results from past sessions.
   name: GoToWebinar Polls API
-  phrasing_intents:
-  - id: getSessionPolls
-    intent: Get poll results for a webinar session
-    question: What were the poll results from my last GoTo Webinar session?
-  phrasing_ops: 1
   slug: gotowebinar-polls-api
 - baseURL: https://api.getgo.com/G2W/rest/v2
   baseurl_source: declared
   description: Retrieve Q&A from past sessions.
   name: GoToWebinar Questions API
-  phrasing_intents:
-  - id: getSessionQuestions
-    intent: Get the Q&A from a webinar session
-    question: What questions did the audience ask during my GoTo Webinar session, and how were they answered?
-  phrasing_ops: 1
   slug: gotowebinar-questions-api
 - baseURL: https://api.getgo.com/G2W/rest/v2
   baseurl_source: declared
   description: Retrieve webinar recording assets.
   name: GoToWebinar Recordings API
-  phrasing_intents:
-  - id: listRecordingAssets
-    intent: List an organizer's webinar recordings
-    question: Which webinar recordings does an organizer have on GoTo Webinar?
-  phrasing_ops: 1
   slug: gotowebinar-recordings-api
 - baseURL: https://api.getgo.com/G2W/rest/v2
   baseurl_source: declared
   description: Manage registrants for upcoming webinars.
   name: GoToWebinar Registrants API
-  phrasing_intents:
-  - id: createRegistrant
-    intent: Register someone for a webinar
-    question: How do I sign a person up for a webinar and get their join link?
-  - id: getAllRegistrantsForWebinar
-    intent: List everyone registered for a webinar
-    question: Who has signed up for my upcoming GoTo Webinar event?
-  - id: deleteRegistrant
-    intent: Cancel someone's webinar registration
-    question: How do I remove a person from the registration list of an upcoming webinar?
-  - id: getRegistrant
-    intent: Get one registrant's full registration
-    question: What did a specific person fill in when they registered for my webinar?
-  - id: getRegistrationFields
-    intent: Get a webinar's registration form fields
-    question: Which fields and custom questions does my webinar's registration form require?
-  phrasing_ops: 5
   slug: gotowebinar-registrants-api
 - baseURL: https://api.getgo.com/G2W/rest/v2
   baseurl_source: declared
   description: Inspect past and live webinar sessions.
   name: GoToWebinar Sessions API
-  phrasing_intents:
-  - id: getOrganizerSessions
-    intent: List an organizer's completed sessions
-    question: Which webinar sessions has an organizer completed over the last quarter?
-  - id: getAllSessions
-    intent: List past sessions of one webinar
-    question: How many times has my recurring GoTo Webinar series actually run?
-  - id: getWebinarSession
-    intent: Get attendance details for an ended session
-    question: How many registrants attended a particular session that has ended?
-  - id: getPerformance
-    intent: Get performance metrics for a session
-    question: How well did one specific session of my webinar perform?
-  - id: getPolls
-    intent: Get collated poll answers for a session
-    question: What did the audience vote in the polls during a session?
-  - id: getQuestions
-    intent: Get the questions asked in a past session
-    question: Which audience questions came up in a past webinar session and what were the answers?
-  - id: getSurveys
-    intent: Get surveys from a past session
-    question: What survey feedback did attendees leave after a session?
-  phrasing_ops: 7
   slug: gotowebinar-sessions-api
 - baseURL: https://api.getgo.com/G2W/rest/v2
   baseurl_source: declared
   description: Retrieve survey results from past sessions.
   name: GoToWebinar Surveys API
-  phrasing_intents:
-  - id: getSessionSurveys
-    intent: Get survey results for a webinar session
-    question: How did attendees rate my GoTo Webinar session in the survey?
-  phrasing_ops: 1
   slug: gotowebinar-surveys-api
 - baseURL: https://api.getgo.com/G2W/rest/v2
   baseurl_source: declared
   description: Manage per-user subscriptions to a webhook.
   name: GoToWebinar User Subscriptions API
-  phrasing_intents:
-  - id: listUserSubscriptions
-    intent: List my webhook user subscriptions
-    question: Which webhook subscriptions do I currently have set up on GoTo Webinar?
-  - id: createUserSubscription
-    intent: Subscribe a callback URL to a webhook
-    question: How do I start receiving webhook events at my own endpoint?
-  - id: getUserSubscription
-    intent: Get one webhook user subscription
-    question: What callback URL and state does a particular user subscription have?
-  - id: updateUserSubscription
-    intent: Change a user subscription's callback or state
-    question: How do I point an existing webhook subscription at a new callback URL?
-  - id: deleteUserSubscription
-    intent: Delete a webhook user subscription
-    question: How do I stop receiving webhook events for one subscription for good?
-  phrasing_ops: 5
   slug: gotowebinar-user-subscriptions-api
 - baseURL: https://api.getgo.com/G2W/rest/v2
   baseurl_source: declared
   description: Manage webhook definitions and secret keys.
   name: GoToWebinar Webhooks API
-  phrasing_intents:
-  - id: createSecretKey
-    intent: Create a webhook signing secret key
-    question: How do I get a secret key to verify the signature on webhook events?
-  - id: createWebhooks
-    intent: Create new webhooks with a callback URL
-    question: How do I register a new webhook to receive webinar events?
-  - id: updateWebhooks
-    intent: Update webhooks' callback URL or state
-    question: How do I change the callback URL on webhooks I already created?
-  - id: getWebhooks
-    intent: List my webhooks for a product
-    question: Which webhooks have I registered for GoTo Webinar?
-  - id: deleteWebhooks
-    intent: Delete webhooks by key
-    question: How do I delete webhooks I no longer use?
-  - id: getWebhook
-    intent: Get one webhook by key
-    question: What callback URL and event is a particular webhook set up for?
-  - id: createUserSubscriptions
-    intent: Create user subscriptions for a webhook
-    question: How do I subscribe users to a webhook I already created?
-  - id: updateUserSubscriptions
-    intent: Bulk update user subscriptions
-    question: How do I change the callback URL on several user subscriptions together?
-  phrasing_ops: 11
   slug: gotowebinar-webhooks-api
 - baseURL: https://api.getgo.com/G2W/rest/v2
   baseurl_source: declared
   description: Create, read, update, and delete webinars.
   name: GoToWebinar Webinars API
-  phrasing_intents:
-  - id: getAllAccountWebinars
-    intent: List all webinars across an account
-    question: Which webinars are scheduled across our whole GoTo Webinar account this month?
-  - id: getWebinars
-    intent: List an organizer's webinars in a date range
-    question: What webinars do I have coming up or already held in a given period?
-  - id: createWebinar
-    intent: Schedule a new webinar
-    question: How do I schedule a new webinar with a title and start and end time?
-  - id: getInSessionWebinars
-    intent: List webinars that are live right now
-    question: Which of my webinars are currently in session?
-  - id: getWebinar
-    intent: Get a webinar's details
-    question: What are the settings and scheduled times of one of my webinars?
-  - id: updateWebinar
-    intent: Update a webinar's title, times or description
-    question: How do I reschedule or rename a webinar I already set up?
-  - id: cancelWebinar
-    intent: Cancel a webinar
-    question: How do I cancel a scheduled webinar and let registrants know?
-  - id: getAttendeesForAllWebinarSessions
-    intent: Get attendees of all sessions of a webinar
-    question: Who attended my webinar across all its sessions, page by page?
-  phrasing_ops: 15
   slug: gotowebinar-webinars-api
 - baseURL: https://api.getgo.com/G2W/rest/v2
   baseurl_source: declared
   description: Operations available for assets of a given organizer.
   name: GoToWebinar Recording Assets API
-  phrasing_intents:
-  - id: searchAssets
-    intent: Search completed recordings in an account
-    question: How do I find a finished webinar recording by name in my GoTo Webinar account?
-  - id: searchAssetsForAdmin
-    intent: Search an organizer's recordings as an admin
-    question: As an account admin, how can I search the recordings of one organizer on my team?
-  phrasing_ops: 2
   slug: gotowebinar-recording-assets-api
 artifact_total: 87
 asyncapis:
@@ -727,7 +542,7 @@ score:
     catalog_gap: 44.2
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.2
   facets:
     access_clarity: 96.8
     contract_governance: 31.8
@@ -735,7 +550,7 @@ score:
     developer_ergonomics: 55.4
     discoverability: 71.4
     operational_transparency: 52.6
-  previous_composite: 67.1
+  previous_composite: 64.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -753,7 +568,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

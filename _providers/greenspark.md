@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 34
+- acting_count: 38
   human_in_the_loop: 1
   name: Greenspark Agentic Access
   operation_count: 67
   slug: greenspark-agentic-access
-  summary_line: 67 operations · 34 acting · 1 human-in-the-loop
+  summary_line: 67 operations · 38 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.getgreenspark.com
@@ -107,6 +107,11 @@ collections:
   name: Greenspark Climate Account Widgets API
   slug: open-greenspark-widgets-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/capabilities/greenspark-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/greenspark-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -248,7 +253,7 @@ layout: provider
 mcp_servers:
 - description: 'Greenspark operates an official remote MCP server hosted by ReadMe at https://docs.getgreenspark.com/mcp. v1 is read-only: it exposes the Greenspark OpenAPI specs and guides for schema-aware answers, '
   name: Greenspark MCP Server
-  slug: greenspark-mcp-server
+  slug: com-getgreenspark-greenspark-api
 modified: '2026-07-19'
 name: Greenspark
 nav: Providers
@@ -256,7 +261,7 @@ network: true
 overview: 'Greenspark publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Account API, Email API, Estimations API, and 4 more. Tagged areas include Sustainability, Carbon Offset, Climate, Impact, and Carbon Estimation.
 
 
-  Greenspark''s developer surface includes documentation, API reference, support, pricing, signup flow, authentication, sandbox, and 22 more developer resources.'
+  Greenspark''s developer surface includes documentation, API reference, support, pricing, signup flow, authentication, sandbox, and 23 more developer resources.'
 random_paper: 18
 score:
   band: developing
@@ -268,7 +273,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
@@ -276,7 +281,7 @@ score:
     developer_ergonomics: 51.2
     discoverability: 71.7
     operational_transparency: 18.4
-  previous_composite: 40.6
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -294,7 +299,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
   description: The Team API from Holded — 2 operation(s) for team.
   name: Holded Team API
   slug: holded-team-api
-artifact_total: 16
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -97,6 +97,11 @@ collections:
   name: Holded REST API
   slug: open-holded
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/capabilities/holded-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/holded-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/agentic-access/holded-agentic-access.yml
   title: ''
@@ -148,6 +153,10 @@ created: '2026-05-11'
 description: Holded is a cloud-based all-in-one business management platform from Spain (now part of Visma) that combines ERP, CRM, accounting, invoicing, inventory, project management, HR, and team collaboration features for small and medium-sized businesses. The Holded REST API provides programmatic access to invoicing, contacts, products, accounting, projects, employees, and CRM data using a simple API key authentication scheme over JSON.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/holded.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.holded.com over HTTP.
+  name: Holded MCP Server
+  slug: holded
 modified: '2026-05-11'
 name: Holded
 nav: Providers
@@ -155,19 +164,19 @@ network: true
 overview: 'Holded publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Accounting API, Crm API, Invoicing API, and 3 more. Tagged areas include ERP, CRM, Accounting, Invoicing, and Business Management.
 
 
-  Holded''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 6 more developer resources.'
+  Holded''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
 random_paper: 8
 score:
   band: thin
   composite: 27.0
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
@@ -183,7 +192,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 27.0
+  previous_composite: 28.9
   provenance:
     agentic_access: derived
     contracts:
@@ -199,7 +208,7 @@ score:
     regime_id: horizontal
     score: 11.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

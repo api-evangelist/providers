@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/betterleap/refs/heads/main/security/betterleap-domain-security.yml
@@ -69,6 +69,10 @@ created: '2026-07-17'
 description: Betterleap is an AI-powered healthcare recruiting platform that automates candidate sourcing, credential verification, and multi-step outreach for talent acquisition teams. Its agentic search lets recruiters describe an ideal candidate conversationally and surfaces qualified matches from a database of 35M+ verified healthcare professionals, with licensing verified through 25+ state board partnerships. The platform autonomously drafts and sends personalized email sequences with follow-ups, integrates with ATS platforms such as Workday, Oracle, and UKG for talent rediscovery and data refresh, and reports recruiting performance and ROI through an insights dashboard. Betterleap is a venture-backed company (a16z portfolio) added to the API Evangelist network; it operates as a SaaS web application and does not currently publish a public developer API.
 image: https://www.betterleap.com/favicon.ico
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.betterleap.com over HTTP.
+  name: Betterleap MCP Server
+  slug: betterleap
 modified: '2026-07-18'
 name: Betterleap
 nav: Providers
@@ -88,7 +92,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -96,7 +100,7 @@ score:
     developer_ergonomics: 2.4
     discoverability: 51.7
     operational_transparency: 0.0
-  previous_composite: 9.6
+  previous_composite: 9.5
   provenance:
     mcp: first-party
   regulatory:
@@ -106,7 +110,7 @@ score:
     regime_id: health
     score: 10.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

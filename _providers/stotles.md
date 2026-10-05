@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 57.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: Hosted, remote Model Context Protocol server exposing Stotles public sector market data to AI chat tools and agents. Streamable-HTTP transport at api.stotles.com/mcp, authenticated with the same x-api
@@ -61,7 +61,7 @@ apis:
   description: Suppliers bidding for and winning public sector contracts.
   name: Stotles Suppliers API
   slug: stotles-suppliers-api
-artifact_total: 11
+artifact_total: 10
 common:
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/stotles/refs/heads/main/overlays/stotles-public-api-overlay.yaml
@@ -168,10 +168,6 @@ description: 'Stotles is a B2G (business-to-government) public sector procuremen
   authenticate with a static x-api-key header; keys are issued by a Customer Success Manager rather than self-serve, and MCP access is in beta behind a waitlist.'
 image: https://cdn.prod.website-files.com/67caf809eabcc3eb572f7bc7/68149b136c8bcfe66f0b8b2f_SEO%20Image%20-%20Homepage.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Stotles MCP Server
-  slug: stotles-mcp-server
 modified: '2026-08-14'
 name: Stotles
 nav: Providers
@@ -199,7 +195,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.6
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
@@ -216,7 +212,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 54.1
+  previous_composite: 57.7
   provenance:
     conformance: first-party
     contracts:
@@ -237,7 +233,7 @@ score:
     regime_id: government
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -92,6 +92,11 @@ collections:
   name: Speechmatics Batch Transcription API Keys Usage API
   slug: open-speechmatics-usage-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/capabilities/speechmatics-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/speechmatics-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/agentic-access/speechmatics-agentic-access.yml
   title: ''
@@ -198,7 +203,7 @@ overview: 'Speechmatics publishes 7 APIs on the [APIs.io](https://apis.io/) netw
   The Speechmatics catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Speechmatics'' developer surface includes authentication, documentation, engineering blog, pricing, developer portal, and 12 more developer resources.'
+  Speechmatics'' developer surface includes authentication, documentation, engineering blog, pricing, developer portal, and 13 more developer resources.'
 plans:
 - name: Speechmatics Plans Pricing
   plan_count: 4
@@ -223,13 +228,13 @@ score:
   band: developing
   composite: 48.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 75.9
     catalog_earned_first_party: 0.0
     catalog_gap: 39.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.0
   facets:
     access_clarity: 54.7
     contract_governance: 9.8
@@ -242,7 +247,7 @@ score:
     countries:
     - united-kingdom
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 48.6
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     contracts:
@@ -257,7 +262,7 @@ score:
     regime_id: horizontal
     score: 20.0
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

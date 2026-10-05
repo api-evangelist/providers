@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: 'Hosted, OAuth-secured Model Context Protocol server that lets supported AI assistants work inside Martini projects using the signed-in user''s account permissions — browse projects, canvases, subjects '
@@ -129,9 +129,9 @@ description: Martini is a collaborative, AI-native filmmaking platform — "Figm
 image: https://www.martini.film/marketing/uisample-3.jpg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at www.martini.film over HTTP requiring OAuth; 22 tools listed.
   name: Martini MCP Server
-  slug: martini-mcp-server
+  slug: martini
 modified: '2026-07-20'
 name: Martini
 nav: Providers
@@ -151,7 +151,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 6.6
     contract_governance: 4.5
@@ -159,7 +159,7 @@ score:
     developer_ergonomics: 19.0
     discoverability: 75.0
     operational_transparency: 2.6
-  previous_composite: 14.3
+  previous_composite: 13.6
   provenance:
     conformance: derived
     mcp: first-party
@@ -171,7 +171,7 @@ score:
     regime_id: horizontal
     score: 20.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

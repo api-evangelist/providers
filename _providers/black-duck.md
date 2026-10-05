@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -30,18 +30,87 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.7
-  scored_at: '2026-10-03'
-api_count: 1
+  score: 17.6
+  scored_at: '2026-10-04'
+api_count: 6
 apis:
 - description: REST API for Black Duck SCA (Hub) — projects, versions, components, vulnerabilities, policies, scans, and reports. Each Black Duck server publishes its own OpenAPI 3 document at /api-doc/openapi3-publ
   name: Black Duck SCA REST API
   slug: black-duck-sca-rest-api
-artifact_total: 6
+- baseURL: https://polaris.blackduck.com
+  baseurl_source: declared
+  description: The Black Duck API API from Black Duck — 1 operation(s) for black duck api.
+  name: Black Duck Black Duck API
+  slug: black-duck-black-duck-api-api
+- baseURL: https://polaris.blackduck.com
+  baseurl_source: declared
+  description: The Issues API from Black Duck — 1 operation(s) for issues.
+  name: Black Duck Issues API
+  slug: black-duck-issues-api
+- baseURL: https://polaris.blackduck.com
+  baseurl_source: declared
+  description: The Projects API from Black Duck — 3 operation(s) for projects.
+  name: Black Duck Projects API
+  slug: black-duck-projects-api
+- baseURL: https://polaris.blackduck.com
+  baseurl_source: declared
+  description: The Search API from Black Duck — 1 operation(s) for search.
+  name: Black Duck Search API
+  slug: black-duck-search-api
+- baseURL: https://polaris.blackduck.com
+  baseurl_source: declared
+  description: The Users API from Black Duck — 1 operation(s) for users.
+  name: Black Duck Users API
+  slug: black-duck-users-api
+artifact_total: 15
 common:
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.blackduck.com/company/legal/privacy-policy.html
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/rules/black-duck-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/black-duck-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/json-ld/black-duck-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/black-duck-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/vocabulary/black-duck-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/black-duck-vocabulary.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/data-model/black-duck-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/black-duck-data-model.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/conformance/black-duck-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/black-duck-conformance.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/mcp/black-duck-mcp.yml
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/black-duck-mcp.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/hosts/black-duck-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/black-duck-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/vendors/black-duck-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/black-duck-vendors.yml
 - group: company
   title: ''
   type: Website
@@ -87,14 +156,6 @@ common:
   title: ''
   type: SignUp
   url: https://www.blackduck.com/software-composition-analysis-tools/black-duck-sca/get-pricing.html
-- group: commercial
-  title: ''
-  type: TermsOfService
-  url: https://www.blackduck.com/company/legal/website-terms-of-use.html
-- group: commercial
-  title: ''
-  type: PrivacyPolicy
-  url: https://www.blackduck.com/company/legal/privacy.html
 - group: build
   href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/packages/black-duck-packages.yml
   title: ''
@@ -152,62 +213,96 @@ common:
   title: ''
   type: Security
   url: https://www.blackduck.com/company/legal/security-commitments.html
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/llms/black-duck-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/black-duck-llms.txt
+coverage:
+  checked: '2026-10-03'
+  detail: No OpenAPI or other machine-readable contract found despite API documentation at https://documentation.blackduck.com/category/api.
+  evidence:
+  - status: 0
+    url: https://api.blackduck.com/openapi.json
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-07-17'
 description: Black Duck Software (formerly the Synopsys Software Integrity Group) is an application security company whose platform spans software composition analysis (SCA), static application security testing (SAST), dynamic application security testing (DAST), interactive application security testing (IAST), and open-source license and vulnerability management. Its API-first products — Black Duck SCA (Hub), Polaris, Coverity, and Seeker — expose REST APIs, webhooks, native CI/CD plug-ins, and the Detect command-line scanner so teams can automate open-source discovery, policy enforcement, and risk remediation across build pipelines such as Jenkins, GitHub Actions, GitLab CI, and Azure DevOps. Each Black Duck server publishes its own OpenAPI 3 document and Postman collection at /api-doc, and first-party Python and Go client libraries plus the Detect CLI wrap the API surface. This profile was seeded as a general-catalyst portfolio lead and enriched by the API Evangelist pipeline.
 image: https://www.blackduck.com/content/dam/black-duck/style-guide/header/BlackDuckLogo.svg
+json_schemas:
+- name: GetApiV2IssuesSourcecodeinfoResponse
+  property_count: 25
+  slug: black-duck-get-api-v2-issues-sourcecodeinfo-response
+- name: PutApiProjectsProjectidVersionsProjectversionidComponentsCom
+  property_count: 1
+  slug: black-duck-put-api-projects-projectid-versions-projectversionid-components-com
+- name: PutApiProjects19A61354Doc25D408374Ba71F3Dd6983VersionsAbqwe3
+  property_count: 1
+  slug: black-duck-put-api-projects19-a61354-doc25-d408374-ba71-f3-dd6983-versions-abqwe3
+jsonld:
+- class_count: 3
+  name: Black Duck Context
+  property_count: 4
+  slug: black-duck-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Black Duck MCP Server
-  slug: black-duck-mcp-server
 modified: '2026-07-18'
 name: Black Duck
 nav: Providers
 network: true
-overview: 'Black Duck publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Application Security, Software Composition Analysis, and SAST.
+overview: 'Black Duck publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Black Duck API, Issues API, Projects API, and 3 more. Tagged areas include Company, Enterprise, Application Security, Software Composition Analysis, and SAST.
 
 
-  Black Duck''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
+  The Black Duck catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Black Duck''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
 random_paper: 9
+rules:
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Black Duck API Rules
+  rule_count: 12
+  severity_counts:
+    error: 10
+    hint: 0
+    info: 1
+    warn: 1
+  slug: black-duck-rules
 score:
-  band: thin
-  composite: 34.3
+  band: developing
+  composite: 43.2
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 37.0
+    artifact_dirs: 22
+    catalog_earned: 59.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 55.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.5
   facets:
     access_clarity: 39.5
-    contract_governance: 0.0
-    contract_quality: 0.0
+    contract_governance: 22.0
+    contract_quality: 21.6
     developer_ergonomics: 61.9
-    discoverability: 71.7
+    discoverability: 80.0
     operational_transparency: 44.7
-  previous_composite: 34.3
+  previous_composite: 33.7
   provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
     mcp: third-party
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.5
+    score: 27.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/screenshots/black-duck-2026-07-25T203232.png
 security:
 - kind: authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 8
 apis:
 - description: The core NMI Payment API (Direct Post) enables transaction processing across card-present, ecommerce, mobile, and alternative payment methods including Apple Pay and Google Pay. Supports authorization
@@ -60,7 +60,7 @@ apis:
 - description: The NMI Customer-Present Cloud API enables browser-based point-of-sale payment processing without software installation. Supports cloud device registration and control, payment requests on connected d
   name: NMI Customer-Present Cloud API
   slug: nmi-customer-present-cloud-api
-artifact_total: 12
+artifact_total: 13
 common:
 - group: company
   title: ''
@@ -123,6 +123,10 @@ finops:
   slug: finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nmi.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at docs.nmi.com over HTTP; 7 tools listed.
+  name: NMI MCP Server
+  slug: nmi
 modified: '2026-09-16'
 name: NMI
 nav: Providers
@@ -150,7 +154,7 @@ score:
     catalog_gap: 61.2
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 36.3
     contract_governance: 0.0
@@ -158,7 +162,7 @@ score:
     developer_ergonomics: 36.9
     discoverability: 73.3
     operational_transparency: 0.0
-  previous_composite: 25.8
+  previous_composite: 25.9
   provenance:
     mcp: first-party
   regulatory:
@@ -168,7 +172,7 @@ score:
     regime_id: payments
     score: 5.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

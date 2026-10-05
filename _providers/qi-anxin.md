@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: REST threat-intelligence API from the QAX Threat Intelligence Center. Provides IP reputation, domain and URL reputation, file/hash verdicts, compromise (失陷) detection intelligence and vulnerability in
@@ -162,7 +162,7 @@ description: 'Qi An Xin Technology Group (QAX, 奇安信) is a Beijing-headquart
 image: https://en.qianxin.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.ti.qianxin.com requiring an API key; 16 tools listed.
   name: QAX Threat Intelligence MCP Service
   slug: qax-threat-intelligence-mcp-service
 modified: '2026-08-26'
@@ -192,7 +192,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
@@ -207,7 +207,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 19.7
+  previous_composite: 18.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -218,7 +218,7 @@ score:
     regime_id: horizontal
     score: 22.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

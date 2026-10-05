@@ -14,7 +14,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -32,8 +32,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.7
-  scored_at: '2026-10-03'
+  score: 31.5
+  scored_at: '2026-10-04'
+agentic_access:
+- acting_count: 4
+  human_in_the_loop: 0
+  name: Stoplight Agentic Access
+  operation_count: 5
+  slug: stoplight-agentic-access
+  summary_line: 5 operations · 4 acting
 api_count: 2
 apis:
 - description: 'Stoplight Platform is a SaaS collaborative API design and documentation management tool providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, '
@@ -58,26 +65,44 @@ apis:
   baseurl_source: declared
   description: The Versions API from Stoplight — 5 operation(s) for versions.
   name: Stoplight Versions API
-  phrasing_intents:
-  - id: POST_versions-publish-anon
-    intent: Publish API docs anonymously to api-docs.io
-    question: Can I publish a Swagger or RAML spec as public docs without a Stoplight account?
-  - id: GET_versions-versionId-export-format
-    intent: Export an API version as OpenAPI, RAML or Stoplight
-    question: How do I download my Stoplight API version as an OpenAPI YAML file?
-  - id: PUT_versions-versionId-import
-    intent: Import a spec into an existing API version
-    question: How do I sync my externally maintained Swagger file into an existing Stoplight version?
-  - id: POST_versions-versionId-publish
-    intent: Re-publish docs for an API version
-    question: Can my CI pipeline automatically re-publish the docs after I import a new spec?
-  - id: PUT_versions-versionId-unpublish
-    intent: Unpublish the docs for an API version
-    question: Can I take down the published documentation for one API version?
-  phrasing_ops: 5
   slug: stoplight-versions-api
-artifact_total: 18
+artifact_total: 20
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/agentic-access/stoplight-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/stoplight-agentic-access.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/rules/stoplight-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/stoplight-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/rules/stoplight-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/stoplight-jsonschema-spectral-rules.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/lifecycle/stoplight-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/stoplight-lifecycle.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/errors/stoplight-error-codes.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/stoplight-error-codes.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/hosts/stoplight-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/stoplight-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/vendors/stoplight-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/stoplight-vendors.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/vendor-facets/stoplight-vendor-facets.yml
   title: ''
@@ -338,11 +363,6 @@ common:
   type: JSONLD
   url: json-ld/stoplight-context.jsonld
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/llms/stoplight-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/stoplight-llms.txt
-- group: agent
   href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
@@ -379,10 +399,10 @@ network: true
 overview: 'Stoplight publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Versions API, and 6 more. Tagged areas include API Design, API Documentation, API Governance, AsyncAPI, and Design-First.
 
 
-  The Stoplight catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Stoplight catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Stoplight''s developer surface includes developer portal, documentation, pricing, engineering blog, support, signup flow, getting-started guide, and 54 more developer resources.'
+  Stoplight''s developer surface includes developer portal, documentation, pricing, engineering blog, support, signup flow, getting-started guide, and 60 more developer resources.'
 plans:
 - name: Stoplight Plans Pricing
   plan_count: 5
@@ -403,29 +423,41 @@ rules:
     info: 2
     warn: 3
   slug: stoplight-jsonschema-spectral-rules
+- effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: Stoplight API Rules
+  rule_count: 13
+  severity_counts:
+    error: 11
+    hint: 0
+    info: 1
+    warn: 1
+  slug: stoplight-rules
 score:
   band: exemplar
-  composite: 70.4
+  composite: 71.8
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 62.8
+    artifact_dirs: 33
+    catalog_earned: 64.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 52.3
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.8
   facets:
     access_clarity: 100.0
-    contract_governance: 41.7
+    contract_governance: 45.5
     contract_quality: 55.6
     developer_ergonomics: 80.4
     discoverability: 65.2
-    operational_transparency: 44.7
+    operational_transparency: 52.6
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 70.4
+  previous_composite: 69.0
   provenance:
+    agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
@@ -445,7 +477,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

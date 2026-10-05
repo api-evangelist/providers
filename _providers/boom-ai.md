@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 63.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -48,246 +48,56 @@ apis:
   baseurl_source: declared
   description: The CDP Custom Objects API from Boom Ai — 5 operation(s) for cdp custom objects.
   name: Boom Ai CDP Custom Objects API
-  phrasing_intents:
-  - id: cdp_custom_objects_list
-    intent: List custom objects of one type
-    question: Which orders or other custom records have I stored in the CDP for a given type?
-  - id: cdp_custom_objects_upsert
-    intent: Create or update a custom object
-    question: How do I save a single order or subscription record into the CDP?
-  - id: cdp_custom_objects_delete
-    intent: Delete a custom object
-    question: What happens to a custom object's relationships when I delete it?
-  - id: cdp_custom_objects_get
-    intent: Read one custom object
-    question: What attributes are stored on a specific custom object?
-  - id: cdp_custom_objects_batch_upsert
-    intent: Bulk upsert custom objects
-    question: How many custom objects can I load into the CDP in a single request?
-  - id: cdp_custom_object_types_list
-    intent: List custom object types
-    question: Which custom object types have been defined for my organization?
-  - id: cdp_custom_object_types_create
-    intent: Define a new custom object type
-    question: How do I define a new kind of custom record, like orders, before loading any?
-  - id: cdp_custom_object_types_get
-    intent: Read one custom object type
-    question: What is the label and description of a particular custom object type?
-  phrasing_ops: 8
   slug: boom-ai-cdp-custom-objects-api
 - baseURL: https://dev.useboom.ai
   baseurl_source: declared
   description: The CDP Events API from Boom Ai — 3 operation(s) for cdp events.
   name: Boom Ai CDP Events API
-  phrasing_intents:
-  - id: cdp_events_list
-    intent: List behavioral events
-    question: Which events has a particular customer triggered recently?
-  - id: cdp_events_record
-    intent: Record one event in real time
-    question: How do I send a checkout event so it can trigger a journey right away?
-  - id: cdp_events_get
-    intent: Read one event
-    question: What payload was stored for a specific event?
-  - id: cdp_events_batch_record
-    intent: Bulk load historical events
-    question: How do I backfill historical events without enrolling people in journeys?
-  phrasing_ops: 4
   slug: boom-ai-cdp-events-api
 - baseURL: https://dev.useboom.ai
   baseurl_source: declared
   description: The CDP People API from Boom Ai — 4 operation(s) for cdp people.
   name: Boom Ai CDP People API
-  phrasing_intents:
-  - id: cdp_people_list
-    intent: List people in the CDP
-    question: Who are the most recently added people in my customer data?
-  - id: cdp_people_upsert
-    intent: Create or update a person
-    question: How do I add a customer with their phone number so Boom can reach them?
-  - id: cdp_people_delete
-    intent: Delete a person
-    question: Are a person's events kept when I delete their profile?
-  - id: cdp_people_get
-    intent: Read one person by external id
-    question: What profile data do we hold for a customer with a known external id?
-  - id: cdp_people_batch_upsert
-    intent: Bulk upsert people
-    question: How many customers can I import into the CDP in one request?
-  - id: cdp_people_search
-    intent: Search people by name, email or phone
-    question: How do I find a customer when I only know part of their email or phone number?
-  phrasing_ops: 6
   slug: boom-ai-cdp-people-api
 - baseURL: https://dev.useboom.ai
   baseurl_source: declared
   description: The CDP Relationships API from Boom Ai — 4 operation(s) for cdp relationships.
   name: Boom Ai CDP Relationships API
-  phrasing_intents:
-  - id: cdp_relationship_types_list
-    intent: List relationship types
-    question: Which relationship types are defined, so I know how people and objects can be linked?
-  - id: cdp_relationship_types_register
-    intent: Register a relationship type
-    question: How do I define that a person places orders, or that an order has line items?
-  - id: cdp_relationship_types_get
-    intent: Read one relationship type
-    question: What role and object types does a specific relationship type connect?
-  - id: cdp_relationships_unlink
-    intent: Unlink a relationship
-    question: How do I remove the link between one person and a custom object?
-  - id: cdp_relationships_list
-    intent: List relationship links for a person or object
-    question: Which orders or other objects is a given person linked to?
-  - id: cdp_relationships_link
-    intent: Link a person or object to an object
-    question: How do I connect a single person to an order they placed?
-  - id: cdp_relationships_batch
-    intent: Bulk link or unlink relationships
-    question: Can I link and unlink many relationships in one request?
-  phrasing_ops: 7
   slug: boom-ai-cdp-relationships-api
 - baseURL: https://dev.useboom.ai
   baseurl_source: declared
   description: The CDP Sources API from Boom Ai — 1 operation(s) for cdp sources.
   name: Boom Ai CDP Sources API
-  phrasing_intents:
-  - id: cdp_sources_list
-    intent: List connected data sources
-    question: Is my Shopify store connected and active in Boom?
-  phrasing_ops: 1
   slug: boom-ai-cdp-sources-api
 - baseURL: https://dev.useboom.ai
   baseurl_source: declared
   description: The HTTP credentials API from Boom Ai — 1 operation(s) for http credentials.
   name: Boom Ai HTTP credentials API
-  phrasing_intents:
-  - id: http_credentials_list
-    intent: List reusable HTTP credentials
-    question: Which stored credentials can an HTTP Request step authenticate with?
-  phrasing_ops: 1
   slug: boom-ai-http-credentials-api
 - baseURL: https://dev.useboom.ai
   baseurl_source: declared
   description: The Initiatives API from Boom Ai — 14 operation(s) for initiatives.
   name: Boom Ai Initiatives API
-  phrasing_intents:
-  - id: initiatives_list
-    intent: List my initiatives
-    question: Which initiatives does my organization have running right now?
-  - id: initiatives_create
-    intent: Create a draft initiative
-    question: How do I start a new WhatsApp outreach initiative in Boom?
-  - id: initiatives_get
-    intent: Get one initiative's details
-    question: What is the current status and objective of a specific initiative?
-  - id: initiatives_update
-    intent: Edit a draft initiative
-    question: Can I change the objective or guiding context of an initiative that is still a draft?
-  - id: initiatives_archive
-    intent: Archive a finished initiative
-    question: How do I hide a completed initiative from my initiatives list?
-  - id: initiatives_cancel
-    intent: Cancel an initiative for good
-    question: How do I permanently cancel an initiative and stop all its conversations?
-  - id: initiatives_summary
-    intent: Get an initiative's data summary
-    question: How many participants does an initiative have, and how well is each captured variable covered?
-  - id: extraction_schema_get
-    intent: Read an initiative's extraction schema
-    question: Which typed fields is an initiative currently pulling out of each conversation?
-  phrasing_ops: 23
   slug: boom-ai-initiatives-api
 - baseURL: https://dev.useboom.ai
   baseurl_source: declared
   description: The Journeys API from Boom Ai — 16 operation(s) for journeys.
   name: Boom Ai Journeys API
-  phrasing_intents:
-  - id: journeys_list
-    intent: List my journeys
-    question: Which journeys has my organization built, and which ones are live?
-  - id: journeys_create_draft
-    intent: Create a draft journey from a full graph
-    question: How do I create a brand-new journey for an initiative from a complete node graph?
-  - id: journeys_get
-    intent: Get a journey's trigger and steps
-    question: What triggers a journey and what steps do people move through in it?
-  - id: journeys_update_draft
-    intent: Replace a draft journey's whole graph
-    question: How do I overwrite an existing draft journey's entire graph in one call?
-  - id: journeys_get_definition
-    intent: Get a journey's full editable graph
-    question: Where do I get every node's config and connection so I can edit a journey and save it back?
-  - id: journeys_disconnect_nodes
-    intent: Remove edges leaving a journey node
-    question: How do I remove the connection between two steps in a journey?
-  - id: journeys_connect_nodes
-    intent: Connect two journey nodes
-    question: How do I route a journey to the next step when someone replies?
-  - id: journeys_create_draft_from_published
-    intent: Fork a live journey into an editable draft
-    question: How can I safely edit a journey that is already live?
-  phrasing_ops: 21
   slug: boom-ai-journeys-api
 - baseURL: https://dev.useboom.ai
   baseurl_source: declared
   description: The Segments API from Boom Ai — 7 operation(s) for segments.
   name: Boom Ai Segments API
-  phrasing_intents:
-  - id: segments_list
-    intent: List my audience segments
-    question: Which audience segments does my organization have?
-  - id: segments_create
-    intent: Create an audience segment
-    question: How do I save a new audience of people based on attributes and events?
-  - id: segments_delete
-    intent: Delete a segment
-    question: What happens to journeys triggered by a segment when I delete it?
-  - id: segments_get
-    intent: Get a segment and its member count
-    question: How many people are in a given segment right now?
-  - id: segments_update
-    intent: Update a segment's filter or settings
-    question: If I change a segment's filter, does its membership update right away?
-  - id: segments_evaluate
-    intent: Re-evaluate a segment's membership now
-    question: Can I refresh who is in a segment immediately instead of waiting for its schedule?
-  - id: segments_members_list
-    intent: List the people in a segment
-    question: Who exactly is in a segment?
-  - id: segments_catalog
-    intent: Get the segment filter catalog
-    question: What attributes, related data and computed variables can I filter a segment on?
-  phrasing_ops: 10
   slug: boom-ai-segments-api
 - baseURL: https://dev.useboom.ai
   baseurl_source: declared
   description: The WhatsApp templates API from Boom Ai — 3 operation(s) for whatsapp templates.
   name: Boom Ai WhatsApp templates API
-  phrasing_intents:
-  - id: templates_list
-    intent: List my WhatsApp templates
-    question: Which of my WhatsApp templates have been approved?
-  - id: templates_create
-    intent: Create and submit a WhatsApp template
-    question: How long does WhatsApp take to approve a new message template?
-  - id: templates_get
-    intent: Get a template's approval status
-    question: Why was my WhatsApp template rejected?
-  - id: whatsapp_numbers_list
-    intent: List connected WhatsApp numbers
-    question: Which WhatsApp phone numbers are connected to my organization?
-  phrasing_ops: 4
   slug: boom-ai-whatsapp-templates-api
 - baseURL: https://dev.useboom.ai
   baseurl_source: declared
   description: The Environments API from Boom Ai — 1 operation(s) for environments.
   name: Boom Ai Environments API
-  phrasing_intents:
-  - id: environments_list
-    intent: List journey environments and their variables
-    question: Which environments can a journey be pinned to?
-  phrasing_ops: 1
   slug: boom-ai-environments-api
 artifact_total: 31
 asyncapis:
@@ -532,9 +342,9 @@ description: Boom AI (useboom.ai) is a Y Combinator-backed (Fall 2025) San Franc
 image: https://useboom.ai/logo.svg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at www.useboom.ai over HTTP.
   name: Boom Ai MCP Server
-  slug: boom-ai-mcp-server
+  slug: boom
 modified: '2026-08-13'
 name: Boom Ai
 nav: Providers
@@ -570,7 +380,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
@@ -578,7 +388,7 @@ score:
     developer_ergonomics: 71.4
     discoverability: 75.0
     operational_transparency: 55.3
-  previous_composite: 75.6
+  previous_composite: 79.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -596,7 +406,7 @@ score:
     regime_id: telecommunications
     score: 36.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

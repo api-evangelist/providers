@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
 artifact_total: 2
 common:
@@ -109,12 +109,20 @@ common:
   title: ''
   type: DomainSecurity
   url: security/ntop-domain-security.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.ntop.com/Product-Documentation/ntop-core/readme.md
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.ntop.com/resources/
 created: '2026-07-17'
 description: 'nTop (formerly nTopology) is computational design and engineering software for advanced and additive manufacturing. Its field-driven, implicit modeling engine lets engineers build reusable, logic-driven design workflows and systematically explore hundreds of design variants with manufacturing constraints, performance requirements, and simulation built in — spanning lattices, conformal structures, design-for-additive-manufacturing, and topology-informed optimization across aerospace, automotive, medical, and industrial applications. Beyond the desktop application, nTop exposes a developer surface: the nTop Core SDK (a native Windows DLL with C++, .NET, and Python bindings for querying implicit bodies), nTop Automate for headless workflow automation, extensive Mintlify-hosted documentation, and a public documentation MCP server for agent-based retrieval.'
 image: https://cdn.sanity.io/images/g5181r9i/production/069fbd12b0f03c5edc56d199e6eab2d66940f5ba-1200x627.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at docs.ntop.com over HTTP; 3 tools listed.
   name: nTop
   slug: ntop
 modified: '2026-07-20'
@@ -124,7 +132,7 @@ network: true
 overview: 'nTop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Manufacturing, Computational Design, Additive Manufacturing, and Engineering Software.
 
 
-  nTop''s developer surface includes documentation, API reference, getting-started guide, changelog, support, engineering blog, signup flow, and 10 more developer resources.'
+  nTop''s developer surface includes documentation, API reference, getting-started guide, changelog, support, engineering blog, signup flow, and 12 more developer resources.'
 random_paper: 9
 score:
   band: emerging
@@ -136,7 +144,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -144,7 +152,7 @@ score:
     developer_ergonomics: 52.4
     discoverability: 55.0
     operational_transparency: 18.4
-  previous_composite: 22.3
+  previous_composite: 22.8
   provenance:
     mcp: first-party
   regulatory:
@@ -154,7 +162,7 @@ score:
     regime_id: horizontal
     score: 13.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false
@@ -177,5 +185,10 @@ tags:
 - CAD
 - Design Automation
 - SDK
+- Engineering
+- Generative Design
+- Simulation
+- Manufacturing Software
+- Aerospace
 website: https://www.ntop.com/
 ---

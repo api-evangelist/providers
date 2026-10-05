@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: REST API for patient outreach, consent checking and auditing, record-location search, test-patient creation, and usage reporting, plus a FHIR R4 server ($everything) for standards-based access to a co
@@ -172,7 +172,7 @@ layout: provider
 mcp_servers:
 - description: 'Hosted Model Context Protocol server exposing a consented patient''s FHIR-based health record to AI agents through standardized tools, with per-patient data isolation and natural-language search. Also '
   name: HealthEx MCP Server
-  slug: healthex-mcp-server
+  slug: healthex
 modified: '2026-07-19'
 name: HealthEx
 nav: Providers
@@ -197,7 +197,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.8
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
@@ -205,7 +205,7 @@ score:
     developer_ergonomics: 63.7
     discoverability: 75.0
     operational_transparency: 31.6
-  previous_composite: 36.7
+  previous_composite: 39.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -221,7 +221,7 @@ score:
     regime_id: health
     score: 41.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

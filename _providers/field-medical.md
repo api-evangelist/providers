@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: 'An anonymous, read-oriented Model Context Protocol endpoint served from Field Medical''s own corporate domain. It is provided by the Wix website platform (Wix Site MCP), not authored by Field Medical, '
@@ -107,9 +107,9 @@ description: 'Field Medical, Inc. is a Carlsbad, California clinical-stage cardi
 image: https://static.wixstatic.com/media/8a66b7_1cc006a6bfe247ada2ee91171488f369%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/8a66b7_1cc006a6bfe247ada2ee91171488f369%7Emv2.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at www.fieldmedicalinc.com over HTTP; 9 tools listed.
   name: Field Medical MCP Server
-  slug: field-medical-mcp-server
+  slug: field-medical-site-mcp
 modified: '2026-08-12'
 name: Field Medical
 nav: Providers
@@ -137,7 +137,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
@@ -145,7 +145,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 75.0
     operational_transparency: 0.0
-  previous_composite: 14.6
+  previous_composite: 14.9
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -156,7 +156,7 @@ score:
     regime_id: health
     score: 13.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

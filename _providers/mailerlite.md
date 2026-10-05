@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -52,122 +52,43 @@ apis:
   baseurl_source: declared
   description: The Automations API from MailerLite — 1 operation(s) for automations.
   name: MailerLite Automations API
-  phrasing_intents:
-  - id: listAutomations
-    intent: List email automations
-    question: Which email automation workflows do I have set up in MailerLite?
-  phrasing_ops: 1
   slug: mailerlite-automations-api
 - baseURL: https://connect.mailerlite.com/api
   baseurl_source: declared
   description: The Campaigns API from MailerLite — 2 operation(s) for campaigns.
   name: MailerLite Campaigns API
-  phrasing_intents:
-  - id: listCampaigns
-    intent: List email campaigns
-    question: What email campaigns exist in my MailerLite account?
-  - id: createCampaign
-    intent: Create a new email campaign
-    question: How do I start a new email campaign through the API?
-  - id: getCampaign
-    intent: Get one campaign's details
-    question: How do I look up the details of a single campaign by its ID?
-  phrasing_ops: 3
   slug: mailerlite-campaigns-api
 - baseURL: https://connect.mailerlite.com/api
   baseurl_source: declared
   description: The Fields API from MailerLite — 1 operation(s) for fields.
   name: MailerLite Fields API
-  phrasing_intents:
-  - id: listFields
-    intent: List custom subscriber fields
-    question: Which custom fields are defined for my subscribers?
-  - id: createField
-    intent: Add a custom subscriber field
-    question: How do I add a new custom field to store extra subscriber data?
-  phrasing_ops: 2
   slug: mailerlite-fields-api
 - baseURL: https://connect.mailerlite.com/api
   baseurl_source: declared
   description: The Forms API from MailerLite — 1 operation(s) for forms.
   name: MailerLite Forms API
-  phrasing_intents:
-  - id: listForms
-    intent: List signup forms by type
-    question: Which popup signup forms do I have?
-  phrasing_ops: 1
   slug: mailerlite-forms-api
 - baseURL: https://connect.mailerlite.com/api
   baseurl_source: declared
   description: The Groups API from MailerLite — 2 operation(s) for groups.
   name: MailerLite Groups API
-  phrasing_intents:
-  - id: listGroups
-    intent: List subscriber groups
-    question: What subscriber groups do I have in MailerLite?
-  - id: createGroup
-    intent: Create a subscriber group
-    question: How do I create a new group to organize subscribers?
-  - id: deleteGroup
-    intent: Delete a subscriber group
-    question: How do I remove a subscriber group I no longer need?
-  phrasing_ops: 3
   slug: mailerlite-groups-api
 - baseURL: https://connect.mailerlite.com/api
   baseurl_source: declared
   description: The Segments API from MailerLite — 1 operation(s) for segments.
   name: MailerLite Segments API
-  phrasing_intents:
-  - id: listSegments
-    intent: List subscriber segments
-    question: Which segments have I defined for my audience?
-  phrasing_ops: 1
   slug: mailerlite-segments-api
 - baseURL: https://connect.mailerlite.com/api
   baseurl_source: declared
   description: The Subscribers API from MailerLite — 4 operation(s) for subscribers.
   name: MailerLite Subscribers API
-  phrasing_intents:
-  - id: listSubscribers
-    intent: List subscribers
-    question: How do I page through all my subscribers?
-  - id: upsertSubscriber
-    intent: Add or update a subscriber by email
-    question: How do I add a new subscriber to my MailerLite list?
-  - id: getSubscriber
-    intent: Look up a subscriber by ID or email
-    question: Can I look up a subscriber by their email address?
-  - id: updateSubscriber
-    intent: Update an existing subscriber
-    question: How do I change the details of a subscriber who already exists?
-  - id: deleteSubscriber
-    intent: Delete a subscriber
-    question: How do I delete a subscriber from my account?
-  - id: forgetSubscriber
-    intent: Permanently forget a subscriber for GDPR
-    question: How do I honor a GDPR right-to-be-forgotten request for a subscriber?
-  - id: getSubscriberActivity
-    intent: View a subscriber's activity log
-    question: What has a subscriber done recently, like opens and clicks?
-  phrasing_ops: 7
   slug: mailerlite-subscribers-api
 - baseURL: https://connect.mailerlite.com/api
   baseurl_source: declared
   description: The Webhooks API from MailerLite — 2 operation(s) for webhooks.
   name: MailerLite Webhooks API
-  phrasing_intents:
-  - id: listWebhooks
-    intent: List webhooks
-    question: Which webhooks are currently registered on my account?
-  - id: createWebhook
-    intent: Register a webhook for events
-    question: How do I get notified at my URL when subscribers change?
-  - id: deleteWebhook
-    intent: Delete a webhook
-    question: How do I stop a webhook from receiving events?
-  phrasing_ops: 3
   slug: mailerlite-webhooks-api
-artifact_total: 32
+artifact_total: 31
 asyncapis:
 - description: AsyncAPI 2.6 description of MailerLite's outbound webhook surface. MailerLite delivers event notifications by issuing HTTP POST requests with a JSON body to a callback URL the customer registers throu
   name: MailerLite Webhooks
@@ -204,6 +125,11 @@ collections:
   name: MailerLite API
   slug: open-mailerlite
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/capabilities/mailerlite-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mailerlite-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/agentic-access/mailerlite-agentic-access.yml
   title: ''
@@ -454,9 +380,6 @@ mcp_servers:
 - description: ''
   name: MailerLite MCP Server
   slug: mailerlite-mcp-server
-- description: ''
-  name: MCP Server Manifest
-  slug: mcp-server-manifest
 modified: '2026-08-13'
 name: MailerLite
 nav: Providers
@@ -467,7 +390,7 @@ overview: 'MailerLite publishes 9 APIs on the [APIs.io](https://apis.io/) networ
   The MailerLite catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  MailerLite''s developer surface includes authentication, developer portal, pricing, CLI, documentation, API reference, getting-started guide, and 45 more developer resources.'
+  MailerLite''s developer surface includes authentication, developer portal, pricing, CLI, documentation, API reference, getting-started guide, and 46 more developer resources.'
 plans:
 - name: Mailerlite Plans Pricing
   plan_count: 4
@@ -493,13 +416,13 @@ score:
   band: exemplar
   composite: 73.7
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 63.8
     catalog_earned_first_party: 20.0
     catalog_gap: 51.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.6
   facets:
     access_clarity: 100.0
     contract_governance: 29.5
@@ -507,7 +430,7 @@ score:
     developer_ergonomics: 88.1
     discoverability: 75.0
     operational_transparency: 57.9
-  previous_composite: 73.7
+  previous_composite: 77.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -529,7 +452,7 @@ score:
     regime_id: telecommunications
     score: 35.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

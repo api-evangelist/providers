@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -70,6 +70,10 @@ created: '2026-07-17'
 description: 'GuruHotel is AI-native direct-booking infrastructure for independent hotels: an AI-powered hotel website builder, a conversion-optimized direct booking engine, and a Stripe-powered payment-orchestration platform that turns a hotel''s official website into a commission-free direct booking channel with real-time inventory, multi-currency checkout and a guest-first experience. Founded in 2019, GuruHotel is trusted by 1000+ hotels, serves 200,000+ guests a year and processes $15M+ in annual gross booking value across the United States, Mexico, the Caribbean and Europe. It connects to hotel PMS platforms directly (Cloudbeds) and through Channex (280+ PMS incl. Mews, apaleo, Oracle OPERA Cloud, Guesty, Hostaway), plus Google for Hotels. GuruHotel is a portfolio company of 500 Global and Anthemis.'
 image: https://guruhotel.com/images/brand/guruhotel-logo.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at guruhotel.com over HTTP; 6 tools listed.
+  name: GuruHotel MCP Server
+  slug: guruhotel
 modified: '2026-07-19'
 name: GuruHotel
 nav: Providers
@@ -89,7 +93,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 17.1
     contract_governance: 0.0
@@ -97,7 +101,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 58.3
     operational_transparency: 0.0
-  previous_composite: 8.5
+  previous_composite: 7.1
   provenance:
     mcp: first-party
   regulatory:
@@ -107,7 +111,7 @@ score:
     regime_id: payments
     score: 5.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

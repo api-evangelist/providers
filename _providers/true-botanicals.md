@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: The Universal Commerce Protocol shopping service True Botanicals serves at its own domain. A POST to /api/ucp/mcp answers an unauthenticated MCP tools/list with 13 tools — search_catalog, lookup_catal
@@ -150,9 +150,9 @@ description: True Botanicals is a clean-luxury skincare company selling clinical
 image: https://truebotanicals.com/cdn/shop/files/TB_True_Botanicals_f873166b-61da-41ce-8c3d-ea2ab3565a12.png?v=1772667499
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at truebotanicals.com over HTTP; 13 tools listed.
   name: True Botanicals MCP Server
-  slug: true-botanicals-mcp-server
+  slug: true-botanicals-ucp-shopping
 modified: '2026-08-30'
 name: True Botanicals
 nav: Providers
@@ -172,9 +172,9 @@ rate_limits:
   slug: true-botanicals-rate-limits
 scopes:
 - name: True Botanicals Scopes
-  scope_count: 0
+  scope_count: 4
   slug: true-botanicals-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 4 scopes · authorizationCode
 score:
   band: thin
   composite: 26.8
@@ -185,7 +185,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.7
   facets:
     access_clarity: 27.6
     contract_governance: 18.2
@@ -193,7 +193,7 @@ score:
     developer_ergonomics: 30.4
     discoverability: 75.0
     operational_transparency: 21.1
-  previous_composite: 26.8
+  previous_composite: 24.1
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -205,7 +205,7 @@ score:
     regime_id: horizontal
     score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

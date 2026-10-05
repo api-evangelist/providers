@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: 'Inbound REST endpoints into the Nextworld Platform. Every table and logic block created in the platform automatically exposes a set of endpoints for fetching, inserting, updating and deleting records '
@@ -186,7 +186,7 @@ description: Nextworld is a Denver, Colorado enterprise application platform com
 image: https://cdn.prod.website-files.com/68fbb4299bc0c9e658c018cc/6978e9a290aa1dc1c6a606c3_Nextworld_OpenGraph.jpg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at apps.nextworld.net requiring OAuth.
   name: Nextworld MCP Server
   slug: nextworld-mcp-server
 modified: '2026-08-26'
@@ -211,9 +211,9 @@ rate_limits:
   slug: nextworld-rate-limits
 scopes:
 - name: Nextworld Scopes
-  scope_count: 0
+  scope_count: 5
   slug: nextworld-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 5 scopes
 score:
   band: developing
   composite: 51.1
@@ -224,7 +224,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.3
   facets:
     access_clarity: 68.4
     contract_governance: 18.2
@@ -232,7 +232,7 @@ score:
     developer_ergonomics: 64.3
     discoverability: 75.0
     operational_transparency: 15.8
-  previous_composite: 51.1
+  previous_composite: 48.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -243,7 +243,7 @@ score:
     regime_id: horizontal
     score: 36.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

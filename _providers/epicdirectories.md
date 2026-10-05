@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 120
@@ -190,6 +190,11 @@ apis:
   slug: epicdirectories-webhooks-api
 artifact_total: 42
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/epicdirectories/refs/heads/main/capabilities/epicdirectories-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/epicdirectories-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/epicdirectories/refs/heads/main/agentic-access/epicdirectories-agentic-access.yml
   title: ''
@@ -318,7 +323,7 @@ overview: 'EpicDirectories publishes 31 APIs on the [APIs.io](https://apis.io/) 
   The EpicDirectories catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  EpicDirectories'' developer surface includes authentication, documentation, and 17 more developer resources.'
+  EpicDirectories'' developer surface includes authentication, documentation, and 18 more developer resources.'
 random_paper: 14
 rules:
 - effective_rule_count: 52
@@ -336,7 +341,7 @@ score:
   band: developing
   composite: 39.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 62.8
     catalog_earned_first_party: 0.0
     catalog_gap: 52.3
@@ -366,7 +371,7 @@ score:
     regime_id: horizontal
     score: 20.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 61.1

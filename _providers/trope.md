@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
 artifact_total: 3
 common:
@@ -114,7 +114,7 @@ layout: provider
 mcp_servers:
 - description: 'Trope publishes Trope CUA, an open-source (MIT) MCP-native computer-use agent for background desktop automation on Windows and macOS. It exposes target-window screenshots, accessibility trees, action '
   name: Trope MCP Server
-  slug: trope-mcp-server
+  slug: trope-cua
 modified: '2026-07-21'
 name: Trope
 nav: Providers
@@ -159,7 +159,7 @@ score:
     regime_id: horizontal
     score: 17.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

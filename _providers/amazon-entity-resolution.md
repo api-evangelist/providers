@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 8
+- acting_count: 9
   human_in_the_loop: 0
   name: Amazon Entity Resolution Agentic Access
   operation_count: 16
   slug: amazon-entity-resolution-agentic-access
-  summary_line: 16 operations · 8 acting
+  summary_line: 16 operations · 9 acting
 api_count: 1
 apis:
 - baseURL: https://entityresolution.amazonaws.com
@@ -109,6 +109,11 @@ collections:
   name: AWS EntityResolution
   slug: open-amazon-entity-resolution
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/capabilities/amazon-entity-resolution-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-entity-resolution-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -1009,7 +1014,7 @@ overview: 'Amazon Entity Resolution publishes 3 APIs on the [APIs.io](https://ap
   The Amazon Entity Resolution catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Entity Resolution''s developer surface includes authentication, developer portal, documentation, engineering blog, developer console, signup flow, support, and 27 more developer resources.'
+  Amazon Entity Resolution''s developer surface includes authentication, developer portal, documentation, engineering blog, developer console, signup flow, support, and 28 more developer resources.'
 plans:
 - name: Amazon Entity Resolution Plans Pricing
   plan_count: 3
@@ -1045,13 +1050,13 @@ score:
   band: strong
   composite: 60.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 75.0
     catalog_earned_first_party: 0.0
     catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 69.7
     contract_governance: 27.3
@@ -1059,7 +1064,7 @@ score:
     developer_ergonomics: 53.6
     discoverability: 73.2
     operational_transparency: 36.8
-  previous_composite: 60.9
+  previous_composite: 60.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1074,7 +1079,7 @@ score:
     regime_id: horizontal
     score: 32.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

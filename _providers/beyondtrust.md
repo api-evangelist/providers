@@ -15,7 +15,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -24,18 +24,18 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-03'
+  score: 36.8
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -75,7 +75,11 @@ apis:
   description: Manage secrets and secret store entries
   name: BeyondTrust Secrets API
   slug: beyondtrust-secrets-api
-artifact_total: 77
+artifact_total: 79
+asyncapis:
+- description: ''
+  name: Beyondtrust Webhooks
+  slug: beyondtrust-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -99,6 +103,100 @@ collections:
   name: BeyondTrust Password Safe Authentication Secrets API
   slug: open-beyondtrust-secrets-api
 common:
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/well-known/beyondtrust-beyondtrust-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/beyondtrust-beyondtrust-security.txt
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/finops/beyondtrust-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/beyondtrust-finops.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/rate-limits/beyondtrust-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/beyondtrust-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/plans/beyondtrust-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/beyondtrust-plans-pricing.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/rules/beyondtrust-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/beyondtrust-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/rules/beyondtrust-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/beyondtrust-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/rules/beyondtrust-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/beyondtrust-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/json-ld/beyondtrust-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/beyondtrust-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/vocabulary/beyondtrust-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/beyondtrust-vocabulary.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/asyncapi/beyondtrust-webhooks.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/beyondtrust-webhooks.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/data-model/beyondtrust-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/beyondtrust-data-model.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.beyondtrust.com/disclosure
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/errors/beyondtrust-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/beyondtrust-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/conformance/beyondtrust-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/beyondtrust-conformance.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/well-known/beyondtrust-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/beyondtrust-security.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/well-known/beyondtrust-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/beyondtrust-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/hosts/beyondtrust-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/beyondtrust-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/vendors/beyondtrust-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/beyondtrust-vendors.yml
 - group: company
   title: ''
   type: Website
@@ -147,10 +245,6 @@ common:
   title: ''
   type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/vocabulary/beyondtrust-vocabulary.yaml
-- group: agent
-  title: ''
-  type: LlmsText
-  url: https://docs.beyondtrust.com/llms.txt
 created: '2025-02-17'
 description: BeyondTrust is a cybersecurity company specializing in privileged access management (PAM) and vulnerability management solutions. Their products help organizations prevent data breaches, malware attacks, and insider threats by identifying and controlling the access of privileged users, accounts, and credentials across the enterprise.
 examples:
@@ -305,10 +399,10 @@ network: true
 overview: 'BeyondTrust publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Credentials API, Managed Accounts API, and 3 more. Tagged areas include Access, Access Management, Compliance, Credentials, and Privileged Access.
 
 
-  The BeyondTrust catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The BeyondTrust catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  BeyondTrust''s developer surface includes authentication, developer portal, getting-started guide, and 9 more developer resources.'
+  BeyondTrust''s developer surface includes authentication, developer portal, getting-started guide, and 27 more developer resources.'
 plans:
 - name: Beyondtrust Plans Pricing
   plan_count: 3
@@ -329,6 +423,17 @@ rules:
     info: 2
     warn: 3
   slug: beyondtrust-jsonschema-spectral-rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: BeyondTrust API Rules
+  rule_count: 16
+  severity_counts:
+    error: 14
+    hint: 0
+    info: 1
+    warn: 1
+  slug: beyondtrust-rules
 - effective_rule_count: 70
   extends:
   - spectral:oas
@@ -342,39 +447,48 @@ rules:
   slug: beyondtrust-spectral-rules
 score:
   band: thin
-  composite: 30.5
+  composite: 38.9
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 69.0
+    artifact_dirs: 27
+    catalog_earned: 78.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.0
+    catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.9
   facets:
     access_clarity: 15.8
-    contract_governance: 27.3
-    contract_quality: 23.9
-    developer_ergonomics: 42.9
+    contract_governance: 45.5
+    contract_quality: 37.7
+    developer_ergonomics: 44.6
     discoverability: 78.6
-    operational_transparency: 10.5
-  previous_composite: 30.5
+    operational_transparency: 28.9
+  previous_composite: 30.0
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 0.0
       derived: 7
       marker_coverage: 100.0
       total: 7
+    mcp: unknown
+    skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

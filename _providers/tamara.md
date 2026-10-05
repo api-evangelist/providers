@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -175,6 +175,11 @@ collections:
   name: Tamara Channel Partners Captures Webhooks API
   slug: open-tamara-webhooks-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/capabilities/tamara-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tamara-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -438,7 +443,7 @@ overview: 'Tamara publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The Tamara catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tamara''s developer surface includes authentication, documentation, API reference, getting-started guide, status page, support, signup flow, and 39 more developer resources.'
+  Tamara''s developer surface includes authentication, documentation, API reference, getting-started guide, status page, support, signup flow, and 40 more developer resources.'
 plans:
 - name: Tamara Plans Pricing
   plan_count: 2
@@ -474,13 +479,13 @@ score:
   band: developing
   composite: 44.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 84.0
     catalog_earned_first_party: 0.0
     catalog_gap: 31.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.6
   facets:
     access_clarity: 40.0
     contract_governance: 27.3
@@ -496,7 +501,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - middle-east
-  previous_composite: 44.4
+  previous_composite: 47.0
   provenance:
     agentic_access: derived
     contracts:
@@ -511,7 +516,7 @@ score:
     regime_id: payments
     score: 15.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

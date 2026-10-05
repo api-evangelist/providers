@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 35
+- acting_count: 38
   human_in_the_loop: 0
   name: Typeface Agentic Access
   operation_count: 64
   slug: typeface-agentic-access
-  summary_line: 64 operations · 35 acting
+  summary_line: 64 operations · 38 acting
 api_count: 4
 apis:
 - baseURL: https://api-us.typeface.ai
@@ -174,6 +174,11 @@ collections:
   name: Typeface Audiences Tag Library API
   slug: open-typeface-tag-library-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/typeface/refs/heads/main/capabilities/typeface-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/typeface-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/typeface/refs/heads/main/overlays/typeface-api-overlay.yaml
   title: ''
@@ -346,9 +351,9 @@ description: Typeface is an enterprise marketing AI platform that orchestrates A
 image: https://images.ctfassets.net/x690ow8339ug/g36Rl9hYe43Kx6buA0HBv/752c90259d7655c7accbb0ce0697a67e/Agentic-AI.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at api-us.typeface.ai over HTTP; 23 tools listed.
   name: Typeface MCP Server
-  slug: typeface-mcp-server
+  slug: typeface
 modified: '2026-08-13'
 name: Typeface
 nav: Providers
@@ -359,7 +364,7 @@ overview: 'Typeface publishes 15 APIs on the [APIs.io](https://apis.io/) network
   The Typeface catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Typeface''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 30 more developer resources.'
+  Typeface''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 31 more developer resources.'
 plans:
 - name: Typeface Plans Pricing
   plan_count: 0
@@ -378,13 +383,13 @@ score:
   band: developing
   composite: 51.3
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.8
   facets:
     access_clarity: 35.5
     contract_governance: 18.2
@@ -392,7 +397,7 @@ score:
     developer_ergonomics: 47.0
     discoverability: 80.0
     operational_transparency: 65.8
-  previous_composite: 51.3
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -410,7 +415,7 @@ score:
     regime_id: horizontal
     score: 37.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -35,9 +35,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 4
+artifact_total: 5
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/crowdhealth/refs/heads/main/security/crowdhealth-domain-security.yml
@@ -135,6 +135,10 @@ created: '2026-08-11'
 description: 'CrowdHealth is an Austin, Texas company offering community-powered health care crowdfunding as an alternative to traditional health insurance. Members pay a monthly membership (advocacy) fee and commit a monthly contribution amount that is used to fund other members'' eligible medical bills peer-to-peer, without premiums, networks, or claim denials. The platform bundles bill negotiation, personal care advocates, provider search, prescription discounts and care navigation into a consumer web app and iOS/Android mobile apps. CrowdHealth is a consumer product company: it operates a private Apollo GraphQL backend at api.joincrowdhealth.com that serves its own apps, but publishes no public API, SDK, developer portal, or machine-readable contract of any kind.'
 image: https://cdn.prod.website-files.com/60db2ced4a27795173580197/65bba6a83a452a08f68cd220_Open%20Graph%20Image%20V2.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.joincrowdhealth.com over HTTP.
+  name: CrowdHealth MCP Server
+  slug: crowdhealth
 modified: '2026-08-12'
 name: CrowdHealth
 nav: Providers
@@ -162,7 +166,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 73.7
     contract_governance: 18.2
@@ -170,7 +174,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 51.7
     operational_transparency: 13.2
-  previous_composite: 26.9
+  previous_composite: 27.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -185,7 +189,7 @@ score:
     regime_id: health
     score: 23.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

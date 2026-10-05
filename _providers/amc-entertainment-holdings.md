@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 24
+- acting_count: 23
   human_in_the_loop: 0
   name: Amc Entertainment Holdings Agentic Access
-  operation_count: 82
+  operation_count: 79
   slug: amc-entertainment-holdings-agentic-access
-  summary_line: 82 operations · 24 acting
+  summary_line: 79 operations · 23 acting
 api_count: 1
 apis:
 - baseURL: https://api.amctheatres.com
@@ -182,6 +182,11 @@ collections:
   name: AMC Theatres API
   slug: open-amc-theatres-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/capabilities/amc-entertainment-holdings-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amc-entertainment-holdings-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/agentic-access/amc-entertainment-holdings-agentic-access.yml
   title: ''
@@ -304,7 +309,7 @@ overview: 'AMC Entertainment Holdings publishes 16 APIs on the [APIs.io](https:/
   The AMC Entertainment Holdings catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AMC Entertainment Holdings'' developer surface includes authentication, GitHub presence, and 9 more developer resources.'
+  AMC Entertainment Holdings'' developer surface includes authentication, GitHub presence, and 10 more developer resources.'
 plans:
 - name: Amc Entertainment Holdings Plans Pricing
   plan_count: 1
@@ -340,13 +345,13 @@ score:
   band: developing
   composite: 47.5
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 80.4
     catalog_earned_first_party: 0.0
     catalog_gap: 34.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 47.9
     contract_governance: 27.3
@@ -354,7 +359,7 @@ score:
     developer_ergonomics: 38.1
     discoverability: 60.7
     operational_transparency: 24.2
-  previous_composite: 47.5
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     contracts:
@@ -369,7 +374,7 @@ score:
     regime_id: horizontal
     score: 30.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

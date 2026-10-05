@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 11.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -112,6 +112,10 @@ created: '2026-07-17'
 description: LegalOS is an AI-native U.S. immigration law practice based in San Francisco and backed by Y Combinator (Winter 2026 batch). Founded by Matthew Asir (CEO), Rachel Asir (COO) and Claire Jutabha (CTO), the company pairs proprietary legal software with licensed immigration attorneys to prepare employment-based visa and green-card petitions — H-1B, L-1A, L-1B, O-1 and TN visas, plus EB-1A, EB-1C and EB-2 NIW green cards. AI agents draft petition narratives, assemble supporting evidence and anticipate USCIS objections, with every filing reviewed by a licensed attorney before submission. LegalOS is delivered as a service through a customer web application at app.legalos.ai; as of this profile it publishes no public developer API, SDKs, developer portal or machine-readable API artifacts.
 image: https://cdn.prod.website-files.com/667d1a68c2779a28ef89b338/697dc2de49d014db1c617fe9_OG%201.webp
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.legalos.ai over HTTP.
+  name: LegalOS MCP Server
+  slug: legalos
 modified: '2026-07-19'
 name: LegalOS
 nav: Providers
@@ -131,7 +135,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 35.5
     contract_governance: 18.2
@@ -146,7 +150,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 17.5
+  previous_composite: 16.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -157,7 +161,7 @@ score:
     regime_id: horizontal
     score: 21.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

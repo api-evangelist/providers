@@ -33,14 +33,43 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Cycode's REST API and webhooks for the ASPM / software supply chain security platform, including the Risk Intelligence Graph (RIG) reporting API. JWT bearer authentication obtained by exchanging a Cli
   name: Cycode API
   slug: cycode-api
-artifact_total: 6
+artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cycode/refs/heads/main/plans/cycode-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cycode-plans-pricing.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cycode/refs/heads/main/security/cycode-trust-center.yml
+  title: ''
+  type: TrustCenter
+  url: security/cycode-trust-center.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cycode/refs/heads/main/hosts/cycode-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/cycode-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cycode/refs/heads/main/vendors/cycode-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/cycode-vendors.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cycode/refs/heads/main/packages/cycode-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/cycode-packages.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://cycode.com/press/cycode-enters-the-gartner-magic-quadrant-application-security-testing-2025/
 - group: company
   title: ''
   type: Website
@@ -142,6 +171,14 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/cycode-llms.txt
+coverage:
+  checked: '2026-10-04'
+  detail: Documentation at https://docs.cycode.com/ returns HTML without a machine‑readable OpenAPI spec.
+  evidence:
+  - status: 200
+    url: https://docs.cycode.com/
+  reason: js-rendered-docs
+  state: unreadable
 created: '2026-07-17'
 description: Cycode is a complete Application Security Posture Management (ASPM) and software supply chain security platform that delivers visibility, security, and integrity across the entire software development lifecycle. Its Risk Intelligence Graph (RIG) correlates findings from SAST, SCA, secrets, IaC, and container scanning into a single risk model. Cycode exposes a REST API and webhooks, an official command-line interface (the `cycode` CLI for pip/Homebrew), and an official Model Context Protocol (MCP) server for AI-assisted scanning. Founded in 2019 and backed by Insight Partners, Cycode is certified SOC 2 Type II, ISO 27001, and CSA STAR Level 1. This profile was enriched by the API Evangelist pipeline.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cycode.png
@@ -149,7 +186,7 @@ layout: provider
 mcp_servers:
 - description: Official Cycode MCP server, shipped inside the cycode CLI, exposing Cycode's security scanning capabilities to AI assistants and agents. Started locally with `cycode mcp`; not a hosted remote endpoint
   name: Cycode MCP Server
-  slug: cycode-mcp-server
+  slug: cycode
 modified: '2026-07-18'
 name: Cycode
 nav: Providers
@@ -157,27 +194,31 @@ network: true
 overview: 'Cycode publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Application Security, Software Supply Chain Security, and ASPM.
 
 
-  Cycode''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, CLI, authentication, and 16 more developer resources.'
+  Cycode''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, CLI, authentication, and 22 more developer resources.'
+plans:
+- name: Cycode Plans Pricing
+  plan_count: 0
+  slug: cycode-plans-pricing
 random_paper: 15
 score:
   band: thin
-  composite: 32.4
+  composite: 34.0
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.1
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 21.4
-    discoverability: 71.7
+    developer_ergonomics: 28.6
+    discoverability: 73.3
     operational_transparency: 28.9
-  previous_composite: 32.4
+  previous_composite: 29.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -192,7 +233,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

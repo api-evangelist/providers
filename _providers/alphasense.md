@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ apis:
   description: Document search across the AlphaSense corpus (500M+ documents).
   name: AlphaSense Search API
   slug: alphasense-search-api
-artifact_total: 109
+artifact_total: 110
 collections:
 - collection_type: postman
   name: AlphaSense Agent Authentication API
@@ -410,6 +410,10 @@ jsonld:
   property_count: 8
   slug: alphasense-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.alpha-sense.com over HTTP.
+  name: AlphaSense MCP Server
+  slug: alphasense
 modified: '2026-05-23'
 name: AlphaSense
 nav: Providers
@@ -455,13 +459,13 @@ score:
   band: developing
   composite: 51.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 83.4
     catalog_earned_first_party: 0.0
     catalog_gap: 31.7
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.3
   facets:
     access_clarity: 44.2
     contract_governance: 23.5
@@ -469,7 +473,7 @@ score:
     developer_ergonomics: 48.8
     discoverability: 75.0
     operational_transparency: 46.8
-  previous_composite: 51.0
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     contracts:
@@ -485,7 +489,7 @@ score:
     regime_id: horizontal
     score: 20.0
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: REST API that extracts structured data from Safety Data Sheet PDFs, returning normalized 16-section records as JSON/XML/CSV. Includes synchronous single-document extraction, async bulk jobs with webho
@@ -59,9 +59,9 @@ created: '2026-09-16'
 description: A REST API by SafetyDataSheetAPI (a product of DscvryAI) that converts Safety Data Sheet PDFs into normalized 16-section structured records (product identity, GHS/H&P statements, composition, exposure controls/PPE, tox/eco data, disposal, transport, regulatory, revision metadata) output as JSON, XML, and CSV with confidence scores and warnings. Supports OCR for scanned PDFs, multilingual input, custom schema mapping, and bulk/webhook async flows.
 layout: provider
 mcp_servers:
-- description: ''
+- description: MCP server requiring an API key; 3 tools listed. A candidate, not confirmed as published by the provider.
   name: Safety Data Sheet (SDS/MSDS) Extraction API MCP Server
-  slug: safety-data-sheet-sdsmsds-extraction-api-mcp-server
+  slug: safetydatasheetapi-mcp-yml
 modified: '2026-09-16'
 name: Safety Data Sheet (SDS/MSDS) Extraction API
 nav: Providers
@@ -86,7 +86,7 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.4
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
@@ -94,7 +94,7 @@ score:
     developer_ergonomics: 0.0
     discoverability: 69.6
     operational_transparency: 0.0
-  previous_composite: 17.8
+  previous_composite: 20.2
   provenance:
     mcp: derived
   regulatory:
@@ -104,7 +104,7 @@ score:
     regime_id: horizontal
     score: 5.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

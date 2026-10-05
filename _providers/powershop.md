@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 0
+- acting_count: 5
   human_in_the_loop: 0
   name: Powershop Agentic Access
   operation_count: 27
   slug: powershop-agentic-access
-  summary_line: 27 operations
+  summary_line: 27 operations · 5 acting
 api_count: 2
 apis:
 - baseURL: https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1
@@ -99,6 +99,11 @@ collections:
   name: CDR Energy API
   slug: open-powershop-cdr-energy-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/capabilities/powershop-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/powershop-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/skills/powershop-lookup-energy-plans.md
   title: ''
@@ -274,7 +279,7 @@ network: true
 overview: 'Powershop publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Data Holder Customers API, Data Holder Operations API, Distributed Energy Resources API, and 6 more. Tagged areas include Energy, Australia, Utilities, Electricity, and Gas.
 
 
-  Powershop''s developer surface includes authentication, changelog, API reference, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  Powershop''s developer surface includes authentication, changelog, API reference, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 random_paper: 9
 scopes:
 - name: Powershop Scopes
@@ -285,13 +290,13 @@ score:
   band: developing
   composite: 43.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.9
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
@@ -306,7 +311,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 43.0
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -324,7 +329,7 @@ score:
     regime_id: energy_utilities
     score: 34.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

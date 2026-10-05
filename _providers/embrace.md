@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 3
 apis:
 - description: A Prometheus-compatible read API for querying Embrace metrics with PromQL. Standard Embrace metrics and any Custom Metrics an organization has created are queryable across one app, several apps, or ev
@@ -221,7 +221,7 @@ layout: provider
 mcp_servers:
 - description: The Embrace MCP server exposes an organization's real-user mobile and web observability data — apps, crashes, exceptions, logs, sessions, spans and network endpoints — to MCP-capable AI assistants. Sh
   name: Embrace MCP Server
-  slug: embrace-mcp-server
+  slug: embrace
 modified: '2026-08-12'
 name: Embrace
 nav: Providers
@@ -257,7 +257,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.6
   facets:
     access_clarity: 77.6
     contract_governance: 18.2
@@ -265,7 +265,7 @@ score:
     developer_ergonomics: 73.2
     discoverability: 73.3
     operational_transparency: 73.7
-  previous_composite: 65.0
+  previous_composite: 61.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -277,7 +277,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

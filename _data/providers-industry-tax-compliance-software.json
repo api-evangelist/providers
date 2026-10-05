@@ -16,18 +16,18 @@
      "slug": "avalara",
      "description": "Avalara helps businesses of all sizes get tax compliance right. We deliver cloud-based solutions that work with existing business applications to calculate tax accurately and file returns automatically.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/screenshots/avalara-2026-06-20T172715.png",
-     "score": 71.4,
+     "score": 70.9,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 61.7,
+      "discoverability": 56.7,
       "contract_quality": 66.2,
       "contract_governance": 45.5,
       "operational_transparency": 42.1,
       "developer_ergonomics": 69.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -87,7 +87,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -137,7 +137,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -187,7 +187,7 @@
       "developer_ergonomics": 82.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -237,7 +237,7 @@
       "developer_ergonomics": 55.4,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -293,7 +293,7 @@
       "developer_ergonomics": 39.4,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -353,7 +353,7 @@
       "developer_ergonomics": 72.6,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -403,7 +403,7 @@
       "developer_ergonomics": 36.9,
       "access_clarity": 58.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -452,7 +452,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -502,7 +502,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -552,7 +552,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -609,7 +609,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 45.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -659,7 +659,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -720,7 +720,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -755,56 +755,6 @@
      "rank": 14
     },
     {
-     "name": "Workday Payroll",
-     "slug": "workday-payroll",
-     "description": "Workday Payroll provides comprehensive APIs for managing payroll operations, employee compensation, tax calculations, and payment processing within the Workday platform.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/screenshots/workday-payroll-2026-06-20T201609.png",
-     "score": 43.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 62.5,
-      "contract_quality": 74.5,
-      "contract_governance": 27.3,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 22.6,
-      "access_clarity": 42.1
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Employment & Payroll",
-      "regime_id": "employment_payroll",
-      "score": 29.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 15
-    },
-    {
      "name": "Fonoa",
      "slug": "fonoa",
      "description": "Fonoa is a global indirect tax automation platform that connects the full indirect tax lifecycle on one platform, serving enterprises across 100+ countries and jurisdictions. The platform provides APIs for real-time tax ID validation across 120+ countries, VAT/GST and sales tax calculation, e-invoicing compliance with local mandates, transaction reporting, and automated multi-country tax return filing. Companies such as Zoom, Uber, Booking.com, and Remote.com rely on Fonoa to automate and manage their global indirect tax obligations through a single API integration.",
@@ -820,7 +770,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 34.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -852,6 +802,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 15
+    },
+    {
+     "name": "Workday Payroll",
+     "slug": "workday-payroll",
+     "description": "Workday Payroll provides comprehensive APIs for managing payroll operations, employee compensation, tax calculations, and payment processing within the Workday platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/screenshots/workday-payroll-2026-06-20T201609.png",
+     "score": 43.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 57.1,
+      "contract_quality": 74.5,
+      "contract_governance": 27.3,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 22.6,
+      "access_clarity": 42.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Employment & Payroll",
+      "regime_id": "employment_payroll",
+      "score": 29.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 16
     },
     {
@@ -869,7 +869,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -918,7 +918,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -974,7 +974,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1024,7 +1024,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 46.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1074,7 +1074,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1131,7 +1131,7 @@
       "developer_ergonomics": 56.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1181,7 +1181,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1231,7 +1231,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1281,7 +1281,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 49.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1341,7 +1341,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1376,56 +1376,6 @@
      "rank": 26
     },
     {
-     "name": "Casey's General Stores",
-     "slug": "caseys-general-stores",
-     "description": "Casey's General Stores (NASDAQ: CASY) is one of the largest convenience-store chains in the United States, operating more than 2,900 stores selling fuel, made-from-scratch pizza, prepared food and convenience items, primarily in small midwestern communities. Behind the consumer brand Casey's runs a B2B API estate on Azure API Management at esl.caseys.io: 21 published OpenAPI 3.0.1 contracts and 158 operations covering stores and the division/region/district hierarchy, the Item Master (Pricebook), fuel pricing, per-store tax configuration, fuel tank telemetry, suppliers, vendor check-in, kitchen production planning, shelf-label printing, in-store messaging and IT service-management incidents — plus Conexxus POS Back Office Interface document ingestion carrying Conexxus Open Retailing identifiers. Access is by Azure APIM subscription key requested through the developer portal at developer.esl.caseys.io; a UAT environment mirrors the estate. No pricing, rate limits, SDKs, status page, changelog, deprecation policy or MCP server are published.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/screenshots/caseys-general-stores-2026-06-20T174033.png",
-     "score": 38.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 72.3,
-      "contract_quality": 45.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 42.3,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 24.5,
-      "matched_via": "fallback"
-     },
-     "agent_score": 29.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 27
-    },
-    {
      "name": "Column Tax",
      "slug": "column-tax",
      "description": "Column Tax is an IRS-authorized, API-first tax filing platform that lets banks, brokerages, neobanks, and SMB/freelancer fintech apps embed a full white-label income-tax preparation and e-file experience directly inside their own product. Partners create a Column Tax user via a server-side REST call, receive a short-lived authenticated URL, and launch the Column Tax UI (web loader or native iOS, Android, and React Native SDKs) embedded in their app, while webhooks report each user through the filing lifecycle. Column Tax offers DIY Filing and Expert Review products, is a SOC 2-certified and IRS-authorized e-file provider, and reports outcomes such as higher retention and direct-deposit switching for embedded partners.",
@@ -1441,7 +1391,7 @@
       "developer_ergonomics": 46.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1473,7 +1423,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 27
     },
     {
      "name": "FreeAgent",
@@ -1491,7 +1441,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1523,6 +1473,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 28
+    },
+    {
+     "name": "Casey's General Stores",
+     "slug": "caseys-general-stores",
+     "description": "Casey's General Stores (NASDAQ: CASY) is one of the largest convenience-store chains in the United States, operating more than 2,900 stores selling fuel, made-from-scratch pizza, prepared food and convenience items, primarily in small midwestern communities. Behind the consumer brand Casey's runs a B2B API estate on Azure API Management at esl.caseys.io: 21 published OpenAPI 3.0.1 contracts and 158 operations covering stores and the division/region/district hierarchy, the Item Master (Pricebook), fuel pricing, per-store tax configuration, fuel tank telemetry, suppliers, vendor check-in, kitchen production planning, shelf-label printing, in-store messaging and IT service-management incidents — plus Conexxus POS Back Office Interface document ingestion carrying Conexxus Open Retailing identifiers. Access is by Azure APIM subscription key requested through the developer portal at developer.esl.caseys.io; a UAT environment mirrors the estate. No pricing, rate limits, SDKs, status page, changelog, deprecation policy or MCP server are published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/screenshots/caseys-general-stores-2026-06-20T174033.png",
+     "score": 37.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 67.0,
+      "contract_quality": 45.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 42.3,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 24.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 29.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 29
     },
     {
@@ -1541,7 +1541,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1591,7 +1591,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1641,7 +1641,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 57.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1691,7 +1691,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1741,7 +1741,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1791,7 +1791,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1841,7 +1841,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1891,7 +1891,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1941,7 +1941,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1991,7 +1991,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2041,7 +2041,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2091,7 +2091,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2141,7 +2141,7 @@
       "developer_ergonomics": 66.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2191,7 +2191,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2241,7 +2241,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2298,7 +2298,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2348,7 +2348,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2398,7 +2398,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2448,7 +2448,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2498,7 +2498,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2548,7 +2548,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 46.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2557,7 +2557,7 @@
       "score": 11.8,
       "matched_via": "tags"
      },
-     "agent_score": 17.3,
+     "agent_score": 13.7,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -2576,7 +2576,7 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": "verified",
+      "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -2598,7 +2598,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2655,7 +2655,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2705,7 +2705,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 46.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2755,7 +2755,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2812,7 +2812,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 46.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2862,7 +2862,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 65.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2912,7 +2912,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 40.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2957,122 +2957,22 @@
    "shown": 39,
    "providers": [
     {
-     "name": "Deloitte",
-     "slug": "deloitte",
-     "description": "Deloitte is one of the Big Four professional services organizations, operating through a network of member firms coordinated by Deloitte Touche Tohmatsu Limited (DTTL). The organization spans approximately 150 countries and territories, has more than 180 years of history (founded 1845), and serves roughly 90% of the Fortune Global 500. Deloitte organizes delivery across four primary service lines — Audit & Assurance, Consulting, Tax, and Legal — plus specialized cross-functional practices including Business Process Solutions and Global Employer Services. Consulting offerings cover Customer, Cyber, Engineering / AI & Data, Enterprise Technology & Performance, Finance Transformation, Human Capital, Strategy & Transactions, and Risk / Regulatory & Forensic. Deloitte Digital is the technology-and-experience practice with alliances spanning Salesforce, Adobe, SAP, Google Cloud, AWS, ServiceNow, Oracle, Shopify, Sitecore, and Genesys, and accelerators such as FrontOffice Advantage, Revenue Advantage, Agentic Marketing Cloud, CreativEdge, Blueprint, Content Studios, and TrustID. The organization serves six industries divided into twenty sectors: Consumer; Energy, Resources & Industrials; Financial Services; Government & Public Services; Life Sciences & Health Care; and Technology, Media & Telecommunications. Deloitte Insights is the organization's research-publishing surface, organized into eight research centers — Cross-Industry, Economics, Consumer, Energy & Industrials, Financial Services, Government & Public Services, Life Sciences & Health Care, and Tech, Media & Telecom — producing flagship series including Tech Trends, Global Human Capital Trends, Digital Media Trends, TMT Predictions, FSI Predictions, the Weekly Global Economic Outlook, and the annual Industry Outlooks. The Deloitte AI Institute drives applied-AI research and points of view. Deloitte does not publish a public developer API or open developer portal at the corporate level. The Deloitte US Consulting GitHub organization is small (5 visible repositories, mostly archived upstream forks; the original artifact is `beacon`, a first-party web-analytics packaging library in TypeScript). Reader-facing distribution flows through MyDeloitte (personalized content + newsletter subscriptions), Dbriefs (live webcasts with CPE credit), the Deloitte Insights Magazine, and the YouTube channel; no public RSS index page was discoverable on www.deloitte.com at the path published in legacy archives.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deloitte/refs/heads/main/screenshots/deloitte-2026-06-20T175902.png",
-     "score": 25.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 10.7,
-      "contract_governance": 0.0,
-      "operational_transparency": 40.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 45.3
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 18.2,
-      "matched_via": "fallback"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 58
-    },
-    {
-     "name": "Black Ore Technologies",
-     "slug": "black-ore-technologies",
-     "description": "Black Ore Technologies is an Austin, Texas AI company building AI infrastructure for tax and financial services. Founded in 2022 by Eyal Shinar (previously founder of the fintech unicorn Fundbox) and Pavel Kapovski, the company emerged from stealth in November 2023 with $60 million in funding led by Andreessen Horowitz (a16z) and Oak HC/FT. Its flagship product, Tax Autopilot, combines proprietary AI with federal and state tax codes to autonomously execute the full lifecycle of complex tax returns for Certified Public Accountants and accounting firms, spanning document ingestion, intelligent extraction, return preparation, workpaper generation, and tax software integration (UltraTax, Lacerte, ProConnect). The platform covers 1040 individual returns plus 1041, 1065, and Schedule K-1/K-3 automation, and is used by 40% of the top 20 leading firms. Black Ore does not publish a public developer API or OpenAPI at this time; its authentication is handled by an Auth0-hosted OpenID Connect tenant at auth.blackore.ai.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/black-ore-technologies/refs/heads/main/screenshots/black-ore-technologies-2026-07-25T203235.png",
-     "score": 24.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 19.0,
-      "access_clarity": 53.9
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 27.3,
-      "matched_via": "fallback"
-     },
-     "agent_score": 15.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 59
-    },
-    {
      "name": "IRS",
      "slug": "irs",
      "description": "The US Internal Revenue Service (IRS) provides REST APIs and Application-to-Application (A2A) interfaces for tax information access, identity verification, income verification, information return filing, and taxpayer account data. Authorized applications can integrate with IRS e-Services for TIN matching, the Transcript Delivery System (TDS), the Income Verification Express Service (IVES), the Information Return Intake System (IRIS) for 1099 series filings, and the Modernized e-File (MeF) system for electronic tax return submission. Access requires enrollment in IRS e-Services and obtaining an API client ID.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/irs/refs/heads/main/screenshots/irs-2026-06-20T183613.png",
-     "score": 24.7,
+     "score": 25.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 71.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 34.7,
+      "operational_transparency": 40.0,
       "developer_ergonomics": 33.3,
       "access_clarity": 37.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3104,6 +3004,106 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 58
+    },
+    {
+     "name": "Deloitte",
+     "slug": "deloitte",
+     "description": "Deloitte is one of the Big Four professional services organizations, operating through a network of member firms coordinated by Deloitte Touche Tohmatsu Limited (DTTL). The organization spans approximately 150 countries and territories, has more than 180 years of history (founded 1845), and serves roughly 90% of the Fortune Global 500. Deloitte organizes delivery across four primary service lines — Audit & Assurance, Consulting, Tax, and Legal — plus specialized cross-functional practices including Business Process Solutions and Global Employer Services. Consulting offerings cover Customer, Cyber, Engineering / AI & Data, Enterprise Technology & Performance, Finance Transformation, Human Capital, Strategy & Transactions, and Risk / Regulatory & Forensic. Deloitte Digital is the technology-and-experience practice with alliances spanning Salesforce, Adobe, SAP, Google Cloud, AWS, ServiceNow, Oracle, Shopify, Sitecore, and Genesys, and accelerators such as FrontOffice Advantage, Revenue Advantage, Agentic Marketing Cloud, CreativEdge, Blueprint, Content Studios, and TrustID. The organization serves six industries divided into twenty sectors: Consumer; Energy, Resources & Industrials; Financial Services; Government & Public Services; Life Sciences & Health Care; and Technology, Media & Telecommunications. Deloitte Insights is the organization's research-publishing surface, organized into eight research centers — Cross-Industry, Economics, Consumer, Energy & Industrials, Financial Services, Government & Public Services, Life Sciences & Health Care, and Tech, Media & Telecom — producing flagship series including Tech Trends, Global Human Capital Trends, Digital Media Trends, TMT Predictions, FSI Predictions, the Weekly Global Economic Outlook, and the annual Industry Outlooks. The Deloitte AI Institute drives applied-AI research and points of view. Deloitte does not publish a public developer API or open developer portal at the corporate level. The Deloitte US Consulting GitHub organization is small (5 visible repositories, mostly archived upstream forks; the original artifact is `beacon`, a first-party web-analytics packaging library in TypeScript). Reader-facing distribution flows through MyDeloitte (personalized content + newsletter subscriptions), Dbriefs (live webcasts with CPE credit), the Deloitte Insights Magazine, and the YouTube channel; no public RSS index page was discoverable on www.deloitte.com at the path published in legacy archives.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deloitte/refs/heads/main/screenshots/deloitte-2026-06-20T175902.png",
+     "score": 25.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 10.7,
+      "contract_governance": 0.0,
+      "operational_transparency": 40.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 45.3
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 18.2,
+      "matched_via": "fallback"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 59
+    },
+    {
+     "name": "Black Ore Technologies",
+     "slug": "black-ore-technologies",
+     "description": "Black Ore Technologies is an Austin, Texas AI company building AI infrastructure for tax and financial services. Founded in 2022 by Eyal Shinar (previously founder of the fintech unicorn Fundbox) and Pavel Kapovski, the company emerged from stealth in November 2023 with $60 million in funding led by Andreessen Horowitz (a16z) and Oak HC/FT. Its flagship product, Tax Autopilot, combines proprietary AI with federal and state tax codes to autonomously execute the full lifecycle of complex tax returns for Certified Public Accountants and accounting firms, spanning document ingestion, intelligent extraction, return preparation, workpaper generation, and tax software integration (UltraTax, Lacerte, ProConnect). The platform covers 1040 individual returns plus 1041, 1065, and Schedule K-1/K-3 automation, and is used by 40% of the top 20 leading firms. Black Ore does not publish a public developer API or OpenAPI at this time; its authentication is handled by an Auth0-hosted OpenID Connect tenant at auth.blackore.ai.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/black-ore-technologies/refs/heads/main/screenshots/black-ore-technologies-2026-07-25T203235.png",
+     "score": 24.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 19.0,
+      "access_clarity": 53.9
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 27.3,
+      "matched_via": "fallback"
+     },
+     "agent_score": 15.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
      "rank": 60
     },
     {
@@ -3122,7 +3122,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3172,7 +3172,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3222,7 +3222,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 44.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3272,7 +3272,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 46.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3321,7 +3321,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3371,7 +3371,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3421,7 +3421,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3471,7 +3471,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3521,7 +3521,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3571,7 +3571,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3621,7 +3621,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3670,7 +3670,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3720,7 +3720,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3769,7 +3769,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 41.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3819,7 +3819,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3869,7 +3869,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3919,7 +3919,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3969,7 +3969,7 @@
       "developer_ergonomics": 13.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4019,7 +4019,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4069,7 +4069,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4119,7 +4119,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4128,7 +4128,7 @@
       "score": 13.7,
       "matched_via": "fallback"
      },
-     "agent_score": 12.2,
+     "agent_score": 8.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -4147,7 +4147,7 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": "verified",
+      "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -4169,7 +4169,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4219,7 +4219,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4269,7 +4269,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4319,7 +4319,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4369,7 +4369,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4378,7 +4378,7 @@
       "score": 6.3,
       "matched_via": "tags"
      },
-     "agent_score": 12.2,
+     "agent_score": 8.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -4397,7 +4397,7 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": "verified",
+      "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -4419,7 +4419,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4469,7 +4469,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4519,7 +4519,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4569,7 +4569,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4618,7 +4618,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4668,7 +4668,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4717,7 +4717,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4767,7 +4767,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4817,7 +4817,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4866,7 +4866,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4925,7 +4925,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4975,7 +4975,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5025,7 +5025,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5075,7 +5075,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5125,7 +5125,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5175,7 +5175,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5225,7 +5225,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5275,7 +5275,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5325,7 +5325,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5375,7 +5375,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5424,7 +5424,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5474,7 +5474,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5524,7 +5524,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5574,7 +5574,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5624,7 +5624,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5659,28 +5659,28 @@
      "rank": 111
     },
     {
-     "name": "Crete Professionals Alliance",
-     "slug": "crete-professionals-alliance",
-     "description": "Crete Professionals Alliance (rebranded in 2025 as \"Current\", current.co) is a growth platform for independent accounting firms, backed by Bessemer Venture Partners. The alliance provides member firms with technology, talent, capital, and strategy to compete at enterprise scale, spanning 48 partner firms across 39 states and 3 countries with more than 2,000 employees. Service lines include accounting, advisory, audit and attest, client accounting services, and tax. This is a professional services / accounting company, not a developer-facing API provider: it publishes no developer portal, API, SDKs, or technical documentation. The record is maintained in the API Evangelist network for portfolio-graph coverage of Bessemer holdings.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crete-professionals-alliance/refs/heads/main/screenshots/crete-professionals-alliance-2026-07-25T210730.png",
-     "score": 6.5,
+     "name": "EY",
+     "slug": "ey",
+     "description": "One of the Big Four professional services firms providing audit, tax, consulting, and advisory services. Operates in over 150 countries helping businesses navigate regulatory and strategic challenges, and runs proprietary technology platforms such as EY Helix (analytics), EY Atlas (research), and EY Canvas (audit) for internal and engagement use.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ey/refs/heads/main/screenshots/ey-2026-06-20T180957.png",
+     "score": 6.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 43.8,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
       "regime_id": "horizontal",
-      "score": 9.8,
+      "score": 9.1,
       "matched_via": "fallback"
      },
      "agent_score": 0.0,
@@ -5709,22 +5709,22 @@
      "rank": 112
     },
     {
-     "name": "EY",
-     "slug": "ey",
-     "description": "One of the Big Four professional services firms providing audit, tax, consulting, and advisory services. Operates in over 150 countries helping businesses navigate regulatory and strategic challenges, and runs proprietary technology platforms such as EY Helix (analytics), EY Atlas (research), and EY Canvas (audit) for internal and engagement use.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ey/refs/heads/main/screenshots/ey-2026-06-20T180957.png",
-     "score": 6.1,
+     "name": "Crete Professionals Alliance",
+     "slug": "crete-professionals-alliance",
+     "description": "Crete Professionals Alliance (rebranded in 2025 as \"Current\", current.co) is a growth platform for independent accounting firms, backed by Bessemer Venture Partners. The alliance provides member firms with technology, talent, capital, and strategy to compete at enterprise scale, spanning 48 partner firms across 39 states and 3 countries with more than 2,000 employees. Service lines include accounting, advisory, audit and attest, client accounting services, and tax. This is a professional services / accounting company, not a developer-facing API provider: it publishes no developer portal, API, SDKs, or technical documentation. The record is maintained in the API Evangelist network for portfolio-graph coverage of Bessemer holdings.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crete-professionals-alliance/refs/heads/main/screenshots/crete-professionals-alliance-2026-07-25T210730.png",
+     "score": 6.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 43.8,
+      "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5774,7 +5774,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5866,7 +5866,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5915,7 +5915,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5965,7 +5965,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6015,7 +6015,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6064,7 +6064,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6113,7 +6113,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6163,7 +6163,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6212,7 +6212,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6262,7 +6262,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6312,7 +6312,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6361,7 +6361,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,

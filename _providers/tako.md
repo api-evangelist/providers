@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 43.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 5
-  human_in_the_loop: 2
+- acting_count: 6
+  human_in_the_loop: 0
   name: Tako Agentic Access
   operation_count: 13
   slug: tako-agentic-access
-  summary_line: 13 operations · 5 acting · 2 human-in-the-loop
+  summary_line: 13 operations · 6 acting
 api_count: 1
 apis:
 - baseURL: https://tako.com/api
@@ -221,9 +221,9 @@ finops:
 image: https://tako.com/apple-touch-icon
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.tako.com over HTTP; 5 tools listed.
   name: Tako MCP Server
-  slug: tako-mcp-server
+  slug: tako
 modified: '2026-09-16'
 name: Tako
 nav: Providers
@@ -247,7 +247,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 52.6
     contract_governance: 4.5
@@ -255,7 +255,7 @@ score:
     developer_ergonomics: 75.0
     discoverability: 75.0
     operational_transparency: 21.1
-  previous_composite: 49.5
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -273,7 +273,7 @@ score:
     regime_id: horizontal
     score: 22.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

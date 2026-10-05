@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
 artifact_total: 2
 common:
@@ -89,9 +89,9 @@ description: Attuned Intelligence is a healthcare voice AI company that automate
 image: https://static.wixstatic.com/media/99000f_690ca5256d704e37a71772baed21a4b6~mv2.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at www.attuned-intelligence.com over HTTP; 7 tools listed.
   name: Attuned Intelligence Site MCP (Wix)
-  slug: attuned-intelligence-site-mcp-wix
+  slug: attuned-intelligence-site
 modified: '2026-07-18'
 name: Attuned Intelligence
 nav: Providers
@@ -111,7 +111,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
@@ -119,7 +119,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 58.3
     operational_transparency: 0.0
-  previous_composite: 16.0
+  previous_composite: 16.8
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -134,7 +134,7 @@ score:
     regime_id: health
     score: 17.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - baseURL: https://api.kata.ai
@@ -119,6 +119,11 @@ collections:
   name: Kata.ai NL Prediction Auth Teams API
   slug: open-kataai-teams-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/capabilities/kataai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/kataai-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -247,19 +252,19 @@ network: true
 overview: 'Kata.ai publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Bots API, Channels API, and 6 more. Tagged areas include Company, Conversational AI, Chatbots, AI Agents, and Natural Language Understanding.
 
 
-  Kata.ai''s developer surface includes documentation, API reference, signup flow, support, authentication, CLI, and 19 more developer resources.'
+  Kata.ai''s developer surface includes documentation, API reference, signup flow, support, authentication, CLI, and 20 more developer resources.'
 random_paper: 3
 score:
   band: emerging
   composite: 22.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
@@ -274,7 +279,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 22.9
+  previous_composite: 22.4
   provenance:
     conformance: derived
     contracts:
@@ -291,7 +296,7 @@ score:
     regime_id: horizontal
     score: 20.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 10
+- acting_count: 19
   human_in_the_loop: 0
   name: Whmcs Agentic Access
   operation_count: 19
   slug: whmcs-agentic-access
-  summary_line: 19 operations · 10 acting
+  summary_line: 19 operations · 19 acting
 api_count: 1
 apis:
 - baseURL: https://{your-domain}/includes/api.php
@@ -110,6 +110,11 @@ collections:
   name: WHMCS API
   slug: open-whmcs
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/capabilities/whmcs-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/whmcs-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/agentic-access/whmcs-agentic-access.yml
   title: ''
@@ -216,7 +221,7 @@ overview: 'WHMCS publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
   The WHMCS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  WHMCS''s developer surface includes authentication, documentation, API reference, engineering blog, and 9 more developer resources.'
+  WHMCS''s developer surface includes authentication, documentation, API reference, engineering blog, and 10 more developer resources.'
 plans:
 - name: Whmcs Plans Pricing
   plan_count: 3
@@ -252,13 +257,13 @@ score:
   band: developing
   composite: 39.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 75.0
     catalog_earned_first_party: 0.0
     catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 15.8
     contract_governance: 27.3
@@ -266,7 +271,7 @@ score:
     developer_ergonomics: 47.6
     discoverability: 66.1
     operational_transparency: 18.4
-  previous_composite: 39.6
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     contracts:
@@ -281,7 +286,7 @@ score:
     regime_id: horizontal
     score: 22.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

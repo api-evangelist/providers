@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 8
+- acting_count: 9
   human_in_the_loop: 0
   name: Vespa Ai Agentic Access
   operation_count: 18
   slug: vespa-ai-agentic-access
-  summary_line: 18 operations · 8 acting
+  summary_line: 18 operations · 9 acting
 api_count: 3
 apis:
 - description: The Vespa Deploy API (/application/v2) manages application packages on a Vespa configuration server. It supports preparing, activating, and tearing down application packages, session-based deployments
@@ -397,7 +397,7 @@ score:
     catalog_gap: 38.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
     access_clarity: 46.8
     contract_governance: 27.3
@@ -408,7 +408,7 @@ score:
   open_source:
     applies: true
     score: 85.0
-  previous_composite: 54.1
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     contracts:
@@ -423,7 +423,7 @@ score:
     regime_id: horizontal
     score: 20.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true
@@ -454,6 +454,7 @@ tags:
 - Open Source
 - Tensor
 - Recommendations
+- Vector Search
 use_cases:
 - description: Combine BM25 text relevance with vector similarity and structured filters in a single query executed by Vespa's multi-phase ranking pipeline.
   name: Hybrid Search

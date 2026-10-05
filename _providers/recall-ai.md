@@ -26,20 +26,20 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.1
-  scored_at: '2026-10-03'
+  score: 30.5
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The Recall.ai REST API provides programmatic access to meeting bot management, recording retrieval, transcript extraction, calendar integration, and real-time media streaming across Zoom, Google Meet,
   name: Recall.ai REST API
   slug: recallai-rest-api
-artifact_total: 6
+artifact_total: 7
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/recall-ai/refs/heads/main/security/recall-ai-domain-security.yml
@@ -116,6 +116,10 @@ jsonld:
   property_count: 16
   slug: recall-ai-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.recall.ai over HTTP.
+  name: Recall.ai MCP Server
+  slug: recall-ai
 modified: '2026-06-12'
 name: Recall.ai
 nav: Providers
@@ -146,7 +150,7 @@ score:
     catalog_gap: 42.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.8
   facets:
     access_clarity: 46.8
     contract_governance: 0.0
@@ -154,7 +158,7 @@ score:
     developer_ergonomics: 19.0
     discoverability: 68.3
     operational_transparency: 53.4
-  previous_composite: 36.3
+  previous_composite: 38.1
   provenance:
     mcp: first-party
   regulatory:
@@ -164,7 +168,7 @@ score:
     regime_id: horizontal
     score: 15.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
 common:
 - group: company
   title: ''
@@ -64,6 +64,10 @@ created: '2026-07-17'
 description: Harbor Lab is an AI-powered port cost and disbursement account (DA) management platform for the maritime industry, headquartered in Athens, Greece. Its cloud software helps shipowners, ship managers, charterers, and port agents manage port calls, validate and approve disbursement accounts, benchmark and negotiate port service pricing across a marketplace of thousands of port service providers, and automate payment and settlement — improving operational efficiency, digitizing the process, and delivering cost transparency across port cost management. The company is backed by Speedinvest, VentureFriends, Atomico, and others. As of this profile Harbor Lab exposes a web dashboard product only; no public API, developer portal, or documentation surface was found.
 image: https://dashboard.harborlab.com/img/pwa/logo-192x192.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.harborlab.com over HTTP; 9 tools listed.
+  name: Harbor Lab MCP Server
+  slug: harbor-lab
 modified: '2026-07-19'
 name: Harbor Lab
 nav: Providers
@@ -83,7 +87,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 27.6
     contract_governance: 0.0
@@ -97,7 +101,7 @@ score:
     regions:
     - europe
     - italy-southern-europe
-  previous_composite: 10.9
+  previous_composite: 11.9
   provenance:
     mcp: first-party
   regulatory:
@@ -107,7 +111,7 @@ score:
     regime_id: horizontal
     score: 7.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

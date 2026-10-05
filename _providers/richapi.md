@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: RichAPI Backend API providing data enrichment and MCP endpoints.
@@ -146,9 +146,9 @@ description: RichAPI provides a B2B data enrichment platform and Managed Custome
 image: https://richapi.ai/opengraph-image
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.richapi.ai.
   name: RichAPI MCP Server
-  slug: richapi-mcp-server
+  slug: richapi-mcp-yml
 modified: '2026-10-02'
 name: RichAPI
 nav: Providers
@@ -166,7 +166,7 @@ score:
   band: thin
   composite: 36.9
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 44.0
     catalog_earned_first_party: 12.0
     catalog_gap: 71.0
@@ -193,7 +193,7 @@ score:
     regime_id: horizontal
     score: 21.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Decentralized Open-Source Cloud Storage
@@ -61,7 +61,7 @@ modified: '2026-05-28'
 name: Storj
 nav: Providers
 network: true
-overview: Storj publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Storage And File Sharing, Public APIs, Storage, Object Storage, and Cloud Storage.
+overview: Storj publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Public APIs, Storage, Object Storage, Cloud Storage, and S3 Compatible.
 random_paper: 12
 score:
   band: minimal
@@ -73,7 +73,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -81,7 +81,7 @@ score:
     developer_ergonomics: 9.5
     discoverability: 55.4
     operational_transparency: 0.0
-  previous_composite: 6.0
+  previous_composite: 7.6
   regulatory:
     applies: true
     matched_via: fallback
@@ -89,7 +89,7 @@ score:
     regime_id: horizontal
     score: 5.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false
@@ -103,11 +103,11 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: storj
 tags:
-- Cloud Storage And File Sharing
 - Public APIs
 - Storage
 - Object Storage
 - Cloud Storage
 - S3 Compatible
+- Decentralized Storage
 website: https://docs.storj.io/dcs/
 ---

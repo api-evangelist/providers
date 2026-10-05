@@ -32,13 +32,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: 'Bastion''s REST API for regulated stablecoin infrastructure: create and manage custodial wallets, issue and convert stablecoins, run on/off-ramps, and move digital assets, with built-in KYC/AML complia'
   name: Bastion API
   slug: bastion-api
-artifact_total: 3
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -125,6 +125,10 @@ created: '2026-07-17'
 description: Bastion is a full-stack, regulated stablecoin infrastructure platform for enterprises and financial institutions. Founded in 2023 and based in Campbell, California by former a16z crypto leaders, Bastion lets companies securely issue, custody, move, and convert USD-backed stablecoins under Bastion's licenses or their own. Its API-first product suite spans a Regulated Wallet API (create unlimited custodial wallets with Cloud HSM and enclave-based key management), stablecoin issuance, on/off-ramps, and payments, plus Compliance-as-a-Service that handles KYC and AML. Bastion Platforms Trust Company, LLC is chartered as a limited purpose trust company by the New York State Department of Financial Services, and Bastion Platforms US, LLC is a registered MSB (NMLS ID 2523302) with broad money-transmitter-license coverage across the United States. Bastion has raised over $40M from a16z crypto, Coinbase Ventures, and others.
 image: https://framerusercontent.com/images/pTrMs5MJstsls9S7X45qlr99Pc.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at docs.bastion.com over HTTP; 3 tools listed.
+  name: Bastion MCP Server
+  slug: bastion
 modified: '2026-07-18'
 name: Bastion
 nav: Providers
@@ -144,7 +148,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
@@ -159,7 +163,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 29.0
+  previous_composite: 30.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -170,7 +174,7 @@ score:
     regime_id: payments
     score: 26.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

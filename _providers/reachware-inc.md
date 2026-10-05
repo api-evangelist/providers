@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://api.reachware.com
@@ -60,6 +60,11 @@ collections:
   name: Reach Pay Cards Payments API
   slug: open-reachware-inc-payments-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/capabilities/reachware-inc-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/reachware-inc-capability-edges.yml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/openapi/_original/reachware-inc-reachpay-openapi.yml
   title: ''
@@ -172,19 +177,19 @@ network: true
 overview: 'Reachware publishes 2 APIs on the [APIs.io](https://apis.io/) network: Inc. Cards API and Inc. Payments API. Tagged areas include Company, Payments, iPaaS, Integration, and Fintech.
 
 
-  Reachware''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, and 16 more developer resources.'
+  Reachware''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, and 17 more developer resources.'
 random_paper: 7
 score:
   band: thin
   composite: 36.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.1
   facets:
     access_clarity: 25.0
     contract_governance: 18.2
@@ -199,7 +204,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - middle-east
-  previous_composite: 36.9
+  previous_composite: 40.0
   provenance:
     conformance: first-party
     contracts:
@@ -216,7 +221,7 @@ score:
     regime_id: payments
     score: 30.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

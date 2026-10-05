@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 4
 apis:
 - description: The core Bloomberg API providing real-time market data, reference data, historical data, and intraday tick data. SDKs available for C++, Java, Python, C#/.NET, and Perl. Connects to Bloomberg Terminal
@@ -145,7 +145,7 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 36.8
     contract_governance: 0.0
@@ -153,7 +153,7 @@ score:
     developer_ergonomics: 31.0
     discoverability: 62.5
     operational_transparency: 10.5
-  previous_composite: 20.8
+  previous_composite: 21.1
   regulatory:
     applies: true
     matched_via: tags
@@ -161,7 +161,7 @@ score:
     regime_id: securities_market_data
     score: 18.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 42
+- acting_count: 63
   human_in_the_loop: 0
   name: Groundtruth Agentic Access
   operation_count: 318
   slug: groundtruth-agentic-access
-  summary_line: 318 operations · 42 acting
+  summary_line: 318 operations · 63 acting
 api_count: 4
 apis:
 - description: Model Context Protocol endpoint served on the GroundTruth developer documentation host. It answers MCP JSON-RPC on /mcp but returns error -32001 "Authorization required" to anonymous initialize and to
@@ -137,7 +137,7 @@ apis:
   description: The Users API from GroundTruth — 4 operation(s) for users.
   name: GroundTruth Users API
   slug: groundtruth-users-api
-artifact_total: 28
+artifact_total: 27
 collections:
 - collection_type: open
   name: Ads Manager API
@@ -146,6 +146,11 @@ collections:
   name: Groundtruth Reporting API
   slug: open-groundtruth-reporting
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/capabilities/groundtruth-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/groundtruth-capability-edges.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/security/groundtruth-domain-security.yml
   title: ''
@@ -285,12 +290,9 @@ description: 'GroundTruth is a location-intelligence performance advertising pla
 image: https://www.groundtruth.com/wp-content/uploads/2026/06/GroundTruth-Featured-Image.webp
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at docs.groundtruth.com over HTTP.
   name: GroundTruth MCP Server
-  slug: groundtruth-mcp-server
-- description: ''
-  name: GroundTruth MCP Server
-  slug: groundtruth-mcp-server-2
+  slug: groundtruth-docs
 modified: '2026-08-12'
 name: GroundTruth
 nav: Providers
@@ -298,7 +300,7 @@ network: true
 overview: 'GroundTruth publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Ad Groups API, Audiences API, and 16 more. Tagged areas include Company, MarTech, Advertising, Location Intelligence, and Marketing.
 
 
-  GroundTruth''s developer surface includes documentation, API reference, signup flow, engineering blog, support, getting-started guide, authentication, and 22 more developer resources.'
+  GroundTruth''s developer surface includes documentation, API reference, signup flow, engineering blog, support, getting-started guide, authentication, and 23 more developer resources.'
 plans:
 - name: Groundtruth Plans Pricing
   plan_count: 0
@@ -318,7 +320,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
@@ -326,7 +328,7 @@ score:
     developer_ergonomics: 57.7
     discoverability: 76.7
     operational_transparency: 0.0
-  previous_composite: 38.7
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -344,7 +346,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

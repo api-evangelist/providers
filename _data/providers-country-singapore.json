@@ -1,6 +1,6 @@
 {
- "total": 123,
- "shown": 123,
+ "total": 124,
+ "shown": 124,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -77,7 +77,7 @@
       "developer_ergonomics": 69.6,
       "access_clarity": 75.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -126,7 +126,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -176,7 +176,7 @@
       "developer_ergonomics": 79.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -237,7 +237,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -298,7 +298,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -347,7 +347,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -397,7 +397,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -446,7 +446,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -496,7 +496,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 49.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -546,7 +546,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -596,7 +596,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -646,7 +646,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -695,7 +695,7 @@
       "developer_ergonomics": 85.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -745,7 +745,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -806,7 +806,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -856,7 +856,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 47.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -905,7 +905,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -955,7 +955,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1004,7 +1004,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1054,7 +1054,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1104,7 +1104,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1154,7 +1154,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1211,7 +1211,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1261,7 +1261,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1318,7 +1318,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1368,7 +1368,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1417,7 +1417,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1467,7 +1467,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1517,7 +1517,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1567,7 +1567,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1617,7 +1617,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1677,7 +1677,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1727,7 +1727,7 @@
       "developer_ergonomics": 32.7,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1777,7 +1777,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1827,7 +1827,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1877,7 +1877,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1927,7 +1927,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1977,7 +1977,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2027,7 +2027,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2077,7 +2077,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2127,7 +2127,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2177,7 +2177,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2227,7 +2227,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2277,7 +2277,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2327,7 +2327,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2376,7 +2376,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2411,56 +2411,6 @@
      "rank": 47
     },
     {
-     "name": "CargoAi",
-     "slug": "cargoai",
-     "description": "CargoAi is a Singapore-headquartered air cargo technology company that operates CargoMART, a digital marketplace where freight forwarders search routes, schedules, capacity and rates across 680+ airlines, book them, transmit the electronic air waybill, and track the shipment end to end. It sits in the middle of the air cargo chain as an aggregator between forwarders and their TMS vendors on one side and airline reservation and messaging systems on the other. Its API posture is genuinely public in documentation and sales-gated in access - the CargoCONNECT developer portal at cargoai.readme.io is open to anyone with no login and publishes a real OpenAPI 3.1 definition per operation, but an x-api-key is issued only after a commercial conversation with the CargoAi enterprise team. The published contract is a proprietary REST shape rather than an IATA ONE Record interface, though the payloads it carries are IATA-native - AWB numbers with airline prefixes, IATA airport and airline codes, Special Handling Codes, IATA cargo status event codes, FWB and FHL message content, and CO2 figures computed per IATA Recommended Practice 1678.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cargoai/refs/heads/main/screenshots/cargoai-2026-08-07T163015.png",
-     "score": 14.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 76.7,
-      "contract_quality": 15.3,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 22.6,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 0.0,
-      "matched_via": "fallback"
-     },
-     "agent_score": 30.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 48
-    },
-    {
      "name": "BoxGreen",
      "slug": "boxgreen",
      "description": "BoxGreen (BoxGreen Pte. Ltd., incorporated 2014 in Singapore) is a Certified B Corporation and social enterprise selling all-natural, individually packaged healthy snacks direct to consumers and to businesses. Its consumer offering is a Shopify-based e-commerce store with build-your-own snack boxes, curated collections (nut mixes, crunchies, vegan and gluten-free ranges), gift and party packs, and a subscription delivery model; its B2B side covers corporate gifting, office pantry supply, and cashless healthy-snack vending machines. Every BoxGreen snack is packed in prison by beneficiaries of Singapore's Yellow Ribbon Project to build skills and employability. Surfaced as a 500 Global portfolio company, BoxGreen publishes no first-party API or developer program; the only machine-readable surface on its domain is Shopify's New Customer Accounts OIDC/OAuth discovery.",
@@ -2476,7 +2426,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2508,7 +2458,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 48
     },
     {
      "name": "Prudential",
@@ -2526,7 +2476,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2558,6 +2508,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 49
+    },
+    {
+     "name": "CargoAi",
+     "slug": "cargoai",
+     "description": "CargoAi is a Singapore-headquartered air cargo technology company that operates CargoMART, a digital marketplace where freight forwarders search routes, schedules, capacity and rates across 680+ airlines, book them, transmit the electronic air waybill, and track the shipment end to end. It sits in the middle of the air cargo chain as an aggregator between forwarders and their TMS vendors on one side and airline reservation and messaging systems on the other. Its API posture is genuinely public in documentation and sales-gated in access - the CargoCONNECT developer portal at cargoai.readme.io is open to anyone with no login and publishes a real OpenAPI 3.1 definition per operation, but an x-api-key is issued only after a commercial conversation with the CargoAi enterprise team. The published contract is a proprietary REST shape rather than an IATA ONE Record interface, though the payloads it carries are IATA-native - AWB numbers with airline prefixes, IATA airport and airline codes, Special Handling Codes, IATA cargo status event codes, FWB and FHL message content, and CO2 figures computed per IATA Recommended Practice 1678.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cargoai/refs/heads/main/screenshots/cargoai-2026-08-07T163015.png",
+     "score": 13.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 69.6,
+      "contract_quality": 15.3,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 22.6,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 0.0,
+      "matched_via": "fallback"
+     },
+     "agent_score": 22.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 50
     },
     {
@@ -2576,7 +2576,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2626,7 +2626,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2676,7 +2676,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2726,7 +2726,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2776,7 +2776,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2826,7 +2826,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2876,7 +2876,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2926,7 +2926,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2976,7 +2976,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3026,7 +3026,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3076,7 +3076,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3117,8 +3117,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 62,
-   "shown": 62,
+   "count": 63,
+   "shown": 63,
    "providers": [
     {
      "name": "Biobotsurgicalpteltd",
@@ -3135,7 +3135,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3192,7 +3192,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3242,7 +3242,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3292,7 +3292,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3342,7 +3342,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3392,7 +3392,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3441,7 +3441,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3491,7 +3491,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3540,7 +3540,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3575,22 +3575,21 @@
      "rank": 70
     },
     {
-     "name": "SuperGaming",
-     "slug": "supergaming",
-     "description": "SuperGaming is a Series B-funded game development studio building multiplayer games \"for the next billion players\" in emerging markets. Headquartered in Singapore with a studio in Pune, India, the company develops and operates titles including Indus (battle royale), Prime Rush, Prime Rush MENA, SHOWDOWN, MaskGun (110M+ installs), Tower Conquest, and Silly Royale. SuperGaming also runs SuperPlatform, a proprietary real-time multiplayer and live-ops engine that powers its own games and 15+ other titles, and offers publisher services such as co-development, LiveOps-as-a-service, localization, and user acquisition. As of this enrichment pass the company publishes no public developer API, SDK, or developer portal for external developers; SuperPlatform is an internal engine offered through partnerships rather than a self-serve API. This profile was surfaced as a portfolio company of a16z.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/supergaming/refs/heads/main/screenshots/supergaming-2026-09-02T161231.png",
-     "score": 8.8,
+     "name": "Bondevalue",
+     "slug": "bondevalue",
+     "description": "Bondevalue provides a digital platform for tracking and trading bonds, offering curated bond portfolios, market data, and trading tools to investors. The service is regulated by the Monetary Authority of Singapore as a Recognised Market Operator, delivering transparent bond pricing and portfolio management through its BondbloX platform.",
+     "score": 8.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3625,6 +3624,56 @@
      "rank": 71
     },
     {
+     "name": "SuperGaming",
+     "slug": "supergaming",
+     "description": "SuperGaming is a Series B-funded game development studio building multiplayer games \"for the next billion players\" in emerging markets. Headquartered in Singapore with a studio in Pune, India, the company develops and operates titles including Indus (battle royale), Prime Rush, Prime Rush MENA, SHOWDOWN, MaskGun (110M+ installs), Tower Conquest, and Silly Royale. SuperGaming also runs SuperPlatform, a proprietary real-time multiplayer and live-ops engine that powers its own games and 15+ other titles, and offers publisher services such as co-development, LiveOps-as-a-service, localization, and user acquisition. As of this enrichment pass the company publishes no public developer API, SDK, or developer portal for external developers; SuperPlatform is an internal engine offered through partnerships rather than a self-serve API. This profile was surfaced as a portfolio company of a16z.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/supergaming/refs/heads/main/screenshots/supergaming-2026-09-02T161231.png",
+     "score": 8.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 13.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 72
+    },
+    {
      "name": "Circle Asia",
      "slug": "circle-asia",
      "description": "Circle Asia Technologies is a Singapore-headquartered consumer fintech (offices at 68 Circular Road, Singapore, and Ho Chi Minh City, Vietnam) behind the Circle app and the VPBank Circle PayLater credit card, a digital buy-now-pay-later card issued in partnership with Vietnam Prosperity Joint Stock Commercial Bank (VPBank). The product lets consumers onboard with only an ID and phone number, waives the lifetime annual fee, and pairs a physical and virtual card with AI-assisted expense management, spending limits, one-tap card lock, biometric (face/fingerprint) authentication, and real-time SMS/app transaction alerts. The company is PCI DSS v4.0.1 certified and Visa-compliant, ships native iOS and Android apps, and is backed by 500 Global. Circle Asia is a consumer application company with no public developer API; this profile captures its identity, security posture, and compliance claims for the API Evangelist network.",
@@ -3640,7 +3689,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3672,7 +3721,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "Silicon Box",
@@ -3690,7 +3739,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3722,7 +3771,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "Apar Infotech",
@@ -3740,7 +3789,7 @@
       "developer_ergonomics": 3.6,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3772,7 +3821,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 75
     },
     {
      "name": "Una Brands",
@@ -3790,7 +3839,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3822,7 +3871,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "SALARY HERO",
@@ -3840,7 +3889,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3872,7 +3921,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 77
     },
     {
      "name": "Terrascope",
@@ -3890,7 +3939,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3922,7 +3971,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 78
     },
     {
      "name": "Clockster",
@@ -3940,7 +3989,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3972,7 +4021,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 79
     },
     {
      "name": "Jenfi",
@@ -3990,7 +4039,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4022,7 +4071,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 80
     },
     {
      "name": "Aether Fuels",
@@ -4039,7 +4088,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4071,7 +4120,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 81
     },
     {
      "name": "Tinvio",
@@ -4089,7 +4138,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4098,7 +4147,7 @@
       "score": 5.4,
       "matched_via": "tags"
      },
-     "agent_score": 12.2,
+     "agent_score": 8.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -4117,11 +4166,11 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": "verified",
+      "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 82
     },
     {
      "name": "Abaxx",
@@ -4139,7 +4188,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4171,7 +4220,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 82
+     "rank": 83
     },
     {
      "name": "MyCash",
@@ -4188,7 +4237,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4220,7 +4269,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 84
     },
     {
      "name": "Hummingbird Bioscience",
@@ -4238,7 +4287,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4270,7 +4319,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 85
     },
     {
      "name": "Hydroleap",
@@ -4288,7 +4337,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4320,7 +4369,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 86
     },
     {
      "name": "Love Bonito",
@@ -4338,7 +4387,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4370,7 +4419,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 87
     },
     {
      "name": "Grain",
@@ -4388,7 +4437,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4420,7 +4469,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 88
     },
     {
      "name": "Sleek EV",
@@ -4438,7 +4487,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4470,7 +4519,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 89
     },
     {
      "name": "Ion Mobility",
@@ -4488,57 +4537,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 5.9,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 89
-    },
-    {
-     "name": "Krosslinker",
-     "slug": "krosslinker",
-     "description": "Krosslinker (KrossLinker) is a Singapore-based deep-tech advanced-materials company that designs and manufactures silica aerogels — among the most insulating solids known — using a proprietary, water-based and scalable chemistry and manufacturing platform the company calls Aspire. Its product line spans Cryar super-insulating aerogel composite board, QuintAero ultra-light silica aerogel powder, KrossShield SR Pro aerogel-powered cooling paint, and a flexible aerogel blanket in development, serving cold-chain pharma and food packaging, building and construction passive cooling, and industrial insulation. Krosslinker operates from CleanTech III in Singapore and is a 500 Global portfolio company. It is a physical-materials manufacturer and publishes no public API, developer portal, or machine-readable API artifacts; this profile captures its public web, product, and security posture for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/krosslinker/refs/heads/main/screenshots/krosslinker-2026-07-25T224309.png",
-     "score": 4.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 55.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4573,6 +4572,56 @@
      "rank": 90
     },
     {
+     "name": "Krosslinker",
+     "slug": "krosslinker",
+     "description": "Krosslinker (KrossLinker) is a Singapore-based deep-tech advanced-materials company that designs and manufactures silica aerogels — among the most insulating solids known — using a proprietary, water-based and scalable chemistry and manufacturing platform the company calls Aspire. Its product line spans Cryar super-insulating aerogel composite board, QuintAero ultra-light silica aerogel powder, KrossShield SR Pro aerogel-powered cooling paint, and a flexible aerogel blanket in development, serving cold-chain pharma and food packaging, building and construction passive cooling, and industrial insulation. Krosslinker operates from CleanTech III in Singapore and is a 500 Global portfolio company. It is a physical-materials manufacturer and publishes no public API, developer portal, or machine-readable API artifacts; this profile captures its public web, product, and security posture for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/krosslinker/refs/heads/main/screenshots/krosslinker-2026-07-25T224309.png",
+     "score": 4.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 55.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 91
+    },
+    {
      "name": "Novocall",
      "slug": "novocall",
      "description": "Novocall was a Singapore-based callback and lead-conversion SaaS (a click-to-call and callback-scheduling widget that turned website visitors into inbound phone calls and booked meetings), surfaced as a 500 Global portfolio company and added to the API Evangelist network as a stub for enrichment. It was acquired by Malaysian commerce platform EasyStore in March 2023, alongside sibling product NovoChat, and has been marketed since as \"Novocall, an EasyStore company\". As of the August 2026 enrichment pass every Novocall host is dead: the apex novocall.co keeps live email DNS (Google Workspace MX, SPF, DMARC quarantine, CAA) but has no A record at all, www.novocall.co, app.novocall.co and call.novocall.co — the widget/dashboard host hardcoded in Novocall's own WordPress plugin — all return a Cloudflare 530 (edge up, origin gone), help.novocall.co returns 429 with Cloudflare error 1027 (account daily request limit reached), getnovocall.com times out, and novocall.com is now an Afternic parked domain whose catch-all answers 200 with an HTML lander for every path including /openapi.json and /.well-known/agent-card.json. No API, specification, developer portal, .well-known document or documentation surface exists on any reachable host. The only first-party artifact Novocall ever published that survives is a WordPress callback-widget plugin, stuck at version 1.0.0 since 2019-04-08.",
@@ -4587,7 +4636,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4619,7 +4668,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 92
     },
     {
      "name": "Ocean Network Express",
@@ -4637,7 +4686,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4669,7 +4718,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 93
     },
     {
      "name": "Volt14",
@@ -4687,7 +4736,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4719,7 +4768,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 94
     },
     {
      "name": "Arcstone",
@@ -4737,7 +4786,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4769,7 +4818,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 95
     },
     {
      "name": "Atomionics",
@@ -4787,7 +4836,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4819,7 +4868,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 96
     },
     {
      "name": "Movel AI",
@@ -4837,56 +4886,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 5.9,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 96
-    },
-    {
-     "name": "Avago Technologies",
-     "slug": "avago-technologies",
-     "description": "Avago Technologies Limited was the Singapore-headquartered semiconductor company spun out of Agilent Technologies' semiconductor products group in 2005 that acquired Broadcom Corporation for $37 billion on February 1, 2016 and renamed itself Broadcom Limited, today Broadcom Inc. (NASDAQ: AVGO). Avago is therefore not a subsidiary of Broadcom but its legal predecessor and former corporate name. The brand is retired: every path on avagotech.com returns an HTTP 301 to broadcom.com, avago.com is a third-party domain-brokerage landing page rather than a company site, and no Avago-branded developer portal, documentation, OpenAPI, SDK, package or GitHub organization exists. API surfaces once associated with Avago product lines (LSI and Emulex storage controllers, fiber optics, RF) are published today by Broadcom and are profiled under the broadcom record.",
-     "score": 3.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 51.8,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4921,122 +4921,21 @@
      "rank": 97
     },
     {
-     "name": "Rawsome Pte. Ltd.",
-     "slug": "rawsome-pte-ltd",
-     "description": "Rawsome Pte. Ltd. (trading as Rawsome Asia Beverages) is a Singapore-based producer and distributor of small-batch, handcrafted raw kombucha sold under the Wild Boocha brand. The company brews fermented tea beverages -- including Citrus Green, Strawberry Mint, and Harmony Adaptogenic flavors -- available in one-liter bottles and refillable mini kegs, and markets them as a functional wellness drink rich in probiotics, polyphenols, B vitamins, vitamin C, organic enzymes, and amino acids. Rawsome operates a direct-to-consumer e-commerce storefront (built on Odoo) and was surfaced as a portfolio company of 500 Global. This profile currently has no public API, developer portal, or developer documentation; it is maintained in the API Evangelist network as a company record.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rawsome-pte-ltd/refs/heads/main/screenshots/rawsome-pte-ltd-2026-09-02T152927.png",
+     "name": "Avago Technologies",
+     "slug": "avago-technologies",
+     "description": "Avago Technologies Limited was the Singapore-headquartered semiconductor company spun out of Agilent Technologies' semiconductor products group in 2005 that acquired Broadcom Corporation for $37 billion on February 1, 2016 and renamed itself Broadcom Limited, today Broadcom Inc. (NASDAQ: AVGO). Avago is therefore not a subsidiary of Broadcom but its legal predecessor and former corporate name. The brand is retired: every path on avagotech.com returns an HTTP 301 to broadcom.com, avago.com is a third-party domain-brokerage landing page rather than a company site, and no Avago-branded developer portal, documentation, OpenAPI, SDK, package or GitHub organization exists. API surfaces once associated with Avago product lines (LSI and Emulex storage controllers, fiber optics, RF) are published today by Broadcom and are profiled under the broadcom record.",
      "score": 3.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 51.8,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 4.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 98
-    },
-    {
-     "name": "igloo",
-     "slug": "igloo",
-     "description": "Igloo is a full-stack insurtech firm headquartered in Singapore and operating across six Southeast Asian markets (Singapore, Indonesia, the Philippines, Thailand, Malaysia, and Vietnam). It makes insurance simple, accessible, and affordable by embedding coverage into the platforms consumers already use, working with 100+ partners across e-commerce, telecommunications, banking, logistics, and lifestyle (including Shopee, Foodpanda, GCash, AIS, and Siam Commercial Bank). Its product line spans motor, mobile phone, travel, pet, personal accident, cyber, loan protection, e-commerce purchase protection, and blockchain-powered weather-index insurance. Igloo also ships technology platforms for the insurance value chain: Igloo Agent (agency management), Igloo Consumer (direct-to-consumer marketplace), Igloo Partner (affinity distribution), Ignite (digital agent platform), and the Turbo Core insurance operations system. Integration is offered through a partner-facing API program rather than a public self-serve developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/igloo/refs/heads/main/screenshots/igloo-2026-07-25T222055.png",
-     "score": 3.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 5.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 99
-    },
-    {
-     "name": "Aliena",
-     "slug": "aliena",
-     "description": "Aliena is a Singapore-based space-technology company, incorporated in 2018, that designs and manufactures compact electric propulsion systems for small satellites. Its MUSIC plasma thruster line delivers high thrust-to-power ratios at very low power budgets with high specific impulse, enabling small satellites to operate and sustain very low Earth orbit (VLEO) for high-resolution remote sensing. Aliena is a hardware manufacturer with no public developer API, SDK, or developer portal; this API Evangelist profile tracks the company as a 500 Global portfolio lead.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aliena/refs/heads/main/screenshots/aliena-2026-07-25T195616.png",
-     "score": 3.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5068,12 +4967,113 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 98
+    },
+    {
+     "name": "Rawsome Pte. Ltd.",
+     "slug": "rawsome-pte-ltd",
+     "description": "Rawsome Pte. Ltd. (trading as Rawsome Asia Beverages) is a Singapore-based producer and distributor of small-batch, handcrafted raw kombucha sold under the Wild Boocha brand. The company brews fermented tea beverages -- including Citrus Green, Strawberry Mint, and Harmony Adaptogenic flavors -- available in one-liter bottles and refillable mini kegs, and markets them as a functional wellness drink rich in probiotics, polyphenols, B vitamins, vitamin C, organic enzymes, and amino acids. Rawsome operates a direct-to-consumer e-commerce storefront (built on Odoo) and was surfaced as a portfolio company of 500 Global. This profile currently has no public API, developer portal, or developer documentation; it is maintained in the API Evangelist network as a company record.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rawsome-pte-ltd/refs/heads/main/screenshots/rawsome-pte-ltd-2026-09-02T152927.png",
+     "score": 3.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 4.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 99
+    },
+    {
+     "name": "igloo",
+     "slug": "igloo",
+     "description": "Igloo is a full-stack insurtech firm headquartered in Singapore and operating across six Southeast Asian markets (Singapore, Indonesia, the Philippines, Thailand, Malaysia, and Vietnam). It makes insurance simple, accessible, and affordable by embedding coverage into the platforms consumers already use, working with 100+ partners across e-commerce, telecommunications, banking, logistics, and lifestyle (including Shopee, Foodpanda, GCash, AIS, and Siam Commercial Bank). Its product line spans motor, mobile phone, travel, pet, personal accident, cyber, loan protection, e-commerce purchase protection, and blockchain-powered weather-index insurance. Igloo also ships technology platforms for the insurance value chain: Igloo Agent (agency management), Igloo Consumer (direct-to-consumer marketplace), Igloo Partner (affinity distribution), Ignite (digital agent platform), and the Turbo Core insurance operations system. Integration is offered through a partner-facing API program rather than a public self-serve developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/igloo/refs/heads/main/screenshots/igloo-2026-07-25T222055.png",
+     "score": 3.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 5.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 100
     },
     {
-     "name": "Carousell",
-     "slug": "carousell",
-     "description": "Carousell is a Singapore-headquartered classifieds and recommerce marketplace founded in 2012 that lets people buy and sell secondhand and new goods, cars, and property across Southeast Asia, Hong Kong, and Taiwan. The Carousell Group operates a family of consumer marketplace brands including Carousell, Cho Tot, Mudah, OneShift, Laku6, Refash, and Ox Street, spanning general classifieds, automotive, and recommerce verticals. Carousell was added to the API Evangelist network as a portfolio-company lead; it is a consumer marketplace with no publicly documented developer API surface at this time.",
+     "name": "Aliena",
+     "slug": "aliena",
+     "description": "Aliena is a Singapore-based space-technology company, incorporated in 2018, that designs and manufactures compact electric propulsion systems for small satellites. Its MUSIC plasma thruster line delivers high thrust-to-power ratios at very low power budgets with high specific impulse, enabling small satellites to operate and sustain very low Earth orbit (VLEO) for high-resolution remote sensing. Aliena is a hardware manufacturer with no public developer API, SDK, or developer portal; this API Evangelist profile tracks the company as a 500 Global portfolio lead.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aliena/refs/heads/main/screenshots/aliena-2026-07-25T195616.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5085,7 +5085,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5120,10 +5120,9 @@
      "rank": 101
     },
     {
-     "name": "NodeFlair",
-     "slug": "nodeflair",
-     "description": "NodeFlair is a Singapore-based technology career-transparency platform, founded in 2018 by Ethan Ang, that gives Asia's tech talent access to verified salary data, company reviews, tech-stack insights, benefits, and job listings across the APAC region. Salaries are verified against actual employee payslips, differentiating NodeFlair from other job boards, and the platform serves over 500,000 monthly visitors across eight Asian countries while helping companies hire tech talent. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. No public developer API surface was found during enrichment; the profile currently carries live domain-security posture only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nodeflair/refs/heads/main/screenshots/nodeflair-2026-08-07T185418.png",
+     "name": "Carousell",
+     "slug": "carousell",
+     "description": "Carousell is a Singapore-headquartered classifieds and recommerce marketplace founded in 2012 that lets people buy and sell secondhand and new goods, cars, and property across Southeast Asia, Hong Kong, and Taiwan. The Carousell Group operates a family of consumer marketplace brands including Carousell, Cho Tot, Mudah, OneShift, Laku6, Refash, and Ox Street, spanning general classifieds, automotive, and recommerce verticals. Carousell was added to the API Evangelist network as a portfolio-company lead; it is a consumer marketplace with no publicly documented developer API surface at this time.",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5135,7 +5134,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5170,6 +5169,56 @@
      "rank": 102
     },
     {
+     "name": "NodeFlair",
+     "slug": "nodeflair",
+     "description": "NodeFlair is a Singapore-based technology career-transparency platform, founded in 2018 by Ethan Ang, that gives Asia's tech talent access to verified salary data, company reviews, tech-stack insights, benefits, and job listings across the APAC region. Salaries are verified against actual employee payslips, differentiating NodeFlair from other job boards, and the platform serves over 500,000 monthly visitors across eight Asian countries while helping companies hire tech talent. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. No public developer API surface was found during enrichment; the profile currently carries live domain-security posture only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nodeflair/refs/heads/main/screenshots/nodeflair-2026-08-07T185418.png",
+     "score": 3.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 103
+    },
+    {
      "name": "PolicyPal",
      "slug": "policypal",
      "description": "PolicyPal is a Singapore-based InsurTech and digital insurance broker founded in 2016 by Val Yap that lets consumers buy, understand, and organize their insurance policies from a mobile app using OCR and rule-based policy digitization. Backed by 500 Global (500 Startups), PayPal Incubation, and Startupbootcamp FinTech, it was the first startup to graduate from the MAS FinTech Regulatory Sandbox and was acquired by Hong Kong's AMTD Digital in 2020. As of 2025 PolicyPal Pte. Ltd. and its entities (including PolicyPal Tech Pte. Ltd., Baoxianbaobao Pte. Ltd. and the ValueChampion brand) are no longer regulated by MAS, and the consumer website is undergoing a revamp. PolicyPal does not currently publish a public developer API, SDK, or documentation surface.",
@@ -5185,7 +5234,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5217,7 +5266,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 104
     },
     {
      "name": "FireVisor",
@@ -5234,7 +5283,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5266,7 +5315,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 105
     },
     {
      "name": "SCG Cell Therapy",
@@ -5284,7 +5333,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5316,7 +5365,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 106
     },
     {
      "name": "Carro",
@@ -5333,7 +5382,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5365,7 +5414,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 107
     },
     {
      "name": "Finbots.AI",
@@ -5383,7 +5432,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5415,7 +5464,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 108
     },
     {
      "name": "Enya",
@@ -5432,7 +5481,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5464,7 +5513,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 109
     },
     {
      "name": "Glints",
@@ -5481,7 +5530,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5513,7 +5562,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 110
     },
     {
      "name": "Bilimber",
@@ -5530,56 +5579,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 0.0,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 110
-    },
-    {
-     "name": "ESPL",
-     "slug": "espl",
-     "description": "ESPL (Esports Players League) is a Singapore-headquartered global esports tournament network and platform, founded in 2019, building an open, grassroots-focused ecosystem for amateur competitive gaming. It runs ESPL-branded online and on-ground tournaments across Asia, Europe, and the Americas with a mobile-first focus alongside PC and console titles, operated from its Singapore headquarters with regional offices in Cologne and Los Angeles. ESPL is a portfolio company of 500 Global (formerly 500 Startups), which led its seed round in 2020. As of this enrichment pass ESPL publishes no public developer API, OpenAPI, SDK, or documentation surface, and its espl.co domain did not resolve (DNS SERVFAIL) at probe time; this profile is maintained as a company identity record in the API Evangelist network.",
-     "score": 2.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5614,6 +5614,55 @@
      "rank": 111
     },
     {
+     "name": "ESPL",
+     "slug": "espl",
+     "description": "ESPL (Esports Players League) is a Singapore-headquartered global esports tournament network and platform, founded in 2019, building an open, grassroots-focused ecosystem for amateur competitive gaming. It runs ESPL-branded online and on-ground tournaments across Asia, Europe, and the Americas with a mobile-first focus alongside PC and console titles, operated from its Singapore headquarters with regional offices in Cologne and Los Angeles. ESPL is a portfolio company of 500 Global (formerly 500 Startups), which led its seed round in 2020. As of this enrichment pass ESPL publishes no public developer API, OpenAPI, SDK, or documentation surface, and its espl.co domain did not resolve (DNS SERVFAIL) at probe time; this profile is maintained as a company identity record in the API Evangelist network.",
+     "score": 2.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 0.0,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 112
+    },
+    {
      "name": "Myhero",
      "slug": "myhero",
      "description": "TradeHero (operated by My Manisku Pte Ltd, Singapore) is a gamified virtual stock-trading and social-investing mobile app. Users start with 100,000 virtual dollars to practice trading risk-free across 28 stock exchanges and 10 currency pairs, follow and copy validated top traders, learn through a short-tutorial investing academy, and compete on cash-prize leaderboards backed by real-time market data. Founded by former Wall Street trading-platform and Electronic Arts mobile-gaming veterans, and backed by venture firms including 500 Global, KPCB China, and IPV Capital. The public surface is a consumer mobile app and marketing site; no developer API, SDK, or developer portal is published.",
@@ -5629,7 +5678,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5661,7 +5710,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 113
     },
     {
      "name": "Oddup",
@@ -5678,7 +5727,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5710,7 +5759,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 114
     },
     {
      "name": "Altonomy",
@@ -5728,57 +5777,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 0.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 114
-    },
-    {
-     "name": "Call Levels",
-     "slug": "call-levels",
-     "description": "Call Levels was a Singapore-based financial technology company, founded in 2014 by Cynthia Siantar and Daniel Chia, that built a real-time financial markets monitoring and price-alert service. Its consumer mobile app (iOS and Android) let retail investors set price \"call levels\" and receive real-time alerts across multiple asset classes including forex, commodities, indices and equities, serving 500,000+ investors globally. On the institutional side it offered an open API and a chatbot/portfolio-management framework marketed to banks and financial institutions for embedding market monitoring into legacy systems. The company was backed by 500 Startups (500 Global) via a pre-Series A round. As of this profile the primary domain (call-levels.com) resolves to a parked registrar lander with no live developer portal, API documentation, or discoverable API surface, so the company appears dormant or defunct and no live API artifacts could be harvested.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/call-levels/refs/heads/main/screenshots/call-levels-2026-07-25T204232.png",
-     "score": 1.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5811,6 +5810,56 @@
       "agentic_commerce": false
      },
      "rank": 115
+    },
+    {
+     "name": "Call Levels",
+     "slug": "call-levels",
+     "description": "Call Levels was a Singapore-based financial technology company, founded in 2014 by Cynthia Siantar and Daniel Chia, that built a real-time financial markets monitoring and price-alert service. Its consumer mobile app (iOS and Android) let retail investors set price \"call levels\" and receive real-time alerts across multiple asset classes including forex, commodities, indices and equities, serving 500,000+ investors globally. On the institutional side it offered an open API and a chatbot/portfolio-management framework marketed to banks and financial institutions for embedding market monitoring into legacy systems. The company was backed by 500 Startups (500 Global) via a pre-Series A round. As of this profile the primary domain (call-levels.com) resolves to a parked registrar lander with no live developer portal, API documentation, or discoverable API surface, so the company appears dormant or defunct and no live API artifacts could be harvested.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/call-levels/refs/heads/main/screenshots/call-levels-2026-07-25T204232.png",
+     "score": 1.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 0.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 116
     },
     {
      "name": "Poko",
@@ -5859,7 +5908,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 117
     },
     {
      "name": "abillion",
@@ -5877,7 +5926,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5909,7 +5958,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 118
     },
     {
      "name": "Airgram",
@@ -5926,57 +5975,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 0.0,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 118
-    },
-    {
-     "name": "Nugit",
-     "slug": "nugit",
-     "description": "Nugit was a Singapore-based data-storytelling and marketing-analytics company, founded in 2013 and backed by 500 Global. Its product pulled marketing, advertising and web-analytics data from multiple sources and used natural language generation to turn it into automated narrative reports and visual \"data stories\" for brand and agency teams. Nugit never published a public developer API, portal, reference or machine-readable specification, and the company is now defunct: the nugit.co domain has been lost to an unrelated registrant and serves an online gambling / SEO-spam site. The only surviving first-party surface is the dormant github.com/nugit engineering organization.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nugit/refs/heads/main/screenshots/nugit-2026-08-07T185721.png",
-     "score": 0.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 0.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6011,6 +6010,56 @@
      "rank": 119
     },
     {
+     "name": "Nugit",
+     "slug": "nugit",
+     "description": "Nugit was a Singapore-based data-storytelling and marketing-analytics company, founded in 2013 and backed by 500 Global. Its product pulled marketing, advertising and web-analytics data from multiple sources and used natural language generation to turn it into automated narrative reports and visual \"data stories\" for brand and agency teams. Nugit never published a public developer API, portal, reference or machine-readable specification, and the company is now defunct: the nugit.co domain has been lost to an unrelated registrant and serves an online gambling / SEO-spam site. The only surviving first-party surface is the dormant github.com/nugit engineering organization.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nugit/refs/heads/main/screenshots/nugit-2026-08-07T185721.png",
+     "score": 0.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 0.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 0.0,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 120
+    },
+    {
      "name": "Spenmo",
      "slug": "spenmo",
      "description": "Spenmo was a Singapore-based spend management platform for businesses, offering corporate Visa debit cards (physical and virtual), bill and invoice management with smart scanning, employee reimbursements and claims, and accounting integrations with Xero, NetSuite, QuickBooks and Jurnal. Operated by Digital Services SG Five Pte Ltd, it worked with MAS-licensed payment partners rather than providing regulated payment services directly. The company ceased operations on 14 August 2025 and permanently disabled customer access. No public API or developer program was ever published.",
@@ -6026,7 +6075,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6058,7 +6107,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 121
     },
     {
      "name": "Tradegecko",
@@ -6076,7 +6125,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6108,7 +6157,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 122
     },
     {
      "name": "Upcode Academy",
@@ -6125,7 +6174,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6157,7 +6206,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 123
     },
     {
      "name": "WorkClass",
@@ -6175,7 +6224,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6207,7 +6256,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 124
     }
    ]
   }

@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 401
+- acting_count: 404
   human_in_the_loop: 8
   name: Alphaus Agentic Access
   operation_count: 586
   slug: alphaus-agentic-access
-  summary_line: 586 operations · 401 acting · 8 human-in-the-loop
+  summary_line: 586 operations · 404 acting · 8 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.alphaus.cloud/m/blue
@@ -169,6 +169,11 @@ collections:
   name: Blue API reference Admin Vortex API
   slug: open-alphaus-vortex-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/capabilities/alphaus-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/alphaus-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/overlays/alphaus-blueapi-overlay.yaml
   title: ''
@@ -308,7 +313,7 @@ network: true
 overview: 'Alphaus publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Billing API, Cost API, and 12 more. Tagged areas include Company, FinOps, Cloud Cost Management, Cloud, and Billing.
 
 
-  Alphaus'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, CLI, and 21 more developer resources.'
+  Alphaus'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, CLI, and 22 more developer resources.'
 random_paper: 2
 scopes:
 - name: Alphaus Scopes
@@ -319,13 +324,13 @@ score:
   band: developing
   composite: 51.1
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 27.6
     contract_governance: 4.5
@@ -340,7 +345,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 51.1
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -358,7 +363,7 @@ score:
     regime_id: horizontal
     score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
 artifact_total: 2
 common:
@@ -72,9 +72,9 @@ description: Mana.bio is an AI-driven drug-delivery biotechnology company specia
 image: https://static.wixstatic.com/media/d7e63b_1d6eb702d51a4cdaad0396e94610de66~mv2.jpg/v1/fit/w_2500,h_1330,al_c/d7e63b_1d6eb702d51a4cdaad0396e94610de66~mv2.jpg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at www.mana.bio over HTTP; 9 tools listed.
   name: Mana.bio Site MCP
-  slug: manabio-site-mcp
+  slug: mana-bio-site-visitor-assistant
 modified: '2026-07-20'
 name: Mana.bio
 nav: Providers
@@ -94,7 +94,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -102,7 +102,7 @@ score:
     developer_ergonomics: 2.4
     discoverability: 58.3
     operational_transparency: 0.0
-  previous_composite: 4.8
+  previous_composite: 6.2
   provenance:
     mcp: platform-generated
   regulatory:
@@ -112,7 +112,7 @@ score:
     regime_id: horizontal
     score: 5.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

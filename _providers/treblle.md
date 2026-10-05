@@ -15,7 +15,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -23,19 +23,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.0
-  scored_at: '2026-10-03'
+  score: 20.8
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -157,6 +157,84 @@ collections:
   name: Treblle Analytics Requests API
   slug: open-treblle-requests-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/finops/treblle-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/treblle-finops.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/rate-limits/treblle-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/treblle-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/plans/treblle-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/treblle-plans-pricing.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/rules/treblle-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/treblle-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/rules/treblle-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/treblle-jsonschema-spectral-rules.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/data-model/treblle-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/treblle-data-model.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/conventions/treblle-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/treblle-conventions.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://treblle.com/security-compliance
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/errors/treblle-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/treblle-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/conformance/treblle-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/treblle-conformance.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/hosts/treblle-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/treblle-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/vendors/treblle-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/treblle-vendors.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/packages/treblle-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/treblle-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/packages/treblle-packages.yml
+  title: ''
+  type: Packages
+  url: packages/treblle-packages.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://treblle.com/release-notes
 - group: company
   title: ''
   type: Website
@@ -294,6 +372,14 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/treblle-vocabulary.yml
+coverage:
+  checked: '2026-10-04'
+  detail: Documentation at docs.treblle.com is rendered via Nextra and provides no machine‑readable OpenAPI spec.
+  evidence:
+  - status: 200
+    url: https://docs.treblle.com/
+  reason: js-rendered-docs
+  state: unreadable
 created: '2025-01-08'
 description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40+ API-specific data points for every API request across the entire API landscape.
 examples:
@@ -374,7 +460,7 @@ overview: 'Treblle publishes 15 APIs on the [APIs.io](https://apis.io/) network,
   The Treblle catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Treblle''s developer surface includes authentication, pricing, documentation, getting-started guide, engineering blog, signup flow, and 25 more developer resources.'
+  Treblle''s developer surface includes changelog, authentication, pricing, documentation, getting-started guide, engineering blog, signup flow, and 40 more developer resources.'
 plans:
 - name: Treblle Plans Pricing
   plan_count: 3
@@ -408,39 +494,50 @@ rules:
   slug: treblle-rules
 score:
   band: strong
-  composite: 55.6
+  composite: 63.2
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 31
     catalog_earned: 67.0
     catalog_earned_first_party: 0.0
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.4
   facets:
-    access_clarity: 68.4
-    contract_governance: 27.3
+    access_clarity: 76.3
+    contract_governance: 45.5
     contract_quality: 69.7
-    developer_ergonomics: 46.4
+    developer_ergonomics: 55.4
     discoverability: 57.1
-    operational_transparency: 39.5
-  previous_composite: 55.6
+    operational_transparency: 55.3
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 6
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: ccpa
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

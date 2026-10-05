@@ -32,58 +32,92 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
+common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gms/refs/heads/main/hosts/gms-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/gms-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gms/refs/heads/main/vendors/gms-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/gms-vendors.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gms/refs/heads/main/security/gms-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/gms-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://gms.net/
+coverage:
+  checked: '2026-10-03'
+  detail: The provider's API endpoint https://gms.com/api returns a 404 page, with no OpenAPI or other machine-readable contract.
+  evidence:
+  - status: 404
+    url: https://gms.com/api
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-05-05'
-description: Profile for GMS in the API Evangelist network. Fortune F1000 (rank 758).
+description: GMS (Global Message Services) provides a multichannel communication platform offering CPaaS, email, SMS, WhatsApp, Viber, and chatbot solutions. Their APIs enable enterprises to integrate messaging, voice, and AI-driven interactions across channels, with robust security, analytics, and scalability for global outreach.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gms.png
 layout: provider
 modified: '2026-05-05'
 name: GMS
 nav: Providers
 network: true
-overview: GMS is profiled on the [APIs.io](https://apis.io/) network.
+overview: GMS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Communications, CPaaS, Messaging, Email, and Chatbots.
 random_paper: 19
 score:
   band: minimal
-  composite: 0.2
+  composite: 2.0
   coverage:
-    artifact_dirs: 0
-    catalog_earned: 14.0
+    artifact_dirs: 6
+    catalog_earned: 24.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 101.0
+    catalog_gap: 91.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 25.0
+    discoverability: 42.9
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
-    - owner: catalog
-      reason: never_enriched
-  previous_composite: 0.2
+  previous_composite: 2.6
+  provenance:
+    mcp: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 0.0
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 5.0
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+security:
+- kind: domain-security
+  name: Gms Domain Security
+  slug: gms-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: gms
+tags:
+- Communications
+- CPaaS
+- Messaging
+- Email
+- Chatbots
+website: https://gms.net/
 ---

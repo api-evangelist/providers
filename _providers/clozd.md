@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 59.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -85,7 +85,7 @@ apis:
   description: The /programs/:program_id/touchpoints/:touchpoint_id API from Clozd — 1 operation(s) for /programs/:program_id/touchpoints/:touchpoint_id.
   name: Clozd /programs/:program Id/touchpoints/:touchpoint ID API
   slug: clozd-programs-program-id-touchpoints-touchpoint-id-api
-artifact_total: 26
+artifact_total: 25
 collections:
 - collection_type: open
   name: API Collection
@@ -112,6 +112,11 @@ collections:
   name: Clozd Data /programs/:program Id/touchpoints/:touchpoint ID /programs/:program Id/touchpoints/:touchpoint ID API
   slug: open-clozd-programs-program-id-touchpoints-touchpoint-id-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/capabilities/clozd-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/clozd-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/overlays/clozd-data-api-v1-overlay.yaml
   title: ''
@@ -292,12 +297,9 @@ description: 'Clozd is a Lehi, Utah based decision-intelligence and win-loss ana
 image: https://cdn.prod.website-files.com/602c29edc35660e6c913f956/65a18029f28b360a5bc33674_Group%2011337.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.clozd.com over HTTP; 19 tools listed.
   name: Clozd MCP Server
-  slug: clozd-mcp-server
-- description: ''
-  name: Clozd MCP Server
-  slug: clozd-mcp-server-2
+  slug: clozd
 modified: '2026-08-14'
 name: Clozd
 nav: Providers
@@ -305,7 +307,7 @@ network: true
 overview: 'Clozd publishes 8 APIs on the [APIs.io](https://apis.io/) network, including /programs API, /programs/:program Id/competitors API, /programs/:program Id/deals API, and 5 more. Tagged areas include Win-Loss Analysis, Customer Feedback, Decision Intelligence, Sales Intelligence, and Market Research.
 
 
-  Clozd''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 31 more developer resources.'
+  Clozd''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 32 more developer resources.'
 plans:
 - name: Clozd Plans Pricing
   plan_count: 0
@@ -324,13 +326,13 @@ score:
   band: developing
   composite: 51.1
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.8
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
@@ -338,7 +340,7 @@ score:
     developer_ergonomics: 58.9
     discoverability: 73.3
     operational_transparency: 2.6
-  previous_composite: 51.1
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -360,7 +362,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

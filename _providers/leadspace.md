@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -50,47 +50,21 @@ apis:
   baseurl_source: declared
   description: OAuth 2.0 token issuance and refresh
   name: Leadspace Authorization API
-  phrasing_intents:
-  - id: createAuthorizationToken
-    intent: Get an access token with program credentials
-    question: How do I get a bearer token to call the Leadspace v4 APIs?
-  - id: refreshAuthorizationToken
-    intent: Refresh an expired access token
-    question: Can I renew my bearer token with a refresh token instead of sending my secret again?
-  phrasing_ops: 2
   slug: leadspace-authorization-api
 - baseURL: https://apigw.leadspace.com
   baseurl_source: declared
   description: Bulk account expansion into net-new contacts
   name: Leadspace Discovery API
-  phrasing_intents:
-  - id: discoverCompanyContacts
-    intent: Find new contacts inside target accounts
-    question: How can I find net-new contacts at a list of target companies?
-  phrasing_ops: 1
   slug: leadspace-discovery-api
 - baseURL: https://apigw.leadspace.com
   baseurl_source: declared
   description: Single and bulk person and company enrichment
   name: Leadspace Enrichment API
-  phrasing_intents:
-  - id: enrichSingleRecord
-    intent: Enrich one person or company record instantly
-    question: How do I enrich a single lead or account and get the data back right away?
-  - id: enrichBulkRecords
-    intent: Submit a batch of records for enrichment
-    question: How do I enrich hundreds of leads at once in Leadspace?
-  phrasing_ops: 2
   slug: leadspace-enrichment-api
 - baseURL: https://apigw.leadspace.com
   baseurl_source: declared
   description: Buyer-intent scoring and refresh
   name: Leadspace Intent API
-  phrasing_intents:
-  - id: scoreCompanyIntent
-    intent: Refresh buyer-intent scores for companies
-    question: How can I find out which topics my target accounts are surging on?
-  phrasing_ops: 1
   slug: leadspace-intent-api
 - description: 'Hosted remote MCP server exposing the Leadspace GTM Data Intelligence Cloud to AI assistants as a custom connector — account intelligence, company and contact lookup, verified email and phone reveal, '
   name: Leadspace MCP
@@ -99,17 +73,6 @@ apis:
   baseurl_source: declared
   description: Polling for asynchronous discovery results
   name: Leadspace Results API
-  phrasing_intents:
-  - id: getDiscoveryResults
-    intent: Get the contacts found by a discovery job
-    question: Where do I pick up the contacts discovered by my account expansion job?
-  - id: getBulkEnrichmentResults
-    intent: Get the output of a bulk enrichment job
-    question: How do I retrieve enriched records after submitting a bulk enrichment?
-  - id: getIntentResults
-    intent: Get the results of an intent scoring job
-    question: Where do I see the surging intent topics once my intent refresh finishes?
-  phrasing_ops: 3
   slug: leadspace-results-api
 artifact_total: 22
 asyncapis:
@@ -136,6 +99,11 @@ collections:
   name: Leadspace Discovery Authorization Results API
   slug: open-leadspace-results-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/capabilities/leadspace-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/leadspace-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/overlays/leadspace-discovery-overlay.yaml
   title: ''
@@ -340,9 +308,9 @@ description: 'Leadspace is a B2B GTM Data Intelligence Cloud and customer data p
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/leadspace.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at skprod.leadspace.com over HTTP; 1 tool listed.
   name: Leadspace MCP Server
-  slug: leadspace-mcp-server
+  slug: leadspace
 modified: '2026-08-13'
 name: Leadspace
 nav: Providers
@@ -353,7 +321,7 @@ overview: 'Leadspace publishes 6 APIs on the [APIs.io](https://apis.io/) network
   The Leadspace catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Leadspace''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 36 more developer resources.'
+  Leadspace''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 37 more developer resources.'
 plans:
 - name: Leadspace Plans Pricing
   plan_count: 4
@@ -372,13 +340,13 @@ score:
   band: exemplar
   composite: 70.0
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 60.0
     catalog_earned_first_party: 20.0
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.7
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
@@ -386,7 +354,7 @@ score:
     developer_ergonomics: 58.9
     discoverability: 71.4
     operational_transparency: 73.7
-  previous_composite: 70.0
+  previous_composite: 67.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -404,7 +372,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

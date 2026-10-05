@@ -27,20 +27,20 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-03'
+  score: 41.0
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Server-to-server REST API for managing businesses, channels, videos, livestreams, playlists, products, business stores, and insights, plus HMAC-signed webhooks. Secured with OAuth 2.0 (client credenti
   name: Firework Public API
   slug: firework-public-api
-artifact_total: 5
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Firework Webhooks
@@ -172,6 +172,10 @@ created: '2026-07-17'
 description: Firework is a video commerce platform that helps brands and retailers bring the in-store experience and human connection online through shoppable short-form video, livestream shopping, 1:1 video chat, digital showrooms, and an AI shopping agent. Operated by Loop Now Technologies and backed by SoftBank (a $150M Series C led SoftBank's investment), Firework powers 1,500+ global brands and has driven $300M+ in GMV across 2+ trillion video views. For developers it offers a Web SDK, native Android/iOS SDKs, React Native and Flutter plugins, embeddable web components (Hero Unit, Carousel, Player Deck, Storyblock, Floating Player), a server-side REST Public API (https://api.firework.com/api/v1) secured with OAuth 2.0 (client credentials and authorization-code + PKCE with dynamic client registration), HMAC-signed webhooks, and turnkey commerce-platform integrations for Shopify, Magento, WooCommerce, Salesforce Commerce Cloud, and BigCommerce.
 image: https://firework.com/favicon.ico
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.firework.com over HTTP.
+  name: Firework MCP Server
+  slug: firework
 modified: '2026-07-19'
 name: Firework
 nav: Providers
@@ -199,7 +203,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
@@ -207,7 +211,7 @@ score:
     developer_ergonomics: 64.3
     discoverability: 75.0
     operational_transparency: 42.1
-  previous_composite: 49.5
+  previous_composite: 47.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -218,7 +222,7 @@ score:
     regime_id: horizontal
     score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

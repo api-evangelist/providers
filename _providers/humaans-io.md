@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -120,7 +120,7 @@ apis:
   description: Work schedule patterns
   name: Humaans Working Patterns API
   slug: humaans-io-working-patterns-api
-artifact_total: 57
+artifact_total: 58
 collections:
 - collection_type: open
   name: API Collection
@@ -174,6 +174,11 @@ collections:
   name: Humaans Audit Events Working Patterns API
   slug: open-humaans-io-working-patterns-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/capabilities/humaans-io-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/humaans-io-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/agentic-access/humaans-io-agentic-access.yml
   title: ''
@@ -345,6 +350,10 @@ features:
 - 99.9% uptime SLA on the Enterprise plan
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/humaans-io.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.humaans.io over HTTP.
+  name: Humaans MCP Server
+  slug: humaans-io
 modified: '2026-05-25'
 name: Humaans
 nav: Providers
@@ -352,7 +361,7 @@ network: true
 overview: 'Humaans publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Audit Events API, Bank Accounts API, Companies API, and 12 more. Tagged areas include Human Resources, HRIS, People Operations, People Analytics, and Onboarding.
 
 
-  Humaans'' developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 28 more developer resources.'
+  Humaans'' developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 29 more developer resources.'
 random_paper: 20
 score:
   band: developing
@@ -364,7 +373,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 52.6
     contract_governance: 0.0
@@ -380,7 +389,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 46.0
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     contracts:
@@ -396,7 +405,7 @@ score:
     regime_id: employment_payroll
     score: 30.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

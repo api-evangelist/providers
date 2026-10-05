@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 25
+- acting_count: 34
   human_in_the_loop: 3
   name: Clearml Agentic Access
   operation_count: 34
   slug: clearml-agentic-access
-  summary_line: 34 operations · 25 acting · 3 human-in-the-loop
+  summary_line: 34 operations · 34 acting · 3 human-in-the-loop
 api_count: 1
 apis:
 - description: 'The ClearML REST API is organized into services: auth (login/credentials), projects, tasks (experiments), workers, models, queues, events, pipelines, and reports. Authentication uses access/secret-key'
@@ -121,6 +121,11 @@ collections:
   name: ClearML REST API
   slug: open-clearml
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/capabilities/clearml-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/clearml-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -207,7 +212,7 @@ network: true
 overview: 'ClearML publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Debug API, Events API, and 6 more. Tagged areas include Machine Learning, MLOps, Open Source, Experiment Tracking, and Orchestration.
 
 
-  ClearML''s developer surface includes authentication, developer portal, pricing, engineering blog, and 12 more developer resources.'
+  ClearML''s developer surface includes authentication, developer portal, pricing, engineering blog, and 13 more developer resources.'
 plans:
 - name: Clearml Plans Pricing
   plan_count: 1
@@ -221,13 +226,13 @@ score:
   band: thin
   composite: 34.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
@@ -235,7 +240,7 @@ score:
     developer_ergonomics: 31.0
     discoverability: 73.2
     operational_transparency: 26.3
-  previous_composite: 34.6
+  previous_composite: 36.0
   provenance:
     agentic_access: derived
     contracts:
@@ -250,7 +255,7 @@ score:
     regime_id: horizontal
     score: 16.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

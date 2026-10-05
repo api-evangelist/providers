@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/personetics/refs/heads/main/security/personetics-domain-security.yml
@@ -74,6 +74,10 @@ created: '2026-07-17'
 description: Personetics is a Cognitive Banking platform that helps banks and financial institutions deliver AI-driven, financial-data-personalized customer engagement and money management. Its products analyze customer transaction data in real time to surface personalized insights, proactive financial guidance, automated savings and cash-flow programs, and self-driving finance experiences embedded inside a bank's own mobile and web channels. Personetics serves hundreds of banks and financial institutions across roughly 30 global markets, reaching an estimated 150 million banking customers, and positions itself as a way for banks to deepen and monetize customer relationships. The platform is delivered as enterprise software integrated into a bank's digital banking stack rather than as a public self-serve developer API; developer and integration material lives in a gated Personetics Documentation Hub.
 image: https://personetics.com/wp-content/uploads/2025/03/Personetics-The-Cognitive-Banking-Company.jpg
 layout: provider
+mcp_servers:
+- description: Remote MCP server at docs.personetics.com over HTTP.
+  name: Personetics MCP Server
+  slug: personetics
 modified: '2026-07-20'
 name: Personetics
 nav: Providers
@@ -93,7 +97,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
@@ -101,7 +105,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 58.3
     operational_transparency: 0.0
-  previous_composite: 10.0
+  previous_composite: 9.1
   provenance:
     mcp: first-party
   regulatory:
@@ -111,7 +115,7 @@ score:
     regime_id: banking_open_finance
     score: 7.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

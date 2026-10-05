@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The Klutch Public API is a GraphQL API for the Klutch programmable credit card. It exposes enriched transaction history with filtering, cursor pagination and group-by aggregation; user-defined transac
@@ -202,9 +202,9 @@ description: Klutch (Klutch Card) is a US consumer fintech that issues an "app-p
 image: https://cdn.prod.website-files.com/660d6194e5d7f9c60a769ac1/664dff628523869c6ec161ad_image%2B2.jpg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.klutchcard.com over HTTP.
   name: Klutch MCP Server
-  slug: klutch-mcp-server
+  slug: klutch
 modified: '2026-07-19'
 name: Klutch
 nav: Providers
@@ -232,7 +232,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.4
   facets:
     access_clarity: 32.9
     contract_governance: 4.5
@@ -240,7 +240,7 @@ score:
     developer_ergonomics: 76.8
     discoverability: 75.0
     operational_transparency: 10.5
-  previous_composite: 42.8
+  previous_composite: 45.2
   provenance:
     conformance: derived
     mcp: first-party
@@ -252,7 +252,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

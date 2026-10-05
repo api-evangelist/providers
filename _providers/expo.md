@@ -26,14 +26,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.2
-  scored_at: '2026-10-03'
+  score: 17.6
+  scored_at: '2026-10-04'
 api_count: 7
 apis:
 - description: Cloud compilation and code-signing service for Android and iOS React Native apps. Submits build jobs via eas-cli or programmatic token access, returns build artifacts, and fires BUILD webhooks on comp
@@ -57,7 +57,7 @@ apis:
 - description: Event notification system that delivers HTTP POST payloads to configured endpoints when EAS Build or EAS Submit jobs complete. Payloads are signed with HMAC-SHA1 using a shared secret. Supports expone
   name: EAS Webhooks API
   slug: eas-webhooks-api
-artifact_total: 14
+artifact_total: 15
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/expo/refs/heads/main/security/expo-trust-center.yml
@@ -142,6 +142,10 @@ jsonld:
   property_count: 33
   slug: expo-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.expo.dev over HTTP.
+  name: Expo MCP Server
+  slug: expo
 modified: 2026-06-13
 name: Expo
 nav: Providers
@@ -172,7 +176,7 @@ score:
     catalog_gap: 50.2
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 54.7
     contract_governance: 0.0
@@ -180,7 +184,7 @@ score:
     developer_ergonomics: 31.0
     discoverability: 73.3
     operational_transparency: 44.7
-  previous_composite: 35.6
+  previous_composite: 34.6
   provenance:
     mcp: first-party
   regulatory:
@@ -190,7 +194,7 @@ score:
     regime_id: horizontal
     score: 27.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

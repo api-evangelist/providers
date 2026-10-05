@@ -26,20 +26,20 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.4
-  scored_at: '2026-10-03'
+  score: 33.8
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The Advisor API connects advisor applications to Wealth.com, exposing client, asset, document, contact, quiz, AI-notes, client-group and top-account resources over JSON HTTPS, with OAuth2 (authorizati
   name: Wealth.com Advisor API
   slug: wealthcom-advisor-api
-artifact_total: 7
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Wealthcom Webhooks
@@ -170,6 +170,10 @@ created: '2026-07-17'
 description: Wealth.com is the industry-leading estate and tax planning platform for financial advisors, unifying estate document creation, tax intelligence, and its proprietary Ester AI assistant to help advisors deliver sophisticated planning at scale. For developers, Wealth.com publishes an Advisor API (OAuth2, JSON over HTTPS) that connects advisor applications to the platform for managing clients, assets, documents, contacts, quizzes, and AI notes, plus a webhook surface for real-time events and an Onboarding API for partner-referred client onboarding. A separate SFTP interface supports bulk data exchange. The company is backed by GV (Google Ventures) and integrates with Salesforce, Orion, Redtail, Wealthbox, Addepar, eMoney, and other advisor tools.
 image: https://www.wealth.com/favicon.ico
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.wealth.com over HTTP.
+  name: Wealth.com MCP Server
+  slug: wealthcom
 modified: '2026-07-21'
 name: Wealth.com
 nav: Providers
@@ -201,7 +205,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.4
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
@@ -209,7 +213,7 @@ score:
     developer_ergonomics: 57.1
     discoverability: 75.0
     operational_transparency: 44.7
-  previous_composite: 49.3
+  previous_composite: 46.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -220,7 +224,7 @@ score:
     regime_id: horizontal
     score: 36.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

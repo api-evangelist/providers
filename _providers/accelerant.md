@@ -35,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The member-facing Accelerant Risk Exchange platform and its supporting API surface. Accelerant states that its risk indices plug directly into Member underwriting and policy administration systems via
   name: Accelerant Risk Exchange Platform
   slug: risk-exchange-platform
-artifact_total: 4
+artifact_total: 5
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/accelerant/refs/heads/main/security/accelerant-domain-security.yml
@@ -155,6 +155,10 @@ description: 'Accelerant Holdings (NYSE: ARX) operates the Accelerant Risk Excha
   at docs.accelerant.ai behind Member authentication; the platform publishes an anonymous OpenID Connect discovery document and JWKS at app.accelerant.ai.'
 image: https://avatars.githubusercontent.com/u/102661090?v=4
 layout: provider
+mcp_servers:
+- description: Remote MCP server at docs.accelerant.ai over HTTP.
+  name: Accelerant MCP Server
+  slug: accelerant
 modified: '2026-08-02'
 name: Accelerant
 nav: Providers
@@ -179,7 +183,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.3
   facets:
     access_clarity: 35.5
     contract_governance: 18.2
@@ -187,7 +191,7 @@ score:
     developer_ergonomics: 19.0
     discoverability: 75.8
     operational_transparency: 2.6
-  previous_composite: 24.3
+  previous_composite: 27.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -198,7 +202,7 @@ score:
     regime_id: insurance
     score: 38.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

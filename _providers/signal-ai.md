@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://api.signal-ai.com
@@ -132,6 +132,11 @@ collections:
   name: Signal AI Affinity Topics API
   slug: open-signal-ai-topics-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/capabilities/signal-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/signal-ai-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -284,9 +289,9 @@ description: Signal AI (Signal Media Ltd) is an AI-powered reputation and risk i
 image: https://login.signal-ai.com/auth/resources/hlcwe/login/signal/img/apple-touch-icon.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.signal-ai.com over HTTP requiring OAuth; 17 tools listed.
   name: Signal AI MCP Server
-  slug: signal-ai-mcp-server
+  slug: signal-ai
 modified: '2026-09-16'
 name: Signal AI
 nav: Providers
@@ -294,7 +299,7 @@ network: true
 overview: 'Signal AI publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Affinity API, Categories API, Content Metrics API, and 8 more. Tagged areas include Company, Media Intelligence, Reputation Management, Risk Intelligence, and News.
 
 
-  Signal AI''s developer surface includes authentication, documentation, engineering blog, support, changelog, API reference, getting-started guide, and 25 more developer resources.'
+  Signal AI''s developer surface includes authentication, documentation, engineering blog, support, changelog, API reference, getting-started guide, and 26 more developer resources.'
 plans:
 - name: Signal Ai Plans Pricing
   plan_count: 0
@@ -313,13 +318,13 @@ score:
   band: developing
   composite: 41.3
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 6.6
     contract_governance: 18.2
@@ -327,7 +332,7 @@ score:
     developer_ergonomics: 42.3
     discoverability: 75.0
     operational_transparency: 73.7
-  previous_composite: 41.3
+  previous_composite: 41.4
   provenance:
     conformance: first-party
     contracts:
@@ -344,7 +349,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

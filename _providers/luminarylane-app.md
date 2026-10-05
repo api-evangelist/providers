@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: 'Remote Model Context Protocol server (Streamable HTTP, server name luminary-mcp-server v1.0.0) that exposes a customer''s Lane workspace to MCP clients: brands, brand foundation (voice, personas, objec'
@@ -192,12 +192,12 @@ description: Luminary Lane (a product of Lumi5 Labs Pte. Ltd., Singapore) is an 
 image: https://www.luminarylane.app/images/logo.svg
 layout: provider
 mcp_servers:
+- description: Luminary Lane operates ONE remote Model Context Protocol server, https://mcp.luminarylane.app/mcp (Streamable HTTP, Express-hosted, server name luminary-mcp-server v1.0.0), that exposes the Lane works
+  name: Luminary Lane MCP Server
+  slug: luminarylane-app-mcp-yml
 - description: ''
   name: Luminary Lane MCP Server
-  slug: luminary-lane-mcp-server
-- description: ''
-  name: Luminary Lane MCP Server
-  slug: luminary-lane-mcp-server-2
+  slug: mcp
 modified: '2026-09-19'
 name: Luminary Lane
 nav: Providers
@@ -224,13 +224,13 @@ score:
   band: developing
   composite: 40.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 18
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.3
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
@@ -238,7 +238,7 @@ score:
     developer_ergonomics: 47.6
     discoverability: 75.0
     operational_transparency: 21.1
-  previous_composite: 40.6
+  previous_composite: 37.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -250,7 +250,7 @@ score:
     regime_id: horizontal
     score: 38.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

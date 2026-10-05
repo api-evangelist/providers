@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -188,6 +188,11 @@ collections:
   name: Spreedly API V1
   slug: open-spreedly-api-v1
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/capabilities/spreedly-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/spreedly-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -389,9 +394,9 @@ description: 'Spreedly is a United States payments orchestration platform and PC
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at developer.spreedly.com.
   name: Spreedly MCP Server
-  slug: spreedly-mcp-server
+  slug: spreedly-mcp-yml
 modified: '2026-07-24'
 name: Spreedly
 nav: Providers
@@ -402,25 +407,25 @@ overview: 'Spreedly publishes 26 APIs on the [APIs.io](https://apis.io/) network
   The Spreedly catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Spreedly''s developer surface includes authentication, sandbox, changelog, support, documentation, API reference, getting-started guide, and 36 more developer resources.'
+  Spreedly''s developer surface includes authentication, sandbox, changelog, support, documentation, API reference, getting-started guide, and 37 more developer resources.'
 random_paper: 14
 score:
   band: developing
-  composite: 52.9
+  composite: 52.4
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
+    artifact_dirs: 26
+    catalog_earned: 34.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -3.7
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 58.7
     developer_ergonomics: 58.9
-    discoverability: 75.0
+    discoverability: 70.0
     operational_transparency: 48.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -429,7 +434,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 52.4
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -447,7 +452,7 @@ score:
     regime_id: payments
     score: 37.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The join gateway for Agent Communication Mesh. One anonymous mutating operation, POST /attach, takes a Discord bot user snowflake and application id (never a token) and returns invite_url, ticket, exp
@@ -117,7 +117,7 @@ score:
   band: emerging
   composite: 15.3
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 12
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -141,7 +141,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

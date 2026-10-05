@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 22.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The UCP-conforming Model Context Protocol endpoint Virtuix serves from its own domain. Thirteen tools cover catalog search and lookup, product detail, cart create/update/cancel, checkout create/update
@@ -158,9 +158,9 @@ description: Virtuix is an Austin, Texas maker of omnidirectional VR treadmills.
 image: https://cdn.shopify.com/s/files/1/0609/8989/8907/files/virtuix_omni_one_og_img.jpg?v=1738174948
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at virtuix.com; 15 tools listed.
   name: Virtuix MCP Server
-  slug: virtuix-mcp-server
+  slug: virtuix-mcp-yml
 modified: '2026-09-04'
 name: Virtuix
 nav: Providers
@@ -193,7 +193,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.7
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
@@ -201,7 +201,7 @@ score:
     developer_ergonomics: 33.3
     discoverability: 75.0
     operational_transparency: 15.8
-  previous_composite: 30.1
+  previous_composite: 27.4
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -212,7 +212,7 @@ score:
     regime_id: horizontal
     score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -276,7 +276,7 @@ modified: '2026-05-29'
 name: Superhero API (akabab)
 nav: Providers
 network: true
-overview: 'Superhero API (akabab) publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Appearance API, Biography API, Characters API, and 4 more. Tagged areas include Games And Comics, Superheroes, Comic Books, Open Source, and Static API.
+overview: 'Superhero API (akabab) publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Appearance API, Biography API, Characters API, and 4 more. Tagged areas include Superheroes, Comic Books, Open Source, Static API, and GitHub Pages.
 
 
   The Superhero API (akabab) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -324,7 +324,7 @@ score:
     catalog_gap: 53.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.0
   facets:
     access_clarity: 18.9
     contract_governance: 27.3
@@ -332,7 +332,7 @@ score:
     developer_ergonomics: 9.5
     discoverability: 73.2
     operational_transparency: 2.6
-  previous_composite: 29.6
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     contracts:
@@ -347,7 +347,7 @@ score:
     regime_id: horizontal
     score: 10.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false
@@ -361,12 +361,12 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: superheroes
 tags:
-- Games And Comics
 - Superheroes
 - Comic Books
 - Open Source
 - Static API
 - GitHub Pages
 - Public APIs
+- Comics
 website: https://akabab.github.io/superhero-api/api/
 ---

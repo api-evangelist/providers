@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 247
+- acting_count: 250
   human_in_the_loop: 47
   name: Ringcentral Agentic Access
   operation_count: 487
   slug: ringcentral-agentic-access
-  summary_line: 487 operations · 247 acting · 47 human-in-the-loop
+  summary_line: 487 operations · 250 acting · 47 human-in-the-loop
 api_count: 1
 apis:
 - description: The RingCentral Team Messaging API enables developers to build chatbots, send notifications, and create add-ins within RingCentral Team Messaging (formerly Glip). It supports posting messages, managin
@@ -1226,7 +1226,7 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ringcentral.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at appconnect.labs.ringcentral.com over HTTP.
   name: RingCentral App Connect MCP
   slug: ringcentral-app-connect-mcp
 modified: '2026-06-20'
@@ -1271,23 +1271,23 @@ scopes:
   summary_line: 38 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.5
+  composite: 61.0
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 58.5
+    artifact_dirs: 31
+    catalog_earned: 55.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 56.5
+    catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -3.1
   facets:
     access_clarity: 64.5
     contract_governance: 18.2
     contract_quality: 58.1
     developer_ergonomics: 67.9
-    discoverability: 48.2
+    discoverability: 42.9
     operational_transparency: 73.7
-  previous_composite: 61.0
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1304,7 +1304,7 @@ score:
     regime_id: telecommunications
     score: 32.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

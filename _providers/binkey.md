@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: API documentation for Binkey's payment platform, enabling FSA/HSA claim filing at checkout.
@@ -109,7 +109,7 @@ score:
   band: emerging
   composite: 15.7
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 9
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
@@ -136,7 +136,7 @@ score:
     regime_id: health
     score: 14.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

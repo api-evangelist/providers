@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
   description: The subpackage_vision API from Ideogram — 1 operation(s) for subpackage_vision.
   name: Ideogram Subpackage Vision API
   slug: ideogram-subpackage-vision-api
-artifact_total: 16
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -87,6 +87,11 @@ collections:
   name: API Reference
   slug: open-ideogram
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/capabilities/ideogram-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ideogram-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/agentic-access/ideogram-agentic-access.yml
   title: ''
@@ -150,6 +155,10 @@ finops:
   slug: ideogram-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ideogram.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.ideogram.ai over HTTP.
+  name: Ideogram MCP Server
+  slug: ideogram
 modified: '2026-05-30'
 name: Ideogram
 nav: Providers
@@ -157,7 +166,7 @@ network: true
 overview: 'Ideogram publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Subpackage Datasets API, Subpackage Generate API, Subpackage Models API, and 1 more. Tagged areas include Artificial Intelligence, Image Generation, Text, Realistic, and Editing.
 
 
-  Ideogram''s developer surface includes authentication, documentation, and 10 more developer resources.'
+  Ideogram''s developer surface includes authentication, documentation, and 11 more developer resources.'
 plans:
 - name: Ideogram Plans Pricing
   plan_count: 2
@@ -177,7 +186,7 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.1
   facets:
     access_clarity: 36.8
     contract_governance: 0.0
@@ -185,7 +194,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 75.0
     operational_transparency: 7.9
-  previous_composite: 30.9
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     contracts:
@@ -201,7 +210,7 @@ score:
     regime_id: horizontal
     score: 10.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: AI Platform provides AI model deployment, monitoring, and management services.
@@ -101,9 +101,9 @@ description: Bespinglobal (베스핀글로벌) is a global AI‑enabled cloud se
 image: https://img.bespinglobal.com/wp-content/uploads/2026/04/bespinglobal_og.jpg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at support.bespinglobal.com requiring OAuth.
   name: Bespinglobal MCP Server
-  slug: bespinglobal-mcp-server
+  slug: bespinglobal-mcp-yml
 modified: '2026-09-27'
 name: Bespinglobal
 nav: Providers
@@ -121,7 +121,7 @@ score:
   band: emerging
   composite: 18.6
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 9
     catalog_earned: 40.0
     catalog_earned_first_party: 8.0
     catalog_gap: 75.0
@@ -134,6 +134,11 @@ score:
     developer_ergonomics: 28.6
     discoverability: 61.7
     operational_transparency: 10.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - global
   provenance:
     mcp: first-party
   regulatory:
@@ -143,7 +148,7 @@ score:
     regime_id: horizontal
     score: 9.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

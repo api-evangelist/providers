@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 65.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -34,7 +34,7 @@ agentic_access:
   summary_line: 42 operations · 18 acting
 api_count: 4
 apis:
-- description: Hosted Streamable-HTTP MCP server at https://mcp.machinelibrary.ai (legacy https://mcp.spacefrontiers.org still served) exposing four read-only, idempotent retrieval tools (spacefrontiers_search_docum
+- description: 'Hosted Streamable-HTTP MCP server at https://mcp.machinelibrary.ai (legacy https://mcp.spacefrontiers.org still served) exposing nine machinelibrary_* tools: four read-only, idempotent retrieval tools'
   name: Machine Library MCP Server
   slug: machine-library-mcp-server
 - description: 'A2A (protocolVersion 0.3.0) research and commerce agent at https://machinelibrary.ai/a2a over JSON-RPC: grounded research answers with citation artifacts, search-access guidance, and prepaid-credit sa'
@@ -73,7 +73,7 @@ apis:
   description: Retrieval-augmented conversation workflows.
   name: Space Frontiers Conversations API
   slug: machinelibrary-ai-conversations-api
-artifact_total: 30
+artifact_total: 31
 common:
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/agentic-access/machinelibrary-ai-agentic-access.yml
@@ -114,6 +114,30 @@ common:
   title: ''
   type: StatusPage
   url: https://machinelibrary.ai/status
+- group: other
+  title: ''
+  type: Operations
+  url: https://machinelibrary.ai/docs/api/operations
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://machinelibrary.ai/changelog
+- group: other
+  title: ''
+  type: Datasets
+  url: https://machinelibrary.ai/datasets
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: https://machinelibrary.ai/.well-known/security.txt
+- group: other
+  title: ''
+  type: APICatalog
+  url: https://machinelibrary.ai/.well-known/api-catalog
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://machinelibrary.ai/docs/openapi.json
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/security/machinelibrary-ai-vulnerability-disclosure.yml
   title: ''
@@ -283,8 +307,8 @@ common:
   type: Protobuf
   url: grpc/machinelibrary-ai-hermes.proto
 created: '2026-09-19'
-description: 'Space Frontiers is a Wyoming corporation whose search and AI product, Machine Library (formerly Space Frontiers search, moved to machinelibrary.ai on 2026-09-12), is a full-text retrieval API and hosted MCP server over a corpus of roughly 2.9 billion records: peer-reviewed papers (CrossRef, PubMed, arXiv), books, USPTO patents, Wikipedia, technical standards, YouTube transcripts, and live Reddit, Telegram and Discord posts. It is built for AI agents doing literature review, fact-checking, citation walking and grounded research synthesis, returning compact reranked hits with canonical source URIs (DOI, arXiv, PMID, ISBN) and token-bounded full text. Three surfaces share one account and API key: a REST API at api.machinelibrary.ai (OpenAPI 3.1, pay-as-you-go), a Streamable-HTTP MCP server at mcp.machinelibrary.ai (OAuth 2.1 with PKCE and RFC 7591 dynamic registration, or a Bearer API key), and an A2A agent at machinelibrary.ai/a2a. It also ships a PDF/EPUB/DJVU-to-Markdown recognition
-  API and Stripe-settled prepaid credit packages for agents (ACP checkout, MPP top-up). The company also publishes Hermes, an open-source Rust search engine with a gRPC contract and Python/TypeScript clients.'
+description: 'Space Frontiers is a Wyoming corporation whose search and AI product, Machine Library (formerly Space Frontiers search, moved to machinelibrary.ai on 2026-09-12), is a full-text retrieval API and hosted MCP server over a corpus the provider describes as multi-billion documents: peer-reviewed papers (CrossRef, PubMed, arXiv), books, USPTO patents, Wikipedia, technical standards, YouTube transcripts, and live Reddit, Telegram and Discord posts. It is built for AI agents doing literature review, fact-checking, citation walking and grounded research synthesis, returning compact reranked hits with canonical source URIs (DOI, arXiv, PMID, ISBN) and token-bounded full text. Three surfaces share one account and API key: a REST API at api.machinelibrary.ai (OpenAPI 3.1, pay-as-you-go), a Streamable-HTTP MCP server at mcp.machinelibrary.ai (OAuth 2.1 with PKCE and RFC 7591 dynamic registration against the issuer api.machinelibrary.ai, scope search, or a Bearer API key), and an A2A agent
+  at machinelibrary.ai/a2a. It also ships a PDF/EPUB/DJVU-to-Markdown recognition API and Stripe-settled prepaid credit packages for agents (ACP checkout, MPP top-up). The company also publishes Hermes, an open-source Rust search engine with a gRPC contract and Python/TypeScript clients.'
 image: https://machinelibrary.ai/press/icon-512.png
 json_schemas:
 - name: AgentCommentSubmission
@@ -330,9 +354,9 @@ jsonld:
   slug: machinelibrary-ai-context
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.machinelibrary.ai over streamable HTTP requiring OAuth; 9 tools listed.
   name: Space Frontiers MCP Server
-  slug: space-frontiers-mcp-server
+  slug: org-spacefrontiers-search
 modified: '2026-09-19'
 name: Space Frontiers
 nav: Providers
@@ -343,12 +367,16 @@ overview: 'Space Frontiers publishes 9 APIs on the [APIs.io](https://apis.io/) n
   The Space Frontiers catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Space Frontiers'' developer surface includes documentation, API reference, getting-started guide, pricing, support, signup flow, authentication, and 37 more developer resources.'
+  Space Frontiers'' developer surface includes changelog, documentation, API reference, getting-started guide, pricing, support, signup flow, and 43 more developer resources.'
 plans:
 - name: Machinelibrary Ai Plans Pricing
   plan_count: 2
   slug: machinelibrary-ai-plans-pricing
 random_paper: 13
+rate_limits:
+- limit_count: 5
+  name: Machinelibrary Ai Rate Limits
+  slug: machinelibrary-ai-rate-limits
 rules:
 - effective_rule_count: 57
   extends:
@@ -363,28 +391,28 @@ rules:
   slug: machinelibrary-ai-rules
 scopes:
 - name: Machinelibrary Ai Scopes
-  scope_count: 0
+  scope_count: 1
   slug: machinelibrary-ai-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 1 scope
 score:
   band: strong
-  composite: 60.8
+  composite: 65.5
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 68.8
+    artifact_dirs: 28
+    catalog_earned: 79.6
     catalog_earned_first_party: 8.0
-    catalog_gap: 46.3
+    catalog_gap: 35.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 10.5
+  delta: 10.6
   facets:
     access_clarity: 65.8
     contract_governance: 35.6
     contract_quality: 63.4
     developer_ergonomics: 59.5
-    discoverability: 72.5
-    operational_transparency: 44.7
-  previous_composite: 50.3
+    discoverability: 82.5
+    operational_transparency: 73.2
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -402,7 +430,7 @@ score:
     regime_id: education
     score: 40.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: rising
   upsert:
     applies: true

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -143,9 +143,9 @@ created: '2026-09-25'
 description: Who Represents This Address (RJH Signal Technologies) provides an AI‑operated API that returns U.S. congressional and state legislative districts, current officeholders, statewide executives, mayoral information, and local boundaries for a given street address. It serves as a drop‑in replacement for the discontinued Google Civic Information API, offering free tier access and paid per‑call options, with batch lookup support for up to 40 addresses.
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at whorepresents.rjhsignaltech.workers.dev.
   name: Who Represents This Address (RJH Signal Technologies) MCP Server
-  slug: who-represents-this-address-rjh-signal-technologies-mcp-server
+  slug: rjhsignaltech-mcp-yml
 modified: '2026-09-25'
 name: Who Represents This Address (RJH Signal Technologies)
 nav: Providers
@@ -174,7 +174,7 @@ score:
   band: thin
   composite: 27.3
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 34.5
     catalog_earned_first_party: 0.0
     catalog_gap: 80.5
@@ -204,7 +204,7 @@ score:
     regime_id: government
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 0.0

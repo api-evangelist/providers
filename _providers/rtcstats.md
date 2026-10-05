@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 46.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -53,7 +53,10 @@ apis:
   description: The rtcStats API API from rtcStats — 8 operation(s) for rtcstats api.
   name: rtcStats API
   slug: rtcstats-rtcstats-api-api
-artifact_total: 19
+- description: 'Hosted Model Context Protocol server over Streamable HTTP, so coding agents can query analyzed WebRTC sessions. Tools get_quota, list_sessions, get_session and get_observation_explanation. Bearer JWT '
+  name: rtcStats MCP Server
+  slug: rtcstats-mcp-server
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -288,6 +291,95 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://rtcstats.com/privacy
+- group: other
+  title: ''
+  type: APIsJSON
+  url: https://rtcstats.com/apis.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rtcstats/refs/heads/main/well-known/rtcstats-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/rtcstats-well-known.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: https://rtcstats.com/.well-known/api-catalog
+- group: other
+  title: ''
+  type: APICatalog
+  url: https://api.rtcstats.com/.well-known/api-catalog
+- group: other
+  title: ''
+  type: AgentCard
+  url: https://rtcstats.com/.well-known/agent-card.json
+- group: other
+  title: ''
+  type: AgentCard
+  url: https://api.rtcstats.com/.well-known/agent-card.json
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: https://rtcstats.com/.well-known/security.txt
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: https://api.rtcstats.com/.well-known/security.txt
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://rtcstats.com/deprecation
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://rtcstats.com/changelog
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://rtcstats.com/compliance
+- group: other
+  title: ''
+  type: Subprocessors
+  url: https://rtcstats.com/compliance
+- group: commercial
+  title: ''
+  type: FinOps
+  url: https://rtcstats.com/finops.json
+- group: operate
+  title: ''
+  type: RateLimits
+  url: https://rtcstats.com/api-docs#rate-limits
+- group: build
+  title: ''
+  type: PostmanCollection
+  url: https://rtcstats.com/schemas/rtcstats.postman_collection.json
+- group: design
+  title: ''
+  type: SpectralRuleset
+  url: https://rtcstats.com/schemas/spectral.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: https://rtcstats.com/schemas/vocabulary.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: https://rtcstats.com/schemas/index.json
+- group: design
+  title: ''
+  type: JSONLD
+  url: https://rtcstats.com/schemas/context.jsonld
+- group: design
+  title: ''
+  type: Conformance
+  url: https://rtcstats.com/schemas/conformance.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: https://rtcstats.com/schemas/overlay.yaml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://rtcstats.com/kb/open-source
 created: '2026-08-09'
 description: SaaS for developers to troubleshoot and monitor WebRTC applications. Users upload webrtc-internals/rtcstats dumps or stream stats to receive metrics, Observations, Deductions, an Experience Score, and an AI root-cause summary. Offers a REST API, a hosted MCP server, and an open-source collection SDK/collector.
 image: https://rtcstats.com/opengraph-image.png
@@ -316,18 +408,18 @@ layout: provider
 mcp_servers:
 - description: rtcStats operates a first-party hosted MCP server over Streamable HTTP at https://api.rtcstats.com/v1.0/mcp. It is stateless JSON-RPC 2.0 and is also declared in the OpenAPI as the mcpStreamablePost o
   name: rtcStats MCP Server
-  slug: rtcstats-mcp-server
+  slug: rtcstats
 modified: '2026-09-16'
 name: rtcStats
 nav: Providers
 network: true
-overview: 'rtcStats publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include WebRTC, Observability, Monitoring, Debugging, and Real-Time Communication.
+overview: 'rtcStats publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include WebRTC, Observability, Monitoring, Debugging, and Real-Time Communication.
 
 
   The rtcStats catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  rtcStats'' developer surface includes sandbox, authentication, changelog, documentation, API reference, getting-started guide, support, and 42 more developer resources.'
+  rtcStats'' developer surface includes sandbox, authentication, changelog, documentation, API reference, getting-started guide, support, and 64 more developer resources.'
 plans:
 - name: Rtcstats Plans Pricing
   plan_count: 3
@@ -353,27 +445,27 @@ rules:
     warn: 1
   slug: rtcstats-rules
 score:
-  band: strong
-  composite: 65.5
+  band: exemplar
+  composite: 69.2
   coverage:
     artifact_dirs: 32
-    catalog_earned: 86.8
+    catalog_earned: 90.8
     catalog_earned_first_party: 24.0
-    catalog_gap: 28.3
+    catalog_gap: 24.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 12.7
+  delta: 16.1
   facets:
     access_clarity: 92.1
-    contract_governance: 22.0
+    contract_governance: 34.1
     contract_quality: 63.5
-    developer_ergonomics: 73.2
-    discoverability: 75.0
+    developer_ergonomics: 78.0
+    discoverability: 85.0
     operational_transparency: 68.4
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 52.8
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -389,9 +481,9 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 32.7
+    score: 36.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: rising
   upsert:
     applies: true

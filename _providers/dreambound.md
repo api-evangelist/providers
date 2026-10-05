@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
 common:
 - group: company
   title: ''
@@ -64,6 +64,10 @@ created: '2026-07-17'
 description: Dreambound is a career and technical education marketplace that helps job seekers discover, compare, and enroll in vocational training programs across healthcare, technology, business, and the skilled trades. The platform aggregates thousands of schools and hundreds of programs, letting students filter by location, schedule, format (online, hybrid, or in person), and price, with enrollment coaches guiding them into certifications such as certified nursing assistant, medical billing, phlebotomy, and sterile processing. The service is free for students and monetizes through schools and workforce partners who list and advertise their programs. Backed by Union Square Ventures, Collaborative Fund, and 8VC, Dreambound is added to the API Evangelist network as a company profile; it does not currently publish a public developer program, API, or documentation surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dreambound.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.dreambound.com over HTTP.
+  name: Dreambound MCP Server
+  slug: dreambound
 modified: '2026-07-18'
 name: Dreambound
 nav: Providers
@@ -83,7 +87,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
@@ -91,7 +95,7 @@ score:
     developer_ergonomics: 2.4
     discoverability: 51.7
     operational_transparency: 0.0
-  previous_composite: 10.9
+  previous_composite: 10.4
   provenance:
     mcp: first-party
   regulatory:
@@ -101,7 +105,7 @@ score:
     regime_id: education
     score: 7.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

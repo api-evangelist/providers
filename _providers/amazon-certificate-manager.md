@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -56,6 +56,11 @@ collections:
   name: Amazon Certificate Manager Certificates API
   slug: open-amazon-certificate-manager-certificates-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-certificate-manager/refs/heads/main/capabilities/amazon-certificate-manager-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-certificate-manager-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-certificate-manager/refs/heads/main/mcp/amazon-certificate-manager-mcp.yml
   title: ''
@@ -276,7 +281,7 @@ overview: 'Amazon Certificate Manager publishes 1 API on the [APIs.io](https://a
   The Amazon Certificate Manager catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Certificate Manager''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 24 more developer resources.'
+  Amazon Certificate Manager''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 25 more developer resources.'
 random_paper: 4
 rules:
 - effective_rule_count: 5
@@ -304,7 +309,7 @@ score:
   band: strong
   composite: 56.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 60.0
     catalog_earned_first_party: 0.0
     catalog_gap: 55.0
@@ -335,7 +340,7 @@ score:
     regime_id: horizontal
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 4
 apis:
 - description: The libiio library provides a cross-platform C API for interfacing with Linux Industrial I/O (IIO) devices including ADCs, DACs, and RF transceivers. It supports local and remote device access via a n
@@ -319,7 +319,7 @@ score:
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 18.4
     contract_governance: 41.7
@@ -327,7 +327,7 @@ score:
     developer_ergonomics: 65.5
     discoverability: 78.6
     operational_transparency: 23.7
-  previous_composite: 41.8
+  previous_composite: 42.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -339,7 +339,7 @@ score:
     regime_id: horizontal
     score: 18.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

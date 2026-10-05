@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,14 +28,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.0
-  scored_at: '2026-10-03'
+  score: 28.4
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -84,7 +84,7 @@ apis:
   description: The Users API from Sauce Labs — 1 operation(s) for users.
   name: Sauce Labs Users API
   slug: sauce-labs-users-api
-artifact_total: 35
+artifact_total: 36
 collections:
 - collection_type: postman
   name: Sauce Labs Jobs Devices API
@@ -126,6 +126,11 @@ collections:
   name: Sauce Labs Jobs Devices Users API
   slug: open-sauce-labs-users-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/capabilities/sauce-labs-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sauce-labs-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -244,6 +249,10 @@ jsonld:
   property_count: 48
   slug: sauce-labs-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.saucelabs.com over HTTP.
+  name: Sauce Labs MCP Server
+  slug: sauce-labs
 modified: '2026-06-12'
 name: Sauce Labs
 nav: Providers
@@ -254,7 +263,7 @@ overview: 'Sauce Labs publishes 9 APIs on the [APIs.io](https://apis.io/) networ
   The Sauce Labs catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Sauce Labs'' developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 15 more developer resources.'
+  Sauce Labs'' developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 16 more developer resources.'
 plans:
 - name: Sauce Labs Plans Pricing
   plan_count: 5
@@ -279,13 +288,13 @@ score:
   band: developing
   composite: 44.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 77.4
     catalog_earned_first_party: 0.0
     catalog_gap: 37.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.5
   facets:
     access_clarity: 46.8
     contract_governance: 23.5
@@ -293,7 +302,7 @@ score:
     developer_ergonomics: 32.1
     discoverability: 68.3
     operational_transparency: 46.8
-  previous_composite: 44.9
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     contracts:
@@ -309,7 +318,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: OAuth-protected remote Model Context Protocol endpoint served from the AgentSmyth Kong Enterprise gateway. An unauthenticated POST of an MCP tools/list request returns HTTP 401 with an RFC 9728 WWW-Au
@@ -121,9 +121,9 @@ description: AgentSmyth is a New York based financial-technology company buildin
 image: https://cdn.sanity.io/images/rpz1t3s7/production/92d6674aeab06f9dfd19cbe31b81923ac1c1a9f7-128x128.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at api.agentsmyth.com over HTTP requiring OAuth.
   name: AgentSmyth MCP Server
-  slug: agentsmyth-mcp-server
+  slug: agentsmyth
 modified: '2026-09-12'
 name: AgentSmyth
 nav: Providers
@@ -143,20 +143,20 @@ rate_limits:
   slug: agentsmyth-rate-limits
 scopes:
 - name: Agentsmyth Scopes
-  scope_count: 0
+  scope_count: 4
   slug: agentsmyth-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 4 scopes
 score:
   band: emerging
   composite: 22.2
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.5
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
@@ -164,7 +164,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 75.0
     operational_transparency: 0.0
-  previous_composite: 22.2
+  previous_composite: 25.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -175,7 +175,7 @@ score:
     regime_id: securities_market_data
     score: 39.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

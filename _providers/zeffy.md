@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
   description: An organization's transactions and donations.
   name: Zeffy Payments API
   slug: zeffy-payments-api
-artifact_total: 14
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -79,6 +79,11 @@ collections:
   name: Zeffy Public Campaigns Payments API
   slug: open-zeffy-payments-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zeffy/refs/heads/main/capabilities/zeffy-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/zeffy-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/zeffy/refs/heads/main/agentic-access/zeffy-agentic-access.yml
   title: ''
@@ -133,6 +138,10 @@ finops:
   slug: zeffy-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zeffy.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.zeffy.com over HTTP.
+  name: Zeffy MCP Server
+  slug: zeffy
 modified: '2026-07-05'
 name: Zeffy
 nav: Providers
@@ -140,7 +149,7 @@ network: true
 overview: 'Zeffy publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Contacts API, Payments API, and 1 more. Tagged areas include Fundraising, Non-Profit, Donations, Payments, and Donor Management.
 
 
-  Zeffy''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
+  Zeffy''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
 plans:
 - name: Zeffy Plans Pricing
   plan_count: 1
@@ -154,7 +163,7 @@ score:
   band: emerging
   composite: 19.0
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 54.4
     catalog_earned_first_party: 0.0
     catalog_gap: 60.6
@@ -184,7 +193,7 @@ score:
     regime_id: payments
     score: 10.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

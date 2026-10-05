@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 16
+- acting_count: 23
   human_in_the_loop: 1
   name: Ocean Io Agentic Access
   operation_count: 26
   slug: ocean-io-agentic-access
-  summary_line: 26 operations · 16 acting · 1 human-in-the-loop
+  summary_line: 26 operations · 23 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api.ocean.io
@@ -94,6 +94,11 @@ collections:
   name: Ocean.io API Documentation
   slug: open-ocean-io-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/capabilities/ocean-io-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ocean-io-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/overlays/ocean-io-api-overlay.yaml
   title: ''
@@ -242,7 +247,7 @@ layout: provider
 mcp_servers:
 - description: Ocean.io publishes a first-party hosted (remote) MCP server that exposes the company/people data API to any MCP-aware client. It is a single HTTPS endpoint the client POSTs to; authentication is the s
   name: Ocean.io MCP Server
-  slug: oceanio-mcp-server
+  slug: ocean-data-api
 modified: '2026-09-16'
 name: Ocean.io
 nav: Providers
@@ -253,7 +258,7 @@ overview: 'Ocean.io publishes 8 APIs on the [APIs.io](https://apis.io/) network,
   The Ocean.io catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Ocean.io''s developer surface includes documentation, API reference, getting-started guide, pricing, authentication, and 24 more developer resources.'
+  Ocean.io''s developer surface includes documentation, API reference, getting-started guide, pricing, authentication, and 25 more developer resources.'
 plans:
 - name: Ocean Io Plans Pricing
   plan_count: 0
@@ -272,13 +277,13 @@ score:
   band: developing
   composite: 41.2
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
@@ -286,7 +291,7 @@ score:
     developer_ergonomics: 23.2
     discoverability: 75.0
     operational_transparency: 55.3
-  previous_composite: 41.2
+  previous_composite: 40.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -304,7 +309,7 @@ score:
     regime_id: horizontal
     score: 31.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

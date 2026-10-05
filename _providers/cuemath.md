@@ -27,16 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.7
-  scored_at: '2026-10-03'
+  score: 11.2
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 3
+artifact_total: 4
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cuemath/refs/heads/main/security/cuemath-domain-security.yml
@@ -119,6 +119,10 @@ created: '2026-08-11'
 description: Cuemath is an India-headquartered education technology company founded in 2013 by Manan Khurma that delivers live, one-to-one online math tutoring to students in grades K through 12 across more than 80 countries. Its MathFit framework and LEAP learning platform pair certified tutors with an interactive, gamified curriculum aligned to US Common Core standards, spanning arithmetic, algebra, geometry, pre-calculus, AP calculus and standardized test preparation. Cuemath sells directly to families as a subscription tutoring product; it operates a consumer web and mobile application rather than a developer platform, and publishes no public API, SDK or developer portal.
 image: https://d138zd1ktt9iqe.cloudfront.net/static/website-v3/math-fit-teaser-16-9.webp
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.cuemath.com over HTTP.
+  name: Cuemath MCP Server
+  slug: cuemath
 modified: '2026-08-11'
 name: Cuemath
 nav: Providers
@@ -146,7 +150,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
@@ -159,7 +163,7 @@ score:
     countries:
     - india
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 15.8
+  previous_composite: 16.2
   provenance:
     mcp: first-party
   regulatory:
@@ -169,7 +173,7 @@ score:
     regime_id: education
     score: 13.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

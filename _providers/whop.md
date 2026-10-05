@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -104,7 +104,7 @@ apis:
   description: Webhook endpoint registration for platform events.
   name: Whop Webhooks API
   slug: whop-webhooks-api
-artifact_total: 33
+artifact_total: 34
 asyncapis:
 - description: AsyncAPI 2.6 description of Whop's **realtime WebSocket** surface, used by Whop apps for bidirectional realtime messaging (custom app messages plus chat / feed updates) between connected clients and W
   name: Whop Realtime WebSocket
@@ -147,6 +147,11 @@ collections:
   name: Whop REST API (v1)
   slug: open-whop
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/capabilities/whop-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/whop-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/agentic-access/whop-agentic-access.yml
   title: ''
@@ -209,6 +214,10 @@ graphqls:
   slug: whop-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/whop.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.whop.com over HTTP.
+  name: Whop MCP Server
+  slug: whop
 modified: '2026-07-05'
 name: Whop
 nav: Providers
@@ -219,7 +228,7 @@ overview: 'Whop publishes 12 APIs on the [APIs.io](https://apis.io/) network, in
   The Whop catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Whop''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Whop''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Whop Plans Pricing
   plan_count: 3
@@ -245,13 +254,13 @@ score:
   band: thin
   composite: 33.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 66.1
     catalog_earned_first_party: 0.0
     catalog_gap: 48.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 36.3
     contract_governance: 13.6
@@ -259,7 +268,7 @@ score:
     developer_ergonomics: 29.8
     discoverability: 68.3
     operational_transparency: 31.1
-  previous_composite: 33.2
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     contracts:
@@ -275,7 +284,7 @@ score:
     regime_id: payments
     score: 10.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

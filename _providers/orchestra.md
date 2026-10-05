@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/orchestra/refs/heads/main/security/orchestra-domain-security.yml
@@ -57,6 +57,10 @@ created: '2026-07-17'
 description: Orchestra is an agentic operations platform for drug development and life sciences R&D organizations. The software helps biotech and pharmaceutical teams unify planning, automate operations, and reduce the risks that derail breakthrough science by creating centralized roadmaps across leadership, programs, and scientific groups, applying AI agents to operational automation, and delivering data-driven decision support across scenarios, planning, and CRO management. Orchestra is a portfolio company of 8vc and is tracked in the API Evangelist network as a company profile. As of this enrichment pass the company operates a marketing and product site only and publishes no public developer API, OpenAPI specification, or developer portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/orchestra.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.orchestra.bio over HTTP.
+  name: Orchestra MCP Server
+  slug: orchestra
 modified: '2026-07-20'
 name: Orchestra
 nav: Providers
@@ -76,7 +80,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -84,7 +88,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 51.7
     operational_transparency: 0.0
-  previous_composite: 5.4
+  previous_composite: 4.7
   provenance:
     mcp: first-party
   regulatory:
@@ -94,7 +98,7 @@ score:
     regime_id: health
     score: 4.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

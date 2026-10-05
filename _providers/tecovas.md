@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 41.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -183,9 +183,9 @@ description: 'Tecovas is an Austin, Texas direct-to-consumer Western wear brand 
 image: https://cdn.sanity.io/images/v8kybopt/production/073bf9cd1134041e2c334a569e22504347e336eb-8108x5289.jpg?auto=format&fit=max&w=1200
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at checkout.tecovas.com over HTTP; 13 tools listed.
   name: Tecovas MCP Server
-  slug: tecovas-mcp-server
+  slug: tecovas-ucp-shopping
 modified: '2026-08-05'
 name: Tecovas
 nav: Providers
@@ -210,7 +210,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.1
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
@@ -218,7 +218,7 @@ score:
     developer_ergonomics: 54.8
     discoverability: 80.0
     operational_transparency: 0.0
-  previous_composite: 30.8
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -231,8 +231,8 @@ score:
     regime_id: horizontal
     score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

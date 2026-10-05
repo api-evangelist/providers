@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 13
+- acting_count: 14
   human_in_the_loop: 0
   name: Linearb Agentic Access
   operation_count: 19
   slug: linearb-agentic-access
-  summary_line: 19 operations · 13 acting
+  summary_line: 19 operations · 14 acting
 api_count: 1
 apis:
 - baseURL: https://public-api.linearb.io/api/v1
@@ -70,7 +70,7 @@ apis:
   description: The Teams API from LinearB — 4 operation(s) for teams.
   name: LinearB Teams API
   slug: linearb-teams-api
-artifact_total: 19
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -94,6 +94,11 @@ collections:
   name: LinearB Public API
   slug: open-linearb
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/capabilities/linearb-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/linearb-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/agentic-access/linearb-agentic-access.yml
   title: ''
@@ -153,6 +158,10 @@ finops:
   slug: linearb-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/linearb.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.linearb.io over HTTP.
+  name: LinearB MCP Server
+  slug: linearb
 modified: '2026-06-21'
 name: LinearB
 nav: Providers
@@ -160,7 +169,7 @@ network: true
 overview: 'LinearB publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Deployments API, Incidents API, Measurements API, and 2 more. Tagged areas include Engineering Analytics, SEI, Developer Productivity, DORA Metrics, and DevOps.
 
 
-  LinearB''s developer surface includes authentication, documentation, and 9 more developer resources.'
+  LinearB''s developer surface includes authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Linearb Plans Pricing
   plan_count: 3
@@ -180,7 +189,7 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.1
   facets:
     access_clarity: 44.2
     contract_governance: 0.0
@@ -188,7 +197,7 @@ score:
     developer_ergonomics: 29.8
     discoverability: 68.3
     operational_transparency: 21.6
-  previous_composite: 36.3
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -204,7 +213,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/findoctave/refs/heads/main/security/findoctave-domain-security.yml
@@ -91,6 +91,10 @@ created: '2026-07-17'
 description: Findoctave (operating as Octave) is a mental health care provider offering virtual and in-person therapy across 20+ U.S. states. Services include individual, couples, and family therapy, DBT, and specialized centers of excellence for perinatal and postpartum health, LGBTQIA+ (queer resiliency), trauma, and women's emotional health. Octave is in-network with major insurers (Aetna, Blue Shield of California, BCBS plans, Health Net, and others) and publishes a therapist directory, cost calculator, and getting-started flow through its consumer website. Surfaced as a portfolio company of Felicis and added to the API Evangelist network; Octave exposes no public developer API, so this profile is a company identity record rather than an API listing.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/findoctave.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.findoctave.com over HTTP; 5 tools listed.
+  name: Findoctave MCP Server
+  slug: findoctave
 modified: '2026-07-19'
 name: Findoctave
 nav: Providers
@@ -128,7 +132,7 @@ score:
     regime_id: health
     score: 10.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

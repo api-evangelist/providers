@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -160,6 +160,11 @@ apis:
   slug: autonomous-solutions-health-check-api
 artifact_total: 37
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/capabilities/autonomous-solutions-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/autonomous-solutions-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/agentic-access/autonomous-solutions-agentic-access.yml
   title: ''
@@ -306,7 +311,7 @@ overview: 'VenHub publishes 25 APIs on the [APIs.io](https://apis.io/) network, 
   The VenHub catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  VenHub''s developer surface includes authentication, getting-started guide, documentation, and 20 more developer resources.'
+  VenHub''s developer surface includes authentication, getting-started guide, documentation, and 21 more developer resources.'
 random_paper: 11
 rate_limits:
 - limit_count: 2
@@ -328,7 +333,7 @@ score:
   band: thin
   composite: 38.9
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 70.8
     catalog_earned_first_party: 8.0
     catalog_gap: 44.3
@@ -358,7 +363,7 @@ score:
     regime_id: health
     score: 23.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 0.0

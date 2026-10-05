@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -90,6 +90,11 @@ collections:
   name: Apache Hadoop REST APIs
   slug: open-hadoop
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hadoop/refs/heads/main/capabilities/hadoop-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hadoop-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/hadoop/refs/heads/main/agentic-access/hadoop-agentic-access.yml
   title: ''
@@ -152,7 +157,7 @@ network: true
 overview: 'Apache Hadoop publishes 6 APIs on the [APIs.io](https://apis.io/) network, including WebHDFS API, YARN Applications API, YARN Cluster API, and 3 more. Tagged areas include Big Data, Data Processing, Distributed Computing, HDFS, and MapReduce.
 
 
-  Apache Hadoop''s developer surface includes documentation, getting-started guide, changelog, and 8 more developer resources.'
+  Apache Hadoop''s developer surface includes documentation, getting-started guide, changelog, and 9 more developer resources.'
 plans:
 - name: Hadoop Plans Pricing
   plan_count: 3
@@ -166,13 +171,13 @@ score:
   band: thin
   composite: 27.9
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.2
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
@@ -180,7 +185,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 57.1
     operational_transparency: 26.3
-  previous_composite: 27.9
+  previous_composite: 29.1
   provenance:
     agentic_access: derived
     contracts:
@@ -195,7 +200,7 @@ score:
     regime_id: horizontal
     score: 15.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

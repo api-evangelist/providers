@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The API powering the Unison Share web application, including the APIs for syncing code with UCM and browsing projects, branches, and definitions. Unison Share also acts as the OAuth2 (with PKCE) and O
@@ -167,9 +167,9 @@ description: Unison Computing, PBC is a public benefit corporation building the 
 image: https://github.com/unisonweb.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Local (stdio) MCP server; 16 tools listed.
   name: Unison Computing MCP Server
-  slug: unison-computing-mcp-server
+  slug: unison
 modified: '2026-07-21'
 name: Unison Computing
 nav: Providers
@@ -189,7 +189,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
@@ -200,7 +200,7 @@ score:
   open_source:
     applies: true
     score: 0.0
-  previous_composite: 31.9
+  previous_composite: 30.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -212,7 +212,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

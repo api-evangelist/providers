@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -139,6 +139,11 @@ collections:
   name: Hex Cells Users API
   slug: open-hex-users-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/capabilities/hex-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hex-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -301,9 +306,9 @@ description: Hex is an AI-powered analytics platform that combines agentic noteb
 image: https://cdn.sanity.io/images/e92memrj/production/57eeccd836f0d6188862a55186ab48521fe1034b-1200x630.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at app.hex.tech over HTTP requiring OAuth; 4 tools listed.
   name: Hex MCP Server
-  slug: hex-mcp-server
+  slug: hex
 modified: '2026-07-19'
 name: Hex
 nav: Providers
@@ -311,19 +316,19 @@ network: true
 overview: 'Hex publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Cells API, Collections API, Context API, and 8 more. Tagged areas include Company, Analytics, Data Science, Notebooks, and Business Intelligence.
 
 
-  Hex''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 27 more developer resources.'
+  Hex''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 28 more developer resources.'
 random_paper: 17
 score:
   band: strong
   composite: 54.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 47.4
     contract_governance: 4.5
@@ -331,7 +336,7 @@ score:
     developer_ergonomics: 68.5
     discoverability: 75.0
     operational_transparency: 44.7
-  previous_composite: 54.9
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -355,7 +360,7 @@ score:
     regime_id: horizontal
     score: 32.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

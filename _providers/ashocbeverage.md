@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: API documented on the Drink Accelerator site, but no owned machine‑readable contract could be verified.
@@ -86,9 +86,9 @@ description: Ashocbeverage is a modern energy drink brand offering a range of pe
 image: https://www.drinkaccelerator.com/assets/logo.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at a-shoc.myshopify.com.
   name: Ashocbeverage MCP Server
-  slug: ashocbeverage-mcp-server
+  slug: ashocbeverage-mcp-yml
 modified: '2026-09-26'
 name: Ashocbeverage
 nav: Providers
@@ -124,7 +124,7 @@ score:
     regime_id: health
     score: 7.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

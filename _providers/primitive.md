@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 75.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 1
@@ -232,6 +232,11 @@ collections:
   name: Primitive Account Webhook Deliveries API
   slug: open-primitive-webhook-deliveries-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/primitive/refs/heads/main/capabilities/primitive-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/primitive-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/primitive/refs/heads/main/skills/primitive-chat.md
   title: ''
@@ -256,9 +261,9 @@ created: '2026-07-17'
 description: Primitive is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at www.primitive.dev over streamable HTTP; 29 tools listed.
   name: Primitive MCP Server
-  slug: primitive-mcp-server
+  slug: dev-primitive-email
 modified: '2026-07-17'
 name: Primitive
 nav: Providers
@@ -272,13 +277,13 @@ score:
   band: thin
   composite: 27.1
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 15.0
     catalog_earned_first_party: 0.0
     catalog_gap: 100.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.3
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
@@ -292,7 +297,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 27.1
+  previous_composite: 29.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -310,7 +315,7 @@ score:
     regime_id: horizontal
     score: 5.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

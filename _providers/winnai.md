@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: 'A live remote Model Context Protocol endpoint serving WINN.AI conversation data to agents. It is published nowhere on the company''s website — it was found by probing RFC 9728 OAuth protected-resource '
@@ -141,7 +141,7 @@ layout: provider
 mcp_servers:
 - description: WINN.AI publishes a remote Model Context Protocol endpoint at https://app.winn.ai/mcp. Its existence is not documented on the marketing site or in any developer portal — it was discovered by probing R
   name: WINN.AI MCP Server
-  slug: winnai-mcp-server
+  slug: winn-ai-mcp-server
 modified: '2026-08-13'
 name: Winn.ai
 nav: Providers
@@ -161,9 +161,9 @@ rate_limits:
   slug: winnai-rate-limits
 scopes:
 - name: Winnai Scopes
-  scope_count: 0
+  scope_count: 2
   slug: winnai-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 2 scopes
 score:
   band: thin
   composite: 33.2
@@ -174,7 +174,7 @@ score:
     catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.1
   facets:
     access_clarity: 75.0
     contract_governance: 18.2
@@ -182,7 +182,7 @@ score:
     developer_ergonomics: 16.7
     discoverability: 68.3
     operational_transparency: 21.1
-  previous_composite: 33.2
+  previous_composite: 30.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -193,7 +193,7 @@ score:
     regime_id: horizontal
     score: 36.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -86,6 +86,10 @@ created: '2026-07-17'
 description: 'Grow Therapy is a mental-health platform that connects individuals with licensed therapists and prescribers, offering virtual and in-person talk therapy plus medication management in one insurance-integrated experience. The company operates a two-sided marketplace: a client-facing product for finding, booking, and paying for care (with insurance verification and an average session cost around $21 for covered clients) and a provider portal that gives clinicians scheduling, billing, telehealth, and practice-management tooling. Grow also partners with employers, physicians, and payors on B2B mental-health access. It was surfaced as a portfolio company of Menlo Ventures and added to the API Evangelist network; Grow Therapy publishes a public Statuspage but does not expose a public developer API, so this profile captures its company identity, operational transparency, and domain-security posture rather than API artifacts.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/grow-therapy.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at growtherapy.com over HTTP.
+  name: Grow Therapy MCP Server
+  slug: grow-therapy
 modified: '2026-07-19'
 name: Grow Therapy
 nav: Providers
@@ -105,7 +109,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 27.6
     contract_governance: 0.0
@@ -113,7 +117,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 51.7
     operational_transparency: 15.8
-  previous_composite: 13.9
+  previous_composite: 13.8
   provenance:
     mcp: first-party
   regulatory:
@@ -123,7 +127,7 @@ score:
     regime_id: health
     score: 10.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

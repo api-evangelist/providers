@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -77,6 +77,10 @@ created: '2026-07-17'
 description: Pemo is a UAE-based fintech offering smart corporate cards and an all-in-one spend management platform for businesses across the United Arab Emirates and Saudi Arabia. The product combines physical and virtual corporate cards with expense management, automated receipt capture, invoice management, and accounting automation, giving finance teams real-time control and visibility over company spending. Pemo serves more than 10,000 companies and is backed by investors including Speedinvest. Pemo does not currently publish a public developer API or documentation portal; this profile tracks the company's identity and public web surface in the API Evangelist network.
 image: https://pemo.io/favicon.ico
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.pemo.io over HTTP.
+  name: Pemo MCP Server
+  slug: pemo
 modified: '2026-07-20'
 name: Pemo
 nav: Providers
@@ -96,7 +100,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
@@ -112,7 +116,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - middle-east
-  previous_composite: 14.5
+  previous_composite: 13.8
   provenance:
     mcp: first-party
   regulatory:
@@ -122,7 +126,7 @@ score:
     regime_id: payments
     score: 12.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

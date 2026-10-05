@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -53,6 +53,10 @@ created: '2026-07-17'
 description: Sandbar is a consumer hardware and AI company behind Stream, a private voice ring and conversational notes app. Worn on the finger, Stream pairs a discreet private microphone, a glass touchpad, and silent haptics with an on-device "Inner Voice" assistant so people can capture notes, reminders, and todos, dictate speech-to-text across any iOS or Mac app, and think aloud without reaching for a phone. Backed by Kindred Ventures and True Ventures, Sandbar is a preorder-stage consumer product; it publishes a marketing site, an About/Us page, and a Careers page, but no public developer portal, API, or SDK surface was found during enrichment.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sandbar.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.sandbar.com over HTTP.
+  name: Sandbar MCP Server
+  slug: sandbar
 modified: '2026-07-21'
 name: Sandbar
 nav: Providers
@@ -69,7 +73,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
@@ -77,7 +81,7 @@ score:
     developer_ergonomics: 0.0
     discoverability: 51.7
     operational_transparency: 0.0
-  previous_composite: 6.3
+  previous_composite: 7.1
   provenance:
     mcp: first-party
   regulatory:
@@ -87,7 +91,7 @@ score:
     regime_id: horizontal
     score: 9.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -27,14 +27,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: partial
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.4
-  scored_at: '2026-10-03'
+  score: 33.8
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -99,7 +99,7 @@ apis:
   description: Vulnerability tracking and remediation management
   name: Vanta Vulnerabilities API
   slug: vanta-vulnerabilities-api
-artifact_total: 56
+artifact_total: 57
 collections:
 - collection_type: postman
   name: Conduct an audit Auditors API
@@ -177,6 +177,11 @@ collections:
   name: Vanta API
   slug: open-vanta
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vanta/refs/heads/main/capabilities/vanta-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/vanta-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -329,6 +334,10 @@ jsonld:
   property_count: 27
   slug: vanta-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.vanta.com over HTTP.
+  name: Vanta MCP Server
+  slug: vanta
 modified: '2026-05-19'
 name: Vanta
 nav: Providers
@@ -339,7 +348,7 @@ overview: 'Vanta publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
   The Vanta catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Vanta''s developer surface includes authentication, developer portal, getting-started guide, FAQ, documentation, engineering blog, changelog, and 19 more developer resources.'
+  Vanta''s developer surface includes authentication, developer portal, getting-started guide, FAQ, documentation, engineering blog, changelog, and 20 more developer resources.'
 plans:
 - name: Vanta Plans Pricing
   plan_count: 3
@@ -380,13 +389,13 @@ score:
   band: developing
   composite: 48.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 61.5
     catalog_earned_first_party: 0.0
     catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 15.8
     contract_governance: 13.6
@@ -394,7 +403,7 @@ score:
     developer_ergonomics: 66.7
     discoverability: 75.0
     operational_transparency: 23.7
-  previous_composite: 48.8
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     contracts:
@@ -410,7 +419,7 @@ score:
     regime_id: horizontal
     score: 32.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

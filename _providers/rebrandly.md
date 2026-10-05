@@ -25,20 +25,20 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Custom URL shortener for sharing branded links
   name: Rebrandly
   slug: rebrandly
-artifact_total: 4
+artifact_total: 5
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/rebrandly/refs/heads/main/security/rebrandly-trust-center.yml
@@ -67,6 +67,10 @@ created: '2026-05-28'
 description: Custom URL shortener for sharing branded links
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rebrandly.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.rebrandly.com over HTTP.
+  name: Rebrandly MCP Server
+  slug: rebrandly
 modified: '2026-05-28'
 name: Rebrandly
 nav: Providers
@@ -83,7 +87,7 @@ score:
     catalog_gap: 93.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -91,7 +95,7 @@ score:
     developer_ergonomics: 4.8
     discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 7.7
+  previous_composite: 8.3
   provenance:
     mcp: first-party
   regulatory:
@@ -101,7 +105,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

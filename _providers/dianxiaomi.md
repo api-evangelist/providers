@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/dianxiaomi/refs/heads/main/security/dianxiaomi-domain-security.yml
@@ -65,6 +65,10 @@ created: '2026-07-17'
 description: Dianxiaomi (店小秘) is a free cross-border e-commerce ERP platform operated by Shenzhen Meiyunji Network Technology Co., Ltd., serving more than 1.8 million cross-border sellers worldwide. It unifies product listing and data collection, multi-platform order processing, warehouse and inventory management, procurement, financial and profit analytics, and customer service across 70+ marketplaces including AliExpress, Amazon, Shopee, Lazada, and TikTok Shop, with integrations to 1,700+ logistics providers and 130+ overseas warehouses. The platform is user-facing SaaS; no public developer/API open platform is currently published.
 image: https://www.dianxiaomi.com/favicon.ico
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.dianxiaomi.com over HTTP.
+  name: Dianxiaomi MCP Server
+  slug: dianxiaomi
 modified: '2026-07-18'
 name: Dianxiaomi
 nav: Providers
@@ -84,7 +88,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -92,7 +96,7 @@ score:
     developer_ergonomics: 14.3
     discoverability: 51.7
     operational_transparency: 0.0
-  previous_composite: 12.0
+  previous_composite: 12.1
   provenance:
     mcp: first-party
   regulatory:
@@ -102,7 +106,7 @@ score:
     regime_id: horizontal
     score: 13.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
 artifact_total: 7
 common:
@@ -181,9 +181,9 @@ rate_limits:
   slug: sparrow-rate-limits
 scopes:
 - name: Sparrow Scopes
-  scope_count: 0
+  scope_count: 14
   slug: sparrow-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 14 scopes
 score:
   band: thin
   composite: 27.4
@@ -194,7 +194,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.9
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
@@ -202,7 +202,7 @@ score:
     developer_ergonomics: 14.3
     discoverability: 48.2
     operational_transparency: 28.9
-  previous_composite: 27.4
+  previous_composite: 22.5
   provenance:
     conformance: first-party
   regulatory:
@@ -220,7 +220,7 @@ score:
     regime_id: employment_payroll
     score: 52.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -435,6 +435,11 @@ asyncapis:
   name: Monocrawl Webhooks
   slug: monocrawl-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/monocrawl/refs/heads/main/capabilities/monocrawl-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/monocrawl-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/monocrawl/refs/heads/main/agentic-access/monocrawl-agentic-access.yml
   title: ''
@@ -599,7 +604,7 @@ overview: 'Monocrawl publishes 79 APIs on the [APIs.io](https://apis.io/) networ
   The Monocrawl catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Monocrawl''s developer surface includes authentication, support, pricing, changelog, getting-started guide, API reference, documentation, and 23 more developer resources.'
+  Monocrawl''s developer surface includes authentication, support, pricing, changelog, getting-started guide, API reference, documentation, and 24 more developer resources.'
 plans:
 - name: Monocrawl Plans Pricing
   plan_count: 6
@@ -651,7 +656,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 0.0

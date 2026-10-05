@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/alassio/refs/heads/main/security/alassio-domain-security.yml
@@ -53,6 +53,10 @@ created: '2026-07-17'
 description: Alassio is a French financial-technology company building a next-generation payroll software platform (logiciel de paie nouvelle generation) for businesses. Alassio positions itself as offering the functional depth expected of a specialist payroll and HR tool, with added transparency and control for finance and people teams. The company is backed by venture-capital firm Partech and operates from France, serving the French and European payroll, compensation, and human-resources market. As of this profile the company publishes only a marketing landing page and a legal notice; no public API, developer documentation, SDK, or integration surface has been located. This profile is maintained in the API Evangelist network as a portfolio-lead stub awaiting a public developer surface to enrich.
 image: https://www.alassio.fr/og-image.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at docs.alassio.fr over HTTP.
+  name: Alassio MCP Server
+  slug: alassio
 modified: '2026-07-17'
 name: Alassio
 nav: Providers
@@ -69,7 +73,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.8
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -85,7 +89,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 3.2
+  previous_composite: 5.0
   provenance:
     mcp: first-party
   regulatory:
@@ -95,7 +99,7 @@ score:
     regime_id: employment_payroll
     score: 5.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

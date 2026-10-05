@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 3
+- acting_count: 4
   human_in_the_loop: 0
   name: Jentic Agentic Access
   operation_count: 4
   slug: jentic-agentic-access
-  summary_line: 4 operations · 3 acting
+  summary_line: 4 operations · 4 acting
 api_count: 1
 apis:
 - description: The Jentic Remote MCP Server is the hosted Model Context Protocol endpoint that exposes the Jentic catalog to MCP-capable clients (Claude Desktop, ChatGPT, Cursor, Windsurf, VS Code). It speaks the sa
@@ -76,7 +76,7 @@ apis:
   description: Semantic search over the Jentic API and workflow catalog using natural language queries.
   name: Jentic Search API
   slug: jentic-search-api
-artifact_total: 37
+artifact_total: 38
 collections:
 - collection_type: postman
   name: Jentic Authentication API
@@ -278,6 +278,10 @@ jsonld:
   property_count: 6
   slug: jentic-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.jentic.com over HTTP; 4 tools listed.
+  name: Jentic MCP Server
+  slug: jentic
 modified: '2026-05-19'
 name: Jentic
 nav: Providers
@@ -330,7 +334,7 @@ score:
     catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 57.9
     contract_governance: 27.3
@@ -338,7 +342,7 @@ score:
     developer_ergonomics: 62.4
     discoverability: 61.7
     operational_transparency: 23.7
-  previous_composite: 53.9
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     contracts:
@@ -354,7 +358,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

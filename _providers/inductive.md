@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/inductive/refs/heads/main/security/inductive-domain-security.yml
@@ -79,6 +79,10 @@ created: '2026-07-17'
 description: Inductive Bio is a New York-based AI drug discovery company building a virtual lab for small molecule optimization. It pairs medicinal chemists with AI to run millions of in silico ADMET experiments before synthesis. Its Beacon-1 models — trained on a pre-competitive, anonymized data consortium spanning thousands of drug programs — won consecutive first-place finishes in the 2025 Polaris/ASAP and 2026 OpenADMET blind ADMET prediction competitions, beating 370+ submissions including entries from Merck and NVIDIA. Products include the Compass software platform (accessible via API), the Indy AI chemistry assistant, the ADME-One high-throughput profiling service, and Embedded Experts. Founded in 2023 by Josh Haimson and Ben Birnbaum (both formerly Flatiron Health); SOC 2 compliant; backed by Obvious Ventures, a16z Bio+Health, Lux Capital, Bessemer Venture Partners, Character, and S32.
 image: https://cdn.prod.website-files.com/67fd80408c022fd8f406c6f7/6803dafa8e9822bfe4e9a943_OpenGraph.jpg
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.inductive.bio over HTTP.
+  name: Inductive MCP Server
+  slug: inductive
 modified: '2026-07-19'
 name: Inductive
 nav: Providers
@@ -98,7 +102,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 14.5
     contract_governance: 18.2
@@ -113,7 +117,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 11.6
+  previous_composite: 11.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -124,7 +128,7 @@ score:
     regime_id: health
     score: 11.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

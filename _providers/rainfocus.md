@@ -29,14 +29,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.4
-  scored_at: '2026-10-03'
+  score: 24.8
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: The RainFocus RESTful integration API. Requests are dispatched against api.rainfocus.com and are keyed on an apiProfile identifier - a named API Profile configured per customer in the RainFocus Integr
@@ -152,7 +152,7 @@ layout: provider
 mcp_servers:
 - description: RainFocus Nexus MCP Profiles is a first-party, hosted, remote Model Context Protocol server for live event data. It was announced on 7 July 2026 and RainFocus describes it as "the first native MCP wit
   name: RainFocus MCP Server
-  slug: rainfocus-mcp-server
+  slug: rainfocus-nexus-mcp
 modified: '2026-08-26'
 name: RainFocus
 nav: Providers
@@ -172,9 +172,9 @@ rate_limits:
   slug: rainfocus-rate-limits
 scopes:
 - name: Rainfocus Scopes
-  scope_count: 0
+  scope_count: 1
   slug: rainfocus-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 1 scope
 score:
   band: thin
   composite: 32.6
@@ -185,7 +185,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.4
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
@@ -193,7 +193,7 @@ score:
     developer_ergonomics: 28.6
     discoverability: 68.3
     operational_transparency: 26.3
-  previous_composite: 32.6
+  previous_composite: 28.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -204,7 +204,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

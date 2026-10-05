@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -80,7 +80,7 @@ apis:
   description: Webhook subscription management.
   name: Sesame HR Webhooks API
   slug: sesame-hr-webhooks-api
-artifact_total: 21
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -110,6 +110,11 @@ collections:
   name: Sesame HR Public API
   slug: open-sesame-hr
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/capabilities/sesame-hr-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sesame-hr-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/agentic-access/sesame-hr-agentic-access.yml
   title: ''
@@ -155,6 +160,10 @@ finops:
   slug: sesame-hr-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sesame-hr.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.sesametime.com over HTTP.
+  name: Sesame HR MCP Server
+  slug: sesame-hr
 modified: '2026-07-11'
 name: Sesame HR
 nav: Providers
@@ -162,7 +171,7 @@ network: true
 overview: 'Sesame HR publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Absences and Leave API, Departments and Org API, Employees API, and 4 more. Tagged areas include Human Resources, HRIS, Time Tracking, Workforce Management, and Employee Management.
 
 
-  Sesame HR''s developer surface includes authentication, documentation, and 6 more developer resources.'
+  Sesame HR''s developer surface includes authentication, documentation, and 7 more developer resources.'
 plans:
 - name: Sesame Hr Plans Pricing
   plan_count: 4
@@ -176,13 +185,13 @@ score:
   band: thin
   composite: 33.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 58.0
     catalog_earned_first_party: 0.0
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
     access_clarity: 36.3
     contract_governance: 0.0
@@ -190,7 +199,7 @@ score:
     developer_ergonomics: 29.8
     discoverability: 68.3
     operational_transparency: 18.9
-  previous_composite: 33.2
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -206,7 +215,7 @@ score:
     regime_id: employment_payroll
     score: 5.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

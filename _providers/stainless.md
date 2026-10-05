@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 22
   slug: stainless-agentic-access
   summary_line: 22 operations · 10 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 4
 apis:
 - description: Generate production-ready SDKs in TypeScript, Python, Go, Java, Kotlin, Ruby, C#, PHP, and Terraform from an OpenAPI specification. Stainless handles HTTP requests, retries with exponential backoff, s
   name: Stainless SDK Generator
@@ -60,32 +60,42 @@ apis:
 - description: Stainless generates production-ready Terraform providers from an OpenAPI specification, enabling infrastructure-as-code access to any REST API without manual Terraform provider development.
   name: Stainless Terraform Providers
   slug: stainless-terraform
-- baseURL: https://api.stainless.com
+- baseURL: v1
   baseurl_source: spec
   description: The Build Target Outputs API from Stainless — 1 operation(s) for build target outputs.
   name: Stainless Build Target Outputs API
   slug: stainless-build-target-outputs-api
-- baseURL: https://api.stainless.com
+- baseURL: v1
   baseurl_source: spec
   description: The Builds API from Stainless — 4 operation(s) for builds.
   name: Stainless Builds API
   slug: stainless-builds-api
-- baseURL: https://api.stainless.com
+- baseURL: v1
   baseurl_source: spec
   description: The Orgs API from Stainless — 2 operation(s) for orgs.
   name: Stainless Orgs API
   slug: stainless-orgs-api
-- baseURL: https://api.stainless.com
+- baseURL: v1
   baseurl_source: spec
   description: The Projects API from Stainless — 9 operation(s) for projects.
   name: Stainless Projects API
   slug: stainless-projects-api
-- baseURL: https://api.stainless.com
+- baseURL: v1
   baseurl_source: spec
   description: The User API from Stainless — 1 operation(s) for user.
   name: Stainless User API
   slug: stainless-user-api
-artifact_total: 26
+- baseURL: v1
+  baseurl_source: spec
+  description: The Spec API from Stainless — 1 operation(s) for spec.
+  name: Stainless Spec API
+  slug: stainless-spec-api
+- baseURL: v1
+  baseurl_source: spec
+  description: The Open API API from Stainless — 1 operation(s) for open api.
+  name: Stainless Open API
+  slug: stainless-open-api-api
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -109,6 +119,11 @@ collections:
   name: Stainless Platform API
   slug: open-stainless
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/capabilities/stainless-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/stainless-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/vendor-facets/stainless-vendor-facets.yml
   title: ''
@@ -203,13 +218,13 @@ modified: '2026-05-02'
 name: Stainless
 nav: Providers
 network: true
-overview: 'Stainless publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Build Target Outputs API, Builds API, Orgs API, and 7 more. Tagged areas include Code Generation, Documentation, Developer Experience, MCP, and Platform.
+overview: 'Stainless publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Build Target Outputs API, Builds API, Orgs API, and 9 more. Tagged areas include Code Generation, Documentation, Developer Experience, MCP, and Platform.
 
 
   The Stainless catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Stainless'' developer surface includes authentication, developer portal, documentation, pricing, engineering blog, changelog, and 11 more developer resources.'
+  Stainless'' developer surface includes authentication, developer portal, documentation, pricing, engineering blog, changelog, and 12 more developer resources.'
 plans:
 - name: Stainless Plans Pricing
   plan_count: 3
@@ -220,31 +235,32 @@ rate_limits:
   name: Stainless Rate Limits
   slug: stainless-rate-limits
 score:
-  band: thin
-  composite: 30.8
+  band: developing
+  composite: 41.1
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 49.0
+    artifact_dirs: 19
+    catalog_earned: 52.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 11.7
   facets:
     access_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 5.4
+    contract_quality: 44.6
     developer_ergonomics: 45.2
-    discoverability: 57.1
+    discoverability: 62.5
     operational_transparency: 28.9
-  previous_composite: 30.8
+  previous_composite: 29.4
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 7
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
@@ -252,8 +268,8 @@ score:
     regime_id: horizontal
     score: 26.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

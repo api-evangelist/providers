@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Relay-compliant GraphQL API for the Asset Register — a metadata ledger that defines what an asset is, what it can do, and which environments it works in, across chains and for off-chain assets. 29 que
@@ -62,7 +62,7 @@ apis:
   description: Quest detail, public quest discovery, and point allocation.
   name: Futureverse Quests API
   slug: futureverse-quests-api
-artifact_total: 14
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Futureverse Asset Register Events
@@ -207,10 +207,7 @@ layout: provider
 mcp_servers:
 - description: ''
   name: Futureverse MCP Server
-  slug: futureverse-mcp-server
-- description: ''
-  name: The Root Network
-  slug: the-root-network
+  slug: mcp
 modified: '2026-08-16'
 name: Futureverse
 nav: Providers
@@ -233,9 +230,9 @@ rate_limits:
   slug: futureverse-rate-limits
 scopes:
 - name: Futureverse Scopes
-  scope_count: 0
+  scope_count: 2
   slug: futureverse-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 2 scopes
 score:
   band: thin
   composite: 32.9
@@ -246,7 +243,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
@@ -254,7 +251,7 @@ score:
     developer_ergonomics: 66.1
     discoverability: 75.0
     operational_transparency: 23.7
-  previous_composite: 32.9
+  previous_composite: 31.3
   provenance:
     conformance: derived
     contracts:
@@ -271,7 +268,7 @@ score:
     regime_id: horizontal
     score: 26.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

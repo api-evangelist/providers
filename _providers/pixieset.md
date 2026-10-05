@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -90,6 +90,11 @@ collections:
   name: Pixieset Studio & Gallery API (Modeled, Unofficial) Clients Sessions API
   slug: open-pixieset-sessions-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/capabilities/pixieset-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/pixieset-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/agentic-access/pixieset-agentic-access.yml
   title: ''
@@ -134,7 +139,7 @@ network: true
 overview: 'Pixieset publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Clients API, Collections API, Contracts API, and 2 more. Tagged areas include Photography, Client Galleries, Studio Management, CRM, and Booking.
 
 
-  Pixieset''s developer surface includes authentication, documentation, and 5 more developer resources.'
+  Pixieset''s developer surface includes authentication, documentation, and 6 more developer resources.'
 plans:
 - name: Pixieset Plans Pricing
   plan_count: 8
@@ -144,13 +149,13 @@ score:
   band: emerging
   composite: 25.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 47.8
     catalog_earned_first_party: 0.0
     catalog_gap: 67.2
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.4
   facets:
     access_clarity: 28.4
     contract_governance: 0.0
@@ -158,7 +163,7 @@ score:
     developer_ergonomics: 28.6
     discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 25.6
+  previous_composite: 28.0
   provenance:
     agentic_access: derived
     contracts:
@@ -173,7 +178,7 @@ score:
     regime_id: horizontal
     score: 11.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

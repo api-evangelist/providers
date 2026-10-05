@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 830
   human_in_the_loop: 0
@@ -4668,7 +4668,7 @@ layout: provider
 mcp_servers:
 - description: ''
   name: Unified.to MCP Server
-  slug: unifiedto-mcp-server
+  slug: unified-to-mcp-server
 modified: '2026-05-19'
 name: Unified.to
 nav: Providers
@@ -4713,23 +4713,23 @@ rules:
   slug: unified-to-spectral-rules
 score:
   band: strong
-  composite: 65.4
+  composite: 64.9
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 65.0
+    artifact_dirs: 19
+    catalog_earned: 62.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.0
+    catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 1.1
   facets:
     access_clarity: 68.4
     contract_governance: 27.3
     contract_quality: 65.7
     developer_ergonomics: 69.0
-    discoverability: 60.0
+    discoverability: 55.0
     operational_transparency: 55.3
-  previous_composite: 64.9
+  previous_composite: 63.8
   provenance:
     agentic_access: derived
     contracts:
@@ -4744,7 +4744,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -208,7 +208,7 @@ layout: provider
 mcp_servers:
 - description: FreightWaves hosts a remote MCP server exposing SONAR freight-market intelligence to agents. The endpoint is protected by OAuth 2.1 (bearer) with the mcp:read scope; unauthenticated requests return 40
   name: Freight Waves MCP Server
-  slug: freight-waves-mcp-server
+  slug: freightwaves
 modified: '2026-07-19'
 name: Freight Waves
 nav: Providers
@@ -237,7 +237,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
@@ -245,7 +245,7 @@ score:
     developer_ergonomics: 58.9
     discoverability: 80.0
     operational_transparency: 23.7
-  previous_composite: 37.0
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -263,7 +263,7 @@ score:
     regime_id: securities_market_data
     score: 32.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

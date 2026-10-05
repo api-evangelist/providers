@@ -16,18 +16,18 @@
      "slug": "open-food-facts",
      "description": "Open Food Facts is a collaborative, free and open database of food products from around the world, built by everyone for everyone. Anyone can scan a barcode and contribute product data, and the whole database is published under the Open Database License so it can be re-used for any purpose. The project publishes a documented public HTTP API for reading and writing product data, plus a family of companion services — Open Prices, Search-a-licious full-text search, the Folksonomy engine, facet knowledge panels and the NutriPatrol moderation API — alongside official SDKs in Python, JavaScript, Dart, Ruby, PHP and Go.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-food-facts/refs/heads/main/screenshots/open-food-facts-2026-06-20T190753.png",
-     "score": 60.7,
+     "score": 60.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 62.5,
+      "discoverability": 57.1,
       "contract_quality": 45.4,
       "contract_governance": 19.7,
       "operational_transparency": 84.2,
       "developer_ergonomics": 73.2,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -62,56 +62,6 @@
      "rank": 1
     },
     {
-     "name": "Tandoor Recipes",
-     "slug": "tandoor",
-     "description": "Tandoor Recipes is an open-source, self-hostable recipe management, meal planning and shopping-list application built on Django and django-rest-framework, developed in Falkensee, Germany and offered both as freely self-hosted software (Docker, Kubernetes, Unraid, Synology, TrueNAS) and as a paid hosted service at app.tandoor.dev. Every feature of the product is driven by one REST API — recipes, steps, ingredients, foods, units, unit conversions, properties and nutrition, keywords, meal plans, meal types, shopping lists and shopping-list entries, supermarkets and supermarket category ordering, pantry inventory, recipe books, cook/view logs, spaces and households, user preferences, invite and share links, storage backends and external recipe sync, import/export of a dozen recipe formats, URL/image/PDF recipe scraping, an AI import and property-extraction pipeline routed through LiteLLM, and the Open Data food/unit/store reference database. The API is described by a live drf-spectacular OpenAPI 3.0.3 document served without authentication at /openapi/ on every instance, covering 244 paths and 462 operations across 244 component schemas, and it is the same contract the official Vue 3 frontend is generated against.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tandoor/refs/heads/main/screenshots/tandoor-2026-09-02T162516.png",
-     "score": 57.9,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 43.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 76.3,
-      "developer_ergonomics": 49.4,
-      "access_clarity": 71.1
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 30.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 21.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 2
-    },
-    {
      "name": "DietlyAPI",
      "slug": "dietlyapi",
      "description": "Food & nutrition data REST API with 4.7M+ foods, calories, macros, micronutrients, Nutri-Score and EAN/UPC barcode lookup, with confidence-ranked full-text search. Data primarily from Open Food Facts (ODbL) and USDA FoodData Central, EU-hosted, with key-optional read access.",
@@ -127,7 +77,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -159,6 +109,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 2
+    },
+    {
+     "name": "Tandoor Recipes",
+     "slug": "tandoor",
+     "description": "Tandoor Recipes is an open-source, self-hostable recipe management, meal planning and shopping-list application built on Django and django-rest-framework, developed in Falkensee, Germany and offered both as freely self-hosted software (Docker, Kubernetes, Unraid, Synology, TrueNAS) and as a paid hosted service at app.tandoor.dev. Every feature of the product is driven by one REST API — recipes, steps, ingredients, foods, units, unit conversions, properties and nutrition, keywords, meal plans, meal types, shopping lists and shopping-list entries, supermarkets and supermarket category ordering, pantry inventory, recipe books, cook/view logs, spaces and households, user preferences, invite and share links, storage backends and external recipe sync, import/export of a dozen recipe formats, URL/image/PDF recipe scraping, an AI import and property-extraction pipeline routed through LiteLLM, and the Open Data food/unit/store reference database. The API is described by a live drf-spectacular OpenAPI 3.0.3 document served without authentication at /openapi/ on every instance, covering 244 paths and 462 operations across 244 component schemas, and it is the same contract the official Vue 3 frontend is generated against.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tandoor/refs/heads/main/screenshots/tandoor-2026-09-02T162516.png",
+     "score": 57.3,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 60.7,
+      "contract_quality": 43.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 76.3,
+      "developer_ergonomics": 49.4,
+      "access_clarity": 71.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 30.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 21.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 3
     },
     {
@@ -176,7 +176,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -226,7 +226,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -276,7 +276,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -337,7 +337,7 @@
       "developer_ergonomics": 77.4,
       "access_clarity": 60.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -387,7 +387,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 60.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -425,18 +425,18 @@
      "name": "Piknik.Spot",
      "slug": "piknik-spot",
      "description": "Piknik (piknik.spot) is a local food system platform based in Waterloo Region, Ontario, Canada that maps farms, processors, markets, shops, restaurants, community gardens and food hubs, the supply links between them, marketplace listings, community events, jobs and volunteer posts, recipes, and a Local Food Score for any address. It is built agent-first: a REST API under https://piknik.spot/api described by a 683-operation OpenAPI 3.0.3 document, a hosted Model Context Protocol server at https://piknik.spot/api/mcp exposing 62 tools (public discovery tools anonymously, write tools behind OAuth 2.0 with PKCE and dynamic client registration or pik_pat_ personal access tokens), an A2A 1.0 agent card served at /.well-known/agent-card.json with a JSON-RPC endpoint at /api/a2a, an llms.txt, provider-published Agent Skills, and a published Agent Ethics policy that permits only immediate-use access and forbids bulk extraction, retention and model training.",
-     "score": 46.3,
+     "score": 45.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 75.0,
       "contract_quality": 55.7,
       "contract_governance": 18.2,
       "operational_transparency": 7.9,
       "developer_ergonomics": 47.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -475,18 +475,18 @@
      "slug": "wger",
      "description": "wger (wger Workout Manager) is a self-hosted, free and open source (AGPL-3.0) fitness, workout, nutrition and body-weight tracker written in Django. Its REST API is served under /api/v2/ on any wger instance — including the project's own hosted instance at wger.de — and publishes a complete OpenAPI 3.0.3 schema generated from the code at /api/v2/schema, covering 129 paths and 254 operations across routines, days, slots and per-iteration progression configs, workout logs and sessions, the community exercise database (exercises, translations, images, videos, muscles, equipment, categories), the ingredient and nutrition-plan catalog with an incremental ingredient-sync feed, body weight, body measurements, galleries and gamification trophies. System-wide reference data (exercises, ingredients, units) is readable without authentication; user-owned data takes a personal API token, a JWT issued via allauth-headless, an OAuth2/OIDC access token, or the session cookie. The project also ships a first-party Python API client, a first-party MCP server exposing 85 tools over the same API, React components, Flutter and Android apps, and Docker/Helm deployment stacks.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wger/refs/heads/main/screenshots/wger-2026-06-20T201416.png",
-     "score": 46.1,
+     "score": 45.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 71.7,
+      "discoverability": 66.7,
       "contract_quality": 49.4,
       "contract_governance": 4.5,
       "operational_transparency": 68.4,
       "developer_ergonomics": 68.5,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -536,7 +536,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -593,7 +593,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -650,7 +650,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -700,7 +700,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -750,7 +750,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 50.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -800,7 +800,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 58.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -850,7 +850,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -911,7 +911,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -950,18 +950,18 @@
      "slug": "edamam-recipes",
      "description": "Edamam is a food and nutrition data platform powering recipe search, NLP-based nutrition analysis, food database lookup (keyword / brand / UPC / AI Vision), and personalized meal planning. The flagship Recipe Search API v2 covers a 2M+ recipe index with 30+ filters across diet, health, cuisine, meal, dish, nutrients, time, glycemic index, and CO2 emissions class.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/screenshots/edamam-recipes-2026-06-20T180448.png",
-     "score": 38.9,
+     "score": 38.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 78.6,
+      "discoverability": 73.2,
       "contract_quality": 61.3,
       "contract_governance": 27.3,
       "operational_transparency": 2.6,
       "developer_ergonomics": 38.1,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1000,18 +1000,18 @@
      "slug": "kitchenstories",
      "description": "Kitchen Stories is a Berlin-based, video-first cooking and recipe platform founded in 2013 by Verena Hubertz and Mengting Boensch, and majority-owned by the BSH Group (Bosch Siemens Hausgeraete) since 2017. The company publishes roughly 15,000 recipes and articles with HD step-by-step video tutorials across its iOS and Android apps, website, smart TVs, and Amazon Echo Show, reaching more than 6 million unique users from over 22 million app downloads. Alongside the consumer product it runs Kitchen Stories Business, a branded-content and native-advertising arm working with around 300 brand partners, and an online shop for its own organic spice mixes. Its content platform is served by the Kitchen Stories Internal API (Ultron), a bearer-token REST API at api.kitchenstories.io covering recipes, articles, videos, ingredients, utensils, categories, user cookbooks, meal plans, comments, ratings, and personalization.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kitchenstories/refs/heads/main/screenshots/kitchenstories-2026-07-25T223912.png",
-     "score": 38.7,
+     "score": 38.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 73.2,
+      "discoverability": 67.9,
       "contract_quality": 45.8,
       "contract_governance": 4.5,
       "operational_transparency": 2.6,
       "developer_ergonomics": 28.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1050,18 +1050,18 @@
      "slug": "mealie",
      "description": "Mealie is an open-source (AGPL-3.0), self-hosted recipe manager, meal planner and shopping-list application built on a FastAPI REST backend and a Vue frontend. Every feature in the UI is driven by the same public REST API: recipe CRUD and import-by-URL scraping, AI-assisted recipe creation, cookbooks, meal plans and mealplan rules, shopping lists and list items with cross-application \"extras\" key/value pairs, households and groups with multi-purpose labels, food/unit/tool organizers, a public \"Explore\" surface for unauthenticated browsing of shared content, scheduled webhooks, Apprise-backed event notifications, and admin backup/maintenance operations. The instance publishes its own OpenAPI 3.1 document and interactive Swagger UI at /openapi.json and /docs, authenticates with long-lived bearer API tokens (plus OIDC and LDAP for user login), and shares a uniform pagination, filtering and ordering grammar across nearly every collection endpoint.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mealie/refs/heads/main/screenshots/mealie-2026-09-02T150450.png",
-     "score": 38.7,
+     "score": 38.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 73.2,
+      "discoverability": 67.9,
       "contract_quality": 49.2,
       "contract_governance": 4.5,
       "operational_transparency": 42.1,
       "developer_ergonomics": 56.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1111,7 +1111,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 46.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1161,7 +1161,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1211,7 +1211,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1261,7 +1261,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1311,7 +1311,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1360,7 +1360,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1410,7 +1410,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1460,7 +1460,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1509,7 +1509,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1559,7 +1559,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1609,7 +1609,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1659,7 +1659,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1709,7 +1709,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1759,7 +1759,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1809,7 +1809,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1859,7 +1859,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1909,7 +1909,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 46.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1959,7 +1959,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2009,7 +2009,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2059,7 +2059,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2109,7 +2109,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2159,7 +2159,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2209,7 +2209,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2259,7 +2259,7 @@
       "developer_ergonomics": 46.9,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2309,7 +2309,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2359,7 +2359,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2409,7 +2409,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2459,7 +2459,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2509,7 +2509,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2559,7 +2559,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2609,7 +2609,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2658,7 +2658,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2718,7 +2718,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2768,7 +2768,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2818,7 +2818,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2868,7 +2868,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2918,7 +2918,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2953,67 +2953,6 @@
      "rank": 58
     },
     {
-     "name": "Noom",
-     "slug": "noom",
-     "description": "Noom, Inc. is a New York-based digital health company founded in 2008 by Saeju Jeong and Artem Petakov, best known for a psychology-based weight-management mobile app that pairs behaviour-change coursework and human coaching with food logging, activity tracking and, through Noom Med, clinician-prescribed GLP-1 medication. Alongside the direct-to-consumer subscription, Noom sells to employers, health plans and health systems through Noom Healthy Weight, Noom Diabetes Prevention, the Noom GLP-1 Companion and a Noom Med Center of Excellence. Noom publishes no public developer portal, no OpenAPI/GraphQL contract and no client SDKs; its application host api.noom.com answers every anonymous request with HTTP 401 UNAUTHENTICATED, and health-system integration is described only as a business capability (\"we can integrate into major EHR platforms\") with no published specification. The only anonymously callable machine-readable surface found is the WordPress/Altis REST API behind the noom.com marketing and blog site.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/noom/refs/heads/main/screenshots/noom-2026-08-07T185500.png",
-     "score": 24.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 0.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 16.7,
-      "access_clarity": 53.9
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 18.8,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 2,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       },
-       {
-        "standard": "hipaa",
-        "jurisdiction": "US"
-       }
-      ]
-     },
-     "agent_score": 2.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "platform",
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 59
-    },
-    {
      "name": "Lark",
      "slug": "lark-technologies",
      "description": "Lark Health (Lark Technologies, Inc.) is a Mountain View, California digital health company founded in 2011 by Julia Hu and Jeff Zira. Lark delivers AI-powered, conversational chronic disease prevention and management programs — diabetes prevention (CDC-recognized DPP and Medicare MDPP), diabetes management, hypertension and heart health, GLP-1 and weight management, and a combined cardiometabolic program — through a text-message-style mobile app backed by connected devices and human coaching, sold to health plans, employers, PBMs and brokers. Lark publishes no public developer API, SDK, or machine-readable API specification: there is no developer portal, no api./developer. host, and the \"Lark API\" appears only as an internal component on the Lark Technologies status page, with partner integration handled through enterprise agreements. The company does publish a canonical llms.txt for AI tools, a responsible disclosure policy with a small bug bounty, a public status page, and a security page asserting SOC 2 Type II and HITRUST certification plus HIPAA Business Associate status.",
@@ -3029,7 +2968,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3076,7 +3015,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 59
     },
     {
      "name": "Prime Hydration",
@@ -3094,7 +3033,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3126,6 +3065,67 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
+     "rank": 60
+    },
+    {
+     "name": "Noom",
+     "slug": "noom",
+     "description": "Noom, Inc. is a New York-based digital health company founded in 2008 by Saeju Jeong and Artem Petakov, best known for a psychology-based weight-management mobile app that pairs behaviour-change coursework and human coaching with food logging, activity tracking and, through Noom Med, clinician-prescribed GLP-1 medication. Alongside the direct-to-consumer subscription, Noom sells to employers, health plans and health systems through Noom Healthy Weight, Noom Diabetes Prevention, the Noom GLP-1 Companion and a Noom Med Center of Excellence. Noom publishes no public developer portal, no OpenAPI/GraphQL contract and no client SDKs; its application host api.noom.com answers every anonymous request with HTTP 401 UNAUTHENTICATED, and health-system integration is described only as a business capability (\"we can integrate into major EHR platforms\") with no published specification. The only anonymously callable machine-readable surface found is the WordPress/Altis REST API behind the noom.com marketing and blog site.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/noom/refs/heads/main/screenshots/noom-2026-08-07T185500.png",
+     "score": 24.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 64.3,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 16.7,
+      "access_clarity": 53.9
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 18.8,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 2,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       },
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 61
     },
     {
@@ -3144,7 +3144,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3194,7 +3194,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3244,7 +3244,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3294,7 +3294,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3344,7 +3344,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3394,7 +3394,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3444,7 +3444,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3494,7 +3494,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3544,7 +3544,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3594,7 +3594,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3643,7 +3643,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3693,7 +3693,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3743,7 +3743,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3782,18 +3782,18 @@
      "slug": "huel",
      "description": "Huel (a contraction of \"Human Fuel\") is a British nutritionally-complete food company founded in June 2015 by Julian Hearn with nutritionist James Collier, headquartered in Tring, Hertfordshire, and operating offices in the UK, US and Europe. It sells plant-based, nutritionally complete powders, ready-to-drink shakes, hot and savoury instant meals, bars and supplements direct to consumers in more than 100 countries, reporting GBP 214 million of revenue in FY2024. Danone SA agreed to acquire Huel in March 2026 in a deal reported at roughly EUR 1 billion / USD 1.1 billion. Huel is a direct-to-consumer commerce and subscription business, not an API provider: it publishes no developer portal, no API documentation and no machine-readable API contract. Its storefront runs as a Next.js application on Vercel in front of a Shopify commerce backend; the only anonymously callable machine-readable surface observed on a Huel-controlled host is the standard Discourse platform REST API served by its North American customer community at discourse.huel.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/huel/refs/heads/main/screenshots/huel-2026-08-07T170354.png",
-     "score": 19.0,
+     "score": 18.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 75.8,
+      "discoverability": 74.1,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
       "developer_ergonomics": 19.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3802,13 +3802,13 @@
       "score": 15.6,
       "matched_via": "tags"
      },
-     "agent_score": 4.7,
+     "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "platform",
+      "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
@@ -3843,7 +3843,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3893,7 +3893,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3943,7 +3943,7 @@
       "developer_ergonomics": 27.4,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3993,7 +3993,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4043,7 +4043,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 28.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4093,7 +4093,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4143,7 +4143,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4193,7 +4193,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4232,18 +4232,18 @@
      "slug": "mtnops",
      "description": "MTN OPS is an American-owned outdoor performance nutrition and lifestyle brand founded in 2014 and headquartered in Fruit Heights, Utah. The company develops, manufactures, and sells energy and nutrition supplements (pre-workout, protein, hydration, creatine, and energy bars) alongside apparel and gear for hunters, tactical professionals, military, and outdoor athletes, running a \"Conquer Hunger\" program that donates one meal for every order placed. MTN OPS is a direct-to-consumer, internet-first retailer operating on the Shopify platform and is backed by Norwest Venture Partners. It publishes no bespoke developer API; the only machine-readable surfaces on its domain are the Shopify New Customer Accounts OIDC discovery documents and a Shopify-generated agent-commerce llms.txt. This profile was surfaced as a Norwest portfolio lead and enriched from the provider's live public surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mtnops/refs/heads/main/screenshots/mtnops-2026-08-07T184431.png",
-     "score": 16.6,
+     "score": 16.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 58.3,
+      "discoverability": 55.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 16.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4252,13 +4252,13 @@
       "score": 19.6,
       "matched_via": "fallback"
      },
-     "agent_score": 12.9,
+     "agent_score": 10.8,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "platform",
+      "mcp_server": false,
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": false,
@@ -4293,7 +4293,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4343,7 +4343,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4352,7 +4352,7 @@
       "score": 10.9,
       "matched_via": "tags"
      },
-     "agent_score": 12.2,
+     "agent_score": 8.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -4371,7 +4371,7 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": "verified",
+      "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -4393,7 +4393,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4443,7 +4443,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4493,7 +4493,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4543,7 +4543,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4593,7 +4593,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4643,7 +4643,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4693,7 +4693,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4743,7 +4743,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4793,7 +4793,7 @@
       "developer_ergonomics": 1.2,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4842,7 +4842,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4892,7 +4892,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4941,7 +4941,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4991,7 +4991,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5041,7 +5041,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5091,7 +5091,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5141,7 +5141,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5191,7 +5191,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5226,106 +5226,6 @@
      "rank": 103
     },
     {
-     "name": "Womaness",
-     "slug": "womaness",
-     "description": "Womaness is a women-founded midlife wellness brand created to modernize aging for women and to help them navigate the phases their bodies move through around menopause. The direct-to-consumer company sells clean, estrogen-free, doctor-approved and clinically tested skincare, supplements, sexual-health and menopause-support products (including Let's Neck serum, Melt for You inserts and Daily V Soothe) through a Shopify-hosted online store and select retail partners. Surfaced as a portfolio company of Obvious Ventures and added to the API Evangelist network; it is a consumer e-commerce brand with no first-party public developer API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/womaness/refs/heads/main/screenshots/womaness-2026-09-02T170905.png",
-     "score": 13.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 58.3,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 14.3,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 15.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 12.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "platform",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 104
-    },
-    {
-     "name": "Digbi Health",
-     "slug": "digbi-health",
-     "description": "Digbi Health is a digital therapeutics company delivering a precision-biology virtual clinic for food-related and inflammatory illnesses — obesity, cardiometabolic disease, type 2 diabetes, digestive disorders (IBS, GERD), MSK chronic pain, PCOS, sleep and mental health. Its FoodRx program combines host-genetics and gut-microbiome testing with app-based coaching, precision nutrition, and pre/probiotic therapies, delivered to members through health plans and employers. Digbi Health is backed by Accel. The company operates a consumer-facing storefront and member app rather than a public developer API; this profile captures the public web, agent, and security surfaces observable at digbihealth.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/digbi-health/refs/heads/main/screenshots/digbi-health-2026-08-07T164337.png",
-     "score": 13.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 58.3,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 15.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 12.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "platform",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 105
-    },
-    {
      "name": "Everself",
      "slug": "bariendo-inc",
      "description": "Bariendo Inc. (now operating as Everself) is a science-forward digital health company pioneering non-surgical, endoscopic weight-loss care. Founded in 2023 by Harvard Medical School physicians Dr. Christopher C. Thompson (the inventor of Endoscopic Sleeve Gastroplasty) and Dr. Pichamol Jirapinyo, the company delivers minimally invasive procedures — ESG Stomach Tightening, gastric balloon, and revision of prior bariatric surgery — alongside weight-loss medication and a 12-month concierge care program. Its consumer platform streamlines access to these interventions across a dozen-plus U.S. locations, with financing, telehealth consultations, and ongoing weight tracking. Bariendo/Everself is a consumer and clinical health service; it publishes no public developer portal, API, or SDK surface.",
@@ -5341,7 +5241,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5373,7 +5273,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 104
     },
     {
      "name": "Calo",
@@ -5391,7 +5291,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5400,7 +5300,7 @@
       "score": 10.9,
       "matched_via": "tags"
      },
-     "agent_score": 12.2,
+     "agent_score": 8.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -5419,11 +5319,11 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": "verified",
+      "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 105
     },
     {
      "name": "Marley Spoon",
@@ -5441,7 +5341,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5473,7 +5373,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 106
     },
     {
      "name": "Seed Health",
@@ -5491,7 +5391,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5523,6 +5423,106 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 107
+    },
+    {
+     "name": "Womaness",
+     "slug": "womaness",
+     "description": "Womaness is a women-founded midlife wellness brand created to modernize aging for women and to help them navigate the phases their bodies move through around menopause. The direct-to-consumer company sells clean, estrogen-free, doctor-approved and clinically tested skincare, supplements, sexual-health and menopause-support products (including Let's Neck serum, Melt for You inserts and Daily V Soothe) through a Shopify-hosted online store and select retail partners. Surfaced as a portfolio company of Obvious Ventures and added to the API Evangelist network; it is a consumer e-commerce brand with no first-party public developer API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/womaness/refs/heads/main/screenshots/womaness-2026-09-02T170905.png",
+     "score": 13.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 55.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 14.3,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 15.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 10.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 108
+    },
+    {
+     "name": "Digbi Health",
+     "slug": "digbi-health",
+     "description": "Digbi Health is a digital therapeutics company delivering a precision-biology virtual clinic for food-related and inflammatory illnesses — obesity, cardiometabolic disease, type 2 diabetes, digestive disorders (IBS, GERD), MSK chronic pain, PCOS, sleep and mental health. Its FoodRx program combines host-genetics and gut-microbiome testing with app-based coaching, precision nutrition, and pre/probiotic therapies, delivered to members through health plans and employers. Digbi Health is backed by Accel. The company operates a consumer-facing storefront and member app rather than a public developer API; this profile captures the public web, agent, and security surfaces observable at digbihealth.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/digbi-health/refs/heads/main/screenshots/digbi-health-2026-08-07T164337.png",
+     "score": 13.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 55.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 15.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 10.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 109
     },
     {
@@ -5541,7 +5541,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5591,7 +5591,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5641,7 +5641,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5691,7 +5691,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5741,7 +5741,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5791,7 +5791,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5841,7 +5841,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5890,7 +5890,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5940,7 +5940,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5990,7 +5990,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6025,7 +6025,7 @@
      "rank": 119
     },
     {
-     "name": "MEAL PLANET",
+     "name": "MEAL PLANET HOLDING LTD",
      "slug": "meal-planet-holding-ltd",
      "description": "MealPlanet (MEAL PLANET HOLDING LTD) is a UAE-based foodtech company, founded in 2024 by Khalid Baareh, that operates a meal-plan aggregation marketplace. Its consumer mobile app lets customers browse, compare, and subscribe to more than 500 personalised meal plans from 100+ trusted brands across the UAE, filtering by goal, calories, and dietary preferences, with flexible delivery and nutrition tracking. In 2024 the company closed a $6M seed round led by Middle East Venture Partners (MEVP) with participation from Sanabil 500 (the Sanabil Accelerator by 500 Global), AlTouq Group, Faith Capital, and Alturki Ventures, funding regional expansion beginning with Saudi Arabia. MealPlanet is a consumer-facing platform and publishes no public developer API, SDK, or documentation as of this enrichment pass.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/meal-planet-holding-ltd/refs/heads/main/screenshots/meal-planet-holding-ltd-2026-08-07T172254.png",
@@ -6040,7 +6040,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6090,7 +6090,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6140,7 +6140,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6190,7 +6190,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6240,7 +6240,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6290,7 +6290,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6325,37 +6325,36 @@
      "rank": 125
     },
     {
-     "name": "Checkerspot",
-     "slug": "checkerspot",
-     "description": "Checkerspot is an Alameda, California biotechnology company, founded in 2016 and incorporated as a Public Benefit Corporation, that designs and produces functional fats and oils through precision fermentation of microalgae. Its biology-driven molecule licensing platform pairs algal strain development, an advanced analytical platform, bioinformatics, high-throughput screening, fermentation scale-up and downstream oil refining, built around the proprietary microbe Prototheca moriformis, which the company reports reaches over 80% oil content by dry cell weight. The commercial molecule portfolio includes a high sn-2 palmitate algal oil that mimics the triglyceride structure of human milk fat for infant nutrition, an Omega-7 (palmitoleic acid) algal oil, a designer high-oleic tropical-fat alternative to palm oil, and Algolein tG C18/80 for cosmetic formulation; earlier work commercialized algae-derived urethane composites through the WNDR Alpine outdoor brand. Checkerspot works through ingredient and manufacturing partners including AAK, Huvepharma and La Fabrique Vegetale, and closed a USD 55 million Series C led by ArrowMark Partners with participation from Cox Enterprises. It is a business-to-business ingredient and molecule licensing company rather than a software vendor: it operates a WordPress marketing site, publishes no developer portal, no API documentation, no SDK and no machine-readable API contract, and has no GitHub organization.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/checkerspot/refs/heads/main/screenshots/checkerspot-2026-08-07T163304.png",
-     "score": 11.9,
+     "name": "Ro",
+     "slug": "ro",
+     "description": "Ro (ro.co) is a direct-to-consumer telehealth company that connects patients with US-licensed healthcare providers entirely online, offering prescription treatment, provider visits, and pharmacy fulfillment across categories including men's and women's health, weight management (Ro Body), dermatology (Ro Derm), hair loss, fertility (Ro Fertility), and sexual health. Ro deliberately operates a \"Zero-API\" vertically integrated online-visit experience and does not publish a public developer API, SDKs, or a developer portal; its only public machine-readable surface is a security posture (RFC 9116 security.txt and a HackerOne vulnerability disclosure program). Ro is backed by Canaan Partners, General Catalyst, and Initialized Capital.",
+     "score": 11.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 58.3,
+      "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 18.6,
-      "matched_via": "fallback"
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 15.6,
+      "matched_via": "tags"
      },
-     "agent_score": 2.2,
+     "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "platform",
+      "mcp_server": false,
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -6375,28 +6374,29 @@
      "rank": 126
     },
     {
-     "name": "Ro",
-     "slug": "ro",
-     "description": "Ro (ro.co) is a direct-to-consumer telehealth company that connects patients with US-licensed healthcare providers entirely online, offering prescription treatment, provider visits, and pharmacy fulfillment across categories including men's and women's health, weight management (Ro Body), dermatology (Ro Derm), hair loss, fertility (Ro Fertility), and sexual health. Ro deliberately operates a \"Zero-API\" vertically integrated online-visit experience and does not publish a public developer API, SDKs, or a developer portal; its only public machine-readable surface is a security posture (RFC 9116 security.txt and a HackerOne vulnerability disclosure program). Ro is backed by Canaan Partners, General Catalyst, and Initialized Capital.",
-     "score": 11.8,
+     "name": "Checkerspot",
+     "slug": "checkerspot",
+     "description": "Checkerspot is an Alameda, California biotechnology company, founded in 2016 and incorporated as a Public Benefit Corporation, that designs and produces functional fats and oils through precision fermentation of microalgae. Its biology-driven molecule licensing platform pairs algal strain development, an advanced analytical platform, bioinformatics, high-throughput screening, fermentation scale-up and downstream oil refining, built around the proprietary microbe Prototheca moriformis, which the company reports reaches over 80% oil content by dry cell weight. The commercial molecule portfolio includes a high sn-2 palmitate algal oil that mimics the triglyceride structure of human milk fat for infant nutrition, an Omega-7 (palmitoleic acid) algal oil, a designer high-oleic tropical-fat alternative to palm oil, and Algolein tG C18/80 for cosmetic formulation; earlier work commercialized algae-derived urethane composites through the WNDR Alpine outdoor brand. Checkerspot works through ingredient and manufacturing partners including AAK, Huvepharma and La Fabrique Vegetale, and closed a USD 55 million Series C led by ArrowMark Partners with participation from Cox Enterprises. It is a business-to-business ingredient and molecule licensing company rather than a software vendor: it operates a WordPress marketing site, publishes no developer portal, no API documentation, no SDK and no machine-readable API contract, and has no GitHub organization.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/checkerspot/refs/heads/main/screenshots/checkerspot-2026-08-07T163304.png",
+     "score": 11.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 55.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 4.8,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 15.6,
-      "matched_via": "tags"
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 18.6,
+      "matched_via": "fallback"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6439,7 +6439,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6489,7 +6489,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6539,7 +6539,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6589,7 +6589,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6639,7 +6639,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6689,7 +6689,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6739,7 +6739,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6789,7 +6789,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6849,7 +6849,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6899,7 +6899,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6949,7 +6949,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6999,7 +6999,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7049,7 +7049,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7099,7 +7099,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7149,7 +7149,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7199,7 +7199,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7249,7 +7249,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7299,7 +7299,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7349,7 +7349,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7399,7 +7399,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7449,7 +7449,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7458,7 +7458,7 @@
       "score": 13.7,
       "matched_via": "fallback"
      },
-     "agent_score": 12.2,
+     "agent_score": 8.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -7477,7 +7477,7 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": "verified",
+      "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -7499,7 +7499,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7549,7 +7549,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7598,7 +7598,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7648,7 +7648,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7698,7 +7698,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7748,7 +7748,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7798,7 +7798,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7848,7 +7848,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7898,7 +7898,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7948,7 +7948,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7998,7 +7998,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -8048,7 +8048,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -8098,7 +8098,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -8148,7 +8148,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -8198,7 +8198,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -8248,7 +8248,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -8298,7 +8298,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -8348,7 +8348,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -8357,7 +8357,7 @@
       "score": 9.8,
       "matched_via": "fallback"
      },
-     "agent_score": 12.2,
+     "agent_score": 8.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -8376,7 +8376,7 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": "verified",
+      "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -8397,7 +8397,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -8447,7 +8447,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -8497,7 +8497,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -8547,7 +8547,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -8597,7 +8597,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -8647,7 +8647,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -8696,7 +8696,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -8746,7 +8746,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -8796,7 +8796,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -8846,7 +8846,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -8896,7 +8896,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -8946,7 +8946,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -8996,7 +8996,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -9046,7 +9046,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -9096,7 +9096,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -9146,7 +9146,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -9196,7 +9196,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -9246,7 +9246,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -9296,7 +9296,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -9345,7 +9345,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -9395,7 +9395,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -9444,7 +9444,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -9494,7 +9494,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -9543,7 +9543,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -9593,7 +9593,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -9642,7 +9642,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -9691,7 +9691,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -9741,7 +9741,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -9790,7 +9790,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -9840,7 +9840,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -9889,7 +9889,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -9939,7 +9939,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -9988,7 +9988,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -10037,7 +10037,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -10086,7 +10086,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -10136,7 +10136,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -10186,7 +10186,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -10284,7 +10284,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -10334,7 +10334,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -10383,7 +10383,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -10432,7 +10432,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -10482,7 +10482,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -10532,7 +10532,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -10581,7 +10581,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -10630,7 +10630,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,

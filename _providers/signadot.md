@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -94,6 +94,11 @@ collections:
   name: Signadot Cluster Sandboxes API
   slug: open-signadot-sandboxes-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/signadot/refs/heads/main/capabilities/signadot-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/signadot-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/signadot/refs/heads/main/overlays/signadot-openapi-overlay.yaml
   title: ''
@@ -228,7 +233,7 @@ layout: provider
 mcp_servers:
 - description: 'Signadot''s Model Context Protocol server, bundled with the Signadot CLI. Exposes control-plane operations as MCP tools so MCP-compatible coding agents (Cursor, Claude Code, VS Code, Codex) can create '
   name: Signadot MCP Server
-  slug: signadot-mcp-server
+  slug: signadot
 modified: '2026-07-21'
 name: Signadot
 nav: Providers
@@ -236,19 +241,19 @@ network: true
 overview: 'Signadot publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Orgs API, ResourcePlugins API, and 2 more. Tagged areas include Company, Developer Tools, Kubernetes, Testing, and Ephemeral Environments.
 
 
-  Signadot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
+  Signadot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
 random_paper: 21
 score:
   band: strong
   composite: 55.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
@@ -256,7 +261,7 @@ score:
     developer_ergonomics: 73.2
     discoverability: 75.0
     operational_transparency: 34.2
-  previous_composite: 55.6
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -274,7 +279,7 @@ score:
     regime_id: horizontal
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

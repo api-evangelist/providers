@@ -15,35 +15,35 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
-    openapi_examples: verified
+    mcp_server: false
+    openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.7
-  scored_at: '2026-10-03'
+  score: 31.7
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 15
-  human_in_the_loop: 0
+- acting_count: 93
+  human_in_the_loop: 3
   name: Teradata Agentic Access
-  operation_count: 33
+  operation_count: 170
   slug: teradata-agentic-access
-  summary_line: 33 operations · 15 acting
-api_count: 11
+  summary_line: 170 operations · 93 acting · 3 human-in-the-loop
+api_count: 1
 apis:
 - baseURL: https://querygrid.teradata.com/api/v1
   baseurl_source: declared
@@ -100,6 +100,121 @@ apis:
   description: The Users API from Teradata — 1 operation(s) for users.
   name: Teradata Users API
   slug: teradata-users-api
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: Manage bridges used for routing QueryGrid communication between systems without direct connectivity
+  name: Teradata Config - Bridges API
+  slug: teradata-config-bridges-api
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: Manage communication policies that define how data is transferred between systems
+  name: Teradata Config - Communication Policies API
+  slug: teradata-config-communication-policies-api
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: Manage connectors that connect data sources to the QueryGrid Fabric
+  name: Teradata Config - Connectors API
+  slug: teradata-config-connectors-api
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: Manage data centers (a.k.a regions) where QueryGrid software is deployed
+  name: Teradata Config - Data Centers API
+  slug: teradata-config-data-centers-api
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: Manage fabrics responsible for QueryGrid inter-node communication
+  name: Teradata Config - Fabrics API
+  slug: teradata-config-fabrics-api
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: Manage links that enable connectivity between connectors
+  name: Teradata Config - Links API
+  slug: teradata-config-links-api
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: Manage network rules that determine the network interfaces to use for communications
+  name: Teradata Config - Networks API
+  slug: teradata-config-networks-api
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: Manage virtual IPs associated with nodes
+  name: Teradata Config - Node Virtual IPs API
+  slug: teradata-config-node-virtual-ips-api
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: Manage the systems or platforms associated with QueryGrid connectors
+  name: Teradata Config - Systems API
+  slug: teradata-config-systems-api
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: Map initiator user and roles to target user and roles
+  name: Teradata Config - User/Role Mappings API
+  slug: teradata-config-user-role-mappings-api
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: Register a new data source to QueryGrid Manager
+  name: Teradata Operations - Add Data Source API
+  slug: teradata-operations-add-data-source-api
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: Bulk delete nodes or issues
+  name: Teradata Operations - Bulk Delete API
+  slug: teradata-operations-bulk-delete-api
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: Create a foreign server for a given link
+  name: Teradata Operations - Create Foreign Server API
+  slug: teradata-operations-create-foreign-server-api
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: Generate node registration zip file for a given datasource
+  name: Teradata Operations - Data Source Registration File API
+  slug: teradata-operations-data-source-registration-file-api
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: Start and monitor diagnostic check and connector install operations
+  name: Teradata Operations - Diagnostic Checks / Connector Install API
+  slug: teradata-operations-diagnostic-checks-connector-install-api
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: Disable system alerts for a specific system and issue type
+  name: Teradata Operations - Disable System Alerts API
+  slug: teradata-operations-disable-system-alerts-api
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: Import a system from a different QueryGrid Manager cluster
+  name: Teradata Operations - Import System API
+  slug: teradata-operations-import-system-api
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: Automate install and registration of nodes with QueryGrid Manager
+  name: Teradata Operations - Nodes Auto Install API
+  slug: teradata-operations-nodes-auto-install-api
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: Download config file needed for manual install and registration of nodes with QueryGrid Manager
+  name: Teradata Operations - Nodes Manual Install API
+  slug: teradata-operations-nodes-manual-install-api
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: Generate private link template file for a given cloud platform
+  name: Teradata Operations - Private Link Template API
+  slug: teradata-operations-private-link-template-api
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: Register current system nodes to remote lake system
+  name: Teradata Operations - Register Remote Lake System API
+  slug: teradata-operations-register-remote-lake-system-api
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: Estimate memory needed for QueryGrid operations
+  name: Teradata Operations - Shared Memory Estimator API
+  slug: teradata-operations-shared-memory-estimator-api
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: Generate support archive for a Manager, System, Node, Query, or Bandwidth Tests issues
+  name: Teradata Support Archive API
+  slug: teradata-support-archive-api
 arazzos:
 - description: Pick a software version, trigger an automated node install, then verify the nodes.
   name: Teradata Auto-Install Node Software
@@ -134,7 +249,7 @@ arazzos:
 - description: Create a query session, verify it is active, then close it.
   name: Teradata Session Lifecycle
   slug: teradata-session-lifecycle-workflow
-artifact_total: 77
+artifact_total: 130
 collections:
 - collection_type: postman
   name: Teradata Query Service API
@@ -179,6 +294,126 @@ collections:
   name: Teradata Query Service API Info Users API
   slug: open-teradata-users-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/finops/teradata-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/teradata-finops.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/rate-limits/teradata-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/teradata-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/plans/teradata-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/teradata-plans-pricing.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/rules/teradata-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/teradata-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/rules/teradata-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/teradata-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/rules/teradata-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/teradata-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/json-ld/teradata-querygrid-manager-api-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/teradata-querygrid-manager-api-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/json-ld/teradata-query-service-api-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/teradata-query-service-api-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/json-ld/teradata-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/teradata-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/vocabulary/teradata-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/teradata-vocabulary.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/data-model/teradata-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/teradata-data-model.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.teradata.com/trust-security-center/data-security/vulnerability-disclosure-policy
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/errors/teradata-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/teradata-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/conformance/teradata-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/teradata-conformance.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/well-known/teradata-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/teradata-security.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/well-known/teradata-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/teradata-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/hosts/teradata-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/teradata-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/vendors/teradata-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/teradata-vendors.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/packages/teradata-packages.yml
+  title: ''
+  type: Packages
+  url: packages/teradata-packages.yml
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.teradata.com/university/academics/register
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.teradata.com/pricing
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.teradata.com/newsroom
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.teradata.com/about-us/leadership
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/security/teradata-vulnerability-disclosure.yml
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/teradata-vulnerability-disclosure.yml
 - group: company
   title: ''
   type: Website
@@ -281,10 +516,6 @@ common:
   title: ''
   type: Support
   url: https://support.teradata.com
-- group: company
-  title: ''
-  type: Blog
-  url: https://www.teradata.com/blog
 - group: learn
   title: ''
   type: Training
@@ -347,10 +578,6 @@ common:
   title: ''
   type: MCPServer
   url: https://github.com/Teradata/teradata-mcp-server
-- group: agent
-  title: ''
-  type: LlmsText
-  url: https://docs.teradata.com/llms.txt
 created: '2026-04-18'
 description: Teradata provides enterprise analytics and data management solutions. The Teradata VantageCloud platform delivers connected multi-cloud data analytics with capabilities for data warehousing, advanced analytics, and machine learning at scale. Teradata offers REST APIs for managing QueryGrid data fabric connections, running SQL queries, and administering platform resources.
 examples:
@@ -415,6 +642,87 @@ json_schemas:
 - name: System
   property_count: 6
   slug: querygrid-manager-api-system
+- name: AutoInstallRequest
+  property_count: 2
+  slug: teradata-auto-install-request
+- name: AutoInstallResponse
+  property_count: 3
+  slug: teradata-auto-install-response
+- name: Bridge
+  property_count: 5
+  slug: teradata-bridge
+- name: CommPolicy
+  property_count: 5
+  slug: teradata-comm-policy
+- name: Connector
+  property_count: 5
+  slug: teradata-connector
+- name: DiagnosticCheckRequest
+  property_count: 3
+  slug: teradata-diagnostic-check-request
+- name: DiagnosticCheckResponse
+  property_count: 3
+  slug: teradata-diagnostic-check-response
+- name: Fabric
+  property_count: 4
+  slug: teradata-fabric
+- name: ImportSystemRequest
+  property_count: 2
+  slug: teradata-import-system-request
+- name: ImportSystemResponse
+  property_count: 3
+  slug: teradata-import-system-response
+- name: Issue
+  property_count: 5
+  slug: teradata-issue
+- name: Link
+  property_count: 6
+  slug: teradata-link
+- name: Manager
+  property_count: 5
+  slug: teradata-manager
+- name: Node
+  property_count: 6
+  slug: teradata-node
+- name: post-datasource
+  property_count: 29
+  slug: teradata-post-datasource
+- name: post-link
+  property_count: 19
+  slug: teradata-post-link
+- name: query-details
+  property_count: 0
+  slug: teradata-query-details
+- name: QueryRequest
+  property_count: 4
+  slug: teradata-query-request
+- name: QueryResult
+  property_count: 6
+  slug: teradata-query-result
+- name: query-summary
+  property_count: 0
+  slug: teradata-query-summary
+- name: QuerySystem
+  property_count: 4
+  slug: teradata-query-system
+- name: SessionRequest
+  property_count: 3
+  slug: teradata-session-request
+- name: Session
+  property_count: 5
+  slug: teradata-session
+- name: Software
+  property_count: 3
+  slug: teradata-software
+- name: system
+  property_count: 23
+  slug: teradata-system
+- name: User
+  property_count: 2
+  slug: teradata-user
+- name: watchdog-heartbeat
+  property_count: 15
+  slug: teradata-watchdog-heartbeat
 json_structures:
 - name: Query Service Api Query Result Structure
   property_count: 6
@@ -432,6 +740,10 @@ json_structures:
   property_count: 6
   slug: querygrid-manager-api-system-structure
 jsonld:
+- class_count: 120
+  name: Teradata Context
+  property_count: 282
+  slug: teradata-context
 - class_count: 4
   name: Teradata Query Service Api Context
   property_count: 13
@@ -449,13 +761,13 @@ modified: '2026-05-19'
 name: Teradata
 nav: Providers
 network: true
-overview: 'Teradata publishes 11 APIs on the [APIs.io](https://apis.io/) network, including API Info API, Configuration API, Issues API, and 8 more. Tagged areas include Analytics, Cloud, Data Management, Data Warehousing, and Database.
+overview: 'Teradata publishes 34 APIs on the [APIs.io](https://apis.io/) network, including API Info API, Configuration API, Issues API, and 31 more. Tagged areas include Analytics, Cloud, Data Management, Data Warehousing, and Database.
 
 
-  The Teradata catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
+  The Teradata catalog on APIs.io includes 3 JSON-LD contexts and 3 Spectral governance rulesets.
 
 
-  Teradata''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, training material, and 32 more developer resources.'
+  Teradata''s developer surface includes signup flow, pricing, authentication, developer portal, documentation, getting-started guide, support, and 55 more developer resources.'
 plans:
 - name: Teradata Plans Pricing
   plan_count: 3
@@ -501,6 +813,17 @@ rules:
     info: 2
     warn: 3
   slug: teradata-jsonschema-spectral-rules
+- effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Teradata API Rules
+  rule_count: 11
+  severity_counts:
+    error: 9
+    hint: 0
+    info: 1
+    warn: 1
+  slug: teradata-rules
 - effective_rule_count: 73
   extends:
   - spectral:oas
@@ -513,43 +836,46 @@ rules:
     warn: 15
   slug: teradata-spectral-rules
 score:
-  band: developing
-  composite: 41.0
+  band: strong
+  composite: 59.4
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 69.0
+    artifact_dirs: 32
+    catalog_earned: 75.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 18.6
   facets:
-    access_clarity: 36.8
-    contract_governance: 27.3
-    contract_quality: 21.4
-    developer_ergonomics: 75.0
-    discoverability: 83.3
-    operational_transparency: 10.5
-  previous_composite: 41.0
+    access_clarity: 60.5
+    contract_governance: 31.8
+    contract_quality: 56.1
+    developer_ergonomics: 74.4
+    discoverability: 83.9
+    operational_transparency: 21.1
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
-      callable: 30.8
-      derived: 13
-      marker_coverage: 100.0
-      total: 13
+      callable: 11.1
+      derived: 6
+      marker_coverage: 16.7
+      total: 36
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
+    score: 28.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: rising
   upsert:
     applies: true
-    score: 0.0
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/screenshots/teradata-2026-06-20T195123.png
 security:
 - kind: authentication
@@ -560,6 +886,10 @@ security:
   name: Teradata Domain Security
   slug: teradata-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Teradata Vulnerability Disclosure
+  slug: teradata-vulnerability-disclosure
+  summary_line: security.txt · contact published
 slug: teradata
 tags:
 - Analytics

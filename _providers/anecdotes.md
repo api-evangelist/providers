@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 24
-  human_in_the_loop: 4
+- acting_count: 49
+  human_in_the_loop: 10
   name: Anecdotes Agentic Access
-  operation_count: 61
+  operation_count: 114
   slug: anecdotes-agentic-access
-  summary_line: 61 operations · 24 acting · 4 human-in-the-loop
+  summary_line: 114 operations · 49 acting · 10 human-in-the-loop
 api_count: 3
 apis:
 - description: 'A hosted Model Context Protocol proxy that exposes Anecdotes GRC domains - risk, control, evidence, policy, framework, uar, analysis, comments, requirement and semantic search - to any MCP-capable AI '
@@ -152,6 +152,11 @@ collections:
   name: Anecdotes API
   slug: open-anecdotes-grc
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/capabilities/anecdotes-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/anecdotes-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/agentic-access/anecdotes-agentic-access.yml
   title: ''
@@ -321,9 +326,9 @@ description: anecdotes is an enterprise Governance, Risk and Compliance (GRC) pl
 image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/companies/anecdotes.jpg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.anecdotes.ai over HTTP.
   name: anecdotes MCP Server
-  slug: anecdotes-mcp-server
+  slug: anecdotes
 modified: '2026-07-31'
 name: anecdotes
 nav: Providers
@@ -334,7 +339,7 @@ overview: 'anecdotes publishes 18 APIs on the [APIs.io](https://apis.io/) networ
   The anecdotes catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  anecdotes'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  anecdotes'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 random_paper: 4
 rate_limits:
 - limit_count: 1
@@ -344,13 +349,13 @@ score:
   band: strong
   composite: 64.0
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
@@ -365,7 +370,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - middle-east
-  previous_composite: 64.0
+  previous_composite: 63.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -383,7 +388,7 @@ score:
     regime_id: horizontal
     score: 32.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

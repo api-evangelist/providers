@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 21
+- acting_count: 22
   human_in_the_loop: 0
   name: Spruce Health Agentic Access
   operation_count: 47
   slug: spruce-health-agentic-access
-  summary_line: 47 operations · 21 acting
+  summary_line: 47 operations · 22 acting
 api_count: 16
 apis:
 - baseURL: https://api.sprucehealth.com/v1
@@ -430,7 +430,7 @@ layout: provider
 mcp_servers:
 - description: 'Spruce Health serves a remote MCP endpoint from its own developer documentation host at https://developer.sprucehealth.com/mcp. It is real and reachable - an unauthenticated GET answers "This URL can '
   name: Spruce Health MCP Server
-  slug: spruce-health-mcp-server
+  slug: spruce-health-mcp-yml
 modified: '2026-08-15'
 name: Spruce Health
 nav: Providers
@@ -453,23 +453,23 @@ rate_limits:
   slug: spruce-health-rate-limits
 score:
   band: strong
-  composite: 61.7
+  composite: 61.2
   coverage:
     artifact_dirs: 25
-    catalog_earned: 67.0
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 48.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -3.0
   facets:
     access_clarity: 78.9
     contract_governance: 4.5
     contract_quality: 57.7
     developer_ergonomics: 44.6
-    discoverability: 80.0
+    discoverability: 75.0
     operational_transparency: 73.7
-  previous_composite: 61.2
+  previous_composite: 64.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -487,7 +487,7 @@ score:
     regime_id: health
     score: 28.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

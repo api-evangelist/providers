@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 3
 apis:
 - description: The AI for Service REST estate — Automation AI (bot lifecycle, NLP training, analytics, admin, data tables), Search AI (answer generation, content and chunk management, ingestion, connectors), Contact
@@ -252,9 +252,9 @@ description: Kore.ai is an enterprise conversational and agentic AI platform use
 image: https://cdn.prod.website-files.com/6717a0dfaf71071a80dfce8b/68c807cb7a0e90c787610ed0_Kore.ai%20OG%20Image.jpg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Local (stdio) MCP server requiring OAuth; 45 tools listed.
   name: Kore.ai MCP Server
-  slug: koreai-mcp-server
+  slug: arch-agent-platform
 modified: '2026-08-23'
 name: Kore.ai
 nav: Providers
@@ -285,7 +285,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
@@ -300,7 +300,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 54.8
+  previous_composite: 54.7
   provenance:
     conformance: first-party
     contracts:
@@ -317,7 +317,7 @@ score:
     regime_id: horizontal
     score: 27.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

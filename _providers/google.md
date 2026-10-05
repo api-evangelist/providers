@@ -16,16 +16,16 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: unknown
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: documented
+    delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.8
-  scored_at: '2026-10-03'
+  score: 44.1
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 10
@@ -516,7 +516,11 @@ apis:
   description: The Volumes API from Google — 2 operation(s) for volumes.
   name: Google Volumes API
   slug: google-volumes-api
-artifact_total: 258
+artifact_total: 378
+asyncapis:
+- description: ''
+  name: Google Webhooks
+  slug: google-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -790,6 +794,98 @@ collections:
   slug: open-google-watch-api
 common:
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/finops/google-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-finops.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/rate-limits/google-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-rate-limits.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/rules/google-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/google-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/json-ld/google-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/google-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/vocabulary/google-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/google-vocabulary.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/asyncapi/google-webhooks.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/google-webhooks.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/data-model/google-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/google-data-model.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/changelog/google-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/google-changelog.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/errors/google-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/google-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/conformance/google-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/google-conformance.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/well-known/google-www-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/google-www-security.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/well-known/google-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/google-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/hosts/google-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/google-hosts.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/packages/google-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/google-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/packages/google-packages.yml
+  title: ''
+  type: Packages
+  url: packages/google-packages.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://accounts.google.com/ServiceLogin?hl=en-US&continue=https://myaccount.google.com/intro/security
+- group: start
+  title: ''
+  type: Login
+  url: https://accounts.google.com/v3/signin/identifier?continue=https://docs.google.com/&emr=1&followup=https://docs.google.com/&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1762011723:1791052452199182
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.google.com/
+- group: commercial
   title: ''
   type: Pricing
   url: https://cloud.google.com/pubsub/pricing
@@ -949,7 +1045,7 @@ common:
   type: DataPolicy
   url: https://developers.google.com/terms/api-services-user-data-policy
 created: '2023-11-08'
-description: Google's public APIs and services.
+description: Google Docs is an online word processing and PDF editing tool that is part of Google Workspace. It provides cloud‑based document creation, real‑time collaboration, and AI‑powered features such as Gemini in Docs for drafting and formatting. The service is offered to individuals, small businesses, startups, and enterprise customers for secure, cloud‑native productivity.
 features:
 - 'Google (Cloud + Ads + Workspace + Maps + YouTube): hundreds of services across Cloud + Ads + Productivity'
 - 'Detailed pricing: see https://cloud.google.com/pricing'
@@ -1004,6 +1100,363 @@ finops:
   service_category: Cloud + Ads + Productivity
   slug: google-finops
 image: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
+json_schemas:
+- name: About
+  property_count: 13
+  slug: google-about
+- name: AppList
+  property_count: 4
+  slug: google-app-list
+- name: App
+  property_count: 24
+  slug: google-app
+- name: BatchUpdateDocumentRequest
+  property_count: 2
+  slug: google-batch-update-document-request
+- name: BatchUpdateDocumentResponse
+  property_count: 3
+  slug: google-batch-update-document-response
+- name: Bookshelf
+  property_count: 10
+  slug: google-bookshelf
+- name: BookshelvesResponse
+  property_count: 2
+  slug: google-bookshelves-response
+- name: CalendarsAclGetResponse
+  property_count: 5
+  slug: google-calendars-acl-get-response
+- name: CalendarsAclGetResponse1
+  property_count: 5
+  slug: google-calendars-acl-get-response1
+- name: CalendarsAclPatchRequest
+  property_count: 0
+  slug: google-calendars-acl-patch-request
+- name: CalendarsAclPatchResponse
+  property_count: 5
+  slug: google-calendars-acl-patch-response
+- name: CalendarsAclPostRequest
+  property_count: 0
+  slug: google-calendars-acl-post-request
+- name: CalendarsAclPostResponse
+  property_count: 5
+  slug: google-calendars-acl-post-response
+- name: CalendarsAclPutRequest
+  property_count: 0
+  slug: google-calendars-acl-put-request
+- name: CalendarsAclPutResponse
+  property_count: 5
+  slug: google-calendars-acl-put-response
+- name: CalendarsAclWatchPostRequest
+  property_count: 0
+  slug: google-calendars-acl-watch-post-request
+- name: CalendarsAclWatchPostResponse
+  property_count: 10
+  slug: google-calendars-acl-watch-post-response
+- name: CalendarsEventsImportPostRequest
+  property_count: 0
+  slug: google-calendars-events-import-post-request
+- name: CalendarsEventsPatchRequest
+  property_count: 0
+  slug: google-calendars-events-patch-request
+- name: CalendarsEventsPostRequest
+  property_count: 0
+  slug: google-calendars-events-post-request
+- name: CalendarsEventsPutRequest
+  property_count: 0
+  slug: google-calendars-events-put-request
+- name: CalendarsEventsWatchPostRequest
+  property_count: 0
+  slug: google-calendars-events-watch-post-request
+- name: CalendarsEventsWatchPostResponse
+  property_count: 10
+  slug: google-calendars-events-watch-post-response
+- name: CalendarsGetResponse
+  property_count: 8
+  slug: google-calendars-get-response
+- name: CalendarsPatchRequest
+  property_count: 0
+  slug: google-calendars-patch-request
+- name: CalendarsPatchResponse
+  property_count: 8
+  slug: google-calendars-patch-response
+- name: CalendarsPostRequest
+  property_count: 0
+  slug: google-calendars-post-request
+- name: CalendarsPostResponse
+  property_count: 8
+  slug: google-calendars-post-response
+- name: CalendarsPutRequest
+  property_count: 0
+  slug: google-calendars-put-request
+- name: ChangeList
+  property_count: 4
+  slug: google-change-list
+- name: Channel
+  property_count: 10
+  slug: google-channel
+- name: ChannelsStopPostRequest
+  property_count: 0
+  slug: google-channels-stop-post-request
+- name: ColorsGetResponse
+  property_count: 4
+  slug: google-colors-get-response
+- name: Comment
+  property_count: 12
+  slug: google-comment
+- name: CountTokensResponse
+  property_count: 2
+  slug: google-count-tokens-response
+- name: Document
+  property_count: 16
+  slug: google-document
+- name: DriveList
+  property_count: 3
+  slug: google-drive-list
+- name: Drive
+  property_count: 12
+  slug: google-drive
+- name: FileList
+  property_count: 4
+  slug: google-file-list
+- name: File
+  property_count: 62
+  slug: google-file
+- name: FileUploadResponse
+  property_count: 1
+  slug: google-file-upload-response
+- name: FilesPostRequest
+  property_count: 1
+  slug: google-files-post-request
+- name: FreeBusyPostRequest
+  property_count: 0
+  slug: google-free-busy-post-request
+- name: FreeBusyPostResponse
+  property_count: 5
+  slug: google-free-busy-post-response
+- name: GenerateContentRequest
+  property_count: 3
+  slug: google-generate-content-request
+- name: GenerateContentResponse
+  property_count: 3
+  slug: google-generate-content-response
+- name: GeneratedIds
+  property_count: 3
+  slug: google-generated-ids
+- name: GmailUsersDraftsGetResponse
+  property_count: 2
+  slug: google-gmail-users-drafts-get-response
+- name: GmailUsersDraftsGetResponse1
+  property_count: 3
+  slug: google-gmail-users-drafts-get-response1
+- name: GmailUsersDraftsPutRequest
+  property_count: 0
+  slug: google-gmail-users-drafts-put-request
+- name: GmailUsersDraftsPutResponse
+  property_count: 2
+  slug: google-gmail-users-drafts-put-response
+- name: GmailUsersHistoryGetResponse
+  property_count: 3
+  slug: google-gmail-users-history-get-response
+- name: GmailUsersLabelsGetResponse1
+  property_count: 10
+  slug: google-gmail-users-labels-get-response1
+- name: GmailUsersLabelsPostResponse
+  property_count: 10
+  slug: google-gmail-users-labels-post-response
+- name: GmailUsersMessagesPostRequest
+  property_count: 0
+  slug: google-gmail-users-messages-post-request
+- name: GmailUsersThreadsGetResponse
+  property_count: 4
+  slug: google-gmail-users-threads-get-response
+- name: ImageGenerationRequest
+  property_count: 2
+  slug: google-image-generation-request
+- name: ImageGenerationResponse
+  property_count: 3
+  slug: google-image-generation-response
+- name: LabelList
+  property_count: 3
+  slug: google-label-list
+- name: ModelsPostRequest
+  property_count: 1
+  slug: google-models-post-request
+- name: ModelsPostResponse
+  property_count: 0
+  slug: google-models-post-response
+- name: ModifyLabelsRequest
+  property_count: 2
+  slug: google-modify-labels-request
+- name: QueryDriveActivityRequest
+  property_count: 6
+  slug: google-query-drive-activity-request
+- name: QueryDriveActivityResponse
+  property_count: 2
+  slug: google-query-drive-activity-response
+- name: SettingsCseKeypairsGetResponse
+  property_count: 7
+  slug: google-settings-cse-keypairs-get-response
+- name: SettingsCseKeypairsPostRequest
+  property_count: 0
+  slug: google-settings-cse-keypairs-post-request
+- name: SettingsCseKeypairsPostRequest1
+  property_count: 0
+  slug: google-settings-cse-keypairs-post-request1
+- name: SettingsCseKeypairsPostRequest3
+  property_count: 0
+  slug: google-settings-cse-keypairs-post-request3
+- name: SettingsCseKeypairsPostResponse
+  property_count: 7
+  slug: google-settings-cse-keypairs-post-response
+- name: SettingsCseKeypairsPostResponse1
+  property_count: 7
+  slug: google-settings-cse-keypairs-post-response1
+- name: SettingsCseKeypairsPostResponse2
+  property_count: 7
+  slug: google-settings-cse-keypairs-post-response2
+- name: SettingsSendAsSmimeInfoGetResponse1
+  property_count: 1
+  slug: google-settings-send-as-smime-info-get-response1
+- name: SettingsSendAsSmimeInfoPostRequest
+  property_count: 0
+  slug: google-settings-send-as-smime-info-post-request
+- name: SettingsSendAsSmimeInfoPostResponse
+  property_count: 7
+  slug: google-settings-send-as-smime-info-post-response
+- name: SpreadsheetsDeveloperMetadataGetResponse
+  property_count: 5
+  slug: google-spreadsheets-developer-metadata-get-response
+- name: SpreadsheetsDeveloperMetadatasearchPostRequest
+  property_count: 0
+  slug: google-spreadsheets-developer-metadatasearch-post-request
+- name: SpreadsheetsDeveloperMetadatasearchPostResponse
+  property_count: 1
+  slug: google-spreadsheets-developer-metadatasearch-post-response
+- name: SpreadsheetsGetResponse
+  property_count: 8
+  slug: google-spreadsheets-get-response
+- name: SpreadsheetsPostRequest
+  property_count: 0
+  slug: google-spreadsheets-post-request
+- name: SpreadsheetsPostRequest1
+  property_count: 0
+  slug: google-spreadsheets-post-request1
+- name: SpreadsheetsPostRequest2
+  property_count: 0
+  slug: google-spreadsheets-post-request2
+- name: SpreadsheetsPostResponse
+  property_count: 8
+  slug: google-spreadsheets-post-response
+- name: SpreadsheetsPostResponse1
+  property_count: 3
+  slug: google-spreadsheets-post-response1
+- name: SpreadsheetsPostResponse2
+  property_count: 8
+  slug: google-spreadsheets-post-response2
+- name: SpreadsheetsSheetsPostRequest
+  property_count: 0
+  slug: google-spreadsheets-sheets-post-request
+- name: SpreadsheetsSheetsPostResponse
+  property_count: 10
+  slug: google-spreadsheets-sheets-post-response
+- name: SpreadsheetsValuesPostRequest
+  property_count: 0
+  slug: google-spreadsheets-values-post-request
+- name: SpreadsheetsValuesPostRequest1
+  property_count: 0
+  slug: google-spreadsheets-values-post-request1
+- name: SpreadsheetsValuesPostResponse
+  property_count: 0
+  slug: google-spreadsheets-values-post-response
+- name: SpreadsheetsValuesPostResponse1
+  property_count: 2
+  slug: google-spreadsheets-values-post-response1
+- name: SpreadsheetsValuesbatchClearByDataFilterPostRequest
+  property_count: 0
+  slug: google-spreadsheets-valuesbatch-clear-by-data-filter-post-request
+- name: SpreadsheetsValuesbatchClearByDataFilterPostResponse
+  property_count: 2
+  slug: google-spreadsheets-valuesbatch-clear-by-data-filter-post-response
+- name: SpreadsheetsValuesbatchClearPostResponse
+  property_count: 2
+  slug: google-spreadsheets-valuesbatch-clear-post-response
+- name: SpreadsheetsValuesbatchGetByDataFilterPostRequest
+  property_count: 0
+  slug: google-spreadsheets-valuesbatch-get-by-data-filter-post-request
+- name: SpreadsheetsValuesbatchGetByDataFilterPostResponse
+  property_count: 0
+  slug: google-spreadsheets-valuesbatch-get-by-data-filter-post-response
+- name: SpreadsheetsValuesbatchUpdateByDataFilterPostRequest
+  property_count: 0
+  slug: google-spreadsheets-valuesbatch-update-by-data-filter-post-request
+- name: SpreadsheetsValuesbatchUpdateByDataFilterPostResponse
+  property_count: 0
+  slug: google-spreadsheets-valuesbatch-update-by-data-filter-post-response
+- name: StartPageToken
+  property_count: 2
+  slug: google-start-page-token
+- name: UsersDraftsSendPostRequest
+  property_count: 0
+  slug: google-users-drafts-send-post-request
+- name: UsersDraftsSendPostResponse
+  property_count: 9
+  slug: google-users-drafts-send-post-response
+- name: UsersMessagesAttachmentsGetResponse
+  property_count: 3
+  slug: google-users-messages-attachments-get-response
+- name: UsersMessagesBatchModifyPostRequest
+  property_count: 0
+  slug: google-users-messages-batch-modify-post-request
+- name: UsersMessagesImportPostRequest
+  property_count: 0
+  slug: google-users-messages-import-post-request
+- name: UsersMessagesImportPostResponse
+  property_count: 9
+  slug: google-users-messages-import-post-response
+- name: UsersSettingsAutoForwardingGetResponse
+  property_count: 3
+  slug: google-users-settings-auto-forwarding-get-response
+- name: UsersSettingsAutoForwardingPutRequest
+  property_count: 0
+  slug: google-users-settings-auto-forwarding-put-request
+- name: UsersSettingsAutoForwardingPutResponse
+  property_count: 3
+  slug: google-users-settings-auto-forwarding-put-response
+- name: UsersSettingsDelegatesGetResponse
+  property_count: 2
+  slug: google-users-settings-delegates-get-response
+- name: UsersSettingsDelegatesGetResponse1
+  property_count: 1
+  slug: google-users-settings-delegates-get-response1
+- name: UsersSettingsFiltersPostRequest
+  property_count: 0
+  slug: google-users-settings-filters-post-request
+- name: UsersSettingsForwardingAddressesGetResponse
+  property_count: 2
+  slug: google-users-settings-forwarding-addresses-get-response
+- name: UsersSettingsForwardingAddressesGetResponse1
+  property_count: 1
+  slug: google-users-settings-forwarding-addresses-get-response1
+- name: UsersSettingsForwardingAddressesPostRequest
+  property_count: 0
+  slug: google-users-settings-forwarding-addresses-post-request
+- name: UsersSettingsForwardingAddressesPostResponse
+  property_count: 2
+  slug: google-users-settings-forwarding-addresses-post-response
+- name: UsersSettingsSendAsGetResponse
+  property_count: 9
+  slug: google-users-settings-send-as-get-response
+- name: UsersSettingsSendAsGetResponse1
+  property_count: 1
+  slug: google-users-settings-send-as-get-response1
+- name: VolumesResponse
+  property_count: 3
+  slug: google-volumes-response
+jsonld:
+- class_count: 120
+  name: Google Context
+  property_count: 259
+  slug: google-context
 layout: provider
 modified: '2026-09-16'
 name: Google
@@ -1012,7 +1465,10 @@ network: true
 overview: 'Google publishes 112 APIs on the [APIs.io](https://apis.io/) network, including About API, Activity API, Address API, and 109 more. Tagged areas include Advertising, Cloud, Developers, Google, and Platform.
 
 
-  Google''s developer surface includes pricing, authentication, engineering blog, developer console, developer portal, getting-started guide, support, and 31 more developer resources.'
+  The Google catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
+
+
+  Google''s developer surface includes changelog, documentation, pricing, authentication, engineering blog, developer console, developer portal, and 50 more developer resources.'
 plans:
 - name: Google Plans Pricing
   plan_count: 10
@@ -1022,46 +1478,61 @@ rate_limits:
 - limit_count: 2
   name: Google Rate Limits
   slug: google-rate-limits
+rules:
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Google API Rules
+  rule_count: 17
+  severity_counts:
+    error: 9
+    hint: 0
+    info: 3
+    warn: 5
+  slug: google-rules
 scopes:
 - name: Google Scopes
   scope_count: 18
   slug: google-scopes
   summary_line: 18 scopes · authorizationCode/implicit
 score:
-  band: strong
-  composite: 56.3
+  band: exemplar
+  composite: 70.1
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 47.0
+    artifact_dirs: 31
+    catalog_earned: 73.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 68.0
+    catalog_gap: 41.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 15.6
   facets:
     access_clarity: 84.2
-    contract_governance: 0.0
-    contract_quality: 52.7
-    developer_ergonomics: 70.7
-    discoverability: 53.6
-    operational_transparency: 26.3
-  previous_composite: 55.8
+    contract_governance: 22.0
+    contract_quality: 67.4
+    developer_ergonomics: 73.2
+    discoverability: 71.4
+    operational_transparency: 60.5
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 80
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 35.3
+    score: 40.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: rising
   upsert:
     applies: true
     score: 11.1

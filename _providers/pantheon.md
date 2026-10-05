@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,20 +25,20 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.2
-  scored_at: '2026-10-03'
+  score: 26.6
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The Pantheon platform REST API (terminus.pantheon.io) underpins the Terminus CLI and enables programmatic management of sites, environments, deployments, domains, backups, teams, organizations, SSH ke
   name: Pantheon REST API
   slug: pantheon-api
-artifact_total: 6
+artifact_total: 7
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/pantheon/refs/heads/main/security/pantheon-trust-center.yml
@@ -105,6 +105,10 @@ finops:
   slug: pantheon-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pantheon.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.pantheon.io over HTTP.
+  name: Pantheon MCP Server
+  slug: pantheon
 modified: '2026-06-13'
 name: Pantheon
 nav: Providers
@@ -132,7 +136,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
@@ -140,7 +144,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 68.3
     operational_transparency: 21.1
-  previous_composite: 25.8
+  previous_composite: 26.3
   provenance:
     mcp: first-party
   regulatory:
@@ -150,7 +154,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

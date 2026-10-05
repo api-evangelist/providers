@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 19
+- acting_count: 21
   human_in_the_loop: 0
   name: Salv Agentic Access
   operation_count: 36
   slug: salv-agentic-access
-  summary_line: 36 operations · 19 acting
+  summary_line: 36 operations · 21 acting
 api_count: 1
 apis:
 - baseURL: https://app.salv.com/api
@@ -174,6 +174,11 @@ collections:
   name: Salv AML alert unresolved-alerts API
   slug: open-salv-unresolved-alerts-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/salv/refs/heads/main/capabilities/salv-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/salv-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/salv/refs/heads/main/overlays/salv-aml-overlay.yaml
   title: ''
@@ -328,7 +333,7 @@ overview: 'Salv publishes 15 APIs on the [APIs.io](https://apis.io/) network, in
   The Salv catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Salv''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 23 more developer resources.'
+  Salv''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 24 more developer resources.'
 random_paper: 20
 rate_limits:
 - limit_count: 1
@@ -343,13 +348,13 @@ score:
   band: developing
   composite: 42.1
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.3
   facets:
     access_clarity: 18.4
     contract_governance: 18.2
@@ -357,7 +362,12 @@ score:
     developer_ergonomics: 28.0
     discoverability: 73.2
     operational_transparency: 47.4
-  previous_composite: 42.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - estonia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -379,7 +389,7 @@ score:
     regime_id: horizontal
     score: 41.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

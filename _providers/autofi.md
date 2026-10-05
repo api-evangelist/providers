@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 8
+- acting_count: 9
   human_in_the_loop: 0
   name: Autofi Agentic Access
   operation_count: 11
   slug: autofi-agentic-access
-  summary_line: 11 operations · 8 acting
+  summary_line: 11 operations · 9 acting
 api_count: 2
 apis:
 - description: 'Live, OAuth-protected Model Context Protocol server served from the WordPress installation behind autofi.com, discovered through RFC 9728 protected-resource metadata. It is a site/content MCP surface '
@@ -78,7 +78,7 @@ apis:
   description: The Prequalification API from AutoFi — 1 operation(s) for prequalification.
   name: AutoFi Prequalification API
   slug: autofi-prequalification-api
-artifact_total: 19
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Autofi Webhooks
@@ -254,12 +254,9 @@ description: AutoFi ("The Sales Momentum Company") is an AI-powered automotive c
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/autofi.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: AutoFi serves a live, OAuth-protected Model Context Protocol server from the WordPress installation that runs autofi.com. It was discovered through the RFC 9728 protected-resource metadata document at
   name: AutoFi MCP Server
-  slug: autofi-mcp-server
-- description: ''
-  name: AutoFi MCP Server
-  slug: autofi-mcp-server-2
+  slug: autofi-mcp-oauth-server
 modified: '2026-08-14'
 name: AutoFi
 nav: Providers
@@ -295,7 +292,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.2
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
@@ -303,7 +300,7 @@ score:
     developer_ergonomics: 48.9
     discoverability: 75.0
     operational_transparency: 57.9
-  previous_composite: 52.0
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -321,7 +318,7 @@ score:
     regime_id: payments
     score: 41.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

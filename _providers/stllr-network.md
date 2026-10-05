@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 3
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -136,6 +136,10 @@ description: 'Stllr Network is an AI-powered user-generated-content (UGC) and cr
   routes, including TikTok and Google OAuth hand-offs — but it is an application backend with no published contract. Stllr has, by contrast, done deliberate agent-discovery work on its marketing surface: it serves a hand-written llms.txt and a robots.txt that explicitly allows OAI-SearchBot, ChatGPT-User, PerplexityBot, Claude-SearchBot, ClaudeBot and Google-Extended. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment.'
 image: https://cdn.prod.website-files.com/670e5530627adc7d7d0af0b3/68ff496a88d8e714a84367ae_image%205.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.stllr.network over HTTP; 6 tools listed.
+  name: Stllr Network MCP Server
+  slug: stllr-network
 modified: '2026-08-12'
 name: Stllr Network
 nav: Providers
@@ -163,7 +167,7 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 76.3
     contract_governance: 0.0
@@ -178,7 +182,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - middle-east
-  previous_composite: 22.4
+  previous_composite: 22.8
   provenance:
     mcp: first-party
   regulatory:
@@ -188,7 +192,7 @@ score:
     regime_id: horizontal
     score: 12.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

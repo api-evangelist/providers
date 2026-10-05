@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -97,6 +97,11 @@ collections:
   name: Google Cloud Security Command Center API
   slug: open-security-command-center-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-security-command-center/refs/heads/main/capabilities/google-cloud-security-command-center-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/google-cloud-security-command-center-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -206,7 +211,7 @@ overview: 'Google Cloud Security Command Center publishes 4 APIs on the [APIs.io
   The Google Cloud Security Command Center catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Cloud Security Command Center''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 12 more developer resources.'
+  Google Cloud Security Command Center''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 13 more developer resources.'
 plans:
 - name: Google Cloud Security Command Center Plans Pricing
   plan_count: 3
@@ -236,13 +241,13 @@ score:
   band: developing
   composite: 48.1
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 59.7
     catalog_earned_first_party: 0.0
     catalog_gap: 55.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.0
   facets:
     access_clarity: 47.4
     contract_governance: 9.8
@@ -250,7 +255,7 @@ score:
     developer_ergonomics: 51.2
     discoverability: 66.1
     operational_transparency: 26.3
-  previous_composite: 48.1
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     contracts:
@@ -265,7 +270,7 @@ score:
     regime_id: horizontal
     score: 40.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

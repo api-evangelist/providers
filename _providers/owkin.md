@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -90,6 +90,10 @@ created: '2026-07-17'
 description: Owkin is a French-American AI-biotech company (offices in New York, Paris, and London) that builds K Pro, an agentic "AI biology" platform for pharmaceutical and biotech R&D. K Pro pairs large-language-model agents with Owkin's multimodal patient-data network — spanning 164 academic institutions, the MOSAIC spatial-omics dataset, and public sources such as TCGA and PubMed — to help scientists identify drug targets, prioritize indications, explore cohorts, review literature, and navigate clinical trials. Owkin is also known for open-source federated-learning and computational- pathology research (FLamby, PyDESeq2, HistoSSLscaling). The company is backed by GV (Google Ventures). Owkin exposes product documentation and an agentic app (K Pro) but no public developer/REST API.
 image: https://cdn.prod.website-files.com/6391f9bc53c032303ab23fb0/6846da3abb1bef83bcbc29c3_Open-Graph-Owkin-Home.jpg
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.k.owkin.com over HTTP.
+  name: OWKIN MCP Server
+  slug: owkin
 modified: '2026-07-20'
 name: OWKIN
 nav: Providers
@@ -127,7 +131,7 @@ score:
     regime_id: health
     score: 10.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

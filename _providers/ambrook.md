@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
 artifact_total: 4
 common:
@@ -110,7 +110,7 @@ layout: provider
 mcp_servers:
 - description: Ambrook operates a hosted Model Context Protocol (MCP) server that lets AI agents connect to a farm/trade business's Ambrook accounting data. Access is gated by an OAuth 2.1 authorization-code flow (P
   name: Ambrook MCP Server
-  slug: ambrook-mcp-server
+  slug: ambrook
 modified: '2026-07-17'
 name: Ambrook
 nav: Providers
@@ -135,7 +135,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
@@ -150,7 +150,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 19.6
+  previous_composite: 21.0
   provenance:
     mcp: first-party
   regulatory:
@@ -160,7 +160,7 @@ score:
     regime_id: payments
     score: 26.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

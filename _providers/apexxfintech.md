@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Apexx provides a payment orchestration platform with APIs for merchants.
@@ -160,10 +160,6 @@ common:
   title: ''
   type: Support
   url: https://support.apexx.global/support/home/
-coverage:
-  detail: the company publishes developer documentation but serves no machine-readable contract from it
-  reason: no-machine-readable-spec
-  state: unreadable
 created: '2026-09-25'
 description: Apexxfintech provides a cloud‑native payment orchestration platform that consolidates global payment providers into a single integration point. It offers intelligent routing, cost routing, decline cascading, network tokenisation, and a suite of APIs for merchants to optimise transaction processing, reduce costs, and improve acceptance rates across multiple regions and payment methods.
 layout: provider
@@ -208,6 +204,11 @@ score:
     developer_ergonomics: 26.2
     discoverability: 53.6
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - global
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
     owner: catalog
@@ -229,7 +230,7 @@ score:
     regime_id: payments
     score: 22.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 0.0

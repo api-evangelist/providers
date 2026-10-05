@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ score:
     regime_id: energy_utilities
     score: 20.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -203,6 +203,5 @@ tags:
 - Energy Providers
 - Developers
 - Partners
-- Brokers
 website: https://www.powerhq.co
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 4
 apis:
 - baseURL: https://api.ade.landing.ai
@@ -186,6 +186,11 @@ collections:
   name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes Training API'
   slug: open-landingai-training-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/capabilities/landingai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/landingai-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/overlays/landingai-ade-v1-overlay.yaml
   title: ''
@@ -356,7 +361,7 @@ layout: provider
 mcp_servers:
 - description: LandingAI publishes a hosted, remote MCP server for the ADE documentation surface. It is a streamable-HTTP MCP endpoint — a plain GET returns HTTP 405, which is the expected behavior for a POST-only M
   name: Landing.ai MCP Server
-  slug: landingai-mcp-server
+  slug: ade-docs
 modified: '2026-07-19'
 name: Landing.ai
 nav: Providers
@@ -364,7 +369,7 @@ network: true
 overview: 'Landing.ai publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Classes API, Deployment API, Extract API, and 10 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Document Extraction, and Document Processing.
 
 
-  Landing.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  Landing.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 plans:
 - name: Landingai Plans
   plan_count: 3
@@ -384,7 +389,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 78.9
     contract_governance: 4.5
@@ -392,7 +397,7 @@ score:
     developer_ergonomics: 79.8
     discoverability: 76.7
     operational_transparency: 76.3
-  previous_composite: 61.9
+  previous_composite: 61.8
   provenance:
     conformance: derived
     contracts:
@@ -415,7 +420,7 @@ score:
     regime_id: horizontal
     score: 27.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The developer surface of the Toucan AI cloud - server-side token generation (POST /embed/generate-token with an x-api-key header), embed delivery via web components loaded from /embed/embed.js, and an
@@ -175,9 +175,9 @@ description: Toucan Toco is a Paris-founded embedded analytics and data storytel
 image: https://www.toucantoco.com/hubfs/Embedded%20Analytics%20your%20users%20will%20love!.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at toucanai.cloud over HTTP; 1 tool listed.
   name: Toucan Toco MCP Server
-  slug: toucan-toco-mcp-server
+  slug: toucan-ai-tools
 modified: '2026-07-21'
 name: Toucan Toco
 nav: Providers
@@ -197,7 +197,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
@@ -205,7 +205,7 @@ score:
     developer_ergonomics: 71.4
     discoverability: 75.0
     operational_transparency: 26.3
-  previous_composite: 37.0
+  previous_composite: 35.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -220,7 +220,7 @@ score:
     regime_id: horizontal
     score: 27.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -337,7 +337,11 @@ description: The U.S. Energy Information Administration (EIA) is the independent
 image: https://www.eia.gov/global/images/logos/eia_logo_print.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: 'EIA publishes NO first-party MCP server, and no hosted/remote MCP endpoint exists on
+
+    api.eia.gov or www.eia.gov. What does exist is a real community MCP layer over APIv2:
+
+    two independently maintained '
   name: No first-party MCP server; two community stdio servers over APIv2, plus a derived candidate tool set
   slug: no-first-party-mcp-server-two-community-stdio-servers-over-apiv2-plus-a-derived-candidate-tool-set
 modified: '2026-07-27'
@@ -363,7 +367,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.2
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
@@ -378,7 +382,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 48.2
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -396,7 +400,7 @@ score:
     regime_id: energy_utilities
     score: 25.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

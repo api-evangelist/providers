@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://gateway.revefi.com/api/v1/
@@ -92,6 +92,11 @@ collections:
   name: Data Quality Monitors Create a Custom Data Quality Monitor Update an existing Custom Data Quality Monitor API
   slug: open-revefi-update-an-existing-custom-data-quality-monitor-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/capabilities/revefi-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/revefi-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -211,7 +216,7 @@ layout: provider
 mcp_servers:
 - description: Revefi exposes a hosted Model Context Protocol (MCP) HTTP endpoint that lets MCP-compatible clients (Claude Code, Cursor, Claude Desktop, etc.) call Revefi tools to query metadata and operate on wareh
   name: Revefi MCP Server
-  slug: revefi-mcp-server
+  slug: revefi
 modified: '2026-07-20'
 name: Revefi
 nav: Providers
@@ -219,19 +224,19 @@ network: true
 overview: 'Revefi publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Create a Custom Data Quality Monitor API, Delete an existing Custom Data Quality Monitor API, Get Custom Data Quality Monitors API, and 3 more. Tagged areas include Data, Data Quality, Data Observability, FinOps, and Cost Optimization.
 
 
-  Revefi''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 18 more developer resources.'
+  Revefi''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 19 more developer resources.'
 random_paper: 3
 score:
   band: developing
   composite: 41.5
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 48.7
     contract_governance: 18.2
@@ -239,7 +244,7 @@ score:
     developer_ergonomics: 39.9
     discoverability: 75.0
     operational_transparency: 0.0
-  previous_composite: 41.5
+  previous_composite: 41.6
   provenance:
     conformance: first-party
     contracts:
@@ -256,7 +261,7 @@ score:
     regime_id: horizontal
     score: 25.0
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

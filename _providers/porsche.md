@@ -34,13 +34,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: 'The Porsche ID API Portal is where Porsche AG publishes and manages the APIs that integrate Porsche ID, its customer identity platform. It is not a public API programme: the portal''s own FAQ states "W'
   name: Porsche
   slug: porsche
-artifact_total: 8
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -172,6 +172,10 @@ finops:
   slug: porsche-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/porsche.png
 layout: provider
+mcp_servers:
+- description: Porsche appears to operate an MCP surface inside the Porsche Developer Hub, but it is not anonymously reachable and no tool list could be retrieved. This artifact records exactly what the probe saw an
+  name: Porsche MCP Server
+  slug: porsche-mcp-yml
 modified: '2026-08-27'
 name: Porsche
 nav: Providers
@@ -191,9 +195,9 @@ rate_limits:
   slug: porsche-rate-limits
 scopes:
 - name: Porsche Scopes
-  scope_count: 0
+  scope_count: 14
   slug: porsche-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 14 scopes
 score:
   band: thin
   composite: 31.4
@@ -204,7 +208,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.4
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
@@ -220,7 +224,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 31.4
+  previous_composite: 28.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -232,7 +236,7 @@ score:
     regime_id: horizontal
     score: 40.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false
@@ -260,7 +264,6 @@ tags:
 - Automotive
 - Connected Car
 - Identity
-- OpenID Connect
 - Design Systems
 - Open Source
 - Germany

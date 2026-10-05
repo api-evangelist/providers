@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Hosted remote MCP server (streamable HTTP) that connects Levitate to AI assistants — Claude Desktop, Claude Code, ChatGPT, Cursor, VS Code Copilot, Windsurf and any MCP-compatible HTTP client. Tools c
@@ -232,12 +232,12 @@ description: 'Levitate is a relationship-marketing and "Happiness Platform" SaaS
 image: https://cdn.prod.website-files.com/645165b093e7c8d734211d5d/64ac9c0f52d7bf5e396e6261_og%20image.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.levitate.ai over streamable HTTP requiring OAuth.
   name: Levitate MCP Server
   slug: levitate-mcp-server
 - description: ''
   name: Levitate MCP Server
-  slug: levitate-mcp-server-2
+  slug: mcp
 modified: '2026-08-25'
 name: Levitate
 nav: Providers
@@ -270,7 +270,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.9
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
@@ -278,7 +278,7 @@ score:
     developer_ergonomics: 49.4
     discoverability: 68.3
     operational_transparency: 34.2
-  previous_composite: 57.1
+  previous_composite: 62.0
   provenance:
     conformance: first-party
     contracts:
@@ -295,7 +295,7 @@ score:
     regime_id: insurance
     score: 46.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

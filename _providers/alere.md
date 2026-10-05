@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The RALS (Remote Automated Laboratory Systems) platform provides point-of-care device management and data integration capabilities. RALS connects point-of-care testing devices to laboratory informatio
@@ -115,7 +115,7 @@ score:
     regime_id: health
     score: 8.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

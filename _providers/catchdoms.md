@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 36.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -205,9 +205,9 @@ jsonld:
   slug: catchdoms-context
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at catchdoms.com.
   name: CatchDoms Expired Domains API MCP Server
-  slug: catchdoms-expired-domains-api-mcp-server
+  slug: catchdoms-mcp-yml
 modified: '2026-09-27'
 name: CatchDoms Expired Domains API
 nav: Providers
@@ -240,7 +240,7 @@ score:
   band: developing
   composite: 51.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 69.8
     catalog_earned_first_party: 12.0
     catalog_gap: 45.3
@@ -269,7 +269,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

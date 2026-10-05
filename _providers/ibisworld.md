@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 0
+- acting_count: 7
   human_in_the_loop: 0
   name: Ibisworld Agentic Access
   operation_count: 7
   slug: ibisworld-agentic-access
-  summary_line: 7 operations
+  summary_line: 7 operations · 7 acting
 api_count: 1
 apis:
 - baseURL: https://api.ibisworld.com/v3
@@ -70,7 +70,7 @@ apis:
   description: Industry research reports and market intelligence data.
   name: IBISWorld Industry API
   slug: ibisworld-industry-api
-artifact_total: 20
+artifact_total: 21
 collections:
 - collection_type: open
   name: API Collection
@@ -94,6 +94,11 @@ collections:
   name: IBISWorld API
   slug: open-ibisworld
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ibisworld/refs/heads/main/capabilities/ibisworld-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ibisworld-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/ibisworld/refs/heads/main/agentic-access/ibisworld-agentic-access.yml
   title: ''
@@ -151,6 +156,10 @@ finops:
   slug: ibisworld-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ibisworld.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.ibisworld.com over HTTP.
+  name: IBISWorld MCP Server
+  slug: ibisworld
 modified: '2026-05-19'
 name: IBISWorld
 nav: Providers
@@ -161,7 +170,7 @@ overview: 'IBISWorld publishes 5 APIs on the [APIs.io](https://apis.io/) network
   The IBISWorld catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  IBISWorld''s developer surface includes authentication, developer portal, documentation, and 8 more developer resources.'
+  IBISWorld''s developer surface includes authentication, developer portal, documentation, and 9 more developer resources.'
 plans:
 - name: Ibisworld Plans Pricing
   plan_count: 3
@@ -191,13 +200,13 @@ score:
   band: thin
   composite: 30.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
@@ -205,7 +214,7 @@ score:
     developer_ergonomics: 38.1
     discoverability: 60.0
     operational_transparency: 7.9
-  previous_composite: 30.0
+  previous_composite: 30.3
   provenance:
     agentic_access: derived
     contracts:
@@ -221,7 +230,7 @@ score:
     regime_id: horizontal
     score: 21.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

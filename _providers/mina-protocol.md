@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: Native GraphQL API served by the Mina daemon (default port 3085) to query blockchain data — accounts, blocks, transactions, pending pool, daemon status — and submit signed transactions including zkApp
@@ -159,7 +159,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false
@@ -186,5 +186,7 @@ tags:
 - GraphQL
 - Rosetta API
 - Developer Tools
+- Web3
+- Cryptocurrency
 website: https://minaprotocol.com
 ---

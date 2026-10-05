@@ -16,18 +16,18 @@
      "slug": "snowflake",
      "description": "Snowflake is a cloud-based data platform delivering data warehousing, data lakes, data engineering, data science and data application development as a single managed service across AWS, Azure and Google Cloud. Its developer surface is a 47-document OpenAPI corpus over /api/v2 covering databases, schemas, tables, Iceberg and dynamic tables, warehouses, tasks, pipes, streams, roles and grants, plus a SQL API for arbitrary statements and a Cortex family for AI inference, semantic analytics and retrieval. Snowflake also serves a SCIM 2.0 identity endpoint, an Apache Iceberg REST Catalog, and an account-hosted Model Context Protocol server that exposes Cortex tools to agents under Snowflake RBAC.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/screenshots/snowflake-2026-06-20T194110.png",
-     "score": 82.6,
+     "score": 82.7,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 56.7,
+      "discoverability": 58.3,
       "contract_quality": 72.6,
       "contract_governance": 45.5,
       "operational_transparency": 60.5,
       "developer_ergonomics": 80.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -66,18 +66,18 @@
      "slug": "clarivate",
      "description": "Clarivate is a global information services company providing data, insights and analytics across academia and government, life sciences and healthcare, and intellectual property. It publishes 26 machine-readable API contracts through one developer portal at developer.clarivate.com, each fetchable at developer.clarivate.com/apis/<api>/swagger, and serves them through a single gateway at api.clarivate.com. The estate spans Web of Science publication and citation data, Journal Citation Reports metrics, InCites benchmarking, Derwent patent and trademark intelligence, Converis research information management, Cortellis life sciences intelligence, and COUNTER R5 usage reporting over NISO SUSHI. Access is by API key or OAuth 2.0 client credentials, issued per registered application; every plan but the Web of Science Starter Free Trial is entitled from an institutional subscription and approved by Clarivate.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/screenshots/clarivate-2026-06-20T174437.png",
-     "score": 75.2,
+     "score": 74.7,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 83.9,
+      "discoverability": 78.6,
       "contract_quality": 56.2,
       "contract_governance": 59.1,
       "operational_transparency": 84.2,
       "developer_ergonomics": 66.1,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -127,7 +127,7 @@
      "slug": "dow-jones",
      "description": "Dow Jones is a financial news and information company, publisher of The Wall Street Journal, Barron's, MarketWatch, and Dow Jones Newswires, and operator of the Factiva news archive and the Risk & Compliance data business. Its Developer Platform (developer.dowjones.com) publishes REST APIs for entity screening and monitoring, third-party risk, due-diligence reports, risk profile search, and news content (Newswires real-time search, top stories, calendars, newsletters), secured by the Dow Jones Identity Service (OAuth 2.0 / OIDC) or Factiva user keys.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png",
-     "score": 63.2,
+     "score": 61.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -135,10 +135,10 @@
       "contract_quality": 58.4,
       "contract_governance": 18.2,
       "operational_transparency": 76.3,
-      "developer_ergonomics": 75.6,
+      "developer_ergonomics": 68.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -188,7 +188,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -245,7 +245,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -306,7 +306,7 @@
       "developer_ergonomics": 76.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -366,7 +366,7 @@
       "developer_ergonomics": 17.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -437,7 +437,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -487,7 +487,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -537,7 +537,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: WebSocket API for the Crypto.com Exchange, split into a Market Data stream (public channels for book, ticker, trade, candlestick, index, mark price, settlement, funding and open interest) and a User A
@@ -317,9 +317,9 @@ description: 'Crypto.com is a cryptocurrency exchange, brokerage and payments co
 image: https://crypto.com/images/meta-og/listing.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Local (stdio) MCP server; 9 tools listed.
   name: Crypto.com MCP Server
-  slug: cryptocom-mcp-server
+  slug: cdcx
 modified: '2026-09-16'
 name: Crypto.com
 nav: Providers
@@ -342,23 +342,23 @@ rate_limits:
   slug: crypto-com-rate-limits
 score:
   band: strong
-  composite: 65.5
+  composite: 65.0
   coverage:
     artifact_dirs: 24
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -4.1
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 55.2
     developer_ergonomics: 85.7
-    discoverability: 63.3
+    discoverability: 58.3
     operational_transparency: 92.1
-  previous_composite: 65.0
+  previous_composite: 69.1
   provenance:
     conformance: first-party
     contracts:
@@ -375,7 +375,7 @@ score:
     regime_id: securities_market_data
     score: 38.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

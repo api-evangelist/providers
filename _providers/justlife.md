@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/justlife/refs/heads/main/security/justlife-domain-security.yml
@@ -82,6 +82,10 @@ created: '2026-07-17'
 description: Justlife is the Middle East's leading home-services super app, connecting customers with vetted professionals for on-demand cleaning, beauty and wellness, healthcare-at-home, laundry, and home maintenance. Founded in 2015 by Cagatay Ozcan and Kerem Kuyucu, the company operates across the UAE, Saudi Arabia, Kuwait, Qatar, Oman, and Bahrain through its consumer mobile apps and website. Justlife publishes no public developer API; this profile captures its public web, policy, security, and AI-agent (llms.txt) surface for the API Evangelist network.
 image: https://deax38zvkau9d.cloudfront.net/prod/assets/static/rounded1.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.justlife.com over HTTP.
+  name: Justlife MCP Server
+  slug: justlife
 modified: '2026-07-19'
 name: Justlife
 nav: Providers
@@ -124,7 +128,7 @@ score:
     regime_id: health
     score: 10.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

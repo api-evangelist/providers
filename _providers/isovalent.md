@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -124,6 +124,11 @@ collections:
   name: Cilium bgp service API
   slug: open-isovalent-service-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/capabilities/isovalent-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/isovalent-capability-edges.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -306,19 +311,19 @@ network: true
 overview: 'Isovalent publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Bgp API, Connectivity API, Daemon API, and 7 more. Tagged areas include Company, Networking, Kubernetes, eBPF, and Security.
 
 
-  Isovalent''s developer surface includes CLI, authentication, changelog, sandbox, documentation, API reference, getting-started guide, and 30 more developer resources.'
+  Isovalent''s developer surface includes CLI, authentication, changelog, sandbox, documentation, API reference, getting-started guide, and 31 more developer resources.'
 random_paper: 13
 score:
   band: developing
   composite: 41.1
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
@@ -326,7 +331,7 @@ score:
     developer_ergonomics: 78.0
     discoverability: 73.2
     operational_transparency: 42.1
-  previous_composite: 41.1
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -344,7 +349,7 @@ score:
     regime_id: horizontal
     score: 26.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

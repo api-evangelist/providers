@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - baseURL: https://api.bevz.com/integrator-service
@@ -187,9 +187,9 @@ description: 'Bevz is a delivery-management platform built for liquor stores and
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bevz.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Bevz serves a live, anonymous, remote MCP endpoint from its own domain at https://www.bevz.com/_api/mcp, advertised in its own llms.txt. It is a Wix Site MCP server — platform-provided tooling that ex
   name: Bevz MCP Server
-  slug: bevz-mcp-server
+  slug: bevz-mcp-yml
 modified: '2026-08-13'
 name: Bevz
 nav: Providers
@@ -245,7 +245,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

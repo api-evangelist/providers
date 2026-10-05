@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -157,12 +157,12 @@ examples:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/view-com-au.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.view.com.au over HTTP; 3 tools listed.
   name: View.com.au MCP server manifest
-  slug: viewcomau-mcp-server-manifest
+  slug: view-com-au-mcp-server
 - description: ''
   name: tools/list, harvested verbatim
-  slug: toolslist-harvested-verbatim
+  slug: tools-list-harvested-verbatim
 - description: ''
   name: initialize, harvested verbatim
   slug: initialize-harvested-verbatim
@@ -189,7 +189,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
@@ -204,7 +204,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 25.1
+  previous_composite: 23.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,7 +217,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

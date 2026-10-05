@@ -24,7 +24,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: derived
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.1
-  scored_at: '2026-10-03'
+  score: 51.4
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -61,230 +61,96 @@ apis:
   baseurl_source: declared
   description: The Access Token API from Buildkite — 1 operation(s) for access token.
   name: Buildkite Access Token API
-  phrasing_intents:
-  - id: getAccessToken
-    intent: Inspect the API access token in use
-    question: Which scopes does the Buildkite API token I'm using right now have?
-  - id: revokeAccessToken
-    intent: Revoke the API access token in use
-    question: How do I revoke the access token I'm currently authenticating with?
-  phrasing_ops: 2
   slug: buildkite-com-access-token-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Agent Tokens API from Buildkite — 1 operation(s) for agent tokens.
   name: Buildkite Agent Tokens API
-  phrasing_intents:
-  - id: listAgentTokens
-    intent: List agent tokens for a cluster
-    question: Which agent registration tokens exist for one of my clusters?
-  phrasing_ops: 1
   slug: buildkite-com-agent-tokens-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Agents API from Buildkite — 3 operation(s) for agents.
   name: Buildkite Agents API
-  phrasing_intents:
-  - id: listAgents
-    intent: List an organization's agents
-    question: Which build agents are connected to my organization right now?
-  - id: getAgent
-    intent: Get details of one agent
-    question: What's the status and hostname of a specific build agent?
-  - id: stopAgent
-    intent: Stop a running agent
-    question: How do I stop a build agent remotely?
-  phrasing_ops: 3
   slug: buildkite-com-agents-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Annotations API from Buildkite — 1 operation(s) for annotations.
   name: Buildkite Annotations API
-  phrasing_intents:
-  - id: listAnnotations
-    intent: List annotations on a build
-    question: How do I read the annotations steps added to a build?
-  phrasing_ops: 1
   slug: buildkite-com-annotations-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Artifacts API from Buildkite — 1 operation(s) for artifacts.
   name: Buildkite Artifacts API
-  phrasing_intents:
-  - id: listArtifactsForBuild
-    intent: List artifacts produced by a build
-    question: Which files did a build upload as artifacts?
-  phrasing_ops: 1
   slug: buildkite-com-artifacts-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Builds API from Buildkite — 4 operation(s) for builds.
   name: Buildkite Builds API
-  phrasing_intents:
-  - id: listBuilds
-    intent: List builds for a pipeline
-    question: How do I see the recent builds of one of my pipelines?
-  - id: createBuild
-    intent: Trigger a new build of a pipeline
-    question: How do I trigger a new build through the Buildkite API?
-  - id: getBuild
-    intent: Get one build by number
-    question: What's the state of a specific build number?
-  - id: cancelBuild
-    intent: Cancel a running build
-    question: How do I cancel a build that's still running?
-  - id: rebuildBuild
-    intent: Rebuild a previous build
-    question: How do I re-run an entire build with the same commit and settings?
-  phrasing_ops: 5
   slug: buildkite-com-builds-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Clusters API from Buildkite — 1 operation(s) for clusters.
   name: Buildkite Clusters API
-  phrasing_intents:
-  - id: listClusters
-    intent: List an organization's clusters
-    question: Which clusters are set up in my Buildkite organization?
-  phrasing_ops: 1
   slug: buildkite-com-clusters-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Emojis API from Buildkite — 1 operation(s) for emojis.
   name: Buildkite Emojis API
-  phrasing_intents:
-  - id: listEmojis
-    intent: List an organization's custom emojis
-    question: What custom emojis has my organization uploaded?
-  phrasing_ops: 1
   slug: buildkite-com-emojis-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Jobs API from Buildkite — 2 operation(s) for jobs.
   name: Buildkite Jobs API
-  phrasing_intents:
-  - id: retryJob
-    intent: Retry a job in a build
-    question: How do I retry a single failed job without rebuilding everything?
-  - id: getJobLog
-    intent: Get a job's log output
-    question: How do I download the log output of a job?
-  phrasing_ops: 2
   slug: buildkite-com-jobs-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Meta API from Buildkite — 1 operation(s) for meta.
   name: Buildkite Meta API
-  phrasing_intents:
-  - id: getMeta
-    intent: Get Buildkite platform meta information
-    question: What general meta information does the Buildkite API publish about the platform?
-  phrasing_ops: 1
   slug: buildkite-com-meta-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Metrics API from Buildkite — 1 operation(s) for metrics.
   name: Buildkite Metrics API
-  phrasing_intents:
-  - id: getMetrics
-    intent: Get agent and job counts for a cluster
-    question: How many jobs are waiting and how many agents are idle in my cluster?
-  phrasing_ops: 1
   slug: buildkite-com-metrics-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Organizations API from Buildkite — 2 operation(s) for organizations.
   name: Buildkite Organizations API
-  phrasing_intents:
-  - id: listOrganizations
-    intent: List organizations I belong to
-    question: Which Buildkite organizations can my token access?
-  - id: getOrganization
-    intent: Get one organization
-    question: Can I fetch the details of a single organization by its slug?
-  phrasing_ops: 2
   slug: buildkite-com-organizations-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Pipeline Templates API from Buildkite — 1 operation(s) for pipeline templates.
   name: Buildkite Pipeline Templates API
-  phrasing_intents:
-  - id: listPipelineTemplates
-    intent: List an organization's pipeline templates
-    question: Which pipeline templates are available in my organization?
-  phrasing_ops: 1
   slug: buildkite-com-pipeline-templates-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Pipelines API from Buildkite — 2 operation(s) for pipelines.
   name: Buildkite Pipelines API
-  phrasing_intents:
-  - id: listPipelines
-    intent: List an organization's pipelines
-    question: What pipelines exist in my organization?
-  - id: createPipeline
-    intent: Create a new pipeline
-    question: How do I create a pipeline for a repository through the API?
-  - id: getPipeline
-    intent: Get one pipeline's settings
-    question: Can I see the repository and default branch a specific pipeline uses?
-  - id: updatePipeline
-    intent: Update an existing pipeline
-    question: How do I change the settings of a pipeline that already exists?
-  - id: deletePipeline
-    intent: Delete a pipeline
-    question: How do I delete a pipeline I no longer need?
-  phrasing_ops: 5
   slug: buildkite-com-pipelines-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Queues API from Buildkite — 1 operation(s) for queues.
   name: Buildkite Queues API
-  phrasing_intents:
-  - id: listQueues
-    intent: List queues in a cluster
-    question: Which queues are defined in one of my clusters?
-  phrasing_ops: 1
   slug: buildkite-com-queues-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Rules API from Buildkite — 1 operation(s) for rules.
   name: Buildkite Rules API
-  phrasing_intents:
-  - id: listRules
-    intent: List an organization's rules
-    question: What rules are set up in my organization?
-  phrasing_ops: 1
   slug: buildkite-com-rules-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Stacks API from Buildkite — 1 operation(s) for stacks.
   name: Buildkite Stacks API
-  phrasing_intents:
-  - id: getStacks
-    intent: Get stack configuration for a self-hosted queue
-    question: How does a self-hosted queue controller get its desired stack configuration?
-  phrasing_ops: 1
   slug: buildkite-com-stacks-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The Teams API from Buildkite — 1 operation(s) for teams.
   name: Buildkite Teams API
-  phrasing_intents:
-  - id: listTeams
-    intent: List an organization's teams
-    question: Which teams exist in my Buildkite organization?
-  phrasing_ops: 1
   slug: buildkite-com-teams-api
 - baseURL: https://api.buildkite.com/v2
   baseurl_source: declared
   description: The User API from Buildkite — 1 operation(s) for user.
   name: Buildkite User API
-  phrasing_intents:
-  - id: getCurrentUser
-    intent: Get the authenticated user
-    question: Who is the user behind the API token I'm using?
-  phrasing_ops: 1
   slug: buildkite-com-user-api
 arazzos:
 - description: Inspect a finished build, then pull its annotations and artifacts for triage.
@@ -314,7 +180,11 @@ arazzos:
 - description: Create a build on a pipeline, then poll until it reaches a terminal state.
   name: Buildkite Trigger And Poll Build
   slug: buildkite-com-trigger-and-poll-build-workflow
-artifact_total: 117
+artifact_total: 119
+asyncapis:
+- description: ''
+  name: Buildkite Com Webhooks
+  slug: buildkite-com-webhooks
 collections:
 - collection_type: postman
   name: Buildkite REST API
@@ -386,6 +256,53 @@ collections:
   name: Buildkite REST API
   slug: open-buildkite-rest-api
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/rules/buildkite-com-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/buildkite-com-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/rules/buildkite-com-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/buildkite-com-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/asyncapi/buildkite-com-webhooks.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/buildkite-com-webhooks.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.buildkite.com/
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/lifecycle/buildkite-com-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/buildkite-com-lifecycle.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/mcp/buildkite-com-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/buildkite-com-tool-crosswalk.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/hosts/buildkite-com-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/buildkite-com-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/vendors/buildkite-com-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/buildkite-com-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://buildkite.com/about/press/
+- group: start
+  title: ''
+  type: Login
+  url: https://buildkite.com/login
 - group: company
   title: ''
   type: Website
@@ -674,6 +591,11 @@ common:
   title: ''
   type: Spectral
   url: rules/buildkite-rules.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/capabilities/buildkite-com-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/buildkite-com-capability-edges.yml
 created: '2026-05-25T00:00:00.000Z'
 description: Buildkite is a hybrid CI/CD platform that combines a hosted control plane (pipelines.buildkite.com) with self-hosted or Buildkite-Hosted agents that run jobs on customer-controlled infrastructure. The platform spans three core products — Pipelines, Test Engine, and Package Registries — and exposes them through a v2 REST API, a Relay-compliant GraphQL API at graphql.buildkite.com/v1, an Agent API at agent.buildkite.com/v3 consumed by the open-source Go agent, webhooks, and an official MCP server that surfaces those APIs to AI coding agents. Customers route work to specific agent pools through clusters and queues, define pipelines as YAML with dynamic uploads, and integrate with the major source control, cloud, identity, secrets, and observability vendors.
 examples:
@@ -762,7 +684,7 @@ layout: provider
 mcp_servers:
 - description: Buildkite operates an official Model Context Protocol server that exposes the REST API (organizations, clusters, agents, pipelines, builds, jobs, artifacts, annotations, logs, Test Engine) as MCP tool
   name: Buildkite MCP Server
-  slug: buildkite-mcp-server
+  slug: buildkite
 modified: '2026-06-20'
 name: Buildkite
 nav: Providers
@@ -770,10 +692,10 @@ network: true
 overview: 'Buildkite publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Access Token API, Agent Tokens API, Agents API, and 20 more. Tagged areas include CI/CD, Continuous Integration, Continuous Delivery, DevOps, and Pipelines.
 
 
-  The Buildkite catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Buildkite catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Buildkite''s developer surface includes authentication, CLI, changelog, developer portal, documentation, getting-started guide, signup flow, and 57 more developer resources.'
+  Buildkite''s developer surface includes authentication, CLI, changelog, developer portal, documentation, getting-started guide, signup flow, and 68 more developer resources.'
 plans:
 - name: Buildkite Com Plans Pricing
   plan_count: 4
@@ -794,6 +716,17 @@ rules:
     info: 1
     warn: 4
   slug: buildkite-com-jsonschema-spectral-rules
+- effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Buildkite API Rules
+  rule_count: 12
+  severity_counts:
+    error: 11
+    hint: 0
+    info: 1
+    warn: 0
+  slug: buildkite-com-rules
 - effective_rule_count: 48
   extends:
   - spectral:oas
@@ -812,22 +745,22 @@ scopes:
   summary_line: 42 scopes
 score:
   band: exemplar
-  composite: 66.5
+  composite: 68.0
   coverage:
-    artifact_dirs: 33
-    catalog_earned: 71.8
+    artifact_dirs: 38
+    catalog_earned: 64.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.2
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.8
   facets:
-    access_clarity: 88.9
+    access_clarity: 76.3
     contract_governance: 31.8
-    contract_quality: 58.8
+    contract_quality: 66.0
     developer_ergonomics: 72.6
-    discoverability: 66.7
-    operational_transparency: 47.4
+    discoverability: 68.3
+    operational_transparency: 63.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -835,7 +768,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 66.5
+  previous_composite: 65.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -852,7 +785,7 @@ score:
     regime_id: horizontal
     score: 39.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

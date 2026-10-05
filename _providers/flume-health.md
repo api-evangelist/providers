@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: A remote Model Context Protocol endpoint served by the Flume Console at /api/v1/context/mcp. It is protected by OAuth 2.0 and advertises RFC 9728 protected-resource metadata, returning a 401 with a WW
@@ -291,12 +291,12 @@ description: Flume Health is a New York based healthcare data platform for the p
 image: https://flumehealth.com/og-image.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: 'Flume Health runs a remote Model Context Protocol server at https://console.flumehealth.com/api/v1/context/mcp. It was not found in any directory, registry, docs page, or llms.txt — it was discovered '
   name: Flume Context MCP Server
   slug: flume-context-mcp-server
 - description: ''
   name: Flume Health MCP Server
-  slug: flume-health-mcp-server
+  slug: mcp
 modified: '2026-09-16'
 name: Flume Health
 nav: Providers
@@ -329,7 +329,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.0
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
@@ -337,7 +337,7 @@ score:
     developer_ergonomics: 44.6
     discoverability: 68.3
     operational_transparency: 18.4
-  previous_composite: 44.2
+  previous_composite: 48.2
   provenance:
     conformance: first-party
     contracts:
@@ -354,7 +354,7 @@ score:
     regime_id: health
     score: 40.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

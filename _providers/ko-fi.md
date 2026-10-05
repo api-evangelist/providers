@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Outbound webhook that Ko-fi HTTP POSTs to a URL you configure whenever a payment happens on your Ko-fi page. The single POST body is form-encoded with a "data" field containing a JSON payload; a "type
@@ -131,7 +131,7 @@ score:
     catalog_gap: 61.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 26.8
     contract_governance: 11.4
@@ -139,7 +139,7 @@ score:
     developer_ergonomics: 19.0
     discoverability: 57.1
     operational_transparency: 18.9
-  previous_composite: 26.7
+  previous_composite: 26.8
   regulatory:
     applies: true
     matched_via: tags
@@ -147,7 +147,7 @@ score:
     regime_id: payments
     score: 5.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

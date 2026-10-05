@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Arivalbank provides digital banking services; API details are not publicly documented.
@@ -98,9 +98,9 @@ description: Arivalbank is a digital banking platform offering global financial 
 image: https://arival.com/_gatsby/file/a7a4555ab04c405ae4cf299b99b69c2c/og-image_eng.png?u=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fark6fr17%2Fproduction%2F8bebeaa1427f46010fcaf6e3f916dc07ea940994-4800x2520.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at status.arival.com.
   name: Arivalbank MCP Server
-  slug: arivalbank-mcp-server
+  slug: arivalbank-mcp-yml
 modified: '2026-09-26'
 name: Arivalbank
 nav: Providers
@@ -136,7 +136,7 @@ score:
     regime_id: banking_open_finance
     score: 11.0
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

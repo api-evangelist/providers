@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -84,7 +84,7 @@ apis:
   description: The Source Maps API from Honeybadger — 1 operation(s) for source maps.
   name: Honeybadger Source Maps API
   slug: honeybadger-source-maps-api
-artifact_total: 24
+artifact_total: 25
 asyncapis:
 - description: AsyncAPI description of the outbound webhook notifications Honeybadger delivers to subscriber URLs that have been configured via Project Settings > Alerts & Integrations. This surface covers the gener
   name: Honeybadger Outbound Webhook Notifications
@@ -115,6 +115,11 @@ collections:
   name: Honeybadger API
   slug: open-honeybadger
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/capabilities/honeybadger-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/honeybadger-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/agentic-access/honeybadger-agentic-access.yml
   title: ''
@@ -187,6 +192,9 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
+- description: Remote MCP server at mcp.honeybadger.io over HTTP.
+  name: Honeybadger MCP Server
+  slug: honeybadger
 modified: '2026-05-30'
 name: Honeybadger
 nav: Providers
@@ -197,7 +205,7 @@ overview: 'Honeybadger publishes 9 APIs on the [APIs.io](https://apis.io/) netwo
   The Honeybadger catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Honeybadger''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, and 9 more developer resources.'
+  Honeybadger''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, and 10 more developer resources.'
 random_paper: 16
 rules:
 - effective_rule_count: 35
@@ -215,13 +223,13 @@ score:
   band: thin
   composite: 34.3
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 40.8
     catalog_earned_first_party: 0.0
     catalog_gap: 74.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 31.6
     contract_governance: 11.4
@@ -229,7 +237,7 @@ score:
     developer_ergonomics: 28.6
     discoverability: 75.0
     operational_transparency: 2.6
-  previous_composite: 34.3
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -245,7 +253,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

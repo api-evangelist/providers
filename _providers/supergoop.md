@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: A live remote Model Context Protocol server implementing the Universal Commerce Protocol dev.ucp.shopping service for the Supergoop! store. An anonymous tools/list returns 13 tools with full JSON Sche
@@ -224,9 +224,9 @@ rate_limits:
   slug: supergoop-rate-limits
 scopes:
 - name: Supergoop Scopes
-  scope_count: 0
+  scope_count: 4
   slug: supergoop-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 4 scopes
 score:
   band: thin
   composite: 37.4
@@ -237,7 +237,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 8.2
+  delta: 3.1
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
@@ -252,7 +252,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 29.2
+  previous_composite: 34.3
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -264,8 +264,8 @@ score:
     regime_id: horizontal
     score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: rising
+  scored_at: '2026-10-04'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

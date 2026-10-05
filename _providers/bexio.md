@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 12
@@ -149,6 +149,11 @@ collections:
   name: bexio Accounting Sales Orders API
   slug: open-bexio-sales-orders-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/capabilities/bexio-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bexio-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -347,7 +352,7 @@ layout: provider
 mcp_servers:
 - description: ''
   name: bexio MCP Server
-  slug: bexio-mcp-server
+  slug: bexio-mcp-yml
 modified: '2026-07-17'
 name: bexio
 nav: Providers
@@ -355,7 +360,7 @@ network: true
 overview: 'bexio publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounting API, Banking API, Contacts API, and 6 more. Tagged areas include Accounting, ERP, Invoicing, Small Business, and Switzerland.
 
 
-  bexio''s developer surface includes authentication, documentation, engineering blog, changelog, API reference, getting-started guide, support, and 34 more developer resources.'
+  bexio''s developer surface includes authentication, documentation, engineering blog, changelog, API reference, getting-started guide, support, and 35 more developer resources.'
 plans:
 - name: Bexio Plans Pricing
   plan_count: 5
@@ -374,13 +379,13 @@ score:
   band: developing
   composite: 46.1
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 58.0
     catalog_earned_first_party: 0.0
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.4
   facets:
     access_clarity: 88.9
     contract_governance: 4.5
@@ -396,7 +401,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 46.1
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -418,7 +423,7 @@ score:
     regime_id: horizontal
     score: 40.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

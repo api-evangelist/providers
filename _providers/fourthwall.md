@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -105,7 +105,7 @@ apis:
   description: The Webhooks API from Fourthwall — 3 operation(s) for webhooks.
   name: Fourthwall Webhooks API
   slug: fourthwall-webhooks-api
-artifact_total: 34
+artifact_total: 35
 collections:
 - collection_type: open
   name: API Collection
@@ -150,6 +150,11 @@ collections:
   name: Fourthwall API
   slug: open-fourthwall
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/capabilities/fourthwall-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fourthwall-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/agentic-access/fourthwall-agentic-access.yml
   title: ''
@@ -214,6 +219,10 @@ finops:
   slug: fourthwall-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fourthwall.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.fourthwall.com over HTTP.
+  name: Fourthwall MCP Server
+  slug: fourthwall
 modified: '2026-07-01'
 name: Fourthwall
 nav: Providers
@@ -221,7 +230,7 @@ network: true
 overview: 'Fourthwall publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Gifting API, Giveaways API, and 9 more. Tagged areas include Creator Commerce, E-Commerce, Merch, Storefront, and Membership.
 
 
-  Fourthwall''s developer surface includes authentication, documentation, and 10 more developer resources.'
+  Fourthwall''s developer surface includes authentication, documentation, and 11 more developer resources.'
 plans:
 - name: Fourthwall Plans Pricing
   plan_count: 2
@@ -246,7 +255,7 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 26.8
     contract_governance: 0.0
@@ -254,7 +263,7 @@ score:
     developer_ergonomics: 22.6
     discoverability: 68.3
     operational_transparency: 31.1
-  previous_composite: 33.1
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     contracts:
@@ -270,7 +279,7 @@ score:
     regime_id: horizontal
     score: 27.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

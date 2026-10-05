@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://api.moosend.com/v3
@@ -62,6 +62,11 @@ collections:
   name: Moosend API
   slug: open-moosend
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/capabilities/moosend-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/moosend-capability-edges.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/authentication/moosend-authentication.yml
   title: ''
@@ -257,7 +262,7 @@ overview: 'Moosend publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
   The Moosend catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Moosend''s developer surface includes authentication, documentation, API reference, support, signup flow, engineering blog, pricing, and 31 more developer resources.'
+  Moosend''s developer surface includes authentication, documentation, API reference, support, signup flow, engineering blog, pricing, and 32 more developer resources.'
 plans:
 - name: Moosend Plans Pricing
   plan_count: 5
@@ -271,13 +276,13 @@ score:
   band: strong
   composite: 62.1
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 72.0
     catalog_earned_first_party: 24.0
     catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.7
   facets:
     access_clarity: 100.0
     contract_governance: 4.5
@@ -285,7 +290,7 @@ score:
     developer_ergonomics: 50.6
     discoverability: 73.2
     operational_transparency: 60.5
-  previous_composite: 62.1
+  previous_composite: 65.8
   provenance:
     conformance: derived
     contracts:
@@ -302,7 +307,7 @@ score:
     regime_id: telecommunications
     score: 34.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

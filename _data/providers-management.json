@@ -8,26 +8,237 @@
    "label": "Exemplar",
    "range": "66.5+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 5,
-   "shown": 5,
+   "count": 6,
+   "shown": 6,
    "providers": [
+    {
+     "name": "WSO2",
+     "slug": "wso2",
+     "description": "WSO2 API Manager is an open-source API management platform supporting REST, SOAP, and GraphQL with flexible hybrid deployment. It provides a unified control plane for managing APIs, AI models, and agents across on-premises, hybrid, and cloud environments. WSO2 is recognized as a Leader in the Forrester Wave API Management Q3 2024 report.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/screenshots/wso2-2026-06-20T201634.png",
+     "score": 79.9,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 64.1,
+      "contract_governance": 22.0,
+      "operational_transparency": 86.8,
+      "developer_ergonomics": 57.7,
+      "access_clarity": 100.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 45.1,
+      "matched_via": "fallback"
+     },
+     "agent_score": 35.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "unknown",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Full-Stack API Management Platforms",
+     "rank": 1
+    },
+    {
+     "name": "Kong",
+     "slug": "kong",
+     "description": "Kong is the AI Connectivity Company. Its platform spans Kong Gateway (the open-source API gateway built on NGINX and Lua), Kong Konnect (the SaaS control plane), Kong AI Gateway (LLM, MCP, and agent-to-agent traffic governance with semantic caching, token budgeting, and prompt firewalls), Kong Agent Gateway, Kong Event Gateway (Kafka-native governance), Kong Mesh (service mesh on Kuma and Envoy), Kong MCP Registry (centralized directory of MCP servers and tools for AI agents), Kong Context Mesh, and Kong Insomnia (API design and testing). Together they unify governance across APIs, real-time event streams, LLM calls, MCP tools, and agent-to-agent communication for the agentic era.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/screenshots/kong-2026-06-20T184130.png",
+     "score": 73.2,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 64.3,
+      "contract_quality": 67.6,
+      "contract_governance": 45.5,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 62.5,
+      "access_clarity": 92.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 27.3,
+      "matched_via": "fallback"
+     },
+     "agent_score": 46.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Full-Stack API Management Platforms",
+     "rank": 2
+    },
+    {
+     "name": "Microsoft Azure API Management",
+     "slug": "microsoft-azure-api-management",
+     "description": "Microsoft Azure API Management is a hybrid, multicloud management platform for APIs across all environments. It is composed of an API gateway (data plane), a management plane, and a developer portal, and supports the complete API lifecycle for publishing, securing, monitoring, and transforming APIs for external, partner, and internal developers. It now includes an AI gateway for governing OpenAI Chat Completions, OpenAI Responses, Anthropic Messages, Microsoft Foundry models, Amazon Bedrock, MCP servers exposed from REST APIs or proxied from external MCP backends, and A2A agent APIs - with token rate limiting, semantic caching, content safety, backend load balancing, circuit breakers, and token emission to Application Insights. It pairs with Azure API Center for design-time inventory, governance, and discovery.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/screenshots/microsoft-azure-api-management-2026-08-07T172834.png",
+     "score": 72.9,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 68.3,
+      "contract_quality": 57.6,
+      "contract_governance": 45.5,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 91.1,
+      "access_clarity": 76.3
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 45.1,
+      "matched_via": "fallback",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 24.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "templated",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "derived",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Full-Stack API Management Platforms",
+     "rank": 3
+    },
+    {
+     "name": "Apigee",
+     "slug": "apigee",
+     "description": "Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/screenshots/apigee-2026-06-20T172238.png",
+     "score": 70.8,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 85.7,
+      "contract_quality": 67.2,
+      "contract_governance": 31.8,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 83.9,
+      "access_clarity": 78.9
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 41.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 31.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Full-Stack API Management Platforms",
+     "rank": 4
+    },
     {
      "name": "Amazon API Gateway",
      "slug": "aws-api-gateway",
      "description": "Amazon API Gateway is a fully managed service that makes it easy to create, publish, maintain, monitor, and secure APIs at any scale. It acts as the front door for applications to access backend services, supporting REST APIs, HTTP APIs, and WebSocket APIs with built-in traffic management, authorization, monitoring, and API version management. API Gateway integrates natively with AWS Lambda, CloudWatch, CloudFront, IAM, and Cognito, and (as of December 2025) can expose REST APIs as MCP-compatible tools for Amazon Bedrock AgentCore Gateway for agent-driven API consumption.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/screenshots/aws-api-gateway-2026-06-20T172738.png",
-     "score": 70.6,
+     "score": 70.0,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 78.6,
+      "discoverability": 73.2,
       "contract_quality": 77.1,
       "contract_governance": 27.3,
       "operational_transparency": 52.6,
       "developer_ergonomics": 67.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -60,211 +271,58 @@
       "agentic_commerce": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 1
+     "rank": 5
     },
     {
-     "name": "WSO2",
-     "slug": "wso2",
-     "description": "WSO2 API Manager is an open-source API management platform supporting REST, SOAP, and GraphQL with flexible hybrid deployment. It provides a unified control plane for managing APIs, AI models, and agents across on-premises, hybrid, and cloud environments. WSO2 is recognized as a Leader in the Forrester Wave API Management Q3 2024 report.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/screenshots/wso2-2026-06-20T201634.png",
-     "score": 70.6,
+     "name": "Boomi",
+     "slug": "boomi",
+     "description": "Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline processes, improve productivity, and enhance the overall customer experience.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/screenshots/boomi-2026-06-20T173607.png",
+     "score": 67.6,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 78.6,
-      "contract_quality": 51.4,
-      "contract_governance": 9.8,
-      "operational_transparency": 78.9,
-      "developer_ergonomics": 48.8,
-      "access_clarity": 92.1
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 40.2,
-      "matched_via": "fallback"
-     },
-     "agent_score": 29.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Full-Stack API Management Platforms",
-     "rank": 2
-    },
-    {
-     "name": "Microsoft Azure API Management",
-     "slug": "microsoft-azure-api-management",
-     "description": "Microsoft Azure API Management is a hybrid, multicloud management platform for APIs across all environments. It is composed of an API gateway (data plane), a management plane, and a developer portal, and supports the complete API lifecycle for publishing, securing, monitoring, and transforming APIs for external, partner, and internal developers. It now includes an AI gateway for governing OpenAI Chat Completions, OpenAI Responses, Anthropic Messages, Microsoft Foundry models, Amazon Bedrock, MCP servers exposed from REST APIs or proxied from external MCP backends, and A2A agent APIs - with token rate limiting, semantic caching, content safety, backend load balancing, circuit breakers, and token emission to Application Insights. It pairs with Azure API Center for design-time inventory, governance, and discovery.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/screenshots/microsoft-azure-api-management-2026-08-07T172834.png",
-     "score": 70.4,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 78.3,
-      "contract_quality": 53.5,
-      "contract_governance": 27.3,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 89.3,
+      "discoverability": 71.4,
+      "contract_quality": 68.2,
+      "contract_governance": 45.5,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 70.8,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
       "regime_id": "horizontal",
-      "score": 45.1,
+      "score": 29.4,
       "matched_via": "fallback"
      },
-     "agent_score": 25.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "derived",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Full-Stack API Management Platforms",
-     "rank": 3
-    },
-    {
-     "name": "Apigee",
-     "slug": "apigee",
-     "description": "Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/screenshots/apigee-2026-06-20T172238.png",
-     "score": 68.2,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 85.7,
-      "contract_quality": 67.2,
-      "contract_governance": 13.6,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 82.1,
-      "access_clarity": 78.9
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 41.8,
-      "matched_via": "fallback"
-     },
-     "agent_score": 26.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Full-Stack API Management Platforms",
-     "rank": 4
-    },
-    {
-     "name": "Kong",
-     "slug": "kong",
-     "description": "Kong is the AI Connectivity Company. Its platform spans Kong Gateway (the open-source API gateway built on NGINX and Lua), Kong Konnect (the SaaS control plane), Kong AI Gateway (LLM, MCP, and agent-to-agent traffic governance with semantic caching, token budgeting, and prompt firewalls), Kong Agent Gateway, Kong Event Gateway (Kafka-native governance), Kong Mesh (service mesh on Kuma and Envoy), Kong MCP Registry (centralized directory of MCP servers and tools for AI agents), Kong Context Mesh, and Kong Insomnia (API design and testing). Together they unify governance across APIs, real-time event streams, LLM calls, MCP tools, and agent-to-agent communication for the agentic era.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/screenshots/kong-2026-06-20T184130.png",
-     "score": 66.8,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 63.3,
-      "contract_quality": 60.4,
-      "contract_governance": 13.6,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 60.7,
-      "access_clarity": 92.1
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 27.3,
-      "matched_via": "fallback"
-     },
-     "agent_score": 32.9,
+     "agent_score": 32.5,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
       "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
+      "error_semantics": "derived",
+      "openapi_examples": false,
+      "rate_limit_signal": "derived",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 5
+     "rank": 6
     }
    ],
    "open": true
@@ -274,9 +332,111 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 5,
-   "shown": 5,
+   "count": 7,
+   "shown": 7,
    "providers": [
+    {
+     "name": "Gravitee",
+     "slug": "gravitee",
+     "description": "Gravitee.io is an open-source API management platform from GraviteeSource, combining a high-performance API Gateway, full-lifecycle API Management, Access Management (IAM), Cockpit (multi-environment control plane), an Alert Engine, a Kubernetes Operator, and a new AI Agent Management suite with native MCP and LLM-proxy capabilities. The core projects are Apache 2.0 OSS, with an Enterprise commercial offering and a managed Gravitee Cloud SaaS. The platform supports synchronous and asynchronous APIs across REST, GraphQL, WebSocket, gRPC, SSE, Webhooks, Kafka, MQTT, AMQP, and Model Context Protocol (MCP).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/screenshots/gravitee-2026-06-20T182344.png",
+     "score": 65.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.0,
+      "contract_quality": 53.7,
+      "contract_governance": 31.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 72.0,
+      "access_clarity": 89.5
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 25.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 29.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "derived",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": "flavored",
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Full-Stack API Management Platforms",
+     "rank": 7
+    },
+    {
+     "name": "Tyk",
+     "slug": "tyk",
+     "description": "Tyk is an open-source API gateway and management platform supporting REST, GraphQL, gRPC, and Async APIs with a developer portal, analytics, and flexible deployment across cloud, on-premise, and hybrid environments.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/screenshots/tyk-2026-06-20T195900.png",
+     "score": 64.0,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 73.3,
+      "contract_quality": 72.1,
+      "contract_governance": 31.8,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 67.3,
+      "access_clarity": 57.9
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 35.3,
+      "matched_via": "fallback"
+     },
+     "agent_score": 37.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "derived",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Full-Stack API Management Platforms",
+     "rank": 8
+    },
     {
      "name": "Solo.io",
      "slug": "solo-io",
@@ -293,7 +453,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -326,25 +486,25 @@
       "agentic_commerce": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 6
+     "rank": 9
     },
     {
-     "name": "Boomi",
-     "slug": "boomi",
-     "description": "Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline processes, improve productivity, and enhance the overall customer experience.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/screenshots/boomi-2026-06-20T173607.png",
-     "score": 62.0,
+     "name": "Zuplo",
+     "slug": "zuplo",
+     "description": "Zuplo is the API management platform for developers. Build, deploy, and scale APIs faster with Zuplo.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/screenshots/zuplo-2026-06-20T202006.png",
+     "score": 62.3,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 71.7,
-      "contract_quality": 68.2,
-      "contract_governance": 13.6,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 61.9,
-      "access_clarity": 76.3
+      "discoverability": 66.7,
+      "contract_quality": 62.8,
+      "contract_governance": 45.5,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 57.7,
+      "access_clarity": 68.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -353,49 +513,151 @@
       "score": 29.4,
       "matched_via": "fallback"
      },
-     "agent_score": 23.0,
-     "agent_band": "agent-aware",
+     "agent_score": 51.5,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "platform",
-      "auth_clarity": "bearer",
+      "mcp_server": "documented",
+      "auth_clarity": "served",
       "idempotency": false,
-      "error_semantics": false,
+      "error_semantics": "verified",
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "tier": "Full-Stack API Management Platforms",
+     "rank": 10
+    },
+    {
+     "name": "Traefik Labs",
+     "slug": "traefik",
+     "description": "Traefik Labs builds cloud-native traffic and API infrastructure - the open-source Traefik Proxy (an ingress controller, reverse proxy, and load balancer for Kubernetes, Docker, Nomad, ECS, Consul, and bare metal), plus the commercial Traefik Hub product line covering API Gateway, API Management, AI Gateway, and MCP Gateway. The data plane is the same Traefik binary across every tier; the Hub control plane adds GitOps-driven CRDs, a developer portal, multi-cluster dashboards, WAF, advanced auth, and AI safety / agent-governance capabilities.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/screenshots/traefik-2026-06-20T195532.png",
+     "score": 57.0,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 51.7,
+      "contract_governance": 31.8,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 50.0,
+      "access_clarity": 47.4
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 24.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 21.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": "na",
+      "error_semantics": "derived",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "derived",
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false,
+      "dry_run_mode": "na",
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "tier": "Full-Stack API Management Platforms",
-     "rank": 7
+     "tier": "Gateways, Ingress and the Data Plane",
+     "rank": 11
     },
     {
-     "name": "Gravitee",
-     "slug": "gravitee",
-     "description": "Gravitee.io is an open-source API management platform from GraviteeSource, combining a high-performance API Gateway, full-lifecycle API Management, Access Management (IAM), Cockpit (multi-environment control plane), an Alert Engine, a Kubernetes Operator, and a new AI Agent Management suite with native MCP and LLM-proxy capabilities. The core projects are Apache 2.0 OSS, with an Enterprise commercial offering and a managed Gravitee Cloud SaaS. The platform supports synchronous and asynchronous APIs across REST, GraphQL, WebSocket, gRPC, SSE, Webhooks, Kafka, MQTT, AMQP, and Model Context Protocol (MCP).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/screenshots/gravitee-2026-06-20T182344.png",
-     "score": 61.2,
+     "name": "Axway",
+     "slug": "axway",
+     "description": "Axway provides API management, integration, and security solutions enabling organizations to connect, secure, and manage APIs across hybrid IT environments. Axway offers the Amplify platform for API management and a range of integration and security products for enterprises.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/screenshots/axway-2026-06-20T172828.png",
+     "score": 56.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 71.7,
-      "contract_quality": 53.7,
-      "contract_governance": 13.6,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 70.2,
-      "access_clarity": 81.6
+      "discoverability": 66.1,
+      "contract_quality": 68.6,
+      "contract_governance": 31.8,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 72.0,
+      "access_clarity": 36.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 31.4,
+      "matched_via": "fallback"
+     },
+     "agent_score": 42.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "derived",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "tier": "Full-Stack API Management Platforms",
+     "rank": 12
+    },
+    {
+     "name": "MuleSoft",
+     "slug": "mulesoft",
+     "description": "MuleSoft Anypoint Platform is an enterprise integration and API management platform offering a comprehensive suite of tools including an API gateway, design center, exchange marketplace, and robust monitoring for hybrid deployments. It enables organizations to connect applications, data, and devices across cloud and on-premises environments, supporting rapid development, secure management, and scalable integration across the enterprise ecosystem.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mulesoft/refs/heads/main/screenshots/mulesoft-2026-06-20T185854.png",
+     "score": 54.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 67.9,
+      "contract_quality": 65.2,
+      "contract_governance": 31.8,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 65.5,
+      "access_clarity": 40.8
+     },
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -404,133 +666,31 @@
       "score": 25.5,
       "matched_via": "fallback"
      },
-     "agent_score": 28.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "derived",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": "flavored",
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Full-Stack API Management Platforms",
-     "rank": 8
-    },
-    {
-     "name": "Zuplo",
-     "slug": "zuplo",
-     "description": "Zuplo is the API management platform for developers. Build, deploy, and scale APIs faster with Zuplo.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/screenshots/zuplo-2026-06-20T202006.png",
-     "score": 58.8,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 58.3,
-      "contract_quality": 62.8,
-      "contract_governance": 27.3,
-      "operational_transparency": 60.5,
-      "developer_ergonomics": 55.2,
-      "access_clarity": 68.4
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 29.4,
-      "matched_via": "fallback"
-     },
-     "agent_score": 43.5,
+     "agent_score": 44.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
+      "mcp_server": false,
+      "auth_clarity": "served",
       "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "verified",
+      "error_semantics": "derived",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "derived",
       "event_surface_described": false,
-      "agent_skills": "unknown",
-      "well_known_catalog": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
       "consent_identity": false,
-      "agent_card": false,
+      "agent_card": "conformant",
       "dry_run_mode": false,
-      "delegated_identity": false,
+      "delegated_identity": "served",
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 9
-    },
-    {
-     "name": "Tyk",
-     "slug": "tyk",
-     "description": "Tyk is an open-source API gateway and management platform supporting REST, GraphQL, gRPC, and Async APIs with a developer portal, analytics, and flexible deployment across cloud, on-premise, and hybrid environments.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/screenshots/tyk-2026-06-20T195900.png",
-     "score": 57.5,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 60.0,
-      "contract_quality": 60.1,
-      "contract_governance": 27.3,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 65.5,
-      "access_clarity": 57.9
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 35.3,
-      "matched_via": "fallback"
-     },
-     "agent_score": 33.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Full-Stack API Management Platforms",
-     "rank": 10
+     "rank": 13
     }
    ],
    "open": true
@@ -540,26 +700,26 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 15,
-   "shown": 15,
+   "count": 13,
+   "shown": 13,
    "providers": [
     {
      "name": "Apidog",
      "slug": "apidog",
      "description": "Apidog is an all-in-one API development platform that connects the entire API lifecycle: visual API design, multi-protocol debugging (HTTP, REST, GraphQL, gRPC, WebSocket, SOAP, SSE), automated testing with a CLI, smart mocking, and published interactive documentation - all in a single collaborative workspace. As of 2026 Apidog also ships native MCP support: an apidog-mcp-server that feeds API specs to AI coding assistants (Cursor, VS Code + Cline) and an MCP Client inside the desktop app that visually debugs MCP servers over STDIO and Streamable HTTP with auto OAuth 2.0 configuration.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apidog/refs/heads/main/screenshots/apidog-2026-06-20T172233.png",
-     "score": 51.7,
+     "score": 54.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 71.7,
+      "discoverability": 73.2,
       "contract_quality": 68.0,
-      "contract_governance": 27.3,
+      "contract_governance": 31.8,
       "operational_transparency": 60.5,
       "developer_ergonomics": 44.0,
-      "access_clarity": 34.2
+      "access_clarity": 42.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -568,16 +728,16 @@
       "score": 25.5,
       "matched_via": "fallback"
      },
-     "agent_score": 26.0,
+     "agent_score": 23.7,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
-      "error_semantics": false,
+      "error_semantics": "derived",
       "openapi_examples": "verified",
       "rate_limit_signal": "derived",
       "event_surface_described": false,
@@ -592,25 +752,25 @@
       "agentic_commerce": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 11
+     "rank": 14
     },
     {
      "name": "Bifrost",
      "slug": "bifrost",
      "description": "Bifrost is a high-performance open-source AI gateway that unifies access to 20+ AI providers through a single OpenAI-compatible API. It supports 1,000+ models with adaptive load balancing, automatic failover, semantic caching, and enterprise observability features. Bifrost is open-source under Apache 2.0.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bifrost/refs/heads/main/screenshots/bifrost-2026-06-20T173231.png",
-     "score": 51.7,
+     "score": 51.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 71.7,
+      "discoverability": 69.6,
       "contract_quality": 20.5,
       "contract_governance": 27.3,
       "operational_transparency": 52.6,
       "developer_ergonomics": 61.9,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -619,13 +779,13 @@
       "score": 27.3,
       "matched_via": "fallback"
      },
-     "agent_score": 43.1,
+     "agent_score": 34.5,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
@@ -643,7 +803,7 @@
       "agentic_commerce": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 12
+     "rank": 15
     },
     {
      "name": "Red Hat 3scale",
@@ -661,7 +821,7 @@
       "developer_ergonomics": 56.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -694,58 +854,7 @@
       "agentic_commerce": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 13
-    },
-    {
-     "name": "Axway",
-     "slug": "axway",
-     "description": "Axway provides API management, integration, and security solutions enabling organizations to connect, secure, and manage APIs across hybrid IT environments. Axway offers the Amplify platform for API management and a range of integration and security products for enterprises.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/screenshots/axway-2026-06-20T172828.png",
-     "score": 50.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 55.4,
-      "contract_quality": 62.5,
-      "contract_governance": 27.3,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 70.2,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 31.4,
-      "matched_via": "fallback"
-     },
-     "agent_score": 32.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Full-Stack API Management Platforms",
-     "rank": 14
+     "rank": 16
     },
     {
      "name": "Google Cloud API Gateway",
@@ -763,7 +872,7 @@
       "developer_ergonomics": 58.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -796,58 +905,7 @@
       "agentic_commerce": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 15
-    },
-    {
-     "name": "MuleSoft",
-     "slug": "mulesoft",
-     "description": "MuleSoft Anypoint Platform is an enterprise integration and API management platform offering an API gateway, design center, exchange marketplace, and monitoring for hybrid deployments connecting applications and data.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mulesoft/refs/heads/main/screenshots/mulesoft-2026-06-20T185854.png",
-     "score": 49.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 55.4,
-      "contract_quality": 65.2,
-      "contract_governance": 27.3,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 65.5,
-      "access_clarity": 32.9
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 20.6,
-      "matched_via": "fallback"
-     },
-     "agent_score": 24.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Full-Stack API Management Platforms",
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Apache APISIX",
@@ -865,7 +923,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -898,7 +956,58 @@
       "agentic_commerce": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 17
+     "rank": 18
+    },
+    {
+     "name": "Broadcom",
+     "slug": "broadcom",
+     "description": "Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electronics markets. Broadcom's technology is used in a variety of devices such as smartphones, tablets, routers, and smart TVs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/screenshots/broadcom-2026-06-20T173721.png",
+     "score": 47.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 64.3,
+      "contract_quality": 63.3,
+      "contract_governance": 22.0,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 47.0,
+      "access_clarity": 36.8
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 20.6,
+      "matched_via": "fallback"
+     },
+     "agent_score": 44.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": false,
+      "rate_limit_signal": "derived",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": "conformant",
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "tier": "Full-Stack API Management Platforms",
+     "rank": 19
     },
     {
      "name": "Apinizer",
@@ -916,7 +1025,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -949,58 +1058,7 @@
       "agentic_commerce": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 18
-    },
-    {
-     "name": "Traefik Labs",
-     "slug": "traefik",
-     "description": "Traefik Labs builds cloud-native traffic and API infrastructure - the open-source Traefik Proxy (an ingress controller, reverse proxy, and load balancer for Kubernetes, Docker, Nomad, ECS, Consul, and bare metal), plus the commercial Traefik Hub product line covering API Gateway, API Management, AI Gateway, and MCP Gateway. The data plane is the same Traefik binary across every tier; the Hub control plane adds GitOps-driven CRDs, a developer portal, multi-cluster dashboards, WAF, advanced auth, and AI safety / agent-governance capabilities.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/screenshots/traefik-2026-06-20T195532.png",
-     "score": 46.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 64.3,
-      "contract_quality": 45.5,
-      "contract_governance": 23.5,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 35.7,
-      "access_clarity": 36.8
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 14.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 20.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "derived",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Apiman",
@@ -1018,7 +1076,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1051,57 +1109,6 @@
       "agentic_commerce": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 20
-    },
-    {
-     "name": "NGINX",
-     "slug": "nginx",
-     "description": "NGINX is a high-performance open-source web server, reverse proxy, and API gateway widely used for load balancing, SSL termination, caching, and traffic management for APIs and microservices. Originally written by Igor Sysoev and released under the 2-clause BSD license, NGINX powers a significant portion of the world's web traffic. Enterprise support and commercial features are available from F5, Inc.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/screenshots/nginx-2026-06-20T190304.png",
-     "score": 45.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 63.3,
-      "contract_quality": 45.6,
-      "contract_governance": 27.3,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 59.5,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 10.8,
-      "matched_via": "fallback"
-     },
-     "agent_score": 31.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Gateways, Ingress and the Data Plane",
      "rank": 21
     },
     {
@@ -1120,7 +1127,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1156,6 +1163,57 @@
      "rank": 22
     },
     {
+     "name": "NGINX",
+     "slug": "nginx",
+     "description": "NGINX is a high-performance open-source web server, reverse proxy, and API gateway widely used for load balancing, SSL termination, caching, and traffic management for APIs and microservices. Originally written by Igor Sysoev and released under the 2-clause BSD license, NGINX powers a significant portion of the world's web traffic. Enterprise support and commercial features are available from F5, Inc.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/screenshots/nginx-2026-06-20T190304.png",
+     "score": 44.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 58.3,
+      "contract_quality": 45.6,
+      "contract_governance": 27.3,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 59.5,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 10.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 31.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Gateways, Ingress and the Data Plane",
+     "rank": 23
+    },
+    {
      "name": "Envoy",
      "slug": "envoy",
      "description": "Envoy is a high-performance, open-source edge and service proxy designed for cloud-native applications and microservice architectures. It provides advanced load balancing, observability, and traffic management features, and serves as the data plane for many service mesh implementations including Istio.",
@@ -1171,7 +1229,7 @@
       "developer_ergonomics": 44.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1204,7 +1262,7 @@
       "agentic_commerce": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Envoy Gateway",
@@ -1222,7 +1280,7 @@
       "developer_ergonomics": 76.2,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1255,7 +1313,7 @@
       "agentic_commerce": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "SAP API Management",
@@ -1273,7 +1331,7 @@
       "developer_ergonomics": 22.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1306,7 +1364,7 @@
       "agentic_commerce": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 25
+     "rank": 26
     }
    ]
   },
@@ -1315,8 +1373,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 8,
-   "shown": 8,
+   "count": 7,
+   "shown": 7,
    "providers": [
     {
      "name": "KrakenD",
@@ -1334,7 +1392,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1367,7 +1425,7 @@
       "agentic_commerce": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Spring Cloud Gateway",
@@ -1385,7 +1443,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1418,7 +1476,7 @@
       "agentic_commerce": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "IBM API Connect",
@@ -1436,7 +1494,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1469,7 +1527,7 @@
       "agentic_commerce": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "APIIDA",
@@ -1487,58 +1545,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 16.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Full-Stack API Management Platforms",
-     "rank": 29
-    },
-    {
-     "name": "Software AG",
-     "slug": "software-ag",
-     "description": "Software AG provides enterprise integration and API management through webMethods, a platform for connecting applications, processes, and people across hybrid cloud and on-premises environments. The webMethods platform includes API Gateway, Developer Portal, Integration Server, and cloud-native integration services. Software AG was acquired by IBM in 2024.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/screenshots/software-ag-2026-06-20T194136.png",
-     "score": 32.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 64.3,
-      "contract_quality": 58.3,
-      "contract_governance": 23.5,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 33.3,
-      "access_clarity": 26.3
-     },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1574,6 +1581,57 @@
      "rank": 30
     },
     {
+     "name": "Software AG",
+     "slug": "software-ag",
+     "description": "Software AG provides enterprise integration and API management through webMethods, a platform for connecting applications, processes, and people across hybrid cloud and on-premises environments. The webMethods platform includes API Gateway, Developer Portal, Integration Server, and cloud-native integration services. Software AG was acquired by IBM in 2024.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/screenshots/software-ag-2026-06-20T194136.png",
+     "score": 32.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 64.3,
+      "contract_quality": 58.3,
+      "contract_governance": 23.5,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 33.3,
+      "access_clarity": 26.3
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 16.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Full-Stack API Management Platforms",
+     "rank": 31
+    },
+    {
      "name": "APIPark",
      "slug": "apipark",
      "description": "APIPark is an open-source, cloud-native AI gateway and API developer portal that helps developers and enterprises manage, integrate, and deploy AI and API services. It supports 100+ AI models from all major AI providers, provides API lifecycle management, authentication, rate limiting, and cluster deployment for large-scale traffic. Teams can combine AI models with custom prompts to create new AI-powered services such as sentiment analysis, translation, or data analysis.",
@@ -1589,7 +1647,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1622,7 +1680,7 @@
       "agentic_commerce": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Emissary-Ingress",
@@ -1640,7 +1698,7 @@
       "developer_ergonomics": 20.2,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1673,57 +1731,6 @@
       "agentic_commerce": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 32
-    },
-    {
-     "name": "Broadcom",
-     "slug": "broadcom",
-     "description": "Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electronics markets. Broadcom's technology is used in a variety of devices such as smartphones, tablets, routers, and smart TVs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/screenshots/broadcom-2026-06-20T173721.png",
-     "score": 31.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 62.5,
-      "contract_quality": 63.3,
-      "contract_governance": 9.8,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 21.4,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 16.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Full-Stack API Management Platforms",
      "rank": 33
     }
    ]
@@ -1752,7 +1759,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1818,7 +1825,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1869,7 +1876,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,

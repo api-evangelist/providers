@@ -25,20 +25,20 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: 'Miter exposes a REST API used to build custom integrations between the Miter HCM platform and construction ERPs, accounting, and workforce systems — syncing projects, cost codes, accounts, employees, '
   name: Miter REST API
   slug: miter-rest-api
-artifact_total: 3
+artifact_total: 4
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/miter/refs/heads/main/security/miter-trust-center.yml
@@ -96,6 +96,10 @@ created: '2026-07-17'
 description: Miter is a Human Capital Management (HCM) platform purpose-built for construction contractors, consolidating payroll, HR, benefits, field operations, and expense management into a single connected system. Its construction payroll automates prevailing-wage, certified-payroll, and union compliance, multi-state tax handling, and fully-burdened job-cost tracking in real time, while its HRIS covers recruiting, benefits, performance, and learning. Field Operations adds time tracking, scheduling, daily reports, production tracking, and safety, and Expense Management handles reimbursements, per diems, and corporate cards. Miter connects to construction ERPs and accounting systems (Sage Intacct, NetSuite, Acumatica, QuickBooks, Procore, Viewpoint, and more) through off-the-shelf integrations or a custom REST API. Backed by Bessemer Venture Partners.
 image: https://www.miter.com/wp-content/uploads/2025/03/OpenGraph-Homepage.jpg
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.miter.com over HTTP.
+  name: Miter MCP Server
+  slug: miter
 modified: '2026-07-20'
 name: Miter
 nav: Providers
@@ -115,7 +119,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 43.4
     contract_governance: 0.0
@@ -123,7 +127,7 @@ score:
     developer_ergonomics: 2.4
     discoverability: 75.0
     operational_transparency: 15.8
-  previous_composite: 18.7
+  previous_composite: 18.8
   provenance:
     mcp: first-party
   regulatory:
@@ -133,7 +137,7 @@ score:
     regime_id: employment_payroll
     score: 18.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

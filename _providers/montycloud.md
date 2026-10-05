@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: The tenant-scoped REST API behind the MontyCloud DAY2 platform. Requests are authenticated with an API key and API secret key issued in the DAY2 platform and are scoped to a tenant via the x-tenant-id
@@ -149,7 +149,7 @@ description: 'MontyCloud is a Bellevue, Washington software company whose DAY2 p
 image: https://montycloud.com/wp-content/uploads/2025/07/full-color-favicon.svg
 layout: provider
 mcp_servers:
-- description: ''
+- description: MontyCloud ships a first-party, cloud-hosted MCP server for the DAY2 platform, marketed as the "CloudOps MCP Server" and surfaced in the product as MCP Integrations (Beta) inside the CloudOps Assistan
   name: MontyCloud CloudOps MCP Server
   slug: montycloud-cloudops-mcp-server
 modified: '2026-08-26'
@@ -179,7 +179,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.5
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
@@ -187,7 +187,7 @@ score:
     developer_ergonomics: 42.9
     discoverability: 75.8
     operational_transparency: 13.2
-  previous_composite: 39.7
+  previous_composite: 37.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -202,7 +202,7 @@ score:
     regime_id: horizontal
     score: 32.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

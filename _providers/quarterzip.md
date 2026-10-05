@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,16 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.0
-  scored_at: '2026-10-03'
+  score: 28.4
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 4
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Quarterzip Webhooks
@@ -138,6 +138,10 @@ created: '2026-07-17'
 description: Quarterzip builds AI screenshare agents that deliver real-time, in-product user assistance. Its agent sees a user's screen, guides them by voice, and executes the steps alongside them in real time, powering onboarding, activation, and customer support at scale without additional headcount. Teams embed Quarterzip through a hosted Link URL or a client-side JavaScript SDK that launches a draggable in-app call (window.Quarterzip.open/close), and receive signed call.completed webhooks (Standard Webhooks HMAC) carrying transcripts and call ratings for CRM and analytics integration. Customers include Bloomreach, Apollo, Dovetail, Airspeed, and Zuper. Quarterzip is ISO 27001 certified.
 image: https://cdn.prod.website-files.com/6894695956f5ee5691443986/6a4b45ff2d315efec1742406_poster.jpg
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.quarterzip.ai over HTTP.
+  name: Quarterzip MCP Server
+  slug: quarterzip
 modified: '2026-07-20'
 name: Quarterzip
 nav: Providers
@@ -160,7 +164,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
@@ -168,7 +172,7 @@ score:
     developer_ergonomics: 50.0
     discoverability: 58.3
     operational_transparency: 39.5
-  previous_composite: 37.3
+  previous_composite: 37.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -179,7 +183,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

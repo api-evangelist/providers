@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - baseURL: https://infer.flow7.org/v1
@@ -62,6 +62,11 @@ collections:
   name: Infer by Flow7 Public API
   slug: open-infer-by-flow7-public-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/capabilities/infer-by-flow7-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/infer-by-flow7-capability-edges.yml
 - group: agent
   title: ''
   type: AgentSkill
@@ -184,7 +189,7 @@ network: true
 overview: 'Infer by Flow7 publishes 3 APIs on the [APIs.io](https://apis.io/) network: Catalog API, Inference API, and Status API. Tagged areas include AI/ML inference, LLM API gateway, Responses-compatible API, Coding-agent tooling, and Developer Tools.
 
 
-  Infer by Flow7''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 18 more developer resources.'
+  Infer by Flow7''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 19 more developer resources.'
 plans:
 - name: Infer By Flow7 Plans Pricing
   plan_count: 4
@@ -196,20 +201,20 @@ rate_limits:
   slug: infer-by-flow7-rate-limits
 scopes:
 - name: Infer By Flow7 Scopes
-  scope_count: 0
+  scope_count: 1
   slug: infer-by-flow7-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 1 scope · bearer token (not OAuth)
 score:
   band: strong
   composite: 65.7
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 46.0
     catalog_earned_first_party: 12.0
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.7
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
@@ -217,7 +222,7 @@ score:
     developer_ergonomics: 69.0
     discoverability: 78.6
     operational_transparency: 42.1
-  previous_composite: 65.7
+  previous_composite: 63.0
   provenance:
     conformance: first-party
     contracts:
@@ -234,7 +239,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

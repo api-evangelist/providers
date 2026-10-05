@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/bloomscape/refs/heads/main/security/bloomscape-domain-security.yml
@@ -65,6 +65,10 @@ created: '2026-07-17'
 description: Bloomscape is a direct-to-consumer houseplant company that grows plants in its own greenhouses and ships them fully grown directly to customers' doors, bypassing traditional retail and nursery supply chains. Alongside houseplants, it sells planters, plant-care accessories, and gifting options, and backs every order with its Grow-How team of horticultural experts plus a plant guarantee. The company was surfaced as a portfolio company of General Catalyst and added to the API Evangelist network. Bloomscape operates a consumer e-commerce storefront and publishes no public developer API, SDK, or documented developer surface at this time; this profile captures its public web, support, and legal properties along with a domain-security probe.
 image: https://bloomscape.com/apple-touch-icon.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.bloomscape.com over HTTP.
+  name: Bloomscape MCP Server
+  slug: bloomscape
 modified: '2026-07-18'
 name: Bloomscape
 nav: Providers
@@ -84,7 +88,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -92,7 +96,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 51.7
     operational_transparency: 0.0
-  previous_composite: 10.5
+  previous_composite: 10.6
   provenance:
     mcp: first-party
   regulatory:
@@ -102,7 +106,7 @@ score:
     regime_id: horizontal
     score: 13.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

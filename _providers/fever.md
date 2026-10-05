@@ -27,21 +27,21 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: verified
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 56.3
-  scored_at: '2026-10-03'
+  score: 52.7
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 2
+- acting_count: 7
   human_in_the_loop: 0
   name: Fever Agentic Access
   operation_count: 13
   slug: fever-agentic-access
-  summary_line: 13 operations · 2 acting
+  summary_line: 13 operations · 7 acting
 api_count: 1
 apis:
 - baseURL: https://data-reporting-api.prod.feverup.com/v1
@@ -199,7 +199,7 @@ layout: provider
 mcp_servers:
 - description: Official Fever MCP server exposing Fever's global live-entertainment event catalog to MCP-compatible clients (Claude Desktop, Cursor, Windsurf, Claude Code). Data is real-time, updated at the same rat
   name: Fever MCP Server
-  slug: fever-mcp-server
+  slug: fever
 modified: '2026-07-19'
 name: Fever
 nav: Providers
@@ -249,7 +249,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

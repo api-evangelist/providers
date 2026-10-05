@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Regional REST API for the Clumio backup-as-a-service platform. Manage AWS and GCP connections, backup policies and protection rules, protection groups, organizational units, users, roles, compliance r
@@ -160,9 +160,9 @@ description: 'Clumio (a Commvault company) is a secure, air-gapped backup-as-a-s
 image: https://clumio.com/wp-content/uploads/2021/06/clumio-logo.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Local (stdio) MCP server; 9 tools listed.
   name: Clumio MCP Server
-  slug: clumio-mcp-server
+  slug: clumio-terraform-mcp
 modified: '2026-07-18'
 name: Clumio
 nav: Providers
@@ -182,7 +182,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
@@ -190,7 +190,7 @@ score:
     developer_ergonomics: 45.2
     discoverability: 71.7
     operational_transparency: 34.2
-  previous_composite: 32.8
+  previous_composite: 31.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -205,7 +205,7 @@ score:
     regime_id: horizontal
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

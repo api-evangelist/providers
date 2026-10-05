@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -72,6 +72,11 @@ collections:
   name: Azure Site Recovery REST API
   slug: open-microsoft-azure-site-recovery
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-site-recovery/refs/heads/main/capabilities/microsoft-azure-site-recovery-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/microsoft-azure-site-recovery-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -159,7 +164,7 @@ network: true
 overview: 'Azure Site Recovery publishes 3 APIs on the [APIs.io](https://apis.io/) network, including RecoveryPlans API, ReplicationProtectedItems API, and 1 more. Tagged areas include Disaster Recovery, Replication, Business Continuity, and Failover.
 
 
-  Azure Site Recovery''s developer surface includes authentication, developer portal, pricing, documentation, getting-started guide, support, engineering blog, and 10 more developer resources.'
+  Azure Site Recovery''s developer surface includes authentication, developer portal, pricing, documentation, getting-started guide, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Microsoft Azure Site Recovery Plans Pricing
   plan_count: 3
@@ -178,13 +183,13 @@ score:
   band: developing
   composite: 43.9
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 47.4
     contract_governance: 0.0
@@ -192,7 +197,7 @@ score:
     developer_ergonomics: 47.6
     discoverability: 71.4
     operational_transparency: 26.3
-  previous_composite: 43.9
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     contracts:
@@ -207,7 +212,7 @@ score:
     regime_id: horizontal
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

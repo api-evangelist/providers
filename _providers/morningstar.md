@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 56.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 70
+- acting_count: 75
   human_in_the_loop: 0
   name: Morningstar Agentic Access
   operation_count: 724
   slug: morningstar-agentic-access
-  summary_line: 724 operations · 70 acting
+  summary_line: 724 operations · 75 acting
 api_count: 41
 apis:
 - description: On-demand access to Morningstar's financial market data over HTTP in XML and JSON - real-time, delayed, and end-of-day pricing, price and quote, time and sales, price history, OHLCV, corporate actions
@@ -676,9 +676,9 @@ description: Morningstar, Inc. (Nasdaq MORN) is a Chicago-based investment resea
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/morningstar.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.morningstar.com over HTTP; 7 tools listed.
   name: Morningstar MCP Server
-  slug: morningstar-mcp-server
+  slug: morningstar
 modified: '2026-07-22'
 name: Morningstar
 nav: Providers
@@ -703,7 +703,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.3
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
@@ -718,7 +718,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 44.5
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -736,7 +736,7 @@ score:
     regime_id: securities_market_data
     score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

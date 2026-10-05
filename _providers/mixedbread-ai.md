@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 53
+- acting_count: 60
   human_in_the_loop: 1
   name: Mixedbread Ai Agentic Access
   operation_count: 93
   slug: mixedbread-ai-agentic-access
-  summary_line: 93 operations · 53 acting · 1 human-in-the-loop
+  summary_line: 93 operations · 60 acting · 1 human-in-the-loop
 api_count: 12
 apis:
 - baseURL: https://api.mixedbread.com
@@ -116,7 +116,7 @@ apis:
   description: The stores API from Mixedbread — 17 operation(s) for stores.
   name: Mixedbread Stores API
   slug: mixedbread-ai-stores-api
-artifact_total: 70
+artifact_total: 71
 collections:
 - collection_type: postman
   name: Mixedbread admin API
@@ -242,6 +242,11 @@ collections:
   name: Mixedbread Stores API
   slug: open-mixedbread-stores-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/capabilities/mixedbread-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mixedbread-ai-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -405,6 +410,10 @@ jsonld:
   property_count: 9
   slug: mixedbread-ai-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at www.mcp.mixedbread.com over HTTP.
+  name: Mixedbread MCP Server
+  slug: mixedbread-ai
 modified: '2026-09-16'
 name: Mixedbread
 nav: Providers
@@ -415,7 +424,7 @@ overview: 'Mixedbread publishes 14 APIs on the [APIs.io](https://apis.io/) netwo
   The Mixedbread catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Mixedbread''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, GitHub presence, and 24 more developer resources.'
+  Mixedbread''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, GitHub presence, and 25 more developer resources.'
 plans:
 - name: Mixedbread Ai Plans Pricing
   plan_count: 4
@@ -451,13 +460,13 @@ score:
   band: strong
   composite: 55.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 80.1
     catalog_earned_first_party: 0.0
     catalog_gap: 34.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.6
   facets:
     access_clarity: 60.0
     contract_governance: 13.6
@@ -473,7 +482,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 55.5
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     contracts:
@@ -489,7 +498,7 @@ score:
     regime_id: horizontal
     score: 15.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

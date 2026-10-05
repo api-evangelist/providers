@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://prod-api.greencheckverified.com
@@ -277,9 +277,9 @@ description: Green Check Verified (Green Check) is a New Haven, Connecticut spec
 image: https://greencheckverified.com/wp-content/uploads/2021/06/Feature-Image.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: 'Green Check runs a live, anonymously reachable remote MCP server on its developer-portal host. It is the Redocly-portal documentation MCP: six tools that let an agent enumerate the APIs, list endpoint'
   name: Green Check Verified MCP Server
-  slug: green-check-verified-mcp-server
+  slug: green-check-verified-mcp-yml
 modified: '2026-08-22'
 name: Green Check Verified
 nav: Providers
@@ -299,9 +299,9 @@ rate_limits:
   slug: green-check-verified-rate-limits
 scopes:
 - name: Green Check Verified Scopes
-  scope_count: 0
+  scope_count: 10
   slug: green-check-verified-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 10 scopes · client_credentials
 score:
   band: developing
   composite: 42.4
@@ -312,7 +312,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.8
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
@@ -320,7 +320,7 @@ score:
     developer_ergonomics: 66.1
     discoverability: 75.0
     operational_transparency: 2.6
-  previous_composite: 42.4
+  previous_composite: 45.2
   provenance:
     conformance: derived
     contracts:
@@ -337,7 +337,7 @@ score:
     regime_id: banking_open_finance
     score: 33.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

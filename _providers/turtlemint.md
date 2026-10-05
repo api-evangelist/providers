@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: REST APIs for embedded insurance distribution — lookups/master data, quotes, proposals and payments — built to OpenAPI 3.0 (Swagger), secured with Bearer access tokens, and testable in a sandbox "Deve
@@ -143,9 +143,9 @@ description: 'Turtlemint is an Indian insurtech that sells and services insuranc
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/turtlemint.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at www.turtlefin.com over HTTP; 7 tools listed.
   name: Turtlemint MCP Server
-  slug: turtlemint-mcp-server
+  slug: turtlefin-site
 modified: '2026-07-21'
 name: Turtlemint
 nav: Providers
@@ -165,7 +165,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
@@ -173,7 +173,12 @@ score:
     developer_ergonomics: 53.6
     discoverability: 75.0
     operational_transparency: 7.9
-  previous_composite: 29.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - india
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 30.0
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -184,7 +189,7 @@ score:
     regime_id: insurance
     score: 21.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -112,6 +112,11 @@ collections:
   name: Insightly CRM API
   slug: open-insightly
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/capabilities/insightly-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/insightly-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/agentic-access/insightly-agentic-access.yml
   title: ''
@@ -175,7 +180,7 @@ network: true
 overview: 'Insightly publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Leads API, Opportunities API, and 5 more. Tagged areas include CRM, Project Management, Lead Management, Opportunities, and Contacts.
 
 
-  Insightly''s developer surface includes authentication, documentation, support, signup flow, pricing, engineering blog, and 6 more developer resources.'
+  Insightly''s developer surface includes authentication, documentation, support, signup flow, pricing, engineering blog, and 7 more developer resources.'
 random_paper: 19
 score:
   band: thin
@@ -187,7 +192,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.2
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
@@ -195,7 +200,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 2.6
-  previous_composite: 28.2
+  previous_composite: 29.4
   provenance:
     agentic_access: derived
     contracts:
@@ -210,7 +215,7 @@ score:
     regime_id: horizontal
     score: 17.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

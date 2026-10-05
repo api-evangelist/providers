@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The BNSF API Center provides customer APIs for programmatic integration with BNSF Railway freight shipping operations. APIs enable real-time shipment tracing, intermodal hub operations, pricing and ra
@@ -217,7 +217,7 @@ score:
     regime_id: energy_utilities
     score: 8.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

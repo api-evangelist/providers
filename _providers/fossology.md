@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 104
+- acting_count: 85
   human_in_the_loop: 2
   name: Fossology Agentic Access
-  operation_count: 202
+  operation_count: 167
   slug: fossology-agentic-access
-  summary_line: 202 operations · 104 acting · 2 human-in-the-loop
+  summary_line: 167 operations · 85 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: http://localhost/repo/api/v1
@@ -175,6 +175,11 @@ collections:
   name: FOSSology API
   slug: open-fossology
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/capabilities/fossology-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fossology-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -271,7 +276,7 @@ overview: 'FOSSology publishes 15 APIs on the [APIs.io](https://apis.io/) networ
   The FOSSology catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  FOSSology''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
+  FOSSology''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
 plans:
 - name: Fossology Plans Pricing
   plan_count: 3
@@ -311,7 +316,7 @@ score:
   band: thin
   composite: 35.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 65.8
     catalog_earned_first_party: 0.0
     catalog_gap: 49.3
@@ -340,7 +345,7 @@ score:
     regime_id: horizontal
     score: 26.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -242,6 +242,11 @@ collections:
   name: 3D Secure 3DS Authentication Transactions API
   slug: open-verifone-transactions-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/capabilities/verifone-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/verifone-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -1847,7 +1852,7 @@ overview: 'Verifone publishes 27 APIs on the [APIs.io](https://apis.io/) network
   The Verifone catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Verifone''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, sandbox, engineering blog, and 7 more developer resources.'
+  Verifone''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, sandbox, engineering blog, and 8 more developer resources.'
 plans:
 - name: Plans
   plan_count: 4
@@ -1872,13 +1877,13 @@ score:
   band: developing
   composite: 40.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 68.1
     catalog_earned_first_party: 0.0
     catalog_gap: 46.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.2
   facets:
     access_clarity: 36.3
     contract_governance: 9.8
@@ -1886,7 +1891,7 @@ score:
     developer_ergonomics: 50.0
     discoverability: 71.4
     operational_transparency: 15.8
-  previous_composite: 40.8
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1901,7 +1906,7 @@ score:
     regime_id: payments
     score: 15.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

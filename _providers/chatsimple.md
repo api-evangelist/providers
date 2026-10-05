@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: The only publicly documented HTTP endpoints Chatsimple (now Expertise AI) publishes. Documented on the Zapier integration page of docs.expertise.ai as four operations under the base URL https://api.ex
@@ -183,9 +183,9 @@ description: Chatsimple (now operating as Expertise AI, expertise.ai) is an AI a
 image: https://www.expertise.ai/images/og-home-page.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at api.expertise.ai over HTTP requiring an API key.
   name: Chatsimple MCP Server
-  slug: chatsimple-mcp-server
+  slug: expertise-ai
 modified: '2026-08-13'
 name: Chatsimple
 nav: Providers
@@ -216,7 +216,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
@@ -224,7 +224,7 @@ score:
     developer_ergonomics: 57.1
     discoverability: 68.3
     operational_transparency: 31.6
-  previous_composite: 53.5
+  previous_composite: 52.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -241,7 +241,7 @@ score:
     regime_id: horizontal
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

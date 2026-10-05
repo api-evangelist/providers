@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 21
+- acting_count: 22
   human_in_the_loop: 0
   name: Kita Agentic Access
   operation_count: 52
   slug: kita-agentic-access
-  summary_line: 52 operations · 21 acting
+  summary_line: 52 operations · 22 acting
 api_count: 2
 apis:
 - baseURL: https://portal.usekita.com
@@ -208,6 +208,11 @@ collections:
   name: Kita Capture Applications Webhooks API
   slug: open-kita-webhooks-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/capabilities/kita-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/kita-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/overlays/kita-capture-overlay.yaml
   title: ''
@@ -401,9 +406,9 @@ description: Kita is an AI-native loan origination and underwriting company (Y C
 image: https://www.kita.ai/kita_logo_green.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Local (stdio) MCP server; 7 tools listed.
   name: Kita MCP Server
-  slug: kita-mcp-server
+  slug: kita-docs
 modified: '2026-07-19'
 name: Kita
 nav: Providers
@@ -414,7 +419,7 @@ overview: 'Kita publishes 14 APIs on the [APIs.io](https://apis.io/) network, in
   The Kita catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kita''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 34 more developer resources.'
+  Kita''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 35 more developer resources.'
 plans:
 - name: Kita Plans
   plan_count: 3
@@ -428,13 +433,13 @@ score:
   band: strong
   composite: 60.8
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.0
   facets:
     access_clarity: 92.1
     contract_governance: 4.5
@@ -442,7 +447,7 @@ score:
     developer_ergonomics: 74.4
     discoverability: 71.7
     operational_transparency: 21.1
-  previous_composite: 60.8
+  previous_composite: 64.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -460,7 +465,7 @@ score:
     regime_id: insurance
     score: 29.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

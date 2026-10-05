@@ -12,29 +12,30 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: documented
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.7
-  scored_at: '2026-10-03'
+  score: 42.2
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 2
@@ -183,7 +184,7 @@ apis:
   description: The user API from Axway — 7 operation(s) for user.
   name: Axway User API
   slug: axway-user-api
-artifact_total: 895
+artifact_total: 922
 collections:
 - collection_type: postman
   name: Amplify Platform API v1.0.0 aca API
@@ -312,6 +313,104 @@ collections:
   name: Amplify Platform API v1.0.0 aca user API
   slug: open-axway-user-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/finops/axway-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/axway-finops.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/rate-limits/axway-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/axway-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/plans/axway-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/axway-plans-pricing.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/rules/axway-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/axway-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/rules/axway-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/axway-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/rules/axway-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/axway-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/json-ld/axway-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/axway-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/json-ld/axway-amplify-platform-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/axway-amplify-platform-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/vocabulary/axway-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/axway-vocabulary.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/data-model/axway-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/axway-data-model.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/changelog/axway-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/axway-changelog.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/errors/axway-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/axway-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/conformance/axway-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/axway-conformance.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/well-known/axway-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/axway-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/hosts/axway-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/axway-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/vendors/axway-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/axway-vendors.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/packages/axway-packages.yml
+  title: ''
+  type: Packages
+  url: packages/axway-packages.yml
+- group: start
+  title: ''
+  type: SignUp
+  url: https://platform.axway.com/signup/?referrerUri=
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.axway.com/en/newsroom
 - group: auth
   title: ''
   type: Compliance
@@ -413,10 +512,6 @@ common:
   title: Swagger Tools (Node.js)
   type: SDKs
   url: https://www.npmjs.com/package/@axway/swagger-tools
-- group: build
-  title: API Builder Examples
-  type: CodeExamples
-  url: https://github.com/Axway/api-builder-examples
 - group: design
   title: ''
   type: SpectralRules
@@ -425,6 +520,15 @@ common:
   title: ''
   type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/vocabulary/axway-vocabulary.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/capabilities/axway-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/axway-capability-edges.yml
+- group: build
+  title: API Builder Examples
+  type: CodeExamples
+  url: https://github.com/Axway/api-builder-examples
 - group: commercial
   title: ''
   type: TermsOfService
@@ -1763,6 +1867,9 @@ json_schemas:
 - name: api_central.provisioned
   property_count: 5
   slug: axway-api-centralprovisioned
+- name: apicentral.credential.expire
+  property_count: 11
+  slug: axway-apicentral-credential-expire
 - name: apicentral.{resource}.{action}
   property_count: 1
   slug: axway-apicentral
@@ -1865,18 +1972,27 @@ json_schemas:
 - name: apic.ucs.subscription.update
   property_count: 0
   slug: axway-apicucssubscriptionupdate
+- name: ApplicationList
+  property_count: 0
+  slug: axway-application-list
 - name: Application
   property_count: 12
   slug: axway-application
 - name: ApplicationList
   property_count: 0
   slug: axway-applicationlist
+- name: ClientList
+  property_count: 0
+  slug: axway-client-list
 - name: Client
   property_count: 8
   slug: axway-client
 - name: ClientList
   property_count: 0
   slug: axway-clientlist
+- name: com.appcelerator.platform.org.user.create
+  property_count: 5
+  slug: axway-com-appcelerator-platform-org-user-create
 - name: com.appcelerator.platform.org.user.create
   property_count: 5
   slug: axway-comappceleratorplatformorgusercreate
@@ -1886,12 +2002,21 @@ json_schemas:
 - name: Consumer
   property_count: 9
   slug: axway-consumer
+- name: CustomQueryList
+  property_count: 0
+  slug: axway-custom-query-list
+- name: CustomQuery
+  property_count: 23
+  slug: axway-custom-query
 - name: CustomQuery
   property_count: 23
   slug: axway-customquery
 - name: CustomQueryList
   property_count: 0
   slug: axway-customquerylist
+- name: DataExportList
+  property_count: 0
+  slug: axway-data-export-list
 - name: DataExport
   property_count: 10
   slug: axway-dataexport
@@ -1900,13 +2025,22 @@ json_schemas:
   slug: axway-dataexportlist
 - name: DefaultFields
   property_count: 3
+  slug: axway-default-fields
+- name: DefaultFields
+  property_count: 3
   slug: axway-defaultfields
+- name: DomainList
+  property_count: 0
+  slug: axway-domain-list
 - name: Domain
   property_count: 4
   slug: axway-domain
 - name: DomainList
   property_count: 0
   slug: axway-domainlist
+- name: EntitlementList
+  property_count: 0
+  slug: axway-entitlement-list
 - name: Entitlement
   property_count: 3
   slug: axway-entitlement
@@ -1958,12 +2092,24 @@ json_schemas:
 - name: User
   property_count: 2
   slug: axway-eventdatauser
+- name: IdentityProviderList
+  property_count: 0
+  slug: axway-identity-provider-list
+- name: IdentityProvider
+  property_count: 7
+  slug: axway-identity-provider
 - name: IdentityProvider
   property_count: 7
   slug: axway-identityprovider
 - name: IdentityProviderList
   property_count: 0
   slug: axway-identityproviderlist
+- name: marketplace.create
+  property_count: 23
+  slug: axway-marketplace-create
+- name: marketplace.settings.update
+  property_count: 24
+  slug: axway-marketplace-settings-update
 - name: marketplace.ai.disable
   property_count: 2
   slug: axway-marketplaceaidisable
@@ -2047,7 +2193,16 @@ json_schemas:
   slug: axway-org
 - name: PasswordPolicy
   property_count: 9
+  slug: axway-password-policy
+- name: PasswordPolicy
+  property_count: 9
   slug: axway-passwordpolicy
+- name: platform.org.user.role.update
+  property_count: 5
+  slug: axway-platform-org-user-role-update
+- name: platform.session.create
+  property_count: 5
+  slug: axway-platform-session-create
 - name: platform.activation.access
   property_count: 2
   slug: axway-platformactivationaccess
@@ -2243,12 +2398,18 @@ json_schemas:
 - name: Provider
   property_count: 40
   slug: axway-provider
+- name: ResponseMetadata
+  property_count: 6
+  slug: axway-response-metadata
 - name: Response
   property_count: 1
   slug: axway-response
 - name: ResponseMetadata
   property_count: 6
   slug: axway-responsemetadata
+- name: RoleList
+  property_count: 0
+  slug: axway-role-list
 - name: Role
   property_count: 16
   slug: axway-role
@@ -2257,7 +2418,13 @@ json_schemas:
   slug: axway-rolelist
 - name: SessionInfo
   property_count: 25
+  slug: axway-session-info
+- name: SessionInfo
+  property_count: 25
   slug: axway-sessioninfo
+- name: SubscriptionList
+  property_count: 0
+  slug: axway-subscription-list
 - name: Subscription
   property_count: 11
   slug: axway-subscription
@@ -2267,21 +2434,33 @@ json_schemas:
 - name: Success
   property_count: 0
   slug: axway-success
+- name: TeamList
+  property_count: 0
+  slug: axway-team-list
 - name: Team
   property_count: 10
   slug: axway-team
 - name: TeamList
   property_count: 0
   slug: axway-teamlist
+- name: UsageEntryList
+  property_count: 0
+  slug: axway-usage-entry-list
 - name: UsageEntry
   property_count: 13
   slug: axway-usageentry
 - name: UsageEntryList
   property_count: 0
   slug: axway-usageentrylist
+- name: UserDeviceList
+  property_count: 0
+  slug: axway-user-device-list
 - name: User
   property_count: 32
   slug: axway-user
+- name: UserTeams
+  property_count: 0
+  slug: axway-user-teams
 - name: UserDevice
   property_count: 9
   slug: axway-userdevice
@@ -2828,18 +3007,22 @@ jsonld:
   name: Axway Amplify Platform Context
   property_count: 686
   slug: axway-amplify-platform-context
+- class_count: 106
+  name: Axway Context
+  property_count: 388
+  slug: axway-context
 layout: provider
 modified: '2026-05-30'
 name: Axway
 nav: Providers
 network: true
-overview: 'Axway publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Aca API, Activity API, Analytics API, and 30 more. Tagged areas include API Management, Enterprise, Integration, and Security.
+overview: 'Axway publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Aca API, Activity API, Analytics API, and 30 more. Tagged areas include API Management, Enterprise, Integration, Security, and Managed File Transfer.
 
 
-  The Axway catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Axway catalog on APIs.io includes 2 JSON-LD contexts and 3 Spectral governance rulesets.
 
 
-  Axway''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, support, engineering blog, and 22 more developer resources.'
+  Axway''s developer surface includes changelog, signup flow, authentication, developer portal, documentation, getting-started guide, developer console, and 43 more developer resources.'
 plans:
 - name: Axway Plans Pricing
   plan_count: 3
@@ -2860,6 +3043,17 @@ rules:
     info: 2
     warn: 3
   slug: axway-jsonschema-spectral-rules
+- effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: Axway API Rules
+  rule_count: 15
+  severity_counts:
+    error: 12
+    hint: 0
+    info: 1
+    warn: 2
+  slug: axway-rules
 - effective_rule_count: 81
   extends:
   - spectral:oas
@@ -2873,35 +3067,38 @@ rules:
   slug: axway-spectral-rules
 scopes:
 - name: Axway Scopes
-  scope_count: 0
+  scope_count: 1
   slug: axway-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 1 scope · clientCredentials/authorizationCode/implicit
 score:
-  band: developing
-  composite: 50.0
+  band: strong
+  composite: 56.1
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 55.0
+    artifact_dirs: 32
+    catalog_earned: 69.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.0
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.7
   facets:
-    access_clarity: 23.7
-    contract_governance: 27.3
-    contract_quality: 62.5
-    developer_ergonomics: 70.2
-    discoverability: 55.4
+    access_clarity: 36.8
+    contract_governance: 31.8
+    contract_quality: 68.6
+    developer_ergonomics: 72.0
+    discoverability: 66.1
     operational_transparency: 39.5
-  previous_composite: 50.0
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 20
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
@@ -2909,8 +3106,8 @@ score:
     regime_id: horizontal
     score: 31.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -2927,7 +3124,7 @@ security:
 - kind: trust-center
   name: Axway Trust Center
   slug: axway-trust-center
-  summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR
+  summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, CSA STAR
 slug: axway
 solutions:
 - description: Open banking, PSD2 compliance, and secure API-driven banking ecosystems.
@@ -2943,6 +3140,10 @@ tags:
 - Enterprise
 - Integration
 - Security
+- Managed File Transfer
+- B2B Integration
+- Financial Accounting
+- Enterprise Integration
 use_cases:
 - description: Govern and manage APIs across distributed enterprise teams and environments.
   name: Enterprise API Management

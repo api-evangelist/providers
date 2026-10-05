@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 24
+- acting_count: 25
   human_in_the_loop: 1
   name: Anything Agentic Access
   operation_count: 46
   slug: anything-agentic-access
-  summary_line: 46 operations · 24 acting · 1 human-in-the-loop
+  summary_line: 46 operations · 25 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.anything.com/v0/api
@@ -162,6 +162,11 @@ collections:
   name: Anything Assets User API
   slug: open-anything-user-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/anything/refs/heads/main/capabilities/anything-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/anything-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -296,19 +301,19 @@ network: true
 overview: 'Anything publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Databases API, Deployments API, and 11 more. Tagged areas include Company, Ai Ml, App Builder, Low-Code, and No-Code.
 
 
-  Anything''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
+  Anything''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
 random_paper: 8
 score:
   band: developing
   composite: 39.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 32.9
     contract_governance: 4.5
@@ -316,7 +321,7 @@ score:
     developer_ergonomics: 66.1
     discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 39.4
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -334,7 +339,7 @@ score:
     regime_id: horizontal
     score: 22.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

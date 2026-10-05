@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-10-03'
-api_count: 4
+  scored_at: '2026-10-04'
+api_count: 8
 apis:
-- description: OData 4 (recommended) and legacy OData 3 access to Creatio platform entities. The OData 4 service is at /0/odata with EDMX metadata at /0/odata/$metadata; supports $filter/$select/$expand/$orderby/$to
+- baseURL: https://mycreatio.com/0/odata
+  baseurl_source: declared
+  description: OData 4 (recommended) and legacy OData 3 access to Creatio platform entities. The OData 4 service is at /0/odata with EDMX metadata at /0/odata/$metadata; supports $filter/$select/$expand/$orderby/$to
   name: Creatio OData API
   slug: creatio-odata-api
 - description: 'RESTful DataService web service for reading and writing platform records via InsertQuery, SelectQuery, UpdateQuery, DeleteQuery, and BatchQuery over HTTP POST. Supports JSON/XML/CSV/JSV serialization '
@@ -48,12 +50,80 @@ apis:
 - description: Inbound webhook receiver. Lets an external app push data into Creatio in real time over an authenticated POST, writing a record into a target object named by the EntityName parameter. Contact, Lead, O
   name: Creatio Webhook Service
   slug: creatio-webhook-service
-artifact_total: 10
+- baseURL: https://mycreatio.com/0/odata
+  baseurl_source: declared
+  description: The Clear Bundles API from Creatio — 1 operation(s) for clear bundles.
+  name: Creatio Clear Bundles API
+  slug: creatio-clear-bundles-api
+- baseURL: https://mycreatio.com/0/odata
+  baseurl_source: declared
+  description: The Minify Content API from Creatio — 1 operation(s) for minify content.
+  name: Creatio Minify Content API
+  slug: creatio-minify-content-api
+- baseURL: https://mycreatio.com/0/odata
+  baseurl_source: declared
+  description: The Odata API from Creatio — 1 operation(s) for odata.
+  name: Creatio Odata API
+  slug: creatio-odata-api
+- baseURL: https://mycreatio.com/0/odata
+  baseurl_source: declared
+  description: The Process Content API from Creatio — 1 operation(s) for process content.
+  name: Creatio Process Content API
+  slug: creatio-process-content-api
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Creatio Webhooks
   slug: creatio-webhooks
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/rules/creatio-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/creatio-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/json-ld/creatio-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/creatio-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/vocabulary/creatio-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/creatio-vocabulary.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/data-model/creatio-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/creatio-data-model.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/cli/creatio-cli.yml
+  title: ''
+  type: CLI
+  url: cli/creatio-cli.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/llms/creatio-api-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/creatio-api-llms.txt
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/hosts/creatio-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/creatio-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/vendors/creatio-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/creatio-vendors.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.creatio.com/our-technologies/security
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.creatio.com/company/news
 - group: company
   title: ''
   type: Website
@@ -185,21 +255,47 @@ common:
   title: ''
   type: ErrorCatalog
   url: errors/creatio-error-codes.yml
+coverage:
+  checked: '2026-10-04'
+  detail: The Creatio developer portal provides documentation but no OpenAPI or other machine‑readable contract was found (e.g., https://api.creatio.com/openapi.json returned 404).
+  evidence:
+  - status: 404
+    url: https://api.creatio.com/openapi.json
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-07-17'
 description: Creatio is a global software vendor of an AI-native no-code platform for customer relationship management (CRM) and workflow / business process automation. Its product line spans Sales Creatio, Marketing Creatio, and Service Creatio, built on Studio Creatio — a no-code toolkit with visual designers, AI agents, and a business process engine. Creatio serves banking, insurance, manufacturing, high tech, retail, CPG, pharmaceuticals, telecom, the public sector, and other industries. For integrations, Creatio exposes platform data and processes over an OData 4 service (recommended), a legacy OData 3 service, and the RESTful DataService web service, secured with forms (cookie) authentication via AuthService.svc or OAuth 2.0 through the Creatio Identity Service. Extensions and connectors are distributed through the Creatio Marketplace. This profile was enriched by the API Evangelist enrichment pipeline from Creatio's public developer documentation.
 image: https://www.creatio.com/sites/default/files/creatio-logo.svg
+json_schemas:
+- name: PostClearBundlesRequest
+  property_count: 3
+  slug: creatio-post-clear-bundles-request
+- name: PostMinifyContentRequest
+  property_count: 2
+  slug: creatio-post-minify-content-request
+- name: Post0OdataOdataidRequest
+  property_count: 1
+  slug: creatio-post0-odata-odataid-request
+- name: Post0OdataOdataidResponse
+  property_count: 2
+  slug: creatio-post0-odata-odataid-response
+jsonld:
+- class_count: 4
+  name: Creatio Context
+  property_count: 3
+  slug: creatio-context
 layout: provider
 modified: '2026-08-13'
 name: Creatio
 nav: Providers
 network: true
-overview: 'Creatio publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, CRM, No-Code, and Low-Code.
+overview: 'Creatio publishes 8 APIs on the [APIs.io](https://apis.io/) network, including OData API, Clear Bundles API, Minify Content API, and 5 more. Tagged areas include Company, Software-as-a-Service, CRM, No-Code, and Low-Code.
 
 
-  The Creatio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Creatio catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Creatio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
+  Creatio''s developer surface includes CLI, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 32 more developer resources.'
 plans:
 - name: Creatio Plans Pricing
   plan_count: 3
@@ -209,27 +305,44 @@ rate_limits:
 - limit_count: 5
   name: Creatio Rate Limits
   slug: creatio-rate-limits
+rules:
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Creatio API Rules
+  rule_count: 9
+  severity_counts:
+    error: 7
+    hint: 0
+    info: 1
+    warn: 1
+  slug: creatio-rules
 score:
   band: strong
-  composite: 60.3
+  composite: 62.0
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 64.0
+    artifact_dirs: 27
+    catalog_earned: 83.8
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 31.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.8
   facets:
     access_clarity: 92.1
-    contract_governance: 18.2
-    contract_quality: 39.0
-    developer_ergonomics: 64.3
-    discoverability: 78.6
-    operational_transparency: 55.3
-  previous_composite: 60.3
+    contract_governance: 35.6
+    contract_quality: 28.3
+    developer_ergonomics: 71.4
+    discoverability: 80.4
+    operational_transparency: 65.8
+  previous_composite: 59.2
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 5
+      marker_coverage: 100.0
+      total: 5
     mcp: derived
   regulatory:
     applies: true
@@ -238,12 +351,11 @@ score:
     regime_id: horizontal
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/screenshots/creatio-2026-07-25T210701.png
 security:
 - kind: authentication

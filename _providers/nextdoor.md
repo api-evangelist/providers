@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
   description: The Search API from Nextdoor — 4 operation(s) for search.
   name: Nextdoor Search API
   slug: nextdoor-search-api
-artifact_total: 21
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -97,6 +97,11 @@ collections:
   name: Nextdoor Developer API
   slug: open-nextdoor
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/capabilities/nextdoor-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nextdoor-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -162,6 +167,10 @@ finops:
   slug: nextdoor-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nextdoor.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at nextdoor.com over HTTP.
+  name: Nextdoor MCP Server
+  slug: nextdoor
 modified: '2026-04-28'
 name: Nextdoor
 nav: Providers
@@ -169,7 +178,7 @@ network: true
 overview: 'Nextdoor publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Advertising API, Conversions API, Creatives API, and 3 more. Tagged areas include Social, Local, Advertising, Community, and Sharing.
 
 
-  Nextdoor''s developer surface includes authentication, documentation, changelog, engineering blog, and 9 more developer resources.'
+  Nextdoor''s developer surface includes authentication, documentation, changelog, engineering blog, and 10 more developer resources.'
 plans:
 - name: Nextdoor Plans Pricing
   plan_count: 3
@@ -188,13 +197,13 @@ score:
   band: thin
   composite: 28.6
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
@@ -202,7 +211,7 @@ score:
     developer_ergonomics: 26.2
     discoverability: 66.7
     operational_transparency: 18.4
-  previous_composite: 28.6
+  previous_composite: 28.0
   provenance:
     agentic_access: derived
     contracts:
@@ -218,7 +227,7 @@ score:
     regime_id: horizontal
     score: 27.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

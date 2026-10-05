@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Artificial Labs provides an AI coding platform with autonomous agents.
@@ -99,7 +99,7 @@ score:
   band: emerging
   composite: 16.4
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 30.0
     catalog_earned_first_party: 0.0
     catalog_gap: 85.0
@@ -121,7 +121,7 @@ score:
     regime_id: horizontal
     score: 18.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

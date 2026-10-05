@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: 'Core REST API for Service Cloud operations: sObject CRUD over Case, CaseComment, EmailMessage, Knowledge articles and every other standard and custom object, plus SOQL query, SOSL search and composite'
@@ -69,37 +69,16 @@ apis:
   baseurl_source: spec
   description: The bot API from Salesforce Service Cloud APIs — 3 operation(s) for bot.
   name: Salesforce Service Cloud APIs Bot API
-  phrasing_intents:
-  - id: startSession
-    intent: Start a conversation with an Einstein Bot
-    question: How do I open a new chat session with an Einstein Bot from my own app?
-  - id: continueSession
-    intent: Send a message in an active bot session
-    question: How do I send the customer's next reply to a bot conversation that's already running?
-  - id: endSession
-    intent: End an active bot session
-    question: How do I close out a bot conversation when the customer leaves?
-  phrasing_ops: 3
   slug: service-cloud-bot-api
 - baseURL: https://runtime-api-na-west.prod.chatbots.sfdc.sh
   baseurl_source: spec
   description: The health API from Salesforce Service Cloud APIs — 1 operation(s) for health.
   name: Salesforce Service Cloud APIs Health API
-  phrasing_intents:
-  - id: checkHealthStatus
-    intent: Check whether the bots service is up
-    question: Is the Einstein Bots API up or down right now?
-  phrasing_ops: 1
   slug: service-cloud-health-api
 - baseURL: https://runtime-api-na-west.prod.chatbots.sfdc.sh
   baseurl_source: spec
   description: The versions API from Salesforce Service Cloud APIs — 1 operation(s) for versions.
   name: Salesforce Service Cloud APIs Versions API
-  phrasing_intents:
-  - id: getAPIVersions
-    intent: List supported bots API versions
-    question: Which versions of the Einstein Bots API are currently supported?
-  phrasing_ops: 1
   slug: service-cloud-versions-api
 - description: SOAP-based API for enterprise integration and complex service cloud operations.
   name: Salesforce Service Cloud SOAP API
@@ -367,7 +346,7 @@ finops:
 image: https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2024/11/logo-salesforce.svg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at api.salesforce.com requiring OAuth.
   name: Salesforce Hosted MCP Servers + Salesforce DX MCP Server
   slug: salesforce-hosted-mcp-servers-salesforce-dx-mcp-server
 modified: '2026-09-16'
@@ -405,7 +384,7 @@ score:
     catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.3
   facets:
     access_clarity: 100.0
     contract_governance: 18.2
@@ -413,7 +392,7 @@ score:
     developer_ergonomics: 82.7
     discoverability: 58.3
     operational_transparency: 84.2
-  previous_composite: 71.9
+  previous_composite: 68.6
   provenance:
     conformance: first-party
     contracts:
@@ -430,7 +409,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

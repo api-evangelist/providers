@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -49,227 +49,51 @@ apis:
   baseurl_source: declared
   description: Manage affiliate groups
   name: Tapfiliate Affiliate Groups API
-  phrasing_intents:
-  - id: listAffiliateGroups
-    intent: List affiliate groups
-    question: Which affiliate groups have I set up in Tapfiliate?
-  - id: createAffiliateGroup
-    intent: Create an affiliate group
-    question: How do I create a new group to organize my affiliates?
-  - id: updateAffiliateGroup
-    intent: Rename an affiliate group
-    question: Can I rename an affiliate group that already exists?
-  phrasing_ops: 3
   slug: tapfiliate-affiliate-groups-api
 - baseURL: https://api.tapfiliate.com/1.6/
   baseurl_source: declared
   description: Manage affiliate prospects (pending applicants)
   name: Tapfiliate Affiliate Prospects API
-  phrasing_intents:
-  - id: listAffiliateProspects
-    intent: List affiliate prospects
-    question: Who has applied to become an affiliate but isn't one yet?
-  - id: createAffiliateProspect
-    intent: Add an affiliate prospect
-    question: How do I record someone as a prospective affiliate before they join?
-  - id: getAffiliateProspect
-    intent: Look up an affiliate prospect
-    question: Can I see the details of one specific affiliate prospect?
-  - id: deleteAffiliateProspect
-    intent: Delete an affiliate prospect
-    question: Can I remove a prospect application I don't want to pursue?
-  phrasing_ops: 4
   slug: tapfiliate-affiliate-prospects-api
 - baseURL: https://api.tapfiliate.com/1.6/
   baseurl_source: declared
   description: Manage affiliates, their groups, notes, and payout methods
   name: Tapfiliate Affiliates API
-  phrasing_intents:
-  - id: getAffiliate
-    intent: Retrieve an affiliate
-    question: Can I pull up one affiliate's profile by their ID?
-  - id: deleteAffiliate
-    intent: Delete an affiliate
-    question: How do I permanently delete an affiliate from my account?
-  - id: listAffiliates
-    intent: List affiliates
-    question: Which affiliates belong to a particular affiliate group?
-  - id: createAffiliate
-    intent: Create an affiliate
-    question: How do I sign up a new affiliate directly through the API?
-  - id: setAffiliateGroup
-    intent: Assign an affiliate to a group
-    question: Can I move an affiliate into one of my affiliate groups?
-  - id: removeAffiliateGroup
-    intent: Remove an affiliate from their group
-    question: Can I take an affiliate out of their group without deleting them?
-  - id: updateAffiliateNote
-    intent: Edit a note on an affiliate
-    question: Can I edit the text of a note I already added to an affiliate?
-  - id: deleteAffiliateNote
-    intent: Delete a note on an affiliate
-    question: Can I delete a note I left on an affiliate?
-  phrasing_ops: 24
   slug: tapfiliate-affiliates-api
 - baseURL: https://api.tapfiliate.com/1.6/
   baseurl_source: declared
   description: View affiliate balances
   name: Tapfiliate Balances API
-  phrasing_intents:
-  - id: listAllBalances
-    intent: List all affiliate balances
-    question: How much do I owe all my affiliates across every program?
-  phrasing_ops: 1
   slug: tapfiliate-balances-api
 - baseURL: https://api.tapfiliate.com/1.6/
   baseurl_source: declared
   description: Track and manage clicks
   name: Tapfiliate Clicks API
-  phrasing_intents:
-  - id: listClicks
-    intent: List affiliate clicks
-    question: Which referral clicks came in during a given date range?
-  - id: createClick
-    intent: Record a referral click
-    question: How do I track a click on an affiliate's referral link from my server?
-  - id: getClick
-    intent: Get details of a click
-    question: What details are recorded for a single click?
-  phrasing_ops: 3
   slug: tapfiliate-clicks-api
 - baseURL: https://api.tapfiliate.com/1.6/
   baseurl_source: declared
   description: Manage individual commissions
   name: Tapfiliate Commissions API
-  phrasing_intents:
-  - id: getCommission
-    intent: Retrieve a commission
-    question: Can I look up one commission by its ID?
-  - id: updateCommission
-    intent: Change a commission amount
-    question: Can I adjust the amount of a commission after it was created?
-  - id: listCommissions
-    intent: List commissions
-    question: Which commissions are still waiting for approval?
-  - id: approveCommission
-    intent: Approve a commission
-    question: How do I approve a pending commission so it can be paid out?
-  - id: disapproveCommission
-    intent: Disapprove a commission
-    question: Can I revoke approval on a commission I already approved?
-  phrasing_ops: 5
   slug: tapfiliate-commissions-api
 - baseURL: https://api.tapfiliate.com/1.6/
   baseurl_source: declared
   description: Track and manage conversions and commissions
   name: Tapfiliate Conversions API
-  phrasing_intents:
-  - id: getConversion
-    intent: Retrieve a conversion
-    question: Can I look up one conversion by its ID?
-  - id: updateConversion
-    intent: Update a conversion
-    question: Can I change the amount on a conversion after it was tracked?
-  - id: deleteConversion
-    intent: Delete a conversion
-    question: How do I delete a conversion that was recorded by mistake?
-  - id: listConversions
-    intent: List conversions
-    question: Which conversions happened between two dates?
-  - id: createConversion
-    intent: Record a conversion
-    question: How do I track a sale and credit it to an affiliate?
-  - id: addCommissionsToConversion
-    intent: Add commissions to a conversion
-    question: Can I add extra commission entries to a conversion that already exists?
-  - id: getConversionMetaData
-    intent: Get all metadata for a conversion
-    question: What custom metadata is stored on a conversion?
-  - id: replaceConversionMetaData
-    intent: Replace a conversion's metadata
-    question: Can I overwrite a conversion's whole metadata object in one go?
-  phrasing_ops: 11
   slug: tapfiliate-conversions-api
 - baseURL: https://api.tapfiliate.com/1.6/
   baseurl_source: declared
   description: Manage customers and their metadata
   name: Tapfiliate Customers API
-  phrasing_intents:
-  - id: getCustomer
-    intent: Retrieve a customer
-    question: Can I look up one referred customer by their ID?
-  - id: updateCustomer
-    intent: Update a customer
-    question: Can I change the external identifier on an existing customer?
-  - id: deleteCustomer
-    intent: Delete a customer
-    question: How do I delete a customer record completely?
-  - id: listCustomers
-    intent: List customers
-    question: Which customers have been referred by my affiliates?
-  - id: createCustomer
-    intent: Create a customer
-    question: How do I register a referred customer, for example on a trial signup?
-  - id: cancelCustomer
-    intent: Cancel or reactivate a customer
-    question: How do I mark a customer as cancelled when they churn?
-  - id: getCustomerMetaData
-    intent: Get all metadata for a customer
-    question: What custom metadata is stored on a customer?
-  - id: replaceCustomerMetaData
-    intent: Replace a customer's metadata
-    question: Can I overwrite a customer's whole metadata object in one call?
-  phrasing_ops: 11
   slug: tapfiliate-customers-api
 - baseURL: https://api.tapfiliate.com/1.6/
   baseurl_source: declared
   description: Manage affiliate payments
   name: Tapfiliate Payments API
-  phrasing_intents:
-  - id: getPayment
-    intent: Retrieve an affiliate payment
-    question: Can I look up a single affiliate payment by its ID?
-  - id: cancelPayment
-    intent: Cancel a pending payment
-    question: How do I cancel an affiliate payment that hasn't gone out yet?
-  - id: listPayments
-    intent: List affiliate payments
-    question: Which affiliate payments were paid out during a given period?
-  - id: createPayment
-    intent: Create an affiliate payment batch
-    question: How do I pay out several affiliates in one batch?
-  phrasing_ops: 4
   slug: tapfiliate-payments-api
 - baseURL: https://api.tapfiliate.com/1.6/
   baseurl_source: declared
   description: Manage affiliate programs and program affiliates
   name: Tapfiliate Programs API
-  phrasing_intents:
-  - id: getProgram
-    intent: Retrieve an affiliate program
-    question: Can I look up the settings of one affiliate program?
-  - id: listPrograms
-    intent: List affiliate programs
-    question: Which affiliate programs do I run in Tapfiliate?
-  - id: listProgramAffiliates
-    intent: List affiliates in a program
-    question: Who is enrolled in a particular affiliate program?
-  - id: addAffiliatToProgram
-    intent: Enroll an affiliate in a program
-    question: How do I add an existing affiliate to another program?
-  - id: getProgramAffiliate
-    intent: Get an affiliate's program enrollment
-    question: What are an affiliate's coupon and referral link in a given program?
-  - id: updateProgramAffiliate
-    intent: Update an affiliate's program enrollment
-    question: Can I assign a coupon code to an affiliate within a program?
-  - id: approveAffiliate
-    intent: Approve an affiliate in a program
-    question: How do I approve an affiliate who applied to my program?
-  - id: disapproveAffiliate
-    intent: Disapprove an affiliate in a program
-    question: Can I reject or revoke an affiliate's place in a program?
-  phrasing_ops: 11
   slug: tapfiliate-programs-api
 - description: Official remote Model Context Protocol server for Tapfiliate, announced 2026-08-07. A read-only analytics surface over live account data — clicks, conversions, customers, revenue, commissions, payouts
   name: Tapfiliate MCP Server
@@ -545,7 +369,7 @@ layout: provider
 mcp_servers:
 - description: Tapfiliate operates an official REMOTE MCP server at https://mcp.tapfiliate.com/mcp. It is an OAuth 2.0 protected resource (RFC 9728) — an anonymous tools/list returns HTTP 401 with a WWW-Authenticate
   name: Tapfiliate MCP Server
-  slug: tapfiliate-mcp-server
+  slug: tapfiliate
 modified: 2026-08-13
 name: Tapfiliate
 nav: Providers
@@ -592,7 +416,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.0
   facets:
     access_clarity: 84.2
     contract_governance: 28.0
@@ -600,7 +424,7 @@ score:
     developer_ergonomics: 73.2
     discoverability: 75.0
     operational_transparency: 39.5
-  previous_composite: 69.8
+  previous_composite: 67.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -618,7 +442,7 @@ score:
     regime_id: horizontal
     score: 40.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

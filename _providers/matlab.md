@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 13
 apis:
 - description: Call MATLAB from Python, allowing Python programs to start MATLAB, execute MATLAB functions, and exchange data between Python and MATLAB.
@@ -81,6 +81,16 @@ asyncapis:
   name: Matlab Thingspeak Events
   slug: matlab-thingspeak-events
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/hosts/matlab-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/matlab-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/vendors/matlab-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/matlab-vendors.yml
 - group: company
   title: ''
   type: Website
@@ -295,7 +305,7 @@ overview: 'MATLAB publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
   The MATLAB catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  MATLAB''s developer surface includes developer portal, documentation, pricing, engineering blog, support, authentication, changelog, and 35 more developer resources.'
+  MATLAB''s developer surface includes developer portal, documentation, pricing, engineering blog, support, authentication, changelog, and 37 more developer resources.'
 plans:
 - name: Matlab Plans Pricing
   plan_count: 12
@@ -309,13 +319,13 @@ score:
   band: exemplar
   composite: 72.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 23
     catalog_earned: 67.0
     catalog_earned_first_party: 24.0
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 100.0
     contract_governance: 4.5
@@ -323,7 +333,7 @@ score:
     developer_ergonomics: 88.1
     discoverability: 83.3
     operational_transparency: 92.1
-  previous_composite: 72.4
+  previous_composite: 71.0
   provenance:
     conformance: derived
     mcp: first-party
@@ -335,7 +345,7 @@ score:
     regime_id: horizontal
     score: 32.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

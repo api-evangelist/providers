@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -130,7 +130,7 @@ apis:
   description: Everything about Webhooks
   name: Lago Webhooks API
   slug: lago-webhooks-api
-artifact_total: 44
+artifact_total: 45
 collections:
 - collection_type: open
   name: API Collection
@@ -190,6 +190,11 @@ collections:
   name: Lago API documentation
   slug: open-lago
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/capabilities/lago-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lago-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/agentic-access/lago-agentic-access.yml
   title: ''
@@ -251,6 +256,10 @@ finops:
   slug: lago-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lago.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at getlago.com over HTTP; 2 tools listed.
+  name: Lago MCP Server
+  slug: lago
 modified: '2026-05-19'
 name: Lago
 nav: Providers
@@ -258,7 +267,7 @@ network: true
 overview: 'Lago publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Add_ons API, Analytics API, Billable_metrics API, and 14 more. Tagged areas include Billing, Metering, Open Source, and Usage-Based.
 
 
-  Lago''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  Lago''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Lago Plans Pricing
   plan_count: 3
@@ -278,7 +287,7 @@ score:
     catalog_gap: 84.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
@@ -286,7 +295,7 @@ score:
     developer_ergonomics: 30.2
     discoverability: 50.0
     operational_transparency: 10.5
-  previous_composite: 34.5
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -302,7 +311,7 @@ score:
     regime_id: horizontal
     score: 22.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

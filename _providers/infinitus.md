@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The customer-gated Infinitus backend API. Infinitus' own AI Agent Security Guide instructs customers to allowlist https://api.infinitusai.com on TCP 443 for "portal and backend API access". Probing co
@@ -160,9 +160,9 @@ description: 'Infinitus Systems is a safety-first healthcare voice AI platform t
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/infinitus.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at www.infinitus.ai over HTTP requiring OAuth.
   name: Infinitus MCP Server
-  slug: infinitus-mcp-server
+  slug: infinitus-mcp-oauth-server
 modified: '2026-08-15'
 name: Infinitus
 nav: Providers
@@ -195,7 +195,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.2
   facets:
     access_clarity: 53.9
     contract_governance: 18.2
@@ -203,7 +203,7 @@ score:
     developer_ergonomics: 28.6
     discoverability: 75.0
     operational_transparency: 13.2
-  previous_composite: 31.9
+  previous_composite: 35.1
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -220,7 +220,7 @@ score:
     regime_id: health
     score: 39.0
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

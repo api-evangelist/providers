@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -162,9 +162,9 @@ created: '2026-10-02'
 description: Contract Guard provides a deterministic JSON Schema validation API for software and AI workflows. It returns exact validation violations and optional conservative type normalization. The service is operated by WOODS HOLDING GROUP LLC and is currently in an experimental live state with billing disabled. It offers a public demo, OpenAPI 3.1 spec, MCP endpoint, ARD manifest, Postman collection, and product registry.
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at contract-guard-production.up.railway.app.
   name: Contract Guard / Autonomous Utility Factory MCP Server
-  slug: contract-guard-autonomous-utility-factory-mcp-server
+  slug: contract-guard-mcp-yml
 modified: '2026-10-02'
 name: Contract Guard / Autonomous Utility Factory
 nav: Providers
@@ -227,7 +227,7 @@ score:
     regime_id: horizontal
     score: 21.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -26,16 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 20
+artifact_total: 21
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/security/replica-domain-security.yml
@@ -279,6 +279,10 @@ json_schemas:
   property_count: 5
   slug: replica-weekly-spend-by-merchant-location
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.replicahq.com over HTTP.
+  name: Replica MCP Server
+  slug: replica
 modified: '2026-08-02'
 name: Replica
 nav: Providers
@@ -324,7 +328,7 @@ score:
     regime_id: government
     score: 10.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

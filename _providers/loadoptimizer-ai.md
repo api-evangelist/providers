@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -49,6 +49,11 @@ asyncapis:
   name: Loadoptimizer Ai Webhooks
   slug: loadoptimizer-ai-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/loadoptimizer-ai/refs/heads/main/capabilities/loadoptimizer-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/loadoptimizer-ai-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/loadoptimizer-ai/refs/heads/main/agentic-access/loadoptimizer-ai-agentic-access.yml
   title: ''
@@ -155,7 +160,7 @@ overview: 'LoadOptimizer.ai publishes 2 APIs on the [APIs.io](https://apis.io/) 
   The LoadOptimizer.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  LoadOptimizer.ai''s developer surface includes authentication, pricing, engineering blog, getting-started guide, documentation, and 15 more developer resources.'
+  LoadOptimizer.ai''s developer surface includes authentication, pricing, engineering blog, getting-started guide, documentation, and 16 more developer resources.'
 plans:
 - name: Loadoptimizer Ai Plans Pricing
   plan_count: 5
@@ -177,7 +182,7 @@ score:
   band: developing
   composite: 41.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 51.5
     catalog_earned_first_party: 12.0
     catalog_gap: 63.5
@@ -207,7 +212,7 @@ score:
     regime_id: horizontal
     score: 19.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 0.0

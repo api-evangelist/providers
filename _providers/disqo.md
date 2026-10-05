@@ -28,14 +28,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.6
-  scored_at: '2026-10-03'
+  score: 14.0
+  scored_at: '2026-10-04'
 api_count: 4
 apis:
 - baseURL: https://projects-api.audience.disqo.com
@@ -52,7 +52,7 @@ apis:
 - description: 'Validate an email address for co-registration flows — checks address format, whether the address already exists in the DISQO system, and optionally runs an Email Oversight verification. Authenticated '
   name: DISQO CoReg API
   slug: disqo-coreg-api
-artifact_total: 6
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -154,6 +154,10 @@ created: '2026-08-04'
 description: DISQO is a Glendale, California consumer-insights and advertising-measurement company that operates a first-party, fully opted-in consumer panel and sells programmatic access to it. Its public API surface is the DISQO Audience API — a RESTful, HTTP Basic authenticated set of services for checking sample feasibility, creating and managing survey projects and quotas, attaching custom screening questions, and managing included/excluded panelist and project lists — plus a redirect/callback tracking contract that returns panelists to DISQO with an HMAC-SHA256 signed status. A separate CoReg API validates email addresses for co-registration flows. DISQO also sells Brand Lift, Outcomes Lift, Research Management and cross-platform ad measurement products on top of the same panel.
 image: https://www.disqo.com/wp-content/uploads/2025/11/HomePage_Header.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.disqo.com over HTTP.
+  name: DISQO MCP Server
+  slug: disqo
 modified: '2026-08-04'
 name: DISQO
 nav: Providers
@@ -173,7 +177,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
@@ -181,7 +185,7 @@ score:
     developer_ergonomics: 68.6
     discoverability: 80.0
     operational_transparency: 15.8
-  previous_composite: 29.9
+  previous_composite: 28.8
   provenance:
     conformance: derived
     mcp: first-party
@@ -192,7 +196,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

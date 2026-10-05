@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 53
-  human_in_the_loop: 4
+- acting_count: 57
+  human_in_the_loop: 5
   name: Timescale Agentic Access
-  operation_count: 83
+  operation_count: 87
   slug: timescale-agentic-access
-  summary_line: 83 operations · 53 acting · 4 human-in-the-loop
+  summary_line: 87 operations · 57 acting · 5 human-in-the-loop
 api_count: 2
 apis:
 - description: A publicly reachable, anonymous Model Context Protocol server (server name pg-aiguide) serving hybrid semantic + BM25 search over Tiger Cloud, TimescaleDB, PostgreSQL and PostGIS documentation, plus a
@@ -142,6 +142,11 @@ collections:
   name: Tiger Cloud VP Cs API
   slug: open-timescale-vpcs-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/capabilities/timescale-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/timescale-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/agentic-access/timescale-agentic-access.yml
   title: ''
@@ -349,9 +354,9 @@ description: Timescale — rebranded as Tiger Data in 2025 — is the PostgreSQL
 image: https://www.tigerdata.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.tigerdata.com.
   name: Timescale MCP Server
-  slug: timescale-mcp-server
+  slug: timescale-mcp-yml
 modified: '2026-08-05'
 name: Timescale
 nav: Providers
@@ -359,19 +364,19 @@ network: true
 overview: 'Timescale publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Auth API, Feedback API, and 9 more. Tagged areas include Company, Database, PostgreSQL, Time Series, and Analytics.
 
 
-  Timescale''s developer surface includes authentication, CLI, changelog, release notes, sandbox, developer console, documentation, and 38 more developer resources.'
+  Timescale''s developer surface includes authentication, CLI, changelog, release notes, sandbox, developer console, documentation, and 39 more developer resources.'
 random_paper: 5
 score:
   band: strong
   composite: 54.9
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 53.9
     contract_governance: 4.5
@@ -379,7 +384,7 @@ score:
     developer_ergonomics: 82.7
     discoverability: 75.0
     operational_transparency: 44.7
-  previous_composite: 54.9
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -405,7 +410,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

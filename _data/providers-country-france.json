@@ -1,6 +1,6 @@
 {
- "total": 156,
- "shown": 156,
+ "total": 157,
+ "shown": 157,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -66,18 +66,18 @@
      "slug": "orange-business",
      "description": "Orange Business is the B2B, telco-cloud, and developer arm of Orange S.A. — France's leading telecommunications group operating across Europe, the Middle East, and Africa. The company markets itself as \"an operator, integrator, and platform player\" and serves 30,000+ enterprise customers across 65 countries with cloud, cybersecurity, SD-WAN/SASE, 5G, IoT, data, AI, and digital-workplace services. Orange's developer surface is split across two tracks. The Orange Developer portal (developer.orange.com) publishes the Orange Open Gateway — Orange's implementation of GSMA Open Gateway / CAMARA standardised network APIs (Number Verification, SIM Swap, Device Swap, KYC Match, Device Location, Geofencing, Device Status, Quality on Demand, Population Density Data) — alongside Orange-specific APIs for IoT (Live Objects, IoT Global Connectivity), payments (Orange Money WebPay, Pay With Orange Bill, carrier billing across Orange Africa), communications (Voice, SMS MEA, Business Talk, Contact Everyone), cloud (Cloud Avenue sovereign IaaS, Evolution Platform), and identity (Live Identity Verify, Live Identity Captcha). The Orange Business Services portfolio adds a B2B TM Forum–aligned API track for ordering, billing, incident management, eligibility, and order tracking. The Orange-OpenSource GitHub org backs the developer ecosystem with 427+ repos including Hurl (the popular Rust HTTP testing CLI with 18K+ stars), the Boosted accessible Bootstrap framework, the OUDS Orange Unified Design System for iOS / Android / Flutter, and 5G Kubernetes Helm charts. Orange has also stood up Orange LiveNet, a business unit dedicated to commercialising programmable network capabilities, and is one of the founding operators of the GSMA Open Gateway initiative with the CAMARA Linux Foundation project.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/screenshots/orange-business-2026-06-20T191153.png",
-     "score": 65.3,
+     "score": 64.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 68.3,
+      "discoverability": 63.3,
       "contract_quality": 62.0,
       "contract_governance": 18.2,
       "operational_transparency": 78.9,
       "developer_ergonomics": 82.7,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -120,13 +120,13 @@
      "band_label": "Strong",
      "facets": {
       "discoverability": 80.0,
-      "contract_quality": 57.7,
+      "contract_quality": 57.8,
       "contract_governance": 35.6,
       "operational_transparency": 55.3,
       "developer_ergonomics": 75.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -176,7 +176,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -233,7 +233,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -301,7 +301,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -340,18 +340,18 @@
      "slug": "pennylane",
      "description": "Pennylane is a French financial and accounting operating system for SMEs and accounting firms. The Company API (v2) lets companies, firms, and integration partners access and sync invoicing, accounting, banking, and financial data over a REST interface, and automate end-to-end workflows. V2 is the stable version; V1 is deprecated. All amounts are in EUR and the platform is built around French accounting (FEC exports, Plateforme Agréée e-invoicing, SEPA/GoCardless mandates).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/screenshots/pennylane-2026-08-17T081155.png",
-     "score": 58.5,
+     "score": 58.0,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 71.7,
+      "discoverability": 66.7,
       "contract_quality": 45.4,
       "contract_governance": 18.2,
       "operational_transparency": 67.6,
       "developer_ergonomics": 53.0,
       "access_clarity": 81.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -396,18 +396,18 @@
      "name": "Sirenic",
      "slug": "sirenic-eu",
      "description": "Sirenic is a French pay-per-call API for official company data across France and Europe, built for AI agents. It serves company search and profiles by SIREN/SIRET from INSEE Sirene and INPI RNE, establishments, officers, filed accounts and ratios, BODACC legal alerts, a default-risk score, sanctions screening against six official lists, KYB dossiers, live VIES VAT and IBAN checks with a ready-to-invoice verdict for the 2026 French e-invoicing mandate, public-procurement records, watchlists with Ed25519-signed webhooks, and profiles, accounts and events from thirteen European registers plus LEI/GLEIF groups. Every /v1 route is a GET priced per call ($0.002 to $1.00) and paid either through the x402 protocol in USDC or EURC on Base with no account, or with an srn_live_ API key and prepaid euro credits. It publishes an OpenAPI 3.1, llms.txt, an RFC 9727 api-catalog, an MCP server, an A2A agent card, x402 discovery and OAuth metadata from api.sirenic.eu.",
-     "score": 56.5,
+     "score": 56.0,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 71.7,
+      "discoverability": 66.7,
       "contract_quality": 57.1,
       "contract_governance": 18.2,
       "operational_transparency": 34.2,
       "developer_ergonomics": 70.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -464,7 +464,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -503,18 +503,18 @@
      "slug": "fintecture",
      "description": "Fintecture is a French Open Banking payments platform and ACPR-authorised payment institution (#17248). Its API stack covers PSD2 Payment Initiation (Immediate Transfer, Smart Transfer, Request To Pay, Buy Now Pay Later, Verified Payout, Immediate Refund), PSD2 Account Information (accounts, holders, transactions, identity verification), Customers, E-Mandates, and a beta Organisation Access Credentials surface for managing multi-tenant enterprise estates. Clients include Auchan, Bricoman, Pluxee, PMU, and Edenred, with 2M+ end payers served. Plug-and-play modules for PrestaShop, Magento, Shopify, WordPress, Odoo, Intershop, and Oasis sit on top of official JavaScript, Python, PHP, and Ruby SDKs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/screenshots/fintecture-2026-06-20T181225.png",
-     "score": 55.1,
+     "score": 54.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 62.5,
+      "discoverability": 57.1,
       "contract_quality": 60.1,
       "contract_governance": 13.6,
       "operational_transparency": 46.8,
       "developer_ergonomics": 63.1,
       "access_clarity": 60.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -575,7 +575,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -632,7 +632,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 40.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -682,7 +682,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -739,7 +739,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -774,56 +774,6 @@
      "rank": 14
     },
     {
-     "name": "ETSI",
-     "slug": "etsi",
-     "description": "ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a European Standards Organisation. With over 900 member organisations from more than 60 countries it standardises ICT across mobile, fixed, broadcast, IoT, security and emerging technologies, and it hosts the 3GPP Mobile Competence Centre. In the telecom value chain ETSI sits upstream of every operator and vendor: it does not run a network or sell connectivity, it writes the specifications that the network is built from. Its API posture is unusually open for a standards body. Every ETSI deliverable is downloadable free of charge without login from etsi.org/deliver, and the machine-readable API artefacts are published as BSD-3-Clause OpenAPI on two public GitLab instances, forge.etsi.org and labs.etsi.org, both of which serve an anonymous REST API. From those ETSI publishes the ISG MEC edge service APIs, the NFV SOL lifecycle and orchestration APIs, the ISG CIM NGSI-LD context information API, and open-source implementations including OpenCAPIF for 3GPP CAPIF, OpenSlice for TM Forum Open APIs, and an Operator Platform Open Exposure Gateway that exposes northbound CAMARA APIs. What is member-gated is participation, not publication: portal.etsi.org, working documents, drafting and voting sit behind ETSI membership, while the finished standards and their OpenAPI are open to anyone. ETSI itself is not a GSMA Open Gateway operator and not a CAMARA member organisation; it reaches CAMARA through liaison and through its own open-source code.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/screenshots/etsi-2026-08-07T165027.png",
-     "score": 50.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 71.7,
-      "contract_quality": 38.2,
-      "contract_governance": 4.5,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 73.2,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 49.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 43.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 15
-    },
-    {
      "name": "Qobuz",
      "slug": "qobuz",
      "description": "Qobuz is a French hi-res audio streaming and download platform founded in 2007 and operated by Xandrie SA. It offers lossless FLAC streaming up to 24-bit/192 kHz and a hi-res download store covering over 100 million tracks across all genres. The Qobuz REST API (v0.2) is a partner-only interface that enables third-party applications — hi-fi hardware manufacturers, DAPs, music players, and streaming integrators — to search the catalog, retrieve album and artist metadata, generate authenticated streaming URLs, manage user playlists and favorites, and process purchases from the hi-res download store. API access requires contacting Qobuz directly at api@qobuz.com to obtain an app_id and app_secret. Consumer subscription plans (Studio Solo, Studio Duo, Studio Family, Sublime) provide the underlying access entitlement; partners and integrators are subject to the Qobuz API Terms of Use governed by French law. The service is deployed across France, Germany, and Canada infrastructure nodes monitored via a public status page.",
@@ -839,7 +789,7 @@
       "developer_ergonomics": 34.5,
       "access_clarity": 70.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -871,6 +821,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 15
+    },
+    {
+     "name": "ETSI",
+     "slug": "etsi",
+     "description": "ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a European Standards Organisation. With over 900 member organisations from more than 60 countries it standardises ICT across mobile, fixed, broadcast, IoT, security and emerging technologies, and it hosts the 3GPP Mobile Competence Centre. In the telecom value chain ETSI sits upstream of every operator and vendor: it does not run a network or sell connectivity, it writes the specifications that the network is built from. Its API posture is unusually open for a standards body. Every ETSI deliverable is downloadable free of charge without login from etsi.org/deliver, and the machine-readable API artefacts are published as BSD-3-Clause OpenAPI on two public GitLab instances, forge.etsi.org and labs.etsi.org, both of which serve an anonymous REST API. From those ETSI publishes the ISG MEC edge service APIs, the NFV SOL lifecycle and orchestration APIs, the ISG CIM NGSI-LD context information API, and open-source implementations including OpenCAPIF for 3GPP CAPIF, OpenSlice for TM Forum Open APIs, and an Operator Platform Open Exposure Gateway that exposes northbound CAMARA APIs. What is member-gated is participation, not publication: portal.etsi.org, working documents, drafting and voting sit behind ETSI membership, while the finished standards and their OpenAPI are open to anyone. ETSI itself is not a GSMA Open Gateway operator and not a CAMARA member organisation; it reaches CAMARA through liaison and through its own open-source code.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/screenshots/etsi-2026-08-07T165027.png",
+     "score": 50.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 38.2,
+      "contract_governance": 4.5,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 73.2,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 49.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 43.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 16
     },
     {
@@ -878,18 +878,18 @@
      "slug": "lokki",
      "description": "Lokki is a Grenoble, France rental-management SaaS (getlokki.com) used by 2,500+ equipment rental businesses across bikes, e-bikes, scooters, cars, ski, climbing, surf, paddle, canoe/kayak, boats, event gear, groundskeeping equipment and tooling, paired with the lokki.rent consumer rental marketplace. Lokki publishes a partner-facing read-only REST API — the Lokki External API, seven operations on https://prod.api.eu-west-3.lokki.rent covering stores (rental providers), store items with date-range pricing and stock, and the verticale/category taxonomy — documented on a Mintlify docs host at docs.getlokki.com with an OpenAPI 3.1 specification, llms.txt, an A2A agent card, a provider-authored Agent Skill and an anonymous documentation MCP server. Authentication is an environment-scoped API key in the x-api-key header (lokki_sk_test_ for staging, lokki_sk_live_ for production) issued by a Lokki representative under a partnership agreement, with scopes at domain, action and route level. The same production host also serves an unauthenticated NestJS Swagger document for the 896-operation internal Dashboard / Online Store API. Lokki has raised roughly €6.3M, led by blisce with Racine2 (Serena + makesense), 50 Partners Impact, FJ Labs and Silence VC.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lokki/refs/heads/main/screenshots/lokki-2026-09-02T150326.png",
-     "score": 49.6,
+     "score": 49.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 75.0,
+      "discoverability": 70.0,
       "contract_quality": 42.7,
       "contract_governance": 4.5,
       "operational_transparency": 47.4,
       "developer_ergonomics": 71.4,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -946,7 +946,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -996,7 +996,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1056,7 +1056,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1091,56 +1091,6 @@
      "rank": 20
     },
     {
-     "name": "Coorpacademy",
-     "slug": "coorpacademy",
-     "description": "Coorpacademy is a Swiss-French corporate digital-learning platform, founded in 2013 and acquired by Australian edtech Go1 in April 2022, now marketed as \"Coorpacademy by Go1\". It sells a B2B SaaS learning experience platform built on inverted-pedagogy, gamified micro-learning: brand-scoped learning portals, a course and certification catalogue, skills taxonomies, learner progression and adaptive review, battles/leaderboards, and HR analytics. The platform is fronted by a public Swagger UI at api.coorpacademy.com that indexes fourteen internal-but-publicly-documented REST services — content, platform/brand management, progression, progression aggregations, SCIM 2.0 user provisioning, SCORM and SCORM-content players, H5P, transactional email, mobile, review mode, media, external upload and PDF rendering. Access to every service is key-gated; there is no self-serve developer signup, no published pricing, and no partner developer portal, so the specifications are the only machine-readable public surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/screenshots/coorpacademy-2026-09-02T145143.png",
-     "score": 43.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 71.4,
-      "contract_quality": 51.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 37.5,
-      "access_clarity": 35.5
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 29.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 33.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 21
-    },
-    {
      "name": "Welcome to the Jungle",
      "slug": "welcome-to-the-jungle",
      "description": "Welcome to the Jungle is a Paris-headquartered employer-branding and hiring platform. Its Welcome Hiring Suite bundles Welcome Employer Brand company showcases, Welcome ATS (historically shipped as Welcome Kit), Welcome Job Matching and Welcome Sourcing, alongside the welcometothejungle.com job board and media property. The company publishes the Welcome to the Jungle Solutions API — a token-gated REST API over jobs, departments, offices, candidates, candidate emails, documents, comments, employer-branding organizations, images, videos, analytics moves and WTTJ media articles — documented at developers.welcomekit.co and served from www.welcomekit.co/api/v1/external.",
@@ -1155,7 +1105,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1194,6 +1144,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 21
+    },
+    {
+     "name": "Coorpacademy",
+     "slug": "coorpacademy",
+     "description": "Coorpacademy is a Swiss-French corporate digital-learning platform, founded in 2013 and acquired by Australian edtech Go1 in April 2022, now marketed as \"Coorpacademy by Go1\". It sells a B2B SaaS learning experience platform built on inverted-pedagogy, gamified micro-learning: brand-scoped learning portals, a course and certification catalogue, skills taxonomies, learner progression and adaptive review, battles/leaderboards, and HR analytics. The platform is fronted by a public Swagger UI at api.coorpacademy.com that indexes fourteen internal-but-publicly-documented REST services — content, platform/brand management, progression, progression aggregations, SCIM 2.0 user provisioning, SCORM and SCORM-content players, H5P, transactional email, mobile, review mode, media, external upload and PDF rendering. Access to every service is key-gated; there is no self-serve developer signup, no published pricing, and no partner developer portal, so the specifications are the only machine-readable public surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/screenshots/coorpacademy-2026-09-02T145143.png",
+     "score": 42.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 51.3,
+      "contract_governance": 18.2,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 37.5,
+      "access_clarity": 35.5
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 29.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 33.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 22
     },
     {
@@ -1212,7 +1212,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1262,7 +1262,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1312,7 +1312,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1372,7 +1372,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1422,7 +1422,7 @@
       "developer_ergonomics": 32.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1472,7 +1472,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1522,7 +1522,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 37.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1572,7 +1572,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1622,7 +1622,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 47.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1672,7 +1672,7 @@
       "developer_ergonomics": 35.2,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1722,7 +1722,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1772,7 +1772,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1822,7 +1822,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 47.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1872,7 +1872,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1922,7 +1922,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 37.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1982,7 +1982,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2032,7 +2032,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2082,7 +2082,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2131,7 +2131,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2181,7 +2181,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2238,7 +2238,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2288,7 +2288,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2349,7 +2349,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2399,7 +2399,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2456,7 +2456,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2506,7 +2506,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2556,7 +2556,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2606,7 +2606,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2656,7 +2656,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2713,7 +2713,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2763,7 +2763,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2813,7 +2813,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2863,7 +2863,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2913,7 +2913,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2963,7 +2963,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3013,7 +3013,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3063,7 +3063,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3113,7 +3113,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3163,7 +3163,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3220,7 +3220,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3259,18 +3259,18 @@
      "slug": "pretto",
      "description": "Pretto is a French online mortgage brokerage (courtier en credit immobilier) operated by FINSPOT SAS, founded in 2016 and headquartered in Paris. It runs a digital platform that lets borrowers simulate a home loan, compare rates across more than 125 partner banks, assemble a financing file and be accompanied by a human credit expert through to signature, and it publishes a transparent, non-negotiable fee schedule instead of the bank-funded commission model used by most French brokers. Pretto also operates Pretto Galaxie, a B2B network that opens the same technology stack — semi-automated file assembly, an embeddable loan simulator, a client portal, a commission dashboard and a back-office service — to independent brokers, and Pretto Search, a consumer property-search product priced against real borrowing capacity. FINSPOT is registered with ORIAS (17000916) as a banking/payment-services and insurance broker and is supervised by the ACPR. As of this pass Pretto publishes no public developer program: the api.pretto.fr host serves its API reference behind HTTP Basic auth and the developers.pretto.fr ReadMe hub is deactivated.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pretto/refs/heads/main/screenshots/pretto-2026-09-02T151949.png",
-     "score": 16.1,
+     "score": 15.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 58.3,
+      "discoverability": 55.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
       "developer_ergonomics": 7.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3279,13 +3279,13 @@
       "score": 21.1,
       "matched_via": "tags"
      },
-     "agent_score": 11.2,
-     "agent_band": "agent-aware",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": false,
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -3320,7 +3320,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3369,7 +3369,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3419,7 +3419,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3428,7 +3428,7 @@
       "score": 13.7,
       "matched_via": "fallback"
      },
-     "agent_score": 12.2,
+     "agent_score": 8.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -3447,7 +3447,7 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": "verified",
+      "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -3469,7 +3469,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3518,7 +3518,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3568,7 +3568,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3618,7 +3618,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3668,7 +3668,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3718,7 +3718,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3775,7 +3775,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3825,7 +3825,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3875,7 +3875,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3925,7 +3925,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3975,7 +3975,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4032,7 +4032,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4082,7 +4082,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4139,7 +4139,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4189,7 +4189,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4239,7 +4239,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4289,7 +4289,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4338,7 +4338,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 14.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4388,7 +4388,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4438,7 +4438,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4488,7 +4488,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4538,7 +4538,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4588,7 +4588,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4638,7 +4638,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4688,7 +4688,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4729,8 +4729,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 65,
-   "shown": 65,
+   "count": 66,
+   "shown": 66,
    "providers": [
     {
      "name": "Kerys",
@@ -4748,7 +4748,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4798,7 +4798,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4848,7 +4848,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4898,7 +4898,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4948,7 +4948,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4998,7 +4998,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5048,7 +5048,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5098,7 +5098,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5148,7 +5148,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5198,7 +5198,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5248,7 +5248,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5298,7 +5298,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5348,7 +5348,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5398,7 +5398,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5447,7 +5447,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5496,7 +5496,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5546,7 +5546,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5595,7 +5595,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5645,7 +5645,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5695,7 +5695,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5745,7 +5745,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5794,7 +5794,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5844,7 +5844,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5894,7 +5894,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5944,7 +5944,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5994,7 +5994,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6044,7 +6044,7 @@
       "developer_ergonomics": 3.6,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6094,7 +6094,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6144,7 +6144,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6194,7 +6194,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6244,7 +6244,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6294,7 +6294,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6344,7 +6344,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6394,7 +6394,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6444,7 +6444,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6494,7 +6494,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6543,7 +6543,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6593,7 +6593,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6643,7 +6643,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6693,7 +6693,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6743,7 +6743,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6793,7 +6793,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6843,7 +6843,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6893,7 +6893,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6943,7 +6943,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -6992,7 +6992,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7042,7 +7042,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7092,7 +7092,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7101,7 +7101,7 @@
       "score": 5.9,
       "matched_via": "tags"
      },
-     "agent_score": 12.2,
+     "agent_score": 8.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -7120,7 +7120,7 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": "verified",
+      "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -7142,7 +7142,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7192,7 +7192,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7242,7 +7242,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7277,6 +7277,55 @@
      "rank": 142
     },
     {
+     "name": "Boursobank",
+     "slug": "boursobank",
+     "description": "Boursobank, operating under the brand BoursoBank, is a French online bank offering a full suite of financial services including free banking accounts, credit cards, loans, insurance, investment products, and savings plans. It positions itself as the cheapest digital bank in France, targeting individuals, professionals, youth, and private banking clients. The platform provides a modern web and mobile experience, emphasizing low fees, transparent pricing, and a wide range of banking and investment options.",
+     "score": 2.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 44.6,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 4.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 143
+    },
+    {
      "name": "Splash 360",
      "slug": "splash360",
      "description": "French vendor of point-of-sale and management software for collective catering — company restaurants, school and institutional canteens. The product line covers a smart till, self-service ordering kiosks and kiosk software, Wifi Order, a Kitchen Display System, a back-office management layer, a coin handler, and loyalty through a YouFid integration. NO PUBLIC API SURFACE: the company sells and deploys into catering operators directly, and publishes no developer portal, API documentation or machine-readable contract. That is the absence of a PUBLIC interface, not the absence of APIs — a till, a kiosk and a kitchen display exchanging orders are API-driven by construction, but those interfaces reach customers through deployment and integration work rather than a public developer program.",
@@ -7292,7 +7341,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7324,7 +7373,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 143
+     "rank": 144
     },
     {
      "name": "Outil Achats",
@@ -7341,7 +7390,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7373,7 +7422,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 145
     },
     {
      "name": "Outils De Gestion Des Risques",
@@ -7390,56 +7439,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 0.0,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 145
-    },
-    {
-     "name": "Outils De Tarification",
-     "slug": "outils-de-tarification",
-     "description": "Outils de Tarification refers to pricing and tarification tools used in French-speaking business environments for managing pricing, tariffs, and cost calculations.",
-     "score": 0.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 30.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7474,9 +7474,9 @@
      "rank": 146
     },
     {
-     "name": "Outils De Transfert",
-     "slug": "outils-de-transfert",
-     "description": "Outils de Transfert refers to file transfer and data transfer tools used in French-speaking business environments.",
+     "name": "Outils De Tarification",
+     "slug": "outils-de-tarification",
+     "description": "Outils de Tarification refers to pricing and tarification tools used in French-speaking business environments for managing pricing, tariffs, and cost calculations.",
      "score": 0.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7488,7 +7488,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7523,9 +7523,9 @@
      "rank": 147
     },
     {
-     "name": "Outils De Travail Digitaux",
-     "slug": "outils-de-travail-digitaux",
-     "description": "Outils de Travail Digitaux refers to digital workplace tools and collaboration platforms used in French-speaking business environments.",
+     "name": "Outils De Transfert",
+     "slug": "outils-de-transfert",
+     "description": "Outils de Transfert refers to file transfer and data transfer tools used in French-speaking business environments.",
      "score": 0.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7537,7 +7537,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7572,9 +7572,9 @@
      "rank": 148
     },
     {
-     "name": "Outils Digitaux",
-     "slug": "outils-digitaux",
-     "description": "Outils Digitaux refers to digital tools and resources for developers, designers, and digital professionals in French-speaking environments.",
+     "name": "Outils De Travail Digitaux",
+     "slug": "outils-de-travail-digitaux",
+     "description": "Outils de Travail Digitaux refers to digital workplace tools and collaboration platforms used in French-speaking business environments.",
      "score": 0.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7586,7 +7586,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7621,6 +7621,55 @@
      "rank": 149
     },
     {
+     "name": "Outils Digitaux",
+     "slug": "outils-digitaux",
+     "description": "Outils Digitaux refers to digital tools and resources for developers, designers, and digital professionals in French-speaking environments.",
+     "score": 0.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 30.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 0.0,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 150
+    },
+    {
      "name": "8sec",
      "slug": "8sec",
      "description": "8SEC was a hybrid-casual and hyper-casual mobile game studio based in Lyon, France, founded in 2015 and later opening a second office in Paris. Over a ten-year run it published more than 90 free-to-play mobile games for iOS and Android — Jump Race!, Turbo Taxi, Trivia.io, Untie! and Human Puzzle among them — collectively driving roughly 50 million downloads, and positioned itself as a full-stack studio spanning game design, development and publishing. UK publisher Kwalee invested EUR 1.5 million in January 2024 and took over publishing duties across the entire 8SEC catalogue. THE STUDIO IS NOW CLOSED — the shutdown was reported in October 2025, with all seven staff, including cofounders Louis Croquet and Louis Giraud, seeking new roles. The company's own site at 8sec.games is no longer deployed — the domain resolves to OVHcloud shared hosting serving a \"Site not installed\" 404 behind a certificate that does not cover the hostname — and the Teamtailor careers page returns 404. 8SEC was surfaced into the API Evangelist network as a 500 Global portfolio lead; it never published a public developer API, SDK, machine-readable specification or documentation surface, and it no longer exists to publish one.",
@@ -7635,7 +7684,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7667,7 +7716,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 151
     },
     {
      "name": "Boxy (ex-Storelift)",
@@ -7684,7 +7733,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7716,7 +7765,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 152
     },
     {
      "name": "Jam.gg",
@@ -7733,7 +7782,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7765,7 +7814,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 152
+     "rank": 153
     },
     {
      "name": "Qualtera",
@@ -7783,7 +7832,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7815,7 +7864,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 153
+     "rank": 154
     },
     {
      "name": "Seiza",
@@ -7833,7 +7882,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7865,7 +7914,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 154
+     "rank": 155
     },
     {
      "name": "Uptime",
@@ -7882,56 +7931,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 0.0,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 155
-    },
-    {
-     "name": "Ynsect",
-     "slug": "ynsect",
-     "description": "Ÿnsect (Ÿnsect SAS) was a French agri-technology company, founded in Évry, Essonne on 4 October 2011 by Antoine Hubert, Jean-Gabriel Levon, Fabrice Berro and Alexis Angot, that farmed Tenebrio molitor mealworms and Alphitobius diaperinus buffalo larvae in automated vertical farms and processed them into high-protein ingredients for aquaculture and animal feed, the Spryng pet-food line, food-grade ingredients for human nutrition, and the Ynfrass organic fertiliser made from insect frass. It was for a time the best-funded insect-protein company in the world, raising roughly €600 million over fourteen years, including a €372 million Series C in 2020 and a further €160 million in early 2023, and it operated sites at Dole and Damparis in the Jura while building the Ynfarm vertical farm at Poulainville near Amiens. The economics never closed: Ÿnsect requested safeguard proceedings on 26 September 2024, was placed in judicial reorganisation on 3 March 2025, and — unable to fund a continuation plan within the observation period — was placed in judicial liquidation on 1 December 2025. The Damparis site was taken over in 2025 by Keprea, a separate company founded by Ÿnsect alumni, to make fertiliser from insect frass; Keprea is not a successor to Ÿnsect and its surfaces are not part of this profile. Ÿnsect was an industrial producer of physical goods and never operated a developer program, public API, SDK, webhook surface or machine-readable specification of any kind. Its host ynsect.com is still registered to the company but the web origin has been switched off — TCP 80 and 443 refuse connections — and ynsect.fr is a bare OVH redirect to that dead host, so no pointer to a live company website is wired. This profile is retained as a historical record; there is no API surface to enrich.",
-     "score": 0.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 0.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -7964,6 +7964,55 @@
       "agentic_commerce": false
      },
      "rank": 156
+    },
+    {
+     "name": "Ynsect",
+     "slug": "ynsect",
+     "description": "Ÿnsect (Ÿnsect SAS) was a French agri-technology company, founded in Évry, Essonne on 4 October 2011 by Antoine Hubert, Jean-Gabriel Levon, Fabrice Berro and Alexis Angot, that farmed Tenebrio molitor mealworms and Alphitobius diaperinus buffalo larvae in automated vertical farms and processed them into high-protein ingredients for aquaculture and animal feed, the Spryng pet-food line, food-grade ingredients for human nutrition, and the Ynfrass organic fertiliser made from insect frass. It was for a time the best-funded insect-protein company in the world, raising roughly €600 million over fourteen years, including a €372 million Series C in 2020 and a further €160 million in early 2023, and it operated sites at Dole and Damparis in the Jura while building the Ynfarm vertical farm at Poulainville near Amiens. The economics never closed: Ÿnsect requested safeguard proceedings on 26 September 2024, was placed in judicial reorganisation on 3 March 2025, and — unable to fund a continuation plan within the observation period — was placed in judicial liquidation on 1 December 2025. The Damparis site was taken over in 2025 by Keprea, a separate company founded by Ÿnsect alumni, to make fertiliser from insect frass; Keprea is not a successor to Ÿnsect and its surfaces are not part of this profile. Ÿnsect was an industrial producer of physical goods and never operated a developer program, public API, SDK, webhook surface or machine-readable specification of any kind. Its host ynsect.com is still registered to the company but the web origin has been switched off — TCP 80 and 443 refuse connections — and ynsect.fr is a bare OVH redirect to that dead host, so no pointer to a live company website is wired. This profile is retained as a historical record; there is no API surface to enrich.",
+     "score": 0.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 0.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 0.0,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 157
     }
    ]
   }

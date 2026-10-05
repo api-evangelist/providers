@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Public read‑only listings and agent tools API.
@@ -118,9 +118,9 @@ description: SynapticRelay operates a no‑commission freelance services board t
 image: https://synapticrelay.com/og-en.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at synapticrelay.com.
   name: SynapticRelay MCP Server
-  slug: synapticrelay-mcp-server
+  slug: synapticrelay-mcp-yml
 modified: '2026-10-02'
 name: SynapticRelay
 nav: Providers
@@ -161,7 +161,7 @@ score:
     regime_id: horizontal
     score: 22.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 3
+artifact_total: 4
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/assembly/refs/heads/main/security/assembly-domain-security.yml
@@ -101,6 +101,10 @@ created: '2026-07-17'
 description: Assembly (joinassembly.com, by Quantum Workplace) is an employee recognition, rewards, and engagement platform that helps organizations celebrate achievements, run peer-to-peer recognition, milestone and anniversary celebrations, custom awards, challenges, and an integrated rewards catalog to build company culture. Assembly connects to the HR and communications stack through 80+ prebuilt integrations (Slack, Microsoft Teams, BambooHR, Workday, ADP, Rippling, Okta, Google Workspace, and more). Assembly does not publish a self-service developer REST API; integration is via its prebuilt connector catalog. It was surfaced in the API Evangelist network as a portfolio company of Homebrew, Union Square Ventures, and Y Combinator.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/assembly.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.joinassembly.com over HTTP.
+  name: Assembly MCP Server
+  slug: assembly
 modified: '2026-07-18'
 name: Assembly
 nav: Providers
@@ -120,7 +124,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 60.5
     contract_governance: 0.0
@@ -128,7 +132,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 51.7
     operational_transparency: 26.3
-  previous_composite: 23.0
+  previous_composite: 21.9
   provenance:
     mcp: first-party
   regulatory:
@@ -138,7 +142,7 @@ score:
     regime_id: employment_payroll
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

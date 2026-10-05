@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 0
@@ -226,6 +226,11 @@ collections:
   name: When I Work API Documentation Accounts Users API
   slug: open-when-i-work-users-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/when-i-work/refs/heads/main/capabilities/when-i-work-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/when-i-work-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/when-i-work/refs/heads/main/agentic-access/when-i-work-agentic-access.yml
   title: ''
@@ -345,7 +350,7 @@ overview: 'When I Work publishes 22 APIs on the [APIs.io](https://apis.io/) netw
   The When I Work catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  When I Work''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
+  When I Work''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: When I Work Plans Pricing
   plan_count: 3
@@ -368,23 +373,23 @@ rules:
   slug: when-i-work-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.1
+  composite: 45.5
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 82.8
+    artifact_dirs: 17
+    catalog_earned: 79.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 32.3
+    catalog_gap: 35.2
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -2.4
   facets:
     access_clarity: 54.7
     contract_governance: 23.5
     contract_quality: 64.1
     developer_ergonomics: 14.3
-    discoverability: 66.1
+    discoverability: 60.7
     operational_transparency: 37.4
-  previous_composite: 45.5
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     contracts:
@@ -399,7 +404,7 @@ score:
     regime_id: employment_payroll
     score: 21.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

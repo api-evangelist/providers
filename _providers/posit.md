@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -209,7 +209,7 @@ apis:
   description: The Vanity URLs API from Posit — 2 operation(s) for vanity urls.
   name: Posit Vanity URLs API
   slug: posit-vanity-urls-api
-artifact_total: 71
+artifact_total: 133
 collections:
 - collection_type: open
   name: API Collection
@@ -314,6 +314,39 @@ collections:
   name: Posit Connect API Reference API Keys Vanity URLs API
   slug: open-posit-vanity-urls-api
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/rules/posit-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/posit-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/json-ld/posit-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/posit-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/vocabulary/posit-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/posit-vocabulary.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/hosts/posit-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/posit-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/vendors/posit-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/posit-vendors.yml
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://posit.co/about/privacy-policy
+- group: other
+  title: ''
+  type: Leadership
+  url: https://posit.co/products/enterprise/team
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/plans/posit-plans-pricing.yml
   title: ''
@@ -366,10 +399,6 @@ common:
   title: ''
   type: Pricing
   url: https://posit.co/pricing/
-- group: commercial
-  title: ''
-  type: TermsOfService
-  url: https://posit.co/about/website-term-of-use/
 - group: operate
   title: ''
   type: Support
@@ -465,6 +494,192 @@ common:
 created: '2026-07-17'
 description: Posit, PBC (formerly RStudio) builds open-source and enterprise software for data science teams working in R and Python. Its professional products — Posit Workbench, Posit Connect, and Posit Package Manager (bundled as Posit Team), plus Posit Cloud and the Positron IDE — help organizations develop, publish, and govern data science work. Posit Connect exposes a full REST Server API (the Connect API) for automating content publishing, deployment bundles, users and groups, permissions, jobs, environments, tags, audit logs, and API keys, authenticated with per-user API keys. Posit also stewards widely used open-source projects including the Tidyverse, Shiny, Quarto, and tidymodels.
 image: https://posit.co/wp-content/uploads/2022/10/Posit-Logo-Black-TransparentBackground.png
+json_schemas:
+- name: AccessTestResult
+  property_count: 5
+  slug: posit-access-test-result
+- name: ActiveUsersResponse
+  property_count: 1
+  slug: posit-active-users-response
+- name: APIKeyCreateInput
+  property_count: 3
+  slug: posit-apikey-create-input
+- name: APIKey
+  property_count: 7
+  slug: posit-apikey
+- name: AuditActionResult
+  property_count: 2
+  slug: posit-audit-action-result
+- name: AuditLogSearchResults
+  property_count: 2
+  slug: posit-audit-log-search-results
+- name: AuditLogs
+  property_count: 2
+  slug: posit-audit-logs
+- name: Bookmark
+  property_count: 1
+  slug: posit-bookmark
+- name: BootstrapSuccess
+  property_count: 1
+  slug: posit-bootstrap-success
+- name: Bundle
+  property_count: 15
+  slug: posit-bundle
+- name: ContentHitEntry
+  property_count: 5
+  slug: posit-content-hit-entry
+- name: Content
+  property_count: 57
+  slug: posit-content
+- name: ContentVisitLogs
+  property_count: 2
+  slug: posit-content-visit-logs
+- name: CreateContentInput
+  property_count: 28
+  slug: posit-create-content-input
+- name: CreateEnvironmentInput
+  property_count: 12
+  slug: posit-create-environment-input
+- name: CustomDocumentationInput
+  property_count: 2
+  slug: posit-custom-documentation-input
+- name: CustomDocumentationResult
+  property_count: 2
+  slug: posit-custom-documentation-result
+- name: EnvironmentPermissionInput
+  property_count: 2
+  slug: posit-environment-permission-input
+- name: EnvironmentPermission
+  property_count: 5
+  slug: posit-environment-permission
+- name: Environment
+  property_count: 18
+  slug: posit-environment
+- name: Feature
+  property_count: 2
+  slug: posit-feature
+- name: GitLocationOutput
+  property_count: 7
+  slug: posit-git-location-output
+- name: GroupCreateInput
+  property_count: 3
+  slug: posit-group-create-input
+- name: GroupCreateRemoteInput
+  property_count: 1
+  slug: posit-group-create-remote-input
+- name: GroupMemberAddInput
+  property_count: 1
+  slug: posit-group-member-add-input
+- name: GroupOwnershipContent
+  property_count: 5
+  slug: posit-group-ownership-content
+- name: GroupPatchInput
+  property_count: 3
+  slug: posit-group-patch-input
+- name: Group
+  property_count: 0
+  slug: posit-group
+- name: JobMetrics
+  property_count: 3
+  slug: posit-job-metrics
+- name: Job
+  property_count: 25
+  slug: posit-job
+- name: JobSummary
+  property_count: 2
+  slug: posit-job-summary
+- name: KillJobOrder
+  property_count: 8
+  slug: posit-kill-job-order
+- name: LogEntry
+  property_count: 3
+  slug: posit-log-entry
+- name: LoggedError
+  property_count: 3
+  slug: posit-logged-error
+- name: NodeJsInfo
+  property_count: 2
+  slug: posit-node-js-info
+- name: OAuthClient
+  property_count: 6
+  slug: posit-oauth-client
+- name: OAuthClients
+  property_count: 0
+  slug: posit-oauth-clients
+- name: OAuthCredentials
+  property_count: 4
+  slug: posit-oauth-credentials
+- name: OAuthIntegrationAssociationOutput
+  property_count: 8
+  slug: posit-oauth-integration-association-output
+- name: OAuthIntegrationInput
+  property_count: 5
+  slug: posit-oauth-integration-input
+- name: OAuthIntegration
+  property_count: 12
+  slug: posit-oauth-integration
+- name: OAuthIntegrationUpdate
+  property_count: 4
+  slug: posit-oauth-integration-update
+- name: OAuthSession
+  property_count: 7
+  slug: posit-oauth-session
+- name: OAuthTemplate
+  property_count: 7
+  slug: posit-oauth-template
+- name: PackagesResponse
+  property_count: 0
+  slug: posit-packages-response
+- name: PermissionInput
+  property_count: 4
+  slug: posit-permission-input
+- name: Permission
+  property_count: 5
+  slug: posit-permission
+- name: PublicSettings
+  property_count: 8
+  slug: posit-public-settings
+- name: PythonInfo
+  property_count: 2
+  slug: posit-python-info
+- name: QuartoInstallations
+  property_count: 1
+  slug: posit-quarto-installations
+- name: QueueResponse
+  property_count: 0
+  slug: posit-queue-response
+- name: RInstallations
+  property_count: 1
+  slug: posit-rinstallations
+- name: ScheduleHistoryResponse
+  property_count: 1
+  slug: posit-schedule-history-response
+- name: ServiceTokenCreateInput
+  property_count: 3
+  slug: posit-service-token-create-input
+- name: ServiceToken
+  property_count: 7
+  slug: posit-service-token
+- name: ServiceTokenScopes
+  property_count: 1
+  slug: posit-service-token-scopes
+- name: ShinyAppUsageLogs
+  property_count: 2
+  slug: posit-shiny-app-usage-logs
+- name: TensorFlowInstallations
+  property_count: 1
+  slug: posit-tensor-flow-installations
+- name: UpdateContentInput
+  property_count: 32
+  slug: posit-update-content-input
+- name: UpdateEnvironmentInput
+  property_count: 10
+  slug: posit-update-environment-input
+jsonld:
+- class_count: 120
+  name: Posit Context
+  property_count: 288
+  slug: posit-context
 layout: provider
 modified: '2026-07-20'
 name: Posit
@@ -473,31 +688,46 @@ network: true
 overview: 'Posit publishes 33 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Audit Logs API, Bookmarks API, and 30 more. Tagged areas include Company, Data Science, Analytics, Developer Tools, and R.
 
 
-  Posit''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, changelog, and 25 more developer resources.'
+  The Posit catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Posit''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, changelog, and 31 more developer resources.'
 plans:
 - name: Posit Plans Pricing
   plan_count: 3
   slug: posit-plans-pricing
 random_paper: 9
+rules:
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Posit API Rules
+  rule_count: 17
+  severity_counts:
+    error: 12
+    hint: 0
+    info: 1
+    warn: 4
+  slug: posit-rules
 score:
   band: strong
-  composite: 55.0
+  composite: 63.3
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 49.0
+    artifact_dirs: 29
+    catalog_earned: 74.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.7
   facets:
-    access_clarity: 42.1
-    contract_governance: 4.5
-    contract_quality: 52.7
+    access_clarity: 52.6
+    contract_governance: 22.0
+    contract_quality: 66.3
     developer_ergonomics: 73.2
-    discoverability: 73.2
+    discoverability: 75.0
     operational_transparency: 42.1
-  previous_composite: 55.0
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -513,10 +743,10 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 15.5
+    score: 19.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: rising
   upsert:
     applies: true
     score: 61.1

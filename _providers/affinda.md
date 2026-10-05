@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 81
+- acting_count: 146
   human_in_the_loop: 0
   name: Affinda Agentic Access
-  operation_count: 141
+  operation_count: 244
   slug: affinda-agentic-access
-  summary_line: 141 operations · 81 acting
+  summary_line: 244 operations · 146 acting
 api_count: 4
 apis:
 - baseURL_template: https://{region}.affinda.com
@@ -208,7 +208,7 @@ arazzos:
 - description: List an organization's workspaces, then pull a daily credit-consumption report scoped to the first workspace.
   name: Affinda Workspace Usage Report
   slug: affinda-workspace-usage-report-workflow
-artifact_total: 123
+artifact_total: 124
 collections:
 - collection_type: postman
   name: Affinda Annotations API
@@ -694,6 +694,10 @@ jsonld:
   property_count: 10
   slug: affinda-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.affinda.com over HTTP.
+  name: Affinda MCP Server
+  slug: affinda
 modified: '2026-05-25'
 name: Affinda
 nav: Providers
@@ -746,7 +750,7 @@ score:
     catalog_gap: 41.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.3
   facets:
     access_clarity: 69.2
     contract_governance: 13.6
@@ -754,7 +758,7 @@ score:
     developer_ergonomics: 79.0
     discoverability: 65.0
     operational_transparency: 55.8
-  previous_composite: 60.4
+  previous_composite: 63.7
   provenance:
     agentic_access: derived
     contracts:
@@ -770,7 +774,7 @@ score:
     regime_id: insurance
     score: 18.0
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

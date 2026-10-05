@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -71,7 +71,7 @@ apis:
   description: Donor records (Fundraise Up calls donors "supporters").
   name: Fundraise Up Supporters API
   slug: fundraiseup-supporters-api
-artifact_total: 18
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -95,6 +95,11 @@ collections:
   name: Fundraise Up REST API
   slug: open-fundraiseup
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/capabilities/fundraiseup-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fundraiseup-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/agentic-access/fundraiseup-agentic-access.yml
   title: ''
@@ -154,6 +159,10 @@ finops:
   slug: fundraiseup-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fundraiseup.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.fundraiseup.com over HTTP.
+  name: Fundraise Up MCP Server
+  slug: fundraiseup
 modified: '2026-07-05'
 name: Fundraise Up
 nav: Providers
@@ -161,7 +170,7 @@ network: true
 overview: 'Fundraise Up publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Donations API, Donor Portal API, Events API, and 2 more. Tagged areas include Fundraising, Donations, Non-Profit, Payments, and Recurring Giving.
 
 
-  Fundraise Up''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Fundraise Up''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Fundraiseup Plans Pricing
   plan_count: 2
@@ -175,13 +184,13 @@ score:
   band: thin
   composite: 32.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 58.0
     catalog_earned_first_party: 0.0
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
     access_clarity: 26.8
     contract_governance: 0.0
@@ -189,7 +198,7 @@ score:
     developer_ergonomics: 32.1
     discoverability: 68.3
     operational_transparency: 28.4
-  previous_composite: 32.8
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     contracts:
@@ -205,7 +214,7 @@ score:
     regime_id: payments
     score: 10.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

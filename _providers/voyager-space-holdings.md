@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
 artifact_total: 4
 common:
@@ -140,9 +140,9 @@ description: 'Voyager Technologies, Inc. (NYSE: VOYG), formerly Voyager Space Ho
 image: https://voyagertechnologies.com/wp-content/uploads/2026/05/Voyager-Technologies-OG-Image.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Voyager Technologies' corporate WordPress site exposes two live Model Context Protocol servers under the `mcp` REST namespace, produced by the WordPress MCP adapter and guarded by an OAuth 2.1 authori
   name: Voyager Technologies MCP Server
-  slug: voyager-technologies-mcp-server
+  slug: voyager-space-holdings-mcp-yml
 modified: '2026-09-18'
 name: Voyager Technologies
 nav: Providers
@@ -154,20 +154,20 @@ overview: 'Voyager Technologies is profiled on the [APIs.io](https://apis.io/) n
 random_paper: 13
 scopes:
 - name: Voyager Space Holdings Scopes
-  scope_count: 0
+  scope_count: 1
   slug: voyager-space-holdings-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 1 scope · authorizationCode
 score:
   band: emerging
   composite: 17.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
@@ -182,7 +182,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 17.3
+  previous_composite: 14.3
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -193,7 +193,7 @@ score:
     regime_id: horizontal
     score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

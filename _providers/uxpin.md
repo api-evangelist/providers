@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 15.1
-  scored_at: '2026-10-03'
+  score: 11.5
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/uxpin/refs/heads/main/security/uxpin-trust-center.yml
@@ -146,6 +146,10 @@ created: '2026-07-17'
 description: UXPin is an AI-powered, code-based design and prototyping platform where designers work with real production React components instead of vector approximations. Its Merge technology syncs a team's design system from Git or Storybook onto the design canvas, its Forge AI assistant generates and iterates UI constrained to that design system, and export is production-ready JSX referencing components already in the codebase. The developer surface is the open-source Merge toolchain - the @uxpin/merge-cli npm package that analyzes a component repository and pushes components to UXPin - rather than a public REST API.
 image: https://cdn.buttercms.com/hEANM0hTqezomJsApfaQ
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.uxpin.com over HTTP.
+  name: UXPin MCP Server
+  slug: uxpin
 modified: '2026-07-21'
 name: UXPin
 nav: Providers
@@ -165,7 +169,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
@@ -173,7 +177,7 @@ score:
     developer_ergonomics: 42.9
     discoverability: 58.3
     operational_transparency: 34.2
-  previous_composite: 34.1
+  previous_composite: 33.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -188,7 +192,7 @@ score:
     regime_id: horizontal
     score: 21.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

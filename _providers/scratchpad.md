@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The Clearskies Customer Context Graph exposed as a single remote Model Context Protocol server. Connected AI clients (Claude, ChatGPT, Cursor, n8n, Retool) query unified, identity-resolved customer co
@@ -170,7 +170,7 @@ description: Scratchpad is an AI-powered workspace for sales teams that sits on 
 image: https://cdn.prod.website-files.com/5ec58e445ff9859286816f53/689655f9a5b2bc821c89f95e_Scratchpad%20-%20The%20AI%20workspace%20for%20sellers.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.clearskies.cc over HTTP requiring OAuth.
   name: Clearskies
   slug: clearskies
 modified: '2026-08-13'
@@ -205,7 +205,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.8
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
@@ -213,7 +213,7 @@ score:
     developer_ergonomics: 57.1
     discoverability: 75.0
     operational_transparency: 26.3
-  previous_composite: 37.9
+  previous_composite: 34.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -224,7 +224,7 @@ score:
     regime_id: horizontal
     score: 41.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

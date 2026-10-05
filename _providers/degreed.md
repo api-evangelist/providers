@@ -26,20 +26,20 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-03'
+  score: 13.7
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The Degreed REST API provides HTTP-based access to manage learning data within the Degreed platform. It covers user management, learning content (articles, books, courses, videos, podcasts, events), p
   name: Degreed API
   slug: degreed-api
-artifact_total: 7
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -80,6 +80,10 @@ jsonld:
   property_count: 8
   slug: degreed-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at degreed.com over HTTP.
+  name: Degreed MCP Server
+  slug: degreed
 modified: '2026-09-16'
 name: Degreed
 nav: Providers
@@ -125,7 +129,7 @@ score:
     regime_id: horizontal
     score: 21.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

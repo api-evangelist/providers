@@ -1,6 +1,6 @@
 {
- "total": 108,
- "shown": 108,
+ "total": 110,
+ "shown": 110,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -76,7 +76,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -126,7 +126,7 @@
       "developer_ergonomics": 81.5,
       "access_clarity": 44.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -175,7 +175,7 @@
       "developer_ergonomics": 81.0,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -235,7 +235,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -285,7 +285,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -323,18 +323,18 @@
      "name": "한국주식데이터 (aikstockdata)",
      "slug": "aikstockdata",
      "description": "An automated Korean equities open-data publisher. Each trading day it compiles DART filings and T+1 (previous-session) closing prices for KOSPI/KOSDAQ/KONEX names and re-publishes them as machine-readable JSON/CSV files, refreshed once per trading day at 18:10 KST. Free, keyless, and unauthenticated, with a REST/static-file API (OpenAPI 3.1), a hosted MCP server, and an llms.txt.",
-     "score": 46.6,
+     "score": 48.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 70.0,
+      "discoverability": 71.7,
       "contract_quality": 50.8,
-      "contract_governance": 4.5,
+      "contract_governance": 18.2,
       "operational_transparency": 34.2,
       "developer_ergonomics": 58.9,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -343,11 +343,11 @@
       "score": 24.5,
       "matched_via": "tags"
      },
-     "agent_score": 36.0,
+     "agent_score": 38.1,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": false,
+      "agentic_access": "derived",
       "reversibility_documented": "na",
       "mcp_server": "verified",
       "auth_clarity": "bearer",
@@ -384,7 +384,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 37.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -423,18 +423,18 @@
      "slug": "sk-telecom",
      "description": "SK Telecom Co., Ltd. is South Korea's largest mobile network operator, headquartered at SK T-Tower in Jung-gu, Seoul, and the telecom arm of SK Group. It runs the country's largest 5G and LTE network, sells fixed broadband and IPTV through subsidiary SK Broadband, operates the T world retail and care channel, and has repositioned itself as an \"AI company\" around its A.X sovereign Korean LLM family, the NUGU voice assistant, and the A. (A dot) assistant. Its position in the telecom value chain is that of a facilities-based incumbent carrier: it owns the radio access network, spectrum, SIM base, and identity rails that the rest of the Korean digital economy authenticates against. Its API posture is split in an unusual way. SK Telecom does run a genuine, self-serve public developer portal — SK open API at openapi.sk.com, operated by SK Telecom Co., Ltd. — but what it publishes there is AI, big-data and mobility product APIs (speech synthesis, face recognition, congestion and floating-population analytics, video analysis), not network APIs. The legacy T developers subdomains developer.sktelecom.com and developers.sktelecom.com both resolve in DNS to 211.188.149.18 and refuse connections on port 443 — a dead developer programme with dangling hostnames. On the network-API side SK Telecom is a named CAMARA participant and appears in the CAMARA landscape as an operator, has an organisation page in GSMA's Open Gateway directory, signed a domestic MoU with KT and LG Uplus in October 2024 to standardise six network APIs through Korea's TTA, endorsed the Bridge Alliance API Exchange, and signed an MoU with Aduna through subsidiary SK telink in September 2025 — but no CAMARA endpoint (Number Verification, SIM Swap, KYC Match, Quality on Demand) is callable from any SK Telecom-operated developer portal. Developers who want SK Telecom network capability reach it through aggregators — Bridge Alliance BAEx on Singtel's Paragon platform, surfaced through Nokia's Network as Code developer portal, or Aduna — not from SK Telecom directly.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/screenshots/sk-telecom-2026-08-17T081910.png",
-     "score": 41.5,
+     "score": 41.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 71.7,
+      "discoverability": 66.7,
       "contract_quality": 49.3,
       "contract_governance": 4.5,
       "operational_transparency": 26.3,
       "developer_ergonomics": 56.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -484,7 +484,7 @@
       "developer_ergonomics": 59.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -545,7 +545,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -595,7 +595,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -645,7 +645,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -695,7 +695,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -745,7 +745,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 47.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -795,7 +795,7 @@
       "developer_ergonomics": 31.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -845,7 +845,7 @@
       "developer_ergonomics": 20.2,
       "access_clarity": 32.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -895,7 +895,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 47.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -945,7 +945,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -994,7 +994,7 @@
       "developer_ergonomics": 23.2,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1043,7 +1043,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1082,18 +1082,18 @@
      "slug": "dunamu",
      "description": "Dunamu Inc. (두나무 주식회사) is a South Korean fintech and blockchain company founded in April 2012 and headquartered at 369 Gangnam-daero, Seocho-gu, Seoul. Dunamu operates Upbit, Korea's largest digital asset exchange (launched 2017, the country's first registered VASP), and Stockplus, a securities trading application launched in 2014, alongside Stockplus Unlisted for pre-IPO share trading. The group also spun out Lambda256 (blockchain infrastructure, now trading as Nodit) in 2019 and runs the Dunamu & Partners venture arm. Dunamu itself publishes no developer program at dunamu.com — its entire public API surface is served under the Upbit brand through the Upbit Developer Center, which offers REST and WebSocket APIs for market data, orders, accounts, deposits, withdrawals and Travel Rule compliance, plus first-party Python, TypeScript and Go SDKs, a CLI and packaged agent skills published from the upbit-official GitHub organization. That API surface is catalogued separately at the Upbit provider profile; this record profiles the corporate parent.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dunamu/refs/heads/main/screenshots/dunamu-2026-08-17T080906.png",
-     "score": 30.8,
+     "score": 30.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 59.2,
+      "discoverability": 56.3,
       "contract_quality": 0.0,
       "contract_governance": 18.2,
       "operational_transparency": 42.1,
       "developer_ergonomics": 53.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1102,13 +1102,13 @@
       "score": 25.9,
       "matched_via": "tags"
      },
-     "agent_score": 23.4,
+     "agent_score": 14.7,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": "documented",
       "error_semantics": "documented",
@@ -1143,7 +1143,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1193,7 +1193,7 @@
       "developer_ergonomics": 45.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1253,7 +1253,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 46.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1302,7 +1302,7 @@
       "developer_ergonomics": 18.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1351,7 +1351,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1401,7 +1401,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1451,7 +1451,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 36.3
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1500,7 +1500,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1550,7 +1550,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1600,7 +1600,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1650,7 +1650,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1700,7 +1700,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1750,7 +1750,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 26.8
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1800,7 +1800,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1849,7 +1849,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1899,7 +1899,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1948,7 +1948,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -1997,7 +1997,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2046,7 +2046,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2096,7 +2096,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2145,7 +2145,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2195,7 +2195,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2245,7 +2245,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2295,7 +2295,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2345,7 +2345,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2386,8 +2386,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 61,
-   "shown": 61,
+   "count": 63,
+   "shown": 63,
    "providers": [
     {
      "name": "B612",
@@ -2405,7 +2405,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2455,7 +2455,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2504,7 +2504,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2554,7 +2554,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2604,7 +2604,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2654,7 +2654,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2703,7 +2703,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2753,7 +2753,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2803,7 +2803,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2853,7 +2853,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2888,55 +2888,6 @@
      "rank": 57
     },
     {
-     "name": "3D Medivision",
-     "slug": "3dmedivision",
-     "description": "3D Medivision (쓰리디메디비젼) is a Seoul, South Korea medical imaging and medical-education company founded around 3D surgical video capture. It builds 3D/2D camera systems, recorders and monitors that mount to surgical microscopes and endoscopes so a procedure can be recorded stereoscopically and streamed to surgeons in another room, hospital or country. On top of that hardware it operates a set of end-user education products: Veterflix and Global Veterflix (video-on-demand veterinary courses, webinars and 3D canine anatomy), VGTC (live 3D surgery streaming plus hands-on courses in Incheon), VET-TV (a 3D anatomy lecture system for large-group teaching), Veter VR (VR-based veterinary training) and Surgflix for human surgery. The company sells hardware, subscriptions and training — it does not operate a public developer program, and no public API, SDK, webhook surface or machine-readable API contract was found on any host it controls.",
-     "score": 8.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 52.5,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 7.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 11.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 58
-    },
-    {
      "name": "Incheon Open Data",
      "slug": "data-incheon-go-kr",
      "description": "Incheon Open Data is a municipal government open-data portal for South Korea running DKAN.",
@@ -2952,7 +2903,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -2984,7 +2935,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 58
     },
     {
      "name": "1ST Biotherapeutics",
@@ -3001,7 +2952,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3033,7 +2984,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 59
     },
     {
      "name": "ACTIVON Co., Ltd.",
@@ -3050,7 +3001,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3082,7 +3033,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 60
     },
     {
      "name": "Woowa Brothers",
@@ -3099,7 +3050,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3107,6 +3058,55 @@
       "regime_id": "horizontal",
       "score": 10.8,
       "matched_via": "fallback"
+     },
+     "agent_score": 2.9,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 61
+    },
+    {
+     "name": "3D Medivision",
+     "slug": "3dmedivision",
+     "description": "3D Medivision (쓰리디메디비젼) is a Seoul, South Korea medical imaging and medical-education company founded around 3D surgical video capture. It builds 3D/2D camera systems, recorders and monitors that mount to surgical microscopes and endoscopes so a procedure can be recorded stereoscopically and streamed to surgeons in another room, hospital or country. On top of that hardware it operates a set of end-user education products: Veterflix and Global Veterflix (video-on-demand veterinary courses, webinars and 3D canine anatomy), VGTC (live 3D surgery streaming plus hands-on courses in Incheon), VET-TV (a 3D anatomy lecture system for large-group teaching), Veter VR (VR-based veterinary training) and Surgflix for human surgery. The company sells hardware, subscriptions and training — it does not operate a public developer program, and no public API, SDK, webhook surface or machine-readable API contract was found on any host it controls.",
+     "score": 7.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 49.1,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.8,
+      "matched_via": "tags"
      },
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -3148,7 +3148,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3197,7 +3197,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3247,7 +3247,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3296,7 +3296,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3345,7 +3345,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3394,7 +3394,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3443,7 +3443,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3492,7 +3492,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3541,7 +3541,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3590,7 +3590,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3639,7 +3639,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3689,7 +3689,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3724,29 +3724,28 @@
      "rank": 74
     },
     {
-     "name": "GeoGrid",
-     "slug": "geogrid",
-     "description": "Geogrid Co., Ltd. is a South Korean smart-building water technology company behind BLOS (\"Building Oasis\"), an integrated building-level water purification and monitoring system. BLOS delivers drinkable water from every tap using chemical-free ionization to eliminate rust, scale, and biofilm, and pairs it with real-time monitoring of water quality, usage, carbon emissions, and consumption plus predictive analytics for pipe condition, contamination risk, and filter replacement. Geogrid targets schools, hotels and resorts, public institutions, and healthcare facilities, and offers a BLOS Care membership service. The company is based at Seoul Startup Hub Seongsu, holds 21 registered patents, and has been recognized with venture certification, ESG awards, and selection as a Korean representative for WSA 2026. This profile was surfaced as a 500 Global portfolio lead and enriched from the company's public website.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/geogrid/refs/heads/main/screenshots/geogrid-2026-08-07T165645.png",
-     "score": 4.8,
+     "name": "Bluemtec",
+     "slug": "bluemtec",
+     "description": "Bluemtec Co., Ltd. is a South Korean company providing digital and distribution services for the pharmaceutical and healthcare sectors. It operates platforms for big data analysis, online pharmaceutical commerce, marketing, IT development, logistics, and medical staff matching. Founded in 2015 and headquartered in Yongin-si, the firm serves both domestic and international pharmaceutical manufacturers and platform operators, aiming to drive digital transformation in the medical industry.",
+     "score": 5.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 48.2,
+      "discoverability": 44.6,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 5.9,
-      "matched_via": "fallback"
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 9.4,
+      "matched_via": "tags"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3774,22 +3773,22 @@
      "rank": 75
     },
     {
-     "name": "LINSOL Co.,Ltd.",
-     "slug": "linsol-coltd",
-     "description": "LINSOL Co.,Ltd. (린솔) is a safety-technology company headquartered in Daejeon, South Korea, founded as an in-house venture spun out of Hanwha Aerospace. LINSOL adapts acoustic detection techniques originally developed for defense landmine applications into commercial real-time hazard, accident, and environmental detection. Its product line includes Karang F (driving-environment detection), Karang S (precision acoustic signal transmission), SkyShield (fall detection), BR, Acoustic Eye (aerial security), and Safety Nova (smart integrated safety platform), sold into industrial safety, ESG, and defense security use cases. The company operates a Daejeon headquarters and research center plus a Goheung branch. LINSOL ships hardware and integrated platforms; as of a 2026-07-19 probe it publishes no public developer API, portal, SDK, or machine-readable specification.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/linsol-coltd/refs/heads/main/screenshots/linsol-coltd-2026-07-25T225304.png",
-     "score": 4.7,
+     "name": "GeoGrid",
+     "slug": "geogrid",
+     "description": "Geogrid Co., Ltd. is a South Korean smart-building water technology company behind BLOS (\"Building Oasis\"), an integrated building-level water purification and monitoring system. BLOS delivers drinkable water from every tap using chemical-free ionization to eliminate rust, scale, and biofilm, and pairs it with real-time monitoring of water quality, usage, carbon emissions, and consumption plus predictive analytics for pipe condition, contamination risk, and filter replacement. Geogrid targets schools, hotels and resorts, public institutions, and healthcare facilities, and offers a BLOS Care membership service. The company is based at Seoul Startup Hub Seongsu, holds 21 registered patents, and has been recognized with venture certification, ESG awards, and selection as a Korean representative for WSA 2026. This profile was surfaced as a 500 Global portfolio lead and enriched from the company's public website.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/geogrid/refs/heads/main/screenshots/geogrid-2026-08-07T165645.png",
+     "score": 4.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 56.3,
+      "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3824,6 +3823,56 @@
      "rank": 76
     },
     {
+     "name": "LINSOL Co.,Ltd.",
+     "slug": "linsol-coltd",
+     "description": "LINSOL Co.,Ltd. (린솔) is a safety-technology company headquartered in Daejeon, South Korea, founded as an in-house venture spun out of Hanwha Aerospace. LINSOL adapts acoustic detection techniques originally developed for defense landmine applications into commercial real-time hazard, accident, and environmental detection. Its product line includes Karang F (driving-environment detection), Karang S (precision acoustic signal transmission), SkyShield (fall detection), BR, Acoustic Eye (aerial security), and Safety Nova (smart integrated safety platform), sold into industrial safety, ESG, and defense security use cases. The company operates a Daejeon headquarters and research center plus a Goheung branch. LINSOL ships hardware and integrated platforms; as of a 2026-07-19 probe it publishes no public developer API, portal, SDK, or machine-readable specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/linsol-coltd/refs/heads/main/screenshots/linsol-coltd-2026-07-25T225304.png",
+     "score": 4.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 56.3,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 77
+    },
+    {
      "name": "AbTis",
      "slug": "abtis2772",
      "description": "AbTis Co., Ltd. (앱티스) is a South Korean biotechnology company founded in 2016 and headquartered in Yongin-si, Gyeonggi-do, inside the Dong-A Socio Holdings R&D Center. It develops AbClick, a third-generation site-selective antibody conjugation platform that attaches payloads to the Fc Lys248 residue of native IgG antibodies with no enzyme and no Fc engineering, giving a controlled drug-to-antibody ratio and batch-to-batch consistency across ADC, DAC, AOC, ARC, ISAC and dual-payload designs. AbTis licenses the platform, runs collaborative research and fee-for-service ADC development, and advances its own pipeline led by AT-211, a Claudin 18.2-targeting MMAE ADC. Acquired by Dong-A ST in 2023, it now operates as that company's ADC-specialised subsidiary. Its product is licensed chemistry and drug intellectual property, not software: it runs no developer program, public API, SDK or machine-readable contract.",
@@ -3838,7 +3887,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3870,7 +3919,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 78
     },
     {
      "name": "AEOL",
@@ -3887,7 +3936,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3919,7 +3968,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 79
     },
     {
      "name": "Artue",
@@ -3937,7 +3986,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3969,7 +4018,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 80
     },
     {
      "name": "MUSINSA",
@@ -3987,7 +4036,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -3995,55 +4044,6 @@
       "regime_id": "horizontal",
       "score": 5.9,
       "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 80
-    },
-    {
-     "name": "Absology",
-     "slug": "absology",
-     "description": "Absology Co., Ltd. is a South Korean in-vitro diagnostics (IVD) company founded in 2017 and headquartered in Anyang, Gyeonggi-do. It designs and manufactures point-of-care immunoassay analyzers and the reagent cartridges that run on them, built on microfluidic immunoassay and photo-oxidation-induced fluorescence amplification chemistry. Its Absol analyzer line runs rapid and ultra-sensitive quantitative blood tests — testosterone, vitamin D, PSA, TSH, free T4, PCT, cortisol and cardiac markers — for human and companion-animal use, with stated research programs in anti-cancer therapy monitoring, cardiovascular disease and neurodegenerative disease. Absology is a hardware and consumables manufacturer rather than a software vendor, and no public developer program, API, SDK or machine-readable contract has been found on its corporate site or in any public package registry or code host.",
-     "score": 4.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 51.8,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 4.7,
-      "matched_via": "tags"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4071,71 +4071,21 @@
      "rank": 81
     },
     {
-     "name": "Boosters",
-     "slug": "boosters",
-     "description": "Boosters is a Seoul-based global commerce company and brand aggregator, founded in 2019, that acquires and accelerates the growth of emerging Korean direct-to-consumer (D2C) brands, with a particular focus on K-Beauty. Boosters takes over small and medium-sized Korean brands that have strong product potential but struggle with marketing, distribution, and inventory management, then scales them across domestic and international commerce channels. Portfolio brands include Eqqualberry and Branden. The company raised a USD 10 million Series A round in 2022 with participation from Partech and other investors. Boosters is a consumer commerce operator rather than a developer platform, and does not currently publish a public developer API, OpenAPI specification, SDK, or developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/boosters/refs/heads/main/screenshots/boosters-2026-07-25T203637.png",
-     "score": 3.8,
+     "name": "Absology",
+     "slug": "absology",
+     "description": "Absology Co., Ltd. is a South Korean in-vitro diagnostics (IVD) company founded in 2017 and headquartered in Anyang, Gyeonggi-do. It designs and manufactures point-of-care immunoassay analyzers and the reagent cartridges that run on them, built on microfluidic immunoassay and photo-oxidation-induced fluorescence amplification chemistry. Its Absol analyzer line runs rapid and ultra-sensitive quantitative blood tests — testosterone, vitamin D, PSA, TSH, free T4, PCT, cortisol and cardiac markers — for human and companion-animal use, with stated research programs in anti-cancer therapy monitoring, cardiovascular disease and neurodegenerative disease. Absology is a hardware and consumables manufacturer rather than a software vendor, and no public developer program, API, SDK or machine-readable contract has been found on its corporate site or in any public package registry or code host.",
+     "score": 4.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 5.9,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 82
-    },
-    {
-     "name": "Astonsci",
-     "slug": "astonsci",
-     "description": "Aston Sci. is a clinical-stage biopharmaceutical company focused on developing innovative medicines to meet unmet medical needs. The company presents its pipeline, science focus areas, and corporate information through its website.",
-     "score": 3.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
+      "discoverability": 51.8,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4167,25 +4117,25 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 82
     },
     {
-     "name": "INDEX Robotics",
-     "slug": "index-robotics",
-     "description": "INDEX Robotics is a South Korean humanoid robotics startup based in Seongnam (Bundang) building high-precision actuators and upper-body humanoid robots for high-mix, low-volume industrial work. Its core products are the IA Series, a family of high-precision actuators purpose-built for humanoid joints, and INDEX01, a compact upper-body humanoid prototype that deliberately foregoes a mobile base so it can slot into constrained factory workspaces for logistics handling, machining support, and precision assembly. The company treats joint precision, responsiveness under sustained repetitive motion, and long-run performance consistency as the core unsolved problems in humanoid commercialization. In February 2026 INDEX Robotics closed a $1M (KRW 1.5B) seed round led by Futureplay with Bass Ventures and 500 Global co-investing. This is a hardware company with no public API, SDK, or developer program at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/index-robotics/refs/heads/main/screenshots/index-robotics-2026-07-25T222257.png",
-     "score": 3.7,
+     "name": "Boosters",
+     "slug": "boosters",
+     "description": "Boosters is a Seoul-based global commerce company and brand aggregator, founded in 2019, that acquires and accelerates the growth of emerging Korean direct-to-consumer (D2C) brands, with a particular focus on K-Beauty. Boosters takes over small and medium-sized Korean brands that have strong product potential but struggle with marketing, distribution, and inventory management, then scales them across domestic and international commerce channels. Portfolio brands include Eqqualberry and Branden. The company raised a USD 10 million Series A round in 2022 with participation from Partech and other investors. Boosters is a consumer commerce operator rather than a developer platform, and does not currently publish a public developer API, OpenAPI specification, SDK, or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/boosters/refs/heads/main/screenshots/boosters-2026-07-25T203637.png",
+     "score": 3.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4217,7 +4167,106 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 83
+    },
+    {
+     "name": "Astonsci",
+     "slug": "astonsci",
+     "description": "Aston Sci. is a clinical-stage biopharmaceutical company focused on developing innovative medicines to meet unmet medical needs. The company presents its pipeline, science focus areas, and corporate information through its website.",
+     "score": 3.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 4.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 84
+    },
+    {
+     "name": "INDEX Robotics",
+     "slug": "index-robotics",
+     "description": "INDEX Robotics is a South Korean humanoid robotics startup based in Seongnam (Bundang) building high-precision actuators and upper-body humanoid robots for high-mix, low-volume industrial work. Its core products are the IA Series, a family of high-precision actuators purpose-built for humanoid joints, and INDEX01, a compact upper-body humanoid prototype that deliberately foregoes a mobile base so it can slot into constrained factory workspaces for logistics handling, machining support, and precision assembly. The company treats joint precision, responsiveness under sustained repetitive motion, and long-run performance consistency as the core unsolved problems in humanoid commercialization. In February 2026 INDEX Robotics closed a $1M (KRW 1.5B) seed round led by Futureplay with Bass Ventures and 500 Global co-investing. This is a hardware company with no public API, SDK, or developer program at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/index-robotics/refs/heads/main/screenshots/index-robotics-2026-07-25T222257.png",
+     "score": 3.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 85
     },
     {
      "name": "AriBio",
@@ -4234,7 +4283,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4266,7 +4315,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 86
     },
     {
      "name": "Aswemake",
@@ -4283,7 +4332,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4315,7 +4364,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 87
     },
     {
      "name": "PeopleFund, Perfect Technologies",
@@ -4333,7 +4382,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4365,7 +4414,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 88
     },
     {
      "name": "AFUN Interactive",
@@ -4382,7 +4431,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4414,7 +4463,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 89
     },
     {
      "name": "Bigoceanem",
@@ -4431,57 +4480,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 5.9,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 89
-    },
-    {
-     "name": "Chaart",
-     "slug": "chaart",
-     "description": "Chaart (주식회사 차트, Chaart Inc.) is a Seoul-based art-trading and art-asset-management platform for South Korea's art collectors and investors. Its iOS and Android apps let collectors buy and resell artworks in the secondary market with transparent price/valuation information, automatic artwork matching, authenticity checks, secure delivery, and integrated payments. Chaart reports 5,000+ registered collectors and thousands of artworks traded, and raised pre-seed funding from 500 Global. Chaart is a consumer mobile app: as of this enrichment pass it publishes no public developer API, OpenAPI, SDKs, or developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chaart/refs/heads/main/screenshots/chaart-2026-07-25T205017.png",
-     "score": 3.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4516,10 +4515,10 @@
      "rank": 90
     },
     {
-     "name": "MomMom",
-     "slug": "mommom",
-     "description": "MomMom (맘맘) is a South Korean consumer parenting and family-activity platform that helps parents discover places to go with their kids and products to buy for them. The mom-mom.net website and app curate kid-friendly destinations by region, family accommodation and resort deals, restaurant and class discounts, and community-driven product rankings (국민템랭킹) covering baby and childcare essentials, alongside parenting tips. It is a B2C curation, deals, and recommendation service, backed as a 500 Global portfolio company; no public developer API, documentation, or well-known discovery surface is currently published (probed 2026-07-20).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mommom/refs/heads/main/screenshots/mommom-2026-08-07T184129.png",
+     "name": "Chaart",
+     "slug": "chaart",
+     "description": "Chaart (주식회사 차트, Chaart Inc.) is a Seoul-based art-trading and art-asset-management platform for South Korea's art collectors and investors. Its iOS and Android apps let collectors buy and resell artworks in the secondary market with transparent price/valuation information, automatic artwork matching, authenticity checks, secure delivery, and integrated payments. Chaart reports 5,000+ registered collectors and thousands of artworks traded, and raised pre-seed funding from 500 Global. Chaart is a consumer mobile app: as of this enrichment pass it publishes no public developer API, OpenAPI, SDKs, or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chaart/refs/heads/main/screenshots/chaart-2026-07-25T205017.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4531,7 +4530,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4566,10 +4565,10 @@
      "rank": 91
     },
     {
-     "name": "Pawdly",
-     "slug": "pawdly",
-     "description": "Pawdly (포들리) is a South Korean pet e-commerce marketplace and mobile app operated by KCC I&C, offering pet product shopping across categories, saved/wishlist items, and pet-care service reservations, alongside pet-care tips and member benefits delivered through its app. KCC I&C operates as a payment intermediary and mail-order sales broker rather than the direct seller, with individual merchants fulfilling orders, shipping, and refunds. Pawdly was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. An enrichment pass found a consumer web/mobile marketplace with no public developer portal, API, or documentation surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pawdly/refs/heads/main/screenshots/pawdly-2026-08-07T191610.png",
+     "name": "MomMom",
+     "slug": "mommom",
+     "description": "MomMom (맘맘) is a South Korean consumer parenting and family-activity platform that helps parents discover places to go with their kids and products to buy for them. The mom-mom.net website and app curate kid-friendly destinations by region, family accommodation and resort deals, restaurant and class discounts, and community-driven product rankings (국민템랭킹) covering baby and childcare essentials, alongside parenting tips. It is a B2C curation, deals, and recommendation service, backed as a 500 Global portfolio company; no public developer API, documentation, or well-known discovery surface is currently published (probed 2026-07-20).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mommom/refs/heads/main/screenshots/mommom-2026-08-07T184129.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4581,7 +4580,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4616,10 +4615,10 @@
      "rank": 92
     },
     {
-     "name": "Plantner",
-     "slug": "plantner-inc",
-     "description": "Plantner Inc. (PLANTNER) is a South Korean biotechnology company specializing in the extraction and manufacturing of alginic acid, a biodegradable marine-derived biomaterial. Operating as a bio-industry platform provider, Plantner supplies alginic acid-based solutions across medical devices (wound dressings, nutraceuticals), pharmaceuticals (gastroprotective agents, drug-delivery systems), cosmetics (modeling masks, hydrogels), advanced biotech (bio-ink, organoids, delivery carriers), and agriculture (controlled-release fertilizers, mulching films, eco-friendly herbicides). Headquartered in Seoul with an R&D center in Suwon, the company is a 500 Global portfolio company. It is a materials/biotech manufacturer and does not currently publish a developer API, documentation, or developer portal; this profile is maintained in the API Evangelist network as a company record.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/plantner-inc/refs/heads/main/screenshots/plantner-inc-2026-09-02T151441.png",
+     "name": "Pawdly",
+     "slug": "pawdly",
+     "description": "Pawdly (포들리) is a South Korean pet e-commerce marketplace and mobile app operated by KCC I&C, offering pet product shopping across categories, saved/wishlist items, and pet-care service reservations, alongside pet-care tips and member benefits delivered through its app. KCC I&C operates as a payment intermediary and mail-order sales broker rather than the direct seller, with individual merchants fulfilling orders, shipping, and refunds. Pawdly was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. An enrichment pass found a consumer web/mobile marketplace with no public developer portal, API, or documentation surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pawdly/refs/heads/main/screenshots/pawdly-2026-08-07T191610.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4631,7 +4630,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4666,10 +4665,10 @@
      "rank": 93
     },
     {
-     "name": "RareLee",
-     "slug": "rarelee",
-     "description": "RareLee (Rarelee) is a Seoul-based premium personal style consulting company founded in 2017, offering data-driven hair, makeup, and fashion analysis. Its consultants classify a client's face shape, features, and skeletal structure across millions of type combinations to recommend personalized hairstyles, makeup designs, and coordinated outfits, both online and in person. Rarelee serves celebrity clientele and has collaborated with brands such as Shinsegae and Marriott. It is a direct-to-consumer service with no public API, developer portal, or technical integration surface; it was added to the API Evangelist network as a 500 Global portfolio lead for enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rarelee/refs/heads/main/screenshots/rarelee-2026-09-02T152911.png",
+     "name": "Plantner",
+     "slug": "plantner-inc",
+     "description": "Plantner Inc. (PLANTNER) is a South Korean biotechnology company specializing in the extraction and manufacturing of alginic acid, a biodegradable marine-derived biomaterial. Operating as a bio-industry platform provider, Plantner supplies alginic acid-based solutions across medical devices (wound dressings, nutraceuticals), pharmaceuticals (gastroprotective agents, drug-delivery systems), cosmetics (modeling masks, hydrogels), advanced biotech (bio-ink, organoids, delivery carriers), and agriculture (controlled-release fertilizers, mulching films, eco-friendly herbicides). Headquartered in Seoul with an R&D center in Suwon, the company is a 500 Global portfolio company. It is a materials/biotech manufacturer and does not currently publish a developer API, documentation, or developer portal; this profile is maintained in the API Evangelist network as a company record.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/plantner-inc/refs/heads/main/screenshots/plantner-inc-2026-09-02T151441.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4681,7 +4680,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4716,10 +4715,10 @@
      "rank": 94
     },
     {
-     "name": "RVDS",
-     "slug": "rvds-inc",
-     "description": "RVDS Inc. is a South Korean food and beverage company that describes itself as growing into Korea's representative Multi-K-Food Brand Operator, building and operating a portfolio of consumer dining brands including Dodo Korea, Butai, and Salad Monster. Based in Cheongju-si, Chungcheongbuk-do, the company is backed by 500 Global. As a consumer food-brand operator it publishes no public API, developer portal, SDKs, or technical documentation, so this profile carries only identity and probed domain-security signals rather than API artifacts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rvds-inc/refs/heads/main/screenshots/rvds-inc-2026-09-02T154221.png",
+     "name": "RareLee",
+     "slug": "rarelee",
+     "description": "RareLee (Rarelee) is a Seoul-based premium personal style consulting company founded in 2017, offering data-driven hair, makeup, and fashion analysis. Its consultants classify a client's face shape, features, and skeletal structure across millions of type combinations to recommend personalized hairstyles, makeup designs, and coordinated outfits, both online and in person. Rarelee serves celebrity clientele and has collaborated with brands such as Shinsegae and Marriott. It is a direct-to-consumer service with no public API, developer portal, or technical integration surface; it was added to the API Evangelist network as a 500 Global portfolio lead for enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rarelee/refs/heads/main/screenshots/rarelee-2026-09-02T152911.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4731,7 +4730,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4766,9 +4765,10 @@
      "rank": 95
     },
     {
-     "name": "Theres Camping",
-     "slug": "theres-camping",
-     "description": "Theres (데얼스, Theres Co., Ltd.) is a South Korean e-commerce marketplace for outdoor and camping gear, where customers buy both new and second-hand equipment in one place. The platform aggregates brands and vendors (Grape Box, Camping Khan, Ridge Mountain Gear, Matador, and others), offering product search, a shopping cart, deal notifications, a community section, and vendor/product listing tools. Based in Seoul (Seocho-gu), Theres is a portfolio company of 500 Global. The company publishes a consumer web/app storefront and does not currently expose a public developer API, documentation, or integration surface.",
+     "name": "RVDS",
+     "slug": "rvds-inc",
+     "description": "RVDS Inc. is a South Korean food and beverage company that describes itself as growing into Korea's representative Multi-K-Food Brand Operator, building and operating a portfolio of consumer dining brands including Dodo Korea, Butai, and Salad Monster. Based in Cheongju-si, Chungcheongbuk-do, the company is backed by 500 Global. As a consumer food-brand operator it publishes no public API, developer portal, SDKs, or technical documentation, so this profile carries only identity and probed domain-security signals rather than API artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rvds-inc/refs/heads/main/screenshots/rvds-inc-2026-09-02T154221.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4780,7 +4780,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4815,10 +4815,9 @@
      "rank": 96
     },
     {
-     "name": "Ticketmonster",
-     "slug": "ticketmonster",
-     "description": "Ticketmonster (TMON) is a South Korean e-commerce and social-commerce platform founded in 2010 as \"Ticket Monster.\" Operating primarily at tmon.co.kr (the legacy ticketmonster.co.kr brand), TMON sells deals, daily bargains, fashion, travel, and a broad retail catalog to Korean consumers via web and mobile apps. It grew into one of Korea's leading online marketplaces and was later brought under the Qoo10 group. TMON is a consumer-facing retail/marketplace business; it does not publish a public developer program, API portal, OpenAPI specification, SDKs, or documented API surface. This profile was surfaced as a portfolio-linked company and enriched by the API Evangelist pipeline, which confirmed the absence of any public API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ticketmonster/refs/heads/main/screenshots/ticketmonster-2026-09-02T163703.png",
+     "name": "Theres Camping",
+     "slug": "theres-camping",
+     "description": "Theres (데얼스, Theres Co., Ltd.) is a South Korean e-commerce marketplace for outdoor and camping gear, where customers buy both new and second-hand equipment in one place. The platform aggregates brands and vendors (Grape Box, Camping Khan, Ridge Mountain Gear, Matador, and others), offering product search, a shopping cart, deal notifications, a community section, and vendor/product listing tools. Based in Seoul (Seocho-gu), Theres is a portfolio company of 500 Global. The company publishes a consumer web/app storefront and does not currently expose a public developer API, documentation, or integration surface.",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4830,7 +4829,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4865,10 +4864,10 @@
      "rank": 97
     },
     {
-     "name": "TimeBlocks",
-     "slug": "timeblocks",
-     "description": "TimeBlocks is a consumer calendar and personal scheduling mobile app developed by Day2Life Inc., a South Korean company backed by 500 Global. Marketed as Korea's #1 decoration calendar, it brings calendar, to-do, memo, and habit tracking together in a single view, with patented drag-and-drop time-block scheduling (US Patent 10,409,474 B2), roughly 1,000 customization items (themes, stickers, fonts), shared and group calendars with real-time notifications, seven home-screen widgets, and cloud sync across devices. It is a native iOS and Android app; as of this enrichment pass it publishes no public developer API, SDK, or API documentation surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/timeblocks/refs/heads/main/screenshots/timeblocks-2026-09-02T163753.png",
+     "name": "Ticketmonster",
+     "slug": "ticketmonster",
+     "description": "Ticketmonster (TMON) is a South Korean e-commerce and social-commerce platform founded in 2010 as \"Ticket Monster.\" Operating primarily at tmon.co.kr (the legacy ticketmonster.co.kr brand), TMON sells deals, daily bargains, fashion, travel, and a broad retail catalog to Korean consumers via web and mobile apps. It grew into one of Korea's leading online marketplaces and was later brought under the Qoo10 group. TMON is a consumer-facing retail/marketplace business; it does not publish a public developer program, API portal, OpenAPI specification, SDKs, or documented API surface. This profile was surfaced as a portfolio-linked company and enriched by the API Evangelist pipeline, which confirmed the absence of any public API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ticketmonster/refs/heads/main/screenshots/ticketmonster-2026-09-02T163703.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4880,7 +4879,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4915,10 +4914,10 @@
      "rank": 98
     },
     {
-     "name": "Tumblbug",
-     "slug": "tumblbug",
-     "description": "Tumblbug (텀블벅) is a South Korean reward-based crowdfunding platform for creators, where makers launch projects and backers pledge funds to bring creative works — comics, games, publishing, design, music, film and more — to life. Surfaced as a portfolio company of DCM Ventures and added to the API Evangelist network for enrichment. As of this pass Tumblbug publishes a consumer-facing web platform (help center, creator guides, pricing/advertising, terms and privacy pages) but exposes no public developer API, documentation, or open API surface; this profile therefore carries identity and domain-security signals only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tumblbug/refs/heads/main/screenshots/tumblbug-2026-09-02T164525.png",
+     "name": "TimeBlocks",
+     "slug": "timeblocks",
+     "description": "TimeBlocks is a consumer calendar and personal scheduling mobile app developed by Day2Life Inc., a South Korean company backed by 500 Global. Marketed as Korea's #1 decoration calendar, it brings calendar, to-do, memo, and habit tracking together in a single view, with patented drag-and-drop time-block scheduling (US Patent 10,409,474 B2), roughly 1,000 customization items (themes, stickers, fonts), shared and group calendars with real-time notifications, seven home-screen widgets, and cloud sync across devices. It is a native iOS and Android app; as of this enrichment pass it publishes no public developer API, SDK, or API documentation surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/timeblocks/refs/heads/main/screenshots/timeblocks-2026-09-02T163753.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4930,7 +4929,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -4965,6 +4964,56 @@
      "rank": 99
     },
     {
+     "name": "Tumblbug",
+     "slug": "tumblbug",
+     "description": "Tumblbug (텀블벅) is a South Korean reward-based crowdfunding platform for creators, where makers launch projects and backers pledge funds to bring creative works — comics, games, publishing, design, music, film and more — to life. Surfaced as a portfolio company of DCM Ventures and added to the API Evangelist network for enrichment. As of this pass Tumblbug publishes a consumer-facing web platform (help center, creator guides, pricing/advertising, terms and privacy pages) but exposes no public developer API, documentation, or open API surface; this profile therefore carries identity and domain-security signals only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tumblbug/refs/heads/main/screenshots/tumblbug-2026-09-02T164525.png",
+     "score": 3.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 100
+    },
+    {
      "name": "ADEL, Inc.",
      "slug": "adel97fd",
      "description": "ADEL, Inc. (주식회사 아델) is a clinical-stage biopharmaceutical company headquartered in Seoul, South Korea, founded in 2016 as a spin-off from the Asan Medical Center / University of Ulsan College of Medicine by Professor Seung-Yong Yoon. ADEL develops antibody therapeutics, companion diagnostics and delivery platforms for Alzheimer's disease and other neurodegenerative conditions. Its lead candidate ADEL-Y01 is a humanized monoclonal antibody selectively targeting tau acetylated at Lysine-280 (acK280), in a global first-in-human Phase 1 study under a US FDA-cleared IND; in December 2025 ADEL granted Sanofi exclusive worldwide rights to ADEL-Y01 in a deal worth up to USD 1.04 billion including an USD 80 million upfront payment. The wider pipeline includes ADEL-Y03 (a beta-2 microglobulin antibody), ADEL-Y04 (an ApoE4-targeting antibody), the ADEL-D01 tau pT217 diagnostic antibody, and two proprietary platforms — BTS (Brain Targeting System) for blood-brain-barrier penetration and ADTAC (Autophagic Degradation Targeting Chimera) for targeted protein degradation. The company is research-and-development driven and sells no software product: it publishes no developer portal, public API, SDK, webhook catalog or machine-readable specification of any kind. Its only web surface is the corporate marketing site at adelpharm.com.",
@@ -4979,7 +5028,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5011,7 +5060,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 101
     },
     {
      "name": "Aitrics",
@@ -5028,7 +5077,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5060,7 +5109,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 102
     },
     {
      "name": "Autotacbio",
@@ -5077,7 +5126,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5109,7 +5158,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 103
+    },
+    {
+     "name": "Bluefarmkorea",
+     "slug": "bluefarmkorea",
+     "description": "Bluefarmkorea is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling. It appears to be associated with agricultural technology services in Korea, but no public website or detailed information could be verified.",
+     "score": 3.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 44.6,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 5.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 104
     },
     {
      "name": "Medir",
@@ -5126,7 +5224,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5158,7 +5256,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 105
     },
     {
      "name": "Playcurio",
@@ -5175,7 +5273,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5207,7 +5305,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 106
     },
     {
      "name": "Socra AI",
@@ -5225,7 +5323,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5257,7 +5355,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 107
     },
     {
      "name": "NOD Games",
@@ -5275,105 +5373,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 0.0,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 106
-    },
-    {
-     "name": "myBOX",
-     "slug": "mybox",
-     "description": "myBOX was an on-demand self-storage service founded in 2015 in Seoul, South Korea, and backed by 500 Global. It delivered storage boxes to a user's door for storing unused luggage and goods, offering free pickup and a range of container sizes for documents, clothes, and bulky items. The company has since permanently closed; its site (my-box.kr) no longer resolves and it exposes no public API, developer portal, or technical surface. Retained in the API Evangelist network as an enrichment lead; no API artifacts exist to harvest.",
-     "score": 0.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 0.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 0.0,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 107
-    },
-    {
-     "name": "Storicity",
-     "slug": "storicity",
-     "description": "Storicity Inc. was a Seoul, South Korea-based travel-technology startup, founded around 2020 and backed by 500 Global, that built Yoda Trip (Korean brand \"여다\") — an AI-assisted consumer travel-planning mobile app offering customized itineraries and mobile audio guides for tourist destinations, shipped on iOS and Android. It was a consumer B2C mobile product rather than an API platform provider. An enrichment pass on 2026-07-21 (web search plus a live domain/TLS probe) found no public API, developer portal, documentation, OpenAPI specification, SDK packages, GitHub organization, or other developer surface. Public records indicate the Yoda Trip service was discontinued in April 2025 and the company is listed as out of business; the yodatrip.com domain still resolves but serves a broken TLS certificate.",
-     "score": 0.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 0.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-03",
+     "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
@@ -5406,6 +5406,104 @@
       "agentic_commerce": false
      },
      "rank": 108
+    },
+    {
+     "name": "myBOX",
+     "slug": "mybox",
+     "description": "myBOX was an on-demand self-storage service founded in 2015 in Seoul, South Korea, and backed by 500 Global. It delivered storage boxes to a user's door for storing unused luggage and goods, offering free pickup and a range of container sizes for documents, clothes, and bulky items. The company has since permanently closed; its site (my-box.kr) no longer resolves and it exposes no public API, developer portal, or technical surface. Retained in the API Evangelist network as an enrichment lead; no API artifacts exist to harvest.",
+     "score": 0.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 0.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 0.0,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 109
+    },
+    {
+     "name": "Storicity",
+     "slug": "storicity",
+     "description": "Storicity Inc. was a Seoul, South Korea-based travel-technology startup, founded around 2020 and backed by 500 Global, that built Yoda Trip (Korean brand \"여다\") — an AI-assisted consumer travel-planning mobile app offering customized itineraries and mobile audio guides for tourist destinations, shipped on iOS and Android. It was a consumer B2C mobile product rather than an API platform provider. An enrichment pass on 2026-07-21 (web search plus a live domain/TLS probe) found no public API, developer portal, documentation, OpenAPI specification, SDK packages, GitHub organization, or other developer surface. Public records indicate the Yoda Trip service was discontinued in April 2025 and the company is listed as out of business; the yodatrip.com domain still resolves but serves a broken TLS certificate.",
+     "score": 0.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 0.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 0.0,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 110
     }
    ]
   }

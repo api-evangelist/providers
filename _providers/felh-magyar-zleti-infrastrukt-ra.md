@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Authenticated, read-only REST/JSON API for company search and lookup, typeahead suggestions, single-company retrieval (by id or tax number), and domain WHOIS/RDAP lookups. Static bearer API-key auth (
@@ -71,7 +71,7 @@ layout: provider
 mcp_servers:
 - description: No MCP server is published by Felho (hosted or local). Probed https://felho.hu/mcp, https://felho.hu/api/mcp and https://mcp.felho.hu/mcp on 2026-09-18 — the first two return the SPA 404 shell, the mc
   name: Felhő — Magyar üzleti infrastruktúra MCP Server
-  slug: felhő-magyar-üzleti-infrastruktúra-mcp-server
+  slug: felh-magyar-zleti-infrastrukt-ra-mcp-yml
 modified: '2026-09-18'
 name: Felhő — Magyar üzleti infrastruktúra
 nav: Providers
@@ -93,13 +93,13 @@ score:
   band: thin
   composite: 37.5
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 12
     catalog_earned: 58.0
     catalog_earned_first_party: 24.0
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
@@ -113,7 +113,7 @@ score:
     regions:
     - cee
     - europe
-  previous_composite: 37.5
+  previous_composite: 36.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -124,7 +124,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

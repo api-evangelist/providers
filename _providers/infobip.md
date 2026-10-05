@@ -37,170 +37,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 63.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 576
-  human_in_the_loop: 15
+- acting_count: 1172
+  human_in_the_loop: 30
   name: Infobip Agentic Access
-  operation_count: 943
+  operation_count: 1886
   slug: infobip-agentic-access
-  summary_line: 943 operations · 576 acting · 15 human-in-the-loop
-api_count: 47
+  summary_line: 1886 operations · 1172 acting · 30 human-in-the-loop
+api_count: 48
 apis:
 - baseURL: https://api.infobip.com
   baseurl_source: declared
   description: AI-powered tools and services to help you create smarter and more personalized customer experiences.
   name: Infobip AI Hub API
-  phrasing_intents:
-  - id: query-ai-assistant
-    intent: Ask an AI assistant a question and get its answer
-    question: How do I send a user's message to my Infobip AI assistant and get a generated reply?
-  - id: retrieve-ai-assistant-context
-    intent: Retrieve relevant knowledge base chunks for a message
-    question: How can I fetch the raw knowledge base passages an assistant would match to a message, without a generated answer?
-  phrasing_ops: 2
   slug: infobip-ai-hub-api
 - baseURL: https://api.infobip.com
   baseurl_source: declared
   description: Create a perfect customer experience by using the channels your customer already use and love.
   name: Infobip Channels API
-  phrasing_intents:
-  - id: send-sms-messages
-    intent: Send SMS messages
-    question: What's the current way to send an SMS to one person or thousands of recipients with Infobip?
-  - id: send-sms-messages-over-query-parameters
-    intent: Send an SMS using only query string parameters
-    question: Can I send a text message with a single GET request where everything is in the URL?
-  - id: send-sms-message-over-query-parameters
-    intent: Send an SMS by URL with username and password
-    question: Can I send an SMS by passing my username and password in the query string?
-  - id: preview-sms-message
-    intent: Preview how an SMS text will be split and encoded
-    question: How many SMS parts will my message text be split into before I send it?
-  - id: send-sms-message
-    intent: Send advanced SMS messages (v2)
-    question: Can the older v2 advanced SMS endpoint throttle sending speed for a big batch?
-  - id: send-binary-sms-message
-    intent: Send binary SMS messages
-    question: How can I send a binary-encoded SMS payload instead of plain text?
-  - id: get-scheduled-sms-messages
-    intent: View the send time of a scheduled SMS bulk
-    question: When is my scheduled SMS bulk set to go out?
-  - id: reschedule-sms-messages
-    intent: Reschedule a scheduled SMS bulk
-    question: Can I move a scheduled SMS campaign to a different date and time?
-  phrasing_ops: 455
   slug: infobip-channels-api
 - baseURL: https://api.infobip.com
   baseurl_source: declared
   description: Powerful infrastructure and tools that connect you to the world.
   name: Infobip Connectivity API
-  phrasing_intents:
-  - id: number-context-lookup-async
-    intent: Look up phone number context with a callback report
-    question: Can Number Context lookup results be pushed to my callback server instead of returned right away?
-  - id: number-context-lookup
-    intent: Look up phone number context immediately
-    question: How can I find out the network and status information for a phone number in Infobip and get the answer in the same response?
-  - id: get-number-context-logs
-    intent: Review logs of past Number Context lookups
-    question: Where can I see a history of the number lookups I've already sent?
-  - id: get-reports-metadata
-    intent: List network activation-state reports
-    question: Which network reports on number activation state are available for my account?
-  - id: get-single-report
-    intent: Read number activation changes in a network report
-    question: How do I see which destination numbers changed activation state inside one network report?
-  - id: silent-mobile-verification
-    intent: Silently verify a user's phone number via the operator
-    question: How can I confirm a user owns their phone number over the mobile data connection without sending an OTP?
-  - id: advanced-silent-mobile-verification
-    intent: Silent number check with SIM swap check and SMS fallback
-    question: Can I run a SIM swap check before verifying a phone number silently?
-  - id: synchronous-silent-mobile-verification
-    intent: Verify a phone number synchronously by device IP
-    question: Can I get a silent verification answer in the same response rather than via a callback in Brazil?
-  phrasing_ops: 35
   slug: infobip-connectivity-api
 - baseURL: https://api.infobip.com
   baseurl_source: declared
   description: Complete solutions that will help you drive better outcomes for your customers and business across the entire customer journey.
   name: Infobip Customer Engagement API
-  phrasing_intents:
-  - id: get-a-single-person-or-a-list-of-people
-    intent: Look up one person or list people profiles
-    question: How do I look up a customer profile in Infobip People by their email or phone?
-  - id: update-a-person
-    intent: Overwrite a person profile
-    question: Can I completely overwrite a person's profile with new data in one request?
-  - id: create-a-new-person
-    intent: Create a person profile
-    question: How can I add a single new customer profile to People?
-  - id: delete-a-person
-    intent: Delete a person profile
-    question: Can I permanently remove a single customer's profile from People?
-  - id: partial-person-update
-    intent: Update selected fields on a person profile
-    question: Can I change just a few fields on a person profile without resending everything?
-  - id: set-person-contact-information
-    intent: Replace all contact details on a person
-    question: Can I replace every email and mobile number on a person with a fresh set?
-  - id: delete-person-contact-information
-    intent: Remove specific emails or phones from a person
-    question: Can I delete one outdated email address from a person without touching the rest?
-  - id: add-person-contact-information
-    intent: Add emails or phones to a person
-    question: Can I add a second email address to an existing person while keeping the old one?
-  phrasing_ops: 254
   slug: infobip-customer-engagement-api
 - baseURL: https://api.infobip.com
   baseurl_source: declared
   description: Modular tools to scale and automate your business.
   name: Infobip Platform API
-  phrasing_intents:
-  - id: get-2fa-applications
-    intent: List my 2FA applications
-    question: Which 2FA applications have I set up in Infobip?
-  - id: create-2fa-application
-    intent: Create a 2FA application
-    question: What do I need to set up a new two-factor authentication application?
-  - id: get-2fa-application
-    intent: Get a 2FA application's configuration
-    question: How is a specific 2FA application of mine configured?
-  - id: update-2fa-application
-    intent: Update a 2FA application
-    question: Can I change the settings of a 2FA application I already created?
-  - id: get-2fa-message-templates
-    intent: List message templates in a 2FA application
-    question: Which PIN message templates exist inside one of my 2FA applications?
-  - id: create-2fa-message-template
-    intent: Create a 2FA SMS or voice PIN template
-    question: How do I create an SMS or voice template for sending one-time PINs?
-  - id: get-2fa-message-template
-    intent: Get a 2FA message template
-    question: What does one particular 2FA PIN template contain?
-  - id: update-2fa-message-template
-    intent: Update a 2FA SMS or voice PIN template
-    question: Can I edit the text of an SMS or voice OTP template I already made?
-  phrasing_ops: 194
   slug: infobip-platform-api
 - baseURL: https://api.infobip.com
   baseurl_source: declared
   description: Developer utilities to help you integrate and work with Infobip APIs more efficiently.
   name: Infobip Tools API
-  phrasing_intents:
-  - id: get-openapi
-    intent: Download the full platform OpenAPI specification
-    question: Where can I download the complete OpenAPI spec covering every Infobip endpoint and webhook?
-  - id: get-product-level-openapi
-    intent: Get the OpenAPI specification for one product
-    question: How do I get just the SMS OpenAPI spec instead of the whole platform document?
-  - id: get-available-products
-    intent: List products that have their own OpenAPI spec
-    question: Which product identifiers can I use when fetching a per-product OpenAPI spec?
-  phrasing_ops: 3
   slug: infobip-tools-api
-artifact_total: 110
+artifact_total: 142
 asyncapis:
 - description: AsyncAPI projection of the 102 webhooks published in the Infobip platform OpenAPI 3.1 document (the "webhooks" object). Each channel is an Infobip-originated HTTP callback delivered to a customer-conf
   name: Infobip platform webhooks
@@ -489,6 +366,44 @@ collections:
   name: Infobip OpenAPI Specification
   slug: open-infobip-zalo
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/rules/infobip-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/infobip-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/json-ld/infobip-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/infobip-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/vocabulary/infobip-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/infobip-vocabulary.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/asyncapi/infobip-webhooks-asyncapi.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/infobip-webhooks-asyncapi.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/llms/infobip-docs-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/infobip-docs-llms.txt
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/vendors/infobip-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/infobip-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.infobip.com/news
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.infobip.com/leadership
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/plans/infobip-plans-pricing.yml
   title: ''
@@ -1028,11 +943,111 @@ created: '2026-07-25'
 description: 'Infobip is a global communications platform as a service (CPaaS) provider headquartered in Vodnjan, Croatia, and is Croatia''s largest technology company. It sells programmable messaging, voice, video, email and customer engagement APIs on top of direct connections into mobile network operators worldwide, sitting in the aggregator layer of the telecom value chain: it buys and resells carrier connectivity, and it is the developer-facing surface that most businesses actually integrate with rather than the carriers themselves. Its API posture is openly self-serve — a free-trial account, a documentation hub at infobip.com/docs/api, first-party SDKs in six languages, a public Postman workspace, remote MCP servers, and an unauthenticated OpenAPI 3.1 endpoint at https://api.infobip.com/platform/1/openapi that returns the complete specification for all public endpoints and webhooks, plus per-product specifications for 46 products. On the network-API side Infobip is a GSMA Open Gateway
   participant certified for SIM Swap and Number Verification (September 2025) and an Aduna channel partner, and it publishes callable CAMARA endpoints — Number Verification, SIM Swap, Device Location Verification and KYC Match — though CAMARA access itself is sales-gated behind a contact form even while the specification is public.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+json_schemas:
+- name: OmniAdvancedRequest
+  property_count: 19
+  slug: infobip-04790a6ae08cb63186016b6e4b8eb1c003a31d6a3227220686470a5721dc2d02-omni-advanced-request
+- name: ArticleDetailResponse
+  property_count: 24
+  slug: infobip-09ef6171198229ad9a73a413d2271afa3ba31b9abbd6cd8a0cc9563fd721f1ed-article-detail-response
+- name: TollFreeUnifiedNumberCampaignApiModel
+  property_count: 40
+  slug: infobip-2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a-toll-free-unified-number-campaign-api-model
+- name: QueryAiAssistantApiResponse
+  property_count: 2
+  slug: infobip-2a53d681c9399f766b0cfff54e0469d04419b36fc1603e6db03e69cc8ad55f34-query-ai-assistant-api-response
+- name: RetrieveContextApiResponse
+  property_count: 1
+  slug: infobip-2a53d681c9399f766b0cfff54e0469d04419b36fc1603e6db03e69cc8ad55f34-retrieve-context-api-response
+- name: RetrieveContextRequest
+  property_count: 5
+  slug: infobip-2a53d681c9399f766b0cfff54e0469d04419b36fc1603e6db03e69cc8ad55f34-retrieve-context-request
+- name: SimpleAiAssistantQuery
+  property_count: 4
+  slug: infobip-2a53d681c9399f766b0cfff54e0469d04419b36fc1603e6db03e69cc8ad55f34-simple-ai-assistant-query
+- name: SendMimeRequestSchema
+  property_count: 13
+  slug: infobip-34438aa163eb13a2a06ad96ae98170e41cc2ee8902e8b7655aba73ceb0bb23f1-send-mime-request-schema
+- name: SendRequestSchema
+  property_count: 37
+  slug: infobip-34438aa163eb13a2a06ad96ae98170e41cc2ee8902e8b7655aba73ceb0bb23f1-send-request-schema
+- name: CallLog
+  property_count: 24
+  slug: infobip-431fb79b0e816230968e14ba1e1c6fadb75cfde9cb3c381f4217b2777f48153f-call-log
+- name: MoConfigurationRequest
+  property_count: 4
+  slug: infobip-7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553-mo-configuration-request
+- name: EnrollmentSessionRequest
+  property_count: 7
+  slug: infobip-8a19359d3a412667abbd2d38733e247b91417d2a845ae41758328736ea0ecce9-enrollment-session-request
+- name: ExtractionSessionRequest
+  property_count: 7
+  slug: infobip-8a19359d3a412667abbd2d38733e247b91417d2a845ae41758328736ea0ecce9-extraction-session-request
+- name: VerificationSessionRequest
+  property_count: 8
+  slug: infobip-8a19359d3a412667abbd2d38733e247b91417d2a845ae41758328736ea0ecce9-verification-session-request
+- name: IamPersonV2
+  property_count: 22
+  slug: infobip-a8ed60f1ed4abc0dfe4d5460edd3205f89585f2cd4b436e4d83a1231d28c264c-iam-person-v2
+- name: RecordingMetadataApiModel
+  property_count: 22
+  slug: infobip-b979cda441a7c661201042835d7dc18eaec3fa68a2905164912469051f8b8866-recording-metadata-api-model
+- name: CreateApiKeyRequest
+  property_count: 8
+  slug: infobip-bb8af9c2d2d4d677e25555100e31662e23d86ede8b5d73bbf4974b4decdd08d7-create-api-key-request
+- name: UpdateApiKeyRequest
+  property_count: 9
+  slug: infobip-bb8af9c2d2d4d677e25555100e31662e23d86ede8b5d73bbf4974b4decdd08d7-update-api-key-request
+- name: Message
+  property_count: 15
+  slug: infobip-c3b21d2ffef2552e10577daa67c904ac80618665b001ef386a4faefc515e78f3-message
+- name: SmsOrVoiceMessage
+  property_count: 12
+  slug: infobip-c3b21d2ffef2552e10577daa67c904ac80618665b001ef386a4faefc515e78f3-sms-or-voice-message
+- name: CreateRcsSenderApiRequest
+  property_count: 16
+  slug: infobip-c4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2eb95a84913-create-rcs-sender-api-request
+- name: RcsSender
+  property_count: 19
+  slug: infobip-c4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2eb95a84913-rcs-sender
+- name: CamaraKycMatchRequestDto
+  property_count: 20
+  slug: infobip-c4fb96364cd87b1d1d15720880c5153ef26f58342e4ec03b9d5896f2251f17ae-camara-kyc-match-request-dto
+- name: CamaraKycMatchResponseDto
+  property_count: 32
+  slug: infobip-c4fb96364cd87b1d1d15720880c5153ef26f58342e4ec03b9d5896f2251f17ae-camara-kyc-match-response-dto
+- name: SmvVerifyAdvancedRequestDto
+  property_count: 8
+  slug: infobip-c4fb96364cd87b1d1d15720880c5153ef26f58342e4ec03b9d5896f2251f17ae-smv-verify-advanced-request-dto
+- name: AvailableProducts
+  property_count: 1
+  slug: infobip-d2eeca5070e19d116b5e48cb8dbc21132490d09f32a707af8c36324fa50d906d-available-products
+- name: OpenAPI
+  property_count: 0
+  slug: infobip-d2eeca5070e19d116b5e48cb8dbc21132490d09f32a707af8c36324fa50d906d-open-api
+- name: SegmentCreateDto
+  property_count: 4
+  slug: infobip-d76a8e2b7d80b5cb0751e11a31b96eabeaf6b2ec1de2932507f7f2749e61e91c-segment-create-dto
+- name: SegmentResponseDto
+  property_count: 7
+  slug: infobip-d76a8e2b7d80b5cb0751e11a31b96eabeaf6b2ec1de2932507f7f2749e61e91c-segment-response-dto
+- name: SegmentUpdateDto
+  property_count: 4
+  slug: infobip-d76a8e2b7d80b5cb0751e11a31b96eabeaf6b2ec1de2932507f7f2749e61e91c-segment-update-dto
+jsonld:
+- class_count: 120
+  name: Infobip Context
+  property_count: 193
+  slug: infobip-context
 layout: provider
 mcp_servers:
-- description: ''
+- description: 'Infobip runs a FLEET of remote MCP servers rather than a single endpoint: one server
+
+    per API product, all on https://mcp.infobip.com/{product}. Streamable HTTP is the
+
+    default transport, SSE is availab'
   name: Infobip MCP Server
-  slug: infobip-mcp-server
+  slug: infobip-mcp-yml
 modified: '2026-09-16'
 name: Infobip
 nav: Providers
@@ -1040,10 +1055,10 @@ network: true
 overview: 'Infobip publishes 6 APIs on the [APIs.io](https://apis.io/) network, including AI Hub API, Channels API, Connectivity API, and 3 more. Tagged areas include Telecommunications, Croatia, CPaaS, Messaging, and SMS.
 
 
-  The Infobip catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
+  The Infobip catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Infobip''s developer surface includes authentication, documentation, API reference, SDKs, signup flow, pricing, changelog, and 105 more developer resources.'
+  Infobip''s developer surface includes authentication, documentation, API reference, SDKs, signup flow, pricing, changelog, and 113 more developer resources.'
 plans:
 - name: Infobip Plans Pricing
   plan_count: 4
@@ -1053,6 +1068,18 @@ rate_limits:
 - limit_count: 44
   name: Infobip Rate Limits
   slug: infobip-rate-limits
+rules:
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Infobip API Rules
+  rule_count: 17
+  severity_counts:
+    error: 12
+    hint: 0
+    info: 1
+    warn: 4
+  slug: infobip-rules
 scopes:
 - name: Infobip Scopes
   scope_count: 159
@@ -1060,21 +1087,21 @@ scopes:
   summary_line: 159 scopes · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 76.6
+  composite: 82.4
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 55.0
+    artifact_dirs: 34
+    catalog_earned: 80.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    catalog_gap: 34.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.6
   facets:
     access_clarity: 92.1
-    contract_governance: 18.2
-    contract_quality: 58.7
+    contract_governance: 35.6
+    contract_quality: 72.1
     developer_ergonomics: 68.5
-    discoverability: 80.0
+    discoverability: 83.3
     operational_transparency: 68.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -1082,7 +1109,7 @@ score:
     regions:
     - cee
     - europe
-  previous_composite: 76.1
+  previous_composite: 81.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1104,7 +1131,7 @@ score:
     regime_id: telecommunications
     score: 55.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

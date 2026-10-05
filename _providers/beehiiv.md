@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 61.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -49,511 +49,151 @@ apis:
   baseurl_source: declared
   description: The Authorizations API from beehiiv — 1 operation(s) for authorizations.
   name: beehiiv Authorizations API
-  phrasing_intents:
-  - id: authorize
-    intent: Start the OAuth authorization flow
-    question: How do I send a beehiiv user to log in and grant my app access?
-  phrasing_ops: 1
   slug: beehiiv-authorizations-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The Tokens API from beehiiv — 4 operation(s) for tokens.
   name: beehiiv Tokens API
-  phrasing_intents:
-  - id: token
-    intent: Exchange a code or refresh token for access
-    question: How do I turn an OAuth authorization code into an access token?
-  - id: revoke
-    intent: Revoke an access or refresh token
-    question: How do I revoke a token when a user disconnects my app?
-  - id: introspect
-    intent: Check whether a token is active
-    question: Is a given OAuth token still valid?
-  - id: token-info
-    intent: Get info about the current access token
-    question: What scopes and expiry does the access token I'm calling with have?
-  phrasing_ops: 4
   slug: beehiiv-tokens-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The Webhooks API from beehiiv — 0 operation(s) for webhooks.
   name: beehiiv Webhooks API
-  phrasing_intents:
-  - id: create
-    intent: Create a webhook
-    question: How do I get notified at my own URL when someone subscribes?
-  - id: index
-    intent: List a publication's webhooks
-    question: Which webhooks are registered on my newsletter?
-  - id: show
-    intent: Get one webhook
-    question: What events and URL is a specific webhook configured with?
-  - id: update
-    intent: Change a webhook's events or description
-    question: How do I change which events an existing webhook listens for?
-  - id: delete
-    intent: Delete a webhook
-    question: How do I stop a webhook from receiving events?
-  phrasing_ops: 5
   slug: beehiiv-webhooks-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The Ad Network Offers API from beehiiv — 2 operation(s) for ad network offers.
   name: beehiiv Ad Network Offers API
-  phrasing_intents:
-  - id: index
-    intent: List ad network offers for a publication
-    question: What ad offers are available for my newsletter to run right now?
-  - id: create
-    intent: Accept an ad offer and place it in a post
-    question: How do I accept an ad network offer and drop the ad into one of my posts?
-  - id: advertisements
-    intent: List the ad creatives for an ad offer
-    question: What ad copy comes with a particular ad network offer?
-  phrasing_ops: 3
   slug: beehiiv-ad-network-offers-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The Ad Network Reports API from beehiiv — 3 operation(s) for ad network reports.
   name: beehiiv Ad Network Reports API
-  phrasing_intents:
-  - id: index
-    intent: List ad performance and payment reports
-    question: Where can I see per-ad performance and payment reports for my newsletter?
-  - id: summary
-    intent: Summarize ad revenue for one publication
-    question: What is the total ad revenue for one of my newsletters this quarter?
-  - id: account-summary
-    intent: Summarize ad revenue across all publications
-    question: How much ad revenue did my whole account earn across every newsletter?
-  phrasing_ops: 3
   slug: beehiiv-ad-network-reports-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The Advertisement Opportunities API from beehiiv — 1 operation(s) for advertisement opportunities.
   name: beehiiv Advertisement Opportunities API
-  phrasing_intents:
-  - id: index
-    intent: List accepted advertisement opportunities
-    question: Which ad opportunities have I already accepted for my newsletter?
-  phrasing_ops: 1
   slug: beehiiv-advertisement-opportunities-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The Authors API from beehiiv — 2 operation(s) for authors.
   name: beehiiv Authors API
-  phrasing_intents:
-  - id: index
-    intent: List a publication's authors
-    question: Who are the authors that can write for my newsletter?
-  - id: show
-    intent: Get one author's details
-    question: What profile details are stored for a specific author?
-  phrasing_ops: 2
   slug: beehiiv-authors-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The Automation Journeys API from beehiiv — 2 operation(s) for automation journeys.
   name: beehiiv Automation Journeys API
-  phrasing_intents:
-  - id: create
-    intent: Enroll an existing subscriber in an automation
-    question: How do I add a current subscriber to an automation flow from my own app?
-  - id: index
-    intent: List subscriber journeys through an automation
-    question: Which subscribers have gone through a particular automation?
-  - id: show
-    intent: Get one automation journey
-    question: What happened in one specific subscriber's run through an automation?
-  phrasing_ops: 3
   slug: beehiiv-automation-journeys-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The Automations API from beehiiv — 3 operation(s) for automations.
   name: beehiiv Automations API
-  phrasing_intents:
-  - id: index
-    intent: List a publication's automations
-    question: What automations are set up on my newsletter?
-  - id: show
-    intent: Get one automation
-    question: How is a specific automation configured?
-  - id: list-emails
-    intent: List an automation's emails with stats
-    question: How are the emails inside my welcome automation performing?
-  phrasing_ops: 3
   slug: beehiiv-automations-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The Bulk Subscription Updates API from beehiiv — 4 operation(s) for bulk subscription updates.
   name: beehiiv Bulk Subscription Updates API
-  phrasing_intents:
-  - id: index
-    intent: List bulk subscription update jobs
-    question: Where can I see the history of bulk subscriber updates I've run?
-  - id: show
-    intent: Check one bulk subscription update job
-    question: Did my bulk subscriber update finish successfully?
-  - id: put
-    intent: Bulk update subscription fields (PUT)
-    question: How do I change custom fields and tiers for many subscribers at once using PUT?
-  - id: patch
-    intent: Bulk update subscription fields (PATCH)
-    question: Can I PATCH custom fields and tiers across a batch of subscribers?
-  - id: put-status
-    intent: Bulk set subscription status (PUT)
-    question: How do I set the same status on a list of subscription IDs with a PUT request?
-  - id: patch-status
-    intent: Bulk set subscription status (PATCH)
-    question: Can I PATCH a batch of subscription IDs to a new status?
-  phrasing_ops: 6
   slug: beehiiv-bulk-subscription-updates-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The Bulk Subscriptions API from beehiiv — 1 operation(s) for bulk subscriptions.
   name: beehiiv Bulk Subscriptions API
-  phrasing_intents:
-  - id: create
-    intent: Create many subscriptions at once
-    question: How do I import a batch of new subscribers into my newsletter in one call?
-  phrasing_ops: 1
   slug: beehiiv-bulk-subscriptions-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The Complimentary Access API from beehiiv — 2 operation(s) for complimentary access.
   name: beehiiv Complimentary Access API
-  phrasing_intents:
-  - id: index
-    intent: List complimentary access grants
-    question: Who has been given free complimentary access to my paid newsletter?
-  - id: show
-    intent: Get one complimentary access grant
-    question: What are the details of a specific complimentary access grant?
-  phrasing_ops: 2
   slug: beehiiv-complimentary-access-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The Condition Sets API from beehiiv — 2 operation(s) for condition sets.
   name: beehiiv Condition Sets API
-  phrasing_intents:
-  - id: index
-    intent: List audience condition sets
-    question: What reusable audience conditions are defined for my dynamic content?
-  - id: show
-    intent: Get one condition set
-    question: How many active subscribers match a particular condition set?
-  phrasing_ops: 2
   slug: beehiiv-condition-sets-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The Custom Fields API from beehiiv — 2 operation(s) for custom fields.
   name: beehiiv Custom Fields API
-  phrasing_intents:
-  - id: create
-    intent: Create a custom subscriber field
-    question: How do I add a new custom field like birthday or company to my subscribers?
-  - id: index
-    intent: List a publication's custom fields
-    question: What custom subscriber fields exist on my newsletter?
-  - id: show
-    intent: Get one custom field
-    question: What type and label does a specific custom field have?
-  - id: put
-    intent: Rename a custom field (PUT)
-    question: How do I change a custom field's display name with a PUT request?
-  - id: patch
-    intent: Rename a custom field (PATCH)
-    question: Can I PATCH just the display label of a custom field?
-  - id: delete
-    intent: Delete a custom field
-    question: How do I remove a custom field I no longer use?
-  phrasing_ops: 6
   slug: beehiiv-custom-fields-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The Data Deletion API from beehiiv — 2 operation(s) for data deletion.
   name: beehiiv Data Deletion API
-  phrasing_intents:
-  - id: create
-    intent: Request permanent deletion of a subscriber's data
-    question: How do I erase a subscriber's personal data across all my publications?
-  - id: index
-    intent: List subscriber data deletion requests
-    question: Which GDPR-style data deletion requests have we filed?
-  - id: show
-    intent: Check a data deletion request's status
-    question: Has a specific subscriber data deletion request been completed yet?
-  phrasing_ops: 3
   slug: beehiiv-data-deletion-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The engagements API from beehiiv — 1 operation(s) for engagements.
   name: beehiiv Engagements API
-  phrasing_intents:
-  - id: index
-    intent: Get email engagement metrics over time
-    question: What were my newsletter's opens and clicks per day last week?
-  phrasing_ops: 1
   slug: beehiiv-engagements-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The Newsletter List Subscriptions API from beehiiv — 3 operation(s) for newsletter list subscriptions.
   name: beehiiv Newsletter List Subscriptions API
-  phrasing_intents:
-  - id: create
-    intent: Add an existing subscriber to a newsletter list
-    question: How do I put a current subscriber onto one of my newsletter lists?
-  - id: index
-    intent: List subscribers on a newsletter list
-    question: Who is subscribed to a particular newsletter list?
-  - id: show
-    intent: Get one newsletter list membership
-    question: What are the details of a single list membership record?
-  - id: update
-    intent: Unsubscribe a list membership by its ID
-    question: How do I remove someone from a newsletter list using the list subscription ID?
-  - id: update-by-subscription-id
-    intent: Unsubscribe from a list by subscription ID
-    question: What if I only have the subscriber's subscription ID and want them off a newsletter list?
-  phrasing_ops: 5
   slug: beehiiv-newsletter-list-subscriptions-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The Newsletter Lists API from beehiiv — 2 operation(s) for newsletter lists.
   name: beehiiv Newsletter Lists API
-  phrasing_intents:
-  - id: index
-    intent: List a publication's newsletter lists
-    question: What newsletter lists does my publication have?
-  - id: create
-    intent: Create a newsletter list
-    question: How do I start a new topic list that readers can subscribe to separately?
-  - id: show
-    intent: Get one newsletter list
-    question: What are the settings of a specific newsletter list?
-  - id: update
-    intent: Update a newsletter list
-    question: How do I rename a newsletter list or change its description?
-  - id: delete
-    intent: Delete a newsletter list
-    question: How do I get rid of a newsletter list I no longer send?
-  phrasing_ops: 5
   slug: beehiiv-newsletter-lists-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The oauth_users API from beehiiv — 1 operation(s) for oauth_users.
   name: beehiiv OAUTH Users API
-  phrasing_intents:
-  - id: identify
-    intent: Identify the user behind an OAuth token
-    question: Which beehiiv user authorized my app's access token?
-  phrasing_ops: 1
   slug: beehiiv-oauth-users-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The podcasts API from beehiiv — 4 operation(s) for podcasts.
   name: beehiiv Podcasts API
-  phrasing_intents:
-  - id: list-podcasts
-    intent: List a publication's podcasts
-    question: What podcast shows does my publication host?
-  - id: get-podcast
-    intent: Get one podcast show
-    question: What are the details of a specific podcast show?
-  - id: list-episodes
-    intent: List a podcast's episodes
-    question: Which episodes have been published on my podcast?
-  - id: get-episode
-    intent: Get one podcast episode
-    question: What are the details of one particular podcast episode?
-  phrasing_ops: 4
   slug: beehiiv-podcasts-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The Polls API from beehiiv — 3 operation(s) for polls.
   name: beehiiv Polls API
-  phrasing_intents:
-  - id: index
-    intent: List a publication's polls
-    question: What polls have I run in my newsletter?
-  - id: show
-    intent: Get one poll and its vote counts
-    question: How many votes did each choice get on a specific poll?
-  - id: list-responses
-    intent: List individual responses to a poll
-    question: Which subscribers answered a poll, and what did each one pick?
-  phrasing_ops: 3
   slug: beehiiv-polls-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The Post Templates API from beehiiv — 1 operation(s) for post templates.
   name: beehiiv Post Templates API
-  phrasing_intents:
-  - id: index
-    intent: List post templates
-    question: What post templates can I start a new issue from?
-  phrasing_ops: 1
   slug: beehiiv-post-templates-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The Posts API from beehiiv — 5 operation(s) for posts.
   name: beehiiv Posts API
-  phrasing_intents:
-  - id: create
-    intent: Create a newsletter post
-    question: How do I create and schedule a newsletter issue through the API?
-  - id: index
-    intent: List a publication's posts
-    question: What posts have I published on my newsletter?
-  - id: update
-    intent: Update an existing post
-    question: How do I change the title or subtitle of an existing post?
-  - id: show
-    intent: Get one post
-    question: Can I fetch a single post and its content by ID?
-  - id: delete
-    intent: Delete or archive a post
-    question: How do I delete a draft post I don't need?
-  - id: aggregate-stats
-    intent: Get combined stats across all posts
-    question: What are the total opens and clicks across all my posts combined?
-  - id: test-send
-    intent: Send a test email of a post
-    question: How do I email myself a test copy of a post before it goes out?
-  - id: preview
-    intent: Generate a preview link for a post
-    question: How can I see what a post looks like to premium subscribers before sending?
-  phrasing_ops: 8
   slug: beehiiv-posts-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The Publications API from beehiiv — 2 operation(s) for publications.
   name: beehiiv Publications API
-  phrasing_intents:
-  - id: index
-    intent: List my publications
-    question: Which newsletters can my API key access?
-  - id: show
-    intent: Get one publication
-    question: What are the details and subscriber stats for one of my newsletters?
-  phrasing_ops: 2
   slug: beehiiv-publications-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The Referral Program API from beehiiv — 1 operation(s) for referral program.
   name: beehiiv Referral Program API
-  phrasing_intents:
-  - id: show
-    intent: Get the referral program and its rewards
-    question: What milestones and rewards are set up in my newsletter's referral program?
-  phrasing_ops: 1
   slug: beehiiv-referral-program-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The Segments API from beehiiv — 5 operation(s) for segments.
   name: beehiiv Segments API
-  phrasing_intents:
-  - id: create
-    intent: Create a subscriber segment
-    question: How do I build a segment from a list of email addresses?
-  - id: index
-    intent: List a publication's segments
-    question: What subscriber segments have I built?
-  - id: show
-    intent: Get one segment
-    question: What is the status and size of a specific segment?
-  - id: delete
-    intent: Delete a segment
-    question: How do I remove a segment I no longer need?
-  - id: recalculate
-    intent: Recalculate a segment
-    question: How do I refresh a segment so it reflects current subscriber data?
-  - id: list-members
-    intent: List a segment's subscribers with full details
-    question: Who is in a segment, with their full subscriber profiles?
-  - id: expand-results
-    intent: List only the subscriber IDs in a segment
-    question: Is there a lightweight way to get just the subscription IDs in a segment?
-  phrasing_ops: 7
   slug: beehiiv-segments-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The Subscription Tags API from beehiiv — 1 operation(s) for subscription tags.
   name: beehiiv Subscription Tags API
-  phrasing_intents:
-  - id: create
-    intent: Tag a subscriber
-    question: How do I add tags to a subscriber?
-  phrasing_ops: 1
   slug: beehiiv-subscription-tags-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The Subscriptions API from beehiiv — 3 operation(s) for subscriptions.
   name: beehiiv Subscriptions API
-  phrasing_intents:
-  - id: create
-    intent: Subscribe a new reader
-    question: How do I add a new subscriber to my newsletter from my signup form?
-  - id: index
-    intent: List a publication's subscribers
-    question: Who subscribes to my newsletter?
-  - id: get-by-email
-    intent: Look up a subscriber by email
-    question: Is a given email address subscribed to my newsletter?
-  - id: update-by-email
-    intent: Update a subscriber found by email
-    question: How do I change a subscriber's tier when I only know their email?
-  - id: get-by-id
-    intent: Get a subscriber by subscription ID
-    question: Can I fetch one subscriber's details by their subscription ID?
-  - id: put
-    intent: Update a subscriber by ID (PUT)
-    question: How do I PUT changes to a subscriber's tier or custom fields by subscription ID?
-  - id: patch
-    intent: Update a subscriber by ID (PATCH)
-    question: Can I PATCH a subscriber's custom fields using their subscription ID?
-  - id: delete
-    intent: Permanently delete a subscriber
-    question: How do I permanently delete a subscriber and all their data?
-  phrasing_ops: 8
   slug: beehiiv-subscriptions-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The Tiers API from beehiiv — 2 operation(s) for tiers.
   name: beehiiv Tiers API
-  phrasing_intents:
-  - id: create
-    intent: Create a subscription tier
-    question: How do I add a new paid tier to my newsletter?
-  - id: index
-    intent: List a publication's subscription tiers
-    question: What paid tiers does my newsletter offer?
-  - id: show
-    intent: Get one subscription tier
-    question: What's included in a specific tier and what does it cost?
-  - id: put
-    intent: Update a subscription tier (PUT)
-    question: How do I PUT a new name or description onto an existing tier?
-  - id: patch
-    intent: Update a subscription tier (PATCH)
-    question: Can I PATCH just the description of an existing tier?
-  phrasing_ops: 5
   slug: beehiiv-tiers-api
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
   description: The workspaces API from beehiiv — 3 operation(s) for workspaces.
   name: beehiiv Workspaces API
-  phrasing_intents:
-  - id: identify
-    intent: Identify the workspace behind a token
-    question: Which workspace is my API key or OAuth token tied to?
-  - id: permissions
-    intent: List the scopes granted to a token
-    question: What permissions does my current token have in this workspace?
-  - id: publications-by-subscription-email
-    intent: Find publications an email subscribes to
-    question: Which of my newsletters is a given email subscribed to?
-  phrasing_ops: 3
   slug: beehiiv-workspaces-api
 artifact_total: 97
 asyncapis:
@@ -965,15 +605,15 @@ jsonld:
   slug: beehiiv-context
 layout: provider
 mcp_servers:
+- description: Remote MCP server at mcp.beehiiv.com requiring OAuth.
+  name: beehiiv MCP Server
+  slug: beehiiv-mcp-yml
 - description: ''
   name: beehiiv MCP Server
-  slug: beehiiv-mcp-server
+  slug: mcp
 - description: ''
   name: beehiiv MCP Server
-  slug: beehiiv-mcp-server-2
-- description: ''
-  name: beehiiv MCP Server
-  slug: beehiiv-mcp-server-3
+  slug: server
 modified: '2026-08-13'
 name: beehiiv
 nav: Providers
@@ -1018,26 +658,26 @@ rules:
   slug: beehiiv-jsonschema-spectral-rules
 scopes:
 - name: Beehiiv Scopes
-  scope_count: 0
+  scope_count: 30
   slug: beehiiv-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 30 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 73.6
+  composite: 73.1
   coverage:
     artifact_dirs: 30
-    catalog_earned: 81.5
+    catalog_earned: 78.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 33.5
+    catalog_gap: 36.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 1.9
   facets:
     access_clarity: 100.0
     contract_governance: 31.8
     contract_quality: 65.4
     developer_ergonomics: 72.0
-    discoverability: 80.0
+    discoverability: 75.0
     operational_transparency: 63.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -1046,7 +686,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 73.1
+  previous_composite: 71.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1064,7 +704,7 @@ score:
     regime_id: horizontal
     score: 39.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

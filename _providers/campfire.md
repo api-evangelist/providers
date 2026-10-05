@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 236
+- acting_count: 233
   human_in_the_loop: 2
   name: Campfire Agentic Access
-  operation_count: 368
+  operation_count: 362
   slug: campfire-agentic-access
-  summary_line: 368 operations · 236 acting · 2 human-in-the-loop
+  summary_line: 362 operations · 233 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.meetcampfire.com
@@ -150,6 +150,11 @@ collections:
   name: Campfire Developer APIs Accounts Payable Settings API
   slug: open-campfire-settings-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/capabilities/campfire-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/campfire-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -305,7 +310,7 @@ overview: 'Campfire publishes 12 APIs on the [APIs.io](https://apis.io/) network
   The Campfire catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Campfire''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 23 more developer resources.'
+  Campfire''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 24 more developer resources.'
 random_paper: 3
 scopes:
 - name: Campfire Scopes
@@ -316,13 +321,13 @@ score:
   band: developing
   composite: 52.2
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.9
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
@@ -330,7 +335,7 @@ score:
     developer_ergonomics: 58.9
     discoverability: 75.0
     operational_transparency: 23.7
-  previous_composite: 52.2
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -348,7 +353,7 @@ score:
     regime_id: horizontal
     score: 36.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

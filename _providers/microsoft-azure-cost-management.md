@@ -34,291 +34,90 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 40
+- acting_count: 42
   human_in_the_loop: 0
   name: Microsoft Azure Cost Management Agentic Access
   operation_count: 75
   slug: microsoft-azure-cost-management-agentic-access
-  summary_line: 75 operations · 40 acting
+  summary_line: 75 operations · 42 acting
 api_count: 1
 apis:
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: Create, schedule, run and delete recurring Cost Management exports that write cost and usage data — including FOCUS-format datasets — to a storage account you own.
   name: Azure Cost Management Exports API
-  phrasing_intents:
-  - id: Exports_List
-    intent: List cost exports at any scope
-    question: What scheduled cost data exports are configured at my billing scope?
-  - id: Exports_Get
-    intent: Get a cost export at a scope by name
-    question: Where does a particular cost export write its files and on what schedule?
-  - id: Exports_CreateOrUpdate
-    intent: Create or update a scheduled cost export
-    question: How do I set up a daily export of cost data to a storage account at a billing scope?
-  - id: Exports_Delete
-    intent: Delete a cost export at a scope
-    question: How do I stop and remove a cost export at my billing account scope?
-  - id: Exports_Execute
-    intent: Run a cost export now
-    question: Can I trigger a cost export immediately instead of waiting for its schedule?
-  - id: Exports_GetExecutionHistory
-    intent: Get an export's run history
-    question: Did my cost export succeed the last few times it ran?
-  - id: listExportsBySubscription
-    intent: List export resources in a subscription
-    question: Which export resources exist across a whole subscription, by subscription ID?
-  - id: listExportsByResourceGroup
-    intent: List export resources in a resource group
-    question: What export resources are deployed in a specific resource group?
-  phrasing_ops: 12
   slug: microsoft-azure-cost-management-exports-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: List every REST operation the Microsoft.CostManagement resource provider exposes.
   name: Azure Cost Management Operations API
-  phrasing_intents:
-  - id: Operations_List
-    intent: List available Cost Management operations
-    question: What operations does the Azure Cost Management resource provider support?
-  phrasing_ops: 1
   slug: microsoft-azure-cost-management-operations-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: List, read and dismiss the cost alerts raised by budgets and anomaly detection at a scope.
   name: Azure Cost Management Alerts API
-  phrasing_intents:
-  - id: Alerts_List
-    intent: List cost alerts for a scope
-    question: How do I see all the cost alerts raised for my Azure subscription?
-  - id: Alerts_Get
-    intent: Get one cost alert by ID
-    question: What are the details of a specific cost alert I was notified about?
-  - id: Alerts_Dismiss
-    intent: Dismiss a cost alert
-    question: How do I dismiss a cost alert I've already dealt with?
-  phrasing_ops: 3
   slug: microsoft-azure-cost-management-alerts-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: Create, read, update and delete cost and reservation-utilization budgets, with their notification thresholds.
   name: Azure Cost Management Budgets API
-  phrasing_intents:
-  - id: Budgets_List
-    intent: List budgets for a scope
-    question: What budgets are set up on my Azure subscription?
-  - id: Budgets_Get
-    intent: Get a budget by name
-    question: How much is left in a particular budget and what are its thresholds?
-  - id: Budgets_CreateOrUpdate
-    intent: Create or update a budget
-    question: How do I set a monthly spending budget with alert thresholds on a subscription?
-  - id: Budgets_Delete
-    intent: Delete a budget
-    question: How do I remove a budget I no longer need?
-  phrasing_ops: 4
   slug: microsoft-azure-cost-management-budgets-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: Manage rules that redistribute shared cost between scopes within a billing account.
   name: Azure Cost Management Cost Allocation Rule Definitions API
-  phrasing_intents:
-  - id: CostAllocationRules_List
-    intent: List cost allocation rules for a billing account
-    question: What cost allocation rules exist on my billing account or enterprise enrollment?
-  - id: CostAllocationRules_Get
-    intent: Get a cost allocation rule by name
-    question: Which sources and targets does a specific cost allocation rule use?
-  - id: CostAllocationRules_CreateOrUpdate
-    intent: Create or update a cost allocation rule
-    question: How do I reallocate shared platform costs from one subscription to several others?
-  - id: CostAllocationRules_Delete
-    intent: Delete a cost allocation rule
-    question: How do I stop a cost allocation rule from redistributing costs?
-  phrasing_ops: 4
   slug: microsoft-azure-cost-management-costallocationruledefinitions-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: Poll the asynchronous cost details report operation and retrieve the download link for the generated file.
   name: Azure Cost Management Generate Cost Details Report API
-  phrasing_intents:
-  - id: GenerateCostDetailsReport_GetOperationResults
-    intent: Get the result of a cost details report
-    question: Is my cost details report ready to download yet?
-  phrasing_ops: 1
   slug: microsoft-azure-cost-management-generatecostdetailsreport-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: Retrieve the result of a long-running detailed cost report operation.
   name: Azure Cost Management Generate Detailed Cost Report Operation Results API
-  phrasing_intents:
-  - id: GenerateDetailedCostReportOperationResults_Get
-    intent: Get the result of a detailed cost report
-    question: How do I retrieve the finished detailed cost report after requesting it?
-  phrasing_ops: 1
   slug: microsoft-azure-cost-management-generatedetailedcostreportoperationresults-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: Retrieve the status of a long-running detailed cost report operation.
   name: Azure Cost Management Generate Detailed Cost Report Operation Status API
-  phrasing_intents:
-  - id: GenerateDetailedCostReportOperationStatus_Get
-    intent: Check a detailed cost report's status
-    question: Is my detailed cost report still running or has it completed?
-  phrasing_ops: 1
   slug: microsoft-azure-cost-management-generatedetailedcostreportoperationstatus-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: Manage partner markup rules applied at a billing profile.
   name: Azure Cost Management Markup Rules API
-  phrasing_intents:
-  - id: MarkupRules_List
-    intent: List markup rules for a billing profile
-    question: What markup rules are applied to customer prices on my billing profile?
-  - id: MarkupRules_Get
-    intent: Get a markup rule by name
-    question: What percentage and date range does a specific markup rule use?
-  - id: MarkupRules_CreateOrUpdate
-    intent: Create or update a markup rule
-    question: How do I add a markup on top of Azure costs for a customer's billing profile?
-  - id: MarkupRules_Delete
-    intent: Delete a markup rule
-    question: How do I stop applying a markup to a billing profile's costs?
-  phrasing_ops: 4
   slug: microsoft-azure-cost-management-markuprules-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: 'The tenant- and scope-level Cost Management surface that is not a managed resource: Query, Forecast, Dimensions, cost details and detailed cost report generation, price sheet downloads, benefit recomm'
   name: Azure Cost Management Providers API
-  phrasing_intents:
-  - id: BenefitRecommendations_List
-    intent: List savings plan purchase recommendations
-    question: Should I buy an Azure savings plan, and how much commitment is recommended for my subscription?
-  - id: ScheduledActions_CheckNameAvailabilityByScope
-    intent: Check a shared scheduled action name at a scope
-    question: Is a name already taken for a shared scheduled action on my subscription?
-  - id: Dimensions_List
-    intent: List cost dimensions for an Azure scope
-    question: Which dimensions, like resource group or meter category, can I group my Azure costs by?
-  - id: Forecast_Usage
-    intent: Forecast Azure costs for a scope
-    question: What will my Azure subscription spend by the end of the month?
-  - id: GenerateCostDetailsReport_CreateOperation
-    intent: Request a cost details report
-    question: What's the current way to get line-item usage details for my subscription now that the older usage APIs are replaced?
-  - id: GenerateDetailedCostReport_CreateOperation
-    intent: Request a detailed cost report
-    question: Can I request a detailed cost report for one customer under my billing account?
-  - id: Query_Usage
-    intent: Query Azure cost and usage data for a scope
-    question: How much did each resource group cost me last month?
-  - id: Alerts_ListExternal
-    intent: List cost alerts for an external cloud account
-    question: What cost alerts exist for my connected external cloud billing account?
-  phrasing_ops: 28
   slug: microsoft-azure-cost-management-providers-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: Manage scope-scoped scheduled actions that email a saved view on a recurrence, and run them on demand.
   name: Azure Cost Management Scheduled Action Operation Group API
-  phrasing_intents:
-  - id: ScheduledActions_ListByScope
-    intent: List shared scheduled actions at a scope
-    question: Which shared scheduled cost emails and alerts are set up on my subscription?
-  - id: ScheduledActions_GetByScope
-    intent: Get a shared scheduled action by name
-    question: Who receives a particular shared scheduled cost email and how often?
-  - id: ScheduledActions_CreateOrUpdateByScope
-    intent: Create or update a shared scheduled action
-    question: How do I email a cost view to my team every week from a subscription scope?
-  - id: ScheduledActions_DeleteByScope
-    intent: Delete a shared scheduled action
-    question: How do I stop a shared scheduled cost email at a subscription scope?
-  - id: ScheduledActions_RunByScope
-    intent: Run a shared scheduled action now
-    question: Can I send a shared scheduled cost email right now instead of waiting?
-  phrasing_ops: 5
   slug: microsoft-azure-cost-management-scheduledactionoperationgroup-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: Manage scheduled actions that email a saved Cost Analysis view on a recurrence, and run them on demand.
   name: Azure Cost Management Scheduled Actions API
-  phrasing_intents:
-  - id: ScheduledActions_List
-    intent: List my private scheduled actions
-    question: What private scheduled cost emails have I set up for myself?
-  - id: ScheduledActions_Get
-    intent: Get a private scheduled action by name
-    question: When does my private scheduled cost email next run?
-  - id: ScheduledActions_CreateOrUpdate
-    intent: Create or update a private scheduled action
-    question: How do I schedule a private cost report email just for myself?
-  - id: ScheduledActions_Delete
-    intent: Delete a private scheduled action
-    question: How do I cancel a private scheduled cost email I created?
-  - id: ScheduledActions_Run
-    intent: Run a private scheduled action now
-    question: Can I send my private scheduled cost email immediately?
-  phrasing_ops: 5
   slug: microsoft-azure-cost-management-scheduledactions-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: Read and write Cost Management settings at a scope.
   name: Azure Cost Management Settings API
-  phrasing_intents:
-  - id: Settings_List
-    intent: List Cost Management settings for a scope
-    question: What Cost Management settings are configured at my scope?
-  - id: Settings_GetByScope
-    intent: Get one Cost Management setting
-    question: Is a specific cost setting such as tag inheritance turned on for my scope?
-  - id: Settings_CreateOrUpdateByScope
-    intent: Create or update a Cost Management setting
-    question: How do I turn on tag inheritance for cost data at a billing scope?
-  - id: Settings_DeleteByScope
-    intent: Delete a Cost Management setting
-    question: How do I remove a cost setting and go back to the default behavior?
-  phrasing_ops: 4
   slug: microsoft-azure-cost-management-settings-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: Manage saved Cost Analysis views scoped to a subscription, resource group, management group or billing account.
   name: Azure Cost Management View Operation Group API
-  phrasing_intents:
-  - id: Views_ListByScope
-    intent: List saved cost views at a scope
-    question: What saved cost analysis views are shared on my subscription?
-  - id: Views_GetByScope
-    intent: Get a saved cost view at a scope
-    question: How is a saved cost view at my scope grouped and filtered?
-  - id: Views_CreateOrUpdateByScope
-    intent: Create or update a saved cost view at a scope
-    question: How do I save a cost analysis view that everyone on a subscription can use?
-  - id: Views_DeleteByScope
-    intent: Delete a saved cost view at a scope
-    question: How do I remove a shared cost view from a subscription?
-  phrasing_ops: 4
   slug: microsoft-azure-cost-management-viewoperationgroup-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: Manage saved Cost Analysis views — the persisted form of a cost query — at a scope or at the tenant.
   name: Azure Cost Management Views API
-  phrasing_intents:
-  - id: Views_List
-    intent: List my private cost views
-    question: What private cost analysis views have I saved?
-  - id: Views_Get
-    intent: Get one of my private cost views
-    question: How is my private cost view configured?
-  - id: Views_CreateOrUpdate
-    intent: Create or update a private cost view
-    question: How do I save a personal cost analysis view only I can see?
-  - id: Views_Delete
-    intent: Delete a private cost view
-    question: How do I delete a personal cost view I no longer use?
-  phrasing_ops: 4
   slug: microsoft-azure-cost-management-views-api
 artifact_total: 188
 collections:
@@ -335,6 +134,11 @@ collections:
   name: Azure Cost Management REST API
   slug: open-microsoft-azure-cost-management
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cost-management/refs/heads/main/capabilities/microsoft-azure-cost-management-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/microsoft-azure-cost-management-capability-edges.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cost-management/refs/heads/main/security/microsoft-azure-cost-management-trust-center.yml
   title: ''
@@ -1021,7 +825,7 @@ network: true
 overview: 'Azure Cost Management publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Exports API, Operations API, Alerts API, and 12 more. Tagged areas include Cost Management, FinOps, Cloud Cost, Billing, and Budgets.
 
 
-  Azure Cost Management''s developer surface includes authentication, developer portal, pricing, support, documentation, API reference, getting-started guide, and 34 more developer resources.'
+  Azure Cost Management''s developer surface includes authentication, developer portal, pricing, support, documentation, API reference, getting-started guide, and 35 more developer resources.'
 plans:
 - name: Microsoft Azure Cost Management Plans Pricing
   plan_count: 1
@@ -1046,7 +850,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.9
+  delta: 4.0
   facets:
     access_clarity: 89.5
     contract_governance: 0.0
@@ -1054,7 +858,7 @@ score:
     developer_ergonomics: 73.2
     discoverability: 73.2
     operational_transparency: 89.5
-  previous_composite: 68.1
+  previous_composite: 65.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1072,7 +876,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true
@@ -1108,6 +912,6 @@ tags:
 - Chargebacks
 - Focus
 - Azure
-- Reservations
+- Reserved Instances
 website: https://www.microsoft.com/
 ---

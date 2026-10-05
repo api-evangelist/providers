@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,21 +27,21 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: partial
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.0
-  scored_at: '2026-10-03'
+  score: 38.4
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 192
-  human_in_the_loop: 9
+- acting_count: 376
+  human_in_the_loop: 13
   name: Keboola Agentic Access
-  operation_count: 327
+  operation_count: 631
   slug: keboola-agentic-access
-  summary_line: 327 operations · 192 acting · 9 human-in-the-loop
+  summary_line: 631 operations · 376 acting · 13 human-in-the-loop
 api_count: 14
 apis:
 - baseURL: https://connection.keboola.com/v2/storage
@@ -290,7 +289,7 @@ apis:
   description: Vendor membership and service accounts.
   name: Keboola Vendor API
   slug: keboola-vendor-api
-artifact_total: 527
+artifact_total: 528
 collections:
 - collection_type: open
   name: API Collection
@@ -1813,6 +1812,10 @@ jsonld:
   property_count: 42
   slug: keboola-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.keboola.com over HTTP.
+  name: Keboola MCP Server
+  slug: keboola
 modified: '2026-09-16'
 name: Keboola
 nav: Providers
@@ -1854,7 +1857,7 @@ score:
     catalog_gap: 52.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 47.4
     contract_governance: 9.8
@@ -1862,7 +1865,7 @@ score:
     developer_ergonomics: 31.0
     discoverability: 73.3
     operational_transparency: 21.1
-  previous_composite: 42.6
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1878,7 +1881,7 @@ score:
     regime_id: horizontal
     score: 27.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

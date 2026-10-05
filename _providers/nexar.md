@@ -38,14 +38,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 6
+- acting_count: 8
   human_in_the_loop: 0
   name: Nexar Agentic Access
   operation_count: 8
   slug: nexar-agentic-access
-  summary_line: 8 operations · 6 acting
+  summary_line: 8 operations · 8 acting
 api_count: 4
 apis:
 - baseURL: https://external.getnexar.com
@@ -259,9 +259,9 @@ description: 'Nexar is a physical-AI infrastructure company that operates one of
 image: https://cdn.prod.website-files.com/6714bce7188a12cb895149f5/68f0ac403e8da1fec926cec2_social%20sharing.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at getnexar.com over HTTP; 1 tool listed.
   name: Nexar MCP Server
-  slug: nexar-mcp-server
+  slug: nexar-storefront
 modified: '2026-08-26'
 name: Nexar
 nav: Providers
@@ -288,13 +288,13 @@ score:
   band: thin
   composite: 37.3
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 27.6
     contract_governance: 4.5
@@ -302,7 +302,7 @@ score:
     developer_ergonomics: 28.0
     discoverability: 80.0
     operational_transparency: 15.8
-  previous_composite: 37.3
+  previous_composite: 35.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -320,7 +320,7 @@ score:
     regime_id: horizontal
     score: 37.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

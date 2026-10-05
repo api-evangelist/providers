@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://api.icallagent.com/api/public/v1/
@@ -57,6 +57,11 @@ asyncapis:
   name: Icallagent Public Api Webhooks
   slug: icallagent-public-api-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/icallagent-public-api/refs/heads/main/capabilities/icallagent-public-api-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/icallagent-public-api-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/icallagent-public-api/refs/heads/main/mcp/icallagent-public-api-mcp.yml
   title: ''
@@ -129,7 +134,7 @@ created: '2026-09-15'
 description: 'Partner REST API for iCallAgent, a platform for building and operating AI voice agents that hold real-time phone/web conversations via an ASR-LLM-TTS pipeline. The API lets third-party apps act on a user''s workspace: managing agents, outbound campaigns, contacts, phone numbers, and webhooks.'
 layout: provider
 mcp_servers:
-- description: ''
+- description: iCallAgent operates an MCP server, but it is NOT a public agent surface. It exists to serve the iCallAgent agent RUNTIME during live calls (knowledge-base search, CRM actions, integrations) over SSE a
   name: iCallAgent Public API (candidate MCP)
   slug: icallagent-public-api-candidate-mcp
 modified: '2026-09-15'
@@ -142,7 +147,7 @@ overview: 'iCallAgent Public API publishes 5 APIs on the [APIs.io](https://apis.
   The iCallAgent Public API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  iCallAgent Public API''s developer surface includes authentication, pricing, engineering blog, signup flow, and 11 more developer resources.'
+  iCallAgent Public API''s developer surface includes authentication, pricing, engineering blog, signup flow, and 12 more developer resources.'
 plans:
 - name: Icallagent Public Api Plans Pricing
   plan_count: 2
@@ -167,7 +172,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.8
   facets:
     access_clarity: 65.8
     contract_governance: 4.5
@@ -175,7 +180,7 @@ score:
     developer_ergonomics: 42.3
     discoverability: 64.3
     operational_transparency: 7.9
-  previous_composite: 49.3
+  previous_composite: 53.1
   provenance:
     conformance: derived
     contracts:
@@ -192,7 +197,7 @@ score:
     regime_id: telecommunications
     score: 35.0
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

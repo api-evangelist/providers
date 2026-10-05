@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: Open Kraken is the integration layer of the Kraken utility operating system. Kraken publicly describes it as "APIs, events and MCP" for building apps and experiences against data and capabilities insi
@@ -199,9 +199,9 @@ description: 'Kraken Technologies is the United Kingdom energy technology compan
 image: https://www.kraken.tech/favicon-96x96.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Kraken names MCP on two separate surfaces and only one of them is real today. The Open Kraken "AI access layer" — MCP gateways that let a licensee's AI agents orchestrate approved actions inside Krake
   name: Kraken Technologies MCP Server
-  slug: kraken-technologies-mcp-server
+  slug: kraken-technologies-mcp-yml
 modified: '2026-07-27'
 name: Kraken Technologies
 nav: Providers
@@ -221,7 +221,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
@@ -237,7 +237,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 28.2
+  previous_composite: 29.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -252,7 +252,7 @@ score:
     regime_id: energy_utilities
     score: 32.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

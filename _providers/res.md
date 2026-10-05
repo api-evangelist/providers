@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/res/refs/heads/main/security/res-domain-security.yml
@@ -73,6 +73,10 @@ created: '2026-07-17'
 description: Res (ResQ) is an AI-powered operations platform for the service economy, connecting restaurants, hospitality groups, and facilities-management teams with vetted trades vendors to manage repair-and-maintenance work orders end to end. The platform covers work-order intake and dispatch, vendor sourcing and communication, invoicing and payments, and reporting across trades such as HVAC, plumbing, refrigeration, and electrical. Backed by Homebrew and surfaced through the API Evangelist network, ResQ operates a web and mobile SaaS product; it publishes no public developer API, OpenAPI definitions, SDKs, or webhook surface at this time, so this profile captures company identity, website properties, and probed domain-security posture.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/res.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.getresq.com over HTTP.
+  name: Res MCP Server
+  slug: res
 modified: '2026-07-20'
 name: Res
 nav: Providers
@@ -92,7 +96,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
@@ -100,7 +104,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 51.7
     operational_transparency: 0.0
-  previous_composite: 12.6
+  previous_composite: 12.7
   provenance:
     mcp: first-party
   regulatory:
@@ -110,7 +114,7 @@ score:
     regime_id: horizontal
     score: 13.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

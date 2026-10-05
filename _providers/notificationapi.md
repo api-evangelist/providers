@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 10
+- acting_count: 11
   human_in_the_loop: 0
   name: Notificationapi Agentic Access
   operation_count: 12
   slug: notificationapi-agentic-access
-  summary_line: 12 operations · 10 acting
+  summary_line: 12 operations · 11 acting
 api_count: 1
 apis:
 - baseURL: https://api.notificationapi.com/{clientId}
@@ -195,7 +195,7 @@ score:
     catalog_gap: 53.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.3
   facets:
     access_clarity: 36.3
     contract_governance: 0.0
@@ -203,7 +203,7 @@ score:
     developer_ergonomics: 31.0
     discoverability: 66.1
     operational_transparency: 31.1
-  previous_composite: 34.6
+  previous_composite: 36.9
   provenance:
     agentic_access: derived
     contracts:
@@ -218,7 +218,7 @@ score:
     regime_id: telecommunications
     score: 10.0
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://proof-random-api.pn-26f.workers.dev
@@ -107,7 +107,7 @@ score:
   band: emerging
   composite: 18.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 31.5
     catalog_earned_first_party: 0.0
     catalog_gap: 68.5
@@ -135,7 +135,7 @@ score:
     regime_id: horizontal
     score: 10.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

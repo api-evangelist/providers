@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -294,6 +294,11 @@ collections:
   name: Workday Payroll Input Deductions Workers API
   slug: open-workday-payroll-workers-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/capabilities/workday-payroll-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/workday-payroll-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -1133,7 +1138,7 @@ overview: 'Workday Payroll publishes 21 APIs on the [APIs.io](https://apis.io/) 
   The Workday Payroll catalog on APIs.io includes 5 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Workday Payroll''s developer surface includes authentication, engineering blog, getting-started guide, code examples, tooling, and 21 more developer resources.'
+  Workday Payroll''s developer surface includes authentication, engineering blog, getting-started guide, code examples, tooling, and 22 more developer resources.'
 plans:
 - name: Workday Payroll Plans Pricing
   plan_count: 1
@@ -1167,23 +1172,23 @@ rules:
   slug: workday-payroll-spectral-rules
 score:
   band: developing
-  composite: 43.7
+  composite: 43.2
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 71.0
+    artifact_dirs: 20
+    catalog_earned: 68.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 44.0
+    catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -0.5
   facets:
     access_clarity: 42.1
     contract_governance: 27.3
     contract_quality: 74.5
     developer_ergonomics: 22.6
-    discoverability: 62.5
+    discoverability: 57.1
     operational_transparency: 13.2
-  previous_composite: 43.2
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1198,7 +1203,7 @@ score:
     regime_id: employment_payroll
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

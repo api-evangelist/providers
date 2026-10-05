@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: 'HOLY''s Shopify-powered storefront and its agentic-commerce surface: a hosted Storefront MCP server (product search, cart, policies), a Universal Commerce Protocol (UCP) endpoint, Shopify Customer Acco'
@@ -125,7 +125,7 @@ layout: provider
 mcp_servers:
 - description: HOLY's hosted Shopify Storefront MCP server for agentic commerce. Exposes catalog search, cart management, product detail lookup, and store-policy/FAQ retrieval over the Model Context Protocol. A seco
   name: HOLY MCP Server
-  slug: holy-mcp-server
+  slug: holy-storefront
 modified: '2026-07-19'
 name: HOLY
 nav: Providers
@@ -150,7 +150,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 27.6
     contract_governance: 0.0
@@ -166,7 +166,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 19.0
+  previous_composite: 17.9
   provenance:
     mcp: first-party
     skills: first-party
@@ -177,7 +177,7 @@ score:
     regime_id: horizontal
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

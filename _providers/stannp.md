@@ -37,157 +37,50 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 20
+- acting_count: 23
   human_in_the_loop: 0
   name: Stannp Agentic Access
   operation_count: 32
   slug: stannp-agentic-access
-  summary_line: 32 operations · 20 acting
+  summary_line: 32 operations · 23 acting
 api_count: 1
 apis:
 - baseURL: https://api-eu1.stannp.com/v1/
   baseurl_source: declared
   description: Account balance and user information
   name: Stannp Account API
-  phrasing_intents:
-  - id: getAccountBalance
-    intent: Check the account balance
-    question: How much credit is left on my Stannp account?
-  - id: topUpBalance
-    intent: Add funds to the account balance
-    question: Can I prepay credit onto my account so mailings draw from a balance?
-  - id: getCurrentUser
-    intent: Look up the signed-in user
-    question: Which user is my API key authenticated as?
-  phrasing_ops: 3
   slug: stannp-account-api
 - baseURL: https://api-eu1.stannp.com/v1/
   baseurl_source: declared
   description: Manage batch direct mail campaigns
   name: Stannp Campaigns API
-  phrasing_intents:
-  - id: listCampaigns
-    intent: List direct mail campaigns
-    question: What mail campaigns have I created so far?
-  - id: getCampaign
-    intent: Look up a campaign
-    question: What are the settings and status of one particular campaign?
-  - id: createCampaign
-    intent: Create a direct mail campaign for a group
-    question: How do I set up a bulk mailing to everyone in one of my recipient groups?
-  - id: getCampaignSample
-    intent: Generate a sample PDF of a campaign
-    question: Can I see a proof of what a campaign's mailpiece will look like before approving it?
-  - id: approveCampaign
-    intent: Approve a campaign for booking
-    question: What do I need to do before a campaign can be scheduled?
-  - id: getCampaignCost
-    intent: Calculate what a campaign will cost
-    question: How much will it cost to send a campaign, including VAT?
-  - id: getCampaignAvailableDates
-    intent: Find available campaign dispatch dates
-    question: Which dates can my campaign be sent out on?
-  - id: bookCampaign
-    intent: Schedule a campaign for dispatch
-    question: How do I schedule an approved campaign to go out on a specific day?
-  phrasing_ops: 9
   slug: stannp-campaigns-api
 - baseURL: https://api-eu1.stannp.com/v1/
   baseurl_source: declared
   description: Record recipient engagement and conversion events
   name: Stannp Events API
-  phrasing_intents:
-  - id: createRecipientEvent
-    intent: Record an engagement event for a recipient
-    question: How do I log that a mail recipient made a purchase after receiving a mailpiece?
-  phrasing_ops: 1
   slug: stannp-events-api
 - baseURL: https://api-eu1.stannp.com/v1/
   baseurl_source: declared
   description: Manage recipient groups
   name: Stannp Groups API
-  phrasing_intents:
-  - id: listGroups
-    intent: List recipient groups
-    question: What mailing groups have I set up?
-  - id: createGroup
-    intent: Create a recipient group
-    question: How do I set up a new mailing list group to hold recipients?
-  - id: addRecipientsToGroup
-    intent: Add existing recipients to a group
-    question: Can I put recipients I've already created into another mailing group?
-  - id: removeRecipientsFromGroup
-    intent: Remove specific recipients from a group
-    question: How can I take a few people out of a mailing group without deleting them?
-  - id: purgeGroup
-    intent: Empty all recipients out of a group
-    question: How do I clear every recipient out of a group but keep the group itself?
-  - id: recalculateGroup
-    intent: Recalculate a group's counts and validity
-    question: Why does my group's recipient count look out of date, and can I refresh it?
-  - id: deleteGroup
-    intent: Delete a recipient group
-    question: How do I delete a mailing group I no longer need?
-  phrasing_ops: 7
   slug: stannp-groups-api
 - baseURL: https://api-eu1.stannp.com/v1/
   baseurl_source: declared
   description: Create, post, retrieve, and cancel letter mailpieces
   name: Stannp Letters API
-  phrasing_intents:
-  - id: createLetter
-    intent: Send a letter from a template or HTML
-    question: How do I mail a single letter built from one of my saved templates?
-  - id: postLetter
-    intent: Mail a pre-merged PDF letter
-    question: Can I upload a finished PDF with the address already on it and have it posted?
-  - id: getLetter
-    intent: Look up a letter mailpiece
-    question: What's the current status of a letter I sent?
-  - id: cancelLetter
-    intent: Cancel a letter before dispatch
-    question: Can I stop a letter from going out if it hasn't been dispatched yet?
-  phrasing_ops: 4
   slug: stannp-letters-api
 - baseURL: https://api-eu1.stannp.com/v1/
   baseurl_source: declared
   description: Create, retrieve, and cancel postcard mailpieces
   name: Stannp Postcards API
-  phrasing_intents:
-  - id: createPostcard
-    intent: Send a postcard
-    question: How do I mail a single postcard with my own front and back artwork?
-  - id: getPostcard
-    intent: Look up a postcard mailpiece
-    question: What's the status of a postcard I already sent?
-  - id: cancelPostcard
-    intent: Cancel a postcard before dispatch
-    question: Can I cancel a postcard that hasn't been dispatched yet?
-  phrasing_ops: 3
   slug: stannp-postcards-api
 - baseURL: https://api-eu1.stannp.com/v1/
   baseurl_source: declared
   description: Manage individual recipients and bulk imports
   name: Stannp Recipients API
-  phrasing_intents:
-  - id: listRecipients
-    intent: List recipients
-    question: Who is on my mailing list?
-  - id: getRecipient
-    intent: Look up a single recipient
-    question: What address do I have on file for a specific recipient?
-  - id: createRecipient
-    intent: Add a recipient address
-    question: How do I add one new person's postal address to my mailing list?
-  - id: deleteRecipient
-    intent: Delete a recipient
-    question: How do I permanently remove someone's address record?
-  - id: importRecipients
-    intent: Bulk import recipients from a spreadsheet
-    question: Can I upload a CSV or Excel file of addresses instead of adding them one by one?
-  phrasing_ops: 5
   slug: stannp-recipients-api
 artifact_total: 32
 asyncapis:
@@ -480,7 +373,7 @@ score:
     catalog_gap: 26.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.0
   facets:
     access_clarity: 93.4
     contract_governance: 41.7
@@ -488,7 +381,7 @@ score:
     developer_ergonomics: 73.2
     discoverability: 73.2
     operational_transparency: 68.4
-  previous_composite: 76.1
+  previous_composite: 80.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -506,7 +399,7 @@ score:
     regime_id: telecommunications
     score: 34.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

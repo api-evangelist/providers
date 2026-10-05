@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ arazzos:
 - description: Add training images to an OCR model from public URLs, then start training.
   name: Nanonets Upload Training URLs and Train
   slug: nanonets-upload-training-urls-and-train-workflow
-artifact_total: 115
+artifact_total: 116
 collections:
 - collection_type: postman
   name: Nanonets External Integrations API
@@ -187,6 +187,11 @@ collections:
   name: Nanonets External Integrations OCR Train API
   slug: open-nanonets-ocr-train-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/capabilities/nanonets-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nanonets-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -567,6 +572,10 @@ jsonld:
   property_count: 1
   slug: nanonets-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.nanonets.com over HTTP.
+  name: Nanonets MCP Server
+  slug: nanonets
 modified: '2026-05-25'
 name: Nanonets
 nav: Providers
@@ -577,7 +586,7 @@ overview: 'Nanonets publishes 10 APIs on the [APIs.io](https://apis.io/) network
   The Nanonets catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Nanonets'' developer surface includes authentication, developer portal, developer console, documentation, getting-started guide, engineering blog, signup flow, and 50 more developer resources.'
+  Nanonets'' developer surface includes authentication, developer portal, developer console, documentation, getting-started guide, engineering blog, signup flow, and 51 more developer resources.'
 plans:
 - name: Nanonets Plans Pricing
   plan_count: 3
@@ -611,23 +620,23 @@ rules:
   slug: nanonets-rules
 score:
   band: strong
-  composite: 57.6
+  composite: 57.1
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 82.0
+    artifact_dirs: 21
+    catalog_earned: 79.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 33.0
+    catalog_gap: 36.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.6
   facets:
     access_clarity: 70.5
     contract_governance: 27.3
     contract_quality: 59.6
     developer_ergonomics: 65.5
-    discoverability: 65.0
+    discoverability: 60.0
     operational_transparency: 41.6
-  previous_composite: 57.1
+  previous_composite: 58.7
   provenance:
     agentic_access: derived
     contracts:
@@ -643,7 +652,7 @@ score:
     regime_id: horizontal
     score: 22.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

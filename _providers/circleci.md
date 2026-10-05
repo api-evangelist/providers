@@ -16,7 +16,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
@@ -25,18 +25,18 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.2
-  scored_at: '2026-10-03'
+  score: 55.4
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -134,11 +134,14 @@ apis:
   description: Endpoints for retrieving workflow details, managing workflow status, and rerunning workflows.
   name: CircleCI Workflow API
   slug: circleci-workflow-api
-artifact_total: 132
+artifact_total: 168
 asyncapis:
 - description: CircleCI Webhooks allow developers to receive real-time notifications about events in their CI/CD pipelines by configuring HTTP callbacks. Webhooks can be set up through project settings or the API to
   name: CircleCI Webhooks
   slug: circleci-webhooks-asyncapi
+- description: ''
+  name: Circleci Webhooks
+  slug: circleci-webhooks
 collections:
 - collection_type: postman
   name: CircleCI REST API v1 Artifact API
@@ -246,6 +249,140 @@ collections:
   name: CircleCI REST API v1 Artifact Workflow API
   slug: open-circleci-workflow-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/finops/circleci-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/circleci-finops.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/rate-limits/circleci-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/circleci-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/plans/circleci-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/circleci-plans-pricing.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/rules/circleci-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/circleci-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/rules/circleci-asyncapi-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/circleci-asyncapi-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/vocabulary/circleci-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/circleci-vocabulary.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/asyncapi/circleci-webhooks.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/circleci-webhooks.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/asyncapi/circleci-webhooks-asyncapi.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/circleci-webhooks-asyncapi.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/data-model/circleci-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/circleci-data-model.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/cli/circleci-cli.yml
+  title: ''
+  type: CLI
+  url: cli/circleci-cli.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/changelog/circleci-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/circleci-changelog.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.circleci.com/
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/errors/circleci-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/circleci-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/conformance/circleci-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/circleci-conformance.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/overlays/circleci-artifact-api-overlay.yml
+  title: ''
+  type: Overlay
+  url: overlays/circleci-artifact-api-overlay.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/llms/circleci-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/circleci-llms.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/mcp/circleci-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/circleci-mcp.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/well-known/circleci-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/circleci-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/hosts/circleci-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/circleci-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/vendors/circleci-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/circleci-vendors.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/packages/circleci-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/circleci-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/packages/circleci-packages.yml
+  title: ''
+  type: Packages
+  url: packages/circleci-packages.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://circleci.com/security/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://circleci.com/pricing/
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://circleci.com/newsroom/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://circleci.com/changelog/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://circleci.com/docs/guides/getting-started/getting-started/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -348,6 +485,11 @@ common:
   title: ''
   type: LlmsText
   url: https://circleci.com/llms.txt
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/capabilities/circleci-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/circleci-capability-edges.yml
 created: '2025-03-05'
 description: CircleCI is a continuous integration and continuous delivery (CI/CD) platform that automates software build, test, and deployment pipelines. Their developer surface includes the REST API v2 (the recommended modern interface), the legacy v1 REST API, a Self-Hosted Runner API, webhooks for real-time event notifications, and the Orbs Registry of reusable configuration packages. Authentication is via a personal or project Circle-Token sent in the Circle-Token header; responses are JSON.
 features:
@@ -373,21 +515,36 @@ finops:
   slug: circleci-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/circleci.png
 json_schemas:
+- name: ArtifactList
+  property_count: 2
+  slug: circleci-artifact-list
 - name: Artifact
   property_count: 4
   slug: circleci-artifact
 - name: ArtifactList
   property_count: 2
   slug: circleci-artifactlist
+- name: BuildDetail
+  property_count: 0
+  slug: circleci-build-detail
 - name: Build
   property_count: 19
   slug: circleci-build
+- name: BuildSummary
+  property_count: 4
+  slug: circleci-build-summary
 - name: BuildDetail
   property_count: 0
   slug: circleci-builddetail
 - name: BuildSummary
   property_count: 4
   slug: circleci-buildsummary
+- name: CheckoutKeyList
+  property_count: 2
+  slug: circleci-checkout-key-list
+- name: CheckoutKey
+  property_count: 5
+  slug: circleci-checkout-key
 - name: CheckoutKey
   property_count: 6
   slug: circleci-checkoutkey
@@ -397,12 +554,24 @@ json_schemas:
 - name: Collaboration
   property_count: 5
   slug: circleci-collaboration
+- name: ContextList
+  property_count: 2
+  slug: circleci-context-list
 - name: Context
   property_count: 3
   slug: circleci-context
 - name: ContextList
   property_count: 2
   slug: circleci-contextlist
+- name: CreateContextRequest
+  property_count: 2
+  slug: circleci-create-context-request
+- name: CreateScheduleRequest
+  property_count: 5
+  slug: circleci-create-schedule-request
+- name: CreateWebhookRequest
+  property_count: 6
+  slug: circleci-create-webhook-request
 - name: CreateContextRequest
   property_count: 2
   slug: circleci-createcontextrequest
@@ -412,6 +581,12 @@ json_schemas:
 - name: CreateWebhookRequest
   property_count: 6
   slug: circleci-createwebhookrequest
+- name: EnvironmentVariableList
+  property_count: 2
+  slug: circleci-environment-variable-list
+- name: EnvironmentVariable
+  property_count: 4
+  slug: circleci-environment-variable
 - name: EnvironmentVariable
   property_count: 4
   slug: circleci-environmentvariable
@@ -421,6 +596,18 @@ json_schemas:
 - name: ErrorResponse
   property_count: 1
   slug: circleci-errorresponse
+- name: InsightsJobMetrics
+  property_count: 2
+  slug: circleci-insights-job-metrics
+- name: InsightsTestMetrics
+  property_count: 4
+  slug: circleci-insights-test-metrics
+- name: InsightsWorkflowMetrics
+  property_count: 2
+  slug: circleci-insights-workflow-metrics
+- name: InsightsWorkflowRuns
+  property_count: 2
+  slug: circleci-insights-workflow-runs
 - name: InsightsJobMetrics
   property_count: 2
   slug: circleci-insightsjobmetrics
@@ -438,7 +625,19 @@ json_schemas:
   slug: circleci-job
 - name: MessageResponse
   property_count: 1
+  slug: circleci-message-response
+- name: MessageResponse
+  property_count: 1
   slug: circleci-messageresponse
+- name: PipelineConfig
+  property_count: 4
+  slug: circleci-pipeline-config
+- name: PipelineCreation
+  property_count: 4
+  slug: circleci-pipeline-creation
+- name: PipelineList
+  property_count: 2
+  slug: circleci-pipeline-list
 - name: CircleCI Pipeline
   property_count: 10
   slug: circleci-pipeline
@@ -451,6 +650,12 @@ json_schemas:
 - name: PipelineList
   property_count: 2
   slug: circleci-pipelinelist
+- name: Project_2
+  property_count: 7
+  slug: circleci-project-2
+- name: ProjectEnvVarList
+  property_count: 2
+  slug: circleci-project-env-var-list
 - name: Project
   property_count: 5
   slug: circleci-project
@@ -462,7 +667,16 @@ json_schemas:
   slug: circleci-projectenvvarlist
 - name: RerunWorkflowResponse
   property_count: 1
+  slug: circleci-rerun-workflow-response
+- name: RerunWorkflowResponse
+  property_count: 1
   slug: circleci-rerunworkflowresponse
+- name: ResourceClassCreation
+  property_count: 4
+  slug: circleci-resource-class-creation
+- name: ResourceClass
+  property_count: 3
+  slug: circleci-resource-class
 - name: ResourceClass
   property_count: 3
   slug: circleci-resourceclass
@@ -472,12 +686,21 @@ json_schemas:
 - name: Runner
   property_count: 10
   slug: circleci-runner
+- name: ScheduleList
+  property_count: 2
+  slug: circleci-schedule-list
 - name: Schedule
   property_count: 9
   slug: circleci-schedule
 - name: ScheduleList
   property_count: 2
   slug: circleci-schedulelist
+- name: TestList
+  property_count: 2
+  slug: circleci-test-list
+- name: TestMetadata
+  property_count: 7
+  slug: circleci-test-metadata
 - name: TestList
   property_count: 2
   slug: circleci-testlist
@@ -489,7 +712,16 @@ json_schemas:
   slug: circleci-timetable
 - name: TriggerPipelineRequest
   property_count: 3
+  slug: circleci-trigger-pipeline-request
+- name: TriggerPipelineRequest
+  property_count: 3
   slug: circleci-triggerpipelinerequest
+- name: UpdateScheduleRequest
+  property_count: 5
+  slug: circleci-update-schedule-request
+- name: UpdateWebhookRequest
+  property_count: 5
+  slug: circleci-update-webhook-request
 - name: UpdateScheduleRequest
   property_count: 5
   slug: circleci-updateschedulerequest
@@ -504,10 +736,22 @@ json_schemas:
   slug: circleci-webhook-event
 - name: WebhookInfo
   property_count: 9
+  slug: circleci-webhook-info
+- name: WebhookList
+  property_count: 2
+  slug: circleci-webhook-list
+- name: WebhookInfo
+  property_count: 9
   slug: circleci-webhookinfo
 - name: WebhookList
   property_count: 2
   slug: circleci-webhooklist
+- name: WorkflowJobList
+  property_count: 2
+  slug: circleci-workflow-job-list
+- name: WorkflowList
+  property_count: 2
+  slug: circleci-workflow-list
 - name: CircleCI Workflow
   property_count: 10
   slug: circleci-workflow
@@ -530,6 +774,10 @@ jsonld:
   property_count: 10
   slug: circleci-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.circleci.com over HTTP.
+  name: CircleCI MCP Server
+  slug: circleci
 modified: '2026-09-16'
 name: CircleCI
 nav: Providers
@@ -537,10 +785,10 @@ network: true
 overview: 'CircleCI publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Self-Hosted Runner API, Webhooks, Artifact API, and 15 more. Tagged areas include CI/CD, Continuous Integration, Continuous Deployment, DevOps, and Pipelines.
 
 
-  The CircleCI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
+  The CircleCI catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  CircleCI''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 18 more developer resources.'
+  CircleCI''s developer surface includes CLI, changelog, pricing, API reference, authentication, developer portal, documentation, and 45 more developer resources.'
 plans:
 - name: Circleci Plans Pricing
   plan_count: 3
@@ -584,32 +832,34 @@ rules:
     warn: 5
   slug: circleci-rules
 score:
-  band: developing
-  composite: 51.2
+  band: exemplar
+  composite: 67.6
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 58.5
+    artifact_dirs: 33
+    catalog_earned: 72.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.5
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 18.0
   facets:
-    access_clarity: 51.3
-    contract_governance: 13.6
-    contract_quality: 64.1
-    developer_ergonomics: 39.3
-    discoverability: 75.0
-    operational_transparency: 26.3
-  previous_composite: 51.2
+    access_clarity: 69.7
+    contract_governance: 31.8
+    contract_quality: 69.5
+    developer_ergonomics: 62.5
+    discoverability: 76.7
+    operational_transparency: 60.5
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 16
     mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
@@ -617,8 +867,8 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: rising
   upsert:
     applies: true
     score: 22.2

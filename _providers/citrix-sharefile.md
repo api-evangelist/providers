@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -104,6 +104,11 @@ collections:
   name: Citrix ShareFile REST API v3
   slug: open-citrix-sharefile
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/citrix-sharefile/refs/heads/main/capabilities/citrix-sharefile-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/citrix-sharefile-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/citrix-sharefile/refs/heads/main/agentic-access/citrix-sharefile-agentic-access.yml
   title: ''
@@ -167,19 +172,19 @@ network: true
 overview: 'Citrix ShareFile publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Groups API, Items API, and 4 more. Tagged areas include File Sharing, Document Workflow, Secure File Transfer, E-Signature, and Client Portal.
 
 
-  Citrix ShareFile''s developer surface includes authentication, documentation, pricing, signup flow, and 8 more developer resources.'
+  Citrix ShareFile''s developer surface includes authentication, documentation, pricing, signup flow, and 9 more developer resources.'
 random_paper: 1
 score:
   band: thin
   composite: 30.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
@@ -187,7 +192,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 30.3
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     contracts:
@@ -202,7 +207,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

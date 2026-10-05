@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: 'Public Model Context Protocol connector (search_hotels) plus an invite-only direct hotel-search API delivering live prices ranked by value, enriched property data, and destination price trends across '
@@ -128,9 +128,9 @@ description: 'trivago (trivago N.V.) is a global hotel and accommodation metasea
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trivago.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.trivago.com over HTTP; 1 tool listed.
   name: Trivago MCP Server
-  slug: trivago-mcp-server
+  slug: trivago
 modified: '2026-07-21'
 name: Trivago
 nav: Providers
@@ -150,7 +150,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
@@ -158,7 +158,7 @@ score:
     developer_ergonomics: 42.9
     discoverability: 73.2
     operational_transparency: 13.2
-  previous_composite: 27.6
+  previous_composite: 26.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -173,7 +173,7 @@ score:
     regime_id: horizontal
     score: 25.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

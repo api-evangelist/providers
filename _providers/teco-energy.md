@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -100,6 +100,11 @@ collections:
   name: Tampa Electric Account Accounts Service Requests API
   slug: open-teco-energy-service-requests-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/capabilities/teco-energy-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/teco-energy-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/agentic-access/teco-energy-agentic-access.yml
   title: ''
@@ -180,7 +185,7 @@ overview: 'TECO Energy publishes 6 APIs on the [APIs.io](https://apis.io/) netwo
   The TECO Energy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TECO Energy''s developer surface includes authentication, developer portal, and 7 more developer resources.'
+  TECO Energy''s developer surface includes authentication, developer portal, and 8 more developer resources.'
 plans:
 - name: Teco Energy Plans Pricing
   plan_count: 1
@@ -238,7 +243,7 @@ score:
     catalog_gap: 49.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.3
   facets:
     access_clarity: 13.2
     contract_governance: 13.6
@@ -246,7 +251,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 66.1
     operational_transparency: 21.1
-  previous_composite: 32.7
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     contracts:
@@ -261,7 +266,7 @@ score:
     regime_id: energy_utilities
     score: 13.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

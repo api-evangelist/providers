@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -50,399 +50,116 @@ apis:
   baseurl_source: declared
   description: The Address API from Sendcloud — 1 operation(s) for address.
   name: Sendcloud Address API
-  phrasing_intents:
-  - id: sc-public-v3-scp-post-validate_address
-    intent: Validate a shipping address
-    question: Can I check that a shipping address is valid before I create a label?
-  phrasing_ops: 1
   slug: sendcloud-address-api
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
   description: The Analytics API from Sendcloud — 2 operation(s) for analytics.
   name: Sendcloud Analytics API
-  phrasing_intents:
-  - id: sc-public-v3-analytics-get-carrier_transit_times
-    intent: Get transit-time statistics for a carrier
-    question: How long does a carrier typically take to deliver my parcels?
-  - id: sc-public-v3-analytics-get-shipping_option_transit_times
-    intent: Get transit-time statistics for a shipping option
-    question: How fast is a specific shipping option delivering compared to what I expected?
-  phrasing_ops: 2
   slug: sendcloud-analytics-api
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
   description: The Broadcast API from Sendcloud — 1 operation(s) for broadcast.
   name: Sendcloud Broadcast API
-  phrasing_intents:
-  - id: sc-public-v3-scp-post-test_broadcast
-    intent: Send a test event to a subscription
-    question: Is there a way to check that my event subscription endpoint is receiving events?
-  phrasing_ops: 1
   slug: sendcloud-broadcast-api
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
   description: The Connections API from Sendcloud — 2 operation(s) for connections.
   name: Sendcloud Connections API
-  phrasing_intents:
-  - id: sc-public-v3-scp-post-create_connection
-    intent: Create an event notification connection
-    question: How do I add a new endpoint where shipping events get delivered?
-  - id: sc-public-v3-scp-get-list_connections
-    intent: List event notification connections
-    question: Which external endpoints are set up to receive my Sendcloud event notifications?
-  - id: sc-public-v3-scp-get-connection
-    intent: Get one event connection
-    question: How do I look up the details of a single event connection?
-  - id: sc-public-v3-scp-patch-connection
-    intent: Update an event connection
-    question: Can I change the endpoint configuration of an existing connection?
-  - id: sc-public-v3-scp-delete-connection
-    intent: Delete an event connection
-    question: What happens to my subscriptions if I delete a connection?
-  phrasing_ops: 5
   slug: sendcloud-connections-api
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
   description: The Customs Documents Download API from Sendcloud — 2 operation(s) for customs documents download.
   name: Sendcloud Customs Documents Download API
-  phrasing_intents:
-  - id: sc-public-v2-scp-get-customs_document_normal_printer
-    intent: Download a parcel's customs declaration PDF
-    question: How do I get the customs declaration for one parcel as a PDF?
-  - id: sc-public-v2-scp-get-customs_document_multiple_normal_printer
-    intent: Download customs declarations for many parcels
-    question: Can I download customs declarations for several parcels in one PDF?
-  phrasing_ops: 2
   slug: sendcloud-customs-documents-download-api
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
   description: Integration exception logs API
   name: Sendcloud Exception logs API
-  phrasing_intents:
-  - id: sc-public-v3-integrations-get-retrieve_integrations_logs
-    intent: List exception logs across all integrations
-    question: Why are my shop integrations failing to talk to my webshop?
-  - id: sc-public-v3-integrations-get-retrieve_integration_logs
-    intent: List exception logs for one integration
-    question: What errors has one specific shop integration hit recently?
-  - id: sc-public-v3-integrations-post-create_integration_logs
-    intent: Record an exception log for an integration
-    question: How can my integration report a failed shop request so the merchant sees it?
-  phrasing_ops: 3
   slug: sendcloud-exception-logs-api
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
   description: The Integrations API from Sendcloud — 6 operation(s) for integrations.
   name: Sendcloud Integrations API
-  phrasing_intents:
-  - id: sc-public-v2-orders-get-retrieve_a_list_of_integrations
-    intent: List connected shop integrations
-    question: Which webshops are connected to my Sendcloud account?
-  - id: sc-public-v2-orders-get-retrieve_an_integration
-    intent: Get one shop integration
-    question: How do I see the settings of a single shop integration?
-  - id: sc-public-v2-orders-put-update_an_integration
-    intent: Replace a shop integration's settings
-    question: How do I overwrite all of a shop integration's settings in one go?
-  - id: sc-public-v2-orders-patch-partial_update_an_integration
-    intent: Change selected shop integration settings
-    question: Can I turn on the webhook for a shop without resending all its settings?
-  - id: sc-public-v2-orders-delete-delete_an_integration
-    intent: Delete a shop integration
-    question: How do I disconnect a webshop from Sendcloud?
-  - id: sc-public-v2-orders-get-retrieve_integrations_logs
-    intent: List all integration exception logs (v2)
-    question: Where can I see every error my shop integrations have logged?
-  - id: sc-public-v2-orders-get-retrieve_integration_logs
-    intent: List exception logs for one integration (v2)
-    question: What went wrong with one particular shop integration?
-  - id: sc-public-v2-orders-post-create_integration_logs
-    intent: Record an integration exception log (v2)
-    question: How does my integration add an entry to the merchant's connection issue log?
-  phrasing_ops: 12
   slug: sendcloud-integrations-api
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
   description: The Label Download API from Sendcloud — 4 operation(s) for label download.
   name: Sendcloud Label Download API
-  phrasing_intents:
-  - id: sc-public-v2-scp-get-label_document_normal_printer
-    intent: Download a parcel's label for a normal printer
-    question: How do I print one parcel's shipping label on a regular A4 printer?
-  - id: sc-public-v2-scp-get-label_document_multiple_normal_printer
-    intent: Download labels for many parcels for a normal printer
-    question: Can I get labels for several parcels in one PDF for an office printer?
-  - id: sc-public-v2-scp-get-label_document_label_printer
-    intent: Download a parcel's label for a label printer
-    question: How do I get one parcel's label formatted for a thermal label printer?
-  - id: sc-public-v2-scp-get-label_document_multiple_label_printer
-    intent: Download labels for many parcels for a label printer
-    question: Can I bulk download labels for several parcels sized for a label printer?
-  phrasing_ops: 4
   slug: sendcloud-label-download-api
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
   description: The Labels API from Sendcloud — 2 operation(s) for labels.
   name: Sendcloud Labels API
-  phrasing_intents:
-  - id: sc-public-v2-scp-get-label_by_parcel_id
-    intent: Get label download links for a parcel
-    question: Where do I get the label download URLs for a parcel I created?
-  - id: sc-public-v2-scp-post-label_by_parcel_ids
-    intent: Request labels for multiple parcels
-    question: How do I request shipping labels for a batch of parcels at once?
-  phrasing_ops: 2
   slug: sendcloud-labels-api
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
   description: OrderAPI
   name: Sendcloud Orders API
-  phrasing_intents:
-  - id: sc-public-v3-orders-post-create_orders
-    intent: Create or update orders in batch
-    question: How do I import orders from my own system into a Sendcloud API integration?
-  - id: sc-public-v3-orders-get-list_orders
-    intent: List orders
-    question: Which orders came in from a specific shop integration this week?
-  - id: sc-public-v3-orders-get-retrieve_order
-    intent: Get an order
-    question: What are all the details of one particular order?
-  - id: sc-public-v3-orders-delete-delete_order
-    intent: Delete an order
-    question: Can I remove an order that was cancelled in my shop?
-  - id: sc-public-v3-orders-patch-partial_update_order
-    intent: Update an order
-    question: Can I fix the shipping address on an order after import?
-  phrasing_ops: 5
   slug: sendcloud-orders-api
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
   description: The Parcel Documents API from Sendcloud — 2 operation(s) for parcel documents.
   name: Sendcloud Parcel Documents API
-  phrasing_intents:
-  - id: sc-public-v3-scp-get-retrieve_parcel_documents
-    intent: Download a parcel document
-    question: How do I download a specific document, like a label, for one parcel?
-  - id: sc-public-v3-scp-get-retrieve_parcel_documents_bulk
-    intent: Download a document type for many parcels
-    question: Can I download the same document type for several parcels together?
-  phrasing_ops: 2
   slug: sendcloud-parcel-documents-api
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
   description: The Parcel Tracking API from Sendcloud — 2 operation(s) for parcel tracking.
   name: Sendcloud Parcel Tracking API
-  phrasing_intents:
-  - id: sc-public-v3-shipping_intelligence_engine-get-get_parcel_by_tracking_number
-    intent: Track a parcel by tracking number
-    question: Where is my parcel right now?
-  - id: sc-public-v3-shipping_intelligence_engine-post-register_parcel_for_tracking
-    intent: Register an external parcel for tracking
-    question: Can Sendcloud track a parcel I shipped outside of Sendcloud?
-  phrasing_ops: 2
   slug: sendcloud-parcel-tracking-api
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
   description: Get insights about parcels
   name: Sendcloud Parcels API
-  phrasing_intents:
-  - id: sc-public-v2-analytics-get-parcels_series
-    intent: Chart parcel volume over time
-    question: How many parcels did I ship per day last month?
-  - id: sc-public-v2-analytics-get-parcels_buckets
-    intent: Group parcel counts by a category
-    question: Which destination countries receive the most of my parcels?
-  - id: sc-public-v2-analytics-get-parcels_summary
-    intent: Count parcels for the last N days
-    question: How many parcels have I sent in the last 30 days?
-  - id: sc-public-v2-scp-get-all_parcels
-    intent: List parcels
-    question: Which parcels have I created or imported into my account?
-  - id: sc-public-v2-scp-post-create_parcel
-    intent: Create one or more parcels
-    question: How do I create a new parcel and announce it to the carrier right away?
-  - id: sc-public-v2-scp-put-update_a_parcel
-    intent: Update an unannounced parcel
-    question: Can I change a parcel's data before it's announced to the carrier?
-  - id: sc-public-v2-scp-get-parcel_by_id
-    intent: Get a parcel
-    question: How do I look up a single parcel by its ID?
-  - id: sc-public-v2-scp-post-cancel_specific
-    intent: Cancel or delete a parcel
-    question: Can I cancel a parcel after it has been announced?
-  phrasing_ops: 9
   slug: sendcloud-parcels-api
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
   description: Get insights about products
   name: Sendcloud Products API
-  phrasing_intents:
-  - id: sc-public-v2-analytics-get-products_series
-    intent: Chart shipped product volume over time
-    question: How many products did I ship per week this quarter?
-  - id: sc-public-v2-analytics-get-products_buckets
-    intent: Group shipped products by a category
-    question: Which products do I ship most to each country?
-  phrasing_ops: 2
   slug: sendcloud-products-api
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
   description: Generate data exports and reports.
   name: Sendcloud Reporting API
-  phrasing_intents:
-  - id: sc-public-v2-reporting_analytics-post-parcels_report
-    intent: Generate a parcels CSV report
-    question: How do I export my outgoing parcels to a CSV file?
-  - id: sc-public-v2-reporting_analytics-get-parcels_report
-    intent: Download a parcels report
-    question: Is my parcels report ready to download yet?
-  phrasing_ops: 2
   slug: sendcloud-reporting-api
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
   description: The Returns API from Sendcloud — 6 operation(s) for returns.
   name: Sendcloud Returns API
-  phrasing_intents:
-  - id: sc-public-v3-scp-post-validate_address
-    intent: Validate a shipping address
-    question: Can I check that a shipping address is valid before I create a label?
-  - id: sc-public-v3-scp-post-returns_create_new_return
-    intent: Create a return
-    question: How do I create a standalone return for a customer?
-  - id: sc-public-v3-scp-get-returns_get_returns
-    intent: List returns
-    question: Which returns were created in the last two weeks?
-  - id: sc-public-v3-scp-get-returns_get_details
-    intent: Get a return
-    question: How do I check the details of a specific return?
-  - id: sc-public-v3-scp-patch-returns_cancel
-    intent: Request cancellation of a return
-    question: Can I cancel a return a customer no longer needs?
-  - id: sc-public-v3-scp-post-returns_validate
-    intent: Check a return can be announced
-    question: Can I test whether a return would be accepted without creating it?
-  - id: sc-public-v3-scp-post-returns_create_new_return_synchronously
-    intent: Create a return and wait for the carrier
-    question: How do I create a return and get the carrier's response immediately?
-  phrasing_ops: 7
   slug: sendcloud-returns-api
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
   description: Service Points API
   name: Sendcloud Service Points API
-  phrasing_intents:
-  - id: sc-public-v3-servicepoints-get-list_service_points
-    intent: Find service points near a location
-    question: Where are the nearest pickup points in a postal code?
-  - id: sc-public-v3-servicepoints-get-service_point
-    intent: Get a service point
-    question: How do I get the address and opening hours of one service point?
-  - id: sc-public-v3-servicepoints-post-check_availability
-    intent: Check if a service point is available
-    question: Is a given service point open and accepting parcels right now?
-  phrasing_ops: 3
   slug: sendcloud-service-points-api
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
   description: OrderLabelAPI
   name: Sendcloud Ship an Order API
-  phrasing_intents:
-  - id: sc-public-v3-orders_labels-post-create_labels_async
-    intent: Create labels for orders asynchronously
-    question: Can I create shipping labels for many orders in one go?
-  - id: sc-public-v3-orders_labels-post-create_labels_sync
-    intent: Create a label for one order and wait
-    question: Can I get the label for a single order back in the same response?
-  phrasing_ops: 2
   slug: sendcloud-ship-an-order-api
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
   description: Shipments API
   name: Sendcloud Shipments API
-  phrasing_intents:
-  - id: sc-public-v3-scp-post-announce_shipment
-    intent: Create and announce a shipment synchronously
-    question: How do I create a shipment and get the label in the same response?
-  - id: sc-public-v3-scp-get-all_shipments
-    intent: List shipments
-    question: Which shipments have I created or imported recently?
-  - id: sc-public-v3-scp-post-create_shipment
-    intent: Create and announce a shipment asynchronously
-    question: Can I submit a shipment and have it announced in the background?
-  - id: sc-public-v3-scp-post-announce_shipment_with_rules
-    intent: Announce a shipment with shipping rules, synchronously
-    question: Can my shipping rules pick the method when I announce a shipment and wait for it?
-  - id: sc-public-v3-scp-post-create_shipment_with_rules
-    intent: Announce a shipment with shipping rules, asynchronously
-    question: Can shipping rules and defaults be applied to a shipment announced in the background?
-  - id: sc-public-v3-scp-post-validate_address
-    intent: Validate a shipping address
-    question: Can I check that a shipping address is valid before I create a label?
-  - id: sc-public-v3-scp-get-shipment_by_id
-    intent: Get a shipment
-    question: How do I look up one shipment by its ID?
-  - id: sc-public-v3-scp-post-cancel_shipment
-    intent: Cancel an announced shipment
-    question: Can I cancel a shipment that's already been announced to the carrier?
-  phrasing_ops: 12
   slug: sendcloud-shipments-api
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
   description: The Subscriptions API from Sendcloud — 2 operation(s) for subscriptions.
   name: Sendcloud Subscriptions API
-  phrasing_intents:
-  - id: sc-public-v3-scp-post-create_subscription
-    intent: Subscribe a connection to an event type
-    question: How do I start receiving a specific event at one of my connections?
-  - id: sc-public-v3-scp-get-list_subscriptions
-    intent: List event subscriptions
-    question: Which shipping events am I subscribed to?
-  - id: sc-public-v3-scp-get-subscription
-    intent: Get an event subscription
-    question: Which connection and event does a given subscription route?
-  - id: sc-public-v3-scp-patch-subscription
-    intent: Update an event subscription
-    question: Can I pause a subscription without deleting it?
-  - id: sc-public-v3-scp-delete-subscription
-    intent: Delete an event subscription
-    question: What's the way to stop receiving an event type for good?
-  phrasing_ops: 5
   slug: sendcloud-subscriptions-api
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
   description: The Tracking API from Sendcloud — 1 operation(s) for tracking.
   name: Sendcloud Tracking API
-  phrasing_intents:
-  - id: sc-public-v2-tracking-get-detailed_tracking_information
-    intent: Get a parcel's tracking history
-    question: Where is my parcel and what has happened to it so far?
-  phrasing_ops: 1
   slug: sendcloud-tracking-api
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
   description: Get insights about average transit times per carriers and shipping methods
   name: Sendcloud Transit times API
-  phrasing_intents:
-  - id: sc-public-v2-analytics-get-carrier_transit_times
-    intent: Get a carrier's average transit time
-    question: How many days on average does a carrier take to deliver?
-  - id: sc-public-v2-analytics-get-shipping_method_transit_times
-    intent: Get a shipping method's average transit time
-    question: How long does a particular shipping method usually take?
-  phrasing_ops: 2
   slug: sendcloud-transit-times-api
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
   description: Get list of carriers and shipping methods a user ever used
   name: Sendcloud User Carriers and Shipping Methods API
-  phrasing_intents:
-  - id: sc-public-v2-analytics-get-user_shipping_methods
-    intent: List shipping methods I have used
-    question: Which shipping methods have I ever used?
-  - id: sc-public-v2-analytics-get-user_carriers
-    intent: List carriers I have used
-    question: Which carriers have I shipped with?
-  phrasing_ops: 2
   slug: sendcloud-user-carriers-and-shipping-methods-api
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
@@ -458,11 +175,6 @@ apis:
   baseurl_source: declared
   description: The OAuth2 API from Sendcloud — 1 operation(s) for oauth2.
   name: Sendcloud O Auth2 API
-  phrasing_intents:
-  - id: sc-public-v3-scp-post-start_authorization
-    intent: Start OAuth2 authorization for a connection
-    question: What's needed to authorize a connection that uses OAuth2, like Klaviyo?
-  phrasing_ops: 1
   slug: sendcloud-oauth2-api
 arazzos:
 - description: Announce a shipment synchronously, then retrieve the return portal URL customers use to create a return.
@@ -501,7 +213,7 @@ arazzos:
 - description: Validate a return payload, create the return, then retrieve its full detail.
   name: Sendcloud Validate and Create a Return
   slug: sendcloud-validate-create-return-workflow
-artifact_total: 155
+artifact_total: 156
 collections:
 - collection_type: postman
   name: Shipments
@@ -1013,6 +725,10 @@ jsonld:
   property_count: 17
   slug: sendcloud-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at sendcloud.dev over HTTP; 3 tools listed.
+  name: Sendcloud MCP Server
+  slug: sendcloud
 modified: '2026-05-25'
 name: Sendcloud
 nav: Providers
@@ -1065,21 +781,21 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: exemplar
-  composite: 68.0
+  composite: 67.5
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 96.0
+    artifact_dirs: 24
+    catalog_earned: 93.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 19.0
+    catalog_gap: 22.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -3.8
   facets:
     access_clarity: 57.9
     contract_governance: 27.3
     contract_quality: 70.4
     developer_ergonomics: 69.0
-    discoverability: 80.0
+    discoverability: 75.0
     operational_transparency: 50.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -1089,7 +805,7 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 67.5
+  previous_composite: 71.3
   provenance:
     agentic_access: derived
     contracts:
@@ -1105,7 +821,7 @@ score:
     regime_id: telecommunications
     score: 32.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

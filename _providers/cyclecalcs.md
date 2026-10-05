@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ agentic_access:
   summary_line: 29 operations
 api_count: 1
 apis:
-- description: Hosted stateless Streamable HTTP MCP server exposing 11 astronomy tools backed by the v2 REST endpoints. Requires Bearer RapidAPI key on every call; basic plan free. Works with Claude Code, custom con
+- description: Hosted stateless Streamable HTTP MCP server exposing 11 astronomy tools backed by the v2 REST endpoints. Tool calls work without a key up to 50 a day per network address; a RapidAPI key (Basic plan fr
   name: CycleCalcs MCP Server
   slug: cyclecalcs-mcp-server
 - baseURL: https://www.cyclecalcs.com/v2
@@ -205,7 +205,7 @@ arazzos:
 - description: Resolve a place name, take the whole-sky snapshot, then find the dark moonless observing window for the next week.
   name: Tonight's sky for a place
   slug: cyclecalcs-tonights-sky
-artifact_total: 87
+artifact_total: 86
 collections:
 - collection_type: open
   name: API Collection
@@ -550,12 +550,9 @@ jsonld:
   slug: cyclecalcs-context
 layout: provider
 mcp_servers:
-- description: ''
-  name: CycleCalcs MCP Server
-  slug: cyclecalcs-mcp-server
 - description: CycleCalcs publishes a hosted, stateless Streamable HTTP MCP server that exposes eleven read-only astronomy tools, each backed by exactly one live /v2 REST endpoint. The server speaks MCP revision 202
-  name: MCP server manifest (11 tools, captured from tools/list)
-  slug: mcp-server-manifest-11-tools-captured-from-toolslist
+  name: CycleCalcs Astronomy
+  slug: mcp
 modified: '2026-09-16'
 name: CycleCalcs
 nav: Providers
@@ -601,7 +598,7 @@ score:
     catalog_gap: 35.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.9
+  delta: 3.5
   facets:
     access_clarity: 65.8
     contract_governance: 47.0
@@ -609,7 +606,7 @@ score:
     developer_ergonomics: 63.7
     discoverability: 85.0
     operational_transparency: 71.1
-  previous_composite: 63.1
+  previous_composite: 63.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -627,7 +624,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

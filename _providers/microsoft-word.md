@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 23
+- acting_count: 27
   human_in_the_loop: 0
   name: Microsoft Word Agentic Access
-  operation_count: 46
+  operation_count: 55
   slug: microsoft-word-agentic-access
-  summary_line: 46 operations · 23 acting
+  summary_line: 55 operations · 27 acting
 api_count: 21
 apis:
 - description: Server-side document conversion and automation service for SharePoint. Supports batch conversion of Word documents to PDF, XPS, and other formats without user interaction.
@@ -647,7 +647,7 @@ jsonld:
   slug: microsoft-word-open-xml-sdk-context
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.svc.cloud.microsoft over HTTP; 3 tools listed.
   name: Microsoft MCP Server for Enterprise
   slug: microsoft-mcp-server-for-enterprise
 modified: '2026-06-20'
@@ -699,26 +699,26 @@ scopes:
   summary_line: 8 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.2
+  composite: 62.7
   coverage:
     artifact_dirs: 33
-    catalog_earned: 68.0
+    catalog_earned: 65.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.0
+    catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 4.2
   facets:
     access_clarity: 57.9
     contract_governance: 31.8
     contract_quality: 33.2
     developer_ergonomics: 89.3
-    discoverability: 63.3
+    discoverability: 58.3
     operational_transparency: 44.7
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 62.7
+  previous_composite: 58.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -735,7 +735,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

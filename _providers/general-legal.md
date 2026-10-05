@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/general-legal/refs/heads/main/security/general-legal-domain-security.yml
@@ -98,6 +98,10 @@ created: '2026-07-17'
 description: General Legal is an AI-native law firm for high-growth startups and SMBs, offering flat-fee commercial, corporate, and employment legal work delivered by U.S.-barred attorneys augmented with proprietary AI workflows. The firm focuses on contract review, redlining, negotiation, and drafting with transparent flat pricing (from $250) and fast turnaround (median under three hours), positioning itself as "outside counsel that scales like software." Practice areas include technology transactions, employment, data privacy, financial regulatory, blockchain/cryptocurrency, and emerging companies / VC. Founded in 2026 by Ryan Walker (ex-Casetext CTO), J.P. Mohler, and Javed Qadruddin, the company is a Y Combinator (W26) portfolio company that raised $11.5M across pre-seed and seed rounds. This profile was surfaced as a Y Combinator portfolio lead and enriched from public sources; General Legal is a legal-services company and does not currently publish a developer API.
 image: https://cdn.prod.website-files.com/69d3ac38e8e442c9fce520b4/6a073ecb708e3d8ffc639f4b_49a76c6986df74c51aa83f6f5a579b30_og-image.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.general.legal over HTTP; 6 tools listed.
+  name: General Legal MCP Server
+  slug: general-legal
 modified: '2026-07-19'
 name: General Legal
 nav: Providers
@@ -117,7 +121,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 38.2
     contract_governance: 0.0
@@ -125,7 +129,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 59.2
     operational_transparency: 0.0
-  previous_composite: 14.5
+  previous_composite: 14.8
   provenance:
     mcp: first-party
   regulatory:
@@ -135,7 +139,7 @@ score:
     regime_id: horizontal
     score: 12.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

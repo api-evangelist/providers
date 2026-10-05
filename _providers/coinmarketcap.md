@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Single REST API spanning Cryptocurrency endpoints (listings, quotes, OHLCV, market pairs, historical), Exchange endpoints (listings, quotes, market pairs), DEX/on-chain data (networks, dexes, spot pai
   name: CoinMarketCap Pro API
   slug: pro-api
-artifact_total: 5
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -97,6 +97,10 @@ finops:
   slug: coinmarketcap-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/coinmarketcap.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.coinmarketcap.com over HTTP.
+  name: CoinMarketCap MCP Server
+  slug: coinmarketcap
 modified: '2026-09-16'
 name: CoinMarketCap
 nav: Providers
@@ -124,7 +128,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
@@ -132,7 +136,7 @@ score:
     developer_ergonomics: 22.6
     discoverability: 68.3
     operational_transparency: 10.5
-  previous_composite: 16.5
+  previous_composite: 15.7
   provenance:
     mcp: first-party
   regulatory:
@@ -142,7 +146,7 @@ score:
     regime_id: securities_market_data
     score: 11.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false
@@ -161,7 +165,6 @@ tags:
 - Market Data
 - Rankings
 - DEX
-- Exchange
 - Cryptocurrency
 website: https://coinmarketcap.com
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -80,7 +80,7 @@ apis:
   description: OAuth2 authorization code flow for obtaining access tokens
   name: FormAssembly O Auth2 API
   slug: formassembly-oauth2-api
-artifact_total: 41
+artifact_total: 42
 collections:
 - collection_type: postman
   name: FormAssembly REST Admin API
@@ -256,6 +256,10 @@ jsonld:
   property_count: 34
   slug: formassembly-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.formassembly.com over HTTP.
+  name: FormAssembly MCP Server
+  slug: formassembly
 modified: 2026-06-13
 name: FormAssembly
 nav: Providers
@@ -302,7 +306,7 @@ score:
     catalog_gap: 34.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.4
   facets:
     access_clarity: 54.7
     contract_governance: 23.5
@@ -310,7 +314,7 @@ score:
     developer_ergonomics: 28.6
     discoverability: 68.3
     operational_transparency: 49.5
-  previous_composite: 48.5
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     contracts:
@@ -326,8 +330,8 @@ score:
     regime_id: government
     score: 31.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

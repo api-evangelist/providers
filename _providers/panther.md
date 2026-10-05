@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -223,6 +223,11 @@ collections:
   slug: open-panther-user-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/panther/refs/heads/main/capabilities/panther-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/panther-capability-edges.yml
+- group: other
   href: https://raw.githubusercontent.com/api-evangelist/panther/refs/heads/main/overlays/panther-rest-overlay.yaml
   title: ''
   type: Overlay
@@ -354,9 +359,9 @@ description: Panther is a cloud-native, code-driven detection and response platf
 image: https://framerusercontent.com/images/bECYyaf1j2jroija0ScFzkorrSo.jpg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Panther publishes official MCP servers. A hosted Remote MCP server exposes a customer's Panther instance to any MCP-compatible AI client over OAuth 2.1 + PKCE, and a local open-source server (mcp-pant
   name: Panther MCP Server
-  slug: panther-mcp-server
+  slug: panther-mcp-yml
 modified: '2026-07-20'
 name: Panther
 nav: Providers
@@ -367,19 +372,19 @@ overview: 'Panther publishes 21 APIs on the [APIs.io](https://apis.io/) network,
   The Panther catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Panther''s developer surface includes authentication, CLI, documentation, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
+  Panther''s developer surface includes authentication, CLI, documentation, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
 random_paper: 6
 score:
   band: strong
   composite: 54.6
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
@@ -387,7 +392,7 @@ score:
     developer_ergonomics: 73.2
     discoverability: 73.2
     operational_transparency: 26.3
-  previous_composite: 54.6
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -405,7 +410,7 @@ score:
     regime_id: horizontal
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

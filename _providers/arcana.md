@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,9 +99,9 @@ description: Arcana provides portfolio intelligence solutions for hedge funds an
 image: https://cdn.prod.website-files.com/678a5c827d7385f94755baf7/6a909fde79d2d809300c91f6_Arcana%20%7C%20Portfolio%20Intelligence%20for%20Hedge%20Funds%20%26%20Asset%20Managers.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at app.arcana.io.
   name: Arcana MCP Server
-  slug: arcana-mcp-server
+  slug: arcana-mcp-yml
 modified: '2026-09-25'
 name: Arcana
 nav: Providers
@@ -137,7 +137,7 @@ score:
     regime_id: horizontal
     score: 13.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -157,6 +157,11 @@ collections:
   name: Airship REST API
   slug: open-airship
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/capabilities/airship-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/airship-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/agentic-access/airship-agentic-access.yml
   title: ''
@@ -224,7 +229,7 @@ network: true
 overview: 'Airship publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Push API, Segments API, Reports API, and 13 more. Tagged areas include Notification, Push, Email, Mobile, and CDP.
 
 
-  Airship''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
+  Airship''s developer surface includes authentication, engineering blog, and 10 more developer resources.'
 plans:
 - name: Airship Plans Pricing
   plan_count: 1
@@ -243,13 +248,13 @@ score:
   band: thin
   composite: 26.5
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 39.0
     catalog_earned_first_party: 0.0
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
@@ -257,7 +262,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 57.1
     operational_transparency: 5.3
-  previous_composite: 26.5
+  previous_composite: 26.2
   provenance:
     agentic_access: derived
     contracts:
@@ -272,7 +277,7 @@ score:
     regime_id: horizontal
     score: 27.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

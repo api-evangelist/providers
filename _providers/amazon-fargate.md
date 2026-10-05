@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 15
+- acting_count: 21
   human_in_the_loop: 1
   name: Amazon Fargate Agentic Access
   operation_count: 21
   slug: amazon-fargate-agentic-access
-  summary_line: 21 operations · 15 acting · 1 human-in-the-loop
+  summary_line: 21 operations · 21 acting · 1 human-in-the-loop
 api_count: 6
 apis:
 - baseURL: https://ecs.amazonaws.com
@@ -499,7 +499,7 @@ score:
     catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 60.5
     contract_governance: 27.3
@@ -507,7 +507,7 @@ score:
     developer_ergonomics: 65.5
     discoverability: 78.6
     operational_transparency: 26.3
-  previous_composite: 49.2
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     contracts:
@@ -522,7 +522,7 @@ score:
     regime_id: horizontal
     score: 30.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

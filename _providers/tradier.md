@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 8
+- acting_count: 9
   human_in_the_loop: 0
   name: Tradier Agentic Access
   operation_count: 28
   slug: tradier-agentic-access
-  summary_line: 28 operations · 8 acting
+  summary_line: 28 operations · 9 acting
 api_count: 1
 apis:
 - description: The Tradier Brokerage API provides REST endpoints for placing equity, option, and multileg orders, retrieving account balances, positions, orders, and history, and accessing market data including quot
@@ -302,9 +302,9 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tradier.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.tradier.com over HTTP; 21 tools listed.
   name: Tradier MCP Server
-  slug: tradier-mcp-server
+  slug: tradier
 modified: '2026-07-22'
 name: Tradier
 nav: Providers
@@ -352,7 +352,7 @@ score:
     catalog_gap: 65.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.2
   facets:
     access_clarity: 47.4
     contract_governance: 15.9
@@ -360,7 +360,7 @@ score:
     developer_ergonomics: 51.8
     discoverability: 75.0
     operational_transparency: 52.6
-  previous_composite: 52.4
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -378,7 +378,7 @@ score:
     regime_id: securities_market_data
     score: 43.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true
@@ -407,5 +407,6 @@ tags:
 - Streaming
 - Real-Time
 - Investing
+- Financial Services
 website: https://www.tradier.com/
 ---

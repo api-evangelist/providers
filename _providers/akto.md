@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -116,6 +116,10 @@ created: '2026-07-17'
 description: Akto is a proactive API security platform that discovers, tests, and protects APIs and AI systems across an organization's infrastructure. Its open-source core (MIT, Java) delivers automated API discovery, API security posture management, and dynamic API security testing (DAST) in CI/CD, backed by a community test library of 1000+ tests covering the OWASP API Security Top 10 and HackerOne top vulnerabilities. Traffic is ingested from eBPF, Kubernetes, API gateways (Envoy, NGINX, Istio, Kong, Apigee, MuleSoft and more), and cloud mirroring, and can be deployed self-hosted in ~60 seconds or as SaaS. Akto has expanded into agentic AI security with Atlas (shadow-AI discovery for employee-facing endpoints) and Argus (governance and red-teaming for homegrown AI, MCP tools, and LLMs), adding runtime guardrails and human-in-the-loop testing. Recognized by Gartner in the API and AI-agent protection markets and backed by Accel.
 image: https://www.akto.io/favicon.ico
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.akto.io over HTTP.
+  name: Akto MCP Server
+  slug: akto
 modified: '2026-07-17'
 name: Akto
 nav: Providers
@@ -135,7 +139,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 53.9
     contract_governance: 0.0
@@ -143,7 +147,7 @@ score:
     developer_ergonomics: 38.1
     discoverability: 58.3
     operational_transparency: 26.3
-  previous_composite: 28.1
+  previous_composite: 27.6
   provenance:
     mcp: first-party
   regulatory:
@@ -153,7 +157,7 @@ score:
     regime_id: horizontal
     score: 18.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

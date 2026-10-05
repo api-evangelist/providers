@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The agent-callable commerce surface of the PBS Biotech online store. Implemented by Shopify on the company's own shoppbsbiotech.com host and advertised by the store's own /llms.txt, /agents.md and /ro
@@ -162,9 +162,9 @@ description: 'PBS Biotech, Inc. is a Camarillo, California manufacturer of singl
 image: https://cdn.prod.website-files.com/62cc627d7fe73059b1484e97/6375797b9b37d215da32705e_PBS_Wing_Logo_1375C-p-500.jpg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at shoppbsbiotech.com; 13 tools listed.
   name: PBS Biotech Store Agent Commerce (UCP/MCP)
-  slug: pbs-biotech-store-agent-commerce-ucpmcp
+  slug: pbs-biotech-store-agent-commerce-ucp-mcp
 modified: '2026-08-26'
 name: PBS Biotech
 nav: Providers
@@ -184,9 +184,9 @@ rate_limits:
   slug: pbs-biotech-rate-limits
 scopes:
 - name: Pbs Biotech Scopes
-  scope_count: 0
+  scope_count: 4
   slug: pbs-biotech-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 4 scopes
 score:
   band: thin
   composite: 29.4
@@ -197,7 +197,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.4
   facets:
     access_clarity: 46.1
     contract_governance: 18.2
@@ -205,7 +205,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 75.0
     operational_transparency: 15.8
-  previous_composite: 29.4
+  previous_composite: 31.8
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -217,7 +217,7 @@ score:
     regime_id: health
     score: 36.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

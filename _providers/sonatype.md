@@ -12,18 +12,18 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -34,16 +34,16 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.0
-  scored_at: '2026-10-03'
+  score: 33.9
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 123
+- acting_count: 134
   human_in_the_loop: 15
   name: Sonatype Agentic Access
   operation_count: 265
   slug: sonatype-agentic-access
-  summary_line: 265 operations · 123 acting · 15 human-in-the-loop
-api_count: 1
+  summary_line: 265 operations · 134 acting · 15 human-in-the-loop
+api_count: 2
 apis:
 - baseURL: https://{iq-server-host}/
   baseurl_source: declared
@@ -335,7 +335,52 @@ apis:
   description: Use this REST API to retrieve vulnerability details.
   name: Sonatype Vulnerability Details API
   slug: sonatype-vulnerability-details-api
-artifact_total: 133
+- baseURL: https://{iq-server-host}/
+  baseurl_source: declared
+  description: Index Analyze status and rebuild/cleanup job control.
+  name: Sonatype Advanced Search Index Health API
+  slug: sonatype-advanced-search-index-health-api
+- baseURL: https://{iq-server-host}/
+  baseurl_source: declared
+  description: The Ai - Developer API from Sonatype — 1 operation(s) for ai - developer.
+  name: Sonatype Ai - Developer API
+  slug: sonatype-ai-developer-api
+- baseURL: https://{iq-server-host}/
+  baseurl_source: declared
+  description: The GitHub App API from Sonatype — 4 operation(s) for github app.
+  name: Sonatype GitHub App API
+  slug: sonatype-github-app-api
+- baseURL: https://{iq-server-host}/
+  baseurl_source: declared
+  description: Use this REST API to list, grant, and revoke legacy status for policy violations of an application.
+  name: Sonatype Legacy Violations API
+  slug: sonatype-legacy-violations-api
+- baseURL: https://{iq-server-host}/
+  baseurl_source: declared
+  description: Use this REST API to view and update legacy-violation configuration for an application or organization.
+  name: Sonatype Legacy Violations Configuration API
+  slug: sonatype-legacy-violations-configuration-api
+- baseURL: https://{iq-server-host}/
+  baseurl_source: declared
+  description: Export policy configurations for organizations, applications, and repositories
+  name: Sonatype Policy Export API
+  slug: sonatype-policy-export-api
+- baseURL: https://{iq-server-host}/
+  baseurl_source: declared
+  description: Use this REST API to retrieve reachability evidence showing call paths to vulnerable methods for a hosted repository component.
+  name: Sonatype Reachability Evidence API
+  slug: sonatype-reachability-evidence-api
+- baseURL: https://{iq-server-host}/
+  baseurl_source: declared
+  description: Use this REST API to manage Scan Health configuration. This includes settings for failing scans with zero components detected. Configurations can be set at organization or application level and are in
+  name: Sonatype Scan Health Configuration API
+  slug: sonatype-scan-health-configuration-api
+- baseURL: https://{iq-server-host}/
+  baseurl_source: declared
+  description: Configure when and to whom notifications are sent before waivers expire.
+  name: Sonatype Waiver Expiration Notification Config API
+  slug: sonatype-waiver-expiration-notification-config-api
+artifact_total: 142
 collections:
 - collection_type: open
   name: API Collection
@@ -518,6 +563,91 @@ collections:
   name: Sonatype Lifecycle Public REST Advanced Search Vulnerability Details API
   slug: open-sonatype-vulnerability-details-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/finops/sonatype-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sonatype-finops.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/rules/sonatype-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/sonatype-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/rules/sonatype-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/sonatype-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/json-ld/sonatype-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/sonatype-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/vocabulary/sonatype-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/sonatype-vocabulary.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/data-model/sonatype-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/sonatype-data-model.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/errors/sonatype-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/sonatype-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/conformance/sonatype-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/sonatype-conformance.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/llms/sonatype-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/sonatype-llms.txt
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/well-known/sonatype-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/sonatype-status-security.txt
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/well-known/sonatype-learn-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/sonatype-learn-security.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/well-known/sonatype-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/sonatype-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/hosts/sonatype-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/sonatype-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/vendors/sonatype-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/sonatype-vendors.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/packages/sonatype-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/sonatype-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/packages/sonatype-packages.yml
+  title: ''
+  type: Packages
+  url: packages/sonatype-packages.yml
 - group: operate
   href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/rate-limits/sonatype-rate-limits.yml
   title: ''
@@ -584,6 +714,38 @@ common:
   title: ''
   type: Pricing
   url: https://www.sonatype.com/products/pricing
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.sonatype.com/solutions/software-developers
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.sonatype.com/newsroom
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.sonatype.com/privacy-policy
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.sonatype.com/products/integrations?type=25056582729
+- group: start
+  title: ''
+  type: SignUp
+  url: https://guide.sonatype.com/register
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.sonatype.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.sonatype.com/terms-of-service
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.sonatype.com/
 created: '2025-02-12'
 description: Sonatype provides software supply chain management solutions including Sonatype Lifecycle (IQ Server), Sonatype Repository Firewall, SBOM Manager, and Nexus Repository. The Lifecycle Public REST API provides 188 endpoints for application portfolio management, policy enforcement, vulnerability reporting, component analysis, SBOM generation, source control integration, and software composition analysis across the SDLC.
 examples:
@@ -619,19 +781,19 @@ modified: '2026-05-19'
 name: Sonatype
 nav: Providers
 network: true
-overview: 'Sonatype publishes 58 APIs on the [APIs.io](https://apis.io/) network, including Advanced Search API, Application Categories API, Application Report Data API, and 55 more. Tagged areas include Software Supply Chain, Security, Vulnerability Management, SBOM, and Software Composition Analysis.
+overview: 'Sonatype publishes 67 APIs on the [APIs.io](https://apis.io/) network, including Advanced Search API, Application Categories API, Application Report Data API, and 64 more. Tagged areas include Software Supply Chain, Security, Vulnerability Management, SBOM, and Software Composition Analysis.
 
 
   The Sonatype catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Sonatype''s developer surface includes authentication, developer portal, documentation, GitHub presence, engineering blog, changelog, support, and 8 more developer resources.'
+  Sonatype''s developer surface includes authentication, developer portal, documentation, GitHub presence, engineering blog, changelog, support, and 33 more developer resources.'
 plans:
 - name: Sonatype Plans Pricing
   plan_count: 8
   slug: sonatype-plans-pricing
 - name: Sonatype Price Estimates
-  plan_count: 0
+  plan_count: 1
   slug: sonatype-price-estimates
 random_paper: 3
 rate_limits:
@@ -661,40 +823,43 @@ rules:
     warn: 6
   slug: sonatype-rules
 score:
-  band: developing
-  composite: 46.6
+  band: strong
+  composite: 64.8
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 85.5
+    artifact_dirs: 29
+    catalog_earned: 90.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 29.5
+    catalog_gap: 25.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 17.3
   facets:
-    access_clarity: 50.0
-    contract_governance: 13.6
-    contract_quality: 55.9
-    developer_ergonomics: 45.2
-    discoverability: 66.1
-    operational_transparency: 36.8
-  previous_composite: 46.1
+    access_clarity: 92.1
+    contract_governance: 31.8
+    contract_quality: 54.0
+    developer_ergonomics: 54.2
+    discoverability: 75.0
+    operational_transparency: 63.2
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 58
+      total: 67
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
+    score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: rising
   upsert:
     applies: true
     score: 11.1

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - baseURL: wss://api.sanaslt.com/v3/stream
@@ -45,7 +45,7 @@ apis:
 - description: Server-side C++17 and Python SDK for real-time speech enhancement, accent translation, and language translation. Applications initialize the SDK with an API key, create an audio processor for a chosen
   name: Sanas Speech AI SDK
   slug: sanas-speech-ai-sdk
-artifact_total: 6
+artifact_total: 7
 asyncapis:
 - description: 'Real-time speech-to-speech translation over a single persistent WebSocket connection. Supports consecutive and simultaneous modes. Modeled by API Evangelist from the published Sanas WebSocket API and '
   name: Sanas Stream API
@@ -171,6 +171,10 @@ created: '2026-07-17'
 description: Sanas is a real-time speech AI platform that removes communication barriers through accent translation, language translation, speech enhancement, and speech intelligence. Its developer platform exposes these capabilities as a server-side SDK (C++17 and Python) plus a persistent WebSocket Stream API for real-time speech-to-speech translation, letting teams add real-time speech processing to voice-agent and contact-center pipelines they already run. Models are billed per minute and run on Sanas Cloud or self-hosted infrastructure, serving healthcare, financial services, retail, travel, and telecommunications customers.
 image: https://www.sanas.ai/static-image.jpg
 layout: provider
+mcp_servers:
+- description: Remote MCP server at developer.sanas.ai over HTTP; 3 tools listed.
+  name: Sanas MCP Server
+  slug: sanas
 modified: '2026-07-21'
 name: Sanas
 nav: Providers
@@ -193,7 +197,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
@@ -201,7 +205,7 @@ score:
     developer_ergonomics: 64.3
     discoverability: 75.0
     operational_transparency: 23.7
-  previous_composite: 47.8
+  previous_composite: 46.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -220,7 +224,7 @@ score:
     regime_id: horizontal
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

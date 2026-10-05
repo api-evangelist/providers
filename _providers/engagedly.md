@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -115,6 +115,11 @@ collections:
   name: Engagedly Activities Users API
   slug: open-engagedly-users-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/capabilities/engagedly-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/engagedly-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/agentic-access/engagedly-agentic-access.yml
   title: ''
@@ -214,7 +219,7 @@ overview: 'Engagedly publishes 8 APIs on the [APIs.io](https://apis.io/) network
   The Engagedly catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Engagedly''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+  Engagedly''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Engagedly Plans Pricing
   plan_count: 8
@@ -239,13 +244,13 @@ score:
   band: thin
   composite: 38.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 65.1
     catalog_earned_first_party: 0.0
     catalog_gap: 49.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.2
   facets:
     access_clarity: 46.8
     contract_governance: 9.8
@@ -253,7 +258,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 13.2
-  previous_composite: 38.4
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     contracts:
@@ -268,7 +273,7 @@ score:
     regime_id: education
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 65.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: wss://ws.rhombussystems.com:8443/websocket
@@ -583,9 +583,9 @@ description: 'Rhombus Systems is a Sacramento, California enterprise physical-se
 image: https://rhombus.com/img/meta-homepage.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at api-docs.rhombus.community requiring an API key; 3 tools listed.
   name: Rhombus Systems MCP Server
-  slug: rhombus-systems-mcp-server
+  slug: rhombus-systems-mcp-yml
 modified: '2026-08-26'
 name: Rhombus Systems
 nav: Providers
@@ -608,23 +608,23 @@ rate_limits:
   slug: rhombus-systems-rate-limits
 score:
   band: strong
-  composite: 63.9
+  composite: 63.4
   coverage:
     artifact_dirs: 25
-    catalog_earned: 49.0
+    catalog_earned: 46.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 1.2
   facets:
     access_clarity: 78.9
     contract_governance: 18.2
     contract_quality: 58.2
     developer_ergonomics: 59.5
-    discoverability: 75.0
+    discoverability: 70.0
     operational_transparency: 52.6
-  previous_composite: 63.4
+  previous_composite: 62.2
   provenance:
     conformance: first-party
     contracts:
@@ -641,7 +641,7 @@ score:
     regime_id: horizontal
     score: 32.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

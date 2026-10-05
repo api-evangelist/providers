@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ apis:
   description: Open positions and vacancies.
   name: PeopleForce Vacancies API
   slug: peopleforce-vacancies-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -111,6 +111,11 @@ collections:
   name: PeopleForce API
   slug: open-peopleforce
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/peopleforce/refs/heads/main/capabilities/peopleforce-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/peopleforce-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -142,6 +147,10 @@ finops:
   slug: peopleforce-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peopleforce.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at docs.peopleforce.io over HTTP.
+  name: PeopleForce MCP Server
+  slug: peopleforce
 modified: '2026-09-16'
 name: PeopleForce
 nav: Providers
@@ -149,7 +158,7 @@ network: true
 overview: 'PeopleForce publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Candidates API, Departments API, Divisions API, and 4 more. Tagged areas include Human Resources, Recruiting, and Employees.
 
 
-  PeopleForce''s developer surface includes authentication, engineering blog, and 3 more developer resources.'
+  PeopleForce''s developer surface includes authentication, engineering blog, and 4 more developer resources.'
 plans:
 - name: Peopleforce Plans Pricing
   plan_count: 3
@@ -163,13 +172,13 @@ score:
   band: emerging
   composite: 25.4
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.2
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
@@ -177,7 +186,7 @@ score:
     developer_ergonomics: 26.2
     discoverability: 66.7
     operational_transparency: 7.9
-  previous_composite: 25.4
+  previous_composite: 27.6
   provenance:
     agentic_access: derived
     contracts:
@@ -193,7 +202,7 @@ score:
     regime_id: employment_payroll
     score: 11.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

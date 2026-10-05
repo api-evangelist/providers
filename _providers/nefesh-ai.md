@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 4
 apis:
 - description: 'REST API on api.nefesh.ai (FastAPI): POST /v1/ingest takes a session_id, an ISO 8601 timestamp and at least one of 35+ signal fields and returns the fused state, stress_score, confidence, suggested_ac'
@@ -38,7 +38,7 @@ apis:
 - description: 'A2A agent served from the MCP host: card at https://mcp.nefesh.ai/.well-known/agent-card.json, JSON-RPC 2.0 endpoint at POST https://mcp.nefesh.ai/a2a supporting message/send, message/sendStream, task'
   name: Nefesh Human State Agent (A2A)
   slug: nefesh-human-state-agent-a2a
-artifact_total: 13
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Nefesh Ai Webhooks
@@ -237,12 +237,9 @@ json_schemas:
   slug: nefesh-ai-hsp-1.0.schema
 layout: provider
 mcp_servers:
-- description: ''
+- description: Nefesh runs ONE hosted remote MCP server at https://mcp.nefesh.ai/mcp — Streamable HTTP, protocol revision 2025-06-18, stateful (an Mcp-Session-Id is issued on initialize and required on every later c
   name: Nefesh AI MCP Server
-  slug: nefesh-ai-mcp-server
-- description: ''
-  name: Live Streamable HTTP endpoint
-  slug: live-streamable-http-endpoint
+  slug: nefesh
 modified: '2026-09-19'
 name: Nefesh AI
 nav: Providers
@@ -267,13 +264,13 @@ score:
   band: strong
   composite: 61.9
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 69.4
     catalog_earned_first_party: 24.0
     catalog_gap: 45.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
@@ -281,7 +278,7 @@ score:
     developer_ergonomics: 64.3
     discoverability: 80.0
     operational_transparency: 55.3
-  previous_composite: 61.9
+  previous_composite: 63.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -292,7 +289,7 @@ score:
     regime_id: health
     score: 34.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

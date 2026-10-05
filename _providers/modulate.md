@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 11
 apis:
 - baseURL: https://platform.modulate.ai
@@ -352,7 +352,7 @@ score:
     regime_id: horizontal
     score: 27.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

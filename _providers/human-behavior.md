@@ -27,16 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.7
-  scored_at: '2026-10-03'
+  score: 11.2
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/human-behavior/refs/heads/main/security/human-behavior-domain-security.yml
@@ -104,6 +104,10 @@ created: '2026-07-17'
 description: Human Behavior Inc. is an AI-powered product analytics platform that uses autonomous agents to watch session replays, auto-instrument event tracking, map product workflows, and surface friction, bugs, and rage clicks without manual instrumentation. Developers integrate it with a first-party JavaScript session-recording SDK (humanbehavior-js) that initializes with an API key and streams events to the platform's ingestion endpoint, with framework guides for React, Next.js, Vue, Svelte, Angular, and more, plus optional PostHog ingestion. Backed by $5M from Y Combinator, Vercel, and General Catalyst.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/human-behavior.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at www.humanbehavior.co over HTTP.
+  name: Human Behavior MCP Server
+  slug: human-behavior
 modified: '2026-07-19'
 name: Human Behavior
 nav: Providers
@@ -123,7 +127,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
@@ -131,7 +135,7 @@ score:
     developer_ergonomics: 54.8
     discoverability: 58.3
     operational_transparency: 2.6
-  previous_composite: 18.5
+  previous_composite: 19.1
   provenance:
     mcp: first-party
   regulatory:
@@ -141,7 +145,7 @@ score:
     regime_id: horizontal
     score: 10.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

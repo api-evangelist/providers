@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -80,7 +80,7 @@ apis:
   description: The Webhooks API from Hyperline — 3 operation(s) for webhooks.
   name: Hyperline Webhooks API
   slug: hyperline-webhooks-api
-artifact_total: 23
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -110,6 +110,11 @@ collections:
   name: Hyperline API
   slug: open-hyperline
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/capabilities/hyperline-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hyperline-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/agentic-access/hyperline-agentic-access.yml
   title: ''
@@ -169,6 +174,10 @@ finops:
   slug: hyperline-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hyperline.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.hyperline.co over HTTP.
+  name: Hyperline MCP Server
+  slug: hyperline
 modified: '2026-06-20'
 name: Hyperline
 nav: Providers
@@ -176,7 +185,7 @@ network: true
 overview: 'Hyperline publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Billable Events API, Customers API, Invoices API, and 4 more. Tagged areas include Billing, Subscription, Usage-Based, Metering, and Payments.
 
 
-  Hyperline''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Hyperline''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Hyperline Plans Pricing
   plan_count: 3
@@ -196,7 +205,7 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.0
   facets:
     access_clarity: 44.2
     contract_governance: 0.0
@@ -204,7 +213,7 @@ score:
     developer_ergonomics: 32.1
     discoverability: 68.3
     operational_transparency: 18.9
-  previous_composite: 34.7
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     contracts:
@@ -220,7 +229,7 @@ score:
     regime_id: payments
     score: 15.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

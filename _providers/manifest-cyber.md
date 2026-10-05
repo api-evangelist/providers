@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: 'The official public API for the Manifest Cyber platform v1. Used by Manifest''s frontend apps and internal ETL processes to access SBOM data, vulnerability analysis, and software supply chain security '
@@ -69,7 +69,7 @@ apis:
   description: Vulnerability triage and custom vulnerability ingestion
   name: Manifest Cyber Vulnerabilities API
   slug: manifest-cyber-vulnerabilities-api
-artifact_total: 19
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -93,6 +93,11 @@ collections:
   name: Manifest Cyber Vulnerabilities API
   slug: open-manifest-cyber-vulnerabilities-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/capabilities/manifest-cyber-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/manifest-cyber-capability-edges.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/security/manifest-cyber-trust-center.yml
   title: ''
@@ -127,6 +132,10 @@ finops:
   slug: manifest-cyber-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/manifest-cyber.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.manifestcyber.com over HTTP.
+  name: Manifest Cyber MCP Server
+  slug: manifest-cyber
 modified: '2026-04-28'
 name: Manifest Cyber
 nav: Providers
@@ -134,7 +143,7 @@ network: true
 overview: 'Manifest Cyber publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Organizations API, Products API, and 4 more. Tagged areas include Cybersecurity, SBOM, Supply Chain Security, and Vulnerability Management.
 
 
-  Manifest Cyber''s developer surface includes engineering blog and 5 more developer resources.'
+  Manifest Cyber''s developer surface includes engineering blog and 6 more developer resources.'
 plans:
 - name: Manifest Cyber Plans Pricing
   plan_count: 3
@@ -148,13 +157,13 @@ score:
   band: thin
   composite: 26.6
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
@@ -162,7 +171,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 60.0
     operational_transparency: 10.5
-  previous_composite: 26.6
+  previous_composite: 28.5
   provenance:
     contracts:
       callable: 100.0
@@ -177,7 +186,7 @@ score:
     regime_id: horizontal
     score: 10.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

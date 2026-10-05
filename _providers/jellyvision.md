@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The ALEX Partner Integration API lets a Jellyvision partner — typically a benefits administration or enrollment platform — streamline and personalize the ALEX experience for its end users. Partners PO
@@ -130,9 +130,9 @@ description: Jellyvision (The Jellyvision Lab, Inc.) is a Chicago-based employee
 image: https://www.jellyvision.com/wp-content/uploads/2023/12/Jellyvision_Generic.jpg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Jellyvision serves a live, OAuth-protected Model Context Protocol server from its own marketing host. It was found by following RFC 9728 protected-resource metadata at https://www.jellyvision.com/.wel
   name: Jellyvision MCP Server
-  slug: jellyvision-mcp-server
+  slug: jellyvision-mcp-yml
 modified: '2026-08-23'
 name: Jellyvision
 nav: Providers
@@ -165,7 +165,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.0
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
@@ -180,7 +180,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 32.3
+  previous_composite: 35.3
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -191,7 +191,7 @@ score:
     regime_id: insurance
     score: 41.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

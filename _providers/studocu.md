@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -88,6 +88,10 @@ created: '2026-07-17'
 description: Studocu (operated by StudeerSnel B.V., Amsterdam) is a global online learning platform and study-materials marketplace where students access, share, and upload course documents, lecture notes, summaries, and exam prep across thousands of institutions and subjects. The platform layers AI study tools on top of its crowdsourced document library — an Ask AI chat, AI Notes generation, and an AI Quiz Generator — alongside course organization, study lists, and a Premium subscription for unlimited downloads and full document access. Backed by Partech and Point Nine, Studocu was added to the API Evangelist network as a portfolio company. It exposes no public developer API; this profile captures its public security, trust, and web-property surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/studocu.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.studocu.com over HTTP; 1 tool listed.
+  name: Studocu MCP Server
+  slug: studocu
 modified: '2026-07-21'
 name: Studocu
 nav: Providers
@@ -107,7 +111,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -115,7 +119,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 51.7
     operational_transparency: 10.5
-  previous_composite: 6.8
+  previous_composite: 7.0
   provenance:
     mcp: first-party
   regulatory:
@@ -125,7 +129,7 @@ score:
     regime_id: education
     score: 10.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

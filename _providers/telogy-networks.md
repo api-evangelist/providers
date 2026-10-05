@@ -32,7 +32,7 @@ tags:
 - Voice over IP
 - VoIP
 - Media Gateway
-- DSP
 - Networking
 - Acquired
+- Digital Signal Processing
 ---

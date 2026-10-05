@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -55,311 +55,81 @@ apis:
   baseurl_source: declared
   description: The Branches API from Salla — 2 operation(s) for branches.
   name: Salla Branches API
-  phrasing_intents:
-  - id: listBranches
-    intent: List the store's branches
-    question: Which physical branches does my Salla store have set up?
-  - id: createBranch
-    intent: Add a new store branch
-    question: How do I add a new branch location to my Salla store?
-  - id: getBranch
-    intent: Get one store branch
-    question: What details are stored for a specific branch of my shop?
-  phrasing_ops: 3
   slug: salla-branches-api
 - baseURL: https://api.salla.dev/admin/v2
   baseurl_source: declared
   description: The Brands API from Salla — 2 operation(s) for brands.
   name: Salla Brands API
-  phrasing_intents:
-  - id: listBrands
-    intent: List product brands
-    question: Which brands are set up in my Salla store?
-  - id: createBrand
-    intent: Create a product brand
-    question: How do I add a new brand to my store?
-  - id: getBrand
-    intent: Get a brand's details
-    question: What information is saved for a specific brand?
-  - id: updateBrand
-    intent: Update a brand
-    question: How do I edit an existing brand's details?
-  - id: deleteBrand
-    intent: Delete a brand
-    question: How do I remove a brand I no longer sell?
-  phrasing_ops: 5
   slug: salla-brands-api
 - baseURL: https://api.salla.dev/admin/v2
   baseurl_source: declared
   description: The Carts API from Salla — 1 operation(s) for carts.
   name: Salla Carts API
-  phrasing_intents:
-  - id: listAbandonedCarts
-    intent: List abandoned carts
-    question: Which shoppers left items in their cart without checking out?
-  phrasing_ops: 1
   slug: salla-carts-api
 - baseURL: https://api.salla.dev/admin/v2
   baseurl_source: declared
   description: The Categories API from Salla — 2 operation(s) for categories.
   name: Salla Categories API
-  phrasing_intents:
-  - id: listCategories
-    intent: List product categories
-    question: What product categories does my Salla store have?
-  - id: createCategory
-    intent: Create a product category
-    question: How do I add a new category to organize my products?
-  - id: getCategory
-    intent: Get a category's details
-    question: What details are stored for one category?
-  - id: updateCategory
-    intent: Update a product category
-    question: How do I change an existing category?
-  phrasing_ops: 4
   slug: salla-categories-api
 - baseURL: https://api.salla.dev/admin/v2
   baseurl_source: declared
   description: The Coupons API from Salla — 1 operation(s) for coupons.
   name: Salla Coupons API
-  phrasing_intents:
-  - id: listCoupons
-    intent: List discount coupons
-    question: Which discount coupons are set up in my Salla store?
-  - id: createCoupon
-    intent: Create a discount coupon
-    question: How do I create a new discount code for my customers?
-  phrasing_ops: 2
   slug: salla-coupons-api
 - baseURL: https://api.salla.dev/admin/v2
   baseurl_source: declared
   description: The Customers API from Salla — 2 operation(s) for customers.
   name: Salla Customers API
-  phrasing_intents:
-  - id: listCustomers
-    intent: List store customers
-    question: Who are the customers registered in my Salla store?
-  - id: createCustomer
-    intent: Add a new customer
-    question: How do I register a new customer in my store?
-  - id: getCustomer
-    intent: Get a customer's details
-    question: What information do I have on a specific customer?
-  - id: updateCustomer
-    intent: Update a customer's details
-    question: How do I change an existing customer's phone number or email?
-  phrasing_ops: 4
   slug: salla-customers-api
 - baseURL: https://api.salla.dev/admin/v2
   baseurl_source: declared
   description: The Financial API from Salla — 2 operation(s) for financial.
   name: Salla Financial API
-  phrasing_intents:
-  - id: listTaxes
-    intent: List the store's taxes
-    question: Which tax rates are configured in my Salla store?
-  - id: createTax
-    intent: Create a tax
-    question: How do I add a new tax rate to my store?
-  - id: listTransactions
-    intent: List financial transactions
-    question: What payment transactions has my store recorded?
-  phrasing_ops: 3
   slug: salla-financial-api
 - baseURL: https://api.salla.dev/admin/v2
   baseurl_source: declared
   description: The Localization API from Salla — 4 operation(s) for localization.
   name: Salla Localization API
-  phrasing_intents:
-  - id: listCurrencies
-    intent: List supported currencies
-    question: Which currencies can my Salla store use?
-  - id: listLanguages
-    intent: List supported languages
-    question: Which languages are available for my store?
-  - id: listCountries
-    intent: List countries
-    question: Which countries are available in the platform's country list?
-  - id: getCountry
-    intent: Get a country's details
-    question: What details are available for a specific country?
-  phrasing_ops: 4
   slug: salla-localization-api
 - baseURL: https://api.salla.dev/admin/v2
   baseurl_source: declared
   description: The OAuth API from Salla — 3 operation(s) for oauth.
   name: Salla OAuth API
-  phrasing_intents:
-  - id: authorize
-    intent: Ask a merchant to authorize an app
-    question: How does my app request permission to access a merchant's store data?
-  - id: token
-    intent: Exchange a code or refresh a token
-    question: How do I turn an authorization code into an access token?
-  - id: getUserInfo
-    intent: Get the authenticated merchant's info
-    question: Which merchant and store does my current access token belong to?
-  phrasing_ops: 3
   slug: salla-oauth-api
 - baseURL: https://api.salla.dev/admin/v2
   baseurl_source: declared
   description: The Orders API from Salla — 6 operation(s) for orders.
   name: Salla Orders API
-  phrasing_intents:
-  - id: listOrders
-    intent: List store orders
-    question: Which orders did my Salla store receive this month?
-  - id: getOrder
-    intent: Get an order's details
-    question: What is in a specific order, including its customer and shipments?
-  - id: updateOrder
-    intent: Update an order
-    question: How do I edit the details of an existing order?
-  - id: updateOrderStatus
-    intent: Change an order's status
-    question: How do I mark an order as shipped or completed?
-  - id: listOrderHistories
-    intent: List an order's status history
-    question: What status changes has a specific order gone through?
-  - id: listOrderInvoices
-    intent: List an order's invoices
-    question: Which invoices were issued for a particular order?
-  - id: listOrderItems
-    intent: List the items in an order
-    question: What products did the customer buy in a given order?
-  phrasing_ops: 7
   slug: salla-orders-api
 - baseURL: https://api.salla.dev/admin/v2
   baseurl_source: declared
   description: The Products API from Salla — 5 operation(s) for products.
   name: Salla Products API
-  phrasing_intents:
-  - id: listProducts
-    intent: List or search products
-    question: Which products are in my Salla store catalog?
-  - id: createProduct
-    intent: Add a new product
-    question: How do I add a new product to my store?
-  - id: getProduct
-    intent: Get a product's details
-    question: What details are stored for a specific product?
-  - id: updateProduct
-    intent: Update a product
-    question: How do I change the price of an existing product?
-  - id: deleteProduct
-    intent: Delete a product
-    question: How do I remove a product from my store?
-  - id: listProductSkus
-    intent: List a product's SKUs
-    question: What variants and SKUs does a product have?
-  - id: createProductOption
-    intent: Create a product option
-    question: How do I add an option like size or color to products?
-  - id: updateProductQuantities
-    intent: Bulk update product stock
-    question: How do I update stock levels for several products at once?
-  phrasing_ops: 8
   slug: salla-products-api
 - baseURL: https://api.salla.dev/admin/v2
   baseurl_source: declared
   description: The Shipments API from Salla — 4 operation(s) for shipments.
   name: Salla Shipments API
-  phrasing_intents:
-  - id: listShipments
-    intent: List shipments
-    question: Which shipments has my Salla store created?
-  - id: createShipment
-    intent: Create a shipment for an order
-    question: How do I create a shipment for an order with a courier?
-  - id: getShipment
-    intent: Get a shipment's details
-    question: What is the status and tracking info of a specific shipment?
-  - id: updateShipment
-    intent: Update a shipment
-    question: How do I edit an existing shipment?
-  - id: cancelShipment
-    intent: Cancel a shipment
-    question: How do I cancel a shipment that should not go out?
-  - id: createShipmentReturn
-    intent: Create a return for a shipment
-    question: How do I arrange a return for a delivered shipment?
-  phrasing_ops: 6
   slug: salla-shipments-api
 - baseURL: https://api.salla.dev/admin/v2
   baseurl_source: declared
   description: The Shipping API from Salla — 6 operation(s) for shipping.
   name: Salla Shipping API
-  phrasing_intents:
-  - id: listShipments
-    intent: List shipments
-    question: Which shipments exist in my Salla store?
-  - id: createShipment
-    intent: Create a shipment
-    question: How do I create a new shipment?
-  - id: getShipment
-    intent: Get a shipment's details
-    question: What details are recorded for a particular shipment?
-  - id: listShippingZones
-    intent: List shipping zones
-    question: Which areas does my store ship to?
-  - id: getShippingZone
-    intent: Get a shipping zone
-    question: What does a specific shipping zone cover?
-  - id: listShippingCompanies
-    intent: List shipping companies
-    question: Which shipping companies or couriers are set up for my store?
-  - id: createShippingCompany
-    intent: Add a shipping company
-    question: How do I add my own shipping company to the store?
-  - id: getShippingCompany
-    intent: Get a shipping company
-    question: What settings are stored for one shipping company?
-  phrasing_ops: 10
   slug: salla-shipping-api
 - baseURL: https://api.salla.dev/admin/v2
   baseurl_source: declared
   description: The Store API from Salla — 1 operation(s) for store.
   name: Salla Store API
-  phrasing_intents:
-  - id: getStoreInfo
-    intent: Get store information
-    question: What are the basic details of my Salla store?
-  phrasing_ops: 1
   slug: salla-store-api
 - baseURL: https://api.salla.dev/admin/v2
   baseurl_source: declared
   description: The Webhooks API from Salla — 3 operation(s) for webhooks.
   name: Salla Webhooks API
-  phrasing_intents:
-  - id: subscribeWebhook
-    intent: Subscribe to a webhook event
-    question: How do I get notified when a new order is created?
-  - id: listWebhookSubscriptions
-    intent: List webhook subscriptions
-    question: Which webhooks is my app currently subscribed to?
-  - id: unsubscribeWebhook
-    intent: Unsubscribe a webhook
-    question: How do I stop receiving a webhook?
-  phrasing_ops: 3
   slug: salla-webhooks-api
 - baseURL: https://api.salla.dev/admin/v2
   baseurl_source: declared
   description: The Zones API from Salla — 2 operation(s) for zones.
   name: Salla Zones API
-  phrasing_intents:
-  - id: listShippingZones
-    intent: List shipping zones
-    question: Which shipping zones are set up in my store?
-  - id: createShippingZone
-    intent: Create a shipping zone
-    question: How do I add a new shipping zone for a region?
-  - id: getShippingZone
-    intent: Get a shipping zone
-    question: What does one particular shipping zone include?
-  - id: updateShippingZone
-    intent: Update a shipping zone
-    question: How do I change an existing shipping zone?
-  phrasing_ops: 4
   slug: salla-zones-api
 arazzos:
 - description: Find abandoned carts, look up the shopper, and issue a recovery coupon.
@@ -395,7 +165,7 @@ arazzos:
 - description: Inspect existing webhook subscriptions, subscribe to an event, and confirm registration.
   name: Salla Webhook Subscription Setup
   slug: salla-webhook-subscription-workflow
-artifact_total: 97
+artifact_total: 98
 collections:
 - collection_type: postman
   name: Salla Apps API
@@ -774,6 +544,10 @@ jsonld:
   property_count: 5
   slug: salla-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.salla.dev over HTTP.
+  name: Salla MCP Server
+  slug: salla
 modified: '2026-09-16'
 name: Salla
 nav: Providers
@@ -825,13 +599,13 @@ score:
   band: exemplar
   composite: 68.3
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 22
     catalog_earned: 82.6
     catalog_earned_first_party: 0.0
     catalog_gap: 32.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.1
   facets:
     access_clarity: 81.1
     contract_governance: 27.3
@@ -846,7 +620,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - middle-east
-  previous_composite: 68.3
+  previous_composite: 72.4
   provenance:
     agentic_access: derived
     contracts:
@@ -862,7 +636,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

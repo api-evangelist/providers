@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 21
+- acting_count: 26
   human_in_the_loop: 1
   name: Lytx Agentic Access
-  operation_count: 105
+  operation_count: 123
   slug: lytx-agentic-access
-  summary_line: 105 operations · 21 acting · 1 human-in-the-loop
+  summary_line: 123 operations · 26 acting · 1 human-in-the-loop
 api_count: 42
 apis:
 - baseURL: https://api.lytx.com/consent-management
@@ -471,9 +471,9 @@ description: Lytx is a video telematics and fleet management technology company 
 image: https://www.lytx.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at developer.lytx.com over HTTP.
   name: Lytx MCP Server
-  slug: lytx-mcp-server
+  slug: lytx
 modified: '2026-07-20'
 name: Lytx
 nav: Providers
@@ -488,23 +488,23 @@ overview: 'Lytx publishes 37 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 3
 score:
   band: developing
-  composite: 40.2
+  composite: 39.7
   coverage:
     artifact_dirs: 19
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -0.7
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 58.8
     developer_ergonomics: 58.9
-    discoverability: 80.0
+    discoverability: 75.0
     operational_transparency: 23.7
-  previous_composite: 39.7
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -522,7 +522,7 @@ score:
     regime_id: horizontal
     score: 20.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: The Clients API from Stackmint — 9 operation(s) for clients.
   name: Stackmint Clients API
   slug: stackmint-clients-api
-artifact_total: 12
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -138,6 +138,10 @@ created: '2026-05-15'
 description: Stackmint is a governed execution platform for enterprise AI workflows. Rather than deploying raw agents, the platform packages AI capabilities with built-in controls — budget circuit breakers, human approval gates, compliance routing, and ROI measurement — so organizations can move AI projects from research into production with auditable execution paths. The platform exposes a Semantic Execution Layer (SEL) of ontology, semantics, branches, agents, and runtime/audit, and offers a REST API for managing clients, branches (workflows), buds (atomic units), and MCP-compatible tool surfaces for LLM integration.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stackmint.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.stackmint.ai over HTTP.
+  name: Stackmint MCP Server
+  slug: stackmint
 modified: '2026-05-15'
 name: Stackmint
 nav: Providers
@@ -157,7 +161,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -165,7 +169,7 @@ score:
     developer_ergonomics: 35.7
     discoverability: 68.3
     operational_transparency: 0.0
-  previous_composite: 29.8
+  previous_composite: 30.1
   provenance:
     agentic_access: derived
     contracts:
@@ -181,7 +185,7 @@ score:
     regime_id: horizontal
     score: 22.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

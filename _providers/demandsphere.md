@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 0
+- acting_count: 10
   human_in_the_loop: 0
   name: Demandsphere Agentic Access
   operation_count: 10
   slug: demandsphere-agentic-access
-  summary_line: 10 operations
+  summary_line: 10 operations · 10 acting
 api_count: 1
 apis:
 - baseURL: https://api.demandsphere.com
@@ -83,6 +83,11 @@ collections:
   name: DemandSphere API v5.0 Documentation Keywords Sites API
   slug: open-demandsphere-sites-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/demandsphere/refs/heads/main/capabilities/demandsphere-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/demandsphere-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/demandsphere/refs/heads/main/overlays/demandsphere-openapi-overlay.yaml
   title: ''
@@ -241,9 +246,9 @@ description: DemandSphere is a unified AI search visibility platform (founded 20
 image: https://www.demandsphere.com/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at www.demandsphere.com.
   name: DemandSphere MCP Server
-  slug: demandsphere-mcp-server
+  slug: demandsphere-mcp-yml
 modified: '2026-08-13'
 name: DemandSphere
 nav: Providers
@@ -251,7 +256,7 @@ network: true
 overview: 'DemandSphere publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Keywords API, Pages API, SearchEngines API, and 1 more. Tagged areas include Company, SEO, Search Intelligence, SERP Analytics, and AI Search.
 
 
-  DemandSphere''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 27 more developer resources.'
+  DemandSphere''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 28 more developer resources.'
 plans:
 - name: Demandsphere Plans Pricing
   plan_count: 3
@@ -265,13 +270,13 @@ score:
   band: strong
   composite: 55.2
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
@@ -279,7 +284,7 @@ score:
     developer_ergonomics: 49.4
     discoverability: 75.0
     operational_transparency: 28.9
-  previous_composite: 55.2
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -301,7 +306,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 45
+- acting_count: 46
   human_in_the_loop: 0
   name: Formance Agentic Access
   operation_count: 95
   slug: formance-agentic-access
-  summary_line: 95 operations · 45 acting
+  summary_line: 95 operations · 46 acting
 api_count: 1
 apis:
 - baseURL: https://{organization}.{environment}.formance.cloud/api/ledger
@@ -117,6 +117,11 @@ collections:
   name: Formance Platform API
   slug: open-formance
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/capabilities/formance-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/formance-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/agentic-access/formance-agentic-access.yml
   title: ''
@@ -192,7 +197,7 @@ network: true
 overview: 'Formance publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Ledger API, Orchestration API, and 5 more. Tagged areas include Financial Infrastructure, Ledger, double-entry-accounting, Payments, and Orchestration.
 
 
-  Formance''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
+  Formance''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
 plans:
 - name: Formance Plans Pricing
   plan_count: 3
@@ -217,7 +222,7 @@ score:
     catalog_gap: 53.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.4
   facets:
     access_clarity: 36.3
     contract_governance: 0.0
@@ -225,7 +230,7 @@ score:
     developer_ergonomics: 25.0
     discoverability: 66.1
     operational_transparency: 31.1
-  previous_composite: 34.6
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     contracts:
@@ -240,7 +245,7 @@ score:
     regime_id: payments
     score: 25.0
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

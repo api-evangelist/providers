@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -91,7 +91,7 @@ apis:
   description: Co-workers/users in the account.
   name: Clockodo Users API
   slug: clockodo-users-api
-artifact_total: 30
+artifact_total: 31
 collections:
 - collection_type: open
   name: API Collection
@@ -127,6 +127,11 @@ collections:
   name: Clockodo API
   slug: open-clockodo
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clockodo/refs/heads/main/capabilities/clockodo-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/clockodo-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/clockodo/refs/heads/main/agentic-access/clockodo-agentic-access.yml
   title: ''
@@ -207,6 +212,10 @@ jsonld:
   property_count: 10
   slug: clockodo-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.clockodo.com over HTTP.
+  name: Clockodo MCP Server
+  slug: clockodo
 modified: '2026-05-19'
 name: Clockodo
 nav: Providers
@@ -217,7 +226,7 @@ overview: 'Clockodo publishes 9 APIs on the [APIs.io](https://apis.io/) network,
   The Clockodo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Clockodo''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+  Clockodo''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Clockodo Plans Pricing
   plan_count: 3
@@ -253,13 +262,13 @@ score:
   band: thin
   composite: 38.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 61.5
     catalog_earned_first_party: 0.0
     catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 47.4
     contract_governance: 13.6
@@ -267,7 +276,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 68.3
     operational_transparency: 7.9
-  previous_composite: 38.4
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -283,7 +292,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

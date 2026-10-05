@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -152,7 +152,7 @@ score:
   band: emerging
   composite: 16.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 42.8
     catalog_earned_first_party: 0.0
     catalog_gap: 72.3
@@ -176,7 +176,7 @@ score:
     regime_id: horizontal
     score: 18.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

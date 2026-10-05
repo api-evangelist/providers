@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -81,6 +81,10 @@ created: '2026-07-17'
 description: TravelJoy is software for travel advisors and agencies — a client CRM, itinerary and proposal builder, secure payment collection, forms and questionnaires, and automated client communication combined in one platform. Travel professionals use it to manage trips, capture and nurture leads, send branded proposals, gather traveler details, and collect payments. Surfaced as a portfolio company of GV (Google Ventures) and added to the API Evangelist network. As of this enrichment pass TravelJoy publishes no public API, developer portal, or SDK program; this profile tracks its identity and public web properties for discovery.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/traveljoy.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at traveljoy.com over HTTP; 17 tools listed.
+  name: TravelJoy MCP Server
+  slug: traveljoy
 modified: '2026-07-21'
 name: TravelJoy
 nav: Providers
@@ -100,7 +104,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
@@ -108,7 +112,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 51.7
     operational_transparency: 7.9
-  previous_composite: 15.5
+  previous_composite: 14.8
   provenance:
     mcp: first-party
   regulatory:
@@ -118,7 +122,7 @@ score:
     regime_id: payments
     score: 12.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

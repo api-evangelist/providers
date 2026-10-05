@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -84,6 +84,11 @@ asyncapis:
   name: Formfeed Webhooks
   slug: formfeed-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/capabilities/formfeed-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/formfeed-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/agentic-access/formfeed-agentic-access.yml
   title: ''
@@ -317,7 +322,7 @@ overview: 'Formfeed publishes 9 APIs on the [APIs.io](https://apis.io/) network,
   The Formfeed catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Formfeed''s developer surface includes CLI, changelog, authentication, support, getting-started guide, API reference, documentation, and 35 more developer resources.'
+  Formfeed''s developer surface includes CLI, changelog, authentication, support, getting-started guide, API reference, documentation, and 36 more developer resources.'
 plans:
 - name: Formfeed Plans Pricing
   plan_count: 5
@@ -343,7 +348,7 @@ score:
   band: exemplar
   composite: 75.1
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 86.8
     catalog_earned_first_party: 24.0
     catalog_gap: 28.3
@@ -373,7 +378,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 33.3

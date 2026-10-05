@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 3
@@ -36,142 +36,142 @@ apis:
 - description: The OmniDome machine-society hub — registrar, agora, beacon, commons, settlement quotes, trust hall, agent exchange (1 bp fee) — exposed as a remote MCP server whose five discovery tools answer anonym
   name: OmniDome by HumanMirror (MCP)
   slug: omnidome
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: The Agent API from HumanMirror — 1 operation(s) for agent.
   name: HumanMirror Agent API
   slug: humanmirror-fr-agent-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: The Automata API from HumanMirror — 1 operation(s) for automata.
   name: HumanMirror Automata API
   slug: humanmirror-fr-automata-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: Canonical, bundle-priced HumanMirror services for autonomous agents. These routes supersede primitive legacy aliases.
   name: HumanMirror Canonical agent bundles API
   slug: humanmirror-fr-canonical-agent-bundles-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: The Circuit API from HumanMirror — 1 operation(s) for circuit.
   name: HumanMirror Circuit API
   slug: humanmirror-fr-circuit-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: The Consensus API from HumanMirror — 1 operation(s) for consensus.
   name: HumanMirror Consensus API
   slug: humanmirror-fr-consensus-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: The Flow API from HumanMirror — 4 operation(s) for flow.
   name: HumanMirror Flow API
   slug: humanmirror-fr-flow-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: The Forge API from HumanMirror — 3 operation(s) for forge.
   name: HumanMirror Forge API
   slug: humanmirror-fr-forge-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: The Lens API from HumanMirror — 2 operation(s) for lens.
   name: HumanMirror Lens API
   slug: humanmirror-fr-lens-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: The M2m API from HumanMirror — 6 operation(s) for m2m.
   name: HumanMirror M2m API
   slug: humanmirror-fr-m2m-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: The M2M Core API from HumanMirror — 2 operation(s) for m2m core.
   name: HumanMirror M2M Core API
   slug: humanmirror-fr-m2m-core-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: HumanMirror Next-Gen / Pack Futur — pre-launch 2027-2030 routes. 0.050 USDC per test call, included in Enterprise Fleet and available as Preview for HumanMirror Pro.
   name: HumanMirror M2M Next-Gen Preview API
   slug: humanmirror-fr-m2m-next-gen-preview-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: The Magnet API from HumanMirror — 3 operation(s) for magnet.
   name: HumanMirror Magnet API
   slug: humanmirror-fr-magnet-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: The Market API from HumanMirror — 4 operation(s) for market.
   name: HumanMirror Market API
   slug: humanmirror-fr-market-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: The Nexus API from HumanMirror — 6 operation(s) for nexus.
   name: HumanMirror Nexus API
   slug: humanmirror-fr-nexus-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: The One API from HumanMirror — 2 operation(s) for one.
   name: HumanMirror One API
   slug: humanmirror-fr-one-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: The Oracle API from HumanMirror — 2 operation(s) for oracle.
   name: HumanMirror Oracle API
   slug: humanmirror-fr-oracle-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: The Outcome API from HumanMirror — 4 operation(s) for outcome.
   name: HumanMirror Outcome API
   slug: humanmirror-fr-outcome-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: The Physical Oracle API from HumanMirror — 10 operation(s) for physical oracle.
   name: HumanMirror Physical Oracle API
   slug: humanmirror-fr-physical-oracle-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: The Referral API from HumanMirror — 3 operation(s) for referral.
   name: HumanMirror Referral API
   slug: humanmirror-fr-referral-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: The Sanitize API from HumanMirror — 1 operation(s) for sanitize.
   name: HumanMirror Sanitize API
   slug: humanmirror-fr-sanitize-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: The Sentinel API from HumanMirror — 1 operation(s) for sentinel.
   name: HumanMirror Sentinel API
   slug: humanmirror-fr-sentinel-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: The Sink API from HumanMirror — 1 operation(s) for sink.
   name: HumanMirror Sink API
   slug: humanmirror-fr-sink-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: The Trace API from HumanMirror — 2 operation(s) for trace.
   name: HumanMirror Trace API
   slug: humanmirror-fr-trace-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: The Value API from HumanMirror — 3 operation(s) for value.
   name: HumanMirror Value API
   slug: humanmirror-fr-value-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: The Vault API from HumanMirror — 1 operation(s) for vault.
   name: HumanMirror Vault API
   slug: humanmirror-fr-vault-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
-  description: The X402 API from HumanMirror — 52 operation(s) for x402.
+  description: The X402 API from HumanMirror — 54 operation(s) for x402. Split from the OpenAPI the provider's apis.json declares for its HumanMirror Machine API (https://humanmirror.fr/openapi.json, HumanMirror x40
   name: HumanMirror X402 API
   slug: humanmirror-fr-x402-api
-- baseURL: https://humanmirror.fr/api/omnidome/
+- baseURL: https://humanmirror.fr
   baseurl_source: declared
   description: The Zero API from HumanMirror — 1 operation(s) for zero.
   name: HumanMirror Zero API
   slug: humanmirror-fr-zero-api
-artifact_total: 53
+artifact_total: 52
 collections:
 - collection_type: postman
   name: HumanMirror AgentOps
@@ -186,6 +186,10 @@ collections:
   name: HumanMirror Nexus API
   slug: postman-humanmirror-fr-nexus
 common:
+- group: other
+  title: ''
+  type: APIsJSON
+  url: https://humanmirror.fr/apis.json
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/agentic-access/humanmirror-fr-agentic-access.yml
   title: ''
@@ -297,6 +301,21 @@ common:
   title: ''
   type: AgentSkill
   url: skills/humanmirror-fr-verified-outcome.md
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/skills/humanmirror-fr-purchase-firewall.md
+  title: ''
+  type: AgentSkill
+  url: skills/humanmirror-fr-purchase-firewall.md
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/skills/humanmirror-fr-safe-preflight.md
+  title: ''
+  type: AgentSkill
+  url: skills/humanmirror-fr-safe-preflight.md
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/skills/humanmirror-fr-execution-receipt.md
+  title: ''
+  type: AgentSkill
+  url: skills/humanmirror-fr-execution-receipt.md
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/humanmirror-fr/refs/heads/main/overlays/humanmirror-fr-agentops-overlay.yaml
   title: ''
@@ -532,29 +551,26 @@ layout: provider
 mcp_servers:
 - description: ''
   name: HumanMirror MCP Server
-  slug: humanmirror-mcp-server
+  slug: https-humanmirror-fr-api-x402-mcp
 - description: ''
   name: HumanMirror MCP Server
-  slug: humanmirror-mcp-server-2
+  slug: https-humanmirror-fr-api-oracle-mcp
 - description: ''
   name: HumanMirror MCP Server
-  slug: humanmirror-mcp-server-3
+  slug: https-humanmirror-fr-api-forge-mcp
 - description: ''
   name: HumanMirror MCP Server
-  slug: humanmirror-mcp-server-4
+  slug: https-humanmirror-fr-api-nexus-mcp
 - description: ''
   name: HumanMirror MCP Server
-  slug: humanmirror-mcp-server-5
+  slug: https-humanmirror-fr-api-one-mcp
 - description: ''
   name: HumanMirror MCP Server
-  slug: humanmirror-mcp-server-6
+  slug: https-humanmirror-fr-api-flow-mcp
 - description: ''
   name: HumanMirror MCP Server
-  slug: humanmirror-mcp-server-7
-- description: ''
-  name: HumanMirror MCP Server
-  slug: humanmirror-mcp-server-8
-modified: '2026-09-19'
+  slug: https-humanmirror-fr-api-omnidome-mcp
+modified: '2026-10-03'
 name: HumanMirror
 nav: Providers
 network: true
@@ -564,7 +580,7 @@ overview: 'HumanMirror publishes 28 APIs on the [APIs.io](https://apis.io/) netw
   The HumanMirror catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  HumanMirror''s developer surface includes authentication, getting-started guide, documentation, pricing, support, signup flow, CLI, and 60 more developer resources.'
+  HumanMirror''s developer surface includes authentication, getting-started guide, documentation, pricing, support, signup flow, CLI, and 64 more developer resources.'
 plans:
 - name: Humanmirror Fr Plans Pricing
   plan_count: 10
@@ -590,17 +606,17 @@ score:
   band: strong
   composite: 64.8
   coverage:
-    artifact_dirs: 29
+    artifact_dirs: 28
     catalog_earned: 89.8
     catalog_earned_first_party: 24.0
     catalog_gap: 25.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.9
+  delta: 4.5
   facets:
     access_clarity: 76.3
     contract_governance: 35.6
-    contract_quality: 57.7
+    contract_quality: 57.8
     developer_ergonomics: 75.6
     discoverability: 80.0
     operational_transparency: 55.3
@@ -612,7 +628,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 56.9
+  previous_composite: 60.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -630,8 +646,8 @@ score:
     regime_id: payments
     score: 27.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: rising
+  scored_at: '2026-10-04'
+  trend: flat
   upsert:
     applies: true
     score: 0.0

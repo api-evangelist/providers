@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 9
+- acting_count: 11
   human_in_the_loop: 0
   name: Elastic Observability Agentic Access
   operation_count: 14
   slug: elastic-observability-agentic-access
-  summary_line: 14 operations · 9 acting
+  summary_line: 14 operations · 11 acting
 api_count: 1
 apis:
 - description: 'The Elastic Observability product surface: logs, metrics, APM traces, synthetics, RUM, universal profiling and SLOs on the Elastic Stack. The callable contracts are the four APM Server intake APIs lis'
@@ -91,6 +91,11 @@ collections:
   name: Elastic Observability (APM Server) API
   slug: open-elastic-observability
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/capabilities/elastic-observability-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/elastic-observability-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/agentic-access/elastic-observability-agentic-access.yml
   title: ''
@@ -289,7 +294,7 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elastic-observability.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at {KIBANA_URL} requiring an API key.
   name: Elastic Agent Builder MCP Server
   slug: elastic-agent-builder-mcp-server
 modified: '2026-08-29'
@@ -299,7 +304,7 @@ network: true
 overview: 'Elastic Observability publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Server Info API, agent config API, event intake API, and 2 more. Tagged areas include AIOps, Observability, APM, Logging, and Metrics.
 
 
-  Elastic Observability''s developer surface includes authentication, documentation, changelog, CLI, sandbox, API reference, getting-started guide, and 34 more developer resources.'
+  Elastic Observability''s developer surface includes authentication, documentation, changelog, CLI, sandbox, API reference, getting-started guide, and 35 more developer resources.'
 plans:
 - name: Elastic Observability Plans Pricing
   plan_count: 2
@@ -313,13 +318,13 @@ score:
   band: strong
   composite: 59.5
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 27
     catalog_earned: 43.0
     catalog_earned_first_party: 8.0
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
@@ -327,7 +332,7 @@ score:
     developer_ergonomics: 80.4
     discoverability: 60.0
     operational_transparency: 52.6
-  previous_composite: 59.5
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -345,7 +350,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

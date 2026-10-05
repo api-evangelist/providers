@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 21
+- acting_count: 20
   human_in_the_loop: 0
   name: Ditto Live Agentic Access
-  operation_count: 32
+  operation_count: 27
   slug: ditto-live-agentic-access
-  summary_line: 32 operations · 21 acting
+  summary_line: 27 operations · 20 acting
 api_count: 2
 apis:
 - description: Multi-platform embeddable SDK for peer-to-peer and cloud-synced data storage. Supports Swift, Kotlin, Flutter, React Native, JavaScript, .NET/C#, C++, Rust, Go, and Java. Developers use DQL to create,
@@ -78,7 +78,7 @@ apis:
   description: The Sync API from Ditto — 1 operation(s) for sync.
   name: Ditto Sync API
   slug: ditto-live-sync-api
-artifact_total: 40
+artifact_total: 41
 collections:
 - collection_type: open
   name: API Collection
@@ -102,6 +102,11 @@ collections:
   name: Ditto HTTP RPC API Keys Sync API
   slug: open-ditto-live-sync-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/capabilities/ditto-live-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ditto-live-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/agentic-access/ditto-live-agentic-access.yml
   title: ''
@@ -239,6 +244,10 @@ jsonld:
   property_count: 34
   slug: ditto-live-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at docs.ditto.live over HTTP; 3 tools listed.
+  name: Ditto MCP Server
+  slug: ditto-live
 modified: '2026-06-12'
 name: Ditto
 nav: Providers
@@ -249,7 +258,7 @@ overview: 'Ditto publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
   The Ditto catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Ditto''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, developer portal, and 10 more developer resources.'
+  Ditto''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, developer portal, and 11 more developer resources.'
 plans:
 - name: Ditto Live Plans Pricing
   plan_count: 3
@@ -274,13 +283,13 @@ score:
   band: developing
   composite: 45.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 67.9
     catalog_earned_first_party: 0.0
     catalog_gap: 47.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.2
+  delta: -1.1
   facets:
     access_clarity: 54.7
     contract_governance: 9.8
@@ -288,7 +297,7 @@ score:
     developer_ergonomics: 33.3
     discoverability: 60.0
     operational_transparency: 46.8
-  previous_composite: 44.9
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     contracts:
@@ -304,7 +313,7 @@ score:
     regime_id: horizontal
     score: 21.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

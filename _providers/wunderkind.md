@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 17
+- acting_count: 21
   human_in_the_loop: 0
   name: Wunderkind Agentic Access
-  operation_count: 21
+  operation_count: 23
   slug: wunderkind-agentic-access
-  summary_line: 21 operations · 17 acting
+  summary_line: 23 operations · 21 acting
 api_count: 5
 apis:
 - description: 'RESTful endpoints for delivering text messages from platforms external to the Wunderkind ecosystem (ESP, CDP, etc.): single and bulk sends of up to 50,000 messages per request, message status lookup, '
@@ -323,9 +323,9 @@ examples:
 image: https://avatars.githubusercontent.com/u/197307309?v=4
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server over HTTP; 16 tools listed. A candidate, not confirmed as published by the provider.
   name: Wunderkind MCP Server
-  slug: wunderkind-mcp-server
+  slug: wunderkind
 modified: '2026-08-13'
 name: Wunderkind
 nav: Providers
@@ -350,13 +350,13 @@ score:
   band: strong
   composite: 57.1
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 24
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -2.5
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
@@ -364,7 +364,7 @@ score:
     developer_ergonomics: 61.3
     discoverability: 78.6
     operational_transparency: 65.8
-  previous_composite: 57.0
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -382,7 +382,7 @@ score:
     regime_id: telecommunications
     score: 25.0
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 4
 apis:
 - description: Credit-metered Identification endpoints that convert anonymous web signals (IP addresses) into business identifiers — POST /ip_to_company, POST /ip_to_hem (hashed email, ranked by confidence) and POST
@@ -49,7 +49,7 @@ apis:
 - description: 'The RB2B JavaScript pixel installed in a site header (or via Google Tag Manager / Segment / RudderStack / Shopify / Webflow / WordPress / HubSpot CMS / Wix / Next.js / React / Angular) is the primary '
   name: RB2B Pixel and Destination Webhooks
   slug: rb2b-pixel-webhooks
-artifact_total: 12
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Rb2B Webhooks
@@ -248,10 +248,7 @@ layout: provider
 mcp_servers:
 - description: ''
   name: RB2B MCP Server
-  slug: rb2b-mcp-server
-- description: RB2B publishes a first-party local (stdio) MCP server, @rb2b/rb2b-apis-mcp, that exposes the RB2B Identity / Enrichment API Partner Program surface (https://api.rb2b.com/api/v1) as 19 MCP tools for Cl
-  name: RB2B MCP Server
-  slug: rb2b-mcp-server-2
+  slug: rb2b-apis-mcp
 modified: '2026-08-12'
 name: RB2B
 nav: Providers
@@ -282,7 +279,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
@@ -290,7 +287,7 @@ score:
     developer_ergonomics: 66.1
     discoverability: 78.6
     operational_transparency: 44.7
-  previous_composite: 59.3
+  previous_composite: 58.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -308,7 +305,7 @@ score:
     regime_id: horizontal
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

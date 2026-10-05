@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: A live, anonymously reachable Model Context Protocol endpoint served from the atma.io marketing site (Avery Dennison's connected product cloud and Digital Product Passport brand). It is the Wix-platfo
@@ -111,9 +111,9 @@ description: Avery Dennison is a global materials science and manufacturing comp
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/avery-dennison.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at www.atma.io over HTTP; 9 tools listed.
   name: atma.io (Wix Site MCP)
-  slug: atmaio-wix-site-mcp
+  slug: atma-io-wix-site-mcp
 modified: '2026-09-18'
 name: Avery Dennison
 nav: Providers
@@ -157,7 +157,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
@@ -165,7 +165,7 @@ score:
     developer_ergonomics: 28.6
     discoverability: 75.8
     operational_transparency: 2.6
-  previous_composite: 18.7
+  previous_composite: 17.9
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -176,7 +176,7 @@ score:
     regime_id: horizontal
     score: 20.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

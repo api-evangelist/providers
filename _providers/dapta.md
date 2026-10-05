@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -130,9 +130,9 @@ description: Dapta is a no-code AI voice and text agent platform for small and m
 image: https://dapta.ai/wp-content/uploads/2025/02/og-tag.jpg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.dapta.ai over HTTP.
   name: Dapta MCP Server
-  slug: dapta-mcp-server
+  slug: dapta-ai
 modified: '2026-07-18'
 name: Dapta
 nav: Providers
@@ -173,7 +173,7 @@ score:
     regime_id: horizontal
     score: 19.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -147,6 +147,11 @@ collections:
   name: Sambanova Agents Service Audio Subagents Interactive API
   slug: open-sambanova-systems-subagents-interactive-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/capabilities/sambanova-systems-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sambanova-systems-capability-edges.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/security/sambanova-systems-trust-center.yml
   title: ''
@@ -325,7 +330,7 @@ network: true
 overview: 'SambaNova Systems publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat completions API, Completions API, and 9 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, LLM, and Inference.
 
 
-  SambaNova Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
+  SambaNova Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
 random_paper: 7
 rate_limits:
 - limit_count: 11
@@ -335,13 +340,13 @@ score:
   band: developing
   composite: 52.7
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 52.6
     contract_governance: 4.5
@@ -349,7 +354,7 @@ score:
     developer_ergonomics: 56.5
     discoverability: 73.2
     operational_transparency: 73.7
-  previous_composite: 52.7
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -367,7 +372,7 @@ score:
     regime_id: horizontal
     score: 27.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

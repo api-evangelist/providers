@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 10
+- acting_count: 23
   human_in_the_loop: 0
   name: Cloudkit Agentic Access
   operation_count: 23
   slug: cloudkit-agentic-access
-  summary_line: 23 operations · 10 acting
+  summary_line: 23 operations · 23 acting
 api_count: 1
 apis:
 - description: 'The CloudKit Web Services REST API is structured as /database/1/{container}/{environment}/{database}/{operation}, where database is one of public, private, or shared and environment is development or '
@@ -356,7 +356,7 @@ score:
     catalog_gap: 49.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 60.5
     contract_governance: 67.3
@@ -364,7 +364,7 @@ score:
     developer_ergonomics: 80.4
     discoverability: 57.1
     operational_transparency: 76.3
-  previous_composite: 65.9
+  previous_composite: 65.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -382,7 +382,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

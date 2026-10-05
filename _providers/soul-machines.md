@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: Real-time WebSocket session API used by the Web SDK to connect a browser client to a Digital Person running on the Soul Machines session server. A session is authenticated with either an API key (conf
@@ -160,9 +160,9 @@ description: Soul Machines builds autonomously animated "Digital People" — AI-
 image: https://github.com/soulmachines.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at www.soulmachines.com over HTTP; 7 tools listed.
   name: Soul Machines MCP Server
-  slug: soul-machines-mcp-server
+  slug: soul-machines-site
 modified: '2026-07-21'
 name: Soul Machines
 nav: Providers
@@ -185,7 +185,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 47.4
     contract_governance: 0.0
@@ -193,7 +193,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 75.0
     operational_transparency: 26.3
-  previous_composite: 36.0
+  previous_composite: 35.6
   provenance:
     mcp: platform-generated
   regulatory:
@@ -203,7 +203,7 @@ score:
     regime_id: horizontal
     score: 22.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

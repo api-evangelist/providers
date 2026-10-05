@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -153,6 +153,11 @@ collections:
   name: FastSpring API
   slug: open-fastspring
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/capabilities/fastspring-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fastspring-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/agentic-access/fastspring-agentic-access.yml
   title: ''
@@ -227,7 +232,7 @@ overview: 'FastSpring publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
   The FastSpring catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  FastSpring''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
+  FastSpring''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 9 more developer resources.'
 random_paper: 11
 rules:
 - effective_rule_count: 34
@@ -251,7 +256,7 @@ score:
     catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 31.6
     contract_governance: 13.6
@@ -259,7 +264,7 @@ score:
     developer_ergonomics: 19.0
     discoverability: 73.2
     operational_transparency: 6.6
-  previous_composite: 34.0
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -274,7 +279,7 @@ score:
     regime_id: payments
     score: 15.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

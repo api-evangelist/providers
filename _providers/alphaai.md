@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 66.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ apis:
   description: Active equity, crypto, and foreign symbols (tickers).
   name: AlphaAI Symbols API
   slug: alphaai-symbols-api
-artifact_total: 16
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Alphaai Webhooks
@@ -271,10 +271,7 @@ layout: provider
 mcp_servers:
 - description: ''
   name: AlphaAI MCP Server
-  slug: alphaai-mcp-server
-- description: A first-party hosted MCP server over Streamable HTTP, registered in the official Model Context Protocol registry and protected by a properly advertised OAuth 2.1 authorization server with RFC 7591 dyn
-  name: AlphaAI MCP Server
-  slug: alphaai-mcp-server-2
+  slug: mcp
 modified: '2026-08-11'
 name: AlphaAI
 nav: Providers
@@ -310,7 +307,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.6
   facets:
     access_clarity: 59.2
     contract_governance: 4.5
@@ -318,7 +315,7 @@ score:
     developer_ergonomics: 88.1
     discoverability: 75.0
     operational_transparency: 84.2
-  previous_composite: 66.7
+  previous_composite: 71.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -336,7 +333,7 @@ score:
     regime_id: securities_market_data
     score: 37.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

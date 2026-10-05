@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 5
 apis:
 - description: Hosted remote Model Context Protocol server exposing 2.7M U.S. motor carriers as tools for LLM clients (Claude Desktop/Code, Cursor, Windsurf, VS Code Copilot, Clay). Advertises 30+ tools across six c
@@ -61,7 +61,7 @@ apis:
   description: The Vins API from AlphaLoops FMCSA Carrier Data API — 1 operation(s) for vins.
   name: AlphaLoops FMCSA Carrier Data API Vins API
   slug: alphaloops-vins-api
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: open
   name: AlphaLoops FMCSA Carrier Data API
@@ -215,10 +215,7 @@ layout: provider
 mcp_servers:
 - description: ''
   name: AlphaLoops FMCSA Carrier Data API MCP Server
-  slug: alphaloops-fmcsa-carrier-data-api-mcp-server
-- description: AlphaLoops operates a hosted, remote MCP server exposing its FMCSA carrier-data platform as tools. The provider publishes a dedicated MCP reference page marked "Live" carrying the endpoint, the transp
-  name: AlphaLoops MCP Server
-  slug: alphaloops-mcp-server
+  slug: mcp
 modified: '2026-08-11'
 name: AlphaLoops FMCSA Carrier Data API
 nav: Providers
@@ -246,7 +243,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.3
   facets:
     access_clarity: 85.5
     contract_governance: 4.5
@@ -254,7 +251,7 @@ score:
     developer_ergonomics: 70.8
     discoverability: 83.3
     operational_transparency: 76.3
-  previous_composite: 64.9
+  previous_composite: 68.2
   provenance:
     conformance: derived
     contracts:
@@ -271,7 +268,7 @@ score:
     regime_id: telecommunications
     score: 30.0
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

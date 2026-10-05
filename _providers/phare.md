@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -89,6 +89,11 @@ asyncapis:
   name: Phare Webhooks
   slug: phare-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/phare/refs/heads/main/capabilities/phare-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/phare-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/phare/refs/heads/main/agentic-access/phare-agentic-access.yml
   title: ''
@@ -293,7 +298,7 @@ overview: 'Phare publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
   The Phare catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Phare''s developer surface includes changelog, getting-started guide, API reference, authentication, documentation, pricing, engineering blog, and 29 more developer resources.'
+  Phare''s developer surface includes changelog, getting-started guide, API reference, authentication, documentation, pricing, engineering blog, and 30 more developer resources.'
 plans:
 - name: Phare Plans Pricing
   plan_count: 2
@@ -315,7 +320,7 @@ score:
   band: strong
   composite: 62.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 70.8
     catalog_earned_first_party: 8.0
     catalog_gap: 44.3
@@ -328,6 +333,11 @@ score:
     developer_ergonomics: 54.2
     discoverability: 73.2
     operational_transparency: 55.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
   provenance:
     agentic_access: derived
     conformance: derived
@@ -344,7 +354,7 @@ score:
     regime_id: horizontal
     score: 30.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 0.0

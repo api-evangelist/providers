@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: 'The WordPress core REST API served from the company''s marketing site. It is live, anonymous for published content, and self-describing: the discovery document at /wp-json/ lists 472 routes across 19 n'
@@ -140,9 +140,9 @@ description: 'Droplet Biosciences is a Cambridge, Massachusetts clinical-stage m
 image: https://dropletbiosci.com/wp-content/uploads/2022/10/cropped-Droplet-Favicon-270x270.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at dropletbiosci.com over streamable HTTP.
   name: Droplet Biosciences MCP Server
-  slug: droplet-biosciences-mcp-server
+  slug: droplet-biosciences-mcp-yml
 modified: '2026-08-12'
 name: Droplet Biosciences
 nav: Providers
@@ -175,7 +175,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.3
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
@@ -183,7 +183,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 69.2
     operational_transparency: 0.0
-  previous_composite: 20.9
+  previous_composite: 23.2
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -194,7 +194,7 @@ score:
     regime_id: health
     score: 36.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

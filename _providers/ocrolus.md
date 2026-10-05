@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -230,6 +230,11 @@ collections:
   name: Account Level Book Commands Webhooks API
   slug: open-ocrolus-webhooks-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ocrolus/refs/heads/main/capabilities/ocrolus-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ocrolus-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -450,7 +455,7 @@ overview: 'Ocrolus publishes 16 APIs on the [APIs.io](https://apis.io/) network,
   The Ocrolus catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Ocrolus'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 38 more developer resources.'
+  Ocrolus'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 39 more developer resources.'
 random_paper: 5
 rate_limits:
 - limit_count: 1
@@ -460,13 +465,13 @@ score:
   band: developing
   composite: 53.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 26
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.8
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
@@ -474,7 +479,7 @@ score:
     developer_ergonomics: 42.3
     discoverability: 78.6
     operational_transparency: 69.7
-  previous_composite: 53.9
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -500,7 +505,7 @@ score:
     regime_id: insurance
     score: 29.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

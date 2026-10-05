@@ -26,20 +26,20 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.7
-  scored_at: '2026-10-03'
+  score: 11.2
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The Recorded Future Intelligence Cloud REST API (api.recordedfuture.com) provides programmatic access to threat intelligence sourced from over a million open-web, dark-web, technical, and customer fee
   name: Recorded Future Intelligence Cloud API
   slug: recorded-future-connect-api
-artifact_total: 31
+artifact_total: 32
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/security/recorded-future-vulnerability-disclosure.yml
@@ -151,6 +151,10 @@ integrations:
 - description: Recorded Future browser extension surfaces intelligence in any web-based security tool
   name: Browser Extension
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.recordedfuture.com over HTTP.
+  name: Recorded Future MCP Server
+  slug: recorded-future
 modified: '2026-05-23'
 name: Recorded Future
 nav: Providers
@@ -178,7 +182,7 @@ score:
     catalog_gap: 60.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 37.4
     contract_governance: 0.0
@@ -186,7 +190,7 @@ score:
     developer_ergonomics: 26.2
     discoverability: 69.2
     operational_transparency: 18.9
-  previous_composite: 22.1
+  previous_composite: 22.7
   provenance:
     mcp: first-party
   regulatory:
@@ -196,7 +200,7 @@ score:
     regime_id: horizontal
     score: 15.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

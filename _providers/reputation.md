@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 24
+- acting_count: 26
   human_in_the_loop: 0
   name: Reputation Agentic Access
   operation_count: 67
   slug: reputation-agentic-access
-  summary_line: 67 operations · 24 acting
+  summary_line: 67 operations · 26 acting
 api_count: 1
 apis:
 - baseURL: https://api.reputation.com
@@ -177,6 +177,11 @@ collections:
   name: Reputation Asset Library Users API
   slug: open-reputation-users-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/capabilities/reputation-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/reputation-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/agentic-access/reputation-agentic-access.yml
   title: ''
@@ -403,7 +408,7 @@ overview: 'Reputation publishes 16 APIs on the [APIs.io](https://apis.io/) netwo
   The Reputation catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Reputation''s developer surface includes authentication, documentation, engineering blog, pricing, code examples, API reference, support, and 31 more developer resources.'
+  Reputation''s developer surface includes authentication, documentation, engineering blog, pricing, code examples, API reference, support, and 32 more developer resources.'
 plans:
 - name: Reputation Plans Pricing
   plan_count: 4
@@ -428,7 +433,7 @@ score:
   band: strong
   composite: 61.8
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 29
     catalog_earned: 76.8
     catalog_earned_first_party: 12.0
     catalog_gap: 38.3
@@ -468,7 +473,7 @@ score:
     regime_id: horizontal
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

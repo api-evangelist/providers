@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The Constellation Digital Experience (DX) API — REST endpoints external systems use to create Launchpad/Platform cases and data objects, read them, and advance them by running assignment actions. Auth
@@ -42,6 +42,37 @@ apis:
   slug: pega-dx-api
 artifact_total: 5
 common:
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/security/pega-trust-center.yml
+  title: ''
+  type: TrustCenter
+  url: security/pega-trust-center.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/hosts/pega-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/pega-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/vendors/pega-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/pega-vendors.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://community.pega.com/knowledgebase/capabilities/security
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.pega.com/about/news
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.pega.com/about/leadership
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://community.pega.com/products/whats-new/platform
 - group: company
   title: ''
   type: Website
@@ -168,6 +199,13 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/pega-llms.txt
+coverage:
+  detail: the company publishes developer documentation but serves no machine-readable contract from it
+  evidence:
+  - status: 200
+    url: https://pega.com
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-07-17'
 description: Pega (Pegasystems) is an enterprise low-code platform for AI-powered decisioning and workflow automation, spanning business process management (BPM), CRM, and customer engagement across financial services, insurance, healthcare, government, and manufacturing. External systems integrate with Pega Platform and Pega Launchpad through the Constellation Digital Experience (DX) API — a REST + OAuth 2.0 surface for creating and driving cases and data objects — and through first-party SDKs (React, Angular, Web Components, Mobile) that render Constellation DX Components. Pega also publishes first-party Agent Skills for building on Launchpad.
 image: https://github.com/pegasystems.png
@@ -179,7 +217,7 @@ network: true
 overview: 'Pega publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Low-Code, Business Process Management, Workflow Automation, and CRM.
 
 
-  Pega''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
+  Pega''s developer surface includes changelog, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
 plans:
 - name: Pega Plans Pricing
   plan_count: 4
@@ -187,23 +225,23 @@ plans:
 random_paper: 17
 score:
   band: developing
-  composite: 43.1
+  composite: 46.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.5
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 43.1
+    discoverability: 76.8
+    operational_transparency: 36.8
+  previous_composite: 42.3
   provenance:
     conformance: first-party
     skills: first-party
@@ -222,7 +260,7 @@ score:
     regime_id: horizontal
     score: 22.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

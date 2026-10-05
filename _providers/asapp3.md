@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -89,6 +89,11 @@ asyncapis:
   name: Asapp3 Webhooks
   slug: asapp3-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/capabilities/asapp3-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/asapp3-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/agentic-access/asapp3-agentic-access.yml
   title: ''
@@ -270,7 +275,7 @@ overview: 'Asapp3 publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
   The Asapp3 catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Asapp3''s developer surface includes authentication, support, changelog, engineering blog, getting-started guide, documentation, API reference, and 24 more developer resources.'
+  Asapp3''s developer surface includes authentication, support, changelog, engineering blog, getting-started guide, documentation, API reference, and 25 more developer resources.'
 random_paper: 12
 rate_limits:
 - limit_count: 2
@@ -322,7 +327,7 @@ score:
     regime_id: horizontal
     score: 23.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 50.0

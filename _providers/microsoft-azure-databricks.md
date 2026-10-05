@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 19
+- acting_count: 20
   human_in_the_loop: 3
   name: Microsoft Azure Databricks Agentic Access
   operation_count: 32
   slug: microsoft-azure-databricks-agentic-access
-  summary_line: 32 operations · 19 acting · 3 human-in-the-loop
+  summary_line: 32 operations · 20 acting · 3 human-in-the-loop
 api_count: 1
 apis:
 - description: Access Databricks File System (DBFS) for file operations including uploading, downloading, listing, and deleting files and directories.
@@ -247,6 +247,11 @@ collections:
   name: Azure Databricks REST Clusters Workspace API
   slug: open-microsoft-azure-databricks-workspace-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/capabilities/microsoft-azure-databricks-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/microsoft-azure-databricks-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -918,7 +923,7 @@ overview: 'Azure Databricks publishes 38 APIs on the [APIs.io](https://apis.io/)
   The Azure Databricks catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Azure Databricks'' developer surface includes authentication, getting-started guide, pricing, CLI, API reference, release notes, changelog, and 49 more developer resources.'
+  Azure Databricks'' developer surface includes authentication, getting-started guide, pricing, CLI, API reference, release notes, changelog, and 50 more developer resources.'
 plans:
 - name: Azure Databricks Plans Pricing
   plan_count: 4
@@ -979,13 +984,13 @@ score:
   band: strong
   composite: 63.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 72.1
     catalog_earned_first_party: 0.0
     catalog_gap: 42.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 21.1
     contract_governance: 62.7
@@ -996,7 +1001,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 63.1
+  previous_composite: 63.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1011,7 +1016,7 @@ score:
     regime_id: horizontal
     score: 30.0
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

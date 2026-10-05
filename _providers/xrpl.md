@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 4
 apis:
 - description: JSON-RPC interface to the XRP Ledger mainnet for querying accounts, transactions, ledgers, order books, AMM pools, NFTs, and server info. Served by community-run public rippled and Clio nodes.
@@ -48,7 +48,7 @@ apis:
 - description: WebSocket interface to the XRP Ledger Altnet testnet for development and testing. Supports real-time subscriptions identical to mainnet WebSocket API.
   name: XRPL WebSocket API (Testnet)
   slug: xrpl-websocket-api-testnet
-artifact_total: 8
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -143,6 +143,10 @@ finops:
   slug: finops
 image: https://xrpl.org/img/xrp-ledger-logo.svg
 layout: provider
+mcp_servers:
+- description: Remote MCP server at xrpl.org over HTTP; 6 tools listed.
+  name: XRP Ledger MCP Server
+  slug: xrpl
 modified: '2026-06-14'
 name: XRP Ledger
 nav: Providers
@@ -170,7 +174,7 @@ score:
     catalog_gap: 64.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 47.9
     contract_governance: 0.0
@@ -181,7 +185,7 @@ score:
   open_source:
     applies: true
     score: 85.0
-  previous_composite: 31.3
+  previous_composite: 32.1
   provenance:
     mcp: first-party
   regulatory:
@@ -191,7 +195,7 @@ score:
     regime_id: horizontal
     score: 13.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -123,6 +123,11 @@ collections:
   name: Height APP Activities Workspace API
   slug: open-height-workspace-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/capabilities/height-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/height-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/agentic-access/height-agentic-access.yml
   title: ''
@@ -208,7 +213,7 @@ overview: 'Height publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
   The Height catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Height''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+  Height''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Height Plans Pricing
   plan_count: 4
@@ -228,7 +233,7 @@ score:
     catalog_gap: 45.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -37.2
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -237,7 +242,7 @@ score:
     discoverability: 0.0
     operational_transparency: 0.0
   lifecycle: defunct
-  previous_composite: 0.0
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -252,8 +257,8 @@ score:
     regime_id: horizontal
     score: 15.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -275,5 +280,6 @@ tags:
 - Productivity
 - Workflow Automation
 - Artificial Intelligence
+- Defunct
 website: https://height.app
 ---

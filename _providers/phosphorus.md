@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 20.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - baseURL: https://{tenant}.phosphorus.io
@@ -79,6 +79,11 @@ apis:
   slug: phosphorus-vault-api
 artifact_total: 13
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/phosphorus/refs/heads/main/capabilities/phosphorus-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/phosphorus-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/phosphorus/refs/heads/main/overlays/phosphorus-api-overlay.yaml
   title: ''
@@ -180,7 +185,7 @@ network: true
 overview: 'Phosphorus publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Device API, Devices API, and 5 more. Tagged areas include Cybersecurity, xIoT Security, IoT Security, OT Security, and IoMT.
 
 
-  Phosphorus'' developer surface includes support, engineering blog, and 18 more developer resources.'
+  Phosphorus'' developer surface includes support, engineering blog, and 19 more developer resources.'
 plans:
 - name: Phosphorus Plans Pricing
   plan_count: 0
@@ -194,13 +199,13 @@ score:
   band: thin
   composite: 32.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
@@ -208,7 +213,7 @@ score:
     developer_ergonomics: 20.8
     discoverability: 66.1
     operational_transparency: 13.2
-  previous_composite: 32.5
+  previous_composite: 31.6
   provenance:
     conformance: derived
     contracts:
@@ -225,7 +230,7 @@ score:
     regime_id: horizontal
     score: 30.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

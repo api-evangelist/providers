@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 6
 apis:
 - baseURL: https://api.monetate.net/api/data/v1/{retailerShortname}/production
@@ -77,7 +77,7 @@ apis:
   description: File upload related endpoints.
   name: Monetate Upload API
   slug: monetate-upload-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: Monetate Auth API
@@ -255,12 +255,9 @@ description: Monetate is an enterprise experience-optimization and personalizati
 image: https://images.archbee.com/ceIfEvQHzQk1IVxoRWUh7/48dIncdY24xPwZLOvfSEr_horizontal-pink-blue-800px.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at monetate.com over HTTP.
   name: Monetate MCP Server
-  slug: monetate-mcp-server
-- description: ''
-  name: Monetate MCP Server
-  slug: monetate-mcp-server-2
+  slug: monetate-website-mcp
 modified: '2026-08-12'
 name: Monetate
 nav: Providers
@@ -288,7 +285,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 52.6
     contract_governance: 4.5
@@ -296,7 +293,7 @@ score:
     developer_ergonomics: 66.1
     discoverability: 80.0
     operational_transparency: 34.2
-  previous_composite: 53.3
+  previous_composite: 52.8
   provenance:
     conformance: derived
     contracts:
@@ -313,7 +310,7 @@ score:
     regime_id: horizontal
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

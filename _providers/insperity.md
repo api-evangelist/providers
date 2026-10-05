@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 4
 apis:
 - description: Use your own applicant tracking or HR application to send candidate hire information to Insperity Premier Onboarding. One published operation, POST /public/Employee/Onboarding/v2, which accepts a call
@@ -221,7 +221,7 @@ score:
     regime_id: employment_payroll
     score: 20.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

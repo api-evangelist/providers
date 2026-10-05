@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 15
@@ -161,6 +161,11 @@ apis:
   slug: assignar-users-api
 artifact_total: 39
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/capabilities/assignar-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/assignar-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/agentic-access/assignar-agentic-access.yml
   title: ''
@@ -345,7 +350,7 @@ overview: 'Assignar publishes 25 APIs on the [APIs.io](https://apis.io/) network
   The Assignar catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Assignar''s developer surface includes support, getting-started guide, authentication, documentation, pricing, engineering blog, and 26 more developer resources.'
+  Assignar''s developer surface includes support, getting-started guide, authentication, documentation, pricing, engineering blog, and 27 more developer resources.'
 random_paper: 20
 rules:
 - effective_rule_count: 52
@@ -398,7 +403,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: true
     score: 27.8

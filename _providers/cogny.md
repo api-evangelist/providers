@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 57.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -48,74 +48,21 @@ apis:
   baseurl_source: declared
   description: AI-powered growth report generation with streaming responses.
   name: Cogny Reports API
-  phrasing_intents:
-  - id: listReports
-    intent: List growth reports
-    question: Which growth reports have I generated so far in Cogny?
-  - id: createReport
-    intent: Start an AI-generated growth report
-    question: How do I ask a plain-English question and get an AI growth report from my warehouse data?
-  - id: getReport
-    intent: Check a report's status
-    question: Is my growth report finished yet or still generating?
-  - id: cancelReport
-    intent: Cancel a report in progress
-    question: Can I stop a growth report that's taking too long to generate?
-  - id: streamReport
-    intent: Stream live progress of a report
-    question: Can I watch a report's queries, insights and charts appear live as it's being generated?
-  - id: getReportContent
-    intent: Get a finished report's content
-    question: Where do I fetch the full findings of a completed growth report?
-  phrasing_ops: 6
   slug: cogny-reports-api
 - baseURL: https://api.cogny.com/v1
   baseurl_source: declared
   description: AI-generated growth tickets (recommendations) management.
   name: Cogny Tickets API
-  phrasing_intents:
-  - id: listTickets
-    intent: List growth tickets
-    question: Which growth tickets are open for my team right now?
-  - id: getTicket
-    intent: Get one growth ticket
-    question: How do I look up the details of a single growth ticket?
-  - id: updateTicket
-    intent: Update a growth ticket
-    question: Can I reassign a single growth ticket to someone else on my team?
-  - id: bulkUpdateTickets
-    intent: Update many tickets at once
-    question: Is there a way to change a whole batch of tickets in one call?
-  - id: dismissTicket
-    intent: Dismiss a growth ticket
-    question: How do I dismiss a growth ticket that isn't relevant to us?
-  - id: getTicketStats
-    intent: Get growth ticket statistics
-    question: What do my growth tickets look like in aggregate?
-  - id: exportTickets
-    intent: Export growth tickets to a file
-    question: Can I download my growth tickets as a file to share outside the app?
-  phrasing_ops: 7
   slug: cogny-tickets-api
 - baseURL: https://api.cogny.com/v1
   baseurl_source: declared
   description: Connected data-warehouse resources.
   name: Cogny Warehouses API
-  phrasing_intents:
-  - id: listWarehouses
-    intent: List connected data warehouses
-    question: Which data warehouses have I connected to Cogny?
-  phrasing_ops: 1
   slug: cogny-warehouses-api
 - baseURL: https://api.cogny.com/v1
   baseurl_source: declared
   description: Webhook subscription configuration.
   name: Cogny Webhooks API
-  phrasing_intents:
-  - id: createWebhook
-    intent: Subscribe a URL to webhook events
-    question: How do I get notified at my own endpoint when something happens in Cogny?
-  phrasing_ops: 1
   slug: cogny-webhooks-api
 artifact_total: 19
 asyncapis:
@@ -139,6 +86,11 @@ collections:
   name: Cogny Reports Webhooks API
   slug: open-cogny-webhooks-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/capabilities/cogny-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cogny-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -327,9 +279,9 @@ description: 'Cogny is a Stockholm-based AI marketing platform (Cogny AB) that r
 image: https://app.cogny.com/logo512.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at app.cogny.com over HTTP.
   name: Cogny MCP Server
-  slug: cogny-mcp-server
+  slug: cogny
 modified: '2026-08-13'
 name: Cogny
 nav: Providers
@@ -340,7 +292,7 @@ overview: 'Cogny publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
   The Cogny catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cogny''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 32 more developer resources.'
+  Cogny''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 33 more developer resources.'
 plans:
 - name: Cogny Plans Pricing
   plan_count: 3
@@ -359,13 +311,13 @@ score:
   band: exemplar
   composite: 69.7
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.0
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
@@ -381,7 +333,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 69.7
+  previous_composite: 66.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -399,7 +351,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

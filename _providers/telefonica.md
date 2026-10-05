@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 6
+- acting_count: 9
   human_in_the_loop: 0
   name: Telefonica Agentic Access
   operation_count: 11
   slug: telefonica-agentic-access
-  summary_line: 11 operations · 6 acting
+  summary_line: 11 operations · 9 acting
 api_count: 6
 apis:
 - description: The Scam Signal API enables companies to protect their customers from phishing scams and voice fraud by detecting active scam calls in real time using Telefónica's network intelligence. Available in S
@@ -320,13 +320,13 @@ score:
   band: thin
   composite: 35.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 18
     catalog_earned: 63.5
     catalog_earned_first_party: 0.0
     catalog_gap: 51.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.8
   facets:
     access_clarity: 26.3
     contract_governance: 13.6
@@ -334,7 +334,7 @@ score:
     developer_ergonomics: 33.3
     discoverability: 69.6
     operational_transparency: 10.5
-  previous_composite: 35.9
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     contracts:
@@ -349,7 +349,7 @@ score:
     regime_id: telecommunications
     score: 14.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

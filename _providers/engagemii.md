@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: API for Engagemii Citation Watch providing AI visibility scores and data.
@@ -119,9 +119,9 @@ description: Engagemii Citation Watch provides a free AI visibility scoring plat
 image: https://engagemii.com/opengraph-image?619102bd60f3ff99
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at api.engagemii.com.
   name: Engagemii Citation Watch MCP Server
-  slug: engagemii-citation-watch-mcp-server
+  slug: engagemii-mcp-yml
 modified: '2026-09-25'
 name: Engagemii Citation Watch
 nav: Providers
@@ -161,7 +161,7 @@ score:
     regime_id: horizontal
     score: 12.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

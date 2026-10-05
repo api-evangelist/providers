@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,19 +22,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.0
-  scored_at: '2026-10-03'
+  score: 20.8
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -257,7 +257,7 @@ arazzos:
 - description: Verify a project, delete a dataset within it, then delete the project itself.
   name: Dataiku Teardown Project
   slug: dataiku-teardown-project-workflow
-artifact_total: 170
+artifact_total: 214
 collections:
 - collection_type: postman
   name: Dataiku API Node Administration API
@@ -365,15 +365,92 @@ collections:
   name: Dataiku API Node Administration Artifact Sign-Offs Users API
   slug: open-dataiku-users-api
 common:
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.dataiku.com/legal/dataiku-cloud/terms-of-service
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/finops/dataiku-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/dataiku-finops.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/rate-limits/dataiku-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/dataiku-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/plans/dataiku-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/dataiku-plans-pricing.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/rules/dataiku-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/dataiku-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/rules/dataiku-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/dataiku-jsonschema-spectral-rules.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/data-model/dataiku-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/dataiku-data-model.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/errors/dataiku-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/dataiku-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/conformance/dataiku-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/dataiku-conformance.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/llms/dataiku-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/dataiku-llms.txt
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/well-known/dataiku-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/dataiku-security.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/well-known/dataiku-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/dataiku-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/hosts/dataiku-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/dataiku-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/vendors/dataiku-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/dataiku-vendors.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://www.dataiku.com/legal/trust
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.dataiku.com/company/news
 - group: company
   title: ''
   type: Website
   url: https://www.dataiku.com/
-- group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/capabilities/dataiku-capability-edges.yml
-  title: ''
-  type: CapabilityMap
-  url: capabilities/dataiku-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/agentic-access/dataiku-agentic-access.yml
   title: ''
@@ -504,10 +581,6 @@ common:
   title: ''
   type: Academy
   url: https://academy.dataiku.com/
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://www.dataiku.com/product/pricing/
 - group: company
   title: ''
   type: Blog
@@ -516,10 +589,6 @@ common:
   title: ''
   type: GitHub
   url: https://github.com/dataiku
-- group: commercial
-  title: ''
-  type: TermsOfService
-  url: https://www.dataiku.com/terms/
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -593,8 +662,16 @@ common:
   title: ''
   type: Rules
   url: rules/dataiku-rules.yml
+coverage:
+  checked: '2026-10-03'
+  detail: API reference pages exist but no OpenAPI/AsyncAPI/GraphQL spec could be retrieved from api.dataiku.com or documentation sites.
+  evidence:
+  - status: 0
+    url: https://api.dataiku.com/openapi.json
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2024-01-01'
-description: Dataiku is an advanced data science and machine learning platform that enables teams to build and deploy AI applications at scale.
+description: Dataiku provides an enterprise AI and analytics platform that empowers data teams to collaboratively prepare data, build predictive models, and deploy AI-driven applications at scale. The platform integrates data engineering, machine learning, and operationalization tools, offering a unified environment for data scientists, analysts, and business users to turn data into actionable insights. It supports a wide range of use cases from data preparation to model monitoring, enabling organizations to accelerate AI adoption across the enterprise.
 finops:
 - name: Dataiku Finops
   service_category: AI Platform
@@ -606,13 +683,28 @@ json_schemas:
   slug: dataiku-artifact
 - name: ArtifactSummary
   property_count: 6
+  slug: dataiku-artifact-summary
+- name: ArtifactSummary
+  property_count: 6
   slug: dataiku-artifactsummary
+- name: AuthKey
+  property_count: 5
+  slug: dataiku-auth-key
 - name: AuthKey
   property_count: 5
   slug: dataiku-authkey
 - name: Blueprint
   property_count: 8
   slug: dataiku-blueprint
+- name: BlueprintSummary
+  property_count: 5
+  slug: dataiku-blueprint-summary
+- name: BlueprintVersion
+  property_count: 7
+  slug: dataiku-blueprint-version
+- name: BlueprintVersionSummary
+  property_count: 4
+  slug: dataiku-blueprint-version-summary
 - name: BlueprintSummary
   property_count: 5
   slug: dataiku-blueprintsummary
@@ -624,7 +716,16 @@ json_schemas:
   slug: dataiku-blueprintversionsummary
 - name: BundleSummary
   property_count: 4
+  slug: dataiku-bundle-summary
+- name: BundleSummary
+  property_count: 4
   slug: dataiku-bundlesummary
+- name: CodeEnv
+  property_count: 5
+  slug: dataiku-code-env
+- name: CodeEnvSummary
+  property_count: 2
+  slug: dataiku-code-env-summary
 - name: CodeEnv
   property_count: 5
   slug: dataiku-codeenv
@@ -636,7 +737,34 @@ json_schemas:
   slug: dataiku-connection
 - name: ConnectionSummary
   property_count: 2
+  slug: dataiku-connection-summary
+- name: ConnectionSummary
+  property_count: 2
   slug: dataiku-connectionsummary
+- name: CreateArtifactRequest
+  property_count: 4
+  slug: dataiku-create-artifact-request
+- name: CreateAuthKeyRequest
+  property_count: 2
+  slug: dataiku-create-auth-key-request
+- name: CreateBlueprintRequest
+  property_count: 3
+  slug: dataiku-create-blueprint-request
+- name: CreateBlueprintVersionRequest
+  property_count: 1
+  slug: dataiku-create-blueprint-version-request
+- name: CreateBundleRequest
+  property_count: 1
+  slug: dataiku-create-bundle-request
+- name: CreateDatasetRequest
+  property_count: 5
+  slug: dataiku-create-dataset-request
+- name: CreateProjectRequest
+  property_count: 3
+  slug: dataiku-create-project-request
+- name: CreateUserRequest
+  property_count: 6
+  slug: dataiku-create-user-request
 - name: CreateArtifactRequest
   property_count: 4
   slug: dataiku-createartifactrequest
@@ -661,6 +789,12 @@ json_schemas:
 - name: CreateUserRequest
   property_count: 6
   slug: dataiku-createuserrequest
+- name: DatasetData
+  property_count: 3
+  slug: dataiku-dataset-data
+- name: DatasetSchema
+  property_count: 2
+  slug: dataiku-dataset-schema
 - name: Dataiku DSS Dataset
   property_count: 14
   slug: dataiku-dataset
@@ -672,6 +806,9 @@ json_schemas:
   slug: dataiku-datasetschema
 - name: DelegateSignOffRequest
   property_count: 2
+  slug: dataiku-delegate-sign-off-request
+- name: DelegateSignOffRequest
+  property_count: 2
   slug: dataiku-delegatesignoffrequest
 - name: Endpoint
   property_count: 3
@@ -681,13 +818,22 @@ json_schemas:
   slug: dataiku-fieldsetting
 - name: GeneralSettings
   property_count: 4
+  slug: dataiku-general-settings
+- name: GeneralSettings
+  property_count: 4
   slug: dataiku-generalsettings
 - name: Generation
   property_count: 5
   slug: dataiku-generation
 - name: GenerationSummary
   property_count: 3
+  slug: dataiku-generation-summary
+- name: GenerationSummary
+  property_count: 3
   slug: dataiku-generationsummary
+- name: GlobalAPIKey
+  property_count: 6
+  slug: dataiku-global-apikey
 - name: GlobalAPIKey
   property_count: 6
   slug: dataiku-globalapikey
@@ -699,16 +845,28 @@ json_schemas:
   slug: dataiku-group
 - name: HealthStatus
   property_count: 2
+  slug: dataiku-health-status
+- name: HealthStatus
+  property_count: 2
   slug: dataiku-healthstatus
 - name: Job
   property_count: 7
   slug: dataiku-job
+- name: JobSummary
+  property_count: 5
+  slug: dataiku-job-summary
 - name: JobActivity
   property_count: 3
   slug: dataiku-jobactivity
 - name: JobSummary
   property_count: 5
   slug: dataiku-jobsummary
+- name: ManagedFolderContents
+  property_count: 1
+  slug: dataiku-managed-folder-contents
+- name: ManagedFolder
+  property_count: 4
+  slug: dataiku-managed-folder
 - name: ManagedFolder
   property_count: 4
   slug: dataiku-managedfolder
@@ -723,6 +881,9 @@ json_schemas:
   slug: dataiku-metrics
 - name: ModelEvaluationStoreSummary
   property_count: 3
+  slug: dataiku-model-evaluation-store-summary
+- name: ModelEvaluationStoreSummary
+  property_count: 3
   slug: dataiku-modelevaluationstoresummary
 - name: ModelVersion
   property_count: 3
@@ -732,10 +893,19 @@ json_schemas:
   slug: dataiku-plugin
 - name: PluginSummary
   property_count: 4
+  slug: dataiku-plugin-summary
+- name: PluginSummary
+  property_count: 4
   slug: dataiku-pluginsummary
+- name: ProjectMetadata
+  property_count: 5
+  slug: dataiku-project-metadata
 - name: Dataiku DSS Project
   property_count: 12
   slug: dataiku-project
+- name: ProjectSummary
+  property_count: 4
+  slug: dataiku-project-summary
 - name: ProjectMetadata
   property_count: 5
   slug: dataiku-projectmetadata
@@ -747,19 +917,37 @@ json_schemas:
   slug: dataiku-recipe
 - name: RecipeSummary
   property_count: 3
+  slug: dataiku-recipe-summary
+- name: RecipeSummary
+  property_count: 3
   slug: dataiku-recipesummary
 - name: Role
   property_count: 4
   slug: dataiku-role
 - name: SavedModel
   property_count: 6
+  slug: dataiku-saved-model
+- name: SavedModelSummary
+  property_count: 4
+  slug: dataiku-saved-model-summary
+- name: SavedModel
+  property_count: 6
   slug: dataiku-savedmodel
 - name: SavedModelSummary
   property_count: 4
   slug: dataiku-savedmodelsummary
+- name: ScenarioLight
+  property_count: 3
+  slug: dataiku-scenario-light
+- name: ScenarioRun
+  property_count: 4
+  slug: dataiku-scenario-run
 - name: Scenario
   property_count: 7
   slug: dataiku-scenario
+- name: ScenarioSummary
+  property_count: 5
+  slug: dataiku-scenario-summary
 - name: ScenarioLight
   property_count: 3
   slug: dataiku-scenariolight
@@ -777,7 +965,19 @@ json_schemas:
   slug: dataiku-service
 - name: ServiceSummary
   property_count: 4
+  slug: dataiku-service-summary
+- name: ServiceSummary
+  property_count: 4
   slug: dataiku-servicesummary
+- name: SignOffReviewRequest
+  property_count: 2
+  slug: dataiku-sign-off-review-request
+- name: SignOffReview
+  property_count: 4
+  slug: dataiku-sign-off-review
+- name: SignOff
+  property_count: 5
+  slug: dataiku-sign-off
 - name: SignOff
   property_count: 5
   slug: dataiku-signoff
@@ -795,10 +995,19 @@ json_schemas:
   slug: dataiku-signoffstep
 - name: SqlQueryRequest
   property_count: 4
+  slug: dataiku-sql-query-request
+- name: SqlQueryResult
+  property_count: 2
+  slug: dataiku-sql-query-result
+- name: SqlQueryRequest
+  property_count: 4
   slug: dataiku-sqlqueryrequest
 - name: SqlQueryResult
   property_count: 2
   slug: dataiku-sqlqueryresult
+- name: StartJobRequest
+  property_count: 1
+  slug: dataiku-start-job-request
 - name: StartJobRequest
   property_count: 1
   slug: dataiku-startjobrequest
@@ -837,7 +1046,7 @@ overview: 'Dataiku publishes 34 APIs on the [APIs.io](https://apis.io/) network,
   The Dataiku catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Dataiku''s developer surface includes authentication, getting-started guide, documentation, academy / training, pricing, engineering blog, GitHub presence, and 43 more developer resources.'
+  Dataiku''s developer surface includes authentication, getting-started guide, documentation, academy / training, engineering blog, GitHub presence, developer portal, and 57 more developer resources.'
 plans:
 - name: Dataiku Plans Pricing
   plan_count: 3
@@ -871,39 +1080,42 @@ rules:
   slug: dataiku-rules
 score:
   band: developing
-  composite: 46.8
+  composite: 53.3
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 56.0
+    artifact_dirs: 30
+    catalog_earned: 70.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.0
+    catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 6.7
   facets:
-    access_clarity: 39.5
-    contract_governance: 27.3
-    contract_quality: 60.8
-    developer_ergonomics: 46.4
-    discoverability: 53.6
+    access_clarity: 47.4
+    contract_governance: 31.8
+    contract_quality: 66.9
+    developer_ergonomics: 48.2
+    discoverability: 71.4
     operational_transparency: 39.5
-  previous_composite: 46.2
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 28
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
+    score: 29.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

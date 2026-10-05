@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 72
+- acting_count: 77
   human_in_the_loop: 0
   name: Neonone Agentic Access
   operation_count: 137
   slug: neonone-agentic-access
-  summary_line: 137 operations · 72 acting
+  summary_line: 137 operations · 77 acting
 api_count: 1
 apis:
 - baseURL: https://api.neoncrm.com/v2
@@ -150,6 +150,11 @@ collections:
   name: Neon CRM API v2
   slug: open-neonone
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/neonone/refs/heads/main/capabilities/neonone-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/neonone-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/neonone/refs/heads/main/agentic-access/neonone-agentic-access.yml
   title: ''
@@ -216,7 +221,7 @@ network: true
 overview: 'Neon One publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Campaigns API, Custom Fields API, and 9 more. Tagged areas include Non-Profit, CRM, Fundraising, Donor Management, and Membership Management.
 
 
-  Neon One''s developer surface includes authentication, documentation, and 9 more developer resources.'
+  Neon One''s developer surface includes authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Neonone Plans Pricing
   plan_count: 4
@@ -230,13 +235,13 @@ score:
   band: thin
   composite: 37.3
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 61.6
     catalog_earned_first_party: 0.0
     catalog_gap: 53.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.4
   facets:
     access_clarity: 44.2
     contract_governance: 0.0
@@ -244,7 +249,7 @@ score:
     developer_ergonomics: 28.6
     discoverability: 66.1
     operational_transparency: 31.1
-  previous_composite: 37.3
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     contracts:
@@ -259,7 +264,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

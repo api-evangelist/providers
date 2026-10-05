@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 41
+- acting_count: 45
   human_in_the_loop: 1
   name: Breeze Agentic Access
   operation_count: 89
   slug: breeze-agentic-access
-  summary_line: 89 operations · 41 acting · 1 human-in-the-loop
+  summary_line: 89 operations · 45 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.breeze.baby
@@ -170,6 +170,11 @@ collections:
   name: Breeze Admin Yield Sources API
   slug: open-breeze-yield-sources-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/breeze/refs/heads/main/capabilities/breeze-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/breeze-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -287,9 +292,9 @@ description: Breeze is instant, non-custodial yield infrastructure for Solana. A
 image: https://www.breeze.baby/favicon.ico
 layout: provider
 mcp_servers:
-- description: ''
+- description: Local (stdio) MCP server; 5 tools listed.
   name: Breeze MCP Server
-  slug: breeze-mcp-server
+  slug: breeze
 modified: '2026-07-18'
 name: Breeze
 nav: Providers
@@ -297,19 +302,19 @@ network: true
 overview: 'Breeze publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Deposits API, Fund API, and 12 more. Tagged areas include Company, Crypto Web3, Solana, Yield, and DeFi.
 
 
-  Breeze''s developer surface includes signup flow, documentation, API reference, getting-started guide, support, authentication, and 18 more developer resources.'
+  Breeze''s developer surface includes signup flow, documentation, API reference, getting-started guide, support, authentication, and 19 more developer resources.'
 random_paper: 21
 score:
   band: thin
   composite: 33.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 13.2
     contract_governance: 4.5
@@ -317,7 +322,7 @@ score:
     developer_ergonomics: 63.7
     discoverability: 73.2
     operational_transparency: 2.6
-  previous_composite: 33.9
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -335,7 +340,7 @@ score:
     regime_id: payments
     score: 15.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true
@@ -360,5 +365,7 @@ tags:
 - Payments
 - Blockchain
 - AI Agents
+- Web3
+- Cryptocurrency
 website: https://www.breeze.baby
 ---

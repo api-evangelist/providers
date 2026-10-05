@@ -25,16 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-03'
+  score: 8.6
+  scored_at: '2026-10-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/eyewa/refs/heads/main/security/eyewa-domain-security.yml
@@ -65,6 +65,10 @@ created: '2026-07-17'
 description: Eyewa is an online-first eyewear retailer serving the Middle East, selling prescription eyeglasses, sunglasses, clear and colored contact lenses, eyewear accessories, and eye-health vitamins through its e-commerce storefront and a network of 260+ physical stores with click-and-collect. Headquartered in Dubai, UAE, Eyewa operates across the GCC and offers regional payment options such as Tabby, Tamara, and Apple Pay. It was added to the API Evangelist network as a portfolio company of 500 Global. Eyewa publishes a consumer storefront, an educational vision-and-eyewear blog, and standard commercial policy pages, but does not currently expose a public developer API, SDKs, or documented API surface.
 image: https://eyewa.com/favicon.ico
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.eyewa.com over HTTP.
+  name: Eyewa MCP Server
+  slug: eyewa
 modified: '2026-07-19'
 name: Eyewa
 nav: Providers
@@ -84,7 +88,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -99,7 +103,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - middle-east
-  previous_composite: 4.2
+  previous_composite: 5.5
   provenance:
     mcp: first-party
   regulatory:
@@ -109,7 +113,7 @@ score:
     regime_id: horizontal
     score: 5.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

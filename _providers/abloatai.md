@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 2
@@ -85,7 +85,7 @@ apis:
   description: The schema API from Ablo — 1 operation(s) for schema.
   name: Ablo Schema API
   slug: ablo-schema-api
-artifact_total: 16
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Abloatai Webhooks
@@ -274,12 +274,9 @@ description: 'Ablo is collaboration infrastructure for AI agents: one API that l
 image: https://www.abloatai.com/logo-black.svg
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at www.abloatai.com; 17 tools listed.
   name: Ablo MCP Server
-  slug: ablo-mcp-server
-- description: ''
-  name: Ablo MCP Server
-  slug: ablo-mcp-server-2
+  slug: abloatai-mcp-yml
 modified: '2026-08-19'
 name: Ablo
 nav: Providers
@@ -336,7 +333,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

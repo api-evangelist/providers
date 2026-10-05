@@ -35,356 +35,92 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 62.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 64
+- acting_count: 72
   human_in_the_loop: 6
   name: Tray Ai Agentic Access
   operation_count: 105
   slug: tray-ai-agentic-access
-  summary_line: 105 operations · 64 acting · 6 human-in-the-loop
+  summary_line: 105 operations · 72 acting · 6 human-in-the-loop
 api_count: 4
 apis:
 - baseURL: https://tray.io/graphql
   baseurl_source: declared
   description: Generate and manage user tokens for authenticating API calls. The authorize mutation generates a user token from a master token.
   name: Tray.ai Authentication API
-  phrasing_intents:
-  - id: graphqlPlayground
-    intent: Open the embedded GraphQL playground
-    question: Is there an interactive playground for exploring the Tray Embedded GraphQL API?
-  - id: authorize
-    intent: Create a user access token from a master token
-    question: How do I get a user-scoped token for one of my embedded end users?
-  phrasing_ops: 2
   slug: tray-ai-authentication-api
 - baseURL: https://tray.io/graphql
   baseurl_source: declared
   description: Create, retrieve, and delete third-party service authentications that power Tray connectors (e.g., Salesforce, Slack).
   name: Tray.ai Authentications API
-  phrasing_intents:
-  - id: createUserAuthentication
-    intent: Create a third-party auth for an embedded user
-    question: How do I store an end user's third-party credentials so a solution instance can use them?
-  - id: getAuthentications
-    intent: Query authentications through GraphQL
-    question: With a master token, does the getAuthentications GraphQL query return every user's authentications?
-  - id: deleteAuthentication
-    intent: Delete an authentication with a GraphQL mutation
-    question: Which token does the GraphQL delete-authentication mutation require?
-  - id: get-authentications
-    intent: Get user authentications from the embedded root endpoint
-    question: What does the embedded API root return when I post a get-authentications query with a user or master token?
-  - id: create-authentication
-    intent: Create user auth via the embedded root endpoint
-    question: Can I create a user auth by posting to the embedded root endpoint with either a user or master token?
-  - id: delete-authentication
-    intent: Delete user auth via the embedded root endpoint
-    question: Is there an embedded root call that deletes a user auth with a user or master token?
-  - id: listAuthentications
-    intent: List authentications on the unversioned endpoint
-    question: Which authentications belong to my user or organization on the plain /authentications endpoint?
-  - id: createAuthentication
-    intent: Create an authentication for Call Connector
-    question: How do I create an authentication I can then use with the Call Connector endpoint?
-  phrasing_ops: 16
   slug: tray-ai-authentications-api
 - baseURL: https://tray.io/graphql
   baseurl_source: declared
   description: Call any Tray connector operation to pull data from a particular service and display it in your application.
   name: Tray.ai Call Connector API
-  phrasing_intents:
-  - id: callConnector
-    intent: Call a connector operation via GraphQL
-    question: How do I pull data from a third-party service through a connector using the GraphQL callConnector mutation?
-  - id: call-connector
-    intent: Call a connector through the embedded root endpoint
-    question: Can I call a Tray connector by posting to the embedded root endpoint?
-  phrasing_ops: 2
   slug: tray-ai-call-connector-api
 - baseURL: https://api.tray.io/core/v1
   baseurl_source: declared
   description: List available connectors and their operations, and call connector operations to interact with third-party services programmatically.
   name: Tray.ai Connectors API
-  phrasing_intents:
-  - id: listConnectors
-    intent: List connectors in the library (unversioned)
-    question: Which third-party connectors are available in the Tray.ai connector library?
-  - id: getConnectorVersion
-    intent: Get a connector version's operations and schemas
-    question: What operations and input schemas does a particular connector version expose?
-  - id: callConnector
-    intent: Execute a connector operation (unversioned)
-    question: Is calling a connector operation billable?
-  - id: get-connectors
-    intent: List connectors with core v1
-    question: What connectors does the core v1 API list?
-  - id: get-connector-operations
-    intent: List a connector version's operations
-    question: Which operations can I call on a given connector version?
-  - id: call-connector
-    intent: Call a connector operation with core v1
-    question: Can the core v1 call-connector endpoint also return the operation's output schema?
-  phrasing_ops: 6
   slug: tray-ai-connectors-api
 - baseURL: https://api.tray.io/core/v1
   baseurl_source: declared
   description: Deploy CDK (Connector Development Kit) connectors to the Tray platform.
   name: Tray.ai Deployments API
-  phrasing_intents:
-  - id: deployConnector
-    intent: Deploy a CDK connector bundle
-    question: How do I deploy a connector I built with the Connector Development Kit?
-  - id: create-deployment
-    intent: Deploy a connector from source
-    question: Can Tray build and deploy my custom connector straight from source?
-  - id: get-deployment-status
-    intent: Check a connector deployment's status
-    question: Has my connector deployment finished yet?
-  phrasing_ops: 3
   slug: tray-ai-deployments-api
 - baseURL: https://api.tray.io/core/v1
   baseurl_source: declared
   description: Manage projects and solutions for environment promotion, including creating, exporting, and importing project versions.
   name: Tray.ai Projects API
-  phrasing_intents:
-  - id: import-project
-    intent: Import a project via the embedded root endpoint
-    question: Can I import a project by posting to the embedded root endpoint with a master token?
-  - id: export-project
-    intent: Export a project via the embedded root endpoint
-    question: Is there an embedded root call that exports a whole project with a master token?
-  - id: export-project-config
-    intent: Export a project's config via the embedded root
-    question: Can I export only a project's configuration, not the whole project?
-  - id: exportProject
-    intent: Export a project for environment promotion
-    question: How do I move a project from my staging workspace to production?
-  - id: importProject
-    intent: Import exported project data into a workspace
-    question: Can I import exported project data into a different target workspace?
-  - id: PublicApiProjectController.createProjectVersion
-    intent: Save a project version
-    question: How do I snapshot a project's current state so I can release or roll back to it later?
-  - id: listProjectVersions
-    intent: List a project's saved versions
-    question: Which saved versions exist for my project?
-  - id: exportAProjectVersion
-    intent: Export a specific project version as JSON
-    question: Can I download the JSON for one particular saved version of a project?
-  phrasing_ops: 11
   slug: tray-ai-projects-api
 - baseURL: https://tray.io/graphql
   baseurl_source: declared
   description: Create, update, enable, disable, and delete solution instances for end users. Requires a user token for most operations.
   name: Tray.ai Solution Instances API
-  phrasing_intents:
-  - id: createSolutionInstance
-    intent: Create a solution instance for an end user
-    question: How do I activate a published integration for one of my end users with the GraphQL createSolutionInstance mutation?
-  - id: getSolutionInstances
-    intent: Query solution instances via GraphQL
-    question: Does a master token return every end user's solution instances in the GraphQL query?
-  - id: updateSolutionInstance
-    intent: Update or enable a solution instance via GraphQL
-    question: How do I enable or disable an end user's solution instance with the GraphQL mutation?
-  - id: deleteSolutionInstance
-    intent: Delete a solution instance via GraphQL
-    question: Is deleting a solution instance through the GraphQL mutation reversible?
-  - id: get-solution-instances
-    intent: Get solution instances from the embedded root
-    question: Can I list solution instances by posting to the embedded root endpoint with a user or master token?
-  - id: create-solution-instance
-    intent: Create a solution instance via the embedded root
-    question: Is there an embedded root call that creates a solution instance with a user token?
-  - id: update-solution-instance
-    intent: Update a solution instance via the embedded root
-    question: Can I change a solution instance by posting to the embedded root with a user token?
-  - id: upgrade-solution-instance
-    intent: Upgrade a solution instance to the latest version
-    question: How do I move an end user's instance onto the newest published solution version?
-  phrasing_ops: 9
   slug: tray-ai-solution-instances-api
 - baseURL: https://tray.io/graphql
   baseurl_source: declared
   description: Retrieve solutions (integrations) that have been built and published on the Tray platform.
   name: Tray.ai Solutions API
-  phrasing_intents:
-  - id: getSolutions
-    intent: Query published solutions via GraphQL
-    question: Which published integrations are available in my embedded application, queried over GraphQL?
-  - id: get-solutions
-    intent: Get solutions via the embedded root endpoint
-    question: Can I list solutions by posting to the embedded root endpoint with a master token?
-  - id: PublicApiSolutionController.previewSolutionRelease
-    intent: Preview the impact of publishing a solution
-    question: Will publishing my draft solution introduce breaking changes for existing instances?
-  - id: PublicApiSolutionController.createSolutionRelease
-    intent: Publish a draft solution
-    question: How do I publish my draft solution so instances get the new version?
-  phrasing_ops: 4
   slug: tray-ai-solutions-api
 - baseURL: https://api.tray.io/core/v1
   baseurl_source: declared
   description: List available triggers and manage trigger subscriptions to receive real-time data from third-party services.
   name: Tray.ai Triggers API
-  phrasing_intents:
-  - id: listTriggers
-    intent: List triggers in the library (unversioned)
-    question: Which real-time triggers can I subscribe to in the Tray.ai trigger library?
-  - id: createSubscription
-    intent: Subscribe to a trigger (unversioned)
-    question: How do I start receiving real-time events from a connector trigger?
-  - id: deleteSubscription
-    intent: Delete a trigger subscription (unversioned)
-    question: Can I stop a trigger subscription on the unversioned subscriptions endpoint?
-  - id: get-triggers
-    intent: List triggers with core v1
-    question: What triggers does the core v1 API offer?
-  - id: get-trigger-operations
-    intent: List a trigger version's operations
-    question: Which operations does a given trigger version support?
-  - id: create-subscription
-    intent: Create a trigger subscription to an endpoint
-    question: Can core v1 deliver trigger events to my own endpoint URL?
-  - id: get-subscriptions
-    intent: List trigger subscriptions
-    question: Which trigger subscriptions do I currently have?
-  - id: get-subscription-by-id
-    intent: Get a trigger subscription by id
-    question: What are the details of a specific trigger subscription?
-  phrasing_ops: 9
   slug: tray-ai-triggers-api
 - baseURL: https://tray.io/graphql
   baseurl_source: declared
   description: Manage external users of your embedded application. Requires a master token for most operations.
   name: Tray.ai Users API
-  phrasing_intents:
-  - id: createExternalUser
-    intent: Create an external user for embedded
-    question: How do I add one of my customers as an external user with the GraphQL createExternalUser mutation?
-  - id: getUsers
-    intent: Query external users via GraphQL
-    question: Which external users exist in my embedded application, queried over GraphQL?
-  - id: updateExternalUser
-    intent: Update an external user's properties
-    question: Can I flag an existing external user as a test user after creating them?
-  - id: removeUser
-    intent: Remove an external user and their data
-    question: Does removing an external user with the GraphQL removeUser mutation also delete their solution instances and authentications?
-  - id: get-users
-    intent: Get users via the embedded root endpoint
-    question: Can I list embedded users by posting to the embedded root endpoint with a master token?
-  - id: create-user
-    intent: Create an end user via the embedded root
-    question: Is there an embedded root call that creates a new end user with a master token?
-  - id: create-user-token
-    intent: Create a user token via the embedded root
-    question: Can I mint a user token by posting to the embedded root with a master token?
-  - id: create-config-wizard-auth-code
-    intent: Create an auth code for the config wizard
-    question: How do I get an authorization code to open the Auth or Config dialog for an end user?
-  phrasing_ops: 19
   slug: tray-ai-users-api
 - baseURL: https://tray.io/graphql
   baseurl_source: declared
   description: Import and export Tray workflows between embedded accounts, useful for promoting workflows from staging to production.
   name: Tray.ai Workflows API
-  phrasing_intents:
-  - id: exportWorkflows
-    intent: Export workflows via GraphQL
-    question: How do I export workflows from my embedded account to promote them from staging to production?
-  - id: importWorkflows
-    intent: Import workflows via GraphQL
-    question: Can I load exported workflows into my production embedded account over GraphQL?
-  - id: import-workflows
-    intent: Import workflows via the embedded root endpoint
-    question: Is there an embedded root call that imports workflows with a master token?
-  - id: export-workflows
-    intent: Export workflows via the embedded root endpoint
-    question: Can I export workflows by posting to the embedded root with a master token?
-  phrasing_ops: 4
   slug: tray-ai-workflows-api
 - baseURL: https://api.tray.io/core/v1
   baseurl_source: declared
   description: Manage workspaces and workspace users. Workspaces divide your organization into sub-categories such as departments or dev/prod environments.
   name: Tray.ai Workspaces API
-  phrasing_intents:
-  - id: listWorkspaces
-    intent: List workspaces (unversioned)
-    question: Which workspaces, like departments or dev and prod environments, does my organization have?
-  - id: getWorkspace
-    intent: Get a workspace by id (unversioned)
-    question: What details does the unversioned workspace endpoint return for one id?
-  - id: listWorkspaceUsers
-    intent: List a workspace's users (unversioned)
-    question: Who belongs to a given workspace, per the unversioned endpoint?
-  - id: get-workspaces
-    intent: List workspaces my token can access
-    question: Does an org-scoped token list every workspace while a workspace token lists only one?
-  - id: get-workspace-by-id
-    intent: Get a workspace with core v1
-    question: What does core v1 return for a workspace id?
-  - id: list-users-in-workspace
-    intent: List a workspace's users with core v1
-    question: Can I page through a workspace's members with a cursor in core v1?
-  - id: add-user-to-workspace
-    intent: Add a user to a workspace
-    question: How do I give an existing organization user access to a workspace?
-  - id: get-workspace-user-by-id
-    intent: Get one user's workspace membership
-    question: What role does a specific user have in a workspace?
-  phrasing_ops: 11
   slug: tray-ai-workspaces-api
 - baseURL: https://tray.io/graphql
   baseurl_source: declared
   description: '{''$ref'': ''descriptions/trayapi/tags/agent-groups.md''}'
   name: Tray.ai Agent Groups API
-  phrasing_intents:
-  - id: getCoreV1WorkspacesWorkspace-idOn-prem-agent-groups
-    intent: List on-prem agent groups in a workspace
-    question: Which on-prem agent groups exist in my Tray.ai workspace?
-  - id: postCoreV1WorkspacesWorkspace-idOn-prem-agent-groups
-    intent: Create an on-prem agent group
-    question: How do I set up a new group for on-prem agents in a workspace?
-  - id: deleteCoreV1WorkspacesWorkspace-idOn-prem-agent-groupsAgent-group-id
-    intent: Delete an on-prem agent group
-    question: Can I remove an on-prem agent group I no longer use?
-  phrasing_ops: 3
   slug: tray-ai-agent-groups-api
 - baseURL: https://tray.io/graphql
   baseurl_source: declared
   description: '{''$ref'': ''descriptions/trayapi/tags/agent-instances.md''}'
   name: Tray.ai Agent Instances API
-  phrasing_intents:
-  - id: getCoreV1WorkspacesWorkspace-idOn-prem-agent-groupsAgent-group-idAgents
-    intent: List agents in an on-prem agent group
-    question: Which agent instances are running under one of my on-prem agent groups?
-  - id: postCoreV1WorkspacesWorkspace-idOn-prem-agent-groupsAgent-group-idAgents
-    intent: Add an agent instance to an agent group
-    question: How do I register a new on-prem agent under an existing agent group?
-  - id: getCoreV1WorkspacesWorkspace-idOn-prem-agent-groupsAgent-group-idAgentsAgent-id
-    intent: Get details of one on-prem agent
-    question: What are the details of a specific on-prem agent instance?
-  - id: patchCoreV1WorkspacesWorkspace-idOn-prem-agent-groupsAgent-group-idAgentsAgent-id
-    intent: Enable or disable an on-prem agent
-    question: Can I temporarily switch off an on-prem agent without deleting it?
-  - id: deleteCoreV1WorkspacesWorkspace-idOn-prem-agent-groupsAgent-group-idAgentsAgent-id
-    intent: Delete an on-prem agent instance
-    question: Can I delete a single agent without removing its whole agent group?
-  phrasing_ops: 5
   slug: tray-ai-agent-instances-api
 - baseURL: https://tray.io/graphql
   baseurl_source: declared
   description: '{''$ref'': ''descriptions/trayapi/tags/permissions.md''}'
   name: Tray.ai Permissions API
-  phrasing_intents:
-  - id: share-with-emails
-    intent: Share a custom connector with people by email
-    question: How do I let other users access a custom connector I deployed?
-  phrasing_ops: 1
   slug: tray-ai-permissions-api
-artifact_total: 109
+artifact_total: 119
 asyncapis:
 - description: ''
   name: Tray Ai Webhooks
@@ -472,6 +208,35 @@ collections:
   name: Tray.ai Embedded Authentication Workspaces API
   slug: open-tray-ai-workspaces-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/plans/tray-ai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/tray-ai-plans-pricing.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/rules/tray-ai-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/tray-ai-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/rules/tray-ai-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/tray-ai-jsonschema-spectral-rules.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/hosts/tray-ai-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/tray-ai-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/vendors/tray-ai-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/tray-ai-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://tray.ai/company/news/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -768,6 +533,11 @@ common:
   title: ''
   type: VulnerabilityDisclosure
   url: security/tray-ai-vulnerability-disclosure.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/capabilities/tray-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tray-ai-capability-edges.yml
 created: '2025-06-05'
 description: Tray.ai (formerly Tray.io) is an AI-ready enterprise orchestration platform for data and AI, combining a Merlin Agent Builder for no-code AI agent creation, an Agent Gateway for governed MCP server management, and an intelligent iPaaS with 700+ pre-built connectors. It exposes a REST Platform API (Connectivity API) and a GraphQL Embedded API for building, embedding, and operating AI agents and integration automations at enterprise scale.
 examples:
@@ -841,6 +611,36 @@ json_schemas:
 - name: Tray.ai Trigger Subscription
   property_count: 8
   slug: subscription
+- name: BasePage_PublicOnPremAgentGroupHttpResponse
+  property_count: 2
+  slug: tray-ai-base-page-public-on-prem-agent-group-http-response
+- name: BasePage_PublicOnPremAgentInstanceHttpResponse
+  property_count: 2
+  slug: tray-ai-base-page-public-on-prem-agent-instance-http-response
+- name: NewPublicCreateOnPremAgentGroupHttpRequest
+  property_count: 1
+  slug: tray-ai-new-public-create-on-prem-agent-group-http-request
+- name: PublicCreateOnPremAgentInstanceHttpRequest
+  property_count: 1
+  slug: tray-ai-public-create-on-prem-agent-instance-http-request
+- name: PublicCreateOnPremAgentInstanceHttpResponse
+  property_count: 4
+  slug: tray-ai-public-create-on-prem-agent-instance-http-response
+- name: PublicOnPremAgentGroupHttpResponse
+  property_count: 3
+  slug: tray-ai-public-on-prem-agent-group-http-response
+- name: PublicOnPremAgentInstanceHttpResponse
+  property_count: 6
+  slug: tray-ai-public-on-prem-agent-instance-http-response
+- name: PublicUpdateOnPremAgentInstanceHttpRequest
+  property_count: 1
+  slug: tray-ai-public-update-on-prem-agent-instance-http-request
+- name: ShareWithEmailsRequest
+  property_count: 1
+  slug: tray-ai-share-with-emails-request
+- name: ShareWithEmailsResponse
+  property_count: 1
+  slug: tray-ai-share-with-emails-response
 - name: Tray.ai User
   property_count: 7
   slug: user
@@ -874,7 +674,7 @@ overview: 'Tray.ai publishes 15 APIs on the [APIs.io](https://apis.io/) network,
   The Tray.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Tray.ai''s developer surface includes authentication, engineering blog, developer portal, code examples, tooling, documentation, API reference, and 59 more developer resources.'
+  Tray.ai''s developer surface includes authentication, engineering blog, developer portal, code examples, tooling, documentation, API reference, and 66 more developer resources.'
 plans:
 - name: Tray Ai Plans Pricing
   plan_count: 3
@@ -908,28 +708,28 @@ rules:
   slug: tray-ai-rules
 scopes:
 - name: Tray Ai Scopes
-  scope_count: 0
+  scope_count: 3
   slug: tray-ai-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 3 scopes
 score:
   band: exemplar
-  composite: 89.2
+  composite: 89.3
   coverage:
-    artifact_dirs: 35
+    artifact_dirs: 38
     catalog_earned: 93.0
     catalog_earned_first_party: 24.0
     catalog_gap: 22.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 2.5
   facets:
     access_clarity: 100.0
     contract_governance: 45.5
     contract_quality: 75.3
     developer_ergonomics: 92.1
-    discoverability: 80.0
+    discoverability: 81.7
     operational_transparency: 92.1
-  previous_composite: 89.1
+  previous_composite: 86.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -947,7 +747,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true
@@ -969,7 +769,7 @@ security:
 - kind: trust-center
   name: Tray Ai Trust Center
   slug: tray-ai-trust-center
-  summary_line: SOC 1 Type 2, SOC 2 Type 2, HIPAA, GDPR, CCPA, EU-US Data Privacy Framework, Swiss-US Data Privacy Framework, UK Extension to the EU-US Data Privacy Framework
+  summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR
 slug: tray-ai
 tags:
 - Automation

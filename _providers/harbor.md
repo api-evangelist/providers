@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
   description: Operations for managing the rewards catalog that members can redeem with earned points.
   name: Harbor Rewards API
   slug: harbor-rewards-api
-artifact_total: 24
+artifact_total: 25
 collections:
 - collection_type: open
   name: API Collection
@@ -102,6 +102,11 @@ collections:
   name: Harbor API
   slug: open-harbor
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/capabilities/harbor-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/harbor-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/agentic-access/harbor-agentic-access.yml
   title: ''
@@ -163,6 +168,10 @@ jsonld:
   property_count: 8
   slug: harbor-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at api.harbor.gg over HTTP.
+  name: Harbor MCP Server
+  slug: harbor
 modified: '2026-05-19'
 name: Harbor
 nav: Providers
@@ -173,7 +182,7 @@ overview: 'Harbor publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The Harbor catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Harbor''s developer surface includes authentication, documentation, and 7 more developer resources.'
+  Harbor''s developer surface includes authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Harbor Plans Pricing
   plan_count: 3
@@ -204,7 +213,7 @@ score:
     catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 26.3
     contract_governance: 9.8
@@ -212,7 +221,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 51.7
     operational_transparency: 10.5
-  previous_composite: 35.5
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     contracts:
@@ -228,7 +237,7 @@ score:
     regime_id: horizontal
     score: 20.6
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

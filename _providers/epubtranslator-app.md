@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: EPUB Translator provides AI-powered translation of entire EPUB books via a remote MCP server. Users upload an EPUB or PDF and receive a fully translated version in the target language.
@@ -170,7 +170,7 @@ score:
   band: thin
   composite: 29.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 56.2
     catalog_earned_first_party: 8.0
     catalog_gap: 58.9
@@ -202,7 +202,7 @@ score:
     regime_id: horizontal
     score: 22.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

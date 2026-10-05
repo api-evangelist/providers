@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -115,6 +115,11 @@ collections:
   name: Wootric Declines Survey Templates API
   slug: open-wootric-survey-templates-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/capabilities/wootric-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/wootric-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/agentic-access/wootric-agentic-access.yml
   title: ''
@@ -223,7 +228,7 @@ overview: 'Wootric publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
   The Wootric catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Wootric''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+  Wootric''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Wootric Plans Pricing
   plan_count: 3
@@ -248,13 +253,13 @@ score:
   band: developing
   composite: 41.5
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 72.3
     catalog_earned_first_party: 0.0
     catalog_gap: 42.7
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.4
   facets:
     access_clarity: 46.8
     contract_governance: 9.8
@@ -262,7 +267,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 24.2
-  previous_composite: 41.5
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     contracts:
@@ -277,7 +282,7 @@ score:
     regime_id: horizontal
     score: 16.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

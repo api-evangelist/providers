@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The Tenant API from Skyhigh Security — 4 operation(s) for tenant.
   name: Skyhigh Security Tenant API
   slug: skyhigh-tenant-api
-artifact_total: 8
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -166,9 +166,29 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/skyhigh-llms.txt
+coverage:
+  checked: '2026-10-04'
+  detail: Documentation pages are rendered via JavaScript on success.skyhighsecurity.com, preventing machine-readable extraction.
+  evidence:
+  - status: 200
+    url: https://success.skyhighsecurity.com/Skyhigh_SSE_APIs/Incidents_API/Incidents_API_Definitions
+  reason: js-rendered-docs
+  state: unreadable
 created: '2026-07-17'
 description: Skyhigh Security is a cloud-native Security Service Edge (SSE) platform that protects enterprise data across web, cloud, and private applications. Its portfolio spans Cloud Access Security Broker (CASB), Secure Web Gateway (SWG), Data Loss Prevention (DLP and Advanced DLP), Zero Trust Network Access (ZTNA), and Data Security Posture Management (DSPM). Skyhigh exposes REST "SSE APIs" (served from regional myshn.net hosts) for user management, querying and modifying DLP/policy incidents, and forensics reporting, secured with IAM bearer tokens. Formerly the cloud business of McAfee Enterprise / MVISION Cloud, Skyhigh Security is a Greylock-backed cybersecurity company holding FedRAMP High, SOC 2 Type II, and ISO/IEC 27001 authorizations.
 image: https://www.skyhighsecurity.com/content/dam/skyhigh/global/logos/skyhigh-security-logo.svg
+json_schemas:
+- name: Criteria
+  property_count: 17
+  slug: skyhigh-criteria
+- name: IncidentChangeRequests
+  property_count: 0
+  slug: skyhigh-incident-change-requests
+jsonld:
+- class_count: 9
+  name: Skyhigh Context
+  property_count: 48
+  slug: skyhigh-context
 layout: provider
 modified: '2026-07-21'
 name: Skyhigh Security
@@ -177,32 +197,47 @@ network: true
 overview: 'Skyhigh Security publishes 1 API on the [APIs.io](https://apis.io/) network: Tenant API. Tagged areas include Company, Cybersecurity, Security Service Edge, CASB, and Secure Web Gateway.
 
 
+  The Skyhigh Security catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
   Skyhigh Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 18 more developer resources.'
 random_paper: 11
+rules:
+- effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Skyhigh Security API Rules
+  rule_count: 14
+  severity_counts:
+    error: 12
+    hint: 0
+    info: 1
+    warn: 1
+  slug: skyhigh-rules
 scopes:
 - name: Skyhigh Scopes
   scope_count: 3
   slug: skyhigh-scopes
   summary_line: 3 scopes · implicit
 score:
-  band: thin
-  composite: 37.0
+  band: developing
+  composite: 42.0
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
+    artifact_dirs: 27
+    catalog_earned: 61.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.1
   facets:
     access_clarity: 15.8
-    contract_governance: 18.2
-    contract_quality: 38.0
+    contract_governance: 31.8
+    contract_quality: 51.6
     developer_ergonomics: 58.9
     discoverability: 73.2
     operational_transparency: 10.5
-  previous_composite: 37.0
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -226,8 +261,8 @@ score:
     regime_id: horizontal
     score: 31.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  scored_at: '2026-10-04'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -240,7 +275,7 @@ security:
 - kind: domain-security
   name: Skyhigh Domain Security
   slug: skyhigh-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 - kind: trust-center
   name: Skyhigh Trust Center
   slug: skyhigh-trust-center

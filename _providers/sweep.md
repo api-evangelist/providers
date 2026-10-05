@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 358
   human_in_the_loop: 358
@@ -546,7 +546,7 @@ description: Sweep is the agentic layer for enterprise systems. By connecting to
 image: https://cdn.sanity.io/images/9eu1m6zu/production/374242d70c2b95ec76d45f450e2ef6fe33024c38-4320x1951.png
 layout: provider
 mcp_servers:
-- description: ''
+- description: Sweep's official hosted MCP server. It exposes a Sweep-governed view of Salesforce and connected enterprise systems to MCP clients, marketed as "the missing layer that connects Salesforce to Claude an
   name: Sweep MCP
   slug: sweep-mcp
 modified: '2026-09-16'
@@ -571,23 +571,23 @@ rate_limits:
   slug: sweep-rate-limits
 score:
   band: developing
-  composite: 52.7
+  composite: 52.2
   coverage:
     artifact_dirs: 22
-    catalog_earned: 49.0
+    catalog_earned: 46.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.6
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
     contract_quality: 51.1
     developer_ergonomics: 49.4
-    discoverability: 71.7
+    discoverability: 66.7
     operational_transparency: 0.0
-  previous_composite: 52.2
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -605,7 +605,7 @@ score:
     regime_id: horizontal
     score: 29.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

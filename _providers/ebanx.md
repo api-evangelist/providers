@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 18
+- acting_count: 29
   human_in_the_loop: 0
   name: Ebanx Agentic Access
   operation_count: 29
   slug: ebanx-agentic-access
-  summary_line: 29 operations · 18 acting
+  summary_line: 29 operations · 29 acting
 api_count: 3
 apis:
 - baseURL: https://api.ebanxpay.com
@@ -73,7 +73,7 @@ apis:
   description: The Payouts API from EBANX — 12 operation(s) for payouts.
   name: EBANX Payouts API
   slug: ebanx-payouts-api
-artifact_total: 37
+artifact_total: 38
 asyncapis:
 - description: EBANX sends HTTP POST callbacks to a merchant-configured Notification URL whenever a payment changes state — approved, pending, cancelled, refunded, or chargeback. Each request includes a digital sign
   name: EBANX Payment Notifications
@@ -107,6 +107,11 @@ collections:
   name: EBANX FX Tokenization API
   slug: open-ebanx-tokenization-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/capabilities/ebanx-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ebanx-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -177,6 +182,10 @@ jsonld:
   property_count: 0
   slug: ebanx-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.ebanx.com over HTTP; 2 tools listed.
+  name: EBANX MCP Server
+  slug: ebanx
 modified: '2026-09-16'
 name: EBANX
 nav: Providers
@@ -187,7 +196,7 @@ overview: 'EBANX publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
   The EBANX catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  EBANX''s developer surface includes authentication and 4 more developer resources.'
+  EBANX''s developer surface includes authentication and 5 more developer resources.'
 plans:
 - name: Ebanx Plans Pricing
   plan_count: 2
@@ -234,13 +243,13 @@ score:
   band: developing
   composite: 41.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 77.5
     catalog_earned_first_party: 0.0
     catalog_gap: 37.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.9
   facets:
     access_clarity: 34.7
     contract_governance: 13.6
@@ -253,7 +262,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 41.2
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     contracts:
@@ -269,7 +278,7 @@ score:
     regime_id: payments
     score: 23.2
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true
@@ -304,5 +313,6 @@ tags:
 - PSE
 - Cross-Border
 - Webhook
+- Cross-Border Payments
 website: https://ebanx.com
 ---

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 36
+- acting_count: 46
   human_in_the_loop: 0
   name: Clarifeye Agentic Access
-  operation_count: 62
+  operation_count: 75
   slug: clarifeye-agentic-access
-  summary_line: 62 operations · 36 acting
+  summary_line: 75 operations · 46 acting
 api_count: 2
 apis:
 - baseURL: https://eu.app.clarifeye.ai/api/v1
@@ -154,6 +154,11 @@ collections:
   name: Clarifeye Platform Agent Settings Users API
   slug: open-clarifeye-users-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/capabilities/clarifeye-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/clarifeye-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/overlays/clarifeye-backoffice-overlay.yaml
   title: ''
@@ -291,7 +296,7 @@ layout: provider
 mcp_servers:
 - description: Clarifeye publishes a hosted, per-knowledge-store MCP server that exposes an organization's captured knowledge (briefs, playbooks, mental maps, tags, objects) to AI clients (Claude, ChatGPT, Microsoft
   name: Clarifeye MCP Server
-  slug: clarifeye-mcp-server
+  slug: clarifeye
 modified: '2026-07-18'
 name: Clarifeye
 nav: Providers
@@ -299,7 +304,7 @@ network: true
 overview: 'Clarifeye publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Agent Settings API, Conversations API, Documents API, and 10 more. Tagged areas include Company, Artificial Intelligence, Knowledge Management, MCP, and Document Intelligence.
 
 
-  Clarifeye''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, support, pricing, and 22 more developer resources.'
+  Clarifeye''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, support, pricing, and 23 more developer resources.'
 random_paper: 2
 scopes:
 - name: Clarifeye Scopes
@@ -310,13 +315,13 @@ score:
   band: developing
   composite: 45.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
@@ -324,7 +329,7 @@ score:
     developer_ergonomics: 58.9
     discoverability: 75.0
     operational_transparency: 0.0
-  previous_composite: 45.0
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -342,7 +347,7 @@ score:
     regime_id: horizontal
     score: 36.4
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,14 +26,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.0
-  scored_at: '2026-10-03'
+  score: 28.4
+  scored_at: '2026-10-04'
 api_count: 3
 apis:
 - description: GraphQL Content Graph API that indexes CMS/Commerce content for fast, federated querying across the Optimizely platform.
@@ -45,7 +45,7 @@ apis:
 - description: Headless Content Delivery, Content Management and Content Definitions REST APIs for the Optimizely (Episerver) CMS.
   name: Content Management REST API (CMS 12)
   slug: content-management-rest-api-cms-12
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Episerver Webhooks
@@ -180,6 +180,10 @@ created: '2026-07-17'
 description: Episerver is a digital experience platform (DXP) vendor that rebranded to Optimizely in 2021 after Episerver acquired Optimizely; the developer surface now ships under the Optimizely brand. The platform combines content management (CMS / Content Cloud), a headless Content Delivery and Content Management REST API, the Optimizely Graph (Content Graph) GraphQL API, Commerce (Configured Commerce and Commerce Connect), Feature Experimentation and Web Experimentation, the Optimizely Data Platform (ODP), the Content Marketing Platform (CMP), and Opti ID for unified OIDC identity. Developers integrate via first-party SDKs for JavaScript, React, Python, Java, C#/.NET, Ruby, PHP, Go and Swift, the EPiServer.CMS .NET libraries on NuGet, REST and GraphQL APIs, and webhooks. This profile was seeded as a portfolio lead and enriched by the API Evangelist pipeline from Optimizely's public developer documentation.
 image: https://logo.clearbit.com/optimizely.com
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.optimizely.com over HTTP.
+  name: Episerver MCP Server
+  slug: episerver
 modified: '2026-07-19'
 name: Episerver
 nav: Providers
@@ -202,7 +206,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.2
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
@@ -210,7 +214,7 @@ score:
     developer_ergonomics: 51.2
     discoverability: 80.0
     operational_transparency: 56.6
-  previous_composite: 50.0
+  previous_composite: 47.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -227,7 +231,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

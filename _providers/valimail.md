@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -189,6 +189,11 @@ collections:
   name: Account Management Accounts Webhooks API
   slug: open-valimail-webhooks-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/capabilities/valimail-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/valimail-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/overlays/valimail-account-overlay.yaml
   title: ''
@@ -385,7 +390,7 @@ overview: 'Valimail publishes 18 APIs on the [APIs.io](https://apis.io/) network
   The Valimail catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Valimail''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 33 more developer resources.'
+  Valimail''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 34 more developer resources.'
 plans:
 - name: Valimail Plans Pricing
   plan_count: 5
@@ -399,13 +404,13 @@ score:
   band: strong
   composite: 64.2
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 92.1
     contract_governance: 4.5
@@ -413,7 +418,7 @@ score:
     developer_ergonomics: 66.1
     discoverability: 78.6
     operational_transparency: 52.6
-  previous_composite: 64.2
+  previous_composite: 62.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -435,7 +440,7 @@ score:
     regime_id: horizontal
     score: 35.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Rainwalk's white-label / embedded pet insurance API, used by partners to embed quoting, enrollment, and policy management directly into their own websites and point-of-sale systems. The API is a priva
@@ -121,7 +121,7 @@ score:
     regime_id: insurance
     score: 12.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

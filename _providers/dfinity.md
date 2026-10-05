@@ -25,20 +25,20 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.8
-  scored_at: '2026-10-03'
+  score: 12.2
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The public HTTP interface (agent/gateway API) for reading state from and submitting calls to Internet Computer canisters, consumed by the @dfinity agent libraries, the Rust ic-agent, and the icp/dfx C
   name: Internet Computer HTTP Interface
   slug: internet-computer-http-interface
-artifact_total: 3
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -119,6 +119,10 @@ created: '2026-07-17'
 description: The DFINITY Foundation is a Swiss-based not-for-profit research organization that created and stewards the Internet Computer Protocol (ICP), a public, decentralized "frontier cloud" that hosts software and data entirely inside a mathematical network protocol. Applications run as canisters (WebAssembly smart contracts with persistent state, native HTTP, and a reverse gas model paid in Cycles) that are tamperproof, unstoppable, and free from vendor lock-in. ICP uses Chain Key cryptography and Chain Fusion to transact natively on Bitcoin and Ethereum without bridges, and is governed on-network by the Network Nervous System (NNS). DFINITY publishes first-party developer tooling — JavaScript/TypeScript agent libraries under the @dfinity npm scope, Rust agent and Canister Developer Kit crates, the icp/dfx CLIs, and an AI agent skills library — plus a public HTTP interface for reading from and calling canisters.
 image: https://github.com/dfinity.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.internetcomputer.org over HTTP.
+  name: DFINITY MCP Server
+  slug: dfinity
 modified: '2026-07-18'
 name: DFINITY
 nav: Providers
@@ -138,7 +142,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -146,7 +150,12 @@ score:
     developer_ergonomics: 66.7
     discoverability: 75.0
     operational_transparency: 7.9
-  previous_composite: 21.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - switzerland
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 22.0
   provenance:
     mcp: first-party
     skills: first-party
@@ -157,7 +166,7 @@ score:
     regime_id: horizontal
     score: 11.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

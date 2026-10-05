@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.7
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 23
+- acting_count: 24
   human_in_the_loop: 5
   name: Gumloop Agentic Access
   operation_count: 49
   slug: gumloop-agentic-access
-  summary_line: 49 operations · 23 acting · 5 human-in-the-loop
+  summary_line: 49 operations · 24 acting · 5 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.gumloop.com/api/v1
@@ -168,6 +168,11 @@ collections:
   name: Public Agents Teams API
   slug: open-gumloop-teams-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gumloop/refs/heads/main/capabilities/gumloop-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gumloop-capability-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/gumloop/refs/heads/main/overlays/gumloop-openapi-overlay.yaml
   title: ''
@@ -320,9 +325,9 @@ description: Gumloop is an AI-agent automation platform for building, deploying,
 image: https://gumloop.com/images/link-preview.webp
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at mcp.gumloop.com over SSE.
   name: Gumloop MCP Server
-  slug: gumloop-mcp-server
+  slug: gumloop
 modified: '2026-07-19'
 name: Gumloop
 nav: Providers
@@ -333,7 +338,7 @@ overview: 'Gumloop publishes 14 APIs on the [APIs.io](https://apis.io/) network,
   The Gumloop catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Gumloop''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 25 more developer resources.'
+  Gumloop''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 26 more developer resources.'
 random_paper: 1
 scopes:
 - name: Gumloop Scopes
@@ -344,13 +349,13 @@ score:
   band: strong
   composite: 57.8
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
@@ -358,7 +363,7 @@ score:
     developer_ergonomics: 73.2
     discoverability: 75.0
     operational_transparency: 39.5
-  previous_composite: 57.8
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -376,7 +381,7 @@ score:
     regime_id: horizontal
     score: 31.8
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

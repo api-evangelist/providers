@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - baseURL: https://concord-api.centrastage.net/api
@@ -122,6 +122,11 @@ collections:
   name: Datto RMM /v2/account /v2/account /v2/user API
   slug: open-datto-v2-user-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/capabilities/datto-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/datto-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -251,7 +256,7 @@ network: true
 overview: 'Datto publishes 10 APIs on the [APIs.io](https://apis.io/) network, including /v2/account API, /v2/activity-logs API, /v2/alert API, and 7 more. Tagged areas include Company, Data Protection, Backup, Disaster Recovery, and Managed Service Providers.
 
 
-  Datto''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, authentication, and 19 more developer resources.'
+  Datto''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, authentication, and 20 more developer resources.'
 random_paper: 12
 rate_limits:
 - limit_count: 2
@@ -261,7 +266,7 @@ score:
   band: developing
   composite: 43.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 22
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -292,7 +297,7 @@ score:
     regime_id: horizontal
     score: 24.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

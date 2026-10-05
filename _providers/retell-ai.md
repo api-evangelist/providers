@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.1
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 45
+- acting_count: 49
   human_in_the_loop: 1
   name: Retell Ai Agentic Access
   operation_count: 86
   slug: retell-ai-agentic-access
-  summary_line: 86 operations · 45 acting · 1 human-in-the-loop
+  summary_line: 86 operations · 49 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.retellai.com
@@ -435,7 +435,7 @@ apis:
   description: The Update Test Case Definition API from Retell AI — 1 operation(s) for update test case definition.
   name: Retell AI Update Test Case Definition API
   slug: retell-ai-update-test-case-definition-api
-artifact_total: 167
+artifact_total: 168
 asyncapis:
 - description: 'AsyncAPI 2.6 description of Retell AI''s publicly documented WebSocket surfaces. All events are sourced from the official Retell AI documentation (https://docs.retellai.com) and cover: * Custom LLM Web'
   name: Retell AI WebSocket APIs
@@ -754,6 +754,10 @@ finops:
   slug: retell-ai-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/retell-ai.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at mcp.retellai.com over HTTP; 3 tools listed.
+  name: Retell AI MCP Server
+  slug: retell-ai
 modified: '2026-05-29'
 name: Retell AI
 nav: Providers
@@ -791,23 +795,23 @@ rules:
   slug: retell-ai-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 40.4
+  composite: 39.9
   coverage:
     artifact_dirs: 16
-    catalog_earned: 58.8
+    catalog_earned: 55.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 56.3
+    catalog_gap: 59.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -2.1
   facets:
     access_clarity: 63.2
     contract_governance: 11.4
     contract_quality: 56.8
     developer_ergonomics: 23.8
-    discoverability: 75.0
+    discoverability: 70.0
     operational_transparency: 10.5
-  previous_composite: 39.9
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     contracts:
@@ -823,7 +827,7 @@ score:
     regime_id: horizontal
     score: 10.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

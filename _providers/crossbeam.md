@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.3
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: Read (and timeline-write) access to Crossbeam Ecosystem Intelligence — partners, populations, reports/overlaps, and real-time signals — via a versioned REST API secured with OAuth 2.0. Requires an Aut
@@ -236,9 +236,9 @@ description: 'Crossbeam is the leading Ecosystem-Led Growth (ELG) platform: a se
 image: https://cdn.prod.website-files.com/66955639e4d4a6eebd7168b9/67659cb901d6d8f4eb2bd567_crossbeam_opengraph.avif
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server over HTTP; 9 tools listed.
   name: Crossbeam MCP Server
-  slug: crossbeam-mcp-server
+  slug: crossbeam
 modified: '2026-08-14'
 name: Crossbeam
 nav: Providers
@@ -274,7 +274,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.3
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
@@ -282,7 +282,7 @@ score:
     developer_ergonomics: 76.2
     discoverability: 71.7
     operational_transparency: 52.6
-  previous_composite: 62.7
+  previous_composite: 59.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -300,7 +300,7 @@ score:
     regime_id: horizontal
     score: 45.1
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -47,32 +47,32 @@ apis:
 - baseURL: https://api.medigo.com/v2
   baseurl_source: declared
   description: File that contains content relevant to a medical inquiry
-  name: Medigo Attachments API
+  name: Medigo attachments API
   slug: medigo-attachments-api
 - baseURL: https://api.medigo.com/v2
   baseurl_source: declared
   description: The inquiries API from Medigo — 1 operation(s) for inquiries.
-  name: Medigo Inquiries API
+  name: Medigo inquiries API
   slug: medigo-inquiries-api
 - baseURL: https://api.medigo.com/v2
   baseurl_source: declared
   description: Search endpoints
-  name: Medigo Search API
+  name: Medigo search API
   slug: medigo-search-api
 - baseURL: https://api.medigo.com/v2
   baseurl_source: declared
   description: Professional review of a diagnosis or treatment already suggested by a doctor
-  name: Medigo Second Opinions API
+  name: Medigo second-opinions API
   slug: medigo-second-opinions-api
 - baseURL: https://api.medigo.com/v2
   baseurl_source: declared
   description: Insurance TPA service APIs
-  name: Medigo Tpa API
+  name: Medigo tpa API
   slug: medigo-tpa-api
 - baseURL: https://api.medigo.com/v2
   baseurl_source: declared
   description: Push notification related to events in MEDIGO's system
-  name: Medigo Webhooks API
+  name: Medigo webhooks API
   slug: medigo-webhooks-api
 artifact_total: 17
 asyncapis:
@@ -200,7 +200,7 @@ modified: '2026-07-20'
 name: Medigo
 nav: Providers
 network: true
-overview: 'Medigo publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Inquiries API, Search API, and 3 more. Tagged areas include Company, Consumer, Healthcare, Insurance, and Third-Party Administrator.
+overview: 'Medigo publishes 6 APIs on the [APIs.io](https://apis.io/) network, including attachments API, inquiries API, search API, and 3 more. Tagged areas include Company, Consumer, Healthcare, Insurance, and Third-Party Administrator.
 
 
   The Medigo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -218,7 +218,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.3
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
@@ -234,7 +234,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 35.8
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -252,7 +252,7 @@ score:
     regime_id: insurance
     score: 21.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 2
 apis:
 - description: Nittei is MeetsMore's self-hosted calendar and scheduler server, written in Rust (Axum + SQLx + PostgreSQL) and published under the MIT licence. It exposes a multi-tenant REST API under /api/v1 coveri
@@ -175,7 +175,7 @@ layout: provider
 mcp_servers:
 - description: ''
   name: MeetsMore MCP Server
-  slug: meetsmore-mcp-server
+  slug: meetsmore-mcp-yml
 modified: '2026-08-25'
 name: MeetsMore
 nav: Providers
@@ -206,7 +206,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
@@ -221,7 +221,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 47.8
+  previous_composite: 47.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -232,7 +232,7 @@ score:
     regime_id: horizontal
     score: 22.7
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

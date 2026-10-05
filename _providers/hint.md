@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface of the drinkhint.com storefront. Discovery is published at https://www.drinkhint.com/.well-known/ucp (Universal Commerce Protocol merchant profile, versions 2026-04-0
@@ -152,7 +152,7 @@ description: 'Hint Inc. is a San Francisco based beverage company founded in 200
 image: https://www.drinkhint.com/cdn/shop/files/Logo_Hint-Wordmark-Droplet-Secondary-2_Color.png?v=1762813167
 layout: provider
 mcp_servers:
-- description: ''
+- description: drinkhint.com serves a live Model Context Protocol endpoint for agent-driven commerce against Hint's own product catalog. It is reachable anonymously — an unauthenticated POST of {"jsonrpc":"2.0","id"
   name: Hint Storefront Agentic Commerce MCP
   slug: hint-storefront-agentic-commerce-mcp
 modified: '2026-08-22'
@@ -174,9 +174,9 @@ rate_limits:
   slug: hint-rate-limits
 scopes:
 - name: Hint Scopes
-  scope_count: 0
+  scope_count: 4
   slug: hint-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 4 scopes · authorization_code
 score:
   band: emerging
   composite: 25.4
@@ -187,7 +187,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.7
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
@@ -195,7 +195,7 @@ score:
     developer_ergonomics: 30.4
     discoverability: 75.0
     operational_transparency: 0.0
-  previous_composite: 25.4
+  previous_composite: 22.7
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -207,7 +207,7 @@ score:
     regime_id: horizontal
     score: 34.3
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: false

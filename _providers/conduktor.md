@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.5
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -80,7 +80,7 @@ apis:
   description: Gateway virtual clusters, service accounts, and tokens
   name: Conduktor Virtual Clusters API
   slug: conduktor-virtual-clusters-api
-artifact_total: 24
+artifact_total: 25
 collections:
 - collection_type: open
   name: API Collection
@@ -110,6 +110,11 @@ collections:
   name: Conduktor API
   slug: open-conduktor
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/conduktor/refs/heads/main/capabilities/conduktor-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/conduktor-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/conduktor/refs/heads/main/agentic-access/conduktor-agentic-access.yml
   title: ''
@@ -178,6 +183,10 @@ finops:
   slug: conduktor-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/conduktor.png
 layout: provider
+mcp_servers:
+- description: Remote MCP server at docs.conduktor.io over HTTP; 3 tools listed.
+  name: Conduktor MCP Server
+  slug: conduktor
 modified: '2026-06-21'
 name: Conduktor
 nav: Providers
@@ -185,7 +194,7 @@ network: true
 overview: 'Conduktor publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Certificates API, Clusters API, Groups API, and 4 more. Tagged areas include Apache Kafka, Streaming, Data Governance, Kafka Management, and Gateways.
 
 
-  Conduktor''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
+  Conduktor''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
 plans:
 - name: Conduktor Plans Pricing
   plan_count: 5
@@ -199,13 +208,13 @@ score:
   band: thin
   composite: 39.0
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 61.6
     catalog_earned_first_party: 0.0
     catalog_gap: 53.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 44.2
     contract_governance: 0.0
@@ -213,7 +222,7 @@ score:
     developer_ergonomics: 32.1
     discoverability: 68.3
     operational_transparency: 31.1
-  previous_composite: 39.0
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     contracts:
@@ -229,7 +238,7 @@ score:
     regime_id: horizontal
     score: 22.5
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true

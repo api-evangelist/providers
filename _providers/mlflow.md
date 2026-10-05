@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 14
+- acting_count: 17
   human_in_the_loop: 0
   name: Mlflow Agentic Access
   operation_count: 23
   slug: mlflow-agentic-access
-  summary_line: 23 operations · 14 acting
+  summary_line: 23 operations · 17 acting
 api_count: 1
 apis:
 - description: The MLflow tracking server exposes a REST API for experiments, runs, parameters, metrics, tags, registered models, model versions, model aliases, and artifacts, plus newer endpoints for traces, prompt
@@ -108,6 +108,11 @@ collections:
   name: MLflow Tracking REST API
   slug: open-mlflow
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/capabilities/mlflow-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mlflow-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -201,7 +206,7 @@ network: true
 overview: 'MLflow publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Experiments API, Metrics API, and 5 more. Tagged areas include Machine Learning, MLOps, Generative AI, Experiment Tracking, and Open Source.
 
 
-  MLflow''s developer surface includes authentication, developer portal, engineering blog, and 15 more developer resources.'
+  MLflow''s developer surface includes authentication, developer portal, engineering blog, and 16 more developer resources.'
 plans:
 - name: Mlflow Plans Pricing
   plan_count: 1
@@ -215,13 +220,13 @@ score:
   band: thin
   composite: 38.4
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.9
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
@@ -232,7 +237,7 @@ score:
   open_source:
     applies: true
     score: 85.0
-  previous_composite: 38.4
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -247,7 +252,7 @@ score:
     regime_id: horizontal
     score: 10.9
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
+  scored_at: '2026-10-04'
   trend: flat
   upsert:
     applies: true
