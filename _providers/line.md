@@ -51,56 +51,225 @@ apis:
   baseurl_source: declared
   description: The channel-access-token API from LINE — 8 operation(s) for channel-access-token.
   name: LINE Channel Access Token API
+  phrasing_intents:
+  - id: issueStatelessChannelToken
+    intent: Issue a stateless channel access token
+    question: How do I get a stateless channel access token that isn't capped by the active token limit?
+  - id: getsAllValidChannelAccessTokenKeyIds
+    intent: List valid channel access token key IDs
+    question: Which key IDs belong to my currently valid v2.1 channel access tokens?
+  - id: issueChannelTokenByJWT
+    intent: Issue a v2.1 channel token with a JWT assertion
+    question: How do I issue a channel access token with an expiration date I choose?
+  - id: verifyChannelTokenByJWT
+    intent: Verify a v2.1 channel access token
+    question: Is my channel access token with a user-specified expiration still valid?
+  - id: revokeChannelTokenByJWT
+    intent: Revoke a v2.1 channel access token
+    question: How do I revoke a v2.1 channel access token I issued with a JWT?
+  - id: issueChannelToken
+    intent: Issue a short-lived channel access token
+    question: How can I get a short-lived channel access token from my channel ID and secret?
+  - id: verifyChannelToken
+    intent: Verify a short-lived or long-lived channel token
+    question: Can I check if a short-lived or long-lived channel access token is still valid?
+  - id: revokeChannelToken
+    intent: Revoke a short-lived or long-lived channel token
+    question: How do I revoke a short-lived or long-lived channel access token?
+  phrasing_ops: 8
   slug: line-channel-access-token-api
 - baseURL: https://api.line.me
   baseurl_source: declared
   description: The dummy API from LINE — 1 operation(s) for dummy.
   name: LINE Dummy API
+  phrasing_intents:
+  - id: callback
+    intent: Receive LINE webhook events at a callback
+    question: What does a LINE webhook event payload sent to my bot look like?
+  phrasing_ops: 1
   slug: line-dummy-api
 - baseURL: https://api.line.me
   baseurl_source: declared
   description: The insight API from LINE — 7 operation(s) for insight.
   name: LINE Insight API
+  phrasing_intents:
+  - id: getFriendsDemographics
+    intent: Get friend demographics for an Official Account
+    question: What are the age, gender and region breakdowns of my LINE Official Account's friends?
+  - id: getNumberOfMessageDeliveries
+    intent: Count messages delivered on a given day
+    question: How many messages did my Official Account send in total on a specific day?
+  - id: getNumberOfFollowers
+    intent: Count followers as of a date
+    question: How many users had added my Official Account as a friend by a certain date?
+  - id: getMessageEvent
+    intent: Get interaction stats for a broadcast or narrowcast
+    question: How did users interact with a narrowcast or broadcast message I sent?
+  - id: getStatisticsPerUnit
+    intent: Get interaction stats for an aggregation unit
+    question: How are users engaging with push and multicast messages I tagged with a custom aggregation unit?
+  - id: getRichMenuInsightSummary
+    intent: Summarize rich menu impressions and clicks
+    question: How many impressions and area clicks did my rich menu get in total over a period?
+  - id: getRichMenuInsightDaily
+    intent: Get daily rich menu impressions and clicks
+    question: Can I see my rich menu's impressions and clicks broken down day by day?
+  phrasing_ops: 7
   slug: line-insight-api
 - baseURL: https://api.line.me
   baseurl_source: declared
   description: The liff API from LINE — 2 operation(s) for liff.
   name: LINE Liff API
+  phrasing_intents:
+  - id: addLIFFApp
+    intent: Create a LIFF app on a channel
+    question: How do I add a new LIFF app to my channel?
+  - id: getAllLIFFApps
+    intent: List all LIFF apps on a channel
+    question: Which LIFF apps are added to my LINE channel?
+  - id: updateLIFFApp
+    intent: Update an existing LIFF app's settings
+    question: How do I change the endpoint URL of a LIFF app I already created?
+  - id: deleteLIFFApp
+    intent: Delete a LIFF app from a channel
+    question: How do I remove a LIFF app from my channel?
+  phrasing_ops: 4
   slug: line-liff-api
 - baseURL: https://api.line.me
   baseurl_source: declared
   description: The line-module API from LINE — 4 operation(s) for line-module.
   name: LINE Module API
+  phrasing_intents:
+  - id: detachModule
+    intent: Detach a module channel from an Official Account
+    question: How do I detach my module channel from a LINE Official Account?
+  - id: acquireChatControl
+    intent: Take chat control for a module channel
+    question: How can a standby module channel take over chat control of a conversation?
+  - id: releaseChatControl
+    intent: Release chat control back to the Primary Channel
+    question: How do I hand chat control back to the Primary Channel?
+  - id: getModules
+    intent: List bots with attached module channels
+    question: Which LINE Official Accounts have my module channel attached?
+  phrasing_ops: 4
   slug: line-line-module-api
 - baseURL: https://api.line.me
   baseurl_source: declared
   description: The line-module-attach API from LINE — 1 operation(s) for line-module-attach.
   name: LINE Module Attach API
+  phrasing_intents:
+  - id: attachModule
+    intent: Attach a module channel to an Official Account
+    question: How do I attach my module channel to a LINE Official Account after authorization?
+  phrasing_ops: 1
   slug: line-line-module-attach-api
 - baseURL: https://api.line.me
   baseurl_source: declared
   description: The manage-audience API from LINE — 8 operation(s) for manage-audience.
   name: LINE Manage Audience API
+  phrasing_intents:
+  - id: createAudienceGroup
+    intent: Create an audience from a JSON list of user IDs
+    question: How do I create a new audience from a list of user IDs sent as JSON?
+  - id: addAudienceToAudienceGroup
+    intent: Add user IDs to an existing audience via JSON
+    question: How do I add more user IDs to an audience I already created, sending them as JSON?
+  - id: createClickBasedAudienceGroup
+    intent: Create a click-based retargeting audience
+    question: Can I build an audience of users who clicked a link in a message I sent?
+  - id: createImpBasedAudienceGroup
+    intent: Create an impression-based retargeting audience
+    question: How can I target users who opened a message I sent?
+  - id: updateAudienceGroupDescription
+    intent: Rename an audience
+    question: How do I rename an existing audience?
+  - id: deleteAudienceGroup
+    intent: Delete an audience
+    question: How do I delete an audience I no longer need?
+  - id: getAudienceData
+    intent: Get details of one of my audiences
+    question: What's the status and size of one of the audiences in my channel?
+  - id: getAudienceGroups
+    intent: List and search my audiences
+    question: Which audiences does my channel have, and can I filter them by status?
+  phrasing_ops: 10
   slug: line-manage-audience-api
 - baseURL: https://api.line.me
   baseurl_source: declared
   description: The manage-audience-blob API from LINE — 1 operation(s) for manage-audience-blob.
   name: LINE Manage Audience Blob API
+  phrasing_intents:
+  - id: createAudienceForUploadingUserIds
+    intent: Create an audience from a file of user IDs
+    question: How do I create a new audience by uploading a file of user IDs?
+  - id: addUserIdsToAudience
+    intent: Add user IDs to an audience from a file
+    question: How do I upload a file of more user IDs into an audience I already created?
+  phrasing_ops: 2
   slug: line-manage-audience-blob-api
 - baseURL: https://api.line.me
   baseurl_source: declared
   description: The messaging-api API from LINE — 61 operation(s) for messaging-api.
   name: LINE Messaging API
+  phrasing_intents:
+  - id: getWebhookEndpoint
+    intent: Get the bot's webhook endpoint settings
+    question: What webhook URL is my LINE bot currently set to?
+  - id: setWebhookEndpoint
+    intent: Set the bot's webhook endpoint URL
+    question: How do I change the webhook URL my bot receives events on?
+  - id: testWebhookEndpoint
+    intent: Send a test event to a webhook endpoint
+    question: Can I check that my webhook server responds correctly before going live?
+  - id: replyMessage
+    intent: Reply to a user's event with messages
+    question: How do I answer a message a user just sent to my bot?
+  - id: pushMessage
+    intent: Push a message to one user, group or chat
+    question: Can my bot message a single user or group whenever it wants, without a reply token?
+  - id: multicast
+    intent: Send the same message to a list of user IDs
+    question: Can I send one message to several specific user IDs in a single call?
+  - id: narrowcast
+    intent: Send a message to a filtered audience segment
+    question: How do I send a message only to friends matching demographics or an audience?
+  - id: getNarrowcastProgress
+    intent: Check the progress of a narrowcast send
+    question: Has my narrowcast message finished sending yet?
+  phrasing_ops: 68
   slug: line-messaging-api-api
 - baseURL: https://api.line.me
   baseurl_source: declared
   description: The messaging-api-blob API from LINE — 4 operation(s) for messaging-api-blob.
   name: LINE Messaging API Blob API
+  phrasing_intents:
+  - id: getMessageContent
+    intent: Download media a user sent
+    question: How do I download the image, video or audio a user sent to my bot?
+  - id: getMessageContentPreview
+    intent: Get a preview image of a sent image or video
+    question: Can I get a thumbnail preview of an image or video a user sent?
+  - id: getMessageContentTranscodingByMessageId
+    intent: Check if a video or audio is ready to download
+    question: Is the video or audio a user sent ready to download yet?
+  - id: getRichMenuImage
+    intent: Download a rich menu image
+    question: How do I download the image attached to a rich menu?
+  - id: setRichMenuImage
+    intent: Upload a rich menu image
+    question: How do I upload the image for a rich menu I created?
+  phrasing_ops: 5
   slug: line-messaging-api-blob-api
 - baseURL: https://api.line.me
   baseurl_source: declared
   description: The shop API from LINE — 1 operation(s) for shop.
   name: LINE Shop API
+  phrasing_intents:
+  - id: missionStickerV3
+    intent: Send a mission sticker to a user
+    question: How do I send a mission sticker to a LINE user?
+  phrasing_ops: 1
   slug: line-shop-api
 artifact_total: 28
 asyncapis:
@@ -435,7 +604,7 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 31.8
@@ -450,7 +619,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 69.9
+  previous_composite: 71.8
   provenance:
     agentic_access: derived
     conformance: first-party

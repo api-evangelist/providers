@@ -20,7 +20,7 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
   score: 0.0
   scored_at: '2026-10-04'
@@ -105,7 +105,7 @@ score:
   band: emerging
   composite: 11.1
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 0
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
@@ -118,8 +118,6 @@ score:
     developer_ergonomics: 2.4
     discoverability: 46.4
     operational_transparency: 10.5
-  provenance:
-    mcp: unknown
   regulatory:
     applies: true
     matched_via: fallback

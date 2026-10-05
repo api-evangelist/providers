@@ -224,10 +224,10 @@ rate_limits:
   slug: queen-mary-university-of-london-rate-limits
 score:
   band: thin
-  composite: 26.5
+  composite: 27.0
   coverage:
     artifact_dirs: 11
-    catalog_earned: 62.4
+    catalog_earned: 65.4
     catalog_earned_first_party: 0.0
     catalog_gap: 52.6
     catalog_max: 115.0
@@ -238,7 +238,7 @@ score:
     contract_governance: 0.0
     contract_quality: 14.3
     developer_ergonomics: 28.6
-    discoverability: 66.1
+    discoverability: 71.4
     operational_transparency: 21.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)

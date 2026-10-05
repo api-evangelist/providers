@@ -50,46 +50,238 @@ apis:
   baseurl_source: declared
   description: The Flagsmith Flags API is the public-facing REST API that client-side and server-side SDKs use to retrieve feature flag values and remote configuration for environments and users. It uses a non-secre
   name: Flagsmith Flags API
+  phrasing_intents:
+  - id: listFlags
+    intent: Get all flags for an environment
+    question: How does a client SDK fetch every flag and its value for an environment in Flagsmith?
+  phrasing_ops: 1
   slug: flags-api
 - baseURL: https://api.flagsmith.com/api/v1
   baseurl_source: declared
   description: Manage environments within a project. Environments represent deployment stages such as development, staging, and production.
   name: flagsmith Environments API
+  phrasing_intents:
+  - id: listEnvironments
+    intent: List environments I can access
+    question: Which Flagsmith environments do I have access to?
+  - id: getEnvironment
+    intent: Get an environment (unversioned path)
+    question: What project and feature states belong to an environment, from the unversioned endpoint?
+  - id: updateEnvironment
+    intent: Update an environment (unversioned path)
+    question: Can I rename an environment through the unversioned update endpoint?
+  - id: api_v1_environments_create
+    intent: Create an environment in a project
+    question: How do I add a new staging environment to my project?
+  - id: api_v1_environments_retrieve
+    intent: Get an environment's settings (v1)
+    question: What settings like banner text or versioning does an environment have in the v1 API?
+  - id: api_v1_environments_update
+    intent: Replace an environment's settings (v1)
+    question: How do I fully replace an environment's configuration with the v1 API?
+  - id: api_v1_environments_partial_update
+    intent: Change individual environment settings
+    question: Can I just set a banner colour on an environment without touching other settings?
+  - id: api_v1_environments_destroy
+    intent: Delete an environment
+    question: How do I remove an environment I no longer use?
+  phrasing_ops: 61
   slug: flagsmith-environments-api
 - baseURL: https://api.flagsmith.com/api/v1
   baseurl_source: declared
   description: Manage feature flags within a project. Features can be toggled on or off and can have remote configuration values.
   name: flagsmith Features API
+  phrasing_intents:
+  - id: listFeatures
+    intent: List a project's feature flags
+    question: What feature flags are defined in my Flagsmith project?
+  - id: createFeature
+    intent: Create a feature flag
+    question: How do I add a new feature flag that shows up in every environment?
+  - id: getFeature
+    intent: Get a feature flag's details
+    question: How is a specific feature flag configured, including its multivariate options?
+  - id: updateFeature
+    intent: Replace a feature flag (unversioned path)
+    question: How do I rename a feature flag or change its type with a full update?
+  - id: deleteFeature
+    intent: Delete a feature flag (unversioned path)
+    question: How do I permanently remove a feature flag from all environments using the unversioned route?
+  - id: listFeatureStates
+    intent: List feature states in an environment
+    question: Which flags are on or off in my production environment and with what values?
+  - id: updateFeatureState
+    intent: Toggle a flag or change its value in an environment
+    question: How do I turn a flag on in just one environment?
+  - id: api_v1_environments_features_versions_destroy
+    intent: Delete a feature version in an environment
+    question: Can I delete a specific version of a feature's state in an environment?
+  phrasing_ops: 41
   slug: flagsmith-features-api
 - baseURL: https://api.flagsmith.com/api/v1
   baseurl_source: declared
   description: Manage user identities within an environment. Identities represent individual users and their associated traits.
   name: flagsmith Identities API
+  phrasing_intents:
+  - id: listIdentities
+    intent: List identities in an environment
+    question: Which users have identities in this environment, via the endpoint without the /api/v1 prefix?
+  - id: getIdentity
+    intent: Get an identity and its traits
+    question: What traits does a given identity have, fetched from the non-v1 identity path?
+  - id: deleteIdentity
+    intent: Permanently delete an identity
+    question: Does deleting an identity also wipe its traits and flag overrides?
+  - id: api_v1_environments_edge_identities_list
+    intent: List edge identities in an environment
+    question: Which edge identities exist in an environment?
+  - id: api_v1_environments_edge_identities_create
+    intent: Create an edge identity
+    question: Can I create an edge identity with a friendly dashboard alias?
+  - id: api_v1_environments_edge_identities_edge_featurestates_list
+    intent: List an edge identity's flag overrides
+    question: Which flags have been overridden for a specific edge identity?
+  - id: api_v1_environments_edge_identities_edge_featurestates_create
+    intent: Override a flag for an edge identity
+    question: How do I give one edge identity its own value for a flag?
+  - id: api_v1_environments_edge_identities_edge_featurestates_retrieve
+    intent: Get one edge identity flag override
+    question: What value does a specific edge identity override currently hold?
+  phrasing_ops: 47
   slug: flagsmith-identities-api
 - baseURL: https://api.flagsmith.com/api/v1
   baseurl_source: declared
   description: Manage organisations within Flagsmith. Organisations are the top-level container for projects, users, and billing.
   name: flagsmith Organisations API
+  phrasing_intents:
+  - id: listOrganisations
+    intent: List the organisations I belong to
+    question: Which Flagsmith organisations does my account have access to?
+  - id: getOrganisation
+    intent: Get an organisation's plan and usage limits
+    question: What subscription plan and feature usage limits does my organisation have?
+  - id: api_v1_organisations_create
+    intent: Create a new organisation
+    question: How do I create a brand-new organisation under my account?
+  - id: api_v1_organisations_licence_update
+    intent: Upload or replace an organisation's licence
+    question: Where do I apply a self-hosted licence to my organisation?
+  - id: api_v1_organisations_api_usage_notification_list
+    intent: List API usage notifications for an organisation
+    question: Has my organisation been warned about approaching its API request limit?
+  - id: api_v1_organisations_github_create_cleanup_issue_create
+    intent: Open a GitHub issue to clean up stale flags
+    question: Can Flagsmith open a GitHub issue reminding us to remove an old flag from code?
+  - id: api_v1_organisations_github_issues_retrieve
+    intent: List GitHub issues from the linked integration
+    question: Which GitHub issues can I link to a feature flag?
+  - id: api_v1_organisations_github_pulls_retrieve
+    intent: List GitHub pull requests from the integration
+    question: What pull requests from our GitHub repos can be linked to a flag?
+  phrasing_ops: 106
   slug: flagsmith-organisations-api
 - baseURL: https://api.flagsmith.com/api/v1
   baseurl_source: declared
   description: Manage projects within an organisation. Projects contain environments and feature flags.
   name: flagsmith Projects API
+  phrasing_intents:
+  - id: listProjects
+    intent: List projects I can access across organisations
+    question: Which Flagsmith projects do I have access to across all my organisations?
+  - id: createProject
+    intent: Create a project with just a name and organisation
+    question: What is the minimum I need to create a project that will hold environments and flags?
+  - id: getProject
+    intent: Get a project's details
+    question: How do I see a project's name, organisation and environments?
+  - id: updateProject
+    intent: Rename or replace a project's details
+    question: How do I rename an existing project?
+  - id: deleteProject
+    intent: Permanently delete a project and everything in it
+    question: What gets wiped when I permanently delete a project and all its environments and flags?
+  - id: api_v1_projects_list
+    intent: List projects via the v1 API
+    question: How do I list projects through the versioned v1 projects API?
+  - id: api_v1_projects_create
+    intent: Create a project with its settings
+    question: Can I create a project that enforces lower-case feature names or a naming regex?
+  - id: api_v1_projects_partial_update
+    intent: Change a project's settings
+    question: How do I change the stale flag threshold on a project?
+  phrasing_ops: 46
   slug: flagsmith-projects-api
 - baseURL: https://api.flagsmith.com/api/v1
   baseurl_source: declared
   description: Manage segments within a project. Segments define groups of users based on traits and rules for targeted flag delivery.
   name: flagsmith Segments API
+  phrasing_intents:
+  - id: listSegments
+    intent: List a project's segments
+    question: Which user segments are defined in my project?
+  - id: createSegment
+    intent: Create a segment from trait rules
+    question: How do I create a segment of users based on trait rules for targeted flags?
+  - id: getSegment
+    intent: Get a segment's rules and conditions
+    question: What rules and conditions make up a particular segment?
+  - id: updateSegment
+    intent: Replace a segment's name, description and rules
+    question: How do I rewrite the full rule set of an existing segment?
+  - id: deleteSegment
+    intent: Permanently delete a segment
+    question: What happens to segment overrides when I delete a segment?
+  - id: api_v1_projects_segments_partial_update
+    intent: Change some fields on a segment
+    question: Can I change just a segment's description without resending its rules?
+  - id: api_v1_projects_segments_destroy
+    intent: Delete a segment via the v1 project endpoint
+    question: Is there a v1 API path under /api/v1/projects for deleting a segment?
+  - id: api_v1_projects_segments_associated_features_retrieve
+    intent: See which features a segment is used by
+    question: Which features have overrides that depend on this segment?
+  phrasing_ops: 11
   slug: flagsmith-segments-api
 - baseURL: https://api.flagsmith.com/api/v1
   baseurl_source: declared
   description: Manage organisation users and their permissions within Flagsmith.
   name: flagsmith Users API
+  phrasing_intents:
+  - id: listOrganisationUsers
+    intent: List users in an organisation
+    question: Who are the members of my Flagsmith organisation?
+  phrasing_ops: 1
   slug: flagsmith-users-api
 - baseURL: https://api.flagsmith.com/api/v1
   baseurl_source: declared
   description: Configure webhooks for environments and organisations to receive notifications about flag changes and audit log events.
   name: flagsmith Webhooks API
+  phrasing_intents:
+  - id: listEnvironmentWebhooks
+    intent: List environment webhooks (unversioned path)
+    question: Which webhooks receive flag evaluation data for identified users in my environment, via the unversioned path?
+  - id: createEnvironmentWebhook
+    intent: Add an environment webhook (unversioned path)
+    question: How can I get flag evaluation data POSTed to my URL whenever identities are evaluated?
+  - id: listOrganisationWebhooks
+    intent: List organisation audit webhooks (unversioned)
+    question: Which webhooks receive audit log events for my whole organisation, from the unversioned path?
+  - id: createOrganisationWebhook
+    intent: Add an organisation audit webhook (unversioned)
+    question: How do I stream audit log events for changes across my organisation to my own URL?
+  - id: api_v1_cb_webhook_create
+    intent: Receive Chargebee subscription webhooks
+    question: What endpoint handles incoming Chargebee billing webhooks for subscription changes?
+  - id: api_v1_cohort_sync_mixpanel_webhook_create
+    intent: Receive a Mixpanel cohort sync
+    question: How does Mixpanel push cohort membership into Flagsmith each sync cycle?
+  - id: api_v1_cohort_sync_webhook_cohorts_members_add_create
+    intent: Add members to a CSV cohort
+    question: How do I add identities to an existing CSV cohort without re-uploading the file?
+  - id: api_v1_cohort_sync_webhook_cohorts_members_remove_create
+    intent: Remove members from a CSV cohort
+    question: How can I take specific identities out of a CSV cohort?
+  phrasing_ops: 21
   slug: flagsmith-webhooks-api
 - baseURL: https://edge.api.flagsmith.com
   baseurl_source: declared

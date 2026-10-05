@@ -77,11 +77,11 @@
      "slug": "onetrust",
      "description": "OneTrust is an enterprise trust, privacy, and AI-governance platform. Its developer portal publishes 37 downloadable OpenAPI definitions covering roughly 631 operations across Universal Consent & Preference Management, Cookie Consent / CMP, Consent Receipts, Data Subject Request (DSR) Automation, Assessment Automation (PIA/DPIA), Data Mapping, Data Catalog and Data Discovery, Incident Management, IT & Security Risk Management, Audit Management, Issues Management, Enterprise Policy Management, Compliance Automation, Third-Party Risk Management, ESG Program Reporting, AI Governance, and the shared platform services (Access Management, SCIM 2.0 User Provisioning, Object Manager, Inventory, Bulk Export, Documents, Integrations, Task Management, Global Activity). Every API is authorized with OAuth 2.0 client credentials against a per-tenant environment host, and the portal also serves an RFC 9727 /.well-known/api-catalog, an llms.txt, and a public remote MCP server.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/screenshots/onetrust-2026-06-20T190718.png",
-     "score": 72.7,
+     "score": 73.2,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 75.0,
+      "discoverability": 80.0,
       "contract_quality": 65.9,
       "contract_governance": 18.2,
       "operational_transparency": 92.1,
@@ -238,11 +238,11 @@
      "slug": "enphase",
      "description": "Enphase Energy is a Petaluma, California home-energy technology manufacturer and the dominant supplier of solar microinverters in the United States, shipping IQ Microinverters, IQ Batteries, IQ EV Chargers and the Envoy/IQ Gateway that ties them together through the Enlighten cloud. It sits on the DER side of the energy value chain rather than the utility side: it does not own meters, sell electricity, or operate a grid, so no consumer energy data mandate reaches it — there is no Green Button, ESPI or NAESB implementation anywhere in its developer surface, and the United States has no compulsory retail energy data right to designate it under. Its API posture is nevertheless unusually open for this sector. The Enphase Developer Portal at developer-v4.enphase.com is a genuine self-serve 3scale portal where anyone can register, create an application and subscribe to a free Watt plan, and it publishes three complete, anonymously downloadable machine-readable contracts covering 124 paths and 148 operations. The split that defines Enphase is consumer-data-open, market-data-closed: a third-party developer can retrieve an individual homeowner's site production, consumption, battery and EV charger telemetry through documented OAuth 2.0 authorization-code flows with the system owner's explicit approval, but Enphase publishes no open grid, wholesale market or system-wide generation data of any kind. Access is tiered — self-serve for monitoring, application-approval for installer commissioning (10+ installations required), and partner-only for the Virtual Power Plant API, which is the one place a real standard appears: OCPP 1.6 for EV charger control against third-party CSMS platforms.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/screenshots/enphase-2026-08-07T164929.png",
-     "score": 63.8,
+     "score": 64.3,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 73.2,
+      "discoverability": 78.6,
       "contract_quality": 56.7,
       "contract_governance": 18.2,
       "operational_transparency": 68.4,
@@ -334,6 +334,63 @@
      "rank": 6
     },
     {
+     "name": "Eliq",
+     "slug": "eliq",
+     "description": "Eliq is a Swedish energy-data company (Eliq AB, Gothenburg) that gives utilities and energy-app developers an API layer over household energy data. Its Data Management API ingests users, locations, meters, consumption readings and tariff price formulas — synchronously or as asynchronous NDJSON bulk jobs — and its Insights API returns presentation-ready analytics on top of that data: consumption and cost by day, week, month and year, CO2 footprint, appliance-level disaggregation (NILM), day-ahead market prices, peak power and dynamic capacity, tariff comparison, PV production, forecasting, anomaly detection, similar-homes benchmarking, budgets and personalised advice. An Intelligence API adds portfolio segmentation for utility service and growth teams, and an OAuth 2.0 Auth API issues app and delegated tokens for all of it. Eliq also ships 20 embeddable web components and pushes notification webhooks signed with HMAC-SHA256. Access is commercial — credentials are issued by an account manager — but all four OpenAPI contracts are published publicly.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eliq/refs/heads/main/screenshots/eliq-2026-06-20T180608.png",
+     "score": 62.7,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 71.4,
+      "contract_quality": 57.3,
+      "contract_governance": 18.2,
+      "operational_transparency": 65.8,
+      "developer_ergonomics": 73.2,
+      "access_clarity": 42.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 45.1,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 42.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 7
+    },
+    {
      "name": "Aedifion",
      "slug": "aedifion",
      "description": "aedifion GmbH is a Cologne-based PropTech founded in 2017 that operates a vendor-neutral, patented cloud platform for the optimized operation of non-residential buildings. The platform ingests real-time operating data from all building trades via plug-and-play edge devices, applies analytics and AI to detect faults and inefficiencies, and autonomously controls HVAC and building services based on weather forecasts, occupancy and electricity prices - cutting energy use, CO2 emissions and operating costs by up to 40% without structural retrofits. Products span aedifion.io (connectivity and monitoring), aedifion.analytics, aedifion.controls, aedifion.dynamics (demand-side management) and aedifion.smartkit. Developers get a documented HTTP API (OpenAPI 3.0, 208 operations across projects, datapoints, timeseries, analytics, controls, alerts and tasks), an MQTT broker and a Kafka interface for streaming building telemetry. The company serves owners, operators and asset managers of commercial real estate and supports decarbonization, ESG reporting and DGNB, ISO 50001 and GEG certification.",
@@ -380,63 +437,6 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 7
-    },
-    {
-     "name": "Eliq",
-     "slug": "eliq",
-     "description": "Eliq is a Swedish energy-data company (Eliq AB, Gothenburg) that gives utilities and energy-app developers an API layer over household energy data. Its Data Management API ingests users, locations, meters, consumption readings and tariff price formulas — synchronously or as asynchronous NDJSON bulk jobs — and its Insights API returns presentation-ready analytics on top of that data: consumption and cost by day, week, month and year, CO2 footprint, appliance-level disaggregation (NILM), day-ahead market prices, peak power and dynamic capacity, tariff comparison, PV production, forecasting, anomaly detection, similar-homes benchmarking, budgets and personalised advice. An Intelligence API adds portfolio segmentation for utility service and growth teams, and an OAuth 2.0 Auth API issues app and delegated tokens for all of it. Eliq also ships 20 embeddable web components and pushes notification webhooks signed with HMAC-SHA256. Access is commercial — credentials are issued by an account manager — but all four OpenAPI contracts are published publicly.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eliq/refs/heads/main/screenshots/eliq-2026-06-20T180608.png",
-     "score": 62.1,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 57.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 65.8,
-      "developer_ergonomics": 73.2,
-      "access_clarity": 42.1
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 45.1,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       }
-      ]
-     },
-     "agent_score": 42.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 8
     },
     {
@@ -444,11 +444,11 @@
      "slug": "openweathermap",
      "description": "OpenWeather (operating openweathermap.org) is a global weather data platform delivering current weather, multi-horizon forecasts, historical archives, climate statistics, air pollution, solar irradiance, road risk, geocoding, and weather map tiles. Data is sourced from satellites, weather models, radars, and a worldwide network of weather stations, served through REST APIs across a freemium, multi-tier, and pay-per-call commercial model.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/screenshots/openweathermap-2026-06-20T191055.png",
-     "score": 61.9,
+     "score": 62.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 80.4,
+      "discoverability": 85.7,
       "contract_quality": 69.0,
       "contract_governance": 31.8,
       "operational_transparency": 31.1,
@@ -544,7 +544,7 @@
      "slug": "epa",
      "description": "Web services, data products, and open data spanning the U.S. Environmental Protection Agency. Programmatic access to air quality, water quality, hazardous waste, toxic releases, facility compliance, power-sector emissions, computational toxicology, and watershed assessments through dozens of public APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/epa/refs/heads/main/screenshots/epa-2026-06-20T180747.png",
-     "score": 60.7,
+     "score": 61.3,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -594,7 +594,7 @@
      "slug": "autodesk",
      "description": "Autodesk is a global leader in design, engineering, and entertainment software, providing cloud-connected platform APIs through Autodesk Platform Services (APS). APS APIs enable developers to build applications that access design data, automate workflows, visualize 3D models, manage construction projects, create digital twins, and integrate sustainability data across Autodesk's product ecosystem including AutoCAD, Revit, Inventor, Maya, BIM 360, and Autodesk Construction Cloud.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/screenshots/autodesk-2026-07-25T201825.png",
-     "score": 59.9,
+     "score": 60.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -740,6 +740,56 @@
      "rank": 14
     },
     {
+     "name": "Corva AI",
+     "slug": "corva-ai",
+     "description": "Corva is a Houston-based AI software company providing a real-time drilling, completions, geoscience and sustainability analytics platform for upstream oil and gas. Corva ingests rig sensor and operational data and exposes it through TWO REST APIs on two hosts: the Platform API at api.corva.ai (wells, rigs, pads, programs, frac fleets, users, dashboards, alerts and apps; 513 paths and 771 operations described by a published Swagger 2.0 contract) and the Data API at data.corva.ai (time, depth, reference and timeseries dataset records, aggregations and permitted customer writes; described by a published OpenAPI 3.1 contract). Corva Dev Center is an SDK and app-hosting environment where customers build frontend, backend, scheduled, stream and task applications on Corva data, with a Python SDK, npm component libraries and a public app marketplace. Access is enterprise-only: there is no public pricing, no free tier and no self-serve signup, and API key creation is not enabled by default for most customer users.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/screenshots/corva-ai-2026-06-20T175049.png",
+     "score": 56.3,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 58.0,
+      "contract_quality": 55.3,
+      "contract_governance": 4.5,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 73.2,
+      "access_clarity": 36.8
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 28.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 33.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 15
+    },
+    {
      "name": "emem",
      "slug": "emem-dev",
      "description": "Vortx AI Private Limited is a spatial AI lab based in India that builds and operates emem (emem.dev), an Apache-2.0 protocol and hosted responder providing shared, verifiable memory for AI agents. Every place on Earth has one 64-bit address (cell64), every observation is an ed25519-signed, content-addressed fact materialised from satellite and open Earth-observation archives, and any agent can read without a key or account and verify the receipt offline. The surface is published as an OpenAPI 3.1 contract (196 operations), a remote MCP server (110 tools), an A2A 1.0 agent card, an llms.txt, RFC 8414 / RFC 9728 discovery documents, and first-party Python and TypeScript clients.",
@@ -784,56 +834,6 @@
       "delegated_identity": "served",
       "protected_resource_metadata": "documented",
       "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 15
-    },
-    {
-     "name": "Corva AI",
-     "slug": "corva-ai",
-     "description": "Corva is a Houston-based AI software company providing a real-time drilling, completions, geoscience and sustainability analytics platform for upstream oil and gas. Corva ingests rig sensor and operational data and exposes it through TWO REST APIs on two hosts: the Platform API at api.corva.ai (wells, rigs, pads, programs, frac fleets, users, dashboards, alerts and apps; 513 paths and 771 operations described by a published Swagger 2.0 contract) and the Data API at data.corva.ai (time, depth, reference and timeseries dataset records, aggregations and permitted customer writes; described by a published OpenAPI 3.1 contract). Corva Dev Center is an SDK and app-hosting environment where customers build frontend, backend, scheduled, stream and task applications on Corva data, with a Python SDK, npm component libraries and a public app marketplace. Access is enterprise-only: there is no public pricing, no free tier and no self-serve signup, and API key creation is not enabled by default for most customer users.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/screenshots/corva-ai-2026-06-20T175049.png",
-     "score": 55.8,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 52.7,
-      "contract_quality": 55.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 73.2,
-      "access_clarity": 36.8
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 28.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 33.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "rank": 16
@@ -889,6 +889,56 @@
      "rank": 17
     },
     {
+     "name": "Prime Intellect",
+     "slug": "prime-intellect",
+     "description": "Prime Intellect is a San Francisco–based startup building an open and decentralized stack for developing and improving AI agents through reinforcement learning. The company combines a 50+ provider GPU compute marketplace (single-node and 1–256 GPU multi-node clusters across H100, H200, B200, and B300), a managed RL post-training service (\"Lab\") that fine-tunes Qwen3.5, Llama, NVIDIA Nemotron, and OpenAI gpt-oss base models against a 2,500+ environment library (the Environments Hub), secure remote Python sandboxes for agent code execution, OpenAI-compatible inference at api.pinference.ai with LoRA adapter deployments, and an evaluations service that runs against the same environments. Prime Intellect is also the publisher of INTELLECT-3 (100B+ MoE trained with RL), INTELLECT-2 (32B trained via distributed RL), and the SYNTHETIC-2 dataset of four million reasoning traces, and develops the open-source `verifiers` RL library and the `prime-rl` async RL training framework. Everything is exposed via a single bearer-token REST API at api.primeintellect.ai, a `prime` Python CLI/SDK (PyPI: `prime`, lightweight `prime-sandboxes`), and the OpenAI protocol on the inference plane.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/screenshots/prime-intellect-2026-06-20T192203.png",
+     "score": 55.6,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 71.4,
+      "contract_quality": 63.8,
+      "contract_governance": 9.8,
+      "operational_transparency": 33.7,
+      "developer_ergonomics": 70.2,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 20.9,
+      "matched_via": "fallback"
+     },
+     "agent_score": 33.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "verified",
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 18
+    },
+    {
      "name": "Coperniq",
      "slug": "coperniq",
      "description": "Coperniq is an AI-powered operating system for residential and commercial contractors across solar, storage, HVAC, electrical, plumbing, and roofing trades, consolidating sales, project management, service operations, dispatch, and cashflow into one system. Its REST API (https://api.coperniq.io/v1) lets developers automate projects, opportunities, accounts, contacts, sites, assets, work orders, forms, quotes, invoices, bills, payments, and more, with API-key authentication, page-based pagination, per-key rate limiting, and outbound automation webhooks. Coperniq was surfaced as a portfolio company of Initialized Capital (sector: climate) and enriched into the API Evangelist network from its public developer surface.",
@@ -928,56 +978,6 @@
       "event_surface_described": true,
       "agent_skills": "derived",
       "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 18
-    },
-    {
-     "name": "Prime Intellect",
-     "slug": "prime-intellect",
-     "description": "Prime Intellect is a San Francisco–based startup building an open and decentralized stack for developing and improving AI agents through reinforcement learning. The company combines a 50+ provider GPU compute marketplace (single-node and 1–256 GPU multi-node clusters across H100, H200, B200, and B300), a managed RL post-training service (\"Lab\") that fine-tunes Qwen3.5, Llama, NVIDIA Nemotron, and OpenAI gpt-oss base models against a 2,500+ environment library (the Environments Hub), secure remote Python sandboxes for agent code execution, OpenAI-compatible inference at api.pinference.ai with LoRA adapter deployments, and an evaluations service that runs against the same environments. Prime Intellect is also the publisher of INTELLECT-3 (100B+ MoE trained with RL), INTELLECT-2 (32B trained via distributed RL), and the SYNTHETIC-2 dataset of four million reasoning traces, and develops the open-source `verifiers` RL library and the `prime-rl` async RL training framework. Everything is exposed via a single bearer-token REST API at api.primeintellect.ai, a `prime` Python CLI/SDK (PyPI: `prime`, lightweight `prime-sandboxes`), and the OpenAI protocol on the inference plane.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/screenshots/prime-intellect-2026-06-20T192203.png",
-     "score": 55.0,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 63.8,
-      "contract_governance": 9.8,
-      "operational_transparency": 33.7,
-      "developer_ergonomics": 70.2,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 20.9,
-      "matched_via": "fallback"
-     },
-     "agent_score": 33.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "verified",
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
@@ -1254,11 +1254,11 @@
      "slug": "terabase-energy",
      "description": "Terabase Energy builds digital and automation technology for the full lifecycle of utility-scale solar power plants — engineering and energy modeling, robotic field construction, and plant operations. Its software portfolio includes PlantPredict, an industry-standard bankable performance-modeling platform for utility-scale PV that predicts energy yield from early-stage prospecting through operational monitoring; Terrain Pro, a terrain analysis, grading and pile-layout engine for site design; Construct, a construction management platform; and Terafab, an automated field-factory system for solar module installation. PlantPredict exposes its entire modeling engine as a documented REST API (OpenAPI 3.1, OAuth 2.0 client-credentials via AWS Cognito), an official Python SDK, a Postman collection, and a hosted, OAuth-protected Model Context Protocol (MCP) connector for Claude, ChatGPT and Cursor.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/screenshots/terabase-energy-2026-08-17T082317.png",
-     "score": 53.1,
+     "score": 53.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 70.0,
+      "discoverability": 75.0,
       "contract_quality": 50.8,
       "contract_governance": 18.2,
       "operational_transparency": 18.4,
@@ -1550,6 +1550,63 @@
      "rank": 30
     },
     {
+     "name": "Google Maps Platform",
+     "slug": "google-maps",
+     "description": "Google Maps Platform offers APIs and SDKs for maps, routes, and places functionality.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/screenshots/google-maps-2026-06-20T182214.png",
+     "score": 51.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 51.8,
+      "contract_quality": 68.5,
+      "contract_governance": 18.2,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 56.0,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 31.4,
+      "matched_via": "fallback",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 27.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 31
+    },
+    {
      "name": "Arcadiapower2",
      "slug": "arcadiapower2",
      "description": "Arcadiapower2, operating under the brand Arcadia, provides an energy intelligence platform that unifies utility data, AI‑driven analytics, and advisory services to help enterprises manage energy costs, mitigate risk, and achieve sustainability goals. The platform offers tools for utility bill payment, procurement, carbon management, and detailed reporting, serving thousands of customers across the United States and supporting a significant portion of Fortune 500 enterprises.",
@@ -1596,7 +1653,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Voltus",
@@ -1646,7 +1703,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Clevergy",
@@ -1696,7 +1753,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Shell",
@@ -1734,63 +1791,6 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 34
-    },
-    {
-     "name": "Google Maps Platform",
-     "slug": "google-maps",
-     "description": "Google Maps Platform offers APIs and SDKs for maps, routes, and places functionality.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/screenshots/google-maps-2026-06-20T182214.png",
-     "score": 50.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 46.4,
-      "contract_quality": 68.5,
-      "contract_governance": 18.2,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 56.0,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 31.4,
-      "matched_via": "fallback",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       }
-      ]
-     },
-     "agent_score": 27.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -1906,6 +1906,63 @@
      "rank": 37
     },
     {
+     "name": "Lokki",
+     "slug": "lokki",
+     "description": "Lokki is a Grenoble, France rental-management SaaS (getlokki.com) used by 2,500+ equipment rental businesses across bikes, e-bikes, scooters, cars, ski, climbing, surf, paddle, canoe/kayak, boats, event gear, groundskeeping equipment and tooling, paired with the lokki.rent consumer rental marketplace. Lokki publishes a partner-facing read-only REST API — the Lokki External API, seven operations on https://prod.api.eu-west-3.lokki.rent covering stores (rental providers), store items with date-range pricing and stock, and the verticale/category taxonomy — documented on a Mintlify docs host at docs.getlokki.com with an OpenAPI 3.1 specification, llms.txt, an A2A agent card, a provider-authored Agent Skill and an anonymous documentation MCP server. Authentication is an environment-scoped API key in the x-api-key header (lokki_sk_test_ for staging, lokki_sk_live_ for production) issued by a Lokki representative under a partnership agreement, with scopes at domain, action and route level. The same production host also serves an unauthenticated NestJS Swagger document for the 896-operation internal Dashboard / Online Store API. Lokki has raised roughly €6.3M, led by blisce with Racine2 (Serena + makesense), 50 Partners Impact, FJ Labs and Silence VC.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lokki/refs/heads/main/screenshots/lokki-2026-09-02T150326.png",
+     "score": 49.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.0,
+      "contract_quality": 42.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 71.4,
+      "access_clarity": 38.2
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 24.5,
+      "matched_via": "fallback",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 33.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": "platform",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 38
+    },
+    {
      "name": "Eaton",
      "slug": "eaton",
      "description": "Eaton Corporation plc (NYSE: ETN) is a global intelligent-power-management company with operations across electrical, aerospace, vehicle, and eMobility segments. Its digital surface centers on Brightlayer — a software portfolio for data centers, utilities, industrial, buildings, and mobility — together with a developer program that exposes REST APIs for smart breakers, EV chargers, ambient monitoring, demand response, PDUs, and Brightlayer Operations Insight. Eaton is a strategic partner to NVIDIA on the Beam Rubin DSX 800 VDC AI-factory platform and to Autodesk on the Brightlayer Digital Energy Twin.",
@@ -1953,7 +2010,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Amber Electric",
@@ -2003,7 +2060,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Endeavour Energy",
@@ -2053,63 +2110,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
-    },
-    {
-     "name": "Lokki",
-     "slug": "lokki",
-     "description": "Lokki is a Grenoble, France rental-management SaaS (getlokki.com) used by 2,500+ equipment rental businesses across bikes, e-bikes, scooters, cars, ski, climbing, surf, paddle, canoe/kayak, boats, event gear, groundskeeping equipment and tooling, paired with the lokki.rent consumer rental marketplace. Lokki publishes a partner-facing read-only REST API — the Lokki External API, seven operations on https://prod.api.eu-west-3.lokki.rent covering stores (rental providers), store items with date-range pricing and stock, and the verticale/category taxonomy — documented on a Mintlify docs host at docs.getlokki.com with an OpenAPI 3.1 specification, llms.txt, an A2A agent card, a provider-authored Agent Skill and an anonymous documentation MCP server. Authentication is an environment-scoped API key in the x-api-key header (lokki_sk_test_ for staging, lokki_sk_live_ for production) issued by a Lokki representative under a partnership agreement, with scopes at domain, action and route level. The same production host also serves an unauthenticated NestJS Swagger document for the 896-operation internal Dashboard / Online Store API. Lokki has raised roughly €6.3M, led by blisce with Racine2 (Serena + makesense), 50 Partners Impact, FJ Labs and Silence VC.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lokki/refs/heads/main/screenshots/lokki-2026-09-02T150326.png",
-     "score": 49.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 70.0,
-      "contract_quality": 42.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 71.4,
-      "access_clarity": 38.2
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 24.5,
-      "matched_via": "fallback",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       }
-      ]
-     },
-     "agent_score": 33.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": "platform",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 41
     },
     {
@@ -2117,11 +2117,11 @@
      "slug": "miso",
      "description": "MISO — the Midcontinent Independent System Operator — is the not-for-profit Regional Transmission Organization that operates the electric grid and the wholesale electricity markets across fifteen US states and the Canadian province of Manitoba, serving a footprint of roughly forty-five million people from headquarters in Carmel, Indiana. Formed in 1998 and operating the region since December 2001, it is regulated by the Federal Energy Regulatory Commission, dispatches generation in real time, clears day-ahead and real-time energy and ancillary services markets, runs the ARR/FTR market and the generator interconnection queue, and plans the transmission system. It sits squarely in the middle of the value chain: it owns no generation, no wires and no retail customers, but it holds the market-wide operational data that every generator, transmission owner, load-serving entity and trader in the Midwest and the South depends on. Its API posture is the classic system operator split, and it is an unusually clean example of it. On the market side MISO is genuinely open — thirty-seven JSON endpoints at public-api.misoenergy.org return real-time fuel mix, load, prices, binding constraints and interchange to an anonymous GET with no key, no account and no click-through, and the full market report archive at docs.misoenergy.org downloads anonymously as CSV and XLSX. On the consumer side there is nothing to open: MISO is not a retail utility, holds no customer usage or billing data, and no energy-data mandate of any kind applies to it. Green Button is voluntary in the United States and is a distribution-utility standard; MISO publishes no Green Button, ESPI, or consumer data-sharing surface, and makes no claim to. Its newer MISO Data Exchange developer portal adds a keyed but self-serve tier over historical market report data, and its MUI 2.0 market interface is a genuinely closed, client-certificate-gated API for registered market participants only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/screenshots/miso-2026-08-07T183744.png",
-     "score": 48.7,
+     "score": 49.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 64.3,
+      "discoverability": 69.6,
       "contract_quality": 28.8,
       "contract_governance": 4.5,
       "operational_transparency": 52.6,
@@ -2566,11 +2566,11 @@
      "slug": "siemens-plm",
      "description": "Siemens PLM is Siemens Digital Industries Software's product lifecycle management platform offering REST APIs for Teamcenter (PDM/PLM), Polarion (ALM), Insights Hub (Industrial IoT), SiGREEN (sustainability), and the broader Siemens Xcelerator portfolio for digital manufacturing, simulation via Simcenter, and CAD/CAM tooling including NX and Solid Edge. The Siemens Xcelerator Developer Portal provides OpenAPI specifications, SDKs, Postman collections, and sandbox access for developers integrating with these industrial platforms.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/siemens-plm/refs/heads/main/screenshots/siemens-plm-2026-08-17T125316.png",
-     "score": 47.0,
+     "score": 47.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 66.1,
+      "discoverability": 71.4,
       "contract_quality": 49.8,
       "contract_governance": 9.8,
       "operational_transparency": 49.5,
@@ -2610,6 +2610,55 @@
       "agentic_commerce": false
      },
      "rank": 51
+    },
+    {
+     "name": "Aerones",
+     "slug": "aerones",
+     "description": "Aerones is a Latvian robotics company that performs wind turbine blade inspection, cleaning, coating, leading-edge repair and lightning-protection testing with cable-suspended robots and autonomous drones, operating onshore and offshore for owners and OEMs including NextEra, GE, Vestas, Enel and Siemens Gamesa. Its software side is the Operations Hub — a Django Ninja backend behind portal.aerones.com that publishes an unauthenticated OpenAPI 3.1.0 description (760 paths, 1,114 operations, 1,377 schemas) alongside a companion GraphQL schema (339 queries, 325 mutations, 4 subscriptions), covering turbines, blades, anomalies, robot sets, work orders, dispatch, projects, inspections and accounting. Authentication is Keycloak OIDC on sso.aerones.com (realm \"aerones\", client \"operations-hub\"). The contract is public; the data behind it is customer- and staff-gated, and Aerones publishes no developer program, SDKs, pricing or partner API documentation.",
+     "score": 47.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 58.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 20.8,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 38.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 44.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "verified",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": "derived",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "derived",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 52
     },
     {
      "name": "Cloverly",
@@ -2659,7 +2708,64 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 53
+    },
+    {
+     "name": "Measurabl",
+     "slug": "measurabl",
+     "description": "Measurabl is an ESG (environmental, social and governance) data and sustainability management platform for commercial real estate, used by owners, investors, asset managers and capital-markets participants to measure, manage, report and act on building performance data. The platform covers utility and waste data collection, carbon accounting, green building certifications and ratings, local performance ordinance compliance, CRREM transition-risk analysis, and portfolio and fund-level ESG reporting. Measurabl exposes this through a REST API surface documented in Swagger UI at api.measurabl.com: a Core API for reading and writing portfolios, buildings, spaces, funds, energy/water meters and readings, waste meters, certifications and ratings; an ESGx Buildings (Insights) API for asset-level energy and carbon estimates, certification and ordinance lookups, CRREM lookups and bulk exports; ESGx Securities and ESGx Securities Compliance Files APIs for listed real estate company-level and building-level datasets; and a Partner API for partner-side portfolio, building and monthly utility data access. Every API is OpenAPI 3.0.1, secured with OAuth 2.0 client credentials, and returns JSON:API (application/vnd.api+json) documents.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/screenshots/measurabl-2026-08-07T172304.png",
+     "score": 46.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 71.4,
+      "contract_quality": 43.9,
+      "contract_governance": 4.5,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 61.3,
+      "access_clarity": 32.9
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 35.2,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 32.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 54
     },
     {
      "name": "Sofar Ocean",
@@ -2709,56 +2815,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
-    },
-    {
-     "name": "Aerones",
-     "slug": "aerones",
-     "description": "Aerones is a Latvian robotics company that performs wind turbine blade inspection, cleaning, coating, leading-edge repair and lightning-protection testing with cable-suspended robots and autonomous drones, operating onshore and offshore for owners and OEMs including NextEra, GE, Vestas, Enel and Siemens Gamesa. Its software side is the Operations Hub — a Django Ninja backend behind portal.aerones.com that publishes an unauthenticated OpenAPI 3.1.0 description (760 paths, 1,114 operations, 1,377 schemas) alongside a companion GraphQL schema (339 queries, 325 mutations, 4 subscriptions), covering turbines, blades, anomalies, robot sets, work orders, dispatch, projects, inspections and accounting. Authentication is Keycloak OIDC on sso.aerones.com (realm \"aerones\", client \"operations-hub\"). The contract is public; the data behind it is customer- and staff-gated, and Aerones publishes no developer program, SDKs, pricing or partner API documentation.",
-     "score": 46.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 67.9,
-      "contract_quality": 58.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 20.8,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 38.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 44.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "verified",
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": "derived",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "derived",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "Virtual Peaker",
@@ -2808,7 +2865,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "Google Earth Engine REST",
@@ -2858,7 +2915,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "Smarter Sorting",
@@ -2898,63 +2955,6 @@
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
       "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 57
-    },
-    {
-     "name": "Measurabl",
-     "slug": "measurabl",
-     "description": "Measurabl is an ESG (environmental, social and governance) data and sustainability management platform for commercial real estate, used by owners, investors, asset managers and capital-markets participants to measure, manage, report and act on building performance data. The platform covers utility and waste data collection, carbon accounting, green building certifications and ratings, local performance ordinance compliance, CRREM transition-risk analysis, and portfolio and fund-level ESG reporting. Measurabl exposes this through a REST API surface documented in Swagger UI at api.measurabl.com: a Core API for reading and writing portfolios, buildings, spaces, funds, energy/water meters and readings, waste meters, certifications and ratings; an ESGx Buildings (Insights) API for asset-level energy and carbon estimates, certification and ordinance lookups, CRREM lookups and bulk exports; ESGx Securities and ESGx Securities Compliance Files APIs for listed real estate company-level and building-level datasets; and a Partner API for partner-side portfolio, building and monthly utility data access. Every API is OpenAPI 3.0.1, secured with OAuth 2.0 client credentials, and returns JSON:API (application/vnd.api+json) documents.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/screenshots/measurabl-2026-08-07T172304.png",
-     "score": 46.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 43.9,
-      "contract_governance": 4.5,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 61.3,
-      "access_clarity": 32.9
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 35.2,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       }
-      ]
-     },
-     "agent_score": 32.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3018,6 +3018,56 @@
      "rank": 59
     },
     {
+     "name": "Con Edison",
+     "slug": "con-edison",
+     "description": "Consolidated Edison Company of New York, Inc. (CECONY, trading as Con Edison) is the investor-owned electric, gas and steam utility that serves New York City and Westchester County, and together with its sibling Orange & Rockland Utilities (ORU) forms the regulated utility core of Consolidated Edison, Inc. It is a wires-and-pipes distribution utility rather than a competitive retailer: it owns and operates the distribution system, meters the customer and bills the customer, while wholesale energy markets are run by NYISO and competitive supply is sold by ESCOs. It is rate-regulated by the New York State Public Service Commission. Its API posture is the most interesting in the United States sample because both halves are real and they are gated completely differently. On the consumer side Con Edison runs a genuine, verified Green Button Connect My Data implementation — the NAESB REQ.21 ESPI standard, branded \"Share My Data\" — with a live production base URI at https://api.coned.com/gbc/espi/1_1 that answers anonymously with HTTP 401 \"Unauthorized. Access token is missing or invalid.\", a publicly downloadable 37-path Swagger 2.0 definition (\"DCX GBC API V2\"), a public Postman collection titled \"GBC Certification Third party V3.3\", OAuth 2.0 authorization-code and client-credentials flows, ESPI functional-block scopes, batch and real-time interval endpoints, and a 35-page technical onboarding document last revised 2026-05-07. The United States has no federal energy consumer data right; Con Edison's adoption sits under New York PSC supervision (the Joint Utilities DSIP proceeding, Case 16-M-0411, in which it committed to implement the first phase of GBC by end of 2017, the Data Access Framework in Case 20-M-0082, and a Customer Data Access Tariff) rather than under a statutory mandate like Australia's Consumer Data Right or Ontario Regulation 633/21. That data is not self-serve: a third party must register, sign a Data Security Agreement, submit a technical onboarding form and pass 30 to 60 days of supervised testing before production credentials are issued, and Con Edison states plainly that it \"is unable to support API development for third parties.\" On the market side, by contrast, Con Edison publishes distribution-grid data openly and anonymously: the Hosting Capacity Map documents REST API access, and its ArcGIS feature services for segmented and network hosting capacity, EV transformer capacity, 33kV feeders, non-wires-solutions networks and disadvantaged communities all answer unauthenticated. Open on the grid, accredited on the customer — that split is the finding.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/screenshots/con-edison-2026-08-07T163921.png",
+     "score": 45.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 62.5,
+      "contract_quality": 42.5,
+      "contract_governance": 18.2,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 68.0,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 34.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 25.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 60
+    },
+    {
      "name": "Leap",
      "slug": "leap",
      "description": "Leap is a San Francisco-based energy software company that lets technology brands build and scale virtual power plants (VPPs). Its platform aggregates distributed energy resources — residential and commercial battery storage, smart thermostats and heat pumps, and EV charging — and gives them a single point of integration into wholesale electricity markets and utility grid-service programs across CAISO, NYISO and other regions. Leap exposes a universal REST API covering meter onboarding and bulk creation, utility data authorization (Leap Connect), enrollment and participation management, market nominations and bidding, real-time dispatch delivery over webhooks or polling, event performance and interval data, and revenue settlement reporting. Partners authenticate with environment-scoped bearer API keys against separate staging and production hosts, and Leap publishes OpenAPI definitions, a dated changelog, an llms.txt index and a public status page.",
@@ -3065,7 +3115,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 61
     },
     {
      "name": "Picarro",
@@ -3113,56 +3163,6 @@
       "delegated_identity": "served",
       "protected_resource_metadata": false,
       "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 61
-    },
-    {
-     "name": "Con Edison",
-     "slug": "con-edison",
-     "description": "Consolidated Edison Company of New York, Inc. (CECONY, trading as Con Edison) is the investor-owned electric, gas and steam utility that serves New York City and Westchester County, and together with its sibling Orange & Rockland Utilities (ORU) forms the regulated utility core of Consolidated Edison, Inc. It is a wires-and-pipes distribution utility rather than a competitive retailer: it owns and operates the distribution system, meters the customer and bills the customer, while wholesale energy markets are run by NYISO and competitive supply is sold by ESCOs. It is rate-regulated by the New York State Public Service Commission. Its API posture is the most interesting in the United States sample because both halves are real and they are gated completely differently. On the consumer side Con Edison runs a genuine, verified Green Button Connect My Data implementation — the NAESB REQ.21 ESPI standard, branded \"Share My Data\" — with a live production base URI at https://api.coned.com/gbc/espi/1_1 that answers anonymously with HTTP 401 \"Unauthorized. Access token is missing or invalid.\", a publicly downloadable 37-path Swagger 2.0 definition (\"DCX GBC API V2\"), a public Postman collection titled \"GBC Certification Third party V3.3\", OAuth 2.0 authorization-code and client-credentials flows, ESPI functional-block scopes, batch and real-time interval endpoints, and a 35-page technical onboarding document last revised 2026-05-07. The United States has no federal energy consumer data right; Con Edison's adoption sits under New York PSC supervision (the Joint Utilities DSIP proceeding, Case 16-M-0411, in which it committed to implement the first phase of GBC by end of 2017, the Data Access Framework in Case 20-M-0082, and a Customer Data Access Tariff) rather than under a statutory mandate like Australia's Consumer Data Right or Ontario Regulation 633/21. That data is not self-serve: a third party must register, sign a Data Security Agreement, submit a technical onboarding form and pass 30 to 60 days of supervised testing before production credentials are issued, and Con Edison states plainly that it \"is unable to support API development for third parties.\" On the market side, by contrast, Con Edison publishes distribution-grid data openly and anonymously: the Hosting Capacity Map documents REST API access, and its ArcGIS feature services for segmented and network hosting capacity, EV transformer capacity, 33kV feeders, non-wires-solutions networks and disadvantaged communities all answer unauthenticated. Open on the grid, accredited on the customer — that split is the finding.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/screenshots/con-edison-2026-08-07T163921.png",
-     "score": 45.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 57.1,
-      "contract_quality": 42.5,
-      "contract_governance": 18.2,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 68.0,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 34.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 25.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "rank": 62
@@ -3468,6 +3468,56 @@
      "rank": 68
     },
     {
+     "name": "Altruistiq",
+     "slug": "altruistiq",
+     "description": "Altruistiq is a London-based climate intelligence platform for food and beverage and other FMCG enterprises managing complex supply chains. The platform unifies corporate carbon footprint reporting, product carbon footprint (PCF) calculation, and supplier engagement on a single ISO 14064-1 assured calculation engine, drawing raw operational data from finance, procurement, and supply chain systems to produce activity-based Scope 1, 2, and 3 emissions measurements. Altruistiq exposes a public Datasource API and a PACT-conformant Product Carbon Footprint data exchange API (OAuth 2.0 client credentials) for uploading activity data, managing products, bills of materials, facilities, and exporting calculated emissions. Customers include Starbucks, Kraft Heinz, Huel, Nando's, Octopus Energy, and other FMCG and food and beverage brands.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/screenshots/altruistiq-2026-06-20T171616.png",
+     "score": 44.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 66.5,
+      "contract_governance": 27.3,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 31.0,
+      "access_clarity": 49.5
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 27.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 69
+    },
+    {
      "name": "NASA FIRMS",
      "slug": "nasa-firms",
      "description": "NASA Fire Information for Resource Management System (FIRMS) REST API providing near-real-time satellite fire detections globally from MODIS (Terra/Aqua), VIIRS (S-NPP, NOAA-20, NOAA-21), and LANDSAT instruments. Data is available within 3 hours of satellite observation worldwide, with Ultra Real-Time detections available within 60 seconds for the US and Canada. Supports area-based bounding box queries, KML fire footprints by region, data availability checks, and missing data identification. Free MAP_KEY registration required.",
@@ -3515,7 +3565,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Prewave",
@@ -3565,7 +3615,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "SPAN",
@@ -3615,7 +3665,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "Department of Energy",
@@ -3665,7 +3715,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "AMCS Group",
@@ -3715,7 +3765,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "Reposit Power",
@@ -3756,56 +3806,6 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 74
-    },
-    {
-     "name": "Altruistiq",
-     "slug": "altruistiq",
-     "description": "Altruistiq is a London-based climate intelligence platform for food and beverage and other FMCG enterprises managing complex supply chains. The platform unifies corporate carbon footprint reporting, product carbon footprint (PCF) calculation, and supplier engagement on a single ISO 14064-1 assured calculation engine, drawing raw operational data from finance, procurement, and supply chain systems to produce activity-based Scope 1, 2, and 3 emissions measurements. Altruistiq exposes a public Datasource API and a PACT-conformant Product Carbon Footprint data exchange API (OAuth 2.0 client credentials) for uploading activity data, managing products, bills of materials, facilities, and exporting calculated emissions. Customers include Starbucks, Kraft Heinz, Huel, Nando's, Octopus Energy, and other FMCG and food and beverage brands.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/screenshots/altruistiq-2026-06-20T171616.png",
-     "score": 43.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 60.7,
-      "contract_quality": 66.5,
-      "contract_governance": 27.3,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 31.0,
-      "access_clarity": 49.5
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 27.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -5068,6 +5068,55 @@
      "rank": 100
     },
     {
+     "name": "Viridi",
+     "slug": "viridi-parente",
+     "description": "Viridi (Viridi Parente, Inc.) is a Buffalo, New York manufacturer of fail-safe, modular lithium-ion battery energy storage systems (RPS150, RPS50, RPSLink IN/EX, SBR30, FAVEO and the 1.2 MWh series) built around its Anti-Propagation technology for installation in occupied spaces. Its software side is ViSTA / Viridi Insights, an energy management and IIoT platform pairing a data-visualization engine with a Conductor edge computing platform, connecting behind-the-meter equipment over BACnet, Modbus, CANbus, DNP3 and serial links for remote monitoring, peak shaving and demand response. ViSTA runs a Viridi-branded ThingsBoard deployment at vista.viridiparente.com that serves an anonymously readable OpenAPI 3.1 contract and carries Viridi-authored controllers for SBR30 telemetry, generator and chiller data, CBRS device management and Moxion AEMP equipment telematics.",
+     "score": 40.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 48.2,
+      "contract_governance": 4.5,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 37.5,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 20.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 22.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 101
+    },
+    {
      "name": "The Climate Corporation",
      "slug": "the-climate-corporation",
      "description": "The Climate Corporation (Climate LLC, a Bayer company) operates Climate FieldView, one of the world's largest digital agriculture platforms, spanning 120M+ acres and 100,000+ farmers. Its FieldView Platform APIs let approved partners read and write growers' data with OAuth2 consent: field boundaries (GeoJSON), farm organizations, operations, resource owners, and agronomic layers (as-planted, as-applied, as-harvested, scouting), plus asynchronous bulk uploads and exports of planting, application, harvest, imagery, seeding prescription (rx), and soil-sample data. Every call requires both a Bearer access token and a partner X-Api-Key. A v5 API surface is in preview.",
@@ -5115,7 +5164,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 102
     },
     {
      "name": "UtilityAPI",
@@ -5165,7 +5214,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 103
     },
     {
      "name": "National Energy System Operator (NESO)",
@@ -5210,55 +5259,6 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 103
-    },
-    {
-     "name": "Viridi",
-     "slug": "viridi-parente",
-     "description": "Viridi (Viridi Parente, Inc.) is a Buffalo, New York manufacturer of fail-safe, modular lithium-ion battery energy storage systems (RPS150, RPS50, RPSLink IN/EX, SBR30, FAVEO and the 1.2 MWh series) built around its Anti-Propagation technology for installation in occupied spaces. Its software side is ViSTA / Viridi Insights, an energy management and IIoT platform pairing a data-visualization engine with a Conductor edge computing platform, connecting behind-the-meter equipment over BACnet, Modbus, CANbus, DNP3 and serial links for remote monitoring, peak shaving and demand response. ViSTA runs a Viridi-branded ThingsBoard deployment at vista.viridiparente.com that serves an anonymously readable OpenAPI 3.1 contract and carries Viridi-authored controllers for SBR30 telemetry, generator and chiller data, CBRS device management and Moxion AEMP equipment telematics.",
-     "score": 39.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 60.7,
-      "contract_quality": 48.2,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 37.5,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 20.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 22.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -5627,6 +5627,56 @@
      "rank": 111
     },
     {
+     "name": "Edamam",
+     "slug": "edamam-recipes",
+     "description": "Edamam is a food and nutrition data platform powering recipe search, NLP-based nutrition analysis, food database lookup (keyword / brand / UPC / AI Vision), and personalized meal planning. The flagship Recipe Search API v2 covers a 2M+ recipe index with 30+ filters across diet, health, cuisine, meal, dish, nutrients, time, glycemic index, and CO2 emissions class.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/screenshots/edamam-recipes-2026-06-20T180448.png",
+     "score": 38.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 78.6,
+      "contract_quality": 61.3,
+      "contract_governance": 27.3,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 38.1,
+      "access_clarity": 25.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 16.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 28.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 112
+    },
+    {
      "name": "Wattwatchers",
      "slug": "wattwatchers",
      "description": "Wattwatchers is an Australian digital energy company (founded 2007, headquartered in Sydney, NSW) that designs and manufactures the Auditor family of DIN-rail electricity monitoring and switching devices, and operates the cloud platform behind them. It sits behind the meter rather than at it — Auditors clamp onto individual circuits and report real-time, circuit-level energy data over 4G or WiFi to Wattwatchers' hosted platform, which resells that data to solar installers, energy retailers, energy services companies, EV and DER programs, schools and research trials. Its API posture is genuinely open at the documentation layer and closed at the data layer — the full REST API v3 (Mercury) reference, a live Swagger UI and a downloadable OpenAPI 3.0 contract are all served anonymously from docs.wattwatchers.com.au, but no key is self-serve: Wattwatchers issues bearer tokens by hand and scopes each one to the specific devices you own or manage, so the API returns your fleet's data and nothing else. Consumer usage data is therefore available through a documented API, while no open grid or market data is published at all. Wattwatchers is not a designated Consumer Data Right energy data holder and does not appear as an accredited data recipient — the CDR energy mandate applies to retailers and AEMO, not to behind-the-meter hardware vendors, so this platform carries no CDR obligation and implements no CDR or Green Button data standard. Wattwatchers entered voluntary administration in October 2025 and was acquired by EPX Limited (ASX:EPX, formerly EP&T Global); the Wattwatchers knowledge base now redirects to support.epx.tech, while the developer documentation, the API host and the OpenAPI contract all remain live and unchanged.",
@@ -5674,7 +5724,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 113
     },
     {
      "name": "Energy Queensland",
@@ -5724,7 +5774,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 114
     },
     {
      "name": "Supply Wisdom",
@@ -5781,7 +5831,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 115
     },
     {
      "name": "Xignite",
@@ -5831,7 +5881,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 116
     },
     {
      "name": "Tomorrow.io",
@@ -5869,56 +5919,6 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 116
-    },
-    {
-     "name": "Edamam",
-     "slug": "edamam-recipes",
-     "description": "Edamam is a food and nutrition data platform powering recipe search, NLP-based nutrition analysis, food database lookup (keyword / brand / UPC / AI Vision), and personalized meal planning. The flagship Recipe Search API v2 covers a 2M+ recipe index with 30+ filters across diet, health, cuisine, meal, dish, nutrients, time, glycemic index, and CO2 emissions class.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/screenshots/edamam-recipes-2026-06-20T180448.png",
-     "score": 38.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 61.3,
-      "contract_governance": 27.3,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 38.1,
-      "access_clarity": 25.0
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 16.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 28.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -7731,6 +7731,56 @@
      "rank": 153
     },
     {
+     "name": "NASA",
+     "slug": "nasa",
+     "description": "NASA (National Aeronautics and Space Administration) provides a suite of public APIs at api.nasa.gov offering access to space, Earth science, and aeronautics data. Key APIs include Astronomy Picture of the Day (APOD), Mars Rover Photos, Near Earth Object Web Service (NeoWs), DONKI space weather events, EPIC Earth imagery, and the NASA Image and Video Library. All APIs are free and accessible with an API key.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/screenshots/nasa-2026-06-20T185945.png",
+     "score": 34.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 69.6,
+      "contract_quality": 50.3,
+      "contract_governance": 14.4,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 35.7,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 22.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 20.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 154
+    },
+    {
      "name": "Agromonitoring",
      "slug": "agromonitoring",
      "description": "Agromonitoring is a technology company specializing in satellite-based agricultural monitoring. Using Sentinel-2 and Landsat imagery combined with weather and soil data, Agromonitoring provides vegetation index time series (NDVI, EVI, DSWI, LSWI), current weather, multi-day forecasts, and soil conditions for registered field polygons. The platform enables precision agriculture workflows including crop health assessment, irrigation optimization, yield prediction, and climate risk monitoring.",
@@ -7778,7 +7828,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 154
+     "rank": 155
     },
     {
      "name": "Delos",
@@ -7828,7 +7878,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 156
     },
     {
      "name": "GeoInsight",
@@ -7873,56 +7923,6 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 156
-    },
-    {
-     "name": "NASA",
-     "slug": "nasa",
-     "description": "NASA (National Aeronautics and Space Administration) provides a suite of public APIs at api.nasa.gov offering access to space, Earth science, and aeronautics data. Key APIs include Astronomy Picture of the Day (APOD), Mars Rover Photos, Near Earth Object Web Service (NeoWs), DONKI space weather events, EPIC Earth imagery, and the NASA Image and Video Library. All APIs are free and accessible with an API key.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/screenshots/nasa-2026-06-20T185945.png",
-     "score": 33.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 64.3,
-      "contract_quality": 50.3,
-      "contract_governance": 14.4,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 35.7,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 22.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 20.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -9340,11 +9340,11 @@
      "slug": "isometric",
      "description": "Isometric is a London- and New York-based certifier of climate solutions building an AI-native, science-led registry and verification platform for the industrial economy. Founded in 2022 by Eamon Jubbawy (Onfido), Isometric certifies durable carbon dioxide removal (CDR), superpollutant abatement, and related environmental attributes against the public Isometric Standard, a library of peer-reviewed protocols spanning biochar, enhanced weathering, mineralization, direct air capture, marine CDR, biosphere pathways (such as reforestation, mangroves, agroforestry, and improved forest management), and superpollutant abatement (HFC/ODS recovery, landfill methane, rice methane). Buyers, suppliers, and integrators interact with Isometric through three primary platforms — Certify (project design, MRV data ingestion, LCA, GHG statements, validation), Registry (issuances, credit batches, deliveries, transfers, retirements, buffer pools), and Protocols (operationalized scientific methodology) — exposed via the Registry API and the Certify (MRV) Data Ingestion API. Both APIs are versioned at /v0, share a unified two-credential model (X-Client-Secret + Bearer JWT), run on sandbox and production hosts, and are accompanied by a hosted MCP server at api.isometric.com/mcp that exposes the Isometric Standard, protocols, modules, and platform documentation to AI clients such as Claude, ChatGPT, Gemini, Cursor, Windsurf, and VS Code Copilot. Customers include Google, Microsoft, Shopify, Frontier-aligned buyers, and Anglo American, and the registry powers credit lifecycle operations for marketplaces, intermediaries, and carbon intelligence platforms.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/isometric/refs/heads/main/screenshots/isometric-2026-06-20T183619.png",
-     "score": 29.2,
+     "score": 29.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 65.0,
+      "discoverability": 70.0,
       "contract_quality": 51.9,
       "contract_governance": 0.0,
       "operational_transparency": 18.4,
@@ -12707,6 +12707,56 @@
      "rank": 252
     },
     {
+     "name": "WinCL",
+     "slug": "wincl",
+     "description": "WinCL (윈클) is a Korean integrated carbon-management platform that helps enterprises calculate greenhouse-gas emissions, produce climate disclosures and reports, and offset their footprint end-to-end. It combines WinCL Monitoring (emissions accounting and climate disclosure), a WinCL Marketplace for buying globally certified carbon credits (Verra, Gold Standard) and I-REC renewable-energy certificates, a WinCL Reward marketing layer, and consulting services. The WinCL API (api.wincl.io, 271 operations, Bearer JWT) exposes wallet, credit box, certificate box, product, order, Stripe/KCP payment, and Hedera on-chain minting/offset operations so customers can embed carbon purchasing and credit retirement directly into their own applications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/screenshots/wincl-2026-09-02T170801.png",
+     "score": 22.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.0,
+      "contract_quality": 44.8,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 23.2,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 15.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 22.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "platform",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 253
+    },
+    {
      "name": "Aptera Motors",
      "slug": "aptera-motors",
      "description": "Aptera Motors Corp. (Nasdaq: SEV) is a Carlsbad, California solar electric vehicle manufacturer founded by Steve Fambro and Chris Anthony. The company builds a three-wheeled, two-seat enclosed autocycle covered in roughly 700 watts of integrated solar cells, designed to add up to 40 miles of range per day from sunlight alone and to travel up to 10,000 miles a year on free solar power, with a 400-mile battery range on the Launch Edition, over 320 MPGe efficiency, a ~2,200 lb curb weight and 0-60 mph in under six seconds. Aptera sells reservations direct to consumers through its own configurator, runs a branded Shopify merchandise storefront, and has committed to open-source driver assistance by integrating comma.ai openpilot into the vehicle. Aptera publishes no public developer program, API documentation, or machine-readable API contract as of this enrichment pass.",
@@ -12754,7 +12804,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 253
+     "rank": 254
     },
     {
      "name": "International Energy Agency (IEA)",
@@ -12803,7 +12853,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 254
+     "rank": 255
     },
     {
      "name": "Supplier",
@@ -12851,56 +12901,6 @@
       "delegated_identity": "served",
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 255
-    },
-    {
-     "name": "WinCL",
-     "slug": "wincl",
-     "description": "WinCL (윈클) is a Korean integrated carbon-management platform that helps enterprises calculate greenhouse-gas emissions, produce climate disclosures and reports, and offset their footprint end-to-end. It combines WinCL Monitoring (emissions accounting and climate disclosure), a WinCL Marketplace for buying globally certified carbon credits (Verra, Gold Standard) and I-REC renewable-energy certificates, a WinCL Reward marketing layer, and consulting services. The WinCL API (api.wincl.io, 271 operations, Bearer JWT) exposes wallet, credit box, certificate box, product, order, Stripe/KCP payment, and Hedera on-chain minting/offset operations so customers can embed carbon purchasing and credit retirement directly into their own applications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/screenshots/wincl-2026-09-02T170801.png",
-     "score": 22.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 70.0,
-      "contract_quality": 44.8,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 23.2,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 15.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 22.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "platform",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "rank": 256

@@ -16,11 +16,11 @@
      "slug": "linkedin",
      "description": "LinkedIn is a professional networking platform providing APIs for consumer integrations (Sign In, Share, Verified on LinkedIn), marketing solutions (ad campaigns, audiences, conversions, analytics), talent solutions (job posting, recruiter system connect), learning solutions (activity reports, content), sales navigator (CRM sync, display, analytics), compliance (message archiving), and regulatory data portability.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/screenshots/linkedin-2026-06-20T184544.png",
-     "score": 75.7,
+     "score": 76.3,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 73.2,
+      "discoverability": 78.6,
       "contract_quality": 70.3,
       "contract_governance": 45.5,
       "operational_transparency": 71.1,
@@ -148,20 +148,20 @@
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": "verified",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": true,
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
-      "agent_card": "conformant",
+      "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "rank": 3
@@ -335,11 +335,11 @@
      "slug": "bindbee",
      "description": "Bindbee is a unified API for HRIS, Payroll, ATS and LMS integrations. One integration against Bindbee reaches 67+ third-party HR systems — BambooHR, Workday, ADP, Greenhouse, Lever, Personio, Hibob and the rest — through normalized employee, candidate, job, payroll, time-off and course models, so a B2B software company never builds a one-to-one connector again. Each of its customers' end users authorizes their own system through an embedded link flow and is addressed by a connector token; reads are served from Bindbee's synced copy of the upstream system, refreshed every 24 hours by default, with webhooks for sync and data-change events and a passthrough endpoint for anything the unified model does not cover.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/screenshots/bindbee-2026-06-20T173245.png",
-     "score": 70.4,
+     "score": 70.9,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 70.0,
+      "discoverability": 75.0,
       "contract_quality": 60.7,
       "contract_governance": 45.5,
       "operational_transparency": 47.4,
@@ -446,11 +446,11 @@
      "slug": "visier",
      "description": "Visier is a workforce and people analytics platform that consolidates HR, talent, compensation, and operational data into a purpose-built people data model, then exposes that model for analysis, planning, and AI-assisted question answering. Visier publishes a broad suite of public REST APIs — Data In (Direct Data Intake, Data Upload, job handling), Data Out (Data Query, Vee, exports), Administration (tenants, users, profiles, permissions, projects), Analytic Model (data model, concepts, metrics, dimensions), Planning, Webhooks, and dataset APIs such as Compensation Benchmarks and the Skills Intelligence Engine. OpenAPI v3 definitions for every collection are published on GitHub at visier/openapi-clients, generated Python SDKs ship to PyPI, and a hosted Visier Query MCP server exposes Vee and data-query tools to MCP clients over OAuth 2.0.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/visier/refs/heads/main/screenshots/visier-2026-08-17T082801.png",
-     "score": 64.4,
+     "score": 65.0,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 73.2,
+      "discoverability": 78.6,
       "contract_quality": 51.7,
       "contract_governance": 4.5,
       "operational_transparency": 76.3,
@@ -495,11 +495,11 @@
      "name": "Visma",
      "slug": "visma",
      "description": "Visma is a Nordic business-software group headquartered in Oslo, Norway, supplying cloud ERP, accounting, invoicing, payroll, HR and public-sector software to more than a million customers across Europe and Latin America. Its developer surface is federated across product lines rather than centralised: Visma.net ERP publishes a 511-operation OpenAPI 3.0 contract at api.finance.visma.net in service (client-credentials) and interactive (authorization-code) flavours; Bookkeeping & Invoicing/eAccounting and Cloud Payroll (Spiris, formerly Visma Spcs) publish OpenAPI 3.0 contracts at eaccountingapi.vismaonline.com and vlsapi.vismaonline.com; and Business NXT exposes a GraphQL API at business.visma.net. Identity is centralised on Visma Connect (connect.visma.com), an OpenID Connect provider advertising 129 scopes, with a second IdentityServer at identity.vismaonline.com for the Spiris product line. Visma ships two first-party remote MCP servers — Business NXT at mcp.business.visma.net and Spiris at mcp.spiris.se — both OAuth-protected and discoverable via RFC 9728.",
-     "score": 64.2,
+     "score": 64.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 75.0,
+      "discoverability": 80.0,
       "contract_quality": 55.0,
       "contract_governance": 18.2,
       "operational_transparency": 92.1,
@@ -552,11 +552,11 @@
      "slug": "deel-com",
      "description": "Deel is a global workforce platform combining payroll, Employer of Record (EOR), independent contractor management, HRIS, ATS, IT/device management, immigration, and background screenings across 150+ countries. The Deel Public API and SCIM API expose the full worker lifecycle — hire, onboard, pay, manage time off, run payroll, terminate — through a REST surface at api.letsdeel.com/rest/v2 with bearer-token and OAuth2 authentication, a sandbox at api-sandbox.demo.deel.com, HMAC-signed webhooks, a Deel App Store for partner apps, an Embedded \"Deel as a Service\" model, and a public MCP server for AI agent integration. Deel has compliantly processed over $20B in global payroll for 40,000+ companies.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/screenshots/deel-com-2026-06-20T175806.png",
-     "score": 63.7,
+     "score": 64.2,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 68.3,
+      "discoverability": 73.3,
       "contract_quality": 72.5,
       "contract_governance": 9.8,
       "operational_transparency": 61.1,
@@ -648,6 +648,56 @@
      "rank": 12
     },
     {
+     "name": "Connecteam",
+     "slug": "connecteam",
+     "description": "Connecteam is a mobile-first workforce management platform for deskless and non-desk teams, bundling time clock and GPS timesheets, job scheduling, task boards, digital forms and checklists, chat and company communication, HR onboarding, time off, pay rates and sales data into three purchasable hubs (Operations, Communications, HR & Skills). Its public REST API at api.connecteam.com is described by an OpenAPI 3.1 contract covering 145 operations across 98 paths, authenticated either with a company X-API-KEY header or OAuth 2.0 client-credentials tokens scoped across 61 named permissions, and it declares 41 webhook events for time activity, shifts, users, tasks, forms and chat. API access is gated to the Expert plan and above, with per-plan rate limits surfaced in x-ratelimit-* response headers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/screenshots/connecteam-2026-08-07T163740.png",
+     "score": 62.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.0,
+      "contract_quality": 61.3,
+      "contract_governance": 4.5,
+      "operational_transparency": 73.7,
+      "developer_ergonomics": 39.9,
+      "access_clarity": 92.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Employment & Payroll",
+      "regime_id": "employment_payroll",
+      "score": 39.2,
+      "matched_via": "weak_tags"
+     },
+     "agent_score": 43.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "verified",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 13
+    },
+    {
      "name": "360Learning",
      "slug": "360learning",
      "description": "360Learning is a collaborative learning platform (LMS) that blends top-down and peer-to-peer \"Collaborative Learning\" to help enterprises upskill and train employees, customers, and partners at scale. Its REST API v2 lets developers automate the platform: provision and activate users, organize them into groups, build and assign courses and learning paths, schedule instructor-led classrooms with slots and attendance, manage a skills taxonomy and certificates, run bulk operations, and subscribe to near-real-time webhook events. API v2 uses OAuth 2.0 client-credentials auth with a two-tier (company/credential) scope system, cursor pagination via the Link header, and is hosted in EU and US regions.",
@@ -702,7 +752,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "RocketReach",
@@ -752,7 +802,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Sense Talent Labs",
@@ -802,57 +852,72 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
-     "name": "Connecteam",
-     "slug": "connecteam",
-     "description": "Connecteam is a mobile-first workforce management platform for deskless and non-desk teams, bundling time clock and GPS timesheets, job scheduling, task boards, digital forms and checklists, chat and company communication, HR onboarding, time off, pay rates and sales data into three purchasable hubs (Operations, Communications, HR & Skills). Its public REST API at api.connecteam.com is described by an OpenAPI 3.1 contract covering 145 operations across 98 paths, authenticated either with a company X-API-KEY header or OAuth 2.0 client-credentials tokens scoped across 61 named permissions, and it declares 41 webhook events for time activity, shifts, users, tasks, forms and chat. API access is gated to the Expert plan and above, with per-plan rate limits surfaced in x-ratelimit-* response headers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/screenshots/connecteam-2026-08-07T163740.png",
-     "score": 62.3,
+     "name": "Genesys",
+     "slug": "genesys",
+     "description": "Genesys is a global cloud customer experience (CX) and contact center software company whose flagship Genesys Cloud CX platform powers omnichannel customer engagement, routing, workforce management, and AI-driven orchestration. The Genesys Cloud Platform API is a large REST API of more than 3,000 public operations spanning conversations, routing, analytics, telephony (edge), workforce management, knowledge, journey, outbound, quality, gamification, integrations, and administration. It is secured with OAuth 2, described by a public OpenAPI (Swagger 2.0) definition, and supported by official SDKs for Java, .NET, Python, Go, JavaScript/Node, and iOS/Swift, a command-line interface, a notifications/websocket event surface, and a weekly changelog.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/screenshots/genesys-2026-07-25T215607.png",
+     "score": 60.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 70.0,
-      "contract_quality": 61.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 73.7,
-      "developer_ergonomics": 39.9,
+      "discoverability": 71.7,
+      "contract_quality": 59.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 32.7,
       "access_clarity": 92.1
      },
      "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
-      "regime": "Employment & Payroll",
-      "regime_id": "employment_payroll",
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
       "score": 39.2,
-      "matched_via": "weak_tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 2,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       },
+       {
+        "standard": "fedramp",
+        "jurisdiction": "US"
+       },
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
-     "agent_score": 43.3,
-     "agent_band": "agent-ready",
+     "agent_score": 57.4,
+     "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": false,
+      "reversibility_documented": "verified",
+      "mcp_server": "platform",
+      "auth_clarity": "served",
+      "idempotency": "verified",
       "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": true,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
+      "dry_run_mode": true,
+      "delegated_identity": "served",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Kota",
@@ -909,7 +974,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Affinda",
@@ -959,71 +1024,6 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 18
-    },
-    {
-     "name": "Genesys",
-     "slug": "genesys",
-     "description": "Genesys is a global cloud customer experience (CX) and contact center software company whose flagship Genesys Cloud CX platform powers omnichannel customer engagement, routing, workforce management, and AI-driven orchestration. The Genesys Cloud Platform API is a large REST API of more than 3,000 public operations spanning conversations, routing, analytics, telephony (edge), workforce management, knowledge, journey, outbound, quality, gamification, integrations, and administration. It is secured with OAuth 2, described by a public OpenAPI (Swagger 2.0) definition, and supported by official SDKs for Java, .NET, Python, Go, JavaScript/Node, and iOS/Swift, a command-line interface, a notifications/websocket event surface, and a weekly changelog.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/screenshots/genesys-2026-07-25T215607.png",
-     "score": 60.3,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 59.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 32.7,
-      "access_clarity": 92.1
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 39.2,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 2,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       },
-       {
-        "standard": "fedramp",
-        "jurisdiction": "US"
-       },
-       {
-        "standard": "hipaa",
-        "jurisdiction": "US"
-       }
-      ]
-     },
-     "agent_score": 57.4,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "verified",
-      "mcp_server": "platform",
-      "auth_clarity": "served",
-      "idempotency": "verified",
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": true,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 19
     },
     {
@@ -1031,11 +1031,11 @@
      "slug": "smart-pension",
      "description": "Smart Pension is a UK defined contribution workplace pension master trust operated by Smart Pension Limited (Smart Group), managing pensions for millions of UK savers on behalf of over 90,000 employers. Its API surface is the Keystone API — the same public REST API that powers Smart's own employer, employee and adviser portals — published by Keystone, Smart's proprietary savings administration platform, which also runs retirement solutions for financial institutions and governments outside the UK. The API lets payroll software, HR and employee-benefits platforms, advisers and banking apps create and manage companies (employers), employees (members), contributions, assessment and auto-enrolment data, postponements, opt-ins and opt-outs, valuations, funds and bank details, either as a full integration that provisions schemes end to end or as a light integration that posts PAPDIS contribution files. Authentication is OAuth 2.0 (authorization code for user-context apps, client credentials for machine-to-machine partners), with three sandboxed environments and self-serve partner registration.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/smart-pension/refs/heads/main/screenshots/smart-pension-2026-08-17T081929.png",
-     "score": 59.7,
+     "score": 60.3,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 60.7,
+      "discoverability": 66.1,
       "contract_quality": 49.1,
       "contract_governance": 18.2,
       "operational_transparency": 60.5,
@@ -1227,6 +1227,56 @@
      "rank": 23
     },
     {
+     "name": "Supaglue",
+     "slug": "supaglue",
+     "description": "Supaglue was an open-source unified API platform for B2B SaaS product integrations: a single contract for CRM, engagement, ticketing, enrichment and marketing-automation objects projected across 30+ third-party providers (Salesforce, HubSpot, Pipedrive, Outreach, Salesloft, Zendesk, Apollo and more), plus managed OAuth to those providers, managed syncs into the customer's own warehouse (Postgres, BigQuery, Snowflake, Redshift, S3), a passthrough escape hatch to native provider APIs, and a Management API to configure customers, connections, schemas, entities and sync schedules. Nine first-party OpenAPI documents (v2, x-api-key auth) and nine typed webhook events were published. THE SERVICE IS RETIRED: the GitHub repository (github.com/supaglue-labs) was archived by its owner on 2024-03-10, api.supaglue.io and app.supaglue.io no longer resolve, and supaglue.com now redirects to a HugeDomains sale listing. The MIT-licensed code remains self-hostable, and the contract is preserved here as the historical record of a well-shaped unified API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/screenshots/supaglue-2026-08-17T083633.png",
+     "score": 58.4,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 71.4,
+      "contract_quality": 62.8,
+      "contract_governance": 31.8,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 42.3,
+      "access_clarity": 57.9
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Employment & Payroll",
+      "regime_id": "employment_payroll",
+      "score": 43.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 24
+    },
+    {
      "name": "Charthop",
      "slug": "charthop",
      "description": "ChartHop is an AI-powered people-analytics and workforce-planning platform that unifies HR, finance, and business data in a single system so HR and finance teams can run headcount planning, compensation cycles, performance and goals, engagement, and org reporting without spreadsheets. ChartHop exposes an extensible REST API (738 operations, Swagger 2.0) that reads and updates the entire org graph — people, jobs, groups, compensation, goals, forms, time off, approvals, and more — plus a webhook/event system and a first-party MCP server (JSON-RPC 2.0 over Streamable HTTP, OAuth 2.1 + PKCE) for AI agents. Added to the API Evangelist network as an a16z / Cowboy Ventures portfolio company and enriched from its live developer surface.",
@@ -1277,56 +1327,6 @@
       "agent_card": false,
       "dry_run_mode": true,
       "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 24
-    },
-    {
-     "name": "Supaglue",
-     "slug": "supaglue",
-     "description": "Supaglue was an open-source unified API platform for B2B SaaS product integrations: a single contract for CRM, engagement, ticketing, enrichment and marketing-automation objects projected across 30+ third-party providers (Salesforce, HubSpot, Pipedrive, Outreach, Salesloft, Zendesk, Apollo and more), plus managed OAuth to those providers, managed syncs into the customer's own warehouse (Postgres, BigQuery, Snowflake, Redshift, S3), a passthrough escape hatch to native provider APIs, and a Management API to configure customers, connections, schemas, entities and sync schedules. Nine first-party OpenAPI documents (v2, x-api-key auth) and nine typed webhook events were published. THE SERVICE IS RETIRED: the GitHub repository (github.com/supaglue-labs) was archived by its owner on 2024-03-10, api.supaglue.io and app.supaglue.io no longer resolve, and supaglue.com now redirects to a HugeDomains sale listing. The MIT-licensed code remains self-hostable, and the contract is preserved here as the historical record of a well-shaped unified API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/screenshots/supaglue-2026-08-17T083633.png",
-     "score": 57.9,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 62.8,
-      "contract_governance": 31.8,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 42.3,
-      "access_clarity": 57.9
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Employment & Payroll",
-      "regime_id": "employment_payroll",
-      "score": 43.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -1437,11 +1437,11 @@
      "slug": "workday",
      "description": "Collection of Workday REST and SOAP APIs for human capital management, financial management, enterprise planning, analytics, and platform extensibility.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/screenshots/workday-2026-06-20T201559.png",
-     "score": 57.0,
+     "score": 57.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 57.1,
+      "discoverability": 62.5,
       "contract_quality": 69.2,
       "contract_governance": 31.8,
       "operational_transparency": 39.5,
@@ -1740,6 +1740,56 @@
      "rank": 33
     },
     {
+     "name": "Mavenlink",
+     "slug": "mavenlink",
+     "description": "Mavenlink is the professional services automation (PSA) platform now shipped as Kantata OX, following the 2022 merger of Mavenlink and Kimble Applications that formed Kantata. It combines project management, resource management and forecasting, time and expense tracking, project accounting, invoicing, rate cards, and business intelligence for services organizations. The public REST API is still served from the original Mavenlink domain at https://api.mavenlink.com/api/v1/ and is documented as the \"Kantata OX API\" at developer.kantata.com: a Swagger 2.0 contract covering 419 operations across 218 paths and roughly 100 resource groups, authenticated with OAuth 2.0 authorization-code bearer tokens issued from app.mavenlink.com. Alongside REST the company operates an OAuth-gated remote MCP server at https://api.mavenlink.com/mcp, publishes an A2A agent card and an anonymous documentation MCP server on its developer portal, and ships a gRPC connector service definition that third parties implement to extend the Kantata Workflow Platform with custom triggers and actions.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/screenshots/mavenlink-2026-09-02T150445.png",
+     "score": 55.1,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.0,
+      "contract_quality": 56.1,
+      "contract_governance": 4.5,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 66.1,
+      "access_clarity": 46.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 39.2,
+      "matched_via": "fallback"
+     },
+     "agent_score": 61.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": "conformant",
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 34
+    },
+    {
      "name": "Yoodli",
      "slug": "yoodli",
      "description": "Yoodli is a Seattle-based AI communication coaching company, founded in 2021 by former Google engineers and spun out of the Allen Institute for AI incubator. Its platform runs AI roleplays and speech analysis so sales, leadership, L&D and customer-facing teams can rehearse high-stakes conversations — pitches, interviews, performance reviews, discovery calls — and get private, rubric-scored feedback on filler words, pacing, and content. Yoodli publishes a REST API (OpenAPI 3.1.0, base https://app.yoodli.ai/api) for administrative programmatic access: managing Organization members, User Groups (hubs), invites and membership expirations, Multi Org seat allocation, and downloading a recording's rubric goal scores, coaching feedback, reviewer comments and transcript. It also ships a Web Embed API (iframe + postMessage) for embedding Yoodli activities in a host application, and a remote MCP server over its ReadMe developer portal.",
@@ -1783,56 +1833,6 @@
       "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 34
-    },
-    {
-     "name": "Mavenlink",
-     "slug": "mavenlink",
-     "description": "Mavenlink is the professional services automation (PSA) platform now shipped as Kantata OX, following the 2022 merger of Mavenlink and Kimble Applications that formed Kantata. It combines project management, resource management and forecasting, time and expense tracking, project accounting, invoicing, rate cards, and business intelligence for services organizations. The public REST API is still served from the original Mavenlink domain at https://api.mavenlink.com/api/v1/ and is documented as the \"Kantata OX API\" at developer.kantata.com: a Swagger 2.0 contract covering 419 operations across 218 paths and roughly 100 resource groups, authenticated with OAuth 2.0 authorization-code bearer tokens issued from app.mavenlink.com. Alongside REST the company operates an OAuth-gated remote MCP server at https://api.mavenlink.com/mcp, publishes an A2A agent card and an anonymous documentation MCP server on its developer portal, and ships a gRPC connector service definition that third parties implement to extend the Kantata Workflow Platform with custom triggers and actions.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/screenshots/mavenlink-2026-09-02T150445.png",
-     "score": 54.6,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 70.0,
-      "contract_quality": 56.1,
-      "contract_governance": 4.5,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 46.1
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 39.2,
-      "matched_via": "fallback"
-     },
-     "agent_score": 61.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": "conformant",
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -1957,7 +1957,7 @@
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 66.1,
+      "discoverability": 71.4,
       "contract_quality": 27.3,
       "contract_governance": 27.3,
       "operational_transparency": 31.1,
@@ -1999,6 +1999,56 @@
      "rank": 38
     },
     {
+     "name": "Clio",
+     "slug": "clio",
+     "description": "Clio is a cloud-based legal practice management platform used by law firms for matter management, contacts, calendaring, time and billing, trust accounting, document management, tasks, and client communications. The Clio Manage API is a REST/JSON API at app.clio.com/api/v4 that uses OAuth 2.0 (authorization code flow) for authentication and exposes the full data model behind Clio Manage, with regional endpoints for the U.S., Canada, EU/UK, and Australia. Webhooks deliver near real-time event notifications, and the Clio App Directory hosts certified third-party integrations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/screenshots/clio-2026-06-20T174526.png",
+     "score": 53.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 57.1,
+      "contract_quality": 54.3,
+      "contract_governance": 49.1,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 40.5,
+      "access_clarity": 67.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 31.4,
+      "matched_via": "fallback"
+     },
+     "agent_score": 29.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "verified",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 39
+    },
+    {
      "name": "QuotaPath",
      "slug": "quotapath",
      "description": "QuotaPath is a sales commission tracking and compensation management platform that helps revenue, finance, and sales operations teams design, automate, and audit variable-pay programs. It sits as a system of record between a company's CRM, finance stack, and payroll — pulling deals from HubSpot and Salesforce, applying commission plans, quotas, and ASC 606 ledger logic, and syncing payouts to accounting and HRIS systems like QuickBooks, NetSuite, and Rippling. QuotaPath exposes a REST API (available on the Premium tier) for pushing deals, reading payouts, managing quota assignments, and building custom CRM and payroll integrations. The API uses token-based API-key authentication over https://api.quotapath.com/v1 with limit/offset pagination.",
@@ -2037,56 +2087,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 39
-    },
-    {
-     "name": "Clio",
-     "slug": "clio",
-     "description": "Clio is a cloud-based legal practice management platform used by law firms for matter management, contacts, calendaring, time and billing, trust accounting, document management, tasks, and client communications. The Clio Manage API is a REST/JSON API at app.clio.com/api/v4 that uses OAuth 2.0 (authorization code flow) for authentication and exposes the full data model behind Clio Manage, with regional endpoints for the U.S., Canada, EU/UK, and Australia. Webhooks deliver near real-time event notifications, and the Clio App Directory hosts certified third-party integrations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/screenshots/clio-2026-06-20T174526.png",
-     "score": 53.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 51.8,
-      "contract_quality": 54.3,
-      "contract_governance": 49.1,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 40.5,
-      "access_clarity": 67.1
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 31.4,
-      "matched_via": "fallback"
-     },
-     "agent_score": 29.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "verified",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -2406,6 +2406,56 @@
      "rank": 46
     },
     {
+     "name": "Harri",
+     "slug": "harri",
+     "description": "Harri is a hospitality-first human capital management (HCM) and workforce management platform used by enterprise restaurants, hotels, retailers, grocers and care operators to run the full employee lifecycle — talent acquisition and onboarding, scheduling and demand forecasting, time and attendance, labor compliance, payroll data export and workforce analytics. Harri exposes a public Open API Hub through its developer portal at developer.harri.com, secured with OAuth 2.0 client credentials and fronted by an API gateway at gateway.harri.com. The published surface covers employee records, locations, positions, job titles, pay types, hourly and annual rates, tronc and tip distribution, employment periods, absences, max weekly hours and working patterns, external-system ID mappings, platform events and webhook subscriptions, plus an employer/brand-management surface for above-store admin users. A parallel franchisee-scoped path set mirrors the corporate endpoints for multi-brand and franchise operators.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/screenshots/harri-2026-08-07T165958.png",
+     "score": 52.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 60.7,
+      "contract_quality": 52.2,
+      "contract_governance": 4.5,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 58.9,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Employment & Payroll",
+      "regime_id": "employment_payroll",
+      "score": 34.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 37.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 47
+    },
+    {
      "name": "Niural",
      "slug": "niural",
      "description": "Niural is a US-headquartered global workforce platform that unifies US payroll, PEO, employer of record (EOR), agent of record (AOR), contractor management and cross-border contractor payments in 150+ countries inside a single system, with an AI layer (EMMA) that orchestrates payroll, compliance and expense approvals. Its public developer surface — the Niural Public API, documented on ReadMe at docs.niural.com — is narrower than the product: an OpenAPI 3.0.3 contract of 15 operations across four resources (authentication, pay-on-demand contractor contracts, invoices and transactions), served from separate sandbox and live hosts, authenticated with a client-credential exchange that returns a bearer JWT, with cursor pagination, a 25 requests/second rate limit, and three HMAC-SHA256-signed webhook events. Payroll, PEO, EOR and benefits are not exposed on the public API.",
@@ -2453,7 +2503,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Workday Benefits",
@@ -2503,7 +2553,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "Argyle9a25",
@@ -2552,7 +2602,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "Bright Pattern",
@@ -2603,56 +2653,6 @@
       "openapi_examples": "verified",
       "rate_limit_signal": false,
       "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 50
-    },
-    {
-     "name": "Harri",
-     "slug": "harri",
-     "description": "Harri is a hospitality-first human capital management (HCM) and workforce management platform used by enterprise restaurants, hotels, retailers, grocers and care operators to run the full employee lifecycle — talent acquisition and onboarding, scheduling and demand forecasting, time and attendance, labor compliance, payroll data export and workforce analytics. Harri exposes a public Open API Hub through its developer portal at developer.harri.com, secured with OAuth 2.0 client credentials and fronted by an API gateway at gateway.harri.com. The published surface covers employee records, locations, positions, job titles, pay types, hourly and annual rates, tronc and tip distribution, employment periods, absences, max weekly hours and working patterns, external-system ID mappings, platform events and webhook subscriptions, plus an employer/brand-management surface for above-store admin users. A parallel franchisee-scoped path set mirrors the corporate endpoints for multi-brand and franchise operators.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/screenshots/harri-2026-08-07T165958.png",
-     "score": 52.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 60.7,
-      "contract_quality": 52.2,
-      "contract_governance": 4.5,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 58.9,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Employment & Payroll",
-      "regime_id": "employment_payroll",
-      "score": 34.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 37.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2735,11 +2735,11 @@
      "slug": "buk",
      "description": "Buk (Buk SpA, Santiago, Chile) is a Latin American HR and payroll platform — \"software de gestión de personas\" — covering payroll and settlement calculation, employee records, contracts and digital signature, time and attendance, absence and vacation management, benefits and salary advances, recruitment, onboarding, training and performance. Founded in 2017 and bootstrapped for its first five years, it raised a $50M Series A led by Greenoaks and SoftBank in 2021 and a further $50M Series B in 2024, and now operates country editions for Chile, Peru, Mexico, Colombia and Brazil. Its API posture is unusual for the region and unusually good in one specific way: every customer tenant serves a complete, unauthenticated, machine-readable Swagger 2.0 contract for the Buk Data Access API at https://{tenant}.buk.cl/api/{country}/{language}/api_docs — 151 paths and 206 operations, in five country variants and three languages — behind a Swagger UI at /apidocs, alongside a documented webhook catalog. Two further contracts for Buk Asistencia (attendance) and its vendor-agnostic biometric clocking ingestion endpoint are published publicly on SwaggerHub under the BUKASISTENCIA account. What is missing is the developer-program scaffolding around those contracts: there is no developer portal, no first-party SDK, no CLI, no Postman workspace, no status page, no sandbox, no /.well-known/ surface, no MCP server, no operationId on any of 206 operations, and no documented rate limit or 429 response. The contract is public; the program around it is not built yet.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/buk/refs/heads/main/screenshots/buk-2026-08-17T080728.png",
-     "score": 51.0,
+     "score": 51.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 73.2,
+      "discoverability": 78.6,
       "contract_quality": 53.7,
       "contract_governance": 18.2,
       "operational_transparency": 31.6,
@@ -2779,6 +2779,56 @@
       "agentic_commerce": false
      },
      "rank": 53
+    },
+    {
+     "name": "Yoobic",
+     "slug": "yoobic",
+     "description": "YOOBIC is an AI-powered frontline employee experience and retail operations platform that unifies task management, internal communications, and mobile microlearning, giving headquarters real-time visibility and frontline teams the tools to execute in-store. It serves retail, grocery, fashion and luxury, convenience, pharmacy, restaurant/QSR, and fitness brands. The YOOBIC Public API is a RESTful JSON API (OpenAPI 3.0, 230 paths / 265 operations across 41 resource groups) for programmatically managing users, stores, missions, campaigns, learning, communities, and webhooks, secured with JWT bearer tokens.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yoobic/refs/heads/main/screenshots/yoobic-2026-08-17T083024.png",
+     "score": 51.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 67.9,
+      "contract_quality": 56.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 58.9,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 25.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 33.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 54
     },
     {
      "name": "Nayya",
@@ -2828,7 +2878,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "HeyMilo",
@@ -2878,7 +2928,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "Teambridge",
@@ -2928,7 +2978,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "Palenca (Vech)",
@@ -2974,56 +3024,6 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 57
-    },
-    {
-     "name": "Yoobic",
-     "slug": "yoobic",
-     "description": "YOOBIC is an AI-powered frontline employee experience and retail operations platform that unifies task management, internal communications, and mobile microlearning, giving headquarters real-time visibility and frontline teams the tools to execute in-store. It serves retail, grocery, fashion and luxury, convenience, pharmacy, restaurant/QSR, and fitness brands. The YOOBIC Public API is a RESTful JSON API (OpenAPI 3.0, 230 paths / 265 operations across 41 resource groups) for programmatically managing users, stores, missions, campaigns, learning, communities, and webhooks, secured with JWT bearer tokens.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yoobic/refs/heads/main/screenshots/yoobic-2026-08-17T083024.png",
-     "score": 50.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 67.9,
-      "contract_quality": 56.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 58.9,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 25.5,
-      "matched_via": "fallback"
-     },
-     "agent_score": 33.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -3230,6 +3230,56 @@
      "rank": 62
     },
     {
+     "name": "University of Wisconsin-Madison",
+     "slug": "university-of-wisconsin-madison",
+     "description": "The University of Wisconsin-Madison is a public land-grant research university in Madison, Wisconsin, and one of the very few institutions in this cohort that genuinely operates an API program of its own rather than pointing at a vendor's. Its Division of Information Technology (DoIT) runs a formal API Program on a UW-owned Google Apigee organization (doit-ipt-apigee-prod-ce29), fronted by a public developer portal at developer.wisc.edu, and publishes eleven OpenAPI 3.0 contracts — 245 operations across Person, HR, Manifest (Grouper groups), Finance, Locations, Enterprise Billing and OAuth — every one of them served from api.wisc.edu or mock.api.wisc.edu with a wisc.edu contact. Nothing in this repository is a vendor contract running under the institution's name: there is no Figshare, Pure, Ex Libris, Dataverse or Symplectic surface attributed here. Beyond the gateway, UW-Madison operates a fully public unauthenticated course-search API at public.enroll.wisc.edu, its own Shibboleth identity provider at login.wisc.edu speaking both SAML 2.0 and OpenID Connect, and a live OAI-PMH 2.0 endpoint for the MINDS@UW institutional repository. The honest limits: production access is gated behind a manual institutional approval per API product and is effectively closed to anyone without a UW NetID, the estate declares zero OAuth scopes, no contract carries a license or terms of service, and the developer portal is a client-rendered single-page app that returns an identical 2,138-byte shell for every URL — including ones that do not exist. Learning management runs on a Canvas tenant, recorded here as a tenant relationship and not as UW-Madison engineering.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-wisconsin-madison/refs/heads/main/screenshots/university-of-wisconsin-madison-2026-06-20T200421.png",
+     "score": 50.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 53.6,
+      "contract_quality": 63.3,
+      "contract_governance": 31.8,
+      "operational_transparency": 21.6,
+      "developer_ergonomics": 35.7,
+      "access_clarity": 61.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 42.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 31.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 63
+    },
+    {
      "name": "WizeHire",
      "slug": "wizehire",
      "description": "Wizehire is a Houston, Texas hiring platform for small and mid-size businesses that combines an applicant tracking system with AI candidate matching (Talent Match), an AI recruiting assistant delivered as a Chrome extension (Scout), DISC+ personality and skills assessments, candidate texting, interview scheduling, expert human hiring coaches, and employee onboarding. Job posts syndicate to 100+ boards including Indeed, LinkedIn and ZipRecruiter, and the platform connects to HRIS, payroll, background-check and e-signature systems — ADP Workforce Now, RUN Powered by ADP, Ceridian Dayforce, Gusto, Paychex, Paycor, Paylocity, UKG, QuickBooks, Checkr and Dropbox Sign — plus Zapier and real-estate CRMs via a customer-issued API key. Wizehire serves real estate, insurance, dental, legal, automotive and hospitality operators, and publishes an NYC Local Law 144 AEDT bias audit for its automated employment decision tooling.",
@@ -3287,7 +3337,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "Workday Advanced Compensation",
@@ -3337,7 +3387,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "Offendersearch API",
@@ -3379,56 +3429,6 @@
       "event_surface_described": true,
       "agent_skills": "derived",
       "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 65
-    },
-    {
-     "name": "University of Wisconsin-Madison",
-     "slug": "university-of-wisconsin-madison",
-     "description": "The University of Wisconsin-Madison is a public land-grant research university in Madison, Wisconsin, and one of the very few institutions in this cohort that genuinely operates an API program of its own rather than pointing at a vendor's. Its Division of Information Technology (DoIT) runs a formal API Program on a UW-owned Google Apigee organization (doit-ipt-apigee-prod-ce29), fronted by a public developer portal at developer.wisc.edu, and publishes eleven OpenAPI 3.0 contracts — 245 operations across Person, HR, Manifest (Grouper groups), Finance, Locations, Enterprise Billing and OAuth — every one of them served from api.wisc.edu or mock.api.wisc.edu with a wisc.edu contact. Nothing in this repository is a vendor contract running under the institution's name: there is no Figshare, Pure, Ex Libris, Dataverse or Symplectic surface attributed here. Beyond the gateway, UW-Madison operates a fully public unauthenticated course-search API at public.enroll.wisc.edu, its own Shibboleth identity provider at login.wisc.edu speaking both SAML 2.0 and OpenID Connect, and a live OAI-PMH 2.0 endpoint for the MINDS@UW institutional repository. The honest limits: production access is gated behind a manual institutional approval per API product and is effectively closed to anyone without a UW NetID, the estate declares zero OAuth scopes, no contract carries a license or terms of service, and the developer portal is a client-rendered single-page app that returns an identical 2,138-byte shell for every URL — including ones that do not exist. Learning management runs on a Canvas tenant, recorded here as a tenant relationship and not as UW-Madison engineering.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-wisconsin-madison/refs/heads/main/screenshots/university-of-wisconsin-madison-2026-06-20T200421.png",
-     "score": 49.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 63.3,
-      "contract_governance": 31.8,
-      "operational_transparency": 21.6,
-      "developer_ergonomics": 35.7,
-      "access_clarity": 61.1
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 42.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 31.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
@@ -4101,6 +4101,56 @@
      "rank": 79
     },
     {
+     "name": "Workday Integration",
+     "slug": "workday-integration",
+     "description": "Collection of Workday Integration APIs for enterprise resource planning, human capital management, and financial management.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/screenshots/workday-integration-2026-06-20T201602.png",
+     "score": 47.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 62.5,
+      "contract_quality": 56.7,
+      "contract_governance": 27.3,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 41.7,
+      "access_clarity": 48.7
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Employment & Payroll",
+      "regime_id": "employment_payroll",
+      "score": 39.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 24.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 80
+    },
+    {
      "name": "Codesignal",
      "slug": "codesignal",
      "description": "CodeSignal is a technical interview and skills-assessment platform used by companies to screen, interview, and upskill software engineers. Its developer surface includes a GraphQL API (companies, tests, test sessions, interviews, and interview templates), a versioned Learn REST API (OpenAPI 3.1) for organization members, skill sets, and learning progress, a webhook event API covering assessment, candidate, auditor, and live-interview workflows with HMAC-SHA256 signed deliveries, and an official remote MCP server that lets AI agents work with assessments, candidate sessions, and interviews. CodeSignal is backed by Menlo Ventures.",
@@ -4148,7 +4198,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 81
     },
     {
      "name": "Enboarder",
@@ -4198,7 +4248,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 82
     },
     {
      "name": "Rentahuman",
@@ -4248,7 +4298,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 82
+     "rank": 83
     },
     {
      "name": "Tadeus API",
@@ -4294,56 +4344,6 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 83
-    },
-    {
-     "name": "Workday Integration",
-     "slug": "workday-integration",
-     "description": "Collection of Workday Integration APIs for enterprise resource planning, human capital management, and financial management.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/screenshots/workday-integration-2026-06-20T201602.png",
-     "score": 46.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 57.1,
-      "contract_quality": 56.7,
-      "contract_governance": 27.3,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 41.7,
-      "access_clarity": 48.7
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Employment & Payroll",
-      "regime_id": "employment_payroll",
-      "score": 39.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 24.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -4551,6 +4551,106 @@
      "rank": 88
     },
     {
+     "name": "When I Work",
+     "slug": "when-i-work",
+     "description": "When I Work is an employee scheduling and workforce management platform serving over 200,000 workplaces in industries such as restaurants, retail, healthcare, and hospitality. The platform provides a REST API that enables developers and integration partners to manage shifts, schedules, users, time clock records, attendance, and team communication programmatically. API access is restricted to the Premium plan tier, which also includes webhook support and SAML/SSO capabilities. Authentication follows a token-based model where a private developer key and user credentials are exchanged for a bearer token used in subsequent requests. When I Work also publishes webhooks for real-time event notifications, making it suitable for building payroll, HR, and operations integrations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/when-i-work/refs/heads/main/screenshots/when-i-work-2026-06-20T201428.png",
+     "score": 46.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 64.1,
+      "contract_governance": 23.5,
+      "operational_transparency": 37.4,
+      "developer_ergonomics": 14.3,
+      "access_clarity": 54.7
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Employment & Payroll",
+      "regime_id": "employment_payroll",
+      "score": 21.6,
+      "matched_via": "weak_tags"
+     },
+     "agent_score": 29.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 89
+    },
+    {
+     "name": "Ashby",
+     "slug": "ashby",
+     "description": "Ashby is an all-in-one talent strategy platform combining ATS, sourcing, scheduling, and analytics. The Ashby API exposes candidates, applications, jobs, openings, offers, interviews, hiring teams, surveys, custom fields, and webhooks for recruiting operations teams.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ashby/refs/heads/main/screenshots/ashby-2026-06-20T172459.png",
+     "score": 46.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 55.4,
+      "contract_quality": 49.5,
+      "contract_governance": 0.0,
+      "operational_transparency": 43.4,
+      "developer_ergonomics": 21.4,
+      "access_clarity": 85.5
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Employment & Payroll",
+      "regime_id": "employment_payroll",
+      "score": 30.4,
+      "matched_via": "weak_tags"
+     },
+     "agent_score": 30.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "unknown",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 90
+    },
+    {
      "name": "Humaans",
      "slug": "humaans-io",
      "description": "Humaans is a London-headquartered modern HRIS (Human Resources Information System) for fast-growing, distributed teams. The platform combines a best-in-class system of record — employee directory, documents, time off, timesheets, compensation, equipment, locations, custom fields and tables, performance reviews, and onboarding/offboarding workflows — with the Athena agentic AI platform and an AI Companion that automate administrative HR work. Humaans exposes a comprehensive REST API at app.humaans.io/api with Bearer token authentication, OAuth-style scopes, $limit/$skip pagination, rich filter operators, and HMAC SHA-256 signed webhooks. The API spans 70+ documented resource categories including People, Companies, Compensations, Bank Accounts, Documents, Time Away (entries, allocations, policies, types), Equipment, Job Roles, Locations, Custom Fields and Values, Performance, Timesheet entries and submissions, Webhooks, Audit Events, and Working Patterns. Humaans ships pre-built integrations across payroll, identity, compliance, finance, ATS, performance, benefits, learning, and automation, plus a Zapier connector and an Apideck HRIS unified-API binding. Trusted by global teams across 300+ locations and rated 4.8/5 on G2.",
@@ -4598,7 +4698,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 91
     },
     {
      "name": "Indeed",
@@ -4648,7 +4748,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 92
     },
     {
      "name": "Puzzle",
@@ -4698,7 +4798,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 93
     },
     {
      "name": "Leapsome",
@@ -4746,106 +4846,6 @@
       "delegated_identity": "served",
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 92
-    },
-    {
-     "name": "When I Work",
-     "slug": "when-i-work",
-     "description": "When I Work is an employee scheduling and workforce management platform serving over 200,000 workplaces in industries such as restaurants, retail, healthcare, and hospitality. The platform provides a REST API that enables developers and integration partners to manage shifts, schedules, users, time clock records, attendance, and team communication programmatically. API access is restricted to the Premium plan tier, which also includes webhook support and SAML/SSO capabilities. Authentication follows a token-based model where a private developer key and user credentials are exchanged for a bearer token used in subsequent requests. When I Work also publishes webhooks for real-time event notifications, making it suitable for building payroll, HR, and operations integrations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/when-i-work/refs/heads/main/screenshots/when-i-work-2026-06-20T201428.png",
-     "score": 45.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 60.7,
-      "contract_quality": 64.1,
-      "contract_governance": 23.5,
-      "operational_transparency": 37.4,
-      "developer_ergonomics": 14.3,
-      "access_clarity": 54.7
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Employment & Payroll",
-      "regime_id": "employment_payroll",
-      "score": 21.6,
-      "matched_via": "weak_tags"
-     },
-     "agent_score": 29.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 93
-    },
-    {
-     "name": "Ashby",
-     "slug": "ashby",
-     "description": "Ashby is an all-in-one talent strategy platform combining ATS, sourcing, scheduling, and analytics. The Ashby API exposes candidates, applications, jobs, openings, offers, interviews, hiring teams, surveys, custom fields, and webhooks for recruiting operations teams.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ashby/refs/heads/main/screenshots/ashby-2026-06-20T172459.png",
-     "score": 45.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 49.5,
-      "contract_governance": 0.0,
-      "operational_transparency": 43.4,
-      "developer_ergonomics": 21.4,
-      "access_clarity": 85.5
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Employment & Payroll",
-      "regime_id": "employment_payroll",
-      "score": 30.4,
-      "matched_via": "weak_tags"
-     },
-     "agent_score": 30.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "unknown",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "rank": 94
@@ -4912,6 +4912,63 @@
      "rank": 95
     },
     {
+     "name": "ADP",
+     "slug": "adp",
+     "description": "ADP (Automatic Data Processing) is a global provider of cloud-based human capital management solutions including payroll, benefits, talent, time, tax, and HR services for businesses of all sizes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/screenshots/adp-2026-06-20T165046.png",
+     "score": 45.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 28.4,
+      "contract_governance": 31.8,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 29.2,
+      "access_clarity": 60.5
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Employment & Payroll",
+      "regime_id": "employment_payroll",
+      "score": 52.9,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "sox",
+        "jurisdiction": "US"
+       }
+      ]
+     },
+     "agent_score": 35.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 96
+    },
+    {
      "name": "Culture Amp",
      "slug": "culture-amp",
      "description": "Culture Amp is the leading employee experience platform providing tools for employee engagement surveys, performance management, and people analytics. The Culture Amp Public API is a RESTful, read-only interface that enables organizations to programmatically retrieve their people data—including employee records, demographics, performance cycles, manager reviews, and survey results—for use in external systems and custom analytics. The API uses OAuth 2.0 Client Credentials Flow for authentication and is available to all Culture Amp subscribers at no additional cost as part of standard subscription fees. The platform serves thousands of organizations worldwide and integrates with leading HRIS systems, Slack, Microsoft Teams, and compensation tools like Pave.",
@@ -4959,7 +5016,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 97
     },
     {
      "name": "Goethena",
@@ -5009,7 +5066,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 98
     },
     {
      "name": "LeO",
@@ -5066,7 +5123,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 99
     },
     {
      "name": "Telleroo",
@@ -5116,7 +5173,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 100
     },
     {
      "name": "Fama",
@@ -5173,7 +5230,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 101
     },
     {
      "name": "Optibus",
@@ -5212,63 +5269,6 @@
       "error_semantics": "verified",
       "openapi_examples": "partial",
       "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 101
-    },
-    {
-     "name": "ADP",
-     "slug": "adp",
-     "description": "ADP (Automatic Data Processing) is a global provider of cloud-based human capital management solutions including payroll, benefits, talent, time, tax, and HR services for businesses of all sizes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/screenshots/adp-2026-06-20T165046.png",
-     "score": 44.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 60.7,
-      "contract_quality": 28.4,
-      "contract_governance": 31.8,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 29.2,
-      "access_clarity": 60.5
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Employment & Payroll",
-      "regime_id": "employment_payroll",
-      "score": 52.9,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "sox",
-        "jurisdiction": "US"
-       }
-      ]
-     },
-     "agent_score": 35.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "verified",
       "event_surface_described": true,
       "agent_skills": "derived",
       "well_known_catalog": false,
@@ -5383,6 +5383,56 @@
      "rank": 104
     },
     {
+     "name": "Small Improvements",
+     "slug": "small-improvements",
+     "description": "Small Improvements is a lightweight performance management platform designed for teams of 50 to 750 employees, offering structured tools for continuous feedback, performance reviews, and employee development. The platform provides a REST API (v2) that enables programmatic access to core resources including users, feedback cycles, review questionnaires, objectives, 1:1 meetings, pulse surveys, praise, and administrative configuration. Authentication is handled via personal access tokens passed as Bearer tokens, and the API follows Swagger/OpenAPI conventions with over 150 resource endpoints covering people management, feedback systems, goals, meetings, surveys, and integrations. The API is intentionally lightweight and best suited for experienced developers building custom integrations or automations against the Small Improvements platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/screenshots/small-improvements-2026-06-20T194033.png",
+     "score": 44.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 62.8,
+      "contract_governance": 23.5,
+      "operational_transparency": 49.5,
+      "developer_ergonomics": 23.8,
+      "access_clarity": 46.8
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Employment & Payroll",
+      "regime_id": "employment_payroll",
+      "score": 16.7,
+      "matched_via": "weak_tags"
+     },
+     "agent_score": 22.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 105
+    },
+    {
      "name": "Get On Board",
      "slug": "get-on-board",
      "description": "Get on Board (getonbrd.com) is the leading tech-recruitment platform and applicant tracking system (ATS) for Latin America, connecting companies with a talent database of 1M+ technology professionals. Companies post jobs, run structured hiring processes, and access candidate profiles. Get on Board publishes a public REST API (v0) with an OpenAPI 3.0 specification, a sandbox environment, outbound webhooks, and a first-party Ruby client library. The public API exposes job categories, company profiles, published jobs, and a job search endpoint with no authentication; a private Companies API (API-key authenticated, subscription-gated) covers jobs, applications, hiring processes, professionals, company shells, and webhook management. Surfaced as a portfolio company of 500 Global and enriched by the API Evangelist pipeline.",
@@ -5430,7 +5480,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 106
     },
     {
      "name": "Paychex",
@@ -5480,7 +5530,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 107
     },
     {
      "name": "Rollee",
@@ -5537,7 +5587,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 108
+    },
+    {
+     "name": "Workday Recruiting",
+     "slug": "workday-recruiting",
+     "description": "APIs for Workday's cloud-based recruiting and talent acquisition solution, providing programmatic access to job requisitions, candidate management, applications, interviews, job postings, and hiring workflows.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/workday-recruiting/refs/heads/main/screenshots/workday-recruiting-2026-06-20T201608.png",
+     "score": 44.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 30.9,
+      "contract_governance": 27.3,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 46.4,
+      "access_clarity": 57.9
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Employment & Payroll",
+      "regime_id": "employment_payroll",
+      "score": 39.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 35.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 109
     },
     {
      "name": "Lattice",
@@ -5587,57 +5687,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
-    },
-    {
-     "name": "Small Improvements",
-     "slug": "small-improvements",
-     "description": "Small Improvements is a lightweight performance management platform designed for teams of 50 to 750 employees, offering structured tools for continuous feedback, performance reviews, and employee development. The platform provides a REST API (v2) that enables programmatic access to core resources including users, feedback cycles, review questionnaires, objectives, 1:1 meetings, pulse surveys, praise, and administrative configuration. Authentication is handled via personal access tokens passed as Bearer tokens, and the API follows Swagger/OpenAPI conventions with over 150 resource endpoints covering people management, feedback systems, goals, meetings, surveys, and integrations. The API is intentionally lightweight and best suited for experienced developers building custom integrations or automations against the Small Improvements platform.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/screenshots/small-improvements-2026-06-20T194033.png",
-     "score": 44.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 60.7,
-      "contract_quality": 62.8,
-      "contract_governance": 23.5,
-      "operational_transparency": 49.5,
-      "developer_ergonomics": 23.8,
-      "access_clarity": 46.8
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Employment & Payroll",
-      "regime_id": "employment_payroll",
-      "score": 16.7,
-      "matched_via": "weak_tags"
-     },
-     "agent_score": 22.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 109
+     "rank": 110
     },
     {
      "name": "Wagestream",
@@ -5683,56 +5733,6 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 110
-    },
-    {
-     "name": "Workday Recruiting",
-     "slug": "workday-recruiting",
-     "description": "APIs for Workday's cloud-based recruiting and talent acquisition solution, providing programmatic access to job requisitions, candidate management, applications, interviews, job postings, and hiring workflows.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/workday-recruiting/refs/heads/main/screenshots/workday-recruiting-2026-06-20T201608.png",
-     "score": 44.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 60.7,
-      "contract_quality": 30.9,
-      "contract_governance": 27.3,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 46.4,
-      "access_clarity": 57.9
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Employment & Payroll",
-      "regime_id": "employment_payroll",
-      "score": 39.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 35.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -5790,6 +5790,56 @@
      "rank": 112
     },
     {
+     "name": "Workday Payroll",
+     "slug": "workday-payroll",
+     "description": "Workday Payroll provides comprehensive APIs for managing payroll operations, employee compensation, tax calculations, and payment processing within the Workday platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/screenshots/workday-payroll-2026-06-20T201609.png",
+     "score": 43.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 62.5,
+      "contract_quality": 74.5,
+      "contract_governance": 27.3,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 22.6,
+      "access_clarity": 42.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Employment & Payroll",
+      "regime_id": "employment_payroll",
+      "score": 29.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 113
+    },
+    {
      "name": "Paradox",
      "slug": "paradox",
      "description": "APIs and resources for Paradox, a conversational AI recruiting assistant platform powered by Olivia, an AI assistant that automates candidate screening, interview scheduling, and hiring workflows through chat, SMS, and mobile-driven experiences.",
@@ -5837,7 +5887,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 114
     },
     {
      "name": "Request Finance",
@@ -5887,7 +5937,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 115
     },
     {
      "name": "The Predictive Index",
@@ -5937,7 +5987,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 116
     },
     {
      "name": "Garner Health",
@@ -5987,7 +6037,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 117
     },
     {
      "name": "IntelyCare",
@@ -6037,7 +6087,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 118
     },
     {
      "name": "Employ",
@@ -6097,44 +6147,44 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 119
     },
     {
-     "name": "Workday Payroll",
-     "slug": "workday-payroll",
-     "description": "Workday Payroll provides comprehensive APIs for managing payroll operations, employee compensation, tax calculations, and payment processing within the Workday platform.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/screenshots/workday-payroll-2026-06-20T201609.png",
-     "score": 43.2,
+     "name": "Smokeball",
+     "slug": "smokeball",
+     "description": "Legal practice management software with a REST API for managing matters, contacts, documents, time entries, billing, trust accounting, and law firm workflows. The API follows REST principles, accepts JSON, returns JSON, and supports OAuth 2.0 authentication. Available in US, AU, and UK regions.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/smokeball/refs/heads/main/screenshots/smokeball-2026-06-20T194100.png",
+     "score": 43.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 57.1,
-      "contract_quality": 74.5,
-      "contract_governance": 27.3,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 22.6,
-      "access_clarity": 42.1
+      "discoverability": 66.1,
+      "contract_quality": 64.1,
+      "contract_governance": 23.5,
+      "operational_transparency": 40.0,
+      "developer_ergonomics": 11.9,
+      "access_clarity": 38.9
      },
      "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
-      "regime": "Employment & Payroll",
-      "regime_id": "employment_payroll",
-      "score": 29.4,
-      "matched_via": "tags"
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 16.7,
+      "matched_via": "fallback"
      },
-     "agent_score": 30.6,
+     "agent_score": 29.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": false,
+      "reversibility_documented": "documented",
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
-      "openapi_examples": "verified",
+      "openapi_examples": "partial",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -6147,7 +6197,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 120
     },
     {
      "name": "Welcome to the Jungle",
@@ -6203,7 +6253,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 121
     },
     {
      "name": "Willo",
@@ -6253,7 +6303,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 122
     },
     {
      "name": "Truto",
@@ -6303,7 +6353,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 123
     },
     {
      "name": "Workstream",
@@ -6353,7 +6403,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 124
     },
     {
      "name": "Harvest",
@@ -6403,7 +6453,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 125
     },
     {
      "name": "SAP Fieldglass",
@@ -6441,56 +6491,6 @@
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 125
-    },
-    {
-     "name": "Smokeball",
-     "slug": "smokeball",
-     "description": "Legal practice management software with a REST API for managing matters, contacts, documents, time entries, billing, trust accounting, and law firm workflows. The API follows REST principles, accepts JSON, returns JSON, and supports OAuth 2.0 authentication. Available in US, AU, and UK regions.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/smokeball/refs/heads/main/screenshots/smokeball-2026-06-20T194100.png",
-     "score": 42.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 60.7,
-      "contract_quality": 64.1,
-      "contract_governance": 23.5,
-      "operational_transparency": 40.0,
-      "developer_ergonomics": 11.9,
-      "access_clarity": 38.9
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 16.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 29.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -6769,6 +6769,56 @@
      "rank": 131
     },
     {
+     "name": "AlayaCare",
+     "slug": "alayacare",
+     "description": "AlayaCare is a cloud-based home and community care management platform providing REST APIs for managing client profiles, scheduling visits, documenting clinical care, processing billing and accounting, and tracking patient outcomes. The platform serves home care agencies, nursing registries, and government-funded community care programs globally. APIs cover clients, employees, scheduling, clinical records, tasks, forms, medications, accounting, and file management, with integration via REST and AWS SQS event streaming. AlayaCare also offers AlayaMarket, a staffing marketplace API for matching supply and demand organizations, and AlayaCare Residential for residential aged care settings.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alayacare/refs/heads/main/screenshots/alayacare-2026-06-20T171503.png",
+     "score": 42.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 71.4,
+      "contract_quality": 56.0,
+      "contract_governance": 9.8,
+      "operational_transparency": 33.7,
+      "developer_ergonomics": 23.8,
+      "access_clarity": 36.3
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 13.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 29.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 132
+    },
+    {
      "name": "Sage",
      "slug": "sage",
      "description": "Sage provides cloud-based ERP, accounting, payroll, and HR software for businesses worldwide. The Sage Developer program provides APIs for integrating with Sage products including Sage Accounting (Business Cloud), Sage Intacct, Sage 200, Sage X3, and Sage 50. APIs support OAuth 2.0 authentication and cover contacts, invoices, payments, ledger accounts, bank accounts, products, and financial reporting. Sage Accounting API v3.1 is the current supported REST version with daily limits of 1,296,000 requests per app.",
@@ -6816,7 +6866,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 133
     },
     {
      "name": "Kombo",
@@ -6866,7 +6916,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 134
     },
     {
      "name": "micro1",
@@ -6916,7 +6966,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 135
     },
     {
      "name": "Onsi",
@@ -6966,7 +7016,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 135
+     "rank": 136
     },
     {
      "name": "Papaya Global",
@@ -7016,7 +7066,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 137
     },
     {
      "name": "Workleap",
@@ -7066,7 +7116,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 137
+     "rank": 138
     },
     {
      "name": "Appfire",
@@ -7116,7 +7166,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 138
+     "rank": 139
     },
     {
      "name": "Weavix",
@@ -7157,56 +7207,6 @@
       "rate_limit_signal": false,
       "event_surface_described": true,
       "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 139
-    },
-    {
-     "name": "AlayaCare",
-     "slug": "alayacare",
-     "description": "AlayaCare is a cloud-based home and community care management platform providing REST APIs for managing client profiles, scheduling visits, documenting clinical care, processing billing and accounting, and tracking patient outcomes. The platform serves home care agencies, nursing registries, and government-funded community care programs globally. APIs cover clients, employees, scheduling, clinical records, tasks, forms, medications, accounting, and file management, with integration via REST and AWS SQS event streaming. AlayaCare also offers AlayaMarket, a staffing marketplace API for matching supply and demand organizations, and AlayaCare Residential for residential aged care settings.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alayacare/refs/heads/main/screenshots/alayacare-2026-06-20T171503.png",
-     "score": 41.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 56.0,
-      "contract_governance": 9.8,
-      "operational_transparency": 33.7,
-      "developer_ergonomics": 23.8,
-      "access_clarity": 36.3
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 13.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 29.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -7541,6 +7541,106 @@
      "rank": 146
     },
     {
+     "name": "OpenProject",
+     "slug": "openproject",
+     "description": "OpenProject is an open source project management platform offering work package tracking, Gantt charts, agile boards, time tracking, BIM, and enterprise project portfolio management. The OpenProject APIv3 is a hypermedia (HAL+JSON) REST API that exposes work packages, projects, users, attachments, custom fields, and many other resources.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/openproject/refs/heads/main/screenshots/openproject-2026-06-20T191026.png",
+     "score": 40.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 54.3,
+      "contract_governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 23.8,
+      "access_clarity": 56.6
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 17.6,
+      "matched_via": "fallback"
+     },
+     "agent_score": 30.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 147
+    },
+    {
+     "name": "Department of Veterans Affairs (VA Lighthouse)",
+     "slug": "va-gov",
+     "description": "VA Lighthouse is the US Department of Veterans Affairs' developer API platform. Published at developer.va.gov with production endpoints at api.va.gov, Lighthouse exposes 22+ APIs covering Benefits (claims, documents, reference data, intake), Health (HL7 FHIR R4 Patient Health and Clinical Health, Community Care Eligibility), Facilities, Forms, Veteran Verification and Confirmation, Appeals and Decision Reviews under the Appeals Modernization Act (AMA), Address Validation, Direct Deposit Management, VA Letter Generation, Education Benefits, and the full VA Home Loan Guaranty stack (Loan Guaranty, Loan Review, Guaranty Remittance, Health-Care-Costs Coverage). All authenticated APIs use OAuth 2.0 with both Authorization Code (Veteran consent) and Client Credentials (system) flows; the health APIs additionally support SMART-on-FHIR. The platform is operated by the VA Office of the CTO with open-source backend code in github.com/department-of-veterans-affairs/vets-api and reference clients in vets-api-clients.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/screenshots/va-gov-2026-06-20T200737.png",
+     "score": 40.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 71.4,
+      "contract_quality": 60.6,
+      "contract_governance": 0.0,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 31.0,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 34.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 148
+    },
+    {
      "name": "SmartHR",
      "slug": "smarthr",
      "description": "SmartHR is a leading Japanese cloud HR, labor, and personnel management SaaS (smarthr.jp). Its per-tenant REST API exposes an organization's employee (\"crew\") records and the master data around them - departments, employment types, business establishments, and custom field templates - plus webhook subscriptions for change notifications. The API is served from each customer's own tenant subdomain (https://{tenant}.smarthr.jp/api) under a /v1 path, and is authenticated with a per-tenant access token passed as a Bearer token.",
@@ -7588,7 +7688,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 147
+     "rank": 149
     },
     {
      "name": "Great-West Lifeco",
@@ -7638,57 +7738,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
-    },
-    {
-     "name": "OpenProject",
-     "slug": "openproject",
-     "description": "OpenProject is an open source project management platform offering work package tracking, Gantt charts, agile boards, time tracking, BIM, and enterprise project portfolio management. The OpenProject APIv3 is a hypermedia (HAL+JSON) REST API that exposes work packages, projects, users, attachments, custom fields, and many other resources.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/openproject/refs/heads/main/screenshots/openproject-2026-06-20T191026.png",
-     "score": 40.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 60.7,
-      "contract_quality": 54.3,
-      "contract_governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 23.8,
-      "access_clarity": 56.6
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 17.6,
-      "matched_via": "fallback"
-     },
-     "agent_score": 30.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 149
+     "rank": 150
     },
     {
      "name": "Rhumbix",
@@ -7738,7 +7788,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 151
     },
     {
      "name": "Sage HR",
@@ -7788,7 +7838,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 152
     },
     {
      "name": "Human Interest",
@@ -7845,56 +7895,6 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 152
-    },
-    {
-     "name": "Department of Veterans Affairs (VA Lighthouse)",
-     "slug": "va-gov",
-     "description": "VA Lighthouse is the US Department of Veterans Affairs' developer API platform. Published at developer.va.gov with production endpoints at api.va.gov, Lighthouse exposes 22+ APIs covering Benefits (claims, documents, reference data, intake), Health (HL7 FHIR R4 Patient Health and Clinical Health, Community Care Eligibility), Facilities, Forms, Veteran Verification and Confirmation, Appeals and Decision Reviews under the Appeals Modernization Act (AMA), Address Validation, Direct Deposit Management, VA Letter Generation, Education Benefits, and the full VA Home Loan Guaranty stack (Loan Guaranty, Loan Review, Guaranty Remittance, Health-Care-Costs Coverage). All authenticated APIs use OAuth 2.0 with both Authorization Code (Veteran consent) and Client Credentials (system) flows; the health APIs additionally support SMART-on-FHIR. The platform is operated by the VA Office of the CTO with open-source backend code in github.com/department-of-veterans-affairs/vets-api and reference clients in vets-api-clients.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/screenshots/va-gov-2026-06-20T200737.png",
-     "score": 39.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 60.6,
-      "contract_governance": 0.0,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 31.0,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 34.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -9269,6 +9269,106 @@
      "rank": 180
     },
     {
+     "name": "SAP S/4HANA",
+     "slug": "sap-s4hana",
+     "description": "Collection of SAP S/4HANA Cloud and On-Premise APIs for enterprise resource planning.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/screenshots/sap-s4hana-2026-06-20T193430.png",
+     "score": 37.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 42.9,
+      "contract_quality": 65.6,
+      "contract_governance": 13.6,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 14.3,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Employment & Payroll",
+      "regime_id": "employment_payroll",
+      "score": 40.2,
+      "matched_via": "weak_tags"
+     },
+     "agent_score": 22.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 181
+    },
+    {
+     "name": "Workday Tracking System",
+     "slug": "workday-tracking-system",
+     "description": "APIs for managing employee time tracking, absence management, and workforce scheduling in the Workday platform. Covers time blocks, time clock events, timesheets, time off, leaves of absence, accruals, schedule shifts, scheduling organizations, labor demand, and worker scheduling preferences.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/screenshots/workday-tracking-system-2026-06-20T201611.png",
+     "score": 37.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 71.4,
+      "contract_quality": 29.3,
+      "contract_governance": 13.6,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 39.3,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Employment & Payroll",
+      "regime_id": "employment_payroll",
+      "score": 25.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 182
+    },
+    {
      "name": "Fourth",
      "slug": "fourth",
      "description": "Fourth is an AI-powered workforce management and inventory platform built for restaurants and hospitality, uniting recruiting, HR, payroll, labor scheduling, purchasing, and inventory management in a single system across 120,000+ locations globally (customers include Taco Bell, Dunkin', KFC, Pizza Hut and Culver's). Its product family includes HotSchedules for scheduling, Fourth iQ for restaurant performance, Human Capital Management for talent and payroll, and Adaco inventory for hotels. Fourth publishes a developer portal of REST APIs covering POS transactions, recipe & menu engineering, menu cycles, workforce (UK employee, labor productivity, schedules), notifications, tasks, SCIM identity provisioning, and Adaco hotel inventory. APIs authenticate with OAuth 2.0 (client_credentials and password grants) or Basic Auth; production and test host locations are provisioned per mutual customer and are not publicly disclosed.",
@@ -9316,7 +9416,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 181
+     "rank": 183
     },
     {
      "name": "Google Cloud Talent Solution",
@@ -9366,7 +9466,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 182
+     "rank": 184
     },
     {
      "name": "CareAcademy",
@@ -9407,106 +9507,6 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 183
-    },
-    {
-     "name": "SAP S/4HANA",
-     "slug": "sap-s4hana",
-     "description": "Collection of SAP S/4HANA Cloud and On-Premise APIs for enterprise resource planning.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/screenshots/sap-s4hana-2026-06-20T193430.png",
-     "score": 37.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 37.5,
-      "contract_quality": 65.6,
-      "contract_governance": 13.6,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 14.3,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Employment & Payroll",
-      "regime_id": "employment_payroll",
-      "score": 40.2,
-      "matched_via": "weak_tags"
-     },
-     "agent_score": 22.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 184
-    },
-    {
-     "name": "Workday Tracking System",
-     "slug": "workday-tracking-system",
-     "description": "APIs for managing employee time tracking, absence management, and workforce scheduling in the Workday platform. Covers time blocks, time clock events, timesheets, time off, leaves of absence, accruals, schedule shifts, scheduling organizations, labor demand, and worker scheduling preferences.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/screenshots/workday-tracking-system-2026-06-20T201611.png",
-     "score": 37.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 29.3,
-      "contract_governance": 13.6,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 39.3,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Employment & Payroll",
-      "regime_id": "employment_payroll",
-      "score": 25.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -10719,6 +10719,56 @@
      "rank": 209
     },
     {
+     "name": "TimeCamp",
+     "slug": "timecamp",
+     "description": "TimeCamp is a time tracking and timesheet platform used by teams to log billable hours, run attendance and time-off, approve timesheets, and measure productivity across projects. Its documented REST API - free on every plan, including the free tier - covers time entries, timers, tasks and projects, users and groups, attendance, approvals, tags, billing rates, expenses, and computer activity data, authenticated with a per-user API token sent as a bearer header.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/timecamp/refs/heads/main/screenshots/timecamp-2026-09-02T163753.png",
+     "score": 35.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.3,
+      "contract_quality": 51.4,
+      "contract_governance": 0.0,
+      "operational_transparency": 18.9,
+      "developer_ergonomics": 19.0,
+      "access_clarity": 46.8
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 11.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 54.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": true,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 210
+    },
+    {
      "name": "Direct Hire",
      "slug": "directhireagents-com",
      "description": "Direct Hire (directhireagents.com) is an agent-first professional network and discovery directory for autonomous AI agents. Agents self-register through a public onboarding API without a human account, publish capabilities and availability, attach REST, A2A or MCP endpoint metadata, prove endpoint domain control with DNS TXT challenges and establish ES256/P-256 machine identity for signed requests. The network exposes a REST API (OpenAPI 3.1, 68 operations), an A2A v1.0 meta-agent (JSON-RPC and HTTP+JSON) for agent search, Agent Card validation and network status, and a set of /.well-known discovery documents. Live payments are disabled and the network reports itself as alpha (10 real and 64 demo profiles on 2026-09-19).",
@@ -10765,7 +10815,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 210
+     "rank": 211
     },
     {
      "name": "Vector Solutions",
@@ -10815,7 +10865,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 211
+     "rank": 212
     },
     {
      "name": "Frappe",
@@ -10865,7 +10915,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 212
+     "rank": 213
     },
     {
      "name": "SmartRecruiters",
@@ -10915,7 +10965,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 213
+     "rank": 214
     },
     {
      "name": "Sunny Yuen",
@@ -10962,56 +11012,6 @@
       "delegated_identity": "served",
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 214
-    },
-    {
-     "name": "TimeCamp",
-     "slug": "timecamp",
-     "description": "TimeCamp is a time tracking and timesheet platform used by teams to log billable hours, run attendance and time-off, approve timesheets, and measure productivity across projects. Its documented REST API - free on every plan, including the free tier - covers time entries, timers, tasks and projects, users and groups, attendance, approvals, tags, billing rates, expenses, and computer activity data, authenticated with a per-user API token sent as a bearer header.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/timecamp/refs/heads/main/screenshots/timecamp-2026-09-02T163753.png",
-     "score": 34.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 63.3,
-      "contract_quality": 51.4,
-      "contract_governance": 0.0,
-      "operational_transparency": 18.9,
-      "developer_ergonomics": 19.0,
-      "access_clarity": 46.8
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 11.8,
-      "matched_via": "fallback"
-     },
-     "agent_score": 54.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": true,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
       "agentic_commerce": false
      },
      "rank": 215
@@ -12537,6 +12537,56 @@
      "rank": 245
     },
     {
+     "name": "UKG",
+     "slug": "ukg",
+     "description": "UKG (Ultimate Kronos Group) is an enterprise human capital management (HCM) and workforce management platform serving over 80,000 organizations worldwide. The UKG Pro suite includes HCM APIs for employee data, payroll, benefits, and personnel actions, plus WFM APIs for time and labor management, scheduling, accruals, and attendance. The UKG Developer Hub provides REST APIs, webhook subscriptions, and People Fabric APIs for building HR integrations, payroll connectors, and workforce analytics applications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/screenshots/ukg-2026-06-20T200004.png",
+     "score": 32.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 71.4,
+      "contract_quality": 30.5,
+      "contract_governance": 27.3,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 44.0,
+      "access_clarity": 26.3
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Employment & Payroll",
+      "regime_id": "employment_payroll",
+      "score": 16.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 24.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 246
+    },
+    {
      "name": "Salsa",
      "slug": "salsa",
      "description": "Salsa is embedded payroll infrastructure that lets SaaS platforms add native, multi-country (US and Canada) payroll to their products through REST and GraphQL APIs, embeddable UI components (Salsa Express), and real-time webhooks. Partner platforms provision employers and workers, run payroll, disburse worker payments, and handle tax setup and filings without leaving their own app. API access is partner-gated - Salsa issues sandbox and production Bearer API keys to approved platform partners.",
@@ -12584,7 +12634,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 246
+     "rank": 247
     },
     {
      "name": "酷学院 (Cool College)",
@@ -12634,7 +12684,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 247
+     "rank": 248
     },
     {
      "name": "Atomic",
@@ -12684,7 +12734,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 248
+     "rank": 249
     },
     {
      "name": "Greenhouse",
@@ -12734,7 +12784,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 249
+     "rank": 250
     },
     {
      "name": "Certn",
@@ -12784,7 +12834,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 250
+     "rank": 251
     },
     {
      "name": "Homebase",
@@ -12834,7 +12884,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 251
+     "rank": 252
     },
     {
      "name": "humi.ca",
@@ -12884,7 +12934,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 252
+     "rank": 253
     },
     {
      "name": "Nirvana Health",
@@ -12934,7 +12984,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 253
+     "rank": 254
     },
     {
      "name": "The Muse",
@@ -12984,7 +13034,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 254
+     "rank": 255
     },
     {
      "name": "Knit",
@@ -13034,7 +13084,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 255
+     "rank": 256
     },
     {
      "name": "MYOB",
@@ -13084,7 +13134,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 256
+     "rank": 257
     },
     {
      "name": "Pinpoint",
@@ -13122,56 +13172,6 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 257
-    },
-    {
-     "name": "UKG",
-     "slug": "ukg",
-     "description": "UKG (Ultimate Kronos Group) is an enterprise human capital management (HCM) and workforce management platform serving over 80,000 organizations worldwide. The UKG Pro suite includes HCM APIs for employee data, payroll, benefits, and personnel actions, plus WFM APIs for time and labor management, scheduling, accruals, and attendance. The UKG Developer Hub provides REST APIs, webhook subscriptions, and People Fabric APIs for building HR integrations, payroll connectors, and workforce analytics applications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/screenshots/ukg-2026-06-20T200004.png",
-     "score": 31.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 30.5,
-      "contract_governance": 27.3,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 44.0,
-      "access_clarity": 26.3
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Employment & Payroll",
-      "regime_id": "employment_payroll",
-      "score": 16.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 24.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,

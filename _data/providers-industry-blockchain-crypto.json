@@ -259,6 +259,56 @@
      "rank": 5
     },
     {
+     "name": "Uphold",
+     "slug": "uphold",
+     "description": "Uphold is a multi-asset digital money platform and regulated crypto exchange that lets consumers and businesses hold, trade, send and spend more than 300 cryptocurrencies, national currencies and precious metals from a single account. Its Enterprise API Suite (\"Move on chain\") is a modular set of OpenAPI 3.1 REST APIs — Core, Widgets, Topper, Market Pulse and KYC Connector — that partners embed to onboard and KYC/KYB-verify users, move value across bank rails (ACH, FedNow/RTP, Wire, FPS, SEPA), debit and credit cards, alternative payment methods (Apple Pay, PayPal) and 50+ blockchain networks, and to run buy/sell, trade, send, portfolio, statements and FATF Travel Rule flows. Uphold also runs a public legacy market-data and wallet API at api.uphold.com/v0, publishes embeddable Payment, KYC and Travel Rule widgets, a Svix-backed webhook event surface, a full Sandbox with test helpers, a public Postman workspace, an llms.txt, an A2A agent card and a documentation MCP server.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/screenshots/uphold-2026-08-17T081941.png",
+     "score": 71.1,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 60.3,
+      "contract_governance": 18.2,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 81.0,
+      "access_clarity": 92.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 48.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 42.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "platform",
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "verified",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": "conformant",
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 6
+    },
+    {
      "name": "PAY.JP",
      "slug": "payjp",
      "description": "PAY.JP is an online payment service operated by PAY, Inc. (PAY株式会社) in Japan. Its Stripe-style REST API lets merchants create charges, tokenize cards, manage customers, run subscriptions (定期課金), and settle transfers (入金) in Japanese yen, with a Platform API (beta) for marketplace/multi-tenant payouts.",
@@ -300,56 +350,6 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 6
-    },
-    {
-     "name": "Uphold",
-     "slug": "uphold",
-     "description": "Uphold is a multi-asset digital money platform and regulated crypto exchange that lets consumers and businesses hold, trade, send and spend more than 300 cryptocurrencies, national currencies and precious metals from a single account. Its Enterprise API Suite (\"Move on chain\") is a modular set of OpenAPI 3.1 REST APIs — Core, Widgets, Topper, Market Pulse and KYC Connector — that partners embed to onboard and KYC/KYB-verify users, move value across bank rails (ACH, FedNow/RTP, Wire, FPS, SEPA), debit and credit cards, alternative payment methods (Apple Pay, PayPal) and 50+ blockchain networks, and to run buy/sell, trade, send, portfolio, statements and FATF Travel Rule flows. Uphold also runs a public legacy market-data and wallet API at api.uphold.com/v0, publishes embeddable Payment, KYC and Travel Rule widgets, a Svix-backed webhook event surface, a full Sandbox with test helpers, a public Postman workspace, an llms.txt, an A2A agent card and a documentation MCP server.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/screenshots/uphold-2026-08-17T081941.png",
-     "score": 70.6,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 75.0,
-      "contract_quality": 60.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 60.5,
-      "developer_ergonomics": 81.0,
-      "access_clarity": 92.1
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 48.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 42.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "platform",
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "verified",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": "conformant",
       "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
@@ -781,6 +781,56 @@
      "rank": 15
     },
     {
+     "name": "Crypto.com",
+     "slug": "crypto-com",
+     "description": "Crypto.com is a cryptocurrency exchange, brokerage and payments company serving retail and institutional customers across spot, margin and derivatives trading, staking, custody, card and payment acceptance, and on-chain development on the Cronos EVM and Cronos zkEVM networks. Its public developer surface spans four programmable products: the Crypto.com Exchange API v1 (REST, WebSocket and FIX 4.4) for market data, order entry, advanced OCO/OTO/OTOCO orders, trading bots, portfolio, wallet and staking operations; the Crypto.com Pay API for merchant payment acceptance, refunds, subscriptions and invoicing with webhooks and idempotent refunds; the Crypto.com Developer Platform API for Cronos tokens, contracts, transactions, blocks, wallets, CronosID and DeFi; and an agent layer consisting of a published MCP server, an agent-first Rust CLI, and provider-authored Agent Skills for trading through the Crypto.com App and Exchange.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/screenshots/crypto-com-2026-08-17T080411.png",
+     "score": 65.5,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 63.3,
+      "contract_quality": 55.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 92.1,
+      "developer_ergonomics": 85.7,
+      "access_clarity": 60.5
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 38.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 45.1,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 16
+    },
+    {
      "name": "Solidus Labs",
      "slug": "solidus-labs",
      "description": "Solidus Labs is a crypto-native market-integrity and compliance technology company founded in 2018 by former Goldman Sachs engineers, headquartered in New York with offices in Tel Aviv and London. Its HALO platform is a unified compliance control hub spanning eight modules — Trade Surveillance, Transaction Monitoring, Stablecoin Monitoring, Token Monitoring, Execution Quality, Case Management, Agentic-AI Workflows and Professional Services — used by regulated exchanges, broker-dealers, market makers, custodians, OTC desks, stablecoin issuers and regulators across digital assets, derivatives, equities and fixed income. The publicly documented developer surface is the TokenSniffer API, the programmatic face of Solidus Labs' Token Monitoring module: a key-authenticated REST API over smart-contract scam detection, the TokenSniffer \"Smell Test\" risk score, malicious token/pair/address feeds across 15+ chains, and a v3 webhook subscription API for real-time scam and rug-pull notifications. The HALO platform itself is delivered to contracted customers through regional dashboards and is not publicly documented.",
@@ -828,7 +878,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Bolt Financial",
@@ -878,56 +928,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
-    },
-    {
-     "name": "Crypto.com",
-     "slug": "crypto-com",
-     "description": "Crypto.com is a cryptocurrency exchange, brokerage and payments company serving retail and institutional customers across spot, margin and derivatives trading, staking, custody, card and payment acceptance, and on-chain development on the Cronos EVM and Cronos zkEVM networks. Its public developer surface spans four programmable products: the Crypto.com Exchange API v1 (REST, WebSocket and FIX 4.4) for market data, order entry, advanced OCO/OTO/OTOCO orders, trading bots, portfolio, wallet and staking operations; the Crypto.com Pay API for merchant payment acceptance, refunds, subscriptions and invoicing with webhooks and idempotent refunds; the Crypto.com Developer Platform API for Cronos tokens, contracts, transactions, blocks, wallets, CronosID and DeFi; and an agent layer consisting of a published MCP server, an agent-first Rust CLI, and provider-authored Agent Skills for trading through the Crypto.com App and Exchange.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/screenshots/crypto-com-2026-08-17T080411.png",
-     "score": 65.0,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 58.3,
-      "contract_quality": 55.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 92.1,
-      "developer_ergonomics": 85.7,
-      "access_clarity": 60.5
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 38.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 45.1,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 18
     },
     {
@@ -935,11 +935,11 @@
      "slug": "fireblocks",
      "description": "Fireblocks is an institutional digital-asset and stablecoin infrastructure company providing MPC-secured custody, wallets (custodial and non-custodial / embedded), payments, tokenization, staking, smart contracts, off-exchange settlement, and DeFi security to trading firms, fintechs, exchanges, payment service providers, banks, financial institutions, and Web3 companies. The Fireblocks REST API exposes 236+ operations across 15 surface areas — Vaults, Transactions, Wallets, Assets, Exchange, Tokenization, Contracts, Staking, NFTs, Payments, Network/Off-Exchange, Compliance, Gas Station, Workspace Management, and Webhooks — alongside the separate Non-Custodial Wallet (NCW) API for embedded wallets.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fireblocks/refs/heads/main/screenshots/fireblocks-2026-06-20T181228.png",
-     "score": 64.5,
+     "score": 65.0,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 75.0,
+      "discoverability": 80.4,
       "contract_quality": 61.7,
       "contract_governance": 9.8,
       "operational_transparency": 65.3,
@@ -1039,7 +1039,7 @@
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 68.3,
+      "discoverability": 66.7,
       "contract_quality": 46.8,
       "contract_governance": 33.3,
       "operational_transparency": 76.3,
@@ -1052,10 +1052,10 @@
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
-      "score": 34.3,
+      "score": 21.3,
       "matched_via": "tags"
      },
-     "agent_score": 37.9,
+     "agent_score": 36.3,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1071,7 +1071,7 @@
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": "flavored",
+      "agent_card": false,
       "dry_run_mode": "na",
       "delegated_identity": false,
       "protected_resource_metadata": false,
@@ -1286,6 +1286,62 @@
      "rank": 25
     },
     {
+     "name": "Gr4vy",
+     "slug": "gr4vy",
+     "description": "Gr4vy is a cloud-native payment orchestration platform delivered as dedicated, per-merchant infrastructure. A single REST API and a PCI DSS Level 1 vault connect merchants and platforms to hundreds of payment services, payment methods, anti-fraud providers, digital wallets and gift-card services, with no-code Flow routing rules, network tokens, 3-D Secure, payouts, payment links, reporting and webhooks. Gr4vy publishes an OpenAPI 3.1 contract, Speakeasy-generated server SDKs in six languages, mobile and web checkout components (Embed, Secure Fields), a native CLI, a Postman collection, a docs MCP server, an A2A agent card and an Agent Skill.",
+     "score": 62.4,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 60.6,
+      "contract_governance": 18.2,
+      "operational_transparency": 73.7,
+      "developer_ergonomics": 90.5,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 48.2,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "psd2-sca",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 53.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": "verified",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": "conformant",
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 26
+    },
+    {
      "name": "Ankr",
      "slug": "ankr",
      "description": "Ankr is a Web3 infrastructure provider whose multichain RPC, Advanced API, liquid staking, contract automation, and Rollup-as-a-Service products serve developers, exchanges, and enterprises across 80+ blockchains. The Node API exposes JSON-RPC and WebSocket endpoints at rpc.ankr.com/{chain}; the Advanced API (AAPI) layers an indexed query surface across 19 EVM mainnets for NFT, token, and historical-data reads. Ankr also operates liquid staking pools (ankrETH, ankrBNB, ankrPOL, ankrAVAX, ankrFTM, ankrDOT, ankrFLOW), a contract automation service on BNB Smart Chain, and an enterprise Rollup-as-a-Service practice that supports OP Stack, Polygon CDK, and Arbitrum Orbit variants. Infrastructure runs as a global DePIN of bare-metal nodes in 30+ regions serving roughly 8 billion daily RPC requests.",
@@ -1333,7 +1389,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Didit",
@@ -1398,63 +1454,57 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
-     "name": "Gr4vy",
-     "slug": "gr4vy",
-     "description": "Gr4vy is a cloud-native payment orchestration platform delivered as dedicated, per-merchant infrastructure. A single REST API and a PCI DSS Level 1 vault connect merchants and platforms to hundreds of payment services, payment methods, anti-fraud providers, digital wallets and gift-card services, with no-code Flow routing rules, network tokens, 3-D Secure, payouts, payment links, reporting and webhooks. Gr4vy publishes an OpenAPI 3.1 contract, Speakeasy-generated server SDKs in six languages, mobile and web checkout components (Embed, Secure Fields), a native CLI, a Postman collection, a docs MCP server, an A2A agent card and an Agent Skill.",
-     "score": 61.9,
+     "name": "Covalent",
+     "slug": "covalent",
+     "description": "Covalent provides multi-chain blockchain data infrastructure, published as the GoldRush APIs. Its API covers token balances, transactions, transfers, ABIs, NFTs, DeFi positions and cross-chain queries across supported networks, including Bitcoin and Hyperliquid.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/screenshots/covalent-2026-06-20T175115.png",
+     "score": 61.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 75.0,
-      "contract_quality": 60.6,
-      "contract_governance": 18.2,
-      "operational_transparency": 73.7,
-      "developer_ergonomics": 90.5,
-      "access_clarity": 28.9
+      "discoverability": 71.4,
+      "contract_quality": 64.4,
+      "contract_governance": 27.3,
+      "operational_transparency": 65.3,
+      "developer_ergonomics": 63.1,
+      "access_clarity": 67.9
      },
      "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 48.2,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "psd2-sca",
-        "jurisdiction": "EU"
-       }
-      ]
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 21.6,
+      "matched_via": "fallback"
      },
-     "agent_score": 53.4,
-     "agent_band": "agent-native",
+     "agent_score": 29.1,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "documented",
+      "reversibility_documented": false,
+      "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "verified",
+      "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": true,
+      "event_surface_described": "derived",
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": "conformant",
+      "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "FarmDash Agent Hub",
@@ -1504,7 +1554,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "SiftingIO",
@@ -1549,56 +1599,6 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 30
-    },
-    {
-     "name": "Covalent",
-     "slug": "covalent",
-     "description": "Covalent provides multi-chain blockchain data infrastructure, published as the GoldRush APIs. Its API covers token balances, transactions, transfers, ABIs, NFTs, DeFi positions and cross-chain queries across supported networks, including Bitcoin and Hyperliquid.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/screenshots/covalent-2026-06-20T175115.png",
-     "score": 60.9,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 64.4,
-      "contract_governance": 27.3,
-      "operational_transparency": 65.3,
-      "developer_ergonomics": 63.1,
-      "access_clarity": 67.9
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 21.6,
-      "matched_via": "fallback"
-     },
-     "agent_score": 29.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -1918,11 +1918,11 @@
      "slug": "altr",
      "description": "ALTR is a unified data security platform that discovers, classifies, masks, tokenizes and monitors sensitive data across Snowflake, Databricks and OLTP databases (PostgreSQL, MySQL, SQL Server, Oracle, MongoDB). The platform combines automated data classification, tag-based and column-based dynamic data masking, role-based access control, access-approval workflows, database activity monitoring with alerting, format-preserving encryption, and both vaulted and PCI-scoped critical tokenization. Everything the console does is exposed through a large public REST surface — a Management API plus purpose-built classification, policy, RBAC, tagging, audit, telemetry and sidecar-configuration services — alongside an official open-source MCP server, a Terraform provider and a Node.js Shield SDK. Founded in 2018 and headquartered in Austin, Texas.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/screenshots/altr-2026-08-07T161253.png",
-     "score": 58.6,
+     "score": 59.2,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 73.2,
+      "discoverability": 78.6,
       "contract_quality": 60.0,
       "contract_governance": 4.5,
       "operational_transparency": 36.8,
@@ -1971,6 +1971,56 @@
      "rank": 38
     },
     {
+     "name": "Ledger",
+     "slug": "ledger",
+     "description": "Ledger SAS is the Paris-headquartered maker of the Ledger hardware signer family (Nano, Flex, Stax) and the surrounding self-custody and institutional-custody platform. Its developer surface spans five distinct programs: the Ledger Wallet exchange-provider APIs (Swap, Buy, Sell, Earn and Card OpenAPI contracts an exchange partner implements so its service appears natively inside Ledger Wallet), the Ledger Enterprise \"Vault API\" for institutional custody — accounts, transactions, governance requests, whitelists, entities, staking, compliance digests and reporting/notification webhooks — the Ledger Enterprise Multisig transaction service for Ledger-secured Safe smart accounts, the Wallet API (a bi-directional JSON-RPC 2.0 bridge that lets a Live App talk to a Ledger signer), and the Device Management Kit plus Clear Signing stack for building native device apps and clear-signed transactions. Ledger also publishes an unusually complete agent surface for a hardware company: an RFC 9727 /.well-known/api-catalog, an llms.txt on the developer portal, and first-party Agent Skills for coding agents and the Ledger Wallet CLI.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/screenshots/ledger-2026-09-02T150235.png",
+     "score": 58.9,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 69.6,
+      "contract_quality": 55.4,
+      "contract_governance": 4.5,
+      "operational_transparency": 81.6,
+      "developer_ergonomics": 85.7,
+      "access_clarity": 43.4
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 32.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 42.0,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 39
+    },
+    {
      "name": "AssetFare",
      "slug": "assetfare",
      "description": "A capped, non-custodial routing API for a single corridor — Solana SOL to Base native ETH — aimed at AI agents. It returns fee-inclusive quotes and bounded unsigned actions; the caller's agent verifies, signs, and submits every transaction. AssetFare never receives private keys and never signs or submits, framing itself as one route candidate rather than a market-wide best-price aggregator.",
@@ -2003,60 +2053,10 @@
       "mcp_server": "documented",
       "auth_clarity": "bearer",
       "idempotency": "verified",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
+      "error_semantics": "derived",
+      "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": "conformant",
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 39
-    },
-    {
-     "name": "Ledger",
-     "slug": "ledger",
-     "description": "Ledger SAS is the Paris-headquartered maker of the Ledger hardware signer family (Nano, Flex, Stax) and the surrounding self-custody and institutional-custody platform. Its developer surface spans five distinct programs: the Ledger Wallet exchange-provider APIs (Swap, Buy, Sell, Earn and Card OpenAPI contracts an exchange partner implements so its service appears natively inside Ledger Wallet), the Ledger Enterprise \"Vault API\" for institutional custody — accounts, transactions, governance requests, whitelists, entities, staking, compliance digests and reporting/notification webhooks — the Ledger Enterprise Multisig transaction service for Ledger-secured Safe smart accounts, the Wallet API (a bi-directional JSON-RPC 2.0 bridge that lets a Live App talk to a Ledger signer), and the Device Management Kit plus Clear Signing stack for building native device apps and clear-signed transactions. Ledger also publishes an unusually complete agent surface for a hardware company: an RFC 9727 /.well-known/api-catalog, an llms.txt on the developer portal, and first-party Agent Skills for coding agents and the Ledger Wallet CLI.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/screenshots/ledger-2026-09-02T150235.png",
-     "score": 58.4,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 64.3,
-      "contract_quality": 55.4,
-      "contract_governance": 4.5,
-      "operational_transparency": 81.6,
-      "developer_ergonomics": 85.7,
-      "access_clarity": 43.4
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 32.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 42.0,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
       "agent_skills": true,
       "well_known_catalog": true,
       "consent_identity": false,
@@ -3025,6 +3025,56 @@
      "rank": 59
     },
     {
+     "name": "EVEDEX",
+     "slug": "evedex",
+     "description": "EVEDEX is a hybrid decentralized perpetual-futures exchange built on Arbitrum (Layer 3) that pairs an off-chain order book and matching engine with on-chain settlement and full self-custody, so users trade at centralized-exchange latency without surrendering their keys. Its public developer program spans eleven live OpenAPI 3.1.0 services totalling 557 operations — Auth, Exchange, Market Data, Referral/Affiliate, Notifications, Academy, Game, Billing, Bridge Middleware, AI Strategies and Backoffice — all published from a single Swagger UI at swagger.evedex.com. Authentication is either an X-API-Key issued from the exchange UI or a short-lived JWT minted through EIP-4361 Sign-In with Ethereum, and every write that moves value (order creation, replacement, position closure, withdrawal) additionally requires an EIP-712 typed-data signature from the user's own wallet. Asynchronous state is delivered over seventeen documented Centrifugo WebSocket channels using a snapshot-plus-updates consistency pattern. EVEDEX ships an official TypeScript SDK (@evedex/exchange-bot-sdk) with separate demo and production containers, and publishes agent-native documentation via llms.txt and per-page markdown with a GitBook ask-parameter query interface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/screenshots/evedex-2026-09-02T145428.png",
+     "score": 56.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 78.6,
+      "contract_quality": 51.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 73.2,
+      "access_clarity": 63.2
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 28.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 35.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 60
+    },
+    {
      "name": "ZenLedger",
      "slug": "zenledger",
      "description": "ZenLedger is a Seattle-founded crypto tax and digital-asset accounting company whose platform ingests transactions from 400+ exchanges, 100+ DeFi protocols and 10+ NFT marketplaces to calculate cost basis, capital gains and income, and generate US tax forms. Beyond the consumer product it operates two documented B2B REST APIs on api.zenledger.io: the Compliance Suite API (v3), a digital-asset trade-monitoring surface built with COMPLY for financial institutions and enterprise compliance teams that registers companies and users, imports wallets and exchange accounts, returns normalized transactions and holdings, and screens blockchain addresses against sanctions lists; and the Aggregator Suite API (v1), a partner surface that builds an aggregated portfolio from a set of accounts and returns the resulting tax calculation. Both authenticate with OAuth 2.0 client_credentials JWTs and are documented as versioned Postman collections at docs.zenledger.io.",
@@ -3059,56 +3109,6 @@
       "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 60
-    },
-    {
-     "name": "EVEDEX",
-     "slug": "evedex",
-     "description": "EVEDEX is a hybrid decentralized perpetual-futures exchange built on Arbitrum (Layer 3) that pairs an off-chain order book and matching engine with on-chain settlement and full self-custody, so users trade at centralized-exchange latency without surrendering their keys. Its public developer program spans eleven live OpenAPI 3.1.0 services totalling 557 operations — Auth, Exchange, Market Data, Referral/Affiliate, Notifications, Academy, Game, Billing, Bridge Middleware, AI Strategies and Backoffice — all published from a single Swagger UI at swagger.evedex.com. Authentication is either an X-API-Key issued from the exchange UI or a short-lived JWT minted through EIP-4361 Sign-In with Ethereum, and every write that moves value (order creation, replacement, position closure, withdrawal) additionally requires an EIP-712 typed-data signature from the user's own wallet. Asynchronous state is delivered over seventeen documented Centrifugo WebSocket channels using a snapshot-plus-updates consistency pattern. EVEDEX ships an official TypeScript SDK (@evedex/exchange-bot-sdk) with separate demo and production containers, and publishes agent-native documentation via llms.txt and per-page markdown with a GitBook ask-parameter query interface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/screenshots/evedex-2026-09-02T145428.png",
-     "score": 55.7,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 51.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 73.2,
-      "access_clarity": 63.2
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 28.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 35.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
       "rate_limit_signal": "documented",
       "event_surface_described": true,
       "agent_skills": "derived",
@@ -3330,6 +3330,56 @@
      "rank": 65
     },
     {
+     "name": "NovoPayment",
+     "slug": "novopayment",
+     "description": "NovoPayment is a Miami-headquartered banking-as-a-service and embedded-finance platform serving banks, fintechs, retailers and payment companies across the Americas. Its developer hub publishes an OAuth2-secured REST API suite spanning six product families — Card Solutions, Digital Banking, Digital Acquiring, Digital Wallets, Payments and Tokenization — covering card issuing and processing, digital account opening, KYC and compliance checks, customer and profile management, alias directories, real-time P2P payments, merchant-presented QR acceptance, payment authorization, and Visa/Mastercard token service provisioning including push provisioning to Apple Pay, Google Pay and Samsung Pay. Access runs through a self-service sandbox, with UAT and production promoted by request after project review.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/novopayment/refs/heads/main/screenshots/novopayment-2026-06-20T190444.png",
+     "score": 55.4,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 54.8,
+      "contract_governance": 18.2,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 70.8,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 39.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 32.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 66
+    },
+    {
      "name": "Amazon Managed Blockchain",
      "slug": "amazon-managed-blockchain",
      "description": "Amazon Managed Blockchain is a fully managed service that allows you to create and manage scalable blockchain networks using popular open-source frameworks such as Hyperledger Fabric and Ethereum. It eliminates the overhead required to create the network or join a public network, and automatically scales to meet the demands of thousands of applications running millions of transactions.",
@@ -3377,7 +3427,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "Unstoppable Finance (Iron)",
@@ -3434,7 +3484,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "B3",
@@ -3473,56 +3523,6 @@
       "error_semantics": "verified",
       "openapi_examples": "partial",
       "rate_limit_signal": false,
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 68
-    },
-    {
-     "name": "NovoPayment",
-     "slug": "novopayment",
-     "description": "NovoPayment is a Miami-headquartered banking-as-a-service and embedded-finance platform serving banks, fintechs, retailers and payment companies across the Americas. Its developer hub publishes an OAuth2-secured REST API suite spanning six product families — Card Solutions, Digital Banking, Digital Acquiring, Digital Wallets, Payments and Tokenization — covering card issuing and processing, digital account opening, KYC and compliance checks, customer and profile management, alias directories, real-time P2P payments, merchant-presented QR acceptance, payment authorization, and Visa/Mastercard token service provisioning including push provisioning to Apple Pay, Google Pay and Samsung Pay. Access runs through a self-service sandbox, with UAT and production promoted by request after project review.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/novopayment/refs/heads/main/screenshots/novopayment-2026-06-20T190444.png",
-     "score": 54.9,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 54.8,
-      "contract_governance": 18.2,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 70.8,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 39.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 32.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
       "event_surface_described": "derived",
       "agent_skills": "derived",
       "well_known_catalog": false,
@@ -3866,7 +3866,7 @@
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 73.2,
+      "discoverability": 78.6,
       "contract_quality": 60.2,
       "contract_governance": 18.2,
       "operational_transparency": 52.6,
@@ -4604,6 +4604,56 @@
      "rank": 90
     },
     {
+     "name": "Spreedly",
+     "slug": "spreedly",
+     "description": "Spreedly is a United States payments orchestration platform and PCI-compliant card vault that lets merchants and platforms securely tokenize payment methods once and then transact against hundreds of payment gateways, processors, and third-party APIs through a single integration. Founded in 2008 and headquartered in Durham, North Carolina, Spreedly sits in the gateway/PSP layer of the deep, fragmented US payments market as an independent, network-agnostic intermediary rather than a card network or acquirer. Its Payments Orchestration offering combines a universal token vault, a normalized transaction API across many gateways, workflow-based routing (Composer), network tokenization, account updater (Card Refresher), 3-D Secure / SCA authentication, and Receivers for forwarding stored payment data to arbitrary third-party endpoints. Spreedly is strongly API-native: it publishes a public developer portal with complete reference documentation and a downloadable OpenAPI 3.1 specification for its Core Transactional API (https://core.spreedly.com/v1), authenticated with HTTP Basic auth using per-environment key/secret credentials.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/screenshots/spreedly-2026-08-17T082042.png",
+     "score": 52.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.0,
+      "contract_quality": 58.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 48.7,
+      "developer_ergonomics": 58.9,
+      "access_clarity": 42.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 37.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 44.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "verified",
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 91
+    },
+    {
      "name": "Utila",
      "slug": "utila",
      "description": "Utila is an institutional digital asset wallet and stablecoin infrastructure platform for fintechs and enterprises. Built on MPC (multi-party computation) key management, it provides secure custody with policy-driven governance, embedded compliance and AML screening, and a resource-oriented REST API for programmatically managing vaults, MPC wallets, addresses, balances, and transactions across many blockchains — including sponsored (gas-abstracted) transfers, transaction simulation, an automated Co-Signer for signing workflows, webhooks, and a first-party CLI.",
@@ -4651,7 +4701,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 92
     },
     {
      "name": "Civic",
@@ -4701,7 +4751,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 93
     },
     {
      "name": "MoonPay",
@@ -4758,7 +4808,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 94
     },
     {
      "name": "Mesh",
@@ -4808,7 +4858,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 95
     },
     {
      "name": "Kaiko",
@@ -4853,56 +4903,6 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 95
-    },
-    {
-     "name": "Spreedly",
-     "slug": "spreedly",
-     "description": "Spreedly is a United States payments orchestration platform and PCI-compliant card vault that lets merchants and platforms securely tokenize payment methods once and then transact against hundreds of payment gateways, processors, and third-party APIs through a single integration. Founded in 2008 and headquartered in Durham, North Carolina, Spreedly sits in the gateway/PSP layer of the deep, fragmented US payments market as an independent, network-agnostic intermediary rather than a card network or acquirer. Its Payments Orchestration offering combines a universal token vault, a normalized transaction API across many gateways, workflow-based routing (Composer), network tokenization, account updater (Card Refresher), 3-D Secure / SCA authentication, and Receivers for forwarding stored payment data to arbitrary third-party endpoints. Spreedly is strongly API-native: it publishes a public developer portal with complete reference documentation and a downloadable OpenAPI 3.1 specification for its Core Transactional API (https://core.spreedly.com/v1), authenticated with HTTP Basic auth using per-environment key/secret credentials.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/screenshots/spreedly-2026-08-17T082042.png",
-     "score": 52.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 70.0,
-      "contract_quality": 58.7,
-      "contract_governance": 18.2,
-      "operational_transparency": 48.7,
-      "developer_ergonomics": 58.9,
-      "access_clarity": 42.1
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 37.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 44.4,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -5267,6 +5267,56 @@
      "rank": 103
     },
     {
+     "name": "Misskey",
+     "slug": "misskey",
+     "description": "Misskey is a free, open-source, decentralized microblogging platform that implements the ActivityPub protocol, enabling federation across independent instances and interoperability with other fediverse software such as Mastodon and Pleroma. Users create and share content called Notes, which can contain text, images, videos, polls, and custom emoji formatted with MFM (Markup language For Misskey). All platform functionality is accessible via an HTTP API and a real-time streaming API, making it straightforward to build clients, bots, and integrations. The project is licensed under AGPL-3.0 and maintained by the misskey-dev community.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/screenshots/misskey-2026-06-20T185633.png",
+     "score": 51.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 57.1,
+      "contract_quality": 57.4,
+      "contract_governance": 23.5,
+      "operational_transparency": 57.4,
+      "developer_ergonomics": 45.2,
+      "access_clarity": 36.3
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 16.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 32.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 104
+    },
+    {
      "name": "Nym Technologies",
      "slug": "nym-technologies",
      "description": "Nym Technologies SA builds Nym, an open-source decentralized privacy infrastructure. Its flagship product NymVPN is a decentralized VPN built on the Nym mixnet, a multi-layer network of mix nodes that shuffles and delays packets to protect metadata (who talks to whom, when, and from where), not just IP addresses, using the Sphinx packet format, cover traffic, and zero-knowledge ecash (zk-nyms) for anonymous, unlinkable payments. The network is incentivized by the NYM token on the Nyx (Cosmos SDK) blockchain. Nym publishes a public Nym API (validator / nym-api) and a Node Status API for querying mixnodes, gateways, ecash signatures, epochs, rewards and network status, plus Rust and TypeScript SDKs (mix-fetch, mix-tunnel, mix-dns, mix-websocket) for routing arbitrary traffic through the mixnet.",
@@ -5321,7 +5371,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 105
     },
     {
      "name": "Bitculator",
@@ -5371,7 +5421,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 106
     },
     {
      "name": "Ava Labs",
@@ -5412,56 +5462,6 @@
       "rate_limit_signal": false,
       "event_surface_described": true,
       "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 106
-    },
-    {
-     "name": "Misskey",
-     "slug": "misskey",
-     "description": "Misskey is a free, open-source, decentralized microblogging platform that implements the ActivityPub protocol, enabling federation across independent instances and interoperability with other fediverse software such as Mastodon and Pleroma. Users create and share content called Notes, which can contain text, images, videos, polls, and custom emoji formatted with MFM (Markup language For Misskey). All platform functionality is accessible via an HTTP API and a real-time streaming API, making it straightforward to build clients, bots, and integrations. The project is licensed under AGPL-3.0 and maintained by the misskey-dev community.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/screenshots/misskey-2026-06-20T185633.png",
-     "score": 51.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 51.8,
-      "contract_quality": 57.4,
-      "contract_governance": 23.5,
-      "operational_transparency": 57.4,
-      "developer_ergonomics": 45.2,
-      "access_clarity": 36.3
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 16.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 32.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -5574,6 +5574,56 @@
      "rank": 109
     },
     {
+     "name": "Silverflow",
+     "slug": "silverflow",
+     "description": "Silverflow is an Amsterdam-based cloud-native card processing platform that connects acquirers, payment service providers, payment facilitators and merchants directly to the card networks (Visa, Mastercard, Amex, Discover, Diners, Maestro, Bancontact) through a single REST API. Founded in 2019, the company replaces legacy acquiring processor infrastructure with a contract-first, OpenAPI 3.0-described platform covering merchant and acceptor onboarding, 3-D Secure and BEP authentication, processor and network tokenization, authorization, clearing and settlement, incremental authorizations, reversals, refunds and payouts, terminal-to-cloud POS charges, ATM card management, dispute and chargeback handling, fraud notifications, transaction risk assessment, interchange and scheme-fee estimation, and a full reconciliation and reporting suite. The Silverflow API exposes 137 operations across 101 paths, emits 31 CloudEvents 1.0 webhook notifications through an event-subscription surface, and publishes a sandbox with amount-driven authorization test scenarios.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/screenshots/silverflow-2026-09-02T155511.png",
+     "score": 50.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 59.4,
+      "contract_governance": 4.5,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 66.1,
+      "access_clarity": 17.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 33.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 41.5,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "verified",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "verified",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 110
+    },
+    {
      "name": "ProcessOut",
      "slug": "processout",
      "description": "ProcessOut is a payments technical layer and orchestration platform that standardizes how merchants connect to 100+ payment providers (PSPs and alternative payment methods). It provides a PCI DSS card vault, tokenization for recurring and one-click payments, dynamic no-code checkout, ML-based smart routing to lift authorization rates and cut cost, plus analytics and transaction reconciliation. The REST API (https://api.processout.com) authenticates with HTTP Basic project keys, supports idempotency keys and webhooks, and ships first-party SDKs for Node.js, Python, Ruby, PHP and Go plus client-side ProcessOut.js and iOS/Android. A hosted MCP server exposes the API and docs to AI agents. Originally a Techstars company, ProcessOut is now part of Checkout.com.",
@@ -5628,7 +5678,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 111
     },
     {
      "name": "Solvela",
@@ -5677,7 +5727,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 112
     },
     {
      "name": "Amberdata",
@@ -5727,7 +5777,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 113
     },
     {
      "name": "Coins.ph",
@@ -5777,7 +5827,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 114
     },
     {
      "name": "Shift4",
@@ -5825,56 +5875,6 @@
       "delegated_identity": "served",
       "protected_resource_metadata": false,
       "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 114
-    },
-    {
-     "name": "Silverflow",
-     "slug": "silverflow",
-     "description": "Silverflow is an Amsterdam-based cloud-native card processing platform that connects acquirers, payment service providers, payment facilitators and merchants directly to the card networks (Visa, Mastercard, Amex, Discover, Diners, Maestro, Bancontact) through a single REST API. Founded in 2019, the company replaces legacy acquiring processor infrastructure with a contract-first, OpenAPI 3.0-described platform covering merchant and acceptor onboarding, 3-D Secure and BEP authentication, processor and network tokenization, authorization, clearing and settlement, incremental authorizations, reversals, refunds and payouts, terminal-to-cloud POS charges, ATM card management, dispute and chargeback handling, fraud notifications, transaction risk assessment, interchange and scheme-fee estimation, and a full reconciliation and reporting suite. The Silverflow API exposes 137 operations across 101 paths, emits 31 CloudEvents 1.0 webhook notifications through an event-subscription surface, and publishes a sandbox with amount-driven authorization test scenarios.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/screenshots/silverflow-2026-09-02T155511.png",
-     "score": 50.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 67.9,
-      "contract_quality": 59.4,
-      "contract_governance": 4.5,
-      "operational_transparency": 57.9,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 17.1
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 33.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 41.5,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "verified",
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "verified",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "rank": 115
@@ -6178,6 +6178,56 @@
      "rank": 121
     },
     {
+     "name": "CryptoCompare",
+     "slug": "cryptocompare",
+     "description": "CryptoCompare (now CoinDesk Data / CCData, acquired by CoinDesk in late 2024) is a long-standing crypto market data aggregator covering 300+ exchanges, 10,000+ assets, and 300,000+ trading pairs. The platform exposes two REST API surfaces — the legacy min-api.cryptocompare.com (Price, Historical OHLCV, Top Lists, News, Social, Order Book, Exchanges, Blockchain) and the modern data-api.cryptocompare.com / CoinDesk Data API (Spot, Index / Reference Rates including CADLI and CCIX, Asset, News, On-Chain, Futures, Options, Overview) — plus a unified WebSocket streamer at wss://streamer.cryptocompare.com/v2 that multiplexes Trade, Ticker, CCCAGG aggregate index, Order Book L2 updates and snapshots, Full Volume, Top Tier Full Volume, OHLC Candles, and Top of Book channels. Authentication uses an API key supplied as the api_key query parameter or as an `Authorization: Apikey {key}` header. Access is metered by monthly call credits with per-second / per-minute / per-hour / per-day ceilings; the Free tier issues 100,000 monthly credits and commercial Starter / Professional / Enterprise tiers escalate credit budgets, history depth, and surface coverage (news, social, on-chain, derivatives, full streamer, on-demand bulk exports, reference-rate licensing).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/screenshots/cryptocompare-2026-06-20T175310.png",
+     "score": 49.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.0,
+      "contract_quality": 69.1,
+      "contract_governance": 31.8,
+      "operational_transparency": 46.8,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 49.5
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 21.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 57.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": "na",
+      "error_semantics": "derived",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 122
+    },
+    {
      "name": "Livepeer",
      "slug": "livepeer",
      "description": "Livepeer is a decentralized video infrastructure network. Independent orchestrators run GPU hardware to provide live and on-demand video transcoding services, paid for in ETH/LPT on the Livepeer protocol. Livepeer Studio is the managed gateway and developer platform sitting on top of the network, exposing a REST API at livepeer.studio/api for live streams, on- demand assets, multistream targets, transcoding jobs, sessions, playback, signing keys, AI generation (text-to-image, image-to-image, image-to-video, upscale, audio-to-text), and webhooks. Official SDKs are published for JavaScript/TypeScript, Python, Go, and Ruby, with React Player and React Broadcast components for client-side playback and ingest.",
@@ -6225,7 +6275,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 123
     },
     {
      "name": "Ondo Finance",
@@ -6275,7 +6325,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 124
     },
     {
      "name": "Sygnum",
@@ -6325,7 +6375,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 125
     },
     {
      "name": "Worldpay",
@@ -6375,7 +6425,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 126
     },
     {
      "name": "Alpha Vantage",
@@ -6425,7 +6475,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 127
     },
     {
      "name": "Moirai Labs",
@@ -6474,7 +6524,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 127
+     "rank": 128
     },
     {
      "name": "Blockchain.com",
@@ -6522,56 +6572,6 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 128
-    },
-    {
-     "name": "CryptoCompare",
-     "slug": "cryptocompare",
-     "description": "CryptoCompare (now CoinDesk Data / CCData, acquired by CoinDesk in late 2024) is a long-standing crypto market data aggregator covering 300+ exchanges, 10,000+ assets, and 300,000+ trading pairs. The platform exposes two REST API surfaces — the legacy min-api.cryptocompare.com (Price, Historical OHLCV, Top Lists, News, Social, Order Book, Exchanges, Blockchain) and the modern data-api.cryptocompare.com / CoinDesk Data API (Spot, Index / Reference Rates including CADLI and CCIX, Asset, News, On-Chain, Futures, Options, Overview) — plus a unified WebSocket streamer at wss://streamer.cryptocompare.com/v2 that multiplexes Trade, Ticker, CCCAGG aggregate index, Order Book L2 updates and snapshots, Full Volume, Top Tier Full Volume, OHLC Candles, and Top of Book channels. Authentication uses an API key supplied as the api_key query parameter or as an `Authorization: Apikey {key}` header. Access is metered by monthly call credits with per-second / per-minute / per-hour / per-day ceilings; the Free tier issues 100,000 monthly credits and commercial Starter / Professional / Enterprise tiers escalate credit budgets, history depth, and surface coverage (news, social, on-chain, derivatives, full streamer, on-demand bulk exports, reference-rate licensing).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/screenshots/cryptocompare-2026-06-20T175310.png",
-     "score": 49.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 70.0,
-      "contract_quality": 69.1,
-      "contract_governance": 31.8,
-      "operational_transparency": 46.8,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 49.5
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 21.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 57.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": "na",
-      "error_semantics": "derived",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
       "agentic_commerce": false
      },
      "rank": 129
@@ -7809,6 +7809,56 @@
      "rank": 153
     },
     {
+     "name": "Stellar",
+     "slug": "stellar",
+     "description": "Stellar is an open-source, decentralized blockchain network designed for fast, low-cost cross-border payments and asset issuance. The Stellar Development Foundation (SDF) maintains the core protocol and the Horizon REST API, which provides HTTP access to ledger data including accounts, transactions, operations, effects, offers, trades, claimable balances, and liquidity pools. Horizon is the primary data gateway for the Stellar network, re-serving ledger data in a developer-friendly format. The network supports native XLM transfers, custom asset issuance, a built-in decentralized exchange (DEX), Soroban smart contracts, and anchor integrations for fiat on/off-ramps. Authentication is not required for read queries; transaction submission requires signing with a Stellar keypair.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/stellar/refs/heads/main/screenshots/stellar-2026-06-20T194539.png",
+     "score": 48.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 71.4,
+      "contract_quality": 55.8,
+      "contract_governance": 23.5,
+      "operational_transparency": 40.0,
+      "developer_ergonomics": 42.9,
+      "access_clarity": 36.3
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 15.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 154
+    },
+    {
      "name": "Capitalist",
      "slug": "capitalist",
      "description": "Capitalist is a payment platform that lets businesses make mass payouts and receive money across multiple payment systems and cryptocurrencies without having to open separate accounts with each. The Capitalist Integration API automates bulk payouts to cards, bank transfers, mobile operators, fast payment systems, e-wallets and cryptocurrencies, converts between fiat and digital-asset balances, reads exchange rates and account balances, retrieves transaction and merchant-order history, and runs end-user KYC — for fintech, affiliate-network, and marketplace use cases operating across the CIS region and globally.",
@@ -7856,7 +7906,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 154
+     "rank": 155
     },
     {
      "name": "Halliday",
@@ -7906,7 +7956,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 156
     },
     {
      "name": "Linea",
@@ -7956,7 +8006,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 156
+     "rank": 157
     },
     {
      "name": "TRM Labs",
@@ -8013,7 +8063,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 157
+     "rank": 158
     },
     {
      "name": "Agent Exchange",
@@ -8062,7 +8112,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 158
+     "rank": 159
     },
     {
      "name": "Digital Asset",
@@ -8103,56 +8153,6 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 159
-    },
-    {
-     "name": "Stellar",
-     "slug": "stellar",
-     "description": "Stellar is an open-source, decentralized blockchain network designed for fast, low-cost cross-border payments and asset issuance. The Stellar Development Foundation (SDF) maintains the core protocol and the Horizon REST API, which provides HTTP access to ledger data including accounts, transactions, operations, effects, offers, trades, claimable balances, and liquidity pools. Horizon is the primary data gateway for the Stellar network, re-serving ledger data in a developer-friendly format. The network supports native XLM transfers, custom asset issuance, a built-in decentralized exchange (DEX), Soroban smart contracts, and anchor integrations for fiat on/off-ramps. Authentication is not required for read queries; transaction submission requires signing with a Stellar keypair.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/stellar/refs/heads/main/screenshots/stellar-2026-06-20T194539.png",
-     "score": 47.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 55.8,
-      "contract_governance": 23.5,
-      "operational_transparency": 40.0,
-      "developer_ergonomics": 42.9,
-      "access_clarity": 36.3
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 15.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -9029,6 +9029,56 @@
      "rank": 177
     },
     {
+     "name": "tastytrade",
+     "slug": "tastytrade",
+     "description": "tastytrade is an options-focused brokerage offering a public Open API that provides full read and write access to real-time account data, positions, balances, transaction history, market data, option chains, and order execution across equities, options, futures, and crypto. The API uses REST over HTTPS with JSON payloads for synchronous operations and WebSocket connections (DXLink for market data, dedicated account streamer for real-time account updates). OAuth 2.0 and session-token authentication are both supported, with a safe sandbox environment for development and testing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/screenshots/tastytrade-2026-06-20T194927.png",
+     "score": 46.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 71.4,
+      "contract_quality": 49.3,
+      "contract_governance": 23.5,
+      "operational_transparency": 46.8,
+      "developer_ergonomics": 54.8,
+      "access_clarity": 37.4
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 25.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 26.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 178
+    },
+    {
      "name": "AltoIRA",
      "slug": "altoira",
      "description": "Alto (AltoIRA) is a Nashville-based self-directed IRA platform that lets everyday investors hold alternative assets — private equity, venture funds, startups, real estate, farmland, private credit and cryptocurrency — inside tax-advantaged Traditional, Roth and SEP retirement accounts. Alto Trust Company acts as the IRA custodian and Alto Securities, LLC (FINRA/SIPC) operates the Alto Marketplace of curated private-market offerings. Alto reports custody of roughly $2B in assets for about 30,000 self-directed IRA investors and support for more than 2,500 issuers who have raised capital on the platform. For issuers and investment platforms, Alto publishes a partner REST API (the \"AltoIRA.com API\") on a ReadMe developer hub that covers OAuth investor handoff, offering creation, document upload, investor invitation, investment retrieval, refunds, cancellations, distributions and capital calls, plus an investment-status webhook feed.",
@@ -9076,7 +9126,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 178
+     "rank": 179
     },
     {
      "name": "Blockfrost",
@@ -9126,7 +9176,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 179
+     "rank": 180
     },
     {
      "name": "anchor-x402",
@@ -9175,7 +9225,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 180
+     "rank": 181
     },
     {
      "name": "Supra",
@@ -9225,7 +9275,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 181
+     "rank": 182
     },
     {
      "name": "Triton One",
@@ -9275,7 +9325,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 182
+     "rank": 183
     },
     {
      "name": "Sponge",
@@ -9323,56 +9373,6 @@
       "delegated_identity": "served",
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 183
-    },
-    {
-     "name": "tastytrade",
-     "slug": "tastytrade",
-     "description": "tastytrade is an options-focused brokerage offering a public Open API that provides full read and write access to real-time account data, positions, balances, transaction history, market data, option chains, and order execution across equities, options, futures, and crypto. The API uses REST over HTTPS with JSON payloads for synchronous operations and WebSocket connections (DXLink for market data, dedicated account streamer for real-time account updates). OAuth 2.0 and session-token authentication are both supported, with a safe sandbox environment for development and testing.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/screenshots/tastytrade-2026-06-20T194927.png",
-     "score": 46.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 49.3,
-      "contract_governance": 23.5,
-      "operational_transparency": 46.8,
-      "developer_ergonomics": 54.8,
-      "access_clarity": 37.4
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 25.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 26.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "rank": 184
@@ -10141,6 +10141,56 @@
      "rank": 199
     },
     {
+     "name": "Bluesky",
+     "slug": "bluesky",
+     "description": "API for the Bluesky decentralized social network built on the AT Protocol.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/screenshots/bluesky-2026-06-20T173536.png",
+     "score": 45.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 60.5,
+      "contract_governance": 11.4,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 59.5,
+      "access_clarity": 36.8
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 25.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 25.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 200
+    },
+    {
      "name": "Merit Systems",
      "slug": "merit-systems",
      "description": "Merit Systems builds the infrastructure for open agentic commerce — the discovery and payment rails that let AI agents find and pay for the APIs, data, and services they need. Merit originated the \"open agentic commerce\" framing and the x402 ecosystem index (x402scan), and ships a developer stack for pay-per-call APIs: AgentCash (an MCP server, CLI, and USDC wallet that lets any agent call payment-protected APIs over x402/MPP micropayments), @agentcash/router (a framework for building x402/MPP-compatible endpoints), the Echo \"User Pays\" AI SDK, and the Merit Terminal financial stack for funding open-source contributors and repositories. Backed by a $10M seed round led by a16z and Blockchain Capital.",
@@ -10188,7 +10238,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 200
+     "rank": 201
     },
     {
      "name": "PayEngine",
@@ -10238,7 +10288,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 201
+     "rank": 202
     },
     {
      "name": "Seshat Markets",
@@ -10287,7 +10337,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 202
+     "rank": 203
     },
     {
      "name": "Discover",
@@ -10337,7 +10387,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 203
+     "rank": 204
     },
     {
      "name": "Mammoth Media",
@@ -10387,7 +10437,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 204
+     "rank": 205
     },
     {
      "name": "AT Protocol",
@@ -10437,7 +10487,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 205
+     "rank": 206
     },
     {
      "name": "Rarible",
@@ -10487,7 +10537,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 206
+     "rank": 207
     },
     {
      "name": "Western Alliance Bancorporation",
@@ -10537,7 +10587,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 207
+     "rank": 208
     },
     {
      "name": "Obol",
@@ -10587,7 +10637,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 208
+     "rank": 209
     },
     {
      "name": "Blockdaemon",
@@ -10627,56 +10677,6 @@
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
       "event_surface_described": "unknown",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 209
-    },
-    {
-     "name": "Bluesky",
-     "slug": "bluesky",
-     "description": "API for the Bluesky decentralized social network built on the AT Protocol.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/screenshots/bluesky-2026-06-20T173536.png",
-     "score": 44.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 42.9,
-      "contract_quality": 60.5,
-      "contract_governance": 11.4,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 59.5,
-      "access_clarity": 36.8
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 25.5,
-      "matched_via": "fallback"
-     },
-     "agent_score": 25.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -12198,6 +12198,56 @@
      "rank": 240
     },
     {
+     "name": "Coinbase",
+     "slug": "coinbase",
+     "description": "Coinbase is a leading cryptocurrency platform providing trading, custody, and payment infrastructure for individuals, businesses, and institutions. The Coinbase Developer Platform (CDP) exposes a wide product surface across retail trading (Advanced Trade), professional and institutional trading (Exchange and Prime), merchant payments (Commerce), fiat onboarding (Onramp), developer wallet integration (Wallet SDK), market and on-chain data (Data API), and AI agent toolkits (AgentKit). Authentication is performed using API keys with HMAC-SHA256 signatures (Advanced Trade, Exchange) or JWT bearer tokens (Prime, CDP), with WebSocket and FIX feeds available for low-latency market data and order management.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/screenshots/coinbase-2026-06-20T174726.png",
+     "score": 43.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 61.9,
+      "contract_governance": 13.6,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 39.3,
+      "access_clarity": 32.9
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 27.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 31.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "platform",
+      "auth_clarity": "bearer",
+      "idempotency": "verified",
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 241
+    },
+    {
      "name": "Ava Protocol",
      "slug": "ava-protocol",
      "description": "Ava Protocol is an AI-powered onchain automation platform for Ethereum and L2s (Base, Soneium), and the evolution of the OAK Network Substrate automation parachain. Users create \"workflows\" that connect triggers (scheduled time, price conditions, onchain events, or manual) to actions (swaps, transfers, contract calls, notifications) and run them non-custodially from scoped smart wallets — the user always approves before execution. Verifiable execution is provided by an EigenLayer AVS (Actively Validated Service). Developers integrate through a public REST API (the AVS aggregator gateway) and a TypeScript SDK, authenticating with a JWT bearer token obtained via wallet signature (EIP-191) or an operator-minted key.",
@@ -12245,7 +12295,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 241
+     "rank": 242
     },
     {
      "name": "Request Finance",
@@ -12295,7 +12345,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 242
+     "rank": 243
     },
     {
      "name": "Uniswap",
@@ -12345,7 +12395,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 243
+     "rank": 244
     },
     {
      "name": "Blackbird",
@@ -12395,7 +12445,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 244
+     "rank": 245
     },
     {
      "name": "Tiingo",
@@ -12440,56 +12490,6 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 245
-    },
-    {
-     "name": "Cubist",
-     "slug": "cubist",
-     "description": "Cubist builds hardware-backed key management and embedded wallet infrastructure for Web3. Its flagship product, CubeSigner, generates and seals cryptographic keys inside FIPS 140 HSMs running in AWS Nitro Enclaves and enforces transaction approvals with a programmable Policy-as-Code engine. The CubeSigner REST API spans organizations, users, roles, keys, policies, contacts, sessions, and multi-factor approvals, plus multi-chain signing for EVM (Ethereum, Avalanche), Bitcoin/Taproot, Solana, Sui, Tendermint, Ethereum validators (eth2), and Babylon Bitcoin staking. Authentication is a two-stage OIDC-to-session-token exchange with least-privilege scopes and step-up MFA. Cubist is backed by Amplify Partners and Polychain and is SOC 2 compliant.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/screenshots/cubist-2026-07-25T210859.png",
-     "score": 43.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 47.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 51.8,
-      "access_clarity": 36.8
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 41.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 32.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "verified",
-      "error_semantics": "derived",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -12598,20 +12598,20 @@
      "rank": 248
     },
     {
-     "name": "Coinbase",
-     "slug": "coinbase",
-     "description": "Coinbase is a leading cryptocurrency platform providing trading, custody, and payment infrastructure for individuals, businesses, and institutions. The Coinbase Developer Platform (CDP) exposes a wide product surface across retail trading (Advanced Trade), professional and institutional trading (Exchange and Prime), merchant payments (Commerce), fiat onboarding (Onramp), developer wallet integration (Wallet SDK), market and on-chain data (Data API), and AI agent toolkits (AgentKit). Authentication is performed using API keys with HMAC-SHA256 signatures (Advanced Trade, Exchange) or JWT bearer tokens (Prime, CDP), with WebSocket and FIX feeds available for low-latency market data and order management.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/screenshots/coinbase-2026-06-20T174726.png",
+     "name": "Cubist",
+     "slug": "cubist",
+     "description": "Cubist builds hardware-backed key management and embedded wallet infrastructure for Web3. Its flagship product, CubeSigner, generates and seals cryptographic keys inside FIPS 140 HSMs running in AWS Nitro Enclaves and enforces transaction approvals with a programmable Policy-as-Code engine. The CubeSigner REST API spans organizations, users, roles, keys, policies, contacts, sessions, and multi-factor approvals, plus multi-chain signing for EVM (Ethereum, Avalanche), Bitcoin/Taproot, Solana, Sui, Tendermint, Ethereum validators (eth2), and Babylon Bitcoin staking. Authentication is a two-stage OIDC-to-session-token exchange with least-privilege scopes and step-up MFA. Cubist is backed by Amplify Partners and Polychain and is SOC 2 compliant.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/screenshots/cubist-2026-07-25T210859.png",
      "score": 43.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 61.9,
-      "contract_governance": 13.6,
+      "discoverability": 73.2,
+      "contract_quality": 46.9,
+      "contract_governance": 18.2,
       "operational_transparency": 13.2,
-      "developer_ergonomics": 39.3,
-      "access_clarity": 32.9
+      "developer_ergonomics": 51.8,
+      "access_clarity": 36.8
      },
      "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
@@ -12619,23 +12619,23 @@
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
-      "score": 27.7,
+      "score": 41.1,
       "matched_via": "tags"
      },
-     "agent_score": 31.2,
+     "agent_score": 32.1,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "documented",
-      "mcp_server": "platform",
+      "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": "verified",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
+      "error_semantics": "derived",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -13704,6 +13704,56 @@
      "rank": 270
     },
     {
+     "name": "CrunchDAO",
+     "slug": "crunchdao",
+     "description": "CrunchDAO is a collective-intelligence platform that crowdsources machine-learning models from a global community of data scientists and PhDs to solve forecasting, classification, anomaly-detection and causal-discovery problems across finance, crypto and life sciences. Participants join real-time and structured competitions (Numinous, Falcon, Synth, DataCrunch, ADIA Lab, Broad Institute) on Crunch Hub, submit models with the official crunch-cli, and earn rewards. The Tournament API (api.hub.crunchdao.com) exposes competitions, rounds, phases, leaderboards, projects, submissions and predictions as a versioned REST API secured with API keys and bearer access tokens.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crunchdao/refs/heads/main/screenshots/crunchdao-2026-07-25T210819.png",
+     "score": 42.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 41.4,
+      "contract_governance": 4.5,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 70.8,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 22.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 22.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 271
+    },
+    {
      "name": "Mudrex",
      "slug": "mudrex",
      "description": "Mudrex is a US-headquartered, Bengaluru-based crypto investment and trading platform founded in 2018 and registered with India's Financial Intelligence Unit (FIU-IND). It serves retail and pro traders with spot trading, curated Coin Sets, and USDT- and INR-margined perpetual futures. Its developer surface is the Mudrex Futures API — a REST trading API under https://trade.mudrex.com/fapi/v1 covering wallet transfers, asset discovery, leverage and margin type, order create/amend/cancel, position management with stop-loss/take-profit, liquidation pricing and fee history — plus a public, unauthenticated market-data surface (historical price and mark-price klines over REST, live kline/mark-kline/ticker streams over WebSocket) and an officially hosted MCP server at https://mudrex.com/mcp that exposes 20 trading tools to AI agents. Authentication is a single X-Authentication API-key header issued after KYC and TOTP two-factor enrollment. An official Python SDK ships on PyPI as mudrex-sdk.",
@@ -13751,7 +13801,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 271
+     "rank": 272
     },
     {
      "name": "FinancialData.Net",
@@ -13801,7 +13851,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 272
+     "rank": 273
     },
     {
      "name": "Chainalysis",
@@ -13851,7 +13901,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 273
+     "rank": 274
     },
     {
      "name": "Figure Technology Solutions",
@@ -13901,7 +13951,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 274
+     "rank": 275
     },
     {
      "name": "PaulieB14",
@@ -13950,7 +14000,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 275
+     "rank": 276
     },
     {
      "name": "Nexus Mutual",
@@ -14000,7 +14050,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 276
+     "rank": 277
     },
     {
      "name": "Sfox",
@@ -14050,7 +14100,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 277
+     "rank": 278
     },
     {
      "name": "CoinSwitch",
@@ -14100,7 +14150,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 278
+     "rank": 279
     },
     {
      "name": "Pred",
@@ -14150,7 +14200,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 279
+     "rank": 280
     },
     {
      "name": "Coin Metrics",
@@ -14200,7 +14250,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 280
+     "rank": 281
     },
     {
      "name": "BitFury",
@@ -14241,56 +14291,6 @@
       "rate_limit_signal": false,
       "event_surface_described": true,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 281
-    },
-    {
-     "name": "CrunchDAO",
-     "slug": "crunchdao",
-     "description": "CrunchDAO is a collective-intelligence platform that crowdsources machine-learning models from a global community of data scientists and PhDs to solve forecasting, classification, anomaly-detection and causal-discovery problems across finance, crypto and life sciences. Participants join real-time and structured competitions (Numinous, Falcon, Synth, DataCrunch, ADIA Lab, Broad Institute) on Crunch Hub, submit models with the official crunch-cli, and earn rewards. The Tournament API (api.hub.crunchdao.com) exposes competitions, rounds, phases, leaderboards, projects, submissions and predictions as a versioned REST API secured with API keys and bearer access tokens.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crunchdao/refs/heads/main/screenshots/crunchdao-2026-07-25T210819.png",
-     "score": 41.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 67.9,
-      "contract_quality": 41.4,
-      "contract_governance": 4.5,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 70.8,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 22.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 22.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -16318,6 +16318,56 @@
      "rank": 322
     },
     {
+     "name": "Unstoppable Domains",
+     "slug": "unstoppable-domains",
+     "description": "Web3 domain name service providing REST APIs for resolving crypto domain names, managing NFT domains, reverse lookups, cross-chain address resolution, domain registration, and DNS management across 150+ TLDs on multiple blockchains.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/screenshots/unstoppable-domains-2026-06-20T200411.png",
+     "score": 40.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 71.4,
+      "contract_quality": 54.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 24.2,
+      "developer_ergonomics": 31.0,
+      "access_clarity": 36.3
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 17.6,
+      "matched_via": "fallback"
+     },
+     "agent_score": 36.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "verified",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 323
+    },
+    {
      "name": "ETHGas",
      "slug": "ethgas",
      "description": "ETHGas is an Ethereum blockspace exchange that turns Ethereum blockspace into a tradable commodity, enabling instant transactions through preconfirmations (execution and inclusion preconfs), whole-block commitments, and base-fee futures. Its public developer platform exposes a v1 REST API and a WebSocket streaming API for market data, order placement and management, funding (collateral deposits and withdrawals), and validator/builder registration. Authentication uses an EIP-712 wallet-signature login that issues a short-lived JWT bearer token; public market-data endpoints under /api/v1/p require none. ETHGas runs on Ethereum mainnet with a Hoodi testnet environment, and backs the exchange with a Commit-Boost validator module and a modified rbuilder block builder. ETHGas is backed by Polychain.",
@@ -16365,7 +16415,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 323
+     "rank": 324
     },
     {
      "name": "Kamino",
@@ -16415,7 +16465,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 324
+     "rank": 325
     },
     {
      "name": "LooksRare",
@@ -16465,7 +16515,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 325
+     "rank": 326
     },
     {
      "name": "Sorare",
@@ -16515,7 +16565,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 326
+     "rank": 327
     },
     {
      "name": "Chia Network",
@@ -16565,7 +16615,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 327
+     "rank": 328
     },
     {
      "name": "FastForex",
@@ -16615,7 +16665,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 328
+     "rank": 329
     },
     {
      "name": "Sequence",
@@ -16665,7 +16715,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 329
+     "rank": 330
     },
     {
      "name": "API3",
@@ -16715,7 +16765,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 330
+     "rank": 331
     },
     {
      "name": "InfStones",
@@ -16756,56 +16806,6 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 331
-    },
-    {
-     "name": "Unstoppable Domains",
-     "slug": "unstoppable-domains",
-     "description": "Web3 domain name service providing REST APIs for resolving crypto domain names, managing NFT domains, reverse lookups, cross-chain address resolution, domain registration, and DNS management across 150+ TLDs on multiple blockchains.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/screenshots/unstoppable-domains-2026-06-20T200411.png",
-     "score": 39.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 54.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 24.2,
-      "developer_ergonomics": 31.0,
-      "access_clarity": 36.3
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 17.6,
-      "matched_via": "fallback"
-     },
-     "agent_score": 36.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "verified",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -17183,7 +17183,7 @@
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 60.7,
+      "discoverability": 66.1,
       "contract_quality": 49.6,
       "contract_governance": 13.6,
       "operational_transparency": 36.8,
@@ -17383,7 +17383,7 @@
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 66.1,
+      "discoverability": 71.4,
       "contract_quality": 48.1,
       "contract_governance": 0.0,
       "operational_transparency": 31.1,
@@ -17823,6 +17823,56 @@
      "rank": 352
     },
     {
+     "name": "Neynar",
+     "slug": "neynar",
+     "description": "Neynar is the complete Farcaster developer platform providing infrastructure REST APIs for querying casts, channels, user profiles, feeds, reactions, and building applications on the Farcaster decentralized social protocol. As of January 2026, Neynar acquired Farcaster from Merkle Manufactures, taking operational responsibility for the protocol, client, and related infrastructure.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/screenshots/neynar-2026-06-20T190304.png",
+     "score": 38.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 56.0,
+      "contract_governance": 9.8,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 35.7,
+      "access_clarity": 18.4
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 16.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 40.1,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "verified",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "unknown",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 353
+    },
+    {
      "name": "Tendermint",
      "slug": "tendermint",
      "description": "Tendermint is a core contributor to the Cosmos Network and the original developer of Tendermint Core, a best-in-class Byzantine Fault Tolerant (BFT) consensus engine for state-machine replication, alongside the Cosmos SDK blockchain application framework and the IBC inter-blockchain communication protocol. Its primary developer-facing API is the Tendermint RPC — a JSONRPC 2.0 interface (also exposed as a REST-URI form and over websockets) for querying chain state, blocks, transactions and validators, and broadcasting transactions to a node. Tendermint Core has since been renamed to CometBFT, which is the actively maintained successor.",
@@ -17870,7 +17920,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 353
+     "rank": 354
     },
     {
      "name": "Binance",
@@ -17920,7 +17970,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 354
+     "rank": 355
     },
     {
      "name": "GONNA",
@@ -17969,7 +18019,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 355
+     "rank": 356
     },
     {
      "name": "iTick",
@@ -18018,7 +18068,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 356
+     "rank": 357
     },
     {
      "name": "Re",
@@ -18068,7 +18118,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 357
+     "rank": 358
     },
     {
      "name": "Routefusion",
@@ -18118,7 +18168,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 358
+     "rank": 359
     },
     {
      "name": "bloXroute",
@@ -18168,7 +18218,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 359
+     "rank": 360
     },
     {
      "name": "Galxe",
@@ -18218,7 +18268,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 360
+     "rank": 361
     },
     {
      "name": "OKX",
@@ -18268,7 +18318,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 361
+     "rank": 362
     },
     {
      "name": "Xignite",
@@ -18318,7 +18368,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 362
+     "rank": 363
     },
     {
      "name": "Euler Finance",
@@ -18368,7 +18418,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 363
+     "rank": 364
     },
     {
      "name": "Nestcoin",
@@ -18418,7 +18468,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 364
+     "rank": 365
     },
     {
      "name": "Pave Bank",
@@ -18468,7 +18518,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 365
+     "rank": 366
     },
     {
      "name": "Filebase",
@@ -18508,56 +18558,6 @@
       "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 366
-    },
-    {
-     "name": "Neynar",
-     "slug": "neynar",
-     "description": "Neynar is the complete Farcaster developer platform providing infrastructure REST APIs for querying casts, channels, user profiles, feeds, reactions, and building applications on the Farcaster decentralized social protocol. As of January 2026, Neynar acquired Farcaster from Merkle Manufactures, taking operational responsibility for the protocol, client, and related infrastructure.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/screenshots/neynar-2026-06-20T190304.png",
-     "score": 38.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.9,
-      "contract_quality": 56.0,
-      "contract_governance": 9.8,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 35.7,
-      "access_clarity": 18.4
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 16.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 40.1,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "verified",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "unknown",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -18621,6 +18621,56 @@
      "rank": 368
     },
     {
+     "name": "CyberSource",
+     "slug": "cybersource",
+     "description": "CyberSource, a Visa solution, is a global payment management platform that enables businesses to accept payments online, in-app, and in-person. It provides REST APIs for payment authorization and processing, fraud management via Decision Manager, payment tokenization, recurring billing, payouts, and comprehensive post-transaction reporting. The platform operates across 190+ countries and supports card-present, card-not-present, digital wallets, alternative payment methods, and buy-now-pay-later integrations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/screenshots/cybersource-2026-06-20T175413.png",
+     "score": 38.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 49.7,
+      "contract_governance": 9.8,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 57.1,
+      "access_clarity": 26.8
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 13.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 33.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "verified",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": "verified",
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 369
+    },
+    {
      "name": "CipherTrust",
      "slug": "ciphertrust",
      "description": "CipherTrust Manager is Thales's centralized key- and data-security management platform and the control plane of the CipherTrust Data Security Platform (CDSP). It provides a unified plane for encryption key lifecycle management, secrets management, certificates, tokenization, data discovery, and policy enforcement across on-premises, hybrid, and multi-cloud environments including AWS, Azure, and Google Cloud, with HSM/KMIP integration, Kubernetes and DevSecOps support, role-based access controls, and post-quantum cryptography readiness. Developers and platform teams automate it through a REST API (base path /api/v1, JWT bearer authentication), an official HashiCorp Terraform provider (ThalesGroup/ciphertrust), an Ansible collection, and PowerShell orchestration modules, plus Application Protection SDKs for embedding encryption, key management, and tokenization in apps.",
@@ -18668,7 +18718,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 369
+     "rank": 370
     },
     {
      "name": "Fin",
@@ -18718,7 +18768,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 370
+     "rank": 371
     },
     {
      "name": "Hibachi",
@@ -18768,7 +18818,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 371
+     "rank": 372
     },
     {
      "name": "Eco",
@@ -18818,7 +18868,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 372
+     "rank": 373
     },
     {
      "name": "DFlow",
@@ -18868,7 +18918,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 373
+     "rank": 374
     },
     {
      "name": "Nervos",
@@ -18917,7 +18967,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 374
+     "rank": 375
     },
     {
      "name": "Hivemapper",
@@ -18967,7 +19017,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 375
+     "rank": 376
     },
     {
      "name": "Starkware",
@@ -19017,7 +19067,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 376
+     "rank": 377
     },
     {
      "name": "Yield.xyz",
@@ -19067,7 +19117,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 377
+     "rank": 378
     },
     {
      "name": "RockSolid",
@@ -19112,56 +19162,6 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 378
-    },
-    {
-     "name": "CyberSource",
-     "slug": "cybersource",
-     "description": "CyberSource, a Visa solution, is a global payment management platform that enables businesses to accept payments online, in-app, and in-person. It provides REST APIs for payment authorization and processing, fraud management via Decision Manager, payment tokenization, recurring billing, payouts, and comprehensive post-transaction reporting. The platform operates across 190+ countries and supports card-present, card-not-present, digital wallets, alternative payment methods, and buy-now-pay-later integrations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/screenshots/cybersource-2026-06-20T175413.png",
-     "score": 37.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 60.7,
-      "contract_quality": 49.7,
-      "contract_governance": 9.8,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 57.1,
-      "access_clarity": 26.8
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 13.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 33.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "verified",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": "verified",
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -21815,6 +21815,56 @@
      "rank": 432
     },
     {
+     "name": "_done",
+     "slug": "done",
+     "description": "_done is an agent-native catalog of 27 single-purpose utility REST APIs — network and DNS lookups, domain intelligence, email-authentication checks, HTTP and SEO inspection, OCR, screenshots, hashing, JSON tooling, web3 resolution and finance calculators. There are no accounts, no signups and no API keys: every call is metered individually at $0.01 in USDC over the x402 protocol, settled on Base Mainnet or Solana Mainnet through the Coinbase CDP facilitator. Each service runs on its own subdomain, exposes a single POST operation, and publishes its own OpenAPI 3.1.0 spec annotated for AI agents with x-ai-instructions, x-guidance, x-pricing and x-402 payment metadata. Discovery is served from /.well-known/x402.json, /llms.txt, robots.txt and sitemap.xml. There is no MCP server, no A2A agent card, no SDK, no changelog, no status page and no published terms of service.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/screenshots/done-2026-09-02T145256.png",
+     "score": 35.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 69.6,
+      "contract_quality": 55.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 44.6,
+      "access_clarity": 26.3
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 13.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 26.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 433
+    },
+    {
      "name": "Arbitrum",
      "slug": "arbitrum",
      "description": "Arbitrum is the Ethereum Layer 2 rollup ecosystem from Offchain Labs. It includes Arbitrum One (general-purpose rollup secured by Ethereum), Arbitrum Nova (AnyTrust chain for high-throughput, low-cost apps), Arbitrum Sepolia (testnet), and Arbitrum Orbit (settlement framework for custom L2 / L3 chains). Developers interact via standard Ethereum JSON-RPC, the Stylus SDK for Rust / C / C++ smart contracts, the Arbitrum SDK for cross-chain messaging and bridging, and the Arbitrum Bridge for canonical asset transfer between Ethereum and Arbitrum chains.",
@@ -21862,7 +21912,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 433
+     "rank": 434
     },
     {
      "name": "Teahouse Finance",
@@ -21912,7 +21962,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 434
+     "rank": 435
     },
     {
      "name": "Bitstamp",
@@ -21962,7 +22012,107 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 435
+     "rank": 436
+    },
+    {
+     "name": "PeerTube",
+     "slug": "peertube",
+     "description": "PeerTube is a free, decentralized, and federated video hosting platform developed by Framasoft as an open-source alternative to centralized video services like YouTube. It enables anyone to self-host a video platform that federates with other instances via ActivityPub, forming a global network of over 1,600 platforms hosting more than one million videos. The REST API supports video uploading and management, channel and playlist operations, live streaming, search and discovery across federated nodes, content moderation, plugin management, and distributed transcoding via remote runner jobs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/peertube/refs/heads/main/screenshots/peertube-2026-06-20T191525.png",
+     "score": 35.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 52.5,
+      "contract_governance": 9.8,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 35.7,
+      "access_clarity": 26.8
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 26.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 32.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 437
+    },
+    {
+     "name": "Polkadot",
+     "slug": "polkadot",
+     "description": "Polkadot is a multi-chain blockchain network that enables interoperability between specialized blockchains called parachains. Developer APIs are provided through Subscan (a multi-chain block explorer with a hosted HTTP API) and the Substrate API Sidecar (a REST interface for Polkadot SDK-based chains), enabling queries against extrinsics, events, accounts, blocks, staking data, and parachain state on Polkadot, Kusama, and related networks.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/screenshots/polkadot-2026-06-20T192021.png",
+     "score": 34.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 71.4,
+      "contract_quality": 47.3,
+      "contract_governance": 0.0,
+      "operational_transparency": 65.3,
+      "developer_ergonomics": 14.3,
+      "access_clarity": 36.3
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 10.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 25.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 438
     },
     {
      "name": "Turnkey",
@@ -22012,7 +22162,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 436
+     "rank": 439
     },
     {
      "name": "Gate.io",
@@ -22062,7 +22212,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 437
+     "rank": 440
     },
     {
      "name": "HiPay",
@@ -22112,7 +22262,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 438
+     "rank": 441
     },
     {
      "name": "QuickNode",
@@ -22162,7 +22312,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 439
+     "rank": 442
     },
     {
      "name": "DeBank",
@@ -22212,7 +22362,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 440
+     "rank": 443
     },
     {
      "name": "NOWPayments",
@@ -22262,7 +22412,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 441
+     "rank": 444
     },
     {
      "name": "Polygon ID",
@@ -22312,7 +22462,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 442
+     "rank": 445
     },
     {
      "name": "Spacemesh",
@@ -22362,7 +22512,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 443
+     "rank": 446
     },
     {
      "name": "Stablesea",
@@ -22412,7 +22562,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 444
+     "rank": 447
     },
     {
      "name": "XMTP",
@@ -22462,57 +22612,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 445
-    },
-    {
-     "name": "_done",
-     "slug": "done",
-     "description": "_done is an agent-native catalog of 27 single-purpose utility REST APIs — network and DNS lookups, domain intelligence, email-authentication checks, HTTP and SEO inspection, OCR, screenshots, hashing, JSON tooling, web3 resolution and finance calculators. There are no accounts, no signups and no API keys: every call is metered individually at $0.01 in USDC over the x402 protocol, settled on Base Mainnet or Solana Mainnet through the Coinbase CDP facilitator. Each service runs on its own subdomain, exposes a single POST operation, and publishes its own OpenAPI 3.1.0 spec annotated for AI agents with x-ai-instructions, x-guidance, x-pricing and x-402 payment metadata. Discovery is served from /.well-known/x402.json, /llms.txt, robots.txt and sitemap.xml. There is no MCP server, no A2A agent card, no SDK, no changelog, no status page and no published terms of service.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/screenshots/done-2026-09-02T145256.png",
-     "score": 34.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 64.3,
-      "contract_quality": 55.0,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 44.6,
-      "access_clarity": 26.3
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 13.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 26.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 446
+     "rank": 448
     },
     {
      "name": "Flashbots",
@@ -22562,7 +22662,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 447
+     "rank": 449
     },
     {
      "name": "IDRX",
@@ -22612,7 +22712,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 448
+     "rank": 450
     },
     {
      "name": "Stooq",
@@ -22662,57 +22762,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 449
-    },
-    {
-     "name": "PeerTube",
-     "slug": "peertube",
-     "description": "PeerTube is a free, decentralized, and federated video hosting platform developed by Framasoft as an open-source alternative to centralized video services like YouTube. It enables anyone to self-host a video platform that federates with other instances via ActivityPub, forming a global network of over 1,600 platforms hosting more than one million videos. The REST API supports video uploading and management, channel and playlist operations, live streaming, search and discovery across federated nodes, content moderation, plugin management, and distributed transcoding via remote runner jobs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/peertube/refs/heads/main/screenshots/peertube-2026-06-20T191525.png",
-     "score": 34.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 60.7,
-      "contract_quality": 52.5,
-      "contract_governance": 9.8,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 35.7,
-      "access_clarity": 26.8
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 26.5,
-      "matched_via": "fallback"
-     },
-     "agent_score": 32.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "verified",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 450
+     "rank": 451
     },
     {
      "name": "Envio",
@@ -22762,7 +22812,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 451
+     "rank": 452
     },
     {
      "name": "Loot Rush Games",
@@ -22803,56 +22853,6 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 452
-    },
-    {
-     "name": "Polkadot",
-     "slug": "polkadot",
-     "description": "Polkadot is a multi-chain blockchain network that enables interoperability between specialized blockchains called parachains. Developer APIs are provided through Subscan (a multi-chain block explorer with a hosted HTTP API) and the Substrate API Sidecar (a REST interface for Polkadot SDK-based chains), enabling queries against extrinsics, events, accounts, blocks, staking data, and parachain state on Polkadot, Kusama, and related networks.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/screenshots/polkadot-2026-06-20T192021.png",
-     "score": 34.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 47.3,
-      "contract_governance": 0.0,
-      "operational_transparency": 65.3,
-      "developer_ergonomics": 14.3,
-      "access_clarity": 36.3
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 10.8,
-      "matched_via": "fallback"
-     },
-     "agent_score": 25.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -34561,6 +34561,56 @@
      "rank": 687
     },
     {
+     "name": "NEAR Protocol",
+     "slug": "near",
+     "description": "NEAR Protocol provides blockchain infrastructure with JSON-RPC 2.0 and REST APIs for querying accounts, transactions, tokens, NFTs, and staking data on the NEAR network. Developers can interact with the NEAR blockchain through the official RPC endpoints, the FASTNEAR indexed REST API, and the NearBlocks explorer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/near/refs/heads/main/screenshots/near-2026-06-20T190119.png",
+     "score": 25.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 71.4,
+      "contract_quality": 39.6,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 21.4,
+      "access_clarity": 26.8
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 11.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 22.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 688
+    },
+    {
      "name": "PolySign",
      "slug": "polysign",
      "description": "PolySign, Inc. is an Oakland / San Francisco / New York financial technology company building blockchain-enabled infrastructure for institutional digital asset capital markets and payments. Founded by Arthur Britto, David Schwartz and Jack McDonald, PolySign operates a third-generation permissioned blockchain and the AtomicNet settlement network, and was the parent of Standard Custody & Trust Company, the NYDFS-regulated digital asset custody, trading and settlement platform acquired by Ripple in 2024. PolySign publishes three OpenAPI 3.0.3 contracts for AtomicNet — the AtomicNet API Server (node interface for assets, orders, escrow and beneficiary authorizations, settlements, settlement confirmations, book transfers, partners and investors), the AtomicNet Merchant Gate Node, and the AtomicNet ABC Proxy Service (account registration, digest memorialization, signing and testnet faucet) — all authenticated with OAuth 2.0 client credentials issued by a PolySign-hosted token endpoint.",
@@ -34608,7 +34658,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 688
+     "rank": 689
     },
     {
      "name": "Maple Finance",
@@ -34658,7 +34708,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 689
+     "rank": 690
     },
     {
      "name": "WIBMO",
@@ -34714,7 +34764,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 690
+     "rank": 691
     },
     {
      "name": "Quai Network",
@@ -34764,7 +34814,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 691
+     "rank": 692
     },
     {
      "name": "Commonwealth",
@@ -34814,7 +34864,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 692
+     "rank": 693
     },
     {
      "name": "Grok & Mon",
@@ -34863,7 +34913,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 693
+     "rank": 694
     },
     {
      "name": "SimpleHash",
@@ -34913,7 +34963,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 694
+     "rank": 695
     },
     {
      "name": "BitOasis",
@@ -34954,56 +35004,6 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 695
-    },
-    {
-     "name": "NEAR Protocol",
-     "slug": "near",
-     "description": "NEAR Protocol provides blockchain infrastructure with JSON-RPC 2.0 and REST APIs for querying accounts, transactions, tokens, NFTs, and staking data on the NEAR network. Developers can interact with the NEAR blockchain through the official RPC endpoints, the FASTNEAR indexed REST API, and the NearBlocks explorer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/near/refs/heads/main/screenshots/near-2026-06-20T190119.png",
-     "score": 24.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 39.6,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 21.4,
-      "access_clarity": 26.8
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 11.8,
-      "matched_via": "fallback"
-     },
-     "agent_score": 22.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -37175,6 +37175,56 @@
      "rank": 739
     },
     {
+     "name": "WinCL",
+     "slug": "wincl",
+     "description": "WinCL (윈클) is a Korean integrated carbon-management platform that helps enterprises calculate greenhouse-gas emissions, produce climate disclosures and reports, and offset their footprint end-to-end. It combines WinCL Monitoring (emissions accounting and climate disclosure), a WinCL Marketplace for buying globally certified carbon credits (Verra, Gold Standard) and I-REC renewable-energy certificates, a WinCL Reward marketing layer, and consulting services. The WinCL API (api.wincl.io, 271 operations, Bearer JWT) exposes wallet, credit box, certificate box, product, order, Stripe/KCP payment, and Hedera on-chain minting/offset operations so customers can embed carbon purchasing and credit retirement directly into their own applications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/screenshots/wincl-2026-09-02T170801.png",
+     "score": 22.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.0,
+      "contract_quality": 44.8,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 23.2,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 15.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 22.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "platform",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 740
+    },
+    {
      "name": "Hyperledger",
      "slug": "hyperledger",
      "description": "Hyperledger is an open source collaborative effort created to advance cross-industry blockchain technologies, originally hosted under the Linux Foundation and now stewarded by LF Decentralized Trust. It hosts enterprise-grade blockchain frameworks including Fabric, Besu, Indy, Iroha, and Cacti, along with tools like Firefly and Caliper for blockchain development, identity, and operations.",
@@ -37222,7 +37272,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 740
+     "rank": 741
     },
     {
      "name": "Sudoswap",
@@ -37272,7 +37322,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 741
+     "rank": 742
     },
     {
      "name": "Gensyn",
@@ -37313,56 +37363,6 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 742
-    },
-    {
-     "name": "WinCL",
-     "slug": "wincl",
-     "description": "WinCL (윈클) is a Korean integrated carbon-management platform that helps enterprises calculate greenhouse-gas emissions, produce climate disclosures and reports, and offset their footprint end-to-end. It combines WinCL Monitoring (emissions accounting and climate disclosure), a WinCL Marketplace for buying globally certified carbon credits (Verra, Gold Standard) and I-REC renewable-energy certificates, a WinCL Reward marketing layer, and consulting services. The WinCL API (api.wincl.io, 271 operations, Bearer JWT) exposes wallet, credit box, certificate box, product, order, Stripe/KCP payment, and Hedera on-chain minting/offset operations so customers can embed carbon purchasing and credit retirement directly into their own applications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/screenshots/wincl-2026-09-02T170801.png",
-     "score": 22.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 70.0,
-      "contract_quality": 44.8,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 23.2,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 15.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 22.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "platform",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,

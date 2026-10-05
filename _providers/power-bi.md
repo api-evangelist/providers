@@ -63,31 +63,148 @@ apis:
   baseurl_source: declared
   description: Manage dashboards including listing, creating, and retrieving tiles. Dashboards are single-page canvases with pinned visualizations.
   name: Power BI Dashboards API
+  phrasing_intents:
+  - id: getDashboards
+    intent: List dashboards in My Workspace
+    question: What dashboards are in my personal My Workspace?
+  - id: createDashboard
+    intent: Create an empty dashboard
+    question: How do I create a new blank dashboard in My Workspace?
+  - id: getDashboard
+    intent: Get a dashboard's details
+    question: Where do I find the embed URL for one specific dashboard?
+  - id: getTiles
+    intent: List tiles on a dashboard
+    question: Which visualizations are pinned to a given dashboard?
+  - id: getTile
+    intent: Get one dashboard tile
+    question: How do I get the embed URL for a single tile on a dashboard?
+  - id: getDashboardsInGroup
+    intent: List dashboards in a workspace
+    question: Which dashboards live in a shared workspace rather than My Workspace?
+  phrasing_ops: 6
   slug: power-bi-dashboards-api
 - baseURL: https://api.powerbi.com
   baseurl_source: declared
   description: Manage datasets including creating, updating, refreshing, and deleting datasets. Datasets represent the data model behind Power BI reports.
   name: Power BI Datasets API
+  phrasing_intents:
+  - id: getDatasets
+    intent: List datasets in My Workspace
+    question: What datasets are in my personal My Workspace?
+  - id: createDataset
+    intent: Create a push dataset
+    question: How do I create a push dataset so my app can stream rows into Power BI?
+  - id: getDataset
+    intent: Get a dataset's details
+    question: How can I see the tables and configuration of one dataset?
+  - id: deleteDataset
+    intent: Delete a dataset
+    question: How do I delete a dataset from My Workspace?
+  - id: getRefreshHistory
+    intent: Check a dataset's refresh history
+    question: Did my dataset's last refresh succeed or fail?
+  - id: refreshDataset
+    intent: Trigger a dataset refresh
+    question: How do I kick off a refresh of a dataset on demand?
+  - id: getDatasources
+    intent: List a dataset's data sources
+    question: Which server and database does a dataset pull its data from?
+  - id: getParameters
+    intent: List a dataset's parameters
+    question: What parameters does a dataset expose for its connections and queries?
+  phrasing_ops: 10
   slug: power-bi-datasets-api
 - baseURL: https://api.powerbi.com
   baseurl_source: declared
   description: Manage on-premises data gateways and their data sources for connecting to on-premises data.
   name: Power BI Gateways API
+  phrasing_intents:
+  - id: getGateways
+    intent: List on-premises gateways I administer
+    question: Which on-premises data gateways am I an admin of?
+  - id: getGateway
+    intent: Get one on-premises gateway
+    question: How can I look up the details of one specific gateway?
+  - id: getGatewayDatasources
+    intent: List data sources on a gateway
+    question: Which data sources are configured on a given gateway?
+  phrasing_ops: 3
   slug: power-bi-gateways-api
 - baseURL: https://api.powerbi.com
   baseurl_source: declared
   description: Manage workspaces (groups) including listing, creating, deleting, and managing workspace users. Workspaces are containers for dashboards, reports, datasets, and dataflows.
   name: Power BI Groups API
+  phrasing_intents:
+  - id: getGroups
+    intent: List workspaces I can access
+    question: Which Power BI workspaces do I have access to?
+  - id: createGroup
+    intent: Create a workspace
+    question: How do I create a new workspace for my team?
+  - id: deleteGroup
+    intent: Delete a workspace
+    question: How do I delete a workspace I no longer need?
+  - id: getGroupUsers
+    intent: List a workspace's members
+    question: Who has access to a particular workspace?
+  - id: addGroupUser
+    intent: Add a user to a workspace
+    question: How do I give a colleague access to a workspace?
+  - id: updateGroupUser
+    intent: Change a workspace member's access right
+    question: How do I promote an existing workspace member from Contributor to Admin?
+  - id: deleteGroupUser
+    intent: Remove a user from a workspace
+    question: How do I revoke someone's access to a workspace?
+  - id: getDatasetsInGroup
+    intent: List datasets in a workspace
+    question: Which datasets are in a shared team workspace?
+  phrasing_ops: 12
   slug: power-bi-groups-api
 - baseURL: https://api.powerbi.com
   baseurl_source: declared
   description: Import Power BI content such as PBIX files, Excel workbooks, and RDL reports into workspaces.
   name: Power BI Imports API
+  phrasing_intents:
+  - id: getImportsInGroup
+    intent: List imports in a workspace
+    question: Did my PBIX upload to a workspace finish importing?
+  - id: createImportInGroup
+    intent: Import a PBIX or Excel file into a workspace
+    question: How do I upload a PBIX file into a workspace?
+  phrasing_ops: 2
   slug: power-bi-imports-api
 - baseURL: https://api.powerbi.com
   baseurl_source: declared
   description: Manage reports including listing, cloning, exporting, rebinding, and deleting reports. Reports are visual presentations of data from datasets.
   name: Power BI Reports API
+  phrasing_intents:
+  - id: getReports
+    intent: List reports in My Workspace
+    question: What reports are in my personal My Workspace?
+  - id: getReport
+    intent: Get a report's details
+    question: How do I find the web URL and embed URL of one report?
+  - id: deleteReport
+    intent: Delete a report
+    question: How do I delete a report from My Workspace?
+  - id: cloneReport
+    intent: Clone a report
+    question: How do I make a copy of a report?
+  - id: rebindReport
+    intent: Point a report at a different dataset
+    question: How do I switch an existing report to use another dataset?
+  - id: exportReport
+    intent: Export a report as a PBIX file
+    question: How do I download a report as a PBIX file?
+  - id: getPages
+    intent: List a report's pages
+    question: What pages does a report contain, and in what order?
+  - id: getReportsInGroup
+    intent: List reports in a workspace
+    question: Which reports are in a shared team workspace?
+  phrasing_ops: 8
   slug: power-bi-reports-api
 - description: Power BI Embedded enables developers to embed interactive Power BI reports, dashboards, and tiles into custom applications. It provides client-side JavaScript APIs for rendering and interacting with e
   name: Power BI Embedded API
@@ -96,51 +213,188 @@ apis:
   baseurl_source: declared
   description: The Apps API from Microsoft Power BI — 1 operation(s) for apps.
   name: Microsoft Power BI Apps API
+  phrasing_intents:
+  - id: getApps
+    intent: List installed Power BI apps
+    question: Which Power BI apps do I have installed?
+  phrasing_ops: 1
   slug: microsoft-power-bi-apps-api
 - baseURL: https://api.powerbi.com/v1.0/myorg/
   baseurl_source: declared
   description: The Capacities API from Microsoft Power BI — 1 operation(s) for capacities.
   name: Microsoft Power BI Capacities API
+  phrasing_intents:
+  - id: getCapacities
+    intent: List capacities I can access
+    question: What Premium capacities do I have access to in Power BI?
+  phrasing_ops: 1
   slug: microsoft-power-bi-capacities-api
 - baseURL: https://api.powerbi.com/v1.0/myorg/
   baseurl_source: declared
   description: The Dashboards API from Microsoft Power BI — 2 operation(s) for dashboards.
   name: Microsoft Power BI Dashboards API
+  phrasing_intents:
+  - id: getDashboards
+    intent: List dashboards in My Workspace
+    question: What dashboards are in my personal My Workspace?
+  - id: createDashboard
+    intent: Create an empty dashboard
+    question: How do I create a new blank dashboard in My Workspace?
+  - id: getDashboard
+    intent: Get a dashboard's details
+    question: Where do I find the embed URL for one specific dashboard?
+  - id: getTiles
+    intent: List tiles on a dashboard
+    question: Which visualizations are pinned to a given dashboard?
+  - id: getTile
+    intent: Get one dashboard tile
+    question: How do I get the embed URL for a single tile on a dashboard?
+  - id: getDashboardsInGroup
+    intent: List dashboards in a workspace
+    question: Which dashboards live in a shared workspace rather than My Workspace?
+  phrasing_ops: 6
   slug: microsoft-power-bi-dashboards-api
 - baseURL: https://api.powerbi.com/v1.0/myorg/
   baseurl_source: declared
   description: The Dataflows API from Microsoft Power BI — 1 operation(s) for dataflows.
   name: Microsoft Power BI Dataflows API
+  phrasing_intents:
+  - id: getDataflows
+    intent: List dataflows
+    question: Which dataflows exist in my Power BI account?
+  phrasing_ops: 1
   slug: microsoft-power-bi-dataflows-api
 - baseURL: https://api.powerbi.com/v1.0/myorg/
   baseurl_source: declared
   description: The Datasets API from Microsoft Power BI — 5 operation(s) for datasets.
   name: Microsoft Power BI Datasets API
+  phrasing_intents:
+  - id: getDatasets
+    intent: List datasets in My Workspace
+    question: What datasets are in my personal My Workspace?
+  - id: createDataset
+    intent: Create a push dataset
+    question: How do I create a push dataset so my app can stream rows into Power BI?
+  - id: getDataset
+    intent: Get a dataset's details
+    question: How can I see the tables and configuration of one dataset?
+  - id: deleteDataset
+    intent: Delete a dataset
+    question: How do I delete a dataset from My Workspace?
+  - id: getRefreshHistory
+    intent: Check a dataset's refresh history
+    question: Did my dataset's last refresh succeed or fail?
+  - id: refreshDataset
+    intent: Trigger a dataset refresh
+    question: How do I kick off a refresh of a dataset on demand?
+  - id: getDatasources
+    intent: List a dataset's data sources
+    question: Which server and database does a dataset pull its data from?
+  - id: getParameters
+    intent: List a dataset's parameters
+    question: What parameters does a dataset expose for its connections and queries?
+  phrasing_ops: 10
   slug: microsoft-power-bi-datasets-api
 - baseURL: https://api.powerbi.com/v1.0/myorg/
   baseurl_source: declared
   description: The EmbedToken API from Microsoft Power BI — 1 operation(s) for embedtoken.
   name: Microsoft Power BI EmbedToken API
+  phrasing_intents:
+  - id: generateToken
+    intent: Generate an embed token
+    question: How do I get an embed token to show Power BI content inside my own app?
+  phrasing_ops: 1
   slug: microsoft-power-bi-embedtoken-api
 - baseURL: https://api.powerbi.com/v1.0/myorg/
   baseurl_source: declared
   description: The Gateways API from Microsoft Power BI — 1 operation(s) for gateways.
   name: Microsoft Power BI Gateways API
+  phrasing_intents:
+  - id: getGateways
+    intent: List on-premises gateways I administer
+    question: Which on-premises data gateways am I an admin of?
+  - id: getGateway
+    intent: Get one on-premises gateway
+    question: How can I look up the details of one specific gateway?
+  - id: getGatewayDatasources
+    intent: List data sources on a gateway
+    question: Which data sources are configured on a given gateway?
+  phrasing_ops: 3
   slug: microsoft-power-bi-gateways-api
 - baseURL: https://api.powerbi.com/v1.0/myorg/
   baseurl_source: declared
   description: The Groups API from Microsoft Power BI — 2 operation(s) for groups.
   name: Microsoft Power BI Groups API
+  phrasing_intents:
+  - id: getGroups
+    intent: List workspaces I can access
+    question: Which Power BI workspaces do I have access to?
+  - id: createGroup
+    intent: Create a workspace
+    question: How do I create a new workspace for my team?
+  - id: deleteGroup
+    intent: Delete a workspace
+    question: How do I delete a workspace I no longer need?
+  - id: getGroupUsers
+    intent: List a workspace's members
+    question: Who has access to a particular workspace?
+  - id: addGroupUser
+    intent: Add a user to a workspace
+    question: How do I give a colleague access to a workspace?
+  - id: updateGroupUser
+    intent: Change a workspace member's access right
+    question: How do I promote an existing workspace member from Contributor to Admin?
+  - id: deleteGroupUser
+    intent: Remove a user from a workspace
+    question: How do I revoke someone's access to a workspace?
+  - id: getDatasetsInGroup
+    intent: List datasets in a workspace
+    question: Which datasets are in a shared team workspace?
+  phrasing_ops: 12
   slug: microsoft-power-bi-groups-api
 - baseURL: https://api.powerbi.com/v1.0/myorg/
   baseurl_source: declared
   description: The Imports API from Microsoft Power BI — 1 operation(s) for imports.
   name: Microsoft Power BI Imports API
+  phrasing_intents:
+  - id: getImportsInGroup
+    intent: List imports in a workspace
+    question: Did my PBIX upload to a workspace finish importing?
+  - id: createImportInGroup
+    intent: Import a PBIX or Excel file into a workspace
+    question: How do I upload a PBIX file into a workspace?
+  phrasing_ops: 2
   slug: microsoft-power-bi-imports-api
 - baseURL: https://api.powerbi.com/v1.0/myorg/
   baseurl_source: declared
   description: The Reports API from Microsoft Power BI — 5 operation(s) for reports.
   name: Microsoft Power BI Reports API
+  phrasing_intents:
+  - id: getReports
+    intent: List reports in My Workspace
+    question: What reports are in my personal My Workspace?
+  - id: getReport
+    intent: Get a report's details
+    question: How do I find the web URL and embed URL of one report?
+  - id: deleteReport
+    intent: Delete a report
+    question: How do I delete a report from My Workspace?
+  - id: cloneReport
+    intent: Clone a report
+    question: How do I make a copy of a report?
+  - id: rebindReport
+    intent: Point a report at a different dataset
+    question: How do I switch an existing report to use another dataset?
+  - id: exportReport
+    intent: Export a report as a PBIX file
+    question: How do I download a report as a PBIX file?
+  - id: getPages
+    intent: List a report's pages
+    question: What pages does a report contain, and in what order?
+  - id: getReportsInGroup
+    intent: List reports in a workspace
+    question: Which reports are in a shared team workspace?
+  phrasing_ops: 8
   slug: microsoft-power-bi-reports-api
 arazzos:
 - description: Walk from the dashboard list down to a single tile and capture the embed URL, report, and dataset it needs.
@@ -1203,7 +1457,7 @@ score:
     catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.2
+  delta: 0.0
   facets:
     access_clarity: 61.8
     contract_governance: 18.2
@@ -1211,7 +1465,7 @@ score:
     developer_ergonomics: 95.7
     discoverability: 73.2
     operational_transparency: 52.6
-  previous_composite: 72.7
+  previous_composite: 67.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1229,7 +1483,7 @@ score:
     score: 43.4
   schema_version: 0.23.0
   scored_at: '2026-10-04'
-  trend: falling
+  trend: flat
   upsert:
     applies: true
     score: 0.0

@@ -48,31 +48,145 @@ apis:
   baseurl_source: declared
   description: Create and manage administrative resources
   name: drchrono Administrative API
+  phrasing_intents:
+  - id: user_groups_list
+    intent: List user groups
+    question: What user groups exist in the practice?
+  - id: doctor_options_list
+    intent: List doctor options in the practice group
+    question: What settings or options are configured for doctors in the practice group?
+  - id: doctors_read
+    intent: Retrieve a doctor
+    question: How do I get the profile of one doctor by ID?
+  - id: users_read
+    intent: Retrieve a user
+    question: How do I find out which user is currently logged in?
+  - id: users_list
+    intent: List practice users
+    question: Who are the users in my drchrono practice?
+  - id: doctor_options_read
+    intent: Retrieve a doctor's options
+    question: How do I read one doctor options record by ID?
+  - id: doctors_list
+    intent: List doctors in the practice group
+    question: Which doctors are in my practice group?
+  - id: user_groups_read
+    intent: Retrieve a user group
+    question: How do I see who belongs to a particular user group?
+  phrasing_ops: 8
   slug: drchrono-administrative-api
 - baseURL: https://app.drchrono.com/api
   baseurl_source: declared
   description: Search Audit Logs
   name: drchrono Audit API
+  phrasing_intents:
+  - id: audit_log_list
+    intent: Search audit logs
+    question: Who accessed a patient's chart and when?
+  phrasing_ops: 1
   slug: drchrono-audit-api
 - baseURL: https://app.drchrono.com/api
   baseurl_source: declared
   description: The Availability API from drchrono — 1 operation(s) for availability.
   name: drchrono Availability API
+  phrasing_intents:
+  - id: availability
+    intent: Find open appointment slots
+    question: What appointment slots are open at an office on a given day?
+  phrasing_ops: 1
   slug: drchrono-availability-api
 - baseURL: https://app.drchrono.com/api
   baseurl_source: declared
   description: Create and manage billing resources
   name: drchrono Billing API
+  phrasing_intents:
+  - id: daysheet_charges_list
+    intent: Run the daysheet charges report
+    question: What charges did we post between two dates on the daysheet?
+  - id: eligibility_checks_list
+    intent: Search past insurance eligibility checks
+    question: Which insurance eligibility checks have been run for a patient?
+  - id: patient_authorizations_list
+    intent: Search patient insurance authorizations
+    question: Which prior authorizations are on file for a patient?
+  - id: custom_insurance_plan_names_read
+    intent: Retrieve a custom insurance plan name
+    question: How do I look up one custom insurance plan name by ID?
+  - id: line_items_list_create
+    intent: Request a bulk export of billing line items
+    question: Can I request billing line items in bulk for a service date range?
+  - id: line_items_list_list
+    intent: Fetch a batch of billing line items
+    question: Where do I collect the results of a bulk line items request?
+  - id: day_sheet_patient_payments_list
+    intent: Run the daysheet cash report
+    question: How much cash did patients pay us over a date range?
+  - id: eligibility_checks_read
+    intent: Retrieve a past eligibility check
+    question: How do I see the result of one specific eligibility check?
+  phrasing_ops: 38
   slug: drchrono-billing-api
 - baseURL: https://app.drchrono.com/api
   baseurl_source: declared
   description: Create and manage clinical resources
   name: drchrono Clinical API
+  phrasing_intents:
+  - id: claim_billing_notes_create
+    intent: Add a billing note to a claim
+    question: How do I add a billing note to an appointment's claim in drchrono?
+  - id: claim_billing_notes_list
+    intent: List claim billing notes
+    question: Can I see the billing notes attached to a patient's claim?
+  - id: signed_consent_forms_create
+    intent: Record a patient's consent form signature
+    question: How do I record that a patient signed a consent form for an appointment?
+  - id: signed_consent_forms_partial_update
+    intent: Update or archive a consent signature
+    question: Can I archive a patient's consent form signature?
+  - id: signed_consent_forms_list
+    intent: List signed consent forms
+    question: Which consent forms has a patient already signed?
+  - id: custom_appointment_fields_create
+    intent: Create a custom appointment field
+    question: How do I add my own field to appointments?
+  - id: custom_appointment_fields_list
+    intent: List custom appointment fields
+    question: What custom fields have we added to appointments?
+  - id: lab_orders_update
+    intent: Replace a lab order
+    question: How do I overwrite a lab order with fully updated details?
+  phrasing_ops: 231
   slug: drchrono-clinical-api
 - baseURL: https://app.drchrono.com/api
   baseurl_source: declared
   description: Create and manage practice management resources
   name: drchrono Practice Management API
+  phrasing_intents:
+  - id: doctor_work_schedule_update
+    intent: Replace a doctor's entire work schedule
+    question: Can I overwrite a doctor's whole work schedule in one request?
+  - id: doctor_work_schedule_partial_update
+    intent: Adjust part of a doctor's work schedule
+    question: Can I change just one day of a doctor's work schedule without resending the rest?
+  - id: doctor_work_schedule_read
+    intent: Retrieve a doctor work schedule
+    question: How do I look up a specific doctor work schedule by its ID?
+  - id: messages_create
+    intent: Add a message to the message center
+    question: Can I post a new message into a doctor's message center through the API?
+  - id: messages_list
+    intent: Search messages in the message center
+    question: How do I list messages in a doctor's message center for one patient?
+  - id: task_categories_create
+    intent: Create a task category
+    question: Can I add a new category for organizing tasks?
+  - id: task_categories_list
+    intent: List task categories
+    question: What task categories are set up in my practice?
+  - id: offices_add_exam_room
+    intent: Add an exam room to an office
+    question: Can I add a new exam room to an existing office?
+  phrasing_ops: 52
   slug: drchrono-practice-management-api
 - description: The ONC-certified SMART on FHIR R4 interoperability API for the DrChrono EHR. Read-only, 27 US Core resource types, FHIR 4.0.1, with a live CapabilityStatement, SMART App Launch discovery, OpenID Conn
   name: drchrono SMART on FHIR R4 API
@@ -853,7 +967,7 @@ score:
     catalog_gap: 43.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 28.0
@@ -861,7 +975,7 @@ score:
     developer_ergonomics: 70.8
     discoverability: 73.2
     operational_transparency: 84.2
-  previous_composite: 81.8
+  previous_composite: 76.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -880,7 +994,7 @@ score:
     score: 56.3
   schema_version: 0.23.0
   scored_at: '2026-10-04'
-  trend: falling
+  trend: flat
   upsert:
     applies: true
     score: 0.0

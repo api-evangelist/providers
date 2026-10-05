@@ -55,36 +55,125 @@ apis:
   baseurl_source: declared
   description: Comment management and moderation
   name: Instagram Comments API
+  phrasing_intents:
+  - id: getMediaComments
+    intent: List the comments on a post
+    question: How do I pull all the comments people left on one of my Instagram posts?
+  - id: createComment
+    intent: Post a new comment on a media item
+    question: Can I leave a top-level comment on an Instagram post through the API?
+  - id: getComment
+    intent: Look up a single comment
+    question: How do I fetch the details of one specific comment by its ID?
+  - id: hideComment
+    intent: Hide or unhide a comment on my media
+    question: Can I hide an abusive comment on my post without deleting it?
+  - id: deleteComment
+    intent: Delete a comment from my media
+    question: How do I permanently remove a spam comment from one of my posts?
+  - id: getCommentReplies
+    intent: List the replies to a comment
+    question: How can I see the threaded replies under a particular comment?
+  - id: createCommentReply
+    intent: Reply to a comment
+    question: Can I respond directly to a follower's comment instead of posting a new top-level one?
+  phrasing_ops: 7
   slug: instagram-comments-api
 - baseURL: https://graph.facebook.com
   baseurl_source: declared
   description: Hashtag search and media discovery
   name: Instagram Hashtags API
+  phrasing_intents:
+  - id: searchHashtag
+    intent: Find a hashtag's ID by name
+    question: 'How do I get the ID for a hashtag like #travel so I can look up its posts?'
+  - id: getHashtagTopMedia
+    intent: Get the most popular posts for a hashtag
+    question: What are the top-performing posts tagged with a given hashtag?
+  - id: getHashtagRecentMedia
+    intent: Get the latest posts for a hashtag
+    question: How do I monitor the newest posts that use a campaign hashtag?
+  phrasing_ops: 3
   slug: instagram-hashtags-api
 - baseURL: https://graph.instagram.com
   baseurl_source: declared
   description: Account and media level analytics
   name: Instagram Insights API
+  phrasing_intents:
+  - id: getUserInsights
+    intent: Get engagement metrics for my account
+    question: How do I see account-level reach and impressions for my Instagram business profile?
+  - id: getMediaInsights
+    intent: Get engagement metrics for one post
+    question: How many people engaged with a single post or reel I published?
+  phrasing_ops: 2
   slug: instagram-insights-api
 - baseURL: https://graph.instagram.com
   baseurl_source: declared
   description: Photos, videos, stories, reels, and carousels
   name: Instagram Media API
+  phrasing_intents:
+  - id: getUserMedia
+    intent: List the posts published on an account
+    question: How do I list everything an Instagram account has posted?
+  - id: getUserStories
+    intent: List an account's stories
+    question: How can I fetch the stories currently on my Instagram account?
+  - id: getMedia
+    intent: Get details of a photo, video, reel or album
+    question: How do I look up the caption, type and permalink of a single post by its media ID?
+  - id: updateMedia
+    intent: Turn comments on or off for a post
+    question: Can I disable commenting on a post that's attracting trolls?
+  - id: deleteMedia
+    intent: Delete a post, story, reel or carousel
+    question: How do I take down a post I published by mistake?
+  - id: getMediaChildren
+    intent: List the items inside a carousel album
+    question: How do I get the individual photos and videos inside a carousel post?
+  phrasing_ops: 6
   slug: instagram-media-api
 - baseURL: https://graph.instagram.com
   baseurl_source: declared
   description: Content where account was mentioned
   name: Instagram Mentions API
+  phrasing_intents:
+  - id: getUserTags
+    intent: List posts where an account was tagged
+    question: How do I find posts where other people tagged my Instagram account?
+  phrasing_ops: 1
   slug: instagram-mentions-api
 - baseURL: https://graph.instagram.com
   baseurl_source: declared
   description: Content creation and publishing workflow
   name: Instagram Publishing API
+  phrasing_intents:
+  - id: createMediaContainer
+    intent: Prepare a photo or video for publishing
+    question: What's the first step to post a photo to Instagram through the API?
+  - id: publishMedia
+    intent: Publish a prepared media container
+    question: Once my container is ready, how do I actually make the post go live?
+  - id: getContentPublishingLimit
+    intent: Check how many posts I can still publish
+    question: How close am I to the publishing rate limit on my account?
+  - id: getContainer
+    intent: Check the status of a media container
+    question: Is my uploaded video container finished processing and ready to publish?
+  phrasing_ops: 4
   slug: instagram-publishing-api
 - baseURL: https://graph.instagram.com
   baseurl_source: declared
   description: Instagram Business and Creator account profiles
   name: Instagram Users API
+  phrasing_intents:
+  - id: getUser
+    intent: Get my business or creator profile
+    question: How do I read the follower count and bio of my own Instagram business account?
+  - id: getBusinessDiscovery
+    intent: Look up another business or creator account
+    question: Can I see public stats for another brand's Instagram business account?
+  phrasing_ops: 2
   slug: instagram-users-api
 artifact_total: 97
 asyncapis:
@@ -593,7 +682,7 @@ score:
     catalog_gap: 35.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 45.5
@@ -601,7 +690,7 @@ score:
     developer_ergonomics: 74.4
     discoverability: 73.2
     operational_transparency: 76.3
-  previous_composite: 65.4
+  previous_composite: 66.8
   provenance:
     agentic_access: derived
     conformance: first-party

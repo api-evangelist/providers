@@ -503,10 +503,10 @@ rules:
   slug: cisco-expressway-rules
 score:
   band: developing
-  composite: 52.5
+  composite: 53.0
   coverage:
     artifact_dirs: 17
-    catalog_earned: 62.5
+    catalog_earned: 65.5
     catalog_earned_first_party: 0.0
     catalog_gap: 52.5
     catalog_max: 115.0
@@ -517,9 +517,9 @@ score:
     contract_governance: 13.6
     contract_quality: 63.4
     developer_ergonomics: 58.3
-    discoverability: 60.7
+    discoverability: 66.1
     operational_transparency: 39.5
-  previous_composite: 52.0
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     contracts:

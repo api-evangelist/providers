@@ -31,6 +31,14 @@ common:
   title: ''
   type: Website
   url: https://www.nasdaqprivatemarket.com/
+coverage:
+  checked: '2026-10-05'
+  detail: The company website provides no developer documentation or API reference.
+  evidence:
+  - status: 200
+    url: https://www.algorized.com
+  reason: no-developer-program
+  state: none
 created: '2026-09-24'
 description: 'Algorized is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.'
 layout: provider

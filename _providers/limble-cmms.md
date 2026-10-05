@@ -52,6 +52,32 @@ apis:
   baseurl_source: declared
   description: The Routes API from Limble CMMS — 120 operation(s) for routes.
   name: Limble CMMS Routes API
+  phrasing_intents:
+  - id: getMe
+    intent: Check which customer and plan my API keys belong to
+    question: Which Limble customer account are my API keys authenticated as?
+  - id: putAssetsByAssetIDImage
+    intent: Set the main image for an asset
+    question: Can I upload a main photo for a piece of equipment?
+  - id: deleteAssetsByAssetIDImage
+    intent: Remove an asset's main image
+    question: How can I take the main photo off an asset?
+  - id: getAssetsFields
+    intent: List custom field values on assets
+    question: What values are stored in the Make, Model and other custom fields on my assets?
+  - id: postAssetsFields
+    intent: Create a new suggested field for assets
+    question: Can I add a new custom field option that assets at a location can use?
+  - id: getAssetsFieldsSuggested
+    intent: List suggested fields available to assets
+    question: Which fields can an asset choose from when setting up its fields?
+  - id: getAssetsFieldsHistory
+    intent: Get the change history of asset field values
+    question: How have an asset's field values changed over time?
+  - id: putAssetsByAssetIDFields
+    intent: Attach a suggested field to an asset
+    question: How do I add the Make field to an asset that doesn't have it yet?
+  phrasing_ops: 212
   slug: limble-cmms-routes-api
 - description: 'Official hosted Model Context Protocol server at https://mcp.limblecmms.com/mcp (Streamable HTTP) that exposes Limble CMMS data and actions to MCP clients (Cursor, Claude Desktop, Claude Code, GitHub '
   name: Limble MCP Server
@@ -545,7 +571,7 @@ score:
     catalog_gap: 39.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 14.4
@@ -553,7 +579,7 @@ score:
     developer_ergonomics: 63.7
     discoverability: 75.0
     operational_transparency: 84.2
-  previous_composite: 74.0
+  previous_composite: 75.4
   provenance:
     agentic_access: derived
     conformance: derived

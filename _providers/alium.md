@@ -31,6 +31,14 @@ common:
   title: ''
   type: Website
   url: https://www.nasdaqprivatemarket.com/
+coverage:
+  checked: '2026-10-05'
+  detail: Docs are served as a Docusaurus JavaScript app with no machine‑readable OpenAPI spec.
+  evidence:
+  - status: 200
+    url: https://docs.alium.io/api/
+  reason: js-rendered-docs
+  state: unreadable
 created: '2026-09-24'
 description: 'Alium is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.'
 layout: provider

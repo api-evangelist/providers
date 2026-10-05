@@ -177,11 +177,11 @@
      "slug": "cumulocity",
      "description": "Cumulocity is an enterprise AIoT (Artificial Intelligence of Things) platform that connects, manages, and analyzes industrial assets from cloud to edge. Founded inside Software AG and divested via a 2025 management buyout into an independent company (sale announced alongside the IBM acquisition of Software AG's StreamSets and webMethods), Cumulocity provides a full-stack platform — REST and MQTT APIs, device management, digital twin modeling, streaming analytics powered by Apama, DataHub data-lake offload, Cockpit dashboards, and on-prem Edge deployments — validated at 100 million devices and 1 million messages/second across industrial equipment, medical devices, manufacturing, utilities, energy, transport, retail, and telecommunications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cumulocity/refs/heads/main/screenshots/cumulocity-2026-06-20T175331.png",
-     "score": 67.0,
+     "score": 67.5,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 67.9,
+      "discoverability": 73.2,
       "contract_quality": 68.8,
       "contract_governance": 13.6,
       "operational_transparency": 47.4,
@@ -233,6 +233,56 @@
    "count": 16,
    "shown": 16,
    "providers": [
+    {
+     "name": "Autodesk",
+     "slug": "autodesk",
+     "description": "Autodesk is a global leader in design, engineering, and entertainment software, providing cloud-connected platform APIs through Autodesk Platform Services (APS). APS APIs enable developers to build applications that access design data, automate workflows, visualize 3D models, manage construction projects, create digital twins, and integrate sustainability data across Autodesk's product ecosystem including AutoCAD, Revit, Inventor, Maya, BIM 360, and Autodesk Construction Cloud.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/screenshots/autodesk-2026-07-25T201825.png",
+     "score": 60.4,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 65.0,
+      "contract_quality": 69.4,
+      "contract_governance": 18.2,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 71.9,
+      "access_clarity": 61.8
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 45.1,
+      "matched_via": "fallback"
+     },
+     "agent_score": 44.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "unknown",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 5
+    },
     {
      "name": "Katana",
      "slug": "katana",
@@ -288,7 +338,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Epsilon3",
@@ -338,7 +388,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Hexagon",
@@ -384,56 +434,6 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 7
-    },
-    {
-     "name": "Autodesk",
-     "slug": "autodesk",
-     "description": "Autodesk is a global leader in design, engineering, and entertainment software, providing cloud-connected platform APIs through Autodesk Platform Services (APS). APS APIs enable developers to build applications that access design data, automate workflows, visualize 3D models, manage construction projects, create digital twins, and integrate sustainability data across Autodesk's product ecosystem including AutoCAD, Revit, Inventor, Maya, BIM 360, and Autodesk Construction Cloud.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/screenshots/autodesk-2026-07-25T201825.png",
-     "score": 59.9,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 65.0,
-      "contract_quality": 69.4,
-      "contract_governance": 18.2,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 71.9,
-      "access_clarity": 61.8
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 45.1,
-      "matched_via": "fallback"
-     },
-     "agent_score": 44.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "unknown",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -613,11 +613,11 @@
      "slug": "sift-stack",
      "description": "Sift (siftstack.com) is a unified observability platform for mission-critical hardware — the telemetry layer for rockets, aircraft, robots, energy systems and autonomous vehicles. Founded by former SpaceX engineers Austin Spiegel and Karthik Gollapudi and headquartered in Marina del Rey, California, Sift ingests, stores and analyzes high-rate, high-cardinality sensor data, then layers automated rule-based anomaly detection, run-to-run comparison and certification-ready reporting on top of it. The product surface is unusually complete for a company this size: a 343-operation REST API transcoded from 330 gRPC RPCs across 66 MIT-licensed .proto files, first-party Python, Rust, Go, C++ and LabVIEW clients, a sift-cli binary, outbound HMAC-signed webhooks, and a Grafana datasource. It is also one of the more agent-ready providers in the catalog — it publishes an A2A agent card, an Agent Skill, llms.txt on two hosts, an anonymous remote MCP documentation server, and a second MCP server that ships inside the CLI and talks to a customer's own Sift environment. Deployment spans SaaS, private cloud, on-premises, airgapped and AWS GovCloud, backed by SOC 2 Type II, NIST SP 800-171 and ITAR compliance.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sift-stack/refs/heads/main/screenshots/sift-stack-2026-09-02T155415.png",
-     "score": 56.9,
+     "score": 57.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 70.0,
+      "discoverability": 75.0,
       "contract_quality": 55.4,
       "contract_governance": 0.0,
       "operational_transparency": 52.6,
@@ -1133,6 +1133,56 @@
      "rank": 21
     },
     {
+     "name": "ECI Solutions",
+     "slug": "eci-solutions",
+     "description": "ECI Software Solutions (ECI Solutions) is a global provider of industry-specific cloud business management software for small and medium-sized manufacturers, building-supply and industrial distributors, residential construction and trade contractors, field service organizations, and office technology / managed print dealers. Its portfolio spans ERP (JobBOSS², M1, Deacom, Macola, ProfitKey, Ridder iQ, Bemet, Spruce, DDMSPLUS, RockSolid MAX, e-automate, Khameleon), e-commerce (EvolutionX, Spruce eCommerce), CRM (Lasso, Sales Simplicity), payments (NET1), analytics (Cognytics, Lojic, Acsellerate) and MES/APS. ECI publishes a real, anonymously readable API program: the ECI Manufacturing Integration Engine at integrations.ecimanufacturing.com serves seventeen OpenAPI 3.0.1 contracts covering a product-agnostic ERP API plus JobBOSS², M1, authentication, integration management, payments, financial, e-commerce, e-invoicing, shipping, currency, AP/AR commerce, Office 365 and notification services, and Lasso CRM publishes its own OpenAPI 3.0.2 contract at platform.lassocrm.com. API activation itself is gated behind an ECI account manager.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/screenshots/eci-solutions-2026-06-20T180423.png",
+     "score": 53.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 78.6,
+      "contract_quality": 53.9,
+      "contract_governance": 4.5,
+      "operational_transparency": 65.8,
+      "developer_ergonomics": 39.9,
+      "access_clarity": 36.8
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 36.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 45.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "verified",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 22
+    },
+    {
      "name": "Siemens",
      "slug": "siemens",
      "description": "Siemens is a global powerhouse in the fields of electrification, automation and digitalization. The company offers a broad portfolio of products, solutions and services that enable customers to increase their efficiency and sustainability. Siemens operates in a variety of sectors including energy, healthcare, infrastructure, and industry. With a focus on innovation and technology, Siemens is constantly pushing the boundaries to create a better future for society and the environment.",
@@ -1179,7 +1229,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Avnet",
@@ -1225,56 +1275,6 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 23
-    },
-    {
-     "name": "ECI Solutions",
-     "slug": "eci-solutions",
-     "description": "ECI Software Solutions (ECI Solutions) is a global provider of industry-specific cloud business management software for small and medium-sized manufacturers, building-supply and industrial distributors, residential construction and trade contractors, field service organizations, and office technology / managed print dealers. Its portfolio spans ERP (JobBOSS², M1, Deacom, Macola, ProfitKey, Ridder iQ, Bemet, Spruce, DDMSPLUS, RockSolid MAX, e-automate, Khameleon), e-commerce (EvolutionX, Spruce eCommerce), CRM (Lasso, Sales Simplicity), payments (NET1), analytics (Cognytics, Lojic, Acsellerate) and MES/APS. ECI publishes a real, anonymously readable API program: the ECI Manufacturing Integration Engine at integrations.ecimanufacturing.com serves seventeen OpenAPI 3.0.1 contracts covering a product-agnostic ERP API plus JobBOSS², M1, authentication, integration management, payments, financial, e-commerce, e-invoicing, shipping, currency, AP/AR commerce, Office 365 and notification services, and Lasso CRM publishes its own OpenAPI 3.0.2 contract at platform.lassocrm.com. API activation itself is gated behind an ECI account manager.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/screenshots/eci-solutions-2026-06-20T180423.png",
-     "score": 53.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 53.9,
-      "contract_governance": 4.5,
-      "operational_transparency": 65.8,
-      "developer_ergonomics": 39.9,
-      "access_clarity": 36.8
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 36.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 45.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "verified",
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -1795,6 +1795,56 @@
      "rank": 34
     },
     {
+     "name": "Siemens PLM",
+     "slug": "siemens-plm",
+     "description": "Siemens PLM is Siemens Digital Industries Software's product lifecycle management platform offering REST APIs for Teamcenter (PDM/PLM), Polarion (ALM), Insights Hub (Industrial IoT), SiGREEN (sustainability), and the broader Siemens Xcelerator portfolio for digital manufacturing, simulation via Simcenter, and CAD/CAM tooling including NX and Solid Edge. The Siemens Xcelerator Developer Portal provides OpenAPI specifications, SDKs, Postman collections, and sandbox access for developers integrating with these industrial platforms.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/siemens-plm/refs/heads/main/screenshots/siemens-plm-2026-08-17T125316.png",
+     "score": 47.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 71.4,
+      "contract_quality": 49.8,
+      "contract_governance": 9.8,
+      "operational_transparency": 49.5,
+      "developer_ergonomics": 50.0,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 22.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 28.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 35
+    },
+    {
      "name": "AgiBot",
      "slug": "agibot",
      "description": "AgiBot (AGIBOT Innovation (Shanghai) Technology Co., Ltd., known in Chinese as Zhiyuan Robotics / 智元机器人) is a Shanghai-based embodied-intelligence company founded in 2023 that designs and mass-produces humanoid and wheeled service robots — the Expedition A2/A3 full-size humanoids, the X1/X2 open-source bipeds, the Genie G1/G2 and D1 series, the C5, and the OmniHand dexterous hands. Its developer surface is not a public web API but a robotics contract stack: AimRT, an in-house C++20 runtime and middleware compatible with ROS 2, gRPC, HTTP, MQTT, Zenoh and Iceoryx; Link-U OS, an open-source embodied operating system; and the AimDK protocol, a first-party Protocol Buffers definition of the robot itself — hardware abstraction (hands, arms, audio, lights, neck, battery management, cameras, temperature, emergency stop), motion control, kinematics, force control, teleoperation and a health-and-diagnostics service. AgiBot also publishes the AgiBot World dataset, the Genie Sim simulation platform, and runs an online store that implements the Universal Commerce Protocol with a live hosted MCP endpoint for agent-driven purchasing.",
@@ -1842,57 +1892,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 35
+     "rank": 36
     },
     {
-     "name": "Siemens PLM",
-     "slug": "siemens-plm",
-     "description": "Siemens PLM is Siemens Digital Industries Software's product lifecycle management platform offering REST APIs for Teamcenter (PDM/PLM), Polarion (ALM), Insights Hub (Industrial IoT), SiGREEN (sustainability), and the broader Siemens Xcelerator portfolio for digital manufacturing, simulation via Simcenter, and CAD/CAM tooling including NX and Solid Edge. The Siemens Xcelerator Developer Portal provides OpenAPI specifications, SDKs, Postman collections, and sandbox access for developers integrating with these industrial platforms.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/siemens-plm/refs/heads/main/screenshots/siemens-plm-2026-08-17T125316.png",
+     "name": "Aerones",
+     "slug": "aerones",
+     "description": "Aerones is a Latvian robotics company that performs wind turbine blade inspection, cleaning, coating, leading-edge repair and lightning-protection testing with cable-suspended robots and autonomous drones, operating onshore and offshore for owners and OEMs including NextEra, GE, Vestas, Enel and Siemens Gamesa. Its software side is the Operations Hub — a Django Ninja backend behind portal.aerones.com that publishes an unauthenticated OpenAPI 3.1.0 description (760 paths, 1,114 operations, 1,377 schemas) alongside a companion GraphQL schema (339 queries, 325 mutations, 4 subscriptions), covering turbines, blades, anomalies, robot sets, work orders, dispatch, projects, inspections and accounting. Authentication is Keycloak OIDC on sso.aerones.com (realm \"aerones\", client \"operations-hub\"). The contract is public; the data behind it is customer- and staff-gated, and Aerones publishes no developer program, SDKs, pricing or partner API documentation.",
      "score": 47.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 49.8,
-      "contract_governance": 9.8,
-      "operational_transparency": 49.5,
-      "developer_ergonomics": 50.0,
-      "access_clarity": 50.0
+      "discoverability": 73.2,
+      "contract_quality": 58.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 20.8,
+      "access_clarity": 28.9
      },
      "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
      "regulatory": {
       "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 22.5,
-      "matched_via": "fallback"
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 38.5,
+      "matched_via": "tags"
      },
-     "agent_score": 28.1,
-     "agent_band": "agent-aware",
+     "agent_score": 44.1,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
+      "agentic_access": false,
+      "reversibility_documented": "verified",
       "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
+      "auth_clarity": "served",
+      "idempotency": "derived",
       "error_semantics": "verified",
       "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
+      "rate_limit_signal": "derived",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
+      "delegated_identity": "served",
       "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
+      "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Autodesk PowerMill",
@@ -1942,7 +1991,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "First Resonance",
@@ -1989,55 +2038,6 @@
       "dry_run_mode": false,
       "delegated_identity": "served",
       "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 38
-    },
-    {
-     "name": "Aerones",
-     "slug": "aerones",
-     "description": "Aerones is a Latvian robotics company that performs wind turbine blade inspection, cleaning, coating, leading-edge repair and lightning-protection testing with cable-suspended robots and autonomous drones, operating onshore and offshore for owners and OEMs including NextEra, GE, Vestas, Enel and Siemens Gamesa. Its software side is the Operations Hub — a Django Ninja backend behind portal.aerones.com that publishes an unauthenticated OpenAPI 3.1.0 description (760 paths, 1,114 operations, 1,377 schemas) alongside a companion GraphQL schema (339 queries, 325 mutations, 4 subscriptions), covering turbines, blades, anomalies, robot sets, work orders, dispatch, projects, inspections and accounting. Authentication is Keycloak OIDC on sso.aerones.com (realm \"aerones\", client \"operations-hub\"). The contract is public; the data behind it is customer- and staff-gated, and Aerones publishes no developer program, SDKs, pricing or partner API documentation.",
-     "score": 46.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 67.9,
-      "contract_quality": 58.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 20.8,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 38.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 44.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "verified",
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": "derived",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "derived",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
@@ -2863,6 +2863,106 @@
      "rank": 55
     },
     {
+     "name": "Inductive Automation",
+     "slug": "inductive-automation",
+     "description": "Inductive Automation is the developer of Ignition, an industrial application platform used for SCADA, HMI, MES, and IIoT deployments across manufacturing, utilities, and infrastructure. Ignition 8.3 exposes an OpenAPI-compliant REST API through its Gateway that provides programmatic access to configuration, tags, projects, and modules, enabling containerized and cloud-native industrial automation deployments.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/inductive-automation/refs/heads/main/screenshots/inductive-automation-2026-06-20T183324.png",
+     "score": 42.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 58.1,
+      "contract_governance": 9.8,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 38.1,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 27.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 21.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 56
+    },
+    {
+     "name": "Autodesk Fusion",
+     "slug": "autodesk-fusion",
+     "description": "Autodesk Fusion is a cloud-based CAD/CAM/CAE/PCB platform that provides REST and GraphQL APIs for design data access, manufacturing automation, simulation, and shop-floor operations within the Autodesk Platform Services (APS) ecosystem. Developers can build scripts, add-ins, and integrations that automate workflows, sync production data, and connect Fusion with ERP, PLM, and BI systems.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autodesk-fusion/refs/heads/main/screenshots/autodesk-fusion-2026-06-20T172708.png",
+     "score": 42.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 50.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 40.0,
+      "developer_ergonomics": 28.6,
+      "access_clarity": 46.8
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 21.6,
+      "matched_via": "fallback"
+     },
+     "agent_score": 33.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 57
+    },
+    {
      "name": "Violetlabs",
      "slug": "violetlabs",
      "description": "Violet Labs is the connective tissue for hardware engineering data. Its cloud platform gives hardware, systems, and manufacturing teams a single workspace that harmonizes the software stack — PLM, ERP, CAD, PDM, MES, requirements, and procurement tools — through no-code integrations, data-sync workflows, parameters, native Python/Julia/MATLAB scripts, requirements management, reporting, and dashboards. Violet exposes a REST API (the Explore endpoint) authenticated with an x-api-key header, an OAuth 2.0 authorization server with dynamic client registration for its hosted Model Context Protocol (MCP) server, and an AI chat/agent surface. The platform is ITAR/EAR-aware, SOC 2 certified, and NIST/CMMC/FedRAMP-aligned, with on-premises and VioletGov deployment options for defense and regulated hardware programs.",
@@ -2910,7 +3010,57 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 58
+    },
+    {
+     "name": "Cognite",
+     "slug": "cognite",
+     "description": "Cognite is an industrial AI and data platform provider whose core product, Cognite Data Fusion (CDF), contextualizes and integrates data from OT, IT, and ET systems across oil and gas, energy, manufacturing, and mining industries. CDF exposes a comprehensive REST API covering assets, time series, events, files, 3D models, data modeling, entity matching, transformations, functions, and workflows, with SDKs available for Python, JavaScript, Java, .NET, and Rust.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cognite/refs/heads/main/screenshots/cognite-2026-06-20T174714.png",
+     "score": 42.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 60.4,
+      "contract_governance": 13.6,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 40.5,
+      "access_clarity": 7.9
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 37.3,
+      "matched_via": "fallback"
+     },
+     "agent_score": 29.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 59
     },
     {
      "name": "Siemens Insights Hub (MindSphere)",
@@ -2960,107 +3110,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
-    },
-    {
-     "name": "Inductive Automation",
-     "slug": "inductive-automation",
-     "description": "Inductive Automation is the developer of Ignition, an industrial application platform used for SCADA, HMI, MES, and IIoT deployments across manufacturing, utilities, and infrastructure. Ignition 8.3 exposes an OpenAPI-compliant REST API through its Gateway that provides programmatic access to configuration, tags, projects, and modules, enabling containerized and cloud-native industrial automation deployments.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/inductive-automation/refs/heads/main/screenshots/inductive-automation-2026-06-20T183324.png",
-     "score": 41.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 60.7,
-      "contract_quality": 58.1,
-      "contract_governance": 9.8,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 38.1,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 27.5,
-      "matched_via": "fallback"
-     },
-     "agent_score": 21.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 58
-    },
-    {
-     "name": "Autodesk Fusion",
-     "slug": "autodesk-fusion",
-     "description": "Autodesk Fusion is a cloud-based CAD/CAM/CAE/PCB platform that provides REST and GraphQL APIs for design data access, manufacturing automation, simulation, and shop-floor operations within the Autodesk Platform Services (APS) ecosystem. Developers can build scripts, add-ins, and integrations that automate workflows, sync production data, and connect Fusion with ERP, PLM, and BI systems.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autodesk-fusion/refs/heads/main/screenshots/autodesk-fusion-2026-06-20T172708.png",
-     "score": 41.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 50.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 40.0,
-      "developer_ergonomics": 28.6,
-      "access_clarity": 46.8
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 21.6,
-      "matched_via": "fallback"
-     },
-     "agent_score": 33.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 59
+     "rank": 60
     },
     {
      "name": "Weavix",
@@ -3106,56 +3156,6 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 60
-    },
-    {
-     "name": "Cognite",
-     "slug": "cognite",
-     "description": "Cognite is an industrial AI and data platform provider whose core product, Cognite Data Fusion (CDF), contextualizes and integrates data from OT, IT, and ET systems across oil and gas, energy, manufacturing, and mining industries. CDF exposes a comprehensive REST API covering assets, time series, events, files, 3D models, data modeling, entity matching, transformations, functions, and workflows, with SDKs available for Python, JavaScript, Java, .NET, and Rust.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cognite/refs/heads/main/screenshots/cognite-2026-06-20T174714.png",
-     "score": 41.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 60.7,
-      "contract_quality": 60.4,
-      "contract_governance": 13.6,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 40.5,
-      "access_clarity": 7.9
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 37.3,
-      "matched_via": "fallback"
-     },
-     "agent_score": 29.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -3363,6 +3363,55 @@
      "rank": 65
     },
     {
+     "name": "Viridi",
+     "slug": "viridi-parente",
+     "description": "Viridi (Viridi Parente, Inc.) is a Buffalo, New York manufacturer of fail-safe, modular lithium-ion battery energy storage systems (RPS150, RPS50, RPSLink IN/EX, SBR30, FAVEO and the 1.2 MWh series) built around its Anti-Propagation technology for installation in occupied spaces. Its software side is ViSTA / Viridi Insights, an energy management and IIoT platform pairing a data-visualization engine with a Conductor edge computing platform, connecting behind-the-meter equipment over BACnet, Modbus, CANbus, DNP3 and serial links for remote monitoring, peak shaving and demand response. ViSTA runs a Viridi-branded ThingsBoard deployment at vista.viridiparente.com that serves an anonymously readable OpenAPI 3.1 contract and carries Viridi-authored controllers for SBR30 telemetry, generator and chiller data, CBRS device management and Moxion AEMP equipment telematics.",
+     "score": 40.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 48.2,
+      "contract_governance": 4.5,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 37.5,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 20.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 22.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 66
+    },
+    {
      "name": "OSIsoft PI System",
      "slug": "osisoft-pi",
      "description": "OSIsoft PI System is a real-time data management platform used by industrial organizations to capture, analyze, and visualize operational data from sensors, devices, and applications.",
@@ -3410,7 +3459,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "Civil Infrastructure Platform",
@@ -3460,7 +3509,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "PTC",
@@ -3510,7 +3559,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "Quanergy",
@@ -3551,55 +3600,6 @@
       "rate_limit_signal": false,
       "event_surface_described": "derived",
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 69
-    },
-    {
-     "name": "Viridi",
-     "slug": "viridi-parente",
-     "description": "Viridi (Viridi Parente, Inc.) is a Buffalo, New York manufacturer of fail-safe, modular lithium-ion battery energy storage systems (RPS150, RPS50, RPSLink IN/EX, SBR30, FAVEO and the 1.2 MWh series) built around its Anti-Propagation technology for installation in occupied spaces. Its software side is ViSTA / Viridi Insights, an energy management and IIoT platform pairing a data-visualization engine with a Conductor edge computing platform, connecting behind-the-meter equipment over BACnet, Modbus, CANbus, DNP3 and serial links for remote monitoring, peak shaving and demand response. ViSTA runs a Viridi-branded ThingsBoard deployment at vista.viridiparente.com that serves an anonymously readable OpenAPI 3.1 contract and carries Viridi-authored controllers for SBR30 telemetry, generator and chiller data, CBRS device management and Moxion AEMP equipment telematics.",
-     "score": 39.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 60.7,
-      "contract_quality": 48.2,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 37.5,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 20.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 22.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -4072,6 +4072,56 @@
      "rank": 79
     },
     {
+     "name": "SAP S/4HANA",
+     "slug": "sap-s4hana",
+     "description": "Collection of SAP S/4HANA Cloud and On-Premise APIs for enterprise resource planning.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/screenshots/sap-s4hana-2026-06-20T193430.png",
+     "score": 37.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 42.9,
+      "contract_quality": 65.6,
+      "contract_governance": 13.6,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 14.3,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Employment & Payroll",
+      "regime_id": "employment_payroll",
+      "score": 40.2,
+      "matched_via": "weak_tags"
+     },
+     "agent_score": 22.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 80
+    },
+    {
      "name": "PTC ThingWorx",
      "slug": "ptc-thingworx",
      "description": "PTC ThingWorx is an industrial Internet of Things platform that enables companies to rapidly develop and deploy smart, connected solutions for industrial environments.",
@@ -4114,56 +4164,6 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 80
-    },
-    {
-     "name": "SAP S/4HANA",
-     "slug": "sap-s4hana",
-     "description": "Collection of SAP S/4HANA Cloud and On-Premise APIs for enterprise resource planning.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/screenshots/sap-s4hana-2026-06-20T193430.png",
-     "score": 37.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 37.5,
-      "contract_quality": 65.6,
-      "contract_governance": 13.6,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 14.3,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Employment & Payroll",
-      "regime_id": "employment_payroll",
-      "score": 40.2,
-      "matched_via": "weak_tags"
-     },
-     "agent_score": 22.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -4221,6 +4221,55 @@
      "rank": 82
     },
     {
+     "name": "ActionStreamer",
+     "slug": "actionstreamer",
+     "description": "ActionStreamer is a Cincinnati, Ohio IoT video platform company, founded in 2016, that builds wearable and connected-device live streaming technology for industrial, public-safety, defense, aerospace/MRO and sports operations. Its ActionSync platform manages fleets of smart cameras and body-worn devices, moving live and store-and-forward video over Wi-Fi, private 5G, cellular and Starlink links, and its IRIS product layers AI object detection and alerting on top. ActionStreamer publishes a public developer platform at developer.actionstreamer.com: a 247-operation HTTP Web API at api.actionstreamer.com covering devices, device health, events, event presets, streams, video and audio clips, images, files, users and API keys, authenticated with HMAC-SHA256 request signing, plus a first-party Python library distributed on PyPI as \"actionstreamer\".",
+     "score": 36.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 44.4,
+      "contract_governance": 19.7,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 56.5,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 22.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 26.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 83
+    },
+    {
      "name": "Resourcly",
      "slug": "resourcly",
      "description": "Resourcly is an AI-powered platform for deep inventory optimisation across manufacturing. It harmonises fragmented PLM and ERP parts data, finds duplicate and substitute parts through similarity and visual search, and turns that reconciled inventory core into working-capital and part-availability gains. The platform ingests documents, BOMs, ERP inventory files and supplier catalogs, runs AI-driven similarity clustering, price and should-cost analysis, HS-code classification and BOM comparison, and surfaces procurement recommendations. A public REST API (Swagger 2.0, Firebase-JWT authenticated) exposes documents, items, inventory, BOMs, suppliers, storage, search and analytics operations. Resourcly is a Techstars-backed company.",
@@ -4257,55 +4306,6 @@
       "error_semantics": "verified",
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 83
-    },
-    {
-     "name": "ActionStreamer",
-     "slug": "actionstreamer",
-     "description": "ActionStreamer is a Cincinnati, Ohio IoT video platform company, founded in 2016, that builds wearable and connected-device live streaming technology for industrial, public-safety, defense, aerospace/MRO and sports operations. Its ActionSync platform manages fleets of smart cameras and body-worn devices, moving live and store-and-forward video over Wi-Fi, private 5G, cellular and Starlink links, and its IRIS product layers AI object detection and alerting on top. ActionStreamer publishes a public developer platform at developer.actionstreamer.com: a 247-operation HTTP Web API at api.actionstreamer.com covering devices, device health, events, event presets, streams, video and audio clips, images, files, users and API keys, authenticated with HMAC-SHA256 request signing, plus a first-party Python library distributed on PyPI as \"actionstreamer\".",
-     "score": 35.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 60.7,
-      "contract_quality": 44.4,
-      "contract_governance": 19.7,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 56.5,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 22.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 26.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": false,
@@ -6391,6 +6391,56 @@
      "rank": 125
     },
     {
+     "name": "HYPERLABS",
+     "slug": "hyperlabs",
+     "description": "HYPERLABS, Inc. designs and manufactures signal-integrity products for high-speed digital and datacom test in the United States. Two product classes: ultra-broadband Components (amplifiers, baluns, DC blocks, bias tees, pick-off tees, power dividers, attenuators, terminations, inverters) built for 112 and 224 Gbps PAM-4 applications, and Instruments — USB-powered and USB-controlled TDRs, Signal Path Analyzers, controlled-impedance analyzers and impulse generators with 1-20 channels and rise times as fast as 35 ps. Founded in 1992, with engineering and manufacturing in Louisville, Colorado and Beaverton, Oregon. HYPERLABS publishes two machine-readable contracts: an OpenAPI 3.0.1 definition (175 operations, served with Swagger UI) for the hyperlabs.com product-catalog and customer web backend, and an MIT-licensed proto3 gRPC service definition, radium.v1.Radium, for programmatic control and waveform streaming from the TDR11100 Time Domain Reflectometer. Instrument automation is also offered as first-party Windows DLL packages (ZTDR and XTDR) with C++ sample source and manuals.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/screenshots/hyperlabs-2026-08-07T170547.png",
+     "score": 28.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 64.3,
+      "contract_quality": 52.3,
+      "contract_governance": 4.5,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 28.0,
+      "access_clarity": 6.6
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 16.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 24.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "documented",
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 126
+    },
+    {
      "name": "United States Steel",
      "slug": "united-states-steel",
      "description": "United States Steel Corporation (U.S. Steel) is an integrated steel producer headquartered in Pittsburgh, Pennsylvania, with major production operations in the United States and Central Europe. The company serves customers in automotive, construction, container, energy, and industrial markets with advanced high-strength steels, coated products, hot-rolled and cold-rolled coils, electrical steel, and tubular products. U.S. Steel provides digital customer tools through the SteelTrack platform for order management, inventory tracking, shipment history, and certified test reporting.",
@@ -6438,7 +6488,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 127
     },
     {
      "name": "Acadia",
@@ -6488,7 +6538,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 127
+     "rank": 128
     },
     {
      "name": "United Technologies",
@@ -6538,7 +6588,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 129
     },
     {
      "name": "AIDIN ROBOTICS",
@@ -6578,56 +6628,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 129
-    },
-    {
-     "name": "HYPERLABS",
-     "slug": "hyperlabs",
-     "description": "HYPERLABS, Inc. designs and manufactures signal-integrity products for high-speed digital and datacom test in the United States. Two product classes: ultra-broadband Components (amplifiers, baluns, DC blocks, bias tees, pick-off tees, power dividers, attenuators, terminations, inverters) built for 112 and 224 Gbps PAM-4 applications, and Instruments — USB-powered and USB-controlled TDRs, Signal Path Analyzers, controlled-impedance analyzers and impulse generators with 1-20 channels and rise times as fast as 35 ps. Founded in 1992, with engineering and manufacturing in Louisville, Colorado and Beaverton, Oregon. HYPERLABS publishes two machine-readable contracts: an OpenAPI 3.0.1 definition (175 operations, served with Swagger UI) for the hyperlabs.com product-catalog and customer web backend, and an MIT-licensed proto3 gRPC service definition, radium.v1.Radium, for programmatic control and waveform streaming from the TDR11100 Time Domain Reflectometer. Instrument automation is also offered as first-party Windows DLL packages (ZTDR and XTDR) with C++ sample source and manuals.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/screenshots/hyperlabs-2026-08-07T170547.png",
-     "score": 28.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 58.9,
-      "contract_quality": 52.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 28.0,
-      "access_clarity": 6.6
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 16.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 24.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "documented",
-      "rate_limit_signal": false,
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -8617,6 +8617,56 @@
      "rank": 169
     },
     {
+     "name": "Geniemode",
+     "slug": "geniemode",
+     "description": "Geniemode (Geniemode Global Pvt Ltd) is a Gurugram, India based B2B cross-border sourcing and supply-chain technology company founded in 2021 by Amit Sharma and Tanuj Gangwani. It runs an asset-light sourcing platform that connects global retail buyers in home textiles, furniture, apparel and accessories with a vetted manufacturer network, covering product discovery and design collaboration, sampling, quality control, factory and raw-material management, logistics, customs and invoicing. Its technology surface is an internal operations and partner portal at portal.geniemode.com, built on Spring Boot, whose Springfox-generated Swagger 2.0 contract is served publicly while every operation itself sits behind authentication. Geniemode publishes no developer program, SDKs, pricing or public API documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/geniemode/refs/heads/main/screenshots/geniemode-2026-09-02T145555.png",
+     "score": 23.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 38.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 14.3,
+      "access_clarity": 6.6
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 16.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 25.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 170
+    },
+    {
      "name": "WareGo",
      "slug": "warego",
      "description": "Cloud-based Warehouse Management System (WMS) for wholesalers, distributors, 3PLs, and ecommerce businesses, covering inventory tracking, order fulfillment, serial-number tracking, kitting, replenishment, inventory forecasting and supply-chain visibility. Sold as a tiered SaaS platform with a sales-assisted onboarding funnel, and marketed as API-first with 200+ pre-built integrations across ecommerce storefronts, ERPs, accounting systems and carriers. WareGo states it supports the ANSI X12 EDI transaction sets that matter in 3PL (850, 856, 810, 940/944) alongside a REST API and webhooks, but publishes no developer portal, no API reference and no machine-readable contract.",
@@ -8670,7 +8720,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 170
+     "rank": 171
     },
     {
      "name": "ConverSight.ai",
@@ -8727,7 +8777,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 171
+     "rank": 172
     },
     {
      "name": "American Woodmark",
@@ -8777,7 +8827,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 172
+     "rank": 173
     },
     {
      "name": "FACTORY I/O",
@@ -8827,7 +8877,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 173
+     "rank": 174
     },
     {
      "name": "Graphic Packaging",
@@ -8868,56 +8918,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 174
-    },
-    {
-     "name": "Geniemode",
-     "slug": "geniemode",
-     "description": "Geniemode (Geniemode Global Pvt Ltd) is a Gurugram, India based B2B cross-border sourcing and supply-chain technology company founded in 2021 by Amit Sharma and Tanuj Gangwani. It runs an asset-light sourcing platform that connects global retail buyers in home textiles, furniture, apparel and accessories with a vetted manufacturer network, covering product discovery and design collaboration, sampling, quality control, factory and raw-material management, logistics, customs and invoicing. Its technology surface is an internal operations and partner portal at portal.geniemode.com, built on Spring Boot, whose Springfox-generated Swagger 2.0 contract is served publicly while every operation itself sits behind authentication. Geniemode publishes no developer program, SDKs, pricing or public API documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/geniemode/refs/heads/main/screenshots/geniemode-2026-09-02T145555.png",
-     "score": 23.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 67.9,
-      "contract_quality": 38.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 14.3,
-      "access_clarity": 6.6
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 16.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 25.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,

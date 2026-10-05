@@ -56,71 +56,333 @@ apis:
   baseurl_source: declared
   description: Real-time quotes, latest prices, and end-of-day data.
   name: Twelve Data Core Data API
+  phrasing_intents:
+  - id: getEndOfDay
+    intent: Get the latest end-of-day closing price
+    question: What did this stock close at on the last trading day?
+  - id: getQuote
+    intent: Get a real-time quote with daily stats
+    question: Can I get open, high, low, volume and the 52-week range for a symbol in one call?
+  - id: getPrice
+    intent: Get the latest real-time trading price
+    question: What is the current trading price of this ticker right now?
+  - id: getMarketMovers
+    intent: List today's top gainers and losers
+    question: Which stocks are the biggest gainers and losers today?
+  - id: getMarketState
+    intent: Check whether exchanges are open or closed
+    question: Is the stock exchange open right now?
+  phrasing_ops: 5
   slug: twelvedata-core-data-api
 - baseURL: https://api.twelvedata.com
   baseurl_source: declared
   description: Company profiles, statements, dividends, earnings, and analysis.
   name: Twelve Data Fundamentals API
+  phrasing_intents:
+  - id: GetBalanceSheet
+    intent: Get a company's balance sheet
+    question: What are a company's total assets, liabilities and shareholders' equity?
+  - id: GetBalanceSheetConsolidated
+    intent: Get a company's raw consolidated balance sheet
+    question: Where can I get the raw consolidated balance sheet as the company reported it?
+  - id: GetCashFlow
+    intent: Get a company's cash flow statement
+    question: How much cash did this company generate from operations last year?
+  - id: GetCashFlowConsolidated
+    intent: Get a company's raw consolidated cash flow
+    question: Can I see the consolidated cash flow statement in its raw reported form?
+  - id: GetDividends
+    intent: Get a stock's dividend payment history
+    question: How much has this stock paid in dividends over the last ten years?
+  - id: GetDividendsCalendar
+    intent: See upcoming and past dividends across companies
+    question: Which companies go ex-dividend next week?
+  - id: GetEarnings
+    intent: Get a company's estimated vs actual EPS history
+    question: Did this company beat or miss its EPS estimates in past quarters?
+  - id: GetEarningsCalendar
+    intent: See which companies report earnings on given dates
+    question: Which companies are announcing earnings today?
+  phrasing_ops: 20
   slug: twelvedata-fundamentals-api
 - baseURL: https://api.twelvedata.com
   baseurl_source: declared
   description: Catalogs of instruments, exchanges, and supporting metadata.
   name: Twelve Data Reference Data API
+  phrasing_intents:
+  - id: GetBonds
+    intent: List available bonds
+    question: Which bonds and fixed income instruments are available?
+  - id: GetCommodities
+    intent: List available commodity pairs
+    question: What commodities can I get prices for, like gold or wheat?
+  - id: GetCountries
+    intent: List countries with ISO codes and currencies
+    question: What ISO country codes and currencies are supported?
+  - id: GetCrossListings
+    intent: Find other exchanges where a security is listed
+    question: On which other exchanges is this stock also traded?
+  - id: GetCryptocurrencies
+    intent: List available cryptocurrency pairs
+    question: Which crypto pairs quoted in USD are available?
+  - id: GetCryptocurrencyExchanges
+    intent: List supported cryptocurrency exchanges
+    question: Which crypto exchanges does the data come from?
+  - id: GetEarliestTimestamp
+    intent: Find how far back data goes for an instrument
+    question: How far back does 1-minute history go for this stock?
+  - id: GetEtf
+    intent: List all available ETFs
+    question: Which ETFs are tradable on a particular exchange?
+  phrasing_ops: 19
   slug: twelvedata-reference-data-api
 - baseURL: https://api.twelvedata.com
   baseurl_source: declared
   description: 100+ technical analysis indicators computed over time series.
   name: Twelve Data Technical Indicators API
+  phrasing_intents:
+  - id: getRSI
+    intent: Get the RSI momentum indicator for an instrument
+    question: Is this stock overbought according to its RSI?
+  - id: getMACD
+    intent: Get the MACD indicator for an instrument
+    question: What is the MACD reading for this ticker?
+  - id: getBBands
+    intent: Get Bollinger Bands for an instrument
+    question: Is the price touching the upper or lower Bollinger Band?
+  - id: listTechnicalIndicators
+    intent: List all available technical indicators
+    question: Which technical indicators can I request?
+  phrasing_ops: 4
   slug: twelvedata-technical-indicators-api
 - baseURL: https://api.twelvedata.com
   baseurl_source: declared
   description: Historical and real-time OHLCV time series.
   name: Twelve Data Time Series API
+  phrasing_intents:
+  - id: getTimeSeries
+    intent: Get historical OHLCV bars for an instrument
+    question: How do I pull daily open, high, low, close and volume history for a ticker?
+  - id: getTimeSeriesCross
+    intent: Compute a cross-rate series between two instruments
+    question: Can I get a price history for an exotic currency pair that is not quoted directly?
+  phrasing_ops: 2
   slug: twelvedata-time-series-api
 - baseURL: wss://ws.twelvedata.com/v1/quotes/price
   baseurl_source: declared
   description: The advanced API from Twelve Data — 2 operation(s) for advanced.
   name: Twelve Data Advanced API
+  phrasing_intents:
+  - id: GetApiUsage
+    intent: Check my API request usage and limits
+    question: How many API requests have I used so far today?
+  - id: advanced
+    intent: Fetch data for many symbols in one batch request
+    question: Can I request quotes and time series for several symbols in a single call?
+  phrasing_ops: 2
   slug: twelvedata-advanced-api
 - baseURL: wss://ws.twelvedata.com/v1/quotes/price
   baseurl_source: declared
   description: The analysis API from Twelve Data — 9 operation(s) for analysis.
   name: Twelve Data Analysis API
+  phrasing_intents:
+  - id: GetAnalystRatingsLight
+    intent: Get an analyst ratings snapshot for a stock
+    question: What is the quick summary of analyst buy, hold and sell ratings on a stock outside the US?
+  - id: GetAnalystRatingsUsEquities
+    intent: Get detailed analyst ratings for a US stock
+    question: Which analyst firms have rated this US stock, and did they upgrade or downgrade it?
+  - id: GetEarningsEstimate
+    intent: Get analyst EPS estimates for a company
+    question: What EPS are analysts expecting for this company next quarter and next year?
+  - id: GetEpsRevisions
+    intent: Track recent analyst EPS forecast revisions
+    question: Have analysts raised or cut their EPS forecasts for this stock over the past week or month?
+  - id: GetEpsTrend
+    intent: See how EPS estimates have trended over time
+    question: How has the consensus EPS estimate for a company moved over the last 90 days?
+  - id: GetGrowthEstimates
+    intent: Get consensus growth rate projections
+    question: What growth rate do analysts project for this company over the next five years?
+  - id: GetPriceTarget
+    intent: Get analyst price targets for a security
+    question: What is the average analyst price target for this stock?
+  - id: GetRecommendations
+    intent: Get the average analyst recommendation
+    question: Is the overall analyst consensus on this stock a strong buy, buy, hold or sell?
+  phrasing_ops: 9
   slug: twelvedata-analysis-api
 - baseURL: wss://ws.twelvedata.com/v1/quotes/price
   baseurl_source: declared
   description: The currencies API from Twelve Data — 2 operation(s) for currencies.
   name: Twelve Data Currencies API
+  phrasing_intents:
+  - id: GetCurrencyConversion
+    intent: Convert an amount between two currencies
+    question: How much is 500 US dollars in euros at the current rate?
+  - id: GetExchangeRate
+    intent: Get the current exchange rate for a currency pair
+    question: What is the EUR/USD exchange rate right now?
+  phrasing_ops: 2
   slug: twelvedata-currencies-api
 - baseURL: wss://ws.twelvedata.com/v1/quotes/price
   baseurl_source: declared
   description: The market_data API from Twelve Data — 6 operation(s) for market_data.
   name: Twelve Data Market Data API
+  phrasing_intents:
+  - id: GetEod
+    intent: Get the end-of-day price for an instrument
+    question: What was the closing price of this ETF on a specific date?
+  - id: GetMarketMovers
+    intent: List the day's top gaining and losing assets
+    question: Which stocks are up the most since yesterday's close?
+  - id: GetPrice
+    intent: Get the latest market price for an instrument
+    question: What is the last traded price of this ticker?
+  - id: GetQuote
+    intent: Get a real-time quote with open, high, low and volume
+    question: What are today's open, high, low and volume for a stock?
+  - id: GetTimeSeries
+    intent: Get historical price bars for an instrument
+    question: How do I download a stock's daily price history?
+  - id: GetTimeSeriesCross
+    intent: Get a cross-rate price history between two assets
+    question: What has Apple's price looked like in Indian rupees over time?
+  phrasing_ops: 6
   slug: twelvedata-market-data-api
 - baseURL: wss://ws.twelvedata.com/v1/quotes/price
   baseurl_source: declared
   description: The money_market_funds API from Twelve Data — 2 operation(s) for money_market_funds.
   name: Twelve Data Money Market Funds API
+  phrasing_intents:
+  - id: GetMoneyMarketFundsList
+    intent: Browse the money market funds directory
+    question: Which money market funds are the largest by fund size?
+  - id: GetMoneyMarketFundsWorld
+    intent: Get full data for a money market fund
+    question: What is a money market fund's yield, liquidity and weighted average maturity?
+  phrasing_ops: 2
   slug: twelvedata-money-market-funds-api
 - baseURL: wss://ws.twelvedata.com/v1/quotes/price
   baseurl_source: declared
   description: The mutual_funds API from Twelve Data — 11 operation(s) for mutual_funds.
   name: Twelve Data Mutual Funds API
+  phrasing_intents:
+  - id: GetMutualFundsFamily
+    intent: List mutual fund families
+    question: Which investment companies manage mutual fund families in this country?
+  - id: GetMutualFundsList
+    intent: Browse the mutual funds directory
+    question: Which are the largest mutual funds by total assets?
+  - id: GetMutualFundsType
+    intent: List mutual fund types
+    question: What types of mutual funds exist, such as equity, bond or balanced?
+  - id: GetMutualFundsWorld
+    intent: Get full data for a mutual fund
+    question: Can I get a mutual fund's performance, risk, ratings and composition all together?
+  - id: GetMutualFundsWorldComposition
+    intent: See a mutual fund's holdings and sector mix
+    question: What does this mutual fund actually hold?
+  - id: GetMutualFundsWorldPerformance
+    intent: Get a mutual fund's historical returns
+    question: What are this mutual fund's trailing and quarterly returns?
+  - id: GetMutualFundsWorldPurchaseInfo
+    intent: Get minimum investment and where to buy a fund
+    question: What is the minimum investment to buy into this mutual fund?
+  - id: GetMutualFundsWorldRatings
+    intent: Get ratings for a mutual fund
+    question: How is this mutual fund rated by Twelve Data and other institutions?
+  phrasing_ops: 11
   slug: twelvedata-mutual-funds-api
 - baseURL: wss://ws.twelvedata.com/v1/quotes/price
   baseurl_source: declared
   description: The regulatory API from Twelve Data — 7 operation(s) for regulatory.
   name: Twelve Data Regulatory API
+  phrasing_intents:
+  - id: GetDirectHolders
+    intent: See who directly holds a company's shares
+    question: Who holds shares directly on a company's share registry?
+  - id: GetEdgarFilingsArchive
+    intent: Search a company's SEC EDGAR filings
+    question: Where can I find a company's 10-K and 10-Q filings with the SEC?
+  - id: GetFundHolders
+    intent: See which mutual funds own a stock
+    question: Which mutual funds hold this stock, and how many shares?
+  - id: GetInsiderTransactions
+    intent: Get insider buying and selling for a stock
+    question: Have executives or directors been buying or selling this stock?
+  - id: GetInstitutionalHolders
+    intent: See which institutions own a stock
+    question: Which pension funds and investment firms own this stock?
+  - id: GetSourceSanctionedEntities
+    intent: List entities sanctioned by an authority
+    question: Who is on the OFAC sanctions list?
+  - id: GetTaxInfo
+    intent: Get tax rates and codes for an instrument
+    question: What taxes apply when trading this security?
+  phrasing_ops: 7
   slug: twelvedata-regulatory-api
 - baseURL: wss://ws.twelvedata.com/v1/quotes/price
   baseurl_source: declared
   description: The technical_indicator API from Twelve Data — 102 operation(s) for technical_indicator.
   name: Twelve Data Technical Indicator API
+  phrasing_intents:
+  - id: GetTimeSeriesAd
+    intent: Get the accumulation/distribution line
+    question: Is money flowing into or out of this stock based on the accumulation/distribution line?
+  - id: GetTimeSeriesAdd
+    intent: Add two price or indicator series together
+    question: Can I sum two price series, like high plus low, point by point?
+  - id: GetTimeSeriesAdOsc
+    intent: Get the accumulation/distribution oscillator
+    question: Is buying or selling pressure shifting according to the Chaikin A/D oscillator?
+  - id: GetTimeSeriesAdx
+    intent: Measure trend strength with ADX
+    question: Is this market trending strongly or just moving sideways, according to ADX?
+  - id: GetTimeSeriesAdxr
+    intent: Get the smoothed ADX rating (ADXR)
+    question: What is the ADXR, the smoothed rating of directional movement, for a symbol?
+  - id: GetTimeSeriesApo
+    intent: Get the absolute price oscillator
+    question: What is the gap between a fast and a slow moving average in price terms?
+  - id: GetTimeSeriesAroon
+    intent: Get Aroon up and down lines
+    question: How long ago did this stock make its highest high and lowest low?
+  - id: GetTimeSeriesAroonOsc
+    intent: Get the Aroon oscillator
+    question: What is the difference between Aroon up and Aroon down for this asset?
+  phrasing_ops: 102
   slug: twelvedata-technical-indicator-api
 - baseURL: wss://ws.twelvedata.com/v1/quotes/price
   baseurl_source: declared
   description: The etfs API from Twelve Data — 8 operation(s) for etfs.
   name: Twelve Data Etfs API
+  phrasing_intents:
+  - id: GetETFsFamily
+    intent: List ETF fund families
+    question: Which ETF fund families are available in a given country?
+  - id: GetETFsList
+    intent: Browse the ETF directory ranked by assets
+    question: Which are the largest ETFs by total assets?
+  - id: GetETFsType
+    intent: List ETF categories by market
+    question: What ETF categories like Large Blend or Equity Precious Metals exist in Singapore?
+  - id: GetETFsWorld
+    intent: Get full data for a global ETF
+    question: Can I get an ETF's summary, performance, risk and holdings in a single response?
+  - id: GetETFsWorldComposition
+    intent: See an ETF's holdings and sector weights
+    question: What stocks does this ETF hold and what are their weights?
+  - id: GetETFsWorldPerformance
+    intent: Get trailing and annual returns for an ETF
+    question: How has this ETF performed over the past one, three and five years?
+  - id: GetETFsWorldRisk
+    intent: Get volatility and beta risk metrics for an ETF
+    question: How volatile is this ETF and what is its beta?
+  - id: GetETFsWorldSummary
+    intent: Get a quick overview of an ETF
+    question: What is the short overview of an ETF, like its name and current value?
+  phrasing_ops: 8
   slug: twelvedata-etfs-api
 artifact_total: 39
 asyncapis:
@@ -408,7 +670,7 @@ score:
     catalog_gap: 49.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 96.8
     contract_governance: 15.9
@@ -416,7 +678,7 @@ score:
     developer_ergonomics: 81.5
     discoverability: 75.0
     operational_transparency: 65.3
-  previous_composite: 73.3
+  previous_composite: 69.0
   provenance:
     agentic_access: derived
     conformance: derived

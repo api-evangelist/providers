@@ -31,6 +31,14 @@ common:
   title: ''
   type: Website
   url: https://www.nasdaqprivatemarket.com/
+coverage:
+  checked: '2026-10-05'
+  detail: Documentation pages exist but no OpenAPI, AsyncAPI, GraphQL, or other contract was found.
+  evidence:
+  - status: 200
+    url: https://www.alliconnect.com/platform
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-09-24'
 description: 'Alli Connect is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.'
 layout: provider

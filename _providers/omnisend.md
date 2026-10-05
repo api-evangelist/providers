@@ -49,81 +49,326 @@ apis:
   baseurl_source: declared
   description: The Brands API from Omnisend — 2 operation(s) for brands. Version 2026-03-15, harvested from Omnisend's published contract.
   name: Omnisend Brands API
+  phrasing_intents:
+  - id: getBrandsCurrent
+    intent: Get the current brand's information
+    question: Which store is connected to my Omnisend account?
+  - id: postBrandsCurrent
+    intent: Connect a store as a brand
+    question: How do I connect my store's website to the platform through the OAuth flow?
+  phrasing_ops: 2
   slug: omnisend-brands-api
 - baseURL: https://api.omnisend.com/api
   baseurl_source: declared
   description: The Campaigns API from Omnisend — 14 operation(s) for campaigns. Version 2026-03-15, harvested from Omnisend's published contract.
   name: Omnisend Campaigns API
+  phrasing_intents:
+  - id: getCampaigns
+    intent: List campaigns
+    question: Which of my campaigns are still drafts?
+  - id: postCampaigns
+    intent: Create a campaign draft
+    question: How do I create a new email campaign draft?
+  - id: deleteCampaignsById
+    intent: Delete a campaign
+    question: Can I delete a campaign I don't need anymore?
+  - id: getCampaignsById
+    intent: Get one campaign
+    question: What content and audience does one particular campaign have?
+  - id: patchCampaignsById
+    intent: Edit a draft campaign
+    question: Why does editing my campaign return a conflict once it's scheduled?
+  - id: postCampaignsByIdAbTestResume
+    intent: Resume a stopped A/B test
+    question: Can I restart automatic winner selection on an A/B test I stopped earlier?
+  - id: postCampaignsByIdAbTestStop
+    intent: Stop a running A/B test
+    question: How do I halt automatic winner picking on a running A/B test?
+  - id: postCampaignsByIdAbTestWinner
+    intent: Pick an A/B test winner manually
+    question: Can I manually choose which A/B variant wins and gets sent?
+  phrasing_ops: 14
   slug: omnisend-campaigns-api
 - baseURL: https://api.omnisend.com/api
   baseurl_source: declared
   description: The Contacts API from Omnisend — 7 operation(s) for contacts. Version 2026-03-15, harvested from Omnisend's published contract.
   name: Omnisend Contacts API
+  phrasing_intents:
+  - id: getContacts
+    intent: List contacts
+    question: Which contacts carry a specific tag?
+  - id: patchContacts
+    intent: Update a contact by email address
+    question: Can I update a contact using only their email address?
+  - id: postContacts
+    intent: Create or upsert a contact
+    question: How do I add a new subscriber, or update them if the email already exists?
+  - id: getContactsById
+    intent: Get one contact by ID
+    question: Can I fetch one contact's full profile by its contact ID?
+  - id: patchContactsById
+    intent: Update a contact by ID
+    question: How do I update a contact's details when I have their contact ID?
+  - id: deleteContactsTags
+    intent: Remove tags from many contacts
+    question: Can I remove a tag from many contacts in one call?
+  - id: postContactsTags
+    intent: Add tags to many contacts
+    question: Can I add a tag to every contact in a segment at once?
+  phrasing_ops: 7
   slug: omnisend-contacts-api
 - baseURL: https://api.omnisend.com/api
   baseurl_source: declared
   description: The Events API from Omnisend — 1 operation(s) for events. Version 2026-03-15, harvested from Omnisend's published contract.
   name: Omnisend Events API
+  phrasing_intents:
+  - id: postEvents
+    intent: Send a customer event
+    question: How do I send a customer event so it can trigger an automation?
+  phrasing_ops: 1
   slug: omnisend-events-api
 - baseURL: https://api.omnisend.com/api
   baseurl_source: declared
   description: The Images API from Omnisend — 5 operation(s) for images. Version 2026-03-15, harvested from Omnisend's published contract.
   name: Omnisend Images API
+  phrasing_intents:
+  - id: getImages
+    intent: List images in the library
+    question: Which images are in my brand's image library?
+  - id: postImages
+    intent: Add an image from a URL
+    question: Can I add an image to my library from a public URL?
+  - id: deleteImagesById
+    intent: Delete an image
+    question: Can I delete an image from my library?
+  - id: getImagesById
+    intent: Get one image
+    question: Can I get the details of a single library image by its ID?
+  - id: postImagesUpload
+    intent: Upload an image file
+    question: How do I upload an image file directly from my computer?
+  phrasing_ops: 5
   slug: omnisend-images-api
 - baseURL: https://api.omnisend.com/api
   baseurl_source: declared
   description: The Products API from Omnisend — 5 operation(s) for products. Version 2026-03-15, harvested from Omnisend's published contract.
   name: Omnisend Products API
+  phrasing_intents:
+  - id: getProducts
+    intent: List products in the catalog
+    question: Which products are in my synced catalog?
+  - id: postProducts
+    intent: Create a product
+    question: How do I add a new product with its variants and images?
+  - id: deleteProductsByProductID
+    intent: Delete a product
+    question: Can I delete a product I no longer sell?
+  - id: getProductsByProductID
+    intent: Get one product
+    question: Can I fetch a single product by its ID?
+  - id: putProductsByProductID
+    intent: Replace a product
+    question: Can I overwrite an existing product record with an updated title and variants?
+  phrasing_ops: 5
   slug: omnisend-products-api
 - baseURL: https://api.omnisend.com/api
   baseurl_source: declared
   description: The Segments API from Omnisend — 6 operation(s) for segments. Version 2026-03-15, harvested from Omnisend's published contract.
   name: Omnisend Segments API
+  phrasing_intents:
+  - id: getSegments
+    intent: List segments
+    question: Which audience segments have I set up?
+  - id: postSegments
+    intent: Create a segment
+    question: How do I create a new segment from condition groups?
+  - id: deleteSegmentsBySegmentID
+    intent: Delete a segment
+    question: Can I permanently delete a segment I no longer need?
+  - id: getSegmentsBySegmentID
+    intent: Get one segment
+    question: What conditions define a specific segment?
+  - id: putSegmentsBySegmentID
+    intent: Update a segment
+    question: Why does updating my segment return a conflict while it's still building?
+  - id: getSegmentsBySegmentIDStatistics
+    intent: Get a segment's contact count
+    question: How many contacts match a segment right now?
+  phrasing_ops: 6
   slug: omnisend-segments-api
 - baseURL: https://api.omnisend.com/api
   baseurl_source: declared
   description: The Automations API from Omnisend — 13 operation(s) for creating, enabling, copying and restructuring event-triggered automation workflows, including the sendWebhook action block that is Omnisend's on
   name: Omnisend Automations API
+  phrasing_intents:
+  - id: getAutomations
+    intent: List automation workflows
+    question: Which of my automation workflows are currently enabled?
+  - id: postAutomations
+    intent: Create an automation workflow
+    question: 'What do I need to build a brand-new automation workflow: a trigger, blocks and a name?'
+  - id: deleteAutomationsById
+    intent: Delete an automation workflow
+    question: Can I permanently remove an automation workflow I no longer use?
+  - id: getAutomationsById
+    intent: Get one automation workflow
+    question: What trigger and blocks does one specific automation workflow have?
+  - id: patchAutomationsById
+    intent: Edit fields of an automation workflow
+    question: Why can't I edit an automation workflow while it is enabled?
+  - id: putAutomationsByIdBlocks
+    intent: Replace an automation's full block tree
+    question: How do I replace the whole block tree of an automation flow in one call?
+  - id: postAutomationsByIdBlocksByBlockIDTestEmail
+    intent: Send a test of an automation email block
+    question: Can I preview one email step of an automation by sending it to my inbox?
+  - id: getAutomationsByIdBlocksByBlockIDUtm
+    intent: Get UTM tags for one automation block
+    question: What UTM tags are set on a single send step of my automation?
+  phrasing_ops: 13
   slug: omnisend-automations-api
 - baseURL: https://api.omnisend.com/api
   baseurl_source: declared
   description: The Event Metadata API from Omnisend — 3 operation(s) for declaring, merging and querying brand-custom event schemas. The only Omnisend operations that carry an operationId.
   name: Omnisend Event Metadata API
+  phrasing_intents:
+  - id: post_event_metadata
+    intent: Declare a new custom event schema
+    question: How can I register a brand-new custom event type so segments and automations can use it?
+  - id: put_event_metadata
+    intent: Update an existing custom event's schema
+    question: How do I add new properties to a custom event I already defined in Omnisend?
+  - id: post_event_metadata_query
+    intent: Look up event metadata by category
+    question: Which events are available to build segments on in Omnisend?
+  phrasing_ops: 3
   slug: omnisend-event-metadata-api
 - baseURL: https://api.omnisend.com/api
   baseurl_source: declared
   description: The Batch API from Omnisend — 3 operation(s) for batch.
   name: Omnisend Batch API
+  phrasing_intents:
+  - id: getBatches
+    intent: List batch operations
+    question: Which batch jobs did I run against the products endpoint?
+  - id: postBatches
+    intent: Start a bulk batch operation
+    question: How do I create or update up to 100 contacts in a single request to avoid rate limits?
+  - id: getBatchesByBatchID
+    intent: Check the status of a batch
+    question: Has the bulk batch job I submitted earlier finished processing yet?
+  - id: getBatchesByBatchIDItems
+    intent: List the items in a batch
+    question: Can I see the individual records that were processed inside a batch?
+  phrasing_ops: 4
   slug: omnisend-batch-api
 - baseURL: https://api.omnisend.com/api
   baseurl_source: declared
   description: The Email Content API from Omnisend — 2 operation(s) for email content.
   name: Omnisend Email Content API
+  phrasing_intents:
+  - id: getEmailContentById
+    intent: Get email content
+    question: What sections and general settings make up a piece of email content?
+  - id: putEmailContentById
+    intent: Replace email content
+    question: How do I fully replace the sections of an existing email's content?
+  - id: postEmailContentByIdRender
+    intent: Render email content to HTML
+    question: Can I turn stored email content into HTML to preview it?
+  phrasing_ops: 3
   slug: omnisend-email-content-api
 - baseURL: https://api.omnisend.com/api
   baseurl_source: declared
   description: The Email Templates API from Omnisend — 4 operation(s) for email templates.
   name: Omnisend Email Templates API
+  phrasing_intents:
+  - id: getEmailTemplates
+    intent: List email templates
+    question: Which email templates do I have, sorted by name?
+  - id: postEmailTemplates
+    intent: Create an email template
+    question: How do I create a new email template from content sections?
+  - id: deleteEmailTemplatesById
+    intent: Delete an email template
+    question: Can I delete an email template I no longer need?
+  - id: getEmailTemplatesById
+    intent: Get one email template
+    question: Can I fetch a single email template's structure by its ID?
+  - id: putEmailTemplatesById
+    intent: Replace an email template
+    question: How do I overwrite an existing email template with new sections?
+  - id: postEmailTemplatesByIdRender
+    intent: Render an email template to HTML
+    question: Can I get the full HTML body of a saved email template for preview?
+  - id: postEmailTemplatesImport
+    intent: Import an email template from HTML
+    question: Can I turn raw HTML into an editable email template?
+  phrasing_ops: 7
   slug: omnisend-email-templates-api
 - baseURL: https://api.omnisend.com/api
   baseurl_source: declared
   description: The Email Universal Layouts API from Omnisend — 2 operation(s) for email universal layouts.
   name: Omnisend Email Universal Layouts API
+  phrasing_intents:
+  - id: getEmailUniversalLayouts
+    intent: List universal layouts
+    question: Which universal email layouts exist in my account?
+  - id: postEmailUniversalLayouts
+    intent: Create a universal layout
+    question: How do I create a reusable universal layout for my emails?
+  - id: deleteEmailUniversalLayoutsById
+    intent: Delete a universal layout
+    question: Can I delete a universal layout I don't use anymore?
+  - id: getEmailUniversalLayoutsById
+    intent: Get one universal layout
+    question: What content does a specific universal layout hold?
+  - id: putEmailUniversalLayoutsById
+    intent: Replace a universal layout
+    question: How do I fully replace an existing universal layout's content?
+  phrasing_ops: 5
   slug: omnisend-email-universal-layouts-api
 - baseURL: https://api.omnisend.com/api
   baseurl_source: declared
   description: The Product Categories API from Omnisend — 2 operation(s) for product categories.
   name: Omnisend Product Categories API
+  phrasing_intents:
+  - id: getProductCategories
+    intent: List product categories
+    question: Which product categories are synced to my account?
+  - id: postProductCategories
+    intent: Create a product category
+    question: How do I add a new product category to my catalog?
+  - id: deleteProductCategoriesByCategoryID
+    intent: Delete a product category
+    question: Can I delete a product category I no longer sell?
+  - id: getProductCategoriesByCategoryID
+    intent: Get one product category
+    question: Can I fetch one product category by its ID?
+  - id: patchProductCategoriesByCategoryID
+    intent: Rename a product category
+    question: Can I rename an existing product category?
+  phrasing_ops: 5
   slug: omnisend-product-categories-api
 - baseURL: https://api.omnisend.com/api
   baseurl_source: declared
   description: The Reports API from Omnisend — 1 operation(s) for reports.
   name: Omnisend Reports API
+  phrasing_intents:
+  - id: postAnalyticsReports
+    intent: Report marketing results by send date
+    question: How did my campaigns and automations perform, grouped by the date messages were sent?
+  phrasing_ops: 1
   slug: omnisend-reports-api
 - baseURL: https://api.omnisend.com/api
   baseurl_source: declared
   description: The Statistics API from Omnisend — 1 operation(s) for statistics.
   name: Omnisend Statistics API
+  phrasing_intents:
+  - id: postAnalyticsStatistics
+    intent: Get marketing statistics by event date
+    question: Can I see opens, clicks and orders grouped by the date they actually happened?
+  phrasing_ops: 1
   slug: omnisend-statistics-api
 arazzos:
 - description: Copy an existing campaign, read the copy to confirm, then queue it for sending.
@@ -710,7 +955,7 @@ score:
     catalog_gap: 30.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 77.6
     contract_governance: 28.0
@@ -718,7 +963,7 @@ score:
     developer_ergonomics: 49.4
     discoverability: 80.0
     operational_transparency: 97.4
-  previous_composite: 70.8
+  previous_composite: 72.9
   provenance:
     agentic_access: derived
     conformance: first-party

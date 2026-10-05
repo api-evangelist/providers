@@ -31,6 +31,19 @@ common:
   title: ''
   type: Website
   url: https://www.nasdaqprivatemarket.com/
+coverage:
+  detail: the company publishes developer documentation but serves no machine-readable contract from it
+  evidence:
+  - status: 403
+    url: https://api.allflyquest.com/mcp
+  - status: 403
+    url: https://help.allflyquest.com/mcp
+  - status: 200
+    url: https://allfly.io/
+  - status: 200
+    url: https://www.nasdaqprivatemarket.com/
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-09-24'
 description: 'AllFly is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.'
 layout: provider

@@ -16,11 +16,11 @@
      "slug": "cvent",
      "description": "Cvent is a leading meetings, events, and hospitality technology provider with over 4,800 employees and 22,000+ customers worldwide. The Cvent platform spans Event Cloud (event management, registration, mobile event apps, virtual and hybrid events, Attendee Hub, surveys, Diagramming, and analytics) and Hospitality Cloud (Cvent Supplier Network, Passkey, Venue Sourcing, and Sales & Catering). Programmatic access is delivered through the unified Cvent Platform REST API (api-platform.cvent.com) using OAuth 2.0 client credentials, with legacy SOAP, BadgeKit, Jifflenow, and CSN APIs documented for historical integrations. The developer portal at developers.cvent.com hosts API references, guides, OpenAPI downloads, webhooks, SSO, custom widgets, white-label, and integration documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/screenshots/cvent-2026-06-20T175359.png",
-     "score": 78.0,
+     "score": 78.6,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 58.9,
+      "discoverability": 64.3,
       "contract_quality": 62.9,
       "contract_governance": 18.2,
       "operational_transparency": 92.1,
@@ -66,11 +66,11 @@
      "slug": "cvent-registration",
      "description": "Cvent Registration is the event registration product within the Cvent Event Cloud, providing online registration websites, attendee data capture, payment processing, registration travel, group registration, custom field collection, and badge / on-site check-in workflows. Registration data is exposed programmatically through the unified Cvent Platform REST API at api-platform.cvent.com (OAuth 2.0 client credentials), with a dedicated Registration Guide on the Cvent developer portal. Real-time registration changes are also delivered through Cvent Webhooks. Earlier integrations relied on the legacy Cvent SOAP API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/screenshots/cvent-registration-2026-06-20T175407.png",
-     "score": 76.9,
+     "score": 77.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 67.9,
+      "discoverability": 73.2,
       "contract_quality": 65.4,
       "contract_governance": 18.2,
       "operational_transparency": 92.1,
@@ -116,11 +116,11 @@
      "slug": "cvent-event-cloud",
      "description": "Cvent Event Cloud is the event management product line of the Cvent Platform. It supports the full event lifecycle: event creation, registration, marketing, agenda and session management, mobile event apps, onsite check-in, virtual and hybrid event delivery via the Attendee Hub, surveys, and analytics. Cvent publishes its own OpenAPI specification in public git at github.com/cvent/rest-sdks (cvent-public-spec/openapi.yaml) — 346 paths, 458 operations, 1,302 schemas — and generates its first-party TypeScript, .NET and Java SDKs from it with Speakeasy, applying five published OpenAPI Overlay 1.0.0 documents in the process. Access is OAuth 2.0, client credentials for server-to-server and authorization code for planner administrators, with the token endpoint at api-platform.cvent.com/ea/oauth2/token and 235 declared scopes. Regional bases split North America (api-platform.cvent.com/ea) from Europe (api-platform-eur.cvent.com/ea) with no cross-region read. Cvent also runs a live remote MCP server at mcp.cvent.com/mcp secured with OAuth 2.1 and PKCE, publishes a dated biweekly changelog, a 40-message webhook catalogue, SCIM 2.0 user provisioning, and a Custom Widgets browser SDK for embedding components in Cvent-hosted event pages.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/screenshots/cvent-event-cloud-2026-06-20T175402.png",
-     "score": 71.9,
+     "score": 72.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 70.0,
+      "discoverability": 75.0,
       "contract_quality": 65.5,
       "contract_governance": 4.5,
       "operational_transparency": 81.6,
@@ -326,11 +326,11 @@
      "slug": "supaglue",
      "description": "Supaglue was an open-source unified API platform for B2B SaaS product integrations: a single contract for CRM, engagement, ticketing, enrichment and marketing-automation objects projected across 30+ third-party providers (Salesforce, HubSpot, Pipedrive, Outreach, Salesloft, Zendesk, Apollo and more), plus managed OAuth to those providers, managed syncs into the customer's own warehouse (Postgres, BigQuery, Snowflake, Redshift, S3), a passthrough escape hatch to native provider APIs, and a Management API to configure customers, connections, schemas, entities and sync schedules. Nine first-party OpenAPI documents (v2, x-api-key auth) and nine typed webhook events were published. THE SERVICE IS RETIRED: the GitHub repository (github.com/supaglue-labs) was archived by its owner on 2024-03-10, api.supaglue.io and app.supaglue.io no longer resolve, and supaglue.com now redirects to a HugeDomains sale listing. The MIT-licensed code remains self-hostable, and the contract is preserved here as the historical record of a well-shaped unified API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/screenshots/supaglue-2026-08-17T083633.png",
-     "score": 57.9,
+     "score": 58.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 66.1,
+      "discoverability": 71.4,
       "contract_quality": 62.8,
       "contract_governance": 31.8,
       "operational_transparency": 42.1,
@@ -897,6 +897,56 @@
      "rank": 17
     },
     {
+     "name": "Events.com",
+     "slug": "eventscom",
+     "description": "Events.com is a La Jolla, California event-technology company founded by Mitch Thrower (co-founder of Active.com / The Active Network) that operates an end-to-end platform for creating, promoting, selling, and discovering events. Its organizer-facing products span ticketing and registration (Sell), digital event marketing (Promote), sponsorship management (Sponsor), on-site check-in and execution (Execute), analytics (Insights), virtual and hybrid events (Virtual), and an embeddable event calendar, alongside a consumer event-discovery destination. Events.com does not publish a public developer program, but its internal DataGol / Saasxl AI and data platform exposes three anonymously reachable OpenAPI 3.x contracts and a hosted Model Context Protocol server on production hosts, covering no-code data tables, ETL and orchestration, BI dashboards, knowledge graphs, custom agents, agent skills, and MCP connectors.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/screenshots/eventscom-2026-08-07T165031.png",
+     "score": 48.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 54.8,
+      "contract_governance": 4.5,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 28.0,
+      "access_clarity": 69.7
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 22.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 32.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 18
+    },
+    {
      "name": "Demio",
      "slug": "demio",
      "description": "Demio is a browser-based webinar and virtual-event platform built for B2B marketing and sales teams, operated by Banzai International, Inc. (NASDAQ: BNZI). It runs live, automated/evergreen, on-demand and series webinars with no attendee download, and pairs them with customizable registration pages, embeddable registration forms, in-session engagement tools (polls, handouts, featured actions, chat), recordings, Showcase event listings and post-webinar analytics. Its public developer surface is the Public Demio API — a key/secret authorized REST API at https://my.demio.com/api/v1 covering Events, Event Sessions (Dates), attendee registration with unique join links, and per-Session participation reporting. Demio documents the API as an Apiary API Blueprint, publishes burst rate limits and daily call quotas, runs a public Atlassian Statuspage, ships one first-party PHP SDK from its meetdemio GitHub organization, and offers a Zapier app with registration, join, no-show and event-update triggers for teams that do not want to call the API directly.",
@@ -951,7 +1001,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Splash",
@@ -992,56 +1042,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": true,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 19
-    },
-    {
-     "name": "Events.com",
-     "slug": "eventscom",
-     "description": "Events.com is a La Jolla, California event-technology company founded by Mitch Thrower (co-founder of Active.com / The Active Network) that operates an end-to-end platform for creating, promoting, selling, and discovering events. Its organizer-facing products span ticketing and registration (Sell), digital event marketing (Promote), sponsorship management (Sponsor), on-site check-in and execution (Execute), analytics (Insights), virtual and hybrid events (Virtual), and an embeddable event calendar, alongside a consumer event-discovery destination. Events.com does not publish a public developer program, but its internal DataGol / Saasxl AI and data platform exposes three anonymously reachable OpenAPI 3.x contracts and a hosted Model Context Protocol server on production hosts, covering no-code data tables, ETL and orchestration, BI dashboards, knowledge graphs, custom agents, agent skills, and MCP connectors.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/screenshots/eventscom-2026-08-07T165031.png",
-     "score": 48.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.0,
-      "contract_quality": 54.8,
-      "contract_governance": 4.5,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 28.0,
-      "access_clarity": 69.7
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 22.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 32.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -2683,6 +2683,56 @@
      "rank": 52
     },
     {
+     "name": "Pavoot",
+     "slug": "pavoot",
+     "description": "Pavoot is a Y Combinator-backed AI event-management platform that operates as an autonomous AI agent for running events end-to-end. It sources and matches the right attendees, personalizes invitations, captures and checks in guests on-site, automatically follows up with context from each interaction, tags event media (photos, faces, and logos) with AI, and attributes the resulting pipeline and ROI. The product targets field marketers, GTM leaders, sales teams, CMO/VP Marketing roles, and founders who want to turn events into pipeline. Pavoot runs no developer program — it issues no API keys, publishes no developer documentation and ships no SDKs — but its application backend at api.pavoot.com does serve a complete, publicly readable OpenAPI 3.1.0 describing 248 operations across event projects, media upload and AI tagging, face and person identity resolution, sponsor brand and logo recognition, attendee registration and follow-up email, gallery sharing, and organization permissions, together with FastAPI Swagger UI and ReDoc. The API itself is authenticated with Clerk-issued session tokens against Pavoot's own OAuth 2.0 / OpenID Connect authorization server at clerk.pavoot.com, so the contract is observable but not consumable by third parties.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/screenshots/pavoot-2026-08-07T191608.png",
+     "score": 33.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 39.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 34.3,
+      "matched_via": "fallback"
+     },
+     "agent_score": 34.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 53
+    },
+    {
      "name": "TicketSpice",
      "slug": "ticketspice",
      "description": "TicketSpice is an online event ticketing platform built by Webconnex that lets organizers design fully customizable ticketing pages and sell tickets for events, festivals, tours, and immersive experiences at a flat 99-cent per-ticket fee. TicketSpice is powered by the shared Webconnex REST API (base https://api.webconnex.com/v2/public), the same read-and-manage API surface behind Webconnex products RegFox, RedPodium, and GivingFuel. Callers pass a product parameter of ticketspice and authenticate with an apiKey header to search and view orders, registrants, tickets, transactions, customers, forms, and inventory, manage coupons and webhooks, and check registrants in and out. API access is provisioned per account with an API key and is gated to higher-tier plans.",
@@ -2730,7 +2780,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 54
     },
     {
      "name": "Tito",
@@ -2780,7 +2830,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "Fever",
@@ -2828,56 +2878,6 @@
       "delegated_identity": "served",
       "protected_resource_metadata": false,
       "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 55
-    },
-    {
-     "name": "Pavoot",
-     "slug": "pavoot",
-     "description": "Pavoot is a Y Combinator-backed AI event-management platform that operates as an autonomous AI agent for running events end-to-end. It sources and matches the right attendees, personalizes invitations, captures and checks in guests on-site, automatically follows up with context from each interaction, tags event media (photos, faces, and logos) with AI, and attributes the resulting pipeline and ROI. The product targets field marketers, GTM leaders, sales teams, CMO/VP Marketing roles, and founders who want to turn events into pipeline. Pavoot runs no developer program — it issues no API keys, publishes no developer documentation and ships no SDKs — but its application backend at api.pavoot.com does serve a complete, publicly readable OpenAPI 3.1.0 describing 248 operations across event projects, media upload and AI tagging, face and person identity resolution, sponsor brand and logo recognition, attendee registration and follow-up email, gallery sharing, and organization permissions, together with FastAPI Swagger UI and ReDoc. The API itself is authenticated with Clerk-issued session tokens against Pavoot's own OAuth 2.0 / OpenID Connect authorization server at clerk.pavoot.com, so the contract is observable but not consumable by third parties.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/screenshots/pavoot-2026-08-07T191608.png",
-     "score": 33.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.9,
-      "contract_quality": 39.0,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 34.3,
-      "matched_via": "fallback"
-     },
-     "agent_score": 34.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "rank": 56

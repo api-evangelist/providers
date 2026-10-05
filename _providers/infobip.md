@@ -51,31 +51,154 @@ apis:
   baseurl_source: declared
   description: AI-powered tools and services to help you create smarter and more personalized customer experiences.
   name: Infobip AI Hub API
+  phrasing_intents:
+  - id: query-ai-assistant
+    intent: Ask an AI assistant a question and get its answer
+    question: How do I send a user's message to my Infobip AI assistant and get a generated reply?
+  - id: retrieve-ai-assistant-context
+    intent: Retrieve relevant knowledge base chunks for a message
+    question: How can I fetch the raw knowledge base passages an assistant would match to a message, without a generated answer?
+  phrasing_ops: 2
   slug: infobip-ai-hub-api
 - baseURL: https://api.infobip.com
   baseurl_source: declared
   description: Create a perfect customer experience by using the channels your customer already use and love.
   name: Infobip Channels API
+  phrasing_intents:
+  - id: send-sms-messages
+    intent: Send SMS messages
+    question: What's the current way to send an SMS to one person or thousands of recipients with Infobip?
+  - id: send-sms-messages-over-query-parameters
+    intent: Send an SMS using only query string parameters
+    question: Can I send a text message with a single GET request where everything is in the URL?
+  - id: send-sms-message-over-query-parameters
+    intent: Send an SMS by URL with username and password
+    question: Can I send an SMS by passing my username and password in the query string?
+  - id: preview-sms-message
+    intent: Preview how an SMS text will be split and encoded
+    question: How many SMS parts will my message text be split into before I send it?
+  - id: send-sms-message
+    intent: Send advanced SMS messages (v2)
+    question: Can the older v2 advanced SMS endpoint throttle sending speed for a big batch?
+  - id: send-binary-sms-message
+    intent: Send binary SMS messages
+    question: How can I send a binary-encoded SMS payload instead of plain text?
+  - id: get-scheduled-sms-messages
+    intent: View the send time of a scheduled SMS bulk
+    question: When is my scheduled SMS bulk set to go out?
+  - id: reschedule-sms-messages
+    intent: Reschedule a scheduled SMS bulk
+    question: Can I move a scheduled SMS campaign to a different date and time?
+  phrasing_ops: 455
   slug: infobip-channels-api
 - baseURL: https://api.infobip.com
   baseurl_source: declared
   description: Powerful infrastructure and tools that connect you to the world.
   name: Infobip Connectivity API
+  phrasing_intents:
+  - id: number-context-lookup-async
+    intent: Look up phone number context with a callback report
+    question: Can Number Context lookup results be pushed to my callback server instead of returned right away?
+  - id: number-context-lookup
+    intent: Look up phone number context immediately
+    question: How can I find out the network and status information for a phone number in Infobip and get the answer in the same response?
+  - id: get-number-context-logs
+    intent: Review logs of past Number Context lookups
+    question: Where can I see a history of the number lookups I've already sent?
+  - id: get-reports-metadata
+    intent: List network activation-state reports
+    question: Which network reports on number activation state are available for my account?
+  - id: get-single-report
+    intent: Read number activation changes in a network report
+    question: How do I see which destination numbers changed activation state inside one network report?
+  - id: silent-mobile-verification
+    intent: Silently verify a user's phone number via the operator
+    question: How can I confirm a user owns their phone number over the mobile data connection without sending an OTP?
+  - id: advanced-silent-mobile-verification
+    intent: Silent number check with SIM swap check and SMS fallback
+    question: Can I run a SIM swap check before verifying a phone number silently?
+  - id: synchronous-silent-mobile-verification
+    intent: Verify a phone number synchronously by device IP
+    question: Can I get a silent verification answer in the same response rather than via a callback in Brazil?
+  phrasing_ops: 35
   slug: infobip-connectivity-api
 - baseURL: https://api.infobip.com
   baseurl_source: declared
   description: Complete solutions that will help you drive better outcomes for your customers and business across the entire customer journey.
   name: Infobip Customer Engagement API
+  phrasing_intents:
+  - id: get-a-single-person-or-a-list-of-people
+    intent: Look up one person or list people profiles
+    question: How do I look up a customer profile in Infobip People by their email or phone?
+  - id: update-a-person
+    intent: Overwrite a person profile
+    question: Can I completely overwrite a person's profile with new data in one request?
+  - id: create-a-new-person
+    intent: Create a person profile
+    question: How can I add a single new customer profile to People?
+  - id: delete-a-person
+    intent: Delete a person profile
+    question: Can I permanently remove a single customer's profile from People?
+  - id: partial-person-update
+    intent: Update selected fields on a person profile
+    question: Can I change just a few fields on a person profile without resending everything?
+  - id: set-person-contact-information
+    intent: Replace all contact details on a person
+    question: Can I replace every email and mobile number on a person with a fresh set?
+  - id: delete-person-contact-information
+    intent: Remove specific emails or phones from a person
+    question: Can I delete one outdated email address from a person without touching the rest?
+  - id: add-person-contact-information
+    intent: Add emails or phones to a person
+    question: Can I add a second email address to an existing person while keeping the old one?
+  phrasing_ops: 254
   slug: infobip-customer-engagement-api
 - baseURL: https://api.infobip.com
   baseurl_source: declared
   description: Modular tools to scale and automate your business.
   name: Infobip Platform API
+  phrasing_intents:
+  - id: get-2fa-applications
+    intent: List my 2FA applications
+    question: Which 2FA applications have I set up in Infobip?
+  - id: create-2fa-application
+    intent: Create a 2FA application
+    question: What do I need to set up a new two-factor authentication application?
+  - id: get-2fa-application
+    intent: Get a 2FA application's configuration
+    question: How is a specific 2FA application of mine configured?
+  - id: update-2fa-application
+    intent: Update a 2FA application
+    question: Can I change the settings of a 2FA application I already created?
+  - id: get-2fa-message-templates
+    intent: List message templates in a 2FA application
+    question: Which PIN message templates exist inside one of my 2FA applications?
+  - id: create-2fa-message-template
+    intent: Create a 2FA SMS or voice PIN template
+    question: How do I create an SMS or voice template for sending one-time PINs?
+  - id: get-2fa-message-template
+    intent: Get a 2FA message template
+    question: What does one particular 2FA PIN template contain?
+  - id: update-2fa-message-template
+    intent: Update a 2FA SMS or voice PIN template
+    question: Can I edit the text of an SMS or voice OTP template I already made?
+  phrasing_ops: 194
   slug: infobip-platform-api
 - baseURL: https://api.infobip.com
   baseurl_source: declared
   description: Developer utilities to help you integrate and work with Infobip APIs more efficiently.
   name: Infobip Tools API
+  phrasing_intents:
+  - id: get-openapi
+    intent: Download the full platform OpenAPI specification
+    question: Where can I download the complete OpenAPI spec covering every Infobip endpoint and webhook?
+  - id: get-product-level-openapi
+    intent: Get the OpenAPI specification for one product
+    question: How do I get just the SMS OpenAPI spec instead of the whole platform document?
+  - id: get-available-products
+    intent: List products that have their own OpenAPI spec
+    question: Which product identifiers can I use when fetching a per-product OpenAPI spec?
+  phrasing_ops: 3
   slug: infobip-tools-api
 artifact_total: 142
 asyncapis:

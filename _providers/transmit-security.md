@@ -447,8 +447,8 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 1
+      marker_coverage: 12.5
       total: 8
     mcp: derived
     skills: derived

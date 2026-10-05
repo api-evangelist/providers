@@ -316,11 +316,11 @@
      "slug": "altruistiq",
      "description": "Altruistiq is a London-based climate intelligence platform for food and beverage and other FMCG enterprises managing complex supply chains. The platform unifies corporate carbon footprint reporting, product carbon footprint (PCF) calculation, and supplier engagement on a single ISO 14064-1 assured calculation engine, drawing raw operational data from finance, procurement, and supply chain systems to produce activity-based Scope 1, 2, and 3 emissions measurements. Altruistiq exposes a public Datasource API and a PACT-conformant Product Carbon Footprint data exchange API (OAuth 2.0 client credentials) for uploading activity data, managing products, bills of materials, facilities, and exporting calculated emissions. Customers include Starbucks, Kraft Heinz, Huel, Nando's, Octopus Energy, and other FMCG and food and beverage brands.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/screenshots/altruistiq-2026-06-20T171616.png",
-     "score": 43.9,
+     "score": 44.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 60.7,
+      "discoverability": 66.1,
       "contract_quality": 66.5,
       "contract_governance": 27.3,
       "operational_transparency": 2.6,

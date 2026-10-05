@@ -66,11 +66,11 @@
      "slug": "clarivate",
      "description": "Clarivate is a global information services company providing data, insights and analytics across academia and government, life sciences and healthcare, and intellectual property. It publishes 26 machine-readable API contracts through one developer portal at developer.clarivate.com, each fetchable at developer.clarivate.com/apis/<api>/swagger, and serves them through a single gateway at api.clarivate.com. The estate spans Web of Science publication and citation data, Journal Citation Reports metrics, InCites benchmarking, Derwent patent and trademark intelligence, Converis research information management, Cortellis life sciences intelligence, and COUNTER R5 usage reporting over NISO SUSHI. Access is by API key or OAuth 2.0 client credentials, issued per registered application; every plan but the Web of Science Starter Free Trial is entitled from an institutional subscription and approved by Clarivate.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/screenshots/clarivate-2026-06-20T174437.png",
-     "score": 74.7,
+     "score": 75.2,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 78.6,
+      "discoverability": 83.9,
       "contract_quality": 56.2,
       "contract_governance": 59.1,
       "operational_transparency": 84.2,

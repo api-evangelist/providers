@@ -77,11 +77,11 @@
      "slug": "university-of-macau",
      "description": "The University of Macau (UM), founded in 1981, is the public comprehensive research university of the Macao Special Administrative Region, teaching mainly in English with a largely international faculty and a residential-college undergraduate model. Its programmable footprint is real but narrow, and it is almost entirely campus operations rather than research output. The Information and Communication Technology Office (ICTO) operates a Data and Open Data API Platform at data.um.edu.mo whose gateway, api.data.um.edu.mo, serves sixteen JSON APIs across nineteen operations: organizational units and public holidays, the course catalog and per-semester course offerings, car park availability, computer room PC status and reservations, shuttle bus arrival times, sports facilities and their bookings, door access control records, outdoor WiFi access logs, university news and events, residential college hostel bed spaces and student job vacancies. The platform documents pagination, filtering, sorting and a full response-code table with remediation guidance — better documentation discipline than most universities manage. It publishes no OpenAPI, however, and it is not callable by the public: every API requires a subscription key issued only to holders of a UMPASS account, which means UM staff and students. Two further institution-run surfaces are machine-readable and were missed by earlier profiling: UM's own AD FS identity provider at websso.um.edu.mo publishes signed SAML 2.0 metadata and an OpenID Connect discovery document, and its Moodle deployment publishes a live LTI 1.3 Advantage platform key set. Everything else that looks like a UM API belongs to somebody else — library discovery is an Ex Libris Primo VE tenancy, the UM Scholars Hub repository runs third-party institutional-repository software behind an IP allowlist with no OAI-PMH, and the university's GenAI chat is an Open WebUI deployment with API keys switched off. UM registers DOIs as a Crossref member and is identified in ROR; it holds no DataCite account.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-macau/refs/heads/main/screenshots/university-of-macau-2026-06-20T200211.png",
-     "score": 51.3,
+     "score": 51.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 51.8,
+      "discoverability": 57.1,
       "contract_quality": 62.3,
       "contract_governance": 29.5,
       "operational_transparency": 21.1,
@@ -571,6 +571,56 @@
      "rank": 11
     },
     {
+     "name": "LianLian Global",
+     "slug": "lianlian-global",
+     "description": "LianLian Global (连连国际) is the cross-border payments arm of LianLian DigiTech, providing licensed collection, disbursement, foreign exchange and card issuing rails for e-commerce sellers, marketplaces, travel platforms and B2B traders moving money between China and the rest of the world. Its developer platform publishes 18 distinct API products on a Stoplight portal at developer.lianlianglobal.com — covering B2C marketplace collection, multi-currency e-wallets, global payout, B2B import/export settlement, standard remittance, tuition and travel payments, embedded Connect accounts, virtual and physical card issuing, and the OAuth 2.0 LPPE platform surface — backed by 173 published OpenAPI/Swagger specifications describing more than 550 operations. LianLian authenticates with API keys and OAuth 2.0, signs every request and webhook with RSA SHA-256 via the LLPAY-Signature header, and ships first-party Java and TypeScript SDKs, a Python sandbox CLI and three published AI agent skills from its LLGlobal GitHub organization.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/screenshots/lianlian-global-2026-07-25T225015.png",
+     "score": 43.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 52.6,
+      "contract_governance": 4.5,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 85.7,
+      "access_clarity": 6.6
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 24.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 46.7,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": "verified",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 12
+    },
+    {
      "name": "domob",
      "slug": "domob",
      "description": "Domob (多盟) is a Beijing-based mobile intelligent marketing and advertising technology company founded in September 2010, positioned as one of China's early smartphone advertising DSP and mobile ad-network platforms. It provides data-technology and content services spanning programmatic buying (DSP), the UGdesk user-growth platform, the BidMaster preferred buying platform, and the BlueNova traffic-monetization platform, alongside agency and short-video services partnered with ByteDance, Tencent, Kuaishou, Microsoft Advertising and Xiaohongshu. For developers and app publishers, Domob distributes first-party iOS and Android ad SDKs (banner, interstitial, splash, native and offerwall formats) plus Unity3D and Cocos2d-x game-engine plugins via its Domob-SDK and domob-inc GitHub accounts; publishers obtain a Publisher ID and Placement ID from the Domob platform to monetize apps. Its public API surface is narrow: one documented and live publisher reporting operation (the Media Data API on developer.domob.cn), an ad exchange at adx.domob.cn whose docking document sits behind a BlueFocus Feishu login, an undocumented \"Domob Open API\" gateway at open.domob.cn, and a retired Reporting API whose documentation is still published even though its host no longer resolves. No machine-readable specification is published on any host. In 2025 the Domob SDK passed CAICT dual-end (iOS/Android) security certification. This profile was surfaced as a portfolio company of Qiming Venture Partners and enriched from public sources.",
@@ -618,7 +668,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Ping++",
@@ -664,56 +714,6 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 13
-    },
-    {
-     "name": "LianLian Global",
-     "slug": "lianlian-global",
-     "description": "LianLian Global (连连国际) is the cross-border payments arm of LianLian DigiTech, providing licensed collection, disbursement, foreign exchange and card issuing rails for e-commerce sellers, marketplaces, travel platforms and B2B traders moving money between China and the rest of the world. Its developer platform publishes 18 distinct API products on a Stoplight portal at developer.lianlianglobal.com — covering B2C marketplace collection, multi-currency e-wallets, global payout, B2B import/export settlement, standard remittance, tuition and travel payments, embedded Connect accounts, virtual and physical card issuing, and the OAuth 2.0 LPPE platform surface — backed by 173 published OpenAPI/Swagger specifications describing more than 550 operations. LianLian authenticates with API keys and OAuth 2.0, signs every request and webhook with RSA SHA-256 via the LLPAY-Signature header, and ships first-party Java and TypeScript SDKs, a Python sandbox CLI and three published AI agent skills from its LLGlobal GitHub organization.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/screenshots/lianlian-global-2026-07-25T225015.png",
-     "score": 42.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 52.6,
-      "contract_governance": 4.5,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 85.7,
-      "access_clarity": 6.6
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 24.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 46.7,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": "verified",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -921,6 +921,56 @@
      "rank": 18
     },
     {
+     "name": "Shanghai Jiao Tong University",
+     "slug": "shanghai-jiao-tong-university",
+     "description": "Shanghai Jiao Tong University (上海交通大学, SJTU), founded 1896 in Shanghai, is a C9 League public research university and one of very few institutions anywhere that operates a first-party API platform rather than buying one. Its Network and Information Center runs a documented developer portal covering three institution-operated surfaces, all on sjtu.edu.cn and none a vendor tenancy: the jAccount OAuth 2.0 / OpenID Connect / Shibboleth identity provider; a REST Open API at api.sjtu.edu.cn with 59 documented operations across 13 families (profile, directory, campus card, Siyuan payment code, timetables, exams and GPA, mail, notifications, files, finance, barcode, calendar, e-signature); and a gated Data Resources API. Alongside sit the 交我办 campus super-app and the 交我算 HPC service. What SJTU does not publish is equally real: no OpenAPI, changelog, status page, deprecation policy or self-service signup; docs only in Chinese; and no Crossref, DataCite, ORCID or OAI-PMH anywhere.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/screenshots/shanghai-jiao-tong-university-2026-06-20T193853.png",
+     "score": 39.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 82.1,
+      "contract_quality": 29.5,
+      "contract_governance": 19.7,
+      "operational_transparency": 21.6,
+      "developer_ergonomics": 47.6,
+      "access_clarity": 40.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 34.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 32.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 19
+    },
+    {
      "name": "EZR",
      "slug": "ezr",
      "description": "EZR (上海驿氪 / Shanghai EasyRetailPro) is a Shanghai-based retail marketing technology company founded in 2015 that builds SCRM and new-retail CRM software for multi-store and chain brands. Its platform combines a Marketing Cloud and in-store CRM to deliver omnichannel member management, WeChat mini-program malls, guide (导购) distribution and full-staff sales tools, live-streaming commerce, points malls, and campaign automation. EZR serves 800+ brands across fashion, beauty, home goods, food, and pharmacy, and is backed by Tencent, JD.com, DCM, and Lenovo Star. The EZR Open Platform (开放平台) at open.ezrpro.com publishes a reference for 236 interfaces across 11 business domains — stores and staff, member master data, loyalty points, coupons, sales receipts, WeChat mall, gift cards, messaging and third-party platform binding — of which 31 are EZR-to-integrator push callbacks. Every interface is an HTTP POST with a form-encoded, SHA1/MD5-signed envelope carrying the business payload as a JSON string; there is no OpenAPI, no OAuth, no versioning scheme and no self-service onboarding. EZR does publish a packaged Agent Skill for generating integration code.",
@@ -964,56 +1014,6 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 19
-    },
-    {
-     "name": "Shanghai Jiao Tong University",
-     "slug": "shanghai-jiao-tong-university",
-     "description": "Shanghai Jiao Tong University (上海交通大学, SJTU), founded 1896 in Shanghai, is a C9 League public research university and one of very few institutions anywhere that operates a first-party API platform rather than buying one. Its Network and Information Center runs a documented developer portal covering three institution-operated surfaces, all on sjtu.edu.cn and none a vendor tenancy: the jAccount OAuth 2.0 / OpenID Connect / Shibboleth identity provider; a REST Open API at api.sjtu.edu.cn with 59 documented operations across 13 families (profile, directory, campus card, Siyuan payment code, timetables, exams and GPA, mail, notifications, files, finance, barcode, calendar, e-signature); and a gated Data Resources API. Alongside sit the 交我办 campus super-app and the 交我算 HPC service. What SJTU does not publish is equally real: no OpenAPI, changelog, status page, deprecation policy or self-service signup; docs only in Chinese; and no Crossref, DataCite, ORCID or OAI-PMH anywhere.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/screenshots/shanghai-jiao-tong-university-2026-06-20T193853.png",
-     "score": 39.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 76.8,
-      "contract_quality": 29.5,
-      "contract_governance": 19.7,
-      "operational_transparency": 21.6,
-      "developer_ergonomics": 47.6,
-      "access_clarity": 40.0
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 34.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 32.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -1631,6 +1631,56 @@
      "rank": 32
     },
     {
+     "name": "XSKY",
+     "slug": "xsky",
+     "description": "XSKY (XSKY Data Technology, 星辰天合) is a Beijing-based software-defined storage vendor serving nearly 2,000 large government and enterprise institutions, ranked first in China's object-storage software market. Its distributed storage products — XEUS unified storage, XEBS block storage, XEOS object storage, XGFS file storage, and the XEDP unified data platform — are all managed through XMS, the platform's REST controller API, which XSKY publishes as a Swagger 2.0 contract with official Go and Python clients plus a CloudFormation-style provisioning tool (sds-formation) and a Kubernetes CSI driver.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xsky/refs/heads/main/screenshots/xsky-2026-09-02T171207.png",
+     "score": 32.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 44.4,
+      "contract_governance": 4.5,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 39.9,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 20.6,
+      "matched_via": "fallback"
+     },
+     "agent_score": 18.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 33
+    },
+    {
      "name": "Yanyin Technology",
      "slug": "yanyin",
      "description": "Yanyin Technology (衍因科技) is a Shanghai-based biomedical AI company building 衍因智研云 (Yanyin Zhiyun), a digital research-collaboration platform for life-sciences R&D. Its product suite spans an electronic lab notebook (Yan Note), molecular biology tools (Yan Molecule), a LIMS (Yan LIMS), AI literature and experiment assistants (Yan Research, Yan Reviewer, Yan Advisor), and the enterprise AI MEGASphere platform, whose Mega Open Platform exposes an API gateway (API Key and OAuth2 client-credentials authentication, rate limiting, request signing, idempotency and retries, versioning), a developer center with online docs, SDKs and a sandbox, and webhook callback management with HMAC signing and event replay. Yanyin serves 80+ pharma companies, 280+ research institutions and hospitals, and 430+ universities, and holds ISO 9001, ISO 27001 and ISO 20000 certifications plus China MLPS Level 3. Backed by Qiming Venture Partners.",
@@ -1678,7 +1728,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "酷学院 (Cool College)",
@@ -1716,56 +1766,6 @@
       "idempotency": false,
       "error_semantics": "derived",
       "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 34
-    },
-    {
-     "name": "XSKY",
-     "slug": "xsky",
-     "description": "XSKY (XSKY Data Technology, 星辰天合) is a Beijing-based software-defined storage vendor serving nearly 2,000 large government and enterprise institutions, ranked first in China's object-storage software market. Its distributed storage products — XEUS unified storage, XEBS block storage, XEOS object storage, XGFS file storage, and the XEDP unified data platform — are all managed through XMS, the platform's REST controller API, which XSKY publishes as a Swagger 2.0 contract with official Go and Python clients plus a CloudFormation-style provisioning tool (sds-formation) and a Kubernetes CSI driver.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xsky/refs/heads/main/screenshots/xsky-2026-09-02T171207.png",
-     "score": 31.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.9,
-      "contract_quality": 44.4,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 39.9,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 20.6,
-      "matched_via": "fallback"
-     },
-     "agent_score": 18.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": false,
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",

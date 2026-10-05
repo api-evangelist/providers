@@ -31,6 +31,19 @@ common:
   title: ''
   type: Website
   url: https://equityzen.com/company/alicecom
+coverage:
+  detail: the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - status: 403
+    url: https://aliceapp.com/api/mcp
+  - status: 403
+    url: https://auth.aliceapp.com/mcp
+  - status: 200
+    url: https://aliceapp.com
+  - status: 403
+    url: https://equityzen.com/company/alicecom
+  reason: no-developer-program
+  state: none
 created: '2026-09-24'
 description: 'Alicecom is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.'
 layout: provider

@@ -77,11 +77,11 @@
      "slug": "benchling",
      "description": "Benchling is a life sciences R&D cloud platform offering a comprehensive REST API for programmatically managing molecular biology entities, assay results and runs, electronic lab notebook entries, DNA/RNA/protein sequences, inventory, and experiment workflows. The API enables integrations with lab instruments, ERP systems, LIMS, and external databases, as well as bulk data ingest/export and event-driven automation via webhooks and AWS EventBridge. API access is available to Professional and Enterprise tenants and supports user API keys, OAuth 2.0 client credentials, and OIDC authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/screenshots/benchling-2026-06-20T173135.png",
-     "score": 64.5,
+     "score": 65.0,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 63.3,
+      "discoverability": 68.3,
       "contract_quality": 53.3,
       "contract_governance": 28.0,
       "operational_transparency": 69.7,
@@ -551,6 +551,56 @@
      "rank": 10
     },
     {
+     "name": "Cancer.gov",
+     "slug": "cancer-gov",
+     "description": "Cancer.gov is the web presence of the National Cancer Institute (NCI), the U.S. federal government's principal agency for cancer research and training. NCI and its partner programs expose a rich set of open APIs covering cancer clinical trials, genomic data, cancer-incidence surveillance, research data and models, terminology and vocabularies, and PDQ content — giving researchers, advocacy groups, clinicians, and application developers programmatic access to authoritative cancer data and content.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/screenshots/cancer-gov-2026-06-20T173920.png",
+     "score": 50.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 63.4,
+      "contract_quality": 44.8,
+      "contract_governance": 18.2,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 61.3,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 24.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 29.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 11
+    },
+    {
      "name": "TetraScience",
      "slug": "tetrascience",
      "description": "TetraScience is the scientific data and AI platform company behind the Tetra Scientific Data and AI Cloud — purpose-built infrastructure that liberates, replatforms, and engineers raw lab data from instruments, informatics systems, and partner organizations into FAIR, AI-native Tetra Data. The platform combines lab data automation (agents and integrations for hundreds of instruments and applications), a vendor- agnostic data lake, an Intermediate Data Schema (IDS) layer, pipelines for data engineering, GxP-aligned compliance, and the Tetra AI Layer with Tetra Sciborgs (scientific AI agents) to accelerate discovery, development, manufacturing, and quality outcomes for pharma, biotech, CROs, and CDMOs.",
@@ -598,7 +648,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Aignostics",
@@ -645,56 +695,6 @@
       "delegated_identity": "served",
       "protected_resource_metadata": false,
       "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 12
-    },
-    {
-     "name": "Cancer.gov",
-     "slug": "cancer-gov",
-     "description": "Cancer.gov is the web presence of the National Cancer Institute (NCI), the U.S. federal government's principal agency for cancer research and training. NCI and its partner programs expose a rich set of open APIs covering cancer clinical trials, genomic data, cancer-incidence surveillance, research data and models, terminology and vocabularies, and PDQ content — giving researchers, advocacy groups, clinicians, and application developers programmatic access to authoritative cancer data and content.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/screenshots/cancer-gov-2026-06-20T173920.png",
-     "score": 50.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 58.0,
-      "contract_quality": 44.8,
-      "contract_governance": 18.2,
-      "operational_transparency": 57.9,
-      "developer_ergonomics": 61.3,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 24.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 29.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "rank": 13
@@ -1111,6 +1111,63 @@
      "rank": 21
     },
     {
+     "name": "Huma",
+     "slug": "huma",
+     "description": "Huma (Huma Therapeutics Limited) is a United Kingdom-headquartered digital health and remote patient monitoring company that provides a regulated, configurable platform for building and running healthcare and life-sciences applications. Its Huma Workspace lets clinical teams assemble no-code apps, connected-device data capture, ePRO questionnaires, algorithm-based assessments, and a clinician portal for telemedicine and remote monitoring, while its developer surface exposes a backend Integration API and native iOS, Android, and Angular SDKs for embedding Huma functionality into first-party applications. Huma operates as CE-marked / MDR Class IIb medical-device software and is ISO 13485 and ISO 27001 certified, positioning it as clinical-grade infrastructure used by health systems (including the NHS in its UK home market), pharma, and clinical-trials programs. The developer platform documents a backend Integration API and mobile SDKs; API access is gated behind a Huma Workspace account. A full Huma Platform OpenAPI (3.0.3, 984 operations across 76 tags) is served, unlinked, from the ReDoc reference at workspace-gcp-uk.api.huma.com/specs/; authentication is JWT bearer and Hawk MAC (no OAuth2 scheme). No public HL7 FHIR CapabilityStatement is published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/huma/refs/heads/main/screenshots/huma-2026-07-25T221642.png",
+     "score": 46.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 64.3,
+      "contract_quality": 44.5,
+      "contract_governance": 18.2,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 58.9,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 20.3,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 25.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 22
+    },
+    {
      "name": "Predoc",
      "slug": "predoc",
      "description": "Predoc is an AI-native medical records platform that automates the retrieval, aggregation, normalization, de-duplication, and structured delivery of complete patient histories. It queries health information exchanges (HIEs) and initiates outreach to non-connected providers, ingests faxes, PDFs, and digital formats, and delivers clean, FHIR-compliant clinical data to healthcare organizations and clinical research teams via a REST Partner API, file exports, or direct EHR integration. The Predoc Partner API (v1.4.1) exposes patient management, record-retrieval requests, record uploads, granular clinical document endpoints (medications, labs, imaging, procedures, notes, vaccines, allergies), clinical summaries, and webhook event notifications, secured with short-lived JWT bearer tokens.",
@@ -1165,7 +1222,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Dyno",
@@ -1206,63 +1263,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": "unknown",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 23
-    },
-    {
-     "name": "Huma",
-     "slug": "huma",
-     "description": "Huma (Huma Therapeutics Limited) is a United Kingdom-headquartered digital health and remote patient monitoring company that provides a regulated, configurable platform for building and running healthcare and life-sciences applications. Its Huma Workspace lets clinical teams assemble no-code apps, connected-device data capture, ePRO questionnaires, algorithm-based assessments, and a clinician portal for telemedicine and remote monitoring, while its developer surface exposes a backend Integration API and native iOS, Android, and Angular SDKs for embedding Huma functionality into first-party applications. Huma operates as CE-marked / MDR Class IIb medical-device software and is ISO 13485 and ISO 27001 certified, positioning it as clinical-grade infrastructure used by health systems (including the NHS in its UK home market), pharma, and clinical-trials programs. The developer platform documents a backend Integration API and mobile SDKs; API access is gated behind a Huma Workspace account. A full Huma Platform OpenAPI (3.0.3, 984 operations across 76 tags) is served, unlinked, from the ReDoc reference at workspace-gcp-uk.api.huma.com/specs/; authentication is JWT bearer and Hawk MAC (no OAuth2 scheme). No public HL7 FHIR CapabilityStatement is published.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/huma/refs/heads/main/screenshots/huma-2026-07-25T221642.png",
-     "score": 45.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 58.9,
-      "contract_quality": 44.5,
-      "contract_governance": 18.2,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 58.9,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 20.3,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       }
-      ]
-     },
-     "agent_score": 25.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -2144,6 +2144,56 @@
    "shown": 49,
    "providers": [
     {
+     "name": "Labguru",
+     "slug": "labguru",
+     "description": "Labguru is an electronic laboratory notebook (ELN) and biotech data management platform that provides a unified REST and GraphQL API for managing experiments, protocols, milestones, inventory, equipment, and research project data. The platform serves biotech, pharma, CRO, food tech, and academic organizations with cloud-based lab operations, LIMS, workflow automation, and data analytics capabilities.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/labguru/refs/heads/main/screenshots/labguru-2026-06-20T184239.png",
+     "score": 39.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 45.2,
+      "contract_governance": 9.8,
+      "operational_transparency": 49.5,
+      "developer_ergonomics": 23.8,
+      "access_clarity": 46.8
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 13.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 29.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 42
+    },
+    {
      "name": "Empatica",
      "slug": "empatica",
      "description": "Empatica Inc. is an MIT Media Lab spinoff, founded in Cambridge, Massachusetts, that builds FDA-cleared medical wearables — EmbracePlus, EmbraceMini and the EpiMonitor epilepsy monitoring system — together with the Empatica Health Monitoring Platform, a cloud platform for continuous, remote physiological data collection in clinical research and patient monitoring. The platform captures raw sensor streams (PPG/blood volume pulse, electrodermal activity, skin temperature, accelerometer, gyroscope, steps, systolic peaks, participant tags) and derives 300+ digital measures used as digital endpoints by pharmaceutical sponsors and CROs. Programmatic access is delivered three ways: a cloud-to-cloud Cloud API that pushes participant management, wearing compliance and digital biomarker data into a sponsor's CTMS/EDC; an AWS S3 data bucket addressed with Care Portal-issued Data Access Keys, where high-frequency raw data lands every 30 minutes as Apache Avro files; and a live REST host at api.empatica.com backing Empatica's own apps and portals. The Cloud API reference is issued only to contracted clients, so no OpenAPI, AsyncAPI or public API reference is published.",
@@ -2179,56 +2229,6 @@
       "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 42
-    },
-    {
-     "name": "Labguru",
-     "slug": "labguru",
-     "description": "Labguru is an electronic laboratory notebook (ELN) and biotech data management platform that provides a unified REST and GraphQL API for managing experiments, protocols, milestones, inventory, equipment, and research project data. The platform serves biotech, pharma, CRO, food tech, and academic organizations with cloud-based lab operations, LIMS, workflow automation, and data analytics capabilities.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/labguru/refs/heads/main/screenshots/labguru-2026-06-20T184239.png",
-     "score": 38.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 60.7,
-      "contract_quality": 45.2,
-      "contract_governance": 9.8,
-      "operational_transparency": 49.5,
-      "developer_ergonomics": 23.8,
-      "access_clarity": 46.8
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 13.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 29.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -2814,6 +2814,55 @@
      "rank": 54
     },
     {
+     "name": "Watchmaker Genomics",
+     "slug": "watchmaker-genomics",
+     "description": "Watchmaker Genomics is a Boulder, Colorado life-science company that engineers and manufactures high-performance enzymes and next-generation-sequencing library preparation kits for clinical, translational and molecular-diagnostics workflows — DNA and RNA library prep, TAPS+ methylation sequencing, EquiPlex normalization, Equinox Prime amplification, high-fidelity polymerases, reverse transcriptases and MDx reagents. It is a reagents manufacturer rather than an API company: it runs no developer program and publishes no API documentation, but its Adobe Commerce (Magento 2) storefront at www.watchmakergenomics.com serves a live, publicly introspectable GraphQL endpoint, a Swagger 2.0 REST schema and 200 SOAP WSDL services over its own product catalog, and its GitHub organization publishes first-party bioinformatics tools including the TAPS+ Variant Caller (TVC).",
+     "score": 34.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 50.6,
+      "contract_governance": 4.5,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 35.1,
+      "access_clarity": 31.6
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 19.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 24.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 55
+    },
+    {
      "name": "Guardant Health",
      "slug": "guardant-health",
      "description": "Guardant Health is a precision oncology company whose blood- and tissue-based liquid biopsy tests (Guardant360, Guardant Reveal, Guardant Shield, GuardantINFINITY) detect cancer and guide treatment. Its integration surface is partner- and EMR-based - electronic test ordering and results delivery through Epic Aura and Flatiron OncoEMR, patient portals (MyGuardant, My Data), and biopharma data platforms (GuardantINFORM, GuardantConnect, Guardant Galaxy). No public self-serve developer API is documented.",
@@ -2852,55 +2901,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 55
-    },
-    {
-     "name": "Watchmaker Genomics",
-     "slug": "watchmaker-genomics",
-     "description": "Watchmaker Genomics is a Boulder, Colorado life-science company that engineers and manufactures high-performance enzymes and next-generation-sequencing library preparation kits for clinical, translational and molecular-diagnostics workflows — DNA and RNA library prep, TAPS+ methylation sequencing, EquiPlex normalization, Equinox Prime amplification, high-fidelity polymerases, reverse transcriptases and MDx reagents. It is a reagents manufacturer rather than an API company: it runs no developer program and publishes no API documentation, but its Adobe Commerce (Magento 2) storefront at www.watchmakergenomics.com serves a live, publicly introspectable GraphQL endpoint, a Swagger 2.0 REST schema and 200 SOAP WSDL services over its own product catalog, and its GitHub organization publishes first-party bioinformatics tools including the TAPS+ Variant Caller (TVC).",
-     "score": 34.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.9,
-      "contract_quality": 50.6,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 35.1,
-      "access_clarity": 31.6
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 19.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 24.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,

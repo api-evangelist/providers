@@ -31,6 +31,14 @@ common:
   title: ''
   type: Website
   url: https://albiware.com/
+coverage:
+  checked: '2026-10-05'
+  detail: Probing common OpenAPI endpoints on api.albiware.com returned 404, and no other machine‑readable contract was found.
+  evidence:
+  - status: 404
+    url: https://api.albiware.com/openapi.json
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-09-24'
 description: Albi provides a cloud‑based restoration management platform for contractors and service providers. The software unifies job management, field documentation, AI‑driven analytics, mobile scheduling, e‑signatures, and integrations with thousands of third‑party tools. Albi offers tiered subscription plans (Base, Pro, Enterprise) and emphasizes rapid onboarding, 24‑hour support, and a marketplace of add‑ons. The platform is marketed to restoration businesses seeking to consolidate operations into a single web and mobile application.
 layout: provider

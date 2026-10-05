@@ -227,7 +227,7 @@ score:
   band: thin
   composite: 39.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 62.8
     catalog_earned_first_party: 0.0
     catalog_gap: 52.3

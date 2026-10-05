@@ -50,6 +50,14 @@ apis:
   baseurl_source: declared
   description: The Crawl API from Crawl4AI — 2 operation(s) for crawl.
   name: Crawl4AI Crawl API
+  phrasing_intents:
+  - id: submitCrawlJob
+    intent: Start a crawl job for a list of URLs
+    question: How do I kick off a Crawl4AI job to scrape a batch of web pages?
+  - id: getCrawlJob
+    intent: Check a crawl job's status and results
+    question: Is my crawl job finished yet, and where do I get the scraped results?
+  phrasing_ops: 2
   slug: crawl4ai-crawl-api
 artifact_total: 12
 asyncapis:
@@ -292,7 +300,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 78.9
     contract_governance: 18.2
@@ -300,7 +308,7 @@ score:
     developer_ergonomics: 85.7
     discoverability: 75.0
     operational_transparency: 97.4
-  previous_composite: 67.6
+  previous_composite: 68.6
   provenance:
     conformance: first-party
     contracts:

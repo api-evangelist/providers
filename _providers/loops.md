@@ -48,91 +48,319 @@ apis:
   baseurl_source: declared
   description: Validate a Loops API key and discover which team it belongs to. 1 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops API key API
+  phrasing_intents:
+  - id: testApiKey
+    intent: Test an API key and see its team
+    question: How can I check that my Loops API key is valid?
+  phrasing_ops: 1
   slug: loops-api-key-api
 - baseURL: https://app.loops.so/api/v1
   baseurl_source: declared
   description: Read and create saved audience segments used to target campaigns and workflows. 3 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Audience segments API
+  phrasing_intents:
+  - id: getAudienceSegment
+    intent: Get an audience segment
+    question: How do I look up the details of one audience segment?
+  - id: listAudienceSegments
+    intent: List audience segments
+    question: What audience segments have we set up?
+  - id: createAudienceSegment
+    intent: Create an audience segment
+    question: How do I create a saved audience segment from filter conditions?
+  phrasing_ops: 3
   slug: loops-audience-segments-api
 - baseURL: https://app.loops.so/api/v1
   baseurl_source: declared
   description: Organize campaigns into groups. 4 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Campaign groups API
+  phrasing_intents:
+  - id: listCampaignGroups
+    intent: List campaign groups
+    question: Which groups are my campaigns organized into?
+  - id: createCampaignGroup
+    intent: Create a campaign group
+    question: How do I make a new folder to organize campaigns?
+  - id: getCampaignGroup
+    intent: Get a campaign group
+    question: How do I see the details of a single campaign group?
+  - id: updateCampaignGroup
+    intent: Rename or redescribe a campaign group
+    question: How do I rename an existing campaign group?
+  phrasing_ops: 4
   slug: loops-campaign-groups-api
 - baseURL: https://app.loops.so/api/v1
   baseurl_source: declared
   description: Create, target, schedule and update email campaigns. 4 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Campaigns API
+  phrasing_intents:
+  - id: listCampaigns
+    intent: List campaigns
+    question: What email campaigns do I have in Loops?
+  - id: createCampaign
+    intent: Create a draft campaign
+    question: How do I start a new draft email campaign?
+  - id: getCampaign
+    intent: Get a campaign
+    question: How do I check the status and settings of one campaign?
+  - id: updateCampaign
+    intent: Update a campaign's audience, group or schedule
+    question: How do I reschedule a draft campaign that already exists?
+  phrasing_ops: 4
   slug: loops-campaigns-api
 - baseURL: https://app.loops.so/api/v1
   baseurl_source: declared
   description: Create, read and update reusable LMX email components. 4 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Components API
+  phrasing_intents:
+  - id: getComponent
+    intent: Get an email component
+    question: How do I view the LMX body of a reusable email component?
+  - id: updateComponent
+    intent: Update an email component
+    question: If I edit a shared component, do the emails using it change too?
+  - id: listComponents
+    intent: List email components
+    question: Which reusable email components exist on my team?
+  - id: createComponent
+    intent: Create an email component
+    question: How do I create a reusable block I can drop into emails?
+  phrasing_ops: 4
   slug: loops-components-api
 - baseURL: https://app.loops.so/api/v1
   baseurl_source: declared
   description: Read team configuration, including dedicated sending IP addresses. 1 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Configuration API
+  phrasing_intents:
+  - id: listDedicatedSendingIps
+    intent: List dedicated sending IP addresses
+    question: Which IP addresses does Loops send mail from?
+  phrasing_ops: 1
   slug: loops-configuration-api
 - baseURL: https://app.loops.so/api/v1
   baseurl_source: declared
   description: Create and list the custom properties available on contacts. 2 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Contact properties API
+  phrasing_intents:
+  - id: createContactProperty
+    intent: Create a custom contact property
+    question: How do I add a new custom field to my contacts?
+  - id: listContactProperties
+    intent: List contact properties
+    question: What contact properties does my account have?
+  phrasing_ops: 2
   slug: loops-contact-properties-api
 - baseURL: https://app.loops.so/api/v1
   baseurl_source: declared
   description: Create, update, find and delete contacts, and manage suppression status. 6 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Contacts API
+  phrasing_intents:
+  - id: createContact
+    intent: Add a new contact
+    question: How do I add a new subscriber to my audience?
+  - id: updateContact
+    intent: Update or upsert a contact
+    question: How do I change an existing contact's name or properties?
+  - id: findContact
+    intent: Find a contact by email or user ID
+    question: Is a given email address already a contact?
+  - id: deleteContact
+    intent: Delete a contact
+    question: How do I permanently remove someone from my audience?
+  - id: getContactSuppression
+    intent: Check a contact's suppression status
+    question: Is this contact suppressed from receiving emails?
+  - id: removeContactSuppression
+    intent: Remove a contact from the suppression list
+    question: How do I unsuppress a contact so they can get emails again?
+  phrasing_ops: 6
   slug: loops-contacts-api
 - baseURL: https://app.loops.so/api/v1
   baseurl_source: declared
   description: Read, update, preview and Guardian-validate the LMX body of campaigns, workflow emails and transactional templates. 4 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Email messages API
+  phrasing_intents:
+  - id: getEmailMessage
+    intent: Get an email message
+    question: How do I read the subject, sender and content of an email message?
+  - id: updateEmailMessage
+    intent: Edit an email's subject, sender or content
+    question: How do I set the subject line and sender on a draft email?
+  - id: previewEmailMessage
+    intent: Send a test preview of an email
+    question: How do I send myself a test copy of an email before it goes out?
+  - id: getEmailMessageGuardian
+    intent: Check an email for publishing errors
+    question: What errors are blocking this email from being published?
+  phrasing_ops: 4
   slug: loops-email-messages-api
 - baseURL: https://app.loops.so/api/v1
   baseurl_source: declared
   description: Read the event patterns Loops has detected from incoming events, including their observed properties. 3 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Event patterns API
+  phrasing_intents:
+  - id: listEventPatterns
+    intent: List event patterns for workflow triggers
+    question: Which events can trigger a workflow?
+  - id: getEventPatternByName
+    intent: Look up an event pattern by event name
+    question: What properties does the event named PaymentReceived carry?
+  - id: getEventPattern
+    intent: Get an event pattern by ID
+    question: How do I fetch an event pattern when I only have its ID?
+  phrasing_ops: 3
   slug: loops-event-patterns-api
 - baseURL: https://app.loops.so/api/v1
   baseurl_source: declared
   description: Send events that update contact activity and trigger published workflows. 1 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Events API
+  phrasing_intents:
+  - id: sendEvent
+    intent: Send an event to trigger workflows
+    question: How do I fire an event that kicks off a workflow for a contact?
+  phrasing_ops: 1
   slug: loops-events-api
 - baseURL: https://app.loops.so/api/v1
   baseurl_source: declared
   description: List the mailing lists in your account. 1 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Mailing lists API
+  phrasing_intents:
+  - id: listMailingLists
+    intent: List mailing lists
+    question: What mailing lists does my account have?
+  phrasing_ops: 1
   slug: loops-mailing-lists-api
 - baseURL: https://app.loops.so/api/v1
   baseurl_source: declared
   description: Create, read and update reusable email themes. 4 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Themes API
+  phrasing_intents:
+  - id: getTheme
+    intent: Get an email theme
+    question: How do I see the styles in a particular email theme?
+  - id: updateTheme
+    intent: Update an email theme
+    question: If I change a theme's styles, which emails are affected?
+  - id: listThemes
+    intent: List email themes
+    question: Which email themes has my team created?
+  - id: createTheme
+    intent: Create an email theme
+    question: How do I create a new theme to style my emails?
+  phrasing_ops: 4
   slug: loops-themes-api
 - baseURL: https://app.loops.so/api/v1
   baseurl_source: declared
   description: Create, edit, publish, list and send transactional email templates with data variables. 8 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Transactional emails API
+  phrasing_intents:
+  - id: sendTransactionalEmail
+    intent: Send a transactional email
+    question: How do I send a password reset or receipt email to one person?
+  - id: listPublishedTransactionalEmails
+    intent: List published transactional emails
+    question: Which transactional emails are published and ready to send?
+  - id: listTransactionalEmails
+    intent: List all transactional emails incl. drafts
+    question: What transactional emails exist, including ones not yet published?
+  - id: createTransactionalEmail
+    intent: Create a transactional email
+    question: How do I set up a new transactional email template?
+  - id: getTransactionalEmail
+    intent: Get a transactional email
+    question: How do I look up one transactional email's details?
+  - id: updateTransactionalEmail
+    intent: Rename or regroup a transactional email
+    question: How do I rename an existing transactional email?
+  - id: ensureTransactionalDraft
+    intent: Open a draft for a transactional email
+    question: How do I start editing a published transactional email without changing the live version?
+  - id: publishTransactionalEmail
+    intent: Publish a transactional email draft
+    question: How do I make my edited transactional draft go live?
+  phrasing_ops: 8
   slug: loops-transactional-emails-api
 - baseURL: https://app.loops.so/api/v1
   baseurl_source: declared
   description: Organize transactional emails into groups. 4 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Transactional groups API
+  phrasing_intents:
+  - id: listTransactionalGroups
+    intent: List transactional groups
+    question: Which groups organize my transactional emails?
+  - id: createTransactionalGroup
+    intent: Create a transactional group
+    question: How do I create a folder for transactional emails?
+  - id: getTransactionalGroup
+    intent: Get a transactional group
+    question: How do I see one transactional group's details?
+  - id: updateTransactionalGroup
+    intent: Rename or redescribe a transactional group
+    question: How do I rename an existing transactional group?
+  phrasing_ops: 4
   slug: loops-transactional-groups-api
 - baseURL: https://app.loops.so/api/v1
   baseurl_source: declared
   description: Upload image assets for use in emails via a presigned-URL flow. 2 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Uploads API
+  phrasing_intents:
+  - id: createUpload
+    intent: Request a pre-signed URL to upload an image
+    question: How do I upload an image to use in my emails?
+  - id: completeUpload
+    intent: Finalize an image upload
+    question: What do I do after putting the file to the pre-signed URL?
+  phrasing_ops: 2
   slug: loops-uploads-api
 - baseURL: https://app.loops.so/api/v1
   baseurl_source: declared
   description: Create, read, update, delete and reroute the nodes of a workflow graph. 7 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Workflow nodes API
+  phrasing_intents:
+  - id: createWorkflowNode
+    intent: Add a node to a workflow
+    question: How do I insert a new step into a workflow?
+  - id: addWorkflowBranch
+    intent: Add a branch to a branch or experiment node
+    question: How do I add another path under a branch node?
+  - id: getWorkflowNode
+    intent: Get a workflow node
+    question: How do I see the settings of a single workflow step?
+  - id: updateWorkflowNode
+    intent: Update a workflow node's settings
+    question: How do I change the configuration of one workflow step?
+  - id: deleteWorkflowNode
+    intent: Delete a single workflow node
+    question: How do I remove just one step from a workflow?
+  - id: rerouteNodeConnection
+    intent: Reroute a node's outgoing connection
+    question: How do I point a workflow step at a different next step?
+  - id: deleteWorkflowNodeRecursively
+    intent: Delete a node and everything below it
+    question: How do I remove a whole branch of a workflow in one go?
+  phrasing_ops: 7
   slug: loops-workflow-nodes-api
 - baseURL: https://app.loops.so/api/v1
   baseurl_source: declared
   description: List, create, inspect and update automation workflows and their mailing-list targeting. 5 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Workflows API
+  phrasing_intents:
+  - id: listWorkflows
+    intent: List workflows
+    question: What automated workflows do I have?
+  - id: createWorkflow
+    intent: Create a draft workflow
+    question: How do I start a new email automation workflow?
+  - id: getWorkflow
+    intent: Get a workflow's graph
+    question: How do I see all the steps and connections in a workflow?
+  - id: updateWorkflowProperties
+    intent: Rename or redescribe a workflow
+    question: How do I rename an existing workflow?
+  - id: changeWorkflowMailingList
+    intent: Change a workflow's mailing list
+    question: How do I switch which mailing list a workflow sends to?
+  phrasing_ops: 5
   slug: loops-workflows-api
 - description: Remote Model Context Protocol server for Loops, reachable at https://mcp.loops.so over Streamable HTTP with OAuth 2.0 (PKCE, scope "mcp"). Exposes four meta-tools — search, describe, execute and teams
   name: Loops MCP Server
@@ -449,7 +677,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.3
+  delta: 0.0
   facets:
     access_clarity: 89.5
     contract_governance: 18.2
@@ -457,7 +685,7 @@ score:
     developer_ergonomics: 78.6
     discoverability: 75.0
     operational_transparency: 73.7
-  previous_composite: 69.1
+  previous_composite: 71.4
   provenance:
     agentic_access: derived
     conformance: first-party

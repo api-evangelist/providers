@@ -74,7 +74,7 @@ score:
   band: minimal
   composite: 6.8
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 5
     catalog_earned: 30.0
     catalog_earned_first_party: 0.0
     catalog_gap: 85.0

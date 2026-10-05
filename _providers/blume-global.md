@@ -8,7 +8,7 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
-    delegated_identity: served
+    delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
@@ -20,7 +20,7 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
   score: 10.8
   scored_at: '2026-10-04'
@@ -108,9 +108,9 @@ overview: 'Blume Global is profiled on the [APIs.io](https://apis.io/) network. 
 random_paper: 15
 score:
   band: emerging
-  composite: 12.7
+  composite: 11.8
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 0
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -123,14 +123,12 @@ score:
     developer_ergonomics: 16.7
     discoverability: 50.0
     operational_transparency: 10.5
-  provenance:
-    mcp: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 21.6
+    score: 15.7
   schema_version: 0.23.0
   scored_at: '2026-10-04'
   upsert:

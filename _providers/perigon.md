@@ -41,46 +41,193 @@ apis:
   baseurl_source: declared
   description: These endpoints enable semantic search beyond traditional keyword matching, content summarization, and advanced information retrieval across articles
   name: Perigon AI & Advanced Search API
+  phrasing_intents:
+  - id: search-summarizer
+    intent: Summarize news coverage matching filters
+    question: Can I get one AI-written summary of all recent news about a topic instead of reading every article?
+  phrasing_ops: 1
   slug: perigon-ai-advanced-search-api
 - baseURL: https://api.perigon.io
   baseurl_source: declared
   description: Manage contact points used to deliver monitor notifications. Contact points define where and how monitor events are delivered (e.g. webhooks). Only WEBHOOK contact points can be created and managed vi
   name: Perigon Contact Points API
+  phrasing_intents:
+  - id: list-contact-points
+    intent: List notification contact points
+    question: Which contact points does my organization have set up for alerts?
+  - id: create-contact-point
+    intent: Create a webhook contact point
+    question: How do I register a webhook so Perigon can send me monitor notifications?
+  - id: get-contact-point
+    intent: Get a contact point's details
+    question: What webhook URL is configured on a particular contact point?
+  - id: delete-contact-point
+    intent: Delete a contact point
+    question: What happens to a contact point that already has notification history when I delete it?
+  - id: update-contact-point
+    intent: Update a contact point
+    question: Can I change the webhook URL on an existing contact point?
+  phrasing_ops: 5
   slug: perigon-contact-points-api
 - baseURL: https://api.perigon.io
   baseurl_source: declared
   description: Manage AI Monitors — configurable monitors that continuously scan news content for topics, entities, and events of interest. Monitors run asynchronously and emit structured events and AI-generated sum
   name: Perigon Monitors API
+  phrasing_intents:
+  - id: list-monitors-api
+    intent: List AI news monitors
+    question: Which AI monitors does my organization have running?
+  - id: create-monitor-api
+    intent: Create an AI news monitor
+    question: How do I set up an AI monitor that watches the news for a specific signal?
+  - id: get-monitor-api
+    intent: Get a monitor's configuration
+    question: What objective and query is a given monitor configured with?
+  - id: archive-monitor-api
+    intent: Archive a monitor
+    question: How do I retire a monitor so it stops showing up in my list?
+  - id: update-monitor-api
+    intent: Edit a monitor's settings
+    question: Can I change the query or objective of a monitor I already created?
+  - id: activate-monitor-api
+    intent: Activate a monitor
+    question: How do I turn on a draft or paused monitor so it starts processing news?
+  - id: list-monitor-events-api
+    intent: List events a monitor detected
+    question: What matching articles or events has my monitor detected?
+  - id: list-monitor-newsletters-api
+    intent: List a monitor's newsletter digests
+    question: Where can I read the newsletter digests my monitor has produced?
+  phrasing_ops: 10
   slug: perigon-monitors-api
 - baseURL: https://api.perigon.io
   baseurl_source: declared
   description: Endpoints for accessing news articles and stories
   name: Perigon News & Stories API
+  phrasing_intents:
+  - id: search-articles
+    intent: Search news articles
+    question: How do I search news articles by keyword, source and date range?
+  - id: submit-article-refresh-job
+    intent: Queue articles for a background refresh
+    question: How do I ask for updated data on a batch of articles I already have?
+  - id: get-article-refresh-job
+    intent: Check an article refresh job's status
+    question: Is my article refresh job finished yet?
+  - id: peek-article-refresh
+    intent: Peek at cached refreshed article data
+    question: Can I see already-cached refreshed article data without starting a new job?
+  - id: search-stories
+    intent: Search clustered news stories
+    question: How can I follow an evolving news story rather than individual articles?
+  - id: get-story-history
+    intent: Get a story's past versions and changelog
+    question: How has a news story's summary changed over time?
+  - id: get-story-counts
+    intent: Count stories over time
+    question: How many news stories about a topic appeared each day this month?
+  - id: vector-search-articles
+    intent: Semantic search over recent news
+    question: Can I search news with a natural-language question instead of keywords?
+  phrasing_ops: 8
   slug: perigon-news-stories-api
 - baseURL: https://api.perigon.io
   baseurl_source: declared
   description: Manage custom source groups for organizing and filtering news sources. Source groups allow grouping domains together for use in search queries and monitors.
   name: Perigon Source Groups API
+  phrasing_intents:
+  - id: list-source-groups
+    intent: List source groups
+    question: Which source groups can I use, including public ones?
+  - id: create-source-group
+    intent: Create a source group of domains
+    question: How do I bundle a set of news domains into my own source group?
+  - id: resolve-source-groups
+    intent: Resolve source group names
+    question: If my private source group shares a name with a public one, which does a name lookup return?
+  - id: get-source-group
+    intent: Get a source group by ID
+    question: What domains are in one of my source groups?
+  - id: delete-source-group
+    intent: Delete a source group
+    question: How do I remove a source group my organization owns?
+  - id: update-source-group
+    intent: Update a source group
+    question: Can I add or change the domains in an existing source group?
+  phrasing_ops: 6
   slug: perigon-source-groups-api
 - baseURL: https://api.perigon.io
   baseurl_source: declared
   description: Additional endpoints for metadata and related information
   name: Perigon Supplemental Endpoints API
+  phrasing_intents:
+  - id: search-companies
+    intent: Search tracked companies
+    question: Can I look up a company by its stock ticker or domain?
+  - id: search-journalists
+    intent: Search journalists
+    question: How can I find journalists who cover a specific topic?
+  - id: get-journalist-by-id
+    intent: Get a journalist's profile
+    question: Can I get more detail on a journalist using the ID from an article?
+  - id: search-people
+    intent: Search known people
+    question: How do I look up a public figure mentioned in the news?
+  - id: search-sources
+    intent: Search media sources
+    question: Which news outlets are available, and can I filter them by country?
+  - id: search-topics
+    intent: Browse available news topics
+    question: What topics can I filter news by?
+  phrasing_ops: 6
   slug: perigon-supplemental-endpoints-api
 - baseURL: https://api.perigon.io
   baseurl_source: declared
   description: The Utilities API from Perigon — 1 operation(s) for utilities.
   name: Perigon Utilities API
+  phrasing_intents:
+  - id: get-limits
+    intent: Check API usage and rate limits
+    question: How many requests have I used this period and when does the counter reset?
+  phrasing_ops: 1
   slug: perigon-utilities-api
 - baseURL: https://api.perigon.io
   baseurl_source: declared
   description: Manage watchlists of people and companies for use with monitors. Watchlists can contain up to 100 combined entities and are used to track mentions across news content.
   name: Perigon Watchlists API
+  phrasing_intents:
+  - id: list-watchlists
+    intent: List watchlists
+    question: Which watchlists of people and companies can I use?
+  - id: create-watchlist
+    intent: Create a watchlist of people and companies
+    question: How do I build a watchlist of executives and companies to track?
+  - id: resolve-watchlists
+    intent: Resolve watchlist names
+    question: If a private watchlist and a public one share a name, which does a lookup by name return?
+  - id: get-watchlist
+    intent: Get a watchlist by ID
+    question: Who is on a particular watchlist?
+  - id: delete-watchlist
+    intent: Delete a watchlist
+    question: Why can't I delete a watchlist that active monitors use?
+  - id: update-watchlist
+    intent: Update a watchlist
+    question: Can I add companies to a watchlist I already made?
+  phrasing_ops: 6
   slug: perigon-watchlists-api
 - baseURL: https://api.perigon.io
   baseurl_source: declared
   description: Endpoints for searching ingested Wikipedia content. Provides keyword and filtered search capabilities along with vector-based semantic search across Wikipedia pages.
   name: Perigon Wikipedia API
+  phrasing_intents:
+  - id: vector-search-wikipedia
+    intent: Semantic search over Wikipedia
+    question: Can I ask a natural-language question and get the most relevant Wikipedia sections?
+  - id: search-wikipedia
+    intent: Search and filter Wikipedia pages
+    question: How do I keyword-search Wikipedia pages by title or text?
+  phrasing_ops: 2
   slug: perigon-wikipedia-api
 artifact_total: 17
 asyncapis:
@@ -292,13 +439,13 @@ score:
   band: exemplar
   composite: 67.1
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
@@ -306,7 +453,7 @@ score:
     developer_ergonomics: 73.2
     discoverability: 75.0
     operational_transparency: 84.2
-  previous_composite: 67.6
+  previous_composite: 67.1
   provenance:
     agentic_access: derived
     conformance: first-party

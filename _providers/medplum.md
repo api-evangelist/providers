@@ -57,6 +57,32 @@ apis:
   baseurl_source: declared
   description: The Fhir API from Medplum — 4 operation(s) for fhir.
   name: Medplum Fhir API
+  phrasing_intents:
+  - id: search
+    intent: Search FHIR resources of a given type
+    question: How do I list all the Patient resources stored in my Medplum project?
+  - id: createResource
+    intent: Create a new FHIR resource
+    question: How do I add a brand-new Patient record to the FHIR server?
+  - id: readResource
+    intent: Fetch one FHIR resource by its id
+    question: How do I fetch a single Patient by its FHIR id?
+  - id: updateResource
+    intent: Replace an existing FHIR resource
+    question: How do I overwrite an existing FHIR resource with a complete new copy?
+  - id: deleteResource
+    intent: Delete a FHIR resource
+    question: How do I remove a FHIR resource from my Medplum project?
+  - id: patchResource
+    intent: Partially update a FHIR resource
+    question: How do I change just one field on a FHIR resource without resending the whole thing?
+  - id: readResourceHistory
+    intent: List the version history of a FHIR resource
+    question: How can I see every change ever made to a Patient record?
+  - id: readVersion
+    intent: Fetch a specific past version of a FHIR resource
+    question: How do I retrieve an older version of a FHIR resource by its version id?
+  phrasing_ops: 8
   slug: medplum-fhir-api
 arazzos:
 - description: Read a resource, update it, then inspect its version history and prior version.

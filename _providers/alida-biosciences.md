@@ -31,6 +31,14 @@ common:
   title: ''
   type: Website
   url: https://www.nasdaqprivatemarket.com/
+coverage:
+  checked: '2026-10-05'
+  detail: No OpenAPI, AsyncAPI, GraphQL, gRPC, or WSDL contracts were found at the API host (api.alidabio.com) despite probing common spec endpoints.
+  evidence:
+  - status: 0
+    url: https://api.alidabio.com/openapi.json
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-09-24'
 description: 'Alida Biosciences is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.'
 layout: provider

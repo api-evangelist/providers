@@ -36,6 +36,16 @@ common:
   title: ''
   type: Website
   url: https://www.segura.security
+coverage:
+  checked: '2026-10-05'
+  detail: OpenAPI endpoints return empty files with no operations, and no other machine‑readable contract was found.
+  evidence:
+  - status: 200
+    url: https://www.segura.security/openapi.json
+  - status: 200
+    url: https://segura.security/openapi.json
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-10-03'
 description: 'Segura is a company surfaced via the API Evangelist harvest backlog (source: gartner-mq) and added to the network as a stub for full-pipeline profiling.'
 layout: provider

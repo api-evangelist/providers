@@ -82,11 +82,11 @@
      "type": "API Provider",
      "description": "Adobe provides APIs and developer resources for its creative, document, and experience cloud platforms. Developers can integrate with PDF services, Creative Cloud, generative AI (Firefly), analytics, e-commerce, e-signatures, and many other Adobe products and services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png",
-     "score": 80.4,
+     "score": 80.9,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 66.7,
+      "discoverability": 71.7,
       "contract_quality": 67.9,
       "contract_governance": 45.5,
       "operational_transparency": 78.9,
@@ -134,11 +134,11 @@
      "type": "API Provider",
      "description": "LinkedIn is a professional networking platform providing APIs for consumer integrations (Sign In, Share, Verified on LinkedIn), marketing solutions (ad campaigns, audiences, conversions, analytics), talent solutions (job posting, recruiter system connect), learning solutions (activity reports, content), sales navigator (CRM sync, display, analytics), compliance (message archiving), and regulatory data portability.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/screenshots/linkedin-2026-06-20T184544.png",
-     "score": 75.7,
+     "score": 76.3,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 73.2,
+      "discoverability": 78.6,
       "contract_quality": 70.3,
       "contract_governance": 45.5,
       "operational_transparency": 71.1,
@@ -363,7 +363,7 @@
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 85.0,
       "contract_quality": 58.6,
       "contract_governance": 45.5,
       "operational_transparency": 73.7,
@@ -619,11 +619,11 @@
      "type": "API Provider",
      "description": "Freddie Mac (Federal Home Loan Mortgage Corporation) is the government-sponsored enterprise that provides liquidity, stability and affordability to the U.S. housing market by purchasing and securitizing single-family and multifamily mortgages. Its Single-Family API programme is published through the Freddie Mac Developer Portal and spans the whole mortgage lifecycle: origination (Affordable Check, Income Limits, Loan Look Up, Property Insights, Current Mortgage Snapshot, Beyond ACE), closing (Loan Closing Advisor Loan Submission), selling and delivery (Cash and Guarantor Pricing, Committing and Settlement Purchase Statement, Loan Import into Loan Selling Advisor), post-close data retrieval (Loan Advisor Data Share, Data Share Bid Tape) and default servicing (the Resolve workout, liquidation and valuation/pricing decisioning services). The public catalog publishes 20 OpenAPI 3.0 contracts covering 45 operations; the request and response payloads are modelled on the MISMO reference model and the GSE Uniform Mortgage Data Program datasets (UAD, ULAD, ULDD, UCD).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/screenshots/freddie-mac-2026-06-20T181516.png",
-     "score": 60.0,
+     "score": 60.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 73.2,
+      "discoverability": 78.6,
       "contract_quality": 51.4,
       "contract_governance": 18.2,
       "operational_transparency": 76.3,
@@ -671,7 +671,7 @@
      "type": "API Provider",
      "description": "Autodesk is a global leader in design, engineering, and entertainment software, providing cloud-connected platform APIs through Autodesk Platform Services (APS). APS APIs enable developers to build applications that access design data, automate workflows, visualize 3D models, manage construction projects, create digital twins, and integrate sustainability data across Autodesk's product ecosystem including AutoCAD, Revit, Inventor, Maya, BIM 360, and Autodesk Construction Cloud.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/screenshots/autodesk-2026-07-25T201825.png",
-     "score": 59.9,
+     "score": 60.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -879,11 +879,11 @@
      "type": "API Provider",
      "description": "Verizon is a leading telecommunications company providing wireless, wireline, broadband, and global enterprise services. Verizon offers developer APIs for IoT device management via ThingSpace, 5G edge computing, TM Forum service management, dynamic network bandwidth, and communications platform APIs for contact center and SMS solutions.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/screenshots/verizon-2026-06-20T200943.png",
-     "score": 57.3,
+     "score": 57.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 73.2,
+      "discoverability": 78.6,
       "contract_quality": 36.3,
       "contract_governance": 31.8,
       "operational_transparency": 60.5,
@@ -931,11 +931,11 @@
      "type": "API Provider",
      "description": "Mastercard is a global technology company in the payments industry, providing APIs for payment processing, fraud detection, data analytics, and financial services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/screenshots/mastercard-2026-06-20T185023.png",
-     "score": 55.7,
+     "score": 56.2,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 55.4,
+      "discoverability": 60.7,
       "contract_quality": 56.5,
       "contract_governance": 13.6,
       "operational_transparency": 52.6,
@@ -1029,6 +1029,65 @@
      "rank": 19
     },
     {
+     "name": "BB&T Corp (Truist)",
+     "slug": "bbandt-corp",
+     "url": "https://providers.apis.io/providers/bbandt-corp/",
+     "type": "API Provider",
+     "description": "BB&T Corporation merged with SunTrust Banks in December 2019 to form Truist Financial Corporation, the sixth-largest US commercial bank. Truist runs an open-banking API program at developer.truist.com and publishes fifteen first-party OpenAPI contracts covering 31 operations — personal and small-business accounts, transactions, client contact, account address and payment networks; commercial accounts, balances and transactions; RTP real-time credit transfers; OAuth 2.0 authentication, customer consent, RFC 7591 dynamic client registration, event subscriptions and notifications, and a branch/ATM locator. The retail surface is built to the Financial Data Exchange (FDX) API (V5.4.1, V6.4.1 and v6.5) and every API carries the FAPI x-fapi-interaction-id correlation header. Access is OAuth 2.0 authorization_code with per-customer consent; sandbox is self-serve after registration, production requires manual approval by a Truist engagement team.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/screenshots/bbandt-corp-2026-06-20T173059.png",
+     "score": 55.0,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 78.6,
+      "contract_quality": 70.4,
+      "contract_governance": 53.6,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 42.3,
+      "access_clarity": 35.5
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 50.4,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "fdx",
+        "jurisdiction": "US"
+       }
+      ]
+     },
+     "agent_score": 40.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 20
+    },
+    {
      "name": "CMS Energy",
      "slug": "cms-energy",
      "url": "https://providers.apis.io/providers/cms-energy/",
@@ -1070,65 +1129,6 @@
       "event_surface_described": true,
       "agent_skills": "derived",
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 20
-    },
-    {
-     "name": "BB&T Corp (Truist)",
-     "slug": "bbandt-corp",
-     "url": "https://providers.apis.io/providers/bbandt-corp/",
-     "type": "API Provider",
-     "description": "BB&T Corporation merged with SunTrust Banks in December 2019 to form Truist Financial Corporation, the sixth-largest US commercial bank. Truist runs an open-banking API program at developer.truist.com and publishes fifteen first-party OpenAPI contracts covering 31 operations — personal and small-business accounts, transactions, client contact, account address and payment networks; commercial accounts, balances and transactions; RTP real-time credit transfers; OAuth 2.0 authentication, customer consent, RFC 7591 dynamic client registration, event subscriptions and notifications, and a branch/ATM locator. The retail surface is built to the Financial Data Exchange (FDX) API (V5.4.1, V6.4.1 and v6.5) and every API carries the FAPI x-fapi-interaction-id correlation header. Access is OAuth 2.0 authorization_code with per-customer consent; sandbox is self-serve after registration, production requires manual approval by a Truist engagement team.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/screenshots/bbandt-corp-2026-06-20T173059.png",
-     "score": 54.5,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 70.4,
-      "contract_governance": 53.6,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 42.3,
-      "access_clarity": 35.5
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 50.4,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "fdx",
-        "jurisdiction": "US"
-       }
-      ]
-     },
-     "agent_score": 40.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
@@ -1306,6 +1306,58 @@
      "rank": 24
     },
     {
+     "name": "JPMorgan Chase",
+     "slug": "jp-morgan-chase",
+     "url": "https://providers.apis.io/providers/jp-morgan-chase/",
+     "type": "API Provider",
+     "description": "JPMorgan Chase is a leading global financial services firm and one of the largest banking institutions in the United States, with operations across investment banking, financial services, asset management, and private equity. Its J.P. Morgan Payments Developer Portal publishes 26 API definitions covering 194 operations across payments, treasury, onboarding, tokenization, disputes, reporting and blockchain deposit accounts, with OAuth 2.0, mTLS and digital-signature authentication and a Mock environment for client testing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/screenshots/jp-morgan-chase-2026-06-20T183806.png",
+     "score": 52.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 79.5,
+      "contract_quality": 68.5,
+      "contract_governance": 0.0,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 59.5,
+      "access_clarity": 36.8
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 15.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 43.8,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "verified",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "verified",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 25
+    },
+    {
      "name": "Best Buy",
      "slug": "best-buy",
      "url": "https://providers.apis.io/providers/best-buy/",
@@ -1355,7 +1407,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "BrightEdge",
@@ -1415,58 +1467,6 @@
       "dry_run_mode": false,
       "delegated_identity": "served",
       "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 26
-    },
-    {
-     "name": "JPMorgan Chase",
-     "slug": "jp-morgan-chase",
-     "url": "https://providers.apis.io/providers/jp-morgan-chase/",
-     "type": "API Provider",
-     "description": "JPMorgan Chase is a leading global financial services firm and one of the largest banking institutions in the United States, with operations across investment banking, financial services, asset management, and private equity. Its J.P. Morgan Payments Developer Portal publishes 26 API definitions covering 194 operations across payments, treasury, onboarding, tokenization, disputes, reporting and blockchain deposit accounts, with OAuth 2.0, mTLS and digital-signature authentication and a Mock environment for client testing.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/screenshots/jp-morgan-chase-2026-06-20T183806.png",
-     "score": 51.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 68.5,
-      "contract_governance": 0.0,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 59.5,
-      "access_clarity": 36.8
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 15.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 43.8,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "verified",
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "verified",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -1643,6 +1643,58 @@
      "rank": 30
     },
     {
+     "name": "eBay",
+     "slug": "ebay",
+     "url": "https://providers.apis.io/providers/ebay/",
+     "type": "API Provider",
+     "description": "eBay is a multinational e-commerce corporation that operates a website facilitating consumer-to-consumer and business-to-consumer sales through its online platform. Users can buy and sell a wide range of products, including electronics, fashion, collectibles, and more, in an auction-style or buy-it-now format. eBay provides a secure and user-friendly platform for sellers to reach a global audience and for buyers to access a vast selection of items.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ebay/refs/heads/main/screenshots/ebay-2026-07-25T212757.png",
+     "score": 51.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 71.4,
+      "contract_quality": 53.4,
+      "contract_governance": 9.8,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 57.1,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 21.6,
+      "matched_via": "fallback"
+     },
+     "agent_score": 31.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "verified",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 31
+    },
+    {
      "name": "Cisco",
      "slug": "cisco",
      "url": "https://providers.apis.io/providers/cisco/",
@@ -1692,7 +1744,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Fathom Analytics",
@@ -1740,58 +1792,6 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 32
-    },
-    {
-     "name": "eBay",
-     "slug": "ebay",
-     "url": "https://providers.apis.io/providers/ebay/",
-     "type": "API Provider",
-     "description": "eBay is a multinational e-commerce corporation that operates a website facilitating consumer-to-consumer and business-to-consumer sales through its online platform. Users can buy and sell a wide range of products, including electronics, fashion, collectibles, and more, in an auction-style or buy-it-now format. eBay provides a secure and user-friendly platform for sellers to reach a global audience and for buyers to access a vast selection of items.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ebay/refs/heads/main/screenshots/ebay-2026-07-25T212757.png",
-     "score": 50.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 53.4,
-      "contract_governance": 9.8,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 57.1,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 21.6,
-      "matched_via": "fallback"
-     },
-     "agent_score": 31.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "verified",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -2012,11 +2012,11 @@
      "type": "API Provider",
      "description": "Consolidated Edison, Inc. (Con Edison) is a Fortune 500 investor-owned utility providing electric, natural gas and steam service to New York City and Westchester County. It runs no general-purpose developer portal; its one programmatic surface is Green Button Connect My Data - branded Share My Data - a NAESB ESPI (REQ.21) / Green Button V3.3 API that lets a registered third party retrieve a customer's interval usage, billing and account data once that customer consents. The contract is published: Con Edison links a Swagger 2.0 definition (DCX GBC API V2, 37 operations over UsagePoint, MeterReading, IntervalBlock, ReadingType, UsageSummary, RetailCustomer, Batch and RealTime) and a Postman collection from its public onboarding document; production base is https://api.coned.com/gbc/espi/1_1. Access is free but not self-service - a Data Security Agreement and a 30-60 day onboarding come first. Orange & Rockland runs the identical contract.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/screenshots/consolidated-edison-2026-07-25T210311.png",
-     "score": 49.0,
+     "score": 49.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 51.8,
+      "discoverability": 57.1,
       "contract_quality": 42.5,
       "contract_governance": 18.2,
       "operational_transparency": 31.6,
@@ -2578,6 +2578,58 @@
      "rank": 48
     },
     {
+     "name": "Aramark",
+     "slug": "aramark",
+     "url": "https://providers.apis.io/providers/aramark/",
+     "type": "API Provider",
+     "description": "Aramark is a Fortune 500 food, facilities and uniform services company. Its Marko platform is a data and AI layer over Aramark operations, published as 60 documented REST APIs on an Apigee gateway at marko.aramark.net and catalogued on the Marko Developer Portal. The surface spans the full Aramark organization hierarchy (division, region, district, line of business, business unit, client, location, sub location, profit center), point-of-sale transactions and daily sales, labor scheduling and daily labor, inventory and purchasing, product, recipe and nutrition data, service execution, food waste and IoT temperature monitoring. Aramark publishes every OpenAPI document itself, in JSON and YAML, in the public aramarkservicesinc/markoapis GitHub repository, and renders each one in an in-page RapiDoc console. Access is gated: you register an application, choose API products, and a per-application apikey is issued on approval.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/screenshots/aramark-2026-06-20T172345.png",
+     "score": 47.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 71.4,
+      "contract_quality": 55.9,
+      "contract_governance": 27.3,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 66.1,
+      "access_clarity": 42.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 24.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 23.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 49
+    },
+    {
      "name": "Shift4 Payments",
      "slug": "shift4-payments",
      "url": "https://providers.apis.io/providers/shift4-payments/",
@@ -2618,58 +2670,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 49
-    },
-    {
-     "name": "Aramark",
-     "slug": "aramark",
-     "url": "https://providers.apis.io/providers/aramark/",
-     "type": "API Provider",
-     "description": "Aramark is a Fortune 500 food, facilities and uniform services company. Its Marko platform is a data and AI layer over Aramark operations, published as 60 documented REST APIs on an Apigee gateway at marko.aramark.net and catalogued on the Marko Developer Portal. The surface spans the full Aramark organization hierarchy (division, region, district, line of business, business unit, client, location, sub location, profit center), point-of-sale transactions and daily sales, labor scheduling and daily labor, inventory and purchasing, product, recipe and nutrition data, service execution, food waste and IoT temperature monitoring. Aramark publishes every OpenAPI document itself, in JSON and YAML, in the public aramarkservicesinc/markoapis GitHub repository, and renders each one in an in-page RapiDoc console. Access is gated: you register an application, choose API products, and a per-application apikey is issued on approval.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/screenshots/aramark-2026-06-20T172345.png",
-     "score": 46.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 55.9,
-      "contract_governance": 27.3,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 42.1
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 24.5,
-      "matched_via": "fallback"
-     },
-     "agent_score": 23.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -2734,6 +2734,57 @@
      "rank": 51
     },
     {
+     "name": "Aetna",
+     "slug": "aetna",
+     "url": "https://providers.apis.io/providers/aetna/",
+     "type": "API Provider",
+     "description": "Aetna, a CVS Health company, is one of the largest U.S. health insurers, offering medical, dental, vision, pharmacy and Medicare/Medicaid plans to individuals, families, employers, health care providers and brokers. Its public API surface is entirely regulatory: Aetna operates an Interoperability API Developer Portal at developerportal.aetna.com that publishes HL7 FHIR R4 interfaces mandated by the CMS Interoperability and Patient Access Final Rule (CMS-9115-F) and the Advancing Interoperability and Improving Prior Authorization Final Rule (CMS-0057-F) - Patient Access, Payer to Payer, Provider Directory, Provider Access, Prior Authorization (Da Vinci CRD, PAS and CDex) and Realtime Pharmacy Benefit Check. Aetna publishes a machine-readable catalog of 139 operations and serves a Swagger 2.0 document for each one, plus live FHIR CapabilityStatements and SMART App Launch discovery documents on its production and sandbox FHIR gateways. Everything is read-only, everything requires OAuth 2.0 under SMART App Launch, and everything is free - there is no pricing, no plan and no metered product. Provider EDI connectivity is handled separately through the Availity portal.",
+     "score": 46.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 52.7,
+      "contract_governance": 31.8,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 32.7,
+      "access_clarity": 32.9
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 44.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 42.3,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": "na",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 52
+    },
+    {
      "name": "AmTrust Financial Services",
      "slug": "amtrust-financial-services",
      "url": "https://providers.apis.io/providers/amtrust-financial-services/",
@@ -2783,7 +2834,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "Elevance Health",
@@ -2846,57 +2897,6 @@
       "agent_card": false,
       "dry_run_mode": "na",
       "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 53
-    },
-    {
-     "name": "Aetna",
-     "slug": "aetna",
-     "url": "https://providers.apis.io/providers/aetna/",
-     "type": "API Provider",
-     "description": "Aetna, a CVS Health company, is one of the largest U.S. health insurers, offering medical, dental, vision, pharmacy and Medicare/Medicaid plans to individuals, families, employers, health care providers and brokers. Its public API surface is entirely regulatory: Aetna operates an Interoperability API Developer Portal at developerportal.aetna.com that publishes HL7 FHIR R4 interfaces mandated by the CMS Interoperability and Patient Access Final Rule (CMS-9115-F) and the Advancing Interoperability and Improving Prior Authorization Final Rule (CMS-0057-F) - Patient Access, Payer to Payer, Provider Directory, Provider Access, Prior Authorization (Da Vinci CRD, PAS and CDex) and Realtime Pharmacy Benefit Check. Aetna publishes a machine-readable catalog of 139 operations and serves a Swagger 2.0 document for each one, plus live FHIR CapabilityStatements and SMART App Launch discovery documents on its production and sandbox FHIR gateways. Everything is read-only, everything requires OAuth 2.0 under SMART App Launch, and everything is free - there is no pricing, no plan and no metered product. Provider EDI connectivity is handled separately through the Availity portal.",
-     "score": 45.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 52.7,
-      "contract_governance": 31.8,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 32.7,
-      "access_clarity": 32.9
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 44.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 42.3,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": "na",
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "documented",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -4107,6 +4107,58 @@
      "rank": 77
     },
     {
+     "name": "Centene",
+     "slug": "centene",
+     "url": "https://providers.apis.io/providers/centene/",
+     "type": "API Provider",
+     "description": "Centene Corporation is a Fortune 500 managed care organization delivering government-sponsored healthcare to roughly one in fifteen Americans through Medicaid, Medicare Advantage, TRICARE and Health Insurance Marketplace plans, operating under brands including Ambetter Health, Wellcare, Superior HealthPlan and Fidelis Care. Its public API surface exists to satisfy the 21st Century Cures Act and the CMS Interoperability and Patient Access Rule: HL7 FHIR R4 APIs for member record access (US Core 6.1.0, CARIN Blue Button 2.0.0, Da Vinci US Drug Formulary 2.0.1) and for provider directory (Da Vinci PDEX Plan Net 1.2.0), plus payer-to-payer PDEX exchange. Centene publishes twenty APIs through a partner portal at partners.centene.com, whose catalogue and OpenAPI documents are served anonymously; the FHIR Provider Directory is callable in production with no credential at all. Member data uses SMART on FHIR 2.0.0 standalone launch against a Ping Identity authorization server branded EntryKey ID; partner surfaces use OAuth client credentials with a per-API audience. Beyond the mandated interoperability estate Centene also publishes X12 / CAQH CORE EDI transaction, provider-search, product-mapping and care-management APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/screenshots/centene-2026-06-20T174122.png",
+     "score": 41.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 71.4,
+      "contract_quality": 54.8,
+      "contract_governance": 18.2,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 45.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 46.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 78
+    },
+    {
      "name": "Tech Data",
      "slug": "tech-data",
      "url": "https://providers.apis.io/providers/tech-data/",
@@ -4156,7 +4208,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 79
     },
     {
      "name": "Diebold Nixdorf",
@@ -4215,7 +4267,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 80
     },
     {
      "name": "Citrix",
@@ -4267,7 +4319,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 81
     },
     {
      "name": "Facebook",
@@ -4319,7 +4371,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 82
     },
     {
      "name": "Ryder System",
@@ -4369,58 +4421,6 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 82
-    },
-    {
-     "name": "Centene",
-     "slug": "centene",
-     "url": "https://providers.apis.io/providers/centene/",
-     "type": "API Provider",
-     "description": "Centene Corporation is a Fortune 500 managed care organization delivering government-sponsored healthcare to roughly one in fifteen Americans through Medicaid, Medicare Advantage, TRICARE and Health Insurance Marketplace plans, operating under brands including Ambetter Health, Wellcare, Superior HealthPlan and Fidelis Care. Its public API surface exists to satisfy the 21st Century Cures Act and the CMS Interoperability and Patient Access Rule: HL7 FHIR R4 APIs for member record access (US Core 6.1.0, CARIN Blue Button 2.0.0, Da Vinci US Drug Formulary 2.0.1) and for provider directory (Da Vinci PDEX Plan Net 1.2.0), plus payer-to-payer PDEX exchange. Centene publishes twenty APIs through a partner portal at partners.centene.com, whose catalogue and OpenAPI documents are served anonymously; the FHIR Provider Directory is callable in production with no credential at all. Member data uses SMART on FHIR 2.0.0 standalone launch against a Ping Identity authorization server branded EntryKey ID; partner surfaces use OAuth client credentials with a per-API audience. Beyond the mandated interoperability estate Centene also publishes X12 / CAQH CORE EDI transaction, provider-search, product-mapping and care-management APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/screenshots/centene-2026-06-20T174122.png",
-     "score": 41.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 54.8,
-      "contract_governance": 18.2,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 45.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 46.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": true,
       "agentic_commerce": false
      },
      "rank": 83
@@ -4529,6 +4529,58 @@
      "rank": 85
     },
     {
+     "name": "Fifth Third Bancorp",
+     "slug": "fifth-third-bancorp",
+     "url": "https://providers.apis.io/providers/fifth-third-bancorp/",
+     "type": "API Provider",
+     "description": "Fifth Third Bancorp is a diversified super-regional financial services company providing commercial banking, branch banking, consumer lending, and wealth and asset management services across multiple U.S. states. Its embedded-finance arm, Newline by Fifth Third (built on the 2023 Rize Money acquisition), operates a documented, API-first Banking-as-a-Service platform: the Newline Platform API exposes payments (ACH, wire, Real-Time Payments/RTP, book transfers), FDIC-insured deposit and custodial accounts, synthetic accounts, virtual reference numbers, card issuing, customer/KYC onboarding, transactions, returns, and webhook/message-queue notifications so fintechs and enterprises can embed financial products directly with Fifth Third Bank.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/screenshots/fifth-third-bancorp-2026-06-20T181156.png",
+     "score": 40.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.0,
+      "contract_quality": 58.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 61.9,
+      "access_clarity": 5.3
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 17.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 43.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "verified",
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 86
+    },
+    {
      "name": "Symantec",
      "slug": "symantec",
      "url": "https://providers.apis.io/providers/symantec/",
@@ -4578,7 +4630,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 87
     },
     {
      "name": "Broadridge",
@@ -4630,7 +4682,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 88
     },
     {
      "name": "Tribune Media",
@@ -4682,7 +4734,58 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 89
+    },
+    {
+     "name": "American Financial Group",
+     "slug": "american-financial-group",
+     "url": "https://providers.apis.io/providers/american-financial-group/",
+     "type": "API Provider",
+     "description": "American Financial Group (AFG) is a Cincinnati-based holding company engaged primarily in property and casualty insurance, focusing on specialized commercial products for businesses, and in the sale of fixed and indexed annuities through its Great American Insurance Group and Great American Life subsidiaries. AFG serves businesses across more than 40 specialty markets including agriculture, aviation, cyber, environmental, equine, ocean marine, professional liability, and transportation. Its machine-readable API surface is Great American Carrier Services: eighteen REST APIs published at api-documentation.gaig.com — shop, submission, product, risk selection, rating, forms, issuance, policy, document, billing, ingestion, risk assessment, letters, producer, contract, opportunity, notification and claims — each with an OpenAPI 3.0 document, all secured with OAuth 2.0 client credentials, and available to appointed agents, brokers, MGAs and program administrators through a four-phase onboarding engagement rather than self-service signup.",
+     "score": 40.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 71.4,
+      "contract_quality": 44.6,
+      "contract_governance": 18.2,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 54.2,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 42.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 29.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 90
     },
     {
      "name": "Charles Schwab",
@@ -4734,7 +4837,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 91
     },
     {
      "name": "Dell Technologies",
@@ -4786,59 +4889,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
-    },
-    {
-     "name": "Fifth Third Bancorp",
-     "slug": "fifth-third-bancorp",
-     "url": "https://providers.apis.io/providers/fifth-third-bancorp/",
-     "type": "API Provider",
-     "description": "Fifth Third Bancorp is a diversified super-regional financial services company providing commercial banking, branch banking, consumer lending, and wealth and asset management services across multiple U.S. states. Its embedded-finance arm, Newline by Fifth Third (built on the 2023 Rize Money acquisition), operates a documented, API-first Banking-as-a-Service platform: the Newline Platform API exposes payments (ACH, wire, Real-Time Payments/RTP, book transfers), FDIC-insured deposit and custodial accounts, synthetic accounts, virtual reference numbers, card issuing, customer/KYC onboarding, transactions, returns, and webhook/message-queue notifications so fintechs and enterprises can embed financial products directly with Fifth Third Bank.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/screenshots/fifth-third-bancorp-2026-06-20T181156.png",
-     "score": 40.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 70.0,
-      "contract_quality": 58.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 61.9,
-      "access_clarity": 5.3
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 17.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 43.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "verified",
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 91
+     "rank": 92
     },
     {
      "name": "NetApp",
@@ -4890,7 +4941,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 93
     },
     {
      "name": "Cognizant Technology Solutions",
@@ -4942,7 +4993,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 94
     },
     {
      "name": "State Farm",
@@ -4985,57 +5036,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 94
-    },
-    {
-     "name": "American Financial Group",
-     "slug": "american-financial-group",
-     "url": "https://providers.apis.io/providers/american-financial-group/",
-     "type": "API Provider",
-     "description": "American Financial Group (AFG) is a Cincinnati-based holding company engaged primarily in property and casualty insurance, focusing on specialized commercial products for businesses, and in the sale of fixed and indexed annuities through its Great American Insurance Group and Great American Life subsidiaries. AFG serves businesses across more than 40 specialty markets including agriculture, aviation, cyber, environmental, equine, ocean marine, professional liability, and transportation. Its machine-readable API surface is Great American Carrier Services: eighteen REST APIs published at api-documentation.gaig.com — shop, submission, product, risk selection, rating, forms, issuance, policy, document, billing, ingestion, risk assessment, letters, producer, contract, opportunity, notification and claims — each with an OpenAPI 3.0 document, all secured with OAuth 2.0 client credentials, and available to appointed agents, brokers, MGAs and program administrators through a four-phase onboarding engagement rather than self-service signup.",
-     "score": 39.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 44.6,
-      "contract_governance": 18.2,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 54.2,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 42.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 29.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -6051,6 +6051,58 @@
      "rank": 114
     },
     {
+     "name": "Equinix",
+     "slug": "equinix",
+     "url": "https://providers.apis.io/providers/equinix/",
+     "type": "API Provider",
+     "description": "Equinix is a global digital infrastructure company that provides interconnection and data center services to enterprises, cloud and IT service providers, and telecommunications networks worldwide. Equinix exposes a broad set of public APIs covering interconnection (Fabric), bare metal compute (Metal), Internet access, colocation operations, orders, smart hands, and authentication.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/screenshots/equinix-2026-07-25T213545.png",
+     "score": 37.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 78.6,
+      "contract_quality": 57.9,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 23.8,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 11.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 35.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "verified",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": true,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 115
+    },
+    {
      "name": "Ocean Security",
      "slug": "ocean-security",
      "url": "https://providers.apis.io/providers/ocean-security/",
@@ -6095,58 +6147,6 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 115
-    },
-    {
-     "name": "Equinix",
-     "slug": "equinix",
-     "url": "https://providers.apis.io/providers/equinix/",
-     "type": "API Provider",
-     "description": "Equinix is a global digital infrastructure company that provides interconnection and data center services to enterprises, cloud and IT service providers, and telecommunications networks worldwide. Equinix exposes a broad set of public APIs covering interconnection (Fabric), bare metal compute (Metal), Internet access, colocation operations, orders, smart hands, and authentication.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/screenshots/equinix-2026-07-25T213545.png",
-     "score": 36.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 57.9,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 23.8,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 11.8,
-      "matched_via": "fallback"
-     },
-     "agent_score": 35.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "verified",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": true,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -9449,6 +9449,57 @@
      "rank": 179
     },
     {
+     "name": "Select Medical Holdings",
+     "slug": "select-medical-holdings",
+     "url": "https://providers.apis.io/providers/select-medical-holdings/",
+     "type": "API Provider",
+     "description": "Select Medical Holdings Corporation is one of the largest operators of specialty hospitals and outpatient rehabilitation clinics in the United States, running critical illness recovery hospitals, inpatient rehabilitation hospitals, outpatient rehabilitation clinics and occupational health centers across the country. Select Medical is not a software vendor and publishes no commercial developer program, but as a covered healthcare provider running Epic it operates a live HL7 FHIR R4 patient-access API — registered under \"Select Medical\" in Epic's public endpoint directory — that exposes 59 FHIR resource types behind SMART-on-FHIR OAuth 2.0, together with an Epic MyChart patient portal. This profile documents that regulated interoperability surface rather than a commercial API product.",
+     "score": 30.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 53.1,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 13.7,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 37.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 27.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 180
+    },
+    {
      "name": "UPS",
      "slug": "ups",
      "url": "https://providers.apis.io/providers/ups/",
@@ -9498,7 +9549,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 180
+     "rank": 181
     },
     {
      "name": "Acuity Brands",
@@ -9550,7 +9601,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 181
+     "rank": 182
     },
     {
      "name": "Assurant",
@@ -9602,7 +9653,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 182
+     "rank": 183
     },
     {
      "name": "Toro",
@@ -9653,7 +9704,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 183
+     "rank": 184
     },
     {
      "name": "ABM Industries",
@@ -9705,7 +9756,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 184
+     "rank": 185
     },
     {
      "name": "Baker Hughes",
@@ -9757,7 +9808,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 185
+     "rank": 186
     },
     {
      "name": "HashiCorp Cloud Platform",
@@ -9805,57 +9856,6 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 186
-    },
-    {
-     "name": "Select Medical Holdings",
-     "slug": "select-medical-holdings",
-     "url": "https://providers.apis.io/providers/select-medical-holdings/",
-     "type": "API Provider",
-     "description": "Select Medical Holdings Corporation is one of the largest operators of specialty hospitals and outpatient rehabilitation clinics in the United States, running critical illness recovery hospitals, inpatient rehabilitation hospitals, outpatient rehabilitation clinics and occupational health centers across the country. Select Medical is not a software vendor and publishes no commercial developer program, but as a covered healthcare provider running Epic it operates a live HL7 FHIR R4 patient-access API — registered under \"Select Medical\" in Epic's public endpoint directory — that exposes 59 FHIR resource types behind SMART-on-FHIR OAuth 2.0, together with an Epic MyChart patient portal. This profile documents that regulated interoperability surface rather than a commercial API product.",
-     "score": 30.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 60.7,
-      "contract_quality": 53.1,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 13.7,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 37.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 27.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -15035,6 +15035,58 @@
      "rank": 286
     },
     {
+     "name": "Union Pacific",
+     "slug": "union-pacific",
+     "url": "https://providers.apis.io/providers/union-pacific/",
+     "type": "API Provider",
+     "description": "Union Pacific is one of the largest freight railroad networks in the United States, operating across 23 states in the western two-thirds of the country. The company transports a diverse range of commodities including agricultural products, automotive goods, chemicals, energy resources, and industrial materials. Union Pacific's API platform gives businesses programmatic access to real-time shipment tracking, equipment management, intermodal planning, and supply chain exception handling, enabling seamless integration with logistics and supply chain management systems.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/screenshots/union-pacific-2026-09-02T164906.png",
+     "score": 21.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 71.4,
+      "contract_quality": 27.2,
+      "contract_governance": 27.3,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 10.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 20.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 287
+    },
+    {
      "name": "AES",
      "slug": "aes",
      "url": "https://providers.apis.io/providers/aes/",
@@ -15084,7 +15136,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 287
+     "rank": 288
     },
     {
      "name": "CA Technologies (Broadcom)",
@@ -15136,7 +15188,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 288
+     "rank": 289
     },
     {
      "name": "Sheetz",
@@ -15188,7 +15240,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 289
+     "rank": 290
     },
     {
      "name": "Norfolk Southern",
@@ -15240,7 +15292,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 290
+     "rank": 291
     },
     {
      "name": "BlackRock",
@@ -15291,7 +15343,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 291
+     "rank": 292
     },
     {
      "name": "Liberty Mutual Insurance",
@@ -15343,7 +15395,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 292
+     "rank": 293
     },
     {
      "name": "Southern Company",
@@ -15395,7 +15447,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 293
+     "rank": 294
     },
     {
      "name": "Southwest Airlines",
@@ -15447,7 +15499,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 294
+     "rank": 295
     },
     {
      "name": "American Express",
@@ -15494,58 +15546,6 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 295
-    },
-    {
-     "name": "Union Pacific",
-     "slug": "union-pacific",
-     "url": "https://providers.apis.io/providers/union-pacific/",
-     "type": "API Provider",
-     "description": "Union Pacific is one of the largest freight railroad networks in the United States, operating across 23 states in the western two-thirds of the country. The company transports a diverse range of commodities including agricultural products, automotive goods, chemicals, energy resources, and industrial materials. Union Pacific's API platform gives businesses programmatic access to real-time shipment tracking, equipment management, intermodal planning, and supply chain exception handling, enabling seamless integration with logistics and supply chain management systems.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/screenshots/union-pacific-2026-09-02T164906.png",
-     "score": 20.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 27.2,
-      "contract_governance": 27.3,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 10.8,
-      "matched_via": "fallback"
-     },
-     "agent_score": 20.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,

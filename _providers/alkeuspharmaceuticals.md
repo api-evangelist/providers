@@ -31,6 +31,14 @@ common:
   title: ''
   type: Website
   url: https://equityzen.com/company/alkeuspharmaceuticals
+coverage:
+  checked: '2026-10-05'
+  detail: The company provides no public developer program or API documentation.
+  evidence:
+  - status: 200
+    url: https://alkeuspharma.com
+  reason: no-developer-program
+  state: none
 created: '2026-09-24'
 description: 'Alkeuspharmaceuticals is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.'
 layout: provider

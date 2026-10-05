@@ -36,6 +36,14 @@ common:
   title: ''
   type: Website
   url: https://forgeglobal.com/algorithmia_stock/
+coverage:
+  checked: '2026-10-05'
+  detail: Documentation is public HTML but no machine‑readable OpenAPI/AsyncAPI/GraphQL spec was found.
+  evidence:
+  - status: 200
+    url: https://docs.datarobot.com/en/docs/reference/index.html
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-09-24'
 description: 'Algorithmia is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.'
 layout: provider

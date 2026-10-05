@@ -31,6 +31,15 @@ common:
   title: ''
   type: Website
   url: https://www.nasdaqprivatemarket.com/
+coverage:
+  detail: the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - status: 200
+    url: https://allo.io
+  - status: 200
+    url: https://www.nasdaqprivatemarket.com/
+  reason: no-developer-program
+  state: none
 created: '2026-09-24'
 description: 'ALLO is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.'
 layout: provider

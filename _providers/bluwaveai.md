@@ -95,7 +95,7 @@ score:
   band: emerging
   composite: 11.4
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 0
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -108,8 +108,6 @@ score:
     developer_ergonomics: 11.9
     discoverability: 51.8
     operational_transparency: 0.0
-  provenance:
-    mcp: unknown
   regulatory:
     applies: true
     matched_via: tags

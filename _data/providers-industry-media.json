@@ -16,11 +16,11 @@
      "slug": "beehiiv",
      "description": "beehiiv is a newsletter publishing platform offering email publishing, subscriber management, paid subscriptions, an ad network, referrals, polls, automations, segments, webhooks, and analytics for creators and media companies. Founded in 2021 by former Morning Brew operators and headquartered in New York City.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/screenshots/beehiiv-2026-06-20T173135.png",
-     "score": 73.1,
+     "score": 73.6,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 75.0,
+      "discoverability": 80.0,
       "contract_quality": 65.4,
       "contract_governance": 31.8,
       "operational_transparency": 63.2,
@@ -214,11 +214,11 @@
      "slug": "dolby",
      "description": "Dolby Laboratories is an audio and video technology company whose developer platform, Dolby OptiView, is the merged surface of the original dolby.io platform, THEO Technologies (THEOplayer, THEOlive, THEOads) and Millicast. It ships publicly documented REST APIs for real-time WebRTC streaming, live channel orchestration, video playback, server-guided ad insertion and just-in-time ad conformance, alongside player SDKs for web, mobile, smart TV, Roku, React Native and Flutter. Dolby is also responsible for Dolby Atmos, Dolby Vision and Dolby Digital.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/screenshots/dolby-2026-06-20T180133.png",
-     "score": 66.5,
+     "score": 67.0,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 64.3,
+      "discoverability": 69.6,
       "contract_quality": 57.8,
       "contract_governance": 4.5,
       "operational_transparency": 81.6,
@@ -682,6 +682,56 @@
      "rank": 13
     },
     {
+     "name": "Bynder",
+     "slug": "bynder",
+     "description": "Bynder is a cloud-based digital asset management (DAM) platform used to store, organize, distribute and analyze brand and marketing assets. Its REST API is not one service but a federation of them behind each customer's own portal domain: the /api/v4 asset bank (assets, collections, metaproperties, brands, tags, smart filters, users and security profiles), an /api/1 taxonomy and content-access layer, /v6 OAuth 2.0 authorization, /v7 upload, webhooks and antivirus services, /api/workflow campaigns and jobs, and /api/store Brandstore ordering. Bynder publishes 34 OpenAPI 3.1 definitions covering 156 operations through its own API registry, a dated changelog, a documentation llms.txt, first-party SDKs for JavaScript, Python, PHP, Java and C#, and an embeddable asset-picker component. Authentication is OAuth 2.0 with JWT bearer tokens, layered on top of named security roles that gate operations independently of scope.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/screenshots/bynder-2026-06-20T173826.png",
+     "score": 61.0,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 78.6,
+      "contract_quality": 59.8,
+      "contract_governance": 18.2,
+      "operational_transparency": 73.7,
+      "developer_ergonomics": 66.1,
+      "access_clarity": 47.4
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 45.1,
+      "matched_via": "fallback"
+     },
+     "agent_score": 37.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 14
+    },
+    {
      "name": "Criteo",
      "slug": "criteo",
      "description": "Criteo is a global commerce media company whose Retail Media, Marketing Solutions and Commerce Grid platforms let retailers, brands, agencies and partners create, launch and measure onsite and offsite commerce advertising. Criteo publishes three live OpenAPI 3.0.1 documents at api.criteo.com covering 219 operations: campaign and line-item management, keyword and promoted-product targeting, audience segments and contact lists, retailer catalogs, account and brand hierarchies, balances and billing, creative and product-boost management, and demand-side and supply-side analytics. Authentication is OAuth 2.0 with client-credentials and authorization-code grants and 22 scopes of the form <Service>_<Domain>_<Level>. Criteo ships officially supported Python, PHP and Java SDKs, a public Postman workspace, an llms.txt docs index, an A2A agent card, a published Agent Skill, and two remote MCP servers — an anonymous documentation server and an OAuth-protected API server at mcp.criteo.com.",
@@ -729,7 +779,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Vyond",
@@ -790,56 +840,6 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 15
-    },
-    {
-     "name": "Bynder",
-     "slug": "bynder",
-     "description": "Bynder is a cloud-based digital asset management (DAM) platform used to store, organize, distribute and analyze brand and marketing assets. Its REST API is not one service but a federation of them behind each customer's own portal domain: the /api/v4 asset bank (assets, collections, metaproperties, brands, tags, smart filters, users and security profiles), an /api/1 taxonomy and content-access layer, /v6 OAuth 2.0 authorization, /v7 upload, webhooks and antivirus services, /api/workflow campaigns and jobs, and /api/store Brandstore ordering. Bynder publishes 34 OpenAPI 3.1 definitions covering 156 operations through its own API registry, a dated changelog, a documentation llms.txt, first-party SDKs for JavaScript, Python, PHP, Java and C#, and an embeddable asset-picker component. Authentication is OAuth 2.0 with JWT bearer tokens, layered on top of named security roles that gate operations independently of scope.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/screenshots/bynder-2026-06-20T173826.png",
-     "score": 60.5,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 59.8,
-      "contract_governance": 18.2,
-      "operational_transparency": 73.7,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 47.4
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 45.1,
-      "matched_via": "fallback"
-     },
-     "agent_score": 37.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -997,6 +997,106 @@
      "rank": 19
     },
     {
+     "name": "Giphy",
+     "slug": "giphy",
+     "description": "GIPHY is the world's largest library of GIFs, stickers, animated emoji, and Clips (GIFs with sound), with a developer API used by messaging apps, social platforms, productivity tools, ads, and creator products. GIPHY is owned by Meta. Authentication is via API key (Beta or Production tier) and all surfaces share the same envelope (data + meta + pagination) with rich, multi-rendition media payloads.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/screenshots/giphy-2026-06-20T181827.png",
+     "score": 59.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 65.7,
+      "contract_governance": 27.3,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 82.1,
+      "access_clarity": 71.8
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 31.4,
+      "matched_via": "fallback"
+     },
+     "agent_score": 21.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 20
+    },
+    {
+     "name": "Youtube",
+     "slug": "youtube",
+     "description": "YouTube APIs provide programmatic access to YouTube data including videos, playlists, channels, user interactions, live streaming, analytics, captions, and embedded player controls.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/screenshots/youtube-2026-06-20T201752.png",
+     "score": 59.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 53.6,
+      "contract_quality": 66.9,
+      "contract_governance": 31.8,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 65.5,
+      "access_clarity": 57.9
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 45.1,
+      "matched_via": "fallback"
+     },
+     "agent_score": 38.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 21
+    },
+    {
      "name": "Adanos Market Sentiment API",
      "slug": "adanos-market-sentiment-api",
      "description": "Key-authenticated REST/JSON API for financial market sentiment analytics across Reddit, X.com, news, and Polymarket, plus stock news and crypto sentiment. Provides Buzz Score, Trend Detection, and directional Sentiment signals for traders, fintech, quant/research teams, and AI agents.",
@@ -1044,7 +1144,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 22
     },
     {
      "name": "Mediastack",
@@ -1094,7 +1194,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 23
     },
     {
      "name": "Feedly",
@@ -1142,106 +1242,6 @@
       "delegated_identity": "served",
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 22
-    },
-    {
-     "name": "Giphy",
-     "slug": "giphy",
-     "description": "GIPHY is the world's largest library of GIFs, stickers, animated emoji, and Clips (GIFs with sound), with a developer API used by messaging apps, social platforms, productivity tools, ads, and creator products. GIPHY is owned by Meta. Authentication is via API key (Beta or Production tier) and all surfaces share the same envelope (data + meta + pagination) with rich, multi-rendition media payloads.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/screenshots/giphy-2026-06-20T181827.png",
-     "score": 59.3,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 67.9,
-      "contract_quality": 65.7,
-      "contract_governance": 27.3,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 82.1,
-      "access_clarity": 71.8
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 31.4,
-      "matched_via": "fallback"
-     },
-     "agent_score": 21.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 23
-    },
-    {
-     "name": "Youtube",
-     "slug": "youtube",
-     "description": "YouTube APIs provide programmatic access to YouTube data including videos, playlists, channels, user interactions, live streaming, analytics, captions, and embedded player controls.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/screenshots/youtube-2026-06-20T201752.png",
-     "score": 59.2,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 66.9,
-      "contract_governance": 31.8,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 65.5,
-      "access_clarity": 57.9
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 45.1,
-      "matched_via": "fallback"
-     },
-     "agent_score": 38.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "rank": 24
@@ -1608,6 +1608,56 @@
      "rank": 31
     },
     {
+     "name": "Fabric Origin",
+     "slug": "fabric-origin",
+     "description": "Fabric Origin is the entertainment metadata and market-intelligence arm of Fabric, the media software company formed from Xytech and IVA. Origin spans three products: Nexus, a family of 14 REST APIs serving movie, television, game and celebrity metadata plus images, trailers, TV listings, showtimes and licensed third-party ratings from Metacritic, Rotten Tomatoes, Common Sense Media and Katch; Studio, a JSON:API 1.1 metadata management platform with an SNS event surface; and Insights, streaming market intelligence across 1,000+ platforms and 249 countries. Fabric publishes machine-readable OpenAPI 3.1.1 for the whole Nexus surface, an llms.txt index at the company root, and two OAuth-governed hosted MCP servers — Origin Studio and Origin Insights — making it one of the more deliberately agent-ready entertainment-data providers in the catalog.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/screenshots/fabric-origin-2026-06-20T181001.png",
+     "score": 57.3,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 49.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 71.1,
+      "developer_ergonomics": 66.1,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 35.3,
+      "matched_via": "fallback"
+     },
+     "agent_score": 52.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 32
+    },
+    {
      "name": "Elsevier",
      "slug": "elsevier",
      "description": "Elsevier is a Dutch academic publishing company specializing in scientific, technical, and medical content. Its products include journals such as The Lancet and Cell, the ScienceDirect collection of electronic journals, the online citation database Scopus, the SciVal research performance platform, and the ClinicalKey search engine for clinicians. Its Research Products APIs expose Scopus, ScienceDirect, SciVal, Embase, Engineering Village and COUNTER usage reporting over a single host, api.elsevier.com, under an API key plus institutional entitlement model.",
@@ -1652,56 +1702,6 @@
       "dry_run_mode": false,
       "delegated_identity": "served",
       "protected_resource_metadata": false,
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 32
-    },
-    {
-     "name": "Fabric Origin",
-     "slug": "fabric-origin",
-     "description": "Fabric Origin is the entertainment metadata and market-intelligence arm of Fabric, the media software company formed from Xytech and IVA. Origin spans three products: Nexus, a family of 14 REST APIs serving movie, television, game and celebrity metadata plus images, trailers, TV listings, showtimes and licensed third-party ratings from Metacritic, Rotten Tomatoes, Common Sense Media and Katch; Studio, a JSON:API 1.1 metadata management platform with an SNS event surface; and Insights, streaming market intelligence across 1,000+ platforms and 249 countries. Fabric publishes machine-readable OpenAPI 3.1.1 for the whole Nexus surface, an llms.txt index at the company root, and two OAuth-governed hosted MCP servers — Origin Studio and Origin Insights — making it one of the more deliberately agent-ready entertainment-data providers in the catalog.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/screenshots/fabric-origin-2026-06-20T181001.png",
-     "score": 56.8,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.0,
-      "contract_quality": 49.7,
-      "contract_governance": 18.2,
-      "operational_transparency": 71.1,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 35.3,
-      "matched_via": "fallback"
-     },
-     "agent_score": 52.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
@@ -2477,7 +2477,7 @@
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 70.0,
+      "discoverability": 75.0,
       "contract_quality": 23.9,
       "contract_governance": 18.2,
       "operational_transparency": 52.6,
@@ -2673,11 +2673,11 @@
      "slug": "sponsorunited",
      "description": "SponsorUnited is a sports and entertainment sponsorship intelligence platform, founded in 2018 and headquartered in Stamford, Connecticut. Its B2B SaaS product gives brands, rights holders (teams, leagues, venues and events), agencies and media companies a searchable dataset of marketing partnerships — the company reports 403,000+ brands, 2.2M+ tracked deals and 21.1M+ data points across sports, entertainment, media and talent — used to discover, evaluate, price, negotiate and activate sponsorships. The platform (SponsorUnited 4.0) layers AI features on that dataset, including the Surface AI analyst, a Proposal Evaluator, and SPND (Sponsorship Price of Negotiated Deals), a pricing-transparency product built on verified deal data. SponsorUnited runs a production REST API at api.sponsorunited.com whose OpenAPI 3.0 description is publicly served, but it publishes no developer portal, API reference or partner program around it; access is sold as a paid subscription with custom pricing and no self-serve sign-up.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sponsorunited/refs/heads/main/screenshots/sponsorunited-2026-09-02T160541.png",
-     "score": 52.5,
+     "score": 53.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.9,
+      "discoverability": 73.2,
       "contract_quality": 54.3,
       "contract_governance": 18.2,
       "operational_transparency": 44.7,
@@ -3087,6 +3087,56 @@
      "rank": 60
     },
     {
+     "name": "Benzinga",
+     "slug": "benzinga",
+     "description": "Benzinga is a Detroit-based financial media and market data company (founded 2010, acquired by Beringer Capital in 2021) that licenses its newsroom and data products through a developer-first API platform at docs.benzinga.com. Products span real-time financial news (Newsfeed, Press Releases, Why Is It Moving), quantified news sentiment, a deep corporate-events Calendar (earnings, dividends, ratings, IPOs, splits, economics, FDA, M&A, government and insider trades), delayed quotes, historical OHLCV bars, fundamentals, logos, ticker trends, and earnings-call transcripts. Delivery is REST over https://api.benzinga.com with API-key auth, plus WebSocket streams, a TCP streaming service (tcp-v1.benzinga.io:11337), and a data webhook engine. OpenAPI and AsyncAPI specs are published in the public Benzinga/benzinga-docs GitHub repo. Access is licensing-led with a developer console registration flow; no public pricing page.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/benzinga/refs/heads/main/screenshots/benzinga-2026-07-22T202216.png",
+     "score": 50.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 54.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 66.1,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 28.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 25.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 61
+    },
+    {
      "name": "Linktree",
      "slug": "linktree",
      "description": "Linktree is the link-in-bio platform used by 70M+ creators, brands, and businesses to share everything they create, curate, and sell from a single URL. Operated by Linktree Pty Ltd from Collingwood, Victoria, Australia, the product builds a mobile-friendly landing page that aggregates social profiles, content, products, and services behind one link, with paid Starter, Pro, and Premium plans adding customization, analytics, commerce, scheduling, and AI features. Linktree publishes no general-purpose public REST API — its developer program is an expression-of-interest waitlist for forthcoming APIs and SDKs. It does, however, run a live, fully documented OAuth 2.0-protected Model Context Protocol server at mcp.linktr.ee exposing 30 tools for managing profiles, links, collections, appearance, social icons, workspaces, and analytics, discoverable from an RFC 9727 api-catalog on the apex domain. Alongside it Linktree operates Arbor, a public unauthenticated component registry at arbor.linktr.ee serving a versioned JSON manifest of 51 React components plus a health endpoint and an llms.txt, and it ships first-party developer tooling on npm under the @linktr.ee scope — the LinkApps scaffold/build/deploy CLIs and a stdio Arbor MCP server.",
@@ -3134,7 +3184,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 62
     },
     {
      "name": "Gloria",
@@ -3183,23 +3233,23 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 63
     },
     {
-     "name": "Benzinga",
-     "slug": "benzinga",
-     "description": "Benzinga is a Detroit-based financial media and market data company (founded 2010, acquired by Beringer Capital in 2021) that licenses its newsroom and data products through a developer-first API platform at docs.benzinga.com. Products span real-time financial news (Newsfeed, Press Releases, Why Is It Moving), quantified news sentiment, a deep corporate-events Calendar (earnings, dividends, ratings, IPOs, splits, economics, FDA, M&A, government and insider trades), delayed quotes, historical OHLCV bars, fundamentals, logos, ticker trends, and earnings-call transcripts. Delivery is REST over https://api.benzinga.com with API-key auth, plus WebSocket streams, a TCP streaming service (tcp-v1.benzinga.io:11337), and a data webhook engine. OpenAPI and AsyncAPI specs are published in the public Benzinga/benzinga-docs GitHub repo. Access is licensing-led with a developer console registration flow; no public pricing page.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/benzinga/refs/heads/main/screenshots/benzinga-2026-07-22T202216.png",
+     "name": "CryptoCompare",
+     "slug": "cryptocompare",
+     "description": "CryptoCompare (now CoinDesk Data / CCData, acquired by CoinDesk in late 2024) is a long-standing crypto market data aggregator covering 300+ exchanges, 10,000+ assets, and 300,000+ trading pairs. The platform exposes two REST API surfaces — the legacy min-api.cryptocompare.com (Price, Historical OHLCV, Top Lists, News, Social, Order Book, Exchanges, Blockchain) and the modern data-api.cryptocompare.com / CoinDesk Data API (Spot, Index / Reference Rates including CADLI and CCIX, Asset, News, On-Chain, Futures, Options, Overview) — plus a unified WebSocket streamer at wss://streamer.cryptocompare.com/v2 that multiplexes Trade, Ticker, CCCAGG aggregate index, Order Book L2 updates and snapshots, Full Volume, Top Tier Full Volume, OHLC Candles, and Top of Book channels. Authentication uses an API key supplied as the api_key query parameter or as an `Authorization: Apikey {key}` header. Access is metered by monthly call credits with per-second / per-minute / per-hour / per-day ceilings; the Free tier issues 100,000 monthly credits and commercial Starter / Professional / Enterprise tiers escalate credit budgets, history depth, and surface coverage (news, social, on-chain, derivatives, full streamer, on-demand bulk exports, reference-rate licensing).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/screenshots/cryptocompare-2026-06-20T175310.png",
      "score": 49.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 54.0,
-      "contract_governance": 4.5,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 34.2
+      "discoverability": 75.0,
+      "contract_quality": 69.1,
+      "contract_governance": 31.8,
+      "operational_transparency": 46.8,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 49.5
      },
      "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
@@ -3207,33 +3257,33 @@
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
-      "score": 28.7,
+      "score": 21.3,
       "matched_via": "tags"
      },
-     "agent_score": 25.7,
-     "agent_band": "agent-aware",
+     "agent_score": 57.7,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": "na",
+      "error_semantics": "derived",
       "openapi_examples": "partial",
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": "derived",
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
+      "dry_run_mode": "na",
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "Alpha Vantage",
@@ -3283,7 +3333,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "Pictomancer.ai",
@@ -3332,118 +3382,18 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
-    },
-    {
-     "name": "CryptoCompare",
-     "slug": "cryptocompare",
-     "description": "CryptoCompare (now CoinDesk Data / CCData, acquired by CoinDesk in late 2024) is a long-standing crypto market data aggregator covering 300+ exchanges, 10,000+ assets, and 300,000+ trading pairs. The platform exposes two REST API surfaces — the legacy min-api.cryptocompare.com (Price, Historical OHLCV, Top Lists, News, Social, Order Book, Exchanges, Blockchain) and the modern data-api.cryptocompare.com / CoinDesk Data API (Spot, Index / Reference Rates including CADLI and CCIX, Asset, News, On-Chain, Futures, Options, Overview) — plus a unified WebSocket streamer at wss://streamer.cryptocompare.com/v2 that multiplexes Trade, Ticker, CCCAGG aggregate index, Order Book L2 updates and snapshots, Full Volume, Top Tier Full Volume, OHLC Candles, and Top of Book channels. Authentication uses an API key supplied as the api_key query parameter or as an `Authorization: Apikey {key}` header. Access is metered by monthly call credits with per-second / per-minute / per-hour / per-day ceilings; the Free tier issues 100,000 monthly credits and commercial Starter / Professional / Enterprise tiers escalate credit budgets, history depth, and surface coverage (news, social, on-chain, derivatives, full streamer, on-demand bulk exports, reference-rate licensing).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/screenshots/cryptocompare-2026-06-20T175310.png",
-     "score": 49.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 70.0,
-      "contract_quality": 69.1,
-      "contract_governance": 31.8,
-      "operational_transparency": 46.8,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 49.5
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 21.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 57.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": "na",
-      "error_semantics": "derived",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
      "rank": 66
-    },
-    {
-     "name": "Listen Notes",
-     "slug": "listennotes",
-     "description": "Listen Notes runs the largest podcast search engine and database, and exposes it as the Listen API - a simple, no-nonsense podcast search, directory, and insights REST API. It lets developers full-text search millions of podcasts and episodes by people, places, and topics; fetch podcast and episode metadata; browse best-podcasts charts, curated lists, and genres; retrieve podcast/episode recommendations; power typeahead autocomplete; and pull audience demographics and publisher-domain insights. The API is served at https://listen-api.listennotes.com/api/v2 and authenticated with an X-ListenAPI-Key header, with FREE, PRO, and ENTERPRISE plans billed on a request basis.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/screenshots/listennotes-2026-07-25T225323.png",
-     "score": 48.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 49.0,
-      "contract_governance": 22.0,
-      "operational_transparency": 31.1,
-      "developer_ergonomics": 45.8,
-      "access_clarity": 67.9
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 24.5,
-      "matched_via": "fallback"
-     },
-     "agent_score": 23.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 67
     },
     {
      "name": "Akkio",
      "slug": "akkio",
      "description": "Akkio is a no-code predictive AI and AI-workflow-automation platform built for media agencies and data providers. Teams use it to activate data across the campaign lifecycle: audience segmentation, propensity modeling, RFM analysis, media-mix modeling, performance measurement, and campaign-strategy development, all from unified intelligence. Beyond the app, Akkio ships a developer REST API on https://api.akkio.com in two generations: the legacy /v1 datasets and models routes (api_key in query or body), and the current \"Akkio Public API (Beta)\" at /api/v1, which covers projects, asynchronous model training and Chat Explore natural-language querying behind an X-API-Key header. Akkio publishes its own OpenAPI 3.1.0 document at /api/v1/api.yaml with a Swagger UI at /api/v1/docs and documents generating clients from it; the two first-party SDKs (PyPI and npm `akkio`) cover only the legacy surface and have not been released since 2021. The company is SOC 2 Type 2 and HIPAA compliant (verified via Drata).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/akkio/refs/heads/main/screenshots/akkio-2026-07-25T195516.png",
-     "score": 48.6,
+     "score": 49.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 73.2,
+      "discoverability": 78.6,
       "contract_quality": 40.5,
       "contract_governance": 18.2,
       "operational_transparency": 34.2,
@@ -3485,6 +3435,56 @@
       "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 67
+    },
+    {
+     "name": "Listen Notes",
+     "slug": "listennotes",
+     "description": "Listen Notes runs the largest podcast search engine and database, and exposes it as the Listen API - a simple, no-nonsense podcast search, directory, and insights REST API. It lets developers full-text search millions of podcasts and episodes by people, places, and topics; fetch podcast and episode metadata; browse best-podcasts charts, curated lists, and genres; retrieve podcast/episode recommendations; power typeahead autocomplete; and pull audience demographics and publisher-domain insights. The API is served at https://listen-api.listennotes.com/api/v2 and authenticated with an X-ListenAPI-Key header, with FREE, PRO, and ENTERPRISE plans billed on a request basis.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/screenshots/listennotes-2026-07-25T225323.png",
+     "score": 48.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 49.0,
+      "contract_governance": 22.0,
+      "operational_transparency": 31.1,
+      "developer_ergonomics": 45.8,
+      "access_clarity": 67.9
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 24.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 23.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
@@ -4203,6 +4203,56 @@
      "rank": 82
     },
     {
+     "name": "Refinitiv",
+     "slug": "refinitiv",
+     "description": "Refinitiv, an LSEG (London Stock Exchange Group) business, provides financial market data, infrastructure, and analytics to businesses and financial professionals worldwide.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/screenshots/refinitiv-2026-06-20T192746.png",
+     "score": 46.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 62.5,
+      "contract_quality": 64.7,
+      "contract_governance": 27.3,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 47.6,
+      "access_clarity": 40.8
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 25.0,
+      "matched_via": "weak_tags"
+     },
+     "agent_score": 20.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 83
+    },
+    {
      "name": "Lightstream",
      "slug": "lightstream",
      "description": "Lightstream (Infiniscene, Inc.) is a Techstars-backed live video company best known for Lightstream Studio, a browser-based streaming studio used by creators to broadcast to Twitch, YouTube and other destinations without installing desktop encoding software. Lightstream also operates API.stream, its developer platform, which exposes the same cloud video pipeline to development partners as three API-first services: a Live API for managing collections, projects, sources, destinations and broadcasts; a Layout API for building and animating layered scene compositions; and an Event API for publishing and subscribing to real-time events across collaborators, guests and renderers. All three services are defined as gRPC Protobuf contracts and fronted by gRPC-Web and REST gateways, secured with a JWT access-token model and role-based permissions (HOST, COHOST, CONTRIBUTOR, GUEST, VIEWER), with first-party JavaScript/TypeScript SDKs and a Studio Kit for embedding a full studio experience.",
@@ -4250,7 +4300,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 84
     },
     {
      "name": "Reactor",
@@ -4300,7 +4350,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 85
     },
     {
      "name": "Higgsfield",
@@ -4350,7 +4400,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 86
     },
     {
      "name": "Brandtrack",
@@ -4400,7 +4450,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 87
     },
     {
      "name": "Mirage",
@@ -4450,7 +4500,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 88
     },
     {
      "name": "Newscatcher",
@@ -4490,56 +4540,6 @@
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 88
-    },
-    {
-     "name": "Refinitiv",
-     "slug": "refinitiv",
-     "description": "Refinitiv, an LSEG (London Stock Exchange Group) business, provides financial market data, infrastructure, and analytics to businesses and financial professionals worldwide.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/screenshots/refinitiv-2026-06-20T192746.png",
-     "score": 45.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 57.1,
-      "contract_quality": 64.7,
-      "contract_governance": 27.3,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 47.6,
-      "access_clarity": 40.8
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 25.0,
-      "matched_via": "weak_tags"
-     },
-     "agent_score": 20.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4967,6 +4967,56 @@
      "rank": 97
     },
     {
+     "name": "TVU Networks",
+     "slug": "tvu-networks",
+     "description": "TVU Networks is a live video transmission and cloud production company founded in 2005 and headquartered in Mountain View, California. Its IP-based ecosystem covers acquisition (TVU One and TVU Anywhere bonded-cellular transmitters), cloud routing and distribution (TVU MediaHub), cloud production (TVU Producer, TVU Partyline, TVU Remote Commentator), FAST and linear playout (TVU Channel), and AI-assisted media management and search (TVU MediaMind, TVU Search). TVU publishes a public HTTP API across those products — 352 operations spanning MediaHub routing, Search and metadata, Producer control, Grid device transmission, Partyline, Channel playout, SCTE-35 ad insertion and a MOS newsroom gateway — documented on its own Apifox-hosted API documentation site, with Bearer AppSecret, SID session and AccessKey-signature authentication.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/screenshots/tvu-networks-2026-09-02T164606.png",
+     "score": 44.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 78.6,
+      "contract_quality": 56.4,
+      "contract_governance": 4.5,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 44.6,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 24.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 34.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "derived",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 98
+    },
+    {
      "name": "Chartbeat",
      "slug": "chartbeat",
      "description": "Chartbeat is a real-time content analytics and audience-engagement platform built for digital publishers, media brands, and editorial teams. It measures how audiences read, watch, and engage with content the moment it is published, reporting live traffic, engaged time, loyalty, video engagement, and headline performance. Beyond its dashboards, Chartbeat exposes public HTTP APIs: a Real-Time API for live traffic and video data updated every three seconds, a Historical (Advanced Queries) API for summary traffic reporting, and Headline Testing, Conversion, and Data Lab APIs, plus JavaScript, iOS, Android, and React Native tracking SDKs for data collection. Authentication is via an account API key sent in the X-CB-AK header.",
@@ -5025,7 +5075,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 99
     },
     {
      "name": "Clear Channel Outdoor",
@@ -5075,7 +5125,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 100
     },
     {
      "name": "Taddy API",
@@ -5125,7 +5175,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 101
     },
     {
      "name": "CryptoNews API",
@@ -5170,56 +5220,6 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 101
-    },
-    {
-     "name": "TVU Networks",
-     "slug": "tvu-networks",
-     "description": "TVU Networks is a live video transmission and cloud production company founded in 2005 and headquartered in Mountain View, California. Its IP-based ecosystem covers acquisition (TVU One and TVU Anywhere bonded-cellular transmitters), cloud routing and distribution (TVU MediaHub), cloud production (TVU Producer, TVU Partyline, TVU Remote Commentator), FAST and linear playout (TVU Channel), and AI-assisted media management and search (TVU MediaMind, TVU Search). TVU publishes a public HTTP API across those products — 352 operations spanning MediaHub routing, Search and metadata, Producer control, Grid device transmission, Partyline, Channel playout, SCTE-35 ad insertion and a MOS newsroom gateway — documented on its own Apifox-hosted API documentation site, with Bearer AppSecret, SID session and AccessKey-signature authentication.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/screenshots/tvu-networks-2026-09-02T164606.png",
-     "score": 44.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 56.4,
-      "contract_governance": 4.5,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 44.6,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 24.5,
-      "matched_via": "fallback"
-     },
-     "agent_score": 34.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "derived",
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -5678,6 +5678,56 @@
      "rank": 111
     },
     {
+     "name": "The New York Times Company",
+     "slug": "new-york-times-company",
+     "description": "The New York Times Company (NYSE: NYT) is the publisher of The New York Times and operator of a portfolio of news, product-review, sports, cooking, and games products including The Athletic, Wirecutter, Wordle, NYT Cooking, and NYT Games. The company also runs a public developer program at developer.nytimes.com that exposes a family of read-only REST APIs over its newsroom content: article search, top stories, most popular, archive going back to 1851, best-seller and book-review lists, movie reviews, the Times Newswire firehose, the controlled vocabulary that powers Times Topics (TimesTags), the Semantic API, and a Geographic API that pairs Times geo-tagged content with the GeoNames database. All APIs share api.nytimes.com as the host, use a query-string api-key for authentication, and respond as JSON.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/screenshots/new-york-times-company-2026-06-20T190234.png",
+     "score": 42.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 85.7,
+      "contract_quality": 58.7,
+      "contract_governance": 27.3,
+      "operational_transparency": 33.7,
+      "developer_ergonomics": 14.3,
+      "access_clarity": 40.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 22.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 25.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 112
+    },
+    {
      "name": "Cloudflare Stream",
      "slug": "cloudflare-stream",
      "description": "Cloudflare Stream is the video streaming, hosting, and live-video product from Cloudflare - a single REST API for uploading, storing, encoding, and delivering on-demand and live video across Cloudflare's global network. It handles direct and TUS resumable uploads, copy-from-URL ingest, live inputs over RTMPS and SRT (with simulcast outputs and WebRTC/WHIP/WHEP beta), a built-in adaptive-bitrate player and HLS/DASH manifests, AI-generated and uploaded captions, signed-URL access control, per-account webhooks, and viewing analytics. This entry documents the Cloudflare Stream product specifically, not the broader Cloudflare platform. The API is served under https://api.cloudflare.com/client/v4/accounts/{account_id}/stream and authenticates with a Bearer API token. Billed at $5 per 1,000 minutes of video stored and $1 per 1,000 minutes delivered.",
@@ -5720,56 +5770,6 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 112
-    },
-    {
-     "name": "The New York Times Company",
-     "slug": "new-york-times-company",
-     "description": "The New York Times Company (NYSE: NYT) is the publisher of The New York Times and operator of a portfolio of news, product-review, sports, cooking, and games products including The Athletic, Wirecutter, Wordle, NYT Cooking, and NYT Games. The company also runs a public developer program at developer.nytimes.com that exposes a family of read-only REST APIs over its newsroom content: article search, top stories, most popular, archive going back to 1851, best-seller and book-review lists, movie reviews, the Times Newswire firehose, the controlled vocabulary that powers Times Topics (TimesTags), the Semantic API, and a Geographic API that pairs Times geo-tagged content with the GeoNames database. All APIs share api.nytimes.com as the host, use a query-string api-key for authentication, and respond as JSON.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/screenshots/new-york-times-company-2026-06-20T190234.png",
-     "score": 42.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 80.4,
-      "contract_quality": 58.7,
-      "contract_governance": 27.3,
-      "operational_transparency": 33.7,
-      "developer_ergonomics": 14.3,
-      "access_clarity": 40.0
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 22.5,
-      "matched_via": "fallback"
-     },
-     "agent_score": 25.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -5977,6 +5977,56 @@
      "rank": 117
     },
     {
+     "name": "FreeWheel Media",
+     "slug": "freewheel-media",
+     "description": "FreeWheel, a Comcast company, is an advertising technology platform for the streaming and premium video television marketplace. It gives advertisers, agencies, and media buyers direct connections to premium streaming TV inventory while helping publishers and programmers monetize their video content across linear and digital channels. Its product suites include the Advertiser Suite (media buying, planning, and campaign management via Strata), the Publisher Suite (ad decisioning, forecasting, and yield optimization for sellers), and a Marketplace connecting supply and demand. FreeWheel's platform emphasizes AI-driven optimization, real-time insights, identity, and cross-screen measurement for the converged TV ecosystem. Programmatic and operational access is delivered to partners through gated Publisher (MRM) and Marketer (SFX/Strata) platforms rather than a public self-service developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/screenshots/freewheel-media-2026-07-25T215145.png",
+     "score": 41.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 78.6,
+      "contract_quality": 48.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 44.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 24.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 31.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 118
+    },
+    {
      "name": "WorldCat",
      "slug": "worldcat",
      "description": "OCLC WorldCat REST API for searching 500 million+ library holdings worldwide, accessing bibliographic records, finding library locations, and retrieving rich metadata for books, videos, music, and other media. Provides access to the WorldCat Search API, WorldCat Metadata API, WorldCat Knowledge Base API, and WorldCat Entities data API for libraries and developers building discovery and cataloging applications.",
@@ -6024,7 +6074,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 119
     },
     {
      "name": "iSpot.tv",
@@ -6066,56 +6116,6 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 119
-    },
-    {
-     "name": "FreeWheel Media",
-     "slug": "freewheel-media",
-     "description": "FreeWheel, a Comcast company, is an advertising technology platform for the streaming and premium video television marketplace. It gives advertisers, agencies, and media buyers direct connections to premium streaming TV inventory while helping publishers and programmers monetize their video content across linear and digital channels. Its product suites include the Advertiser Suite (media buying, planning, and campaign management via Strata), the Publisher Suite (ad decisioning, forecasting, and yield optimization for sellers), and a Marketplace connecting supply and demand. FreeWheel's platform emphasizes AI-driven optimization, real-time insights, identity, and cross-screen measurement for the converged TV ecosystem. Programmatic and operational access is delivered to partners through gated Publisher (MRM) and Marketer (SFX/Strata) platforms rather than a public self-service developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/screenshots/freewheel-media-2026-07-25T215145.png",
-     "score": 41.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 48.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 44.6,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 24.5,
-      "matched_via": "fallback"
-     },
-     "agent_score": 31.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
@@ -7441,6 +7441,56 @@
    "shown": 106,
    "providers": [
     {
+     "name": "MadHive",
+     "slug": "madhive",
+     "description": "Madhive is a New York-based advertising technology company that operates a demand-side platform (DSP) and end-to-end software stack built for local and connected TV (CTV/OTT) advertising. Broadcasters, local media sellers, agencies and political advertisers use Madhive to plan campaigns, activate premium streaming and broadcast inventory, build cookieless audiences from first-party and offline data, manage creatives, and measure outcomes from a single unified DSP. Madhive publishes a public developer program at developer.madhive.com — an Apigee-fronted REST API covering campaigns, line items, advertisers, agencies, creatives, audiences, segments, retargeting, publishers, publisher groups, tracking pixels, products, metros and optimization templates — alongside a hosted Model Context Protocol (MCP) server that exposes the same campaign-management surface to AI assistants such as Claude and Gemini over JSON-RPC 2.0 with OAuth 2.0.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/screenshots/madhive-2026-08-07T171916.png",
+     "score": 39.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.3,
+      "contract_quality": 53.8,
+      "contract_governance": 4.5,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 16.1,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 39.2,
+      "matched_via": "fallback"
+     },
+     "agent_score": 44.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 147
+    },
+    {
      "name": "WideOrbit",
      "slug": "wideorbit",
      "description": "WideOrbit is a premium ad management platform for the media industry, giving broadcast television, cable and broadcast networks, radio, and digital publishers a single system to sell, traffic, bill, and reconcile advertising across linear, digital, and cross-media campaigns. Its products span WO Traffic, WO Network, WO Omni, WO Media Sales, WO Programmatic, and the WO Aurora radio automation suite, all reached through the WO Central workspace. For integration partners, WideOrbit.io exposes a certified developer program and an OIDC-secured API gateway that offers real-time, object-level access to Traffic, Network, and Omni data, complemented by the WO Data Bridge cloud data warehouse. WideOrbit manages roughly $33 billion in annual ad revenue for 6,450+ stations and networks. It was surfaced as a portfolio company of Mayfield and enriched in the API Evangelist network.",
@@ -7488,7 +7538,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 147
+     "rank": 148
     },
     {
      "name": "ProRata.ai",
@@ -7538,23 +7588,23 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
+     "rank": 149
     },
     {
-     "name": "MadHive",
-     "slug": "madhive",
-     "description": "Madhive is a New York-based advertising technology company that operates a demand-side platform (DSP) and end-to-end software stack built for local and connected TV (CTV/OTT) advertising. Broadcasters, local media sellers, agencies and political advertisers use Madhive to plan campaigns, activate premium streaming and broadcast inventory, build cookieless audiences from first-party and offline data, manage creatives, and measure outcomes from a single unified DSP. Madhive publishes a public developer program at developer.madhive.com — an Apigee-fronted REST API covering campaigns, line items, advertisers, agencies, creatives, audiences, segments, retargeting, publishers, publisher groups, tracking pixels, products, metros and optimization templates — alongside a hosted Model Context Protocol (MCP) server that exposes the same campaign-management surface to AI assistants such as Claude and Gemini over JSON-RPC 2.0 with OAuth 2.0.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/screenshots/madhive-2026-08-07T171916.png",
+     "name": "Kitchen Stories",
+     "slug": "kitchenstories",
+     "description": "Kitchen Stories is a Berlin-based, video-first cooking and recipe platform founded in 2013 by Verena Hubertz and Mengting Boensch, and majority-owned by the BSH Group (Bosch Siemens Hausgeraete) since 2017. The company publishes roughly 15,000 recipes and articles with HD step-by-step video tutorials across its iOS and Android apps, website, smart TVs, and Amazon Echo Show, reaching more than 6 million unique users from over 22 million app downloads. Alongside the consumer product it runs Kitchen Stories Business, a branded-content and native-advertising arm working with around 300 brand partners, and an online shop for its own organic spice mixes. Its content platform is served by the Kitchen Stories Internal API (Ultron), a bearer-token REST API at api.kitchenstories.io covering recipes, articles, videos, ingredients, utensils, categories, user cookbooks, meal plans, comments, ratings, and personalization.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kitchenstories/refs/heads/main/screenshots/kitchenstories-2026-07-25T223912.png",
      "score": 38.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 63.3,
-      "contract_quality": 53.8,
+      "discoverability": 73.2,
+      "contract_quality": 45.8,
       "contract_governance": 4.5,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 16.1,
-      "access_clarity": 28.9
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 28.0,
+      "access_clarity": 44.7
      },
      "scored_at": "2026-10-04",
      "schema_version": "0.23.0",
@@ -7562,21 +7612,21 @@
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
       "regime_id": "horizontal",
-      "score": 39.2,
+      "score": 24.5,
       "matched_via": "fallback"
      },
-     "agent_score": 44.1,
-     "agent_band": "agent-ready",
+     "agent_score": 19.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": "derived",
+      "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
       "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
+      "error_semantics": "derived",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": false,
@@ -7588,7 +7638,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 149
+     "rank": 150
     },
     {
      "name": "Moises",
@@ -7638,7 +7688,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 151
     },
     {
      "name": "Xignite",
@@ -7688,7 +7738,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 152
     },
     {
      "name": "Arena",
@@ -7738,7 +7788,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 152
+     "rank": 153
     },
     {
      "name": "Covatic",
@@ -7788,7 +7838,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 153
+     "rank": 154
     },
     {
      "name": "EPFL",
@@ -7829,56 +7879,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 154
-    },
-    {
-     "name": "Kitchen Stories",
-     "slug": "kitchenstories",
-     "description": "Kitchen Stories is a Berlin-based, video-first cooking and recipe platform founded in 2013 by Verena Hubertz and Mengting Boensch, and majority-owned by the BSH Group (Bosch Siemens Hausgeraete) since 2017. The company publishes roughly 15,000 recipes and articles with HD step-by-step video tutorials across its iOS and Android apps, website, smart TVs, and Amazon Echo Show, reaching more than 6 million unique users from over 22 million app downloads. Alongside the consumer product it runs Kitchen Stories Business, a branded-content and native-advertising arm working with around 300 brand partners, and an online shop for its own organic spice mixes. Its content platform is served by the Kitchen Stories Internal API (Ultron), a bearer-token REST API at api.kitchenstories.io covering recipes, articles, videos, ingredients, utensils, categories, user cookbooks, meal plans, comments, ratings, and personalization.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kitchenstories/refs/heads/main/screenshots/kitchenstories-2026-07-25T223912.png",
-     "score": 38.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.9,
-      "contract_quality": 45.8,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 28.0,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 24.5,
-      "matched_via": "fallback"
-     },
-     "agent_score": 19.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -8838,6 +8838,105 @@
      "rank": 174
     },
     {
+     "name": "ActionStreamer",
+     "slug": "actionstreamer",
+     "description": "ActionStreamer is a Cincinnati, Ohio IoT video platform company, founded in 2016, that builds wearable and connected-device live streaming technology for industrial, public-safety, defense, aerospace/MRO and sports operations. Its ActionSync platform manages fleets of smart cameras and body-worn devices, moving live and store-and-forward video over Wi-Fi, private 5G, cellular and Starlink links, and its IRIS product layers AI object detection and alerting on top. ActionStreamer publishes a public developer platform at developer.actionstreamer.com: a 247-operation HTTP Web API at api.actionstreamer.com covering devices, device health, events, event presets, streams, video and audio clips, images, files, users and API keys, authenticated with HMAC-SHA256 request signing, plus a first-party Python library distributed on PyPI as \"actionstreamer\".",
+     "score": 36.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 44.4,
+      "contract_governance": 19.7,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 56.5,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 22.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 26.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 175
+    },
+    {
+     "name": "AdReady (CPXi)",
+     "slug": "adready-cpxi",
+     "description": "AdReady is a digital advertising execution brand operated by Digital Remedy (formerly CPX Interactive / CPXi). Digital Remedy runs an omnichannel advertising management platform - marketed as the Digital Remedy Platform and historically as AdReady+ - for independent agencies, brands and media companies, covering media planning, RFPs, insertion-order and line-item management, programmatic / CTV / DOOH / social execution, pixel-based attribution (Flip), incrementality and brand-lift measurement, white-label reporting and a RemyAI assistant, on top of 100+ martech integrations and 300+ inventory and data sources. AdReady originated as a Seattle self-serve ad-building tool and was acquired by CPXi in 2013; the brand and platform are today part of Digital Remedy, which has since combined with Compulse. The platform is powered by an internally-named Kickstart API - a Spring Boot / springdoc REST service whose OpenAPI 3.1 description is served anonymously at platform.digitalremedy.com/v3/api-docs with a browsable Swagger UI - but Digital Remedy publishes no public developer portal, no onboarding, and no partner API documentation, and every business operation on that API is authenticated (HTTP 401 without a session JWT). This company profile is independently maintained in the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/adready-cpxi/refs/heads/main/screenshots/adready-cpxi-2026-07-25T181701.png",
+     "score": 36.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 45.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 28.0,
+      "access_clarity": 43.4
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 29.4,
+      "matched_via": "fallback"
+     },
+     "agent_score": 29.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 176
+    },
+    {
      "name": "Nekosia API",
      "slug": "nekosia",
      "description": "Nekosia is a free, keyless anime-image REST API serving cute anime \"neko\" (catgirl) imagery and related metadata, backed by the provider's own Booru. Three documented GET operations return JSON carrying dominant colours, original and compressed image variants, dimensions, tags, content ratings, anime and character names, the original source and full artist attribution. No API key, no registration and no account are required; rate limits are enforced per IP address and reported through standards-track RateLimit response headers. Standard public use is free, but commercial use requires prior written consent from the operator.",
@@ -8885,7 +8984,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 175
+     "rank": 177
     },
     {
      "name": "Reduct",
@@ -8937,105 +9036,6 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 176
-    },
-    {
-     "name": "ActionStreamer",
-     "slug": "actionstreamer",
-     "description": "ActionStreamer is a Cincinnati, Ohio IoT video platform company, founded in 2016, that builds wearable and connected-device live streaming technology for industrial, public-safety, defense, aerospace/MRO and sports operations. Its ActionSync platform manages fleets of smart cameras and body-worn devices, moving live and store-and-forward video over Wi-Fi, private 5G, cellular and Starlink links, and its IRIS product layers AI object detection and alerting on top. ActionStreamer publishes a public developer platform at developer.actionstreamer.com: a 247-operation HTTP Web API at api.actionstreamer.com covering devices, device health, events, event presets, streams, video and audio clips, images, files, users and API keys, authenticated with HMAC-SHA256 request signing, plus a first-party Python library distributed on PyPI as \"actionstreamer\".",
-     "score": 35.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 60.7,
-      "contract_quality": 44.4,
-      "contract_governance": 19.7,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 56.5,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 22.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 26.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 177
-    },
-    {
-     "name": "AdReady (CPXi)",
-     "slug": "adready-cpxi",
-     "description": "AdReady is a digital advertising execution brand operated by Digital Remedy (formerly CPX Interactive / CPXi). Digital Remedy runs an omnichannel advertising management platform - marketed as the Digital Remedy Platform and historically as AdReady+ - for independent agencies, brands and media companies, covering media planning, RFPs, insertion-order and line-item management, programmatic / CTV / DOOH / social execution, pixel-based attribution (Flip), incrementality and brand-lift measurement, white-label reporting and a RemyAI assistant, on top of 100+ martech integrations and 300+ inventory and data sources. AdReady originated as a Seattle self-serve ad-building tool and was acquired by CPXi in 2013; the brand and platform are today part of Digital Remedy, which has since combined with Compulse. The platform is powered by an internally-named Kickstart API - a Spring Boot / springdoc REST service whose OpenAPI 3.1 description is served anonymously at platform.digitalremedy.com/v3/api-docs with a browsable Swagger UI - but Digital Remedy publishes no public developer portal, no onboarding, and no partner API documentation, and every business operation on that API is authenticated (HTTP 401 without a session JWT). This company profile is independently maintained in the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/adready-cpxi/refs/heads/main/screenshots/adready-cpxi-2026-07-25T181701.png",
-     "score": 35.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 60.7,
-      "contract_quality": 45.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 28.0,
-      "access_clarity": 43.4
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 29.4,
-      "matched_via": "fallback"
-     },
-     "agent_score": 29.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,

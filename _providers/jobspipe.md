@@ -2,21 +2,21 @@
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: served
+    delegated_identity: false
     dry_run_mode: false
-    dynamic_client_registration: true
-    error_semantics: verified
+    dynamic_client_registration: false
+    error_semantics: documented
     event_surface_described: true
-    idempotency: verified
+    idempotency: documented
     mcp_server: documented
-    openapi_examples: partial
-    protected_resource_metadata: verified
+    openapi_examples: false
+    protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true

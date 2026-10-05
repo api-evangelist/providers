@@ -49,16 +49,55 @@ apis:
   baseurl_source: declared
   description: Over-the-air firmware update management
   name: Amazon FreeRTOS OTA Updates API
+  phrasing_intents:
+  - id: createOtaUpdate
+    intent: Roll out a firmware update to a device group
+    question: How do I push a new firmware image over the air to a group of FreeRTOS devices?
+  - id: listOtaUpdates
+    intent: List over-the-air firmware updates
+    question: How do I see all the OTA firmware updates I've created for my devices?
+  - id: getOtaUpdate
+    intent: Get details of one OTA update
+    question: What's the current status of a specific over-the-air update I launched?
+  - id: deleteOtaUpdate
+    intent: Delete an OTA update
+    question: How do I remove an old over-the-air update I no longer need?
+  phrasing_ops: 4
   slug: amazon-freertos-ota-updates-api
 - baseURL: https://iot.amazonaws.com
   baseurl_source: declared
   description: FreeRTOS software configuration management
   name: Amazon FreeRTOS Software Configurations API
+  phrasing_intents:
+  - id: createSoftwareConfiguration
+    intent: Create a FreeRTOS configuration for a board
+    question: How do I set up a FreeRTOS configuration of libraries for my microcontroller board?
+  - id: listSoftwareConfigurations
+    intent: List FreeRTOS software configurations
+    question: Which FreeRTOS software configurations have I saved so far?
+  - id: describeSoftwareConfiguration
+    intent: Get one FreeRTOS software configuration
+    question: What libraries and hardware platform does a particular FreeRTOS configuration use?
+  - id: updateSoftwareConfiguration
+    intent: Rename or redescribe a software configuration
+    question: How do I rename an existing FreeRTOS software configuration?
+  - id: deleteSoftwareConfiguration
+    intent: Delete a FreeRTOS software configuration
+    question: How do I get rid of a FreeRTOS software configuration I don't use anymore?
+  phrasing_ops: 5
   slug: amazon-freertos-software-configurations-api
 - baseURL: https://iot.amazonaws.com
   baseurl_source: declared
   description: Resource metadata labels
   name: Amazon FreeRTOS Tags API
+  phrasing_intents:
+  - id: listTagsForResource
+    intent: List tags on a FreeRTOS resource
+    question: What tags are currently attached to one of my FreeRTOS resources?
+  - id: tagResource
+    intent: Add or change tags on a resource
+    question: How do I add cost or ownership tags to a FreeRTOS resource?
+  phrasing_ops: 2
   slug: amazon-freertos-tags-api
 arazzos:
 - description: Confirm an OTA update exists, delete it with its stream and job, and verify removal.
@@ -376,13 +415,13 @@ score:
   band: exemplar
   composite: 67.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 70.0
     catalog_earned_first_party: 0.0
     catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 68.4
     contract_governance: 27.3
@@ -393,7 +432,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 66.2
+  previous_composite: 67.3
   provenance:
     agentic_access: derived
     contracts:

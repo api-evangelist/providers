@@ -50,71 +50,276 @@ apis:
   baseurl_source: declared
   description: The 3D Secure API from PAY.JP — 4 operation(s) for 3d secure.
   name: PAY.JP 3D Secure API
+  phrasing_intents:
+  - id: finishChargeThreeDSecure
+    intent: Finish 3D Secure authentication for a charge
+    question: After the cardholder passes 3D Secure, how do I complete the charge that was waiting on it?
+  - id: finishTokenThreeDSecure
+    intent: Finish 3D Secure authentication for a card token
+    question: Once a cardholder completes 3D Secure on a token, how do I mark the token as authenticated?
+  - id: listThreeDSecureRequests
+    intent: List 3D Secure requests
+    question: Which standalone 3D Secure requests have I started for stored cards?
+  - id: createThreeDSecureRequest
+    intent: Start 3D Secure authentication for a stored card
+    question: How do I run 3D Secure on a card that is already saved to a customer?
+  - id: retrieveThreeDSecureRequest
+    intent: Get a 3D Secure request
+    question: How can I check the status of one particular 3D Secure request?
+  phrasing_ops: 5
   slug: payjp-3d-secure-api
 - baseURL: https://api.pay.jp/v1
   baseurl_source: declared
   description: The Account API from PAY.JP — 1 operation(s) for account.
   name: PAY.JP Account API
+  phrasing_intents:
+  - id: retrieveAccount
+    intent: Get my merchant account details
+    question: How do I look up the PAY.JP merchant account my API key belongs to?
+  phrasing_ops: 1
   slug: payjp-account-api
 - baseURL: https://api.pay.jp/v1
   baseurl_source: declared
   description: The Balances API from PAY.JP — 2 operation(s) for balances.
   name: PAY.JP Balances API
+  phrasing_intents:
+  - id: listBalances
+    intent: List account balances
+    question: What balances do I have accumulating on my account?
+  - id: retrieveBalance
+    intent: Get a single balance
+    question: How do I look up the details of one specific balance?
+  phrasing_ops: 2
   slug: payjp-balances-api
 - baseURL: https://api.pay.jp/v1
   baseurl_source: declared
   description: The Cards API from PAY.JP — 2 operation(s) for cards.
   name: PAY.JP Cards API
+  phrasing_intents:
+  - id: listCustomerCards
+    intent: List a customer's saved cards
+    question: Which cards does this customer have on file?
+  - id: createCustomerCard
+    intent: Add a card to a customer
+    question: How do I save a new card to an existing customer using a token?
+  - id: retrieveCustomerCard
+    intent: Get one of a customer's cards
+    question: How do I look up a specific saved card for a customer?
+  - id: updateCustomerCard
+    intent: Update a customer's saved card
+    question: How do I change the details of a card already saved on a customer?
+  - id: deleteCustomerCard
+    intent: Remove a card from a customer
+    question: How do I remove a saved card from a customer?
+  phrasing_ops: 5
   slug: payjp-cards-api
 - baseURL: https://api.pay.jp/v1
   baseurl_source: declared
   description: The Charges API from PAY.JP — 6 operation(s) for charges.
   name: PAY.JP Charges API
+  phrasing_intents:
+  - id: listCharges
+    intent: List charges
+    question: How do I see all the payments I've charged?
+  - id: createCharge
+    intent: Charge a card or customer
+    question: How do I charge a customer's card in yen with PAY.JP?
+  - id: retrieveCharge
+    intent: Get a charge
+    question: How do I check the details of one charge?
+  - id: updateCharge
+    intent: Edit a charge's description or metadata
+    question: Can I change the description on a charge after it was created?
+  - id: refundCharge
+    intent: Refund a charge
+    question: How do I refund a payment?
+  - id: captureCharge
+    intent: Capture an authorized charge
+    question: How do I collect the money on a charge I only authorized?
+  - id: reauthCharge
+    intent: Re-authorize an expiring charge
+    question: My authorization hold is about to expire — can I extend it?
+  - id: finishChargeThreeDSecure
+    intent: Finish 3D Secure authentication for a charge
+    question: After the cardholder passes 3D Secure, how do I complete the charge that was waiting on it?
+  phrasing_ops: 8
   slug: payjp-charges-api
 - baseURL: https://api.pay.jp/v1
   baseurl_source: declared
   description: The Customers API from PAY.JP — 2 operation(s) for customers.
   name: PAY.JP Customers API
+  phrasing_intents:
+  - id: listCustomers
+    intent: List customers
+    question: How do I get a list of all my customers?
+  - id: createCustomer
+    intent: Create a customer
+    question: How do I create a customer so I can charge them again later?
+  - id: retrieveCustomer
+    intent: Get a customer
+    question: How do I look up one customer's details?
+  - id: updateCustomer
+    intent: Update a customer
+    question: How do I change an existing customer's details?
+  - id: deleteCustomer
+    intent: Delete a customer
+    question: How do I permanently remove a customer?
+  phrasing_ops: 5
   slug: payjp-customers-api
 - baseURL: https://api.pay.jp/v1
   baseurl_source: declared
   description: The Events API from PAY.JP — 2 operation(s) for events.
   name: PAY.JP Events API
+  phrasing_intents:
+  - id: listEvents
+    intent: List webhook events
+    question: How do I see the events that were sent to my webhooks?
+  - id: retrieveEvent
+    intent: Get an event
+    question: How do I look up one event by its id?
+  phrasing_ops: 2
   slug: payjp-events-api
 - baseURL: https://api.pay.jp/v1
   baseurl_source: declared
   description: The Plans API from PAY.JP — 2 operation(s) for plans.
   name: PAY.JP Plans API
+  phrasing_intents:
+  - id: listPlans
+    intent: List recurring plans
+    question: What recurring billing plans have I set up?
+  - id: createPlan
+    intent: Create a recurring billing plan
+    question: How do I set up a monthly plan for subscriptions?
+  - id: retrievePlan
+    intent: Get a plan
+    question: How do I check the price and interval of one plan?
+  - id: updatePlan
+    intent: Update a plan
+    question: Can I edit a plan after I've created it?
+  - id: deletePlan
+    intent: Delete a plan
+    question: How do I remove a plan I no longer offer?
+  phrasing_ops: 5
   slug: payjp-plans-api
 - baseURL: https://api.pay.jp/v1
   baseurl_source: declared
   description: The Platform API from PAY.JP — 4 operation(s) for platform.
   name: PAY.JP Platform API
+  phrasing_intents:
+  - id: listTenants
+    intent: List platform tenants
+    question: Which sub-merchants are registered under my platform?
+  - id: createTenant
+    intent: Add a sub-merchant tenant
+    question: How do I onboard a new sub-merchant onto my platform?
+  - id: retrieveTenant
+    intent: Get a platform tenant
+    question: How do I look up one sub-merchant's tenant record?
+  - id: updateTenant
+    intent: Update a platform tenant
+    question: How do I change a sub-merchant's tenant details?
+  - id: deleteTenant
+    intent: Remove a platform tenant
+    question: How do I remove a sub-merchant from my platform?
+  - id: listTenantTransfers
+    intent: List payouts to tenants
+    question: How do I see the payouts made to my sub-merchants?
+  - id: retrieveTenantTransfer
+    intent: Get a tenant transfer
+    question: How do I check the details of one payout to a sub-merchant?
+  phrasing_ops: 7
   slug: payjp-platform-api
 - baseURL: https://api.pay.jp/v1
   baseurl_source: declared
   description: The Statements API from PAY.JP — 3 operation(s) for statements.
   name: PAY.JP Statements API
+  phrasing_intents:
+  - id: listStatements
+    intent: List transaction statements
+    question: How do I see my transaction statements?
+  - id: retrieveStatement
+    intent: Get a transaction statement
+    question: How do I view the line items in one statement?
+  - id: createStatementDownloadUrl
+    intent: Get a CSV download link for a statement
+    question: Can I download a statement as a CSV file?
+  phrasing_ops: 3
   slug: payjp-statements-api
 - baseURL: https://api.pay.jp/v1
   baseurl_source: declared
   description: The Subscriptions API from PAY.JP — 5 operation(s) for subscriptions.
   name: PAY.JP Subscriptions API
+  phrasing_intents:
+  - id: listSubscriptions
+    intent: List subscriptions
+    question: How do I see all my active and past subscriptions?
+  - id: createSubscription
+    intent: Subscribe a customer to a plan
+    question: How do I put a customer on a recurring plan?
+  - id: retrieveSubscription
+    intent: Get a subscription
+    question: How do I check the status of one subscription?
+  - id: updateSubscription
+    intent: Update a subscription
+    question: How do I change the settings on an existing subscription?
+  - id: deleteSubscription
+    intent: Delete a subscription
+    question: How do I delete a subscription record entirely?
+  - id: pauseSubscription
+    intent: Pause a subscription
+    question: Can I temporarily stop billing a subscriber?
+  - id: resumeSubscription
+    intent: Resume a paused subscription
+    question: How do I restart billing on a paused subscription?
+  - id: cancelSubscription
+    intent: Cancel a subscription
+    question: How do I cancel a customer's subscription?
+  phrasing_ops: 8
   slug: payjp-subscriptions-api
 - baseURL: https://api.pay.jp/v1
   baseurl_source: declared
   description: The Terms API from PAY.JP — 2 operation(s) for terms.
   name: PAY.JP Terms API
+  phrasing_intents:
+  - id: listTerms
+    intent: List aggregation terms
+    question: How do I see the aggregation periods my sales are grouped into?
+  - id: retrieveTerm
+    intent: Get an aggregation term
+    question: How do I look up one aggregation period?
+  phrasing_ops: 2
   slug: payjp-terms-api
 - baseURL: https://api.pay.jp/v1
   baseurl_source: declared
   description: The Tokens API from PAY.JP — 3 operation(s) for tokens.
   name: PAY.JP Tokens API
+  phrasing_intents:
+  - id: createToken
+    intent: Tokenize a card
+    question: How do I turn card details into a single-use token?
+  - id: retrieveToken
+    intent: Get a card token
+    question: How do I check whether a card token has been used?
+  - id: finishTokenThreeDSecure
+    intent: Finish 3D Secure authentication for a card token
+    question: Once a cardholder completes 3D Secure on a token, how do I mark the token as authenticated?
+  phrasing_ops: 3
   slug: payjp-tokens-api
 - baseURL: https://api.pay.jp/v1
   baseurl_source: declared
   description: The Transfers API from PAY.JP — 3 operation(s) for transfers.
   name: PAY.JP Transfers API
+  phrasing_intents:
+  - id: listTransfers
+    intent: List payouts
+    question: When have I been paid out to my bank account?
+  - id: retrieveTransfer
+    intent: Get a payout
+    question: How do I look up one payout's amount and date?
+  - id: listTransferDetails
+    intent: List the charges in a payout
+    question: Which charges were settled in a specific payout?
+  phrasing_ops: 3
   slug: payjp-transfers-api
 artifact_total: 52
 asyncapis:
@@ -442,7 +647,7 @@ score:
     catalog_gap: 53.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 96.8
     contract_governance: 18.2
@@ -457,7 +662,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 76.4
+  previous_composite: 70.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -476,7 +681,7 @@ score:
     score: 44.6
   schema_version: 0.23.0
   scored_at: '2026-10-04'
-  trend: falling
+  trend: flat
   upsert:
     applies: true
     score: 0.0

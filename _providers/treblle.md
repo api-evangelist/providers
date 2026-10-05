@@ -378,7 +378,7 @@ coverage:
   evidence:
   - status: 200
     url: https://docs.treblle.com/
-  reason: js-rendered-docs
+  reason: no-machine-readable-spec
   state: unreadable
 created: '2025-01-08'
 description: Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40+ API-specific data points for every API request across the entire API landscape.

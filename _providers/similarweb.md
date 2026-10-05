@@ -52,66 +52,173 @@ apis:
   baseurl_source: declared
   description: Account credits, capabilities, and usage information
   name: SimilarWeb Account API
+  phrasing_intents:
+  - id: getCredits
+    intent: Check remaining data credits
+    question: How many data credits do I have left on my Similarweb account?
+  - id: checkCapabilities
+    intent: Check what my subscription covers for a site
+    question: What data does my subscription let me pull for a given website?
+  phrasing_ops: 2
   slug: similarweb-account-api
 - baseURL: https://api.similarweb.com
   baseurl_source: declared
   description: Mobile app downloads, active users, sessions, and demographics
   name: SimilarWeb App Intelligence API
+  phrasing_intents:
+  - id: getAppDownloadsAndroid
+    intent: Get download estimates for an Android app
+    question: How many downloads does an Android app get on Google Play each month?
+  - id: getAppDownloadsIos
+    intent: Get download estimates for an iOS app
+    question: How many App Store downloads does an iPhone app get?
+  phrasing_ops: 2
   slug: similarweb-app-intelligence-api
 - baseURL: https://api.similarweb.com
   baseurl_source: declared
   description: Batch API credit management
   name: SimilarWeb Credits API
+  phrasing_intents:
+  - id: getBatchCredits
+    intent: Check remaining data credits
+    question: How many data credits remain on my account?
+  phrasing_ops: 1
   slug: similarweb-credits-api
 - baseURL: https://api.similarweb.com
   baseurl_source: declared
   description: Geographic distribution of website traffic
   name: SimilarWeb Geography API
+  phrasing_intents:
+  - id: getGeographyDesktop
+    intent: See a website's desktop traffic by country
+    question: Which countries send the most desktop traffic to a website?
+  phrasing_ops: 1
   slug: similarweb-geography-api
 - baseURL: https://api.similarweb.com
   baseurl_source: declared
   description: Manage cloud storage integrations (S3, GCS, Snowflake)
   name: SimilarWeb Integrations API
+  phrasing_intents:
+  - id: createS3Integration
+    intent: Connect an Amazon S3 bucket for report delivery
+    question: How do I get batch reports delivered straight into my S3 bucket?
+  - id: createGcsIntegration
+    intent: Connect a Google Cloud Storage bucket
+    question: How do I deliver batch reports to a Google Cloud Storage bucket?
+  - id: getAllIntegrations
+    intent: List configured cloud storage integrations
+    question: Which cloud storage destinations are already set up on my account?
+  phrasing_ops: 3
   slug: similarweb-integrations-api
 - baseURL: https://api.similarweb.com
   baseurl_source: declared
   description: Keyword analytics including organic and paid keyword data
   name: SimilarWeb Keywords API
+  phrasing_intents:
+  - id: getWebsiteKeywords
+    intent: Get the keywords driving traffic to a website
+    question: Which search keywords send the most traffic to a competitor's site?
+  phrasing_ops: 1
   slug: similarweb-keywords-api
 - baseURL: https://api.similarweb.com
   baseurl_source: declared
   description: Lead enrichment combining firmographics and web analytics
   name: SimilarWeb Lead Enrichment API
+  phrasing_intents:
+  - id: getLeadEnrichment
+    intent: Enrich a company domain with firmographics and traffic
+    question: What's the employee range, revenue and headquarters for a company's domain?
+  phrasing_ops: 1
   slug: similarweb-lead-enrichment-api
 - baseURL: https://api.similarweb.com
   baseurl_source: declared
   description: Global, country, and industry rank data
   name: SimilarWeb Rankings API
+  phrasing_intents:
+  - id: getGlobalRank
+    intent: Get a website's global rank
+    question: Where does a website rank globally across desktop and mobile?
+  - id: getRankTrackingCampaignOverview
+    intent: Review a rank tracking campaign's performance
+    question: How is my rank tracking campaign's average position trending?
+  phrasing_ops: 2
   slug: similarweb-rankings-api
 - baseURL: https://api.similarweb.com
   baseurl_source: declared
   description: Submit, track, and retrieve bulk data report requests
   name: SimilarWeb Reports API
+  phrasing_intents:
+  - id: requestReport
+    intent: Submit a batch data report request
+    question: How do I order a bulk data extract delivered to Snowflake or S3?
+  - id: getRequestStatus
+    intent: Check the status of a batch report
+    question: Is my submitted batch report finished yet?
+  - id: validateRequest
+    intent: Estimate a batch report's credit cost
+    question: How many credits will a batch report cost before I submit it?
+  - id: getReportHistory
+    intent: List past batch report requests
+    question: What batch reports have we requested in the past?
+  - id: retryRequest
+    intent: Retry a failed batch report
+    question: How do I rerun a batch report that failed?
+  - id: describeTables
+    intent: Describe the tables available for batch reports
+    question: Which tables can I query in a batch report?
+  phrasing_ops: 6
   slug: similarweb-reports-api
 - baseURL: https://api.similarweb.com
   baseurl_source: declared
   description: Similar website discovery
   name: SimilarWeb Similar Sites API
+  phrasing_intents:
+  - id: getSimilarSites
+    intent: Find websites similar to a domain
+    question: What websites are most similar to a given domain?
+  phrasing_ops: 1
   slug: similarweb-similar-sites-api
 - baseURL: https://api.similarweb.com
   baseurl_source: declared
   description: Website traffic visits, bounce rate, pages per visit, visit duration
   name: SimilarWeb Traffic and Engagement API
+  phrasing_intents:
+  - id: getVisitsDesktop
+    intent: Get a website's desktop visits over time
+    question: How many desktop visits does a website get each month?
+  - id: getBounceRateDesktop
+    intent: Get a website's desktop bounce rate
+    question: What's the desktop bounce rate for a website?
+  phrasing_ops: 2
   slug: similarweb-traffic-and-engagement-api
 - baseURL: https://api.similarweb.com
   baseurl_source: declared
   description: Marketing channel traffic breakdown including organic, paid, referral, social, and display
   name: SimilarWeb Traffic Sources API
+  phrasing_intents:
+  - id: getTrafficSourcesOverview
+    intent: Break down a site's desktop visits by channel
+    question: 'Where does a website''s desktop traffic come from: search, social, direct or referrals?'
+  phrasing_ops: 1
   slug: similarweb-traffic-sources-api
 - baseURL: https://api.similarweb.com
   baseurl_source: declared
   description: Webhook subscription management for data-ready notifications
   name: SimilarWeb Webhooks API
+  phrasing_intents:
+  - id: subscribeWebhook
+    intent: Subscribe a URL to webhook events
+    question: How do I get notified when a report completes or new data is released?
+  - id: listWebhookSubscriptions
+    intent: List active webhook subscriptions
+    question: Which webhook subscriptions are active on my account?
+  - id: unsubscribeWebhook
+    intent: Remove a webhook subscription
+    question: How do I stop receiving webhook notifications for a subscription?
+  - id: testWebhook
+    intent: Send a test notification to a webhook
+    question: How can I check that my webhook endpoint is receiving events?
+  phrasing_ops: 4
   slug: similarweb-webhooks-api
 artifact_total: 45
 asyncapis:
@@ -443,7 +550,7 @@ score:
     catalog_gap: 36.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 93.4
     contract_governance: 28.0
@@ -451,7 +558,7 @@ score:
     developer_ergonomics: 58.9
     discoverability: 75.0
     operational_transparency: 65.8
-  previous_composite: 66.6
+  previous_composite: 68.7
   provenance:
     agentic_access: derived
     conformance: first-party

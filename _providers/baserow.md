@@ -676,23 +676,23 @@ rules:
   slug: baserow-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.2
+  composite: 48.7
   coverage:
     artifact_dirs: 17
-    catalog_earned: 85.2
+    catalog_earned: 88.2
     catalog_earned_first_party: 24.0
-    catalog_gap: 29.9
+    catalog_gap: 26.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.7
+  delta: 0.5
   facets:
     access_clarity: 50.0
     contract_governance: 23.5
     contract_quality: 62.8
     developer_ergonomics: 26.2
-    discoverability: 60.7
+    discoverability: 66.1
     operational_transparency: 68.4
-  previous_composite: 49.9
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     contracts:

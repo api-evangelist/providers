@@ -113,7 +113,7 @@ score:
   band: emerging
   composite: 15.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 30.0
     catalog_earned_first_party: 0.0
     catalog_gap: 85.0

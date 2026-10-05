@@ -50,41 +50,147 @@ apis:
   baseurl_source: declared
   description: The Chat API provides a programmatic chat-style text generation interface. It accepts a sequence of messages and returns model responses. Intended for assistant-like interactions and evaluation. Strea
   name: Parallel Chat API (Beta) API
+  phrasing_intents:
+  - id: chat_completions_v1beta_chat_completions_post
+    intent: Get a chat completion grounded in web research
+    question: Can I get chat-style answers from Parallel using an OpenAI-compatible chat completions request?
+  phrasing_ops: 1
   slug: parallel-chat-api-beta-api
 - baseURL: https://api.parallel.ai
   baseurl_source: declared
   description: Extract returns excerpts or full content from one or more URLs. Inputs are a list of URLs and an optional search objective and keyword queries. The returned excerpts or full content is formatted as ma
   name: Parallel Extract API
+  phrasing_intents:
+  - id: extract_v1_extract_post
+    intent: Extract content from specific web pages
+    question: How can I pull the readable content out of a handful of web page URLs?
+  phrasing_ops: 1
   slug: parallel-extract-api
 - baseURL: https://api.parallel.ai
   baseurl_source: declared
   description: The FindAll API discovers and evaluates entities that match complex criteria from natural language objectives. Submit a high-level goal and the service automatically generates structured match conditi
   name: Parallel FindAll API
+  phrasing_intents:
+  - id: findall_entity_search_v1beta_findall_entity_search_post
+    intent: Quickly search for ranked entities
+    question: Is there a fast, low-latency way to get a ranked list of companies matching a plain-language description?
+  - id: ingest_findall_run_v1beta_findall_ingest_post
+    intent: Turn an objective into a FindAll run spec
+    question: Can I turn a plain-English goal into a suggested FindAll specification before starting a run?
+  - id: findall_runs_v1_v1beta_findall_runs_post
+    intent: Start a FindAll run to discover entities
+    question: How do I kick off a FindAll run to find every company that meets my criteria?
+  - id: findall_runs_v1_get_v1beta_findall_runs__findall_id__get
+    intent: Check the status of a FindAll run
+    question: Is my FindAll run still queued, running, or finished?
+  - id: cancel_findall_run_v1beta_findall_runs__findall_id__cancel_post
+    intent: Cancel a FindAll run
+    question: How do I stop a FindAll run that I no longer need?
+  - id: enrich_findall_run_v1beta_findall_runs__findall_id__enrich_post
+    intent: Add enrichment fields to a FindAll run
+    question: Can I add extra researched columns, like headcount or funding, to the entities a FindAll run found?
+  - id: get_findall_events_v1beta_findall_runs__findall_id__events_get
+    intent: Stream live events from a FindAll run
+    question: Can I subscribe to real-time updates as a FindAll run discovers matches?
+  - id: extend_findall_run_v1beta_findall_runs__findall_id__extend_post
+    intent: Raise the match limit of a FindAll run
+    question: My FindAll run hit its match limit; can I ask it to find more entities?
+  phrasing_ops: 10
   slug: parallel-findall-api
 - baseURL: https://api.parallel.ai
   baseurl_source: declared
   description: The Monitor API watches the web for material changes on a fixed frequency. Each monitor runs once on creation and then on its configured schedule, emitting events when meaningful changes are detected.
   name: Parallel Monitor API
+  phrasing_intents:
+  - id: create_monitor_v1_monitors_post
+    intent: Create a monitor to track web changes
+    question: How do I set up a monitor that alerts me when something material changes on the web?
+  - id: list_monitors_v1_monitors_get
+    intent: List my web monitors
+    question: Which web monitors do I currently have running?
+  - id: retrieve_monitor_v1_monitors__monitor_id__get
+    intent: Get a monitor's configuration
+    question: What frequency, query and webhook is a particular monitor configured with?
+  - id: cancel_monitor_v1_monitors__monitor_id__cancel_post
+    intent: Permanently stop a monitor
+    question: How do I permanently stop a monitor from running?
+  - id: list_monitor_events_v1_monitors__monitor_id__events_get
+    intent: List the changes a monitor detected
+    question: What material changes has my monitor picked up recently?
+  - id: trigger_monitor_run_v1_monitors__monitor_id__trigger_post
+    intent: Run a monitor immediately
+    question: Can I make a monitor check for changes right now instead of waiting for its schedule?
+  - id: update_monitor_v1_monitors__monitor_id__update_post
+    intent: Change a monitor's settings
+    question: Can I change how often an existing monitor runs?
+  phrasing_ops: 7
   slug: parallel-monitor-api
 - baseURL: https://api.parallel.ai
   baseurl_source: declared
   description: Search returns ranked URLs with extended excerpts suitable for LLM consumption. Inputs are a natural-language objective and optional keyword queries. Source policies allow including or excluding speci
   name: Parallel Search API
+  phrasing_intents:
+  - id: v1_search_v1_search_post
+    intent: Search the web with keyword queries
+    question: How do I run a web search and get back excerpts I can feed to an LLM?
+  phrasing_ops: 1
   slug: parallel-search-api
 - baseURL: https://api.parallel.ai
   baseurl_source: declared
   description: The Task API executes web research and extraction tasks. Clients submit a natural-language objective with an optional input schema; the service plans retrieval, fetches relevant URLs, and returns outp
   name: Parallel Tasks API
+  phrasing_intents:
+  - id: tasks_taskgroups_post_v1_tasks_groups_post
+    intent: Create a task group to batch runs
+    question: How do I group many task runs together so I can track them as one batch?
+  - id: tasks_taskgroups_get_v1_tasks_groups__taskgroup_id__get
+    intent: Get aggregated status of a task group
+    question: How many runs in my task group have finished versus are still running?
+  - id: tasks_sessions_events_get_v1_tasks_groups__taskgroup_id__events_get
+    intent: Stream status events for a task group
+    question: Can I get live notifications as runs in a task group complete?
+  - id: tasks_taskgroups_runs_post_v1_tasks_groups__taskgroup_id__runs_post
+    intent: Add a batch of task runs to a group
+    question: How many task runs can I add to a task group in a single request?
+  - id: tasks_taskgroups_runs_get_v1_tasks_groups__taskgroup_id__runs_get
+    intent: Fetch the runs in a task group
+    question: How do I get every run in a task group along with its inputs and outputs?
+  - id: tasks_taskgroups_runs_id_get_v1_tasks_groups__taskgroup_id__runs__run_id__get
+    intent: Check one run inside a task group
+    question: Can I look up the status of a single run within a specific task group?
+  - id: tasks_runs_post_v1_tasks_runs_post
+    intent: Start a web research task run
+    question: How do I start a single research task with Parallel and get structured output?
+  - id: tasks_runs_get_v1_tasks_runs__run_id__get
+    intent: Check a task run's status
+    question: Is my task run still queued or has it finished?
+  phrasing_ops: 12
   slug: parallel-tasks-api
 - baseURL: https://api.parallel.ai
   baseurl_source: declared
   description: The Memory API lets agents search and reuse the results of past Task, Monitor and FindAll runs so new research builds on work already done. It exposes retrieve, evict and clear operations over the sto
   name: Parallel Memory API
+  phrasing_intents:
+  - id: clear_memory_v1beta_memory_clear_post
+    intent: Clear all entries from a memory scope
+    question: How do I wipe everything stored in my Parallel memory?
+  - id: evict_memory_source_v1beta_memory_evict_post
+    intent: Remove one run or monitor from memory
+    question: Can I remove a single task run from memory without deleting the run itself?
+  - id: retrieve_memory_v1beta_memory_retrieve_post
+    intent: Look up relevant or recent memories
+    question: How can I find past research runs in memory that relate to a topic?
+  phrasing_ops: 3
   slug: parallel-memory-api
 - baseURL: https://api.parallel.ai
   baseurl_source: declared
   description: An OpenAI-Responses-compatible interface for answers grounded in live web research, with URL citations. Point any Responses-API client — the OpenAI Python SDK, OpenAI TypeScript SDK, the Agents SDK, o
   name: Parallel Responses API
+  phrasing_intents:
+  - id: create_response_v1_responses_post
+    intent: Generate a cited answer from live web research
+    question: Can I get an answer with URL citations grounded in live web research using the OpenAI Responses format?
+  phrasing_ops: 1
   slug: parallel-responses-api-api
 artifact_total: 30
 asyncapis:
@@ -375,7 +481,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 68.4
     contract_governance: 18.2
@@ -383,7 +489,7 @@ score:
     developer_ergonomics: 76.8
     discoverability: 75.0
     operational_transparency: 81.6
-  previous_composite: 65.0
+  previous_composite: 66.6
   provenance:
     agentic_access: derived
     conformance: first-party

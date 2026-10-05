@@ -154,6 +154,14 @@ common:
   title: ''
   type: Security
   url: security/apiiro-vulnerability-disclosure.yml
+coverage:
+  checked: '2026-10-05'
+  detail: Documentation redirects to login at identity.apiiro.com requiring authentication.
+  evidence:
+  - status: 307
+    url: https://docs.apiiro.com/openapi.json
+  reason: sales-gate
+  state: gated
 created: '2026-07-17'
 description: Apiiro is an Application Security Posture Management (ASPM) company that helps organizations secure modern and AI-assisted ("agentic") software development. Its AppSec Data Fabric ingests code, cloud, runtime, and pipeline signals to build a Risk Graph and Software Graph, and its Guardian Agent applies AI to triage and remediate risk across AI SAST, AI SCA, AI SPM, AI threat modeling, API security, secrets security, software supply chain security (SSCS), and autofix/prevention workflows. Apiiro is a cybersecurity portfolio company of Greylock. The product API and developer documentation are gated behind an Apiiro identity provider (identity.apiiro.com); this network profile is built from Apiiro's public marketing, security.txt, status, and trust surfaces.
 image: https://www.apiiro.com/

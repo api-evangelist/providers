@@ -52,181 +52,739 @@ apis:
   baseurl_source: declared
   description: Manage compiled tag library builds for deployment.
   name: Adobe Launch Builds API
+  phrasing_intents:
+  - id: listLibraryBuilds
+    intent: List a tag library's builds
+    question: What builds have been made from a tag library?
+  - id: createBuild
+    intent: Build a tag library
+    question: How do I kick off a build of a tag library without sending a payload?
+  - id: getBuild
+    intent: Look up a tag build
+    question: How can I check whether a tag build succeeded?
+  - id: republishBuild
+    intent: Republish a tag build
+    question: Does republishing a tag build require the build ID in both the path and the payload?
+  - id: listBuildsForLibrary
+    intent: List builds for an event forwarding library
+    question: Which builds exist for my event forwarding library?
+  - id: postLibrariesByLibraryIdBuilds
+    intent: Compile an event forwarding library
+    question: How do I compile an event forwarding library into a deployable build?
+  - id: getBuildsByBuildId
+    intent: Get an event forwarding build
+    question: How do I look up an event forwarding build by its ID?
+  - id: patchBuildsByBuildId
+    intent: Republish an event forwarding build
+    question: Can I republish an existing event forwarding build?
+  phrasing_ops: 10
   slug: adobe-launch-builds-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: Manage webhook callbacks triggered by audit events.
   name: Adobe Launch Callbacks API
+  phrasing_intents:
+  - id: listCallbacks
+    intent: List a tag property's callbacks
+    question: Which webhook callbacks are registered on my Adobe tags property?
+  - id: createCallback
+    intent: Register a callback on a tag property
+    question: How do I get notified at my URL when something changes in a tags property?
+  - id: retrieveCallback
+    intent: Look up a callback by ID
+    question: Where can I see a callback's URL and subscriptions?
+  - id: deleteCallback
+    intent: Delete a callback
+    question: How do I stop a callback from firing to my endpoint?
+  - id: updateCallback
+    intent: Update a callback
+    question: Can I point an existing callback at a new URL?
+  - id: listCallbacksForProperty
+    intent: List a property's callbacks with date filters
+    question: Can I list callbacks updated since a given date?
+  - id: postPropertiesByPropertyIdCallbacks
+    intent: Register a callback (alternate)
+    question: Is there a propertyId endpoint for creating callbacks?
+  - id: getCallback
+    intent: Look up a callback (alternate)
+    question: Is there a callbackId endpoint for fetching one callback?
+  phrasing_ops: 10
   slug: adobe-launch-callbacks-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: Manage organization companies.
   name: Adobe Launch Companies API
+  phrasing_intents:
+  - id: listCompanies
+    intent: List the companies I can access
+    question: Which companies does my tags account have access to?
+  - id: retrieveCompany
+    intent: Get a company's tag details
+    question: How can I view one company's details by its ID in the tags API?
+  - id: listProperties
+    intent: List a company's properties
+    question: What properties sit under my company?
+  - id: createProperty
+    intent: Create a property under a company
+    question: How do I add a new web or mobile property to my company?
+  - id: listAppConfigurations
+    intent: List a company's app configurations
+    question: Which mobile app configurations are set up for my company?
+  - id: createAppConfiguration
+    intent: Create an app configuration for a company
+    question: How do I register a mobile app's push messaging credentials for my company?
+  - id: getCompany
+    intent: Look up a company by ID
+    question: How do I get a company's details using its companyId?
+  phrasing_ops: 7
   slug: adobe-launch-companies-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: Manage data elements for server-side event processing.
   name: Adobe Launch Data Elements API
+  phrasing_intents:
+  - id: listPropertyDataElements
+    intent: List a tag property's data elements
+    question: Which data elements are defined in my tag property?
+  - id: createDataElement
+    intent: Create a data element in a tag property
+    question: How do I add a new data element to a web tag property?
+  - id: retrieveDataElement
+    intent: Get a tag data element
+    question: How can I see how one tag data element is configured?
+  - id: updateDataElement
+    intent: Update a tag data element
+    question: Does the data element ID have to appear in both the path and the payload when editing a tag data element?
+  - id: listDataElementNotes
+    intent: List the notes on a data element
+    question: What notes have been left on a data element?
+  - id: createNote
+    intent: Add a note to a data element
+    question: How do I leave a note on a data element for other editors?
+  - id: listEventForwardingDataElements
+    intent: List an event forwarding property's data elements
+    question: Which data elements exist on my event forwarding property?
+  - id: createEventForwardingDataElement
+    intent: Create an event forwarding data element
+    question: How do I add a data element to a server-side event forwarding property?
+  phrasing_ops: 14
   slug: adobe-launch-data-elements-api
 - baseURL: https://edge.adobedc.net/ee
   baseurl_source: declared
   description: Send event data directly to the Adobe Experience Platform Edge Network. Supports both interactive (interact) and non-interactive (collect) data collection with authenticated and non-authenticated mode
   name: Adobe Launch Edge Network API
+  phrasing_intents:
+  - id: interact
+    intent: Send one event and get personalization back
+    question: How do I send a single event to the Edge Network and get personalization decisions back?
+  - id: collect
+    intent: Send a batch of events for collection
+    question: How do I send many events to the Edge Network in one request?
+  phrasing_ops: 2
   slug: adobe-launch-edge-network-api-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: Manage environments for event forwarding builds.
   name: Adobe Launch Environments API
+  phrasing_intents:
+  - id: listEnvironments
+    intent: List a tag property's environments
+    question: Which environments does my Adobe tags property have?
+  - id: createEnvironment
+    intent: Create an environment in a tag property
+    question: What do I need to add a development environment to a tags property?
+  - id: retrieveEnvironment
+    intent: Look up an environment by ID
+    question: Where can I see one environment's stage and embed details?
+  - id: deleteEnvironment
+    intent: Delete an environment
+    question: How do I remove an old development environment from a property?
+  - id: updateEnvironment
+    intent: Update an environment
+    question: Can I rename an environment or change its host link?
+  - id: listBuilds
+    intent: List an environment's builds
+    question: Which builds have been deployed to this environment?
+  - id: listEnvironmentSecrets
+    intent: List an environment's secrets
+    question: Which secrets are attached to this environment?
+  - id: retrieveEnvironmentHost
+    intent: Get the host an environment deploys to
+    question: Which host does this environment deploy its builds to?
+  phrasing_ops: 18
   slug: adobe-launch-environments-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: Manage extension packages that define capabilities, library modules, and views available to Adobe Experience Platform Tags users.
   name: Adobe Launch Extension Packages API
+  phrasing_intents:
+  - id: listExtensionPackages
+    intent: Browse available extension packages
+    question: Which extension packages are available in the tags catalog?
+  - id: createExtensionPackage
+    intent: Upload a new extension package
+    question: How do I upload a new extension package I built?
+  - id: retrieveExtensionPackage
+    intent: Get a tag extension package
+    question: How can I see the details and availability of one extension package?
+  - id: updateExtensionPackage
+    intent: Replace a development package's archive
+    question: Can I upload a new archive to an extension package that is still in development?
+  - id: privateReleaseExtensionPackage
+    intent: Release privately or discontinue a package
+    question: How do I make my tested extension package available to every property in my company?
+  - id: retrieveExtensionPackageVersion
+    intent: Get a tag extension package's versions
+    question: What versions of an extension package have been published over time?
+  - id: getExtensionPackage
+    intent: Look up an extension package by ID
+    question: How do I fetch a specific extension package using its identifier?
+  - id: patchExtensionPackagesByExtensionPackageId
+    intent: Update, release or discontinue a package
+    question: Can one PATCH call both upload a new ZIP and privately release an extension package?
+  phrasing_ops: 9
   slug: adobe-launch-extension-packages-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: Manage extensions installed in event forwarding properties.
   name: Adobe Launch Extensions API
+  phrasing_intents:
+  - id: listExtensions
+    intent: List a tag property's extensions
+    question: Which extensions are installed on my Adobe tags property?
+  - id: createExtension
+    intent: Install an extension on a tag property
+    question: What's needed to add an extension to a tags property?
+  - id: retrieveExtension
+    intent: Look up an extension by ID
+    question: Where can I see one extension's settings and version?
+  - id: deleteExtension
+    intent: Delete an extension
+    question: How do I uninstall an extension from a tags property?
+  - id: reviseExtension
+    intent: Revise an extension's settings
+    question: How do I change an extension's settings, and does it create a new revision?
+  - id: retrievePackageForExtension
+    intent: Get the package behind an extension
+    question: Which extension package was this installed extension built from?
+  - id: listExtensionLibraries
+    intent: List libraries that use an extension
+    question: Which libraries include this extension?
+  - id: retrieveExtensionProperty
+    intent: Find the property an extension belongs to
+    question: Which property is this extension installed on?
+  phrasing_ops: 22
   slug: adobe-launch-extensions-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: Manage hosting destinations for tag library delivery.
   name: Adobe Launch Hosts API
+  phrasing_intents:
+  - id: listHosts
+    intent: List a tag property's hosts
+    question: Which hosts can my Adobe tags property deploy builds to?
+  - id: createHost
+    intent: Create a host for a tag property
+    question: How do I set up an SFTP host so builds deploy to my own server?
+  - id: retrieveHost
+    intent: Look up a host by ID
+    question: Where can I see a host's type and connection settings?
+  - id: deleteHost
+    intent: Delete a host
+    question: How do I remove a host I no longer deploy to?
+  - id: updateHost
+    intent: Update an SFTP host
+    question: Which kinds of hosts can be edited after creation?
+  - id: retrieveHostProperty
+    intent: Find the property a host belongs to
+    question: Which property owns this host?
+  - id: listHostsForProperty
+    intent: List a property's hosts with date filters
+    question: Can I list hosts created after a certain date?
+  - id: postPropertiesByPropertyIdHosts
+    intent: Create a host (alternate)
+    question: Is there a propertyId endpoint for creating a host?
+  phrasing_ops: 11
   slug: adobe-launch-hosts-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: Manage libraries for event forwarding deployment.
   name: Adobe Launch Libraries API
+  phrasing_intents:
+  - id: listLibraries
+    intent: List a tag property's libraries
+    question: Which libraries exist under my Adobe tags property?
+  - id: createLibrary
+    intent: Create a library in a tag property
+    question: How do I start a new library to bundle tag changes for publishing?
+  - id: retrieveLibrary
+    intent: Look up a library by ID
+    question: Where can I see the details and current state of one tags library?
+  - id: deleteLibrary
+    intent: Delete a library
+    question: How do I get rid of a tags library I no longer need?
+  - id: updateLibrary
+    intent: Rename a library or move it through publishing
+    question: How do I submit a library for approval in the publishing flow?
+  - id: retrieveLibraryProperty
+    intent: Find the property a library belongs to
+    question: Which property owns this library?
+  - id: listLibraryBuilds
+    intent: List the builds of a library
+    question: How many times has this library been built, and did the builds succeed?
+  - id: createBuild
+    intent: Build a library
+    question: How do I compile a library into a build so it deploys to its environment?
+  phrasing_ops: 43
   slug: adobe-launch-libraries-api
 - baseURL: https://edge.adobedc.net/ee/va/v1
   baseurl_source: declared
   description: Track media playback events through the Adobe Experience Platform Edge Network. Requires the Streaming Media Collection Add-on. Supports session management, play/pause tracking, buffering, and error r
   name: Adobe Launch Media Edge API
+  phrasing_intents:
+  - id: mediaSessionStart
+    intent: Start a media tracking session
+    question: How do I begin tracking a video viewing session through the Edge Network?
+  - id: mediaPlay
+    intent: Track a media play event
+    question: How do I record that playback started or resumed in a media session?
+  - id: mediaPing
+    intent: Send a media session heartbeat
+    question: How often should I ping a media session during playback?
+  - id: mediaPauseStart
+    intent: Track a media pause event
+    question: How do I tell the Edge Network the viewer paused the video?
+  - id: mediaBufferStart
+    intent: Track a media buffering event
+    question: How do I report that a video started buffering?
+  - id: mediaBitrateChange
+    intent: Track a media bitrate change
+    question: How do I report when the stream quality switches to a different bitrate?
+  - id: mediaError
+    intent: Track a media playback error
+    question: How do I report a player error inside a media session?
+  - id: mediaSessionComplete
+    intent: Complete a media session
+    question: How do I mark that a viewer watched the content all the way through?
+  phrasing_ops: 9
   slug: adobe-launch-media-edge-api-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: Manage event forwarding properties (edge platform).
   name: Adobe Launch Properties API
+  phrasing_intents:
+  - id: listProperties
+    intent: List a company's tag properties
+    question: How do I see every tag property my company owns in Adobe Launch?
+  - id: createProperty
+    intent: Create a tag property for a company
+    question: What do I need to set up a new web or mobile tag property under my company?
+  - id: retrieveProperty
+    intent: Get a tag property's details
+    question: How can I look up the settings of one tag property by its ID?
+  - id: deleteProperty
+    intent: Delete a tag property
+    question: How do I permanently remove a tag property I no longer use?
+  - id: updateProperty
+    intent: Update a tag property's settings
+    question: How do I rename a tag property or change its domains?
+  - id: retrievePropertyCompany
+    intent: Find the company that owns a tag property
+    question: Which company does a particular tag property belong to?
+  - id: listCallbacks
+    intent: List a property's callbacks
+    question: What callback URLs are registered on my tag property?
+  - id: createCallback
+    intent: Register a callback on a property
+    question: How do I get notified at my own URL when things change in a tag property?
+  phrasing_ops: 30
   slug: adobe-launch-properties-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: Manage the individual event, condition, and action components within rules.
   name: Adobe Launch Rule Components API
+  phrasing_intents:
+  - id: listRuleComponents
+    intent: List a tag rule's components
+    question: Which events, conditions and actions belong to a tag rule?
+  - id: createRuleComponent
+    intent: Add a component under a tag rule
+    question: How do I add an event or action to a tag rule by posting to the rule itself?
+  - id: retrieveRuleComponent
+    intent: Get a tag rule component
+    question: How can I view the settings of one tag rule component?
+  - id: deleteRuleComponent
+    intent: Delete a tag rule component
+    question: How do I remove a condition from a tag rule?
+  - id: updateRuleComponent
+    intent: Update a tag rule component
+    question: Does the component ID need to match in both the path and the payload when editing a tag rule component?
+  - id: getRuleComponentExtension
+    intent: Find the extension behind a tag rule component
+    question: Which extension provides a given tag rule component?
+  - id: retrieveRuleComponentOrigin
+    intent: Get a rule component's origin revision
+    question: Where did this rule component revision originate from?
+  - id: listRuleComponentsRelatedRules
+    intent: List the rules that use a rule component
+    question: Which rules share a particular rule component?
+  phrasing_ops: 16
   slug: adobe-launch-rule-components-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: Manage server-side event forwarding rules.
   name: Adobe Launch Rules API
+  phrasing_intents:
+  - id: listRules
+    intent: List a tag property's rules
+    question: Which rules are set up on my web tag property?
+  - id: createRule
+    intent: Create a rule in a tag property
+    question: How do I add a rule to a web or mobile tag property?
+  - id: retrieveRule
+    intent: Get a tag rule's details
+    question: How can I pull up a single tag rule by its ID?
+  - id: deleteRule
+    intent: Delete a tag rule
+    question: How do I delete a tag rule we no longer fire?
+  - id: updateRule
+    intent: Update or revise a tag rule
+    question: Can I save a new revision of a tag rule instead of overwriting the current one?
+  - id: listRuleComponents
+    intent: List a tag rule's components
+    question: What events, conditions and actions make up a tag rule?
+  - id: createRuleComponent
+    intent: Add a component to a tag rule
+    question: How do I attach a new event, condition or action to a tag rule?
+  - id: listRuleLibraries
+    intent: List libraries that include a tag rule
+    question: Which libraries is a given tag rule part of?
+  phrasing_ops: 23
   slug: adobe-launch-rules-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: Search across multiple resource types.
   name: Adobe Launch Search API
+  phrasing_intents:
+  - id: createSearch
+    intent: Search across tag resources
+    question: How do I search all my rules and data elements for a name?
+  phrasing_ops: 1
   slug: adobe-launch-search-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: Manage secrets for authenticating event forwarding rules with external systems. Supports token, simple-http, oauth2, and oauth2-google types.
   name: Adobe Launch Secrets API
+  phrasing_intents:
+  - id: listPropertySecrets
+    intent: List a property's secrets with filters
+    question: Which secrets are stored on my tag property?
+  - id: createSecret
+    intent: Create a secret on a tag property
+    question: How do I add a credential to a tag property so rules can use it?
+  - id: retrieveSecret
+    intent: Get a secret's details
+    question: How can I check the status of one secret by its ID?
+  - id: deleteSecret
+    intent: Delete a secret from a tag property
+    question: How do I delete a secret from a tag property?
+  - id: testOrRetrySecret
+    intent: Test or retry a secret's exchange
+    question: Can I manually retry a secret exchange that failed?
+  - id: listEnvironmentSecrets
+    intent: List secrets scoped to an environment
+    question: Which secrets are scoped to a particular tag environment?
+  - id: listSecretNotes
+    intent: List the notes on a secret
+    question: What notes have teammates left on a secret?
+  - id: createSecretNote
+    intent: Add a note to a secret
+    question: How do I leave a note on a secret, such as who owns the credential?
+  phrasing_ops: 19
   slug: adobe-launch-secrets-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: The Ad API from Adobe Launch — 3 operation(s) for ad.
   name: Adobe Launch Ad API
+  phrasing_intents:
+  - id: adStart
+    intent: Signal that an ad started
+    question: How do I track when an ad begins playing in a media session?
+  - id: adComplete
+    intent: Signal that an ad finished
+    question: How do I record that a viewer watched an ad to the end?
+  - id: adSkip
+    intent: Signal that an ad was skipped
+    question: Can I track when a viewer skips an ad?
+  phrasing_ops: 3
   slug: adobe-launch-ad-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: The Ad Break API from Adobe Launch — 2 operation(s) for ad break.
   name: Adobe Launch Ad Break API
+  phrasing_intents:
+  - id: adBreakStart
+    intent: Track the start of an ad break
+    question: How do I report that a series of ads began in a video?
+  - id: adBreakComplete
+    intent: Track the end of an ad break
+    question: How do I record that the whole ad series finished?
+  phrasing_ops: 2
   slug: adobe-launch-ad-break-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: App configurations allow credentials to be stored and retrieved for later use.
   name: Adobe Launch App configurations API
+  phrasing_intents:
+  - id: listAppConfigurations
+    intent: List a company's app configurations
+    question: Which mobile app configurations does my company have in Adobe tags?
+  - id: createAppConfiguration
+    intent: Create an app configuration
+    question: What do I need to set up push messaging credentials for my app?
+  - id: retrieveAppConfiguration
+    intent: Look up an app configuration
+    question: Where can I see the settings of one app configuration?
+  - id: deleteAppConfiguration
+    intent: Delete an app configuration
+    question: How do I remove an app configuration I no longer use?
+  - id: updateAppConfiguration
+    intent: Update an app configuration
+    question: Can I rotate the push credentials in an app configuration?
+  - id: retrieveAppConfigurationCompany
+    intent: Find the company owning an app configuration
+    question: Which company owns this app configuration?
+  phrasing_ops: 6
   slug: adobe-launch-app-configurations-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: An audit event is a record of a specific change to another tag resource, generated at the time the change is made. These are system events which can be subscribed to through the use of a callback func
   name: Adobe Launch Audit events API
+  phrasing_intents:
+  - id: listAuditEvents
+    intent: List audit events
+    question: What changes have been made across my tag properties recently?
+  - id: retrieveAuditEvent
+    intent: Get one audit event
+    question: How do I see the full details of a single audit event?
+  phrasing_ops: 2
   slug: adobe-launch-audit-events-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: The Bitrate API from Adobe Launch — 1 operation(s) for bitrate.
   name: Adobe Launch Bitrate API
+  phrasing_intents:
+  - id: bitrateChange
+    intent: Track a streaming bitrate change
+    question: How do I report that the video stream switched bitrate?
+  phrasing_ops: 1
   slug: adobe-launch-bitrate-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: The Buffer API from Adobe Launch — 1 operation(s) for buffer.
   name: Adobe Launch Buffer API
+  phrasing_intents:
+  - id: bufferStart
+    intent: Signal that buffering started
+    question: How do I report that a video started buffering to Media Edge?
+  phrasing_ops: 1
   slug: adobe-launch-buffer-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: The Chapter API from Adobe Launch — 3 operation(s) for chapter.
   name: Adobe Launch Chapter API
+  phrasing_intents:
+  - id: chapterStart
+    intent: Track the start of a media chapter
+    question: How do I report that a new chapter began in a video session?
+  - id: chapterComplete
+    intent: Track the completion of a media chapter
+    question: How do I record that a viewer finished a chapter?
+  - id: chapterSkip
+    intent: Track a skipped media chapter
+    question: What should I send when a viewer skips a chapter?
+  phrasing_ops: 3
   slug: adobe-launch-chapter-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: Real-time events originating client-side, such as browsers or mobile devices
   name: Adobe Launch Client-to-server collection API
+  phrasing_intents:
+  - id: postV1Interact
+    intent: Send one browser event and get a live response
+    question: How do I send a single event from a web or mobile client to the Edge Network and get personalization back?
+  - id: postV1Collect
+    intent: Send a batch of client events without a response
+    question: Can I push events from several different end users in one unauthenticated client request?
+  - id: postV1IdentityAcquire
+    intent: Acquire identities for given namespaces
+    question: How do I fetch the visitor's identities for specific identity namespaces from the Edge Network?
+  phrasing_ops: 3
   slug: adobe-launch-client-to-server-collection-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: The Download API from Adobe Launch — 1 operation(s) for download.
   name: Adobe Launch Download API
+  phrasing_intents:
+  - id: downloaded
+    intent: Send offline media consumption events
+    question: How do I track video watched while the user was offline?
+  phrasing_ops: 1
   slug: adobe-launch-download-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: The Error API from Adobe Launch — 1 operation(s) for error.
   name: Adobe Launch Error API
+  phrasing_intents:
+  - id: error
+    intent: Signal a playback error
+    question: How do I report a player error during a media session?
+  phrasing_ops: 1
   slug: adobe-launch-error-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: An extension package usage authorization is an authorization granted by the package owner to other companies for the private use of the extension package versions.
   name: Adobe Launch Extension package usage authorization API
+  phrasing_intents:
+  - id: retrieveExtensionPackageUsageAuthorizationForPackage
+    intent: List usage authorizations for a package
+    question: Which organizations are authorized to use my private extension package?
+  - id: createExtensionPackageUsageAuthorization
+    intent: Authorize an org to use an extension package
+    question: How do I share my private extension package with another organization?
+  - id: retrieveExtensionPackageUsageAuthorization
+    intent: List all extension package usage authorizations
+    question: What extension package usage authorizations exist across my organization?
+  - id: deletePackageUsageAuthorization
+    intent: Revoke an extension package usage authorization
+    question: How do I stop another org from using my extension package?
+  - id: updateExtensionPackageUsageAuthorization
+    intent: Update an extension package usage authorization
+    question: How do I modify a usage authorization on an extension package?
+  - id: retrieveDataExtensionPackageUsageAuthorization
+    intent: Get the package behind a usage authorization
+    question: Which extension package does a usage authorization cover?
+  phrasing_ops: 6
   slug: adobe-launch-extension-package-usage-authorization-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: Notes are textual annotations that you can add to certain tag resources, such as data elements, extensions, libraries, properties, rules, and rule components.
   name: Adobe Launch Notes API
+  phrasing_intents:
+  - id: retrieveNote
+    intent: Look up a note by ID
+    question: How do I read a single tags note when I have its ID?
+  - id: listPropertyNotes
+    intent: List notes on a property
+    question: What notes have been left on my tags property?
+  - id: createPropertyNote
+    intent: Add a note to a property
+    question: How do I leave a note on a whole tags property?
+  - id: listDataElementNotes
+    intent: List notes on a data element
+    question: What notes are attached to this data element?
+  - id: createNote
+    intent: Add a note to a data element
+    question: How do I document why a data element is set up the way it is?
+  - id: listSecretNotes
+    intent: List notes on a secret
+    question: What notes are on this event forwarding secret?
+  - id: createSecretNote
+    intent: Add a note to a secret
+    question: How do I record who owns a secret or when it rotates?
+  - id: listExtensionNotes
+    intent: List notes on an extension
+    question: What notes have been added to this extension?
+  phrasing_ops: 15
   slug: adobe-launch-notes-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: The Pause API from Adobe Launch — 1 operation(s) for pause.
   name: Adobe Launch Pause API
+  phrasing_intents:
+  - id: pauseStart
+    intent: Track a media pause
+    question: How do I report that a viewer paused a video?
+  phrasing_ops: 1
   slug: adobe-launch-pause-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: The Ping API from Adobe Launch — 1 operation(s) for ping.
   name: Adobe Launch Ping API
+  phrasing_intents:
+  - id: ping
+    intent: Send a playback heartbeat ping
+    question: How often do I need to send pings during main content playback?
+  phrasing_ops: 1
   slug: adobe-launch-ping-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: The Play API from Adobe Launch — 1 operation(s) for play.
   name: Adobe Launch Play API
+  phrasing_intents:
+  - id: play
+    intent: Track media playback starting
+    question: How do I report that a video started or resumed playing?
+  phrasing_ops: 1
   slug: adobe-launch-play-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: Collect specific data for Platform profile(s)
   name: Adobe Launch Profile updates API
+  phrasing_intents:
+  - id: postV1PrivacySetConsent
+    intent: Set a user's marketing consent preferences
+    question: How do I record a visitor's opt-in or opt-out for marketing through the Edge Network?
+  phrasing_ops: 1
   slug: adobe-launch-profile-updates-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: A profile represents a tags user. Platform does not maintain its own database of users and permissions, and instead relies on Adobe IDs managed by Adobe’s company-wide Identity Management System (IMS)
   name: Adobe Launch Profiles API
+  phrasing_intents:
+  - id: retrieveUserDetails
+    intent: Get the logged-in user's profile
+    question: How can I see which user my Reactor access token belongs to?
+  phrasing_ops: 1
   slug: adobe-launch-profiles-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: Real-time events forwarded by a private server
   name: Adobe Launch Server-to-server collection API
+  phrasing_intents:
+  - id: postV2Interact
+    intent: Send one server event and get a live response
+    question: How do I send a single authenticated event from my server and get personalization decisions back?
+  - id: postV2Collect
+    intent: Send a batch of server events without a response
+    question: How do I push many events from different end users in one authenticated server request?
+  phrasing_ops: 2
   slug: adobe-launch-server-to-server-collection-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: The Session API from Adobe Launch — 3 operation(s) for session.
   name: Adobe Launch Session API
+  phrasing_intents:
+  - id: sessionStart
+    intent: Start a Media Edge session
+    question: How do I open a new Media Edge session and get its session ID?
+  - id: sessionComplete
+    intent: Signal the end of main content
+    question: How do I tell Media Edge the main content reached its end?
+  - id: sessionEnd
+    intent: Close an abandoned media session immediately
+    question: How do I close a session right away when the viewer abandons the content?
+  phrasing_ops: 3
   slug: adobe-launch-session-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
   description: The States API from Adobe Launch — 1 operation(s) for states.
   name: Adobe Launch States API
+  phrasing_intents:
+  - id: statesUpdate
+    intent: Report player state changes
+    question: How do I tell Media Edge that a player state changed during playback?
+  phrasing_ops: 1
   slug: adobe-launch-states-api
 arazzos:
 - description: Verify a rule exists, add a new rule component to it, and list the rule's components to confirm.
@@ -1999,9 +2557,9 @@ score:
   composite: 74.8
   coverage:
     artifact_dirs: 37
-    catalog_earned: 84.5
+    catalog_earned: 87.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 30.5
+    catalog_gap: 27.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 2.8

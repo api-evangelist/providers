@@ -31,6 +31,14 @@ common:
   title: ''
   type: Website
   url: https://www.nasdaqprivatemarket.com/
+coverage:
+  checked: '2026-10-05'
+  detail: The provider's website and API host return HTML pages but no OpenAPI, AsyncAPI, GraphQL, gRPC, or WSDL specifications were found.
+  evidence:
+  - status: 200
+    url: https://aliofinance.com/
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-09-24'
 description: Alio is a technology company providing innovative solutions in the financial services sector, focusing on data-driven platforms for asset management and investment analytics. The company aims to streamline workflows, enhance decision-making, and integrate modern APIs for seamless connectivity across financial ecosystems. and added to the network as a stub for full-pipeline profiling.
 layout: provider

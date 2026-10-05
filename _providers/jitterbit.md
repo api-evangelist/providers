@@ -53,21 +53,80 @@ apis:
   baseurl_source: declared
   description: The Login API from Jitterbit — 1 operation(s) for login.
   name: Jitterbit Login API
+  phrasing_intents:
+  - id: authenticate
+    intent: Log in and get a Harmony auth token
+    question: How do I get an auth token for the Jitterbit Harmony API with my username and password?
+  - id: convertAuthtokenToJwt
+    intent: Exchange an auth token for a JWT
+    question: Can I turn my Harmony auth token into a JSON Web Token?
+  phrasing_ops: 2
   slug: jitterbit-login-api
 - baseURL: https://harmony-api.na-east.jitterbit.com/{endpoint}
   baseurl_source: declared
   description: The Operations API from Jitterbit — 1 operation(s) for operations.
   name: Jitterbit Operations API
+  phrasing_intents:
+  - id: getOperationLogDetails
+    intent: Get log details for one operation run
+    question: How do I see the log details for a single execution of an Integration Studio operation?
+  - id: getOperationLogs
+    intent: List operation logs for an organization
+    question: Where can I retrieve the operation logs across my Harmony organization?
+  phrasing_ops: 2
   slug: jitterbit-operations-api
 - baseURL: https://harmony-api.na-east.jitterbit.com/{endpoint}
   baseurl_source: declared
   description: The Projects API from Jitterbit — 4 operation(s) for projects.
   name: Jitterbit Projects API
+  phrasing_intents:
+  - id: getProject
+    intent: Get an Integration Studio project
+    question: How do I retrieve the details of an Integration Studio project by its GUID?
+  - id: deployProject
+    intent: Deploy an Integration Studio project
+    question: How do I deploy an Integration Studio project so its changes go live?
+  - id: createProject
+    intent: Create a new Integration Studio project
+    question: Can I create a brand-new Integration Studio project through the Jitterbit API?
+  - id: deleteProject
+    intent: Delete an Integration Studio project
+    question: Can I permanently delete an Integration Studio project I no longer need?
+  - id: projectVariablesGet
+    intent: List a project's variables
+    question: Which project variables are defined on my Integration Studio project?
+  - id: projectVariablesSet
+    intent: Set the value of a project variable
+    question: Can I change a project variable's value or description through the API?
+  - id: exportProject
+    intent: Export a project to a JSON file
+    question: How do I export an Integration Studio project as a JSON file?
+  - id: importProject
+    intent: Import an exported project into an environment
+    question: Can I import a previously exported project file into another environment?
+  phrasing_ops: 10
   slug: jitterbit-projects-api
 - baseURL: https://harmony-api.na-east.jitterbit.com/{endpoint}
   baseurl_source: declared
   description: The Schedules API from Jitterbit — 2 operation(s) for schedules.
   name: Jitterbit Schedules API
+  phrasing_intents:
+  - id: getSchedules
+    intent: List a project's operation schedules
+    question: How do I see all the operation schedules set up for an Integration Studio project?
+  - id: updateSchedule
+    intent: Update an existing operation schedule
+    question: Can I change the timing of an operation schedule that already exists?
+  - id: createSchedule
+    intent: Create an operation schedule for a project
+    question: Can I create a new schedule so my Jitterbit operations run automatically?
+  - id: deleteSchedules
+    intent: Delete an operation schedule
+    question: How do I permanently remove an operation schedule from an environment?
+  - id: enableDisableSchedule
+    intent: Turn an operation schedule on or off
+    question: Can I pause a schedule without deleting it?
+  phrasing_ops: 5
   slug: jitterbit-schedules-api
 artifact_total: 15
 asyncapis:

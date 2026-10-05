@@ -354,11 +354,11 @@
      "slug": "zendesk",
      "description": "Zendesk provides customer service and engagement software that helps businesses manage support tickets, automate workflows, and offer multi-channel supportincluding email, chat, social media, and phonethrough a unified platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/screenshots/zendesk-2026-06-20T165936.png",
-     "score": 72.2,
+     "score": 72.7,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 66.1,
+      "discoverability": 71.4,
       "contract_quality": 53.0,
       "contract_governance": 18.2,
       "operational_transparency": 78.9,
@@ -504,11 +504,11 @@
      "slug": "zoom-phone",
      "description": "Zoom Phone is the cloud PBX / UCaaS voice product of Zoom Communications, headquartered in San Jose, California, and sold worldwide from its United States home market. It replaces on-premise telephony with a cloud calling service — extensions, auto receptionists, IVR, call queues, shared line groups, voicemail, call recording, fax, emergency (E911) addressing, and SMS/MMS — delivered either on Zoom-provided PSTN service, on a customer's own carrier through BYOC and Cloud Peering (Provider Exchange), or resold through carrier partners. In the telecom value chain Zoom Phone sits above the network as a UCaaS application layer that buys wholesale connectivity and number inventory from carriers rather than operating a mobile network, and its API posture reflects the software half of that split rather than the carrier half: the Zoom Phone API is fully self-serve, published as downloadable OpenAPI 3.0 with 391 documented operations across 46 resource groups, a 71-event webhook catalog, a separate Number Management API covering number allocation, BYOC numbers, ported number orders, SIP trunks and 10DLC SMS campaigns, OAuth 2.0 with fine-grained phone:* scopes, a public Postman workspace, and an official Node/TypeScript SDK. It is not a mobile network operator, is not a GSMA Open Gateway signatory, and exposes no CAMARA network APIs — no CAMARA reference was found anywhere in its developer surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoom-phone/refs/heads/main/screenshots/zoom-phone-2026-08-17T080441.png",
-     "score": 67.4,
+     "score": 67.9,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 70.0,
+      "discoverability": 75.0,
       "contract_quality": 62.9,
       "contract_governance": 18.2,
       "operational_transparency": 92.1,
@@ -561,61 +561,11 @@
    "shown": 26,
    "providers": [
     {
-     "name": "Erxes",
-     "slug": "erxes",
-     "description": "Open-source Experience Operating System (XOS) that unifies marketing, sales, operations and support in one self-hostable platform, positioned as a replacement for HubSpot, Zendesk, Linear and Wix. The machine surface is a GraphQL Federation API served by an Apollo Router gateway — there is no REST API and no OpenAPI — covering contacts, companies, products, tags, documents, brands, organization structure, team members and automations in the core subgraph, plus sales, frontline (inbox/tickets), operation (projects/tasks/cycles) and block plugin subgraphs. Authentication is OAuth 2.0 Device Authorization Grant with per-tenant clients and a documented 34-scope vocabulary. erxes ships the Community Edition under AGPL-3.0 alongside a proprietary Enterprise Edition, publishes its own agent plugin and agent skills, and releases roughly once per merge day.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/screenshots/erxes-2026-06-20T180818.png",
-     "score": 65.6,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 80.4,
-      "contract_quality": 46.9,
-      "contract_governance": 4.5,
-      "operational_transparency": 81.6,
-      "developer_ergonomics": 78.6,
-      "access_clarity": 76.3
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 40.2,
-      "matched_via": "fallback"
-     },
-     "agent_score": 28.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 11
-    },
-    {
      "name": "SignalWire",
      "slug": "signalwire",
      "description": "SignalWire is a Programmable Unified Communications (PUC) platform for voice, messaging, video, fax, SIP and AI voice agents, built by the team behind FreeSWITCH. It publishes two first-party OpenAPI 3.1 contracts from its public documentation repository — a 253-operation SignalWire REST API covering calling, messaging, video rooms, phone number management, Campaign Registry/10DLC, WhatsApp, Datasphere, SIP resources, subscribers, AI agents and logs, and a 79-operation Twilio-compatible Compatibility (LaML) API at /api/laml/2010-04-01 — plus an OpenRPC 1.3.2 JSON-RPC contract for live call control, a JSON Schema for SWML (SignalWire Markup Language), and 19 OpenAPI 3.1 webhook definitions covering AI/SWAIG, calling and messaging callbacks. Every request is served from a per-customer Space subdomain, {space_name}.signalwire.com, over HTTPS only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/screenshots/signalwire-2026-09-02T155435.png",
-     "score": 65.4,
+     "score": 65.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -658,18 +608,18 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 11
     },
     {
      "name": "8x8",
      "slug": "8x8",
      "description": "8x8, Inc. is a San Jose, California headquartered cloud communications provider that sells an integrated UCaaS, CCaaS and CPaaS platform (marketed as XCaaS) to business buyers in its home market of the United States and internationally. In the telecom value chain 8x8 sits in the aggregator half of the market, not the mobile network operator half: it does not own radio spectrum, and it resells carrier voice and messaging connectivity while adding contact center, unified communications, video (it owns and operates Jitsi as a Service) and analytics on top. Its API posture is genuinely developer-first for a company of its size — developer.8x8.com is a real self-serve portal, sign-up runs through the 8x8 Connect console, and the entire documentation site including 34 OpenAPI 3.x definitions is published openly on GitHub at 8x8Cloud/public-developer-docs. What 8x8 does not do is the network-API layer: there is no CAMARA reference, no GSMA Open Gateway participation, no Aduna channel, no TM Forum Open API conformance and no CIBA anywhere in its public developer corpus. 8x8 competes with Twilio, Vonage and Sinch on application-layer communications APIs, and buys the underlying network access rather than exposing it.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/8x8/refs/heads/main/screenshots/8x8-2026-08-07T160720.png",
-     "score": 65.3,
+     "score": 65.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 73.2,
+      "discoverability": 78.6,
       "contract_quality": 64.6,
       "contract_governance": 4.5,
       "operational_transparency": 92.1,
@@ -699,6 +649,56 @@
       "rate_limit_signal": "documented",
       "event_surface_described": true,
       "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 12
+    },
+    {
+     "name": "Erxes",
+     "slug": "erxes",
+     "description": "Open-source Experience Operating System (XOS) that unifies marketing, sales, operations and support in one self-hostable platform, positioned as a replacement for HubSpot, Zendesk, Linear and Wix. The machine surface is a GraphQL Federation API served by an Apollo Router gateway — there is no REST API and no OpenAPI — covering contacts, companies, products, tags, documents, brands, organization structure, team members and automations in the core subgraph, plus sales, frontline (inbox/tickets), operation (projects/tasks/cycles) and block plugin subgraphs. Authentication is OAuth 2.0 Device Authorization Grant with per-tenant clients and a documented 34-scope vocabulary. erxes ships the Community Edition under AGPL-3.0 alongside a proprietary Enterprise Edition, publishes its own agent plugin and agent skills, and releases roughly once per merge day.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/screenshots/erxes-2026-06-20T180818.png",
+     "score": 65.6,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 80.4,
+      "contract_quality": 46.9,
+      "contract_governance": 4.5,
+      "operational_transparency": 81.6,
+      "developer_ergonomics": 78.6,
+      "access_clarity": 76.3
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 40.2,
+      "matched_via": "fallback"
+     },
+     "agent_score": 28.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -826,11 +826,11 @@
      "slug": "hootsuite",
      "description": "Hootsuite is a social media management platform that lets organizations schedule posts, monitor conversations, run paid campaigns, and analyze performance across LinkedIn, X (Twitter), Facebook, Instagram, TikTok, YouTube, and Pinterest from a single dashboard. The platform serves marketers, agencies, and enterprises with collaboration, approval, and governance workflows. Hootsuite publishes four first-party machine-readable API contracts on platform.hootsuite.com — a 48-operation REST API for messages, media, social profiles, members, teams and SCIM 2.0 provisioning; an Analytics API for organic and paid metrics; the Inbox 2.0 (Sparkcentral) API for CRM, virtual agents, queues and proactive messaging; and the Amplify employee-advocacy API — all authenticated with OAuth 2.0. It also serves an RFC 9727 API catalog, RFC 8414 authorization server metadata and RFC 9728 protected resource metadata.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/screenshots/hootsuite-2026-06-20T182835.png",
-     "score": 63.3,
+     "score": 63.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 75.0,
+      "discoverability": 80.0,
       "contract_quality": 62.3,
       "contract_governance": 4.5,
       "operational_transparency": 81.6,
@@ -1022,6 +1022,56 @@
      "rank": 19
     },
     {
+     "name": "RingCentral",
+     "slug": "ringcentral",
+     "description": "RingCentral provides unified cloud communications for businesses including voice, video, messaging, contact center, and events. The RingCentral API exposes call control, SMS, faxing, voicemail, presence, team messaging, video, and analytics.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/screenshots/ringcentral-2026-06-20T193124.png",
+     "score": 61.5,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 58.1,
+      "contract_governance": 18.2,
+      "operational_transparency": 73.7,
+      "developer_ergonomics": 67.9,
+      "access_clarity": 64.5
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 32.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 43.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": true,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 20
+    },
+    {
      "name": "Entergram",
      "slug": "entergram",
      "description": "Entergram is a CRM built specifically for Telegram. It connects personal Telegram accounts (not bots) into a shared team workspace where sales, support, community and trading teams manage conversations at scale — a multi-account inbox, a CRM table and Kanban pipeline, custom columns and labels, broadcast messaging, and a ticketing system with assignment, SLA and status tracking. Its developer surface has three parts: a workspace-scoped REST API (X-API-Key) covering accounts, contacts, groups, chats, messages, custom fields, tickets, webhooks and resumable events; a hosted Model Context Protocol (MCP) server for personal Telegram accounts (OAuth2 + PKCE) that lets AI agents read chats, manage tickets and update CRM fields; and outbound webhooks for incoming/outgoing message events, plus a Make.com integration.",
@@ -1068,56 +1118,6 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 20
-    },
-    {
-     "name": "RingCentral",
-     "slug": "ringcentral",
-     "description": "RingCentral provides unified cloud communications for businesses including voice, video, messaging, contact center, and events. The RingCentral API exposes call control, SMS, faxing, voicemail, presence, team messaging, video, and analytics.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/screenshots/ringcentral-2026-06-20T193124.png",
-     "score": 61.0,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 42.9,
-      "contract_quality": 58.1,
-      "contract_governance": 18.2,
-      "operational_transparency": 73.7,
-      "developer_ergonomics": 67.9,
-      "access_clarity": 64.5
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 32.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 43.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": true,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 21
     },
     {
@@ -1125,11 +1125,11 @@
      "slug": "genesys",
      "description": "Genesys is a global cloud customer experience (CX) and contact center software company whose flagship Genesys Cloud CX platform powers omnichannel customer engagement, routing, workforce management, and AI-driven orchestration. The Genesys Cloud Platform API is a large REST API of more than 3,000 public operations spanning conversations, routing, analytics, telephony (edge), workforce management, knowledge, journey, outbound, quality, gamification, integrations, and administration. It is secured with OAuth 2, described by a public OpenAPI (Swagger 2.0) definition, and supported by official SDKs for Java, .NET, Python, Go, JavaScript/Node, and iOS/Swift, a command-line interface, a notifications/websocket event surface, and a weekly changelog.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/screenshots/genesys-2026-07-25T215607.png",
-     "score": 60.3,
+     "score": 60.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 66.7,
+      "discoverability": 71.7,
       "contract_quality": 59.2,
       "contract_governance": 18.2,
       "operational_transparency": 26.3,
@@ -1190,11 +1190,11 @@
      "slug": "gladly",
      "description": "Gladly is a San Francisco–based people-centered customer service AI platform. The Gladly Hero agent workspace unifies voice, chat, SMS, email, and social into a single, channel-agnostic conversation per Customer, while Gladly Sidekick AI handles routine resolutions, drafts replies, and hands off to humans with full context. Brands integrate via the REST API, the Chat SDK (Web/iOS/Android), the Help Center widget, the embedded App Platform, webhooks, and a brand-hosted Lookup API. Customers include JetBlue, Allbirds, Crate & Barrel, Warby Parker, Ulta, Nordstrom, TUMI, UGG, Tory Burch, and Breeze Airways.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gladly/refs/heads/main/screenshots/gladly-2026-06-20T181857.png",
-     "score": 59.4,
+     "score": 59.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 51.8,
+      "discoverability": 57.1,
       "contract_quality": 64.6,
       "contract_governance": 27.3,
       "operational_transparency": 24.2,
@@ -2654,6 +2654,56 @@
      "rank": 50
     },
     {
+     "name": "Netomi",
+     "slug": "netomi",
+     "description": "Netomi (founded 2016 as msg.ai) is an enterprise agentic AI platform for customer experience. Its \"Agentic OS for CX\" orchestrates a network of AI agents across chat, email, telephony, social, search, MCP and API channels, layering a governance tier (topic and policy guardrails, prompt security, response validation) over a task-planning orchestration agent and specialised knowledge-retrieval, action, personalisation and sentiment agents, with RAG/Graph-RAG retrieval, reinforcement-learning feedback and AI observability. Netomi ships first-party mobile Chat SDKs for iOS (Swift Package Manager, plus the deprecated NetomiChatSDK CocoaPod), Android (com.netomi.chat:chat-widget-android on Maven Central) and React Native (@netomi.com/netomi-chat-react-native on npm), all backed by the api.netomi.com service with optional JWT-authenticated sessions, guest sessions, custom API headers and a bidirectional SDK event bus. The platform runs in US, EU and Singapore production regions and publishes SOC 2 Type II, ISO 27001, PCI DSS, HIPAA, GDPR, CCPA and PDPA compliance posture. The Agentic Studio console and the developer documentation portal are gated behind an enterprise account, but a live, unlinked OpenAPI 3.1.0 contract for the AgentDesk REST API — 56 paths, 67 operations, 103 schemas, covering the conversation engine, NLU prediction, query analysis, conversation history, per-bot rate-limit configuration, visitor authorization and sixteen inbound channel webhooks (Zendesk, Zoho, Salesforce, Freshdesk, Gladly, Helpshift, Sprinklr, Sunshine Conversations, Facebook, Twitter, Google Assistant, Firebase) — is served publicly at https://api.netomi.com/v3/api-docs with Swagger UI at https://api.netomi.com/swagger-ui.html.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/screenshots/netomi-2026-08-07T185015.png",
+     "score": 50.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 48.1,
+      "contract_governance": 18.2,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 61.3,
+      "access_clarity": 35.5
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 22.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 23.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 51
+    },
+    {
      "name": "Dashbot",
      "slug": "dashbot",
      "description": "Dashbot is a conversational-data analytics platform (now operating as Dimension Labs) that ingests chatbot, voice-assistant, live-chat, call, survey and other unstructured customer conversations and enriches them into structured \"dimensions\" for causal intelligence and reporting. Data is sent in through a Universal REST tracker and dozens of one-click integrations (Twilio, Slack, Intercom, Zendesk, Salesforce, Amazon Lex/Connect, Google Dialogflow, Genesys, Cognigy, Kore.ai, Rasa, and more), then explored through dashboards, data explorer, flows and an analytics Agent. A REST Export API (api.dimensionlabs.io) and first-party JavaScript, Python and Ruby SDKs let teams pull enriched data back out programmatically. Dashbot was surfaced as a portfolio company of bessemer-venture-partners; the company rebranded to Dimension Labs while the API and SDKs retain the Dashbot name (api.dashbot.io still responds).",
@@ -2696,56 +2746,6 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 51
-    },
-    {
-     "name": "Netomi",
-     "slug": "netomi",
-     "description": "Netomi (founded 2016 as msg.ai) is an enterprise agentic AI platform for customer experience. Its \"Agentic OS for CX\" orchestrates a network of AI agents across chat, email, telephony, social, search, MCP and API channels, layering a governance tier (topic and policy guardrails, prompt security, response validation) over a task-planning orchestration agent and specialised knowledge-retrieval, action, personalisation and sentiment agents, with RAG/Graph-RAG retrieval, reinforcement-learning feedback and AI observability. Netomi ships first-party mobile Chat SDKs for iOS (Swift Package Manager, plus the deprecated NetomiChatSDK CocoaPod), Android (com.netomi.chat:chat-widget-android on Maven Central) and React Native (@netomi.com/netomi-chat-react-native on npm), all backed by the api.netomi.com service with optional JWT-authenticated sessions, guest sessions, custom API headers and a bidirectional SDK event bus. The platform runs in US, EU and Singapore production regions and publishes SOC 2 Type II, ISO 27001, PCI DSS, HIPAA, GDPR, CCPA and PDPA compliance posture. The Agentic Studio console and the developer documentation portal are gated behind an enterprise account, but a live, unlinked OpenAPI 3.1.0 contract for the AgentDesk REST API — 56 paths, 67 operations, 103 schemas, covering the conversation engine, NLU prediction, query analysis, conversation history, per-bot rate-limit configuration, visitor authorization and sixteen inbound channel webhooks (Zendesk, Zoho, Salesforce, Freshdesk, Gladly, Helpshift, Sprinklr, Sunshine Conversations, Facebook, Twitter, Google Assistant, Firebase) — is served publicly at https://api.netomi.com/v3/api-docs with Swagger UI at https://api.netomi.com/swagger-ui.html.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/screenshots/netomi-2026-08-07T185015.png",
-     "score": 50.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 67.9,
-      "contract_quality": 48.1,
-      "contract_governance": 18.2,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 61.3,
-      "access_clarity": 35.5
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 22.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 23.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -2804,6 +2804,56 @@
      "rank": 53
     },
     {
+     "name": "Front",
+     "slug": "front",
+     "description": "Front is a customer operations platform unifying shared inboxes, chat, SMS, social, and CRM workflows. Front exposes a Core API (conversations, messages, channels, contacts, teammates, analytics), a Channels API for custom messaging integrations, a Plugin SDK for embedded UI apps, a Chat Widget, and Connectors for low-code automations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/front/refs/heads/main/screenshots/front-2026-06-20T181553.png",
+     "score": 49.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 55.4,
+      "contract_quality": 50.6,
+      "contract_governance": 0.0,
+      "operational_transparency": 53.9,
+      "developer_ergonomics": 29.8,
+      "access_clarity": 75.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 26.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 25.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "unknown",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 54
+    },
+    {
      "name": "FrontApp",
      "slug": "frontapp",
      "description": "Front is a customer service and communication platform that combines the efficiency of a help desk with the familiarity of email, giving teams a shared inbox across email, SMS, chat, and social channels. The Front Core API is a REST API (base https://api2.frontapp.com) exposing 340+ endpoints across conversations, messages, drafts, comments, contacts, accounts, inboxes, channels, tags, teammates, teams, knowledge bases, shifts, analytics, links, message templates, and signatures. It supports API-token and OAuth 2.0 authentication with 50+ granular scopes, cursor pagination, per-company rate limiting with standard headers, webhooks and application triggers for events, and an official hosted MCP server for AI agents. Front is a portfolio company of Battery Ventures.",
@@ -2858,7 +2908,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "Agile CRM",
@@ -2908,7 +2958,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "OutRival",
@@ -2958,7 +3008,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "Serval",
@@ -3008,7 +3058,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "Sprinklr",
@@ -3058,7 +3108,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "Udesk",
@@ -3098,56 +3148,6 @@
       "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 59
-    },
-    {
-     "name": "Front",
-     "slug": "front",
-     "description": "Front is a customer operations platform unifying shared inboxes, chat, SMS, social, and CRM workflows. Front exposes a Core API (conversations, messages, channels, contacts, teammates, analytics), a Channels API for custom messaging integrations, a Plugin SDK for embedded UI apps, a Chat Widget, and Connectors for low-code automations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/front/refs/heads/main/screenshots/front-2026-06-20T181553.png",
-     "score": 49.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 50.6,
-      "contract_governance": 0.0,
-      "operational_transparency": 53.9,
-      "developer_ergonomics": 29.8,
-      "access_clarity": 75.0
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 26.5,
-      "matched_via": "fallback"
-     },
-     "agent_score": 25.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "unknown",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3816,6 +3816,56 @@
      "rank": 72
     },
     {
+     "name": "Happyrobot",
+     "slug": "happyrobot",
+     "description": "HappyRobot is an AI orchestration platform — \"the AI operating system for the real economy\" — that lets enterprises build, govern and deploy AI agents (\"AI workers\") into operational workflows across logistics, freight brokerage, 3PL, utilities, airlines, finance, insurance, manufacturing, retail and telecom. Agents place and answer phone calls, send and receive email, SMS, WhatsApp and chat, read and write to TMS/ERP systems, and execute multi-step workflows built as node graphs in a visual builder. The Happyrobot Public API (v2) exposes 205 operations across 32 resource families — workflows, versions and nodes, runs, sessions and messages, contacts and memories, knowledge bases, phone numbers and SIP trunks, integrations, chat and voice tokens, signals, billing, plus a full agent-governance surface (audits, northstars, custom evals, adversarial tests and suites). Authentication is a bearer API key scoped to an organization and an environment; the platform additionally runs an Auth0 OIDC tenant for human sign-in and an OAuth 2.0 authorization server for its MCP surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/screenshots/happyrobot-2026-08-07T165946.png",
+     "score": 46.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.0,
+      "contract_quality": 55.4,
+      "contract_governance": 18.2,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 35.1,
+      "access_clarity": 35.5
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 45.1,
+      "matched_via": "fallback"
+     },
+     "agent_score": 49.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 73
+    },
+    {
      "name": "Dixa",
      "slug": "dixa",
      "description": "Dixa is a conversational customer service platform with a REST API for managing conversations, queues, agents, routing, knowledge base articles, and customer satisfaction data. The API enables developers to build automated workflows, integrate external data into routing logic, export conversations and activity logs, manage users and teams, and access omnichannel messaging across phone, email, chat, and social channels.",
@@ -3863,7 +3913,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "Nextiva",
@@ -3913,7 +3963,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 75
     },
     {
      "name": "Fullview",
@@ -3968,56 +4018,6 @@
       "delegated_identity": "served",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 75
-    },
-    {
-     "name": "Happyrobot",
-     "slug": "happyrobot",
-     "description": "HappyRobot is an AI orchestration platform — \"the AI operating system for the real economy\" — that lets enterprises build, govern and deploy AI agents (\"AI workers\") into operational workflows across logistics, freight brokerage, 3PL, utilities, airlines, finance, insurance, manufacturing, retail and telecom. Agents place and answer phone calls, send and receive email, SMS, WhatsApp and chat, read and write to TMS/ERP systems, and execute multi-step workflows built as node graphs in a visual builder. The Happyrobot Public API (v2) exposes 205 operations across 32 resource families — workflows, versions and nodes, runs, sessions and messages, contacts and memories, knowledge bases, phone numbers and SIP trunks, integrations, chat and voice tokens, signals, billing, plus a full agent-governance surface (audits, northstars, custom evals, adversarial tests and suites). Authentication is a bearer API key scoped to an organization and an environment; the platform additionally runs an Auth0 OIDC tenant for human sign-in and an OAuth 2.0 authorization server for its MCP surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/screenshots/happyrobot-2026-08-07T165946.png",
-     "score": 46.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 70.0,
-      "contract_quality": 55.4,
-      "contract_governance": 18.2,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 35.1,
-      "access_clarity": 35.5
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 45.1,
-      "matched_via": "fallback"
-     },
-     "agent_score": 49.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
       "agentic_commerce": false
      },
      "rank": 76
@@ -5406,6 +5406,56 @@
      "rank": 102
     },
     {
+     "name": "Wazo",
+     "slug": "wazo",
+     "description": "Wazo Communication Inc. builds the Wazo Platform, an open-source (GPL-3.0) programmable unified-communications and contact-centre platform assembled from Asterisk, Kamailio, RabbitMQ, PostgreSQL and nginx, which MSPs, carriers, telecom integrators and enterprises self-host or resell white-label as UCaaS. The platform is API-first: thirteen HTTP microservices — authentication, stack configuration (confd), runtime call control (calld), call detail records, directories, call-centre agents, presence and chat, phone auto-provisioning, webhooks, plugin management, the Asterisk Manager facade and initial setup — each publish their own Swagger 2.0 contract totalling 932 operations, share a single X-Auth-Token bearer model governed by 788 fine-grained ACL permissions, and emit 327 named events onto a RabbitMQ bus that wazo-webhookd relays as HTTP webhooks and wazo-websocketd streams over WebSocket. There is no public multi-tenant API host: every base URL is the customer's own stack.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wazo/refs/heads/main/screenshots/wazo-2026-09-02T170515.png",
+     "score": 38.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 78.6,
+      "contract_quality": 26.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 80.4,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 13.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 35.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 103
+    },
+    {
      "name": "Gorgias",
      "slug": "gorgias",
      "description": "Gorgias is a customer support and helpdesk platform purpose-built for ecommerce brands, with deep native integrations into Shopify, BigCommerce, Magento, and other commerce stacks to unify email, chat, social, SMS, and voice conversations alongside order data. The platform automates repetitive support tasks with AI agents and macros, surfaces revenue attribution for support interactions, and powers self-service flows on storefronts. The Gorgias REST API provides full CRUD access to tickets, customers, macros, integrations, and widgets using HTTP Basic authentication or OAuth2 for public apps.",
@@ -5453,7 +5503,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 104
     },
     {
      "name": "Bitrix24",
@@ -5503,7 +5553,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 105
     },
     {
      "name": "Arena",
@@ -5553,7 +5603,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 106
     },
     {
      "name": "Import2",
@@ -5604,56 +5654,6 @@
       "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 106
-    },
-    {
-     "name": "Wazo",
-     "slug": "wazo",
-     "description": "Wazo Communication Inc. builds the Wazo Platform, an open-source (GPL-3.0) programmable unified-communications and contact-centre platform assembled from Asterisk, Kamailio, RabbitMQ, PostgreSQL and nginx, which MSPs, carriers, telecom integrators and enterprises self-host or resell white-label as UCaaS. The platform is API-first: thirteen HTTP microservices — authentication, stack configuration (confd), runtime call control (calld), call detail records, directories, call-centre agents, presence and chat, phone auto-provisioning, webhooks, plugin management, the Asterisk Manager facade and initial setup — each publish their own Swagger 2.0 contract totalling 932 operations, share a single X-Auth-Token bearer model governed by 788 fine-grained ACL permissions, and emit 327 named events onto a RabbitMQ bus that wazo-webhookd relays as HTTP webhooks and wazo-websocketd streams over WebSocket. There is no public multi-tenant API host: every base URL is the customer's own stack.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wazo/refs/heads/main/screenshots/wazo-2026-09-02T170515.png",
-     "score": 38.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 26.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 80.4,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 13.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 35.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,

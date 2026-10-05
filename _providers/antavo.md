@@ -40,146 +40,489 @@ apis:
   baseurl_source: declared
   description: This endpoint collects and aggregates all activities, provided by all modules
   name: Antavo Activities API
+  phrasing_intents:
+  - id: getCustomersByCustomerIdActivitiesEarn
+    intent: List ways a customer can earn
+    question: Which ways can this member earn points right now?
+  - id: getCustomersByCustomerIdActivitiesSpend
+    intent: List ways a customer can spend
+    question: What can a member spend their points on?
+  - id: getCustomersByCustomerIdActivities
+    intent: List all earn and spend activities
+    question: Can I get both earn and spend activities for a customer in one call?
+  phrasing_ops: 3
   slug: antavo-activities-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: The Async Events API from Antavo — 2 operation(s) for async events.
   name: Antavo Async Events API
+  phrasing_intents:
+  - id: getV1AsyncEventsByCorrelationId
+    intent: Check an async event's processing status
+    question: Has my asynchronously submitted event been processed yet?
+  - id: postV1AsyncEvents
+    intent: Submit an event for background processing
+    question: Can I send a loyalty event without waiting for it to be processed?
+  phrasing_ops: 2
   slug: antavo-async-events-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: The Authentication API API from Antavo — 1 operation(s) for authentication api.
   name: Antavo Authentication API
+  phrasing_intents:
+  - id: postV1AuthToken
+    intent: Generate an API access token
+    question: How do I get an access token for the Antavo API?
+  phrasing_ops: 1
   slug: antavo-authentication-api-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: Cart endpoints collection
   name: Antavo Cart API
+  phrasing_intents:
+  - id: postV1CartFinalize
+    intent: Finalize a checkout with promotions
+    question: How do I complete a checkout with the final promotions applied?
+  - id: postV1Cart
+    intent: Preview promotions for a cart
+    question: Which promotions would apply to this cart before checkout?
+  phrasing_ops: 2
   slug: antavo-cart-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: Endpoints provided by the _Challenges_ module
   name: Antavo Challenges API
+  phrasing_intents:
+  - id: getCustomersByCustomerIdActivitiesChallenges
+    intent: List open challenges for a customer
+    question: Which challenges can a member still complete?
+  - id: getCustomersByCustomerIdChallenges
+    intent: List a customer's completed challenges
+    question: Which challenges has a member already completed?
+  - id: getV2CustomersByCustomerIdActivitiesChallenges
+    intent: Filter available challenges for a customer
+    question: Can I filter a customer's available challenges by tag or points?
+  - id: getV2CustomersByCustomerIdChallenges
+    intent: Filter a customer's completed challenges by date
+    question: Can I see challenges a member completed within a date range?
+  phrasing_ops: 4
   slug: antavo-challenges-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: The Clubs API from Antavo — 21 operation(s) for clubs.
   name: Antavo Clubs API
+  phrasing_intents:
+  - id: getV1ClubsByClubIdHistory
+    intent: Show a club's action history
+    question: What actions have happened in a club over time?
+  - id: getV1ClubsByClubIdMembersByCustomerId
+    intent: Get one club member's details
+    question: What role, balance and spending limit does a specific club member have?
+  - id: getV1ClubsByClubIdMembers
+    intent: List a club's members
+    question: Who belongs to a given club?
+  - id: getV1ClubsByClubIdPointExpiry
+    intent: List a club's expiring points by date
+    question: Which club points will expire within a date range?
+  - id: getV1ClubsByClubId
+    intent: Get a club's details
+    question: What are the details of one particular club?
+  - id: getV1ClubsTemplates
+    intent: List club templates
+    question: Which club templates are configured?
+  - id: getV1Clubs
+    intent: List clubs
+    question: Which clubs exist in my loyalty program?
+  - id: postV1Clubs
+    intent: Create a club
+    question: Can I create a new club for members to join?
+  phrasing_ops: 22
   slug: antavo-clubs-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: The Content consumption API from Antavo — 1 operation(s) for content consumption.
   name: Antavo Content consumption API
+  phrasing_intents:
+  - id: getCustomersByCustomerIdActivitiesContentConsumption
+    intent: List content consumption activities
+    question: Which content consumption activities can a member complete?
+  phrasing_ops: 1
   slug: antavo-content-consumption-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: Endpoints provided by the _Contests Lite_ module
   name: Antavo Contests API
+  phrasing_intents:
+  - id: getCustomersByCustomerIdActivitiesContests
+    intent: List contests open to a customer
+    question: Which contests can a member enter right now?
+  - id: postCustomersByCustomerIdActivitiesContestsByContestIdEnter
+    intent: Enter a customer into a contest
+    question: Can a customer submit more than one entry into a contest?
+  phrasing_ops: 2
   slug: antavo-contests-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: The Coupon pools API from Antavo — 2 operation(s) for coupon pools.
   name: Antavo Coupon pools API
+  phrasing_intents:
+  - id: postV1CouponPoolsByCouponPoolIdUpdate
+    intent: Update a coupon pool
+    question: Can I change the value or expiration of an existing coupon pool?
+  - id: postV1CouponPools
+    intent: Create a coupon pool
+    question: Can I set up a new pool of coupons with a fixed discount value?
+  phrasing_ops: 2
   slug: antavo-coupon-pools-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: Bulk Coupons API endpoints
   name: Antavo Coupons API
+  phrasing_intents:
+  - id: getV1BulkOperationCouponsByBatchIdStatusError
+    intent: List errors from a coupon import
+    question: Which coupon codes failed during my coupon import?
+  - id: getV1BulkOperationCouponsByBatchIdStatus
+    intent: Check the status of a coupon import
+    question: Is my coupon batch import queued, processing or done?
+  - id: postV1BulkOperationCouponsByCouponPoolIdByAction
+    intent: Upload or assign coupons in a pool in bulk
+    question: Can I upload a batch of coupon codes into a coupon pool?
+  - id: Coupons
+    intent: Search coupons across all customers
+    question: How do I look up a coupon by its code without knowing which customer has it?
+  - id: getCustomersByCustomerIdCoupons
+    intent: Filter coupons assigned to a customer
+    question: Does a member hold a coupon with a particular code?
+  - id: listCustomerCoupons
+    intent: List a customer's coupons
+    question: What coupons does a specific loyalty member hold?
+  phrasing_ops: 6
   slug: antavo-coupons-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: Bulk Customer List API endpoints
   name: Antavo Customer lists API
+  phrasing_intents:
+  - id: getV1BulkOperationCustomerListByBatchIdStatusErrors
+    intent: List errors from a customer list operation
+    question: Which customers failed to be added to or removed from a list?
+  - id: getV1BulkOperationCustomerListByBatchIdStatus
+    intent: Check a customer list operation's status
+    question: Has my customer list update finished processing?
+  - id: postV1BulkOperationCustomerListAddByCustomerListId
+    intent: Add customers to a list in bulk
+    question: Can I add many customers to a customer list at once?
+  - id: postV1BulkOperationCustomerListRemoveByCustomerListId
+    intent: Remove customers from a list in bulk
+    question: Can I remove a batch of customers from a list?
+  - id: deleteEntitiesCoreCustomerListByEntityId
+    intent: Archive a customer list
+    question: Can I archive a customer list I no longer use?
+  - id: getEntitiesCoreCustomerListByEntityId
+    intent: Get a customer list
+    question: What are the details of a specific customer list?
+  - id: postEntitiesCoreCustomerListByEntityId
+    intent: Update a customer list
+    question: Can I rename a customer list or change its status?
+  - id: getEntitiesCoreCustomerList
+    intent: List all customer lists
+    question: Which customer lists exist in my program?
+  phrasing_ops: 9
   slug: antavo-customer-lists-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: The Customers API from Antavo — 11 operation(s) for customers.
   name: Antavo Customers API
+  phrasing_intents:
+  - id: getCustomersCount
+    intent: Count active customers
+    question: How many active members are in my loyalty program?
+  - id: getCustomersByCustomerId
+    intent: Fetch a customer with selected fields
+    question: Can I limit which profile fields come back when fetching one customer?
+  - id: getCustomers
+    intent: Search customers to find their Antavo ID
+    question: Can I find a customer's Antavo ID by searching on their email?
+  - id: postCustomersByCustomerIdMerge
+    intent: Merge a customer into another account
+    question: Can I merge a duplicate loyalty account into another one?
+  - id: getCustomersVerify
+    intent: Verify a customer's registration
+    question: What activates a new member's account after they register?
+  - id: postCustomersByCustomerIdOptIn
+    intent: Register a customer with login credentials
+    question: Can a customer self-register with a password for the loyalty program?
+  - id: postCustomersLogin
+    intent: Log a customer in
+    question: Can I authenticate a loyalty member with a username and password?
+  - id: postCustomersPasswordRequest
+    intent: Send a password reset request
+    question: What lets a member who forgot their password get a reset link?
+  phrasing_ops: 11
   slug: antavo-customers-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: Endpoints for probing data extensions
   name: Antavo Data extensions API
+  phrasing_intents:
+  - id: getCustomersByCustomerIdDataByDataExtension
+    intent: Read a customer's data extension
+    question: Can I read the custom data stored for a customer in a data extension?
+  phrasing_ops: 1
   slug: antavo-data-extensions-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: The Events API from Antavo — 3 operation(s) for events.
   name: Antavo Events API
+  phrasing_intents:
+  - id: bulk
+    intent: Submit many loyalty events in one request
+    question: How do I send a batch of customer events in a single call instead of one at a time?
+  - id: events
+    intent: Submit a single loyalty event for a customer
+    question: How do I record one checkout or point_add event for a customer?
+  - id: listCustomerEvents
+    intent: List a customer's event history
+    question: What events are in a customer's loyalty history?
+  phrasing_ops: 3
   slug: antavo-events-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: The FAQ API from Antavo — 1 operation(s) for faq.
   name: Antavo FAQ API
+  phrasing_intents:
+  - id: getFaq
+    intent: List FAQ entries
+    question: Can I pull the FAQ questions and answers configured for the loyalty program?
+  phrasing_ops: 1
   slug: antavo-faq-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: A general method for creating, accessing and modifying an Antavo entity.
   name: Antavo Generic API
+  phrasing_intents:
+  - id: Entitydelete
+    intent: Archive a deactivated entity item
+    question: Can I archive an inactive item from any entity module so it disappears from the Management UI?
+  - id: entityget
+    intent: Retrieve any entity item by its ID
+    question: How do I fetch a single item from any Antavo entity module, including custom entities?
+  - id: entityupdate
+    intent: Update attributes on an existing entity item
+    question: How do I change an attribute on an existing item in a generic or custom entity module?
+  - id: Genericspeccreate
+    intent: Create an entity item with an ID you choose
+    question: Can I create a generic entity item and assign my own ID to it instead of letting the system pick one?
+  - id: getEntitiesByModuleByEntity
+    intent: List all items of an entity type
+    question: Can I list every item in a custom entity module?
+  - id: Genericcreate
+    intent: Create an entity item with a system-assigned ID
+    question: How do I add a new item to an entity module without specifying an ID myself?
+  - id: postEntities
+    intent: Submit entity changes in bulk
+    question: Can I send many entity calls in a single request?
+  phrasing_ops: 7
   slug: antavo-generic-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: Endpoints providing information regarding the customers interactions with the loyalty cloud
   name: Antavo History API
+  phrasing_intents:
+  - id: getCustomersByCustomerIdEvents
+    intent: List one customer's event history
+    question: What has a specific member done in the loyalty program?
+  - id: getCustomersEvents
+    intent: List events for all customers by time
+    question: Can I pull every event across all customers in a time window?
+  phrasing_ops: 2
   slug: antavo-history-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: The Leaderboard API from Antavo — 1 operation(s) for leaderboard.
   name: Antavo Leaderboard API
+  phrasing_intents:
+  - id: getCustomersLeaderboard
+    intent: Show the customer leaderboard
+    question: Who are the top-performing members in my loyalty program?
+  phrasing_ops: 1
   slug: antavo-leaderboard-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: Endpoints provided by the _Offers_ module
   name: Antavo Offers API
+  phrasing_intents:
+  - id: getCustomersByCustomerIdActivitiesOffers
+    intent: List offers available to a customer
+    question: Which offers are available to a specific member?
+  - id: postCustomersByCustomerIdActivitiesOffersByOfferIdClaim
+    intent: Claim an offer for a customer
+    question: Can I claim an offer on a customer's behalf?
+  - id: postOffers
+    intent: Get offers for a cart's products
+    question: Which product offers apply to what's in a customer's cart?
+  phrasing_ops: 3
   slug: antavo-offers-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: The Points Preview API API from Antavo — 1 operation(s) for points preview api.
   name: Antavo Points Preview API
+  phrasing_intents:
+  - id: postExtensionsAutomationCampaignBonus
+    intent: Preview points for a purchase
+    question: How many bonus points would a purchase earn before checkout?
+  phrasing_ops: 1
   slug: antavo-points-preview-api-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: The Prize wheels API from Antavo — 2 operation(s) for prize wheels.
   name: Antavo Prize wheels API
+  phrasing_intents:
+  - id: getCustomersByCustomerIdPrizeWheelsByPwId
+    intent: Show a prize wheel's slices
+    question: What prizes are on each slice of a prize wheel?
+  - id: postCustomersByCustomerIdPrizeWheelsByPwId
+    intent: Spin a prize wheel for a customer
+    question: Can a member spin a prize wheel through the API?
+  - id: getCustomersByCustomerIdPrizeWheels
+    intent: List prize wheels for a customer
+    question: Which prize wheels can a customer play?
+  phrasing_ops: 3
   slug: antavo-prize-wheels-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: Endpoints provided by the _Gamified Profiling_ module
   name: Antavo Profiling API
+  phrasing_intents:
+  - id: getCustomersByCustomerIdActivitiesProfilingByFlowIdNext
+    intent: Get the next profiling question
+    question: What's the next profiling question a member should answer?
+  - id: getCustomersByCustomerIdActivitiesProfiling
+    intent: List profiling flows for a customer
+    question: Which profiling flows can a customer complete?
+  - id: postCustomersByCustomerIdActivitiesProfilingByFlowIdQuestionsByQuestionId
+    intent: Answer a profiling question
+    question: Can I submit a customer's answer to a profiling question?
+  phrasing_ops: 3
   slug: antavo-profiling-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: Promotion endpoints collection
   name: Antavo Promotion API
+  phrasing_intents:
+  - id: getV1PromotionByPromotionId
+    intent: Get a promotion
+    question: What are the settings of one promotion?
+  - id: getV1Promotions
+    intent: List promotions
+    question: Which promotions are configured in my workspace?
+  - id: postV1PromotionByPromotionIdStatus
+    intent: Change a promotion's status
+    question: Can I activate a draft promotion or send it back to draft?
+  phrasing_ops: 3
   slug: antavo-promotion-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: Endpoints provided by the _Quizzes_ module
   name: Antavo Quizzes API
+  phrasing_intents:
+  - id: getCustomersByCustomerIdActivitiesQuizzesByQuizId
+    intent: Get a quiz's details
+    question: What are the questions and settings of a specific quiz?
+  - id: getCustomersByCustomerIdActivitiesQuizzes
+    intent: List quizzes for a customer
+    question: Which quizzes can a member answer?
+  - id: postCustomersByCustomerIdActivitiesQuizzesByQuizIdEarn
+    intent: Submit a quiz answer
+    question: How do I submit a member's quiz answer?
+  phrasing_ops: 3
   slug: antavo-quizzes-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: Bulk Reward Claim API endpoints
   name: Antavo Rewards API
+  phrasing_intents:
+  - id: getV1BulkOperationRewardClaimByBatchIdStatusError
+    intent: List errors from a bulk reward claim
+    question: Which customers failed to get the reward in my bulk claim batch?
+  - id: getV1BulkOperationRewardClaimByBatchIdStatus
+    intent: Check the status of a bulk reward claim
+    question: Is my bulk reward claim batch still processing or already done?
+  - id: postV1BulkOperationRewardClaimByRewardId
+    intent: Claim one reward for many customers
+    question: Can I give one reward to thousands of customers at once?
+  - id: getCustomersByCustomerIdActivitiesRewardsByRewardId
+    intent: Show one reward available to a customer
+    question: Can I see the details of a specific reward as a particular member would see it?
+  - id: getCustomersByCustomerIdActivitiesRewards
+    intent: List rewards a customer can claim
+    question: Which rewards can this loyalty member redeem right now?
+  - id: getCustomersByCustomerIdRewards
+    intent: List a customer's claimed rewards
+    question: What rewards has this member already claimed?
+  - id: postCustomersByCustomerIdActivitiesRewardsByRewardIdBid
+    intent: Bid on an auction reward for a customer
+    question: Can a member place a bid on an auction-style reward?
+  - id: postCustomersByCustomerIdActivitiesRewardsByRewardIdClaim
+    intent: Claim a reward for a customer
+    question: How do I redeem a reward on behalf of a loyalty member?
+  phrasing_ops: 17
   slug: antavo-rewards-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: The Social Share Campaigns API from Antavo — 1 operation(s) for social share campaigns.
   name: Antavo Social Share Campaigns API
+  phrasing_intents:
+  - id: postV1SocialShareCampaignsShareIntent
+    intent: Register a social share intent
+    question: Can I record that a member intends to share a campaign link on social media?
+  phrasing_ops: 1
   slug: antavo-social-share-campaigns-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: Endpoints providing customer information regarding specified transaction ids.
   name: Antavo Transactions API
+  phrasing_intents:
+  - id: getCustomersByCustomerIdTransactionsSearch
+    intent: Search a customer's transactions by status
+    question: Can I find a member's transactions that are in a particular status?
+  - id: postCustomersByCustomerIdTransactionsSearch
+    intent: Bulk-search a customer's transactions
+    question: Can I search a customer's transactions for many IDs at once in a request body?
+  - id: getCustomersByCustomerIdTransactionsByTransactionIdEvents
+    intent: List the events of one transaction
+    question: Which checkout and update events make up a single transaction?
+  - id: getCustomersByCustomerIdTransactionsByTransactionId
+    intent: Retrieve one customer transaction
+    question: Can I get the full breakdown of one specific purchase for a member?
+  - id: getCustomersByCustomerIdTransactions
+    intent: Get a customer's transaction history (legacy)
+    question: Where do I find the event ID that created a given transaction?
+  - id: listCustomerTransactions
+    intent: List a customer's purchase transactions
+    question: How do I see a member's transactions with their items and points earned?
+  phrasing_ops: 6
   slug: antavo-transactions-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: The Treasure hunt API from Antavo — 1 operation(s) for treasure hunt.
   name: Antavo Treasure hunt API
+  phrasing_intents:
+  - id: getCustomersByCustomerIdActivitiesTreasureHunt
+    intent: List treasure hunts for a customer
+    question: Which online treasure hunts can a member join?
+  phrasing_ops: 1
   slug: antavo-treasure-hunt-api
 - baseURL: https://api.antavo.com
   baseurl_source: declared
   description: Endpoints provided by the _Wallet_ module
   name: Antavo Wallet API
+  phrasing_intents:
+  - id: getCustomersByCustomerIdWallet
+    intent: Get a customer's wallet pass links
+    question: Can I get download links for a member's wallet passes?
+  phrasing_ops: 1
   slug: antavo-wallet-api
 artifact_total: 55
 asyncapis:
@@ -561,7 +904,7 @@ score:
     catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.2
+  delta: 0.0
   facets:
     access_clarity: 65.8
     contract_governance: 18.2
@@ -569,7 +912,7 @@ score:
     developer_ergonomics: 67.3
     discoverability: 78.6
     operational_transparency: 77.6
-  previous_composite: 64.7
+  previous_composite: 66.9
   provenance:
     conformance: first-party
     contracts:

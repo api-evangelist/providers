@@ -319,7 +319,7 @@ score:
   band: developing
   composite: 52.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 65.8
     catalog_earned_first_party: 0.0
     catalog_gap: 49.3

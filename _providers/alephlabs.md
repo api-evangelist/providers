@@ -31,6 +31,14 @@ common:
   title: ''
   type: Website
   url: https://equityzen.com/company/alephlabs
+coverage:
+  checked: '2026-10-05'
+  detail: The site provides no developer documentation or API reference pages.
+  evidence:
+  - status: 200
+    url: https://alephlabs.net
+  reason: no-developer-program
+  state: none
 created: '2026-09-24'
 description: 'Alephlabs is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.'
 layout: provider

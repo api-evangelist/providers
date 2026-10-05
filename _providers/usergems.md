@@ -49,16 +49,37 @@ apis:
   baseurl_source: declared
   description: Add and remove accounts UserGems should source prospects against.
   name: UserGems Accounts API
+  phrasing_intents:
+  - id: addAccount
+    intent: Add a target account to source prospects for
+    question: How do I get UserGems to start finding prospects at a target company?
+  - id: deleteAccount
+    intent: Remove a target account from prospecting
+    question: How can I stop getting prospects for a company I added as a target account?
+  phrasing_ops: 2
   slug: usergems-accounts-api
 - baseURL: https://api.usergems.com/v1
   baseurl_source: declared
   description: Add and remove contacts UserGems should track for job changes.
   name: UserGems Contacts API
+  phrasing_intents:
+  - id: addContact
+    intent: Track a contact for job changes
+    question: How do I get alerted when a champion or customer contact changes jobs?
+  - id: deleteContact
+    intent: Stop tracking a contact for job changes
+    question: How do I stop watching a person for job changes?
+  phrasing_ops: 2
   slug: usergems-contacts-api
 - baseURL: https://api.usergems.com/v1
   baseurl_source: declared
   description: Honor data-subject deletion requests for tracked contacts.
   name: UserGems Privacy API
+  phrasing_intents:
+  - id: privacyDelete
+    intent: Erase a person's data for a privacy request
+    question: How do I handle a GDPR right-to-erasure request for someone in UserGems?
+  phrasing_ops: 1
   slug: usergems-privacy-api
 - description: Hosted remote MCP server that lets an agent in Claude, ChatGPT or any MCP-compatible client work against the customer's own UserGems workspace — searching accounts and prospects, pulling signal and sc
   name: UserGems MCP
@@ -466,7 +487,7 @@ score:
     catalog_gap: 36.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.7
+  delta: 0.0
   facets:
     access_clarity: 89.5
     contract_governance: 31.8
@@ -481,7 +502,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 67.4
+  previous_composite: 70.1
   provenance:
     agentic_access: derived
     conformance: first-party

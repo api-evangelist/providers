@@ -82,7 +82,7 @@ score:
   band: minimal
   composite: 2.9
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 0
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
@@ -101,8 +101,6 @@ score:
     reasons:
     - owner: catalog
       reason: venue_as_website
-  provenance:
-    mcp: unknown
   regulatory:
     applies: true
     matched_via: fallback

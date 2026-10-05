@@ -16,13 +16,13 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 3.6
+  score: 2.9
   scored_at: '2026-10-04'
 api_count: 1
 apis:
@@ -114,7 +114,7 @@ score:
   band: emerging
   composite: 13.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 0
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -127,8 +127,6 @@ score:
     developer_ergonomics: 9.5
     discoverability: 60.7
     operational_transparency: 5.3
-  provenance:
-    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback

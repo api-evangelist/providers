@@ -50,21 +50,47 @@ apis:
   baseurl_source: declared
   description: OAuth 2.0 token issuance and refresh
   name: Leadspace Authorization API
+  phrasing_intents:
+  - id: createAuthorizationToken
+    intent: Get an access token with program credentials
+    question: How do I get a bearer token to call the Leadspace v4 APIs?
+  - id: refreshAuthorizationToken
+    intent: Refresh an expired access token
+    question: Can I renew my bearer token with a refresh token instead of sending my secret again?
+  phrasing_ops: 2
   slug: leadspace-authorization-api
 - baseURL: https://apigw.leadspace.com
   baseurl_source: declared
   description: Bulk account expansion into net-new contacts
   name: Leadspace Discovery API
+  phrasing_intents:
+  - id: discoverCompanyContacts
+    intent: Find new contacts inside target accounts
+    question: How can I find net-new contacts at a list of target companies?
+  phrasing_ops: 1
   slug: leadspace-discovery-api
 - baseURL: https://apigw.leadspace.com
   baseurl_source: declared
   description: Single and bulk person and company enrichment
   name: Leadspace Enrichment API
+  phrasing_intents:
+  - id: enrichSingleRecord
+    intent: Enrich one person or company record instantly
+    question: How do I enrich a single lead or account and get the data back right away?
+  - id: enrichBulkRecords
+    intent: Submit a batch of records for enrichment
+    question: How do I enrich hundreds of leads at once in Leadspace?
+  phrasing_ops: 2
   slug: leadspace-enrichment-api
 - baseURL: https://apigw.leadspace.com
   baseurl_source: declared
   description: Buyer-intent scoring and refresh
   name: Leadspace Intent API
+  phrasing_intents:
+  - id: scoreCompanyIntent
+    intent: Refresh buyer-intent scores for companies
+    question: How can I find out which topics my target accounts are surging on?
+  phrasing_ops: 1
   slug: leadspace-intent-api
 - description: 'Hosted remote MCP server exposing the Leadspace GTM Data Intelligence Cloud to AI assistants as a custom connector — account intelligence, company and contact lookup, verified email and phone reveal, '
   name: Leadspace MCP
@@ -73,6 +99,17 @@ apis:
   baseurl_source: declared
   description: Polling for asynchronous discovery results
   name: Leadspace Results API
+  phrasing_intents:
+  - id: getDiscoveryResults
+    intent: Get the contacts found by a discovery job
+    question: Where do I pick up the contacts discovered by my account expansion job?
+  - id: getBulkEnrichmentResults
+    intent: Get the output of a bulk enrichment job
+    question: How do I retrieve enriched records after submitting a bulk enrichment?
+  - id: getIntentResults
+    intent: Get the results of an intent scoring job
+    question: Where do I see the surging intent topics once my intent refresh finishes?
+  phrasing_ops: 3
   slug: leadspace-results-api
 artifact_total: 22
 asyncapis:
@@ -346,7 +383,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.7
+  delta: 0.0
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
@@ -354,7 +391,7 @@ score:
     developer_ergonomics: 58.9
     discoverability: 71.4
     operational_transparency: 73.7
-  previous_composite: 67.3
+  previous_composite: 70.0
   provenance:
     agentic_access: derived
     conformance: first-party

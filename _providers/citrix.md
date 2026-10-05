@@ -642,7 +642,7 @@ score:
   composite: 41.3
   coverage:
     artifact_dirs: 21
-    catalog_earned: 55.5
+    catalog_earned: 58.5
     catalog_earned_first_party: 0.0
     catalog_gap: 59.5
     catalog_max: 115.0

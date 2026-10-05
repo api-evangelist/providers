@@ -31,6 +31,14 @@ common:
   title: ''
   type: Website
   url: https://www.nasdaqprivatemarket.com/
+coverage:
+  checked: '2026-10-05'
+  detail: No OpenAPI, AsyncAPI, GraphQL, gRPC, or WSDL spec was discoverable on the API host.
+  evidence:
+  - status: 0
+    url: https://api.algenesislabs.com/openapi.json
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-09-24'
 description: 'Algenesis Labs is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.'
 layout: provider

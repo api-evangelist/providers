@@ -86,8 +86,6 @@ score:
     reasons:
     - owner: catalog
       reason: venue_as_website
-  provenance:
-    mcp: unknown
   regulatory:
     applies: true
     matched_via: fallback

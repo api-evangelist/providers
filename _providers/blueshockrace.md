@@ -6,9 +6,9 @@ agent_readiness:
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: served
+    auth_clarity: false
     consent_identity: false
-    delegated_identity: served
+    delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
@@ -16,11 +16,11 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
-    protected_resource_metadata: verified
+    protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
   score: 15.3
   scored_at: '2026-10-04'
@@ -81,7 +81,7 @@ score:
   band: minimal
   composite: 4.3
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 0
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
@@ -107,7 +107,7 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 11.8
+    score: 5.9
   schema_version: 0.23.0
   scored_at: '2026-10-04'
   upsert:

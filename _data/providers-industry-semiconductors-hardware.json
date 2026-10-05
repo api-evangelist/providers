@@ -227,11 +227,11 @@
      "slug": "nexgen-cloud",
      "description": "NexGen Cloud Limited is a UK-headquartered AI cloud and GPU infrastructure provider. Its on-demand platform, Hyperstack, sells NVIDIA GPU and CPU virtual machines, managed Kubernetes clusters, block storage volumes, S3-compatible object storage and high-speed networking across three regions (CANADA-1, NORWAY-1, US-1), billed per minute. A second product, Hyperstack AI Studio, provides an OpenAI-compatible inference API over a catalog of third-party hosted text and image models, with playgrounds, system prompts, conversations and knowledge bases. The company also sells Secure Private Cloud, a single-tenant sovereign supercluster offering. Everything Hyperstack does in the console is available through a documented REST API at infrahub-api.nexgencloud.com, with official Python, Go, JavaScript and TypeScript SDKs, a Terraform provider, a Kubernetes CSI driver, a hosted read-only documentation MCP server and a self-hosted API MCP server.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nexgen-cloud/refs/heads/main/screenshots/nexgen-cloud-2026-09-02T150747.png",
-     "score": 65.9,
+     "score": 66.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 75.0,
+      "discoverability": 80.0,
       "contract_quality": 61.3,
       "contract_governance": 18.2,
       "operational_transparency": 63.2,
@@ -277,11 +277,11 @@
      "slug": "paperspace",
      "description": "Paperspace is a GPU cloud platform for AI, ML, and 3D rendering workloads, acquired by DigitalOcean in 2023. The platform combines on-demand GPU/CPU machines (Core), the Gradient ML workflow stack (Notebooks, Datasets, Models, Workflows), and container-as-a-service Deployments under a single team-scoped REST API at api.paperspace.com/v1. Compute is billed per second across H100, A100, A6000, V100, A5000, A4000, and P6000 SKUs, with Bearer-token authentication using team-scoped API keys.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/screenshots/paperspace-2026-06-20T191351.png",
-     "score": 65.1,
+     "score": 65.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 57.1,
+      "discoverability": 62.5,
       "contract_quality": 61.3,
       "contract_governance": 27.3,
       "operational_transparency": 50.0,
@@ -2233,6 +2233,56 @@
      "rank": 43
     },
     {
+     "name": "Dell Servers",
+     "slug": "dell-servers",
+     "description": "APIs for managing and monitoring Dell PowerEdge servers and infrastructure, including the iDRAC Redfish out-of-band management interface, OpenManage Enterprise centralized console and its modular, power, support, and VMware integrations, telemetry streaming, the Lifecycle Controller, RACADM, and the legacy WSMan interface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/screenshots/dell-servers-2026-06-20T175900.png",
+     "score": 46.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 57.1,
+      "contract_quality": 58.8,
+      "contract_governance": 62.7,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 53.6,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 26.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 44
+    },
+    {
      "name": "Novita AI",
      "slug": "novita-ai",
      "description": "Novita AI is an AI inference cloud offering serverless LLM, image, video, and audio generation APIs alongside on-demand GPU rentals and serverless GPU endpoints. Hosts open-source models with both native and OpenAI-compatible chat surfaces, plus an agent sandbox and MCP server for tool-using agents.",
@@ -2274,56 +2324,6 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": "near-conformant",
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 44
-    },
-    {
-     "name": "Dell Servers",
-     "slug": "dell-servers",
-     "description": "APIs for managing and monitoring Dell PowerEdge servers and infrastructure, including the iDRAC Redfish out-of-band management interface, OpenManage Enterprise centralized console and its modular, power, support, and VMware integrations, telemetry streaming, the Lifecycle Controller, RACADM, and the legacy WSMan interface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/screenshots/dell-servers-2026-06-20T175900.png",
-     "score": 46.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 51.8,
-      "contract_quality": 58.8,
-      "contract_governance": 62.7,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 53.6,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 26.5,
-      "matched_via": "fallback"
-     },
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
@@ -2483,6 +2483,56 @@
      "rank": 48
     },
     {
+     "name": "Arduino",
+     "slug": "arduino",
+     "description": "Arduino is an open-source electronics platform providing hardware, software, and cloud services for IoT development. The Arduino IoT Cloud REST API enables developers to programmatically manage devices, Things, dashboards, properties, and time-series data in the Arduino Cloud ecosystem. The API uses OAuth2 client credentials for authentication and returns JSON-encoded responses with standard HTTP status codes. SDKs are available in JavaScript, Python, and Go, generated automatically from an OpenAPI specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/screenshots/arduino-2026-06-20T172415.png",
+     "score": 44.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 55.4,
+      "contract_governance": 23.5,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 11.9,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 16.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 26.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 49
+    },
+    {
      "name": "CoreWeave",
      "slug": "coreweave",
      "description": "CoreWeave is a specialized GPU cloud purpose-built for AI workloads, offering managed Kubernetes (CKS), Slurm-on-Kubernetes (SUNK), dedicated and serverless inference, AI Object Storage, distributed VAST file storage, HPC InfiniBand interconnect, and a Sandbox product. CoreWeave's control plane is Kubernetes-native and exposes APIs for CKS clusters, Inference deployments and gateways, VPCs, Object Storage, and Sandbox control.",
@@ -2530,7 +2580,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "Wingtra",
@@ -2579,7 +2629,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Polar Signals",
@@ -2627,56 +2677,6 @@
       "delegated_identity": "served",
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 51
-    },
-    {
-     "name": "Arduino",
-     "slug": "arduino",
-     "description": "Arduino is an open-source electronics platform providing hardware, software, and cloud services for IoT development. The Arduino IoT Cloud REST API enables developers to programmatically manage devices, Things, dashboards, properties, and time-series data in the Arduino Cloud ecosystem. The API uses OAuth2 client credentials for authentication and returns JSON-encoded responses with standard HTTP status codes. SDKs are available in JavaScript, Python, and Go, generated automatically from an OpenAPI specification.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/screenshots/arduino-2026-06-20T172415.png",
-     "score": 44.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 60.7,
-      "contract_quality": 55.4,
-      "contract_governance": 23.5,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 11.9,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 16.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 26.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "rank": 52
@@ -2732,6 +2732,56 @@
      "rank": 53
     },
     {
+     "name": "NVIDIA Run:ai",
+     "slug": "runai",
+     "description": "NVIDIA Run:ai (formerly run.ai) is an AI operations and GPU orchestration platform for Kubernetes that pools, schedules, and governs GPU compute across clusters for training, fine-tuning, and inference workloads. It provides fractional GPU sharing, dynamic scheduling, quota and policy management, multi-tenant projects and departments, and workload lifecycle control across SaaS, self-hosted, and multi-tenant deployments. run.ai was founded in Israel, backed by Insight Partners and other investors, and acquired by NVIDIA in 2024; the product is now delivered as NVIDIA Run:ai. Its control-plane REST API exposes programmatic management of clusters, node pools, projects, departments, workloads (workspaces, trainings, inferences, distributed), assets, policies, permissions, service accounts, and audit logs, authenticated with bearer JWT access tokens obtained from client-credentials access keys.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/screenshots/runai-2026-08-17T081650.png",
+     "score": 43.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 52.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 66.1,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 22.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 27.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": true,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 54
+    },
+    {
      "name": "Renesas",
      "slug": "renesas",
      "description": "Renesas Electronics Corporation (TYO: 6723) is a global semiconductor manufacturer producing microcontrollers and microprocessors (RA, RX, RL78, RH850, RZ, Synergy families), analog, power, sensor, timing, connectivity, and memory products for automotive, industrial, infrastructure, and consumer electronics applications. On the developer side Renesas operates a public developer portal at developer.renesas.com whose flagship programmable interface is the Renesas Web Data API — a REST API that lets approved partners and integrators retrieve Renesas product metadata (products, product parts, documents, boards & kits, packages, and software tools) in real time instead of relying on manual CSV downloads or periodic feed refreshes. The API is documented on a Redocly Realm site, ships an OpenAPI 3.0.0 description, an auto-generated Model Context Protocol (MCP) server, a browser Try-It console, and a semantic-versioned changelog.",
@@ -2779,7 +2829,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "FuriosaAI",
@@ -2829,7 +2879,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "Roku",
@@ -2879,7 +2929,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "SF Compute",
@@ -2924,56 +2974,6 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 57
-    },
-    {
-     "name": "NVIDIA Run:ai",
-     "slug": "runai",
-     "description": "NVIDIA Run:ai (formerly run.ai) is an AI operations and GPU orchestration platform for Kubernetes that pools, schedules, and governs GPU compute across clusters for training, fine-tuning, and inference workloads. It provides fractional GPU sharing, dynamic scheduling, quota and policy management, multi-tenant projects and departments, and workload lifecycle control across SaaS, self-hosted, and multi-tenant deployments. run.ai was founded in Israel, backed by Insight Partners and other investors, and acquired by NVIDIA in 2024; the product is now delivered as NVIDIA Run:ai. Its control-plane REST API exposes programmatic management of clusters, node pools, projects, departments, workloads (workspaces, trainings, inferences, distributed), assets, policies, permissions, service accounts, and audit logs, authenticated with bearer JWT access tokens obtained from client-credentials access keys.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/screenshots/runai-2026-08-17T081650.png",
-     "score": 43.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 67.9,
-      "contract_quality": 52.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 22.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 27.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": true,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -3531,6 +3531,56 @@
      "rank": 69
     },
     {
+     "name": "BentoML",
+     "slug": "bentoml",
+     "description": "BentoML is an open-source unified inference platform for building, packaging, and deploying machine learning models as scalable REST API services. Developers define services using Python class decorators that automatically expose model inference logic as HTTP endpoints. BentoCloud, the managed cloud offering, provides autoscaling infrastructure, GPU instance provisioning, scale-to-zero cost optimization, and a control-plane API for programmatic deployment lifecycle management. The platform supports all major ML frameworks including PyTorch, TensorFlow, Transformers, ONNX, XGBoost, and Scikit-Learn, and is licensed under Apache 2.0.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/screenshots/bentoml-2026-06-20T173142.png",
+     "score": 40.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 57.1,
+      "contract_quality": 50.1,
+      "contract_governance": 23.5,
+      "operational_transparency": 46.8,
+      "developer_ergonomics": 31.0,
+      "access_clarity": 41.6
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 15.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 22.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 70
+    },
+    {
      "name": "Western Digital",
      "slug": "western-digital",
      "description": "Western Digital is a global leader in data infrastructure, providing storage solutions including hard disk drives, solid state drives, flash memory, and data center systems. Their developer program exposes the WD My Cloud Home REST API enabling third-party applications to manage files, folders, thumbnails, shares, and user accounts stored on WD My Cloud Home devices.",
@@ -3566,56 +3616,6 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 70
-    },
-    {
-     "name": "BentoML",
-     "slug": "bentoml",
-     "description": "BentoML is an open-source unified inference platform for building, packaging, and deploying machine learning models as scalable REST API services. Developers define services using Python class decorators that automatically expose model inference logic as HTTP endpoints. BentoCloud, the managed cloud offering, provides autoscaling infrastructure, GPU instance provisioning, scale-to-zero cost optimization, and a control-plane API for programmatic deployment lifecycle management. The platform supports all major ML frameworks including PyTorch, TensorFlow, Transformers, ONNX, XGBoost, and Scikit-Learn, and is licensed under Apache 2.0.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/screenshots/bentoml-2026-06-20T173142.png",
-     "score": 40.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 51.8,
-      "contract_quality": 50.1,
-      "contract_governance": 23.5,
-      "operational_transparency": 46.8,
-      "developer_ergonomics": 31.0,
-      "access_clarity": 41.6
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 15.5,
-      "matched_via": "fallback"
-     },
-     "agent_score": 22.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -7248,6 +7248,56 @@
      "rank": 143
     },
     {
+     "name": "HYPERLABS",
+     "slug": "hyperlabs",
+     "description": "HYPERLABS, Inc. designs and manufactures signal-integrity products for high-speed digital and datacom test in the United States. Two product classes: ultra-broadband Components (amplifiers, baluns, DC blocks, bias tees, pick-off tees, power dividers, attenuators, terminations, inverters) built for 112 and 224 Gbps PAM-4 applications, and Instruments — USB-powered and USB-controlled TDRs, Signal Path Analyzers, controlled-impedance analyzers and impulse generators with 1-20 channels and rise times as fast as 35 ps. Founded in 1992, with engineering and manufacturing in Louisville, Colorado and Beaverton, Oregon. HYPERLABS publishes two machine-readable contracts: an OpenAPI 3.0.1 definition (175 operations, served with Swagger UI) for the hyperlabs.com product-catalog and customer web backend, and an MIT-licensed proto3 gRPC service definition, radium.v1.Radium, for programmatic control and waveform streaming from the TDR11100 Time Domain Reflectometer. Instrument automation is also offered as first-party Windows DLL packages (ZTDR and XTDR) with C++ sample source and manuals.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/screenshots/hyperlabs-2026-08-07T170547.png",
+     "score": 28.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 64.3,
+      "contract_quality": 52.3,
+      "contract_governance": 4.5,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 28.0,
+      "access_clarity": 6.6
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 16.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 24.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "documented",
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 144
+    },
+    {
      "name": "SQream Technologies",
      "slug": "sqream-technologies",
      "description": "SQream Technologies is an Israeli data and analytics company, founded in 2010 in Tel Aviv, that builds SQreamDB — a GPU-accelerated, SQL-compliant analytics database for petabyte-scale workloads on NVIDIA hardware — alongside AISQream for AI/ML pipelines and Panoply, the no-code cloud data warehouse it acquired in 2021. SQream's programmatic surface is a database surface rather than an HTTP one: it is reached through first-party client drivers (Python DB-API `pysqream`, JDBC, ODBC, Node.js, .NET, SQLAlchemy dialects, Spark and Trino connectors, and an Apache Airflow provider) speaking SQream's own wire protocol, plus a set of command-line programs. SQream publishes no public REST/HTTP API, OpenAPI, AsyncAPI or GraphQL contract; its customers are enterprises in financial services, telecommunications, retail, manufacturing, healthcare and ad-tech running self-managed or cloud-deployed clusters.",
@@ -7295,7 +7345,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 145
     },
     {
      "name": "AIDIN ROBOTICS",
@@ -7344,7 +7394,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 145
+     "rank": 146
     },
     {
      "name": "Devialet",
@@ -7394,7 +7444,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 147
     },
     {
      "name": "Fnatic",
@@ -7443,56 +7493,6 @@
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
-     },
-     "rank": 147
-    },
-    {
-     "name": "HYPERLABS",
-     "slug": "hyperlabs",
-     "description": "HYPERLABS, Inc. designs and manufactures signal-integrity products for high-speed digital and datacom test in the United States. Two product classes: ultra-broadband Components (amplifiers, baluns, DC blocks, bias tees, pick-off tees, power dividers, attenuators, terminations, inverters) built for 112 and 224 Gbps PAM-4 applications, and Instruments — USB-powered and USB-controlled TDRs, Signal Path Analyzers, controlled-impedance analyzers and impulse generators with 1-20 channels and rise times as fast as 35 ps. Founded in 1992, with engineering and manufacturing in Louisville, Colorado and Beaverton, Oregon. HYPERLABS publishes two machine-readable contracts: an OpenAPI 3.0.1 definition (175 operations, served with Swagger UI) for the hyperlabs.com product-catalog and customer web backend, and an MIT-licensed proto3 gRPC service definition, radium.v1.Radium, for programmatic control and waveform streaming from the TDR11100 Time Domain Reflectometer. Instrument automation is also offered as first-party Windows DLL packages (ZTDR and XTDR) with C++ sample source and manuals.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/screenshots/hyperlabs-2026-08-07T170547.png",
-     "score": 28.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 58.9,
-      "contract_quality": 52.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 28.0,
-      "access_clarity": 6.6
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 16.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 24.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "documented",
-      "rate_limit_signal": false,
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
      },
      "rank": 148
     },

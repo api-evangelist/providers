@@ -65,6 +65,23 @@ apis:
   baseurl_source: declared
   description: The Versions API from Stoplight — 5 operation(s) for versions.
   name: Stoplight Versions API
+  phrasing_intents:
+  - id: POST_versions-publish-anon
+    intent: Publish API docs anonymously to api-docs.io
+    question: Can I publish a Swagger or RAML spec as public docs without a Stoplight account?
+  - id: GET_versions-versionId-export-format
+    intent: Export an API version as OpenAPI, RAML or Stoplight
+    question: How do I download my Stoplight API version as an OpenAPI YAML file?
+  - id: PUT_versions-versionId-import
+    intent: Import a spec into an existing API version
+    question: How do I sync my externally maintained Swagger file into an existing Stoplight version?
+  - id: POST_versions-versionId-publish
+    intent: Re-publish docs for an API version
+    question: Can my CI pipeline automatically re-publish the docs after I import a new spec?
+  - id: PUT_versions-versionId-unpublish
+    intent: Unpublish the docs for an API version
+    question: Can I take down the published documentation for one API version?
+  phrasing_ops: 5
   slug: stoplight-versions-api
 artifact_total: 20
 common:

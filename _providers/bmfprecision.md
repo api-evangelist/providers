@@ -65,7 +65,7 @@ score:
   band: minimal
   composite: 3.5
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 0
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
@@ -78,8 +78,6 @@ score:
     developer_ergonomics: 0.0
     discoverability: 46.4
     operational_transparency: 0.0
-  provenance:
-    mcp: derived
   regulatory:
     applies: true
     matched_via: tags

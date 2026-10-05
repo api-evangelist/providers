@@ -20,7 +20,7 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
   score: 0.0
   scored_at: '2026-10-04'

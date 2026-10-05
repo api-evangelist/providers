@@ -48,31 +48,76 @@ apis:
   baseurl_source: declared
   description: Create, update, retrieve, and manage accounts (organizations).
   name: Ortto Accounts API
+  phrasing_intents:
+  - id: mergeAccounts
+    intent: Create or update company accounts
+    question: How do I add or update organizations (accounts) in Ortto from my CRM?
+  phrasing_ops: 1
   slug: ortto-accounts-api
 - baseURL: https://api.ap3api.com/v1
   baseurl_source: declared
   description: Send custom activity events and manage activity definitions.
   name: Ortto Activities API
+  phrasing_intents:
+  - id: createActivities
+    intent: Record custom activity events for people
+    question: How do I send custom events like 'signed up for webinar' into Ortto?
+  phrasing_ops: 1
   slug: ortto-activities-api
 - baseURL: https://api.ap3api.com/v1
   baseurl_source: declared
   description: Retrieve campaigns, reports, and assets.
   name: Ortto Campaigns API
+  phrasing_intents:
+  - id: getCampaignCalendar
+    intent: List campaigns scheduled in a time period
+    question: Which journeys and campaigns are running on my marketing calendar this month?
+  - id: getCampaignReport
+    intent: Get performance report for a campaign or asset
+    question: How did my email campaign perform in Ortto?
+  phrasing_ops: 2
   slug: ortto-campaigns-api
 - baseURL: https://api.ap3api.com/v1
   baseurl_source: declared
   description: Create, update, retrieve, and manage people (contacts).
   name: Ortto People API
+  phrasing_intents:
+  - id: mergePeople
+    intent: Create or update contacts
+    question: How do I sync contacts from my app into Ortto without creating duplicates?
+  - id: getPeople
+    intent: Search contacts with a filter
+    question: How can I find all contacts matching a condition, like a certain city or tag?
+  - id: getPeopleByIds
+    intent: Look up contacts by their contact IDs
+    question: I already have Ortto contact IDs; how do I fetch those exact people?
+  - id: deletePeople
+    intent: Delete contacts
+    question: How do I permanently remove contacts from my Ortto account?
+  phrasing_ops: 4
   slug: ortto-people-api
 - baseURL: https://api.ap3api.com/v1
   baseurl_source: declared
   description: Retrieve account tags.
   name: Ortto Tags API
+  phrasing_intents:
+  - id: getTags
+    intent: List tags on the account
+    question: What tags exist in my Ortto account?
+  phrasing_ops: 1
   slug: ortto-tags-api
 - baseURL: https://api.ap3api.com/v1
   baseurl_source: declared
   description: Send transactional email and SMS.
   name: Ortto Transactional API
+  phrasing_intents:
+  - id: sendTransactionalEmail
+    intent: Send a transactional email
+    question: How do I send a password reset or receipt email through Ortto?
+  - id: sendTransactionalSms
+    intent: Send a transactional SMS
+    question: How do I text a one-time code or order update to a customer via Ortto?
+  phrasing_ops: 2
   slug: ortto-transactional-api
 artifact_total: 24
 asyncapis:
@@ -352,7 +397,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 89.5
     contract_governance: 18.2
@@ -360,7 +405,7 @@ score:
     developer_ergonomics: 67.3
     discoverability: 75.0
     operational_transparency: 89.5
-  previous_composite: 70.5
+  previous_composite: 67.5
   provenance:
     agentic_access: derived
     conformance: first-party

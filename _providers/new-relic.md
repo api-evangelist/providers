@@ -83,36 +83,116 @@ apis:
   baseurl_source: declared
   description: The New Relic Alerts REST API provides endpoints for programmatically managing alert policies, conditions, notification channels, and muting rules. New Relic recommends using NerdGraph for new alert m
   name: New Relic Alerts API
+  phrasing_intents:
+  - id: getAlertsChannels
+    intent: List alert notification channels
+    question: Which notification channels are set up on my New Relic account?
+  - id: postAlertsChannels
+    intent: Create an alert notification channel
+    question: How do I add a new place for alert notifications to be sent?
+  - id: deleteAlertsChannelsChannelId
+    intent: Delete an alert notification channel
+    question: Can I remove a notification channel I no longer use for alerts?
+  - id: getAlertsConditions
+    intent: List APM, Browser and Mobile metric conditions
+    question: What application metric conditions are in one of my alert policies?
+  - id: postAlertsConditionsPoliciesPolicyId
+    intent: Create an application metric alert condition
+    question: How do I alert when an APM application's metric crosses a threshold?
+  - id: putAlertsConditionsConditionId
+    intent: Update an application metric alert condition
+    question: Can I change the threshold on an existing APM metric alert condition?
+  - id: deleteAlertsConditionsConditionId
+    intent: Delete an application metric alert condition
+    question: How do I get rid of an APM metric condition that keeps firing for no reason?
+  - id: getAlertsEntityConditionsEntityId
+    intent: List the alert conditions an entity belongs to
+    question: Which alert conditions is a particular application or server part of?
+  phrasing_ops: 35
   slug: new-relic-alerts-api
 - baseURL: https://api.newrelic.com/v2/
   baseurl_source: declared
   description: The Applications API from New Relic — 18 operation(s) for applications.
   name: New Relic Applications API
+  phrasing_intents:
+  - id: getApplications
+    intent: List APM applications
+    question: Which APM applications are reporting to my New Relic account?
+  - id: getApplicationsIdDeployments
+    intent: List an application's deployment history
+    question: When was an application last deployed, and what revision went out?
+  - id: postApplicationsIdDeployments
+    intent: Record a deployment marker for an application
+    question: How do I mark a release on my application's performance charts?
+  - id: deleteApplicationsIdDeploymentsId
+    intent: Delete a deployment marker
+    question: Can I remove a deployment marker I recorded by mistake?
+  - id: getApplicationsIdHosts
+    intent: List the hosts running an application
+    question: Which servers is one of my applications running on?
+  - id: getApplicationsIdHostsHostIdMetrics
+    intent: List metric names for an application host
+    question: What metric names are available for one host of an application?
+  - id: getApplicationsIdHostsHostIdMetricsData
+    intent: Get metric values for an application host
+    question: What was the response time on one specific host of my app over the last hour?
+  - id: getApplicationsIdHostsId
+    intent: Get one host of an application
+    question: How is one particular server running my application performing?
+  phrasing_ops: 21
   slug: new-relic-applications-api
 - baseURL: https://api.newrelic.com/v2/
   baseurl_source: declared
   description: Custom event ingestion endpoints
   name: New Relic Events API
+  phrasing_intents:
+  - id: sendEvents
+    intent: Send custom events to an account
+    question: How do I send my own custom events into New Relic so I can query them with NRQL?
+  phrasing_ops: 1
   slug: new-relic-events-api
 - baseURL: https://api.newrelic.com/v2/
   baseurl_source: declared
   description: The Get API from New Relic — 30 operation(s) for get.
   name: New Relic Get API
+  phrasing_intents:
+  - id: getKeyTransactions
+    intent: List key transactions
+    question: Which key transactions am I tracking in New Relic?
+  - id: getKeyTransactionsId
+    intent: Get a key transaction
+    question: How is one specific key transaction performing right now?
+  phrasing_ops: 2
   slug: new-relic-get-api
 - baseURL: https://api.newrelic.com/v2/
   baseurl_source: declared
   description: Log data ingestion endpoints
   name: New Relic Logs API
+  phrasing_intents:
+  - id: sendLogs
+    intent: Send log records
+    question: How do I ship my application's log lines straight to New Relic over HTTP?
+  phrasing_ops: 1
   slug: new-relic-logs-api
 - baseURL: https://api.newrelic.com/v2/
   baseurl_source: declared
   description: Metric data ingestion endpoints
   name: New Relic Metrics API
+  phrasing_intents:
+  - id: sendMetrics
+    intent: Send metric data points
+    question: How do I push my own count, gauge or summary metrics into New Relic?
+  phrasing_ops: 1
   slug: new-relic-metrics-api
 - baseURL: https://api.newrelic.com/v2/
   baseurl_source: declared
   description: Distributed trace span ingestion
   name: New Relic Traces API
+  phrasing_intents:
+  - id: sendTraces
+    intent: Send distributed trace spans
+    question: How do I send distributed tracing spans to New Relic from my own instrumentation?
+  phrasing_ops: 1
   slug: new-relic-traces-api
 arazzos:
 - description: Resolve an app, branch on health status, and pull recent metric data.

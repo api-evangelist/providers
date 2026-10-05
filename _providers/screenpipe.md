@@ -37,12 +37,12 @@ agent_readiness:
   score: 20.6
   scored_at: '2026-10-04'
 agentic_access:
-- acting_count: 43
+- acting_count: 42
   human_in_the_loop: 3
   name: Screenpipe Agentic Access
   operation_count: 71
   slug: screenpipe-agentic-access
-  summary_line: 71 operations · 43 acting · 3 human-in-the-loop
+  summary_line: 71 operations · 42 acting · 3 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: http://localhost:3030

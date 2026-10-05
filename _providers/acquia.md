@@ -55,106 +55,478 @@ apis:
   baseurl_source: declared
   description: The Account API from Acquia — 23 operation(s) for account.
   name: Acquia Account API
+  phrasing_intents:
+  - id: getAccount
+    intent: Get my account details
+    question: What does Acquia have on file for my user account?
+  - id: getAccountApplicationHasPermission
+    intent: Check if I have a permission on an application
+    question: Am I allowed to perform a specific action on an application?
+  - id: getAccountApplicationIsAdministrator
+    intent: Check if I administer an application
+    question: Am I an administrator of this application?
+  - id: getAccountApplicationIsOwner
+    intent: Check if I own an application
+    question: Am I the owner of this application?
+  - id: postAccountApplicationMarkRecent
+    intent: Mark an application as recently viewed
+    question: How do I add an app to my recently viewed list?
+  - id: postAccountApplicationStar
+    intent: Star an application
+    question: How do I favorite an application so it's easy to find?
+  - id: postAccountApplicationUnstar
+    intent: Unstar an application
+    question: Can I remove an app from my favorites?
+  - id: getAccountDrushAliasesDownload
+    intent: Download my Drush aliases
+    question: Where can I download Drush aliases for all my sites?
+  phrasing_ops: 27
   slug: acquia-account-api
 - baseURL: https://cloud.acquia.com/api
   baseurl_source: declared
   description: The Agreements API from Acquia — 5 operation(s) for agreements.
   name: Acquia Agreements API
+  phrasing_intents:
+  - id: getAgreements
+    intent: List legal agreements awaiting my response
+    question: Which Acquia legal agreements have I been invited to accept or decline?
+  - id: getAgreement
+    intent: View the details of one legal agreement
+    question: What does a specific agreement I was invited to actually say?
+  - id: postAcceptAgreement
+    intent: Accept a legal agreement
+    question: How do I accept a legal agreement I've been invited to?
+  - id: postDeclineAgreement
+    intent: Decline a legal agreement
+    question: What happens if I want to reject an agreement I was invited to?
+  - id: getInvitees
+    intent: List users invited to act on an agreement
+    question: Who else has been invited to accept or decline this agreement?
+  phrasing_ops: 5
   slug: acquia-agreements-api
 - baseURL: https://cloud.acquia.com/api
   baseurl_source: declared
   description: The Application Performance Monitoring Services API from Acquia — 4 operation(s) for application performance monitoring services.
   name: Acquia Application Performance Monitoring Services API
+  phrasing_intents:
+  - id: getEnvironmentsApmSetting
+    intent: See APM tools configured on an environment
+    question: Which application performance monitoring tools are hooked up to this environment?
+  - id: putEnvironmentsApmSetting
+    intent: Configure an APM tool on an environment
+    question: How do I switch on a performance monitoring tool for a single environment?
+  - id: getSubscriptionApmTypes
+    intent: List APM services available to a subscription
+    question: What performance monitoring services come with my subscription?
+  - id: getSubscriptionApmType
+    intent: View one APM service type on a subscription
+    question: What are the details of a specific APM service on my subscription?
+  - id: postSubscriptionApmOptIn
+    intent: Opt a subscription into New Relic Pro APM
+    question: Can I enable a New Relic Pro license for every application on a subscription at once?
+  phrasing_ops: 5
   slug: acquia-application-performance-monitoring-services-api
 - baseURL: https://cloud.acquia.com/api
   baseurl_source: declared
   description: The Applications API from Acquia — 36 operation(s) for applications.
   name: Acquia Applications API
+  phrasing_intents:
+  - id: getApplications
+    intent: List the applications I can access
+    question: Which Acquia applications do I have access to through my teams?
+  - id: getApplicationByUuid
+    intent: Get details of one application
+    question: What details can I see about a single hosted application?
+  - id: putApplicationByUuid
+    intent: Rename an application
+    question: Can I change the display name of an existing application?
+  - id: getArtifactsByApplicationUuid
+    intent: List build artifacts for a Node.js application
+    question: Where can I see the build artifacts produced for my Node.js application?
+  - id: getArtifactByApplicationUuidAndId
+    intent: Get one build artifact of an application
+    question: What information is kept about a single build artifact?
+  - id: getCodeByApplicationUuid
+    intent: List an application's branches and release tags
+    question: Which git branches and release tags exist in my application's repository?
+  - id: getCodeStudioProject
+    intent: Get an application's Code Studio project
+    question: Does my application already have a Code Studio project set up?
+  - id: postCodeStudioProject
+    intent: Create a Code Studio project for an application
+    question: How do I set up Code Studio for one of my applications?
+  phrasing_ops: 47
   slug: acquia-applications-api
 - baseURL: https://cloud.acquia.com/api
   baseurl_source: declared
   description: The Cloud IDE API from Acquia — 1 operation(s) for cloud ide.
   name: Acquia Cloud IDE API
+  phrasing_intents:
+  - id: getIde
+    intent: Get Cloud IDE details
+    question: What's the status and URL of a specific Cloud IDE?
+  - id: deleteIde
+    intent: De-provision a Cloud IDE
+    question: How do I delete a Cloud IDE I'm done with?
+  phrasing_ops: 2
   slug: acquia-cloud-ide-api
 - baseURL: https://cloud.acquia.com/api
   baseurl_source: declared
   description: The Codebases API from Acquia — 8 operation(s) for codebases.
   name: Acquia Codebases API
+  phrasing_intents:
+  - id: api_codebases_codebaseIdbulk-code-switch_get_collection
+    intent: List past bulk code switches on a codebase
+    question: What bulk code switches have already been run against a codebase?
+  - id: create_bulk_code_switch_resource
+    intent: Switch many environments to one git reference
+    question: How do I move several environments to the same branch or tag in one go?
+  - id: get_bulk_code_switch_resource
+    intent: Check on one bulk code switch
+    question: Did a particular bulk code switch finish, and which targets did it touch?
+  - id: api_applications_applicationIdcodebase_get
+    intent: Find the codebase linked to an application
+    question: Which codebase is an application built from?
+  - id: api_codebases_get_collection
+    intent: List all codebases I can access
+    question: What codebases do I have access to across Acquia?
+  - id: get_codebase_by_id
+    intent: View details of one codebase
+    question: What are the label, description and details of a specific codebase?
+  - id: api_codebases_codebaseId_put
+    intent: Rename or redescribe a codebase
+    question: How do I change the label shown for a codebase?
+  - id: api_codebases_codebaseId_delete
+    intent: Delete a codebase
+    question: Can I permanently remove a codebase I no longer use?
+  phrasing_ops: 12
   slug: acquia-codebases-api
 - baseURL: https://cloud.acquia.com/api
   baseurl_source: declared
   description: The Current system health API from Acquia — 1 operation(s) for current system health.
   name: Acquia Current system health API
+  phrasing_intents:
+  - id: getSystemHealthStatus
+    intent: Check the current system health status
+    question: Is the Acquia Cloud API healthy right now?
+  phrasing_ops: 1
   slug: acquia-current-system-health-api
 - baseURL: https://cloud.acquia.com/api
   baseurl_source: declared
   description: The Distributions API from Acquia — 2 operation(s) for distributions.
   name: Acquia Distributions API
+  phrasing_intents:
+  - id: getDistributions
+    intent: List installable Drupal distributions
+    question: Which Drupal distributions can I install in an Acquia Cloud environment?
+  - id: getDistributionByName
+    intent: View details of one Drupal distribution
+    question: What are the details of a specific Drupal distribution by name?
+  phrasing_ops: 2
   slug: acquia-distributions-api
 - baseURL: https://cloud.acquia.com/api
   baseurl_source: declared
   description: The Email API from Acquia — 1 operation(s) for email.
   name: Acquia Email API
+  phrasing_intents:
+  - id: getEmailStatus
+    intent: Get Platform Email status for an environment
+    question: Is Platform Email turned on for my environment?
+  phrasing_ops: 1
   slug: acquia-email-api
 - baseURL: https://cloud.acquia.com/api
   baseurl_source: declared
   description: The Environments API from Acquia — 73 operation(s) for environments.
   name: Acquia Environments API
+  phrasing_intents:
+  - id: getEnvironment
+    intent: View details of one environment
+    question: What are the settings and status of a specific Acquia environment?
+  - id: putEnvironment
+    intent: Change PHP and runtime settings on an environment
+    question: How do I raise the PHP memory limit on an environment?
+  - id: deleteEnvironment
+    intent: Delete a CD environment
+    question: Can I tear down a continuous delivery environment I no longer need?
+  - id: optionsEnvironment
+    intent: See configurable options for an environment
+    question: What configuration options are allowed for this environment?
+  - id: postEnvironmentsClearCaches
+    intent: Clear Varnish and CDN caches for several domains
+    question: Can I purge both Varnish and Platform CDN caches for a batch of domains at once?
+  - id: postChangeEnvironmentLabel
+    intent: Rename an environment's label
+    question: How do I change the display label of an environment?
+  - id: postDeployArtifact
+    intent: Deploy a build artifact to an environment
+    question: Can I deploy a specific build artifact to an environment?
+  - id: getOperatingSystems
+    intent: List operating systems for an environment
+    question: Which operating systems can this environment run on?
+  phrasing_ops: 102
   slug: acquia-environments-api
 - baseURL: https://cloud.acquia.com/api
   baseurl_source: declared
   description: The Identity Providers API from Acquia — 4 operation(s) for identity providers.
   name: Acquia Identity Providers API
+  phrasing_intents:
+  - id: getIdentityProviders
+    intent: List my identity providers
+    question: Which SAML identity providers are set up for single sign-on?
+  - id: getIdentityProvider
+    intent: Get an identity provider
+    question: What SSO URL and entity ID does an identity provider use?
+  - id: putIdentityProvider
+    intent: Update an identity provider
+    question: How do I rotate the signing certificate on my identity provider?
+  - id: deleteIdentityProvider
+    intent: Delete an identity provider
+    question: Can I delete an identity provider we stopped using?
+  - id: postEnableIdentityProvider
+    intent: Enable an identity provider
+    question: How do I turn on single sign-on through an identity provider?
+  - id: postDisableIdentityProvider
+    intent: Disable an identity provider
+    question: Can I temporarily turn off an identity provider without deleting it?
+  phrasing_ops: 6
   slug: acquia-identity-providers-api
 - baseURL: https://cloud.acquia.com/api
   baseurl_source: declared
   description: The Invite API from Acquia — 4 operation(s) for invite.
   name: Acquia Invite API
+  phrasing_intents:
+  - id: getInviteByToken
+    intent: Get details of an invitation
+    question: Who sent me this invitation and what does it grant?
+  - id: postInviteCancel
+    intent: Cancel an invitation
+    question: How do I withdraw an invitation I sent by mistake?
+  - id: postInviteAcceptByToken
+    intent: Accept an invitation
+    question: How do I accept an invitation to join a team or organization?
+  - id: postInviteDecline
+    intent: Decline an invitation
+    question: Can I turn down an invitation I received?
+  - id: postInviteResend
+    intent: Resend an invitation
+    question: The invitee lost the email; can I send the invite again?
+  phrasing_ops: 5
   slug: acquia-invite-api
 - baseURL: https://cloud.acquia.com/api
   baseurl_source: declared
   description: The Messages API from Acquia — 2 operation(s) for messages.
   name: Acquia Messages API
+  phrasing_intents:
+  - id: postDismissMessage
+    intent: Dismiss an in-product message
+    question: How do I get rid of a platform message I've already read?
+  - id: getMessageFollow
+    intent: Follow a message's link
+    question: Where does the link in a platform message lead?
+  phrasing_ops: 2
   slug: acquia-messages-api
 - baseURL: https://cloud.acquia.com/api
   baseurl_source: declared
   description: The Notifications API from Acquia — 1 operation(s) for notifications.
   name: Acquia Notifications API
+  phrasing_intents:
+  - id: getNotificationByUuid
+    intent: Look up a single notification
+    question: What is the status of a specific Acquia notification?
+  phrasing_ops: 1
   slug: acquia-notifications-api
 - baseURL: https://cloud.acquia.com/api
   baseurl_source: declared
   description: The Options API from Acquia — 6 operation(s) for options.
   name: Acquia Options API
+  phrasing_intents:
+  - id: getOptions
+    intent: Browse the available option groups
+    question: What option groups can I look up in the Cloud API?
+  - id: getCdeSizes
+    intent: List continuous delivery environment sizes
+    question: What sizes can a CD environment be created in?
+  - id: getLogForwarding
+    intent: Browse log forwarding option groups
+    question: Where do I find the log forwarding option lists?
+  - id: getLogForwardingSources
+    intent: List log forwarding sources
+    question: Which log types can I forward from my environments?
+  - id: getLogForwardingConsumers
+    intent: List log forwarding destinations
+    question: Which logging services can I forward logs to?
+  - id: getColors
+    intent: List available tag colors
+    question: What colors can I use for application tags?
+  phrasing_ops: 6
   slug: acquia-options-api
 - baseURL: https://cloud.acquia.com/api
   baseurl_source: declared
   description: The Organizations API from Acquia — 18 operation(s) for organizations.
   name: Acquia Organizations API
+  phrasing_intents:
+  - id: getOrganizations
+    intent: List the organizations I belong to
+    question: Which Acquia organizations is my account part of?
+  - id: getOrganizationByUuid
+    intent: View details of one organization
+    question: Who owns a specific organization and what are its details?
+  - id: putOrganization
+    intent: Rename an organization
+    question: How do I change the name of my organization?
+  - id: deleteOrganization
+    intent: Delete an organization
+    question: Can I permanently delete an organization I no longer need?
+  - id: postChangeOrganizationOwner
+    intent: Transfer ownership of an organization
+    question: How do I hand ownership of my organization to another user?
+  - id: postLeaveOrganization
+    intent: Leave an organization
+    question: Can I remove myself from an organization I no longer work with?
+  - id: getOrganizationAdmins
+    intent: List an organization's administrators
+    question: Who are the administrators of my organization?
+  - id: getOrganizationAdmin
+    intent: View one organization administrator
+    question: What does the profile of a specific organization admin look like?
+  phrasing_ops: 27
   slug: acquia-organizations-api
 - baseURL: https://cloud.acquia.com/api
   baseurl_source: declared
   description: Private Network Service API
   name: Acquia Private Networks API
+  phrasing_intents:
+  - id: createPrivateNetwork
+    intent: Create a private network
+    question: How do I set up a new private network for my subscription in a given region?
+  - id: getPrivateNetwork
+    intent: Get a private network
+    question: What is configured on a specific private network?
+  - id: updatePrivateNetwork
+    intent: Update a private network's label or description
+    question: Can I change the label or description of an existing private network?
+  - id: deletePrivateNetwork
+    intent: Delete a private network
+    question: How do I tear down a private network I no longer need?
+  - id: getPrivateNetworksBySubscription
+    intent: List private networks in a subscription
+    question: Which private networks exist under my subscription?
+  - id: addVpnToPrivateNetwork
+    intent: Add a VPN to a private network
+    question: How do I connect my office network to a private network over VPN?
+  - id: getAllVpnsFromPrivateNetwork
+    intent: List VPNs on a private network
+    question: Which VPN connections are attached to my private network?
+  - id: getVpnFromPrivateNetwork
+    intent: Get one VPN on a private network
+    question: What are the tunnel settings of a particular VPN?
+  phrasing_ops: 20
   slug: acquia-private-networks-api
 - baseURL: https://cloud.acquia.com/api
   baseurl_source: declared
   description: The Subscriptions API from Acquia — 22 operation(s) for subscriptions.
   name: Acquia Subscriptions API
+  phrasing_intents:
+  - id: getSubscriptions
+    intent: List my subscriptions
+    question: Which Acquia subscriptions do I belong to?
+  - id: getSubscription
+    intent: Get details of a subscription
+    question: What details are stored on a single subscription?
+  - id: putSubscription
+    intent: Rename a subscription
+    question: Can I change the name of a subscription?
+  - id: getSubscriptionApplications
+    intent: List applications in a subscription
+    question: Which applications are part of this subscription?
+  - id: getCodeStudioSubscriptionMetadata
+    intent: Get Code Studio metadata for a subscription
+    question: Is Code Studio provisioned on my subscription?
+  - id: optionsCodeStudio
+    intent: Show Code Studio options for a subscription
+    question: What Code Studio options are available on my subscription?
+  - id: postEnableCodeStudio
+    intent: Enable Code Studio on a subscription
+    question: How do I turn on Code Studio for my whole subscription?
+  - id: getCodeStudioApplications
+    intent: List Code Studio-enabled applications
+    question: Which of my subscription's applications use Code Studio?
+  phrasing_ops: 31
   slug: acquia-subscriptions-api
 - baseURL: https://cloud.acquia.com/api
   baseurl_source: declared
   description: The Teams and Permissions API from Acquia — 10 operation(s) for teams and permissions.
   name: Acquia Teams and Permissions API
+  phrasing_intents:
+  - id: getPermissions
+    intent: List all available permissions
+    question: What permissions exist in the Acquia Cloud Platform?
+  - id: getRole
+    intent: Get details of a role
+    question: Which permissions does a particular role grant?
+  - id: deleteRole
+    intent: Delete a role
+    question: How do I delete a custom role we no longer use?
+  - id: putRoleByUuid
+    intent: Update a role
+    question: Can I change which permissions a role grants?
+  - id: getTeams
+    intent: List the teams I can access
+    question: Which teams do I have access to?
+  - id: getTeam
+    intent: Get details of a team
+    question: What details are stored about a specific team?
+  - id: putTeamsName
+    intent: Rename a team
+    question: Can I change a team's name?
+  - id: deleteTeam
+    intent: Delete a team
+    question: How do I delete a team entirely?
+  phrasing_ops: 17
   slug: acquia-teams-and-permissions-api
 - baseURL: https://cloud.acquia.com/api
   baseurl_source: declared
   description: OAuth 2.0 token and authorization endpoints.
   name: Acquia Authentication API
+  phrasing_intents:
+  - id: issueToken
+    intent: Get an access token
+    question: How do I get an access token for the Acquia Cloud API with my client credentials?
+  - id: authorize
+    intent: Start the OAuth login and consent flow
+    question: Where do I send a user so they can log in and approve my app's access?
+  phrasing_ops: 2
   slug: acquia-authentication-api
 - baseURL: https://cloud.acquia.com/api
   baseurl_source: declared
   description: JSON:API resource endpoints for reading and writing entries.
   name: Acquia Content API
+  phrasing_intents:
+  - id: apiRoot
+    intent: Discover the content types a site exposes
+    question: Which content resource types can I query on my Drupal site's JSON:API?
+  - id: listEntries
+    intent: List content entries of one bundle
+    question: How do I fetch all the articles on my site through the content API?
+  - id: createEntry
+    intent: Create a content entry
+    question: Can I publish a new article to my site through the content API?
+  - id: getEntry
+    intent: Get one content entry by UUID
+    question: How can I read a single piece of content by its UUID?
+  - id: updateEntry
+    intent: Update an existing content entry
+    question: How do I edit the title or body of an article that's already published?
+  - id: deleteEntry
+    intent: Delete a content entry
+    question: Can I remove a piece of content from my site through the API?
+  - id: getRelated
+    intent: Fetch the entries a relationship field points to
+    question: How do I get the full tags or author records an article references?
+  - id: getRelationship
+    intent: Read a relationship's linkage identifiers
+    question: Can I see just the type and ID an entry points to, without the target's attributes?
+  phrasing_ops: 8
   slug: acquia-content-api
 artifact_total: 127
 asyncapis:
@@ -724,7 +1096,7 @@ score:
     catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.3
+  delta: 0.0
   facets:
     access_clarity: 100.0
     contract_governance: 45.5
@@ -732,7 +1104,7 @@ score:
     developer_ergonomics: 73.8
     discoverability: 65.0
     operational_transparency: 65.8
-  previous_composite: 74.5
+  previous_composite: 76.8
   provenance:
     agentic_access: derived
     conformance: first-party

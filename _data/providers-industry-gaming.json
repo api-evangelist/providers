@@ -12,6 +12,56 @@
    "shown": 2,
    "providers": [
     {
+     "name": "Unity",
+     "slug": "unity",
+     "description": "Unity is a cross-platform real-time development platform that provides a comprehensive suite of APIs and services for game development, interactive 3D content creation, and live game operations including multiplayer, analytics, economy, authentication, and DevOps tooling.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/screenshots/unity-2026-08-17T130408.png",
+     "score": 67.7,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 69.6,
+      "contract_quality": 58.4,
+      "contract_governance": 27.3,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 58.3,
+      "access_clarity": 92.1
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 29.4,
+      "matched_via": "fallback"
+     },
+     "agent_score": 24.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 1
+    },
+    {
      "name": "Snapchat",
      "slug": "snapchat",
      "description": "Snap Inc. operates Snapchat, a visual messaging app and camera platform with developer tools including the Marketing API for programmatic advertising, Conversions API for server-side conversion tracking, Login Kit for OAuth-based user authentication, Creative Kit for content sharing to Snapchat, Camera Kit for embedding Snap AR technology into third-party apps, and Lens Studio for building augmented reality experiences.",
@@ -56,56 +106,6 @@
       "dry_run_mode": false,
       "delegated_identity": "served",
       "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 1
-    },
-    {
-     "name": "Unity",
-     "slug": "unity",
-     "description": "Unity is a cross-platform real-time development platform that provides a comprehensive suite of APIs and services for game development, interactive 3D content creation, and live game operations including multiplayer, analytics, economy, authentication, and DevOps tooling.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/screenshots/unity-2026-08-17T130408.png",
-     "score": 67.2,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 64.3,
-      "contract_quality": 58.4,
-      "contract_governance": 27.3,
-      "operational_transparency": 57.9,
-      "developer_ergonomics": 58.3,
-      "access_clarity": 92.1
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 29.4,
-      "matched_via": "fallback"
-     },
-     "agent_score": 24.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -430,6 +430,56 @@
      "rank": 8
     },
     {
+     "name": "GZW Data API",
+     "slug": "gzw-data",
+     "description": "GZW Data is a free, fan-made, read-only REST API for Gray Zone Warfare game data, published by independent maintainer ZoniBoy00 and hosted on Vercel at gzw-data.dev. It exposes 85+ datasets auto-discovered from a wiki-scraped data directory - weapons, ammo, armor, magazines, attachments, tasks and missions, keys and keycards, loot containers, medical, provisions, gear and vendors - behind one uniform JSON envelope with equality filters, full-text search, sorting and page-number pagination. Three smart routes union related datasets (armor, weapon_parts, helmet_mods). There is no authentication, no account and no API key; access is governed by a best-effort limit of 100 requests per minute per IP with X-RateLimit-* headers. An OpenAPI 3.0.3 contract, an llms.txt and a zero-dependency TypeScript client on npm are published. Data is scraped weekly from the community GZW Fandom Wiki; the project is unofficial and not affiliated with the game's publisher.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gzw-data/refs/heads/main/screenshots/gzw-data-2026-09-02T145643.png",
+     "score": 60.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 83.9,
+      "contract_quality": 44.8,
+      "contract_governance": 57.4,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 67.3,
+      "access_clarity": 52.6
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 30.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 35.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": "verified",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 9
+    },
+    {
      "name": "AppLike Group",
      "slug": "applike",
      "description": "AppLike Group is a Hamburg, Germany-based company builder in the mobile app economy, founded in 2015 by Jonas Thiemann and Carlo Szelinsky and backed by Bertelsmann. The group operates four independent businesses that cover the mobile app value chain: adjoe (rewarded user acquisition, the Playtime engagement ad format, the Arcade loyalty layer and a programmatic ads platform), justtrack (mobile attribution, user-acquisition automation, cohort and monetization analytics), JustDice (app-discovery products for mobile gamers) and Sunday (mobile game development and publishing). Two of the four brands publish public developer surfaces: justtrack ships OpenAPI 3.1 contracts for its Management and AppEvent APIs plus documented Reporting, Revenue Events and Raw Data Export interfaces, and adjoe publishes SSP reporting APIs and a server-to-server rewarded-payout callback alongside Android, iOS, Unity, Flutter, React Native and Cordova SDKs.",
@@ -475,56 +525,6 @@
       "delegated_identity": "served",
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 9
-    },
-    {
-     "name": "GZW Data API",
-     "slug": "gzw-data",
-     "description": "GZW Data is a free, fan-made, read-only REST API for Gray Zone Warfare game data, published by independent maintainer ZoniBoy00 and hosted on Vercel at gzw-data.dev. It exposes 85+ datasets auto-discovered from a wiki-scraped data directory - weapons, ammo, armor, magazines, attachments, tasks and missions, keys and keycards, loot containers, medical, provisions, gear and vendors - behind one uniform JSON envelope with equality filters, full-text search, sorting and page-number pagination. Three smart routes union related datasets (armor, weapon_parts, helmet_mods). There is no authentication, no account and no API key; access is governed by a best-effort limit of 100 requests per minute per IP with X-RateLimit-* headers. An OpenAPI 3.0.3 contract, an llms.txt and a zero-dependency TypeScript client on npm are published. Data is scraped weekly from the community GZW Fandom Wiki; the project is unofficial and not affiliated with the game's publisher.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gzw-data/refs/heads/main/screenshots/gzw-data-2026-09-02T145643.png",
-     "score": 59.7,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 78.6,
-      "contract_quality": 44.8,
-      "contract_governance": 57.4,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 67.3,
-      "access_clarity": 52.6
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 30.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 35.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "verified",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "verified",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "rank": 10
@@ -630,6 +630,56 @@
      "rank": 12
     },
     {
+     "name": "Fabric Origin",
+     "slug": "fabric-origin",
+     "description": "Fabric Origin is the entertainment metadata and market-intelligence arm of Fabric, the media software company formed from Xytech and IVA. Origin spans three products: Nexus, a family of 14 REST APIs serving movie, television, game and celebrity metadata plus images, trailers, TV listings, showtimes and licensed third-party ratings from Metacritic, Rotten Tomatoes, Common Sense Media and Katch; Studio, a JSON:API 1.1 metadata management platform with an SNS event surface; and Insights, streaming market intelligence across 1,000+ platforms and 249 countries. Fabric publishes machine-readable OpenAPI 3.1.1 for the whole Nexus surface, an llms.txt index at the company root, and two OAuth-governed hosted MCP servers — Origin Studio and Origin Insights — making it one of the more deliberately agent-ready entertainment-data providers in the catalog.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/screenshots/fabric-origin-2026-06-20T181001.png",
+     "score": 57.3,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 49.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 71.1,
+      "developer_ergonomics": 66.1,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 35.3,
+      "matched_via": "fallback"
+     },
+     "agent_score": 52.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 13
+    },
+    {
      "name": "Lichess",
      "slug": "lichess",
      "description": "Lichess is a free, ad-free, open-source online chess server operated by a French nonprofit and powered entirely by volunteers and donations. It serves millions of games per day with live play, tournaments, puzzles, studies, broadcasts, analysis, and a public API. The server (lila), engine library (scalachess), mobile app, board UI (chessground), and distributed Stockfish analysis network (fishnet) are all open source under AGPL-3.0, MIT, and GPL-3.0 licenses. The Lichess API provides 185 documented operations across 23 functional areas including Account, Users, Games, Puzzles, Teams, Board, Bot, Challenges, Arena and Swiss Tournaments, Simuls, Studies, Broadcasts, Messaging, OAuth, FIDE, Opening Explorer, Tablebase, External Engine, and Cloud Analysis, with comprehensive ND-JSON streaming support.",
@@ -677,7 +727,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Sketchfab",
@@ -727,56 +777,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
-    },
-    {
-     "name": "Fabric Origin",
-     "slug": "fabric-origin",
-     "description": "Fabric Origin is the entertainment metadata and market-intelligence arm of Fabric, the media software company formed from Xytech and IVA. Origin spans three products: Nexus, a family of 14 REST APIs serving movie, television, game and celebrity metadata plus images, trailers, TV listings, showtimes and licensed third-party ratings from Metacritic, Rotten Tomatoes, Common Sense Media and Katch; Studio, a JSON:API 1.1 metadata management platform with an SNS event surface; and Insights, streaming market intelligence across 1,000+ platforms and 249 countries. Fabric publishes machine-readable OpenAPI 3.1.1 for the whole Nexus surface, an llms.txt index at the company root, and two OAuth-governed hosted MCP servers — Origin Studio and Origin Insights — making it one of the more deliberately agent-ready entertainment-data providers in the catalog.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/screenshots/fabric-origin-2026-06-20T181001.png",
-     "score": 56.8,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.0,
-      "contract_quality": 49.7,
-      "contract_governance": 18.2,
-      "operational_transparency": 71.1,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 35.3,
-      "matched_via": "fallback"
-     },
-     "agent_score": 52.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
      "rank": 15
     },
     {
@@ -784,11 +784,11 @@
      "slug": "leonardo-ai",
      "description": "Leonardo.AI is an Australian generative-AI company (acquired by Canva in July 2024) offering a Production API for AI image generation, video generation, 3D model creation, custom model and element training, realtime canvas editing, upscaling and variations, and Blueprint workflow execution. The platform supports in-house Leonardo models (Phoenix, Lucid Origin, Lucid Realism) and third-party models (FLUX.1/FLUX.2, Ideogram 3.0, GPT Image, Nano Banana, Seedream, Kling, LTX, Veo, Seedance, Hailuo, Rodin) under a unified pay-as-you-go dollar-denominated API surface with webhook callbacks, MCP server integration, and official Python and TypeScript SDKs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/screenshots/leonardo-ai-2026-06-20T184426.png",
-     "score": 56.3,
+     "score": 56.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 58.9,
+      "discoverability": 64.3,
       "contract_quality": 66.5,
       "contract_governance": 13.6,
       "operational_transparency": 32.1,
@@ -1300,6 +1300,56 @@
      "rank": 25
     },
     {
+     "name": "Twitch",
+     "slug": "twitch",
+     "description": "Twitch is a live streaming platform for gamers, content creators, and communities.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/twitch/refs/heads/main/screenshots/twitch-2026-06-20T195857.png",
+     "score": 52.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 69.6,
+      "contract_quality": 60.8,
+      "contract_governance": 27.3,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 64.3,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 34.3,
+      "matched_via": "fallback"
+     },
+     "agent_score": 30.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 26
+    },
+    {
      "name": "Gameye",
      "slug": "gameye",
      "description": "Gameye is a managed game server orchestration platform for multiplayer game studios, founded in 2017 in Rotterdam (Gameye B.V.). It runs dedicated, containerized game servers across bare metal, cloud, and edge providers behind a single REST API — the Session API. Studios call POST /session with a region and a Docker image; Gameye selects the best available location, starts a container in about half a second, and returns the host IP and mapped ports players connect to. Capacity-based pricing carries no egress fees, and the platform is matchmaker-agnostic (Pragma Engine, Nakama, PlayFab, FlexMatch). Gameye has orchestrated 120M+ sessions with a 99.99% uptime SLA and serves studios including Torn Banner Studios (Chivalry 2) and Remedy Entertainment.",
@@ -1347,7 +1397,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Convai",
@@ -1393,56 +1443,6 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 27
-    },
-    {
-     "name": "Twitch",
-     "slug": "twitch",
-     "description": "Twitch is a live streaming platform for gamers, content creators, and communities.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/twitch/refs/heads/main/screenshots/twitch-2026-06-20T195857.png",
-     "score": 51.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 64.3,
-      "contract_quality": 60.8,
-      "contract_governance": 27.3,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 64.3,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 34.3,
-      "matched_via": "fallback"
-     },
-     "agent_score": 30.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -2717,6 +2717,56 @@
      "rank": 53
     },
     {
+     "name": "The New York Times Company",
+     "slug": "new-york-times-company",
+     "description": "The New York Times Company (NYSE: NYT) is the publisher of The New York Times and operator of a portfolio of news, product-review, sports, cooking, and games products including The Athletic, Wirecutter, Wordle, NYT Cooking, and NYT Games. The company also runs a public developer program at developer.nytimes.com that exposes a family of read-only REST APIs over its newsroom content: article search, top stories, most popular, archive going back to 1851, best-seller and book-review lists, movie reviews, the Times Newswire firehose, the controlled vocabulary that powers Times Topics (TimesTags), the Semantic API, and a Geographic API that pairs Times geo-tagged content with the GeoNames database. All APIs share api.nytimes.com as the host, use a query-string api-key for authentication, and respond as JSON.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/screenshots/new-york-times-company-2026-06-20T190234.png",
+     "score": 42.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 85.7,
+      "contract_quality": 58.7,
+      "contract_governance": 27.3,
+      "operational_transparency": 33.7,
+      "developer_ergonomics": 14.3,
+      "access_clarity": 40.0
+     },
+     "scored_at": "2026-10-04",
+     "schema_version": "0.23.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 22.5,
+      "matched_via": "fallback"
+     },
+     "agent_score": 25.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 54
+    },
+    {
      "name": "NewMinecraftServers",
      "slug": "newminecraftservers",
      "description": "NewMinecraftServers is a directory of new Minecraft servers for Java and Bedrock Edition, where every listing is checked automatically and shows the server IP, online state, players online, accepted versions and gamemodes. Alongside the public site it publishes a free, no-key read-only Public API (OpenAPI 3.0) for searching listed servers, looking one up by address, reading player-count history and reading cached Minecraft service status as JSON, plus a set of free browser tools and an open-source Paper companion plugin for server owners.",
@@ -2763,7 +2813,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "Rokid",
@@ -2813,7 +2863,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "PokéAPI",
@@ -2852,56 +2902,6 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 56
-    },
-    {
-     "name": "The New York Times Company",
-     "slug": "new-york-times-company",
-     "description": "The New York Times Company (NYSE: NYT) is the publisher of The New York Times and operator of a portfolio of news, product-review, sports, cooking, and games products including The Athletic, Wirecutter, Wordle, NYT Cooking, and NYT Games. The company also runs a public developer program at developer.nytimes.com that exposes a family of read-only REST APIs over its newsroom content: article search, top stories, most popular, archive going back to 1851, best-seller and book-review lists, movie reviews, the Times Newswire firehose, the controlled vocabulary that powers Times Topics (TimesTags), the Semantic API, and a Geographic API that pairs Times geo-tagged content with the GeoNames database. All APIs share api.nytimes.com as the host, use a query-string api-key for authentication, and respond as JSON.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/screenshots/new-york-times-company-2026-06-20T190234.png",
-     "score": 42.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 80.4,
-      "contract_quality": 58.7,
-      "contract_governance": 27.3,
-      "operational_transparency": 33.7,
-      "developer_ergonomics": 14.3,
-      "access_clarity": 40.0
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 22.5,
-      "matched_via": "fallback"
-     },
-     "agent_score": 25.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,

@@ -37,6 +37,20 @@ apis:
   baseurl_source: declared
   description: The intelligence operations of the GatiFlow Intelligence API — the current intelligence report (content scales with plan), snapshot history, one archived report by snapshot id, and a CSV/PDF export of
   name: GatiFlow Intelligence API
+  phrasing_intents:
+  - id: report_api_v1_intelligence_report_get
+    intent: Generate a fresh intelligence report
+    question: How do I generate a current intelligence report for my organization in Gatiflow?
+  - id: report_history_list_api_v1_intelligence_report_history_get
+    intent: List retained report snapshots
+    question: Which past report snapshots are still retained for my organization?
+  - id: report_at_snapshot_api_v1_intelligence_report_at__snapshot_id__get
+    intent: Retrieve an archived report snapshot
+    question: Can I open the intelligence report exactly as it was collected on an earlier date?
+  - id: export_report_api_v1_intelligence_report_export_get
+    intent: Export the intelligence report as a file
+    question: Can I download the intelligence report as a CSV or PDF file instead of JSON?
+  phrasing_ops: 4
   slug: gatiflow-intelligence-api
 - baseURL: https://api.gatiflow.io
   baseurl_source: declared

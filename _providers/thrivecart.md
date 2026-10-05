@@ -44,56 +44,171 @@ apis:
   baseurl_source: declared
   description: The Account API from ThriveCart — 1 operation(s) for account.
   name: ThriveCart Account API
+  phrasing_intents:
+  - id: ping
+    intent: Check my API key and account details
+    question: Is my ThriveCart API token still valid?
+  phrasing_ops: 1
   slug: thrivecart-account-api
 - baseURL: https://thrivecart.com/api/external
   baseurl_source: declared
   description: The Affiliates API from ThriveCart — 9 operation(s) for affiliates.
   name: ThriveCart Affiliates API
+  phrasing_intents:
+  - id: searchAffiliates
+    intent: Search affiliates by product, name or email
+    question: How do I find affiliates approved to promote a particular product?
+  - id: createNewAffiliate
+    intent: Create a new affiliate
+    question: How do I sign up a new affiliate and add them to my products?
+  - id: readAffiliateInfo
+    intent: Look up one affiliate's details
+    question: How can I pull up the details of a single affiliate?
+  - id: markAffiliateAsFavorite
+    intent: Mark an affiliate as a favorite
+    question: How do I flag one of my affiliates as a VIP?
+  - id: unFavouriteAnAffiliate
+    intent: Remove an affiliate's favorite marker
+    question: How do I take an affiliate off my favorites?
+  - id: registerAffiliateForAProduct
+    intent: Register an existing affiliate for products
+    question: How do I add an affiliate I already have to another product?
+  - id: approveAnAffiliateForAProduct
+    intent: Approve an affiliate's pending application
+    question: How do I approve an affiliate who applied to promote my product?
+  - id: rejectAnAffiliateForAProduct
+    intent: Reject an affiliate's pending application
+    question: How do I turn down an affiliate's application to promote a product?
+  phrasing_ops: 10
   slug: thrivecart-affiliates-api
 - baseURL: https://thrivecart.com/api/external
   baseurl_source: declared
   description: The Bumps API from ThriveCart — 3 operation(s) for bumps.
   name: ThriveCart Bumps API
+  phrasing_intents:
+  - id: listBumpOffers
+    intent: List bump offers
+    question: What order bump offers do I have set up?
+  - id: getBump
+    intent: Get a bump offer
+    question: How do I view the settings of one specific bump offer?
+  - id: getBumpPriceDetails
+    intent: Get a bump offer's pricing options
+    question: What pricing options are configured on a bump offer?
+  phrasing_ops: 3
   slug: thrivecart-bumps-api
 - baseURL: https://thrivecart.com/api/external
   baseurl_source: declared
   description: The Customers API from ThriveCart — 2 operation(s) for customers.
   name: ThriveCart Customers API
+  phrasing_intents:
+  - id: readCustomerInformation
+    intent: Read a customer's purchase history
+    question: How do I see everything a customer has bought and subscribed to?
+  - id: updateCustomerEmailAddress
+    intent: Change a customer's email address
+    question: How do I change the email address on a customer's orders?
+  phrasing_ops: 2
   slug: thrivecart-customers-api
 - baseURL: https://thrivecart.com/api/external
   baseurl_source: declared
   description: The Downsells API from ThriveCart — 3 operation(s) for downsells.
   name: ThriveCart Downsells API
+  phrasing_intents:
+  - id: listDownsells
+    intent: List downsells
+    question: Which downsell offers exist in my account?
+  - id: getDownsell
+    intent: Get a downsell
+    question: How do I view one downsell's details?
+  - id: getDownsellPriceDetails
+    intent: Get a downsell's pricing options
+    question: What price options does a downsell offer?
+  phrasing_ops: 3
   slug: thrivecart-downsells-api
 - baseURL: https://thrivecart.com/api/external
   baseurl_source: declared
   description: The Event subscriptions API from ThriveCart — 2 operation(s) for event subscriptions.
   name: ThriveCart Event subscriptions API
+  phrasing_intents:
+  - id: createEventSubscription
+    intent: Subscribe an endpoint to webhook events
+    question: How do I get webhook notifications sent to my endpoint?
+  - id: unsubscribeFromAnEvent
+    intent: Unsubscribe an endpoint from webhooks
+    question: How do I stop webhook notifications going to an endpoint?
+  phrasing_ops: 2
   slug: thrivecart-event-subscriptions-api
 - baseURL: https://thrivecart.com/api/external
   baseurl_source: declared
   description: The Learn API from ThriveCart — 1 operation(s) for learn.
   name: ThriveCart Learn API
+  phrasing_intents:
+  - id: createNewStudent
+    intent: Enroll a new student in a course
+    question: How do I give someone access to a course in my Learn area?
+  phrasing_ops: 1
   slug: thrivecart-learn-api
 - baseURL: https://thrivecart.com/api/external
   baseurl_source: declared
   description: The Products API from ThriveCart — 3 operation(s) for products.
   name: ThriveCart Products API
+  phrasing_intents:
+  - id: listProducts
+    intent: List products
+    question: What products do I have in my account?
+  - id: getProduct
+    intent: Get a product
+    question: How do I look up one product's details?
+  - id: getProductPriceDetails
+    intent: Get a product's pricing options
+    question: What pricing options are available for a product?
+  phrasing_ops: 3
   slug: thrivecart-products-api
 - baseURL: https://thrivecart.com/api/external
   baseurl_source: declared
   description: The Subscriptions API from ThriveCart — 4 operation(s) for subscriptions.
   name: ThriveCart Subscriptions API
+  phrasing_intents:
+  - id: cancelASubscription
+    intent: Cancel a subscription
+    question: How do I cancel a customer's recurring subscription?
+  - id: refundATransaction
+    intent: Refund a transaction
+    question: How do I refund a customer's purchase?
+  - id: pauseASubscription
+    intent: Pause a subscription
+    question: How do I put a customer's subscription on hold?
+  - id: resumeASubscription
+    intent: Resume a paused subscription
+    question: How do I restart a subscription I paused?
+  phrasing_ops: 4
   slug: thrivecart-subscriptions-api
 - baseURL: https://thrivecart.com/api/external
   baseurl_source: declared
   description: The Transactions API from ThriveCart — 1 operation(s) for transactions.
   name: ThriveCart Transactions API
+  phrasing_intents:
+  - id: searchTransactions
+    intent: Search transaction activity
+    question: How do I find all the charges and refunds for a customer email?
+  phrasing_ops: 1
   slug: thrivecart-transactions-api
 - baseURL: https://thrivecart.com/api/external
   baseurl_source: declared
   description: The Upsells API from ThriveCart — 3 operation(s) for upsells.
   name: ThriveCart Upsells API
+  phrasing_intents:
+  - id: listUpsells
+    intent: List upsells
+    question: Which upsell offers have I created?
+  - id: getUpsell
+    intent: Get an upsell
+    question: How do I view a single upsell's details?
+  - id: getUpsellPriceDetails
+    intent: Get an upsell's pricing options
+    question: What price options does an upsell offer have?
+  phrasing_ops: 3
   slug: thrivecart-upsells-api
 artifact_total: 21
 asyncapis:
@@ -324,7 +439,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
@@ -332,7 +447,7 @@ score:
     developer_ergonomics: 72.0
     discoverability: 73.2
     operational_transparency: 78.9
-  previous_composite: 71.8
+  previous_composite: 67.5
   provenance:
     conformance: first-party
     contracts:

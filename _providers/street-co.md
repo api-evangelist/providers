@@ -510,21 +510,21 @@ rate_limits:
   slug: street-co-rate-limits
 score:
   band: developing
-  composite: 53.6
+  composite: 54.2
   coverage:
     artifact_dirs: 25
-    catalog_earned: 49.0
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.6
   facets:
     access_clarity: 38.2
     contract_governance: 18.2
     contract_quality: 60.6
     developer_ergonomics: 62.5
-    discoverability: 73.2
+    discoverability: 78.6
     operational_transparency: 63.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -534,7 +534,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 54.0
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: first-party

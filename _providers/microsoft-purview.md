@@ -48,221 +48,756 @@ apis:
   baseurl_source: declared
   description: Operations for managing Purview accounts
   name: Microsoft Purview Accounts API
+  phrasing_intents:
+  - id: createOrUpdateAccount
+    intent: Create or replace a Purview account
+    question: How do I provision a new Microsoft Purview account in a resource group?
+  - id: getAccount
+    intent: Get a Purview account's details
+    question: What are the current settings and SKU of my Purview account?
+  - id: updateAccount
+    intent: Patch tags or properties on a Purview account
+    question: How do I change only the tags on an existing Purview account without recreating it?
+  - id: deleteAccount
+    intent: Delete a Purview account
+    question: Can I permanently remove a Purview account I no longer use?
+  - id: listAccountsByResourceGroup
+    intent: List Purview accounts in a resource group
+    question: Which Purview accounts live in a particular resource group?
+  - id: listAccountsBySubscription
+    intent: List Purview accounts across a subscription
+    question: What Purview accounts exist anywhere in my Azure subscription?
+  - id: listAccountKeys
+    intent: Retrieve a Purview account's access keys
+    question: Where do I get the Atlas Kafka endpoint keys for my Purview account?
+  - id: addRootCollectionAdmin
+    intent: Add an admin to the root collection
+    question: How do I grant someone admin rights on a Purview account's root collection?
+  phrasing_ops: 9
   slug: microsoft-purview-accounts-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for approving or rejecting workflow tasks
   name: Microsoft Purview Approval API
+  phrasing_intents:
+  - id: approveApproval
+    intent: Approve a workflow approval task
+    question: What's the way to approve a pending Purview workflow approval request?
+  - id: rejectApproval
+    intent: Reject a workflow approval task
+    question: Is it possible to turn down an approval request in a Purview workflow?
+  phrasing_ops: 2
   slug: microsoft-purview-approval-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing business domains
   name: Microsoft Purview Business Domains API
+  phrasing_intents:
+  - id: listBusinessDomains
+    intent: List business domains in the unified catalog
+    question: What business domains are defined in our Purview unified catalog?
+  - id: createBusinessDomain
+    intent: Create a business domain
+    question: How do I set up a new business domain in the unified catalog?
+  - id: getBusinessDomain
+    intent: Get a business domain
+    question: Who owns and stewards a specific business domain?
+  - id: updateBusinessDomain
+    intent: Update a business domain
+    question: How do I rename or re-describe an existing business domain?
+  - id: deleteBusinessDomain
+    intent: Delete a business domain
+    question: Can I remove a business domain we no longer need?
+  phrasing_ops: 5
   slug: microsoft-purview-business-domains-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing eDiscovery cases
   name: Microsoft Purview Cases API
+  phrasing_intents:
+  - id: listEdiscoveryCases
+    intent: List eDiscovery cases
+    question: What eDiscovery cases are open in our organization?
+  - id: createEdiscoveryCase
+    intent: Open a new eDiscovery case
+    question: How do I start a new eDiscovery case for a litigation matter?
+  - id: getEdiscoveryCase
+    intent: Get an eDiscovery case
+    question: Where can I check the status and closing details of a single eDiscovery case?
+  - id: updateEdiscoveryCase
+    intent: Update an eDiscovery case
+    question: How do I rename an eDiscovery case or change its description?
+  - id: deleteEdiscoveryCase
+    intent: Delete an eDiscovery case and its data
+    question: Can I delete an eDiscovery case along with everything collected in it?
+  phrasing_ops: 5
   slug: microsoft-purview-cases-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing classification rules
   name: Microsoft Purview Classification Rules API
+  phrasing_intents:
+  - id: createOrReplaceClassificationRule
+    intent: Create or replace a classification rule
+    question: How do I define a custom classification rule for scanning?
+  - id: getClassificationRule
+    intent: Get a classification rule
+    question: How is a specific custom classification rule configured?
+  - id: deleteClassificationRule
+    intent: Delete a classification rule
+    question: Can I remove a custom classification rule I no longer want applied?
+  - id: listClassificationRules
+    intent: List classification rules
+    question: Which classification rules are defined in my Purview account?
+  phrasing_ops: 4
   slug: microsoft-purview-classification-rules-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing critical data elements
   name: Microsoft Purview Critical Data Elements API
+  phrasing_intents:
+  - id: listCriticalDataElements
+    intent: List critical data elements
+    question: Which critical data elements are tracked in our unified catalog?
+  - id: createCriticalDataElement
+    intent: Define a critical data element
+    question: How do I mark a new critical data element in the unified catalog?
+  phrasing_ops: 2
   slug: microsoft-purview-critical-data-elements-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing custodians within cases
   name: Microsoft Purview Custodians API
+  phrasing_intents:
+  - id: listCustodians
+    intent: List custodians in an eDiscovery case
+    question: Who are the custodians attached to an eDiscovery case?
+  - id: createCustodian
+    intent: Add a custodian to an eDiscovery case
+    question: How do I add a person as a custodian to an eDiscovery case?
+  phrasing_ops: 2
   slug: microsoft-purview-custodians-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing data products
   name: Microsoft Purview Data Products API
+  phrasing_intents:
+  - id: listDataProducts
+    intent: List data products
+    question: What data products are published in our unified catalog?
+  - id: createDataProduct
+    intent: Create a data product
+    question: How do I package data assets into a new data product?
+  - id: getDataProduct
+    intent: Get a data product
+    question: Which data assets are included in a specific data product?
+  - id: updateDataProduct
+    intent: Update a data product
+    question: How do I add assets to a data product that already exists?
+  - id: deleteDataProduct
+    intent: Delete a data product
+    question: Can I retire a data product from the unified catalog?
+  phrasing_ops: 5
   slug: microsoft-purview-data-products-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for data profiling operations
   name: Microsoft Purview Data Profiling API
+  phrasing_intents:
+  - id: runDataProfiling
+    intent: Start profiling a data asset
+    question: How do I kick off data profiling on a table?
+  - id: getDataProfilingResult
+    intent: Get profiling results for a data asset
+    question: What did the last data profiling run find for an asset?
+  phrasing_ops: 2
   slug: microsoft-purview-data-profiling-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing data quality rules
   name: Microsoft Purview Data Quality Rules API
+  phrasing_intents:
+  - id: listDataQualityRules
+    intent: List data quality rules
+    question: What data quality rules are configured in our Purview account?
+  - id: createDataQualityRule
+    intent: Create a data quality rule
+    question: How do I add a rule that checks data assets for quality problems?
+  - id: getDataQualityRule
+    intent: Get a data quality rule
+    question: What expression and targets does a particular data quality rule use?
+  - id: updateDataQualityRule
+    intent: Update a data quality rule
+    question: How do I switch off an existing data quality rule without deleting it?
+  - id: deleteDataQualityRule
+    intent: Delete a data quality rule
+    question: Can I delete a data quality rule that no longer applies?
+  phrasing_ops: 5
   slug: microsoft-purview-data-quality-rules-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for running data quality scans
   name: Microsoft Purview Data Quality Scans API
+  phrasing_intents:
+  - id: runDataQualityScan
+    intent: Run a data quality scan
+    question: Can I evaluate data quality rules against my assets on demand?
+  phrasing_ops: 1
   slug: microsoft-purview-data-quality-scans-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for retrieving data quality scores
   name: Microsoft Purview Data Quality Scores API
+  phrasing_intents:
+  - id: listDataQualityScores
+    intent: List data quality scores
+    question: What are the data quality scores across our data assets?
+  - id: getDataQualityScore
+    intent: Get a single data quality score
+    question: Where can I look up the details of one data quality score record?
+  phrasing_ops: 2
   slug: microsoft-purview-data-quality-scores-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing data source registrations
   name: Microsoft Purview Data Sources API
+  phrasing_intents:
+  - id: createOrReplaceDataSource
+    intent: Register or replace a data source
+    question: How do I register a new data source for Purview to scan?
+  - id: getDataSource
+    intent: Get a registered data source
+    question: How is a specific data source registered in Purview?
+  - id: deleteDataSource
+    intent: Unregister a data source
+    question: Can I remove a data source registration from Purview?
+  - id: listDataSources
+    intent: List registered data sources
+    question: Which data sources are registered in our Purview data map?
+  phrasing_ops: 4
   slug: microsoft-purview-data-sources-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for searching and discovering data assets
   name: Microsoft Purview Discovery API
+  phrasing_intents:
+  - id: searchQuery
+    intent: Search the data catalog for assets
+    question: How do I find data assets in Purview by keyword?
+  - id: searchSuggest
+    intent: Get search suggestions for a query
+    question: Can Purview suggest matching assets while I type a search?
+  - id: searchAutoComplete
+    intent: Autocomplete a search term
+    question: How do I get autocomplete options for a search box over the catalog?
+  phrasing_ops: 3
   slug: microsoft-purview-discovery-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for evaluating DLP policies on content
   name: Microsoft Purview DLP Policies API
+  phrasing_intents:
+  - id: evaluateDlpApplication
+    intent: Check which DLP policies apply to content
+    question: Which data loss prevention policies would apply to this piece of content?
+  - id: processContent
+    intent: Run content through the DLP pipeline
+    question: How do I have Purview enforce data loss prevention on content at runtime?
+  phrasing_ops: 2
   slug: microsoft-purview-dlp-policies-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing catalog entities
   name: Microsoft Purview Entity API
+  phrasing_intents:
+  - id: createOrUpdateEntity
+    intent: Create or update a single catalog entity
+    question: How do I register one data asset in the Purview catalog?
+  - id: getEntityByGuid
+    intent: Get an entity's full definition
+    question: How can I read everything Purview knows about one asset by its GUID?
+  - id: deleteEntityByGuid
+    intent: Delete one entity by GUID
+    question: Can I remove a single asset from the catalog using its GUID?
+  - id: listEntitiesByGuids
+    intent: Fetch several entities by their GUIDs
+    question: Can I retrieve many assets in one call when I have a list of GUIDs?
+  - id: bulkCreateOrUpdateEntities
+    intent: Create or update many entities at once
+    question: How do I load a batch of assets into the catalog in one request?
+  - id: bulkDeleteEntities
+    intent: Delete many entities at once
+    question: Can I delete a whole list of assets in one call?
+  - id: getEntityClassification
+    intent: Get one classification on an entity
+    question: Does a given asset carry a specific classification?
+  - id: removeEntityClassification
+    intent: Remove a classification from an entity
+    question: How do I take a wrong classification off an asset?
+  phrasing_ops: 19
   slug: microsoft-purview-entity-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing glossary terms, categories, and assignments
   name: Microsoft Purview Glossary API
+  phrasing_intents:
+  - id: listGlossaries
+    intent: List all glossaries
+    question: What business glossaries exist in our Purview catalog?
+  - id: createGlossary
+    intent: Create a glossary
+    question: How do I start a new business glossary?
+  - id: getGlossary
+    intent: Get a glossary
+    question: Where can I see the details of one glossary by its GUID?
+  - id: updateGlossary
+    intent: Update a glossary
+    question: How do I rename a glossary or change its description?
+  - id: deleteGlossary
+    intent: Delete a glossary with its terms
+    question: Does deleting a glossary also remove its terms and categories?
+  - id: listGlossaryTerms
+    intent: List the terms in a glossary
+    question: What terms belong to a particular glossary?
+  - id: listGlossaryCategories
+    intent: List the categories in a glossary
+    question: What categories organise the terms in a glossary?
+  - id: createGlossaryTerm
+    intent: Create a glossary term
+    question: How do I add a single business term to a glossary?
+  phrasing_ops: 19
   slug: microsoft-purview-glossary-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing glossary terms in the unified catalog
   name: Microsoft Purview Glossary Terms API
+  phrasing_intents:
+  - id: listUnifiedGlossaryTerms
+    intent: List glossary terms in the unified catalog
+    question: What glossary terms are defined in the Purview unified catalog?
+  phrasing_ops: 1
   slug: microsoft-purview-glossary-terms-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing label policy settings
   name: Microsoft Purview Label Policy Settings API
+  phrasing_intents:
+  - id: getLabelPolicySettings
+    intent: Read information protection label policy settings
+    question: What label policy settings apply to our organization?
+  phrasing_ops: 1
   slug: microsoft-purview-label-policy-settings-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing legal holds
   name: Microsoft Purview Legal Holds API
+  phrasing_intents:
+  - id: listLegalHolds
+    intent: List legal holds in an eDiscovery case
+    question: What legal holds are in place for an eDiscovery case?
+  - id: createLegalHold
+    intent: Place a legal hold in an eDiscovery case
+    question: How do I put content on legal hold for a case?
+  phrasing_ops: 2
   slug: microsoft-purview-legal-holds-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for tracking data lineage
   name: Microsoft Purview Lineage API
+  phrasing_intents:
+  - id: getLineageByGuid
+    intent: Get lineage for an entity
+    question: Where does the data in a given asset come from and where does it flow?
+  - id: getLineageNextPage
+    intent: Page through lineage for an entity
+    question: How do I fetch the next page of lineage when an asset has many neighbours?
+  - id: lineageGetByUniqueAttribute
+    intent: Get lineage by type and unique attribute
+    question: Can I look up lineage using an asset's type and qualified name instead of its GUID?
+  phrasing_ops: 3
   slug: microsoft-purview-lineage-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing metadata policies
   name: Microsoft Purview Metadata Policy API
+  phrasing_intents:
+  - id: getMetadataPolicy
+    intent: Get a metadata policy
+    question: Who has which role on a collection according to its metadata policy?
+  - id: updateMetadataPolicy
+    intent: Update a metadata policy
+    question: How do I change role assignments in a collection's metadata policy?
+  - id: listAllMetadataPolicies
+    intent: List metadata policies
+    question: What metadata policies govern access across our Purview collections?
+  phrasing_ops: 3
   slug: microsoft-purview-metadata-policy-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing metadata roles
   name: Microsoft Purview Metadata Roles API
+  phrasing_intents:
+  - id: listMetadataRoles
+    intent: List metadata roles
+    question: Which metadata roles can be assigned in our Purview account?
+  phrasing_ops: 1
   slug: microsoft-purview-metadata-roles-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing Objectives and Key Results
   name: Microsoft Purview OKRs API
+  phrasing_intents:
+  - id: listOKRs
+    intent: List OKRs in the unified catalog
+    question: What objectives and key results are tracked in our unified catalog?
+  - id: createOKR
+    intent: Create an objective or key result
+    question: How do I add a new objective to a business domain?
+  phrasing_ops: 2
   slug: microsoft-purview-okrs-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations available on the Purview resource provider
   name: Microsoft Purview Operations API
+  phrasing_intents:
+  - id: listOperations
+    intent: List Purview resource provider operations
+    question: Which management operations does the Purview resource provider expose?
+  phrasing_ops: 1
   slug: microsoft-purview-operations-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing private endpoint connections
   name: Microsoft Purview Private Endpoint Connections API
+  phrasing_intents:
+  - id: listPrivateEndpointConnections
+    intent: List a Purview account's private endpoints
+    question: Which private endpoint connections are attached to my Purview account?
+  - id: getPrivateEndpointConnection
+    intent: Get one private endpoint connection
+    question: What is the approval state of a specific private endpoint connection?
+  phrasing_ops: 2
   slug: microsoft-purview-private-endpoint-connections-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for computing protection scopes
   name: Microsoft Purview Protection Scopes API
+  phrasing_intents:
+  - id: computeProtectionScopes
+    intent: Compute protection scopes for content
+    question: Which DLP policies should my app enforce for a given user and activity?
+  phrasing_ops: 1
   slug: microsoft-purview-protection-scopes-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing relationships between entities
   name: Microsoft Purview Relationship API
+  phrasing_intents:
+  - id: createRelationship
+    intent: Create a relationship between entities
+    question: How do I link two assets with a typed relationship?
+  - id: updateRelationship
+    intent: Update a relationship between entities
+    question: How do I change the attributes of an existing relationship between assets?
+  - id: getRelationship
+    intent: Get a relationship
+    question: What are the two ends of a given relationship?
+  - id: deleteRelationship
+    intent: Delete a relationship
+    question: Can I remove the link between two assets?
+  phrasing_ops: 4
   slug: microsoft-purview-relationship-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing retention event types
   name: Microsoft Purview Retention Event Types API
+  phrasing_intents:
+  - id: listRetentionEventTypes
+    intent: List retention event types
+    question: What retention event types are defined for event-based retention?
+  - id: createRetentionEventType
+    intent: Create a retention event type
+    question: How do I define a new type of event that starts a retention period?
+  - id: getRetentionEventType
+    intent: Get a retention event type
+    question: Where can I see one retention event type's details?
+  - id: updateRetentionEventType
+    intent: Update a retention event type
+    question: How do I rename a retention event type?
+  - id: deleteRetentionEventType
+    intent: Delete a retention event type
+    question: Can I remove a retention event type that is no longer used?
+  phrasing_ops: 5
   slug: microsoft-purview-retention-event-types-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing retention events
   name: Microsoft Purview Retention Events API
+  phrasing_intents:
+  - id: listRetentionEvents
+    intent: List retention events
+    question: Which retention events have been triggered so far?
+  - id: createRetentionEvent
+    intent: Trigger a retention event
+    question: How do I start event-based retention when something happens, like an employee leaving?
+  - id: getRetentionEvent
+    intent: Get a retention event
+    question: What is the status of a retention event I triggered?
+  - id: deleteRetentionEvent
+    intent: Delete a retention event
+    question: Can I delete a retention event that was triggered by mistake?
+  phrasing_ops: 4
   slug: microsoft-purview-retention-events-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing retention labels
   name: Microsoft Purview Retention Labels API
+  phrasing_intents:
+  - id: listRetentionLabels
+    intent: List retention labels
+    question: What retention labels are configured in our organization?
+  - id: createRetentionLabel
+    intent: Create a retention label
+    question: How do I create a label that keeps content for a set period?
+  - id: getRetentionLabel
+    intent: Get a retention label
+    question: How long does a specific retention label keep content?
+  - id: updateRetentionLabel
+    intent: Update a retention label
+    question: How do I change the retention period on an existing label?
+  - id: deleteRetentionLabel
+    intent: Delete a retention label
+    question: Can I delete a retention label that is no longer needed?
+  phrasing_ops: 5
   slug: microsoft-purview-retention-labels-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing review sets
   name: Microsoft Purview Review Sets API
+  phrasing_intents:
+  - id: listReviewSets
+    intent: List review sets in an eDiscovery case
+    question: What review sets have been created in an eDiscovery case?
+  - id: createReviewSet
+    intent: Create a review set in an eDiscovery case
+    question: How do I create a review set to examine collected evidence?
+  phrasing_ops: 2
   slug: microsoft-purview-review-sets-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for running scans and viewing scan results
   name: Microsoft Purview Scan Result API
+  phrasing_intents:
+  - id: runScan
+    intent: Run a scan on a data source
+    question: How do I start a scan of a data source right now?
+  - id: cancelScan
+    intent: Cancel a running scan
+    question: How do I stop a scan that is taking too long?
+  - id: listScanHistory
+    intent: List a scan's run history
+    question: When did a scan last run and did it succeed?
+  phrasing_ops: 3
   slug: microsoft-purview-scan-result-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing scan rulesets
   name: Microsoft Purview Scan Rulesets API
+  phrasing_intents:
+  - id: createOrReplaceScanRuleset
+    intent: Create or replace a scan rule set
+    question: How do I create a custom scan rule set?
+  - id: getScanRuleset
+    intent: Get a scan rule set
+    question: Which file types and classifications does a scan rule set include?
+  - id: deleteScanRuleset
+    intent: Delete a scan rule set
+    question: Can I delete a custom scan rule set?
+  - id: listScanRulesets
+    intent: List scan rule sets
+    question: Which scan rule sets are available in my account?
+  phrasing_ops: 4
   slug: microsoft-purview-scan-rulesets-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing scan configurations
   name: Microsoft Purview Scans API
+  phrasing_intents:
+  - id: createOrReplaceScan
+    intent: Create or replace a scan
+    question: How do I set up a new scan for a registered data source?
+  - id: getScan
+    intent: Get a scan definition
+    question: How is a particular scan of a data source configured?
+  - id: deleteScan
+    intent: Delete a scan
+    question: Can I delete a scan from a data source?
+  - id: listScansByDataSource
+    intent: List scans on a data source
+    question: What scans are configured for a given data source?
+  phrasing_ops: 4
   slug: microsoft-purview-scans-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing eDiscovery searches
   name: Microsoft Purview Searches API
+  phrasing_intents:
+  - id: listEdiscoverySearches
+    intent: List searches in an eDiscovery case
+    question: What searches have been run inside an eDiscovery case?
+  - id: createEdiscoverySearch
+    intent: Create a search in an eDiscovery case
+    question: How do I search mailboxes and sites for evidence within a case?
+  phrasing_ops: 2
   slug: microsoft-purview-searches-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for accessing tenant-level sensitivity labels
   name: Microsoft Purview Sensitivity Labels API
+  phrasing_intents:
+  - id: listTenantSensitivityLabels
+    intent: List sensitivity labels for the whole tenant
+    question: Which sensitivity labels exist across our entire tenant?
+  - id: getTenantSensitivityLabel
+    intent: Get a tenant-level sensitivity label
+    question: Where can I read a sensitivity label's tenant-level definition?
+  - id: listSensitivityLabels
+    intent: List information protection sensitivity labels
+    question: What sensitivity labels are available to the organization under information protection?
+  - id: getSensitivityLabel
+    intent: Get an information protection sensitivity label
+    question: What are the settings of one information protection label?
+  - id: listUserSensitivityLabels
+    intent: List sensitivity labels available to a user
+    question: Which sensitivity labels can a specific user apply?
+  - id: listMySensitivityLabels
+    intent: List my own sensitivity labels
+    question: Which sensitivity labels am I allowed to apply?
+  - id: evaluateApplication
+    intent: Work out which sensitivity label to apply
+    question: Which sensitivity label should be applied to a document, and what actions follow?
+  - id: evaluateRemoval
+    intent: Work out how to remove a sensitivity label
+    question: What has to happen to strip a sensitivity label from a file?
+  phrasing_ops: 10
   slug: microsoft-purview-sensitivity-labels-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing scan triggers and schedules
   name: Microsoft Purview Triggers API
+  phrasing_intents:
+  - id: createOrReplaceTrigger
+    intent: Schedule a scan with a trigger
+    question: How do I schedule a scan to run on a recurrence?
+  - id: getTrigger
+    intent: Get a scan's schedule trigger
+    question: When is a scan scheduled to run?
+  - id: deleteTrigger
+    intent: Delete a scan's schedule trigger
+    question: Can I remove the recurring schedule from a scan?
+  - id: enableTrigger
+    intent: Enable a scan schedule
+    question: How do I turn a paused scan schedule back on?
+  - id: disableTrigger
+    intent: Disable a scan schedule
+    question: How do I pause scheduled scanning without deleting the schedule?
+  phrasing_ops: 5
   slug: microsoft-purview-triggers-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing type definitions
   name: Microsoft Purview Type API
+  phrasing_intents:
+  - id: listTypeDefinitions
+    intent: List all type definitions
+    question: What entity, classification and relationship types are defined in the catalog?
+  - id: bulkCreateTypeDefinitions
+    intent: Create type definitions in bulk
+    question: How do I define custom entity types for the catalog?
+  - id: bulkUpdateTypeDefinitions
+    intent: Update type definitions in bulk
+    question: How do I change several existing type definitions at once?
+  - id: bulkDeleteTypeDefinitions
+    intent: Delete type definitions in bulk
+    question: Can I delete several custom type definitions at once?
+  - id: listTypeDefinitionHeaders
+    intent: List type definition headers
+    question: Is there a lightweight list of type names and categories?
+  - id: getTypeDefinitionByGuid
+    intent: Get a type definition by GUID
+    question: How do I look up a type definition when I only have its GUID?
+  - id: getTypeDefinitionByName
+    intent: Get a type definition by name
+    question: What attributes does a named type like azure_sql_table have?
+  - id: deleteTypeDefinitionByName
+    intent: Delete a type definition by name
+    question: Can I delete one custom type by its name?
+  phrasing_ops: 8
   slug: microsoft-purview-type-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for submitting user requests
   name: Microsoft Purview User Requests API
+  phrasing_intents:
+  - id: submitUserRequest
+    intent: Submit a user request that triggers a workflow
+    question: What's the way to submit a request that kicks off a Purview workflow?
+  phrasing_ops: 1
   slug: microsoft-purview-user-requests-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing individual workflows
   name: Microsoft Purview Workflow API
+  phrasing_intents:
+  - id: createOrReplaceWorkflow
+    intent: Create or replace a workflow
+    question: How do I create an approval workflow in Purview?
+  - id: getWorkflow
+    intent: Get a workflow definition
+    question: What triggers and actions are in a specific Purview workflow?
+  - id: deleteWorkflow
+    intent: Delete a workflow
+    question: Can I remove a workflow that is no longer used?
+  - id: validateWorkflow
+    intent: Validate a workflow definition
+    question: How can I check a workflow definition for errors before saving it?
+  phrasing_ops: 4
   slug: microsoft-purview-workflow-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing workflow runs
   name: Microsoft Purview Workflow Run API
+  phrasing_intents:
+  - id: getWorkflowRun
+    intent: Get a workflow run
+    question: What is the status of a particular workflow run?
+  - id: cancelWorkflowRun
+    intent: Cancel a running workflow
+    question: How do I stop a workflow run that is in progress?
+  phrasing_ops: 2
   slug: microsoft-purview-workflow-run-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for managing workflow tasks
   name: Microsoft Purview Workflow Task API
+  phrasing_intents:
+  - id: getWorkflowTask
+    intent: Get a workflow task
+    question: Who is assigned to a specific workflow task?
+  - id: reassignWorkflowTask
+    intent: Reassign a workflow task
+    question: How do I hand a workflow task over to a different person?
+  phrasing_ops: 2
   slug: microsoft-purview-workflow-task-api
 - baseURL: https://{account-name}.purview.azure.com
   baseurl_source: declared
   description: Operations for listing workflows
   name: Microsoft Purview Workflows API
+  phrasing_intents:
+  - id: listWorkflows
+    intent: List all workflows
+    question: What workflows are defined in our Purview account?
+  phrasing_ops: 1
   slug: microsoft-purview-workflows-api
 arazzos:
 - description: Create a glossary term and assign it to one or more catalog entities.
@@ -1313,23 +1848,23 @@ scopes:
   summary_line: 8 scopes · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 66.8
+  composite: 67.3
   coverage:
     artifact_dirs: 33
-    catalog_earned: 61.3
+    catalog_earned: 64.3
     catalog_earned_first_party: 12.0
     catalog_gap: 53.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.9
+  delta: 0.5
   facets:
     access_clarity: 71.1
     contract_governance: 14.4
     contract_quality: 63.4
     developer_ergonomics: 72.6
-    discoverability: 70.0
+    discoverability: 75.0
     operational_transparency: 42.1
-  previous_composite: 64.9
+  previous_composite: 66.8
   provenance:
     agentic_access: derived
     conformance: derived

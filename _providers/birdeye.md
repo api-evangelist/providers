@@ -49,136 +49,598 @@ apis:
   baseurl_source: declared
   description: Access your public data from 150+ review sites.
   name: Birdeye Aggregation API
+  phrasing_intents:
+  - id: get-all-aggregation-source
+    intent: List a business's review aggregation sources
+    question: Which review site URLs is Birdeye aggregating reviews from for my location?
+  - id: getV1SurveyReviewsitesAlias
+    intent: List review site aliases for a business
+    question: What source alias names can I use when adding a review site URL?
+  - id: add-aggregation-url
+    intent: Add a review site URL to aggregate
+    question: Can I add a review site page URL so its reviews get aggregated for my business?
+  - id: delete-aggregation-url
+    intent: Remove a review aggregation URL
+    question: Can I stop aggregating reviews from a site I added by mistake?
+  phrasing_ops: 4
   slug: birdeye-aggregation-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: Create and maintain your business on Birdeye.
   name: Birdeye Business API
+  phrasing_intents:
+  - id: create-a-business
+    intent: Create a business under a reseller
+    question: Can a reseller create a new sub-account business through the API?
+  - id: search-business
+    intent: Search businesses under an account
+    question: How do I search the businesses under my account by name?
+  - id: get-business
+    intent: Get a business profile
+    question: What profile details does Birdeye hold for one of my businesses?
+  - id: update-business
+    intent: Update a business profile
+    question: Can I change a location's hours of operation and website through the API?
+  - id: delete-business
+    intent: Delete a business
+    question: Can I permanently delete a business from my account?
+  - id: update-the-status
+    intent: Set a business active or inactive
+    question: Can I mark a business inactive without deleting it?
+  - id: get-child-businesses
+    intent: List child businesses of a parent account
+    question: Which child businesses sit under my reseller or enterprise account?
+  - id: update-public-profile-of-businesses
+    intent: Choose the tabs on a public profile
+    question: Can I choose which tabs appear on a business's public profile page?
+  phrasing_ops: 15
   slug: birdeye-business-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: 'Add, delete and manage business media. Supported Media Size Photo: JPG or PNG. 720 x 720px. 10KB min. Video: 30 sec long. 720p or more upto 75MB. Note Uploaded media will be pushed to your google busi'
   name: Birdeye Business Media API
+  phrasing_intents:
+  - id: add-media
+    intent: Upload media to a location
+    question: Can I upload photos to a location's business profile media?
+  - id: get-media
+    intent: List a location's media
+    question: Which photos and media are currently attached to my location?
+  - id: update-media
+    intent: Change a media item's category
+    question: Can I recategorize a media item already uploaded to a location?
+  - id: delete-media
+    intent: Delete media from a location
+    question: Can I delete media from a location's profile?
+  phrasing_ops: 4
   slug: birdeye-business-media-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: Create a short link for review requests and set review sources in the template.
   name: Birdeye Campaign API
+  phrasing_intents:
+  - id: fetch-request-url
+    intent: Get a review request link for a customer
+    question: Can I generate a review request link for a specific customer?
+  - id: set-defaullt-review-sources
+    intent: Apply default review sources to a customer
+    question: Can I set the default review sources a customer is asked to review on?
+  phrasing_ops: 2
   slug: birdeye-campaign-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: Competitive intelligence, simplified by AI.
   name: Birdeye Competitor AI API
+  phrasing_intents:
+  - id: retrieve-competitor-reviews
+    intent: Retrieve competitors' reviews
+    question: Can I pull the actual reviews my competitors received over a date range?
+  - id: retrieve-competitor-review-metrics
+    intent: Get competitor review metrics
+    question: What are my competitors' review counts and average ratings?
+  phrasing_ops: 2
   slug: birdeye-competitor-ai-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: Make competitive insights your unfair advantage.
   name: Birdeye Competitor API
+  phrasing_intents:
+  - id: get-competitor-business
+    intent: List an enterprise's competitor businesses
+    question: Which competitor businesses are tracked for my enterprise?
+  - id: get-competitor-child-business
+    intent: List a competitor enterprise's locations
+    question: Can I list the child locations under a competitor enterprise?
+  - id: get-business-competitors
+    intent: List competitors for one location
+    question: Who are the competitors configured for a single location?
+  - id: create-new-competitor-enterprise
+    intent: Add a competitor to track
+    question: Can I add a new competitor to track for my account?
+  - id: create-new-child-business-in-competitor-enterprise
+    intent: Add a location to a competitor enterprise
+    question: Can I add another location to a competitor I already track?
+  - id: add-new-competitor-aggregation-url
+    intent: Add a review source URL for a competitor
+    question: Can I point Birdeye at a competitor's review site page to collect their reviews?
+  - id: get-competitor-reviews
+    intent: Get a competitor enterprise's reviews
+    question: Can I read a competitor enterprise's reviews filtered by rating and source?
+  - id: get-score
+    intent: Get competitive category scores
+    question: What is my competitive insight score by category compared with competitors?
+  phrasing_ops: 10
   slug: birdeye-competitor-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: Manage contacts across locations effortlessly with a robust Contact Management System.
   name: Birdeye Contact API
+  phrasing_intents:
+  - id: create-or-update-contact
+    intent: Create or update a contact
+    question: Can I add a new contact or update an existing one in a single call?
+  - id: get-contact
+    intent: Look up a contact
+    question: Can I look up a contact by email or phone number?
+  - id: delete-contact
+    intent: Delete a contact from locations
+    question: Can I delete a contact from one or more locations?
+  - id: customer-checkin
+    intent: Record a customer check-in
+    question: Can I record a customer check-in at a location with their name and phone?
+  - id: customer-activity-log
+    intent: Get a customer's activity history
+    question: Can I see a customer's activity history for a date range?
+  - id: customer-delete
+    intent: Delete an enterprise customer by ID
+    question: Can I delete an enterprise customer record by its customer ID?
+  - id: subscribe-unsubscribe-customer
+    intent: Subscribe or unsubscribe a customer
+    question: Can I unsubscribe a customer from messages by email or phone?
+  - id: contact
+    intent: List a business's contacts
+    question: Can I page through all contacts of a business sorted my way?
+  phrasing_ops: 11
   slug: birdeye-contact-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: Easily manage contacts across multiple locations using enhanced Contact APIs, featuring built-in support for communication preference flags.
   name: Birdeye Contact V2 API
+  phrasing_intents:
+  - id: upsert-contact
+    intent: Upsert a contact with preferences
+    question: Can I save a contact along with their per-channel email and SMS preferences?
+  - id: retrieve-contact
+    intent: Retrieve a contact with preferences
+    question: Can I fetch a contact and their communication preferences by phone?
+  - id: customer-checkin
+    intent: Check in a customer with preferences
+    question: Can I check in a visitor and set their email and SMS preferences at the same time?
+  - id: update-communication-preferences
+    intent: Update a contact's messaging preferences
+    question: Can I change which email and SMS messages a contact receives?
+  - id: retrieve-opted-out-contacts
+    intent: List contacts who opted out
+    question: Which contacts opted out of messages between two dates?
+  phrasing_ops: 5
   slug: birdeye-contact-v2-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: Connect with customers across a range of digital channels from one unified inbox.
   name: Birdeye Conversation API
+  phrasing_intents:
+  - id: list-conversations
+    intent: Export messenger conversations
+    question: Can I export messenger conversations for a location over a date range?
+  phrasing_ops: 1
   slug: birdeye-conversation-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: Create, delete , update , associate and get custom fields easily.
   name: Birdeye Custom Fields API
+  phrasing_intents:
+  - id: create
+    intent: Create a custom field
+    question: Can I define a new custom field such as a dropdown for my locations?
+  - id: update
+    intent: Update a custom field definition
+    question: Can I change the dropdown options or default value of an existing custom field?
+  - id: get
+    intent: Get one custom field for a location
+    question: What's the definition and value of one custom field for a location?
+  - id: post
+    intent: List custom fields for a location
+    question: Which custom fields exist for a location?
+  - id: delete
+    intent: Delete a custom field
+    question: Can I delete a custom field I no longer use?
+  - id: associate
+    intent: Set a custom field value on a location
+    question: Can I set a custom field's value on a specific location?
+  - id: create-custom-card
+    intent: Create a profile custom card
+    question: Can I add a new custom card with an image and link to a business profile?
+  phrasing_ops: 7
   slug: birdeye-custom-fields-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: The Employee API from Birdeye — 1 operation(s) for employee.
   name: Birdeye Employee API
+  phrasing_intents:
+  - id: get-details-of-employees
+    intent: List a business's employees
+    question: Which employees are set up for a business?
+  phrasing_ops: 1
   slug: birdeye-employee-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: To retrieve all Question and Answer (QnA) entries across locations using FAQ APIs, enabling smart support and knowledge features for businesses.
   name: Birdeye FAQ API
+  phrasing_intents:
+  - id: get-all-qna
+    intent: List FAQ questions and answers
+    question: Can I pull all FAQ questions and answers across my locations?
+  phrasing_ops: 1
   slug: birdeye-faq-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: To manage products, locations, and business details through Listing GMB platform
   name: Birdeye GMB Products API
+  phrasing_intents:
+  - id: onboard-google-merchant-account
+    intent: Connect a Google Merchant Center account
+    question: Can I connect my Google Merchant Center account to manage product listings?
+  - id: create-product-listing
+    intent: Create a product listing
+    question: Can I create a product listing with a price and image for my Google profile?
+  - id: update-product-listing
+    intent: Update a product listing
+    question: Can I change the price or sale price of an existing product listing?
+  - id: get-product-listing
+    intent: Get one product listing
+    question: Can I fetch one product listing by its identifier?
+  - id: delete-product-listings
+    intent: Delete product listings
+    question: Can I delete several product listings at once?
+  - id: get-list-product-listing
+    intent: List product listings
+    question: Which products are listed for my locations?
+  - id: add-products-on-a-location
+    intent: Add existing products to a location
+    question: Can I publish existing products to a location?
+  - id: remove-products-on-a-location
+    intent: Remove products from a location
+    question: Can I take products off a location without deleting them from the catalog?
+  phrasing_ops: 8
   slug: birdeye-gmb-products-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: Note Applicable to be used only by paid listings clients, for their active locations, for the Google Q&A section, in the Google listing
   name: Birdeye Google Q&A API
+  phrasing_intents:
+  - id: create-question
+    intent: Post a question and answer
+    question: Can I post a question and its answer to my Google profile Q&A?
+  - id: create-answer
+    intent: Answer an existing question
+    question: Can I answer a question someone already asked on my Google profile?
+  - id: update-question
+    intent: Edit a posted question
+    question: Can I edit the wording of a question I posted?
+  - id: update-answer
+    intent: Edit a posted answer
+    question: Can I edit an answer already posted to a question?
+  - id: delete-question
+    intent: Delete a question
+    question: Can I delete a single question from my Google Q&A?
+  - id: delete-answer
+    intent: Delete an answer
+    question: Can I delete one answer but keep the question?
+  - id: delete-all-questions-and-answers
+    intent: Delete all Q&A for a business
+    question: Can I wipe every question and answer from a location at once?
+  - id: get-all-questions-and-answers
+    intent: List all questions and answers
+    question: Can I list all Q&A on my Google profile?
+  phrasing_ops: 9
   slug: birdeye-google-q-a-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: Note Applicable to be used only by paid listings clients, for their active locations, for the Google Services section, in the Google listing. No two services should have the same service name. It is r
   name: Birdeye Google Services API
+  phrasing_intents:
+  - id: create-service
+    intent: Create a service offering
+    question: Can I add a service with a price and duration to my Google profile?
+  - id: get-all-services
+    intent: List service offerings
+    question: Which services are listed on my Google profile?
+  - id: update-service
+    intent: Update a service offering
+    question: Can I change the price or description of an existing service?
+  - id: delete-services
+    intent: Delete service offerings
+    question: Can I delete several services at once?
+  - id: get-location-mapping
+    intent: Get service-to-category location mapping
+    question: Which services are mapped to which categories across my locations?
+  - id: update-location-mapping
+    intent: Map a service to a category
+    question: Can I map a service to a category across all locations?
+  phrasing_ops: 6
   slug: birdeye-google-services-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: Insight intelligence, simplified by AI.
   name: Birdeye Insight AI API
+  phrasing_intents:
+  - id: get-insight-experience-score-benchmark
+    intent: Benchmark experience scores
+    question: What is my experience score benchmark for a set of locations?
+  - id: get-insight-experience-location-info
+    intent: Get experience insights per location
+    question: Can I see experience insights broken down per location?
+  - id: getInsightExperienceOverTime
+    intent: Trend experience scores over time
+    question: How has my experience score trended week over week?
+  phrasing_ops: 3
   slug: birdeye-insight-ai-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: Birdeye integrates with various software or tools you use.
   name: Birdeye Integration API
+  phrasing_intents:
+  - id: add-locations
+    intent: Map locations to an integration
+    question: Can I map locations to an integration group?
+  phrasing_ops: 1
   slug: birdeye-integration-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: Keep your business information accurate and consistent across 50+ websites.
   name: Birdeye Listing API
+  phrasing_intents:
+  - id: fix-listing
+    intent: Trigger a listing fix for a business
+    question: Can I trigger a fix for a location's inaccurate listings?
+  - id: get-location-status-report
+    intent: Get a location's listing status report
+    question: What is the listing status on each site for my location?
+  - id: listings-insights
+    intent: Get listing insights
+    question: Can I get listing insights for my locations over a date range?
+  - id: listings-insights-datapoints
+    intent: Get datapoints for a listing report type
+    question: Can I get datapoints for one listing report type, like search views or customer actions?
+  - id: get-gmb-attributes
+    intent: List Google Business Profile attributes
+    question: Which Google Business Profile attributes apply to my category?
+  - id: get-apple-attributes
+    intent: List Apple location attributes
+    question: Which Apple location attributes can I set on my listing?
+  - id: get-apple-action-links
+    intent: List Apple action links
+    question: What Apple action links can be added to my location?
+  - id: get-category-list
+    intent: List business categories for a listing source
+    question: Which business categories can I choose on a given listing site?
+  phrasing_ops: 16
   slug: birdeye-listing-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: Various reporting data points across Birdeye modules like reviews, insights and competitors etc for all your data visualisation
   name: Birdeye Report API
+  phrasing_intents:
+  - id: get-dashboard-data
+    intent: Get small-business dashboard data
+    question: Can I get the summary dashboard numbers for a small business?
+  - id: get-review-conversion-report
+    intent: Get the review request conversion report
+    question: What is my review request conversion rate for recent days or months?
+  - id: review-and-rating-over-time-report
+    intent: Trend review count and rating over time
+    question: How have my review count and average rating changed over time?
+  - id: reviews-rating-by-location-report
+    intent: Compare reviews and rating by location
+    question: Which locations have the most reviews and highest ratings?
+  - id: review-count-rating
+    intent: Count reviews by star rating
+    question: How many reviews did I get at each star rating?
+  - id: review-count-rating-by-employee
+    intent: Count reviews and ratings by employee
+    question: How many reviews and what ratings does each employee have?
+  - id: insights-category-report-by-location-report
+    intent: Get review insight categories by location
+    question: How do my locations compare on insight categories from review content?
+  - id: competitive-ranking-report
+    intent: Get the competitive ranking report
+    question: Where do I rank against competitors on reviews?
+  phrasing_ops: 17
   slug: birdeye-report-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: Consistently generate more reviews and higher ratings.
   name: Birdeye Reviews API
+  phrasing_intents:
+  - id: get-reviews
+    intent: Get reviews for a business
+    question: Can I pull reviews for a business filtered by date, rating and source?
+  - id: archived-get-reviews
+    intent: Get archived reviews
+    question: Can I retrieve reviews that were archived or deleted?
+  - id: get-reviews-summary
+    intent: Get a business's review summary
+    question: What does my overall review summary look like for a business?
+  - id: post-review-reply
+    intent: Reply to a review
+    question: Can I reply to a customer review through the API?
+  - id: create-tags
+    intent: Create review tags
+    question: Can I create review tags for a business?
+  - id: delete-a-tag
+    intent: Delete a review tag
+    question: Can I delete a review tag I no longer need?
+  - id: get-all-tags
+    intent: List review tags
+    question: Which review tags exist for my business?
+  - id: assign-tags-to-filtered-reviews
+    intent: Tag a filtered set of reviews
+    question: Can I tag a filtered set of reviews in bulk?
+  phrasing_ops: 10
   slug: birdeye-reviews-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: Search AI provides a comprehensive view of your business performance across AI-powered search platforms, including data accuracy, sentiment analysis, citations, brand ranking, and overall visibility.
   name: Birdeye Search AI API
+  phrasing_intents:
+  - id: get-search-ai-configuration
+    intent: Get my account's Search AI setup
+    question: What is the Search AI setup on the account I'm signed into?
+  - id: get-search-ai-available-runs
+    intent: Get my account's remaining Search AI runs
+    question: How many Search AI runs do I have left on my account?
+  - id: get-search-ai-citations
+    intent: Get sources AI models cite for my business
+    question: Which sources do AI models cite when answering about my business?
+  - id: get-search-ai-businesses
+    intent: Get businesses surfaced in AI search
+    question: Which businesses appear in AI search answers for my themes?
+  - id: get-accuracy-report
+    intent: Get the AI answer accuracy report
+    question: How accurate is the information AI models give about my locations?
+  - id: get-sentiment-report
+    intent: Get the AI search sentiment report
+    question: What sentiment do AI models express about my business?
+  - id: getSearchAiConfiguration
+    intent: Get a business's Search AI setup as a partner
+    question: Can a partner fetch the Search AI configuration for a specific business number?
+  - id: getSearchAiAvailableRuns
+    intent: Get a business's Search AI runs as a partner
+    question: Can a partner check available Search AI runs for a given business number?
+  phrasing_ops: 8
   slug: birdeye-search-ai-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: Create and track Social posting for all channels.
   name: Birdeye Social API
+  phrasing_intents:
+  - id: schedule-social-post
+    intent: Schedule a social media post
+    question: Can I schedule a social media post for a future time?
+  - id: edit-scheduled-social-post
+    intent: Edit a scheduled social post
+    question: Can I change a post that's scheduled but not yet published?
+  - id: edit-published-social-post
+    intent: Edit a published social post
+    question: Can I edit a social post after it has already been published?
+  - id: delete-public-social-post
+    intent: Delete a social post
+    question: Can I delete a social post from specific locations?
+  - id: track-social-post
+    intent: Track a social post's status
+    question: Did my social post publish successfully?
+  - id: social-open-url-performance-report
+    intent: Get the social open URL performance report
+    question: Can I get the social open URL performance report for a date range?
+  - id: uploadSocialMedia
+    intent: Upload images or videos to the media library
+    question: Can I upload images or videos from URLs into the social media library?
+  - id: trackSocialMediaUpload
+    intent: Check a media upload batch's status
+    question: Has my media upload batch finished processing?
+  phrasing_ops: 8
   slug: birdeye-social-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: Subscribe or Unsubscribe multiple webhooks with different URLs or Events for a subscription and deliver real-time notifications.
   name: Birdeye Subscription API
+  phrasing_intents:
+  - id: create-subscription
+    intent: Subscribe to account events
+    question: Can I subscribe a webhook URL to Birdeye events for my account?
+  - id: unsubscribe-subscription
+    intent: Cancel an event subscription
+    question: Can I cancel an event subscription I created?
+  phrasing_ops: 2
   slug: birdeye-subscription-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: Engage each customer at the right time with NPS or CSAT surveys to improve your service.
   name: Birdeye Survey API
+  phrasing_intents:
+  - id: get-survey
+    intent: Get a survey
+    question: Can I fetch a survey's content in a particular language?
+  - id: post-a-survey-response
+    intent: Submit a survey response
+    question: Can I submit a survey response through the API?
+  - id: list-responses-for-a-survey
+    intent: List responses to a survey
+    question: Can I list all responses to a survey for a date range?
+  - id: get-all-surveys
+    intent: List a business's surveys
+    question: Which surveys does my business have?
+  - id: create-survey
+    intent: Create a survey
+    question: Can I create a new survey for a business?
+  - id: update-survey-settings
+    intent: Update a survey's settings
+    question: Can I change a survey's settings or who can access it?
+  phrasing_ops: 6
   slug: birdeye-survey-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: Create standout customer support with ticketing across reviews, untagged, and survey responses.
   name: Birdeye Ticketing API
+  phrasing_intents:
+  - id: create-ticket
+    intent: Create a ticket
+    question: Can I open a ticket for a customer issue and assign it to someone?
+  - id: add-ticket-comments
+    intent: Comment on a ticket
+    question: Can I add a comment to an existing ticket?
+  - id: update-ticket
+    intent: Update tickets at a location
+    question: Can I update existing tickets at a location?
+  - id: get-all-ticket-data
+    intent: List tickets or ticket counts
+    question: Can I list tickets filtered by status, type, or assignee?
+  phrasing_ops: 4
   slug: birdeye-ticketing-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: Delete and manage user profiles and permissions easily.
   name: Birdeye User API
+  phrasing_intents:
+  - id: create-user
+    intent: Create a user
+    question: Can I add a new user with a role and send them an invite?
+  - id: update-user
+    intent: Update a user's role and access
+    question: Can I change a user's role or which locations they can access?
+  - id: delete-a-user
+    intent: Revoke a user's access to a business
+    question: Can I revoke a user's access to a business?
+  - id: forgot-password
+    intent: Start a password reset
+    question: Can I trigger a password reset for a user?
+  - id: get-details-of-a-user
+    intent: Get a user's details
+    question: What role and access does a given user have?
+  phrasing_ops: 5
   slug: birdeye-user-api
 - baseURL: https://api.birdeye.com
   baseurl_source: declared
   description: Configure multiple webhooks with different URLs for a subscription and deliver real-time notifications.
   name: Birdeye Webhook API
+  phrasing_intents:
+  - id: get-events
+    intent: List messenger webhook events
+    question: Which messenger webhook events can I subscribe to?
+  - id: create-webhook-subscription
+    intent: Subscribe an endpoint to messenger events
+    question: Can I send messenger events to my own endpoint?
+  phrasing_ops: 2
   slug: birdeye-webhook-api
 artifact_total: 244
 asyncapis:
@@ -1057,7 +1519,7 @@ score:
     catalog_gap: 36.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.3
+  delta: 0.0
   facets:
     access_clarity: 93.4
     contract_governance: 41.7
@@ -1065,7 +1527,7 @@ score:
     developer_ergonomics: 64.3
     discoverability: 75.0
     operational_transparency: 73.7
-  previous_composite: 75.0
+  previous_composite: 77.3
   provenance:
     agentic_access: derived
     conformance: first-party
