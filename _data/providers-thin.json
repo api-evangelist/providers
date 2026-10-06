@@ -1,12 +1,12 @@
 {
- "total": 4491,
+ "total": 4490,
  "bands": [
   {
    "band": "thin",
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 4491,
+   "count": 4490,
    "providers": [
     {
      "name": "11x",
@@ -228085,57 +228085,6 @@
       "agentic_commerce": false
      },
      "rank": 4349
-    },
-    {
-     "name": "Engagemii Citation Watch",
-     "slug": "engagemii",
-     "url": "https://providers.apis.io/providers/engagemii/",
-     "type": "API Provider",
-     "description": "Engagemii Citation Watch provides a free AI visibility scoring platform that tracks and analyzes how businesses appear in AI answer engines. It offers real‑time AEO scores, detailed fix kits, bot monitoring, and a public dataset of AI‑visibility metrics. The service includes a searchable index, research reports, and tools for improving AI‑driven discoverability across the web.",
-     "score": 26.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 76.7,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 21.4,
-      "access_clarity": 65.8
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 12.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 3.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 4350
     },
     {
      "name": "Global Payments",
