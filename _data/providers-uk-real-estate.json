@@ -1,6 +1,6 @@
 {
- "total": 23,
- "shown": 23,
+ "total": 22,
+ "shown": 22,
  "limit": 1000,
  "bands": [
   {
@@ -924,57 +924,6 @@
    "count": 5,
    "shown": 5,
    "providers": [
-    {
-     "name": "Knight Frank",
-     "slug": "knight-frank",
-     "description": "Knight Frank LLP is a London-headquartered global real estate consultancy founded in 1896, structured as a partnership rather than a listed company, operating through a network of over 700 offices in more than 50 territories and best known for prime and super-prime residential agency, commercial agency and occupier services, valuation and advisory, capital markets, rural and agricultural consultancy, and the Knight Frank Research programme that publishes The Wealth Report and the Prime International Residential Index. It sits on the advisory and agency side of the property value chain rather than the data-platform side. Its home market is the United Kingdom, where there is no MLS and no cooperative listing standard — residential stock reaches consumers through the Rightmove and Zoopla duopoly by way of agency CRM software (Reapit, Alto, Street, Apex27) rather than a shared cooperative pool, so Knight Frank is a supplier into that pipe and not an operator of it. Its API posture is honest but unflattering: Knight Frank publishes no developer portal, no API programme, no developer terms, no SDK and no Postman collection, and every conventional developer entry point fails — developer., developers., docs. and apis.knightfrank.com do not resolve in DNS, and /developers, /api, /docs, /openapi.json, /swagger.json and /api-docs all return 404 on knightfrank.com and knightfrank.co.uk. On the UK site /developers is a homonym trap: it redirects to a commercial services page for property developers and housebuilders, not software developers. What does exist, entirely unadvertised, is a real machine-readable contract. The corporate search service at api-v3.web.prd-knightfrank.com serves a live Swagger UI and an OpenAPI 3.0.1 document (11 GET/POST operations across CMSPage, IntelligenceLab, Office, Person, Search, ServiceLine and Telemetry) to anonymous clients, and those endpoints answer with real office and people-directory data without any credential. The property search and saved-property service at api-v2.web.prd-knightfrank.com is the opposite: it returns 401 and is protected by Azure AD B2C (tenant KnightFrankB2Cprod, custom policy B2C_1A_MYKFSIGNIN, scope MyKf.ReadWrite) through a first-party MSAL client for the consumer My Knight Frank account, which is an end-user login and not a developer credential. There is no RESO Web API or Data Dictionary certification, no OData $metadata document and no Universal Property Identifier anywhere in the Knight Frank estate — RESO is a North American NAR/MLS construct and the United Kingdom has no MLS to certify against. Knight Frank publishes no open data either; its research ships as PDF and web narrative, and the genuinely open UK property layer belongs to the public sector — HM Land Registry Price Paid Data and Ordnance Survey open products — not to the brokerage.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/screenshots/knight-frank-2026-08-07T171255.png",
-     "score": 26.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 32.4,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 28.0,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 32.4,
-      "matched_via": "weak_tags"
-     },
-     "agent_score": 22.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "derived",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Brokerages & Agencies",
-     "rank": 18
-    },
     {
      "name": "Connells Group",
      "slug": "connells",
