@@ -127344,14 +127344,6 @@
    "url": "https://providers.apis.io/providers/mai/"
   },
   {
-   "description": "MAIA Analytics is an AI-powered geospatial analysis platform that lets anyone turn complex location data into actionable insights through natural-language queries, with no GIS degree required. It unifies open and proprietary data to reveal the built environment and supports use cases such as solar-site prospecting, building and parcel analysis, redevelopment and risk screening (flood zones, aging infrastructure), and location intelligence. Every answer is source-linked and verifiable. Founded in 2023 and backed by Homebrew. This profile was enriched from MAIA's public site and its publicly-served backend OpenAPI (the application's own FastAPI backend; MAIA does not publish an external developer program).",
-   "name": "Maia-analytics",
-   "screenshot": "https://raw.githubusercontent.com/api-evangelist/maia-analytics/refs/heads/main/screenshots/maia-analytics-2026-07-25T225910.png",
-   "slug": "maia-analytics",
-   "type": "API Provider",
-   "url": "https://providers.apis.io/providers/maia-analytics/"
-  },
-  {
    "description": "MaiCall is an AI-powered debt collection platform for non-bank lenders, microfinance companies, and collection agencies. Its self-learning voice agents place outbound collection calls, negotiate payment plans, and follow up across WhatsApp, SMS, and email in 30+ languages and native accents, capturing promises to pay and tracking recovery, contact, and cost metrics in real time. The company was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. MaiCall advertises custom API integrations to loan-management systems, CRMs, SIP trunks, and payment gateways on request, but publishes no self-serve public API, developer portal, or OpenAPI definition at this time.",
    "name": "MaiCall",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/maicall/refs/heads/main/screenshots/maicall-2026-07-25T225907.png",

@@ -1,6 +1,6 @@
 {
- "total": 2493,
- "shown": 1000,
+ "total": 2492,
+ "shown": 999,
  "limit": 1000,
  "bands": [
   {
@@ -18851,7 +18851,7 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 525,
+   "count": 524,
    "shown": 525,
    "providers": [
     {
@@ -44302,56 +44302,6 @@
       "agentic_commerce": false
      },
      "rank": 857
-    },
-    {
-     "name": "Maia-analytics",
-     "slug": "maia-analytics",
-     "description": "MAIA Analytics is an AI-powered geospatial analysis platform that lets anyone turn complex location data into actionable insights through natural-language queries, with no GIS degree required. It unifies open and proprietary data to reveal the built environment and supports use cases such as solar-site prospecting, building and parcel analysis, redevelopment and risk screening (flood zones, aging infrastructure), and location intelligence. Every answer is source-linked and verifiable. Founded in 2023 and backed by Homebrew. This profile was enriched from MAIA's public site and its publicly-served backend OpenAPI (the application's own FastAPI backend; MAIA does not publish an external developer program).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/maia-analytics/refs/heads/main/screenshots/maia-analytics-2026-07-25T225910.png",
-     "score": 40.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 45.8,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 69.7
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 22.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 32.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "verified",
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 858
     },
     {
      "name": "Milvus",
