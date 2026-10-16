@@ -1,12 +1,12 @@
 {
- "total": 6631,
+ "total": 6630,
  "bands": [
   {
    "band": "emerging",
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 6632,
+   "count": 6631,
    "providers": [
     {
      "name": "ABN AMRO",
@@ -189494,58 +189494,6 @@
       "agentic_commerce": false
      },
      "rank": 3602
-    },
-    {
-     "name": "TravelJoy",
-     "slug": "traveljoy",
-     "url": "https://providers.apis.io/providers/traveljoy/",
-     "type": "API Provider",
-     "description": "TravelJoy is software for travel advisors and agencies — a client CRM, itinerary and proposal builder, secure payment collection, forms and questionnaires, and automated client communication combined in one platform. Travel professionals use it to manage trips, capture and nurture leads, send branded proposals, gather traveler details, and collect payments. Surfaced as a portfolio company of GV (Google Ventures) and added to the API Evangelist network. As of this enrichment pass TravelJoy publishes no public API, developer portal, or SDK program; this profile tracks its identity and public web properties for discovery.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/traveljoy/refs/heads/main/screenshots/traveljoy-2026-09-02T164148.png",
-     "score": 15.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 51.7,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 12.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 8.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 3603
     },
     {
      "name": "Universe",

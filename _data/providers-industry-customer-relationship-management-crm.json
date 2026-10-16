@@ -1,6 +1,6 @@
 {
- "total": 373,
- "shown": 373,
+ "total": 371,
+ "shown": 371,
  "limit": 1000,
  "bands": [
   {
@@ -8519,7 +8519,7 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 72,
+   "count": 71,
    "shown": 72,
    "providers": [
     {
@@ -10673,56 +10673,6 @@
      "rank": 206
     },
     {
-     "name": "PushPress",
-     "slug": "pushpress",
-     "description": "PushPress is a gym and fitness business management platform covering membership management, billing and payments, class and appointment scheduling, check-ins, CRM, and a member app. The PushPress Platform API is a REST API (base https://api.pushpress.com/v3) that lets developers read and manage customers (members), check-ins, appointments, classes, events, plan enrollments, membership plans, invitations, and transactional messaging, and subscribe to platform webhooks for real-time events. Requests are authenticated with an API key in the API-KEY header and scoped to a single gym location with a company-id header.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/screenshots/pushpress-2026-09-02T152346.png",
-     "score": 31.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 51.5,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.6,
-      "developer_ergonomics": 14.3,
-      "access_clarity": 36.3
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 11.8,
-      "matched_via": "fallback"
-     },
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 207
-    },
-    {
      "name": "Workiz",
      "slug": "workiz",
      "description": "Workiz is field service management (FSM) software for home-service businesses - HVAC, plumbing, electrical, appliance repair, garage doors, locksmiths, carpet cleaning, and similar trades. It combines scheduling and dispatch, a CRM, jobs and leads, estimates and invoicing, payments, and communications (calls, SMS, email) in one platform. Workiz exposes a documented REST API (the Developer API add-on) for reading and writing jobs, leads, team members, time off, and payments, plus outbound webhooks for new-job and new-lead events. All calls are made to https://api.workiz.com/api/v1/ with the account API token embedded in the request path.",
@@ -12192,7 +12142,7 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 80,
+   "count": 79,
    "shown": 80,
    "providers": [
     {
@@ -14592,56 +14542,6 @@
       "agentic_commerce": false
      },
      "rank": 283
-    },
-    {
-     "name": "TravelJoy",
-     "slug": "traveljoy",
-     "description": "TravelJoy is software for travel advisors and agencies — a client CRM, itinerary and proposal builder, secure payment collection, forms and questionnaires, and automated client communication combined in one platform. Travel professionals use it to manage trips, capture and nurture leads, send branded proposals, gather traveler details, and collect payments. Surfaced as a portfolio company of GV (Google Ventures) and added to the API Evangelist network. As of this enrichment pass TravelJoy publishes no public API, developer portal, or SDK program; this profile tracks its identity and public web properties for discovery.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/traveljoy/refs/heads/main/screenshots/traveljoy-2026-09-02T164148.png",
-     "score": 15.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 51.7,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 12.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 8.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 284
     },
     {
      "name": "Indigov",

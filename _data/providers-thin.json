@@ -1,12 +1,12 @@
 {
- "total": 4490,
+ "total": 4489,
  "bands": [
   {
    "band": "thin",
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 4490,
+   "count": 4489,
    "providers": [
     {
      "name": "11x",
@@ -155106,58 +155106,6 @@
       "agentic_commerce": false
      },
      "rank": 2957
-    },
-    {
-     "name": "PushPress",
-     "slug": "pushpress",
-     "url": "https://providers.apis.io/providers/pushpress/",
-     "type": "API Provider",
-     "description": "PushPress is a gym and fitness business management platform covering membership management, billing and payments, class and appointment scheduling, check-ins, CRM, and a member app. The PushPress Platform API is a REST API (base https://api.pushpress.com/v3) that lets developers read and manage customers (members), check-ins, appointments, classes, events, plan enrollments, membership plans, invitations, and transactional messaging, and subscribe to platform webhooks for real-time events. Requests are authenticated with an API key in the API-KEY header and scoped to a single gym location with a company-id header.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/screenshots/pushpress-2026-09-02T152346.png",
-     "score": 31.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 51.5,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.6,
-      "developer_ergonomics": 14.3,
-      "access_clarity": 36.3
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 11.8,
-      "matched_via": "fallback"
-     },
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 2958
     },
     {
      "name": "Sendible",

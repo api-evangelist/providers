@@ -166949,14 +166949,6 @@
    "url": "https://providers.apis.io/providers/pushpins/"
   },
   {
-   "description": "PushPress is a gym and fitness business management platform covering membership management, billing and payments, class and appointment scheduling, check-ins, CRM, and a member app. The PushPress Platform API is a REST API (base https://api.pushpress.com/v3) that lets developers read and manage customers (members), check-ins, appointments, classes, events, plan enrollments, membership plans, invitations, and transactional messaging, and subscribe to platform webhooks for real-time events. Requests are authenticated with an API key in the API-KEY header and scoped to a single gym location with a company-id header.",
-   "name": "PushPress",
-   "screenshot": "https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/screenshots/pushpress-2026-09-02T152346.png",
-   "slug": "pushpress",
-   "type": "API Provider",
-   "url": "https://providers.apis.io/providers/pushpress/"
-  },
-  {
    "description": "Pushwoosh is a customer engagement platform offering push notifications, in-app messaging, email, SMS, and Live Activities for mobile and web. Strong segmentation and journey-builder.",
    "name": "Pushwoosh",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/pushwoosh/refs/heads/main/screenshots/pushwoosh-2026-06-20T192320.png",
@@ -208304,14 +208296,6 @@
    "slug": "travelio",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/travelio/"
-  },
-  {
-   "description": "TravelJoy is software for travel advisors and agencies — a client CRM, itinerary and proposal builder, secure payment collection, forms and questionnaires, and automated client communication combined in one platform. Travel professionals use it to manage trips, capture and nurture leads, send branded proposals, gather traveler details, and collect payments. Surfaced as a portfolio company of GV (Google Ventures) and added to the API Evangelist network. As of this enrichment pass TravelJoy publishes no public API, developer portal, or SDK program; this profile tracks its identity and public web properties for discovery.",
-   "name": "TravelJoy",
-   "screenshot": "https://raw.githubusercontent.com/api-evangelist/traveljoy/refs/heads/main/screenshots/traveljoy-2026-09-02T164148.png",
-   "slug": "traveljoy",
-   "type": "API Provider",
-   "url": "https://providers.apis.io/providers/traveljoy/"
   },
   {
    "description": "Traveloka (Traveloka Services Pte. Ltd.) is a Southeast Asian multi-product online travel agency operating across Indonesia, Thailand, Vietnam, Malaysia, Singapore, the Philippines, Australia, Japan and South Korea, selling flights, hotels and alternative stays, activities (Xperience), trains, cruises, buses, car rental and airport transfers. Its API surface is entirely partner-facing and runs in three distinct programs: the Traveloka Partners Network (LOKA) v2 REST API for distribution partners reselling Traveloka accommodation inventory; Traveloka Connect, an OpenTravel (OTA) 2017B XML connectivity API for channel managers and property-management systems pushing availability, rates and content; and Traveloka Atlas, a published JSON specification that accommodation suppliers implement on their own hosts so Traveloka can search and book against them. All three are approval-gated behind a partnership agreement and certification; none offer self-serve signup.",
